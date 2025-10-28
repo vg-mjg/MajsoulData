@@ -1,13 +1,13 @@
 [
     {
-        "activityId": 230101,
-        "mailId": 112,
-        "consumeItem": "309069-1",
-        "totalRewardId": 23010199,
         "rewardId": [
             23010101,
             23010102,
             23010103
-        ]
+        ],
+        "activityId": 230101,
+        "mailId": 112,
+        "consumeItem": "309069-1",
+        "totalRewardId": 23010199
     }
 ]

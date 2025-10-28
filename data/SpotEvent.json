@@ -1,5 +1,9 @@
 [
     {
+        "endingId": [
+            0,
+            0
+        ],
         "id": 118201,
         "activityId": 1182,
         "keyItemId": 309035,
@@ -23,13 +27,13 @@
         "contentJp": "勝ち負けこそ学園のすべて、たとえ楽しい修学旅行であっても。",
         "contentEn": "Victory and defeat are omnipresent, even in a relaxing field trip...",
         "contentKr": "",
+        "endingRes": ""
+    },
+    {
         "endingId": [
             0,
             0
         ],
-        "endingRes": ""
-    },
-    {
         "id": 118202,
         "activityId": 1182,
         "keyItemId": 309035,
@@ -53,13 +57,13 @@
         "contentJp": "夢の中なら、何があってもおかしくない…",
         "contentEn": "Since it is a dream, anything uncanny could happen...",
         "contentKr": "",
+        "endingRes": ""
+    },
+    {
         "endingId": [
             0,
             0
         ],
-        "endingRes": ""
-    },
-    {
         "id": 118203,
         "activityId": 1182,
         "keyItemId": 309035,
@@ -83,13 +87,13 @@
         "contentJp": "迷い込んだ先の神社に思わぬ出会い。一人ぽっちよりはマシ…？",
         "contentEn": "It is always a good thing to meet a friend in a foreign country...",
         "contentKr": "",
+        "endingRes": ""
+    },
+    {
         "endingId": [
             0,
             0
         ],
-        "endingRes": ""
-    },
-    {
         "id": 118204,
         "activityId": 1182,
         "keyItemId": 309035,
@@ -113,13 +117,13 @@
         "contentJp": "あー…まずい。この神社、思ったより広いかも。",
         "contentEn": "Ah... Good grief, this Shrine is bigger than expected...",
         "contentKr": "",
+        "endingRes": ""
+    },
+    {
         "endingId": [
             0,
             0
         ],
-        "endingRes": ""
-    },
-    {
         "id": 118205,
         "activityId": 1182,
         "keyItemId": 309035,
@@ -143,13 +147,13 @@
         "contentJp": "深夜こそギャンブルの時間、夜明けまではまだまだ長い。",
         "contentEn": "The best time for a fierce battle is always late at night, as time is not an issue...",
         "contentKr": "",
+        "endingRes": ""
+    },
+    {
         "endingId": [
             0,
             0
         ],
-        "endingRes": ""
-    },
-    {
         "id": 118206,
         "activityId": 1182,
         "keyItemId": 309035,
@@ -173,13 +177,13 @@
         "contentJp": "お帰りの際、お忘れ物のないようお気を付けください。",
         "contentEn": "Please do not forget your belongings while leaving...",
         "contentKr": "",
+        "endingRes": ""
+    },
+    {
         "endingId": [
             0,
             0
         ],
-        "endingRes": ""
-    },
-    {
         "id": 123401,
         "activityId": 1234,
         "keyItemId": 0,
@@ -203,13 +207,13 @@
         "contentJp": "とある雨の夜に、闇に降り立つ天才が生まれた。",
         "contentEn": "A genius was born from that same darkness after a rainy night...",
         "contentKr": "",
+        "endingRes": ""
+    },
+    {
         "endingId": [
             0,
             0
         ],
-        "endingRes": ""
-    },
-    {
         "id": 123402,
         "activityId": 1234,
         "keyItemId": 0,
@@ -233,13 +237,13 @@
         "contentJp": "「狂人」が目を覚ました。すべてを失うそのギリギリの境界線上から…",
         "contentEn": "The madman has awakened. Just as he's about to lose everything…",
         "contentKr": "",
+        "endingRes": ""
+    },
+    {
         "endingId": [
             0,
             0
         ],
-        "endingRes": ""
-    },
-    {
         "id": 22040701,
         "activityId": 220407,
         "keyItemId": 0,
@@ -263,13 +267,13 @@
         "contentJp": "即ち恋愛は戦！",
         "contentEn": "Love is, in fact, a war!",
         "contentKr": "",
+        "endingRes": ""
+    },
+    {
         "endingId": [
             0,
             0
         ],
-        "endingRes": ""
-    },
-    {
         "id": 22040702,
         "activityId": 220407,
         "keyItemId": 0,
@@ -293,13 +297,13 @@
         "contentJp": "恋愛頭脳戦とは全く関係のない麻雀対決、白熱！",
         "contentEn": "The battle of wits on love has now become a pure, heated battle of Mahjong, and the battle continues…",
         "contentKr": "",
+        "endingRes": ""
+    },
+    {
         "endingId": [
             0,
             0
         ],
-        "endingRes": ""
-    },
-    {
         "id": 22040703,
         "activityId": 220407,
         "keyItemId": 0,
@@ -323,13 +327,13 @@
         "contentJp": "本日の勝敗、引き分け。",
         "contentEn": "And everybody is a winner today.",
         "contentKr": "",
+        "endingRes": ""
+    },
+    {
         "endingId": [
             0,
             0
         ],
-        "endingRes": ""
-    },
-    {
         "id": 22110601,
         "activityId": 221106,
         "keyItemId": 0,
@@ -353,13 +357,13 @@
         "contentJp": "この組み合わせは新鮮……かも。",
         "contentEn": "Although it's strange, it's quite... unique...",
         "contentKr": "이 조합, 독특한데?",
+        "endingRes": ""
+    },
+    {
         "endingId": [
             0,
             0
         ],
-        "endingRes": ""
-    },
-    {
         "id": 22110602,
         "activityId": 221106,
         "keyItemId": 0,
@@ -383,13 +387,13 @@
         "contentJp": "目覚めた少女が目にしたもの、それはすなわち戦場。",
         "contentEn": "When the girl awakens, the battlefield is waiting for her.",
         "contentKr": "정신을 차리고 소녀가 본 것은 전쟁터였다.",
+        "endingRes": ""
+    },
+    {
         "endingId": [
             0,
             0
         ],
-        "endingRes": ""
-    },
-    {
         "id": 22110603,
         "activityId": 221106,
         "keyItemId": 0,
@@ -413,13 +417,13 @@
         "contentJp": "同じこと、考えちゃったね。",
         "contentEn": "We thought of the same thing~",
         "contentKr": "같은 생각했구나~",
+        "endingRes": ""
+    },
+    {
         "endingId": [
             0,
             0
         ],
-        "endingRes": ""
-    },
-    {
         "id": 23040701,
         "activityId": 230407,
         "keyItemId": 0,
@@ -443,13 +447,13 @@
         "contentJp": "",
         "contentEn": "",
         "contentKr": "",
+        "endingRes": ""
+    },
+    {
         "endingId": [
             0,
             0
         ],
-        "endingRes": ""
-    },
-    {
         "id": 23040702,
         "activityId": 230407,
         "keyItemId": 0,
@@ -473,13 +477,13 @@
         "contentJp": "",
         "contentEn": "",
         "contentKr": "",
+        "endingRes": ""
+    },
+    {
         "endingId": [
             0,
             0
         ],
-        "endingRes": ""
-    },
-    {
         "id": 23040703,
         "activityId": 230407,
         "keyItemId": 0,
@@ -503,13 +507,13 @@
         "contentJp": "",
         "contentEn": "",
         "contentKr": "",
+        "endingRes": ""
+    },
+    {
         "endingId": [
             0,
             0
         ],
-        "endingRes": ""
-    },
-    {
         "id": 23111601,
         "activityId": 231116,
         "keyItemId": 0,
@@ -533,13 +537,13 @@
         "contentJp": "",
         "contentEn": "",
         "contentKr": "",
+        "endingRes": ""
+    },
+    {
         "endingId": [
             0,
             0
         ],
-        "endingRes": ""
-    },
-    {
         "id": 23111602,
         "activityId": 231116,
         "keyItemId": 0,
@@ -563,13 +567,13 @@
         "contentJp": "",
         "contentEn": "",
         "contentKr": "",
+        "endingRes": ""
+    },
+    {
         "endingId": [
             0,
             0
         ],
-        "endingRes": ""
-    },
-    {
         "id": 23111603,
         "activityId": 231116,
         "keyItemId": 0,
@@ -593,13 +597,13 @@
         "contentJp": "",
         "contentEn": "",
         "contentKr": "",
+        "endingRes": ""
+    },
+    {
         "endingId": [
             0,
             0
         ],
-        "endingRes": ""
-    },
-    {
         "id": 23111604,
         "activityId": 231116,
         "keyItemId": 0,
@@ -623,13 +627,13 @@
         "contentJp": "",
         "contentEn": "",
         "contentKr": "",
+        "endingRes": ""
+    },
+    {
         "endingId": [
             0,
             0
         ],
-        "endingRes": ""
-    },
-    {
         "id": 24040101,
         "activityId": 240406,
         "keyItemId": 0,
@@ -653,13 +657,13 @@
         "contentJp": "",
         "contentEn": "",
         "contentKr": "",
+        "endingRes": ""
+    },
+    {
         "endingId": [
             0,
             0
         ],
-        "endingRes": ""
-    },
-    {
         "id": 24040102,
         "activityId": 240406,
         "keyItemId": 0,
@@ -683,13 +687,13 @@
         "contentJp": "",
         "contentEn": "",
         "contentKr": "",
+        "endingRes": ""
+    },
+    {
         "endingId": [
             0,
             0
         ],
-        "endingRes": ""
-    },
-    {
         "id": 24040103,
         "activityId": 240406,
         "keyItemId": 0,
@@ -713,13 +717,13 @@
         "contentJp": "",
         "contentEn": "",
         "contentKr": "",
+        "endingRes": ""
+    },
+    {
         "endingId": [
             0,
             0
         ],
-        "endingRes": ""
-    },
-    {
         "id": 24040104,
         "activityId": 240406,
         "keyItemId": 0,
@@ -743,13 +747,13 @@
         "contentJp": "",
         "contentEn": "",
         "contentKr": "",
+        "endingRes": ""
+    },
+    {
         "endingId": [
             0,
             0
         ],
-        "endingRes": ""
-    },
-    {
         "id": 24040105,
         "activityId": 240406,
         "keyItemId": 0,
@@ -773,10 +777,6 @@
         "contentJp": "",
         "contentEn": "",
         "contentKr": "",
-        "endingId": [
-            0,
-            0
-        ],
         "endingRes": ""
     }
 ]

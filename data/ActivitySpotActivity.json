@@ -1,5 +1,19 @@
 [
     {
+        "unlockEndingId": [
+            "",
+            ""
+        ],
+        "endingId": [
+            22080101,
+            22080102,
+            0
+        ],
+        "endingIdDep": [
+            0,
+            0,
+            0
+        ],
         "uniqueId": 22082101,
         "activityId": 220821,
         "dep": 0,
@@ -13,24 +27,24 @@
         "subtitleTitle": 0,
         "unlockItem": "309065-1",
         "unlockByEndingId": 0,
+        "endingRes": "",
+        "reward": "100002-8888"
+    },
+    {
         "unlockEndingId": [
             "",
             ""
         ],
         "endingId": [
-            22080101,
-            22080102,
+            22080201,
+            22080202,
             0
         ],
-        "endingRes": "",
         "endingIdDep": [
             0,
             0,
             0
         ],
-        "reward": "100002-8888"
-    },
-    {
         "uniqueId": 22082102,
         "activityId": 220821,
         "dep": 22082101,
@@ -44,24 +58,24 @@
         "subtitleTitle": 0,
         "unlockItem": "309065-1",
         "unlockByEndingId": 0,
+        "endingRes": "",
+        "reward": "100002-12888"
+    },
+    {
         "unlockEndingId": [
             "",
             ""
         ],
         "endingId": [
+            22080301,
+            22080302,
+            0
+        ],
+        "endingIdDep": [
             22080201,
             22080202,
             0
         ],
-        "endingRes": "",
-        "endingIdDep": [
-            0,
-            0,
-            0
-        ],
-        "reward": "100002-12888"
-    },
-    {
         "uniqueId": 22082103,
         "activityId": 220821,
         "dep": 22082102,
@@ -75,24 +89,24 @@
         "subtitleTitle": 0,
         "unlockItem": "309065-1",
         "unlockByEndingId": 0,
+        "endingRes": "",
+        "reward": "100002-16888"
+    },
+    {
         "unlockEndingId": [
             "",
             ""
         ],
         "endingId": [
+            22080401,
+            22080402,
+            0
+        ],
+        "endingIdDep": [
             22080301,
             22080302,
             0
         ],
-        "endingRes": "",
-        "endingIdDep": [
-            22080201,
-            22080202,
-            0
-        ],
-        "reward": "100002-16888"
-    },
-    {
         "uniqueId": 22082104,
         "activityId": 220821,
         "dep": 22082103,
@@ -106,24 +120,24 @@
         "subtitleTitle": 0,
         "unlockItem": "309065-1",
         "unlockByEndingId": 0,
+        "endingRes": "",
+        "reward": "304005-1"
+    },
+    {
         "unlockEndingId": [
             "",
             ""
         ],
         "endingId": [
+            22080501,
+            22080502,
+            0
+        ],
+        "endingIdDep": [
             22080401,
             22080402,
             0
         ],
-        "endingRes": "",
-        "endingIdDep": [
-            22080301,
-            22080302,
-            0
-        ],
-        "reward": "304005-1"
-    },
-    {
         "uniqueId": 22082105,
         "activityId": 220821,
         "dep": 22082104,
@@ -137,24 +151,24 @@
         "subtitleTitle": 0,
         "unlockItem": "309065-1",
         "unlockByEndingId": 0,
-        "unlockEndingId": [
-            "",
-            ""
-        ],
-        "endingId": [
-            22080501,
-            22080502,
-            0
-        ],
         "endingRes": "",
-        "endingIdDep": [
-            22080401,
-            22080402,
-            0
-        ],
         "reward": "304006-1"
     },
     {
+        "unlockEndingId": [
+            "23091002,23091004,23091006,23091008",
+            "23091003,23091005,23091007,23091009"
+        ],
+        "endingId": [
+            230914011,
+            230914012,
+            0
+        ],
+        "endingIdDep": [
+            0,
+            0,
+            0
+        ],
         "uniqueId": 23091001,
         "activityId": 230910,
         "dep": 0,
@@ -168,24 +182,24 @@
         "subtitleTitle": 0,
         "unlockItem": "",
         "unlockByEndingId": 0,
+        "endingRes": "",
+        "reward": ""
+    },
+    {
         "unlockEndingId": [
-            "23091002,23091004,23091006,23091008",
-            "23091003,23091005,23091007,23091009"
+            "",
+            ""
         ],
         "endingId": [
-            230914011,
-            230914012,
+            0,
+            0,
             0
         ],
-        "endingRes": "",
         "endingIdDep": [
             0,
             0,
             0
         ],
-        "reward": ""
-    },
-    {
         "uniqueId": 23091002,
         "activityId": 230910,
         "dep": 23091001,
@@ -199,6 +213,10 @@
         "subtitleTitle": 0,
         "unlockItem": "",
         "unlockByEndingId": 230914011,
+        "endingRes": "",
+        "reward": ""
+    },
+    {
         "unlockEndingId": [
             "",
             ""
@@ -208,15 +226,11 @@
             0,
             0
         ],
-        "endingRes": "",
         "endingIdDep": [
             0,
             0,
             0
         ],
-        "reward": ""
-    },
-    {
         "uniqueId": 23091003,
         "activityId": 230910,
         "dep": 23091001,
@@ -230,6 +244,10 @@
         "subtitleTitle": 0,
         "unlockItem": "",
         "unlockByEndingId": 230914012,
+        "endingRes": "",
+        "reward": ""
+    },
+    {
         "unlockEndingId": [
             "",
             ""
@@ -239,15 +257,11 @@
             0,
             0
         ],
-        "endingRes": "",
         "endingIdDep": [
             0,
             0,
             0
         ],
-        "reward": ""
-    },
-    {
         "uniqueId": 23091004,
         "activityId": 230910,
         "dep": 23091002,
@@ -261,6 +275,10 @@
         "subtitleTitle": 0,
         "unlockItem": "",
         "unlockByEndingId": 0,
+        "endingRes": "",
+        "reward": ""
+    },
+    {
         "unlockEndingId": [
             "",
             ""
@@ -270,15 +288,11 @@
             0,
             0
         ],
-        "endingRes": "",
         "endingIdDep": [
             0,
             0,
             0
         ],
-        "reward": ""
-    },
-    {
         "uniqueId": 23091005,
         "activityId": 230910,
         "dep": 23091003,
@@ -292,6 +306,10 @@
         "subtitleTitle": 0,
         "unlockItem": "",
         "unlockByEndingId": 0,
+        "endingRes": "",
+        "reward": ""
+    },
+    {
         "unlockEndingId": [
             "",
             ""
@@ -301,15 +319,11 @@
             0,
             0
         ],
-        "endingRes": "",
         "endingIdDep": [
             0,
             0,
             0
         ],
-        "reward": ""
-    },
-    {
         "uniqueId": 23091006,
         "activityId": 230910,
         "dep": 23091004,
@@ -323,6 +337,10 @@
         "subtitleTitle": 0,
         "unlockItem": "",
         "unlockByEndingId": 0,
+        "endingRes": "",
+        "reward": ""
+    },
+    {
         "unlockEndingId": [
             "",
             ""
@@ -332,15 +350,11 @@
             0,
             0
         ],
-        "endingRes": "",
         "endingIdDep": [
             0,
             0,
             0
         ],
-        "reward": ""
-    },
-    {
         "uniqueId": 23091007,
         "activityId": 230910,
         "dep": 23091005,
@@ -354,6 +368,10 @@
         "subtitleTitle": 0,
         "unlockItem": "",
         "unlockByEndingId": 0,
+        "endingRes": "",
+        "reward": ""
+    },
+    {
         "unlockEndingId": [
             "",
             ""
@@ -363,15 +381,11 @@
             0,
             0
         ],
-        "endingRes": "",
         "endingIdDep": [
             0,
             0,
             0
         ],
-        "reward": ""
-    },
-    {
         "uniqueId": 23091008,
         "activityId": 230910,
         "dep": 23091006,
@@ -385,6 +399,10 @@
         "subtitleTitle": 0,
         "unlockItem": "",
         "unlockByEndingId": 0,
+        "endingRes": "",
+        "reward": ""
+    },
+    {
         "unlockEndingId": [
             "",
             ""
@@ -394,15 +412,11 @@
             0,
             0
         ],
-        "endingRes": "",
         "endingIdDep": [
             0,
             0,
             0
         ],
-        "reward": ""
-    },
-    {
         "uniqueId": 23091009,
         "activityId": 230910,
         "dep": 23091007,
@@ -416,24 +430,24 @@
         "subtitleTitle": 0,
         "unlockItem": "",
         "unlockByEndingId": 0,
+        "endingRes": "",
+        "reward": ""
+    },
+    {
         "unlockEndingId": [
             "",
             ""
         ],
         "endingId": [
-            0,
+            24060001,
             0,
             0
         ],
-        "endingRes": "",
         "endingIdDep": [
             0,
             0,
             0
         ],
-        "reward": ""
-    },
-    {
         "uniqueId": 24060401,
         "activityId": 240604,
         "dep": 0,
@@ -447,24 +461,24 @@
         "subtitleTitle": 0,
         "unlockItem": "",
         "unlockByEndingId": 0,
+        "endingRes": "plot_plot_diagram_11.jpg",
+        "reward": ""
+    },
+    {
         "unlockEndingId": [
             "",
             ""
         ],
         "endingId": [
-            24060001,
+            24060101,
             0,
             0
         ],
-        "endingRes": "plot_plot_diagram_11.jpg",
         "endingIdDep": [
             0,
             0,
             0
         ],
-        "reward": ""
-    },
-    {
         "uniqueId": 24060402,
         "activityId": 240604,
         "dep": 0,
@@ -478,24 +492,24 @@
         "subtitleTitle": 0,
         "unlockItem": "",
         "unlockByEndingId": 0,
+        "endingRes": "plot_plot_diagram_1.jpg",
+        "reward": "30900030-1"
+    },
+    {
         "unlockEndingId": [
             "",
             ""
         ],
         "endingId": [
-            24060101,
+            24060201,
             0,
             0
         ],
-        "endingRes": "plot_plot_diagram_1.jpg",
         "endingIdDep": [
             0,
             0,
             0
         ],
-        "reward": "30900030-1"
-    },
-    {
         "uniqueId": 24060403,
         "activityId": 240604,
         "dep": 0,
@@ -509,24 +523,24 @@
         "subtitleTitle": 0,
         "unlockItem": "",
         "unlockByEndingId": 0,
+        "endingRes": "plot_plot_diagram_2.jpg",
+        "reward": "30900031-1"
+    },
+    {
         "unlockEndingId": [
             "",
             ""
         ],
         "endingId": [
-            24060201,
+            24060301,
             0,
             0
         ],
-        "endingRes": "plot_plot_diagram_2.jpg",
         "endingIdDep": [
             0,
             0,
             0
         ],
-        "reward": "30900031-1"
-    },
-    {
         "uniqueId": 24060404,
         "activityId": 240604,
         "dep": 0,
@@ -540,24 +554,24 @@
         "subtitleTitle": 0,
         "unlockItem": "",
         "unlockByEndingId": 0,
+        "endingRes": "plot_plot_diagram_10.jpg",
+        "reward": "30900032-1"
+    },
+    {
         "unlockEndingId": [
             "",
             ""
         ],
         "endingId": [
-            24060301,
-            0,
+            24060401,
+            24060402,
             0
         ],
-        "endingRes": "plot_plot_diagram_10.jpg",
         "endingIdDep": [
             0,
             0,
             0
         ],
-        "reward": "30900032-1"
-    },
-    {
         "uniqueId": 24060405,
         "activityId": 240604,
         "dep": 0,
@@ -571,24 +585,24 @@
         "subtitleTitle": 0,
         "unlockItem": "",
         "unlockByEndingId": 0,
+        "endingRes": "plot_plot_diagram_3.jpg",
+        "reward": "30900033-1,30900041-1"
+    },
+    {
         "unlockEndingId": [
             "",
             ""
         ],
         "endingId": [
-            24060401,
-            24060402,
+            24060502,
+            24060501,
             0
         ],
-        "endingRes": "plot_plot_diagram_3.jpg",
         "endingIdDep": [
             0,
             0,
             0
         ],
-        "reward": "30900033-1,30900041-1"
-    },
-    {
         "uniqueId": 24060406,
         "activityId": 240604,
         "dep": 0,
@@ -602,24 +616,24 @@
         "subtitleTitle": 0,
         "unlockItem": "",
         "unlockByEndingId": 0,
+        "endingRes": "plot_plot_diagram_4.jpg",
+        "reward": "30900038-1,30900039-1"
+    },
+    {
         "unlockEndingId": [
             "",
             ""
         ],
         "endingId": [
-            24060502,
-            24060501,
+            24060601,
+            0,
             0
         ],
-        "endingRes": "plot_plot_diagram_4.jpg",
         "endingIdDep": [
             0,
             0,
             0
         ],
-        "reward": "30900038-1,30900039-1"
-    },
-    {
         "uniqueId": 24060407,
         "activityId": 240604,
         "dep": 0,
@@ -633,24 +647,24 @@
         "subtitleTitle": 0,
         "unlockItem": "",
         "unlockByEndingId": 0,
+        "endingRes": "plot_plot_diagram_7.jpg",
+        "reward": "30900036-1"
+    },
+    {
         "unlockEndingId": [
             "",
             ""
         ],
         "endingId": [
-            24060601,
-            0,
+            24060702,
+            24060701,
             0
         ],
-        "endingRes": "plot_plot_diagram_7.jpg",
         "endingIdDep": [
             0,
             0,
             0
         ],
-        "reward": "30900036-1"
-    },
-    {
         "uniqueId": 24060408,
         "activityId": 240604,
         "dep": 0,
@@ -664,24 +678,24 @@
         "subtitleTitle": 0,
         "unlockItem": "",
         "unlockByEndingId": 0,
+        "endingRes": "plot_plot_diagram_8.jpg",
+        "reward": "30900037-1"
+    },
+    {
         "unlockEndingId": [
             "",
             ""
         ],
         "endingId": [
-            24060702,
-            24060701,
-            0
+            24060801,
+            24060802,
+            24060803
         ],
-        "endingRes": "plot_plot_diagram_8.jpg",
         "endingIdDep": [
             0,
             0,
             0
         ],
-        "reward": "30900037-1"
-    },
-    {
         "uniqueId": 24060409,
         "activityId": 240604,
         "dep": 0,
@@ -695,24 +709,24 @@
         "subtitleTitle": 0,
         "unlockItem": "",
         "unlockByEndingId": 0,
+        "endingRes": "plot_plot_diagram_9.jpg",
+        "reward": "30900040-1"
+    },
+    {
         "unlockEndingId": [
             "",
             ""
         ],
         "endingId": [
-            24060801,
-            24060802,
-            24060803
+            24060901,
+            0,
+            0
         ],
-        "endingRes": "plot_plot_diagram_9.jpg",
         "endingIdDep": [
             0,
             0,
             0
         ],
-        "reward": "30900040-1"
-    },
-    {
         "uniqueId": 24060410,
         "activityId": 240604,
         "dep": 0,
@@ -726,24 +740,24 @@
         "subtitleTitle": 0,
         "unlockItem": "",
         "unlockByEndingId": 0,
+        "endingRes": "plot_plot_diagram_5.jpg",
+        "reward": "30900034-1"
+    },
+    {
         "unlockEndingId": [
             "",
             ""
         ],
         "endingId": [
-            24060901,
+            24061001,
             0,
             0
         ],
-        "endingRes": "plot_plot_diagram_5.jpg",
         "endingIdDep": [
             0,
             0,
             0
         ],
-        "reward": "30900034-1"
-    },
-    {
         "uniqueId": 24060411,
         "activityId": 240604,
         "dep": 0,
@@ -757,24 +771,24 @@
         "subtitleTitle": 0,
         "unlockItem": "",
         "unlockByEndingId": 0,
+        "endingRes": "plot_plot_diagram_6.jpg",
+        "reward": "30900035-1"
+    },
+    {
         "unlockEndingId": [
             "",
             ""
         ],
         "endingId": [
-            24061001,
+            24061101,
             0,
             0
         ],
-        "endingRes": "plot_plot_diagram_6.jpg",
         "endingIdDep": [
             0,
             0,
             0
         ],
-        "reward": "30900035-1"
-    },
-    {
         "uniqueId": 24060412,
         "activityId": 240604,
         "dep": 0,
@@ -788,21 +802,7 @@
         "subtitleTitle": 0,
         "unlockItem": "",
         "unlockByEndingId": 0,
-        "unlockEndingId": [
-            "",
-            ""
-        ],
-        "endingId": [
-            24061101,
-            0,
-            0
-        ],
         "endingRes": "plot_plot_diagram_12.jpg",
-        "endingIdDep": [
-            0,
-            0,
-            0
-        ],
         "reward": ""
     }
 ]

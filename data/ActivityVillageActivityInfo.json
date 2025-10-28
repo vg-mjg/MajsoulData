@@ -1,13 +1,5 @@
 [
     {
-        "activityId": 240101,
-        "workerItemId": 30900013,
-        "roundConsume": "30900015-1",
-        "randomBuilding": "300100,300200,300300",
-        "foodItemId": 30900007,
-        "tripConsume": 3,
-        "tripColdDown": 43200,
-        "tripRound": 3,
         "tripReward": [
             "30900012-1",
             "30900011-1",
@@ -18,6 +10,14 @@
             "30900014-40",
             "30900014-70",
             "30900014-100"
-        ]
+        ],
+        "activityId": 240101,
+        "workerItemId": 30900013,
+        "roundConsume": "30900015-1",
+        "randomBuilding": "300100,300200,300300",
+        "foodItemId": 30900007,
+        "tripConsume": 3,
+        "tripColdDown": 43200,
+        "tripRound": 3
     }
 ]

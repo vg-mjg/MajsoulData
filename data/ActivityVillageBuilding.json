@@ -1,5 +1,8 @@
 [
     {
+        "args": [
+            0
+        ],
         "activityId": 240101,
         "buildingId": 100101,
         "initial": 1,
@@ -14,12 +17,12 @@
         "buildingStage": 0,
         "workerConsume": 1,
         "func": "",
-        "args": [
-            0
-        ],
         "type": 1001
     },
     {
+        "args": [
+            0
+        ],
         "activityId": 240101,
         "buildingId": 100102,
         "initial": 0,
@@ -34,12 +37,12 @@
         "buildingStage": 0,
         "workerConsume": 1,
         "func": "",
-        "args": [
-            0
-        ],
         "type": 1001
     },
     {
+        "args": [
+            0
+        ],
         "activityId": 240101,
         "buildingId": 100103,
         "initial": 0,
@@ -54,12 +57,12 @@
         "buildingStage": 0,
         "workerConsume": 1,
         "func": "",
-        "args": [
-            0
-        ],
         "type": 1001
     },
     {
+        "args": [
+            0
+        ],
         "activityId": 240101,
         "buildingId": 100104,
         "initial": 0,
@@ -74,12 +77,12 @@
         "buildingStage": 0,
         "workerConsume": 1,
         "func": "",
-        "args": [
-            0
-        ],
         "type": 1001
     },
     {
+        "args": [
+            0
+        ],
         "activityId": 240101,
         "buildingId": 200100,
         "initial": 1,
@@ -94,12 +97,12 @@
         "buildingStage": 0,
         "workerConsume": 1,
         "func": "",
-        "args": [
-            0
-        ],
         "type": 2001
     },
     {
+        "args": [
+            0
+        ],
         "activityId": 240101,
         "buildingId": 200101,
         "initial": 0,
@@ -114,12 +117,12 @@
         "buildingStage": 0,
         "workerConsume": 1,
         "func": "",
-        "args": [
-            0
-        ],
         "type": 2001
     },
     {
+        "args": [
+            0
+        ],
         "activityId": 240101,
         "buildingId": 200102,
         "initial": 0,
@@ -134,12 +137,12 @@
         "buildingStage": 0,
         "workerConsume": 1,
         "func": "",
-        "args": [
-            0
-        ],
         "type": 2001
     },
     {
+        "args": [
+            0
+        ],
         "activityId": 240101,
         "buildingId": 200103,
         "initial": 0,
@@ -154,12 +157,12 @@
         "buildingStage": 0,
         "workerConsume": 1,
         "func": "",
-        "args": [
-            0
-        ],
         "type": 2001
     },
     {
+        "args": [
+            0
+        ],
         "activityId": 240101,
         "buildingId": 200104,
         "initial": 0,
@@ -174,12 +177,12 @@
         "buildingStage": 0,
         "workerConsume": 1,
         "func": "",
-        "args": [
-            0
-        ],
         "type": 2001
     },
     {
+        "args": [
+            0
+        ],
         "activityId": 240101,
         "buildingId": 300100,
         "initial": 1,
@@ -194,12 +197,12 @@
         "buildingStage": 0,
         "workerConsume": 1,
         "func": "random",
-        "args": [
-            0
-        ],
         "type": 3001
     },
     {
+        "args": [
+            0
+        ],
         "activityId": 240101,
         "buildingId": 300101,
         "initial": 0,
@@ -214,12 +217,12 @@
         "buildingStage": 0,
         "workerConsume": 1,
         "func": "random",
-        "args": [
-            0
-        ],
         "type": 3001
     },
     {
+        "args": [
+            0
+        ],
         "activityId": 240101,
         "buildingId": 300102,
         "initial": 0,
@@ -234,12 +237,12 @@
         "buildingStage": 0,
         "workerConsume": 1,
         "func": "random",
-        "args": [
-            0
-        ],
         "type": 3001
     },
     {
+        "args": [
+            0
+        ],
         "activityId": 240101,
         "buildingId": 300103,
         "initial": 0,
@@ -254,12 +257,12 @@
         "buildingStage": 0,
         "workerConsume": 1,
         "func": "random",
-        "args": [
-            0
-        ],
         "type": 3001
     },
     {
+        "args": [
+            0
+        ],
         "activityId": 240101,
         "buildingId": 300104,
         "initial": 0,
@@ -274,12 +277,12 @@
         "buildingStage": 0,
         "workerConsume": 1,
         "func": "random",
-        "args": [
-            0
-        ],
         "type": 3001
     },
     {
+        "args": [
+            1
+        ],
         "activityId": 240101,
         "buildingId": 300200,
         "initial": 1,
@@ -294,12 +297,12 @@
         "buildingStage": 0,
         "workerConsume": 1,
         "func": "random",
-        "args": [
-            1
-        ],
         "type": 3002
     },
     {
+        "args": [
+            1
+        ],
         "activityId": 240101,
         "buildingId": 300201,
         "initial": 0,
@@ -314,12 +317,12 @@
         "buildingStage": 0,
         "workerConsume": 1,
         "func": "random",
-        "args": [
-            1
-        ],
         "type": 3002
     },
     {
+        "args": [
+            1
+        ],
         "activityId": 240101,
         "buildingId": 300202,
         "initial": 0,
@@ -334,12 +337,12 @@
         "buildingStage": 0,
         "workerConsume": 1,
         "func": "random",
-        "args": [
-            1
-        ],
         "type": 3002
     },
     {
+        "args": [
+            1
+        ],
         "activityId": 240101,
         "buildingId": 300203,
         "initial": 0,
@@ -354,12 +357,12 @@
         "buildingStage": 0,
         "workerConsume": 1,
         "func": "random",
-        "args": [
-            1
-        ],
         "type": 3002
     },
     {
+        "args": [
+            1
+        ],
         "activityId": 240101,
         "buildingId": 300204,
         "initial": 0,
@@ -374,12 +377,12 @@
         "buildingStage": 0,
         "workerConsume": 1,
         "func": "random",
-        "args": [
-            1
-        ],
         "type": 3002
     },
     {
+        "args": [
+            2
+        ],
         "activityId": 240101,
         "buildingId": 300300,
         "initial": 1,
@@ -394,12 +397,12 @@
         "buildingStage": 0,
         "workerConsume": 1,
         "func": "random",
-        "args": [
-            2
-        ],
         "type": 3003
     },
     {
+        "args": [
+            2
+        ],
         "activityId": 240101,
         "buildingId": 300301,
         "initial": 0,
@@ -414,12 +417,12 @@
         "buildingStage": 0,
         "workerConsume": 1,
         "func": "random",
-        "args": [
-            2
-        ],
         "type": 3003
     },
     {
+        "args": [
+            2
+        ],
         "activityId": 240101,
         "buildingId": 300302,
         "initial": 0,
@@ -434,12 +437,12 @@
         "buildingStage": 0,
         "workerConsume": 1,
         "func": "random",
-        "args": [
-            2
-        ],
         "type": 3003
     },
     {
+        "args": [
+            2
+        ],
         "activityId": 240101,
         "buildingId": 300303,
         "initial": 0,
@@ -454,12 +457,12 @@
         "buildingStage": 0,
         "workerConsume": 1,
         "func": "random",
-        "args": [
-            2
-        ],
         "type": 3003
     },
     {
+        "args": [
+            2
+        ],
         "activityId": 240101,
         "buildingId": 300304,
         "initial": 0,
@@ -474,12 +477,12 @@
         "buildingStage": 0,
         "workerConsume": 1,
         "func": "random",
-        "args": [
-            2
-        ],
         "type": 3003
     },
     {
+        "args": [
+            0
+        ],
         "activityId": 240101,
         "buildingId": 400101,
         "initial": 1,
@@ -494,12 +497,12 @@
         "buildingStage": 0,
         "workerConsume": 1,
         "func": "",
-        "args": [
-            0
-        ],
         "type": 4001
     },
     {
+        "args": [
+            0
+        ],
         "activityId": 240101,
         "buildingId": 400102,
         "initial": 0,
@@ -514,12 +517,12 @@
         "buildingStage": 0,
         "workerConsume": 1,
         "func": "",
-        "args": [
-            0
-        ],
         "type": 4001
     },
     {
+        "args": [
+            0
+        ],
         "activityId": 240101,
         "buildingId": 400103,
         "initial": 0,
@@ -534,12 +537,12 @@
         "buildingStage": 0,
         "workerConsume": 1,
         "func": "",
-        "args": [
-            0
-        ],
         "type": 4001
     },
     {
+        "args": [
+            0
+        ],
         "activityId": 240101,
         "buildingId": 400104,
         "initial": 0,
@@ -554,12 +557,12 @@
         "buildingStage": 0,
         "workerConsume": 1,
         "func": "",
-        "args": [
-            0
-        ],
         "type": 4001
     },
     {
+        "args": [
+            3
+        ],
         "activityId": 240101,
         "buildingId": 500101,
         "initial": 1,
@@ -574,12 +577,12 @@
         "buildingStage": 1,
         "workerConsume": 0,
         "func": "housing",
-        "args": [
-            3
-        ],
         "type": 5001
     },
     {
+        "args": [
+            5
+        ],
         "activityId": 240101,
         "buildingId": 500102,
         "initial": 0,
@@ -594,12 +597,12 @@
         "buildingStage": 1,
         "workerConsume": 0,
         "func": "housing",
-        "args": [
-            5
-        ],
         "type": 5001
     },
     {
+        "args": [
+            7
+        ],
         "activityId": 240101,
         "buildingId": 500103,
         "initial": 0,
@@ -614,12 +617,12 @@
         "buildingStage": 2,
         "workerConsume": 0,
         "func": "housing",
-        "args": [
-            7
-        ],
         "type": 5001
     },
     {
+        "args": [
+            9
+        ],
         "activityId": 240101,
         "buildingId": 500104,
         "initial": 0,
@@ -634,12 +637,12 @@
         "buildingStage": 2,
         "workerConsume": 0,
         "func": "housing",
-        "args": [
-            9
-        ],
         "type": 5001
     },
     {
+        "args": [
+            11
+        ],
         "activityId": 240101,
         "buildingId": 500105,
         "initial": 0,
@@ -654,12 +657,12 @@
         "buildingStage": 3,
         "workerConsume": 0,
         "func": "housing",
-        "args": [
-            11
-        ],
         "type": 5001
     },
     {
+        "args": [
+            13
+        ],
         "activityId": 240101,
         "buildingId": 500106,
         "initial": 0,
@@ -674,12 +677,12 @@
         "buildingStage": 3,
         "workerConsume": 0,
         "func": "housing",
-        "args": [
-            13
-        ],
         "type": 5001
     },
     {
+        "args": [
+            15
+        ],
         "activityId": 240101,
         "buildingId": 500107,
         "initial": 0,
@@ -694,12 +697,12 @@
         "buildingStage": 4,
         "workerConsume": 0,
         "func": "housing",
-        "args": [
-            15
-        ],
         "type": 5001
     },
     {
+        "args": [
+            16
+        ],
         "activityId": 240101,
         "buildingId": 500108,
         "initial": 0,
@@ -714,9 +717,6 @@
         "buildingStage": 4,
         "workerConsume": 0,
         "func": "housing",
-        "args": [
-            16
-        ],
         "type": 5001
     }
 ]

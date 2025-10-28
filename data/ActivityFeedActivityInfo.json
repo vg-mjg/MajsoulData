@@ -1,16 +1,16 @@
 [
     {
-        "activityId": 1260,
-        "maxFeedCount": 30,
-        "feedRewardId": 126001,
-        "friendSendLimit": 5,
-        "friendRecvLimit": 5,
         "foodItemId": [
             309048,
             309049,
             309050,
             309051,
             309052
-        ]
+        ],
+        "activityId": 1260,
+        "maxFeedCount": 30,
+        "feedRewardId": 126001,
+        "friendSendLimit": 5,
+        "friendRecvLimit": 5
     }
 ]

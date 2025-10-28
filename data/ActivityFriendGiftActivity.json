@@ -1,13 +1,13 @@
 [
     {
+        "giftItemId": [
+            309069,
+            0
+        ],
         "activityId": 230102,
         "friendSendLimit": 3,
         "friendSendConsume": 0,
         "friendRecvLimit": 3,
-        "extraGift": 1,
-        "giftItemId": [
-            309069,
-            0
-        ]
+        "extraGift": 1
     }
 ]

@@ -1,5 +1,9 @@
 [
     {
+        "initCharacterId": [
+            10001,
+            10002
+        ],
         "id": 251001,
         "characterPoolId": 1001,
         "questPoolId": 2001,
@@ -7,10 +11,6 @@
         "marketCount": 4,
         "characterChargingPrice": "30900095-1",
         "greatSuccessEffectCeo": 50,
-        "greatSuccessCeo": 150,
-        "initCharacterId": [
-            10001,
-            10002
-        ]
+        "greatSuccessCeo": 150
     }
 ]

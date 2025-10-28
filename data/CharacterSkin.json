@@ -1,13 +1,13 @@
 [
     {
-        "skinid": 400506,
-        "spineLayers": 3,
         "effects": [
             "",
             "XYW_01_eff_3",
             "XYW_01_eff_2",
             ""
         ],
+        "skinid": 400506,
+        "spineLayers": 3,
         "audioCelebrate": "XYW_SE/240228_qh_xiangyuanwu_celebrate",
         "audioCelebrateIdle": "",
         "audioIdle": "",
@@ -17,14 +17,14 @@
         "celebrateDelay": 1
     },
     {
-        "skinid": 403206,
-        "spineLayers": 1,
         "effects": [
             ",ALS_SC_01_eff",
             ",ALS_SC_02_eff",
             "",
             ""
         ],
+        "skinid": 403206,
+        "spineLayers": 1,
         "audioCelebrate": "ALS_SE_403206/celebrate",
         "audioCelebrateIdle": "",
         "audioIdle": "",
@@ -34,14 +34,14 @@
         "celebrateDelay": 1
     },
     {
-        "skinid": 402406,
-        "spineLayers": 1,
         "effects": [
             "",
             "",
             "",
             ""
         ],
+        "skinid": 402406,
+        "spineLayers": 1,
         "audioCelebrate": "BJSHZ_SE_402406/celebrate",
         "audioCelebrateIdle": "",
         "audioIdle": "",
@@ -51,14 +51,14 @@
         "celebrateDelay": 1
     },
     {
-        "skinid": 401906,
-        "spineLayers": 3,
         "effects": [
             "",
             "",
             "",
             ""
         ],
+        "skinid": 401906,
+        "spineLayers": 3,
         "audioCelebrate": "XNYCT_SE_401906/celebrate",
         "audioCelebrateIdle": "",
         "audioIdle": "",
@@ -68,14 +68,14 @@
         "celebrateDelay": 1
     },
     {
-        "skinid": 403304,
-        "spineLayers": 1,
         "effects": [
             "",
             "",
             "",
             ""
         ],
+        "skinid": 403304,
+        "spineLayers": 1,
         "audioCelebrate": "SQQSL_SE_403304/celebrate",
         "audioCelebrateIdle": "",
         "audioIdle": "",
@@ -85,14 +85,14 @@
         "celebrateDelay": 1
     },
     {
-        "skinid": 405905,
-        "spineLayers": 1,
         "effects": [
             "Y_01_sustain_eff",
             "Y_02_sustain_eff",
             "",
             ""
         ],
+        "skinid": 405905,
+        "spineLayers": 1,
         "audioCelebrate": "Y_SE_405905/celebrate",
         "audioCelebrateIdle": "",
         "audioIdle": "",
@@ -102,14 +102,14 @@
         "celebrateDelay": 1
     },
     {
-        "skinid": 409502,
-        "spineLayers": 1,
         "effects": [
             "",
             "",
             "",
             ""
         ],
+        "skinid": 409502,
+        "spineLayers": 1,
         "audioCelebrate": "NFH_SE_409502/celebrate",
         "audioCelebrateIdle": "",
         "audioIdle": "",
@@ -119,14 +119,14 @@
         "celebrateDelay": 1
     },
     {
-        "skinid": 403805,
-        "spineLayers": 1,
         "effects": [
             ",fuji_YZ_01_eff",
             ",fuji_YZ_02_eff",
             "",
             ""
         ],
+        "skinid": 403805,
+        "spineLayers": 1,
         "audioCelebrate": "FUJI_SE_403805/celebrate",
         "audioCelebrateIdle": "",
         "audioIdle": "",
@@ -136,14 +136,14 @@
         "celebrateDelay": 1
     },
     {
-        "skinid": 400305,
-        "spineLayers": 1,
         "effects": [
             "",
             "",
             "",
             ""
         ],
+        "skinid": 400305,
+        "spineLayers": 1,
         "audioCelebrate": "TTJN_SE_400305/celebrate",
         "audioCelebrateIdle": "",
         "audioIdle": "",
@@ -153,14 +153,14 @@
         "celebrateDelay": 1
     },
     {
-        "skinid": 404505,
-        "spineLayers": 2,
         "effects": [
             "",
             "A37_24ws_01_eff,A37_24ws_02_eff",
             "",
             ""
         ],
+        "skinid": 404505,
+        "spineLayers": 2,
         "audioCelebrate": "A37_SE_404505/celebrate",
         "audioCelebrateIdle": "",
         "audioIdle": "",
@@ -170,14 +170,14 @@
         "celebrateDelay": 1
     },
     {
-        "skinid": 404805,
-        "spineLayers": 2,
         "effects": [
             "",
             ",lingzi_24ws_01_eff",
             ",lingzi_24ws_02_eff",
             ""
         ],
+        "skinid": 404805,
+        "spineLayers": 2,
         "audioCelebrate": "LZ_SE_404805/celebrate",
         "audioCelebrateIdle": "",
         "audioIdle": "",
@@ -187,14 +187,14 @@
         "celebrateDelay": 1
     },
     {
-        "skinid": 401709,
-        "spineLayers": 1,
         "effects": [
             "",
             "",
             "",
             ""
         ],
+        "skinid": 401709,
+        "spineLayers": 1,
         "audioCelebrate": "EZGH_SE_401709/celebrate",
         "audioCelebrateIdle": "",
         "audioIdle": "",
@@ -204,14 +204,14 @@
         "celebrateDelay": 1
     },
     {
-        "skinid": 406804,
-        "spineLayers": 1,
         "effects": [
             "",
             "",
             "",
             ""
         ],
+        "skinid": 406804,
+        "spineLayers": 1,
         "audioCelebrate": "RYCY_SE_406804/celebrate",
         "audioCelebrateIdle": "",
         "audioIdle": "",
@@ -221,14 +221,14 @@
         "celebrateDelay": 1
     },
     {
-        "skinid": 400306,
-        "spineLayers": 1,
         "effects": [
             "",
             "",
             "",
             ""
         ],
+        "skinid": 400306,
+        "spineLayers": 1,
         "audioCelebrate": "TTJN_SE_400306/celebrate",
         "audioCelebrateIdle": "",
         "audioIdle": "",
@@ -238,14 +238,14 @@
         "celebrateDelay": 1
     },
     {
-        "skinid": 406004,
-        "spineLayers": 1,
         "effects": [
             "",
             "",
             "",
             ""
         ],
+        "skinid": 406004,
+        "spineLayers": 1,
         "audioCelebrate": "ZKS_SE_406004/celebrate",
         "audioCelebrateIdle": "ZKS_SE_406004/celebrate_idle",
         "audioIdle": "",
@@ -255,14 +255,14 @@
         "celebrateDelay": 1
     },
     {
-        "skinid": 402407,
-        "spineLayers": 1,
         "effects": [
             "",
             "",
             "",
             ""
         ],
+        "skinid": 402407,
+        "spineLayers": 1,
         "audioCelebrate": "BJSHZ_SE_402407/celebrate",
         "audioCelebrateIdle": "",
         "audioIdle": "",
@@ -272,14 +272,14 @@
         "celebrateDelay": 1
     },
     {
-        "skinid": 40010803,
-        "spineLayers": 3,
         "effects": [
             "",
             "jiantongying_25hf_eff2",
             "",
             "jiantongying_25hf_eff4"
         ],
+        "skinid": 40010803,
+        "spineLayers": 3,
         "audioCelebrate": "JTY_SE_40010803/celebrate",
         "audioCelebrateIdle": "",
         "audioIdle": "",
@@ -289,14 +289,14 @@
         "celebrateDelay": 0
     },
     {
-        "skinid": 40010903,
-        "spineLayers": 2,
         "effects": [
             "",
             "yuanbanlin_25hf_eff2",
             "yuanbanlin_25hf_eff3",
             ""
         ],
+        "skinid": 40010903,
+        "spineLayers": 2,
         "audioCelebrate": "YBL_SE_40010903/celebrate",
         "audioCelebrateIdle": "",
         "audioIdle": "",
@@ -306,14 +306,14 @@
         "celebrateDelay": 0
     },
     {
-        "skinid": 40011003,
-        "spineLayers": 2,
         "effects": [
             "",
             "saber_25hf_eff2",
             "saber_25hf_eff3",
             ""
         ],
+        "skinid": 40011003,
+        "spineLayers": 2,
         "audioCelebrate": "Saber_SE_40011003/celebrate",
         "audioCelebrateIdle": "",
         "audioIdle": "",
@@ -323,14 +323,14 @@
         "celebrateDelay": 0
     },
     {
-        "skinid": 40011103,
-        "spineLayers": 2,
         "effects": [
             "",
             "archer_25hf_eff2",
             "archer_25hf_eff3",
             ""
         ],
+        "skinid": 40011103,
+        "spineLayers": 2,
         "audioCelebrate": "Archer_SE_40011103/celebrate",
         "audioCelebrateIdle": "",
         "audioIdle": "",
@@ -340,14 +340,14 @@
         "celebrateDelay": 0
     },
     {
-        "skinid": 402106,
-        "spineLayers": 1,
         "effects": [
             "",
             "",
             "",
             ""
         ],
+        "skinid": 402106,
+        "spineLayers": 1,
         "audioCelebrate": "LGXS_SE_402106/celebrate",
         "audioCelebrateIdle": "",
         "audioIdle": "",
@@ -357,14 +357,14 @@
         "celebrateDelay": 0
     },
     {
-        "skinid": 405906,
-        "spineLayers": 1,
         "effects": [
             "",
             "",
             "",
             ""
         ],
+        "skinid": 405906,
+        "spineLayers": 1,
         "audioCelebrate": "Y_SE_405906/celebrate",
         "audioCelebrateIdle": "",
         "audioIdle": "",
@@ -374,14 +374,14 @@
         "celebrateDelay": 0
     },
     {
-        "skinid": 401907,
-        "spineLayers": 1,
         "effects": [
             "",
             "",
             "",
             ""
         ],
+        "skinid": 401907,
+        "spineLayers": 1,
         "audioCelebrate": "XNYCT_SE_401907/celebrate",
         "audioCelebrateIdle": "",
         "audioIdle": "",
@@ -391,14 +391,14 @@
         "celebrateDelay": 0
     },
     {
-        "skinid": 400107,
-        "spineLayers": 1,
         "effects": [
             "",
             "",
             "",
             ""
         ],
+        "skinid": 400107,
+        "spineLayers": 1,
         "audioCelebrate": "YJ_SE_400107/celebrate",
         "audioCelebrateIdle": "",
         "audioIdle": "",
@@ -408,14 +408,14 @@
         "celebrateDelay": 0
     },
     {
-        "skinid": 400907,
-        "spineLayers": 1,
         "effects": [
             "",
             "",
             "",
             ""
         ],
+        "skinid": 400907,
+        "spineLayers": 1,
         "audioCelebrate": "ZNY_SE_400907/celebrate",
         "audioCelebrateIdle": "",
         "audioIdle": "",
@@ -425,14 +425,14 @@
         "celebrateDelay": 0
     },
     {
-        "skinid": 40011202,
-        "spineLayers": 2,
         "effects": [
             "",
             "liyang_0_eff2",
             "liyang_0_eff3",
             ""
         ],
+        "skinid": 40011202,
+        "spineLayers": 2,
         "audioCelebrate": "LY_SE_40011202/celebrate",
         "audioCelebrateIdle": "",
         "audioIdle": "",
@@ -442,14 +442,14 @@
         "celebrateDelay": 0
     },
     {
-        "skinid": 40011203,
-        "spineLayers": 3,
         "effects": [
             "",
             "liyang_1_eff2",
             "liyang_1_eff3",
             ""
         ],
+        "skinid": 40011203,
+        "spineLayers": 3,
         "audioCelebrate": "LY_SE_40011203/celebrate",
         "audioCelebrateIdle": "",
         "audioIdle": "",
@@ -459,14 +459,14 @@
         "celebrateDelay": 0
     },
     {
-        "skinid": 406704,
-        "spineLayers": 1,
         "effects": [
             "",
             "qingluan_25summer_eff2",
             "",
             ""
         ],
+        "skinid": 406704,
+        "spineLayers": 1,
         "audioCelebrate": "QL_SE_406704/celebrate",
         "audioCelebrateIdle": "",
         "audioIdle": "",
@@ -476,14 +476,14 @@
         "celebrateDelay": 0
     },
     {
-        "skinid": 402606,
-        "spineLayers": 1,
         "effects": [
             "",
             "",
             "",
             ""
         ],
+        "skinid": 402606,
+        "spineLayers": 1,
         "audioCelebrate": "CT_SE_402606/celebrate",
         "audioCelebrateIdle": "",
         "audioIdle": "",
@@ -493,14 +493,14 @@
         "celebrateDelay": 0
     },
     {
-        "skinid": 409003,
-        "spineLayers": 2,
         "effects": [
             "",
             "",
             "",
             ""
         ],
+        "skinid": 409003,
+        "spineLayers": 2,
         "audioCelebrate": "JS_SE_409003/celebrate",
         "audioCelebrateIdle": "",
         "audioIdle": "",
@@ -510,14 +510,14 @@
         "celebrateDelay": 0
     },
     {
-        "skinid": 400709,
-        "spineLayers": 2,
         "effects": [
             "",
             "",
             "",
             ""
         ],
+        "skinid": 400709,
+        "spineLayers": 2,
         "audioCelebrate": "BMW_SE_400709/celebrate",
         "audioCelebrateIdle": "",
         "audioIdle": "",
@@ -527,14 +527,14 @@
         "celebrateDelay": 0
     },
     {
-        "skinid": 40010703,
-        "spineLayers": 2,
         "effects": [
             "",
             "yuanxiao_25wuxia_eff2",
             "yuanxiao_25wuxia_eff3",
             ""
         ],
+        "skinid": 40010703,
+        "spineLayers": 2,
         "audioCelebrate": "YX_SE_40010703/celebrate",
         "audioCelebrateIdle": "",
         "audioIdle": "",

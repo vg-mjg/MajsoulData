@@ -1,5 +1,22 @@
 [
     {
+        "ruleImages": [
+            "",
+            "",
+            ""
+        ],
+        "buchang": [
+            15,
+            5,
+            -5,
+            -15
+        ],
+        "chestExpAdd": [
+            0,
+            0,
+            0,
+            0
+        ],
         "id": 1,
         "isOpen": 1,
         "matchGroup": 1,
@@ -32,11 +49,6 @@
         "roomNameKr": "동탁",
         "strRule": "",
         "intervalImage": "",
-        "ruleImages": [
-            "",
-            "",
-            ""
-        ],
         "glimitFloor": 0,
         "glimitCeil": -1,
         "gcarry": 0,
@@ -49,28 +61,33 @@
         "initPoint": 25000,
         "backPoint": 30000,
         "countPoint": 25000,
+        "levelLimit": 10101,
+        "levelLimitCeil": 10203,
+        "tip": 0,
+        "friendship": 0,
+        "chestId": 0,
+        "levelMatch": 0,
+        "levelMatchRange": 0,
+        "levelMatchMax": 0
+    },
+    {
+        "ruleImages": [
+            "",
+            "",
+            ""
+        ],
         "buchang": [
             15,
             5,
             -5,
             -15
         ],
-        "levelLimit": 10101,
-        "levelLimitCeil": 10203,
-        "tip": 0,
-        "friendship": 0,
-        "chestId": 0,
         "chestExpAdd": [
             0,
             0,
             0,
             0
         ],
-        "levelMatch": 0,
-        "levelMatchRange": 0,
-        "levelMatchMax": 0
-    },
-    {
         "id": 2,
         "isOpen": 1,
         "matchGroup": 1,
@@ -103,11 +120,6 @@
         "roomNameKr": "동탁",
         "strRule": "",
         "intervalImage": "",
-        "ruleImages": [
-            "",
-            "",
-            ""
-        ],
         "glimitFloor": 0,
         "glimitCeil": -1,
         "gcarry": 0,
@@ -120,28 +132,33 @@
         "initPoint": 25000,
         "backPoint": 30000,
         "countPoint": 25000,
+        "levelLimit": 10101,
+        "levelLimitCeil": 10203,
+        "tip": 0,
+        "friendship": 0,
+        "chestId": 0,
+        "levelMatch": 0,
+        "levelMatchRange": 0,
+        "levelMatchMax": 0
+    },
+    {
+        "ruleImages": [
+            "",
+            "",
+            ""
+        ],
         "buchang": [
             15,
             5,
             -5,
             -15
         ],
-        "levelLimit": 10101,
-        "levelLimitCeil": 10203,
-        "tip": 0,
-        "friendship": 0,
-        "chestId": 0,
         "chestExpAdd": [
             0,
             0,
             0,
             0
         ],
-        "levelMatch": 0,
-        "levelMatchRange": 0,
-        "levelMatchMax": 0
-    },
-    {
         "id": 3,
         "isOpen": 1,
         "matchGroup": 1,
@@ -174,11 +191,6 @@
         "roomNameKr": "동탁",
         "strRule": "",
         "intervalImage": "",
-        "ruleImages": [
-            "",
-            "",
-            ""
-        ],
         "glimitFloor": 0,
         "glimitCeil": -1,
         "gcarry": 0,
@@ -191,28 +203,33 @@
         "initPoint": 25000,
         "backPoint": 30000,
         "countPoint": 25000,
+        "levelLimit": 10101,
+        "levelLimitCeil": 10203,
+        "tip": 0,
+        "friendship": 0,
+        "chestId": 0,
+        "levelMatch": 0,
+        "levelMatchRange": 0,
+        "levelMatchMax": 0
+    },
+    {
+        "ruleImages": [
+            "",
+            "",
+            ""
+        ],
         "buchang": [
             15,
             5,
             -5,
             -15
         ],
-        "levelLimit": 10101,
-        "levelLimitCeil": 10203,
-        "tip": 0,
-        "friendship": 0,
-        "chestId": 0,
         "chestExpAdd": [
             0,
             0,
             0,
             0
         ],
-        "levelMatch": 0,
-        "levelMatchRange": 0,
-        "levelMatchMax": 0
-    },
-    {
         "id": 4,
         "isOpen": 1,
         "matchGroup": 1,
@@ -245,11 +262,6 @@
         "roomNameKr": "은탁",
         "strRule": "",
         "intervalImage": "",
-        "ruleImages": [
-            "",
-            "",
-            ""
-        ],
         "glimitFloor": 2500,
         "glimitCeil": -1,
         "gcarry": 0,
@@ -262,28 +274,33 @@
         "initPoint": 25000,
         "backPoint": 30000,
         "countPoint": 25000,
+        "levelLimit": 10201,
+        "levelLimitCeil": 10303,
+        "tip": 0,
+        "friendship": 0,
+        "chestId": 0,
+        "levelMatch": 0,
+        "levelMatchRange": 0,
+        "levelMatchMax": 0
+    },
+    {
+        "ruleImages": [
+            "",
+            "",
+            ""
+        ],
         "buchang": [
             15,
             5,
             -5,
             -15
         ],
-        "levelLimit": 10201,
-        "levelLimitCeil": 10303,
-        "tip": 0,
-        "friendship": 0,
-        "chestId": 0,
         "chestExpAdd": [
-            0,
-            0,
-            0,
-            0
+            260,
+            130,
+            95,
+            60
         ],
-        "levelMatch": 0,
-        "levelMatchRange": 0,
-        "levelMatchMax": 0
-    },
-    {
         "id": 5,
         "isOpen": 1,
         "matchGroup": 1,
@@ -316,11 +333,6 @@
         "roomNameKr": "은탁",
         "strRule": "",
         "intervalImage": "",
-        "ruleImages": [
-            "",
-            "",
-            ""
-        ],
         "glimitFloor": 2500,
         "glimitCeil": -1,
         "gcarry": 2500,
@@ -333,28 +345,33 @@
         "initPoint": 25000,
         "backPoint": 30000,
         "countPoint": 25000,
+        "levelLimit": 10201,
+        "levelLimitCeil": 10303,
+        "tip": 500,
+        "friendship": 40,
+        "chestId": 1,
+        "levelMatch": 0,
+        "levelMatchRange": 0,
+        "levelMatchMax": 0
+    },
+    {
+        "ruleImages": [
+            "",
+            "",
+            ""
+        ],
         "buchang": [
             15,
             5,
             -5,
             -15
         ],
-        "levelLimit": 10201,
-        "levelLimitCeil": 10303,
-        "tip": 500,
-        "friendship": 40,
-        "chestId": 1,
         "chestExpAdd": [
-            260,
+            360,
+            180,
             130,
-            95,
-            60
+            80
         ],
-        "levelMatch": 0,
-        "levelMatchRange": 0,
-        "levelMatchMax": 0
-    },
-    {
         "id": 6,
         "isOpen": 1,
         "matchGroup": 1,
@@ -387,11 +404,6 @@
         "roomNameKr": "은탁",
         "strRule": "",
         "intervalImage": "",
-        "ruleImages": [
-            "",
-            "",
-            ""
-        ],
         "glimitFloor": 3500,
         "glimitCeil": -1,
         "gcarry": 3500,
@@ -404,28 +416,33 @@
         "initPoint": 25000,
         "backPoint": 30000,
         "countPoint": 25000,
+        "levelLimit": 10201,
+        "levelLimitCeil": 10303,
+        "tip": 700,
+        "friendship": 60,
+        "chestId": 1,
+        "levelMatch": 0,
+        "levelMatchRange": 0,
+        "levelMatchMax": 0
+    },
+    {
+        "ruleImages": [
+            "",
+            "",
+            ""
+        ],
         "buchang": [
             15,
             5,
             -5,
             -15
         ],
-        "levelLimit": 10201,
-        "levelLimitCeil": 10303,
-        "tip": 700,
-        "friendship": 60,
-        "chestId": 1,
         "chestExpAdd": [
-            360,
-            180,
-            130,
-            80
+            0,
+            0,
+            0,
+            0
         ],
-        "levelMatch": 0,
-        "levelMatchRange": 0,
-        "levelMatchMax": 0
-    },
-    {
         "id": 7,
         "isOpen": 1,
         "matchGroup": 1,
@@ -458,11 +475,6 @@
         "roomNameKr": "금탁",
         "strRule": "",
         "intervalImage": "",
-        "ruleImages": [
-            "",
-            "",
-            ""
-        ],
         "glimitFloor": 5000,
         "glimitCeil": -1,
         "gcarry": 0,
@@ -475,28 +487,33 @@
         "initPoint": 25000,
         "backPoint": 30000,
         "countPoint": 25000,
+        "levelLimit": 10301,
+        "levelLimitCeil": 10403,
+        "tip": 0,
+        "friendship": 0,
+        "chestId": 0,
+        "levelMatch": 0,
+        "levelMatchRange": 0,
+        "levelMatchMax": 0
+    },
+    {
+        "ruleImages": [
+            "",
+            "",
+            ""
+        ],
         "buchang": [
             15,
             5,
             -5,
             -15
         ],
-        "levelLimit": 10301,
-        "levelLimitCeil": 10403,
-        "tip": 0,
-        "friendship": 0,
-        "chestId": 0,
         "chestExpAdd": [
-            0,
-            0,
-            0,
-            0
+            260,
+            130,
+            95,
+            60
         ],
-        "levelMatch": 0,
-        "levelMatchRange": 0,
-        "levelMatchMax": 0
-    },
-    {
         "id": 8,
         "isOpen": 1,
         "matchGroup": 1,
@@ -529,11 +546,6 @@
         "roomNameKr": "금탁",
         "strRule": "",
         "intervalImage": "",
-        "ruleImages": [
-            "",
-            "",
-            ""
-        ],
         "glimitFloor": 5000,
         "glimitCeil": -1,
         "gcarry": 5000,
@@ -546,28 +558,33 @@
         "initPoint": 25000,
         "backPoint": 30000,
         "countPoint": 25000,
+        "levelLimit": 10301,
+        "levelLimitCeil": 10403,
+        "tip": 1000,
+        "friendship": 40,
+        "chestId": 2,
+        "levelMatch": 0,
+        "levelMatchRange": 0,
+        "levelMatchMax": 0
+    },
+    {
+        "ruleImages": [
+            "",
+            "",
+            ""
+        ],
         "buchang": [
             15,
             5,
             -5,
             -15
         ],
-        "levelLimit": 10301,
-        "levelLimitCeil": 10403,
-        "tip": 1000,
-        "friendship": 40,
-        "chestId": 2,
         "chestExpAdd": [
-            260,
+            360,
+            180,
             130,
-            95,
-            60
+            80
         ],
-        "levelMatch": 0,
-        "levelMatchRange": 0,
-        "levelMatchMax": 0
-    },
-    {
         "id": 9,
         "isOpen": 1,
         "matchGroup": 1,
@@ -600,11 +617,6 @@
         "roomNameKr": "금탁",
         "strRule": "",
         "intervalImage": "",
-        "ruleImages": [
-            "",
-            "",
-            ""
-        ],
         "glimitFloor": 7000,
         "glimitCeil": -1,
         "gcarry": 7000,
@@ -617,28 +629,33 @@
         "initPoint": 25000,
         "backPoint": 30000,
         "countPoint": 25000,
+        "levelLimit": 10301,
+        "levelLimitCeil": 10403,
+        "tip": 1400,
+        "friendship": 60,
+        "chestId": 2,
+        "levelMatch": 0,
+        "levelMatchRange": 0,
+        "levelMatchMax": 0
+    },
+    {
+        "ruleImages": [
+            "",
+            "",
+            ""
+        ],
         "buchang": [
             15,
             5,
             -5,
             -15
         ],
-        "levelLimit": 10301,
-        "levelLimitCeil": 10403,
-        "tip": 1400,
-        "friendship": 60,
-        "chestId": 2,
         "chestExpAdd": [
-            360,
-            180,
-            130,
-            80
+            0,
+            0,
+            0,
+            0
         ],
-        "levelMatch": 0,
-        "levelMatchRange": 0,
-        "levelMatchMax": 0
-    },
-    {
         "id": 10,
         "isOpen": 1,
         "matchGroup": 1,
@@ -671,11 +688,6 @@
         "roomNameKr": "옥탁",
         "strRule": "",
         "intervalImage": "",
-        "ruleImages": [
-            "",
-            "",
-            ""
-        ],
         "glimitFloor": 10000,
         "glimitCeil": -1,
         "gcarry": 0,
@@ -688,28 +700,33 @@
         "initPoint": 25000,
         "backPoint": 30000,
         "countPoint": 25000,
+        "levelLimit": 10401,
+        "levelLimitCeil": 10503,
+        "tip": 0,
+        "friendship": 0,
+        "chestId": 0,
+        "levelMatch": 0,
+        "levelMatchRange": 0,
+        "levelMatchMax": 0
+    },
+    {
+        "ruleImages": [
+            "",
+            "",
+            ""
+        ],
         "buchang": [
             15,
             5,
             -5,
             -15
         ],
-        "levelLimit": 10401,
-        "levelLimitCeil": 10503,
-        "tip": 0,
-        "friendship": 0,
-        "chestId": 0,
         "chestExpAdd": [
-            0,
-            0,
-            0,
-            0
+            260,
+            130,
+            95,
+            60
         ],
-        "levelMatch": 0,
-        "levelMatchRange": 0,
-        "levelMatchMax": 0
-    },
-    {
         "id": 11,
         "isOpen": 1,
         "matchGroup": 1,
@@ -742,11 +759,6 @@
         "roomNameKr": "옥탁",
         "strRule": "",
         "intervalImage": "",
-        "ruleImages": [
-            "",
-            "",
-            ""
-        ],
         "glimitFloor": 10000,
         "glimitCeil": -1,
         "gcarry": 10000,
@@ -759,28 +771,33 @@
         "initPoint": 25000,
         "backPoint": 30000,
         "countPoint": 25000,
+        "levelLimit": 10401,
+        "levelLimitCeil": 10503,
+        "tip": 2000,
+        "friendship": 40,
+        "chestId": 3,
+        "levelMatch": 0,
+        "levelMatchRange": 0,
+        "levelMatchMax": 0
+    },
+    {
+        "ruleImages": [
+            "",
+            "",
+            ""
+        ],
         "buchang": [
             15,
             5,
             -5,
             -15
         ],
-        "levelLimit": 10401,
-        "levelLimitCeil": 10503,
-        "tip": 2000,
-        "friendship": 40,
-        "chestId": 3,
         "chestExpAdd": [
-            260,
+            360,
+            180,
             130,
-            95,
-            60
+            80
         ],
-        "levelMatch": 0,
-        "levelMatchRange": 0,
-        "levelMatchMax": 0
-    },
-    {
         "id": 12,
         "isOpen": 1,
         "matchGroup": 1,
@@ -813,11 +830,6 @@
         "roomNameKr": "옥탁",
         "strRule": "",
         "intervalImage": "",
-        "ruleImages": [
-            "",
-            "",
-            ""
-        ],
         "glimitFloor": 14000,
         "glimitCeil": -1,
         "gcarry": 14000,
@@ -830,28 +842,33 @@
         "initPoint": 25000,
         "backPoint": 30000,
         "countPoint": 25000,
+        "levelLimit": 10401,
+        "levelLimitCeil": 10503,
+        "tip": 2800,
+        "friendship": 60,
+        "chestId": 3,
+        "levelMatch": 0,
+        "levelMatchRange": 0,
+        "levelMatchMax": 0
+    },
+    {
+        "ruleImages": [
+            "",
+            "",
+            ""
+        ],
         "buchang": [
             15,
             5,
             -5,
             -15
         ],
-        "levelLimit": 10401,
-        "levelLimitCeil": 10503,
-        "tip": 2800,
-        "friendship": 60,
-        "chestId": 3,
         "chestExpAdd": [
-            360,
-            180,
-            130,
-            80
+            0,
+            0,
+            0,
+            0
         ],
-        "levelMatch": 0,
-        "levelMatchRange": 0,
-        "levelMatchMax": 0
-    },
-    {
         "id": 13,
         "isOpen": 1,
         "matchGroup": 1,
@@ -884,11 +901,6 @@
         "roomNameKr": "난투전",
         "strRule": "",
         "intervalImage": "",
-        "ruleImages": [
-            "",
-            "",
-            ""
-        ],
         "glimitFloor": 0,
         "glimitCeil": -1,
         "gcarry": 0,
@@ -901,28 +913,33 @@
         "initPoint": 25000,
         "backPoint": 30000,
         "countPoint": 25000,
+        "levelLimit": 0,
+        "levelLimitCeil": 0,
+        "tip": 0,
+        "friendship": 0,
+        "chestId": 0,
+        "levelMatch": 0,
+        "levelMatchRange": 0,
+        "levelMatchMax": 0
+    },
+    {
+        "ruleImages": [
+            "",
+            "",
+            ""
+        ],
         "buchang": [
             15,
             5,
             -5,
             -15
         ],
-        "levelLimit": 0,
-        "levelLimitCeil": 0,
-        "tip": 0,
-        "friendship": 0,
-        "chestId": 0,
         "chestExpAdd": [
             0,
             0,
             0,
             0
         ],
-        "levelMatch": 0,
-        "levelMatchRange": 0,
-        "levelMatchMax": 0
-    },
-    {
         "id": 14,
         "isOpen": 1,
         "matchGroup": 1,
@@ -955,11 +972,6 @@
         "roomNameKr": "난투전",
         "strRule": "",
         "intervalImage": "",
-        "ruleImages": [
-            "",
-            "",
-            ""
-        ],
         "glimitFloor": 0,
         "glimitCeil": -1,
         "gcarry": 0,
@@ -972,28 +984,33 @@
         "initPoint": 25000,
         "backPoint": 30000,
         "countPoint": 25000,
+        "levelLimit": 0,
+        "levelLimitCeil": 0,
+        "tip": 0,
+        "friendship": 0,
+        "chestId": 0,
+        "levelMatch": 0,
+        "levelMatchRange": 0,
+        "levelMatchMax": 0
+    },
+    {
+        "ruleImages": [
+            "",
+            "",
+            ""
+        ],
         "buchang": [
             15,
             5,
             -5,
             -15
         ],
-        "levelLimit": 0,
-        "levelLimitCeil": 0,
-        "tip": 0,
-        "friendship": 0,
-        "chestId": 0,
         "chestExpAdd": [
-            0,
-            0,
-            0,
-            0
+            260,
+            130,
+            95,
+            60
         ],
-        "levelMatch": 0,
-        "levelMatchRange": 0,
-        "levelMatchMax": 0
-    },
-    {
         "id": 15,
         "isOpen": 1,
         "matchGroup": 1,
@@ -1026,11 +1043,6 @@
         "roomNameKr": "왕좌탁",
         "strRule": "",
         "intervalImage": "",
-        "ruleImages": [
-            "",
-            "",
-            ""
-        ],
         "glimitFloor": 10000,
         "glimitCeil": -1,
         "gcarry": 10000,
@@ -1043,28 +1055,33 @@
         "initPoint": 25000,
         "backPoint": 30000,
         "countPoint": 25000,
+        "levelLimit": 10501,
+        "levelLimitCeil": 10720,
+        "tip": 2000,
+        "friendship": 40,
+        "chestId": 4,
+        "levelMatch": 0,
+        "levelMatchRange": 0,
+        "levelMatchMax": 0
+    },
+    {
+        "ruleImages": [
+            "",
+            "",
+            ""
+        ],
         "buchang": [
             15,
             5,
             -5,
             -15
         ],
-        "levelLimit": 10501,
-        "levelLimitCeil": 10720,
-        "tip": 2000,
-        "friendship": 40,
-        "chestId": 4,
         "chestExpAdd": [
-            260,
+            360,
+            180,
             130,
-            95,
-            60
+            80
         ],
-        "levelMatch": 0,
-        "levelMatchRange": 0,
-        "levelMatchMax": 0
-    },
-    {
         "id": 16,
         "isOpen": 1,
         "matchGroup": 1,
@@ -1097,11 +1114,6 @@
         "roomNameKr": "왕좌탁",
         "strRule": "",
         "intervalImage": "",
-        "ruleImages": [
-            "",
-            "",
-            ""
-        ],
         "glimitFloor": 14000,
         "glimitCeil": -1,
         "gcarry": 14000,
@@ -1114,28 +1126,33 @@
         "initPoint": 25000,
         "backPoint": 30000,
         "countPoint": 25000,
-        "buchang": [
-            15,
-            5,
-            -5,
-            -15
-        ],
         "levelLimit": 10501,
         "levelLimitCeil": 10720,
         "tip": 2800,
         "friendship": 60,
         "chestId": 4,
-        "chestExpAdd": [
-            360,
-            180,
-            130,
-            80
-        ],
         "levelMatch": 0,
         "levelMatchRange": 0,
         "levelMatchMax": 0
     },
     {
+        "ruleImages": [
+            "",
+            "",
+            ""
+        ],
+        "buchang": [
+            15,
+            0,
+            -15,
+            0
+        ],
+        "chestExpAdd": [
+            0,
+            0,
+            0,
+            0
+        ],
         "id": 17,
         "isOpen": 1,
         "matchGroup": 1,
@@ -1168,11 +1185,6 @@
         "roomNameKr": "동탁",
         "strRule": "",
         "intervalImage": "",
-        "ruleImages": [
-            "",
-            "",
-            ""
-        ],
         "glimitFloor": 0,
         "glimitCeil": -1,
         "gcarry": 0,
@@ -1185,28 +1197,33 @@
         "initPoint": 35000,
         "backPoint": 40000,
         "countPoint": 35000,
+        "levelLimit": 20101,
+        "levelLimitCeil": 20203,
+        "tip": 0,
+        "friendship": 0,
+        "chestId": 0,
+        "levelMatch": 0,
+        "levelMatchRange": 0,
+        "levelMatchMax": 0
+    },
+    {
+        "ruleImages": [
+            "",
+            "",
+            ""
+        ],
         "buchang": [
             15,
             0,
             -15,
             0
         ],
-        "levelLimit": 20101,
-        "levelLimitCeil": 20203,
-        "tip": 0,
-        "friendship": 0,
-        "chestId": 0,
         "chestExpAdd": [
             0,
             0,
             0,
             0
         ],
-        "levelMatch": 0,
-        "levelMatchRange": 0,
-        "levelMatchMax": 0
-    },
-    {
         "id": 18,
         "isOpen": 1,
         "matchGroup": 1,
@@ -1239,11 +1256,6 @@
         "roomNameKr": "동탁",
         "strRule": "",
         "intervalImage": "",
-        "ruleImages": [
-            "",
-            "",
-            ""
-        ],
         "glimitFloor": 0,
         "glimitCeil": -1,
         "gcarry": 0,
@@ -1256,28 +1268,33 @@
         "initPoint": 35000,
         "backPoint": 40000,
         "countPoint": 35000,
+        "levelLimit": 20101,
+        "levelLimitCeil": 20203,
+        "tip": 0,
+        "friendship": 0,
+        "chestId": 0,
+        "levelMatch": 0,
+        "levelMatchRange": 0,
+        "levelMatchMax": 0
+    },
+    {
+        "ruleImages": [
+            "",
+            "",
+            ""
+        ],
         "buchang": [
             15,
             0,
             -15,
             0
         ],
-        "levelLimit": 20101,
-        "levelLimitCeil": 20203,
-        "tip": 0,
-        "friendship": 0,
-        "chestId": 0,
         "chestExpAdd": [
-            0,
-            0,
-            0,
+            170,
+            100,
+            40,
             0
         ],
-        "levelMatch": 0,
-        "levelMatchRange": 0,
-        "levelMatchMax": 0
-    },
-    {
         "id": 19,
         "isOpen": 1,
         "matchGroup": 1,
@@ -1310,11 +1327,6 @@
         "roomNameKr": "은탁",
         "strRule": "",
         "intervalImage": "",
-        "ruleImages": [
-            "",
-            "",
-            ""
-        ],
         "glimitFloor": 2500,
         "glimitCeil": -1,
         "gcarry": 2500,
@@ -1327,28 +1339,33 @@
         "initPoint": 35000,
         "backPoint": 40000,
         "countPoint": 35000,
+        "levelLimit": 20201,
+        "levelLimitCeil": 20303,
+        "tip": 500,
+        "friendship": 25,
+        "chestId": 1,
+        "levelMatch": 0,
+        "levelMatchRange": 0,
+        "levelMatchMax": 0
+    },
+    {
+        "ruleImages": [
+            "",
+            "",
+            ""
+        ],
         "buchang": [
             15,
             0,
             -15,
             0
         ],
-        "levelLimit": 20201,
-        "levelLimitCeil": 20303,
-        "tip": 500,
-        "friendship": 25,
-        "chestId": 1,
         "chestExpAdd": [
-            170,
-            100,
-            40,
+            240,
+            135,
+            50,
             0
         ],
-        "levelMatch": 0,
-        "levelMatchRange": 0,
-        "levelMatchMax": 0
-    },
-    {
         "id": 20,
         "isOpen": 1,
         "matchGroup": 1,
@@ -1381,11 +1398,6 @@
         "roomNameKr": "은탁",
         "strRule": "",
         "intervalImage": "",
-        "ruleImages": [
-            "",
-            "",
-            ""
-        ],
         "glimitFloor": 3500,
         "glimitCeil": -1,
         "gcarry": 3500,
@@ -1398,28 +1410,33 @@
         "initPoint": 35000,
         "backPoint": 40000,
         "countPoint": 35000,
+        "levelLimit": 20201,
+        "levelLimitCeil": 20303,
+        "tip": 700,
+        "friendship": 40,
+        "chestId": 1,
+        "levelMatch": 0,
+        "levelMatchRange": 0,
+        "levelMatchMax": 0
+    },
+    {
+        "ruleImages": [
+            "",
+            "",
+            ""
+        ],
         "buchang": [
             15,
             0,
             -15,
             0
         ],
-        "levelLimit": 20201,
-        "levelLimitCeil": 20303,
-        "tip": 700,
-        "friendship": 40,
-        "chestId": 1,
         "chestExpAdd": [
-            240,
-            135,
-            50,
+            170,
+            100,
+            40,
             0
         ],
-        "levelMatch": 0,
-        "levelMatchRange": 0,
-        "levelMatchMax": 0
-    },
-    {
         "id": 21,
         "isOpen": 1,
         "matchGroup": 1,
@@ -1452,11 +1469,6 @@
         "roomNameKr": "금탁",
         "strRule": "",
         "intervalImage": "",
-        "ruleImages": [
-            "",
-            "",
-            ""
-        ],
         "glimitFloor": 5000,
         "glimitCeil": -1,
         "gcarry": 5000,
@@ -1469,28 +1481,33 @@
         "initPoint": 35000,
         "backPoint": 40000,
         "countPoint": 35000,
+        "levelLimit": 20301,
+        "levelLimitCeil": 20403,
+        "tip": 1000,
+        "friendship": 25,
+        "chestId": 2,
+        "levelMatch": 0,
+        "levelMatchRange": 0,
+        "levelMatchMax": 0
+    },
+    {
+        "ruleImages": [
+            "",
+            "",
+            ""
+        ],
         "buchang": [
             15,
             0,
             -15,
             0
         ],
-        "levelLimit": 20301,
-        "levelLimitCeil": 20403,
-        "tip": 1000,
-        "friendship": 25,
-        "chestId": 2,
         "chestExpAdd": [
-            170,
-            100,
-            40,
+            240,
+            135,
+            50,
             0
         ],
-        "levelMatch": 0,
-        "levelMatchRange": 0,
-        "levelMatchMax": 0
-    },
-    {
         "id": 22,
         "isOpen": 1,
         "matchGroup": 1,
@@ -1523,11 +1540,6 @@
         "roomNameKr": "금탁",
         "strRule": "",
         "intervalImage": "",
-        "ruleImages": [
-            "",
-            "",
-            ""
-        ],
         "glimitFloor": 7000,
         "glimitCeil": -1,
         "gcarry": 7000,
@@ -1540,28 +1552,33 @@
         "initPoint": 35000,
         "backPoint": 40000,
         "countPoint": 35000,
+        "levelLimit": 20301,
+        "levelLimitCeil": 20403,
+        "tip": 1400,
+        "friendship": 40,
+        "chestId": 2,
+        "levelMatch": 0,
+        "levelMatchRange": 0,
+        "levelMatchMax": 0
+    },
+    {
+        "ruleImages": [
+            "",
+            "",
+            ""
+        ],
         "buchang": [
             15,
             0,
             -15,
             0
         ],
-        "levelLimit": 20301,
-        "levelLimitCeil": 20403,
-        "tip": 1400,
-        "friendship": 40,
-        "chestId": 2,
         "chestExpAdd": [
-            240,
-            135,
-            50,
+            170,
+            100,
+            40,
             0
         ],
-        "levelMatch": 0,
-        "levelMatchRange": 0,
-        "levelMatchMax": 0
-    },
-    {
         "id": 23,
         "isOpen": 1,
         "matchGroup": 1,
@@ -1594,11 +1611,6 @@
         "roomNameKr": "옥탁",
         "strRule": "",
         "intervalImage": "",
-        "ruleImages": [
-            "",
-            "",
-            ""
-        ],
         "glimitFloor": 10000,
         "glimitCeil": -1,
         "gcarry": 10000,
@@ -1611,28 +1623,33 @@
         "initPoint": 35000,
         "backPoint": 40000,
         "countPoint": 35000,
+        "levelLimit": 20401,
+        "levelLimitCeil": 20503,
+        "tip": 2000,
+        "friendship": 25,
+        "chestId": 3,
+        "levelMatch": 0,
+        "levelMatchRange": 0,
+        "levelMatchMax": 0
+    },
+    {
+        "ruleImages": [
+            "",
+            "",
+            ""
+        ],
         "buchang": [
             15,
             0,
             -15,
             0
         ],
-        "levelLimit": 20401,
-        "levelLimitCeil": 20503,
-        "tip": 2000,
-        "friendship": 25,
-        "chestId": 3,
         "chestExpAdd": [
-            170,
-            100,
-            40,
+            240,
+            135,
+            50,
             0
         ],
-        "levelMatch": 0,
-        "levelMatchRange": 0,
-        "levelMatchMax": 0
-    },
-    {
         "id": 24,
         "isOpen": 1,
         "matchGroup": 1,
@@ -1665,11 +1682,6 @@
         "roomNameKr": "옥탁",
         "strRule": "",
         "intervalImage": "",
-        "ruleImages": [
-            "",
-            "",
-            ""
-        ],
         "glimitFloor": 14000,
         "glimitCeil": -1,
         "gcarry": 14000,
@@ -1682,28 +1694,33 @@
         "initPoint": 35000,
         "backPoint": 40000,
         "countPoint": 35000,
+        "levelLimit": 20401,
+        "levelLimitCeil": 20503,
+        "tip": 2800,
+        "friendship": 40,
+        "chestId": 3,
+        "levelMatch": 0,
+        "levelMatchRange": 0,
+        "levelMatchMax": 0
+    },
+    {
+        "ruleImages": [
+            "",
+            "",
+            ""
+        ],
         "buchang": [
             15,
             0,
             -15,
             0
         ],
-        "levelLimit": 20401,
-        "levelLimitCeil": 20503,
-        "tip": 2800,
-        "friendship": 40,
-        "chestId": 3,
         "chestExpAdd": [
-            240,
-            135,
-            50,
+            170,
+            100,
+            40,
             0
         ],
-        "levelMatch": 0,
-        "levelMatchRange": 0,
-        "levelMatchMax": 0
-    },
-    {
         "id": 25,
         "isOpen": 1,
         "matchGroup": 1,
@@ -1736,11 +1753,6 @@
         "roomNameKr": "왕좌탁",
         "strRule": "",
         "intervalImage": "",
-        "ruleImages": [
-            "",
-            "",
-            ""
-        ],
         "glimitFloor": 10000,
         "glimitCeil": -1,
         "gcarry": 10000,
@@ -1753,28 +1765,33 @@
         "initPoint": 35000,
         "backPoint": 40000,
         "countPoint": 35000,
+        "levelLimit": 20501,
+        "levelLimitCeil": 20720,
+        "tip": 2000,
+        "friendship": 25,
+        "chestId": 4,
+        "levelMatch": 0,
+        "levelMatchRange": 0,
+        "levelMatchMax": 0
+    },
+    {
+        "ruleImages": [
+            "",
+            "",
+            ""
+        ],
         "buchang": [
             15,
             0,
             -15,
             0
         ],
-        "levelLimit": 20501,
-        "levelLimitCeil": 20720,
-        "tip": 2000,
-        "friendship": 25,
-        "chestId": 4,
         "chestExpAdd": [
-            170,
-            100,
-            40,
+            240,
+            135,
+            50,
             0
         ],
-        "levelMatch": 0,
-        "levelMatchRange": 0,
-        "levelMatchMax": 0
-    },
-    {
         "id": 26,
         "isOpen": 1,
         "matchGroup": 1,
@@ -1807,11 +1824,6 @@
         "roomNameKr": "왕좌탁",
         "strRule": "",
         "intervalImage": "",
-        "ruleImages": [
-            "",
-            "",
-            ""
-        ],
         "glimitFloor": 14000,
         "glimitCeil": -1,
         "gcarry": 14000,
@@ -1824,28 +1836,33 @@
         "initPoint": 35000,
         "backPoint": 40000,
         "countPoint": 35000,
-        "buchang": [
-            15,
-            0,
-            -15,
-            0
-        ],
         "levelLimit": 20501,
         "levelLimitCeil": 20720,
         "tip": 2800,
         "friendship": 40,
         "chestId": 4,
-        "chestExpAdd": [
-            240,
-            135,
-            50,
-            0
-        ],
         "levelMatch": 0,
         "levelMatchRange": 0,
         "levelMatchMax": 0
     },
     {
+        "ruleImages": [
+            "",
+            "",
+            ""
+        ],
+        "buchang": [
+            15,
+            5,
+            -5,
+            -15
+        ],
+        "chestExpAdd": [
+            0,
+            0,
+            0,
+            0
+        ],
         "id": 29,
         "isOpen": 1,
         "matchGroup": 1,
@@ -1878,11 +1895,6 @@
         "roomNameKr": "교류탁",
         "strRule": "",
         "intervalImage": "",
-        "ruleImages": [
-            "",
-            "",
-            ""
-        ],
         "glimitFloor": 0,
         "glimitCeil": -1,
         "gcarry": 0,
@@ -1895,28 +1907,33 @@
         "initPoint": 25000,
         "backPoint": 30000,
         "countPoint": 25000,
+        "levelLimit": 0,
+        "levelLimitCeil": 0,
+        "tip": 0,
+        "friendship": 0,
+        "chestId": 0,
+        "levelMatch": 0,
+        "levelMatchRange": 0,
+        "levelMatchMax": 0
+    },
+    {
+        "ruleImages": [
+            "",
+            "",
+            ""
+        ],
         "buchang": [
             15,
             5,
             -5,
             -15
         ],
-        "levelLimit": 0,
-        "levelLimitCeil": 0,
-        "tip": 0,
-        "friendship": 0,
-        "chestId": 0,
         "chestExpAdd": [
             0,
             0,
             0,
             0
         ],
-        "levelMatch": 0,
-        "levelMatchRange": 0,
-        "levelMatchMax": 0
-    },
-    {
         "id": 30,
         "isOpen": 1,
         "matchGroup": 1,
@@ -1949,11 +1966,6 @@
         "roomNameKr": "교류탁",
         "strRule": "",
         "intervalImage": "",
-        "ruleImages": [
-            "",
-            "",
-            ""
-        ],
         "glimitFloor": 0,
         "glimitCeil": -1,
         "gcarry": 0,
@@ -1966,28 +1978,33 @@
         "initPoint": 25000,
         "backPoint": 30000,
         "countPoint": 25000,
-        "buchang": [
-            15,
-            5,
-            -5,
-            -15
-        ],
         "levelLimit": 0,
         "levelLimitCeil": 0,
         "tip": 0,
         "friendship": 0,
         "chestId": 0,
+        "levelMatch": 0,
+        "levelMatchRange": 0,
+        "levelMatchMax": 0
+    },
+    {
+        "ruleImages": [
+            "",
+            "",
+            ""
+        ],
+        "buchang": [
+            15,
+            0,
+            -15,
+            0
+        ],
         "chestExpAdd": [
             0,
             0,
             0,
             0
         ],
-        "levelMatch": 0,
-        "levelMatchRange": 0,
-        "levelMatchMax": 0
-    },
-    {
         "id": 31,
         "isOpen": 1,
         "matchGroup": 1,
@@ -2020,11 +2037,6 @@
         "roomNameKr": "교류탁",
         "strRule": "",
         "intervalImage": "",
-        "ruleImages": [
-            "",
-            "",
-            ""
-        ],
         "glimitFloor": 0,
         "glimitCeil": -1,
         "gcarry": 0,
@@ -2037,28 +2049,33 @@
         "initPoint": 35000,
         "backPoint": 40000,
         "countPoint": 35000,
+        "levelLimit": 0,
+        "levelLimitCeil": 0,
+        "tip": 0,
+        "friendship": 0,
+        "chestId": 0,
+        "levelMatch": 0,
+        "levelMatchRange": 0,
+        "levelMatchMax": 0
+    },
+    {
+        "ruleImages": [
+            "",
+            "",
+            ""
+        ],
         "buchang": [
             15,
             0,
             -15,
             0
         ],
-        "levelLimit": 0,
-        "levelLimitCeil": 0,
-        "tip": 0,
-        "friendship": 0,
-        "chestId": 0,
         "chestExpAdd": [
             0,
             0,
             0,
             0
         ],
-        "levelMatch": 0,
-        "levelMatchRange": 0,
-        "levelMatchMax": 0
-    },
-    {
         "id": 32,
         "isOpen": 1,
         "matchGroup": 1,
@@ -2091,11 +2108,6 @@
         "roomNameKr": "교류탁",
         "strRule": "",
         "intervalImage": "",
-        "ruleImages": [
-            "",
-            "",
-            ""
-        ],
         "glimitFloor": 0,
         "glimitCeil": -1,
         "gcarry": 0,
@@ -2108,28 +2120,33 @@
         "initPoint": 35000,
         "backPoint": 40000,
         "countPoint": 35000,
-        "buchang": [
-            15,
-            0,
-            -15,
-            0
-        ],
         "levelLimit": 0,
         "levelLimitCeil": 0,
         "tip": 0,
         "friendship": 0,
         "chestId": 0,
-        "chestExpAdd": [
-            0,
-            0,
-            0,
-            0
-        ],
         "levelMatch": 0,
         "levelMatchRange": 0,
         "levelMatchMax": 0
     },
     {
+        "ruleImages": [
+            "myres2/room_rule/baopai.png",
+            "",
+            ""
+        ],
+        "buchang": [
+            15,
+            5,
+            -5,
+            -15
+        ],
+        "chestExpAdd": [
+            260,
+            130,
+            95,
+            60
+        ],
         "id": 33,
         "isOpen": 1,
         "matchGroup": 3,
@@ -2162,11 +2179,6 @@
         "roomNameKr": "삼도라 모드",
         "strRule": "3651",
         "intervalImage": "myres2/activity_banner/interval/baopai.png",
-        "ruleImages": [
-            "myres2/room_rule/baopai.png",
-            "",
-            ""
-        ],
         "glimitFloor": 5000,
         "glimitCeil": -1,
         "gcarry": 5000,
@@ -2179,28 +2191,33 @@
         "initPoint": 35000,
         "backPoint": 40000,
         "countPoint": 35000,
+        "levelLimit": 0,
+        "levelLimitCeil": 0,
+        "tip": 1000,
+        "friendship": 40,
+        "chestId": 5,
+        "levelMatch": 0,
+        "levelMatchRange": 0,
+        "levelMatchMax": 0
+    },
+    {
+        "ruleImages": [
+            "",
+            "",
+            ""
+        ],
         "buchang": [
             15,
             5,
             -5,
             -15
         ],
-        "levelLimit": 0,
-        "levelLimitCeil": 0,
-        "tip": 1000,
-        "friendship": 40,
-        "chestId": 5,
         "chestExpAdd": [
             260,
             130,
             95,
             60
         ],
-        "levelMatch": 0,
-        "levelMatchRange": 0,
-        "levelMatchMax": 0
-    },
-    {
         "id": 34,
         "isOpen": 1,
         "matchGroup": 4,
@@ -2233,11 +2250,6 @@
         "roomNameKr": "배패공개",
         "strRule": "",
         "intervalImage": "",
-        "ruleImages": [
-            "",
-            "",
-            ""
-        ],
         "glimitFloor": 5000,
         "glimitCeil": -1,
         "gcarry": 5000,
@@ -2250,28 +2262,33 @@
         "initPoint": 25000,
         "backPoint": 30000,
         "countPoint": 25000,
+        "levelLimit": 0,
+        "levelLimitCeil": 0,
+        "tip": 1000,
+        "friendship": 40,
+        "chestId": 5,
+        "levelMatch": 0,
+        "levelMatchRange": 0,
+        "levelMatchMax": 0
+    },
+    {
+        "ruleImages": [
+            "myres2/room_rule/longzhimuyu1.png",
+            "myres2/room_rule/longzhimuyu2.png",
+            ""
+        ],
         "buchang": [
             15,
             5,
             -5,
             -15
         ],
-        "levelLimit": 0,
-        "levelLimitCeil": 0,
-        "tip": 1000,
-        "friendship": 40,
-        "chestId": 5,
         "chestExpAdd": [
             260,
             130,
             95,
             60
         ],
-        "levelMatch": 0,
-        "levelMatchRange": 0,
-        "levelMatchMax": 0
-    },
-    {
         "id": 35,
         "isOpen": 1,
         "matchGroup": 5,
@@ -2304,11 +2321,6 @@
         "roomNameKr": "용의 균열",
         "strRule": "20422",
         "intervalImage": "myres2/activity_banner/interval/longzhimuyu.png",
-        "ruleImages": [
-            "myres2/room_rule/longzhimuyu1.png",
-            "myres2/room_rule/longzhimuyu2.png",
-            ""
-        ],
         "glimitFloor": 5000,
         "glimitCeil": -1,
         "gcarry": 5000,
@@ -2321,28 +2333,33 @@
         "initPoint": 40000,
         "backPoint": 45000,
         "countPoint": 40000,
+        "levelLimit": 0,
+        "levelLimitCeil": 0,
+        "tip": 1000,
+        "friendship": 40,
+        "chestId": 5,
+        "levelMatch": 0,
+        "levelMatchRange": 0,
+        "levelMatchMax": 0
+    },
+    {
+        "ruleImages": [
+            "",
+            "",
+            ""
+        ],
         "buchang": [
             15,
             5,
             -5,
             -15
         ],
-        "levelLimit": 0,
-        "levelLimitCeil": 0,
-        "tip": 1000,
-        "friendship": 40,
-        "chestId": 5,
         "chestExpAdd": [
             260,
             130,
             95,
             60
         ],
-        "levelMatch": 0,
-        "levelMatchRange": 0,
-        "levelMatchMax": 0
-    },
-    {
         "id": 36,
         "isOpen": 1,
         "matchGroup": 6,
@@ -2375,11 +2392,6 @@
         "roomNameKr": "시련의 길",
         "strRule": "",
         "intervalImage": "",
-        "ruleImages": [
-            "",
-            "",
-            ""
-        ],
         "glimitFloor": 1500,
         "glimitCeil": -1,
         "gcarry": 1500,
@@ -2392,28 +2404,33 @@
         "initPoint": 25000,
         "backPoint": 30000,
         "countPoint": 25000,
-        "buchang": [
-            15,
-            5,
-            -5,
-            -15
-        ],
         "levelLimit": 0,
         "levelLimitCeil": 0,
         "tip": 1500,
         "friendship": 40,
         "chestId": 5,
-        "chestExpAdd": [
-            260,
-            130,
-            95,
-            60
-        ],
         "levelMatch": 1,
         "levelMatchRange": 10,
         "levelMatchMax": 60
     },
     {
+        "ruleImages": [
+            "",
+            "",
+            ""
+        ],
+        "buchang": [
+            15,
+            0,
+            -15,
+            0
+        ],
+        "chestExpAdd": [
+            240,
+            135,
+            50,
+            0
+        ],
         "id": 37,
         "isOpen": 1,
         "matchGroup": 7,
@@ -2446,11 +2463,6 @@
         "roomNameKr": "",
         "strRule": "",
         "intervalImage": "",
-        "ruleImages": [
-            "",
-            "",
-            ""
-        ],
         "glimitFloor": 0,
         "glimitCeil": 0,
         "gcarry": 0,
@@ -2463,28 +2475,33 @@
         "initPoint": 35000,
         "backPoint": 40000,
         "countPoint": 35000,
+        "levelLimit": 0,
+        "levelLimitCeil": 0,
+        "tip": 0,
+        "friendship": 40,
+        "chestId": 5,
+        "levelMatch": 1,
+        "levelMatchRange": 10,
+        "levelMatchMax": 1000
+    },
+    {
+        "ruleImages": [
+            "",
+            "",
+            ""
+        ],
         "buchang": [
             15,
             0,
             -15,
             0
         ],
-        "levelLimit": 0,
-        "levelLimitCeil": 0,
-        "tip": 0,
-        "friendship": 40,
-        "chestId": 5,
         "chestExpAdd": [
             240,
             135,
             50,
             0
         ],
-        "levelMatch": 1,
-        "levelMatchRange": 10,
-        "levelMatchMax": 1000
-    },
-    {
         "id": 38,
         "isOpen": 1,
         "matchGroup": 8,
@@ -2517,11 +2534,6 @@
         "roomNameKr": "",
         "strRule": "",
         "intervalImage": "",
-        "ruleImages": [
-            "",
-            "",
-            ""
-        ],
         "glimitFloor": 0,
         "glimitCeil": 0,
         "gcarry": 0,
@@ -2534,28 +2546,33 @@
         "initPoint": 35000,
         "backPoint": 40000,
         "countPoint": 35000,
+        "levelLimit": 0,
+        "levelLimitCeil": 0,
+        "tip": 0,
+        "friendship": 40,
+        "chestId": 5,
+        "levelMatch": 1,
+        "levelMatchRange": 10,
+        "levelMatchMax": 1000
+    },
+    {
+        "ruleImages": [
+            "",
+            "",
+            ""
+        ],
         "buchang": [
             15,
             0,
             -15,
             0
         ],
-        "levelLimit": 0,
-        "levelLimitCeil": 0,
-        "tip": 0,
-        "friendship": 40,
-        "chestId": 5,
         "chestExpAdd": [
             240,
             135,
             50,
             0
         ],
-        "levelMatch": 1,
-        "levelMatchRange": 10,
-        "levelMatchMax": 1000
-    },
-    {
         "id": 39,
         "isOpen": 1,
         "matchGroup": 9,
@@ -2588,11 +2605,6 @@
         "roomNameKr": "",
         "strRule": "",
         "intervalImage": "",
-        "ruleImages": [
-            "",
-            "",
-            ""
-        ],
         "glimitFloor": 0,
         "glimitCeil": 0,
         "gcarry": 0,
@@ -2605,28 +2617,33 @@
         "initPoint": 35000,
         "backPoint": 40000,
         "countPoint": 35000,
-        "buchang": [
-            15,
-            0,
-            -15,
-            0
-        ],
         "levelLimit": 0,
         "levelLimitCeil": 0,
         "tip": 0,
         "friendship": 40,
         "chestId": 5,
-        "chestExpAdd": [
-            240,
-            135,
-            50,
-            0
-        ],
         "levelMatch": 1,
         "levelMatchRange": 10,
         "levelMatchMax": 1000
     },
     {
+        "ruleImages": [
+            "myres2/room_rule/xiuluo.png",
+            "",
+            ""
+        ],
+        "buchang": [
+            15,
+            5,
+            -5,
+            -15
+        ],
+        "chestExpAdd": [
+            260,
+            130,
+            95,
+            60
+        ],
         "id": 40,
         "isOpen": 1,
         "matchGroup": 10,
@@ -2659,11 +2676,6 @@
         "roomNameKr": "수라전",
         "strRule": "3390",
         "intervalImage": "myres2/activity_banner/interval/xiuluo.png",
-        "ruleImages": [
-            "myres2/room_rule/xiuluo.png",
-            "",
-            ""
-        ],
         "glimitFloor": 5000,
         "glimitCeil": -1,
         "gcarry": 5000,
@@ -2676,28 +2688,33 @@
         "initPoint": 25000,
         "backPoint": 30000,
         "countPoint": 25000,
+        "levelLimit": 0,
+        "levelLimitCeil": 0,
+        "tip": 1000,
+        "friendship": 40,
+        "chestId": 5,
+        "levelMatch": 0,
+        "levelMatchRange": 0,
+        "levelMatchMax": 0
+    },
+    {
+        "ruleImages": [
+            "myres2/room_rule/chiyu1.png",
+            "myres2/room_rule/chiyu2.png",
+            ""
+        ],
         "buchang": [
             15,
             5,
             -5,
             -15
         ],
-        "levelLimit": 0,
-        "levelLimitCeil": 0,
-        "tip": 1000,
-        "friendship": 40,
-        "chestId": 5,
         "chestExpAdd": [
             260,
             130,
             95,
             60
         ],
-        "levelMatch": 0,
-        "levelMatchRange": 0,
-        "levelMatchMax": 0
-    },
-    {
         "id": 41,
         "isOpen": 1,
         "matchGroup": 11,
@@ -2730,11 +2747,6 @@
         "roomNameKr": "적혈전",
         "strRule": "3650",
         "intervalImage": "myres2/activity_banner/interval/chiyu.png",
-        "ruleImages": [
-            "myres2/room_rule/chiyu1.png",
-            "myres2/room_rule/chiyu2.png",
-            ""
-        ],
         "glimitFloor": 5000,
         "glimitCeil": -1,
         "gcarry": 5000,
@@ -2747,28 +2759,33 @@
         "initPoint": 50000,
         "backPoint": 50000,
         "countPoint": 50000,
+        "levelLimit": 0,
+        "levelLimitCeil": 0,
+        "tip": 1000,
+        "friendship": 40,
+        "chestId": 5,
+        "levelMatch": 0,
+        "levelMatchRange": 0,
+        "levelMatchMax": 0
+    },
+    {
+        "ruleImages": [
+            "",
+            "",
+            ""
+        ],
         "buchang": [
             15,
             5,
             -5,
             -15
         ],
-        "levelLimit": 0,
-        "levelLimitCeil": 0,
-        "tip": 1000,
-        "friendship": 40,
-        "chestId": 5,
         "chestExpAdd": [
             260,
             130,
             95,
             60
         ],
-        "levelMatch": 0,
-        "levelMatchRange": 0,
-        "levelMatchMax": 0
-    },
-    {
         "id": 42,
         "isOpen": 1,
         "matchGroup": 12,
@@ -2801,11 +2818,6 @@
         "roomNameKr": "이벤트",
         "strRule": "",
         "intervalImage": "",
-        "ruleImages": [
-            "",
-            "",
-            ""
-        ],
         "glimitFloor": 0,
         "glimitCeil": 0,
         "gcarry": 0,
@@ -2818,28 +2830,33 @@
         "initPoint": 25000,
         "backPoint": 30000,
         "countPoint": 25000,
+        "levelLimit": 0,
+        "levelLimitCeil": 0,
+        "tip": 0,
+        "friendship": 40,
+        "chestId": 5,
+        "levelMatch": 0,
+        "levelMatchRange": 0,
+        "levelMatchMax": 0
+    },
+    {
+        "ruleImages": [
+            "",
+            "",
+            ""
+        ],
         "buchang": [
             15,
             5,
             -5,
             -15
         ],
-        "levelLimit": 0,
-        "levelLimitCeil": 0,
-        "tip": 0,
-        "friendship": 40,
-        "chestId": 5,
         "chestExpAdd": [
             260,
             130,
             95,
             60
         ],
-        "levelMatch": 0,
-        "levelMatchRange": 0,
-        "levelMatchMax": 0
-    },
-    {
         "id": 43,
         "isOpen": 1,
         "matchGroup": 13,
@@ -2872,11 +2889,6 @@
         "roomNameKr": "이벤트",
         "strRule": "",
         "intervalImage": "",
-        "ruleImages": [
-            "",
-            "",
-            ""
-        ],
         "glimitFloor": 5000,
         "glimitCeil": -1,
         "gcarry": 5000,
@@ -2889,28 +2901,33 @@
         "initPoint": 25000,
         "backPoint": 30000,
         "countPoint": 25000,
+        "levelLimit": 0,
+        "levelLimitCeil": 0,
+        "tip": 1000,
+        "friendship": 40,
+        "chestId": 5,
+        "levelMatch": 0,
+        "levelMatchRange": 0,
+        "levelMatchMax": 0
+    },
+    {
+        "ruleImages": [
+            "",
+            "",
+            ""
+        ],
         "buchang": [
             15,
             5,
             -5,
             -15
         ],
-        "levelLimit": 0,
-        "levelLimitCeil": 0,
-        "tip": 1000,
-        "friendship": 40,
-        "chestId": 5,
         "chestExpAdd": [
             260,
             130,
             95,
             60
         ],
-        "levelMatch": 0,
-        "levelMatchRange": 0,
-        "levelMatchMax": 0
-    },
-    {
         "id": 44,
         "isOpen": 1,
         "matchGroup": 14,
@@ -2943,11 +2960,6 @@
         "roomNameKr": "명경전",
         "strRule": "",
         "intervalImage": "",
-        "ruleImages": [
-            "",
-            "",
-            ""
-        ],
         "glimitFloor": 5000,
         "glimitCeil": -1,
         "gcarry": 5000,
@@ -2960,28 +2972,33 @@
         "initPoint": 25000,
         "backPoint": 30000,
         "countPoint": 25000,
+        "levelLimit": 0,
+        "levelLimitCeil": 0,
+        "tip": 1000,
+        "friendship": 40,
+        "chestId": 5,
+        "levelMatch": 0,
+        "levelMatchRange": 0,
+        "levelMatchMax": 0
+    },
+    {
+        "ruleImages": [
+            "myres2/room_rule/anye1.png",
+            "myres2/room_rule/anye2.png",
+            ""
+        ],
         "buchang": [
             15,
             5,
             -5,
             -15
         ],
-        "levelLimit": 0,
-        "levelLimitCeil": 0,
-        "tip": 1000,
-        "friendship": 40,
-        "chestId": 5,
         "chestExpAdd": [
             260,
             130,
             95,
             60
         ],
-        "levelMatch": 0,
-        "levelMatchRange": 0,
-        "levelMatchMax": 0
-    },
-    {
         "id": 45,
         "isOpen": 1,
         "matchGroup": 15,
@@ -3014,11 +3031,6 @@
         "roomNameKr": "암야전",
         "strRule": "3528",
         "intervalImage": "myres2/activity_banner/interval/anye.png",
-        "ruleImages": [
-            "myres2/room_rule/anye1.png",
-            "myres2/room_rule/anye2.png",
-            ""
-        ],
         "glimitFloor": 5000,
         "glimitCeil": -1,
         "gcarry": 5000,
@@ -3031,28 +3043,33 @@
         "initPoint": 25000,
         "backPoint": 30000,
         "countPoint": 25000,
+        "levelLimit": 0,
+        "levelLimitCeil": 0,
+        "tip": 1000,
+        "friendship": 40,
+        "chestId": 5,
+        "levelMatch": 0,
+        "levelMatchRange": 0,
+        "levelMatchMax": 0
+    },
+    {
+        "ruleImages": [
+            "myres2/room_rule/huanjing.png",
+            "",
+            ""
+        ],
         "buchang": [
             15,
             5,
             -5,
             -15
         ],
-        "levelLimit": 0,
-        "levelLimitCeil": 0,
-        "tip": 1000,
-        "friendship": 40,
-        "chestId": 5,
         "chestExpAdd": [
             260,
             130,
             95,
             60
         ],
-        "levelMatch": 0,
-        "levelMatchRange": 0,
-        "levelMatchMax": 0
-    },
-    {
         "id": 46,
         "isOpen": 1,
         "matchGroup": 16,
@@ -3085,11 +3102,6 @@
         "roomNameKr": "환상전설",
         "strRule": "3588",
         "intervalImage": "myres2/activity_banner/interval/huanjing.png",
-        "ruleImages": [
-            "myres2/room_rule/huanjing.png",
-            "",
-            ""
-        ],
         "glimitFloor": 5000,
         "glimitCeil": -1,
         "gcarry": 5000,
@@ -3102,28 +3114,33 @@
         "initPoint": 25000,
         "backPoint": 30000,
         "countPoint": 25000,
+        "levelLimit": 0,
+        "levelLimitCeil": 0,
+        "tip": 1000,
+        "friendship": 40,
+        "chestId": 5,
+        "levelMatch": 0,
+        "levelMatchRange": 0,
+        "levelMatchMax": 0
+    },
+    {
+        "ruleImages": [
+            "myres2/room_rule/zhanxing.png",
+            "",
+            ""
+        ],
         "buchang": [
             15,
             5,
             -5,
             -15
         ],
-        "levelLimit": 0,
-        "levelLimitCeil": 0,
-        "tip": 1000,
-        "friendship": 40,
-        "chestId": 5,
         "chestExpAdd": [
             260,
             130,
             95,
             60
         ],
-        "levelMatch": 0,
-        "levelMatchRange": 0,
-        "levelMatchMax": 0
-    },
-    {
         "id": 47,
         "isOpen": 1,
         "matchGroup": 17,
@@ -3156,11 +3173,6 @@
         "roomNameKr": "별마루전",
         "strRule": "3705",
         "intervalImage": "myres2/activity_banner/interval/zhanxing.png",
-        "ruleImages": [
-            "myres2/room_rule/zhanxing.png",
-            "",
-            ""
-        ],
         "glimitFloor": 5000,
         "glimitCeil": -1,
         "gcarry": 5000,
@@ -3173,28 +3185,33 @@
         "initPoint": 25000,
         "backPoint": 30000,
         "countPoint": 25000,
+        "levelLimit": 0,
+        "levelLimitCeil": 0,
+        "tip": 1000,
+        "friendship": 40,
+        "chestId": 5,
+        "levelMatch": 0,
+        "levelMatchRange": 0,
+        "levelMatchMax": 0
+    },
+    {
+        "ruleImages": [
+            "myres2/room_rule/tianming1.png",
+            "myres2/room_rule/tianming2.png",
+            ""
+        ],
         "buchang": [
             15,
             5,
             -5,
             -15
         ],
-        "levelLimit": 0,
-        "levelLimitCeil": 0,
-        "tip": 1000,
-        "friendship": 40,
-        "chestId": 5,
         "chestExpAdd": [
             260,
             130,
             95,
             60
         ],
-        "levelMatch": 0,
-        "levelMatchRange": 0,
-        "levelMatchMax": 0
-    },
-    {
         "id": 48,
         "isOpen": 1,
         "matchGroup": 18,
@@ -3227,11 +3244,6 @@
         "roomNameKr": "천명전",
         "strRule": "3857",
         "intervalImage": "myres2/activity_banner/interval/tianming.png",
-        "ruleImages": [
-            "myres2/room_rule/tianming1.png",
-            "myres2/room_rule/tianming2.png",
-            ""
-        ],
         "glimitFloor": 5000,
         "glimitCeil": -1,
         "gcarry": 5000,
@@ -3244,28 +3256,33 @@
         "initPoint": 50000,
         "backPoint": 55000,
         "countPoint": 50000,
+        "levelLimit": 0,
+        "levelLimitCeil": 0,
+        "tip": 1000,
+        "friendship": 40,
+        "chestId": 5,
+        "levelMatch": 0,
+        "levelMatchRange": 0,
+        "levelMatchMax": 0
+    },
+    {
+        "ruleImages": [
+            "myres2/room_rule/yongchang1.png",
+            "myres2/room_rule/yongchang2.png",
+            ""
+        ],
         "buchang": [
             15,
             5,
             -5,
             -15
         ],
-        "levelLimit": 0,
-        "levelLimitCeil": 0,
-        "tip": 1000,
-        "friendship": 40,
-        "chestId": 5,
         "chestExpAdd": [
             260,
             130,
             95,
             60
         ],
-        "levelMatch": 0,
-        "levelMatchRange": 0,
-        "levelMatchMax": 0
-    },
-    {
         "id": 49,
         "isOpen": 1,
         "matchGroup": 19,
@@ -3298,11 +3315,6 @@
         "roomNameKr": "영창전",
         "strRule": "3987",
         "intervalImage": "myres2/activity_banner/interval/yongchang.png",
-        "ruleImages": [
-            "myres2/room_rule/yongchang1.png",
-            "myres2/room_rule/yongchang2.png",
-            ""
-        ],
         "glimitFloor": 5000,
         "glimitCeil": -1,
         "gcarry": 5000,
@@ -3315,28 +3327,33 @@
         "initPoint": 25000,
         "backPoint": 30000,
         "countPoint": 25000,
+        "levelLimit": 0,
+        "levelLimitCeil": 0,
+        "tip": 1000,
+        "friendship": 40,
+        "chestId": 5,
+        "levelMatch": 0,
+        "levelMatchRange": 0,
+        "levelMatchMax": 0
+    },
+    {
+        "ruleImages": [
+            "myres2/room_rule/hunzhiyiji1.png",
+            "myres2/room_rule/hunzhiyiji2.png",
+            ""
+        ],
         "buchang": [
             15,
             5,
             -5,
             -15
         ],
-        "levelLimit": 0,
-        "levelLimitCeil": 0,
-        "tip": 1000,
-        "friendship": 40,
-        "chestId": 5,
         "chestExpAdd": [
             260,
             130,
             95,
             60
         ],
-        "levelMatch": 0,
-        "levelMatchRange": 0,
-        "levelMatchMax": 0
-    },
-    {
         "id": 50,
         "isOpen": 1,
         "matchGroup": 20,
@@ -3369,11 +3386,6 @@
         "roomNameKr": "영혼의 일격",
         "strRule": "4208",
         "intervalImage": "myres2/activity_banner/interval/hunzhiyiji.png",
-        "ruleImages": [
-            "myres2/room_rule/hunzhiyiji1.png",
-            "myres2/room_rule/hunzhiyiji2.png",
-            ""
-        ],
         "glimitFloor": 5000,
         "glimitCeil": -1,
         "gcarry": 5000,
@@ -3386,28 +3398,33 @@
         "initPoint": 25000,
         "backPoint": 30000,
         "countPoint": 25000,
+        "levelLimit": 0,
+        "levelLimitCeil": 0,
+        "tip": 1000,
+        "friendship": 40,
+        "chestId": 5,
+        "levelMatch": 0,
+        "levelMatchRange": 0,
+        "levelMatchMax": 0
+    },
+    {
+        "ruleImages": [
+            "myres2/room_rule/wanxiang1.png",
+            "myres2/room_rule/wanxiang2.png",
+            ""
+        ],
         "buchang": [
             15,
             5,
             -5,
             -15
         ],
-        "levelLimit": 0,
-        "levelLimitCeil": 0,
-        "tip": 1000,
-        "friendship": 40,
-        "chestId": 5,
         "chestExpAdd": [
             260,
             130,
             95,
             60
         ],
-        "levelMatch": 0,
-        "levelMatchRange": 0,
-        "levelMatchMax": 0
-    },
-    {
         "id": 51,
         "isOpen": 1,
         "matchGroup": 21,
@@ -3440,11 +3457,6 @@
         "roomNameKr": "만상수라",
         "strRule": "20194",
         "intervalImage": "myres2/activity_banner/interval/wanxiang.png",
-        "ruleImages": [
-            "myres2/room_rule/wanxiang1.png",
-            "myres2/room_rule/wanxiang2.png",
-            ""
-        ],
         "glimitFloor": 5000,
         "glimitCeil": -1,
         "gcarry": 5000,
@@ -3457,28 +3469,33 @@
         "initPoint": 25000,
         "backPoint": 30000,
         "countPoint": 25000,
+        "levelLimit": 0,
+        "levelLimitCeil": 0,
+        "tip": 1000,
+        "friendship": 40,
+        "chestId": 5,
+        "levelMatch": 0,
+        "levelMatchRange": 0,
+        "levelMatchMax": 0
+    },
+    {
+        "ruleImages": [
+            "",
+            "",
+            ""
+        ],
         "buchang": [
             15,
             5,
             -5,
             -15
         ],
-        "levelLimit": 0,
-        "levelLimitCeil": 0,
-        "tip": 1000,
-        "friendship": 40,
-        "chestId": 5,
         "chestExpAdd": [
             260,
             130,
             95,
             60
         ],
-        "levelMatch": 0,
-        "levelMatchRange": 0,
-        "levelMatchMax": 0
-    },
-    {
         "id": 52,
         "isOpen": 1,
         "matchGroup": 22,
@@ -3511,11 +3528,6 @@
         "roomNameKr": "배수의 전",
         "strRule": "",
         "intervalImage": "",
-        "ruleImages": [
-            "",
-            "",
-            ""
-        ],
         "glimitFloor": 5000,
         "glimitCeil": -1,
         "gcarry": 5000,
@@ -3528,28 +3540,33 @@
         "initPoint": 25000,
         "backPoint": 30000,
         "countPoint": 25000,
+        "levelLimit": 0,
+        "levelLimitCeil": 0,
+        "tip": 1000,
+        "friendship": 40,
+        "chestId": 5,
+        "levelMatch": 0,
+        "levelMatchRange": 0,
+        "levelMatchMax": 0
+    },
+    {
+        "ruleImages": [
+            "myres2/room_rule/xiakeshang.png",
+            "",
+            ""
+        ],
         "buchang": [
             15,
             5,
             -5,
             -15
         ],
-        "levelLimit": 0,
-        "levelLimitCeil": 0,
-        "tip": 1000,
-        "friendship": 40,
-        "chestId": 5,
         "chestExpAdd": [
             260,
             130,
             95,
             60
         ],
-        "levelMatch": 0,
-        "levelMatchRange": 0,
-        "levelMatchMax": 0
-    },
-    {
         "id": 53,
         "isOpen": 1,
         "matchGroup": 23,
@@ -3582,11 +3599,6 @@
         "roomNameKr": "하극상",
         "strRule": "25101013",
         "intervalImage": "myres2/activity_banner/interval/xiakeshang.png",
-        "ruleImages": [
-            "myres2/room_rule/xiakeshang.png",
-            "",
-            ""
-        ],
         "glimitFloor": 5000,
         "glimitCeil": -1,
         "gcarry": 5000,
@@ -3599,23 +3611,11 @@
         "initPoint": 25000,
         "backPoint": 30000,
         "countPoint": 25000,
-        "buchang": [
-            15,
-            5,
-            -5,
-            -15
-        ],
         "levelLimit": 0,
         "levelLimitCeil": 0,
         "tip": 1000,
         "friendship": 40,
         "chestId": 5,
-        "chestExpAdd": [
-            260,
-            130,
-            95,
-            60
-        ],
         "levelMatch": 0,
         "levelMatchRange": 0,
         "levelMatchMax": 0

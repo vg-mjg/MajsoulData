@@ -1,101 +1,101 @@
 [
     {
+        "args": [
+            69,
+            41
+        ],
         "activityId": 250401,
         "storyId": 1,
         "triggerType": 1,
         "weight": 10,
-        "strId": 19027,
-        "args": [
-            69,
-            41
-        ]
+        "strId": 19027
     },
     {
+        "args": [
+            40,
+            21
+        ],
         "activityId": 250401,
         "storyId": 2,
         "triggerType": 1,
         "weight": 10,
-        "strId": 19028,
-        "args": [
-            40,
-            21
-        ]
+        "strId": 19028
     },
     {
+        "args": [
+            20,
+            0
+        ],
         "activityId": 250401,
         "storyId": 3,
         "triggerType": 1,
         "weight": 10,
-        "strId": 19029,
-        "args": [
-            20,
-            0
-        ]
+        "strId": 19029
     },
     {
+        "args": [
+            0,
+            0
+        ],
         "activityId": 250401,
         "storyId": 4,
         "triggerType": 2,
         "weight": 30,
-        "strId": 19030,
+        "strId": 19030
+    },
+    {
         "args": [
             0,
             0
-        ]
-    },
-    {
+        ],
         "activityId": 250401,
         "storyId": 5,
         "triggerType": 2,
         "weight": 30,
-        "strId": 19031,
+        "strId": 19031
+    },
+    {
         "args": [
             0,
             0
-        ]
-    },
-    {
+        ],
         "activityId": 250401,
         "storyId": 6,
         "triggerType": 2,
         "weight": 30,
-        "strId": 19032,
+        "strId": 19032
+    },
+    {
         "args": [
             0,
             0
-        ]
-    },
-    {
+        ],
         "activityId": 250401,
         "storyId": 7,
         "triggerType": 3,
         "weight": 30,
-        "strId": 19033,
+        "strId": 19033
+    },
+    {
         "args": [
             0,
             0
-        ]
-    },
-    {
+        ],
         "activityId": 250401,
         "storyId": 8,
         "triggerType": 3,
         "weight": 30,
-        "strId": 19034,
+        "strId": 19034
+    },
+    {
         "args": [
             0,
             0
-        ]
-    },
-    {
+        ],
         "activityId": 250401,
         "storyId": 9,
         "triggerType": 3,
         "weight": 30,
-        "strId": 19035,
-        "args": [
-            0,
-            0
-        ]
+        "strId": 19035
     }
 ]

@@ -1,9 +1,19 @@
 [
     {
+        "check": [
+            "tec",
+            ""
+        ],
+        "args": [
+            0,
+            0
+        ],
         "eventId": 1001,
         "selectionId": 100101,
         "selectionDesc": 25044001,
-        "type": 1,
+        "type": 1
+    },
+    {
         "check": [
             "tec",
             ""
@@ -11,111 +21,111 @@
         "args": [
             0,
             0
-        ]
-    },
-    {
+        ],
         "eventId": 1001,
         "selectionId": 100102,
         "selectionDesc": 25045001,
-        "type": 1,
+        "type": 1
+    },
+    {
         "check": [
-            "tec",
+            "",
             ""
         ],
         "args": [
-            0,
+            9001,
             0
-        ]
-    },
-    {
+        ],
         "eventId": 1001,
         "selectionId": 100103,
         "selectionDesc": 25046001,
-        "type": 2,
+        "type": 2
+    },
+    {
         "check": [
             "",
             ""
         ],
         "args": [
-            9001,
+            9015,
             0
-        ]
-    },
-    {
+        ],
         "eventId": 1001,
         "selectionId": 100104,
         "selectionDesc": 25047001,
-        "type": 2,
+        "type": 2
+    },
+    {
         "check": [
-            "",
+            "ins",
             ""
         ],
         "args": [
-            9015,
+            0,
             0
-        ]
-    },
-    {
+        ],
         "eventId": 1002,
         "selectionId": 100201,
         "selectionDesc": 25044002,
-        "type": 1,
+        "type": 1
+    },
+    {
         "check": [
-            "ins",
+            "",
             ""
         ],
         "args": [
-            0,
+            9020,
             0
-        ]
-    },
-    {
+        ],
         "eventId": 1002,
         "selectionId": 100202,
         "selectionDesc": 25045002,
-        "type": 2,
+        "type": 2
+    },
+    {
         "check": [
-            "",
+            "ins",
             ""
         ],
         "args": [
-            9020,
+            9001,
             0
-        ]
-    },
-    {
+        ],
         "eventId": 1002,
         "selectionId": 100203,
         "selectionDesc": 25046002,
-        "type": 3,
+        "type": 3
+    },
+    {
         "check": [
-            "ins",
+            "",
             ""
         ],
         "args": [
-            9001,
+            9007,
             0
-        ]
-    },
-    {
+        ],
         "eventId": 1002,
         "selectionId": 100204,
         "selectionDesc": 25047002,
-        "type": 2,
+        "type": 2
+    },
+    {
         "check": [
-            "",
+            "res",
             ""
         ],
         "args": [
-            9007,
+            0,
             0
-        ]
-    },
-    {
+        ],
         "eventId": 1003,
         "selectionId": 100301,
         "selectionDesc": 25044003,
-        "type": 1,
+        "type": 1
+    },
+    {
         "check": [
             "res",
             ""
@@ -123,69 +133,69 @@
         "args": [
             0,
             0
-        ]
-    },
-    {
+        ],
         "eventId": 1003,
         "selectionId": 100302,
         "selectionDesc": 25045003,
-        "type": 1,
+        "type": 1
+    },
+    {
         "check": [
-            "res",
+            "",
             ""
         ],
         "args": [
-            0,
+            9006,
             0
-        ]
-    },
-    {
+        ],
         "eventId": 1003,
         "selectionId": 100303,
         "selectionDesc": 25046003,
-        "type": 2,
+        "type": 2
+    },
+    {
         "check": [
             "",
             ""
         ],
         "args": [
-            9006,
+            9009,
             0
-        ]
-    },
-    {
+        ],
         "eventId": 1003,
         "selectionId": 100304,
         "selectionDesc": 25047003,
-        "type": 2,
+        "type": 2
+    },
+    {
         "check": [
             "",
             ""
         ],
         "args": [
-            9009,
+            9003,
             0
-        ]
-    },
-    {
+        ],
         "eventId": 1004,
         "selectionId": 100401,
         "selectionDesc": 25044004,
-        "type": 2,
+        "type": 2
+    },
+    {
         "check": [
-            "",
+            "int",
             ""
         ],
         "args": [
-            9003,
+            0,
             0
-        ]
-    },
-    {
+        ],
         "eventId": 1004,
         "selectionId": 100402,
         "selectionDesc": 25045004,
-        "type": 1,
+        "type": 1
+    },
+    {
         "check": [
             "int",
             ""
@@ -193,111 +203,111 @@
         "args": [
             0,
             0
-        ]
-    },
-    {
+        ],
         "eventId": 1004,
         "selectionId": 100403,
         "selectionDesc": 25046004,
-        "type": 1,
+        "type": 1
+    },
+    {
         "check": [
             "int",
             ""
         ],
         "args": [
-            0,
+            9017,
             0
-        ]
-    },
-    {
+        ],
         "eventId": 1004,
         "selectionId": 100404,
         "selectionDesc": 25047004,
-        "type": 2,
+        "type": 2
+    },
+    {
         "check": [
-            "int",
+            "res",
             ""
         ],
         "args": [
-            9017,
+            9016,
             0
-        ]
-    },
-    {
+        ],
         "eventId": 1005,
         "selectionId": 100501,
         "selectionDesc": 25044005,
-        "type": 2,
+        "type": 2
+    },
+    {
         "check": [
             "res",
             ""
         ],
         "args": [
-            9016,
+            0,
             0
-        ]
-    },
-    {
+        ],
         "eventId": 1005,
         "selectionId": 100502,
         "selectionDesc": 25045005,
-        "type": 1,
+        "type": 1
+    },
+    {
         "check": [
             "res",
             ""
         ],
         "args": [
-            0,
+            9013,
             0
-        ]
-    },
-    {
+        ],
         "eventId": 1005,
         "selectionId": 100503,
         "selectionDesc": 25046005,
-        "type": 3,
+        "type": 3
+    },
+    {
         "check": [
             "res",
             ""
         ],
         "args": [
-            9013,
+            9018,
             0
-        ]
-    },
-    {
+        ],
         "eventId": 1005,
         "selectionId": 100504,
         "selectionDesc": 25047005,
-        "type": 2,
+        "type": 2
+    },
+    {
         "check": [
             "res",
             ""
         ],
         "args": [
-            9018,
+            9011,
             0
-        ]
-    },
-    {
+        ],
         "eventId": 1005,
         "selectionId": 100505,
         "selectionDesc": 25048005,
-        "type": 2,
+        "type": 2
+    },
+    {
         "check": [
-            "res",
+            "luk",
             ""
         ],
         "args": [
-            9011,
+            0,
             0
-        ]
-    },
-    {
+        ],
         "eventId": 1006,
         "selectionId": 100601,
         "selectionDesc": 25044006,
-        "type": 1,
+        "type": 1
+    },
+    {
         "check": [
             "luk",
             ""
@@ -305,55 +315,55 @@
         "args": [
             0,
             0
-        ]
-    },
-    {
+        ],
         "eventId": 1006,
         "selectionId": 100602,
         "selectionDesc": 25045006,
-        "type": 1,
+        "type": 1
+    },
+    {
         "check": [
-            "luk",
+            "",
             ""
         ],
         "args": [
-            0,
+            9009,
             0
-        ]
-    },
-    {
+        ],
         "eventId": 1006,
         "selectionId": 100603,
         "selectionDesc": 25046006,
-        "type": 2,
+        "type": 2
+    },
+    {
         "check": [
             "",
             ""
         ],
         "args": [
-            9009,
+            9003,
             0
-        ]
-    },
-    {
+        ],
         "eventId": 1006,
         "selectionId": 100604,
         "selectionDesc": 25047006,
-        "type": 2,
+        "type": 2
+    },
+    {
         "check": [
-            "",
+            "int",
             ""
         ],
         "args": [
-            9003,
+            0,
             0
-        ]
-    },
-    {
+        ],
         "eventId": 1007,
         "selectionId": 100701,
         "selectionDesc": 25044007,
-        "type": 1,
+        "type": 1
+    },
+    {
         "check": [
             "int",
             ""
@@ -361,125 +371,125 @@
         "args": [
             0,
             0
-        ]
-    },
-    {
+        ],
         "eventId": 1007,
         "selectionId": 100702,
         "selectionDesc": 25045007,
-        "type": 1,
+        "type": 1
+    },
+    {
         "check": [
-            "int",
+            "",
             ""
         ],
         "args": [
             0,
             0
-        ]
-    },
-    {
+        ],
         "eventId": 1007,
         "selectionId": 100703,
         "selectionDesc": 25046007,
-        "type": 1,
+        "type": 1
+    },
+    {
         "check": [
             "",
             ""
         ],
         "args": [
-            0,
+            9011,
             0
-        ]
-    },
-    {
+        ],
         "eventId": 1007,
         "selectionId": 100704,
         "selectionDesc": 25047007,
-        "type": 2,
+        "type": 2
+    },
+    {
         "check": [
             "",
             ""
         ],
         "args": [
-            9011,
+            9007,
             0
-        ]
-    },
-    {
+        ],
         "eventId": 1007,
         "selectionId": 100705,
         "selectionDesc": 25048007,
-        "type": 2,
+        "type": 2
+    },
+    {
         "check": [
-            "",
+            "luk",
             ""
         ],
         "args": [
-            9007,
+            0,
             0
-        ]
-    },
-    {
+        ],
         "eventId": 1008,
         "selectionId": 100801,
         "selectionDesc": 25044008,
-        "type": 1,
+        "type": 1
+    },
+    {
         "check": [
-            "luk",
+            "",
             ""
         ],
         "args": [
-            0,
+            9016,
             0
-        ]
-    },
-    {
+        ],
         "eventId": 1008,
         "selectionId": 100802,
         "selectionDesc": 25045008,
-        "type": 2,
+        "type": 2
+    },
+    {
         "check": [
-            "",
+            "tec",
             ""
         ],
         "args": [
-            9016,
+            0,
             0
-        ]
-    },
-    {
+        ],
         "eventId": 1008,
         "selectionId": 100803,
         "selectionDesc": 25046008,
-        "type": 1,
+        "type": 1
+    },
+    {
         "check": [
-            "tec",
+            "",
             ""
         ],
         "args": [
-            0,
+            9010,
             0
-        ]
-    },
-    {
+        ],
         "eventId": 1008,
         "selectionId": 100804,
         "selectionDesc": 25047008,
-        "type": 2,
+        "type": 2
+    },
+    {
         "check": [
-            "",
+            "res",
             ""
         ],
         "args": [
-            9010,
+            0,
             0
-        ]
-    },
-    {
+        ],
         "eventId": 1009,
         "selectionId": 100901,
         "selectionDesc": 25044009,
-        "type": 1,
+        "type": 1
+    },
+    {
         "check": [
             "res",
             ""
@@ -487,573 +497,573 @@
         "args": [
             0,
             0
-        ]
-    },
-    {
+        ],
         "eventId": 1009,
         "selectionId": 100902,
         "selectionDesc": 25045009,
-        "type": 1,
+        "type": 1
+    },
+    {
         "check": [
-            "res",
+            "",
             ""
         ],
         "args": [
-            0,
+            9014,
             0
-        ]
-    },
-    {
+        ],
         "eventId": 1009,
         "selectionId": 100903,
         "selectionDesc": 25046009,
-        "type": 2,
+        "type": 2
+    },
+    {
         "check": [
             "",
             ""
         ],
         "args": [
-            9014,
+            9017,
             0
-        ]
-    },
-    {
+        ],
         "eventId": 1009,
         "selectionId": 100904,
         "selectionDesc": 25047009,
-        "type": 2,
+        "type": 2
+    },
+    {
         "check": [
             "",
             ""
         ],
         "args": [
-            9017,
+            9010,
             0
-        ]
-    },
-    {
+        ],
         "eventId": 1009,
         "selectionId": 100905,
         "selectionDesc": 25048009,
-        "type": 2,
+        "type": 2
+    },
+    {
         "check": [
-            "",
+            "ins",
             ""
         ],
         "args": [
-            9010,
+            0,
             0
-        ]
-    },
-    {
+        ],
         "eventId": 1010,
         "selectionId": 101001,
         "selectionDesc": 25044010,
-        "type": 1,
+        "type": 1
+    },
+    {
         "check": [
-            "ins",
+            "int",
             ""
         ],
         "args": [
             0,
             0
-        ]
-    },
-    {
+        ],
         "eventId": 1010,
         "selectionId": 101002,
         "selectionDesc": 25045010,
-        "type": 1,
+        "type": 1
+    },
+    {
         "check": [
-            "int",
+            "",
             ""
         ],
         "args": [
-            0,
+            9008,
             0
-        ]
-    },
-    {
+        ],
         "eventId": 1010,
         "selectionId": 101003,
         "selectionDesc": 25046010,
-        "type": 2,
+        "type": 2
+    },
+    {
         "check": [
             "",
             ""
         ],
         "args": [
-            9008,
+            9006,
             0
-        ]
-    },
-    {
+        ],
         "eventId": 1010,
         "selectionId": 101004,
         "selectionDesc": 25047010,
-        "type": 2,
+        "type": 2
+    },
+    {
         "check": [
-            "",
+            "res",
             ""
         ],
         "args": [
-            9006,
+            0,
             0
-        ]
-    },
-    {
+        ],
         "eventId": 1011,
         "selectionId": 101101,
         "selectionDesc": 25044011,
-        "type": 1,
+        "type": 1
+    },
+    {
         "check": [
-            "res",
+            "int",
             ""
         ],
         "args": [
-            0,
+            9017,
             0
-        ]
-    },
-    {
+        ],
         "eventId": 1011,
         "selectionId": 101102,
         "selectionDesc": 25045011,
-        "type": 3,
+        "type": 3
+    },
+    {
         "check": [
-            "int",
+            "",
             ""
         ],
         "args": [
-            9017,
+            9004,
             0
-        ]
-    },
-    {
+        ],
         "eventId": 1011,
         "selectionId": 101103,
         "selectionDesc": 25046011,
-        "type": 2,
+        "type": 2
+    },
+    {
         "check": [
             "",
             ""
         ],
         "args": [
-            9004,
+            9006,
             0
-        ]
-    },
-    {
+        ],
         "eventId": 1011,
         "selectionId": 101104,
         "selectionDesc": 25047011,
-        "type": 2,
+        "type": 2
+    },
+    {
         "check": [
-            "",
+            "int",
             ""
         ],
         "args": [
-            9006,
+            0,
             0
-        ]
-    },
-    {
+        ],
         "eventId": 1012,
         "selectionId": 101201,
         "selectionDesc": 25044012,
-        "type": 1,
+        "type": 1
+    },
+    {
         "check": [
-            "int",
+            "ins",
             ""
         ],
         "args": [
             0,
             0
-        ]
-    },
-    {
+        ],
         "eventId": 1012,
         "selectionId": 101202,
         "selectionDesc": 25045012,
-        "type": 1,
+        "type": 1
+    },
+    {
         "check": [
-            "ins",
+            "res",
             ""
         ],
         "args": [
             0,
             0
-        ]
-    },
-    {
+        ],
         "eventId": 1012,
         "selectionId": 101203,
         "selectionDesc": 25046012,
-        "type": 1,
+        "type": 1
+    },
+    {
         "check": [
-            "res",
+            "",
             ""
         ],
         "args": [
-            0,
+            9004,
             0
-        ]
-    },
-    {
+        ],
         "eventId": 1012,
         "selectionId": 101204,
         "selectionDesc": 25047012,
-        "type": 2,
+        "type": 2
+    },
+    {
         "check": [
             "",
             ""
         ],
         "args": [
-            9004,
+            9016,
             0
-        ]
-    },
-    {
+        ],
         "eventId": 1012,
         "selectionId": 101205,
         "selectionDesc": 25048012,
-        "type": 2,
+        "type": 2
+    },
+    {
         "check": [
-            "",
+            "int",
             ""
         ],
         "args": [
-            9016,
+            0,
             0
-        ]
-    },
-    {
+        ],
         "eventId": 1013,
         "selectionId": 101301,
         "selectionDesc": 25044013,
-        "type": 1,
+        "type": 1
+    },
+    {
         "check": [
             "int",
             ""
         ],
         "args": [
-            0,
+            9013,
             0
-        ]
-    },
-    {
+        ],
         "eventId": 1013,
         "selectionId": 101302,
         "selectionDesc": 25045013,
-        "type": 3,
+        "type": 3
+    },
+    {
         "check": [
-            "int",
+            "",
             ""
         ],
         "args": [
-            9013,
+            9012,
             0
-        ]
-    },
-    {
+        ],
         "eventId": 1013,
         "selectionId": 101304,
         "selectionDesc": 25047013,
-        "type": 2,
+        "type": 2
+    },
+    {
         "check": [
             "",
             ""
         ],
         "args": [
-            9012,
+            9001,
             0
-        ]
-    },
-    {
+        ],
         "eventId": 1013,
         "selectionId": 101305,
         "selectionDesc": 25048013,
-        "type": 2,
+        "type": 2
+    },
+    {
         "check": [
-            "",
+            "res",
             ""
         ],
         "args": [
-            9001,
+            0,
             0
-        ]
-    },
-    {
+        ],
         "eventId": 1014,
         "selectionId": 101401,
         "selectionDesc": 25044014,
-        "type": 1,
+        "type": 1
+    },
+    {
         "check": [
-            "res",
+            "ins",
             ""
         ],
         "args": [
             0,
             0
-        ]
-    },
-    {
+        ],
         "eventId": 1014,
         "selectionId": 101402,
         "selectionDesc": 25045014,
-        "type": 1,
+        "type": 1
+    },
+    {
         "check": [
-            "ins",
+            "",
             ""
         ],
         "args": [
-            0,
+            9014,
             0
-        ]
-    },
-    {
+        ],
         "eventId": 1014,
         "selectionId": 101403,
         "selectionDesc": 25046014,
-        "type": 2,
+        "type": 2
+    },
+    {
         "check": [
             "",
             ""
         ],
         "args": [
-            9014,
+            9008,
             0
-        ]
-    },
-    {
+        ],
         "eventId": 1014,
         "selectionId": 101404,
         "selectionDesc": 25047014,
-        "type": 2,
+        "type": 2
+    },
+    {
         "check": [
             "",
             ""
         ],
         "args": [
-            9008,
+            9006,
             0
-        ]
-    },
-    {
+        ],
         "eventId": 1014,
         "selectionId": 101405,
         "selectionDesc": 25048014,
-        "type": 2,
+        "type": 2
+    },
+    {
         "check": [
-            "",
+            "int",
             ""
         ],
         "args": [
-            9006,
+            0,
             0
-        ]
-    },
-    {
+        ],
         "eventId": 1015,
         "selectionId": 101501,
         "selectionDesc": 25044015,
-        "type": 1,
+        "type": 1
+    },
+    {
         "check": [
-            "int",
+            "ins",
             ""
         ],
         "args": [
-            0,
+            9007,
             0
-        ]
-    },
-    {
+        ],
         "eventId": 1015,
         "selectionId": 101502,
         "selectionDesc": 25045015,
-        "type": 3,
+        "type": 3
+    },
+    {
         "check": [
-            "ins",
+            "res",
             ""
         ],
         "args": [
-            9007,
+            0,
             0
-        ]
-    },
-    {
+        ],
         "eventId": 1015,
         "selectionId": 101503,
         "selectionDesc": 25046015,
-        "type": 1,
+        "type": 1
+    },
+    {
         "check": [
-            "res",
+            "",
             ""
         ],
         "args": [
-            0,
+            9005,
             0
-        ]
-    },
-    {
+        ],
         "eventId": 1015,
         "selectionId": 101504,
         "selectionDesc": 25047015,
-        "type": 2,
+        "type": 2
+    },
+    {
         "check": [
             "",
             ""
         ],
         "args": [
-            9005,
+            9018,
             0
-        ]
-    },
-    {
+        ],
         "eventId": 1015,
         "selectionId": 101505,
         "selectionDesc": 25048015,
-        "type": 2,
+        "type": 2
+    },
+    {
         "check": [
-            "",
+            "int",
             ""
         ],
         "args": [
-            9018,
+            0,
             0
-        ]
-    },
-    {
+        ],
         "eventId": 1016,
         "selectionId": 101601,
         "selectionDesc": 25044016,
-        "type": 1,
+        "type": 1
+    },
+    {
         "check": [
-            "int",
+            "",
             ""
         ],
         "args": [
-            0,
+            9012,
             0
-        ]
-    },
-    {
+        ],
         "eventId": 1016,
         "selectionId": 101602,
         "selectionDesc": 25045016,
-        "type": 3,
+        "type": 3
+    },
+    {
         "check": [
             "",
             ""
         ],
         "args": [
-            9012,
+            0,
             0
-        ]
-    },
-    {
+        ],
         "eventId": 1016,
         "selectionId": 101603,
         "selectionDesc": 25046016,
-        "type": 1,
+        "type": 1
+    },
+    {
         "check": [
             "",
             ""
         ],
         "args": [
-            0,
+            9010,
             0
-        ]
-    },
-    {
+        ],
         "eventId": 1016,
         "selectionId": 101604,
         "selectionDesc": 25047016,
-        "type": 2,
+        "type": 2
+    },
+    {
         "check": [
             "",
             ""
         ],
         "args": [
-            9010,
+            9017,
             0
-        ]
-    },
-    {
+        ],
         "eventId": 1016,
         "selectionId": 101605,
         "selectionDesc": 25048016,
-        "type": 2,
+        "type": 2
+    },
+    {
         "check": [
             "",
             ""
         ],
         "args": [
-            9017,
+            9016,
             0
-        ]
-    },
-    {
+        ],
         "eventId": 1017,
         "selectionId": 101701,
         "selectionDesc": 25044017,
-        "type": 3,
+        "type": 3
+    },
+    {
         "check": [
             "",
             ""
         ],
         "args": [
-            9016,
+            9015,
             0
-        ]
-    },
-    {
+        ],
         "eventId": 1017,
         "selectionId": 101702,
         "selectionDesc": 25045017,
-        "type": 2,
+        "type": 2
+    },
+    {
         "check": [
             "",
             ""
         ],
         "args": [
-            9015,
+            0,
             0
-        ]
-    },
-    {
+        ],
         "eventId": 1017,
         "selectionId": 101703,
         "selectionDesc": 25046017,
-        "type": 1,
+        "type": 1
+    },
+    {
         "check": [
             "",
             ""
         ],
         "args": [
-            0,
+            9016,
             0
-        ]
-    },
-    {
+        ],
         "eventId": 1017,
         "selectionId": 101704,
         "selectionDesc": 25047017,
-        "type": 2,
+        "type": 2
+    },
+    {
         "check": [
             "",
             ""
         ],
         "args": [
-            9016,
+            9014,
             0
-        ]
-    },
-    {
+        ],
         "eventId": 1017,
         "selectionId": 101705,
         "selectionDesc": 25048017,
-        "type": 2,
+        "type": 2
+    },
+    {
         "check": [
             "",
             ""
@@ -1061,993 +1071,979 @@
         "args": [
             9014,
             0
-        ]
-    },
-    {
+        ],
         "eventId": 1018,
         "selectionId": 101801,
         "selectionDesc": 25044018,
-        "type": 3,
+        "type": 3
+    },
+    {
         "check": [
-            "",
+            "int",
             ""
         ],
         "args": [
-            9014,
+            0,
             0
-        ]
-    },
-    {
+        ],
         "eventId": 1018,
         "selectionId": 101802,
         "selectionDesc": 25045018,
-        "type": 1,
+        "type": 1
+    },
+    {
         "check": [
-            "int",
+            "",
             ""
         ],
         "args": [
-            0,
+            9006,
             0
-        ]
-    },
-    {
+        ],
         "eventId": 1018,
         "selectionId": 101803,
         "selectionDesc": 25046018,
-        "type": 2,
+        "type": 2
+    },
+    {
         "check": [
             "",
             ""
         ],
         "args": [
-            9006,
+            9007,
             0
-        ]
-    },
-    {
+        ],
         "eventId": 1018,
         "selectionId": 101804,
         "selectionDesc": 25047018,
-        "type": 2,
+        "type": 2
+    },
+    {
         "check": [
-            "",
+            "int",
             ""
         ],
         "args": [
-            9007,
+            0,
             0
-        ]
-    },
-    {
+        ],
         "eventId": 1019,
         "selectionId": 101901,
         "selectionDesc": 25044019,
-        "type": 1,
+        "type": 1
+    },
+    {
         "check": [
-            "int",
+            "",
             ""
         ],
         "args": [
-            0,
+            9005,
             0
-        ]
-    },
-    {
+        ],
         "eventId": 1019,
         "selectionId": 101902,
         "selectionDesc": 25045019,
-        "type": 2,
+        "type": 2
+    },
+    {
         "check": [
-            "",
+            "ins",
             ""
         ],
         "args": [
-            9005,
+            0,
             0
-        ]
-    },
-    {
+        ],
         "eventId": 1019,
         "selectionId": 101903,
         "selectionDesc": 25046019,
-        "type": 1,
+        "type": 1
+    },
+    {
         "check": [
-            "ins",
+            "",
             ""
         ],
         "args": [
-            0,
+            9018,
             0
-        ]
-    },
-    {
+        ],
         "eventId": 1019,
         "selectionId": 101904,
         "selectionDesc": 25047019,
-        "type": 2,
+        "type": 2
+    },
+    {
         "check": [
             "",
             ""
         ],
         "args": [
-            9018,
+            9010,
             0
-        ]
-    },
-    {
+        ],
         "eventId": 1019,
         "selectionId": 101905,
         "selectionDesc": 25048019,
-        "type": 2,
+        "type": 2
+    },
+    {
         "check": [
-            "",
+            "ins",
             ""
         ],
         "args": [
-            9010,
+            9005,
             0
-        ]
-    },
-    {
+        ],
         "eventId": 1020,
         "selectionId": 102001,
         "selectionDesc": 25044020,
-        "type": 3,
+        "type": 3
+    },
+    {
         "check": [
-            "ins",
+            "",
             ""
         ],
         "args": [
-            9005,
+            9001,
             0
-        ]
-    },
-    {
+        ],
         "eventId": 1020,
         "selectionId": 102002,
         "selectionDesc": 25045020,
-        "type": 2,
+        "type": 2
+    },
+    {
         "check": [
-            "",
+            "res",
             ""
         ],
         "args": [
-            9001,
+            0,
             0
-        ]
-    },
-    {
+        ],
         "eventId": 1020,
         "selectionId": 102003,
         "selectionDesc": 25046020,
-        "type": 1,
+        "type": 1
+    },
+    {
         "check": [
-            "res",
+            "",
             ""
         ],
         "args": [
-            0,
+            9011,
             0
-        ]
-    },
-    {
+        ],
         "eventId": 1020,
         "selectionId": 102004,
         "selectionDesc": 25047020,
-        "type": 2,
+        "type": 2
+    },
+    {
         "check": [
             "",
             ""
         ],
         "args": [
-            9011,
+            9007,
             0
-        ]
-    },
-    {
+        ],
         "eventId": 1020,
         "selectionId": 102005,
         "selectionDesc": 25048020,
-        "type": 2,
+        "type": 2
+    },
+    {
         "check": [
             "",
             ""
         ],
         "args": [
-            9007,
+            9005,
             0
-        ]
-    },
-    {
+        ],
         "eventId": 1021,
         "selectionId": 102101,
         "selectionDesc": 25044021,
-        "type": 3,
+        "type": 3
+    },
+    {
         "check": [
             "",
             ""
         ],
         "args": [
-            9005,
+            9019,
             0
-        ]
-    },
-    {
+        ],
         "eventId": 1021,
         "selectionId": 102102,
         "selectionDesc": 25045021,
-        "type": 2,
+        "type": 2
+    },
+    {
         "check": [
-            "",
+            "ins",
             ""
         ],
         "args": [
-            9019,
+            0,
             0
-        ]
-    },
-    {
+        ],
         "eventId": 1021,
         "selectionId": 102103,
         "selectionDesc": 25046021,
-        "type": 1,
+        "type": 1
+    },
+    {
         "check": [
-            "ins",
+            "",
             ""
         ],
         "args": [
-            0,
+            9012,
             0
-        ]
-    },
-    {
+        ],
         "eventId": 1021,
         "selectionId": 102104,
         "selectionDesc": 25047021,
-        "type": 2,
+        "type": 2
+    },
+    {
         "check": [
-            "",
+            "ins",
             ""
         ],
         "args": [
-            9012,
+            0,
             0
-        ]
-    },
-    {
+        ],
         "eventId": 1022,
         "selectionId": 102201,
         "selectionDesc": 25044022,
-        "type": 1,
+        "type": 1
+    },
+    {
         "check": [
-            "ins",
+            "res",
             ""
         ],
         "args": [
             0,
             0
-        ]
-    },
-    {
+        ],
         "eventId": 1022,
         "selectionId": 102202,
         "selectionDesc": 25045022,
-        "type": 1,
+        "type": 1
+    },
+    {
         "check": [
-            "res",
+            "",
             ""
         ],
         "args": [
-            0,
+            9001,
             0
-        ]
-    },
-    {
+        ],
         "eventId": 1022,
         "selectionId": 102203,
         "selectionDesc": 25046022,
-        "type": 2,
+        "type": 2
+    },
+    {
         "check": [
             "",
             ""
         ],
         "args": [
-            9001,
+            9017,
             0
-        ]
-    },
-    {
+        ],
         "eventId": 1022,
         "selectionId": 102204,
         "selectionDesc": 25047022,
-        "type": 2,
+        "type": 2
+    },
+    {
         "check": [
             "",
             ""
         ],
         "args": [
-            9017,
+            9012,
             0
-        ]
-    },
-    {
+        ],
         "eventId": 1023,
         "selectionId": 102301,
         "selectionDesc": 25044023,
-        "type": 3,
+        "type": 3
+    },
+    {
         "check": [
-            "",
+            "ins",
             ""
         ],
         "args": [
-            9012,
+            9008,
             0
-        ]
-    },
-    {
+        ],
         "eventId": 1023,
         "selectionId": 102302,
         "selectionDesc": 25045023,
-        "type": 3,
+        "type": 3
+    },
+    {
         "check": [
-            "ins",
+            "",
             ""
         ],
         "args": [
-            9008,
+            0,
             0
-        ]
-    },
-    {
+        ],
         "eventId": 1023,
         "selectionId": 102303,
         "selectionDesc": 25046023,
-        "type": 1,
+        "type": 1
+    },
+    {
         "check": [
             "",
             ""
         ],
         "args": [
-            0,
+            9003,
             0
-        ]
-    },
-    {
+        ],
         "eventId": 1023,
         "selectionId": 102304,
         "selectionDesc": 25047023,
-        "type": 2,
+        "type": 2
+    },
+    {
         "check": [
             "",
             ""
         ],
         "args": [
-            9003,
+            9010,
             0
-        ]
-    },
-    {
+        ],
         "eventId": 1023,
         "selectionId": 102305,
         "selectionDesc": 25048023,
-        "type": 2,
+        "type": 2
+    },
+    {
         "check": [
-            "",
+            "ins",
             ""
         ],
         "args": [
-            9010,
+            0,
             0
-        ]
-    },
-    {
+        ],
         "eventId": 1024,
         "selectionId": 102401,
         "selectionDesc": 25044024,
-        "type": 1,
+        "type": 1
+    },
+    {
         "check": [
-            "ins",
+            "",
             ""
         ],
         "args": [
-            0,
+            9013,
             0
-        ]
-    },
-    {
+        ],
         "eventId": 1024,
         "selectionId": 102402,
         "selectionDesc": 25045024,
-        "type": 2,
+        "type": 2
+    },
+    {
         "check": [
-            "",
+            "luk",
             ""
         ],
         "args": [
-            9013,
+            0,
             0
-        ]
-    },
-    {
+        ],
         "eventId": 1024,
         "selectionId": 102403,
         "selectionDesc": 25046024,
-        "type": 1,
+        "type": 1
+    },
+    {
         "check": [
-            "luk",
+            "",
             ""
         ],
         "args": [
-            0,
+            9012,
             0
-        ]
-    },
-    {
+        ],
         "eventId": 1024,
         "selectionId": 102404,
         "selectionDesc": 25047024,
-        "type": 2,
+        "type": 2
+    },
+    {
         "check": [
             "",
             ""
         ],
         "args": [
-            9012,
+            9007,
             0
-        ]
-    },
-    {
+        ],
         "eventId": 1024,
         "selectionId": 102405,
         "selectionDesc": 25048024,
-        "type": 2,
+        "type": 2
+    },
+    {
         "check": [
-            "",
+            "ins",
             ""
         ],
         "args": [
-            9007,
+            0,
             0
-        ]
-    },
-    {
+        ],
         "eventId": 1025,
         "selectionId": 102501,
         "selectionDesc": 25044025,
-        "type": 1,
+        "type": 1
+    },
+    {
         "check": [
-            "ins",
+            "res",
             ""
         ],
         "args": [
-            0,
+            9010,
             0
-        ]
-    },
-    {
+        ],
         "eventId": 1025,
         "selectionId": 102502,
         "selectionDesc": 25045025,
-        "type": 3,
+        "type": 3
+    },
+    {
         "check": [
-            "res",
+            "luk",
             ""
         ],
         "args": [
-            9010,
+            9001,
             0
-        ]
-    },
-    {
+        ],
         "eventId": 1025,
         "selectionId": 102503,
         "selectionDesc": 25046025,
-        "type": 3,
+        "type": 3
+    },
+    {
         "check": [
-            "luk",
+            "",
             ""
         ],
         "args": [
-            9001,
+            9003,
             0
-        ]
-    },
-    {
+        ],
         "eventId": 1025,
         "selectionId": 102504,
         "selectionDesc": 25047025,
-        "type": 2,
+        "type": 2
+    },
+    {
         "check": [
             "",
             ""
         ],
         "args": [
-            9003,
+            9015,
             0
-        ]
-    },
-    {
+        ],
         "eventId": 1025,
         "selectionId": 102505,
         "selectionDesc": 25048025,
-        "type": 2,
+        "type": 2
+    },
+    {
         "check": [
-            "",
+            "luk",
             ""
         ],
         "args": [
-            9015,
+            0,
             0
-        ]
-    },
-    {
+        ],
         "eventId": 1026,
         "selectionId": 102601,
         "selectionDesc": 25044026,
-        "type": 1,
+        "type": 1
+    },
+    {
         "check": [
-            "luk",
+            "ins",
             ""
         ],
         "args": [
-            0,
+            9004,
             0
-        ]
-    },
-    {
+        ],
         "eventId": 1026,
         "selectionId": 102602,
         "selectionDesc": 25045026,
-        "type": 3,
+        "type": 3
+    },
+    {
         "check": [
-            "ins",
+            "",
             ""
         ],
         "args": [
-            9004,
+            9009,
             0
-        ]
-    },
-    {
+        ],
         "eventId": 1026,
         "selectionId": 102603,
         "selectionDesc": 25046026,
-        "type": 2,
+        "type": 2
+    },
+    {
         "check": [
             "",
             ""
         ],
         "args": [
-            9009,
+            9019,
             0
-        ]
-    },
-    {
+        ],
         "eventId": 1026,
         "selectionId": 102604,
         "selectionDesc": 25047026,
-        "type": 2,
+        "type": 2
+    },
+    {
         "check": [
-            "",
+            "luk",
             ""
         ],
         "args": [
-            9019,
+            9001,
             0
-        ]
-    },
-    {
+        ],
         "eventId": 1027,
         "selectionId": 102701,
         "selectionDesc": 25044027,
-        "type": 3,
+        "type": 3
+    },
+    {
         "check": [
-            "luk",
+            "int",
             ""
         ],
         "args": [
-            9001,
+            9009,
             0
-        ]
-    },
-    {
+        ],
         "eventId": 1027,
         "selectionId": 102702,
         "selectionDesc": 25045027,
-        "type": 3,
+        "type": 3
+    },
+    {
         "check": [
-            "int",
+            "tec",
             ""
         ],
         "args": [
-            9009,
+            0,
             0
-        ]
-    },
-    {
+        ],
         "eventId": 1027,
         "selectionId": 102703,
         "selectionDesc": 25046027,
-        "type": 1,
+        "type": 1
+    },
+    {
         "check": [
-            "tec",
+            "",
             ""
         ],
         "args": [
-            0,
+            9002,
             0
-        ]
-    },
-    {
+        ],
         "eventId": 1027,
         "selectionId": 102704,
         "selectionDesc": 25047027,
-        "type": 2,
+        "type": 2
+    },
+    {
         "check": [
-            "",
+            "luk",
             ""
         ],
         "args": [
-            9002,
+            0,
             0
-        ]
-    },
-    {
+        ],
         "eventId": 1028,
         "selectionId": 102801,
         "selectionDesc": 25044028,
-        "type": 1,
+        "type": 1
+    },
+    {
         "check": [
-            "luk",
+            "tec",
             ""
         ],
         "args": [
-            0,
+            9003,
             0
-        ]
-    },
-    {
+        ],
         "eventId": 1028,
         "selectionId": 102802,
         "selectionDesc": 25045028,
-        "type": 3,
+        "type": 3
+    },
+    {
         "check": [
-            "tec",
+            "",
             ""
         ],
         "args": [
-            9003,
+            9020,
             0
-        ]
-    },
-    {
+        ],
         "eventId": 1028,
         "selectionId": 102804,
         "selectionDesc": 25047028,
-        "type": 2,
+        "type": 2
+    },
+    {
         "check": [
-            "",
+            "luk",
             ""
         ],
         "args": [
-            9020,
+            0,
             0
-        ]
-    },
-    {
+        ],
         "eventId": 1029,
         "selectionId": 102901,
         "selectionDesc": 25044029,
-        "type": 1,
+        "type": 1
+    },
+    {
         "check": [
-            "luk",
+            "tec",
             ""
         ],
         "args": [
-            0,
+            9010,
             0
-        ]
-    },
-    {
+        ],
         "eventId": 1029,
         "selectionId": 102902,
         "selectionDesc": 25045029,
-        "type": 3,
+        "type": 3
+    },
+    {
         "check": [
-            "tec",
+            "",
             ""
         ],
         "args": [
-            9010,
+            9020,
             0
-        ]
-    },
-    {
+        ],
         "eventId": 1029,
         "selectionId": 102904,
         "selectionDesc": 25047029,
-        "type": 2,
+        "type": 2
+    },
+    {
         "check": [
             "",
             ""
         ],
         "args": [
-            9020,
+            9011,
             0
-        ]
-    },
-    {
+        ],
         "eventId": 1029,
         "selectionId": 102905,
         "selectionDesc": 25048029,
-        "type": 2,
+        "type": 2
+    },
+    {
         "check": [
-            "",
+            "ins",
             ""
         ],
         "args": [
-            9011,
+            0,
             0
-        ]
-    },
-    {
+        ],
         "eventId": 1030,
         "selectionId": 103001,
         "selectionDesc": 25044030,
-        "type": 1,
+        "type": 1
+    },
+    {
         "check": [
-            "ins",
+            "",
             ""
         ],
         "args": [
             0,
             0
-        ]
-    },
-    {
+        ],
         "eventId": 1030,
         "selectionId": 103002,
         "selectionDesc": 25045030,
-        "type": 1,
+        "type": 1
+    },
+    {
         "check": [
             "",
             ""
         ],
         "args": [
-            0,
+            9005,
             0
-        ]
-    },
-    {
+        ],
         "eventId": 1030,
         "selectionId": 103003,
         "selectionDesc": 25046030,
-        "type": 2,
+        "type": 2
+    },
+    {
         "check": [
             "",
             ""
         ],
         "args": [
-            9005,
+            9007,
             0
-        ]
-    },
-    {
+        ],
         "eventId": 1030,
         "selectionId": 103004,
         "selectionDesc": 25047030,
-        "type": 2,
+        "type": 2
+    },
+    {
         "check": [
             "",
             ""
         ],
         "args": [
-            9007,
+            9016,
             0
-        ]
-    },
-    {
+        ],
         "eventId": 1030,
         "selectionId": 103005,
         "selectionDesc": 25048030,
-        "type": 2,
+        "type": 2
+    },
+    {
         "check": [
-            "",
+            "res",
             ""
         ],
         "args": [
-            9016,
+            9008,
             0
-        ]
-    },
-    {
+        ],
         "eventId": 1031,
         "selectionId": 103101,
         "selectionDesc": 25044031,
-        "type": 3,
+        "type": 3
+    },
+    {
         "check": [
-            "res",
+            "int",
             ""
         ],
         "args": [
-            9008,
+            0,
             0
-        ]
-    },
-    {
+        ],
         "eventId": 1031,
         "selectionId": 103102,
         "selectionDesc": 25045031,
-        "type": 1,
+        "type": 1
+    },
+    {
         "check": [
-            "int",
+            "",
             ""
         ],
         "args": [
-            0,
+            9016,
             0
-        ]
-    },
-    {
+        ],
         "eventId": 1031,
         "selectionId": 103103,
         "selectionDesc": 25046031,
-        "type": 2,
+        "type": 2
+    },
+    {
         "check": [
             "",
             ""
         ],
         "args": [
-            9016,
+            9014,
             0
-        ]
-    },
-    {
+        ],
         "eventId": 1031,
         "selectionId": 103104,
         "selectionDesc": 25047031,
-        "type": 2,
+        "type": 2
+    },
+    {
         "check": [
             "",
             ""
         ],
         "args": [
-            9014,
+            9007,
             0
-        ]
-    },
-    {
+        ],
         "eventId": 1031,
         "selectionId": 103105,
         "selectionDesc": 25048031,
-        "type": 2,
+        "type": 2
+    },
+    {
         "check": [
-            "",
+            "res",
             ""
         ],
         "args": [
-            9007,
+            0,
             0
-        ]
-    },
-    {
+        ],
         "eventId": 1032,
         "selectionId": 103201,
         "selectionDesc": 25044032,
-        "type": 1,
+        "type": 1
+    },
+    {
         "check": [
-            "res",
+            "tec",
             ""
         ],
         "args": [
             0,
             0
-        ]
-    },
-    {
+        ],
         "eventId": 1032,
         "selectionId": 103202,
         "selectionDesc": 25045032,
-        "type": 1,
+        "type": 1
+    },
+    {
         "check": [
-            "tec",
+            "",
             ""
         ],
         "args": [
-            0,
+            9013,
             0
-        ]
-    },
-    {
+        ],
         "eventId": 1032,
         "selectionId": 103203,
         "selectionDesc": 25046032,
-        "type": 2,
+        "type": 2
+    },
+    {
         "check": [
             "",
             ""
         ],
         "args": [
-            9013,
+            9010,
             0
-        ]
-    },
-    {
+        ],
         "eventId": 1032,
         "selectionId": 103204,
         "selectionDesc": 25047032,
-        "type": 2,
+        "type": 2
+    },
+    {
         "check": [
             "",
             ""
         ],
         "args": [
-            9010,
+            9004,
             0
-        ]
-    },
-    {
+        ],
         "eventId": 1032,
         "selectionId": 103205,
         "selectionDesc": 25048032,
-        "type": 2,
+        "type": 2
+    },
+    {
         "check": [
-            "",
+            "tec",
             ""
         ],
         "args": [
-            9004,
+            0,
             0
-        ]
-    },
-    {
+        ],
         "eventId": 1033,
         "selectionId": 103301,
         "selectionDesc": 25044033,
-        "type": 1,
+        "type": 1
+    },
+    {
         "check": [
-            "tec",
+            "",
             ""
         ],
         "args": [
-            0,
+            9012,
             0
-        ]
-    },
-    {
+        ],
         "eventId": 1033,
         "selectionId": 103302,
         "selectionDesc": 25045033,
-        "type": 2,
+        "type": 2
+    },
+    {
         "check": [
             "",
             ""
         ],
         "args": [
-            9012,
+            0,
             0
-        ]
-    },
-    {
+        ],
         "eventId": 1033,
         "selectionId": 103303,
         "selectionDesc": 25046033,
-        "type": 1,
-        "check": [
-            "",
-            ""
-        ],
-        "args": [
-            0,
-            0
-        ]
+        "type": 1
     },
     {
-        "eventId": 1033,
-        "selectionId": 103304,
-        "selectionDesc": 25047033,
-        "type": 2,
         "check": [
             "",
             ""
@@ -2055,13 +2051,13 @@
         "args": [
             9013,
             0
-        ]
+        ],
+        "eventId": 1033,
+        "selectionId": 103304,
+        "selectionDesc": 25047033,
+        "type": 2
     },
     {
-        "eventId": 1033,
-        "selectionId": 103305,
-        "selectionDesc": 25048033,
-        "type": 2,
         "check": [
             "",
             ""
@@ -2069,13 +2065,13 @@
         "args": [
             9002,
             0
-        ]
+        ],
+        "eventId": 1033,
+        "selectionId": 103305,
+        "selectionDesc": 25048033,
+        "type": 2
     },
     {
-        "eventId": 1034,
-        "selectionId": 103401,
-        "selectionDesc": 25044034,
-        "type": 1,
         "check": [
             "tec",
             ""
@@ -2083,13 +2079,13 @@
         "args": [
             0,
             0
-        ]
+        ],
+        "eventId": 1034,
+        "selectionId": 103401,
+        "selectionDesc": 25044034,
+        "type": 1
     },
     {
-        "eventId": 1034,
-        "selectionId": 103402,
-        "selectionDesc": 25045034,
-        "type": 1,
         "check": [
             "",
             ""
@@ -2097,13 +2093,13 @@
         "args": [
             0,
             0
-        ]
+        ],
+        "eventId": 1034,
+        "selectionId": 103402,
+        "selectionDesc": 25045034,
+        "type": 1
     },
     {
-        "eventId": 1034,
-        "selectionId": 103404,
-        "selectionDesc": 25047034,
-        "type": 2,
         "check": [
             "",
             ""
@@ -2111,13 +2107,13 @@
         "args": [
             9019,
             0
-        ]
+        ],
+        "eventId": 1034,
+        "selectionId": 103404,
+        "selectionDesc": 25047034,
+        "type": 2
     },
     {
-        "eventId": 1034,
-        "selectionId": 103405,
-        "selectionDesc": 25048034,
-        "type": 2,
         "check": [
             "",
             ""
@@ -2125,13 +2121,13 @@
         "args": [
             9004,
             0
-        ]
+        ],
+        "eventId": 1034,
+        "selectionId": 103405,
+        "selectionDesc": 25048034,
+        "type": 2
     },
     {
-        "eventId": 1035,
-        "selectionId": 103501,
-        "selectionDesc": 25044035,
-        "type": 1,
         "check": [
             "",
             ""
@@ -2139,13 +2135,13 @@
         "args": [
             0,
             0
-        ]
+        ],
+        "eventId": 1035,
+        "selectionId": 103501,
+        "selectionDesc": 25044035,
+        "type": 1
     },
     {
-        "eventId": 1035,
-        "selectionId": 103502,
-        "selectionDesc": 25045035,
-        "type": 2,
         "check": [
             "",
             ""
@@ -2153,13 +2149,13 @@
         "args": [
             9013,
             0
-        ]
+        ],
+        "eventId": 1035,
+        "selectionId": 103502,
+        "selectionDesc": 25045035,
+        "type": 2
     },
     {
-        "eventId": 1035,
-        "selectionId": 103503,
-        "selectionDesc": 25046035,
-        "type": 1,
         "check": [
             "tec",
             ""
@@ -2167,13 +2163,13 @@
         "args": [
             0,
             0
-        ]
+        ],
+        "eventId": 1035,
+        "selectionId": 103503,
+        "selectionDesc": 25046035,
+        "type": 1
     },
     {
-        "eventId": 1035,
-        "selectionId": 103504,
-        "selectionDesc": 25047035,
-        "type": 2,
         "check": [
             "",
             ""
@@ -2181,13 +2177,13 @@
         "args": [
             9004,
             0
-        ]
+        ],
+        "eventId": 1035,
+        "selectionId": 103504,
+        "selectionDesc": 25047035,
+        "type": 2
     },
     {
-        "eventId": 1036,
-        "selectionId": 103601,
-        "selectionDesc": 25044036,
-        "type": 1,
         "check": [
             "",
             ""
@@ -2195,13 +2191,13 @@
         "args": [
             0,
             0
-        ]
+        ],
+        "eventId": 1036,
+        "selectionId": 103601,
+        "selectionDesc": 25044036,
+        "type": 1
     },
     {
-        "eventId": 1036,
-        "selectionId": 103602,
-        "selectionDesc": 25045036,
-        "type": 1,
         "check": [
             "res",
             ""
@@ -2209,13 +2205,13 @@
         "args": [
             0,
             0
-        ]
+        ],
+        "eventId": 1036,
+        "selectionId": 103602,
+        "selectionDesc": 25045036,
+        "type": 1
     },
     {
-        "eventId": 1036,
-        "selectionId": 103603,
-        "selectionDesc": 25046036,
-        "type": 3,
         "check": [
             "",
             ""
@@ -2223,13 +2219,13 @@
         "args": [
             9017,
             0
-        ]
+        ],
+        "eventId": 1036,
+        "selectionId": 103603,
+        "selectionDesc": 25046036,
+        "type": 3
     },
     {
-        "eventId": 1036,
-        "selectionId": 103604,
-        "selectionDesc": 25047036,
-        "type": 2,
         "check": [
             "",
             ""
@@ -2237,13 +2233,13 @@
         "args": [
             9002,
             0
-        ]
+        ],
+        "eventId": 1036,
+        "selectionId": 103604,
+        "selectionDesc": 25047036,
+        "type": 2
     },
     {
-        "eventId": 1037,
-        "selectionId": 103701,
-        "selectionDesc": 25044037,
-        "type": 1,
         "check": [
             "res",
             ""
@@ -2251,13 +2247,13 @@
         "args": [
             0,
             0
-        ]
+        ],
+        "eventId": 1037,
+        "selectionId": 103701,
+        "selectionDesc": 25044037,
+        "type": 1
     },
     {
-        "eventId": 1037,
-        "selectionId": 103702,
-        "selectionDesc": 25045037,
-        "type": 2,
         "check": [
             "",
             ""
@@ -2265,13 +2261,13 @@
         "args": [
             9014,
             0
-        ]
+        ],
+        "eventId": 1037,
+        "selectionId": 103702,
+        "selectionDesc": 25045037,
+        "type": 2
     },
     {
-        "eventId": 1037,
-        "selectionId": 103703,
-        "selectionDesc": 25046037,
-        "type": 1,
         "check": [
             "luk",
             ""
@@ -2279,13 +2275,13 @@
         "args": [
             0,
             0
-        ]
+        ],
+        "eventId": 1037,
+        "selectionId": 103703,
+        "selectionDesc": 25046037,
+        "type": 1
     },
     {
-        "eventId": 1037,
-        "selectionId": 103704,
-        "selectionDesc": 25047037,
-        "type": 2,
         "check": [
             "",
             ""
@@ -2293,13 +2289,13 @@
         "args": [
             9002,
             0
-        ]
+        ],
+        "eventId": 1037,
+        "selectionId": 103704,
+        "selectionDesc": 25047037,
+        "type": 2
     },
     {
-        "eventId": 1037,
-        "selectionId": 103705,
-        "selectionDesc": 25048037,
-        "type": 2,
         "check": [
             "",
             ""
@@ -2307,13 +2303,13 @@
         "args": [
             9001,
             0
-        ]
+        ],
+        "eventId": 1037,
+        "selectionId": 103705,
+        "selectionDesc": 25048037,
+        "type": 2
     },
     {
-        "eventId": 1038,
-        "selectionId": 103801,
-        "selectionDesc": 25044038,
-        "type": 1,
         "check": [
             "luk",
             ""
@@ -2321,13 +2317,13 @@
         "args": [
             0,
             0
-        ]
+        ],
+        "eventId": 1038,
+        "selectionId": 103801,
+        "selectionDesc": 25044038,
+        "type": 1
     },
     {
-        "eventId": 1038,
-        "selectionId": 103802,
-        "selectionDesc": 25045038,
-        "type": 1,
         "check": [
             "int",
             ""
@@ -2335,13 +2331,13 @@
         "args": [
             0,
             0
-        ]
+        ],
+        "eventId": 1038,
+        "selectionId": 103802,
+        "selectionDesc": 25045038,
+        "type": 1
     },
     {
-        "eventId": 1038,
-        "selectionId": 103803,
-        "selectionDesc": 25046038,
-        "type": 2,
         "check": [
             "ins",
             ""
@@ -2349,13 +2345,13 @@
         "args": [
             9019,
             0
-        ]
+        ],
+        "eventId": 1038,
+        "selectionId": 103803,
+        "selectionDesc": 25046038,
+        "type": 2
     },
     {
-        "eventId": 1038,
-        "selectionId": 103804,
-        "selectionDesc": 25047038,
-        "type": 2,
         "check": [
             "",
             ""
@@ -2363,13 +2359,13 @@
         "args": [
             9003,
             0
-        ]
+        ],
+        "eventId": 1038,
+        "selectionId": 103804,
+        "selectionDesc": 25047038,
+        "type": 2
     },
     {
-        "eventId": 1039,
-        "selectionId": 103901,
-        "selectionDesc": 25044039,
-        "type": 1,
         "check": [
             "int",
             ""
@@ -2377,13 +2373,13 @@
         "args": [
             0,
             0
-        ]
+        ],
+        "eventId": 1039,
+        "selectionId": 103901,
+        "selectionDesc": 25044039,
+        "type": 1
     },
     {
-        "eventId": 1039,
-        "selectionId": 103902,
-        "selectionDesc": 25045039,
-        "type": 2,
         "check": [
             "",
             ""
@@ -2391,13 +2387,13 @@
         "args": [
             9013,
             0
-        ]
+        ],
+        "eventId": 1039,
+        "selectionId": 103902,
+        "selectionDesc": 25045039,
+        "type": 2
     },
     {
-        "eventId": 1039,
-        "selectionId": 103903,
-        "selectionDesc": 25046039,
-        "type": 1,
         "check": [
             "ins",
             ""
@@ -2405,13 +2401,13 @@
         "args": [
             0,
             0
-        ]
+        ],
+        "eventId": 1039,
+        "selectionId": 103903,
+        "selectionDesc": 25046039,
+        "type": 1
     },
     {
-        "eventId": 1039,
-        "selectionId": 103904,
-        "selectionDesc": 25047039,
-        "type": 2,
         "check": [
             "",
             ""
@@ -2419,13 +2415,13 @@
         "args": [
             9017,
             0
-        ]
+        ],
+        "eventId": 1039,
+        "selectionId": 103904,
+        "selectionDesc": 25047039,
+        "type": 2
     },
     {
-        "eventId": 1039,
-        "selectionId": 103905,
-        "selectionDesc": 25048039,
-        "type": 2,
         "check": [
             "",
             ""
@@ -2433,13 +2429,13 @@
         "args": [
             9008,
             0
-        ]
+        ],
+        "eventId": 1039,
+        "selectionId": 103905,
+        "selectionDesc": 25048039,
+        "type": 2
     },
     {
-        "eventId": 1040,
-        "selectionId": 104001,
-        "selectionDesc": 25044040,
-        "type": 1,
         "check": [
             "",
             ""
@@ -2447,13 +2443,13 @@
         "args": [
             0,
             0
-        ]
+        ],
+        "eventId": 1040,
+        "selectionId": 104001,
+        "selectionDesc": 25044040,
+        "type": 1
     },
     {
-        "eventId": 1040,
-        "selectionId": 104002,
-        "selectionDesc": 25045040,
-        "type": 1,
         "check": [
             "ins",
             ""
@@ -2461,13 +2457,13 @@
         "args": [
             0,
             0
-        ]
+        ],
+        "eventId": 1040,
+        "selectionId": 104002,
+        "selectionDesc": 25045040,
+        "type": 1
     },
     {
-        "eventId": 1040,
-        "selectionId": 104003,
-        "selectionDesc": 25046040,
-        "type": 2,
         "check": [
             "",
             ""
@@ -2475,13 +2471,13 @@
         "args": [
             9005,
             0
-        ]
+        ],
+        "eventId": 1040,
+        "selectionId": 104003,
+        "selectionDesc": 25046040,
+        "type": 2
     },
     {
-        "eventId": 1040,
-        "selectionId": 104004,
-        "selectionDesc": 25047040,
-        "type": 2,
         "check": [
             "",
             ""
@@ -2489,13 +2485,13 @@
         "args": [
             9017,
             0
-        ]
+        ],
+        "eventId": 1040,
+        "selectionId": 104004,
+        "selectionDesc": 25047040,
+        "type": 2
     },
     {
-        "eventId": 1040,
-        "selectionId": 104005,
-        "selectionDesc": 25048040,
-        "type": 2,
         "check": [
             "",
             ""
@@ -2503,13 +2499,27 @@
         "args": [
             9009,
             0
-        ]
+        ],
+        "eventId": 1040,
+        "selectionId": 104005,
+        "selectionDesc": 25048040,
+        "type": 2
     },
     {
+        "check": [
+            "",
+            ""
+        ],
+        "args": [
+            0,
+            0
+        ],
         "eventId": 1041,
         "selectionId": 104101,
         "selectionDesc": 25044041,
-        "type": 1,
+        "type": 1
+    },
+    {
         "check": [
             "",
             ""
@@ -2517,27 +2527,13 @@
         "args": [
             0,
             0
-        ]
-    },
-    {
+        ],
         "eventId": 1041,
         "selectionId": 104102,
         "selectionDesc": 25045041,
-        "type": 1,
-        "check": [
-            "",
-            ""
-        ],
-        "args": [
-            0,
-            0
-        ]
+        "type": 1
     },
     {
-        "eventId": 1041,
-        "selectionId": 104103,
-        "selectionDesc": 25046041,
-        "type": 2,
         "check": [
             "",
             ""
@@ -2545,13 +2541,13 @@
         "args": [
             9006,
             0
-        ]
+        ],
+        "eventId": 1041,
+        "selectionId": 104103,
+        "selectionDesc": 25046041,
+        "type": 2
     },
     {
-        "eventId": 1041,
-        "selectionId": 104104,
-        "selectionDesc": 25047041,
-        "type": 2,
         "check": [
             "",
             ""
@@ -2559,13 +2555,13 @@
         "args": [
             9007,
             0
-        ]
+        ],
+        "eventId": 1041,
+        "selectionId": 104104,
+        "selectionDesc": 25047041,
+        "type": 2
     },
     {
-        "eventId": 1041,
-        "selectionId": 104105,
-        "selectionDesc": 25048041,
-        "type": 2,
         "check": [
             "",
             ""
@@ -2573,13 +2569,13 @@
         "args": [
             9009,
             0
-        ]
+        ],
+        "eventId": 1041,
+        "selectionId": 104105,
+        "selectionDesc": 25048041,
+        "type": 2
     },
     {
-        "eventId": 1042,
-        "selectionId": 104201,
-        "selectionDesc": 25044042,
-        "type": 1,
         "check": [
             "int",
             ""
@@ -2587,13 +2583,13 @@
         "args": [
             0,
             0
-        ]
+        ],
+        "eventId": 1042,
+        "selectionId": 104201,
+        "selectionDesc": 25044042,
+        "type": 1
     },
     {
-        "eventId": 1042,
-        "selectionId": 104202,
-        "selectionDesc": 25045042,
-        "type": 1,
         "check": [
             "ins",
             ""
@@ -2601,13 +2597,13 @@
         "args": [
             0,
             0
-        ]
+        ],
+        "eventId": 1042,
+        "selectionId": 104202,
+        "selectionDesc": 25045042,
+        "type": 1
     },
     {
-        "eventId": 1042,
-        "selectionId": 104203,
-        "selectionDesc": 25046042,
-        "type": 3,
         "check": [
             "luk",
             ""
@@ -2615,13 +2611,13 @@
         "args": [
             9009,
             0
-        ]
+        ],
+        "eventId": 1042,
+        "selectionId": 104203,
+        "selectionDesc": 25046042,
+        "type": 3
     },
     {
-        "eventId": 1042,
-        "selectionId": 104204,
-        "selectionDesc": 25047042,
-        "type": 2,
         "check": [
             "",
             ""
@@ -2629,13 +2625,13 @@
         "args": [
             9001,
             0
-        ]
+        ],
+        "eventId": 1042,
+        "selectionId": 104204,
+        "selectionDesc": 25047042,
+        "type": 2
     },
     {
-        "eventId": 1042,
-        "selectionId": 104205,
-        "selectionDesc": 25048042,
-        "type": 2,
         "check": [
             "",
             ""
@@ -2643,13 +2639,13 @@
         "args": [
             9010,
             0
-        ]
+        ],
+        "eventId": 1042,
+        "selectionId": 104205,
+        "selectionDesc": 25048042,
+        "type": 2
     },
     {
-        "eventId": 1043,
-        "selectionId": 104301,
-        "selectionDesc": 25044043,
-        "type": 1,
         "check": [
             "luk",
             ""
@@ -2657,13 +2653,13 @@
         "args": [
             0,
             0
-        ]
+        ],
+        "eventId": 1043,
+        "selectionId": 104301,
+        "selectionDesc": 25044043,
+        "type": 1
     },
     {
-        "eventId": 1043,
-        "selectionId": 104302,
-        "selectionDesc": 25045043,
-        "type": 1,
         "check": [
             "ins",
             ""
@@ -2671,13 +2667,13 @@
         "args": [
             0,
             0
-        ]
+        ],
+        "eventId": 1043,
+        "selectionId": 104302,
+        "selectionDesc": 25045043,
+        "type": 1
     },
     {
-        "eventId": 1043,
-        "selectionId": 104303,
-        "selectionDesc": 25046043,
-        "type": 2,
         "check": [
             "",
             ""
@@ -2685,13 +2681,13 @@
         "args": [
             9009,
             0
-        ]
+        ],
+        "eventId": 1043,
+        "selectionId": 104303,
+        "selectionDesc": 25046043,
+        "type": 2
     },
     {
-        "eventId": 1043,
-        "selectionId": 104304,
-        "selectionDesc": 25047043,
-        "type": 2,
         "check": [
             "",
             ""
@@ -2699,13 +2695,13 @@
         "args": [
             9019,
             0
-        ]
+        ],
+        "eventId": 1043,
+        "selectionId": 104304,
+        "selectionDesc": 25047043,
+        "type": 2
     },
     {
-        "eventId": 1043,
-        "selectionId": 104305,
-        "selectionDesc": 25048043,
-        "type": 2,
         "check": [
             "",
             ""
@@ -2713,13 +2709,13 @@
         "args": [
             9004,
             0
-        ]
+        ],
+        "eventId": 1043,
+        "selectionId": 104305,
+        "selectionDesc": 25048043,
+        "type": 2
     },
     {
-        "eventId": 1044,
-        "selectionId": 104401,
-        "selectionDesc": 25044044,
-        "type": 3,
         "check": [
             "int",
             ""
@@ -2727,13 +2723,13 @@
         "args": [
             9002,
             0
-        ]
+        ],
+        "eventId": 1044,
+        "selectionId": 104401,
+        "selectionDesc": 25044044,
+        "type": 3
     },
     {
-        "eventId": 1044,
-        "selectionId": 104402,
-        "selectionDesc": 25045044,
-        "type": 1,
         "check": [
             "ins",
             ""
@@ -2741,13 +2737,13 @@
         "args": [
             0,
             0
-        ]
+        ],
+        "eventId": 1044,
+        "selectionId": 104402,
+        "selectionDesc": 25045044,
+        "type": 1
     },
     {
-        "eventId": 1044,
-        "selectionId": 104404,
-        "selectionDesc": 25047044,
-        "type": 2,
         "check": [
             "",
             ""
@@ -2755,13 +2751,13 @@
         "args": [
             9020,
             0
-        ]
+        ],
+        "eventId": 1044,
+        "selectionId": 104404,
+        "selectionDesc": 25047044,
+        "type": 2
     },
     {
-        "eventId": 1045,
-        "selectionId": 104501,
-        "selectionDesc": 25044045,
-        "type": 2,
         "check": [
             "",
             ""
@@ -2769,13 +2765,27 @@
         "args": [
             9017,
             0
-        ]
+        ],
+        "eventId": 1045,
+        "selectionId": 104501,
+        "selectionDesc": 25044045,
+        "type": 2
     },
     {
+        "check": [
+            "",
+            ""
+        ],
+        "args": [
+            0,
+            0
+        ],
         "eventId": 1045,
         "selectionId": 104502,
         "selectionDesc": 25045045,
-        "type": 1,
+        "type": 1
+    },
+    {
         "check": [
             "",
             ""
@@ -2783,27 +2793,13 @@
         "args": [
             0,
             0
-        ]
-    },
-    {
+        ],
         "eventId": 1045,
         "selectionId": 104503,
         "selectionDesc": 25046045,
-        "type": 1,
-        "check": [
-            "",
-            ""
-        ],
-        "args": [
-            0,
-            0
-        ]
+        "type": 1
     },
     {
-        "eventId": 1045,
-        "selectionId": 104504,
-        "selectionDesc": 25047045,
-        "type": 2,
         "check": [
             "",
             ""
@@ -2811,13 +2807,27 @@
         "args": [
             9004,
             0
-        ]
+        ],
+        "eventId": 1045,
+        "selectionId": 104504,
+        "selectionDesc": 25047045,
+        "type": 2
     },
     {
+        "check": [
+            "",
+            ""
+        ],
+        "args": [
+            0,
+            0
+        ],
         "eventId": 1046,
         "selectionId": 104601,
         "selectionDesc": 25044046,
-        "type": 1,
+        "type": 1
+    },
+    {
         "check": [
             "",
             ""
@@ -2825,27 +2835,13 @@
         "args": [
             0,
             0
-        ]
-    },
-    {
+        ],
         "eventId": 1046,
         "selectionId": 104602,
         "selectionDesc": 25045046,
-        "type": 1,
-        "check": [
-            "",
-            ""
-        ],
-        "args": [
-            0,
-            0
-        ]
+        "type": 1
     },
     {
-        "eventId": 1046,
-        "selectionId": 104603,
-        "selectionDesc": 25046046,
-        "type": 2,
         "check": [
             "",
             ""
@@ -2853,13 +2849,13 @@
         "args": [
             9014,
             0
-        ]
+        ],
+        "eventId": 1046,
+        "selectionId": 104603,
+        "selectionDesc": 25046046,
+        "type": 2
     },
     {
-        "eventId": 1046,
-        "selectionId": 104604,
-        "selectionDesc": 25047046,
-        "type": 2,
         "check": [
             "",
             ""
@@ -2867,13 +2863,27 @@
         "args": [
             9011,
             0
-        ]
+        ],
+        "eventId": 1046,
+        "selectionId": 104604,
+        "selectionDesc": 25047046,
+        "type": 2
     },
     {
+        "check": [
+            "",
+            ""
+        ],
+        "args": [
+            0,
+            0
+        ],
         "eventId": 1047,
         "selectionId": 104701,
         "selectionDesc": 25044047,
-        "type": 1,
+        "type": 1
+    },
+    {
         "check": [
             "",
             ""
@@ -2881,27 +2891,13 @@
         "args": [
             0,
             0
-        ]
-    },
-    {
+        ],
         "eventId": 1047,
         "selectionId": 104702,
         "selectionDesc": 25045047,
-        "type": 1,
-        "check": [
-            "",
-            ""
-        ],
-        "args": [
-            0,
-            0
-        ]
+        "type": 1
     },
     {
-        "eventId": 1047,
-        "selectionId": 104703,
-        "selectionDesc": 25046047,
-        "type": 2,
         "check": [
             "",
             ""
@@ -2909,13 +2905,27 @@
         "args": [
             9016,
             0
-        ]
+        ],
+        "eventId": 1047,
+        "selectionId": 104703,
+        "selectionDesc": 25046047,
+        "type": 2
     },
     {
+        "check": [
+            "",
+            ""
+        ],
+        "args": [
+            0,
+            0
+        ],
         "eventId": 1048,
         "selectionId": 104801,
         "selectionDesc": 25044048,
-        "type": 1,
+        "type": 1
+    },
+    {
         "check": [
             "",
             ""
@@ -2923,27 +2933,13 @@
         "args": [
             0,
             0
-        ]
-    },
-    {
+        ],
         "eventId": 1048,
         "selectionId": 104802,
         "selectionDesc": 25045048,
-        "type": 1,
-        "check": [
-            "",
-            ""
-        ],
-        "args": [
-            0,
-            0
-        ]
+        "type": 1
     },
     {
-        "eventId": 1048,
-        "selectionId": 104804,
-        "selectionDesc": 25047048,
-        "type": 2,
         "check": [
             "",
             ""
@@ -2951,13 +2947,27 @@
         "args": [
             9012,
             0
-        ]
+        ],
+        "eventId": 1048,
+        "selectionId": 104804,
+        "selectionDesc": 25047048,
+        "type": 2
     },
     {
+        "check": [
+            "",
+            ""
+        ],
+        "args": [
+            0,
+            0
+        ],
         "eventId": 1049,
         "selectionId": 104901,
         "selectionDesc": 25044049,
-        "type": 1,
+        "type": 1
+    },
+    {
         "check": [
             "",
             ""
@@ -2965,27 +2975,13 @@
         "args": [
             0,
             0
-        ]
-    },
-    {
+        ],
         "eventId": 1049,
         "selectionId": 104902,
         "selectionDesc": 25045049,
-        "type": 1,
-        "check": [
-            "",
-            ""
-        ],
-        "args": [
-            0,
-            0
-        ]
+        "type": 1
     },
     {
-        "eventId": 1049,
-        "selectionId": 104904,
-        "selectionDesc": 25047049,
-        "type": 2,
         "check": [
             "",
             ""
@@ -2993,13 +2989,13 @@
         "args": [
             9007,
             0
-        ]
+        ],
+        "eventId": 1049,
+        "selectionId": 104904,
+        "selectionDesc": 25047049,
+        "type": 2
     },
     {
-        "eventId": 1050,
-        "selectionId": 105001,
-        "selectionDesc": 25044050,
-        "type": 1,
         "check": [
             "",
             ""
@@ -3007,13 +3003,13 @@
         "args": [
             0,
             0
-        ]
+        ],
+        "eventId": 1050,
+        "selectionId": 105001,
+        "selectionDesc": 25044050,
+        "type": 1
     },
     {
-        "eventId": 1050,
-        "selectionId": 105003,
-        "selectionDesc": 25046050,
-        "type": 1,
         "check": [
             "ins",
             ""
@@ -3021,13 +3017,13 @@
         "args": [
             0,
             0
-        ]
+        ],
+        "eventId": 1050,
+        "selectionId": 105003,
+        "selectionDesc": 25046050,
+        "type": 1
     },
     {
-        "eventId": 1050,
-        "selectionId": 105004,
-        "selectionDesc": 25047050,
-        "type": 3,
         "check": [
             "",
             ""
@@ -3035,13 +3031,13 @@
         "args": [
             9020,
             0
-        ]
+        ],
+        "eventId": 1050,
+        "selectionId": 105004,
+        "selectionDesc": 25047050,
+        "type": 3
     },
     {
-        "eventId": 1050,
-        "selectionId": 105005,
-        "selectionDesc": 25048050,
-        "type": 2,
         "check": [
             "",
             ""
@@ -3049,13 +3045,13 @@
         "args": [
             9010,
             0
-        ]
+        ],
+        "eventId": 1050,
+        "selectionId": 105005,
+        "selectionDesc": 25048050,
+        "type": 2
     },
     {
-        "eventId": 1051,
-        "selectionId": 105101,
-        "selectionDesc": 25044051,
-        "type": 2,
         "check": [
             "",
             ""
@@ -3063,13 +3059,13 @@
         "args": [
             9014,
             0
-        ]
+        ],
+        "eventId": 1051,
+        "selectionId": 105101,
+        "selectionDesc": 25044051,
+        "type": 2
     },
     {
-        "eventId": 1051,
-        "selectionId": 105102,
-        "selectionDesc": 25045051,
-        "type": 1,
         "check": [
             "int",
             ""
@@ -3077,13 +3073,13 @@
         "args": [
             0,
             0
-        ]
+        ],
+        "eventId": 1051,
+        "selectionId": 105102,
+        "selectionDesc": 25045051,
+        "type": 1
     },
     {
-        "eventId": 1051,
-        "selectionId": 105103,
-        "selectionDesc": 25046051,
-        "type": 3,
         "check": [
             "res",
             ""
@@ -3091,13 +3087,13 @@
         "args": [
             9011,
             0
-        ]
+        ],
+        "eventId": 1051,
+        "selectionId": 105103,
+        "selectionDesc": 25046051,
+        "type": 3
     },
     {
-        "eventId": 1051,
-        "selectionId": 105104,
-        "selectionDesc": 25047051,
-        "type": 2,
         "check": [
             "",
             ""
@@ -3105,13 +3101,13 @@
         "args": [
             9003,
             0
-        ]
+        ],
+        "eventId": 1051,
+        "selectionId": 105104,
+        "selectionDesc": 25047051,
+        "type": 2
     },
     {
-        "eventId": 1052,
-        "selectionId": 105201,
-        "selectionDesc": 25044052,
-        "type": 3,
         "check": [
             "ins",
             ""
@@ -3119,13 +3115,13 @@
         "args": [
             9006,
             0
-        ]
+        ],
+        "eventId": 1052,
+        "selectionId": 105201,
+        "selectionDesc": 25044052,
+        "type": 3
     },
     {
-        "eventId": 1052,
-        "selectionId": 105202,
-        "selectionDesc": 25045052,
-        "type": 1,
         "check": [
             "tec",
             ""
@@ -3133,13 +3129,13 @@
         "args": [
             0,
             0
-        ]
+        ],
+        "eventId": 1052,
+        "selectionId": 105202,
+        "selectionDesc": 25045052,
+        "type": 1
     },
     {
-        "eventId": 1052,
-        "selectionId": 105203,
-        "selectionDesc": 25046052,
-        "type": 2,
         "check": [
             "",
             ""
@@ -3147,13 +3143,27 @@
         "args": [
             9017,
             0
-        ]
+        ],
+        "eventId": 1052,
+        "selectionId": 105203,
+        "selectionDesc": 25046052,
+        "type": 2
     },
     {
+        "check": [
+            "ins",
+            ""
+        ],
+        "args": [
+            0,
+            0
+        ],
         "eventId": 1053,
         "selectionId": 105301,
         "selectionDesc": 25044053,
-        "type": 1,
+        "type": 1
+    },
+    {
         "check": [
             "ins",
             ""
@@ -3161,27 +3171,13 @@
         "args": [
             0,
             0
-        ]
-    },
-    {
+        ],
         "eventId": 1053,
         "selectionId": 105302,
         "selectionDesc": 25045053,
-        "type": 1,
-        "check": [
-            "ins",
-            ""
-        ],
-        "args": [
-            0,
-            0
-        ]
+        "type": 1
     },
     {
-        "eventId": 1053,
-        "selectionId": 105304,
-        "selectionDesc": 25047053,
-        "type": 2,
         "check": [
             "ins",
             ""
@@ -3189,13 +3185,13 @@
         "args": [
             9011,
             0
-        ]
+        ],
+        "eventId": 1053,
+        "selectionId": 105304,
+        "selectionDesc": 25047053,
+        "type": 2
     },
     {
-        "eventId": 1054,
-        "selectionId": 105401,
-        "selectionDesc": 25044054,
-        "type": 1,
         "check": [
             "luk",
             ""
@@ -3203,13 +3199,13 @@
         "args": [
             0,
             0
-        ]
+        ],
+        "eventId": 1054,
+        "selectionId": 105401,
+        "selectionDesc": 25044054,
+        "type": 1
     },
     {
-        "eventId": 1054,
-        "selectionId": 105402,
-        "selectionDesc": 25045054,
-        "type": 1,
         "check": [
             "res",
             ""
@@ -3217,13 +3213,13 @@
         "args": [
             0,
             0
-        ]
+        ],
+        "eventId": 1054,
+        "selectionId": 105402,
+        "selectionDesc": 25045054,
+        "type": 1
     },
     {
-        "eventId": 1054,
-        "selectionId": 105403,
-        "selectionDesc": 25046054,
-        "type": 3,
         "check": [
             "ins",
             ""
@@ -3231,13 +3227,13 @@
         "args": [
             9015,
             0
-        ]
+        ],
+        "eventId": 1054,
+        "selectionId": 105403,
+        "selectionDesc": 25046054,
+        "type": 3
     },
     {
-        "eventId": 1055,
-        "selectionId": 105501,
-        "selectionDesc": 25044055,
-        "type": 1,
         "check": [
             "luk",
             ""
@@ -3245,13 +3241,13 @@
         "args": [
             0,
             0
-        ]
+        ],
+        "eventId": 1055,
+        "selectionId": 105501,
+        "selectionDesc": 25044055,
+        "type": 1
     },
     {
-        "eventId": 1055,
-        "selectionId": 105502,
-        "selectionDesc": 25045055,
-        "type": 1,
         "check": [
             "tec",
             ""
@@ -3259,13 +3255,13 @@
         "args": [
             0,
             0
-        ]
+        ],
+        "eventId": 1055,
+        "selectionId": 105502,
+        "selectionDesc": 25045055,
+        "type": 1
     },
     {
-        "eventId": 1055,
-        "selectionId": 105504,
-        "selectionDesc": 25047055,
-        "type": 2,
         "check": [
             "",
             ""
@@ -3273,13 +3269,13 @@
         "args": [
             9008,
             0
-        ]
+        ],
+        "eventId": 1055,
+        "selectionId": 105504,
+        "selectionDesc": 25047055,
+        "type": 2
     },
     {
-        "eventId": 1056,
-        "selectionId": 105601,
-        "selectionDesc": 25044056,
-        "type": 3,
         "check": [
             "int",
             ""
@@ -3287,13 +3283,13 @@
         "args": [
             9019,
             0
-        ]
+        ],
+        "eventId": 1056,
+        "selectionId": 105601,
+        "selectionDesc": 25044056,
+        "type": 3
     },
     {
-        "eventId": 1056,
-        "selectionId": 105602,
-        "selectionDesc": 25045056,
-        "type": 1,
         "check": [
             "ins",
             ""
@@ -3301,13 +3297,13 @@
         "args": [
             0,
             0
-        ]
+        ],
+        "eventId": 1056,
+        "selectionId": 105602,
+        "selectionDesc": 25045056,
+        "type": 1
     },
     {
-        "eventId": 1056,
-        "selectionId": 105604,
-        "selectionDesc": 25047056,
-        "type": 2,
         "check": [
             "",
             ""
@@ -3315,13 +3311,13 @@
         "args": [
             9018,
             0
-        ]
+        ],
+        "eventId": 1056,
+        "selectionId": 105604,
+        "selectionDesc": 25047056,
+        "type": 2
     },
     {
-        "eventId": 1057,
-        "selectionId": 105701,
-        "selectionDesc": 25044057,
-        "type": 1,
         "check": [
             "int",
             ""
@@ -3329,13 +3325,13 @@
         "args": [
             0,
             0
-        ]
+        ],
+        "eventId": 1057,
+        "selectionId": 105701,
+        "selectionDesc": 25044057,
+        "type": 1
     },
     {
-        "eventId": 1057,
-        "selectionId": 105702,
-        "selectionDesc": 25045057,
-        "type": 1,
         "check": [
             "",
             ""
@@ -3343,13 +3339,13 @@
         "args": [
             0,
             0
-        ]
+        ],
+        "eventId": 1057,
+        "selectionId": 105702,
+        "selectionDesc": 25045057,
+        "type": 1
     },
     {
-        "eventId": 1057,
-        "selectionId": 105704,
-        "selectionDesc": 25047057,
-        "type": 2,
         "check": [
             "",
             ""
@@ -3357,13 +3353,13 @@
         "args": [
             9002,
             0
-        ]
+        ],
+        "eventId": 1057,
+        "selectionId": 105704,
+        "selectionDesc": 25047057,
+        "type": 2
     },
     {
-        "eventId": 1058,
-        "selectionId": 105801,
-        "selectionDesc": 25044058,
-        "type": 1,
         "check": [
             "tec",
             ""
@@ -3371,13 +3367,13 @@
         "args": [
             0,
             0
-        ]
+        ],
+        "eventId": 1058,
+        "selectionId": 105801,
+        "selectionDesc": 25044058,
+        "type": 1
     },
     {
-        "eventId": 1058,
-        "selectionId": 105802,
-        "selectionDesc": 25045058,
-        "type": 1,
         "check": [
             "",
             ""
@@ -3385,13 +3381,13 @@
         "args": [
             0,
             0
-        ]
+        ],
+        "eventId": 1058,
+        "selectionId": 105802,
+        "selectionDesc": 25045058,
+        "type": 1
     },
     {
-        "eventId": 1058,
-        "selectionId": 105804,
-        "selectionDesc": 25047058,
-        "type": 2,
         "check": [
             "res",
             ""
@@ -3399,13 +3395,27 @@
         "args": [
             9011,
             0
-        ]
+        ],
+        "eventId": 1058,
+        "selectionId": 105804,
+        "selectionDesc": 25047058,
+        "type": 2
     },
     {
+        "check": [
+            "",
+            ""
+        ],
+        "args": [
+            0,
+            0
+        ],
         "eventId": 1059,
         "selectionId": 105901,
         "selectionDesc": 25044059,
-        "type": 1,
+        "type": 1
+    },
+    {
         "check": [
             "",
             ""
@@ -3413,27 +3423,13 @@
         "args": [
             0,
             0
-        ]
-    },
-    {
+        ],
         "eventId": 1059,
         "selectionId": 105902,
         "selectionDesc": 25045059,
-        "type": 1,
-        "check": [
-            "",
-            ""
-        ],
-        "args": [
-            0,
-            0
-        ]
+        "type": 1
     },
     {
-        "eventId": 1059,
-        "selectionId": 105903,
-        "selectionDesc": 25046059,
-        "type": 3,
         "check": [
             "int",
             ""
@@ -3441,13 +3437,13 @@
         "args": [
             9017,
             0
-        ]
+        ],
+        "eventId": 1059,
+        "selectionId": 105903,
+        "selectionDesc": 25046059,
+        "type": 3
     },
     {
-        "eventId": 1059,
-        "selectionId": 105904,
-        "selectionDesc": 25047059,
-        "type": 2,
         "check": [
             "",
             ""
@@ -3455,13 +3451,13 @@
         "args": [
             9002,
             0
-        ]
+        ],
+        "eventId": 1059,
+        "selectionId": 105904,
+        "selectionDesc": 25047059,
+        "type": 2
     },
     {
-        "eventId": 1060,
-        "selectionId": 106001,
-        "selectionDesc": 25044060,
-        "type": 1,
         "check": [
             "tec",
             ""
@@ -3469,13 +3465,27 @@
         "args": [
             0,
             0
-        ]
+        ],
+        "eventId": 1060,
+        "selectionId": 106001,
+        "selectionDesc": 25044060,
+        "type": 1
     },
     {
+        "check": [
+            "res",
+            ""
+        ],
+        "args": [
+            0,
+            0
+        ],
         "eventId": 1060,
         "selectionId": 106002,
         "selectionDesc": 25045060,
-        "type": 1,
+        "type": 1
+    },
+    {
         "check": [
             "res",
             ""
@@ -3483,27 +3493,13 @@
         "args": [
             0,
             0
-        ]
-    },
-    {
+        ],
         "eventId": 1061,
         "selectionId": 106101,
         "selectionDesc": 25044061,
-        "type": 1,
-        "check": [
-            "res",
-            ""
-        ],
-        "args": [
-            0,
-            0
-        ]
+        "type": 1
     },
     {
-        "eventId": 1061,
-        "selectionId": 106102,
-        "selectionDesc": 25045061,
-        "type": 2,
         "check": [
             "",
             ""
@@ -3511,13 +3507,13 @@
         "args": [
             9006,
             0
-        ]
+        ],
+        "eventId": 1061,
+        "selectionId": 106102,
+        "selectionDesc": 25045061,
+        "type": 2
     },
     {
-        "eventId": 1061,
-        "selectionId": 106103,
-        "selectionDesc": 25046061,
-        "type": 3,
         "check": [
             "int",
             ""
@@ -3525,13 +3521,13 @@
         "args": [
             9018,
             0
-        ]
+        ],
+        "eventId": 1061,
+        "selectionId": 106103,
+        "selectionDesc": 25046061,
+        "type": 3
     },
     {
-        "eventId": 1061,
-        "selectionId": 106104,
-        "selectionDesc": 25047061,
-        "type": 2,
         "check": [
             "",
             ""
@@ -3539,13 +3535,13 @@
         "args": [
             9004,
             0
-        ]
+        ],
+        "eventId": 1061,
+        "selectionId": 106104,
+        "selectionDesc": 25047061,
+        "type": 2
     },
     {
-        "eventId": 1062,
-        "selectionId": 106201,
-        "selectionDesc": 25044062,
-        "type": 1,
         "check": [
             "ins",
             ""
@@ -3553,13 +3549,13 @@
         "args": [
             0,
             0
-        ]
+        ],
+        "eventId": 1062,
+        "selectionId": 106201,
+        "selectionDesc": 25044062,
+        "type": 1
     },
     {
-        "eventId": 1062,
-        "selectionId": 106202,
-        "selectionDesc": 25045062,
-        "type": 1,
         "check": [
             "luk",
             ""
@@ -3567,13 +3563,13 @@
         "args": [
             0,
             0
-        ]
+        ],
+        "eventId": 1062,
+        "selectionId": 106202,
+        "selectionDesc": 25045062,
+        "type": 1
     },
     {
-        "eventId": 1062,
-        "selectionId": 106203,
-        "selectionDesc": 25046062,
-        "type": 2,
         "check": [
             "tec",
             ""
@@ -3581,13 +3577,13 @@
         "args": [
             9013,
             0
-        ]
+        ],
+        "eventId": 1062,
+        "selectionId": 106203,
+        "selectionDesc": 25046062,
+        "type": 2
     },
     {
-        "eventId": 1063,
-        "selectionId": 106301,
-        "selectionDesc": 25044063,
-        "type": 1,
         "check": [
             "luk",
             ""
@@ -3595,13 +3591,13 @@
         "args": [
             0,
             0
-        ]
+        ],
+        "eventId": 1063,
+        "selectionId": 106301,
+        "selectionDesc": 25044063,
+        "type": 1
     },
     {
-        "eventId": 1063,
-        "selectionId": 106302,
-        "selectionDesc": 25045063,
-        "type": 1,
         "check": [
             "res",
             ""
@@ -3609,13 +3605,13 @@
         "args": [
             0,
             0
-        ]
+        ],
+        "eventId": 1063,
+        "selectionId": 106302,
+        "selectionDesc": 25045063,
+        "type": 1
     },
     {
-        "eventId": 1063,
-        "selectionId": 106304,
-        "selectionDesc": 25047063,
-        "type": 2,
         "check": [
             "",
             ""
@@ -3623,13 +3619,27 @@
         "args": [
             9001,
             0
-        ]
+        ],
+        "eventId": 1063,
+        "selectionId": 106304,
+        "selectionDesc": 25047063,
+        "type": 2
     },
     {
+        "check": [
+            "luk",
+            ""
+        ],
+        "args": [
+            0,
+            0
+        ],
         "eventId": 1064,
         "selectionId": 106401,
         "selectionDesc": 25044064,
-        "type": 1,
+        "type": 1
+    },
+    {
         "check": [
             "luk",
             ""
@@ -3637,27 +3647,13 @@
         "args": [
             0,
             0
-        ]
-    },
-    {
+        ],
         "eventId": 1064,
         "selectionId": 106402,
         "selectionDesc": 25045064,
-        "type": 1,
-        "check": [
-            "luk",
-            ""
-        ],
-        "args": [
-            0,
-            0
-        ]
+        "type": 1
     },
     {
-        "eventId": 1064,
-        "selectionId": 106404,
-        "selectionDesc": 25047064,
-        "type": 2,
         "check": [
             "",
             ""
@@ -3665,13 +3661,13 @@
         "args": [
             9016,
             0
-        ]
+        ],
+        "eventId": 1064,
+        "selectionId": 106404,
+        "selectionDesc": 25047064,
+        "type": 2
     },
     {
-        "eventId": 1065,
-        "selectionId": 106501,
-        "selectionDesc": 25044065,
-        "type": 1,
         "check": [
             "res",
             ""
@@ -3679,13 +3675,13 @@
         "args": [
             0,
             0
-        ]
+        ],
+        "eventId": 1065,
+        "selectionId": 106501,
+        "selectionDesc": 25044065,
+        "type": 1
     },
     {
-        "eventId": 1065,
-        "selectionId": 106502,
-        "selectionDesc": 25045065,
-        "type": 1,
         "check": [
             "int",
             ""
@@ -3693,13 +3689,13 @@
         "args": [
             0,
             0
-        ]
+        ],
+        "eventId": 1065,
+        "selectionId": 106502,
+        "selectionDesc": 25045065,
+        "type": 1
     },
     {
-        "eventId": 1065,
-        "selectionId": 106504,
-        "selectionDesc": 25047065,
-        "type": 2,
         "check": [
             "",
             ""
@@ -3707,13 +3703,13 @@
         "args": [
             9004,
             0
-        ]
+        ],
+        "eventId": 1065,
+        "selectionId": 106504,
+        "selectionDesc": 25047065,
+        "type": 2
     },
     {
-        "eventId": 1066,
-        "selectionId": 106601,
-        "selectionDesc": 25044066,
-        "type": 1,
         "check": [
             "res",
             ""
@@ -3721,13 +3717,13 @@
         "args": [
             0,
             0
-        ]
+        ],
+        "eventId": 1066,
+        "selectionId": 106601,
+        "selectionDesc": 25044066,
+        "type": 1
     },
     {
-        "eventId": 1066,
-        "selectionId": 106602,
-        "selectionDesc": 25045066,
-        "type": 1,
         "check": [
             "tec",
             ""
@@ -3735,13 +3731,13 @@
         "args": [
             0,
             0
-        ]
+        ],
+        "eventId": 1066,
+        "selectionId": 106602,
+        "selectionDesc": 25045066,
+        "type": 1
     },
     {
-        "eventId": 1066,
-        "selectionId": 106603,
-        "selectionDesc": 25046066,
-        "type": 2,
         "check": [
             "",
             ""
@@ -3749,13 +3745,13 @@
         "args": [
             9019,
             0
-        ]
+        ],
+        "eventId": 1066,
+        "selectionId": 106603,
+        "selectionDesc": 25046066,
+        "type": 2
     },
     {
-        "eventId": 1066,
-        "selectionId": 106604,
-        "selectionDesc": 25047066,
-        "type": 2,
         "check": [
             "int",
             ""
@@ -3763,13 +3759,13 @@
         "args": [
             9013,
             0
-        ]
+        ],
+        "eventId": 1066,
+        "selectionId": 106604,
+        "selectionDesc": 25047066,
+        "type": 2
     },
     {
-        "eventId": 1067,
-        "selectionId": 106701,
-        "selectionDesc": 25044067,
-        "type": 2,
         "check": [
             "",
             ""
@@ -3777,13 +3773,13 @@
         "args": [
             9002,
             0
-        ]
+        ],
+        "eventId": 1067,
+        "selectionId": 106701,
+        "selectionDesc": 25044067,
+        "type": 2
     },
     {
-        "eventId": 1067,
-        "selectionId": 106702,
-        "selectionDesc": 25045067,
-        "type": 1,
         "check": [
             "ins",
             ""
@@ -3791,13 +3787,13 @@
         "args": [
             0,
             0
-        ]
+        ],
+        "eventId": 1067,
+        "selectionId": 106702,
+        "selectionDesc": 25045067,
+        "type": 1
     },
     {
-        "eventId": 1067,
-        "selectionId": 106703,
-        "selectionDesc": 25046067,
-        "type": 1,
         "check": [
             "int",
             ""
@@ -3805,13 +3801,13 @@
         "args": [
             0,
             0
-        ]
+        ],
+        "eventId": 1067,
+        "selectionId": 106703,
+        "selectionDesc": 25046067,
+        "type": 1
     },
     {
-        "eventId": 1068,
-        "selectionId": 106801,
-        "selectionDesc": 25044068,
-        "type": 1,
         "check": [
             "res",
             ""
@@ -3819,13 +3815,13 @@
         "args": [
             0,
             0
-        ]
+        ],
+        "eventId": 1068,
+        "selectionId": 106801,
+        "selectionDesc": 25044068,
+        "type": 1
     },
     {
-        "eventId": 1068,
-        "selectionId": 106802,
-        "selectionDesc": 25045068,
-        "type": 1,
         "check": [
             "ins",
             ""
@@ -3833,13 +3829,13 @@
         "args": [
             0,
             0
-        ]
+        ],
+        "eventId": 1068,
+        "selectionId": 106802,
+        "selectionDesc": 25045068,
+        "type": 1
     },
     {
-        "eventId": 1068,
-        "selectionId": 106803,
-        "selectionDesc": 25046068,
-        "type": 2,
         "check": [
             "",
             ""
@@ -3847,13 +3843,13 @@
         "args": [
             9002,
             0
-        ]
+        ],
+        "eventId": 1068,
+        "selectionId": 106803,
+        "selectionDesc": 25046068,
+        "type": 2
     },
     {
-        "eventId": 1069,
-        "selectionId": 106901,
-        "selectionDesc": 25044069,
-        "type": 1,
         "check": [
             "tec",
             ""
@@ -3861,13 +3857,13 @@
         "args": [
             0,
             0
-        ]
+        ],
+        "eventId": 1069,
+        "selectionId": 106901,
+        "selectionDesc": 25044069,
+        "type": 1
     },
     {
-        "eventId": 1069,
-        "selectionId": 106902,
-        "selectionDesc": 25045069,
-        "type": 1,
         "check": [
             "res",
             ""
@@ -3875,13 +3871,13 @@
         "args": [
             0,
             0
-        ]
+        ],
+        "eventId": 1069,
+        "selectionId": 106902,
+        "selectionDesc": 25045069,
+        "type": 1
     },
     {
-        "eventId": 1069,
-        "selectionId": 106904,
-        "selectionDesc": 25047069,
-        "type": 2,
         "check": [
             "",
             ""
@@ -3889,13 +3885,13 @@
         "args": [
             9004,
             0
-        ]
+        ],
+        "eventId": 1069,
+        "selectionId": 106904,
+        "selectionDesc": 25047069,
+        "type": 2
     },
     {
-        "eventId": 1070,
-        "selectionId": 107001,
-        "selectionDesc": 25044070,
-        "type": 1,
         "check": [
             "res",
             ""
@@ -3903,13 +3899,13 @@
         "args": [
             0,
             0
-        ]
+        ],
+        "eventId": 1070,
+        "selectionId": 107001,
+        "selectionDesc": 25044070,
+        "type": 1
     },
     {
-        "eventId": 1070,
-        "selectionId": 107002,
-        "selectionDesc": 25045070,
-        "type": 2,
         "check": [
             "",
             ""
@@ -3917,13 +3913,13 @@
         "args": [
             9015,
             0
-        ]
+        ],
+        "eventId": 1070,
+        "selectionId": 107002,
+        "selectionDesc": 25045070,
+        "type": 2
     },
     {
-        "eventId": 1070,
-        "selectionId": 107003,
-        "selectionDesc": 25046070,
-        "type": 1,
         "check": [
             "int",
             ""
@@ -3931,13 +3927,13 @@
         "args": [
             0,
             0
-        ]
+        ],
+        "eventId": 1070,
+        "selectionId": 107003,
+        "selectionDesc": 25046070,
+        "type": 1
     },
     {
-        "eventId": 1071,
-        "selectionId": 107101,
-        "selectionDesc": 25044071,
-        "type": 1,
         "check": [
             "res",
             ""
@@ -3945,13 +3941,13 @@
         "args": [
             0,
             0
-        ]
+        ],
+        "eventId": 1071,
+        "selectionId": 107101,
+        "selectionDesc": 25044071,
+        "type": 1
     },
     {
-        "eventId": 1071,
-        "selectionId": 107102,
-        "selectionDesc": 25045071,
-        "type": 2,
         "check": [
             "",
             ""
@@ -3959,13 +3955,13 @@
         "args": [
             9005,
             0
-        ]
+        ],
+        "eventId": 1071,
+        "selectionId": 107102,
+        "selectionDesc": 25045071,
+        "type": 2
     },
     {
-        "eventId": 1071,
-        "selectionId": 107103,
-        "selectionDesc": 25046071,
-        "type": 1,
         "check": [
             "tec",
             ""
@@ -3973,13 +3969,13 @@
         "args": [
             0,
             0
-        ]
+        ],
+        "eventId": 1071,
+        "selectionId": 107103,
+        "selectionDesc": 25046071,
+        "type": 1
     },
     {
-        "eventId": 1072,
-        "selectionId": 107201,
-        "selectionDesc": 25044072,
-        "type": 1,
         "check": [
             "ins",
             ""
@@ -3987,13 +3983,13 @@
         "args": [
             0,
             0
-        ]
+        ],
+        "eventId": 1072,
+        "selectionId": 107201,
+        "selectionDesc": 25044072,
+        "type": 1
     },
     {
-        "eventId": 1072,
-        "selectionId": 107202,
-        "selectionDesc": 25045072,
-        "type": 1,
         "check": [
             "luk",
             ""
@@ -4001,13 +3997,13 @@
         "args": [
             0,
             0
-        ]
+        ],
+        "eventId": 1072,
+        "selectionId": 107202,
+        "selectionDesc": 25045072,
+        "type": 1
     },
     {
-        "eventId": 1072,
-        "selectionId": 107203,
-        "selectionDesc": 25046072,
-        "type": 2,
         "check": [
             "",
             ""
@@ -4015,13 +4011,13 @@
         "args": [
             9014,
             0
-        ]
+        ],
+        "eventId": 1072,
+        "selectionId": 107203,
+        "selectionDesc": 25046072,
+        "type": 2
     },
     {
-        "eventId": 1073,
-        "selectionId": 107301,
-        "selectionDesc": 25044073,
-        "type": 1,
         "check": [
             "ins",
             ""
@@ -4029,13 +4025,13 @@
         "args": [
             0,
             0
-        ]
+        ],
+        "eventId": 1073,
+        "selectionId": 107301,
+        "selectionDesc": 25044073,
+        "type": 1
     },
     {
-        "eventId": 1073,
-        "selectionId": 107302,
-        "selectionDesc": 25045073,
-        "type": 1,
         "check": [
             "luk",
             ""
@@ -4043,13 +4039,13 @@
         "args": [
             0,
             0
-        ]
+        ],
+        "eventId": 1073,
+        "selectionId": 107302,
+        "selectionDesc": 25045073,
+        "type": 1
     },
     {
-        "eventId": 1073,
-        "selectionId": 107303,
-        "selectionDesc": 25046073,
-        "type": 2,
         "check": [
             "",
             ""
@@ -4057,13 +4053,13 @@
         "args": [
             9003,
             0
-        ]
+        ],
+        "eventId": 1073,
+        "selectionId": 107303,
+        "selectionDesc": 25046073,
+        "type": 2
     },
     {
-        "eventId": 1074,
-        "selectionId": 107401,
-        "selectionDesc": 25044074,
-        "type": 1,
         "check": [
             "tec",
             ""
@@ -4071,13 +4067,13 @@
         "args": [
             0,
             0
-        ]
+        ],
+        "eventId": 1074,
+        "selectionId": 107401,
+        "selectionDesc": 25044074,
+        "type": 1
     },
     {
-        "eventId": 1074,
-        "selectionId": 107402,
-        "selectionDesc": 25045074,
-        "type": 2,
         "check": [
             "",
             ""
@@ -4085,13 +4081,13 @@
         "args": [
             9011,
             0
-        ]
+        ],
+        "eventId": 1074,
+        "selectionId": 107402,
+        "selectionDesc": 25045074,
+        "type": 2
     },
     {
-        "eventId": 1074,
-        "selectionId": 107403,
-        "selectionDesc": 25046074,
-        "type": 1,
         "check": [
             "res",
             ""
@@ -4099,13 +4095,13 @@
         "args": [
             0,
             0
-        ]
+        ],
+        "eventId": 1074,
+        "selectionId": 107403,
+        "selectionDesc": 25046074,
+        "type": 1
     },
     {
-        "eventId": 1075,
-        "selectionId": 107501,
-        "selectionDesc": 25044075,
-        "type": 1,
         "check": [
             "ins",
             ""
@@ -4113,13 +4109,13 @@
         "args": [
             0,
             0
-        ]
+        ],
+        "eventId": 1075,
+        "selectionId": 107501,
+        "selectionDesc": 25044075,
+        "type": 1
     },
     {
-        "eventId": 1075,
-        "selectionId": 107502,
-        "selectionDesc": 25045075,
-        "type": 1,
         "check": [
             "res",
             ""
@@ -4127,13 +4123,13 @@
         "args": [
             0,
             0
-        ]
+        ],
+        "eventId": 1075,
+        "selectionId": 107502,
+        "selectionDesc": 25045075,
+        "type": 1
     },
     {
-        "eventId": 1075,
-        "selectionId": 107504,
-        "selectionDesc": 25047075,
-        "type": 2,
         "check": [
             "",
             ""
@@ -4141,13 +4137,13 @@
         "args": [
             9006,
             0
-        ]
+        ],
+        "eventId": 1075,
+        "selectionId": 107504,
+        "selectionDesc": 25047075,
+        "type": 2
     },
     {
-        "eventId": 1076,
-        "selectionId": 107601,
-        "selectionDesc": 25044076,
-        "type": 2,
         "check": [
             "",
             ""
@@ -4155,13 +4151,13 @@
         "args": [
             9002,
             0
-        ]
+        ],
+        "eventId": 1076,
+        "selectionId": 107601,
+        "selectionDesc": 25044076,
+        "type": 2
     },
     {
-        "eventId": 1076,
-        "selectionId": 107602,
-        "selectionDesc": 25045076,
-        "type": 1,
         "check": [
             "luk",
             ""
@@ -4169,13 +4165,13 @@
         "args": [
             0,
             0
-        ]
+        ],
+        "eventId": 1076,
+        "selectionId": 107602,
+        "selectionDesc": 25045076,
+        "type": 1
     },
     {
-        "eventId": 1076,
-        "selectionId": 107603,
-        "selectionDesc": 25046076,
-        "type": 1,
         "check": [
             "tec",
             ""
@@ -4183,13 +4179,27 @@
         "args": [
             0,
             0
-        ]
+        ],
+        "eventId": 1076,
+        "selectionId": 107603,
+        "selectionDesc": 25046076,
+        "type": 1
     },
     {
+        "check": [
+            "",
+            ""
+        ],
+        "args": [
+            0,
+            0
+        ],
         "eventId": 1077,
         "selectionId": 107701,
         "selectionDesc": 25044077,
-        "type": 1,
+        "type": 1
+    },
+    {
         "check": [
             "",
             ""
@@ -4197,27 +4207,13 @@
         "args": [
             0,
             0
-        ]
-    },
-    {
+        ],
         "eventId": 1077,
         "selectionId": 107702,
         "selectionDesc": 25045077,
-        "type": 1,
-        "check": [
-            "",
-            ""
-        ],
-        "args": [
-            0,
-            0
-        ]
+        "type": 1
     },
     {
-        "eventId": 1077,
-        "selectionId": 107704,
-        "selectionDesc": 25047077,
-        "type": 2,
         "check": [
             "",
             ""
@@ -4225,13 +4221,13 @@
         "args": [
             9004,
             0
-        ]
+        ],
+        "eventId": 1077,
+        "selectionId": 107704,
+        "selectionDesc": 25047077,
+        "type": 2
     },
     {
-        "eventId": 1078,
-        "selectionId": 107801,
-        "selectionDesc": 25044078,
-        "type": 2,
         "check": [
             "",
             ""
@@ -4239,13 +4235,27 @@
         "args": [
             9018,
             0
-        ]
+        ],
+        "eventId": 1078,
+        "selectionId": 107801,
+        "selectionDesc": 25044078,
+        "type": 2
     },
     {
+        "check": [
+            "",
+            ""
+        ],
+        "args": [
+            0,
+            0
+        ],
         "eventId": 1078,
         "selectionId": 107802,
         "selectionDesc": 25045078,
-        "type": 1,
+        "type": 1
+    },
+    {
         "check": [
             "",
             ""
@@ -4253,27 +4263,13 @@
         "args": [
             0,
             0
-        ]
-    },
-    {
+        ],
         "eventId": 1078,
         "selectionId": 107803,
         "selectionDesc": 25046078,
-        "type": 1,
-        "check": [
-            "",
-            ""
-        ],
-        "args": [
-            0,
-            0
-        ]
+        "type": 1
     },
     {
-        "eventId": 1079,
-        "selectionId": 107901,
-        "selectionDesc": 25044079,
-        "type": 1,
         "check": [
             "res",
             ""
@@ -4281,13 +4277,13 @@
         "args": [
             0,
             0
-        ]
+        ],
+        "eventId": 1079,
+        "selectionId": 107901,
+        "selectionDesc": 25044079,
+        "type": 1
     },
     {
-        "eventId": 1079,
-        "selectionId": 107902,
-        "selectionDesc": 25045079,
-        "type": 2,
         "check": [
             "",
             ""
@@ -4295,13 +4291,27 @@
         "args": [
             9004,
             0
-        ]
+        ],
+        "eventId": 1079,
+        "selectionId": 107902,
+        "selectionDesc": 25045079,
+        "type": 2
     },
     {
+        "check": [
+            "ins",
+            ""
+        ],
+        "args": [
+            0,
+            0
+        ],
         "eventId": 1079,
         "selectionId": 107903,
         "selectionDesc": 25046079,
-        "type": 1,
+        "type": 1
+    },
+    {
         "check": [
             "ins",
             ""
@@ -4309,27 +4319,13 @@
         "args": [
             0,
             0
-        ]
-    },
-    {
+        ],
         "eventId": 1080,
         "selectionId": 108001,
         "selectionDesc": 25044080,
-        "type": 1,
-        "check": [
-            "ins",
-            ""
-        ],
-        "args": [
-            0,
-            0
-        ]
+        "type": 1
     },
     {
-        "eventId": 1080,
-        "selectionId": 108002,
-        "selectionDesc": 25045080,
-        "type": 1,
         "check": [
             "luk",
             ""
@@ -4337,13 +4333,13 @@
         "args": [
             0,
             0
-        ]
+        ],
+        "eventId": 1080,
+        "selectionId": 108002,
+        "selectionDesc": 25045080,
+        "type": 1
     },
     {
-        "eventId": 1080,
-        "selectionId": 108003,
-        "selectionDesc": 25046080,
-        "type": 2,
         "check": [
             "",
             ""
@@ -4351,13 +4347,13 @@
         "args": [
             9013,
             0
-        ]
+        ],
+        "eventId": 1080,
+        "selectionId": 108003,
+        "selectionDesc": 25046080,
+        "type": 2
     },
     {
-        "eventId": 1080,
-        "selectionId": 108004,
-        "selectionDesc": 25047080,
-        "type": 2,
         "check": [
             "",
             ""
@@ -4365,13 +4361,13 @@
         "args": [
             9006,
             0
-        ]
+        ],
+        "eventId": 1080,
+        "selectionId": 108004,
+        "selectionDesc": 25047080,
+        "type": 2
     },
     {
-        "eventId": 1081,
-        "selectionId": 108101,
-        "selectionDesc": 25044081,
-        "type": 1,
         "check": [
             "res",
             ""
@@ -4379,13 +4375,13 @@
         "args": [
             0,
             0
-        ]
+        ],
+        "eventId": 1081,
+        "selectionId": 108101,
+        "selectionDesc": 25044081,
+        "type": 1
     },
     {
-        "eventId": 1081,
-        "selectionId": 108102,
-        "selectionDesc": 25045081,
-        "type": 2,
         "check": [
             "",
             ""
@@ -4393,13 +4389,13 @@
         "args": [
             9006,
             0
-        ]
+        ],
+        "eventId": 1081,
+        "selectionId": 108102,
+        "selectionDesc": 25045081,
+        "type": 2
     },
     {
-        "eventId": 1081,
-        "selectionId": 108103,
-        "selectionDesc": 25046081,
-        "type": 1,
         "check": [
             "int",
             ""
@@ -4407,13 +4403,13 @@
         "args": [
             0,
             0
-        ]
+        ],
+        "eventId": 1081,
+        "selectionId": 108103,
+        "selectionDesc": 25046081,
+        "type": 1
     },
     {
-        "eventId": 1081,
-        "selectionId": 108104,
-        "selectionDesc": 25047081,
-        "type": 2,
         "check": [
             "",
             ""
@@ -4421,13 +4417,13 @@
         "args": [
             9017,
             0
-        ]
+        ],
+        "eventId": 1081,
+        "selectionId": 108104,
+        "selectionDesc": 25047081,
+        "type": 2
     },
     {
-        "eventId": 1082,
-        "selectionId": 108201,
-        "selectionDesc": 25044082,
-        "type": 1,
         "check": [
             "ins",
             ""
@@ -4435,13 +4431,13 @@
         "args": [
             0,
             0
-        ]
+        ],
+        "eventId": 1082,
+        "selectionId": 108201,
+        "selectionDesc": 25044082,
+        "type": 1
     },
     {
-        "eventId": 1082,
-        "selectionId": 108202,
-        "selectionDesc": 25045082,
-        "type": 2,
         "check": [
             "",
             ""
@@ -4449,13 +4445,13 @@
         "args": [
             9003,
             0
-        ]
+        ],
+        "eventId": 1082,
+        "selectionId": 108202,
+        "selectionDesc": 25045082,
+        "type": 2
     },
     {
-        "eventId": 1082,
-        "selectionId": 108203,
-        "selectionDesc": 25046082,
-        "type": 1,
         "check": [
             "luk",
             ""
@@ -4463,13 +4459,13 @@
         "args": [
             0,
             0
-        ]
+        ],
+        "eventId": 1082,
+        "selectionId": 108203,
+        "selectionDesc": 25046082,
+        "type": 1
     },
     {
-        "eventId": 1083,
-        "selectionId": 108301,
-        "selectionDesc": 25044083,
-        "type": 2,
         "check": [
             "",
             ""
@@ -4477,13 +4473,13 @@
         "args": [
             9020,
             0
-        ]
+        ],
+        "eventId": 1083,
+        "selectionId": 108301,
+        "selectionDesc": 25044083,
+        "type": 2
     },
     {
-        "eventId": 1083,
-        "selectionId": 108302,
-        "selectionDesc": 25045083,
-        "type": 1,
         "check": [
             "res",
             ""
@@ -4491,13 +4487,13 @@
         "args": [
             0,
             0
-        ]
+        ],
+        "eventId": 1083,
+        "selectionId": 108302,
+        "selectionDesc": 25045083,
+        "type": 1
     },
     {
-        "eventId": 1083,
-        "selectionId": 108303,
-        "selectionDesc": 25046083,
-        "type": 1,
         "check": [
             "ins",
             ""
@@ -4505,13 +4501,13 @@
         "args": [
             0,
             0
-        ]
+        ],
+        "eventId": 1083,
+        "selectionId": 108303,
+        "selectionDesc": 25046083,
+        "type": 1
     },
     {
-        "eventId": 1084,
-        "selectionId": 108401,
-        "selectionDesc": 25044084,
-        "type": 2,
         "check": [
             "",
             ""
@@ -4519,13 +4515,13 @@
         "args": [
             9003,
             0
-        ]
+        ],
+        "eventId": 1084,
+        "selectionId": 108401,
+        "selectionDesc": 25044084,
+        "type": 2
     },
     {
-        "eventId": 1084,
-        "selectionId": 108402,
-        "selectionDesc": 25045084,
-        "type": 1,
         "check": [
             "res",
             ""
@@ -4533,13 +4529,13 @@
         "args": [
             0,
             0
-        ]
+        ],
+        "eventId": 1084,
+        "selectionId": 108402,
+        "selectionDesc": 25045084,
+        "type": 1
     },
     {
-        "eventId": 1084,
-        "selectionId": 108403,
-        "selectionDesc": 25046084,
-        "type": 1,
         "check": [
             "tec",
             ""
@@ -4547,13 +4543,13 @@
         "args": [
             0,
             0
-        ]
+        ],
+        "eventId": 1084,
+        "selectionId": 108403,
+        "selectionDesc": 25046084,
+        "type": 1
     },
     {
-        "eventId": 1085,
-        "selectionId": 108501,
-        "selectionDesc": 25044085,
-        "type": 1,
         "check": [
             "ins",
             ""
@@ -4561,13 +4557,13 @@
         "args": [
             0,
             0
-        ]
+        ],
+        "eventId": 1085,
+        "selectionId": 108501,
+        "selectionDesc": 25044085,
+        "type": 1
     },
     {
-        "eventId": 1085,
-        "selectionId": 108502,
-        "selectionDesc": 25045085,
-        "type": 2,
         "check": [
             "",
             ""
@@ -4575,13 +4571,13 @@
         "args": [
             9002,
             0
-        ]
+        ],
+        "eventId": 1085,
+        "selectionId": 108502,
+        "selectionDesc": 25045085,
+        "type": 2
     },
     {
-        "eventId": 1085,
-        "selectionId": 108503,
-        "selectionDesc": 25046085,
-        "type": 1,
         "check": [
             "int",
             ""
@@ -4589,13 +4585,13 @@
         "args": [
             0,
             0
-        ]
+        ],
+        "eventId": 1085,
+        "selectionId": 108503,
+        "selectionDesc": 25046085,
+        "type": 1
     },
     {
-        "eventId": 1086,
-        "selectionId": 108601,
-        "selectionDesc": 25044086,
-        "type": 1,
         "check": [
             "ins",
             ""
@@ -4603,13 +4599,13 @@
         "args": [
             0,
             0
-        ]
+        ],
+        "eventId": 1086,
+        "selectionId": 108601,
+        "selectionDesc": 25044086,
+        "type": 1
     },
     {
-        "eventId": 1086,
-        "selectionId": 108602,
-        "selectionDesc": 25045086,
-        "type": 1,
         "check": [
             "luk",
             ""
@@ -4617,13 +4613,13 @@
         "args": [
             0,
             0
-        ]
+        ],
+        "eventId": 1086,
+        "selectionId": 108602,
+        "selectionDesc": 25045086,
+        "type": 1
     },
     {
-        "eventId": 1086,
-        "selectionId": 108604,
-        "selectionDesc": 25047086,
-        "type": 2,
         "check": [
             "",
             ""
@@ -4631,13 +4627,13 @@
         "args": [
             9006,
             0
-        ]
+        ],
+        "eventId": 1086,
+        "selectionId": 108604,
+        "selectionDesc": 25047086,
+        "type": 2
     },
     {
-        "eventId": 1087,
-        "selectionId": 108701,
-        "selectionDesc": 25044087,
-        "type": 1,
         "check": [
             "res",
             ""
@@ -4645,13 +4641,13 @@
         "args": [
             0,
             0
-        ]
+        ],
+        "eventId": 1087,
+        "selectionId": 108701,
+        "selectionDesc": 25044087,
+        "type": 1
     },
     {
-        "eventId": 1087,
-        "selectionId": 108702,
-        "selectionDesc": 25045087,
-        "type": 1,
         "check": [
             "int",
             ""
@@ -4659,13 +4655,13 @@
         "args": [
             0,
             0
-        ]
+        ],
+        "eventId": 1087,
+        "selectionId": 108702,
+        "selectionDesc": 25045087,
+        "type": 1
     },
     {
-        "eventId": 1087,
-        "selectionId": 108704,
-        "selectionDesc": 25047087,
-        "type": 2,
         "check": [
             "",
             ""
@@ -4673,13 +4669,13 @@
         "args": [
             9007,
             0
-        ]
+        ],
+        "eventId": 1087,
+        "selectionId": 108704,
+        "selectionDesc": 25047087,
+        "type": 2
     },
     {
-        "eventId": 1088,
-        "selectionId": 108801,
-        "selectionDesc": 25044088,
-        "type": 1,
         "check": [
             "luk",
             ""
@@ -4687,13 +4683,13 @@
         "args": [
             0,
             0
-        ]
+        ],
+        "eventId": 1088,
+        "selectionId": 108801,
+        "selectionDesc": 25044088,
+        "type": 1
     },
     {
-        "eventId": 1088,
-        "selectionId": 108802,
-        "selectionDesc": 25045088,
-        "type": 1,
         "check": [
             "res",
             ""
@@ -4701,13 +4697,13 @@
         "args": [
             0,
             0
-        ]
+        ],
+        "eventId": 1088,
+        "selectionId": 108802,
+        "selectionDesc": 25045088,
+        "type": 1
     },
     {
-        "eventId": 1088,
-        "selectionId": 108803,
-        "selectionDesc": 25046088,
-        "type": 2,
         "check": [
             "",
             ""
@@ -4715,13 +4711,13 @@
         "args": [
             9008,
             0
-        ]
+        ],
+        "eventId": 1088,
+        "selectionId": 108803,
+        "selectionDesc": 25046088,
+        "type": 2
     },
     {
-        "eventId": 1088,
-        "selectionId": 108804,
-        "selectionDesc": 25047088,
-        "type": 2,
         "check": [
             "",
             ""
@@ -4729,13 +4725,13 @@
         "args": [
             9004,
             0
-        ]
+        ],
+        "eventId": 1088,
+        "selectionId": 108804,
+        "selectionDesc": 25047088,
+        "type": 2
     },
     {
-        "eventId": 1089,
-        "selectionId": 108901,
-        "selectionDesc": 25044089,
-        "type": 1,
         "check": [
             "ins",
             ""
@@ -4743,13 +4739,13 @@
         "args": [
             0,
             0
-        ]
+        ],
+        "eventId": 1089,
+        "selectionId": 108901,
+        "selectionDesc": 25044089,
+        "type": 1
     },
     {
-        "eventId": 1089,
-        "selectionId": 108902,
-        "selectionDesc": 25045089,
-        "type": 1,
         "check": [
             "tec",
             ""
@@ -4757,13 +4753,13 @@
         "args": [
             0,
             0
-        ]
+        ],
+        "eventId": 1089,
+        "selectionId": 108902,
+        "selectionDesc": 25045089,
+        "type": 1
     },
     {
-        "eventId": 1089,
-        "selectionId": 108903,
-        "selectionDesc": 25046089,
-        "type": 2,
         "check": [
             "",
             ""
@@ -4771,13 +4767,13 @@
         "args": [
             9018,
             0
-        ]
+        ],
+        "eventId": 1089,
+        "selectionId": 108903,
+        "selectionDesc": 25046089,
+        "type": 2
     },
     {
-        "eventId": 1089,
-        "selectionId": 108904,
-        "selectionDesc": 25047089,
-        "type": 2,
         "check": [
             "",
             ""
@@ -4785,13 +4781,27 @@
         "args": [
             9014,
             0
-        ]
+        ],
+        "eventId": 1089,
+        "selectionId": 108904,
+        "selectionDesc": 25047089,
+        "type": 2
     },
     {
+        "check": [
+            "int",
+            ""
+        ],
+        "args": [
+            0,
+            0
+        ],
         "eventId": 1090,
         "selectionId": 109001,
         "selectionDesc": 25044090,
-        "type": 1,
+        "type": 1
+    },
+    {
         "check": [
             "int",
             ""
@@ -4799,27 +4809,13 @@
         "args": [
             0,
             0
-        ]
-    },
-    {
+        ],
         "eventId": 1090,
         "selectionId": 109002,
         "selectionDesc": 25045090,
-        "type": 1,
-        "check": [
-            "int",
-            ""
-        ],
-        "args": [
-            0,
-            0
-        ]
+        "type": 1
     },
     {
-        "eventId": 1090,
-        "selectionId": 109003,
-        "selectionDesc": 25046090,
-        "type": 2,
         "check": [
             "",
             ""
@@ -4827,13 +4823,13 @@
         "args": [
             9009,
             0
-        ]
+        ],
+        "eventId": 1090,
+        "selectionId": 109003,
+        "selectionDesc": 25046090,
+        "type": 2
     },
     {
-        "eventId": 1090,
-        "selectionId": 109004,
-        "selectionDesc": 25047090,
-        "type": 2,
         "check": [
             "",
             ""
@@ -4841,13 +4837,13 @@
         "args": [
             9011,
             0
-        ]
+        ],
+        "eventId": 1090,
+        "selectionId": 109004,
+        "selectionDesc": 25047090,
+        "type": 2
     },
     {
-        "eventId": 1091,
-        "selectionId": 109101,
-        "selectionDesc": 25044091,
-        "type": 1,
         "check": [
             "",
             ""
@@ -4855,13 +4851,13 @@
         "args": [
             0,
             0
-        ]
+        ],
+        "eventId": 1091,
+        "selectionId": 109101,
+        "selectionDesc": 25044091,
+        "type": 1
     },
     {
-        "eventId": 1091,
-        "selectionId": 109102,
-        "selectionDesc": 25045091,
-        "type": 1,
         "check": [
             "ins",
             ""
@@ -4869,13 +4865,13 @@
         "args": [
             0,
             0
-        ]
+        ],
+        "eventId": 1091,
+        "selectionId": 109102,
+        "selectionDesc": 25045091,
+        "type": 1
     },
     {
-        "eventId": 1091,
-        "selectionId": 109104,
-        "selectionDesc": 25047091,
-        "type": 2,
         "check": [
             "",
             ""
@@ -4883,13 +4879,13 @@
         "args": [
             9010,
             0
-        ]
+        ],
+        "eventId": 1091,
+        "selectionId": 109104,
+        "selectionDesc": 25047091,
+        "type": 2
     },
     {
-        "eventId": 1092,
-        "selectionId": 109201,
-        "selectionDesc": 25044092,
-        "type": 1,
         "check": [
             "res",
             ""
@@ -4897,13 +4893,13 @@
         "args": [
             0,
             0
-        ]
+        ],
+        "eventId": 1092,
+        "selectionId": 109201,
+        "selectionDesc": 25044092,
+        "type": 1
     },
     {
-        "eventId": 1092,
-        "selectionId": 109202,
-        "selectionDesc": 25045092,
-        "type": 2,
         "check": [
             "",
             ""
@@ -4911,13 +4907,13 @@
         "args": [
             9006,
             0
-        ]
+        ],
+        "eventId": 1092,
+        "selectionId": 109202,
+        "selectionDesc": 25045092,
+        "type": 2
     },
     {
-        "eventId": 1092,
-        "selectionId": 109203,
-        "selectionDesc": 25046092,
-        "type": 1,
         "check": [
             "res",
             ""
@@ -4925,13 +4921,13 @@
         "args": [
             0,
             0
-        ]
+        ],
+        "eventId": 1092,
+        "selectionId": 109203,
+        "selectionDesc": 25046092,
+        "type": 1
     },
     {
-        "eventId": 1092,
-        "selectionId": 109204,
-        "selectionDesc": 25047092,
-        "type": 2,
         "check": [
             "tec",
             ""
@@ -4939,13 +4935,13 @@
         "args": [
             9011,
             0
-        ]
+        ],
+        "eventId": 1092,
+        "selectionId": 109204,
+        "selectionDesc": 25047092,
+        "type": 2
     },
     {
-        "eventId": 1093,
-        "selectionId": 109301,
-        "selectionDesc": 25044093,
-        "type": 1,
         "check": [
             "",
             ""
@@ -4953,13 +4949,13 @@
         "args": [
             0,
             0
-        ]
+        ],
+        "eventId": 1093,
+        "selectionId": 109301,
+        "selectionDesc": 25044093,
+        "type": 1
     },
     {
-        "eventId": 1093,
-        "selectionId": 109302,
-        "selectionDesc": 25045093,
-        "type": 1,
         "check": [
             "luk",
             ""
@@ -4967,13 +4963,13 @@
         "args": [
             0,
             0
-        ]
+        ],
+        "eventId": 1093,
+        "selectionId": 109302,
+        "selectionDesc": 25045093,
+        "type": 1
     },
     {
-        "eventId": 1093,
-        "selectionId": 109304,
-        "selectionDesc": 25047093,
-        "type": 2,
         "check": [
             "",
             ""
@@ -4981,13 +4977,13 @@
         "args": [
             9002,
             0
-        ]
+        ],
+        "eventId": 1093,
+        "selectionId": 109304,
+        "selectionDesc": 25047093,
+        "type": 2
     },
     {
-        "eventId": 1094,
-        "selectionId": 109401,
-        "selectionDesc": 25044094,
-        "type": 1,
         "check": [
             "res",
             ""
@@ -4995,13 +4991,13 @@
         "args": [
             0,
             0
-        ]
+        ],
+        "eventId": 1094,
+        "selectionId": 109401,
+        "selectionDesc": 25044094,
+        "type": 1
     },
     {
-        "eventId": 1094,
-        "selectionId": 109402,
-        "selectionDesc": 25045094,
-        "type": 1,
         "check": [
             "int",
             ""
@@ -5009,13 +5005,13 @@
         "args": [
             0,
             0
-        ]
+        ],
+        "eventId": 1094,
+        "selectionId": 109402,
+        "selectionDesc": 25045094,
+        "type": 1
     },
     {
-        "eventId": 1094,
-        "selectionId": 109403,
-        "selectionDesc": 25046094,
-        "type": 2,
         "check": [
             "",
             ""
@@ -5023,13 +5019,13 @@
         "args": [
             9018,
             0
-        ]
+        ],
+        "eventId": 1094,
+        "selectionId": 109403,
+        "selectionDesc": 25046094,
+        "type": 2
     },
     {
-        "eventId": 1095,
-        "selectionId": 109501,
-        "selectionDesc": 25044095,
-        "type": 1,
         "check": [
             "res",
             ""
@@ -5037,13 +5033,13 @@
         "args": [
             0,
             0
-        ]
+        ],
+        "eventId": 1095,
+        "selectionId": 109501,
+        "selectionDesc": 25044095,
+        "type": 1
     },
     {
-        "eventId": 1095,
-        "selectionId": 109502,
-        "selectionDesc": 25045095,
-        "type": 1,
         "check": [
             "int",
             ""
@@ -5051,13 +5047,13 @@
         "args": [
             0,
             0
-        ]
+        ],
+        "eventId": 1095,
+        "selectionId": 109502,
+        "selectionDesc": 25045095,
+        "type": 1
     },
     {
-        "eventId": 1095,
-        "selectionId": 109504,
-        "selectionDesc": 25047095,
-        "type": 2,
         "check": [
             "",
             ""
@@ -5065,13 +5061,13 @@
         "args": [
             9013,
             0
-        ]
+        ],
+        "eventId": 1095,
+        "selectionId": 109504,
+        "selectionDesc": 25047095,
+        "type": 2
     },
     {
-        "eventId": 1096,
-        "selectionId": 109601,
-        "selectionDesc": 25044096,
-        "type": 1,
         "check": [
             "res",
             ""
@@ -5079,13 +5075,13 @@
         "args": [
             0,
             0
-        ]
+        ],
+        "eventId": 1096,
+        "selectionId": 109601,
+        "selectionDesc": 25044096,
+        "type": 1
     },
     {
-        "eventId": 1096,
-        "selectionId": 109602,
-        "selectionDesc": 25045096,
-        "type": 1,
         "check": [
             "luk",
             ""
@@ -5093,13 +5089,13 @@
         "args": [
             0,
             0
-        ]
+        ],
+        "eventId": 1096,
+        "selectionId": 109602,
+        "selectionDesc": 25045096,
+        "type": 1
     },
     {
-        "eventId": 1097,
-        "selectionId": 109701,
-        "selectionDesc": 25044097,
-        "type": 1,
         "check": [
             "ins",
             ""
@@ -5107,13 +5103,13 @@
         "args": [
             0,
             0
-        ]
+        ],
+        "eventId": 1097,
+        "selectionId": 109701,
+        "selectionDesc": 25044097,
+        "type": 1
     },
     {
-        "eventId": 1097,
-        "selectionId": 109702,
-        "selectionDesc": 25045097,
-        "type": 1,
         "check": [
             "tec",
             ""
@@ -5121,13 +5117,13 @@
         "args": [
             0,
             0
-        ]
+        ],
+        "eventId": 1097,
+        "selectionId": 109702,
+        "selectionDesc": 25045097,
+        "type": 1
     },
     {
-        "eventId": 1097,
-        "selectionId": 109704,
-        "selectionDesc": 25047097,
-        "type": 2,
         "check": [
             "",
             ""
@@ -5135,13 +5131,13 @@
         "args": [
             9011,
             0
-        ]
+        ],
+        "eventId": 1097,
+        "selectionId": 109704,
+        "selectionDesc": 25047097,
+        "type": 2
     },
     {
-        "eventId": 1098,
-        "selectionId": 109801,
-        "selectionDesc": 25044098,
-        "type": 1,
         "check": [
             "int",
             ""
@@ -5149,13 +5145,13 @@
         "args": [
             0,
             0
-        ]
+        ],
+        "eventId": 1098,
+        "selectionId": 109801,
+        "selectionDesc": 25044098,
+        "type": 1
     },
     {
-        "eventId": 1098,
-        "selectionId": 109802,
-        "selectionDesc": 25045098,
-        "type": 1,
         "check": [
             "res",
             ""
@@ -5163,13 +5159,13 @@
         "args": [
             0,
             0
-        ]
+        ],
+        "eventId": 1098,
+        "selectionId": 109802,
+        "selectionDesc": 25045098,
+        "type": 1
     },
     {
-        "eventId": 1098,
-        "selectionId": 109804,
-        "selectionDesc": 25047098,
-        "type": 2,
         "check": [
             "",
             ""
@@ -5177,13 +5173,13 @@
         "args": [
             9018,
             0
-        ]
+        ],
+        "eventId": 1098,
+        "selectionId": 109804,
+        "selectionDesc": 25047098,
+        "type": 2
     },
     {
-        "eventId": 1099,
-        "selectionId": 109901,
-        "selectionDesc": 25044099,
-        "type": 1,
         "check": [
             "ins",
             ""
@@ -5191,13 +5187,13 @@
         "args": [
             0,
             0
-        ]
+        ],
+        "eventId": 1099,
+        "selectionId": 109901,
+        "selectionDesc": 25044099,
+        "type": 1
     },
     {
-        "eventId": 1099,
-        "selectionId": 109902,
-        "selectionDesc": 25045099,
-        "type": 1,
         "check": [
             "tec",
             ""
@@ -5205,13 +5201,13 @@
         "args": [
             0,
             0
-        ]
+        ],
+        "eventId": 1099,
+        "selectionId": 109902,
+        "selectionDesc": 25045099,
+        "type": 1
     },
     {
-        "eventId": 1099,
-        "selectionId": 109904,
-        "selectionDesc": 25047099,
-        "type": 2,
         "check": [
             "",
             ""
@@ -5219,13 +5215,13 @@
         "args": [
             9011,
             0
-        ]
+        ],
+        "eventId": 1099,
+        "selectionId": 109904,
+        "selectionDesc": 25047099,
+        "type": 2
     },
     {
-        "eventId": 1100,
-        "selectionId": 110001,
-        "selectionDesc": 25044100,
-        "type": 1,
         "check": [
             "res",
             ""
@@ -5233,13 +5229,13 @@
         "args": [
             0,
             0
-        ]
+        ],
+        "eventId": 1100,
+        "selectionId": 110001,
+        "selectionDesc": 25044100,
+        "type": 1
     },
     {
-        "eventId": 1100,
-        "selectionId": 110002,
-        "selectionDesc": 25045100,
-        "type": 1,
         "check": [
             "tec",
             ""
@@ -5247,13 +5243,13 @@
         "args": [
             0,
             0
-        ]
+        ],
+        "eventId": 1100,
+        "selectionId": 110002,
+        "selectionDesc": 25045100,
+        "type": 1
     },
     {
-        "eventId": 1100,
-        "selectionId": 110004,
-        "selectionDesc": 25047100,
-        "type": 2,
         "check": [
             "",
             ""
@@ -5261,6 +5257,10 @@
         "args": [
             9019,
             0
-        ]
+        ],
+        "eventId": 1100,
+        "selectionId": 110004,
+        "selectionDesc": 25047100,
+        "type": 2
     }
 ]

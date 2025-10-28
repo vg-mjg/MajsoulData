@@ -1,12 +1,5 @@
 [
     {
-        "activityId": 1206,
-        "baseHp": 100,
-        "baseAtk": 100,
-        "baseDex": 0,
-        "baseLuk": 0,
-        "dsAtk": 0,
-        "specialHeal": 0,
         "chainAtk": [
             100,
             100,
@@ -15,6 +8,13 @@
             100,
             100
         ],
+        "activityId": 1206,
+        "baseHp": 100,
+        "baseAtk": 100,
+        "baseDex": 0,
+        "baseLuk": 0,
+        "dsAtk": 0,
+        "specialHeal": 0,
         "monsterGroup": 120601,
         "sanmaDebuff": 3,
         "hasRobot": 1,

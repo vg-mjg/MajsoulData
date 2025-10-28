@@ -1,210 +1,210 @@
 [
     {
+        "ruleImages": [
+            "myres2/room_rule/siren.png",
+            "",
+            ""
+        ],
         "id": 1,
         "preRule": "",
         "sort": 1,
         "strName": "3294",
         "strRule": "4300",
-        "setJushu": 1,
-        "ruleImages": [
-            "myres2/room_rule/siren.png",
-            "",
-            ""
-        ]
+        "setJushu": 1
     },
     {
+        "ruleImages": [
+            "myres2/room_rule/sanren.png",
+            "",
+            ""
+        ],
         "id": 2,
         "preRule": "",
         "sort": 2,
         "strName": "3295",
         "strRule": "57",
-        "setJushu": 1,
-        "ruleImages": [
-            "myres2/room_rule/sanren.png",
-            "",
-            ""
-        ]
+        "setJushu": 1
     },
     {
+        "ruleImages": [
+            "myres2/room_rule/xiuluo.png",
+            "",
+            ""
+        ],
         "id": 3,
         "preRule": "xuezhandaodi",
         "sort": 3,
         "strName": "3384",
         "strRule": "3390",
-        "setJushu": 0,
-        "ruleImages": [
-            "myres2/room_rule/xiuluo.png",
-            "",
-            ""
-        ]
+        "setJushu": 0
     },
     {
+        "ruleImages": [
+            "",
+            "",
+            ""
+        ],
         "id": 4,
         "preRule": "jiuchao",
         "sort": 4,
         "strName": "3517",
         "strRule": "3527",
-        "setJushu": 1,
-        "ruleImages": [
-            "",
-            "",
-            ""
-        ]
+        "setJushu": 1
     },
     {
+        "ruleImages": [
+            "myres2/room_rule/anye1.png",
+            "myres2/room_rule/anye2.png",
+            ""
+        ],
         "id": 5,
         "preRule": "reveal_discard",
         "sort": 5,
         "strName": "3518",
         "strRule": "3528",
-        "setJushu": 1,
-        "ruleImages": [
-            "myres2/room_rule/anye1.png",
-            "myres2/room_rule/anye2.png",
-            ""
-        ]
+        "setJushu": 1
     },
     {
+        "ruleImages": [
+            "myres2/room_rule/chiyu1.png",
+            "myres2/room_rule/chiyu2.png",
+            ""
+        ],
         "id": 6,
         "preRule": "chuanma",
         "sort": 6,
         "strName": "3394",
         "strRule": "3650",
-        "setJushu": 0,
-        "ruleImages": [
-            "myres2/room_rule/chiyu1.png",
-            "myres2/room_rule/chiyu2.png",
-            ""
-        ]
+        "setJushu": 0
     },
     {
+        "ruleImages": [
+            "myres2/room_rule/baopai.png",
+            "",
+            ""
+        ],
         "id": 7,
         "preRule": "dora3",
         "sort": 7,
         "strName": "3655",
         "strRule": "3651",
-        "setJushu": 1,
-        "ruleImages": [
-            "myres2/room_rule/baopai.png",
-            "",
-            ""
-        ]
+        "setJushu": 1
     },
     {
+        "ruleImages": [
+            "myres2/room_rule/huanjing.png",
+            "",
+            ""
+        ],
         "id": 8,
         "preRule": "field_spell",
         "sort": 8,
         "strName": "3586",
         "strRule": "3588",
-        "setJushu": 0,
-        "ruleImages": [
-            "myres2/room_rule/huanjing.png",
-            "",
-            ""
-        ]
+        "setJushu": 0
     },
     {
+        "ruleImages": [
+            "myres2/room_rule/zhanxing.png",
+            "",
+            ""
+        ],
         "id": 9,
         "preRule": "zhanxing",
         "sort": 9,
         "strName": "3700",
         "strRule": "3705",
-        "setJushu": 1,
-        "ruleImages": [
-            "myres2/room_rule/zhanxing.png",
-            "",
-            ""
-        ]
+        "setJushu": 1
     },
     {
+        "ruleImages": [
+            "myres2/room_rule/tianming1.png",
+            "myres2/room_rule/tianming2.png",
+            ""
+        ],
         "id": 10,
         "preRule": "tianming",
         "sort": 10,
         "strName": "3877",
         "strRule": "3857",
-        "setJushu": 1,
-        "ruleImages": [
-            "myres2/room_rule/tianming1.png",
-            "myres2/room_rule/tianming2.png",
-            ""
-        ]
+        "setJushu": 1
     },
     {
+        "ruleImages": [
+            "myres2/room_rule/yongchang1.png",
+            "myres2/room_rule/yongchang2.png",
+            ""
+        ],
         "id": 11,
         "preRule": "yongchang",
         "sort": 11,
         "strName": "3981",
         "strRule": "3987",
-        "setJushu": 1,
-        "ruleImages": [
-            "myres2/room_rule/yongchang1.png",
-            "myres2/room_rule/yongchang2.png",
-            ""
-        ]
+        "setJushu": 1
     },
     {
+        "ruleImages": [
+            "myres2/room_rule/hunzhiyiji1.png",
+            "myres2/room_rule/hunzhiyiji2.png",
+            ""
+        ],
         "id": 12,
         "preRule": "hunzhiyiji",
         "sort": 12,
         "strName": "4206",
         "strRule": "4208",
-        "setJushu": 1,
-        "ruleImages": [
-            "myres2/room_rule/hunzhiyiji1.png",
-            "myres2/room_rule/hunzhiyiji2.png",
-            ""
-        ]
+        "setJushu": 1
     },
     {
+        "ruleImages": [
+            "myres2/room_rule/wanxiang1.png",
+            "myres2/room_rule/wanxiang2.png",
+            ""
+        ],
         "id": 13,
         "preRule": "wanxiangxiuluo",
         "sort": 13,
         "strName": "20193",
         "strRule": "20194",
-        "setJushu": 1,
-        "ruleImages": [
-            "myres2/room_rule/wanxiang1.png",
-            "myres2/room_rule/wanxiang2.png",
-            ""
-        ]
+        "setJushu": 1
     },
     {
+        "ruleImages": [
+            "myres2/room_rule/longzhimuyu1.png",
+            "myres2/room_rule/longzhimuyu2.png",
+            ""
+        ],
         "id": 14,
         "preRule": "longzhimuyu",
         "sort": 14,
         "strName": "20198",
         "strRule": "20422",
-        "setJushu": 1,
-        "ruleImages": [
-            "myres2/room_rule/longzhimuyu1.png",
-            "myres2/room_rule/longzhimuyu2.png",
-            ""
-        ]
+        "setJushu": 1
     },
     {
+        "ruleImages": [
+            "myres2/room_rule/beishui.png",
+            "",
+            ""
+        ],
         "id": 15,
         "preRule": "beishui",
         "sort": 15,
         "strName": "25040020",
         "strRule": "25040508",
-        "setJushu": 1,
-        "ruleImages": [
-            "myres2/room_rule/beishui.png",
-            "",
-            ""
-        ]
+        "setJushu": 1
     },
     {
+        "ruleImages": [
+            "myres2/room_rule/xiakeshang.png",
+            "",
+            ""
+        ],
         "id": 16,
         "preRule": "xiakeshang",
         "sort": 16,
         "strName": "25101012",
         "strRule": "25101014",
-        "setJushu": 1,
-        "ruleImages": [
-            "myres2/room_rule/xiakeshang.png",
-            "",
-            ""
-        ]
+        "setJushu": 1
     }
 ]

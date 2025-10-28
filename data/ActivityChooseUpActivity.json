@@ -1,7 +1,5 @@
 [
     {
-        "activityId": 250125,
-        "replaceId": 1001,
         "baseChestId": [
             1004,
             1005,
@@ -11,6 +9,18 @@
         "chooseType": [
             "chara"
         ],
+        "upItems": [
+            30580015,
+            30570009,
+            30560007,
+            30505005,
+            30550022,
+            0,
+            0,
+            0
+        ],
+        "activityId": 250125,
+        "replaceId": 1001,
         "sort": 100,
         "titleStrId": 5018,
         "strId": "5110",
@@ -24,16 +34,6 @@
         "specialEffectFront": "",
         "specialEffectBack": "",
         "specialAudio": 0,
-        "upItemsType": 1,
-        "upItems": [
-            30580015,
-            30570009,
-            30560007,
-            30505005,
-            30550022,
-            0,
-            0,
-            0
-        ]
+        "upItemsType": 1
     }
 ]

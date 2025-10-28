@@ -1,11 +1,5 @@
 [
     {
-        "activityId": 240601,
-        "zoneId": 0,
-        "zoneName": 4313,
-        "zoneIconUnlocked": "",
-        "currencyAmount": 10000,
-        "initial": 1,
         "distance": [
             0,
             1,
@@ -20,15 +14,15 @@
             "0,1,3",
             "0,1,3,4"
         ],
+        "activityId": 240601,
+        "zoneId": 0,
+        "zoneName": 4313,
+        "zoneIconUnlocked": "",
+        "currencyAmount": 10000,
+        "initial": 1,
         "unlockTaskId": 0
     },
     {
-        "activityId": 240601,
-        "zoneId": 1,
-        "zoneName": 4314,
-        "zoneIconUnlocked": "new_map_unlock_bread_house.png",
-        "currencyAmount": 10000,
-        "initial": 1,
         "distance": [
             1,
             0,
@@ -43,15 +37,15 @@
             "1,3",
             "1,3,4"
         ],
+        "activityId": 240601,
+        "zoneId": 1,
+        "zoneName": 4314,
+        "zoneIconUnlocked": "new_map_unlock_bread_house.png",
+        "currencyAmount": 10000,
+        "initial": 1,
         "unlockTaskId": 0
     },
     {
-        "activityId": 240601,
-        "zoneId": 2,
-        "zoneName": 4315,
-        "zoneIconUnlocked": "new_map_unlock_primary_school.png",
-        "currencyAmount": 20000,
-        "initial": 0,
         "distance": [
             1,
             2,
@@ -66,15 +60,15 @@
             "2,3",
             "2,3,4"
         ],
+        "activityId": 240601,
+        "zoneId": 2,
+        "zoneName": 4315,
+        "zoneIconUnlocked": "new_map_unlock_primary_school.png",
+        "currencyAmount": 20000,
+        "initial": 0,
         "unlockTaskId": 24060703
     },
     {
-        "activityId": 240601,
-        "zoneId": 3,
-        "zoneName": 4316,
-        "zoneIconUnlocked": "new_map_unlock_mahjong_cultural_street.png",
-        "currencyAmount": 20000,
-        "initial": 0,
         "distance": [
             2,
             1,
@@ -89,15 +83,15 @@
             "",
             "3,4"
         ],
+        "activityId": 240601,
+        "zoneId": 3,
+        "zoneName": 4316,
+        "zoneIconUnlocked": "new_map_unlock_mahjong_cultural_street.png",
+        "currencyAmount": 20000,
+        "initial": 0,
         "unlockTaskId": 24060704
     },
     {
-        "activityId": 240601,
-        "zoneId": 4,
-        "zoneName": 4317,
-        "zoneIconUnlocked": "new_map_unlock_resort.png",
-        "currencyAmount": 20000,
-        "initial": 0,
         "distance": [
             3,
             2,
@@ -112,6 +106,12 @@
             "4,3",
             ""
         ],
+        "activityId": 240601,
+        "zoneId": 4,
+        "zoneName": 4317,
+        "zoneIconUnlocked": "new_map_unlock_resort.png",
+        "currencyAmount": 20000,
+        "initial": 0,
         "unlockTaskId": 24060705
     }
 ]

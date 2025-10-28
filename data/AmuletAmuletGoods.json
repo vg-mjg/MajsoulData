@@ -1,11 +1,5 @@
 [
     {
-        "id": 101,
-        "weight": 80,
-        "guaranteed": 4,
-        "packName": 5500,
-        "packDesc": 5503,
-        "price": 5,
         "rarityWeight": [
             0,
             3,
@@ -17,15 +11,15 @@
             140,
             50,
             10
-        ]
+        ],
+        "id": 101,
+        "weight": 80,
+        "guaranteed": 4,
+        "packName": 5500,
+        "packDesc": 5503,
+        "price": 5
     },
     {
-        "id": 102,
-        "weight": 15,
-        "guaranteed": 3,
-        "packName": 5501,
-        "packDesc": 5504,
-        "price": 10,
         "rarityWeight": [
             0,
             5,
@@ -37,15 +31,15 @@
             140,
             50,
             10
-        ]
+        ],
+        "id": 102,
+        "weight": 15,
+        "guaranteed": 3,
+        "packName": 5501,
+        "packDesc": 5504,
+        "price": 10
     },
     {
-        "id": 103,
-        "weight": 5,
-        "guaranteed": 2,
-        "packName": 5502,
-        "packDesc": 5505,
-        "price": 15,
         "rarityWeight": [
             3,
             15,
@@ -57,15 +51,15 @@
             140,
             50,
             10
-        ]
+        ],
+        "id": 103,
+        "weight": 5,
+        "guaranteed": 2,
+        "packName": 5502,
+        "packDesc": 5505,
+        "price": 15
     },
     {
-        "id": 111,
-        "weight": 0,
-        "guaranteed": 4,
-        "packName": 5500,
-        "packDesc": 5503,
-        "price": 0,
         "rarityWeight": [
             0,
             3,
@@ -77,15 +71,15 @@
             50,
             40,
             10
-        ]
+        ],
+        "id": 111,
+        "weight": 0,
+        "guaranteed": 4,
+        "packName": 5500,
+        "packDesc": 5503,
+        "price": 0
     },
     {
-        "id": 112,
-        "weight": 0,
-        "guaranteed": 3,
-        "packName": 5501,
-        "packDesc": 5504,
-        "price": 0,
         "rarityWeight": [
             0,
             5,
@@ -97,15 +91,15 @@
             40,
             40,
             20
-        ]
+        ],
+        "id": 112,
+        "weight": 0,
+        "guaranteed": 3,
+        "packName": 5501,
+        "packDesc": 5504,
+        "price": 0
     },
     {
-        "id": 113,
-        "weight": 0,
-        "guaranteed": 2,
-        "packName": 5502,
-        "packDesc": 5505,
-        "price": 0,
         "rarityWeight": [
             3,
             15,
@@ -117,15 +111,15 @@
             40,
             30,
             30
-        ]
+        ],
+        "id": 113,
+        "weight": 0,
+        "guaranteed": 2,
+        "packName": 5502,
+        "packDesc": 5505,
+        "price": 0
     },
     {
-        "id": 991,
-        "weight": 0,
-        "guaranteed": 4,
-        "packName": 0,
-        "packDesc": 0,
-        "price": 0,
         "rarityWeight": [
             0,
             0,
@@ -137,6 +131,12 @@
             0,
             0,
             0
-        ]
+        ],
+        "id": 991,
+        "weight": 0,
+        "guaranteed": 4,
+        "packName": 0,
+        "packDesc": 0,
+        "price": 0
     }
 ]

@@ -1,13 +1,5 @@
 [
     {
-        "eventGroupId": 25040101,
-        "eventId": 1001,
-        "eventTitle": 25042001,
-        "eventDesc": 25043001,
-        "type": 10,
-        "cdRound": 5,
-        "triggerRate": 1,
-        "triggerSort": 0,
         "trigger": [
             9006001,
             0,
@@ -17,17 +9,17 @@
             0,
             0,
             0
-        ]
-    },
-    {
+        ],
         "eventGroupId": 25040101,
-        "eventId": 1002,
-        "eventTitle": 25042002,
-        "eventDesc": 25043002,
+        "eventId": 1001,
+        "eventTitle": 25042001,
+        "eventDesc": 25043001,
         "type": 10,
         "cdRound": 5,
         "triggerRate": 1,
-        "triggerSort": 0,
+        "triggerSort": 0
+    },
+    {
         "trigger": [
             9006002,
             9001002,
@@ -37,17 +29,17 @@
             0,
             0,
             0
-        ]
-    },
-    {
+        ],
         "eventGroupId": 25040101,
-        "eventId": 1003,
-        "eventTitle": 25042003,
-        "eventDesc": 25043003,
+        "eventId": 1002,
+        "eventTitle": 25042002,
+        "eventDesc": 25043002,
         "type": 10,
         "cdRound": 5,
         "triggerRate": 1,
-        "triggerSort": 0,
+        "triggerSort": 0
+    },
+    {
         "trigger": [
             9006003,
             0,
@@ -57,17 +49,17 @@
             0,
             0,
             0
-        ]
-    },
-    {
+        ],
         "eventGroupId": 25040101,
-        "eventId": 1004,
-        "eventTitle": 25042004,
-        "eventDesc": 25043004,
+        "eventId": 1003,
+        "eventTitle": 25042003,
+        "eventDesc": 25043003,
         "type": 10,
         "cdRound": 5,
         "triggerRate": 1,
-        "triggerSort": 0,
+        "triggerSort": 0
+    },
+    {
         "trigger": [
             9006004,
             0,
@@ -77,17 +69,17 @@
             0,
             0,
             0
-        ]
-    },
-    {
+        ],
         "eventGroupId": 25040101,
-        "eventId": 1005,
-        "eventTitle": 25042005,
-        "eventDesc": 25043005,
+        "eventId": 1004,
+        "eventTitle": 25042004,
+        "eventDesc": 25043004,
         "type": 10,
         "cdRound": 5,
         "triggerRate": 1,
-        "triggerSort": 0,
+        "triggerSort": 0
+    },
+    {
         "trigger": [
             9006005,
             0,
@@ -97,17 +89,17 @@
             0,
             0,
             0
-        ]
-    },
-    {
+        ],
         "eventGroupId": 25040101,
-        "eventId": 1006,
-        "eventTitle": 25042006,
-        "eventDesc": 25043006,
+        "eventId": 1005,
+        "eventTitle": 25042005,
+        "eventDesc": 25043005,
         "type": 10,
         "cdRound": 5,
         "triggerRate": 1,
-        "triggerSort": 0,
+        "triggerSort": 0
+    },
+    {
         "trigger": [
             9006006,
             0,
@@ -117,17 +109,17 @@
             0,
             0,
             0
-        ]
-    },
-    {
+        ],
         "eventGroupId": 25040101,
-        "eventId": 1007,
-        "eventTitle": 25042007,
-        "eventDesc": 25043007,
+        "eventId": 1006,
+        "eventTitle": 25042006,
+        "eventDesc": 25043006,
         "type": 10,
         "cdRound": 5,
         "triggerRate": 1,
-        "triggerSort": 0,
+        "triggerSort": 0
+    },
+    {
         "trigger": [
             9006007,
             0,
@@ -137,17 +129,17 @@
             0,
             0,
             0
-        ]
-    },
-    {
+        ],
         "eventGroupId": 25040101,
-        "eventId": 1008,
-        "eventTitle": 25042008,
-        "eventDesc": 25043008,
+        "eventId": 1007,
+        "eventTitle": 25042007,
+        "eventDesc": 25043007,
         "type": 10,
         "cdRound": 5,
         "triggerRate": 1,
-        "triggerSort": 0,
+        "triggerSort": 0
+    },
+    {
         "trigger": [
             9006008,
             0,
@@ -157,17 +149,17 @@
             0,
             0,
             0
-        ]
-    },
-    {
+        ],
         "eventGroupId": 25040101,
-        "eventId": 1009,
-        "eventTitle": 25042009,
-        "eventDesc": 25043009,
+        "eventId": 1008,
+        "eventTitle": 25042008,
+        "eventDesc": 25043008,
         "type": 10,
         "cdRound": 5,
         "triggerRate": 1,
-        "triggerSort": 0,
+        "triggerSort": 0
+    },
+    {
         "trigger": [
             9006009,
             0,
@@ -177,17 +169,17 @@
             0,
             0,
             0
-        ]
-    },
-    {
+        ],
         "eventGroupId": 25040101,
-        "eventId": 1010,
-        "eventTitle": 25042010,
-        "eventDesc": 25043010,
+        "eventId": 1009,
+        "eventTitle": 25042009,
+        "eventDesc": 25043009,
         "type": 10,
         "cdRound": 5,
         "triggerRate": 1,
-        "triggerSort": 0,
+        "triggerSort": 0
+    },
+    {
         "trigger": [
             9006010,
             0,
@@ -197,17 +189,17 @@
             0,
             0,
             0
-        ]
-    },
-    {
+        ],
         "eventGroupId": 25040101,
-        "eventId": 1011,
-        "eventTitle": 25042011,
-        "eventDesc": 25043011,
+        "eventId": 1010,
+        "eventTitle": 25042010,
+        "eventDesc": 25043010,
         "type": 10,
         "cdRound": 5,
         "triggerRate": 1,
-        "triggerSort": 0,
+        "triggerSort": 0
+    },
+    {
         "trigger": [
             9006011,
             0,
@@ -217,17 +209,17 @@
             0,
             0,
             0
-        ]
-    },
-    {
+        ],
         "eventGroupId": 25040101,
-        "eventId": 1012,
-        "eventTitle": 25042012,
-        "eventDesc": 25043012,
+        "eventId": 1011,
+        "eventTitle": 25042011,
+        "eventDesc": 25043011,
         "type": 10,
         "cdRound": 5,
         "triggerRate": 1,
-        "triggerSort": 0,
+        "triggerSort": 0
+    },
+    {
         "trigger": [
             9006012,
             0,
@@ -237,17 +229,17 @@
             0,
             0,
             0
-        ]
-    },
-    {
+        ],
         "eventGroupId": 25040101,
-        "eventId": 1013,
-        "eventTitle": 25042013,
-        "eventDesc": 25043013,
+        "eventId": 1012,
+        "eventTitle": 25042012,
+        "eventDesc": 25043012,
         "type": 10,
         "cdRound": 5,
         "triggerRate": 1,
-        "triggerSort": 0,
+        "triggerSort": 0
+    },
+    {
         "trigger": [
             9006013,
             9001013,
@@ -257,17 +249,17 @@
             0,
             0,
             0
-        ]
-    },
-    {
+        ],
         "eventGroupId": 25040101,
-        "eventId": 1014,
-        "eventTitle": 25042014,
-        "eventDesc": 25043014,
+        "eventId": 1013,
+        "eventTitle": 25042013,
+        "eventDesc": 25043013,
         "type": 10,
         "cdRound": 5,
         "triggerRate": 1,
-        "triggerSort": 0,
+        "triggerSort": 0
+    },
+    {
         "trigger": [
             9006014,
             0,
@@ -277,17 +269,17 @@
             0,
             0,
             0
-        ]
-    },
-    {
+        ],
         "eventGroupId": 25040101,
-        "eventId": 1015,
-        "eventTitle": 25042015,
-        "eventDesc": 25043015,
+        "eventId": 1014,
+        "eventTitle": 25042014,
+        "eventDesc": 25043014,
         "type": 10,
         "cdRound": 5,
         "triggerRate": 1,
-        "triggerSort": 0,
+        "triggerSort": 0
+    },
+    {
         "trigger": [
             9006015,
             0,
@@ -297,17 +289,17 @@
             0,
             0,
             0
-        ]
-    },
-    {
+        ],
         "eventGroupId": 25040101,
-        "eventId": 1016,
-        "eventTitle": 25042016,
-        "eventDesc": 25043016,
+        "eventId": 1015,
+        "eventTitle": 25042015,
+        "eventDesc": 25043015,
         "type": 10,
         "cdRound": 5,
         "triggerRate": 1,
-        "triggerSort": 0,
+        "triggerSort": 0
+    },
+    {
         "trigger": [
             9006016,
             0,
@@ -317,17 +309,17 @@
             0,
             0,
             0
-        ]
-    },
-    {
+        ],
         "eventGroupId": 25040101,
-        "eventId": 1017,
-        "eventTitle": 25042017,
-        "eventDesc": 25043017,
+        "eventId": 1016,
+        "eventTitle": 25042016,
+        "eventDesc": 25043016,
         "type": 10,
         "cdRound": 5,
         "triggerRate": 1,
-        "triggerSort": 0,
+        "triggerSort": 0
+    },
+    {
         "trigger": [
             9006017,
             0,
@@ -337,17 +329,17 @@
             0,
             0,
             0
-        ]
-    },
-    {
+        ],
         "eventGroupId": 25040101,
-        "eventId": 1018,
-        "eventTitle": 25042018,
-        "eventDesc": 25043018,
+        "eventId": 1017,
+        "eventTitle": 25042017,
+        "eventDesc": 25043017,
         "type": 10,
         "cdRound": 5,
         "triggerRate": 1,
-        "triggerSort": 0,
+        "triggerSort": 0
+    },
+    {
         "trigger": [
             9006018,
             0,
@@ -357,17 +349,17 @@
             0,
             0,
             0
-        ]
-    },
-    {
+        ],
         "eventGroupId": 25040101,
-        "eventId": 1019,
-        "eventTitle": 25042019,
-        "eventDesc": 25043019,
+        "eventId": 1018,
+        "eventTitle": 25042018,
+        "eventDesc": 25043018,
         "type": 10,
         "cdRound": 5,
         "triggerRate": 1,
-        "triggerSort": 0,
+        "triggerSort": 0
+    },
+    {
         "trigger": [
             9006019,
             0,
@@ -377,17 +369,17 @@
             0,
             0,
             0
-        ]
-    },
-    {
+        ],
         "eventGroupId": 25040101,
-        "eventId": 1020,
-        "eventTitle": 25042020,
-        "eventDesc": 25043020,
+        "eventId": 1019,
+        "eventTitle": 25042019,
+        "eventDesc": 25043019,
         "type": 10,
         "cdRound": 5,
         "triggerRate": 1,
-        "triggerSort": 0,
+        "triggerSort": 0
+    },
+    {
         "trigger": [
             9006020,
             0,
@@ -397,17 +389,17 @@
             0,
             0,
             0
-        ]
-    },
-    {
+        ],
         "eventGroupId": 25040101,
-        "eventId": 1021,
-        "eventTitle": 25042021,
-        "eventDesc": 25043021,
+        "eventId": 1020,
+        "eventTitle": 25042020,
+        "eventDesc": 25043020,
         "type": 10,
         "cdRound": 5,
         "triggerRate": 1,
-        "triggerSort": 0,
+        "triggerSort": 0
+    },
+    {
         "trigger": [
             9006021,
             0,
@@ -417,17 +409,17 @@
             0,
             0,
             0
-        ]
-    },
-    {
+        ],
         "eventGroupId": 25040101,
-        "eventId": 1022,
-        "eventTitle": 25042022,
-        "eventDesc": 25043022,
+        "eventId": 1021,
+        "eventTitle": 25042021,
+        "eventDesc": 25043021,
         "type": 10,
         "cdRound": 5,
         "triggerRate": 1,
-        "triggerSort": 0,
+        "triggerSort": 0
+    },
+    {
         "trigger": [
             9006022,
             0,
@@ -437,17 +429,17 @@
             0,
             0,
             0
-        ]
-    },
-    {
+        ],
         "eventGroupId": 25040101,
-        "eventId": 1023,
-        "eventTitle": 25042023,
-        "eventDesc": 25043023,
+        "eventId": 1022,
+        "eventTitle": 25042022,
+        "eventDesc": 25043022,
         "type": 10,
         "cdRound": 5,
         "triggerRate": 1,
-        "triggerSort": 0,
+        "triggerSort": 0
+    },
+    {
         "trigger": [
             9006023,
             0,
@@ -457,17 +449,17 @@
             0,
             0,
             0
-        ]
-    },
-    {
+        ],
         "eventGroupId": 25040101,
-        "eventId": 1024,
-        "eventTitle": 25042024,
-        "eventDesc": 25043024,
+        "eventId": 1023,
+        "eventTitle": 25042023,
+        "eventDesc": 25043023,
         "type": 10,
         "cdRound": 5,
         "triggerRate": 1,
-        "triggerSort": 0,
+        "triggerSort": 0
+    },
+    {
         "trigger": [
             9006024,
             0,
@@ -477,17 +469,17 @@
             0,
             0,
             0
-        ]
-    },
-    {
+        ],
         "eventGroupId": 25040101,
-        "eventId": 1025,
-        "eventTitle": 25042025,
-        "eventDesc": 25043025,
+        "eventId": 1024,
+        "eventTitle": 25042024,
+        "eventDesc": 25043024,
         "type": 10,
         "cdRound": 5,
         "triggerRate": 1,
-        "triggerSort": 0,
+        "triggerSort": 0
+    },
+    {
         "trigger": [
             9006025,
             0,
@@ -497,17 +489,17 @@
             0,
             0,
             0
-        ]
-    },
-    {
+        ],
         "eventGroupId": 25040101,
-        "eventId": 1026,
-        "eventTitle": 25042026,
-        "eventDesc": 25043026,
+        "eventId": 1025,
+        "eventTitle": 25042025,
+        "eventDesc": 25043025,
         "type": 10,
         "cdRound": 5,
         "triggerRate": 1,
-        "triggerSort": 0,
+        "triggerSort": 0
+    },
+    {
         "trigger": [
             9006026,
             0,
@@ -517,17 +509,17 @@
             0,
             0,
             0
-        ]
-    },
-    {
+        ],
         "eventGroupId": 25040101,
-        "eventId": 1027,
-        "eventTitle": 25042027,
-        "eventDesc": 25043027,
+        "eventId": 1026,
+        "eventTitle": 25042026,
+        "eventDesc": 25043026,
         "type": 10,
         "cdRound": 5,
         "triggerRate": 1,
-        "triggerSort": 0,
+        "triggerSort": 0
+    },
+    {
         "trigger": [
             9006027,
             0,
@@ -537,17 +529,17 @@
             0,
             0,
             0
-        ]
-    },
-    {
+        ],
         "eventGroupId": 25040101,
-        "eventId": 1028,
-        "eventTitle": 25042028,
-        "eventDesc": 25043028,
+        "eventId": 1027,
+        "eventTitle": 25042027,
+        "eventDesc": 25043027,
         "type": 10,
         "cdRound": 5,
         "triggerRate": 1,
-        "triggerSort": 0,
+        "triggerSort": 0
+    },
+    {
         "trigger": [
             9006028,
             0,
@@ -557,17 +549,17 @@
             0,
             0,
             0
-        ]
-    },
-    {
+        ],
         "eventGroupId": 25040101,
-        "eventId": 1029,
-        "eventTitle": 25042029,
-        "eventDesc": 25043029,
+        "eventId": 1028,
+        "eventTitle": 25042028,
+        "eventDesc": 25043028,
         "type": 10,
         "cdRound": 5,
         "triggerRate": 1,
-        "triggerSort": 0,
+        "triggerSort": 0
+    },
+    {
         "trigger": [
             9006029,
             0,
@@ -577,17 +569,17 @@
             0,
             0,
             0
-        ]
-    },
-    {
+        ],
         "eventGroupId": 25040101,
-        "eventId": 1030,
-        "eventTitle": 25042030,
-        "eventDesc": 25043030,
+        "eventId": 1029,
+        "eventTitle": 25042029,
+        "eventDesc": 25043029,
         "type": 10,
         "cdRound": 5,
         "triggerRate": 1,
-        "triggerSort": 0,
+        "triggerSort": 0
+    },
+    {
         "trigger": [
             9006030,
             0,
@@ -597,17 +589,17 @@
             0,
             0,
             0
-        ]
-    },
-    {
+        ],
         "eventGroupId": 25040101,
-        "eventId": 1031,
-        "eventTitle": 25042031,
-        "eventDesc": 25043031,
+        "eventId": 1030,
+        "eventTitle": 25042030,
+        "eventDesc": 25043030,
         "type": 10,
         "cdRound": 5,
         "triggerRate": 1,
-        "triggerSort": 0,
+        "triggerSort": 0
+    },
+    {
         "trigger": [
             9006031,
             0,
@@ -617,17 +609,17 @@
             0,
             0,
             0
-        ]
-    },
-    {
+        ],
         "eventGroupId": 25040101,
-        "eventId": 1032,
-        "eventTitle": 25042032,
-        "eventDesc": 25043032,
+        "eventId": 1031,
+        "eventTitle": 25042031,
+        "eventDesc": 25043031,
         "type": 10,
         "cdRound": 5,
         "triggerRate": 1,
-        "triggerSort": 0,
+        "triggerSort": 0
+    },
+    {
         "trigger": [
             9006032,
             0,
@@ -637,17 +629,17 @@
             0,
             0,
             0
-        ]
-    },
-    {
+        ],
         "eventGroupId": 25040101,
-        "eventId": 1033,
-        "eventTitle": 25042033,
-        "eventDesc": 25043033,
+        "eventId": 1032,
+        "eventTitle": 25042032,
+        "eventDesc": 25043032,
         "type": 10,
         "cdRound": 5,
         "triggerRate": 1,
-        "triggerSort": 0,
+        "triggerSort": 0
+    },
+    {
         "trigger": [
             9006033,
             0,
@@ -657,17 +649,17 @@
             0,
             0,
             0
-        ]
-    },
-    {
+        ],
         "eventGroupId": 25040101,
-        "eventId": 1034,
-        "eventTitle": 25042034,
-        "eventDesc": 25043034,
+        "eventId": 1033,
+        "eventTitle": 25042033,
+        "eventDesc": 25043033,
         "type": 10,
         "cdRound": 5,
         "triggerRate": 1,
-        "triggerSort": 0,
+        "triggerSort": 0
+    },
+    {
         "trigger": [
             9006034,
             0,
@@ -677,17 +669,17 @@
             0,
             0,
             0
-        ]
-    },
-    {
+        ],
         "eventGroupId": 25040101,
-        "eventId": 1035,
-        "eventTitle": 25042035,
-        "eventDesc": 25043035,
+        "eventId": 1034,
+        "eventTitle": 25042034,
+        "eventDesc": 25043034,
         "type": 10,
         "cdRound": 5,
         "triggerRate": 1,
-        "triggerSort": 0,
+        "triggerSort": 0
+    },
+    {
         "trigger": [
             9006035,
             0,
@@ -697,17 +689,17 @@
             0,
             0,
             0
-        ]
-    },
-    {
+        ],
         "eventGroupId": 25040101,
-        "eventId": 1036,
-        "eventTitle": 25042036,
-        "eventDesc": 25043036,
+        "eventId": 1035,
+        "eventTitle": 25042035,
+        "eventDesc": 25043035,
         "type": 10,
         "cdRound": 5,
         "triggerRate": 1,
-        "triggerSort": 0,
+        "triggerSort": 0
+    },
+    {
         "trigger": [
             9006036,
             0,
@@ -717,17 +709,17 @@
             0,
             0,
             0
-        ]
-    },
-    {
+        ],
         "eventGroupId": 25040101,
-        "eventId": 1037,
-        "eventTitle": 25042037,
-        "eventDesc": 25043037,
+        "eventId": 1036,
+        "eventTitle": 25042036,
+        "eventDesc": 25043036,
         "type": 10,
         "cdRound": 5,
         "triggerRate": 1,
-        "triggerSort": 0,
+        "triggerSort": 0
+    },
+    {
         "trigger": [
             9006037,
             0,
@@ -737,17 +729,17 @@
             0,
             0,
             0
-        ]
-    },
-    {
+        ],
         "eventGroupId": 25040101,
-        "eventId": 1038,
-        "eventTitle": 25042038,
-        "eventDesc": 25043038,
+        "eventId": 1037,
+        "eventTitle": 25042037,
+        "eventDesc": 25043037,
         "type": 10,
         "cdRound": 5,
         "triggerRate": 1,
-        "triggerSort": 0,
+        "triggerSort": 0
+    },
+    {
         "trigger": [
             9006038,
             0,
@@ -757,17 +749,17 @@
             0,
             0,
             0
-        ]
-    },
-    {
+        ],
         "eventGroupId": 25040101,
-        "eventId": 1039,
-        "eventTitle": 25042039,
-        "eventDesc": 25043039,
+        "eventId": 1038,
+        "eventTitle": 25042038,
+        "eventDesc": 25043038,
         "type": 10,
         "cdRound": 5,
         "triggerRate": 1,
-        "triggerSort": 0,
+        "triggerSort": 0
+    },
+    {
         "trigger": [
             9006039,
             0,
@@ -777,17 +769,17 @@
             0,
             0,
             0
-        ]
-    },
-    {
+        ],
         "eventGroupId": 25040101,
-        "eventId": 1040,
-        "eventTitle": 25042040,
-        "eventDesc": 25043040,
+        "eventId": 1039,
+        "eventTitle": 25042039,
+        "eventDesc": 25043039,
         "type": 10,
         "cdRound": 5,
         "triggerRate": 1,
-        "triggerSort": 0,
+        "triggerSort": 0
+    },
+    {
         "trigger": [
             9006040,
             0,
@@ -797,17 +789,17 @@
             0,
             0,
             0
-        ]
-    },
-    {
+        ],
         "eventGroupId": 25040101,
-        "eventId": 1041,
-        "eventTitle": 25042041,
-        "eventDesc": 25043041,
+        "eventId": 1040,
+        "eventTitle": 25042040,
+        "eventDesc": 25043040,
         "type": 10,
         "cdRound": 5,
         "triggerRate": 1,
-        "triggerSort": 0,
+        "triggerSort": 0
+    },
+    {
         "trigger": [
             9006041,
             0,
@@ -817,17 +809,17 @@
             0,
             0,
             0
-        ]
-    },
-    {
+        ],
         "eventGroupId": 25040101,
-        "eventId": 1042,
-        "eventTitle": 25042042,
-        "eventDesc": 25043042,
+        "eventId": 1041,
+        "eventTitle": 25042041,
+        "eventDesc": 25043041,
         "type": 10,
         "cdRound": 5,
         "triggerRate": 1,
-        "triggerSort": 0,
+        "triggerSort": 0
+    },
+    {
         "trigger": [
             9006042,
             0,
@@ -837,17 +829,17 @@
             0,
             0,
             0
-        ]
-    },
-    {
+        ],
         "eventGroupId": 25040101,
-        "eventId": 1043,
-        "eventTitle": 25042043,
-        "eventDesc": 25043043,
+        "eventId": 1042,
+        "eventTitle": 25042042,
+        "eventDesc": 25043042,
         "type": 10,
         "cdRound": 5,
         "triggerRate": 1,
-        "triggerSort": 0,
+        "triggerSort": 0
+    },
+    {
         "trigger": [
             9006043,
             0,
@@ -857,17 +849,17 @@
             0,
             0,
             0
-        ]
+        ],
+        "eventGroupId": 25040101,
+        "eventId": 1043,
+        "eventTitle": 25042043,
+        "eventDesc": 25043043,
+        "type": 10,
+        "cdRound": 5,
+        "triggerRate": 1,
+        "triggerSort": 0
     },
     {
-        "eventGroupId": 25040101,
-        "eventId": 1044,
-        "eventTitle": 25042044,
-        "eventDesc": 25043044,
-        "type": 22,
-        "cdRound": 5,
-        "triggerRate": 30,
-        "triggerSort": 0,
         "trigger": [
             9006044,
             9102044,
@@ -877,17 +869,17 @@
             0,
             0,
             0
-        ]
+        ],
+        "eventGroupId": 25040101,
+        "eventId": 1044,
+        "eventTitle": 25042044,
+        "eventDesc": 25043044,
+        "type": 22,
+        "cdRound": 5,
+        "triggerRate": 30,
+        "triggerSort": 0
     },
     {
-        "eventGroupId": 25040101,
-        "eventId": 1045,
-        "eventTitle": 25042045,
-        "eventDesc": 25043045,
-        "type": 20,
-        "cdRound": 5,
-        "triggerRate": 100,
-        "triggerSort": 999,
         "trigger": [
             9006045,
             9103045,
@@ -897,17 +889,17 @@
             0,
             0,
             0
-        ]
-    },
-    {
+        ],
         "eventGroupId": 25040101,
-        "eventId": 1046,
-        "eventTitle": 25042046,
-        "eventDesc": 25043046,
+        "eventId": 1045,
+        "eventTitle": 25042045,
+        "eventDesc": 25043045,
         "type": 20,
         "cdRound": 5,
         "triggerRate": 100,
-        "triggerSort": 999,
+        "triggerSort": 999
+    },
+    {
         "trigger": [
             9006046,
             9105046,
@@ -917,17 +909,17 @@
             0,
             0,
             0
-        ]
+        ],
+        "eventGroupId": 25040101,
+        "eventId": 1046,
+        "eventTitle": 25042046,
+        "eventDesc": 25043046,
+        "type": 20,
+        "cdRound": 5,
+        "triggerRate": 100,
+        "triggerSort": 999
     },
     {
-        "eventGroupId": 25040101,
-        "eventId": 1047,
-        "eventTitle": 25042047,
-        "eventDesc": 25043047,
-        "type": 21,
-        "cdRound": 10,
-        "triggerRate": 80,
-        "triggerSort": 998,
         "trigger": [
             9006047,
             9103047,
@@ -937,17 +929,17 @@
             0,
             0,
             0
-        ]
+        ],
+        "eventGroupId": 25040101,
+        "eventId": 1047,
+        "eventTitle": 25042047,
+        "eventDesc": 25043047,
+        "type": 21,
+        "cdRound": 10,
+        "triggerRate": 80,
+        "triggerSort": 998
     },
     {
-        "eventGroupId": 25040101,
-        "eventId": 1048,
-        "eventTitle": 25042048,
-        "eventDesc": 25043048,
-        "type": 21,
-        "cdRound": 5,
-        "triggerRate": 100,
-        "triggerSort": 999,
         "trigger": [
             9006048,
             9102048,
@@ -957,17 +949,17 @@
             0,
             0,
             0
-        ]
+        ],
+        "eventGroupId": 25040101,
+        "eventId": 1048,
+        "eventTitle": 25042048,
+        "eventDesc": 25043048,
+        "type": 21,
+        "cdRound": 5,
+        "triggerRate": 100,
+        "triggerSort": 999
     },
     {
-        "eventGroupId": 25040101,
-        "eventId": 1049,
-        "eventTitle": 25042049,
-        "eventDesc": 25043049,
-        "type": 22,
-        "cdRound": 5,
-        "triggerRate": 50,
-        "triggerSort": 0,
         "trigger": [
             9006049,
             9102049,
@@ -977,17 +969,17 @@
             0,
             0,
             0
-        ]
-    },
-    {
+        ],
         "eventGroupId": 25040101,
-        "eventId": 1050,
-        "eventTitle": 25042050,
-        "eventDesc": 25043050,
+        "eventId": 1049,
+        "eventTitle": 25042049,
+        "eventDesc": 25043049,
         "type": 22,
         "cdRound": 5,
-        "triggerRate": 60,
-        "triggerSort": 0,
+        "triggerRate": 50,
+        "triggerSort": 0
+    },
+    {
         "trigger": [
             9006050,
             9102050,
@@ -997,17 +989,17 @@
             9121050,
             0,
             0
-        ]
+        ],
+        "eventGroupId": 25040101,
+        "eventId": 1050,
+        "eventTitle": 25042050,
+        "eventDesc": 25043050,
+        "type": 22,
+        "cdRound": 5,
+        "triggerRate": 60,
+        "triggerSort": 0
     },
     {
-        "eventGroupId": 25040101,
-        "eventId": 1051,
-        "eventTitle": 25042051,
-        "eventDesc": 25043051,
-        "type": 31,
-        "cdRound": 5,
-        "triggerRate": 100,
-        "triggerSort": 999,
         "trigger": [
             9006051,
             9118051,
@@ -1017,17 +1009,17 @@
             0,
             0,
             0
-        ]
+        ],
+        "eventGroupId": 25040101,
+        "eventId": 1051,
+        "eventTitle": 25042051,
+        "eventDesc": 25043051,
+        "type": 31,
+        "cdRound": 5,
+        "triggerRate": 100,
+        "triggerSort": 999
     },
     {
-        "eventGroupId": 25040101,
-        "eventId": 1052,
-        "eventTitle": 25042052,
-        "eventDesc": 25043052,
-        "type": 23,
-        "cdRound": 10,
-        "triggerRate": 50,
-        "triggerSort": 0,
         "trigger": [
             9006052,
             9114052,
@@ -1037,17 +1029,17 @@
             0,
             0,
             0
-        ]
+        ],
+        "eventGroupId": 25040101,
+        "eventId": 1052,
+        "eventTitle": 25042052,
+        "eventDesc": 25043052,
+        "type": 23,
+        "cdRound": 10,
+        "triggerRate": 50,
+        "triggerSort": 0
     },
     {
-        "eventGroupId": 25040153,
-        "eventId": 1053,
-        "eventTitle": 25042053,
-        "eventDesc": 25043053,
-        "type": 24,
-        "cdRound": 5,
-        "triggerRate": 40,
-        "triggerSort": 998,
         "trigger": [
             9006053,
             9106053,
@@ -1057,17 +1049,17 @@
             0,
             0,
             0
-        ]
-    },
-    {
-        "eventGroupId": 25040101,
-        "eventId": 1054,
-        "eventTitle": 25042054,
-        "eventDesc": 25043054,
+        ],
+        "eventGroupId": 25040153,
+        "eventId": 1053,
+        "eventTitle": 25042053,
+        "eventDesc": 25043053,
         "type": 24,
         "cdRound": 5,
-        "triggerRate": 100,
-        "triggerSort": 999,
+        "triggerRate": 40,
+        "triggerSort": 998
+    },
+    {
         "trigger": [
             9006054,
             9124054,
@@ -1077,17 +1069,17 @@
             0,
             0,
             0
-        ]
+        ],
+        "eventGroupId": 25040101,
+        "eventId": 1054,
+        "eventTitle": 25042054,
+        "eventDesc": 25043054,
+        "type": 24,
+        "cdRound": 5,
+        "triggerRate": 100,
+        "triggerSort": 999
     },
     {
-        "eventGroupId": 25040101,
-        "eventId": 1055,
-        "eventTitle": 25042055,
-        "eventDesc": 25043055,
-        "type": 25,
-        "cdRound": 15,
-        "triggerRate": 2,
-        "triggerSort": 0,
         "trigger": [
             9006055,
             9103055,
@@ -1097,17 +1089,17 @@
             0,
             0,
             0
-        ]
+        ],
+        "eventGroupId": 25040101,
+        "eventId": 1055,
+        "eventTitle": 25042055,
+        "eventDesc": 25043055,
+        "type": 25,
+        "cdRound": 15,
+        "triggerRate": 2,
+        "triggerSort": 0
     },
     {
-        "eventGroupId": 25040101,
-        "eventId": 1056,
-        "eventTitle": 25042056,
-        "eventDesc": 25043056,
-        "type": 25,
-        "cdRound": 10,
-        "triggerRate": 3,
-        "triggerSort": 0,
         "trigger": [
             9006056,
             0,
@@ -1117,17 +1109,17 @@
             0,
             0,
             0
-        ]
+        ],
+        "eventGroupId": 25040101,
+        "eventId": 1056,
+        "eventTitle": 25042056,
+        "eventDesc": 25043056,
+        "type": 25,
+        "cdRound": 10,
+        "triggerRate": 3,
+        "triggerSort": 0
     },
     {
-        "eventGroupId": 25040101,
-        "eventId": 1057,
-        "eventTitle": 25042057,
-        "eventDesc": 25043057,
-        "type": 26,
-        "cdRound": 10,
-        "triggerRate": 1,
-        "triggerSort": 0,
         "trigger": [
             9006057,
             9113057,
@@ -1137,17 +1129,17 @@
             0,
             0,
             0
-        ]
+        ],
+        "eventGroupId": 25040101,
+        "eventId": 1057,
+        "eventTitle": 25042057,
+        "eventDesc": 25043057,
+        "type": 26,
+        "cdRound": 10,
+        "triggerRate": 1,
+        "triggerSort": 0
     },
     {
-        "eventGroupId": 25040101,
-        "eventId": 1058,
-        "eventTitle": 25042058,
-        "eventDesc": 25043058,
-        "type": 26,
-        "cdRound": 15,
-        "triggerRate": 1,
-        "triggerSort": 0,
         "trigger": [
             9006058,
             9113058,
@@ -1157,17 +1149,17 @@
             0,
             0,
             0
-        ]
+        ],
+        "eventGroupId": 25040101,
+        "eventId": 1058,
+        "eventTitle": 25042058,
+        "eventDesc": 25043058,
+        "type": 26,
+        "cdRound": 15,
+        "triggerRate": 1,
+        "triggerSort": 0
     },
     {
-        "eventGroupId": 25040101,
-        "eventId": 1059,
-        "eventTitle": 25042059,
-        "eventDesc": 25043059,
-        "type": 20,
-        "cdRound": 5,
-        "triggerRate": 30,
-        "triggerSort": 0,
         "trigger": [
             9006059,
             9103059,
@@ -1177,17 +1169,17 @@
             0,
             0,
             0
-        ]
+        ],
+        "eventGroupId": 25040101,
+        "eventId": 1059,
+        "eventTitle": 25042059,
+        "eventDesc": 25043059,
+        "type": 20,
+        "cdRound": 5,
+        "triggerRate": 30,
+        "triggerSort": 0
     },
     {
-        "eventGroupId": 25040101,
-        "eventId": 1060,
-        "eventTitle": 25042060,
-        "eventDesc": 25043060,
-        "type": 21,
-        "cdRound": 10,
-        "triggerRate": 10,
-        "triggerSort": 0,
         "trigger": [
             9006060,
             9104060,
@@ -1197,17 +1189,17 @@
             0,
             0,
             0
-        ]
+        ],
+        "eventGroupId": 25040101,
+        "eventId": 1060,
+        "eventTitle": 25042060,
+        "eventDesc": 25043060,
+        "type": 21,
+        "cdRound": 10,
+        "triggerRate": 10,
+        "triggerSort": 0
     },
     {
-        "eventGroupId": 25040101,
-        "eventId": 1061,
-        "eventTitle": 25042061,
-        "eventDesc": 25043061,
-        "type": 20,
-        "cdRound": 5,
-        "triggerRate": 90,
-        "triggerSort": 998,
         "trigger": [
             9006061,
             9104061,
@@ -1217,17 +1209,17 @@
             0,
             0,
             0
-        ]
+        ],
+        "eventGroupId": 25040101,
+        "eventId": 1061,
+        "eventTitle": 25042061,
+        "eventDesc": 25043061,
+        "type": 20,
+        "cdRound": 5,
+        "triggerRate": 90,
+        "triggerSort": 998
     },
     {
-        "eventGroupId": 25040101,
-        "eventId": 1062,
-        "eventTitle": 25042062,
-        "eventDesc": 25043062,
-        "type": 21,
-        "cdRound": 5,
-        "triggerRate": 30,
-        "triggerSort": 0,
         "trigger": [
             9006062,
             9102062,
@@ -1237,17 +1229,17 @@
             0,
             0,
             0
-        ]
-    },
-    {
+        ],
         "eventGroupId": 25040101,
-        "eventId": 1063,
-        "eventTitle": 25042063,
-        "eventDesc": 25043063,
+        "eventId": 1062,
+        "eventTitle": 25042062,
+        "eventDesc": 25043062,
         "type": 21,
         "cdRound": 5,
-        "triggerRate": 10,
-        "triggerSort": 0,
+        "triggerRate": 30,
+        "triggerSort": 0
+    },
+    {
         "trigger": [
             9006063,
             9127063,
@@ -1257,17 +1249,17 @@
             0,
             0,
             0
-        ]
-    },
-    {
+        ],
         "eventGroupId": 25040101,
-        "eventId": 1064,
-        "eventTitle": 25042064,
-        "eventDesc": 25043064,
+        "eventId": 1063,
+        "eventTitle": 25042063,
+        "eventDesc": 25043063,
         "type": 21,
         "cdRound": 5,
         "triggerRate": 10,
-        "triggerSort": 0,
+        "triggerSort": 0
+    },
+    {
         "trigger": [
             9006064,
             9127064,
@@ -1277,17 +1269,17 @@
             0,
             0,
             0
-        ]
-    },
-    {
+        ],
         "eventGroupId": 25040101,
-        "eventId": 1065,
-        "eventTitle": 25042065,
-        "eventDesc": 25043065,
+        "eventId": 1064,
+        "eventTitle": 25042064,
+        "eventDesc": 25043064,
         "type": 21,
         "cdRound": 5,
-        "triggerRate": 20,
-        "triggerSort": 0,
+        "triggerRate": 10,
+        "triggerSort": 0
+    },
+    {
         "trigger": [
             9006065,
             9112065,
@@ -1297,17 +1289,17 @@
             0,
             0,
             0
-        ]
+        ],
+        "eventGroupId": 25040101,
+        "eventId": 1065,
+        "eventTitle": 25042065,
+        "eventDesc": 25043065,
+        "type": 21,
+        "cdRound": 5,
+        "triggerRate": 20,
+        "triggerSort": 0
     },
     {
-        "eventGroupId": 25040101,
-        "eventId": 1066,
-        "eventTitle": 25042066,
-        "eventDesc": 25043066,
-        "type": 21,
-        "cdRound": 20,
-        "triggerRate": 1,
-        "triggerSort": 0,
         "trigger": [
             9006066,
             9002066,
@@ -1317,17 +1309,17 @@
             0,
             0,
             0
-        ]
+        ],
+        "eventGroupId": 25040101,
+        "eventId": 1066,
+        "eventTitle": 25042066,
+        "eventDesc": 25043066,
+        "type": 21,
+        "cdRound": 20,
+        "triggerRate": 1,
+        "triggerSort": 0
     },
     {
-        "eventGroupId": 25040101,
-        "eventId": 1067,
-        "eventTitle": 25042067,
-        "eventDesc": 25043067,
-        "type": 22,
-        "cdRound": 5,
-        "triggerRate": 50,
-        "triggerSort": 0,
         "trigger": [
             9006067,
             9102067,
@@ -1337,17 +1329,17 @@
             0,
             0,
             0
-        ]
-    },
-    {
+        ],
         "eventGroupId": 25040101,
-        "eventId": 1068,
-        "eventTitle": 25042068,
-        "eventDesc": 25043068,
+        "eventId": 1067,
+        "eventTitle": 25042067,
+        "eventDesc": 25043067,
         "type": 22,
         "cdRound": 5,
-        "triggerRate": 100,
-        "triggerSort": 999,
+        "triggerRate": 50,
+        "triggerSort": 0
+    },
+    {
         "trigger": [
             9006068,
             9104068,
@@ -1357,17 +1349,17 @@
             0,
             0,
             0
-        ]
-    },
-    {
+        ],
         "eventGroupId": 25040101,
-        "eventId": 1069,
-        "eventTitle": 25042069,
-        "eventDesc": 25043069,
+        "eventId": 1068,
+        "eventTitle": 25042068,
+        "eventDesc": 25043068,
         "type": 22,
         "cdRound": 5,
-        "triggerRate": 60,
-        "triggerSort": 0,
+        "triggerRate": 100,
+        "triggerSort": 999
+    },
+    {
         "trigger": [
             9006069,
             9111069,
@@ -1377,17 +1369,17 @@
             0,
             0,
             0
-        ]
+        ],
+        "eventGroupId": 25040101,
+        "eventId": 1069,
+        "eventTitle": 25042069,
+        "eventDesc": 25043069,
+        "type": 22,
+        "cdRound": 5,
+        "triggerRate": 60,
+        "triggerSort": 0
     },
     {
-        "eventGroupId": 25040101,
-        "eventId": 1070,
-        "eventTitle": 25042070,
-        "eventDesc": 25043070,
-        "type": 21,
-        "cdRound": 10,
-        "triggerRate": 60,
-        "triggerSort": 0,
         "trigger": [
             9006070,
             9112070,
@@ -1397,17 +1389,17 @@
             0,
             0,
             0
-        ]
+        ],
+        "eventGroupId": 25040101,
+        "eventId": 1070,
+        "eventTitle": 25042070,
+        "eventDesc": 25043070,
+        "type": 21,
+        "cdRound": 10,
+        "triggerRate": 60,
+        "triggerSort": 0
     },
     {
-        "eventGroupId": 25040101,
-        "eventId": 1071,
-        "eventTitle": 25042071,
-        "eventDesc": 25043071,
-        "type": 29,
-        "cdRound": 5,
-        "triggerRate": 80,
-        "triggerSort": 999,
         "trigger": [
             9006071,
             9113071,
@@ -1417,17 +1409,17 @@
             0,
             0,
             0
-        ]
+        ],
+        "eventGroupId": 25040101,
+        "eventId": 1071,
+        "eventTitle": 25042071,
+        "eventDesc": 25043071,
+        "type": 29,
+        "cdRound": 5,
+        "triggerRate": 80,
+        "triggerSort": 999
     },
     {
-        "eventGroupId": 25040101,
-        "eventId": 1072,
-        "eventTitle": 25042072,
-        "eventDesc": 25043072,
-        "type": 23,
-        "cdRound": 5,
-        "triggerRate": 100,
-        "triggerSort": 999,
         "trigger": [
             9006072,
             9119072,
@@ -1437,17 +1429,17 @@
             0,
             0,
             0
-        ]
+        ],
+        "eventGroupId": 25040101,
+        "eventId": 1072,
+        "eventTitle": 25042072,
+        "eventDesc": 25043072,
+        "type": 23,
+        "cdRound": 5,
+        "triggerRate": 100,
+        "triggerSort": 999
     },
     {
-        "eventGroupId": 25040101,
-        "eventId": 1073,
-        "eventTitle": 25042073,
-        "eventDesc": 25043073,
-        "type": 29,
-        "cdRound": 5,
-        "triggerRate": 80,
-        "triggerSort": 999,
         "trigger": [
             9006073,
             9113073,
@@ -1457,17 +1449,17 @@
             0,
             0,
             0
-        ]
+        ],
+        "eventGroupId": 25040101,
+        "eventId": 1073,
+        "eventTitle": 25042073,
+        "eventDesc": 25043073,
+        "type": 29,
+        "cdRound": 5,
+        "triggerRate": 80,
+        "triggerSort": 999
     },
     {
-        "eventGroupId": 25040101,
-        "eventId": 1074,
-        "eventTitle": 25042074,
-        "eventDesc": 25043074,
-        "type": 23,
-        "cdRound": 10,
-        "triggerRate": 30,
-        "triggerSort": 0,
         "trigger": [
             9006074,
             0,
@@ -1477,17 +1469,17 @@
             0,
             0,
             0
-        ]
+        ],
+        "eventGroupId": 25040101,
+        "eventId": 1074,
+        "eventTitle": 25042074,
+        "eventDesc": 25043074,
+        "type": 23,
+        "cdRound": 10,
+        "triggerRate": 30,
+        "triggerSort": 0
     },
     {
-        "eventGroupId": 25040101,
-        "eventId": 1075,
-        "eventTitle": 25042075,
-        "eventDesc": 25043075,
-        "type": 29,
-        "cdRound": 5,
-        "triggerRate": 100,
-        "triggerSort": 999,
         "trigger": [
             9006075,
             9104075,
@@ -1497,17 +1489,17 @@
             0,
             0,
             0
-        ]
+        ],
+        "eventGroupId": 25040101,
+        "eventId": 1075,
+        "eventTitle": 25042075,
+        "eventDesc": 25043075,
+        "type": 29,
+        "cdRound": 5,
+        "triggerRate": 100,
+        "triggerSort": 999
     },
     {
-        "eventGroupId": 25040101,
-        "eventId": 1076,
-        "eventTitle": 25042076,
-        "eventDesc": 25043076,
-        "type": 23,
-        "cdRound": 5,
-        "triggerRate": 70,
-        "triggerSort": 0,
         "trigger": [
             9006076,
             9112076,
@@ -1517,17 +1509,17 @@
             0,
             0,
             0
-        ]
+        ],
+        "eventGroupId": 25040101,
+        "eventId": 1076,
+        "eventTitle": 25042076,
+        "eventDesc": 25043076,
+        "type": 23,
+        "cdRound": 5,
+        "triggerRate": 70,
+        "triggerSort": 0
     },
     {
-        "eventGroupId": 25040101,
-        "eventId": 1077,
-        "eventTitle": 25042077,
-        "eventDesc": 25043077,
-        "type": 21,
-        "cdRound": 5,
-        "triggerRate": 80,
-        "triggerSort": 0,
         "trigger": [
             9006077,
             9102077,
@@ -1537,17 +1529,17 @@
             0,
             0,
             0
-        ]
+        ],
+        "eventGroupId": 25040101,
+        "eventId": 1077,
+        "eventTitle": 25042077,
+        "eventDesc": 25043077,
+        "type": 21,
+        "cdRound": 5,
+        "triggerRate": 80,
+        "triggerSort": 0
     },
     {
-        "eventGroupId": 25040101,
-        "eventId": 1078,
-        "eventTitle": 25042078,
-        "eventDesc": 25043078,
-        "type": 24,
-        "cdRound": 10,
-        "triggerRate": 70,
-        "triggerSort": 0,
         "trigger": [
             9006078,
             0,
@@ -1557,17 +1549,17 @@
             0,
             0,
             0
-        ]
+        ],
+        "eventGroupId": 25040101,
+        "eventId": 1078,
+        "eventTitle": 25042078,
+        "eventDesc": 25043078,
+        "type": 24,
+        "cdRound": 10,
+        "triggerRate": 70,
+        "triggerSort": 0
     },
     {
-        "eventGroupId": 25040101,
-        "eventId": 1079,
-        "eventTitle": 25042079,
-        "eventDesc": 25043079,
-        "type": 24,
-        "cdRound": 5,
-        "triggerRate": 30,
-        "triggerSort": 0,
         "trigger": [
             9006079,
             0,
@@ -1577,17 +1569,17 @@
             0,
             0,
             0
-        ]
+        ],
+        "eventGroupId": 25040101,
+        "eventId": 1079,
+        "eventTitle": 25042079,
+        "eventDesc": 25043079,
+        "type": 24,
+        "cdRound": 5,
+        "triggerRate": 30,
+        "triggerSort": 0
     },
     {
-        "eventGroupId": 25040101,
-        "eventId": 1080,
-        "eventTitle": 25042080,
-        "eventDesc": 25043080,
-        "type": 25,
-        "cdRound": 5,
-        "triggerRate": 100,
-        "triggerSort": 999,
         "trigger": [
             9006080,
             9103080,
@@ -1597,17 +1589,17 @@
             0,
             0,
             0
-        ]
+        ],
+        "eventGroupId": 25040101,
+        "eventId": 1080,
+        "eventTitle": 25042080,
+        "eventDesc": 25043080,
+        "type": 25,
+        "cdRound": 5,
+        "triggerRate": 100,
+        "triggerSort": 999
     },
     {
-        "eventGroupId": 25040101,
-        "eventId": 1081,
-        "eventTitle": 25042081,
-        "eventDesc": 25043081,
-        "type": 25,
-        "cdRound": 15,
-        "triggerRate": 30,
-        "triggerSort": 0,
         "trigger": [
             9006081,
             9102081,
@@ -1617,17 +1609,17 @@
             0,
             0,
             0
-        ]
+        ],
+        "eventGroupId": 25040101,
+        "eventId": 1081,
+        "eventTitle": 25042081,
+        "eventDesc": 25043081,
+        "type": 25,
+        "cdRound": 15,
+        "triggerRate": 30,
+        "triggerSort": 0
     },
     {
-        "eventGroupId": 25040101,
-        "eventId": 1082,
-        "eventTitle": 25042082,
-        "eventDesc": 25043082,
-        "type": 25,
-        "cdRound": 10,
-        "triggerRate": 100,
-        "triggerSort": 999,
         "trigger": [
             9006082,
             9105082,
@@ -1637,17 +1629,17 @@
             0,
             0,
             0
-        ]
+        ],
+        "eventGroupId": 25040101,
+        "eventId": 1082,
+        "eventTitle": 25042082,
+        "eventDesc": 25043082,
+        "type": 25,
+        "cdRound": 10,
+        "triggerRate": 100,
+        "triggerSort": 999
     },
     {
-        "eventGroupId": 25040101,
-        "eventId": 1083,
-        "eventTitle": 25042083,
-        "eventDesc": 25043083,
-        "type": 25,
-        "cdRound": 5,
-        "triggerRate": 70,
-        "triggerSort": 0,
         "trigger": [
             9006083,
             9113083,
@@ -1657,17 +1649,17 @@
             0,
             0,
             0
-        ]
+        ],
+        "eventGroupId": 25040101,
+        "eventId": 1083,
+        "eventTitle": 25042083,
+        "eventDesc": 25043083,
+        "type": 25,
+        "cdRound": 5,
+        "triggerRate": 70,
+        "triggerSort": 0
     },
     {
-        "eventGroupId": 25040101,
-        "eventId": 1084,
-        "eventTitle": 25042084,
-        "eventDesc": 25043084,
-        "type": 25,
-        "cdRound": 10,
-        "triggerRate": 100,
-        "triggerSort": 999,
         "trigger": [
             9006084,
             9112084,
@@ -1677,17 +1669,17 @@
             0,
             0,
             0
-        ]
+        ],
+        "eventGroupId": 25040101,
+        "eventId": 1084,
+        "eventTitle": 25042084,
+        "eventDesc": 25043084,
+        "type": 25,
+        "cdRound": 10,
+        "triggerRate": 100,
+        "triggerSort": 999
     },
     {
-        "eventGroupId": 25040101,
-        "eventId": 1085,
-        "eventTitle": 25042085,
-        "eventDesc": 25043085,
-        "type": 26,
-        "cdRound": 15,
-        "triggerRate": 2,
-        "triggerSort": 0,
         "trigger": [
             9006085,
             9103085,
@@ -1697,17 +1689,17 @@
             0,
             0,
             0
-        ]
+        ],
+        "eventGroupId": 25040101,
+        "eventId": 1085,
+        "eventTitle": 25042085,
+        "eventDesc": 25043085,
+        "type": 26,
+        "cdRound": 15,
+        "triggerRate": 2,
+        "triggerSort": 0
     },
     {
-        "eventGroupId": 25040101,
-        "eventId": 1086,
-        "eventTitle": 25042086,
-        "eventDesc": 25043086,
-        "type": 23,
-        "cdRound": 10,
-        "triggerRate": 60,
-        "triggerSort": 0,
         "trigger": [
             9006086,
             9102086,
@@ -1717,17 +1709,17 @@
             0,
             0,
             0
-        ]
+        ],
+        "eventGroupId": 25040101,
+        "eventId": 1086,
+        "eventTitle": 25042086,
+        "eventDesc": 25043086,
+        "type": 23,
+        "cdRound": 10,
+        "triggerRate": 60,
+        "triggerSort": 0
     },
     {
-        "eventGroupId": 25040101,
-        "eventId": 1087,
-        "eventTitle": 25042087,
-        "eventDesc": 25043087,
-        "type": 21,
-        "cdRound": 10,
-        "triggerRate": 10,
-        "triggerSort": 0,
         "trigger": [
             9006087,
             9126087,
@@ -1737,17 +1729,17 @@
             0,
             0,
             0
-        ]
+        ],
+        "eventGroupId": 25040101,
+        "eventId": 1087,
+        "eventTitle": 25042087,
+        "eventDesc": 25043087,
+        "type": 21,
+        "cdRound": 10,
+        "triggerRate": 10,
+        "triggerSort": 0
     },
     {
-        "eventGroupId": 25040101,
-        "eventId": 1088,
-        "eventTitle": 25042088,
-        "eventDesc": 25043088,
-        "type": 26,
-        "cdRound": 5,
-        "triggerRate": 20,
-        "triggerSort": 0,
         "trigger": [
             9006088,
             9113088,
@@ -1757,17 +1749,17 @@
             0,
             0,
             0
-        ]
+        ],
+        "eventGroupId": 25040101,
+        "eventId": 1088,
+        "eventTitle": 25042088,
+        "eventDesc": 25043088,
+        "type": 26,
+        "cdRound": 5,
+        "triggerRate": 20,
+        "triggerSort": 0
     },
     {
-        "eventGroupId": 25040101,
-        "eventId": 1089,
-        "eventTitle": 25042089,
-        "eventDesc": 25043089,
-        "type": 29,
-        "cdRound": 5,
-        "triggerRate": 100,
-        "triggerSort": 999,
         "trigger": [
             9006089,
             9102089,
@@ -1777,17 +1769,17 @@
             0,
             0,
             0
-        ]
+        ],
+        "eventGroupId": 25040101,
+        "eventId": 1089,
+        "eventTitle": 25042089,
+        "eventDesc": 25043089,
+        "type": 29,
+        "cdRound": 5,
+        "triggerRate": 100,
+        "triggerSort": 999
     },
     {
-        "eventGroupId": 25040101,
-        "eventId": 1090,
-        "eventTitle": 25042090,
-        "eventDesc": 25043090,
-        "type": 28,
-        "cdRound": 10,
-        "triggerRate": 20,
-        "triggerSort": 0,
         "trigger": [
             9006090,
             0,
@@ -1797,17 +1789,17 @@
             0,
             0,
             0
-        ]
+        ],
+        "eventGroupId": 25040101,
+        "eventId": 1090,
+        "eventTitle": 25042090,
+        "eventDesc": 25043090,
+        "type": 28,
+        "cdRound": 10,
+        "triggerRate": 20,
+        "triggerSort": 0
     },
     {
-        "eventGroupId": 25040101,
-        "eventId": 1091,
-        "eventTitle": 25042091,
-        "eventDesc": 25043091,
-        "type": 25,
-        "cdRound": 5,
-        "triggerRate": 80,
-        "triggerSort": 998,
         "trigger": [
             9006091,
             9117091,
@@ -1817,17 +1809,17 @@
             0,
             0,
             0
-        ]
+        ],
+        "eventGroupId": 25040101,
+        "eventId": 1091,
+        "eventTitle": 25042091,
+        "eventDesc": 25043091,
+        "type": 25,
+        "cdRound": 5,
+        "triggerRate": 80,
+        "triggerSort": 998
     },
     {
-        "eventGroupId": 25040101,
-        "eventId": 1092,
-        "eventTitle": 25042092,
-        "eventDesc": 25043092,
-        "type": 25,
-        "cdRound": 10,
-        "triggerRate": 80,
-        "triggerSort": 998,
         "trigger": [
             9006092,
             9106092,
@@ -1837,17 +1829,17 @@
             0,
             0,
             0
-        ]
+        ],
+        "eventGroupId": 25040101,
+        "eventId": 1092,
+        "eventTitle": 25042092,
+        "eventDesc": 25043092,
+        "type": 25,
+        "cdRound": 10,
+        "triggerRate": 80,
+        "triggerSort": 998
     },
     {
-        "eventGroupId": 25040101,
-        "eventId": 1093,
-        "eventTitle": 25042093,
-        "eventDesc": 25043093,
-        "type": 25,
-        "cdRound": 5,
-        "triggerRate": 100,
-        "triggerSort": 999,
         "trigger": [
             9006093,
             9105093,
@@ -1857,17 +1849,17 @@
             0,
             0,
             0
-        ]
+        ],
+        "eventGroupId": 25040101,
+        "eventId": 1093,
+        "eventTitle": 25042093,
+        "eventDesc": 25043093,
+        "type": 25,
+        "cdRound": 5,
+        "triggerRate": 100,
+        "triggerSort": 999
     },
     {
-        "eventGroupId": 25040101,
-        "eventId": 1094,
-        "eventTitle": 25042094,
-        "eventDesc": 25043094,
-        "type": 22,
-        "cdRound": 5,
-        "triggerRate": 60,
-        "triggerSort": 0,
         "trigger": [
             9006094,
             9102094,
@@ -1877,17 +1869,17 @@
             0,
             0,
             0
-        ]
+        ],
+        "eventGroupId": 25040101,
+        "eventId": 1094,
+        "eventTitle": 25042094,
+        "eventDesc": 25043094,
+        "type": 22,
+        "cdRound": 5,
+        "triggerRate": 60,
+        "triggerSort": 0
     },
     {
-        "eventGroupId": 25040101,
-        "eventId": 1095,
-        "eventTitle": 25042095,
-        "eventDesc": 25043095,
-        "type": 26,
-        "cdRound": 15,
-        "triggerRate": 2,
-        "triggerSort": 0,
         "trigger": [
             9006095,
             9117095,
@@ -1897,17 +1889,17 @@
             0,
             0,
             0
-        ]
+        ],
+        "eventGroupId": 25040101,
+        "eventId": 1095,
+        "eventTitle": 25042095,
+        "eventDesc": 25043095,
+        "type": 26,
+        "cdRound": 15,
+        "triggerRate": 2,
+        "triggerSort": 0
     },
     {
-        "eventGroupId": 25040101,
-        "eventId": 1096,
-        "eventTitle": 25042096,
-        "eventDesc": 25043096,
-        "type": 20,
-        "cdRound": 5,
-        "triggerRate": 100,
-        "triggerSort": 999,
         "trigger": [
             9006096,
             9103096,
@@ -1917,17 +1909,17 @@
             0,
             0,
             0
-        ]
+        ],
+        "eventGroupId": 25040101,
+        "eventId": 1096,
+        "eventTitle": 25042096,
+        "eventDesc": 25043096,
+        "type": 20,
+        "cdRound": 5,
+        "triggerRate": 100,
+        "triggerSort": 999
     },
     {
-        "eventGroupId": 25040101,
-        "eventId": 1097,
-        "eventTitle": 25042097,
-        "eventDesc": 25043097,
-        "type": 20,
-        "cdRound": 10,
-        "triggerRate": 8,
-        "triggerSort": 0,
         "trigger": [
             9006097,
             0,
@@ -1937,17 +1929,17 @@
             0,
             0,
             0
-        ]
+        ],
+        "eventGroupId": 25040101,
+        "eventId": 1097,
+        "eventTitle": 25042097,
+        "eventDesc": 25043097,
+        "type": 20,
+        "cdRound": 10,
+        "triggerRate": 8,
+        "triggerSort": 0
     },
     {
-        "eventGroupId": 25040101,
-        "eventId": 1098,
-        "eventTitle": 25042098,
-        "eventDesc": 25043098,
-        "type": 21,
-        "cdRound": 5,
-        "triggerRate": 50,
-        "triggerSort": 0,
         "trigger": [
             9006098,
             9102098,
@@ -1957,17 +1949,17 @@
             0,
             0,
             0
-        ]
+        ],
+        "eventGroupId": 25040101,
+        "eventId": 1098,
+        "eventTitle": 25042098,
+        "eventDesc": 25043098,
+        "type": 21,
+        "cdRound": 5,
+        "triggerRate": 50,
+        "triggerSort": 0
     },
     {
-        "eventGroupId": 25040101,
-        "eventId": 1099,
-        "eventTitle": 25042099,
-        "eventDesc": 25043099,
-        "type": 26,
-        "cdRound": 15,
-        "triggerRate": 2,
-        "triggerSort": 0,
         "trigger": [
             9006099,
             9117099,
@@ -1977,17 +1969,17 @@
             0,
             0,
             0
-        ]
+        ],
+        "eventGroupId": 25040101,
+        "eventId": 1099,
+        "eventTitle": 25042099,
+        "eventDesc": 25043099,
+        "type": 26,
+        "cdRound": 15,
+        "triggerRate": 2,
+        "triggerSort": 0
     },
     {
-        "eventGroupId": 25040101,
-        "eventId": 1100,
-        "eventTitle": 25042100,
-        "eventDesc": 25043100,
-        "type": 20,
-        "cdRound": 5,
-        "triggerRate": 100,
-        "triggerSort": 999,
         "trigger": [
             9006100,
             9105100,
@@ -1997,6 +1989,14 @@
             0,
             0,
             0
-        ]
+        ],
+        "eventGroupId": 25040101,
+        "eventId": 1100,
+        "eventTitle": 25042100,
+        "eventDesc": 25043100,
+        "type": 20,
+        "cdRound": 5,
+        "triggerRate": 100,
+        "triggerSort": 999
     }
 ]
