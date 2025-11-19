@@ -10628,5 +10628,135 @@
         "nameKr": "",
         "type": "activity_room",
         "needPopout": 0
+    },
+    {
+        "id": 251101,
+        "nameChs": "姬川响的游戏机",
+        "nameChsT": "姬川響的遊戲機",
+        "nameJp": "姫川's インベーダー",
+        "nameEn": "Hibiki's Console",
+        "nameKr": "히메카와 히비키의 게임기",
+        "type": "shoot",
+        "needPopout": 1
+    },
+    {
+        "id": 251102,
+        "nameChs": "",
+        "nameChsT": "",
+        "nameJp": "",
+        "nameEn": "",
+        "nameKr": "",
+        "type": "period_task",
+        "needPopout": 0
+    },
+    {
+        "id": 251110,
+        "nameChs": "",
+        "nameChsT": "",
+        "nameJp": "",
+        "nameEn": "",
+        "nameKr": "",
+        "type": "shop",
+        "needPopout": 0
+    },
+    {
+        "id": 251111,
+        "nameChs": "",
+        "nameChsT": "",
+        "nameJp": "",
+        "nameEn": "",
+        "nameKr": "",
+        "type": "event_cross_time",
+        "needPopout": 0
+    },
+    {
+        "id": 251112,
+        "nameChs": "",
+        "nameChsT": "",
+        "nameJp": "",
+        "nameEn": "",
+        "nameKr": "",
+        "type": "item",
+        "needPopout": 0
+    },
+    {
+        "id": 251120,
+        "nameChs": "",
+        "nameChsT": "",
+        "nameJp": "",
+        "nameEn": "",
+        "nameKr": "",
+        "type": "chest_up",
+        "needPopout": 0
+    },
+    {
+        "id": 251121,
+        "nameChs": "",
+        "nameChsT": "",
+        "nameJp": "",
+        "nameEn": "",
+        "nameKr": "",
+        "type": "chest_up",
+        "needPopout": 0
+    },
+    {
+        "id": 251122,
+        "nameChs": "",
+        "nameChsT": "",
+        "nameJp": "",
+        "nameEn": "",
+        "nameKr": "",
+        "type": "chest_up",
+        "needPopout": 0
+    },
+    {
+        "id": 251123,
+        "nameChs": "",
+        "nameChsT": "",
+        "nameJp": "",
+        "nameEn": "",
+        "nameKr": "",
+        "type": "chest_up",
+        "needPopout": 0
+    },
+    {
+        "id": 251130,
+        "nameChs": "",
+        "nameChsT": "",
+        "nameJp": "",
+        "nameEn": "",
+        "nameKr": "",
+        "type": "chest_replace_up",
+        "needPopout": 0
+    },
+    {
+        "id": 251131,
+        "nameChs": "",
+        "nameChsT": "",
+        "nameJp": "",
+        "nameEn": "",
+        "nameKr": "",
+        "type": "chest_replace_up",
+        "needPopout": 0
+    },
+    {
+        "id": 251132,
+        "nameChs": "",
+        "nameChsT": "",
+        "nameJp": "",
+        "nameEn": "",
+        "nameKr": "",
+        "type": "chest_replace_up",
+        "needPopout": 0
+    },
+    {
+        "id": 251133,
+        "nameChs": "",
+        "nameChsT": "",
+        "nameJp": "",
+        "nameEn": "",
+        "nameKr": "",
+        "type": "chest_replace_up",
+        "needPopout": 0
     }
 ]

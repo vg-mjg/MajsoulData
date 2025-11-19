@@ -1342,5 +1342,19 @@
         "imgPath": "extendRes/loading_cg/251001.jpg",
         "thumbPath": "extendRes/loading_cg/251001_thumb.jpg",
         "sort": 1078
+    },
+    {
+        "unlockItems": [
+            307479,
+            307279,
+            0
+        ],
+        "args": [
+            0
+        ],
+        "id": 251101,
+        "imgPath": "extendRes/loading_cg/251101.jpg",
+        "thumbPath": "extendRes/loading_cg/251101_thumb.jpg",
+        "sort": 1079
     }
 ]

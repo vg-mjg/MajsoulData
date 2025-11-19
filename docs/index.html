@@ -611,6 +611,22 @@
                 </li>
               
                 <li>
+                  <a href="#lq.ActivityBingoCardData"><span class="badge">M</span>ActivityBingoCardData</a>
+                </li>
+              
+                <li>
+                  <a href="#lq.ActivityBingoCardData.BingoAchievedRecord"><span class="badge">M</span>ActivityBingoCardData.BingoAchievedRecord</a>
+                </li>
+              
+                <li>
+                  <a href="#lq.ActivityBingoCardData.BingoRewardRecord"><span class="badge">M</span>ActivityBingoCardData.BingoRewardRecord</a>
+                </li>
+              
+                <li>
+                  <a href="#lq.ActivityBingoData"><span class="badge">M</span>ActivityBingoData</a>
+                </li>
+              
+                <li>
                   <a href="#lq.ActivityBuffData"><span class="badge">M</span>ActivityBuffData</a>
                 </li>
               
@@ -740,6 +756,10 @@
               
                 <li>
                   <a href="#lq.ActivityShootEnemyInfoDirty"><span class="badge">M</span>ActivityShootEnemyInfoDirty</a>
+                </li>
+              
+                <li>
+                  <a href="#lq.ActivityShootRewardRecord"><span class="badge">M</span>ActivityShootRewardRecord</a>
                 </li>
               
                 <li>
@@ -2215,6 +2235,14 @@
                 </li>
               
                 <li>
+                  <a href="#lq.ReqBingoActivityReceiveReward"><span class="badge">M</span>ReqBingoActivityReceiveReward</a>
+                </li>
+              
+                <li>
+                  <a href="#lq.ReqBingoActivityReceiveReward.BingoReward"><span class="badge">M</span>ReqBingoActivityReceiveReward.BingoReward</a>
+                </li>
+              
+                <li>
                   <a href="#lq.ReqBroadcastInGame"><span class="badge">M</span>ReqBroadcastInGame</a>
                 </li>
               
@@ -3563,6 +3591,10 @@
                 </li>
               
                 <li>
+                  <a href="#lq.ResBingoActivityReceiveReward"><span class="badge">M</span>ResBingoActivityReceiveReward</a>
+                </li>
+              
+                <li>
                   <a href="#lq.ResBuyFestivalProposal"><span class="badge">M</span>ResBuyFestivalProposal</a>
                 </li>
               
@@ -4040,6 +4072,10 @@
               
                 <li>
                   <a href="#lq.ResFetchManagerCustomizedContest"><span class="badge">M</span>ResFetchManagerCustomizedContest</a>
+                </li>
+              
+                <li>
+                  <a href="#lq.ResFetchManagerCustomizedContest.SeasonInfo"><span class="badge">M</span>ResFetchManagerCustomizedContest.SeasonInfo</a>
                 </li>
               
                 <li>
@@ -5788,6 +5824,13 @@
                 <tr>
                   <td>shoot_data</td>
                   <td><a href="#lq.ActivityShootData">ActivityShootData</a></td>
+                  <td>repeated</td>
+                  <td><p> </p></td>
+                </tr>
+              
+                <tr>
+                  <td>bingo_data</td>
+                  <td><a href="#lq.ActivityBingoData">ActivityBingoData</a></td>
                   <td>repeated</td>
                   <td><p> </p></td>
                 </tr>
@@ -10491,6 +10534,158 @@
 
         
       
+        <h3 id="lq.ActivityBingoCardData">ActivityBingoCardData</h3>
+        <p></p>
+
+        
+          <table class="field-table">
+            <thead>
+              <tr><td>Field</td><td>Type</td><td>Label</td><td>Description</td></tr>
+            </thead>
+            <tbody>
+              
+                <tr>
+                  <td>card_id</td>
+                  <td><a href="#uint32">uint32</a></td>
+                  <td></td>
+                  <td><p> </p></td>
+                </tr>
+              
+                <tr>
+                  <td>achieved_pos</td>
+                  <td><a href="#uint32">uint32</a></td>
+                  <td>repeated</td>
+                  <td><p> </p></td>
+                </tr>
+              
+                <tr>
+                  <td>rewarded_ids</td>
+                  <td><a href="#uint32">uint32</a></td>
+                  <td>repeated</td>
+                  <td><p> </p></td>
+                </tr>
+              
+                <tr>
+                  <td>state</td>
+                  <td><a href="#uint32">uint32</a></td>
+                  <td></td>
+                  <td><p> </p></td>
+                </tr>
+              
+                <tr>
+                  <td>achieved_records</td>
+                  <td><a href="#lq.ActivityBingoCardData.BingoAchievedRecord">ActivityBingoCardData.BingoAchievedRecord</a></td>
+                  <td>repeated</td>
+                  <td><p> </p></td>
+                </tr>
+              
+                <tr>
+                  <td>reward_records</td>
+                  <td><a href="#lq.ActivityBingoCardData.BingoRewardRecord">ActivityBingoCardData.BingoRewardRecord</a></td>
+                  <td>repeated</td>
+                  <td><p> </p></td>
+                </tr>
+              
+            </tbody>
+          </table>
+
+          
+
+        
+      
+        <h3 id="lq.ActivityBingoCardData.BingoAchievedRecord">ActivityBingoCardData.BingoAchievedRecord</h3>
+        <p></p>
+
+        
+          <table class="field-table">
+            <thead>
+              <tr><td>Field</td><td>Type</td><td>Label</td><td>Description</td></tr>
+            </thead>
+            <tbody>
+              
+                <tr>
+                  <td>pos</td>
+                  <td><a href="#uint32">uint32</a></td>
+                  <td></td>
+                  <td><p> </p></td>
+                </tr>
+              
+                <tr>
+                  <td>time</td>
+                  <td><a href="#uint32">uint32</a></td>
+                  <td></td>
+                  <td><p> </p></td>
+                </tr>
+              
+            </tbody>
+          </table>
+
+          
+
+        
+      
+        <h3 id="lq.ActivityBingoCardData.BingoRewardRecord">ActivityBingoCardData.BingoRewardRecord</h3>
+        <p></p>
+
+        
+          <table class="field-table">
+            <thead>
+              <tr><td>Field</td><td>Type</td><td>Label</td><td>Description</td></tr>
+            </thead>
+            <tbody>
+              
+                <tr>
+                  <td>id</td>
+                  <td><a href="#uint32">uint32</a></td>
+                  <td></td>
+                  <td><p> </p></td>
+                </tr>
+              
+                <tr>
+                  <td>time</td>
+                  <td><a href="#uint32">uint32</a></td>
+                  <td></td>
+                  <td><p> </p></td>
+                </tr>
+              
+            </tbody>
+          </table>
+
+          
+
+        
+      
+        <h3 id="lq.ActivityBingoData">ActivityBingoData</h3>
+        <p></p>
+
+        
+          <table class="field-table">
+            <thead>
+              <tr><td>Field</td><td>Type</td><td>Label</td><td>Description</td></tr>
+            </thead>
+            <tbody>
+              
+                <tr>
+                  <td>activity_id</td>
+                  <td><a href="#uint32">uint32</a></td>
+                  <td></td>
+                  <td><p> </p></td>
+                </tr>
+              
+                <tr>
+                  <td>cards</td>
+                  <td><a href="#lq.ActivityBingoCardData">ActivityBingoCardData</a></td>
+                  <td>repeated</td>
+                  <td><p> </p></td>
+                </tr>
+              
+            </tbody>
+          </table>
+
+          
+
+        
+      
         <h3 id="lq.ActivityBuffData">ActivityBuffData</h3>
         <p></p>
 
@@ -11809,6 +12004,20 @@
                   <td><p> </p></td>
                 </tr>
               
+                <tr>
+                  <td>ended</td>
+                  <td><a href="#bool">bool</a></td>
+                  <td></td>
+                  <td><p> </p></td>
+                </tr>
+              
+                <tr>
+                  <td>rewarded_records</td>
+                  <td><a href="#lq.ActivityShootRewardRecord">ActivityShootRewardRecord</a></td>
+                  <td>repeated</td>
+                  <td><p> </p></td>
+                </tr>
+              
             </tbody>
           </table>
 
@@ -11875,6 +12084,44 @@
                   <td>enemies</td>
                   <td><a href="#lq.ActivityShootEnemyInfo">ActivityShootEnemyInfo</a></td>
                   <td>repeated</td>
+                  <td><p> </p></td>
+                </tr>
+              
+            </tbody>
+          </table>
+
+          
+
+        
+      
+        <h3 id="lq.ActivityShootRewardRecord">ActivityShootRewardRecord</h3>
+        <p></p>
+
+        
+          <table class="field-table">
+            <thead>
+              <tr><td>Field</td><td>Type</td><td>Label</td><td>Description</td></tr>
+            </thead>
+            <tbody>
+              
+                <tr>
+                  <td>enemy_id</td>
+                  <td><a href="#uint32">uint32</a></td>
+                  <td></td>
+                  <td><p> </p></td>
+                </tr>
+              
+                <tr>
+                  <td>reward_id</td>
+                  <td><a href="#uint32">uint32</a></td>
+                  <td></td>
+                  <td><p> </p></td>
+                </tr>
+              
+                <tr>
+                  <td>rewarded_time</td>
+                  <td><a href="#uint32">uint32</a></td>
+                  <td></td>
                   <td><p> </p></td>
                 </tr>
               
@@ -29325,6 +29572,68 @@
 
         
       
+        <h3 id="lq.ReqBingoActivityReceiveReward">ReqBingoActivityReceiveReward</h3>
+        <p></p>
+
+        
+          <table class="field-table">
+            <thead>
+              <tr><td>Field</td><td>Type</td><td>Label</td><td>Description</td></tr>
+            </thead>
+            <tbody>
+              
+                <tr>
+                  <td>activity_id</td>
+                  <td><a href="#uint32">uint32</a></td>
+                  <td></td>
+                  <td><p> </p></td>
+                </tr>
+              
+                <tr>
+                  <td>rewards</td>
+                  <td><a href="#lq.ReqBingoActivityReceiveReward.BingoReward">ReqBingoActivityReceiveReward.BingoReward</a></td>
+                  <td>repeated</td>
+                  <td><p> </p></td>
+                </tr>
+              
+            </tbody>
+          </table>
+
+          
+
+        
+      
+        <h3 id="lq.ReqBingoActivityReceiveReward.BingoReward">ReqBingoActivityReceiveReward.BingoReward</h3>
+        <p></p>
+
+        
+          <table class="field-table">
+            <thead>
+              <tr><td>Field</td><td>Type</td><td>Label</td><td>Description</td></tr>
+            </thead>
+            <tbody>
+              
+                <tr>
+                  <td>reward_id</td>
+                  <td><a href="#uint32">uint32</a></td>
+                  <td></td>
+                  <td><p> </p></td>
+                </tr>
+              
+                <tr>
+                  <td>card_id</td>
+                  <td><a href="#uint32">uint32</a></td>
+                  <td></td>
+                  <td><p> </p></td>
+                </tr>
+              
+            </tbody>
+          </table>
+
+          
+
+        
+      
         <h3 id="lq.ReqBroadcastInGame">ReqBroadcastInGame</h3>
         <p></p>
 
@@ -40057,6 +40366,13 @@
                   <td><p> </p></td>
                 </tr>
               
+                <tr>
+                  <td>bingo_data</td>
+                  <td><a href="#lq.ActivityBingoData">ActivityBingoData</a></td>
+                  <td>repeated</td>
+                  <td><p> </p></td>
+                </tr>
+              
             </tbody>
           </table>
 
@@ -41083,6 +41399,44 @@
                   <td>bag</td>
                   <td><a href="#lq.Bag">Bag</a></td>
                   <td></td>
+                  <td><p> </p></td>
+                </tr>
+              
+            </tbody>
+          </table>
+
+          
+
+        
+      
+        <h3 id="lq.ResBingoActivityReceiveReward">ResBingoActivityReceiveReward</h3>
+        <p></p>
+
+        
+          <table class="field-table">
+            <thead>
+              <tr><td>Field</td><td>Type</td><td>Label</td><td>Description</td></tr>
+            </thead>
+            <tbody>
+              
+                <tr>
+                  <td>error</td>
+                  <td><a href="#lq.Error">Error</a></td>
+                  <td></td>
+                  <td><p> </p></td>
+                </tr>
+              
+                <tr>
+                  <td>execute_result</td>
+                  <td><a href="#lq.ExecuteResult">ExecuteResult</a></td>
+                  <td>repeated</td>
+                  <td><p> </p></td>
+                </tr>
+              
+                <tr>
+                  <td>cards</td>
+                  <td><a href="#lq.ActivityBingoCardData">ActivityBingoCardData</a></td>
+                  <td>repeated</td>
                   <td><p> </p></td>
                 </tr>
               
@@ -45816,6 +46170,51 @@
               
                 <tr>
                   <td>rank_type</td>
+                  <td><a href="#uint32">uint32</a></td>
+                  <td></td>
+                  <td><p> </p></td>
+                </tr>
+              
+                <tr>
+                  <td>season</td>
+                  <td><a href="#lq.ResFetchManagerCustomizedContest.SeasonInfo">ResFetchManagerCustomizedContest.SeasonInfo</a></td>
+                  <td></td>
+                  <td><p> </p></td>
+                </tr>
+              
+            </tbody>
+          </table>
+
+          
+
+        
+      
+        <h3 id="lq.ResFetchManagerCustomizedContest.SeasonInfo">ResFetchManagerCustomizedContest.SeasonInfo</h3>
+        <p></p>
+
+        
+          <table class="field-table">
+            <thead>
+              <tr><td>Field</td><td>Type</td><td>Label</td><td>Description</td></tr>
+            </thead>
+            <tbody>
+              
+                <tr>
+                  <td>create_time</td>
+                  <td><a href="#uint32">uint32</a></td>
+                  <td></td>
+                  <td><p> </p></td>
+                </tr>
+              
+                <tr>
+                  <td>start_time</td>
+                  <td><a href="#uint32">uint32</a></td>
+                  <td></td>
+                  <td><p> </p></td>
+                </tr>
+              
+                <tr>
+                  <td>end_time</td>
                   <td><a href="#uint32">uint32</a></td>
                   <td></td>
                   <td><p> </p></td>
@@ -58153,6 +58552,13 @@
                 <td>questCrewActivityRefreshMarket</td>
                 <td><a href="#lq.ReqQuestCrewActivityRefreshMarket">ReqQuestCrewActivityRefreshMarket</a></td>
                 <td><a href="#lq.ResQuestCrewActivityRefreshMarket">ResQuestCrewActivityRefreshMarket</a></td>
+                <td><p></p></td>
+              </tr>
+            
+              <tr>
+                <td>bingoActivityReceiveReward</td>
+                <td><a href="#lq.ReqBingoActivityReceiveReward">ReqBingoActivityReceiveReward</a></td>
+                <td><a href="#lq.ResBingoActivityReceiveReward">ResBingoActivityReceiveReward</a></td>
                 <td><p></p></td>
               </tr>
             

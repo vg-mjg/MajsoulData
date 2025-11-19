@@ -3118,5 +3118,53 @@
         "priority": 40081,
         "unlockType": 1,
         "crossView": 0
+    },
+    {
+        "unlockParam": [
+            30557045,
+            0,
+            0,
+            0
+        ],
+        "id": 600139,
+        "nameChs": "金古神手",
+        "nameChsT": "金古神手",
+        "nameJp": "金古神手",
+        "nameEn": "金古神手",
+        "nameKr": "金古神手",
+        "descChs": "赠予金古杯赛事冠军",
+        "descChsT": "贈予金古盃賽事冠軍",
+        "descJp": "贈予金古盃賽事冠軍",
+        "descEn": "贈予金古盃賽事冠軍",
+        "descKr": "贈予金古盃賽事冠軍",
+        "icon": "extendRes/title/25jingubei.png",
+        "iconItem": "extendRes/title/25jingubei_item.jpg",
+        "priority": 40082,
+        "unlockType": 1,
+        "crossView": 0
+    },
+    {
+        "unlockParam": [
+            30557046,
+            0,
+            0,
+            0
+        ],
+        "id": 600140,
+        "nameChs": "四象战冠军",
+        "nameChsT": "四象戰冠軍",
+        "nameJp": "四象戦優勝",
+        "nameEn": "四象戰冠軍",
+        "nameKr": "四象戰冠軍",
+        "descChs": "赠予四象战冠军",
+        "descChsT": "贈予四象戰冠軍",
+        "descJp": "贈予四象戰冠軍",
+        "descEn": "贈予四象戰冠軍",
+        "descKr": "贈予四象戰冠軍",
+        "icon": "extendRes/title/24sxz4.png",
+        "iconItem": "extendRes/title/24sxz4_item.jpg",
+        "priority": 40083,
+        "unlockType": 1,
+        "crossView": 0
     }
 ]
