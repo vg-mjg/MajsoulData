@@ -1674,6 +1674,42 @@
         "type": "event"
     },
     {
+        "id": 10364,
+        "path": "audio/audio_event/2511yuehui_enter_game",
+        "timeLength": 0,
+        "type": "event"
+    },
+    {
+        "id": 10365,
+        "path": "audio/audio_event/2511yuehui_exchange_page",
+        "timeLength": 0,
+        "type": "event"
+    },
+    {
+        "id": 10366,
+        "path": "audio/audio_event/2511yuehui_move_airplane",
+        "timeLength": 0,
+        "type": "event"
+    },
+    {
+        "id": 10367,
+        "path": "audio/audio_event/2511yuehui_shoot_bullet",
+        "timeLength": 0,
+        "type": "event"
+    },
+    {
+        "id": 10368,
+        "path": "audio/audio_event/2511yuehui_hit_enemy",
+        "timeLength": 0,
+        "type": "event"
+    },
+    {
+        "id": 10369,
+        "path": "audio/audio_event/2511yuehui_defeat_enemy",
+        "timeLength": 0,
+        "type": "event"
+    },
+    {
         "id": 305032,
         "path": "audio/audio_mj/effect_liqi_canying",
         "timeLength": 1314,

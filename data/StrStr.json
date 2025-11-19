@@ -481,7 +481,7 @@
         "type": "fighttips",
         "chs": "放铳不是结束，All Last 只是开始",
         "chsT": "放銃不是結束，All Last 只是開始",
-        "jp": "勝負は最後までわからない",
+        "jp": "勝負は最後までわからないにゃ！ Never Give Upにゃ！",
         "en": "Deal-in is not the end; All Last is only the beginning!",
         "kr": "승부는 끝까지 알 수 없는 법입니다."
     },
@@ -490,7 +490,7 @@
         "type": "fighttips",
         "chs": "功夫再高，也怕断幺",
         "chsT": "功夫再高，也怕斷么",
-        "jp": "簡単な役から作ってみましょう",
+        "jp": "まずは簡単な役からにゃ！ タンヤオにゃ！",
         "en": "No matter how big your hand is, a Tanyao will end it all.",
         "kr": "간단한 역부터 만들어 봅시다."
     },
@@ -499,7 +499,7 @@
         "type": "fighttips",
         "chs": "有役才能和牌，鸣牌（吃碰杠）之前先确认自己是否有役哟",
         "chsT": "有役才能和牌，鳴牌（吃碰槓）之前先確認自己是否有役唷",
-        "jp": "役なしに注意！鳴き（ポン、チー、カン）は計画的に！",
+        "jp": "役なしに注意にゃ！ 鳴き（ポン、チー、カン）をしてたら役がなくなってたにゃ……。",
         "en": "You must have Yaku to declare a win. Before you make a call (Chii/Pon/Kan), make sure you check if you have Yaku.",
         "kr": "역 없음에 주의! 후로(퐁, 치, 깡)은 계획적으로!"
     },
@@ -508,7 +508,7 @@
         "type": "fighttips",
         "chs": "点击设置按钮，可以查看游戏内的番型",
         "chsT": "點擊設置按鈕，可以查看遊戲內的番型",
-        "jp": "設定から役種一覧を確認できます",
+        "jp": "設定から役の一覧を確認できるにゃ！ 一姫も立直した後よく見ているにゃ！",
         "en": "Go to settings menu to view all types of Yaku",
         "kr": "설정에서 역 목록을 볼 수 있습니다."
     },
@@ -517,7 +517,7 @@
         "type": "fighttips",
         "chs": "设置里可以根据偏好选择单击/双击出牌",
         "chsT": "設置裡可以根據偏好選擇按一下/按兩下出牌",
-        "jp": "設定から打牌をワンクリックかダブルタップか選択できます",
+        "jp": "設定から打牌をワンクリックかダブルクリックか選択できるにゃ！",
         "en": "In settings, you can choose to play a tile with single or double click",
         "kr": "설정에서 원클릭 또는 더블클릭으로 타패하도록 선택할 수 있습니다."
     },
@@ -526,7 +526,7 @@
         "type": "fighttips",
         "chs": "使用IE或UC浏览器可能会遇到卡顿的情况，推荐使用QQ和chrome",
         "chsT": "使用部分瀏覽器可能會遇到卡頓的情況，推薦使用Chrome和FireFox",
-        "jp": "ブラウザによっては演出に不具合が発生する場合があります。その際は他のブラウザをお試しください。",
+        "jp": "演出に不具合が発生した時は、別のブラウザを試してほしいにゃ！",
         "en": "Players who use IE or Opera browsers may encounter lag issues. We recommend Chrome，FireFox or Edge browsers.",
         "kr": "일부 브라우저에서(익스플로러)에서는 연출 등에서 문제가 발생할 수 있습니다.\\n문제가 발생할 경우 다른 브라우저를 이용해 주세요."
     },
@@ -535,7 +535,7 @@
         "type": "fighttips",
         "chs": "寮舍内可以使用星标为雀士排序，并可以切换显示方式",
         "chsT": "宿舍內可以使用星標為雀士排序，並可以切換顯示方式",
-        "jp": "寮舎で雀士のお気に入り登録や表示順番の変更ができます。",
+        "jp": "寮舎で雀士のお気に入り登録や表示順番の変更ができるにゃ！",
         "en": "You can now sort your favourite Jyanshis by using the mark function in the Dorm. There is also a toggle option that only display Jyanshis that are marked.",
         "kr": "숙소에서 작사를 즐겨찾기로 등록하거나 표시 순서를 변경할 수 있습니다."
     },
@@ -544,7 +544,7 @@
         "type": "fighttips",
         "chs": "荣和不是四暗刻，七对子也没有一杯口",
         "chsT": "榮和不是四暗刻，七對子也沒有一杯口",
-        "jp": "七対子と一盃口は、同時に成立しません。",
+        "jp": "七対子と一盃口は、同時に成立しないにゃ。トーゼンにゃ！",
         "en": "Four Concealed Triplets cannot be gained by winning with Ron, Seven Pairs won't be counted as Pure Double Sequence.",
         "kr": "치또이쯔와 이페코는 동시에 성립할 수 없습니다."
     },
@@ -553,7 +553,7 @@
         "type": "fighttips",
         "chs": "如果对游戏有建议或需要帮助，可以在【设置】-【其他】内找到【帮助&支持】功能",
         "chsT": "如果對遊戲有建議或需要幫助，可以在【設置】-【其他】內找到【幫助&支持】功能",
-        "jp": "ゲーム中にお困りの内容がある時は、公式サイトからカスタマーサポートに連絡してください。",
+        "jp": "困った時は公式サイトでカスタマーサポートに連絡にゃ！ みんなの声を聞きたいにゃ！",
         "en": "If you have any advice or need help with the game, go to [Settings] - [Others] - [Contact Us]",
         "kr": "게임 중 문의 및 건의사항이 발생할 경우 고객센터를 이용해 주세요."
     },
@@ -562,7 +562,7 @@
         "type": "fighttips",
         "chs": "“永远”不要将你的账号密码告诉其他人！！！",
         "chsT": "“永遠”不要將你的帳號密碼告訴其他人！！！",
-        "jp": "SNSで登録したアカウントは、設定からメールアドレスに連携できます。",
+        "jp": "SNSで登録したアカウントは、設定からメールアドレスに連携可能にゃ！",
         "en": "If you logged in with a social media account, you can go to [Setting] - [Others] and connect your account to an email address that hasn't been bound to a Yostar account before.",
         "kr": "절대로 타인에게 계정 비밀번호를 알려 주지 마세요!!!"
     },
@@ -571,7 +571,7 @@
         "type": "fighttips",
         "chs": "邮箱账号可以自由切换各个平台（steam、网页、手机）",
         "chsT": "郵箱帳號可以自由切換各個平臺（steam、網頁、手機）",
-        "jp": "メールアドレスと連携すれば、アプリとブラウザの両方からログインできます。",
+        "jp": "メールアドレスと連携すれば、アプリとブラウザの両方からログインできるにゃ！",
         "en": "An account bound to email can log in on both the web version and the mobile version.",
         "kr": "이메일 주소를 연동하면 각 플랫폼(Steam, 웹 버전, 모바일 버전)에서 모두 로그인할 수 있습니다."
     },
@@ -580,7 +580,7 @@
         "type": "fighttips",
         "chs": "我们的官网是www.maj-soul.com，可以在这里找到所有客户端的下载地址",
         "chsT": "我們的官網是www.maj-soul.com，可以在這裡找到所有用戶端的載點",
-        "jp": "公式サイト（mahjongsoul.com）から、新情報や公式4コマ漫画などを確認できます。",
+        "jp": "公式サイト（mahjongsoul.com）で、新情報や公式4コマ漫画が見られるにゃ！",
         "en": "You can go to our official website (mahjongsoul.yo-star.com) to check out the manga, tournament information and other news.",
         "kr": "<작혼: 리치 마작> 공식 트위터, 페이스북 페이지 및 네이버 공식 카페를 통해\\n게임 관련 신규 소식을 확인하실 수 있습니다."
     },
@@ -589,7 +589,7 @@
         "type": "fighttips",
         "chs": "七对子不可以有重复的对子，但是两杯口可以有",
         "chsT": "七對子不可以有重複的對子，但是兩杯口可以有",
-        "jp": "同じ牌4枚を用いて七対子を成立できませんが、二盃口は成立できます。",
+        "jp": "同じ牌4枚を使った形では、七対子は成立しないにゃ。でも二盃口は成立するにゃ！",
         "en": "Seven Pairs does not allow repeats in pairs, but Twice Pure Double Sequence does.",
         "kr": "같은 패 4장으로는 치또이쯔가 성립되진 않지만, 량페코는 성립됩니다."
     },
@@ -598,7 +598,7 @@
         "type": "fighttips",
         "chs": "四人麻将天和的概率大概在三十三万分之一",
         "chsT": "四人麻將天和的概率大概在三十三萬分之一",
-        "jp": "四人麻雀の天和の確率は、約33万分の1くらいだと言われています。",
+        "jp": "四人麻雀の天和の確率は、約33万分の1にゃ！ 一姫はしょっちゅう和了ってるにゃ！",
         "en": "The probability of getting Blessing of Heaven in 4-Player Mahjong is 1 in 330,000.",
         "kr": "4인 마작에서 천화가 나올 확률은 약 33만 분의 1 정도라고 합니다."
     },
@@ -607,7 +607,7 @@
         "type": "fighttips",
         "chs": "在点数不足一千点时，是无法立直的哦",
         "chsT": "在點數不足一千點時，是無法立直的哦",
-        "jp": "所持点数が、1000点未満の場合は立直できません。",
+        "jp": "所持点数が1000点未満のときは立直できないにゃ……。悲しいにゃ……。",
         "en": "When your point count is below 1000, you cannot declare Riichi.",
         "kr": "소지 점수가 1000점 미만일 경우엔 리치할 수 없습니다."
     },
@@ -616,7 +616,7 @@
         "type": "fighttips",
         "chs": "只有国士无双才可以抢暗杠，其他牌型都无法抢暗杠",
         "chsT": "只有國士無雙才可以搶暗槓，其他牌型都無法搶暗槓",
-        "jp": "国士無双のみ、暗槓に対しても槍槓が成立できます。",
+        "jp": "国士無双だけ、暗槓に対しても槍槓が成立するにゃ！ めちゃくちゃ盛り上がるにゃ！",
         "en": "Robbing a Closed Kan is only possible with Thirteen Orphans, other Yakus cannot do this.",
         "kr": "오직 국사무쌍만이 안깡이 창깡으로 인정됩니다."
     },
@@ -625,7 +625,7 @@
         "type": "fighttips",
         "chs": "观战会有5分钟的延迟，所以不要想着偷偷看别人牌哦",
         "chsT": "觀戰會有5分鐘的延遲，所以不要想著偷偷看別人牌哦",
-        "jp": "一般的に観戦では、300秒の遅延が入っています。",
+        "jp": "ふつうは、観戦モードでは300秒の遅延が入ってるにゃ。その一姫は5分前の一姫にゃ！",
         "en": "There is a five minutes delay with streamed matches, so don't think about screen peeking.",
         "kr": "일반적인 관전에선 300초의 지연시간이 존재합니다. 때문에 부정 행위는 불가하답니다!"
     },
@@ -634,7 +634,7 @@
         "type": "fighttips",
         "chs": "点击牌谱界面的“星星”按钮，就可以把自己喜欢的牌谱收藏啦",
         "chsT": "點擊牌譜介面的“星星”按鈕，就可以把自己喜歡的牌譜收藏啦",
-        "jp": "牌譜の星マークをタップすると、ブックマークに登録できます。",
+        "jp": "牌譜の星マークをタップすると、ブックマークに登録できるにゃ。思い出は保存にゃ！",
         "en": "Click on the star button in Log to add your favorite matches to your Collection.",
         "kr": "패보의 별 마크를 클릭하면 즐겨찾기 등록이 가능합니다."
     },
@@ -642,8 +642,8 @@
         "id": 319,
         "type": "fighttips",
         "chs": "更改昵称后的30天内是无法再次更改的哟",
-        "chsT": "更改昵稱後的30天內是無法再次更改的喲",
-        "jp": "プレイヤー名の変更は、30日に1回のみできます。",
+        "chsT": "更改暱稱後的30天內是無法再次更改的喲",
+        "jp": "プレイヤー名の変更は、30日に1回できるにゃ！ ふざけて変な名前にしちゃダメにゃ！",
         "en": "After you change your name, there is a 30 day cooldown period before you can change it again.",
         "kr": "닉네임 변경은 30일에 한 번만 가능합니다."
     },
@@ -652,7 +652,7 @@
         "type": "fighttips",
         "chs": "悬赏任务和杂货屋会在每天的05:00刷新内容",
         "chsT": "懸賞任務和雜貨屋會在每天的05:00刷新內容",
-        "jp": "毎日クエストと雑貨屋の在庫は、毎日の朝6時に更新されます。",
+        "jp": "毎日クエストと雑貨屋の在庫は、毎日の朝6時に更新されるにゃ！ 早起きにゃ……。",
         "en": "Quest and Misc Shop will be refreshed every day at 5:00 A.M. (UTC-7).",
         "kr": "일일 임무와 잡화점 재고는 매일 아침 6시에 갱신됩니다."
     },
@@ -661,7 +661,7 @@
         "type": "fighttips",
         "chs": "三人麻将中是没有2~8万的，所以1万和9万互相指示宝牌",
         "chsT": "三人麻將中是沒有2~8萬的，所以1萬和9萬互相指示寶牌",
-        "jp": "三人麻雀では2萬~8萬の牌は使われません。ドラ表示牌が1萬の時、ドラは9萬になります。",
+        "jp": "三人麻雀は2萬~8萬の牌は使わないにゃ。ドラ表示牌が1萬の時、ドラは9萬になるにゃ！",
         "en": "3-Player Mahjong has no 2 to 8 Man tiles, so 1 Man and 9 Man are each other's Dora indicator.",
         "kr": "3인 마작에선 만수패 2~8은 사용하지 않습니다. 도라 표시패가 1만일 경우 도라는 9만이 됩니다."
     },
@@ -670,7 +670,7 @@
         "type": "fighttips",
         "chs": "段位战中当同桌所有玩家为魂天时，会触发巅峰对决",
         "chsT": "段位戰中當同桌所有玩家為魂天時，會觸發巔峰對決",
-        "jp": "段位戦対局に参加するプレイヤーがすべて魂天以上の場合、頂上決戦対局になります。",
+        "jp": "段位戦対局に参加するプレイヤーがすべて魂天以上の場合、頂上決戦対局になるにゃ！！",
         "en": "When all players in a Ranked Match are at the Celestial rank, Final Showdown will be triggered.",
         "kr": "등급전에서 참가자가 모두 혼천 이상인 경우, 정상 결전이 됩니다."
     },
@@ -679,7 +679,7 @@
         "type": "fighttips",
         "chs": "雀士的服饰需拥有对应雀士后才可以使用",
         "chsT": "雀士的服飾需擁有對應雀士後才可以使用",
-        "jp": "雀士の着せ替え衣装は、雀士を所持していなければ使用できません。",
+        "jp": "雀士の着せ替え衣装は、雀士を所持していなければ使用できないにゃ。",
         "en": "An outfit can only be used after you get the corresponding character.",
         "kr": "작사 캐릭터 스킨은 해당 작사 캐릭터를 보유해야 사용할 수 있습니다."
     },
@@ -688,7 +688,7 @@
         "type": "fighttips",
         "chs": "相原舞其实是千月神社的巫女，并不是魂天神社的",
         "chsT": "相原舞其實是千月神社的巫女，並不是魂天神社的",
-        "jp": "相原舞が巫女として働いているのは千月神社であり、魂天神社ではありません。",
+        "jp": "舞が巫女として働いているのは千月神社にゃ。魂天神社といえば、一姫にゃ！",
         "en": "Mai Aihara is the priestess of the Temple of Moons, not Mahjong Soul Shrine.",
         "kr": "아이하라 마이가 일하고 있는 신사는 천월 신사로, 혼천 신사가 아닙니다."
     },
@@ -697,7 +697,7 @@
         "type": "fighttips",
         "chs": "八木唯很喜欢喝咖啡，但是她实际上是个味痴",
         "chsT": "八木唯很喜歡喝咖啡，但是她實際上是個味癡",
-        "jp": "八木唯はコーヒーが大好物ですが、バカ舌のため豆の違いを区別できません。",
+        "jp": "唯ちゃんはコーヒーが大好物にゃ！ だけど、たぶん豆の違いは分かってないと思うにゃ……。",
         "en": "Yui Yagi loves coffee, but she actually has a poor sense of taste.",
         "kr": "야기 유이는 커피를 아주 좋아하지만, 미각이 둔해 커피 콩의 차이를 구별할 줄은 모른다고 합니다."
     },
@@ -706,7 +706,7 @@
         "type": "fighttips",
         "chs": "一姬的爱好是吃和睡觉，不知道你也有没有同样的爱好呢",
         "chsT": "一姬的愛好是吃和睡覺，不知道你也有沒有同樣的愛好呢",
-        "jp": "一姫の趣味は食べることと寝ること。同じ趣味の方はいらっしゃるのでしょうか…",
+        "jp": "一姫の趣味は食べることと寝ることにゃ！ ご主人も同じ趣味なのかにゃ？",
         "en": "Ichihime loves eating and napping, do you have similar interests?",
         "kr": "이치히메의 취미는 먹기와 자기. 당신도 같은 취미를 가지고 계신가요?"
     },
@@ -715,7 +715,7 @@
         "type": "fighttips",
         "chs": "即使你的胃口再大，在三人麻将中也不可以“吃”牌",
         "chsT": "即使你的胃口再大，在三人麻將中也不可以“吃”牌",
-        "jp": "三人麻雀の時はチーができません。",
+        "jp": "三人麻雀ではチーができないにゃ！ 気をつけるにゃ！",
         "en": "However big your appetite is, you cannot Chii in 3-Player Mahjong.",
         "kr": "3인 마작에선 '치'가 불가능합니다."
     },
@@ -2578,7 +2578,7 @@
         "type": "",
         "chs": "此页还在加载中...",
         "chsT": "此頁還在載入中...",
-        "jp": "ロード中",
+        "jp": "ロード中…",
         "en": "Loading page...",
         "kr": "불러오는 중"
     },
@@ -9778,7 +9778,7 @@
         "type": "",
         "chs": "邮箱/账号登录",
         "chsT": "電郵/賬號登錄",
-        "jp": "",
+        "jp": "ログイン",
         "en": "",
         "kr": "이메일/계정 로그인"
     },
@@ -14601,7 +14601,7 @@
         "id": 3674,
         "type": "",
         "chs": "将昵称更改为",
-        "chsT": "將昵稱更改為",
+        "chsT": "將暱稱更改為",
         "jp": "本当によろしいですか？",
         "en": "Change name to",
         "kr": "아래 닉네임으로 변경하시겠습니까?"
@@ -14727,7 +14727,7 @@
         "id": 3688,
         "type": "",
         "chs": "更改昵称需要1张更名卷轴，是否前往福袋屋购买",
-        "chsT": "更改昵稱需要1張更名卷軸，是否前往福袋屋購買",
+        "chsT": "更改暱稱需要1張更名卷軸，是否前往福袋屋購買",
         "jp": "名前変更の巻物×1が必要です。雑貨屋で購入しますか。",
         "en": "1 Rename Scroll is needed to change your nickname, go buy it in Shop - Fortune?",
         "kr": "닉네임 변경권x1 이 필요합니다. 상점으로 이동하시겠습니까?"
@@ -17067,7 +17067,7 @@
         "id": 3948,
         "type": "",
         "chs": "友人&友人对局昵称已隐藏",
-        "chsT": "友人&友人對局昵稱已隱藏",
+        "chsT": "友人&友人對局暱稱已隱藏",
         "jp": "友人リスト・友人戦対局でのプレイヤー名・別名を非表示にした。",
         "en": "Player names and notes in Friend List & Friendly Match are hidden.",
         "kr": "현재 친구 목록 및 친선전에서 닉네임 및 별명 숨김 상태입니다."
@@ -17076,7 +17076,7 @@
         "id": 3949,
         "type": "",
         "chs": "跨服昵称",
-        "chsT": "跨服昵稱",
+        "chsT": "跨服暱稱",
         "jp": "他サーバープレイヤー名",
         "en": "Player names from other servers",
         "kr": "다른 서버 플레이어 닉네임"
@@ -17085,7 +17085,7 @@
         "id": 3950,
         "type": "",
         "chs": "本服匹配对局昵称",
-        "chsT": "本服匹配對局昵稱",
+        "chsT": "本服匹配對局暱稱",
         "jp": "本サーバー対局プレイヤー名",
         "en": "In-match player names from same server",
         "kr": "동일 서버 대국 내 닉네임"
@@ -17094,7 +17094,7 @@
         "id": 3951,
         "type": "",
         "chs": "牌谱昵称",
-        "chsT": "牌譜昵稱",
+        "chsT": "牌譜暱稱",
         "jp": "牌譜対局プレイヤー名",
         "en": "Player names in Log",
         "kr": "패보 닉네임"
@@ -17103,7 +17103,7 @@
         "id": 3952,
         "type": "",
         "chs": "观战昵称",
-        "chsT": "觀戰昵稱",
+        "chsT": "觀戰暱稱",
         "jp": "観戦対局プレイヤー名",
         "en": "Player names in Watch",
         "kr": "관전 닉네임"
@@ -17112,7 +17112,7 @@
         "id": 3953,
         "type": "",
         "chs": "赛事昵称",
-        "chsT": "賽事昵稱",
+        "chsT": "賽事暱稱",
         "jp": "大会対局プレイヤー名",
         "en": "Player names in Tournament Match",
         "kr": "대회 닉네임"
@@ -17121,7 +17121,7 @@
         "id": 3954,
         "type": "",
         "chs": "排行榜昵称",
-        "chsT": "排行榜昵稱",
+        "chsT": "排行榜暱稱",
         "jp": "ランキングプレイヤー名",
         "en": "Player names in Rank",
         "kr": "순위표 닉네임"
@@ -23261,7 +23261,7 @@
         "chs": "雀士概率：5%（UP雀士占59%，其他雀士占41%）",
         "chsT": "雀士概率：5%（UP雀士占59%，其他雀士占41%）",
         "jp": "雀士キャラクター提供確率：5%（ピックアップ雀士提供確率：全雀士の59%）",
-        "en": "Character: 5% (Among which odds for Rate Up Character(s) is 59%, and other Characters is 41%)",
+        "en": "Character: 5% (among which the odds for Rate Up Character(s) are 59%, and other Characters are 41%)",
         "kr": "작사 캐릭터 등장 확률: 5%, 그중 확률 UP 작사 캐릭터 등장 확률: 모든 작사 캐릭터 중 59%, 기타 작사 캐릭터: 41%, \r\n모든 확률 UP 작사 캐릭터, 혹은 기타 작사 캐릭터 획득 확률은 균등하게 배분됩니다."
     },
     {
@@ -23270,7 +23270,7 @@
         "chs": "雀士概率：5%（UP雀士占20%，其他雀士占80%）",
         "chsT": "雀士概率：5%（UP雀士占20%，其他雀士占80%）",
         "jp": "雀士キャラクター提供確率：5%（ピックアップ雀士提供確率：全雀士の20%）",
-        "en": "Character: 5% (Among which odds for Rate Up Character(s) is 20%, and other Characters is 80%)",
+        "en": "Character: 5% (among which the odds for Rate Up Character(s) are 20%, and other Characters are 80%)",
         "kr": "작사 캐릭터 등장 확률: 5%, 그중 확률 UP 작사 캐릭터 등장 확률: 모든 작사 캐릭터 중 20%, 기타 작사 캐릭터: 80%, \r\n모든 확률 UP 작사 캐릭터, 혹은 기타 작사 캐릭터 획득 확률은 균등하게 배분됩니다."
     },
     {
@@ -23288,7 +23288,7 @@
         "chs": "装扮概率：15%（UP装扮占49%，其他装扮占51%）",
         "chsT": "裝扮概率：15%（UP裝扮占49%，其他裝扮占51%）",
         "jp": "装飾品提供確率：15%（ピックアップ装飾品提供確率：全装飾品の49%）",
-        "en": "Decorations: 15% (Among which odds for Rate Up Decoration(s) is 49%, and other Decorations is 51%)",
+        "en": "Decoration: 15% (among which the odds for Rate Up Decoration(s) are 49%, and other Decorations are 51%)",
         "kr": "장식품 획득 확률: 15%, 그중 확률 UP 장식품 획득 확률: 모든 장식품 중 49%, 기타 장식품: 51%, \r\n모든 확률 UP 장식품 혹은 기타 장식품 획득 확률은 균등하게 배분됩니다."
     },
     {
@@ -23297,7 +23297,7 @@
         "chs": "装扮概率：15%（UP装扮占49%，其中头像框占6%；其他装扮占51%）",
         "chsT": "裝扮概率：15%（UP裝扮占49%，其中頭像框占6%；其他裝扮占51%）",
         "jp": "装飾品提供確率：15%（ピックアップ装飾品提供確率：全装飾品の49%；フレーム提供確率：全装飾品の6%）",
-        "en": "Decorations: 15% (Among which odds for Rate Up Decoration(s) is 49%, including Portrait Frame 6%, and other Decorations is 51%)",
+        "en": "Decoration: 15% (among which the odds for Rate Up Decoration(s) are 49%, including Portrait Frame 6%; other Decorations are 51%)",
         "kr": "장식품 획득 확률: 15%, 그중 확률 UP 장식품 획득 확률: 모든 장식품 중 49%, 이 중 프로필 테두리 획득 확률: 6%, 기타 장식품: 51%, 모든 확률 UP 장식품 혹은 프로필 테두리, 기타 장식품 획득 확률은 균등하게 배분됩니다."
     },
     {
@@ -23306,7 +23306,7 @@
         "chs": "礼物概率：80%（蓝色礼物占93.75%，紫色礼物占6.25%）",
         "chsT": "禮物概率：80%（藍色禮物占93.75%，紫色禮物占6.25%）",
         "jp": "贈り物提供確率：80%（青贈り物提供確率：全贈り物の93.75%；紫贈り物提供確率：全贈り物の6.25%）",
-        "en": "Gifts: 80% (Among which odds for blue gifts is 93.75%, and purple gifts is 6.25%)",
+        "en": "Gift: 80% (among which the odds for blue gifts are 93.75%, and purple gifts are 6.25%)",
         "kr": "선물 획득 확률: 80%, 그중 파란색 선물 획득 확률: 93.75%, 보라색 선물 획득 확률: 6.25%, \r\n모든 파란색 선물 혹은 보라색 선물 획득 확률은 균등하게 배분됩니다."
     },
     {
@@ -26427,7 +26427,7 @@
         "id": 8146,
         "type": "",
         "chs": "昵称违规",
-        "chsT": "昵稱違規",
+        "chsT": "暱稱違規",
         "jp": "不適切なプレイヤー名",
         "en": "Nickname that violates rules",
         "kr": "닉네임 규칙 위반"
@@ -26436,7 +26436,7 @@
         "id": 8147,
         "type": "",
         "chs": "不恰当的游戏昵称",
-        "chsT": "不恰當的遊戲昵稱",
+        "chsT": "不恰當的遊戲暱稱",
         "jp": "利用規約および常識やモラルに反するプレイヤー名等",
         "en": "Inapproprioate nickname",
         "kr": "부적절한 닉네임"
@@ -27902,20 +27902,20 @@
     {
         "id": 10012,
         "type": "",
-        "chs": "开始时间必须大于创建时间，且在当前时间365天以内",
-        "chsT": "開始時間必須大於創建時間，且在當前時間365天以內",
-        "jp": "開始時間は作成時間から365日以内に設定してください。",
-        "en": "The start time must be within 365 days of the creation time.",
-        "kr": "시작 시간은 생성 시간으로부터 365일 이내여야 합니다."
+        "chs": "开始时间必须大于创建时间，且在创建时间365天以内",
+        "chsT": "開始時間必須大於創建時間，且在創建時間365天以內",
+        "jp": "開始時間は作成時間より後、かつ作成時間から365日以内でなければなりません。",
+        "en": "The start time must be after the creation time and no more than 365 days later.",
+        "kr": "시작 시간은 생성 시간보다 이후여야 하며, 생성 시간으로부터 365일 이내여야 합니다."
     },
     {
         "id": 10013,
         "type": "",
-        "chs": "结束时间必须大于开始时间，且在当前时间365天以内",
-        "chsT": "結束時間必須大於開始時間，且在當前時間365天以內",
-        "jp": "終了時間は開始時間以降、なおかつ現在から365日以内に設定してください。",
-        "en": "The end time must be later than the start time and within 365 days of the current time.",
-        "kr": "종료 시간은 시작 시간보다 이후여야 하며, 현재 시간으로부터 365일 이내여야 합니다."
+        "chs": "结束时间必须大于开始时间，且在开始时间365天以内",
+        "chsT": "結束時間必須大於開始時間，且在開始時間365天以內",
+        "jp": "終了時間は開始時間より後、かつ開始時間から365日以内でなければなりません。",
+        "en": "The end time must be after the start time and no more than 365 days later.",
+        "kr": "종료 시간은 시작 시간보다 이후여야 하며, 시작 시간으로부터 365일 이내여야 합니다."
     },
     {
         "id": 10014,
@@ -29748,7 +29748,7 @@
         "id": 10217,
         "type": "",
         "chs": "昵称",
-        "chsT": "昵稱",
+        "chsT": "暱稱",
         "jp": "プレイヤー名",
         "en": "Nickname",
         "kr": "닉네임"
@@ -31566,7 +31566,7 @@
         "id": 20088,
         "type": "",
         "chs": "昵称",
-        "chsT": "昵稱",
+        "chsT": "暱稱",
         "jp": "プレイヤー名",
         "en": "Player Nickname",
         "kr": "닉네임"
@@ -38145,7 +38145,7 @@
         "id": 25090113,
         "type": "",
         "chs": "昵称/所属队伍",
-        "chsT": "昵稱/所屬隊伍",
+        "chsT": "暱稱/所屬隊伍",
         "jp": "プレイヤー名/所属チーム",
         "en": "Player/Team",
         "kr": "닉네임/팀"
@@ -38698,5 +38698,59 @@
         "jp": "毎日6時に、全スタッフの体力は最大まで回復します。",
         "en": "At 2:00 P.M. (UTC-7) daily, all employees will have their Stamina fully restored.",
         "kr": "매일 6:00 AM에 모든 직원의 체력이 최대로 회복됩니다."
+    },
+    {
+        "id": 25110101,
+        "type": "",
+        "chs": "超人气主播姬川响的游戏机活动火热开启中！！\r\n活动时间：11月19日11:00-12月3日4:59\r\n\r\n活动期间，每日登入游戏及完成活动任务，可以获得游戏机弹药\r\n使用迷你摇杆移动战机、发射弹药击破敌人，即可获得活动插画、贤人福袋等活动奖励！\r\n和姬川响一起加油，目标是全关卡称霸！\r\n\r\n*部分敌人需要2到3发弹药才能击破\r\n*与电脑的对局将无法计入任务进度\r\n*活动插画可能于将来游戏内的插画屋中销售\r\n*活动任务中，统计天数的截止时间为每日5:00",
+        "chsT": "超人氣主播姬川響的遊戲機活動火熱開啟中！！\r\n活動時間：11月19日11:00-12月3日4:59(UTC+8)\r\n\r\n活動期間，每日登入遊戲及完成活動任務，可以獲得遊戲機彈藥\r\n使用迷你搖桿移動戰機、發射彈藥擊破敵人，即可獲得活動插畫、賢人福袋等活動獎勵！\r\n和姬川響一起加油，目標是全關卡稱霸！\r\n\r\n*部分敵人需要2到3發彈藥才能擊破\r\n*與電腦的對局將無法計入任務進度\r\n*活動插畫可能於將來遊戲內的插畫屋中銷售\r\n*活動任務中，統計天數的截止時間為每日5:00",
+        "jp": "大人気配信者、姫川響とのコラボゲーム新作、「姫川's インベーダー」が好評配信中！\r\nレバーを倒して自機を操作し、敵に弾を撃ち込もう！\r\n響と一緒に、目指せ全ステージクリア！\r\n\r\nイベント期間\r\n11月19日(水) ～ 12月3日(水)5:59\r\n\r\n期間中にイベントクエストを達成することで、イベントアイテム「弾薬」を入手できます。\r\n敵をたくさん倒すと、ローディングイラストや賢者の福袋などの豪華報酬を獲得できます。\r\n\r\n-CPU相手との対局はイベントクエスト達成の対象外です。\r\n本イベントクエストの累計日数は、毎日6:00～翌日5:59を「1日」として集計されます。\r\n-一部の敵は、2～3発弾を当てる必要があります。\r\n-ローディングイラストは、今後「背景屋」にて販売される可能性があります。",
+        "en": "The Hibiki's Console event is LIVE NOW!\r\nEvent Period: 11/18 - 12/2 1:59 P.M. (UTC-7)\r\n\r\nDuring the event, log in daily and complete event missions to earn Ammo.\r\nUse the joystick to move your fighter and fire Ammo to destroy enemies. Defeat them to earn rewards like the new Event Illustration, Sage's Bag, and more.\r\nJoin Hibiki Himekawa and aim to conquer every level!\r\n\r\n*Some enemies may require 2-3 shots to defeat.\r\n*Matches played against AI do not count towards event missions.\r\n*The event illustration may be added to Shop - Illustration in the future.\r\n*Event missions will be refreshed at 2:00 P.M. (UTC-7) every day.\r\n*Matches that haven't finished before 2:00 P.M. (UTC-7) will not contribute to the previous day's mission progress.",
+        "kr": "인기 스트리머 히메카와 히비키가 스트리밍 중!\r\n이벤트 기간: 11월 19일 12:00 ~ 12월 3일 5:59 AM (GMT+9)\r\n\r\n이벤트 기간, 매일 게임에 접속하여 이벤트 임무를 완료하면 탄약을 얻을 수 있습니다.\r\n탄약을 발사해 적을 잔뜩 쓰러뜨리면 이벤트 일러스트, 현자의 복주머니 등 다양한 보상을 획득할 수 있습니다.\r\n히메카와 히비키와 함께 모든 스테이지를 클리어해 보세요!\r\n\r\n- 일부 적은 2~3개 탄약을 발사해야 쓰러뜨릴 수 있습니다.\r\n- AI전은 임무 진도에 계산되지 않습니다.\r\n- 이벤트 일러스트는 이후 상점에서 판매될 수 있습니다.\r\n- 이벤트 임무는 매일 6:00 AM에 초기화됩니다.\r\n-- 6:00 AM 이후의 대국은 전날의 이벤트 임무 완료 대상에 포함되지 않으니 유의해 주시기 바랍니다."
+    },
+    {
+        "id": 25110102,
+        "type": "",
+        "chs": "弹药不足，完成任务可以获得更多弹药",
+        "chsT": "彈藥不足，完成任務可以獲得更多彈藥",
+        "jp": "弾薬不足。イベントクエストを達成し、弾薬を入手しましょう。",
+        "en": "Not enough Ammo. Complete missions to obtain more.",
+        "kr": "탄약이 부족합니다. 이벤트 임무를 완료하면, 탄약을 획득할 수 있습니다."
+    },
+    {
+        "id": 25110103,
+        "type": "",
+        "chs": "剩余敌人不足",
+        "chsT": "剩餘敵人不足",
+        "jp": "射撃回数が残り敵数より多くなっています。",
+        "en": "Not enough targets.",
+        "kr": "발사 횟수가 남은 적의 수보다 많습니다."
+    },
+    {
+        "id": 25110104,
+        "type": "",
+        "chs": "您已经击败了全部敌人！",
+        "chsT": "您已經擊敗了全部敵人！",
+        "jp": "敵は全滅しました。",
+        "en": "You have defeated all enemies!",
+        "kr": "모든 적을 쓰러뜨렸습니다!"
+    },
+    {
+        "id": 25110201,
+        "type": "",
+        "chs": "跟随庄家",
+        "chsT": "跟隨莊家",
+        "jp": "親視点固定",
+        "en": "Follow Dealer",
+        "kr": "오야 시점"
+    },
+    {
+        "id": 25110202,
+        "type": "",
+        "chs": "资源下载中（{0}/{1}）",
+        "chsT": "資源下載中（{0}/{1}）",
+        "jp": "リソースダウンロード中...（{0}/{1}）",
+        "en": "Downloading resources... ({0}/{1})",
+        "kr": "리소스 다운로드 중… ({0}/{1})"
     }
 ]

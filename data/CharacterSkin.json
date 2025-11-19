@@ -542,5 +542,39 @@
         "audioClick": "YX_SE_40010703/click",
         "audioClick2": "",
         "celebrateDelay": 0
+    },
+    {
+        "effects": [
+            "",
+            "",
+            "",
+            ""
+        ],
+        "skinid": 402907,
+        "spineLayers": 1,
+        "audioCelebrate": "HYJ_SE_402907/celebrate",
+        "audioCelebrateIdle": "",
+        "audioIdle": "",
+        "audioGreeting": "HYJ_SE_402907/greeting",
+        "audioClick": "HYJ_SE_402907/click",
+        "audioClick2": "",
+        "celebrateDelay": 0
+    },
+    {
+        "effects": [
+            "",
+            "lanxing_25yh_eff2",
+            "lanxing_25yh_eff3",
+            ""
+        ],
+        "skinid": 407404,
+        "spineLayers": 2,
+        "audioCelebrate": "LX_SE_407404/celebrate",
+        "audioCelebrateIdle": "",
+        "audioIdle": "",
+        "audioGreeting": "LX_SE_407404/greeting",
+        "audioClick": "LX_SE_407404/click",
+        "audioClick2": "",
+        "celebrateDelay": 0
     }
 ]

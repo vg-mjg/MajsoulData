@@ -14,7 +14,7 @@
         "sound": "fan_zimo",
         "isGuyi": 0,
         "rarity": 0,
-        "showRange_1": 0,
+        "showRange_1": "",
         "showRange_2": "",
         "mergeId": 0,
         "mark": 0
@@ -34,7 +34,7 @@
         "sound": "fan_liqi",
         "isGuyi": 0,
         "rarity": 0,
-        "showRange_1": 0,
+        "showRange_1": "",
         "showRange_2": "",
         "mergeId": 0,
         "mark": 0
@@ -54,7 +54,7 @@
         "sound": "fan_qianggang",
         "isGuyi": 0,
         "rarity": 0,
-        "showRange_1": 0,
+        "showRange_1": "",
         "showRange_2": "",
         "mergeId": 0,
         "mark": 0
@@ -74,7 +74,7 @@
         "sound": "fan_lingshang",
         "isGuyi": 0,
         "rarity": 0,
-        "showRange_1": 0,
+        "showRange_1": "",
         "showRange_2": "",
         "mergeId": 0,
         "mark": 0
@@ -94,7 +94,7 @@
         "sound": "fan_haidi",
         "isGuyi": 0,
         "rarity": 0,
-        "showRange_1": 0,
+        "showRange_1": "",
         "showRange_2": "",
         "mergeId": 0,
         "mark": 0
@@ -114,7 +114,7 @@
         "sound": "fan_hedi",
         "isGuyi": 0,
         "rarity": 0,
-        "showRange_1": 0,
+        "showRange_1": "",
         "showRange_2": "",
         "mergeId": 0,
         "mark": 0
@@ -134,7 +134,7 @@
         "sound": "fan_bai",
         "isGuyi": 0,
         "rarity": 0,
-        "showRange_1": 0,
+        "showRange_1": "",
         "showRange_2": "",
         "mergeId": 0,
         "mark": 0
@@ -154,7 +154,7 @@
         "sound": "fan_fa",
         "isGuyi": 0,
         "rarity": 0,
-        "showRange_1": 0,
+        "showRange_1": "",
         "showRange_2": "",
         "mergeId": 0,
         "mark": 0
@@ -174,7 +174,7 @@
         "sound": "fan_zhong",
         "isGuyi": 0,
         "rarity": 0,
-        "showRange_1": 0,
+        "showRange_1": "",
         "showRange_2": "",
         "mergeId": 0,
         "mark": 0
@@ -194,7 +194,7 @@
         "sound": "",
         "isGuyi": 0,
         "rarity": 0,
-        "showRange_1": 0,
+        "showRange_1": "",
         "showRange_2": "",
         "mergeId": 0,
         "mark": 0
@@ -214,7 +214,7 @@
         "sound": "",
         "isGuyi": 0,
         "rarity": 0,
-        "showRange_1": 0,
+        "showRange_1": "",
         "showRange_2": "",
         "mergeId": 0,
         "mark": 0
@@ -234,7 +234,7 @@
         "sound": "fan_duanyao",
         "isGuyi": 0,
         "rarity": 0,
-        "showRange_1": 0,
+        "showRange_1": "",
         "showRange_2": "",
         "mergeId": 0,
         "mark": 0
@@ -254,7 +254,7 @@
         "sound": "fan_yibeikou",
         "isGuyi": 0,
         "rarity": 0,
-        "showRange_1": 0,
+        "showRange_1": "",
         "showRange_2": "",
         "mergeId": 0,
         "mark": 0
@@ -274,7 +274,7 @@
         "sound": "fan_pinghu",
         "isGuyi": 0,
         "rarity": 0,
-        "showRange_1": 0,
+        "showRange_1": "",
         "showRange_2": "",
         "mergeId": 0,
         "mark": 0
@@ -294,7 +294,7 @@
         "sound": "fan_hunquandaiyaojiu",
         "isGuyi": 0,
         "rarity": 0,
-        "showRange_1": 0,
+        "showRange_1": "",
         "showRange_2": "",
         "mergeId": 0,
         "mark": 0
@@ -314,7 +314,7 @@
         "sound": "fan_yiqitongguan",
         "isGuyi": 0,
         "rarity": 0,
-        "showRange_1": 0,
+        "showRange_1": "",
         "showRange_2": "",
         "mergeId": 0,
         "mark": 0
@@ -334,7 +334,7 @@
         "sound": "fan_sansetongshun",
         "isGuyi": 0,
         "rarity": 0,
-        "showRange_1": 1,
+        "showRange_1": "1",
         "showRange_2": "",
         "mergeId": 0,
         "mark": 0
@@ -354,7 +354,7 @@
         "sound": "fan_dliqi",
         "isGuyi": 0,
         "rarity": 0,
-        "showRange_1": 0,
+        "showRange_1": "",
         "showRange_2": "",
         "mergeId": 0,
         "mark": 0
@@ -374,7 +374,7 @@
         "sound": "fan_sansetongke",
         "isGuyi": 0,
         "rarity": 0,
-        "showRange_1": 0,
+        "showRange_1": "",
         "showRange_2": "",
         "mergeId": 0,
         "mark": 0
@@ -394,7 +394,7 @@
         "sound": "fan_sangangzi",
         "isGuyi": 0,
         "rarity": 0,
-        "showRange_1": 0,
+        "showRange_1": "",
         "showRange_2": "",
         "mergeId": 0,
         "mark": 0
@@ -414,7 +414,7 @@
         "sound": "fan_duiduihu",
         "isGuyi": 0,
         "rarity": 0,
-        "showRange_1": 0,
+        "showRange_1": "",
         "showRange_2": "",
         "mergeId": 0,
         "mark": 0
@@ -434,7 +434,7 @@
         "sound": "fan_sananke",
         "isGuyi": 0,
         "rarity": 0,
-        "showRange_1": 0,
+        "showRange_1": "",
         "showRange_2": "",
         "mergeId": 0,
         "mark": 0
@@ -454,7 +454,7 @@
         "sound": "fan_xiaosanyuan",
         "isGuyi": 0,
         "rarity": 0,
-        "showRange_1": 0,
+        "showRange_1": "",
         "showRange_2": "",
         "mergeId": 0,
         "mark": 0
@@ -474,7 +474,7 @@
         "sound": "fan_hunlaotou",
         "isGuyi": 0,
         "rarity": 0,
-        "showRange_1": 0,
+        "showRange_1": "",
         "showRange_2": "",
         "mergeId": 0,
         "mark": 0
@@ -494,7 +494,7 @@
         "sound": "fan_qiduizi",
         "isGuyi": 0,
         "rarity": 0,
-        "showRange_1": 0,
+        "showRange_1": "",
         "showRange_2": "",
         "mergeId": 0,
         "mark": 0
@@ -514,7 +514,7 @@
         "sound": "fan_chunquandaiyaojiu",
         "isGuyi": 0,
         "rarity": 0,
-        "showRange_1": 0,
+        "showRange_1": "",
         "showRange_2": "",
         "mergeId": 0,
         "mark": 0
@@ -534,7 +534,7 @@
         "sound": "fan_hunyise",
         "isGuyi": 0,
         "rarity": 0,
-        "showRange_1": 0,
+        "showRange_1": "",
         "showRange_2": "",
         "mergeId": 0,
         "mark": 0
@@ -554,7 +554,7 @@
         "sound": "fan_erbeikou",
         "isGuyi": 0,
         "rarity": 0,
-        "showRange_1": 0,
+        "showRange_1": "",
         "showRange_2": "",
         "mergeId": 0,
         "mark": 0
@@ -574,7 +574,7 @@
         "sound": "fan_qingyise",
         "isGuyi": 0,
         "rarity": 0,
-        "showRange_1": 0,
+        "showRange_1": "",
         "showRange_2": "",
         "mergeId": 0,
         "mark": 0
@@ -594,7 +594,7 @@
         "sound": "fan_yifa",
         "isGuyi": 0,
         "rarity": 0,
-        "showRange_1": 0,
+        "showRange_1": "",
         "showRange_2": "",
         "mergeId": 0,
         "mark": 0
@@ -614,7 +614,7 @@
         "sound": "",
         "isGuyi": 0,
         "rarity": 0,
-        "showRange_1": 0,
+        "showRange_1": "",
         "showRange_2": "",
         "mergeId": 0,
         "mark": 0
@@ -634,7 +634,7 @@
         "sound": "",
         "isGuyi": 0,
         "rarity": 0,
-        "showRange_1": 0,
+        "showRange_1": "",
         "showRange_2": "",
         "mergeId": 0,
         "mark": 0
@@ -654,7 +654,7 @@
         "sound": "",
         "isGuyi": 0,
         "rarity": 0,
-        "showRange_1": 0,
+        "showRange_1": "",
         "showRange_2": "",
         "mergeId": 0,
         "mark": 0
@@ -674,7 +674,7 @@
         "sound": "",
         "isGuyi": 0,
         "rarity": 0,
-        "showRange_1": 2,
+        "showRange_1": "2",
         "showRange_2": "",
         "mergeId": 0,
         "mark": 0
@@ -694,7 +694,7 @@
         "sound": "fan_tianhu",
         "isGuyi": 0,
         "rarity": 11,
-        "showRange_1": 0,
+        "showRange_1": "",
         "showRange_2": "",
         "mergeId": 0,
         "mark": 0
@@ -714,7 +714,7 @@
         "sound": "fan_dihu",
         "isGuyi": 0,
         "rarity": 12,
-        "showRange_1": 0,
+        "showRange_1": "",
         "showRange_2": "",
         "mergeId": 0,
         "mark": 0
@@ -734,7 +734,7 @@
         "sound": "fan_dasanyuan",
         "isGuyi": 0,
         "rarity": 34,
-        "showRange_1": 0,
+        "showRange_1": "",
         "showRange_2": "",
         "mergeId": 0,
         "mark": 0
@@ -754,7 +754,7 @@
         "sound": "fan_sianke",
         "isGuyi": 0,
         "rarity": 33,
-        "showRange_1": 0,
+        "showRange_1": "",
         "showRange_2": "",
         "mergeId": 0,
         "mark": 0
@@ -774,7 +774,7 @@
         "sound": "fan_ziyise",
         "isGuyi": 0,
         "rarity": 32,
-        "showRange_1": 0,
+        "showRange_1": "",
         "showRange_2": "",
         "mergeId": 0,
         "mark": 0
@@ -794,7 +794,7 @@
         "sound": "fan_lvyise",
         "isGuyi": 0,
         "rarity": 24,
-        "showRange_1": 0,
+        "showRange_1": "",
         "showRange_2": "",
         "mergeId": 0,
         "mark": 0
@@ -814,7 +814,7 @@
         "sound": "fan_qinglaotou",
         "isGuyi": 0,
         "rarity": 22,
-        "showRange_1": 0,
+        "showRange_1": "",
         "showRange_2": "",
         "mergeId": 0,
         "mark": 0
@@ -834,7 +834,7 @@
         "sound": "fan_guoshiwushuang",
         "isGuyi": 0,
         "rarity": 31,
-        "showRange_1": 0,
+        "showRange_1": "",
         "showRange_2": "",
         "mergeId": 0,
         "mark": 0
@@ -854,7 +854,7 @@
         "sound": "fan_xiaosixi",
         "isGuyi": 0,
         "rarity": 23,
-        "showRange_1": 0,
+        "showRange_1": "",
         "showRange_2": "",
         "mergeId": 0,
         "mark": 0
@@ -874,7 +874,7 @@
         "sound": "fan_sigangzi",
         "isGuyi": 0,
         "rarity": 13,
-        "showRange_1": 0,
+        "showRange_1": "",
         "showRange_2": "",
         "mergeId": 0,
         "mark": 0
@@ -894,7 +894,7 @@
         "sound": "fan_jiulianbaodeng",
         "isGuyi": 0,
         "rarity": 21,
-        "showRange_1": 0,
+        "showRange_1": "",
         "showRange_2": "",
         "mergeId": 0,
         "mark": 0
@@ -914,7 +914,7 @@
         "sound": "",
         "isGuyi": 0,
         "rarity": 0,
-        "showRange_1": 4294967295,
+        "showRange_1": "-1",
         "showRange_2": "-1",
         "mergeId": 0,
         "mark": 0
@@ -934,7 +934,7 @@
         "sound": "fan_chunzhengjiulianbaodeng",
         "isGuyi": 0,
         "rarity": 14,
-        "showRange_1": 0,
+        "showRange_1": "",
         "showRange_2": "",
         "mergeId": 0,
         "mark": 0
@@ -954,7 +954,7 @@
         "sound": "fan_siankedanqi",
         "isGuyi": 0,
         "rarity": 17,
-        "showRange_1": 0,
+        "showRange_1": "",
         "showRange_2": "",
         "mergeId": 0,
         "mark": 0
@@ -974,7 +974,7 @@
         "sound": "fan_guoshishisanmian",
         "isGuyi": 0,
         "rarity": 15,
-        "showRange_1": 0,
+        "showRange_1": "",
         "showRange_2": "",
         "mergeId": 0,
         "mark": 0
@@ -994,7 +994,7 @@
         "sound": "fan_dasixi",
         "isGuyi": 0,
         "rarity": 16,
-        "showRange_1": 0,
+        "showRange_1": "",
         "showRange_2": "",
         "mergeId": 0,
         "mark": 0
@@ -1014,7 +1014,7 @@
         "sound": "",
         "isGuyi": 1,
         "rarity": 0,
-        "showRange_1": 0,
+        "showRange_1": "",
         "showRange_2": "",
         "mergeId": 0,
         "mark": 0
@@ -1034,7 +1034,7 @@
         "sound": "",
         "isGuyi": 1,
         "rarity": 0,
-        "showRange_1": 0,
+        "showRange_1": "",
         "showRange_2": "",
         "mergeId": 0,
         "mark": 0
@@ -1054,7 +1054,7 @@
         "sound": "",
         "isGuyi": 1,
         "rarity": 0,
-        "showRange_1": 0,
+        "showRange_1": "",
         "showRange_2": "",
         "mergeId": 0,
         "mark": 0
@@ -1074,7 +1074,7 @@
         "sound": "",
         "isGuyi": 1,
         "rarity": 0,
-        "showRange_1": 0,
+        "showRange_1": "",
         "showRange_2": "",
         "mergeId": 0,
         "mark": 0
@@ -1094,7 +1094,7 @@
         "sound": "",
         "isGuyi": 1,
         "rarity": 0,
-        "showRange_1": 0,
+        "showRange_1": "",
         "showRange_2": "",
         "mergeId": 0,
         "mark": 0
@@ -1114,7 +1114,7 @@
         "sound": "",
         "isGuyi": 1,
         "rarity": 0,
-        "showRange_1": 0,
+        "showRange_1": "",
         "showRange_2": "",
         "mergeId": 0,
         "mark": 0
@@ -1134,7 +1134,7 @@
         "sound": "",
         "isGuyi": 1,
         "rarity": 0,
-        "showRange_1": 0,
+        "showRange_1": "",
         "showRange_2": "",
         "mergeId": 0,
         "mark": 0
@@ -1154,7 +1154,7 @@
         "sound": "",
         "isGuyi": 1,
         "rarity": 0,
-        "showRange_1": 0,
+        "showRange_1": "",
         "showRange_2": "",
         "mergeId": 0,
         "mark": 0
@@ -1174,7 +1174,7 @@
         "sound": "",
         "isGuyi": 1,
         "rarity": 0,
-        "showRange_1": 0,
+        "showRange_1": "",
         "showRange_2": "",
         "mergeId": 0,
         "mark": 0
@@ -1194,7 +1194,7 @@
         "sound": "",
         "isGuyi": 1,
         "rarity": 0,
-        "showRange_1": 0,
+        "showRange_1": "",
         "showRange_2": "",
         "mergeId": 0,
         "mark": 0
@@ -1214,7 +1214,7 @@
         "sound": "",
         "isGuyi": 1,
         "rarity": 0,
-        "showRange_1": 0,
+        "showRange_1": "",
         "showRange_2": "",
         "mergeId": 0,
         "mark": 0
@@ -1234,7 +1234,7 @@
         "sound": "",
         "isGuyi": 1,
         "rarity": 0,
-        "showRange_1": 1,
+        "showRange_1": "1",
         "showRange_2": "",
         "mergeId": 0,
         "mark": 0
@@ -1254,7 +1254,7 @@
         "sound": "",
         "isGuyi": 1,
         "rarity": 0,
-        "showRange_1": 0,
+        "showRange_1": "",
         "showRange_2": "",
         "mergeId": 0,
         "mark": 0
@@ -1274,7 +1274,7 @@
         "sound": "",
         "isGuyi": 1,
         "rarity": 0,
-        "showRange_1": 0,
+        "showRange_1": "",
         "showRange_2": "",
         "mergeId": 0,
         "mark": 0
@@ -1294,7 +1294,7 @@
         "sound": "",
         "isGuyi": 1,
         "rarity": 0,
-        "showRange_1": 0,
+        "showRange_1": "",
         "showRange_2": "",
         "mergeId": 59,
         "mark": 0
@@ -1314,7 +1314,7 @@
         "sound": "",
         "isGuyi": 0,
         "rarity": 0,
-        "showRange_1": 4294967295,
+        "showRange_1": "-1",
         "showRange_2": "-1",
         "mergeId": 0,
         "mark": 0
@@ -1334,7 +1334,7 @@
         "sound": "",
         "isGuyi": 0,
         "rarity": 0,
-        "showRange_1": 4294967295,
+        "showRange_1": "-1",
         "showRange_2": "-1",
         "mergeId": 0,
         "mark": 0
@@ -1354,7 +1354,7 @@
         "sound": "",
         "isGuyi": 0,
         "rarity": 0,
-        "showRange_1": 4294967295,
+        "showRange_1": "-1",
         "showRange_2": "-1",
         "mergeId": 0,
         "mark": 0
@@ -1374,7 +1374,7 @@
         "sound": "fan_liqi",
         "isGuyi": 0,
         "rarity": 0,
-        "showRange_1": 0,
+        "showRange_1": "",
         "showRange_2": "",
         "mergeId": 2,
         "mark": 0
@@ -1394,7 +1394,7 @@
         "sound": "fan_dliqi",
         "isGuyi": 0,
         "rarity": 0,
-        "showRange_1": 0,
+        "showRange_1": "",
         "showRange_2": "",
         "mergeId": 18,
         "mark": 0
@@ -1414,7 +1414,7 @@
         "sound": "fan_liqi",
         "isGuyi": 0,
         "rarity": 0,
-        "showRange_1": 0,
+        "showRange_1": "",
         "showRange_2": "",
         "mergeId": 2,
         "mark": 1
@@ -1434,7 +1434,7 @@
         "sound": "fan_dliqi",
         "isGuyi": 0,
         "rarity": 0,
-        "showRange_1": 0,
+        "showRange_1": "",
         "showRange_2": "",
         "mergeId": 18,
         "mark": 1
@@ -1454,7 +1454,7 @@
         "sound": "fan_liqi",
         "isGuyi": 0,
         "rarity": 0,
-        "showRange_1": 0,
+        "showRange_1": "",
         "showRange_2": "",
         "mergeId": 2,
         "mark": 1
@@ -1474,7 +1474,7 @@
         "sound": "fan_dliqi",
         "isGuyi": 0,
         "rarity": 0,
-        "showRange_1": 0,
+        "showRange_1": "",
         "showRange_2": "",
         "mergeId": 18,
         "mark": 1
@@ -1494,7 +1494,7 @@
         "sound": "scfan_gen",
         "isGuyi": 2,
         "rarity": 0,
-        "showRange_1": 4294967295,
+        "showRange_1": "-1",
         "showRange_2": "-1",
         "mergeId": 0,
         "mark": 0
@@ -1514,7 +1514,7 @@
         "sound": "fan_lingshang",
         "isGuyi": 2,
         "rarity": 0,
-        "showRange_1": 4294967295,
+        "showRange_1": "-1",
         "showRange_2": "-1",
         "mergeId": 0,
         "mark": 0
@@ -1534,7 +1534,7 @@
         "sound": "scfan_lingshangfangchong",
         "isGuyi": 2,
         "rarity": 0,
-        "showRange_1": 4294967295,
+        "showRange_1": "-1",
         "showRange_2": "-1",
         "mergeId": 0,
         "mark": 0
@@ -1554,7 +1554,7 @@
         "sound": "",
         "isGuyi": 2,
         "rarity": 0,
-        "showRange_1": 4294967295,
+        "showRange_1": "-1",
         "showRange_2": "-1",
         "mergeId": 0,
         "mark": 0
@@ -1574,7 +1574,7 @@
         "sound": "fan_qianggang",
         "isGuyi": 2,
         "rarity": 0,
-        "showRange_1": 4294967295,
+        "showRange_1": "-1",
         "showRange_2": "-1",
         "mergeId": 0,
         "mark": 0
@@ -1594,7 +1594,7 @@
         "sound": "fan_haidi",
         "isGuyi": 2,
         "rarity": 0,
-        "showRange_1": 4294967295,
+        "showRange_1": "-1",
         "showRange_2": "-1",
         "mergeId": 0,
         "mark": 0
@@ -1614,7 +1614,7 @@
         "sound": "fan_duiduihu",
         "isGuyi": 2,
         "rarity": 0,
-        "showRange_1": 4294967295,
+        "showRange_1": "-1",
         "showRange_2": "-1",
         "mergeId": 0,
         "mark": 0
@@ -1634,7 +1634,7 @@
         "sound": "fan_qingyise",
         "isGuyi": 2,
         "rarity": 0,
-        "showRange_1": 4294967295,
+        "showRange_1": "-1",
         "showRange_2": "-1",
         "mergeId": 0,
         "mark": 0
@@ -1654,7 +1654,7 @@
         "sound": "fan_qiduizi",
         "isGuyi": 2,
         "rarity": 0,
-        "showRange_1": 4294967295,
+        "showRange_1": "-1",
         "showRange_2": "-1",
         "mergeId": 0,
         "mark": 0
@@ -1674,7 +1674,7 @@
         "sound": "scfan_daiyaojiu",
         "isGuyi": 2,
         "rarity": 0,
-        "showRange_1": 4294967295,
+        "showRange_1": "-1",
         "showRange_2": "-1",
         "mergeId": 0,
         "mark": 0
@@ -1694,7 +1694,7 @@
         "sound": "scfan_jingoudiao",
         "isGuyi": 2,
         "rarity": 0,
-        "showRange_1": 4294967295,
+        "showRange_1": "-1",
         "showRange_2": "-1",
         "mergeId": 0,
         "mark": 0
@@ -1714,7 +1714,7 @@
         "sound": "scfan_qingdui",
         "isGuyi": 2,
         "rarity": 0,
-        "showRange_1": 4294967295,
+        "showRange_1": "-1",
         "showRange_2": "-1",
         "mergeId": 0,
         "mark": 0
@@ -1734,7 +1734,7 @@
         "sound": "scfan_jiangdui",
         "isGuyi": 2,
         "rarity": 0,
-        "showRange_1": 4294967295,
+        "showRange_1": "-1",
         "showRange_2": "-1",
         "mergeId": 0,
         "mark": 0
@@ -1754,7 +1754,7 @@
         "sound": "scfan_longqidui",
         "isGuyi": 2,
         "rarity": 0,
-        "showRange_1": 4294967295,
+        "showRange_1": "-1",
         "showRange_2": "-1",
         "mergeId": 0,
         "mark": 0
@@ -1774,7 +1774,7 @@
         "sound": "scfan_qingqidui",
         "isGuyi": 2,
         "rarity": 0,
-        "showRange_1": 4294967295,
+        "showRange_1": "-1",
         "showRange_2": "-1",
         "mergeId": 0,
         "mark": 0
@@ -1794,7 +1794,7 @@
         "sound": "scfan_qingyaojiu",
         "isGuyi": 2,
         "rarity": 0,
-        "showRange_1": 4294967295,
+        "showRange_1": "-1",
         "showRange_2": "-1",
         "mergeId": 0,
         "mark": 0
@@ -1814,7 +1814,7 @@
         "sound": "scfan_qingjindoudiao",
         "isGuyi": 2,
         "rarity": 0,
-        "showRange_1": 4294967295,
+        "showRange_1": "-1",
         "showRange_2": "-1",
         "mergeId": 0,
         "mark": 0
@@ -1834,7 +1834,7 @@
         "sound": "scfan_qinglongqidui",
         "isGuyi": 2,
         "rarity": 0,
-        "showRange_1": 4294967295,
+        "showRange_1": "-1",
         "showRange_2": "-1",
         "mergeId": 0,
         "mark": 0
@@ -1854,7 +1854,7 @@
         "sound": "scfan_shibaluohan",
         "isGuyi": 2,
         "rarity": 0,
-        "showRange_1": 4294967295,
+        "showRange_1": "-1",
         "showRange_2": "-1",
         "mergeId": 0,
         "mark": 0
@@ -1874,7 +1874,7 @@
         "sound": "scfan_qingshibaluohan",
         "isGuyi": 2,
         "rarity": 0,
-        "showRange_1": 4294967295,
+        "showRange_1": "-1",
         "showRange_2": "-1",
         "mergeId": 0,
         "mark": 0
@@ -1894,7 +1894,7 @@
         "sound": "fan_tianhu",
         "isGuyi": 2,
         "rarity": 0,
-        "showRange_1": 4294967295,
+        "showRange_1": "-1",
         "showRange_2": "-1",
         "mergeId": 0,
         "mark": 0
@@ -1914,7 +1914,7 @@
         "sound": "fan_dihu",
         "isGuyi": 2,
         "rarity": 0,
-        "showRange_1": 4294967295,
+        "showRange_1": "-1",
         "showRange_2": "-1",
         "mergeId": 0,
         "mark": 0

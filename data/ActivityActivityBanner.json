@@ -405,5 +405,16 @@
         "bannerLeftSelected": "",
         "bannerLeftIcon": "",
         "timeRemind": 0
+    },
+    {
+        "id": 251101,
+        "sort": 129,
+        "bannerType": 2,
+        "enterIcon": "myres2/activity_banner/25yuehui_0.png",
+        "bannerBig": "myres2/activity_banner/25yuehui_b.jpg",
+        "bannerLeft": "myres2/activity_banner/25yuehui.png",
+        "bannerLeftSelected": "",
+        "bannerLeftIcon": "",
+        "timeRemind": 0
     }
 ]

@@ -1652,7 +1652,7 @@
     {
         "sargs": [
             "heng",
-            "",
+            "1",
             "",
             ""
         ],
@@ -1660,7 +1660,7 @@
         "resName": "effect_liqi_23wansheng",
         "audioId": 30530001,
         "characterId": 0,
-        "oldEffectMark": 1,
+        "oldEffectMark": 0,
         "handVersion": 0,
         "seatRelated": 0
     },
@@ -2992,6 +2992,21 @@
             ""
         ],
         "id": 30550033,
+        "resName": "sxz",
+        "audioId": 0,
+        "characterId": 0,
+        "oldEffectMark": 0,
+        "handVersion": 0,
+        "seatRelated": 0
+    },
+    {
+        "sargs": [
+            "0",
+            "",
+            "",
+            ""
+        ],
+        "id": 30550035,
         "resName": "sxz",
         "audioId": 0,
         "characterId": 0,
