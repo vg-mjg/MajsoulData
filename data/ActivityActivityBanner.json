@@ -416,5 +416,16 @@
         "bannerLeftSelected": "",
         "bannerLeftIcon": "",
         "timeRemind": 0
+    },
+    {
+        "id": 251190,
+        "sort": 130,
+        "bannerType": 2,
+        "enterIcon": "",
+        "bannerBig": "",
+        "bannerLeft": "myres2/activity_banner/25bingo.png",
+        "bannerLeftSelected": "",
+        "bannerLeftIcon": "",
+        "timeRemind": 0
     }
 ]

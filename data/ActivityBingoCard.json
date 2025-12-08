@@ -1,0 +1,380 @@
+[
+    {
+        "cardId": 100001,
+        "type": "m",
+        "baseTaskId": 23091,
+        "pos": 1
+    },
+    {
+        "cardId": 100001,
+        "type": "s",
+        "baseTaskId": 23093,
+        "pos": 2
+    },
+    {
+        "cardId": 100001,
+        "type": "any",
+        "baseTaskId": 0,
+        "pos": 3
+    },
+    {
+        "cardId": 100001,
+        "type": "p",
+        "baseTaskId": 23092,
+        "pos": 4
+    },
+    {
+        "cardId": 100001,
+        "type": "any",
+        "baseTaskId": 0,
+        "pos": 5
+    },
+    {
+        "cardId": 100001,
+        "type": "p",
+        "baseTaskId": 23092,
+        "pos": 6
+    },
+    {
+        "cardId": 100001,
+        "type": "any",
+        "baseTaskId": 0,
+        "pos": 7
+    },
+    {
+        "cardId": 100001,
+        "type": "s",
+        "baseTaskId": 23093,
+        "pos": 8
+    },
+    {
+        "cardId": 100001,
+        "type": "m",
+        "baseTaskId": 23091,
+        "pos": 9
+    },
+    {
+        "cardId": 100002,
+        "type": "m",
+        "baseTaskId": 23091,
+        "pos": 1
+    },
+    {
+        "cardId": 100002,
+        "type": "p",
+        "baseTaskId": 23092,
+        "pos": 2
+    },
+    {
+        "cardId": 100002,
+        "type": "any",
+        "baseTaskId": 0,
+        "pos": 3
+    },
+    {
+        "cardId": 100002,
+        "type": "s",
+        "baseTaskId": 23093,
+        "pos": 4
+    },
+    {
+        "cardId": 100002,
+        "type": "m",
+        "baseTaskId": 23091,
+        "pos": 5
+    },
+    {
+        "cardId": 100002,
+        "type": "s",
+        "baseTaskId": 23093,
+        "pos": 6
+    },
+    {
+        "cardId": 100002,
+        "type": "any",
+        "baseTaskId": 0,
+        "pos": 7
+    },
+    {
+        "cardId": 100002,
+        "type": "p",
+        "baseTaskId": 23092,
+        "pos": 8
+    },
+    {
+        "cardId": 100002,
+        "type": "w",
+        "baseTaskId": 23094,
+        "pos": 9
+    },
+    {
+        "cardId": 100003,
+        "type": "y",
+        "baseTaskId": 23095,
+        "pos": 1
+    },
+    {
+        "cardId": 100003,
+        "type": "p",
+        "baseTaskId": 23092,
+        "pos": 2
+    },
+    {
+        "cardId": 100003,
+        "type": "w",
+        "baseTaskId": 23094,
+        "pos": 3
+    },
+    {
+        "cardId": 100003,
+        "type": "m",
+        "baseTaskId": 23091,
+        "pos": 4
+    },
+    {
+        "cardId": 100003,
+        "type": "any",
+        "baseTaskId": 0,
+        "pos": 5
+    },
+    {
+        "cardId": 100003,
+        "type": "p",
+        "baseTaskId": 23092,
+        "pos": 6
+    },
+    {
+        "cardId": 100003,
+        "type": "m",
+        "baseTaskId": 23091,
+        "pos": 7
+    },
+    {
+        "cardId": 100003,
+        "type": "s",
+        "baseTaskId": 23093,
+        "pos": 8
+    },
+    {
+        "cardId": 100003,
+        "type": "s",
+        "baseTaskId": 23093,
+        "pos": 9
+    },
+    {
+        "cardId": 100004,
+        "type": "p",
+        "baseTaskId": 23092,
+        "pos": 1
+    },
+    {
+        "cardId": 100004,
+        "type": "y",
+        "baseTaskId": 23095,
+        "pos": 2
+    },
+    {
+        "cardId": 100004,
+        "type": "m",
+        "baseTaskId": 23091,
+        "pos": 3
+    },
+    {
+        "cardId": 100004,
+        "type": "p",
+        "baseTaskId": 23092,
+        "pos": 4
+    },
+    {
+        "cardId": 100004,
+        "type": "s",
+        "baseTaskId": 23093,
+        "pos": 5
+    },
+    {
+        "cardId": 100004,
+        "type": "m",
+        "baseTaskId": 23091,
+        "pos": 6
+    },
+    {
+        "cardId": 100004,
+        "type": "m",
+        "baseTaskId": 23091,
+        "pos": 7
+    },
+    {
+        "cardId": 100004,
+        "type": "s",
+        "baseTaskId": 23093,
+        "pos": 8
+    },
+    {
+        "cardId": 100004,
+        "type": "w",
+        "baseTaskId": 23094,
+        "pos": 9
+    },
+    {
+        "cardId": 100005,
+        "type": "m",
+        "baseTaskId": 23091,
+        "pos": 1
+    },
+    {
+        "cardId": 100005,
+        "type": "w",
+        "baseTaskId": 23094,
+        "pos": 2
+    },
+    {
+        "cardId": 100005,
+        "type": "s",
+        "baseTaskId": 23093,
+        "pos": 3
+    },
+    {
+        "cardId": 100005,
+        "type": "p",
+        "baseTaskId": 23092,
+        "pos": 4
+    },
+    {
+        "cardId": 100005,
+        "type": "p",
+        "baseTaskId": 23092,
+        "pos": 5
+    },
+    {
+        "cardId": 100005,
+        "type": "m",
+        "baseTaskId": 23094,
+        "pos": 6
+    },
+    {
+        "cardId": 100005,
+        "type": "y",
+        "baseTaskId": 23095,
+        "pos": 7
+    },
+    {
+        "cardId": 100005,
+        "type": "s",
+        "baseTaskId": 23093,
+        "pos": 8
+    },
+    {
+        "cardId": 100005,
+        "type": "w",
+        "baseTaskId": 23094,
+        "pos": 9
+    },
+    {
+        "cardId": 100006,
+        "type": "y",
+        "baseTaskId": 23095,
+        "pos": 1
+    },
+    {
+        "cardId": 100006,
+        "type": "y",
+        "baseTaskId": 23095,
+        "pos": 2
+    },
+    {
+        "cardId": 100006,
+        "type": "p",
+        "baseTaskId": 23092,
+        "pos": 3
+    },
+    {
+        "cardId": 100006,
+        "type": "p",
+        "baseTaskId": 23092,
+        "pos": 4
+    },
+    {
+        "cardId": 100006,
+        "type": "w",
+        "baseTaskId": 23094,
+        "pos": 5
+    },
+    {
+        "cardId": 100006,
+        "type": "m",
+        "baseTaskId": 23091,
+        "pos": 6
+    },
+    {
+        "cardId": 100006,
+        "type": "s",
+        "baseTaskId": 23093,
+        "pos": 7
+    },
+    {
+        "cardId": 100006,
+        "type": "m",
+        "baseTaskId": 23091,
+        "pos": 8
+    },
+    {
+        "cardId": 100006,
+        "type": "s",
+        "baseTaskId": 23093,
+        "pos": 9
+    },
+    {
+        "cardId": 100007,
+        "type": "m",
+        "baseTaskId": 23091,
+        "pos": 1
+    },
+    {
+        "cardId": 100007,
+        "type": "p",
+        "baseTaskId": 23092,
+        "pos": 2
+    },
+    {
+        "cardId": 100007,
+        "type": "w",
+        "baseTaskId": 23094,
+        "pos": 3
+    },
+    {
+        "cardId": 100007,
+        "type": "m",
+        "baseTaskId": 23091,
+        "pos": 4
+    },
+    {
+        "cardId": 100007,
+        "type": "y",
+        "baseTaskId": 23095,
+        "pos": 5
+    },
+    {
+        "cardId": 100007,
+        "type": "s",
+        "baseTaskId": 23093,
+        "pos": 6
+    },
+    {
+        "cardId": 100007,
+        "type": "y",
+        "baseTaskId": 23095,
+        "pos": 7
+    },
+    {
+        "cardId": 100007,
+        "type": "s",
+        "baseTaskId": 23093,
+        "pos": 8
+    },
+    {
+        "cardId": 100007,
+        "type": "w",
+        "baseTaskId": 23094,
+        "pos": 9
+    }
+]
