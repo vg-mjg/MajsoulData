@@ -2611,6 +2611,10 @@
                 </li>
               
                 <li>
+                  <a href="#lq.ReqFetchBingoActivityData"><span class="badge">M</span>ReqFetchBingoActivityData</a>
+                </li>
+              
+                <li>
                   <a href="#lq.ReqFetchCommentContent"><span class="badge">M</span>ReqFetchCommentContent</a>
                 </li>
               
@@ -3952,6 +3956,10 @@
               
                 <li>
                   <a href="#lq.ResFetchAnnualReportInfo"><span class="badge">M</span>ResFetchAnnualReportInfo</a>
+                </li>
+              
+                <li>
+                  <a href="#lq.ResFetchBingoActivityData"><span class="badge">M</span>ResFetchBingoActivityData</a>
                 </li>
               
                 <li>
@@ -33281,6 +33289,30 @@
 
         
       
+        <h3 id="lq.ReqFetchBingoActivityData">ReqFetchBingoActivityData</h3>
+        <p></p>
+
+        
+          <table class="field-table">
+            <thead>
+              <tr><td>Field</td><td>Type</td><td>Label</td><td>Description</td></tr>
+            </thead>
+            <tbody>
+              
+                <tr>
+                  <td>activity_id</td>
+                  <td><a href="#uint32">uint32</a></td>
+                  <td></td>
+                  <td><p> </p></td>
+                </tr>
+              
+            </tbody>
+          </table>
+
+          
+
+        
+      
         <h3 id="lq.ReqFetchCommentContent">ReqFetchCommentContent</h3>
         <p></p>
 
@@ -44786,6 +44818,37 @@
                 <tr>
                   <td>end_time</td>
                   <td><a href="#uint32">uint32</a></td>
+                  <td></td>
+                  <td><p> </p></td>
+                </tr>
+              
+            </tbody>
+          </table>
+
+          
+
+        
+      
+        <h3 id="lq.ResFetchBingoActivityData">ResFetchBingoActivityData</h3>
+        <p></p>
+
+        
+          <table class="field-table">
+            <thead>
+              <tr><td>Field</td><td>Type</td><td>Label</td><td>Description</td></tr>
+            </thead>
+            <tbody>
+              
+                <tr>
+                  <td>error</td>
+                  <td><a href="#lq.Error">Error</a></td>
+                  <td></td>
+                  <td><p> </p></td>
+                </tr>
+              
+                <tr>
+                  <td>data</td>
+                  <td><a href="#lq.ActivityBingoData">ActivityBingoData</a></td>
                   <td></td>
                   <td><p> </p></td>
                 </tr>
@@ -58559,6 +58622,13 @@
                 <td>bingoActivityReceiveReward</td>
                 <td><a href="#lq.ReqBingoActivityReceiveReward">ReqBingoActivityReceiveReward</a></td>
                 <td><a href="#lq.ResBingoActivityReceiveReward">ResBingoActivityReceiveReward</a></td>
+                <td><p></p></td>
+              </tr>
+            
+              <tr>
+                <td>fetchBingoActivityData</td>
+                <td><a href="#lq.ReqFetchBingoActivityData">ReqFetchBingoActivityData</a></td>
+                <td><a href="#lq.ResFetchBingoActivityData">ResFetchBingoActivityData</a></td>
                 <td><p></p></td>
               </tr>
             

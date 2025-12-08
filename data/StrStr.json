@@ -38752,5 +38752,41 @@
         "jp": "リソースダウンロード中...（{0}/{1}）",
         "en": "Downloading resources... ({0}/{1})",
         "kr": "리소스 다운로드 중… ({0}/{1})"
+    },
+    {
+        "id": 25110901,
+        "type": "",
+        "chs": "超级麻将牌宾果活动说明\r\n活动期间，每天将解锁一张全新的宾果卡\r\n在无电脑的对局中和牌，若和牌牌型中包含指定种类的麻将牌，即可点亮宾果卡上的对应格子\r\n点亮横线、竖线或斜线的全部宾果格，即可领取连线上的奖励！\r\n\r\n宾果格种类说明：\r\n-百搭：初始即为点亮状态\r\n-万：和牌型包含任意万子\r\n-筒：和牌型包含任意筒子\r\n-索：和牌型包含任意索子\r\n-风：和牌型包含东/南/西/北\r\n-三元：和牌型包含白/发/中\r\n\r\n*每场对局只能完成当前的宾果卡\r\n*与电脑的对局不计入活动进度",
+        "chsT": "超級麻將牌賓果活動說明\r\n活動期間，每天將解鎖一張全新的賓果卡\r\n在無電腦的對局中和牌，若和牌牌型中包含指定種類的麻將牌，即可點亮賓果卡上的對應格子\r\n點亮橫線、豎線或斜線的全部賓果格，即可領取連線上的獎勵！\r\n\r\n賓果格種類說明：\r\n-百搭：初始即為點亮狀態\r\n-萬：和牌型包含任意萬子\r\n-筒：和牌型包含任意筒子\r\n-索：和牌型包含任意索子\r\n-風：和牌型包含東/南/西/北\r\n-三元：和牌型包含白/發/中\r\n\r\n*每場對局只能完成當前的賓果卡\r\n*與電腦的對局不計入活動進度",
+        "jp": "スーパーマージャンビンゴについて\r\nイベント期間中、毎日6時に新たなビンゴカードが解禁されます。\r\nCPUなしの対局で和了した時、和了した手にビンゴカードが指定した牌が含まれていた場合、対応するビンゴカードのマスを点灯させることができます。\r\n横一列、縦一列、斜め一列のマスをすべて点灯させると、そのラインに応じた報酬を獲得できます。\r\n\r\nマスの説明：\r\n-「万能牌」のマス：最初から点灯した状態です。\r\n-「萬」のマス：和了した手に任意の萬子の牌が含まれていた場合に点灯します。\r\n-「筒」のマス：和了した手に任意の筒子の牌が含まれていた場合に点灯します。\r\n-「索」のマス：和了した手に任意の索子の牌が含まれていた場合に点灯します。\r\n-「風」のマス：和了した手に東・南・西・北のいずれの牌が含まれていた場合に点灯します。\r\n-「三元」のマス：和了した手に白・發・中のいずれの牌が含まれていた場合に点灯します。\r\n\r\n-CPU相手との対局は、条件達成対象外です。\r\n-1回の対局では、開始時点でイベントページに表示されているビンゴカード1枚のマスのみ点灯できます。",
+        "en": "Event - Super Mahjong Bingo\r\n\r\nDuring the event period, a new bingo card will be unlocked every day at 2:00 P.M. (UTC-7).\r\nWin a hand in a match (excluding matches against AI) to mark off bingo spaces that correspond to the tiles in your winning hand.\r\nWhen all spaces in a horizontal, vertical, or diagonal line are marked off, you will earn the reward for that line.\r\n\r\nSpace Types\r\n- Free Space: Starts already marked off.\r\n- Man: Mark off by winning a hand that includes any Man tile.\r\n- Pin: Mark off by winning a hand that includes any Pin tile.\r\n- Sou: Mark off by winning a hand that includes any Sou tile.\r\n- Wind: Mark off by winning a hand that includes any Wind tile (East/South/West/North).\r\n- Dragon: Mark off by winning a hand that includes any Dragon tile (Red/Green/White).\r\n\r\n*Matches played against AI do not count towards event progress.\r\n*You can only mark off spaces on the bingo card currently displayed on the event page.",
+        "kr": "슈퍼 마작패 빙고 이벤트 설명\r\n\r\n이벤트 기간 동안 매일 새로운 빙고판이 오픈됩니다. 일반 대국에서 화료에 성공하면, 화료한 패의 유형에 따라 빙고판의 해당 칸을 오픈할 수 있습니다. (AI 대국 제외)\r\n가로, 세로, 대각선 줄을 모두 완성하면 보상을 받으실 수 있습니다!\r\n\r\n빙고 칸 종류 설명:\r\n-백탑: 처음부터 오픈됩니다.\r\n-만: 임의의 만수패를 포함하여 화료 시에 오픈됩니다.\r\n-통: 임의의 통수패를 포함하여 화료 시에 오픈됩니다.\r\n-삭: 임의의 삭수패를 포함하여 화료 시에 오픈됩니다.\r\n-풍: 동/남/서/북 패 중 하나를 포함하여 화료 시에 오픈됩니다.\r\n-삼원: 백/발/중 패 중 하나를 포함하여 화료 시에 오픈됩니다.\r\n\r\n*각 대국에서는 현재 이벤트 페이지에 표시된 빙고판만 완성할 수 있습니다.\r\n*AI 대국은 이벤트 진행도에 포함되지 않습니다."
+    },
+    {
+        "id": 25110903,
+        "type": "",
+        "chs": "完成上一张宾果卡后解锁",
+        "chsT": "完成上一張賓果卡後解鎖",
+        "jp": "前のビンゴカード完成後に解禁",
+        "en": "Complete the previous bingo card to unlock",
+        "kr": "이전 단계의 빙고판을 완성하면 오픈됩니다."
+    },
+    {
+        "id": 25110904,
+        "type": "",
+        "chs": "12.8 - 12.17 4:59",
+        "chsT": "12.8 - 12.17 4:59 (UTC+8)",
+        "jp": "12月8日(月) 〜 12月17日(水) 5:59",
+        "en": "12.7 - 12.16 1:59 P.M.(UTC-7)",
+        "kr": "12월 8일~12월 17일 5:59 AM (GMT+9)"
+    },
+    {
+        "id": 25110905,
+        "type": "",
+        "chs": "和牌时包含指定种类牌即可点亮对应格子（与电脑的对局除外）",
+        "chsT": "和牌時包含指定種類牌即可點亮對應格子（與電腦的對局除外）",
+        "jp": "和了した手にマスの指定された牌が含まれていた場合点灯できます（CPU相手との対局は対象外）。",
+        "en": "Mark off bingo spaces by winning hands that contain the matching tiles (excluding matches against AI).",
+        "kr": "화료 시 지정된 종류의 패가 포함되어 있으면 해당 칸을 오픈할 수 있습니다. (AI 대국 제외)"
     }
 ]

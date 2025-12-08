@@ -10758,5 +10758,15 @@
         "nameKr": "",
         "type": "chest_replace_up",
         "needPopout": 0
+    },
+    {
+        "id": 251190,
+        "nameChs": "超级麻将牌宾果",
+        "nameChsT": "超級麻將牌賓果",
+        "nameJp": "スーパーマージャンビンゴ",
+        "nameEn": "Super Mahjong Bingo",
+        "nameKr": "슈퍼 마작패 빙고",
+        "type": "bingo",
+        "needPopout": 1
     }
 ]
