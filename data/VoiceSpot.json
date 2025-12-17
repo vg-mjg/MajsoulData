@@ -8237,5 +8237,355 @@
         "type": 19,
         "path": "audio/sound/wangcilang/spot/jtm_wjr_995",
         "typeDesc": "惊讶3"
+    },
+    {
+        "id": 901,
+        "character": 200009,
+        "type": 15,
+        "path": "audio/sound/zeniya/spot/jtm_xen_999",
+        "typeDesc": "惊喜"
+    },
+    {
+        "id": 902,
+        "character": 200009,
+        "type": 16,
+        "path": "audio/sound/zeniya/spot/jtm_xen_998",
+        "typeDesc": "沮丧"
+    },
+    {
+        "id": 903,
+        "character": 200009,
+        "type": 17,
+        "path": "audio/sound/zeniya/spot/jtm_xen_997",
+        "typeDesc": "骄傲"
+    },
+    {
+        "id": 904,
+        "character": 200009,
+        "type": 18,
+        "path": "audio/sound/zeniya/spot/jtm_xen_996",
+        "typeDesc": "准备出发1"
+    },
+    {
+        "id": 905,
+        "character": 200009,
+        "type": 19,
+        "path": "audio/sound/zeniya/spot/jtm_xen_995",
+        "typeDesc": "打招呼"
+    },
+    {
+        "id": 906,
+        "character": 200009,
+        "type": 20,
+        "path": "audio/sound/zeniya/spot/jtm_xen_994",
+        "typeDesc": "叹气"
+    },
+    {
+        "id": 907,
+        "character": 200009,
+        "type": 21,
+        "path": "audio/sound/zeniya/spot/jtm_xen_993",
+        "typeDesc": "生气1"
+    },
+    {
+        "id": 908,
+        "character": 200009,
+        "type": 22,
+        "path": "audio/sound/zeniya/spot/jtm_xen_992",
+        "typeDesc": "准备出发2"
+    },
+    {
+        "id": 909,
+        "character": 200009,
+        "type": 23,
+        "path": "audio/sound/zeniya/spot/jtm_xen_991",
+        "typeDesc": "准备出发3"
+    },
+    {
+        "id": 910,
+        "character": 200009,
+        "type": 24,
+        "path": "audio/sound/zeniya/spot/jtm_xen_990",
+        "typeDesc": "心虚1"
+    },
+    {
+        "id": 911,
+        "character": 200009,
+        "type": 25,
+        "path": "audio/sound/zeniya/spot/jtm_xen_989",
+        "typeDesc": "心虚2"
+    },
+    {
+        "id": 912,
+        "character": 200009,
+        "type": 26,
+        "path": "audio/sound/zeniya/spot/jtm_xen_988",
+        "typeDesc": "高兴"
+    },
+    {
+        "id": 913,
+        "character": 200009,
+        "type": 27,
+        "path": "audio/sound/zeniya/spot/jtm_xen_987",
+        "typeDesc": "得意"
+    },
+    {
+        "id": 914,
+        "character": 200009,
+        "type": 28,
+        "path": "audio/sound/zeniya/spot/jtm_xen_986",
+        "typeDesc": "疑惑1"
+    },
+    {
+        "id": 915,
+        "character": 200009,
+        "type": 29,
+        "path": "audio/sound/zeniya/spot/jtm_xen_985",
+        "typeDesc": "叹气2"
+    },
+    {
+        "id": 916,
+        "character": 200009,
+        "type": 30,
+        "path": "audio/sound/zeniya/spot/jtm_xen_984",
+        "typeDesc": "叹气3"
+    },
+    {
+        "id": 917,
+        "character": 200009,
+        "type": 31,
+        "path": "audio/sound/zeniya/spot/jtm_xen_983",
+        "typeDesc": "生气2"
+    },
+    {
+        "id": 918,
+        "character": 200009,
+        "type": 32,
+        "path": "audio/sound/zeniya/spot/jtm_xen_982",
+        "typeDesc": "感谢"
+    },
+    {
+        "id": 919,
+        "character": 200009,
+        "type": 33,
+        "path": "audio/sound/zeniya/spot/jtm_xen_981",
+        "typeDesc": "肯定"
+    },
+    {
+        "id": 920,
+        "character": 200009,
+        "type": 34,
+        "path": "audio/sound/zeniya/spot/jtm_xen_980",
+        "typeDesc": "提问"
+    },
+    {
+        "id": 921,
+        "character": 200009,
+        "type": 35,
+        "path": "audio/sound/zeniya/spot/jtm_xen_979",
+        "typeDesc": "嗔怪"
+    },
+    {
+        "id": 922,
+        "character": 200009,
+        "type": 36,
+        "path": "audio/sound/zeniya/spot/jtm_xen_978",
+        "typeDesc": "遗憾"
+    },
+    {
+        "id": 11701,
+        "character": 20000117,
+        "type": 1,
+        "path": "audio/sound/mila/spot/jtm_mil_232",
+        "typeDesc": "表示惊讶"
+    },
+    {
+        "id": 11702,
+        "character": 20000117,
+        "type": 2,
+        "path": "audio/sound/mila/spot/jtm_mil_233",
+        "typeDesc": "表示肯定"
+    },
+    {
+        "id": 11703,
+        "character": 20000117,
+        "type": 3,
+        "path": "audio/sound/mila/spot/jtm_mil_234",
+        "typeDesc": "表示否定"
+    },
+    {
+        "id": 11704,
+        "character": 20000117,
+        "type": 4,
+        "path": "audio/sound/mila/spot/jtm_mil_235",
+        "typeDesc": "早上打招呼"
+    },
+    {
+        "id": 11705,
+        "character": 20000117,
+        "type": 5,
+        "path": "audio/sound/mila/spot/jtm_mil_236",
+        "typeDesc": "中午打招呼"
+    },
+    {
+        "id": 11706,
+        "character": 20000117,
+        "type": 6,
+        "path": "audio/sound/mila/spot/jtm_mil_237",
+        "typeDesc": "晚上打招呼"
+    },
+    {
+        "id": 11707,
+        "character": 20000117,
+        "type": 7,
+        "path": "audio/sound/mila/spot/jtm_mil_238",
+        "typeDesc": "告别"
+    },
+    {
+        "id": 11708,
+        "character": 20000117,
+        "type": 8,
+        "path": "audio/sound/mila/spot/jtm_mil_239",
+        "typeDesc": "承接"
+    },
+    {
+        "id": 11709,
+        "character": 20000117,
+        "type": 9,
+        "path": "audio/sound/mila/spot/jtm_mil_240",
+        "typeDesc": "叹气"
+    },
+    {
+        "id": 11710,
+        "character": 20000117,
+        "type": 10,
+        "path": "audio/sound/mila/spot/jtm_mil_241",
+        "typeDesc": "高兴"
+    },
+    {
+        "id": 11711,
+        "character": 20000117,
+        "type": 11,
+        "path": "audio/sound/mila/spot/jtm_mil_242",
+        "typeDesc": "生气"
+    },
+    {
+        "id": 11712,
+        "character": 20000117,
+        "type": 12,
+        "path": "audio/sound/mila/spot/jtm_mil_243",
+        "typeDesc": "递进"
+    },
+    {
+        "id": 11713,
+        "character": 20000117,
+        "type": 13,
+        "path": "audio/sound/mila/spot/jtm_mil_244",
+        "typeDesc": "转折"
+    },
+    {
+        "id": 11714,
+        "character": 20000117,
+        "type": 14,
+        "path": "audio/sound/mila/spot/jtm_mil_245",
+        "typeDesc": "疑惑"
+    },
+    {
+        "id": 11801,
+        "character": 20000118,
+        "type": 1,
+        "path": "audio/sound/beiluo/spot/jtm_beil_232",
+        "typeDesc": "表示惊讶"
+    },
+    {
+        "id": 11802,
+        "character": 20000118,
+        "type": 2,
+        "path": "audio/sound/beiluo/spot/jtm_beil_233",
+        "typeDesc": "表示肯定"
+    },
+    {
+        "id": 11803,
+        "character": 20000118,
+        "type": 3,
+        "path": "audio/sound/beiluo/spot/jtm_beil_234",
+        "typeDesc": "表示否定"
+    },
+    {
+        "id": 11804,
+        "character": 20000118,
+        "type": 4,
+        "path": "audio/sound/beiluo/spot/jtm_beil_235",
+        "typeDesc": "打招呼"
+    },
+    {
+        "id": 11805,
+        "character": 20000118,
+        "type": 5,
+        "path": "audio/sound/beiluo/spot/jtm_beil_236",
+        "typeDesc": "告别"
+    },
+    {
+        "id": 11806,
+        "character": 20000118,
+        "type": 6,
+        "path": "audio/sound/beiluo/spot/jtm_beil_237",
+        "typeDesc": "承接"
+    },
+    {
+        "id": 11807,
+        "character": 20000118,
+        "type": 7,
+        "path": "audio/sound/beiluo/spot/jtm_beil_238",
+        "typeDesc": "叹气"
+    },
+    {
+        "id": 11808,
+        "character": 20000118,
+        "type": 8,
+        "path": "audio/sound/beiluo/spot/jtm_beil_239",
+        "typeDesc": "高兴"
+    },
+    {
+        "id": 11809,
+        "character": 20000118,
+        "type": 9,
+        "path": "audio/sound/beiluo/spot/jtm_beil_240",
+        "typeDesc": "生气"
+    },
+    {
+        "id": 11810,
+        "character": 20000118,
+        "type": 10,
+        "path": "audio/sound/beiluo/spot/jtm_beil_241",
+        "typeDesc": "递进"
+    },
+    {
+        "id": 11811,
+        "character": 20000118,
+        "type": 11,
+        "path": "audio/sound/beiluo/spot/jtm_beil_242",
+        "typeDesc": "转折"
+    },
+    {
+        "id": 11812,
+        "character": 20000118,
+        "type": 12,
+        "path": "audio/sound/beiluo/spot/jtm_beil_243",
+        "typeDesc": "疑惑"
+    },
+    {
+        "id": 11813,
+        "character": 20000118,
+        "type": 13,
+        "path": "audio/sound/beiluo/spot/jtm_beil_244",
+        "typeDesc": "ex1"
+    },
+    {
+        "id": 11814,
+        "character": 20000118,
+        "type": 14,
+        "path": "audio/sound/beiluo/spot/jtm_beil_245",
+        "typeDesc": "ex2"
     }
 ]

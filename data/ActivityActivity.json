@@ -10768,5 +10768,225 @@
         "nameKr": "슈퍼 마작패 빙고",
         "type": "bingo",
         "needPopout": 1
+    },
+    {
+        "id": 251201,
+        "nameChs": "雪球大作战",
+        "nameChsT": "雪球大作戰",
+        "nameJp": "雪玉ファイター！",
+        "nameEn": "Snowball Brawl",
+        "nameKr": "눈덩이 대난투",
+        "type": "snowball",
+        "needPopout": 1
+    },
+    {
+        "id": 251202,
+        "nameChs": "",
+        "nameChsT": "",
+        "nameJp": "",
+        "nameEn": "",
+        "nameKr": "",
+        "type": "period_task",
+        "needPopout": 0
+    },
+    {
+        "id": 251210,
+        "nameChs": "",
+        "nameChsT": "",
+        "nameJp": "",
+        "nameEn": "",
+        "nameKr": "",
+        "type": "event_cross_time",
+        "needPopout": 0
+    },
+    {
+        "id": 251211,
+        "nameChs": "",
+        "nameChsT": "",
+        "nameJp": "",
+        "nameEn": "",
+        "nameKr": "",
+        "type": "shop",
+        "needPopout": 0
+    },
+    {
+        "id": 251212,
+        "nameChs": "",
+        "nameChsT": "",
+        "nameJp": "",
+        "nameEn": "",
+        "nameKr": "",
+        "type": "item",
+        "needPopout": 0
+    },
+    {
+        "id": 251213,
+        "nameChs": "",
+        "nameChsT": "",
+        "nameJp": "",
+        "nameEn": "",
+        "nameKr": "",
+        "type": "sns_activity",
+        "needPopout": 0
+    },
+    {
+        "id": 251220,
+        "nameChs": "",
+        "nameChsT": "",
+        "nameJp": "",
+        "nameEn": "",
+        "nameKr": "",
+        "type": "chest_up",
+        "needPopout": 0
+    },
+    {
+        "id": 251221,
+        "nameChs": "",
+        "nameChsT": "",
+        "nameJp": "",
+        "nameEn": "",
+        "nameKr": "",
+        "type": "chest_up",
+        "needPopout": 0
+    },
+    {
+        "id": 251222,
+        "nameChs": "",
+        "nameChsT": "",
+        "nameJp": "",
+        "nameEn": "",
+        "nameKr": "",
+        "type": "chest_up",
+        "needPopout": 0
+    },
+    {
+        "id": 251223,
+        "nameChs": "",
+        "nameChsT": "",
+        "nameJp": "",
+        "nameEn": "",
+        "nameKr": "",
+        "type": "chest_up",
+        "needPopout": 0
+    },
+    {
+        "id": 251224,
+        "nameChs": "",
+        "nameChsT": "",
+        "nameJp": "",
+        "nameEn": "",
+        "nameKr": "",
+        "type": "chest_up",
+        "needPopout": 0
+    },
+    {
+        "id": 251225,
+        "nameChs": "",
+        "nameChsT": "",
+        "nameJp": "",
+        "nameEn": "",
+        "nameKr": "",
+        "type": "chest_up",
+        "needPopout": 0
+    },
+    {
+        "id": 251226,
+        "nameChs": "",
+        "nameChsT": "",
+        "nameJp": "",
+        "nameEn": "",
+        "nameKr": "",
+        "type": "chest_up",
+        "needPopout": 0
+    },
+    {
+        "id": 251227,
+        "nameChs": "",
+        "nameChsT": "",
+        "nameJp": "",
+        "nameEn": "",
+        "nameKr": "",
+        "type": "chest_up",
+        "needPopout": 0
+    },
+    {
+        "id": 251230,
+        "nameChs": "",
+        "nameChsT": "",
+        "nameJp": "",
+        "nameEn": "",
+        "nameKr": "",
+        "type": "chest_replace_up",
+        "needPopout": 0
+    },
+    {
+        "id": 251231,
+        "nameChs": "",
+        "nameChsT": "",
+        "nameJp": "",
+        "nameEn": "",
+        "nameKr": "",
+        "type": "chest_replace_up",
+        "needPopout": 0
+    },
+    {
+        "id": 251232,
+        "nameChs": "",
+        "nameChsT": "",
+        "nameJp": "",
+        "nameEn": "",
+        "nameKr": "",
+        "type": "chest_replace_up",
+        "needPopout": 0
+    },
+    {
+        "id": 251233,
+        "nameChs": "",
+        "nameChsT": "",
+        "nameJp": "",
+        "nameEn": "",
+        "nameKr": "",
+        "type": "chest_replace_up",
+        "needPopout": 0
+    },
+    {
+        "id": 251234,
+        "nameChs": "",
+        "nameChsT": "",
+        "nameJp": "",
+        "nameEn": "",
+        "nameKr": "",
+        "type": "chest_replace_up",
+        "needPopout": 0
+    },
+    {
+        "id": 251235,
+        "nameChs": "",
+        "nameChsT": "",
+        "nameJp": "",
+        "nameEn": "",
+        "nameKr": "",
+        "type": "chest_replace_up",
+        "needPopout": 0
+    },
+    {
+        "id": 251236,
+        "nameChs": "",
+        "nameChsT": "",
+        "nameJp": "",
+        "nameEn": "",
+        "nameKr": "",
+        "type": "chest_replace_up",
+        "needPopout": 0
+    },
+    {
+        "id": 251237,
+        "nameChs": "",
+        "nameChsT": "",
+        "nameJp": "",
+        "nameEn": "",
+        "nameKr": "",
+        "type": "chest_replace_up",
+        "needPopout": 0
     }
 ]

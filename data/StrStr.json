@@ -272,8 +272,8 @@
     {
         "id": 56,
         "type": "",
-        "chs": "赛事大厅中是由玩家创建并管理的各种比赛会场，比赛规则由玩家自定义。\r\n    雀魂严禁任何赌博等非法行为，一经发现将会严肃处理，希望大家一起维护一个健康的游戏环境。\r\n\r\n参加者：\r\n- 赛事比赛中不会结算铜币、PT点数。\r\n- 赛事比赛中不会统计最近走势，四维数据、对局数据；只计最近大和。\r\n- 只有状态为“进行中”的比赛会场可以进行对局准备。\r\n- 赛事比赛只能在对应的比赛会场内进行观战；观战和实际比赛有300秒的延迟。\r\n- 参加者可以在比赛会场内查看该比赛的牌谱。\r\n\r\n组织者：\r\n- 组织者请通过www.maj-soul.com上的“赛事管理\"入口进入组织者后台进行赛事的创建和管理。\r\n- 创建赛事需要消耗60辉玉。\r\n- 比赛会场最多持续90天，从创建时间开始计算。\r\n- 不开启进阶规则时，比赛将采用和匹配场一致的规则。\r\n- 创建者可以添加其他玩家为管理员进行辅助管理。\r\n- 管理者后台中有统计工具，管理者可以通过该工具统计玩家得分和排名。\r\n- 赛事比赛只能由管理员手动开启，不会进行随机匹配。",
-        "chsT": "賽事大廳中是由玩家建立並管理的各種比賽會場，比賽規則由玩家自訂。\r\n    雀魂嚴禁任何賭博等非法行為，一經發現將會嚴肅處理，希望大家一起維護一個健康的遊戲環境。\r\n\r\n參加者：\r\n- 賽事比賽中不會結算銅幣、PT點數。\r\n- 賽事比賽中不會統計最近走勢，四維資料、對局資料；只計最近大和。\r\n- 只有狀態為“進行中”的比賽會場可以進行對局準備。\r\n- 賽事比賽只能在對應的比賽會場內進行觀戰；觀戰和實際比賽有300秒的延遲。\r\n- 參加者可以在比賽會場內查看該比賽的牌譜。\r\n\r\n組織者：\r\n- 組織者請透過www.maj-soul.com上的“賽事管理\"入口進入組織者後臺進行賽事的建立和管理。\r\n- 建立賽事需要消耗60輝玉。\r\n- 比賽會場最多持續90天，從建立時間開始計算。\r\n- 不開啟進階規則時，比賽將採用和配對場一致的規則。\r\n- 建立者可以新增其他玩家為管理員進行輔助管理。\r\n- 管理者後臺中有統計工具，管理者可以通過該工具統計玩家得分和排名。\r\n- 賽事比賽只能由管理員手動開啟，不會進行隨機配對。",
+        "chs": "赛事大厅由玩家创建并管理的各种赛事组成，赛事规则由玩家自定义。\r\n雀魂严禁任何赌博等非法行为，一经发现将会严肃处理，希望大家一起维护一个健康的游戏环境。\r\n\r\n参赛者：\r\n- 赛事对局不会结算铜币、PT点数。\r\n- 只有状态为“进行中”的赛事可以进行对局准备。\r\n- 赛事对局只能在对应的赛事会场内进行观战；观战有300秒的延迟。\r\n- 玩家可以在赛事会场内查看全部的赛事牌谱。\r\n\r\n组织者：\r\n- 组织者可以在游戏内或www.maj-soul.com上的“赛事管理”入口进入雀魂赛事管理后台进行赛事的创建和管理。\r\n- 创建赛事需要消耗60辉玉。\r\n- 不开启进阶规则时，比赛将采用和匹配场一致的规则。\r\n- 创建者可以添加其他玩家为管理员进行辅助管理。\r\n- 管理后台中有统计工具，管理者可以通过该工具统计玩家得分和排名。",
+        "chsT": "賽事大廳由玩家創建並管理的各種賽事組成，賽事規則由玩家自訂。\r\n雀魂嚴禁任何賭博等非法行為，一經發現將會嚴肅處理，希望大家一起維護一個健康的遊戲環境。\r\n\r\n參賽者：\r\n- 賽事對局不會結算銅幣、PT點數。\r\n- 只有狀態為「進行中」的賽事可以進行對局準備。\r\n- 賽事對局只能在對應的賽事會場內進行觀戰；觀戰有300秒的延遲。\r\n- 玩家可以在賽事會場內查看全部的賽事牌譜。\r\n\r\n組織者：\r\n- 組織者可以在遊戲內或www.maj-soul.com上的「賽事管理」入口進入雀魂賽事管理後台進行賽事的創建和管理。\r\n- 創建賽事需要消耗60輝玉。\r\n- 不開啟進階規則時，比賽將採用和匹配場一致的規則。\r\n- 創建者可以添加其他玩家為管理員進行輔助管理。\r\n- 管理後台中有統計工具，管理者可以透過該工具統計玩家得分和排名。",
         "jp": "大会戦はプレイヤーが様々な大会を開催し、参加するモードです。大会ルールは主催者のプレイヤーが指定できます。\r\n  雀魂ではいかなる賭博行為も厳しく禁止されています。確認された対象者には厳重なペナルティが科せられます。\r\n\r\n参加者：\r\n- 大会戦は段位点数やコインに影響しません。\r\n- 大会戦は対戦記録、ステータスや対戦詳細に影響しませんが、最近のハイライトは記録されます。\r\n- 大会戦を観戦できるのは大会の参加者のみです。観戦と実際の対戦とは300秒の遅延が設けられています。\r\n- 大会の参加者は大会部屋内で当大会の牌譜を確認することができます。\r\n\r\n主催者：\r\n- 主催者のプレイヤーはmahjongsoul.comのページの「大会管理」から大会の開催と管理ができます。\r\n- 大会を開催する度に輝石が60個消費されます。\r\n- ルールの詳細設定をしない場合、大会は段位戦と同じルールを使用します。\r\n- 主催者は他のプレイヤーを管理者に指名することができます。\r\n- 主催者と管理者は「大会管理」から大会の統計データを確認することができます。\r\n- 大会の対戦では自動マッチングは行えません。",
         "en": "In the tournament lobby, players can create and manage different tournaments using customized rules. \r\n Illegal activities, such as gambling, are strictly prohibited in Mahjong Soul and will face serious consequences once found. We hope all players can work together to ensure a healthy gaming environment. \r\n\r\nParticipant:\r\n - Tournament matches will not involve coppers or PTs. \r\n - Tournament match results will not be reflected in “Recent Trends”, “Style (stats)” or “Match Info”, but may appear in “Recent High Score”. \r\n - Players can only prepare for tournaments marked as “In Progress”. \r\n - Tournament matches can only be spectated in corresponding tournament rooms with a 300 seconds delay. \r\n - Participants can view the match logs of a tournament within the tournament room. \r\n\r\nOrganizer:\r\n - Organizers can enter the organizer center to create and manage tournaments via “Manage Tournament” on mahjongsoul.yo-star.com. \r\n - Creating a tournament will cost 60 Jade. \r\n - A tournament room will exist for up to 90 days, starting from the day it was created. \r\n - Tournament matches will use the same rules as the standard Ranked Match if “Advanced Rules” are disabled. \r\n - Creators can add other players as admins to help manage the tournament. \r\n - Tournament admins may use statistical tools in the organizer center to analyze participant scores and rankings. \r\n - Tournament matches must be manually activated by admins. Participants will not be randomly matched.",
         "kr": "대회전은 플레이어가 각자의 대회를 개최하거나 참가하는 모드입니다. 대회 규칙은 주최자가 지정할 수 있습니다. \\n작혼에서는 어떠한 도박 행위도 엄격하게 금지되어 있습니다. 적발된 대상자에게는 엄중한 패널티가 부여됩니다.\\n\\n참가자:\\n- 대회전은 등급 점수나 코인에 변동이 없습니다.\\n- 대회전은 스테이터스나 대국 기록에는 기록되지 않으나, 최근 하이라이트는 기록됩니다.\\n- 대회전을 관전하는 것은 대회 참가자만이 가능합니다. 관전은 실제 대국과 300초의 지연이 적용됩니다.\\n- 대회 참가자는 대회 방 내에서 대회의 패보를 확인할 수 있습니다.\\n\\n주최자:\\n- 주최자는 mahjongsoul.com 페이지의 '대회 관리'에서 대회의 개최와 관리가 가능합니다.\\n- 대회를 개최하기 위해서는 휘석 60개가 필요합니다.\\n- 규칙을 따로 설정하지 않을 경우 등급전와 같은 규칙이 적용됩니다.\\n- 주최자는 다른 플레이어를 관리자로 임명할 수 있습니다.\\n- 주최자와 관리자는 '대회 관리'에서 대회 통계 데이터를 확인할 수 있습니다.\\n- 대회의 대국은 자동 매칭을 지원하지 않습니다."
@@ -9066,7 +9066,7 @@
         "id": 3043,
         "type": "",
         "chs": "上次投票未全员通过，再次发起终止投票最短时间间隔为五分钟",
-        "chsT": "上次投票未全員透過，再次發起終止投票最短時間間隔為五分鐘",
+        "chsT": "上次投票未全員通過，再次發起終止投票最短時間間隔為五分鐘",
         "jp": "前回の投票は全員賛成ではなかったため、次回の終了投票が開始できるまで5分以上お待ちください。",
         "en": "Last vote was not agreed by all the players, please start the next vote after 5 minutes.",
         "kr": "저번 투표 결과는 전원 찬성이 아니었으므로, 다음 종료 투표가 시작될 때까지 5분 이상 기다려 주세요."
@@ -38788,5 +38788,329 @@
         "jp": "和了した手にマスの指定された牌が含まれていた場合点灯できます（CPU相手との対局は対象外）。",
         "en": "Mark off bingo spaces by winning hands that contain the matching tiles (excluding matches against AI).",
         "kr": "화료 시 지정된 종류의 패가 포함되어 있으면 해당 칸을 오픈할 수 있습니다. (AI 대국 제외)"
+    },
+    {
+        "id": 25120101,
+        "type": "",
+        "chs": "冬日限定活动-雪球大作战\r\n活动时间：12月17日维护后-1月13日4:59\r\n\r\n冬夜的梦境天旋地转，积雪的秘密花园遭遇入侵\r\n琳琅没有撤退可言，她的武器是，无穷无尽的决心和雪球！\r\n\r\n活动期间击败敌人通过关卡，可以获得大厅音乐、活动插画、寻觅卷轴等丰厚奖励！\r\n\r\n发射雪球\r\n-发射雪球时有三条路线可供选择，下/中/上方的雪球分别能造成1/2/3点伤害\r\n-消耗精力可以发射雪球，经过一段时间装填后可以再次发射！\r\n-作战中，精力会随时间自动恢复\r\n-同路线的两个雪球相撞会互相抵消\r\n-琳琅发射雪球时有概率产生暴击！暴击后的雪球不仅有伤害加成，还会变得坚不可摧\r\n\r\n修行技艺\r\n-完成任务可以获得龙之宝珠\r\n-消耗龙之宝珠可以用于精进技艺，助力琳琅击败更加强大的敌人！\r\n\r\n琳琅的小贴士\r\n-胜利的关键在于一招一式的化解和突破\r\n-作战中实际没有任何敌人和龙受到伤害",
+        "chsT": "冬日限定活動-雪球大作戰\r\n活動時間：12月17日維護後-1月13日4:59(UTC+8)\r\n\r\n冬夜的夢境天旋地轉，積雪的秘密花園遭遇入侵\r\n琳琅沒有撤退可言，她的武器是，無窮無盡的決心和雪球！\r\n\r\n活動期間擊敗敵人通過關卡，可以獲得大廳音樂、活動插畫、尋覓卷軸等豐厚獎勵！\r\n\r\n發射雪球\r\n-發射雪球時有三條路線可供選擇，下/中/上方的雪球分別能造成1/2/3點傷害\r\n-消耗精力可以發射雪球，經過一段時間裝填後可以再次發射！\r\n-作戰中，精力會隨時間自動恢復\r\n-同路線的兩個雪球相撞會互相抵消\r\n-琳琅發射雪球時有概率產生暴擊！暴擊後的雪球不僅有傷害加成，還會變得堅不可摧\r\n\r\n修行技藝\r\n-完成任務可以獲得龍之寶珠\r\n-消耗龍之寶珠可以用於精進技藝，助力琳琅擊敗更加強大的敵人！\r\n\r\n琳琅的小貼士\r\n-勝利的關鍵在於一招一式的化解和突破\r\n-作戰中實際沒有任何敵人和龍受到傷害",
+        "jp": "「雪玉ファイター！」について\r\n冬の夜、龍の娘は夢を見た。雪の降り積もる花園に、モンスターが侵攻してくる夢だ。\r\n龍の娘は、武器である雪玉を手に、花園を守ると心に決めた。\r\nここから先は、退くことは許されない、正真正銘の雪合戦だ。\r\n\r\nイベント期間\r\n2025年12月17日(水) ～ 2026年1月13日(火)5:59\r\n\r\nイベント期間中に雪玉を投げて敵を倒すと、祈願の巻物やホーム画面BGM、ローディングイラストなどの豪華報酬を獲得できます。\r\n\r\n雪玉について\r\n-雪玉は、上・中・下の3ルートを選んで投げることができ、それぞれ3・2・1ダメージを与えられます。\r\n-同じルートの雪玉は、ぶつかり合って消滅します。\r\n-琳琅が雪玉を投げる時、確率で会心の一撃が発生します。会心の一撃の雪玉は相殺されない上に、ダメージも多くなります。\r\n-雪玉を投げる時には、スタミナ（青いケージ）を消費します。また、雪玉を投げてから一定時間経過すると再装填されます。\r\n-スタミナは時間経過で回復します。\r\n\r\n龍の宝玉について\r\n-イベントクエストを達成すると、龍の宝玉を入手できます。\r\n-龍の宝玉は、「修行強化」で琳琅のステータスや雪玉を強化する時に使用します。\r\n\r\n琳琅からのTIPS\r\n-雪の玉を打ち消すのが大事。\r\n-ここは夢の中。だから、誰も傷つかない。",
+        "en": "Winter Limited Event - Snowball Brawl\r\nEvent Period: 12/16 - 1/12 1:59 P.M. (UTC-7)\r\n\r\nChaos descends on the winter dream – intruders have entered the snowy secret garden! Retreat is not an option for Lin Lang. Her weapons? Infinite resolve… and snowballs!\r\n\r\nDuring the event period, clear levels to claim various rewards, including Lobby BGM, Event Illustration, and Summon Scroll.\r\n\r\nAbout Snowballs\r\n- Aim High, Middle, or Low to deal 3, 2, or 1 damage respectively.\r\n- Throwing snowballs consumes energy and requires a short reload time.\r\n- Energy recovers automatically during battle.\r\n- Snowballs colliding on the same path will cancel each other out.\r\n- Snowballs have a chance to Crit, dealing bonus damage and becoming indestructible.\r\n\r\nAbout Training\r\n- Complete missions to get Dragon's Pearls.\r\n- Use them to boost Lin Lang's stats and upgrade her snowballs.\r\n\r\nLin Lang's Tips\r\n- The key to victory lies in countering enemy moves and breaking through their defenses.\r\n- Don't worry – no one actually gets hurt in this snowball fight!",
+        "kr": "겨울 한정 이벤트 - 눈덩이 대난투\r\n이벤트 기간: 12월 17일 점검 후 ~ 1월 13일 5:59 AM (GMT+9)\r\n\r\n어느 겨울밤, 꿈이 뒤죽박죽 뒤섞이고, 눈 덮인 비밀 정원이 침입받았습니다. 링랑은 물러설 수 없습니다, 링랑의 무기는 끝없는 투지와 눈덩이입니다!\r\n\r\n이벤트 기간 동안 적을 처치하고 스테이지를 클리어하면, 로비 BGM, 이벤트 일러스트, 기원의 두루마리 등 다양한 보상을 획득할 수 있습니다!\r\n\r\n[눈덩이 던지기]\r\n- 눈덩이는 직선/중간/위 경로를 선택해 던질 수 있으며, 각각 1/2/3의 피해를 줍니다.\r\n- 행동력을 소모하여 눈덩이를 던지며, 일정 시간이 지나면 눈덩이를 다시 던질 수 있습니다.\r\n- 전투 중, 행동력은 시간이 지나면 자동으로 회복됩니다. \r\n- 같은 경로의 두 눈덩이는 서로 부딪치면 사라집니다.\r\n- 링랑이 눈덩이를 던질 때 일정 확률로 치명타가 발생합니다! 치명타가 발생한 눈덩이는 추가 피해를 주며, 파괴되지 않습니다.\r\n\r\n[스킬 수련]\r\n- 임무를 완료하면 용의 보주를 획득할 수 있습니다.\r\n- 용의 보주는 기술을 수련하는 데 사용할 수 있으며, 링랑이 더 강력한 적을 쓰러뜨리는 데 도움을 줍니다!\r\n\r\n[링랑의 미니 팁]\r\n- 승리의 핵심은 적의 공격은 막고, 빈틈을 노려 적을 쓰러뜨리는 거지. \r\n- 전투는 안전하게 진행되니까, 다치는 사람은 없을 거야."
+    },
+    {
+        "id": 25120102,
+        "type": "",
+        "chs": "关卡{0}",
+        "chsT": "關卡{0}",
+        "jp": "ステージ{0}",
+        "en": "Level {0}",
+        "kr": "스테이지 {0}"
+    },
+    {
+        "id": 25120103,
+        "type": "",
+        "chs": "还剩{0}关",
+        "chsT": "還剩{0}關",
+        "jp": "{0}ステージ後",
+        "en": "{0} levels left",
+        "kr": "남은 스테이지 수: {0}"
+    },
+    {
+        "id": 25120104,
+        "type": "",
+        "chs": "已通关",
+        "chsT": "已通關",
+        "jp": "クリア！",
+        "en": "All Cleared",
+        "kr": "전부 클리어"
+    },
+    {
+        "id": 25120105,
+        "type": "",
+        "chs": "第{0}次轮回 ∞关卡{1}",
+        "chsT": "第{0}次輪回 ∞關卡{1}",
+        "jp": "{0}周目 ∞ステージ{1}",
+        "en": "Loop {0}: Level ∞ {1}",
+        "kr": "{0}라운드 스테이지∞{1}"
+    },
+    {
+        "id": 25120106,
+        "type": "",
+        "chs": "可领取",
+        "chsT": "可領取",
+        "jp": "受取可能",
+        "en": "Claim",
+        "kr": "수령 가능"
+    },
+    {
+        "id": 25120107,
+        "type": "",
+        "chs": "返回首页",
+        "chsT": "返回首頁",
+        "jp": "戻る",
+        "en": "Return",
+        "kr": "메인 화면으로 이동"
+    },
+    {
+        "id": 25120108,
+        "type": "",
+        "chs": "继续挑战",
+        "chsT": "繼續挑戰",
+        "jp": "続ける",
+        "en": "Continue",
+        "kr": "계속 도전"
+    },
+    {
+        "id": 25120109,
+        "type": "",
+        "chs": "{0}s后自动挑战",
+        "chsT": "{0}s後自動挑戰",
+        "jp": "{0}秒後に自動開始",
+        "en": "Enter the next level in {0}s",
+        "kr": "{0}초 후 자동 도전"
+    },
+    {
+        "id": 25120110,
+        "type": "",
+        "chs": "我应该先增强下实力……",
+        "chsT": "我應該先增強下實力……",
+        "jp": "もっと修行する必要があるみたい……",
+        "en": "I need to get stronger first...",
+        "kr": "먼저 실력을 키워야겠어……"
+    },
+    {
+        "id": 25120111,
+        "type": "",
+        "chs": "前往升级",
+        "chsT": "前往升級",
+        "jp": "修行強化へ",
+        "en": "Go Upgrade",
+        "kr": "레벨업하기"
+    },
+    {
+        "id": 25120112,
+        "type": "",
+        "chs": "再试一次",
+        "chsT": "再試一次",
+        "jp": "もう一度",
+        "en": "Try Again",
+        "kr": "재도전하기"
+    },
+    {
+        "id": 25120113,
+        "type": "",
+        "chs": "退出后本次战斗需要重新开始",
+        "chsT": "退出後本次戰鬥需要重新開始",
+        "jp": "退出すると、次回はこのバトルの最初からやり直しになります。",
+        "en": "Leaving now will restart the level. Are you sure?",
+        "kr": "퇴장 시, 전투를 처음부터 다시 시작합니다."
+    },
+    {
+        "id": 25120114,
+        "type": "",
+        "chs": "中断并退出",
+        "chsT": "中斷並退出",
+        "jp": "中断して退出",
+        "en": "Leave",
+        "kr": "나가기"
+    },
+    {
+        "id": 25120115,
+        "type": "",
+        "chs": "继续战斗",
+        "chsT": "繼續戰鬥",
+        "jp": "バトルを続ける",
+        "en": "Resume",
+        "kr": "계속 전투"
+    },
+    {
+        "id": 25120116,
+        "type": "",
+        "chs": "重置",
+        "chsT": "重置",
+        "jp": "リセット",
+        "en": "Reset",
+        "kr": "초기화"
+    },
+    {
+        "id": 25120117,
+        "type": "",
+        "chs": "琳琅",
+        "chsT": "琳琅",
+        "jp": "琳琅",
+        "en": "Lin Lang",
+        "kr": "링랑"
+    },
+    {
+        "id": 25120118,
+        "type": "",
+        "chs": "升级",
+        "chsT": "升級",
+        "jp": "強化",
+        "en": "Upgrade",
+        "kr": "레벨업"
+    },
+    {
+        "id": 25120119,
+        "type": "",
+        "chs": "雪球1",
+        "chsT": "雪球1",
+        "jp": "雪玉1",
+        "en": "Snowball 1",
+        "kr": "눈덩이1"
+    },
+    {
+        "id": 25120120,
+        "type": "",
+        "chs": "雪球2",
+        "chsT": "雪球2",
+        "jp": "雪玉2",
+        "en": "Snowball 2",
+        "kr": "눈덩이2"
+    },
+    {
+        "id": 25120121,
+        "type": "",
+        "chs": "雪球3",
+        "chsT": "雪球3",
+        "jp": "雪玉3",
+        "en": "Snowball 3",
+        "kr": "눈덩이3"
+    },
+    {
+        "id": 25120122,
+        "type": "",
+        "chs": "通过{0}后解锁",
+        "chsT": "通過{0}後解鎖",
+        "jp": "{0}クリア後解禁",
+        "en": "Clear {0} to Unlock",
+        "kr": "스테이지 {0} 클리어 후 오픈됩니다."
+    },
+    {
+        "id": 25120123,
+        "type": "",
+        "chs": "单次投掷数",
+        "chsT": "單次投擲數",
+        "jp": "1回での投擲数",
+        "en": "Per Throw",
+        "kr": "눈덩이 개수"
+    },
+    {
+        "id": 25120124,
+        "type": "",
+        "chs": "精力消耗",
+        "chsT": "精力消耗",
+        "jp": "スタミナ消費量",
+        "en": "Energy Cost",
+        "kr": "행동력 소비"
+    },
+    {
+        "id": 25120125,
+        "type": "",
+        "chs": "冷却时长",
+        "chsT": "冷卻時長",
+        "jp": "再装填時間",
+        "en": "Reload Time",
+        "kr": "재사용 대기 시간"
+    },
+    {
+        "id": 25120126,
+        "type": "",
+        "chs": "血量",
+        "chsT": "血量",
+        "jp": "HP",
+        "en": "Health",
+        "kr": "행동력"
+    },
+    {
+        "id": 25120127,
+        "type": "",
+        "chs": "已领取当前关卡奖励",
+        "chsT": "已領取當前關卡獎勵",
+        "jp": "報酬受取済み",
+        "en": "Level reward claimed",
+        "kr": "해당 스테이지 보상을 이미 수령하셨습니다."
+    },
+    {
+        "id": 25120128,
+        "type": "",
+        "chs": "通关{0}后可领取",
+        "chsT": "通關{0}後可領取",
+        "jp": "{0}クリア後受取可能",
+        "en": "Clear {0} to claim",
+        "kr": "스테이지 {0} 클리어 후 보상을 수령할 수 있습니다."
+    },
+    {
+        "id": 25120129,
+        "type": "",
+        "chs": "可领取当前关卡奖励",
+        "chsT": "可領取當前關卡獎勵",
+        "jp": "報酬受取可能",
+        "en": "Level reward unlocked",
+        "kr": "해당 스테이지 보상을 수령할 수 있습니다."
+    },
+    {
+        "id": 25120130,
+        "type": "",
+        "chs": "恭喜您已经通过全部关卡！再次挑战将不再获得奖励，是否进入下一次轮回",
+        "chsT": "恭喜您已經通過全部關卡！再次挑戰將不再獲得獎勵，是否進入下一次輪回",
+        "jp": "全ステージ制覇おめでとうございます！ これ以降は報酬を獲得できませんが、次の周に挑戦しますか？",
+        "en": "All levels cleared! You can continue playing, but you will no longer receive rewards. Would you like to enter the next Loop?",
+        "kr": "스테이지를 전부 클리어하셨습니다! 보상은 중복 수령이 불가합니다. 다시 도전하시겠습니까?"
+    },
+    {
+        "id": 25120131,
+        "type": "",
+        "chs": "确认重置能力吗？重置后，各项能力变为Lv1，已使用的龙之宝玉全部返还。",
+        "chsT": "確認重置能力嗎？重置後，各項能力變為Lv1，已使用的龍之寶玉全部返還。",
+        "jp": "能力強化をリセットしますか？各能力のLvが1に戻り、使用された強化PTが返還されます。",
+        "en": "Do you want to reset enhancements? After the reset, all enhanced abilities are set to Lv1, and all enhancement points are returned.",
+        "kr": "정말 초기화 하시겠습니까? 초기화 후 모든 능력이 1레벨이 되며, 이미 사용한 강화 포인트는 전부 반환됩니다."
+    },
+    {
+        "id": 25120200,
+        "type": "",
+        "chs": "管理员已改变赛事匹配规则",
+        "chsT": "管理員已改變賽事匹配規則",
+        "jp": "管理者がマッチングルールを調整しました",
+        "en": "Matchmaking rules have been changed by the admin.",
+        "kr": "주최자가 대회 매칭 규정을 변경했습니다."
+    },
+    {
+        "id": 25120201,
+        "type": "",
+        "chs": "自动匹配",
+        "chsT": "自動匹配",
+        "jp": "自動マッチング",
+        "en": "Auto matching",
+        "kr": "자동 매칭"
+    },
+    {
+        "id": 25120202,
+        "type": "",
+        "chs": "已开启",
+        "chsT": "已開啟",
+        "jp": "有効",
+        "en": "Enabled",
+        "kr": "ON"
+    },
+    {
+        "id": 25120203,
+        "type": "",
+        "chs": "已关闭",
+        "chsT": "已關閉",
+        "jp": "無効",
+        "en": "Disabled",
+        "kr": "OFF"
+    },
+    {
+        "id": 25120204,
+        "type": "",
+        "chs": "垂直同步",
+        "chsT": "垂直同步",
+        "jp": "垂直同期",
+        "en": "VSync",
+        "kr": "수직 동기화"
     }
 ]

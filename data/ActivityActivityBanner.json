@@ -427,5 +427,16 @@
         "bannerLeftSelected": "",
         "bannerLeftIcon": "",
         "timeRemind": 0
+    },
+    {
+        "id": 251201,
+        "sort": 131,
+        "bannerType": 2,
+        "enterIcon": "myres2/activity_banner/25dongri_0.png",
+        "bannerBig": "myres2/activity_banner/25dongri_b.jpg",
+        "bannerLeft": "myres2/activity_banner/25dongri.png",
+        "bannerLeftSelected": "",
+        "bannerLeftIcon": "",
+        "timeRemind": 0
     }
 ]

@@ -1246,6 +1246,21 @@
     },
     {
         "sargs": [
+            "",
+            "",
+            "",
+            ""
+        ],
+        "id": 30520011,
+        "resName": "ron_25dongri",
+        "audioId": 30520011,
+        "characterId": 0,
+        "oldEffectMark": 0,
+        "handVersion": 0,
+        "seatRelated": 0
+    },
+    {
+        "sargs": [
             "shu",
             "",
             "",
@@ -1798,6 +1813,21 @@
         "oldEffectMark": 0,
         "handVersion": 0,
         "seatRelated": 1
+    },
+    {
+        "sargs": [
+            "shu",
+            "1",
+            "",
+            ""
+        ],
+        "id": 30530011,
+        "resName": "effect_liqi_25dongri",
+        "audioId": 30530011,
+        "characterId": 0,
+        "oldEffectMark": 0,
+        "handVersion": 0,
+        "seatRelated": 0
     },
     {
         "sargs": [
@@ -3006,6 +3036,21 @@
             "",
             ""
         ],
+        "id": 30550034,
+        "resName": "headframe_bingjing",
+        "audioId": 0,
+        "characterId": 0,
+        "oldEffectMark": 0,
+        "handVersion": 0,
+        "seatRelated": 0
+    },
+    {
+        "sargs": [
+            "0",
+            "",
+            "",
+            ""
+        ],
         "id": 30550035,
         "resName": "sxz",
         "audioId": 0,
@@ -3563,6 +3608,21 @@
         ],
         "id": 30560009,
         "resName": "liqi_25summer",
+        "audioId": 0,
+        "characterId": 0,
+        "oldEffectMark": 0,
+        "handVersion": 0,
+        "seatRelated": 0
+    },
+    {
+        "sargs": [
+            "",
+            "",
+            "",
+            ""
+        ],
+        "id": 30560010,
+        "resName": "liqi_25dongri",
         "audioId": 0,
         "characterId": 0,
         "oldEffectMark": 0,
@@ -4178,6 +4238,21 @@
         ],
         "id": 30570016,
         "resName": "mjp_25achivement4",
+        "audioId": 0,
+        "characterId": 0,
+        "oldEffectMark": 0,
+        "handVersion": 0,
+        "seatRelated": 0
+    },
+    {
+        "sargs": [
+            "",
+            "",
+            "",
+            ""
+        ],
+        "id": 30570017,
+        "resName": "mjp_25dongri",
         "audioId": 0,
         "characterId": 0,
         "oldEffectMark": 0,
@@ -4853,6 +4928,21 @@
         ],
         "id": 30580024,
         "resName": "tablecloth_25achivement4",
+        "audioId": 0,
+        "characterId": 0,
+        "oldEffectMark": 0,
+        "handVersion": 0,
+        "seatRelated": 0
+    },
+    {
+        "sargs": [
+            "",
+            "",
+            "",
+            ""
+        ],
+        "id": 30580025,
+        "resName": "tablecloth_25dongri",
         "audioId": 0,
         "characterId": 0,
         "oldEffectMark": 0,

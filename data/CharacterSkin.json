@@ -2,8 +2,8 @@
     {
         "effects": [
             "",
-            "XYW_01_eff_3",
-            "XYW_01_eff_2",
+            "xiangyuanwu_wq_eff2",
+            "xiangyuanwu_wq_eff3",
             ""
         ],
         "skinid": 400506,
@@ -18,8 +18,8 @@
     },
     {
         "effects": [
-            ",ALS_SC_01_eff",
-            ",ALS_SC_02_eff",
+            "ALS_SC_eff1",
+            "ALS_SC_eff2",
             "",
             ""
         ],
@@ -172,8 +172,8 @@
     {
         "effects": [
             "",
-            ",lingzi_24ws_01_eff",
-            ",lingzi_24ws_02_eff",
+            "senchuanlingzi_ws_eff1",
+            "senchuanlingzi_ws_eff2",
             ""
         ],
         "skinid": 404805,
@@ -574,6 +574,57 @@
         "audioIdle": "",
         "audioGreeting": "LX_SE_407404/greeting",
         "audioClick": "LX_SE_407404/click",
+        "audioClick2": "",
+        "celebrateDelay": 0
+    },
+    {
+        "effects": [
+            "",
+            "",
+            "xiangyuanwu_yd_eff3",
+            ""
+        ],
+        "skinid": 400508,
+        "spineLayers": 1,
+        "audioCelebrate": "XYW_SE_400508/celebrate",
+        "audioCelebrateIdle": "",
+        "audioIdle": "",
+        "audioGreeting": "XYW_SE_400508/greeting",
+        "audioClick": "XYW_SE_400508/click",
+        "audioClick2": "",
+        "celebrateDelay": 0
+    },
+    {
+        "effects": [
+            "",
+            "",
+            "",
+            ""
+        ],
+        "skinid": 404806,
+        "spineLayers": 1,
+        "audioCelebrate": "SCLZ_SE_404806/celebrate",
+        "audioCelebrateIdle": "",
+        "audioIdle": "",
+        "audioGreeting": "SCLZ_SE_404806/greeting",
+        "audioClick": "SCLZ_SE_404806/click",
+        "audioClick2": "",
+        "celebrateDelay": 0
+    },
+    {
+        "effects": [
+            "",
+            "",
+            "",
+            ""
+        ],
+        "skinid": 408404,
+        "spineLayers": 1,
+        "audioCelebrate": "LL_SE_408404/celebrate",
+        "audioCelebrateIdle": "",
+        "audioIdle": "",
+        "audioGreeting": "LL_SE_408404/greeting",
+        "audioClick": "LL_SE_408404/click",
         "audioClick2": "",
         "celebrateDelay": 0
     }
