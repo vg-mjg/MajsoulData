@@ -1710,6 +1710,72 @@
         "type": "event"
     },
     {
+        "id": 10370,
+        "path": "audio/audio_event/2512dongri_bgm",
+        "timeLength": 0,
+        "type": "event"
+    },
+    {
+        "id": 10371,
+        "path": "audio/audio_event/2512dongri_activity_enter",
+        "timeLength": 0,
+        "type": "event"
+    },
+    {
+        "id": 10372,
+        "path": "audio/audio_event/2512dongri_threw_normal",
+        "timeLength": 0,
+        "type": "event"
+    },
+    {
+        "id": 10373,
+        "path": "audio/audio_event/2512dongri_threw_luk",
+        "timeLength": 0,
+        "type": "event"
+    },
+    {
+        "id": 10374,
+        "path": "audio/audio_event/2512dongri_snowball_broken",
+        "timeLength": 0,
+        "type": "event"
+    },
+    {
+        "id": 10375,
+        "path": "audio/audio_event/2512dongri_hit_luk",
+        "timeLength": 0,
+        "type": "event"
+    },
+    {
+        "id": 10376,
+        "path": "audio/audio_event/2512dongri_boss_fight",
+        "timeLength": 0,
+        "type": "event"
+    },
+    {
+        "id": 10377,
+        "path": "audio/audio_event/2512dongri_k.o.",
+        "timeLength": 0,
+        "type": "event"
+    },
+    {
+        "id": 10378,
+        "path": "audio/audio_event/2404ba_success",
+        "timeLength": 0,
+        "type": "event"
+    },
+    {
+        "id": 10379,
+        "path": "audio/audio_event/2404ba_failure",
+        "timeLength": 0,
+        "type": "event"
+    },
+    {
+        "id": 10380,
+        "path": "audio/audio_event/2406haidao_reward_ui_open",
+        "timeLength": 0,
+        "type": "event"
+    },
+    {
         "id": 305032,
         "path": "audio/audio_mj/effect_liqi_canying",
         "timeLength": 1314,
@@ -1968,6 +2034,12 @@
         "type": "effect"
     },
     {
+        "id": 30520011,
+        "path": "audio/audio_mj/ron_25dongri",
+        "timeLength": 0,
+        "type": "effect"
+    },
+    {
         "id": 305224,
         "path": "audio/audio_mj/ron_23ex_heidong",
         "timeLength": 0,
@@ -2204,6 +2276,12 @@
     {
         "id": 30530010,
         "path": "audio/audio_mj/effect_liqi_25summer",
+        "timeLength": 0,
+        "type": "effect"
+    },
+    {
+        "id": 30530011,
+        "path": "audio/audio_mj/effect_liqi_25dongri",
         "timeLength": 0,
         "type": "effect"
     },

@@ -3166,5 +3166,53 @@
         "priority": 40083,
         "unlockType": 1,
         "crossView": 0
+    },
+    {
+        "unlockParam": [
+            30557047,
+            0,
+            0,
+            0
+        ],
+        "id": 600141,
+        "nameChs": "神社杯冠军",
+        "nameChsT": "神社杯冠軍",
+        "nameJp": "神社杯冠軍",
+        "nameEn": "神社杯冠軍",
+        "nameKr": "神社杯冠軍",
+        "descChs": "赠予神社杯冠军",
+        "descChsT": "贈予神社杯冠軍",
+        "descJp": "贈予神社杯冠軍",
+        "descEn": "贈予神社杯冠軍",
+        "descKr": "贈予神社杯冠軍",
+        "icon": "extendRes/title/25shenshebei.png",
+        "iconItem": "extendRes/title/25shenshebei_item.jpg",
+        "priority": 40084,
+        "unlockType": 1,
+        "crossView": 0
+    },
+    {
+        "unlockParam": [
+            30557048,
+            0,
+            0,
+            0
+        ],
+        "id": 600142,
+        "nameChs": "逐鹿战冠军",
+        "nameChsT": "逐鹿戰冠軍",
+        "nameJp": "逐鹿戰冠軍",
+        "nameEn": "逐鹿戰冠軍",
+        "nameKr": "逐鹿戰冠軍",
+        "descChs": "赠予逐鹿战冠军",
+        "descChsT": "贈予逐鹿戰冠軍",
+        "descJp": "贈予逐鹿戰冠軍",
+        "descEn": "贈予逐鹿戰冠軍",
+        "descKr": "贈予逐鹿戰冠軍",
+        "icon": "extendRes/title/25zhuluzhan.png",
+        "iconItem": "extendRes/title/25zhuluzhan_item.jpg",
+        "priority": 40085,
+        "unlockType": 1,
+        "crossView": 0
     }
 ]

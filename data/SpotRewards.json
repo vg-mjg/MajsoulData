@@ -1268,5 +1268,75 @@
         "contentEn": "Unlock the Ending - The Ultimate Coffee",
         "contentKr": "End7. 궁극의 커피",
         "reward": "100002-12000"
+    },
+    {
+        "id": 900011,
+        "type": 1,
+        "contentChs": "解锁结局【青春悸动攻略】",
+        "contentChsT": "解鎖結局【青春悸動攻略】",
+        "contentJp": "End1.青春のときめき",
+        "contentEn": "Unlock the Ending - Unspoken Feelings",
+        "contentKr": "End1. 두근두근 청춘 프로젝트",
+        "reward": "302005-1"
+    },
+    {
+        "id": 900012,
+        "type": 3,
+        "contentChs": "解锁结局【超出工期的艺术】",
+        "contentChsT": "解鎖結局【超出工期的藝術】",
+        "contentJp": "End2.暴走するお嬢様",
+        "contentEn": "Unlock the Ending - Noble Power Unleashed",
+        "contentKr": "End2. 폭주하는 돈의 힘",
+        "reward": "100002-8000"
+    },
+    {
+        "id": 900013,
+        "type": 2,
+        "contentChs": "解锁结局【失控的钞能力】",
+        "contentChsT": "解鎖結局【失控的鈔能力】",
+        "contentJp": "End3.好事魔多し",
+        "contentEn": "Unlock the Ending - The Belated Artworks",
+        "contentKr": "End3. 마감 시간이 끝난 예술",
+        "reward": "100002-12000"
+    },
+    {
+        "id": 900021,
+        "type": 1,
+        "contentChs": "解锁结局【泽尼娅的世界】",
+        "contentChsT": "解鎖結局【澤尼婭的世界】",
+        "contentJp": "End4.ジニアの世界",
+        "contentEn": "Unlock the Ending - Xenia's World",
+        "contentKr": "End4. 지니아의 세계",
+        "reward": "304005-1"
+    },
+    {
+        "id": 900022,
+        "type": 2,
+        "contentChs": "解锁结局【城堡观光日】",
+        "contentChsT": "解鎖結局【城堡觀光日】",
+        "contentJp": "End5.お屋敷見学ツアー",
+        "contentEn": "Unlock the Ending - Sightseeing at the Manor",
+        "contentKr": "End5. 성 나들이 날",
+        "reward": "302006-1"
+    },
+    {
+        "id": 900031,
+        "type": 1,
+        "contentChs": "解锁结局【此刻启程】",
+        "contentChsT": "解鎖結局【此刻啟程】",
+        "contentJp": "End6.旅立ちの時",
+        "contentEn": "Unlock the Ending - The Journey Begins",
+        "contentKr": "End6. 여정의 시작",
+        "reward": "302001-1"
+    },
+    {
+        "id": 900032,
+        "type": 3,
+        "contentChs": "解锁结局【势在必得】",
+        "contentChsT": "解鎖結局【勢在必得】",
+        "contentJp": "End7.ジニア、次こそは！",
+        "contentEn": "Unlock the Ending - Through Any Barrier",
+        "contentKr": "End7. 필승의 의지",
+        "reward": "304006-1"
     }
 ]

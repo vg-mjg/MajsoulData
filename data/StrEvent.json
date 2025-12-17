@@ -72223,5 +72223,3542 @@
         "jp": "第五話\r\n何度でも打ちたくなるのが麻雀",
         "en": "Episode 5: Mahjong, the Game You Just Can't Put Down",
         "kr": "5화: 몇 번이고 치고 싶어지는 게 마작이다."
+    },
+    {
+        "id": 25120001,
+        "type": "",
+        "chs": "礼盒破坏王",
+        "chsT": "禮盒破壞王",
+        "jp": "ギフトレイダー",
+        "en": "Gift Boxer",
+        "kr": "선물 파괴왕"
+    },
+    {
+        "id": 25120002,
+        "type": "",
+        "chs": "冬青环缚灵",
+        "chsT": "冬青環縛靈",
+        "jp": "リースの幽霊",
+        "en": "Wreath Wraith",
+        "kr": "리스 유령"
+    },
+    {
+        "id": 25120003,
+        "type": "",
+        "chs": "凛冬守墓人",
+        "chsT": "凜冬守墓人",
+        "jp": "冬の墓守",
+        "en": "Chainsnow Man",
+        "kr": "겨울 묘지기"
+    },
+    {
+        "id": 25120004,
+        "type": "",
+        "chs": "狂暴的圣诞树",
+        "chsT": "狂暴的聖誕樹",
+        "jp": "ツリーの魔人",
+        "en": "Tree-Rex",
+        "kr": "광폭한 트리"
+    },
+    {
+        "id": 25120005,
+        "type": "",
+        "chs": "雪橇支配者",
+        "chsT": "雪橇支配者",
+        "jp": "ソリの魔人",
+        "en": "Lord of the Reins",
+        "kr": "썰매 지배자"
+    },
+    {
+        "id": 25120006,
+        "type": "",
+        "chs": "专业破洞手",
+        "chsT": "專業破洞手",
+        "jp": "不良ソックス",
+        "en": "Holey Hooligan",
+        "kr": "구멍파기 장인"
+    },
+    {
+        "id": 25120007,
+        "type": "",
+        "chs": "连环破洞手",
+        "chsT": "連環破洞手",
+        "jp": "暴れん坊ソックス",
+        "en": "Serial Socker",
+        "kr": "연속 구멍파기 장인"
+    },
+    {
+        "id": 25120008,
+        "type": "",
+        "chs": "幽灵拐杖糖",
+        "chsT": "幽靈拐杖糖",
+        "jp": "キャンディの幽霊",
+        "en": "Walking Cane",
+        "kr": "유령 지팡이 사탕"
+    },
+    {
+        "id": 25120009,
+        "type": "",
+        "chs": "邪恶拐杖糖",
+        "chsT": "邪惡拐杖糖",
+        "jp": "キャンディの怨霊",
+        "en": "Stalking Cane",
+        "kr": "사악한 지팡이 사탕"
+    },
+    {
+        "id": 25120010,
+        "type": "",
+        "chs": "临期杯子蛋糕",
+        "chsT": "臨期杯子蛋糕",
+        "jp": "腐りかけのケーキ",
+        "en": "Day-Old Cupcake",
+        "kr": "금방 상할 컵케이크"
+    },
+    {
+        "id": 25120011,
+        "type": "",
+        "chs": "变质杯子蛋糕",
+        "chsT": "變質杯子蛋糕",
+        "jp": "腐ったケーキ",
+        "en": "Century-Old Cupcake",
+        "kr": "상해버린 컵케이크"
+    },
+    {
+        "id": 25120012,
+        "type": "",
+        "chs": "姜饼卫兵",
+        "chsT": "薑餅衛兵",
+        "jp": "ジンジャー兵",
+        "en": "Guard of the Biscuit Keep",
+        "kr": "진저브레드 병사"
+    },
+    {
+        "id": 25120013,
+        "type": "",
+        "chs": "姜饼骑士",
+        "chsT": "薑餅騎士",
+        "jp": "ジンジャー騎士",
+        "en": "Knight of the Crumb Table",
+        "kr": "진저브레드 기사"
+    },
+    {
+        "id": 25120014,
+        "type": "",
+        "chs": "见习巫师",
+        "chsT": "見習巫師",
+        "jp": "みならいニャ術師",
+        "en": "Wannabe Witch",
+        "kr": "견습 마법사"
+    },
+    {
+        "id": 25120015,
+        "type": "",
+        "chs": "老练巫师",
+        "chsT": "老練巫師",
+        "jp": "なれはてニャ術師",
+        "en": "Wicked Witch",
+        "kr": "노련한 마법사"
+    },
+    {
+        "id": 25121001,
+        "type": "",
+        "chs": "西羽流道场第十六强弟子！",
+        "chsT": "西羽流道場第十六強弟子！",
+        "jp": "西羽流16番弟子",
+        "en": "Nishiba-ryu_rank16",
+        "kr": "니시바류 도장 Top 16 제자"
+    },
+    {
+        "id": 25121002,
+        "type": "",
+        "chs": "米亚亲卫队队长",
+        "chsT": "米亞親衛隊隊長",
+        "jp": "ミア親衛隊隊長",
+        "en": "MiaMyQueen",
+        "kr": "미야 친위대장"
+    },
+    {
+        "id": 25121003,
+        "type": "",
+        "chs": "W·I·N全员激推",
+        "chsT": "W·I·N全員激推",
+        "jp": "W·I·N箱推し",
+        "en": "AllAboutW.I.N",
+        "kr": "W·I·N 전원 덕질중"
+    },
+    {
+        "id": 25121004,
+        "type": "",
+        "chs": "永远爱W·I·N",
+        "chsT": "永遠愛W·I·N",
+        "jp": "loveW·I·Nfoever",
+        "en": "W.I.N4Ever",
+        "kr": "W·I·N 사랑 영원히"
+    },
+    {
+        "id": 25121005,
+        "type": "",
+        "chs": "一番追星仔",
+        "chsT": "一番追星仔",
+        "jp": "一番のファン",
+        "en": "OneHanNo1Stan",
+        "kr": "이한시 아이돌팬"
+    },
+    {
+        "id": 25121006,
+        "type": "",
+        "chs": "win就是我的全世界",
+        "chsT": "win就是我的全世界",
+        "jp": "winは俺の全て",
+        "en": "WINfiniteWorld",
+        "kr": "win은 내 전부"
+    },
+    {
+        "id": 25121007,
+        "type": "",
+        "chs": "自由人真的很自由",
+        "chsT": "自由人真的很自由",
+        "jp": "史上最高のCB",
+        "en": "BornFreeLibero",
+        "kr": "자유로운 리베로"
+    },
+    {
+        "id": 25121008,
+        "type": "",
+        "chs": "最强后卫",
+        "chsT": "最強後衛",
+        "jp": "自由人MF",
+        "en": "YouShallNotPass",
+        "kr": "최강 수비"
+    },
+    {
+        "id": 25121009,
+        "type": "",
+        "chs": "种瓜得瓜",
+        "chsT": "種瓜得瓜",
+        "jp": "因果応報",
+        "en": "Gossip Harvester",
+        "kr": "뭐 심은 데 뭐 난다"
+    },
+    {
+        "id": 25121010,
+        "type": "",
+        "chs": "mia～mia～",
+        "chsT": "mia～mia～",
+        "jp": "mia~mia~",
+        "en": "itsmeeemia",
+        "kr": "mia~mia~"
+    },
+    {
+        "id": 25121011,
+        "type": "",
+        "chs": "玛丽",
+        "chsT": "瑪麗",
+        "jp": "メアリー",
+        "en": "Marie",
+        "kr": "마리"
+    },
+    {
+        "id": 25121012,
+        "type": "",
+        "chs": "萨姆集团",
+        "chsT": "薩姆集團",
+        "jp": "SAMU公式",
+        "en": "Samu Corporation",
+        "kr": "샘 그룹"
+    },
+    {
+        "id": 25121013,
+        "type": "",
+        "chs": "金乌",
+        "chsT": "金烏",
+        "jp": "キンウ",
+        "en": "Jin Wu",
+        "kr": "킨우"
+    },
+    {
+        "id": 25121014,
+        "type": "",
+        "chs": "筱原米亚",
+        "chsT": "筱原米亞",
+        "jp": "篠原ミア",
+        "en": "Mia Shinohara",
+        "kr": "시노하라 미야"
+    },
+    {
+        "id": 25121015,
+        "type": "",
+        "chs": "德蒙尔",
+        "chsT": "德蒙爾",
+        "jp": "ドン・モルベ",
+        "en": "Montbel",
+        "kr": "델몬"
+    },
+    {
+        "id": 25122001,
+        "type": "",
+        "chs": "各、各位最近出门，如果戴上鹿角，就会被驯鹿精灵当成同类……或许会受到好运祝福……",
+        "chsT": "各、各位最近出門，如果戴上鹿角，就會被馴鹿精靈當成同類……或許會受到好運祝福……",
+        "jp": "み、皆さん……この前お出かけした時、鹿の角をつけてたら、大きな鹿の角を持つ精霊に仲間だと思われたみたいなの……幸運の祝福を授かったかもしれないの……",
+        "en": "Um... if you wear antlers outside, the Reindeer Spirit might think you're one of its own... You could even get a luck buff...",
+        "kr": "요, 요즘 밖에 사슴뿔을 달고 나가면, 순록 정령들이 동족으로 생각하고…… 축복을 내려 줘……"
+    },
+    {
+        "id": 25122002,
+        "type": "",
+        "chs": "哇！没想到老哥和妈妈说的驯鹿精灵是真的！它是不是圆滚滚的？会在平安夜用暖呼呼的魔法给大家送礼物？",
+        "chsT": "哇！沒想到老哥和媽媽說的馴鹿精靈是真的！牠是不是圓滾滾的？會在平安夜用暖呼呼的魔法給大家送禮物？",
+        "jp": "わー！お兄とお母さんが言ってた「トナカイの精霊」って、ほんとにいたんだ！もしかして、その精霊さんって丸っこかったりする？ クリスマスイブに、ほかほかの魔法でみんなにプレゼントを配ってくれるとか？",
+        "en": "Wow... so the Reindeer Spirit is real, just like my mom and brother said! Is it all round and fluffy? Does it use warm, glowing magic to bring us gifts on Christmas Eve?",
+        "kr": "와! 오빠랑 엄마가 말한 순록 정령이 진짜였다니! 동글동글하게 생겼어? 크리스마스이브에 포근한 마법으로 모두에게 선물을 주는 그 정령 맞지?"
+    },
+    {
+        "id": 25122003,
+        "type": "",
+        "chs": "嗯……它高高瘦瘦的，鹿角和牙齿都尖尖的，背上有很多骨刺，眼睛冒着红光……很漂亮……！",
+        "chsT": "嗯……牠高高瘦瘦的，鹿角和牙齒都尖尖的，背上有很多骨刺，眼睛冒著紅光……很漂亮……！",
+        "jp": "えっと……背は高くて、すらっとしていて、立派な角で歯も鋭くて、背中には骨の棘がたくさん生えてて、目は赤く光ってて……\r\nとにかく、とても綺麗だったの……！",
+        "en": "It's... tall and skinny... Like, really sharp antlers and teeth. And bone spikes all down its spine. Its eyes glow red... So gorgeous...!",
+        "kr": "응…… 키가 크고 날씬해. 뾰족한 뿔과 이빨을 가지고 있었어. 등에 가시도 잔뜩 나 있고, 새빨간 눈빛이…… 정말 예뻐……!"
+    },
+    {
+        "id": 25122004,
+        "type": "",
+        "chs": "噫？！怎、怎么像是在都市传说里出现的东西……绫子你还好吗……？！",
+        "chsT": "噫？！怎、怎麼像是在都市傳說裡出現的東西……綾子你還好嗎……？！",
+        "jp": "ひぃっ！？そ、それってトナカイじゃなくてヘラジカの角を持つ冬の精霊じゃ…。\r\n綾子ちゃん、ほんとに大丈夫……！？",
+        "en": "Eep?! Th-that sounds like something from a creepypasta... Ayako, you're okay, right...?",
+        "kr": "에?! 도, 도시 괴담에 나오는 거 아닌가…… 아야코, 괜찮아……?"
+    },
+    {
+        "id": 25122005,
+        "type": "",
+        "chs": "没、没关系，因为我戴了鹿角，现在已经和它成为朋友了，不用担心……",
+        "chsT": "沒、沒關係，因為我戴了鹿角，現在已經和牠成為朋友了，不用擔心……",
+        "jp": "だ、大丈夫なの！\r\n鹿の角をつけているし、もうあの子とはお友達だから……",
+        "en": "Y-yeah, I'm fine! I had the antlers on, so... the spirit and I are friends now. Really, don't worry...",
+        "kr": "괘, 괜찮아. 사슴뿔을 달아서, 이제는 친구가 됐어. 걱정하지 않아도 돼……"
+    },
+    {
+        "id": 25122006,
+        "type": "",
+        "chs": "分析：市售“鹿角装饰”多为聚酯纤维材质，无生物特征或可识别芯片。疑问：目标实体“驯鹿精灵”该如何识别佩戴者KR-976为“同类”？",
+        "chsT": "分析：市售「鹿角裝飾」多為聚酯纖維材質，無生物特徵或可識別晶片。疑問：目標實體「馴鹿精靈」該如何識別佩戴者KR-976為「同類」？",
+        "jp": "分析：市販の「鹿の角飾り」の主な素材はポリエステル。そのため、動物としての特徴を持たない。また、内部に識別チップの類も認められない。\r\n疑問：実体「ヘラジカの精霊」は、どのようにしてアイテム「鹿の角飾り」の装着者を「同類」と識別しているのか。",
+        "en": "Analysis: Commercial antler accessories are mostly polyester. No RFID or biological traits found.\\nQuery: How would entity \"Reindeer Spirit\" identify KR-976 as \"one of its own\"?",
+        "kr": "분석: 시장에 판매 중인 '사슴뿔 액세서리'는 대부분 폴리에스테르 섬유 재질로, 생물 인식 요소나 식별 칩이 없습니다. \\n질문: '순록 정령'은 '사슴뿔 액세서리' 착용자 KR-976을 어떻게 '동족'으로 식별합니까?"
+    },
+    {
+        "id": 25122007,
+        "type": "",
+        "chs": "不、不用担心，它不会迷路的。可以多看看背后，它会悄悄跟上你的。",
+        "chsT": "不、不用擔心，牠不會迷路的。可以多看看背後，牠會悄悄跟上你的。",
+        "jp": "そんなに難しいことではないの。あの子、賢いの……。\r\nこれを付けて外に出る時は、後ろをよく見てみてほしいの。いつも静かについてきてくれるの。",
+        "en": "N-no need to worry... It knows exactly where you are. Maybe just check behind you sometimes? It likes to follow... quietly.",
+        "kr": "걱, 걱정하지 않아도 돼. 순록 정령은 길을 잃지 않아. 뒤를 돌아보면, 조용히 따라오고 있을 거야."
+    },
+    {
+        "id": 25122008,
+        "type": "",
+        "chs": "正在重新配置防范模块，已将驯鹿精灵设定为高危险目标……",
+        "chsT": "正在重新配置防範模組，已將馴鹿精靈設定為高危險目標……",
+        "jp": "防御モジュール再設定中。実体「ヘラジカの精霊」を高危険度ターゲットに設定！",
+        "en": "Reconfiguring defense modules. Entity \"Reindeer Spirit\" flagged as Threat Level: High...",
+        "kr": "방범 모듈을 재설정하는 중입니다. 순록 정령을 고위험 타깃으로 설정했습니다……"
+    },
+    {
+        "id": 25122009,
+        "type": "",
+        "chs": "声明：KR-976并未对该不明生物产生恐惧反射与回避行为。“鹿角装饰”方案，因影响KR-976的天线接收效率，暂时搁置……！",
+        "chsT": "聲明：KR-976並未對該不明生物產生恐懼反射與回避行為。「鹿角裝飾」方案，因影響KR-976的天線接收效率，暫時擱置……！",
+        "jp": "※追記：これは、KR-976の当該未確認生命体に対する恐怖反射および回避行動を意味するものではない。\r\nしかし、「鹿の角飾り」の装着は、KR-976のアンテナ受信効率に影響を及ぼすため、一時保留。",
+        "en": "Clarification: KR-976 is not exhibiting fear reflexes or avoidance behaviors toward this unknown entity.\\nProject \"Antler\" temporarily suspended... solely due to interference with antenna reception!",
+        "kr": "알림: KR-976은 해당 미확인 생명체에 공포 반사 및 회피 행동을 보이지 않았습니다.\\n'사슴뿔 액세서리' 안건은 KR-976의 안테나 수신 효율 문제로 일시 보류합니다……!"
+    },
+    {
+        "id": 25122010,
+        "type": "",
+        "chs": "哈、哈哈……绫子妹妹的节目天赋依旧啊。",
+        "chsT": "哈、哈哈……綾子妹妹的節目天賦依舊啊。",
+        "jp": "は、ははは……。綾子ちゃん、相変わらず配信者としての才能ありすぎ。",
+        "en": "Lol... Ayako still got that natural gift for making content, huh?",
+        "kr": "하, 하하…… 아야코의 방송 재능은 여전하네."
+    },
+    {
+        "id": 25122011,
+        "type": "",
+        "chs": "贞子说，上次一起玩得很开心……想要介绍新朋友给你……",
+        "chsT": "貞子說，上次一起玩得很開心……想要介紹新朋友給你……",
+        "jp": "貞子も、この前、一緒に遊べてすごく楽しかったって言ってるの。",
+        "en": "Sadako said she had fun hanging out last time... She wants to introduce a new friend to you...",
+        "kr": "사다코가 지난번에 같이 놀아서 즐거웠대…… 새로 사귄 친구도 너에게 소개해 주고 싶다고……"
+    },
+    {
+        "id": 25122012,
+        "type": "",
+        "chs": "“深夜寻找恐怖驯鹿限定直播”……听起来播放量有保障了，就这样同时制霸游戏区和恐怖区吧哈哈哈！",
+        "chsT": "「深夜尋找恐怖馴鹿限定直播」……聽起來播放量有保障了，就這樣同時制霸遊戲區和恐怖區吧哈哈哈！",
+        "jp": "「深夜の恐怖のヘラジカ探し限定配信」…これは同接数稼げそうだな。\r\nこれでゲームとホラーの2カテゴリー制覇といくぞ！",
+        "en": "\"EXCLUSIVE LIVESTREAM: FINDING THE CRYPTID REINDEER AT MIDNIGHT\"... That title is gonna print views. Time to dominate the gaming and horror categories at once! Lmaooo!",
+        "kr": "'한밤중 공포의 순록 찾기 특별 라이브'…… 시청률 완전 잘 나올 것 같은데, 이걸로 게임이랑 공포 카테고리 먹어버리자, 아하핫!"
+    },
+    {
+        "id": 25122013,
+        "type": "",
+        "chs": "……驯鹿精灵说，它也很期待和你见面……",
+        "chsT": "……馴鹿精靈說，牠也很期待和你見面……",
+        "jp": "……ヘラジカの精霊が、響さんに会えるのを楽しみにしてるって……\r\nきっと、幸運がたくさん舞い込んでくるの……。",
+        "en": "The Reindeer Spirit said it's excited to meet you...",
+        "kr": "……순록 정령이 얼른 너를 만나고 싶대……"
+    },
+    {
+        "id": 25122014,
+        "type": "",
+        "chs": "我戴上的话能不能给绫子带来好运？",
+        "chsT": "我戴上的話能不能給綾子帶來好運？",
+        "jp": "私も一緒につけたら、森川さんにも幸運をもたらせたりする？",
+        "en": "If I wear them, do you get the good luck buff, Ayako?",
+        "kr": "내가 쓰면 아야코에게 행운을 가져다줄 수 있을까?"
+    },
+    {
+        "id": 25122015,
+        "type": "",
+        "chs": "嗯……驯鹿精灵说，如果两个人都戴上鹿角的话，会加倍收获好运的……！",
+        "chsT": "嗯……馴鹿精靈說，如果兩個人都戴上鹿角的話，會加倍收穫好運的……！",
+        "jp": "うん……！ ヘラジカの精霊が、二人で一緒に鹿の角をつけたら、幸運が二倍になるって言ってたの……！",
+        "en": "Uhm... the Reindeer Spirit said if two people wear antlers together... they'll get a double luck buff...",
+        "kr": "응…… 순록 정령이 그랬어, 두 사람이 같이 사슴뿔을 쓰면 행운이 두 배로 온다고……!"
+    },
+    {
+        "id": 25122016,
+        "type": "",
+        "chs": "好可爱啊！！",
+        "chsT": "好可愛啊！！",
+        "jp": "可愛い！！",
+        "en": "Awww so cute!!!",
+        "kr": "진짜 귀엽잖아!!"
+    },
+    {
+        "id": 25122017,
+        "type": "",
+        "chs": "{name}喜欢就好……鹿角是花子和贞子帮忙挑的，我在上面用缎带扎了蝴蝶结……",
+        "chsT": "{name}喜歡就好……鹿角是花子和貞子幫忙挑的，我在上面用緞帶綁了蝴蝶結……",
+        "jp": "{name}さんに気に入ってもらえてよかったの……。\r\nこの鹿の角、花子と貞子が選んでくれたの。リボンを結んだのは、私……。",
+        "en": "Glad you like them, {name}... Hanako and Sadako helped me pick them out, and I added the ribbon bows...",
+        "kr": "너가 좋아한다니 다행이야…… 사슴뿔은 하나코랑 사다코가 골라준 거고, 내가 그 위에 리본을 묶었어……"
+    },
+    {
+        "id": 25122018,
+        "type": "",
+        "chs": "……还有贞子问，{name}圣诞节有没有空，大家都很想和{name}在圣诞节一起出门……",
+        "chsT": "……還有貞子問，{name}聖誕節有沒有空，大家都很想和{name}在聖誕節一起出門……",
+        "jp": "……あ、貞子が、{name}さんはクリスマス、空いてるかなって。\r\nみんな、{name}さんとクリスマスに一緒にお出かけしたいって言ってるの。",
+        "en": "Also, Sadako was asking if you're free on Christmas... We really want to hang out with you...",
+        "kr": "……그리고 사다코가 {name}한테 크리스마스에 시간이 있는지 물어봤어……다들 너랑 크리스마스에 나가서 놀고 싶어 해……"
+    },
+    {
+        "id": 25122019,
+        "type": "",
+        "chs": "丽莎丽莎家附近的雪真的好大！大家一起到丽莎丽莎家来堆雪人吧！",
+        "chsT": "麗莎麗莎家附近的雪真的好大！大家一起到麗莎麗莎家來堆雪人吧！",
+        "jp": "リサリサのうちのあたり、すごい雪だよ！みんな、リサリサのとこに来て、一緒に雪だるま作ろ！",
+        "en": "The snow here is INSANE! Hey everyone, come over and let's build a snowman!",
+        "kr": "리사리사 동네에 눈이 진짜 많이 왔어! 다들 리사리사 집에 와서 같이 눈사람 만들자!"
+    },
+    {
+        "id": 25122020,
+        "type": "",
+        "chs": "一番市今年只下了小雪诶，这是哪里，为什么雪这么大？！",
+        "chsT": "一番市今年只下了小雪耶，這是哪裡，為什麼雪這麼大？！",
+        "jp": "今年、一飜市はそんなに雪降ってないはずだけど、ここどこ？なんでこんなに雪がすごいのー！？",
+        "en": "Aahhh, we only got like an inch of snow in One Han City. Where is this? How is the snow so heavy?!",
+        "kr": "이한시는 올해 눈이 거의 안 내렸는데. 거기는 어디길래 눈이 그렇게 많이 온 거야?!"
+    },
+    {
+        "id": 25122021,
+        "type": "",
+        "chs": "是安卡牧场哦～丽莎丽莎从小生活的地方～",
+        "chsT": "是安卡牧場哦～麗莎麗莎從小生活的地方～",
+        "jp": "アンカー牧場だよ～。リサリサ、小さい頃はここに住んでたんだ～！",
+        "en": "Anca Ranch! It's where Liisa Liisa grew up!",
+        "kr": "안카 목장이야~ 리사리사가 자란 곳이지~"
+    },
+    {
+        "id": 25122022,
+        "type": "",
+        "chs": "好厉害，简直就和漫画里一样……天气预报说一番市也有可能会下大雪，拜托了，我也想堆雪人……！",
+        "chsT": "好厲害，簡直就和漫畫裡一樣……天氣預報說一番市也有可能會下大雪，拜託了，我也想堆雪人……！",
+        "jp": "すっご、もはや漫画じゃん…。\r\nそういえば、天気予報によると、これから一飜市も大雪になるかもしれないんだって。ウチも雪だるま作りたーい！",
+        "en": "SO COOL. It looks like a scene out of a manga... The forecast says One Han City might get a snow dump too. Pls god I wanna build a snowman so bad...",
+        "kr": "대단해, 완전히 만화 같잖아…… 일기예보에서는 이한시에도 눈이 많이 올 가능성이 있다고 하던데, 제발…… 나도 눈사람 만들고 싶다구……!"
+    },
+    {
+        "id": 25122023,
+        "type": "",
+        "chs": "呆呆长胖了呢，看起来好可爱！",
+        "chsT": "呆呆長胖了呢，看起來好可愛！",
+        "jp": "ぽややんちゃん、まんまるになったね～。とっても可愛い～！",
+        "en": "Shaun's looking so chubby, so cute!",
+        "kr": "뽀요용 살쪘네요. 진짜 귀여워요!"
+    },
+    {
+        "id": 25122024,
+        "type": "",
+        "chs": "哼哼哼～不是长胖哦，呆呆变得蓬蓬的，是因为换上了冬毛～现在的呆呆抱起来又舒服又暖和喔！",
+        "chsT": "哼哼哼～不是長胖哦，呆呆變得蓬蓬的，是因為換上了冬毛～現在的呆呆抱起來又舒服又暖和喔！",
+        "jp": "ふっふっふ、これは太ったからじゃないんだよ。冬毛に生え変わったからなんだ～！\r\nこの時期のぽややんは、暖かくて抱き心地が最高だよ！",
+        "en": "Hehe! Shaun's just all fluffed up for winter! Makes for the best hugs right now!",
+        "kr": "흥흥흥~ 뽀요용은 살이 찐 게 아니고, 복슬복슬한 겨울 털로 갈아입은 거야~ 지금의 뽀요용은 안고 있으면 따뜻하고 포근해!"
+    },
+    {
+        "id": 25122025,
+        "type": "",
+        "chs": "哇啊——好厚的雪，说不定藏着仙境的入口呢～",
+        "chsT": "哇啊——好厚的雪，說不定藏著仙境的入口呢～",
+        "jp": "はわわわ、すごいゆきなのです！\r\nおとぎの国の入り口がかくされてるかもしれないのです！",
+        "en": "Whoa! Look at all that snow! Maybe there's a secret entrance to Wonderland hidden underneath.",
+        "kr": "와~~ 눈이 많이 쌓였네요. 이상한 나라의 입구가 숨겨져 있을지도 모른다는 거예요~"
+    },
+    {
+        "id": 25122026,
+        "type": "",
+        "chs": "当然啦！可能还有雪兔子安家呢，跟丽莎丽莎一起去找找看吧！",
+        "chsT": "當然啦！可能還有雪兔子安家呢，跟麗莎麗莎一起去找找看吧！",
+        "jp": "そうだね～！ゆきうさぎさんのおうちもあるかも。\r\nリサリサといっしょに探しに行こ？",
+        "en": "Yes! Probably snow bunnies nesting in there! Let's go find them together!",
+        "kr": "당연하지! 눈토끼가 포근한 집을 지었을지도 몰라. 리사리사랑 같이 찾아보자!"
+    },
+    {
+        "id": 25122027,
+        "type": "",
+        "chs": "好像一大块椰子慕斯，光是看着心灵就被治愈了！",
+        "chsT": "好像一大塊椰子慕斯，光是看著心靈就被治癒了！",
+        "jp": "まるで巨大なココナッツムースみたいだ。見てるだけで癒されるなあ。",
+        "en": "Looks like a giant coconut mousse. Just looking at it is so satisfying.",
+        "kr": "코코넛 무스 같은데, 보고만 있어도 힐링 되는 기분인걸!"
+    },
+    {
+        "id": 25122028,
+        "type": "",
+        "chs": "唔姆姆……这么一说丽莎丽莎也有点饿了，一番市的甜品可以寄到安卡牧场就好了！",
+        "chsT": "唔姆姆……這麼一說麗莎麗莎也有點餓了，一番市的甜品可以寄到安卡牧場就好了！",
+        "jp": "むむむ…そう言われると、リサリサまでお腹すいてきちゃった。\r\n一飜市のお菓子、アンカー牧場まで届けてもらえたらいいのになー！",
+        "en": "Mmm... now Liisa Liisa is hungry. Wish I could get deserts from One Han City out here to Anca Ranch!",
+        "kr": "으으음…… 그 말을 들으니까, 리사리사도 배가 조금 고픈 것 같아. 이한시에서 안카 목장으로 디저트를 부칠 수 있다면 좋을 텐데!"
+    },
+    {
+        "id": 25122029,
+        "type": "",
+        "chs": "手上的呆呆好逼真！",
+        "chsT": "手上的呆呆好逼真！",
+        "jp": "手のひらサイズのぽややん、本物そっくり！",
+        "en": "That mini snow Shaun you're holding looks so real!",
+        "kr": "손에 있는 뽀요용 진짜 같아!"
+    },
+    {
+        "id": 25122030,
+        "type": "",
+        "chs": "诶嘿嘿～接下来丽莎丽莎要堆一个狼先生的雪人！",
+        "chsT": "誒嘿嘿～接下來麗莎麗莎要堆一個狼先生的雪人！",
+        "jp": "えへへ～ リサリサ、今度はオオカミさんの雪だるまを作るよ～！",
+        "en": "Hehehe! Next I'm gonna build a Mr. Wolf snowman!",
+        "kr": "후헤헤~ 이제 리사리사는 늑대 씨 눈사람을 만들 거야!"
+    },
+    {
+        "id": 25122031,
+        "type": "",
+        "chs": "艾丽莎真的不冷吗？",
+        "chsT": "艾麗莎真的不冷嗎？",
+        "jp": "エリサさん、寒くないの？",
+        "en": "Seriously, Eliisa, aren't you cold?",
+        "kr": "엘리사, 정말 안 추워?"
+    },
+    {
+        "id": 25122032,
+        "type": "",
+        "chs": "没问题！丽莎丽莎可是从小在这里长大的！",
+        "chsT": "沒問題！麗莎麗莎可是從小在這裡長大的！",
+        "jp": "大丈夫！リサリサはここで育ってるから、慣れてるんだ～！",
+        "en": "I'm fine! Liisa Liisa grew up in this weather!",
+        "kr": "물론! 리사리사는 어릴 때부터 여기서 살았다구!"
+    },
+    {
+        "id": 25122033,
+        "type": "",
+        "chs": "哦！是不是狼先生自己很冷呢？那丽莎丽莎就给狼先生一个温暖的抱抱吧～",
+        "chsT": "哦！是不是狼先生自己很冷呢？那麗莎麗莎就給狼先生一個溫暖的抱抱吧～",
+        "jp": "あっ！もしかして、寒いのはオオカミさんの方？\r\nじゃあ、リサリサがぎゅーってして、あったかくしてあげる～！",
+        "en": "Ooh! Someone's feeling chilly! Come here, I'll give you a big warm hug!",
+        "kr": "아! 늑대 씨, 추운 거야? 그러면 리사리사가 늑대 씨를 따뜻하게 안아줄게~"
+    },
+    {
+        "id": 25122034,
+        "type": "",
+        "chs": "圣诞特调配方公开！\\n基酒用陈年朗姆，浇注鲜红的蔓越莓汁，搭配杯口松脆的烤杏仁碎——\\n啊啊……在混沌暗夜中熊熊燃烧的圣诞树，我该如何将你宣之于口？",
+        "chsT": "聖誕特調配方公開！\\n基酒用陳年萊姆酒，注入鮮紅的蔓越莓汁，搭配杯口鬆脆的烤杏仁碎——\\n啊啊……在混沌暗夜中熊熊燃燒的聖誕樹，我該如何將你宣之於口？",
+        "jp": "クリスマスのスペシャルレシピを公開しよう！\r\nベースは熟成されたラム酒。そこに注ぎしは、鮮血の如きクランベリージュース。グラスの縁には、サクサク食感のローストアーモンドスライスを添えて――\r\nああ……混沌たる闇夜に燃え盛るクリスマスツリーよ。我は汝を、如何にして詠い上げれば良いのだろうか？",
+        "en": "My Xmas Special recipe... REVEALED!\\nA foundation of aged rum. A sanguine flood of cranberry. And the chalice, rimmed with crushed roasted almonds...\\nO Tannenbaum, blazing against the chaotic void of night! How can mere mortal words ever hope to do you justice?",
+        "kr": "크리스마스 스페셜 칵테일 공개!\\n베이스용 럼에 새빨간 크랜베리 주스를 붓고, 바삭하게 구운 아몬드를 올리면……\\n아아…… 혼돈의 밤 속 활활 타오르는 크리스마스트리여, 너의 이름을 뭐라고 불러야 할지!"
+    },
+    {
+        "id": 25122035,
+        "type": "",
+        "chs": "在线等，要像「白夜」的出场那样让人刻骨铭心、灵魂战栗啊！",
+        "chsT": "在線等，要像「白夜」的出場那樣讓人刻骨銘心、靈魂戰慄啊！",
+        "jp": "誰か、どうか知恵を授けてくれ！ 「白夜」の登場シーンのごとく、人々の心に深く刻まれ、魂を震わせるような名を付けてやりたいのだ！",
+        "en": "I'm taking suggestions. The name has to be as memorable and soul-crushing as White Night's first appearance!",
+        "kr": "빠른 응답을 기다리겠다. '백야'의 등장처럼 뼛속 깊이 새겨지고, 영혼을 전율케 할 그런 이름을!"
+    },
+    {
+        "id": 25122036,
+        "type": "",
+        "chs": "又是起名字啊，那就叫“暗夜圣诞树”吧？客人看到就知道是圣诞特调啦。",
+        "chsT": "又是起名字啊，那就叫「暗夜聖誕樹」吧？客人看到就知道是聖誕特調啦。",
+        "jp": "また名前付け遊び？ ……じゃあ、「闇夜のクリスマスツリー」は？\r\nこれなら、お客さんもクリスマス限定だってすぐわかるでしょ。",
+        "en": "We need a name again? How about... \"Midnight Christmas Tree\"? Customers will instantly get that it's the holiday special.",
+        "kr": "또 이름 짓는 거야? '다크 나이트 트리'는 어때? 손님들이 크리스마스 스페셜 칵테일이라는 걸 바로 알 수 있을 것 같은데 말이야."
+    },
+    {
+        "id": 25122037,
+        "type": "",
+        "chs": "太平庸了！我的灵魂共鸣之作，需要的是那种——黑暗中窥见光明的救赎感和宿命感！",
+        "chsT": "太平庸了！我的靈魂共鳴之作，需要的是那種——黑暗中窺見光明的救贖感和宿命感！",
+        "jp": "凡庸すぎる！ 我が魂の共鳴により生まれたこの傑作には、そう――闇にあって光明を見出すような救済と、宿命を感じさせる名が必要なのだ！",
+        "en": "So basic! My magnum opus needs to have that vibe, you know? Like finding light in the abyss, that feeling of destiny and redemption!",
+        "kr": "너무 평범해! 내 영혼을 쏟아부은 작품에 필요한 건 그거야…… 어둠 속 한 줄 빛줄기에서 느낄 수 있는 구원과 운명!"
+    },
+    {
+        "id": 25122038,
+        "type": "",
+        "chs": "……老哥的要求太高了，妈妈你上吧！[tag]@德蒙尔[/tag]",
+        "chsT": "……老哥的要求太高了，媽媽你上吧！[tag]@德蒙爾[/tag]",
+        "jp": "お兄ちゃんのくせに、注文多すぎ。\r\n[tag]@ドン・モルベ[/tag]ママ、あとは頼んだ！",
+        "en": "Brother... your standards are insane. Mom, you're up! [tag]@Montbel[/tag]",
+        "kr": "……오빠는 진짜 까다로워. 엄마 출동! [tag]@델몬[/tag]"
+    },
+    {
+        "id": 25122039,
+        "type": "",
+        "chs": "“基于乙醇浓度3.2%与花青素显色反应的冬季限定复合流体”",
+        "chsT": "「基於乙醇濃度3.2%與花青素顯色反應的冬季限定複合流體」",
+        "jp": "「3.2%のエタノールと、アントシアニンの発色反応に基づいた冬季限定混合液」",
+        "en": "\"Seasonal Composite Fluid – Winter Edition (3.2% EtOH, Anthocyanin-Based Coloration)\"",
+        "kr": "에탄올 3.2%와 안토시아닌 발색 반응을 기반으로 한 겨울 한정 복합 유체"
+    },
+    {
+        "id": 25122040,
+        "type": "",
+        "chs": "不愧是小唯唯！不过，风味分子之间的相互作用才是美味的关键，我建议在名字中突出酯类物质的协同作用……",
+        "chsT": "不愧是小唯唯！不過，風味分子之間的相互作用才是美味的關鍵，我建議在名字中突出酯類物質的協同作用……",
+        "jp": "さっすがゆいちん！\r\nけど、美味しさの鍵は香りの分子の相互作用だよ。だから、エステル類の相乗効果を強調した方がいいと思うな。",
+        "en": "That's my Yui! But the key to flavor is the interaction of the molecules. I suggest the name highlight the synergistic effect of the esters...",
+        "kr": "역시 유이유이! 하지만 풍미 분자의 상호작용이야말로 맛의 핵심이니까, 이름에 에스터류의 시너지 효과를 부각하는 게 좋을 것 같은데……"
+    },
+    {
+        "id": 25122041,
+        "type": "",
+        "chs": "“圣诞风味分子协同体α-01型鸡尾酒”怎么样？！",
+        "chsT": "「聖誕風味分子協同體α-01型雞尾酒」怎麼樣？！",
+        "jp": "てことで……\r\n「クリスマス風フレーバー分子シナジー体α-01型」なんてどう！？",
+        "en": "How about \"Xmas Molecular Synergy Complex: Cocktail Type α-01\"?!",
+        "kr": "'크리스마스 풍미 분자 공명체 α-01형 칵테일' 어때?!"
+    },
+    {
+        "id": 25122042,
+        "type": "",
+        "chs": "冰块让酒液保持在5℃时，分子协同效应最佳。",
+        "chsT": "冰塊讓酒液保持在5℃時，分子協同效應最佳。",
+        "jp": "氷で溶液の温度を5℃に保つことで、分子の相乗効果が最大化される。",
+        "en": "The molecular synergy is optimized when ice keeps the liquid at 5°C.",
+        "kr": "얼음으로 주류를 5°C 정도로 유지할 때, 분자의 시너지 효과가 가장 좋을 거야."
+    },
+    {
+        "id": 25122043,
+        "type": "",
+        "chs": "！！有道理，这也是味道好的关键！所以最终的名字应该是——“低温约束态圣诞风味共振体α-01·冬”！",
+        "chsT": "！！有道理，這也是味道好的關鍵！所以最終的名字應該是——「低溫約束態聖誕風味共振體α-01·冬」！",
+        "jp": "！！\r\nなるほど、美味しさの鍵はそんな所にも隠れてたんだ！\r\nとなると……「低温束縛状態フレーバー共鳴混成体α-01・冬」で決まり！",
+        "en": "That makes sense!! That's critical for the flavor profile! So the final name has to be... \"Cryo-Constrained Xmas Flavor Resonance Complex α-01: Winter\"!",
+        "kr": "!! 일리 있어. 그것도 맛의 핵심이지! 그렇다면 최종 이름은 '저온 결속 크리스마스 풍미 공명체 α-01·윈터'로 하자!"
+    },
+    {
+        "id": 25122044,
+        "type": "",
+        "chs": "嗯……不错，很酷。果然我的得意之作，什么风格的名字都适配啊哈哈哈哈哈！",
+        "chsT": "嗯……不錯，很酷。果然我的得意之作，什麼風格的名字都適合啊哈哈哈哈哈！",
+        "jp": "ふむ……悪くない。いや、むしろ良いぞ。\r\nさすがは我が会心の作、如何なる名も似合ってしまうとはな、はっはっはっは！",
+        "en": "Hmm... not bad. Pretty sick, actually. As expected, my magnum opus can rock any kind of name. Hahahahaha!",
+        "kr": "음…… 좋아, 멋진걸. 역시 내 걸작은 온갖 스타일의 이름이 다 잘 어울리는군. 하하하하하!"
+    },
+    {
+        "id": 25122045,
+        "type": "",
+        "chs": "呵呵，不愧是白夜，传说中的“暗夜圣咏·莓果之誓”终于找到了让它臣服的主人。",
+        "chsT": "呵呵，不愧是白夜，傳說中的「暗夜聖詠·莓果之誓」終於找到讓它臣服的主人。",
+        "jp": "ほう、さすがは白夜といったところか。\r\n伝説の「闇夜の聖詠・紅果の誓い」が、ついにかしずくべき主を見つけたのだな。",
+        "en": "Hehe, that's so White Night. The legendary \"Nocturne of Shadows: Oath of the Berry\" has finally found a master to whom it must bow.",
+        "kr": "후후, 역시 백야로군. 전설의 '밤의 성가·베리의 맹세'가 드디어 경배할 주인을 만났네."
+    },
+    {
+        "id": 25122046,
+        "type": "",
+        "chs": "多么狂野又伟大的命名思路！不过我预感到，还有命运既定的名字在等我唤醒……",
+        "chsT": "多麼狂野又偉大的命名思路！不過我預感到，還有命運既定的名字在等我喚醒……",
+        "jp": "な、なんとワイルドで、グレートなネーミングセンスだ……！\r\nぜひとも採用したいところだが、なんだこの予感は……\r\nまさか、運命に定められ、俺に呼び覚まされるのを待っている名が、まだあるというのか！？",
+        "en": "A truly magnificent name! And yet... I can feel it... There's another name, chosen by fate, waiting for me to awaken it...",
+        "kr": "이 얼마나 위대하면서도 광기 어린 네이밍 센스인가! 하지만 나는 운명이 정해놓은 그 이름이 아직 나의 부름을 기다리고 있다는 느낌이 들어……"
+    },
+    {
+        "id": 25122047,
+        "type": "",
+        "chs": "圣夜怪盗·霜刃之誓",
+        "chsT": "聖夜怪盜·霜刃之誓",
+        "jp": "聖夜の怪盗・霜刃の誓い――かな",
+        "en": "\"Phantom Thief of the Holy Night: Oath of the Frostblade\"",
+        "kr": "성스러운 밤의 괴도·서리 칼날의 맹세"
+    },
+    {
+        "id": 25122048,
+        "type": "",
+        "chs": "这、这……简直是「白夜」亲手写的预告函啊！这位伟大的知己，是否有空前来亲自品尝圣夜怪盗的心意呢？",
+        "chsT": "這、這……簡直是「白夜」親手寫的預告函啊！這位偉大的知己，是否有空前來親自品嘗聖夜怪盜的心意呢？",
+        "jp": "そ、その名は……！\r\n「白夜」自ら記した予告状ではないか！\r\n偉大なる魂の友よ、この聖夜の怪盗の真心を、味わいに来てくれないだろうか！",
+        "en": "This... this is practically a calling card from White Night himself! My kindred spirit, would you have time to come and personally taste the Phantom Thief of the Holy Night's holiday special?",
+        "kr": "이, 이건…… 그야말로 '백야'가 직접 쓴 예고장이잖아! 위대한 친구여, 혹시 직접 성스러운 밤의 괴도를 맛보러 와줄 시간이 있을까?"
+    },
+    {
+        "id": 25122049,
+        "type": "",
+        "chs": "绕了半天，老哥你就是想邀请{name}圣诞节来家里玩吧？嘿嘿，[tag]@{name}[/tag]欢迎来玩呀！",
+        "chsT": "繞了半天，老哥你就是想邀請{name}聖誕節來家裡玩吧？嘿嘿，[tag]@{name}[/tag]歡迎來玩呀！",
+        "jp": "とかなんとか言ってるけど、{name}さんをクリスマスに家に誘いたいだけでしょ？\r\nまあでも、私からもお願いしてみようかな？\r\n[tag]@{name}[/tag]さん、ぜひうちに遊びに来てね！",
+        "en": "Hehe, Natsuki, you just wanted to invite {name} over for Christmas, right? [tag]@{name}[/tag] We'd love to see you! Please come visit!",
+        "kr": "빙빙 돌려대더니, 크리스마스에 작사를 집에 초대하고 싶었던 거구나? 헤헤, [tag]@{name}[/tag] 우리 집에 놀러 와!"
+    },
+    {
+        "id": 25122050,
+        "type": "",
+        "chs": "还是“圣诞特调”简单易懂吧！",
+        "chsT": "還是「聖誕特調」簡單易懂吧！",
+        "jp": "やっぱり「クリスマススペシャル」とかの方が、わかりやすくていいんじゃない？",
+        "en": "\"Xmas Special\" is still the easiest to get, though!",
+        "kr": "'크리스마스 스페셜 칵테일'이 직관적일 것 같은데!"
+    },
+    {
+        "id": 25122051,
+        "type": "",
+        "chs": "哈哈哈，{name}，真是逃不过你这双能看透一切伪装的眼睛。在下佩服！",
+        "chsT": "哈哈哈，{name}，真是逃不過你這雙能看透一切偽裝的眼睛。在下佩服！",
+        "jp": "フハハハハハ！{name}よ、どうやら君のそのあらゆる偽りを見抜く目からは逃れられないらしい。恐れ入った！",
+        "en": "Hahaha! {name}, truly, nothing escapes your eyes. You saw right through the disguise! I'm impressed!",
+        "kr": "하하하, {name}, 너는 진짜 핵심을 바로 짚네. 대단해!"
+    },
+    {
+        "id": 25122052,
+        "type": "",
+        "chs": "原来{name}起的名字，老哥就觉得不平庸了啊！",
+        "chsT": "原來{name}起的名字，老哥就覺得不平庸了啊！",
+        "jp": "{name}さんが言えば、凡庸じゃないんだ……。\r\nお兄ちゃん、わかりやすすぎ……。",
+        "en": "Oh~ So you don't think it's basic anymore now that {name} came up with it?",
+        "kr": "{name}, 오빠는 네가 지어준 이름이면, 다 특별하다고 생각하는 모양이야!"
+    },
+    {
+        "id": 25122053,
+        "type": "",
+        "chs": "最近街上的树都长出了亮晶晶的果实啾！还有很多卖新奇食物的小摊，大蒜拌青椒口味的姜饼人，香菜培根口味的奶昔……金乌都想试试看啾！",
+        "chsT": "最近街上的樹都長出了亮晶晶的果實啾！還有很多賣新奇食物的小攤，大蒜拌青椒口味的薑餅人，香菜培根口味的奶昔……金烏都想試試看啾！",
+        "jp": "ちちっ、このところ、街の木にキラキラした実がなってまちゅん！\r\n珍しい食べ物を売ってる屋台もいっぱい、ガーリックピーマン味のジンジャーブレッドとか、パクチーベーコン味のシェイクとか…\r\nわたちも、全部試してみたいでち！",
+        "en": "Woah, the trees on the street grew shiny fruits! And there are so many stalls selling wild snacks! Like garlic & bell pepper gingerbread men, and cilantro & bacon milkshakes... I want to try everything, chirp!",
+        "kr": "요즘 가로수에 반짝반짝 빛나는 열매가 주렁주렁 열려 있던데요! 신기한 음식을 파는 노점도 엄청 많고, 마늘 청양고추 진저브레드랑 고수 베이컨 셰이크……킨우는 전부 먹어보고 싶어용!"
+    },
+    {
+        "id": 25122054,
+        "type": "",
+        "chs": "不要吃那些乱七八糟的东西。",
+        "chsT": "不要吃那些亂七八糟的東西。",
+        "jp": "そのような面妖な物を口にするでない。",
+        "en": "Do not eat those strange things.",
+        "kr": "그런 잡다한 것들은 입에 대지 않는 것이 좋아."
+    },
+    {
+        "id": 25122055,
+        "type": "",
+        "chs": "书上说“尝试是认识世界的一种方式”……金乌就尝一点点啾～",
+        "chsT": "書上說「嘗試是認識世界的一種方式」……金烏就嘗一點點啾～",
+        "jp": "本に、「世界を知るには大胆に挑むべき」って書いてありまちた…！\r\nちょっと味見するだけでち！",
+        "en": "The books say \"to experience something is to know it\"... I'll just have a little bite!",
+        "kr": "책에서 \"시도는 세상을 알아가는 하나의 방식\"이라고 했는걸용…… 조금만 먹을게용~"
+    },
+    {
+        "id": 25122056,
+        "type": "",
+        "chs": "……罢了。你最近跑到哪里玩了，是不是又迷路了？",
+        "chsT": "……罷了。你最近跑到哪裡玩了，是不是又迷路了？",
+        "jp": "……まあ良い。\r\n近頃は何処にて羽を伸ばしておる？ 道に迷ってはおらぬか？",
+        "en": "...Never mind. Where have you wandered off to? Are you lost again?",
+        "kr": "……됐다. 그나저나 어디로 놀러 간 거지? 또 길을 잃은 것 아니냐?"
+    },
+    {
+        "id": 25122057,
+        "type": "",
+        "chs": "嘿嘿……金乌闻着香味就飞过来了……这里又亮又暖和啾～",
+        "chsT": "嘿嘿……金烏聞著香味就飛過來了……這裡又亮又暖和啾～",
+        "jp": "ちゅんちゅん！\r\nわたち、いい匂いがする方向に飛びまちた！\r\nここは明るくて暖かいでちよ！",
+        "en": "Hehe... I just followed my nose... It's all bright and warm here, chirp!",
+        "kr": "헤헤…… 킨우는 맛있는 냄새를 좇아 날아왔어용…… 여기는 반짝반짝하고 따뜻해용~"
+    },
+    {
+        "id": 25122058,
+        "type": "",
+        "chs": "大蒜拌青椒姜饼人，香菜培根奶昔……这些充满矛盾与探索精神的组合……请务必告诉我这些美食的位置！",
+        "chsT": "大蒜拌青椒薑餅人、香菜培根奶昔……這些充滿矛盾與探索精神的組合……請務必告訴我這些美食的位置！",
+        "jp": "ニンニクピーマンジンジャーブレッドに、パクチーベーコンシェイク……！？\r\nこんな、アンビバレントで探求心に満ちた組み合わせ……\r\nぜひ、このグルメがどこで売られているのか教えてください！",
+        "en": "Garlic & bell pepper gingerbread men... Cilantro & bacon milkshakes... Such contradictory yet pioneering combos... Please tell me where to find these!",
+        "kr": "마늘 청양고추 진저브레드와 고수 베이컨 셰이크라니…… 이렇게도 모순적이고 탐구 정신 가득한 조합…… 어디에서 맛볼 수 있는지 꼭 알려주세요!"
+    },
+    {
+        "id": 25122059,
+        "type": "",
+        "chs": "……我也蹲蹲。",
+        "chsT": "……我也蹲蹲。",
+        "jp": "私も、知りたい。",
+        "en": "I'm also curious...",
+        "kr": "……나도 정보 기다릴게."
+    },
+    {
+        "id": 25122060,
+        "type": "",
+        "chs": "就在附近的圣诞市集，金乌可以带你们去啾，不过……不要嫌弃金乌走得慢啾。",
+        "chsT": "就在附近的聖誕市集，金烏可以帶你們去啾，不過……不要嫌棄金烏走得慢啾。",
+        "jp": "近くのクリスマスマーケットでちよ。\r\nわたちが案内ちてあげまちゅん！\r\nでも、わたち、歩くの遅いんでち。許ちてほちいでち。",
+        "en": "It's at the Christmas market nearby! I can take you there, chirp. But... please don't be mad if I'm a little slow, chirp.",
+        "kr": "근처 크리스마스 마켓이에용. 킨우가 데려다줄게용. 그런데…… 킨우의 걸음이 너무 느리다고 싫어하지는 말아 줘용."
+    },
+    {
+        "id": 25122061,
+        "type": "",
+        "chs": "有点好奇……那些吃的味道怎么样？",
+        "chsT": "有點好奇……那些吃的味道怎麼樣？",
+        "jp": "ちょっと気になる……どんな味なんだろう？",
+        "en": "I'm kinda curious... how did they taste?",
+        "kr": "궁금한데…… 맛은 어땠어?"
+    },
+    {
+        "id": 25122062,
+        "type": "",
+        "chs": "金乌遇到的那个紫头发大姐姐说，这是秘密啾……",
+        "chsT": "金烏遇到的那個紫頭髮大姐姐說，這是祕密啾……",
+        "jp": "ちゅん…紫の髪のお姉ちゃまが、ヒミツだって、言ってまちた…",
+        "en": "The nice lady with purple hair I met said it's a secret...",
+        "kr": "킨우가 길에서 마주친 보라색 머리 언니가 그건 비밀이라고 했어용……"
+    },
+    {
+        "id": 25122063,
+        "type": "",
+        "chs": "很有节日氛围啊，听说好孩子会收到节日礼物哦！",
+        "chsT": "很有節日氛圍啊，聽說好孩子會收到節日禮物哦！",
+        "jp": "ホリデーっぽい雰囲気だね。\r\nいい子にしてると、プレゼントがもらえるらしいよ！",
+        "en": "Wow, that's some real holiday spirit! And they say good kids receive gifts, you know!",
+        "kr": "크리스마스 분위기가 물씬 나네. 착한 아이는 선물을 받을 수 있대!"
+    },
+    {
+        "id": 25122064,
+        "type": "",
+        "chs": "啾？！金乌每天都有把羽毛梳得闪闪发亮，上课也没睡觉，是好孩子啾！",
+        "chsT": "啾？！金烏每天都有把羽毛梳得閃閃發亮，上課也沒睡覺，是好孩子啾！",
+        "jp": "ちちっ！？\r\nわたちは、毎日ちゃんと羽をピカピカに整えてるち、授業中も寝たりちてない、いい子でち！",
+        "en": "Chirp?! I keep my feathers all shiny and clean, and I don't sleep in class! I am a good kid, chirp!",
+        "kr": "삐이?! 킨우는 매일 깃털을 윤이 나도록 빗고, 수업 중에도 안 졸았어용. 킨우는 착한 아이예용!"
+    },
+    {
+        "id": 25122065,
+        "type": "",
+        "chs": "【放假通知】12月24日-1月3日全司放假，福利：①十天带薪连休 ②双倍年终奖金 ③空白目的地往返机票一组（可折现）。祝各位度过高效且愉快的假期。",
+        "chsT": "【放假通知】12月24日-1月3日全公司放假，福利：①十天帶薪連休 ②雙倍年終獎金 ③空白目的地往返機票一組（可折現）。祝各位度過充實又愉快的假期。",
+        "jp": "【連休のお知らせ】\r\n12月24日～1月3日まで全社休暇となります。\r\nまた、今年は年末サプライズとして、以下の福利厚生を追加で実施します。\r\n①連休明けから使用できる、10日間の有給の付与（連続使用可）。\r\n②年末ボーナス2倍\r\n③行き先自由の往復航空券1組（現金引換可）。\r\n皆様、有意義で楽しい休暇をお過ごしください。",
+        "en": "[Holiday Notice] The office will be closed from Dec 24 to Jan 3.\\nHoliday Perks:\\n1. 10 straight days of paid leave\\n2. Double year-end bonus\\n3. Round-trip tickets to anywhere (can be exchanged for cash)\\nMake it a productive and happy holiday, team!",
+        "kr": "[휴무 공지] 12월 24일-1월 3일 전사 휴무, 복지 혜택: ①10일 유급 휴가 ②연말 보너스 2배 지급 ③자유 왕복 항공권 1매(현금화 가능). 알차고 즐거운 연휴 보내시기 바랍니다."
+    },
+    {
+        "id": 25122066,
+        "type": "",
+        "chs": "感人！终于有时间把《偶像猎人》全结局打通了！",
+        "chsT": "感人！終於有時間把《偶像獵人》全結局打通了！",
+        "jp": "感動～！\r\nこれでやっと『アイドルハンター』の全エンディング制覇できる～！",
+        "en": "Yes! Finally, I have time to get 100% on IDOL Hunter!",
+        "kr": "감동! 드디어 '아이돌 헌터' 클리어할 시간이 생겼잖아!"
+    },
+    {
+        "id": 25122067,
+        "type": "",
+        "chs": "米亚之前错过了《mokos》的限定手偶发售～这次终于有时间去抱回家了！！",
+        "chsT": "米亞之前錯過了《mokos》的限定手偶發售～這次終於有時間去抱回家了！！",
+        "jp": "ミア、前に限定トレーディングフィギュア逃しちゃったんだよね～……。\r\n今度こそ『mokos』をお迎えしちゃうよぉ☆",
+        "en": "I missed the limited Mokos hand puppet drop last time. But now I finally get the chance to go bring it home!",
+        "kr": "미야, 전에 'mokos' 한정 판매 피규어를 놓쳤었거든~ 이번에 드디어 데려올 수 있겠어!"
+    },
+    {
+        "id": 25122068,
+        "type": "",
+        "chs": "Perfect！假期正是探险的好时机！狂野的Journey需要一位relaxing的搭档！",
+        "chsT": "Perfect！假期正是探險的好時機！狂野的Journey需要一位relaxing的搭檔！",
+        "jp": "Perfect！ まさに冒険のためのBest Timing！\r\nWildなJourneyには、Relaxingな相棒が必要さ！",
+        "en": "Perfect! Holidays are the best time for an adventure! A wild journey like this needs a partner who knows how to chill!",
+        "kr": "Perfect! 휴가야말로 탐험하기 딱 좋은 시기지! 와일드한 Journey에는 relax한 파트너가 필수니까 말이야!"
+    },
+    {
+        "id": 25122069,
+        "type": "",
+        "chs": "更多评论已折叠",
+        "chsT": "更多留言已被折疊",
+        "jp": "一部のコメントは折り畳まれています",
+        "en": "More comments hidden",
+        "kr": "댓글 더 보기"
+    },
+    {
+        "id": 25122070,
+        "type": "",
+        "chs": "请问贵司还招人吗！",
+        "chsT": "請問貴公司還在徵人嗎！",
+        "jp": "貴社はまだ社員募集されていますか！？",
+        "en": "Um, are you guys still hiring by any chance?",
+        "kr": "아직 직원 구합니까!"
+    },
+    {
+        "id": 25122071,
+        "type": "",
+        "chs": "你这么积极我很高兴，但我更希望和你一起度过在工作之外的时间。假期的愿望随便提，我来安排。",
+        "chsT": "你這麼積極我很高興，但我更希望和你一起度過在工作之外的時間。假期的願望隨便提，我來安排。",
+        "jp": "あなたがそこまで乗り気になってくれるとは、嬉しい限りだ。\r\nしかし、あなたとは仕事以外の時間を一緒に過ごしたいと思う。\r\nそうだ、連休中になにか希望はないか。なんでも言ってくれ、私が実現させよう。",
+        "en": "I'm glad you're so eager, but I'd rather spend my time off with you. Whatever you want to do this holiday, just say the word. I'll take care of everything.",
+        "kr": "적극적인 지원은 고맙지만, 너와는 업무 외의 시간을 함께 보내고 싶군. 휴가 때 필요한 건 뭐든 이야기하도록, 내가 준비해 주지."
+    },
+    {
+        "id": 25122072,
+        "type": "",
+        "chs": "好耶，决定从评论区里抄抄假期计划！",
+        "chsT": "好耶，決定從留言區裡抄一下假期計畫！",
+        "jp": "よーし、連休の過ごし方は、ここのコメント欄を参考にしよっと！",
+        "en": "Sweet! Totally gonna borrow some of these holiday ideas!",
+        "kr": "좋아요! 댓글에서 휴가 계획 좀 봐야겠다!"
+    },
+    {
+        "id": 25122073,
+        "type": "",
+        "chs": "{name}来吗来吗？还有新游戏，我囤了很多！",
+        "chsT": "{name}來嗎來嗎？還有新遊戲，我囤了很多！",
+        "jp": "遊びに来る？\r\n新作ゲーム、たくさん積んでるよ～！",
+        "en": "{name}, you in? I've got a ton of new games waiting for us!",
+        "kr": "{name}, 올래올래? 새 게임도 있어. 내가 잔뜩 쟁여뒀거든!"
+    },
+    {
+        "id": 25122074,
+        "type": "",
+        "chs": "{name}sweety已经被我预定了，还有别的想法人家可是不同意的呢！",
+        "chsT": "{name}sweety已經被我預定了，還有別的想法人家可是不同意的呢！",
+        "jp": "スウィーティーはもう私が予約済みだよぉ。\r\n他の人のものになるなんて、許さないんだからっ！",
+        "en": "Hmm, {name} sweetie is already fully booked by me. And I won't agree to any other plans, okay?",
+        "kr": "{name} 스위티는 이미 내가 찜했어. 다른 스케쥴은 허락 못 해!"
+    },
+    {
+        "id": 25122075,
+        "type": "",
+        "chs": "哈哈哈，假日快乐Partner，当幸运观众还是探险搭档你来决定吧？",
+        "chsT": "哈哈哈，假日快樂Partner，當幸運觀眾還是探險搭檔你來決定吧？",
+        "jp": "HAHAHA, Happy Holiday, My partner。\r\n視聴者となるか、それとも冒険の相棒になるか……もう決めたかい？",
+        "en": "Haha, Happy Holidays, partner! So, you wanna be the lucky guest or my adventure buddy? Your call.",
+        "kr": "하하하, 즐거운 휴가 보내, Partner~ 럭키한 관객이 될 텐가 아니면 어드벤처 파트너가 될 텐가, 결정을 해보지 않겠나?"
+    },
+    {
+        "id": 25122076,
+        "type": "",
+        "chs": "还能再来一份吗？",
+        "chsT": "還能再來一份嗎？",
+        "jp": "おかわり、もらえる？",
+        "en": "Can I have another one?",
+        "kr": "한 그릇 더 먹어도 돼?"
+    },
+    {
+        "id": 25122077,
+        "type": "",
+        "chs": "好大的冰激凌喵！看起来就好好吃喵，一姬也想吃一口喵！",
+        "chsT": "好大的冰淇淋喵！看起來就好好吃喵，一姬也想吃一口喵！",
+        "jp": "大きいカップケーキにゃ！すごく美味しそうだにゃ…。\r\n一姫も一口食べたいにゃ！",
+        "en": "That ice cream is huge! Looks so yummy, I want a bite too, nyaa!",
+        "kr": "엄청 큰 아이스크림이다냥! 진짜 맛있겠다냥. 이치히메도 한입 먹어보고 싶다냥!"
+    },
+    {
+        "id": 25122078,
+        "type": "",
+        "chs": "哼，居然敢龙口夺食……但是一姬教过琳琅应该怎么从{name}那里获得好吃的，琳琅允许了。",
+        "chsT": "哼，居然敢龍口奪食……但是一姬教過琳琅應該怎麼從{name}那裡獲得好吃的，琳琅允許了。",
+        "jp": "むう、龍から食べ物を奪おうだなんて、いい度胸。\r\nでも、{name}から美味しいものをもらう方法は、一姫に教わった。だから、許す。",
+        "en": "Hmph! You dare try to steal from me... But you did teach me how to get snacks from {name}, so I'll allow it this time.",
+        "kr": "흥, 감히 용이 먹는 것을 뺏으려 하다니…… 하지만 이치히메가 {name}한테서 맛있는 걸 어떻게 얻어내는지 알려줬으니까, 링랑이 허락할게."
+    },
+    {
+        "id": 25122079,
+        "type": "",
+        "chs": "一姬这就来喵！",
+        "chsT": "一姬這就來喵！",
+        "jp": "すぐ行くにゃ！！",
+        "en": "On my way, nyaa!",
+        "kr": "그러면 바로 가겠다냥!"
+    },
+    {
+        "id": 25122080,
+        "type": "",
+        "chs": "啊，一姬和琳琅都在呢～我在圣诞市集上看到了不少小吃，为了弥补上次在欢乐岛的过错，请你们一起吃吧？",
+        "chsT": "啊，一姬和琳琅都在呢～我在聖誕市集上看到了不少小吃，為了彌補上次在歡樂島的過錯，請你們一起吃吧？",
+        "jp": "あら、一姫ちゃんも琳琅ちゃんもいるのね～。\r\nクリスマスマーケットで美味しいものをたくさん見つけたのよ、この間のランドのお詫びに、ご一緒にどうかしら？",
+        "en": "Oh, Ichihime and Lin Lang, you're both here! Saw a bunch of snacks at the Christmas market. How about I treat you both, to make up for the incident at Samu Joy Island?",
+        "kr": "아, 이치히메랑 링랑 둘 다 있네~ 보니까 크리스마스 마켓에 먹거리가 많던데, 지난번 해피 아일랜드에서의 실수도 만회할 겸, 같이 먹을까? 내가 살게."
+    },
+    {
+        "id": 25122081,
+        "type": "",
+        "chs": "琳琅不饿！！！香菇汤什么的你就自己吃吧！！！",
+        "chsT": "琳琅不餓！！！香菇湯什麼的你就自己吃吧！！！",
+        "jp": "り、琳琅、お腹空いてない、大丈夫！！！\r\nシイタケスープは、美樹が食べて！！！",
+        "en": "I-I'm NOT hungry!!! You can have your mushroom soup yourself!!!",
+        "kr": "링랑 배 안 고파!!! 표고버섯 수프 같은 건 너나 먹어!!!"
+    },
+    {
+        "id": 25122082,
+        "type": "",
+        "chs": "可是琳琅刚刚还在问“能不能再来一份”呢～不用跟我客气的哦～",
+        "chsT": "可是琳琅剛剛還在問「能不能再來一份」呢～不用跟我客氣的哦～",
+        "jp": "さっきまで「おかわり」とか言ってたじゃない。\r\n遠慮しなくていいのよ？",
+        "en": "But didn't I just hear you asking for another serving? Don't be shy on my account.",
+        "kr": "아까 \"한 그릇 더 먹어도 돼?\"라며~ 사양하지 않아도 돼~"
+    },
+    {
+        "id": 25122083,
+        "type": "",
+        "chs": "以人类的年龄来说，琳琅可是长辈！怎么能逼长辈吃东西呢！",
+        "chsT": "以人類的年齡來說，琳琅可是長輩！怎麼能逼長輩吃東西呢！",
+        "jp": "人間のくせに！琳琅の方が年上！\r\n格上の相手に無理やり食べさせようとするなんて！",
+        "en": "In human years, I'm your elder! You can't force an elder to eat!",
+        "kr": "인간 나이로 치면 링랑이 너보다 연장자야! 어떻게 연장자한테 먹을 걸 강요할 수 있어!"
+    },
+    {
+        "id": 25122084,
+        "type": "",
+        "chs": "喵、喵哈哈……一姬想起神社里还有零食没吃完，就不出门了喵……",
+        "chsT": "喵、喵哈哈……一姬想起神社裡還有零食沒吃完，就不出門了喵……",
+        "jp": "にゃ、にゃはは～…\r\n一姫も、神社にまだ食べてないおやつがあるのを思い出したにゃ。\r\nやっぱり、お出かけはやめておくのにゃ…！",
+        "en": "Nyahaha... I just remembered I have snacks at the shrine I need to finish, so I think I'll stay in, nyaa...",
+        "kr": "냐, 냐하하…… 이치히메는 신사에 먹을 게 남아 있어서, 안 가겠다냥……"
+    },
+    {
+        "id": 25122085,
+        "type": "",
+        "chs": "啊啦～吃了这么多的冰激凌，要小心吃坏肚子哦～",
+        "chsT": "啊啦～吃了這麼多的冰淇淋，要小心吃壞肚子哦～",
+        "jp": "あらあら、そんなにたくさんアイスを食べたら、お腹を壊してしまいますよ。",
+        "en": "Oh my! All that ice cream... Better be careful, or you'll get a tummy ache!",
+        "kr": "어머~ 아이스크림을 그렇게 많이 먹으면 배탈 나~"
+    },
+    {
+        "id": 25122086,
+        "type": "",
+        "chs": "没关系！因为琳琅的可爱是无限的，胃容量也是无限的。",
+        "chsT": "沒關係！因為琳琅的可愛是無限的，胃容量也是無限的。",
+        "jp": "平気！琳琅、可愛さも、胃袋も無限大！",
+        "en": "Don't worry! My cuteness is infinite, which means my stomach is too!",
+        "kr": "괜찮아! 링랑은 귀여움도 무한, 위장도 무한이야!"
+    },
+    {
+        "id": 25122087,
+        "type": "",
+        "chs": "为了健康，不能吃太多甜食！",
+        "chsT": "為了健康，不能吃太多甜食！",
+        "jp": "健康のためにも、甘いものはほどほどにしないと！",
+        "en": "You gotta watch your health. Don't eat too much dessert!",
+        "kr": "건강 생각해서 단 거 너무 많이 먹지 마!"
+    },
+    {
+        "id": 25122088,
+        "type": "",
+        "chs": "厉害的{name}，牌技很好的{name}，伟大的{name}，不愧是一个优秀大人的{name}……唔，唔……会给琳琅买东西吃的{name}，你最好了！",
+        "chsT": "厲害的{name}，牌技很好的{name}，偉大的{name}，不愧是一個優秀大人的{name}……唔，唔……會給琳琅買東西吃的{name}，你最好了！",
+        "jp": "偉大なる{name}様、スゴ腕、麻雀強い、立派な大人！\r\nだから、琳琅に美味しいものを買ってくれる！",
+        "en": "The amazing, talented {name}, the mahjong genius {name}, the perfect grown-up {name}... uhm, uhm... the {name} who buys me snacks... Come on... you're the best!",
+        "kr": "대단한 {name}, 마작 실력이 좋은 {name}, 위대한 {name}, 역시 뛰어난 어른 {name}…… 음, 그리고…… 링랑한테 맛있는 거 사주는 {name}, 네가 최고야!"
+    },
+    {
+        "id": 25122089,
+        "type": "",
+        "chs": "今天破例，给琳琅无限续杯吧！",
+        "chsT": "今天破例，給琳琅無限續杯吧！",
+        "jp": "よし、今日だけ特別だぞ。\r\n琳琅に好きなだけおかわりをあげよう！",
+        "en": "Alright, special exception for today! Keep the refills coming for Lin Lang!",
+        "kr": "링랑, 오늘만 특별히 무한 리필이야!"
+    },
+    {
+        "id": 25122090,
+        "type": "",
+        "chs": "就连{name}也很为琳琅着迷吧，果然琳琅的可爱已经到了天下无敌的地步了。",
+        "chsT": "就連{name}也很為琳琅著迷吧，果然琳琅的可愛已經到了天下無敵的地步了。",
+        "jp": "{name}も琳琅にメロメロ。\r\nやっぱり、琳琅の可愛さ、天下無敵！",
+        "en": "Hehe, even {name} is under my spell. My cuteness is already on another level!",
+        "kr": "{name}도 링랑한테 푹 빠졌네, 역시 링랑의 귀여움은 천하무적이라니까!"
+    },
+    {
+        "id": 25122091,
+        "type": "",
+        "chs": "耶～一番市到了年末时间真的超热闹，是时候准备时尚穿搭啦～我挑的这套衣服有够好的，再加点小玩意就肯定超抢眼的啦！",
+        "chsT": "耶～一番市到了年末時間真的超熱鬧，是時候準備時尚穿搭啦～我挑的這套衣服有夠好的，再加點小玩意就肯定超搶眼的啦！",
+        "jp": "年末の一飜市ってマジ賑やかだよね～、そろそろ本気コーデの準備しなきゃだわ～\r\nんで、あたしチョイスのお正月コーデはコレ！ マジイケてるっしょ？\r\n小物をもうちょいプラスすれば、めっちゃ目立つの確定～！",
+        "en": "Yasss! One Han City is so lit right now! Time to serve some holiday looks. This outfit is already slaying, but with a few cute accessories? It's gonna be a whole vibe!",
+        "kr": "예~이, 연말이 되니까 이한시도 완전 붐비고, 슬슬 스타일링을 준비할 시간이네~ 내가 고른 옷에 액세서리 몇 개만 매치하면, 시선 강탈은 보장이라구!"
+    },
+    {
+        "id": 25122092,
+        "type": "",
+        "chs": "老师我下周也要去见几位老朋友，得好好打扮一下才行，绮罗罗觉得哪种风格会让人眼前一亮呢？",
+        "chsT": "老師我下周也要去見幾位老朋友，得好好打扮一下才行，綺羅羅覺得哪種風格會讓人眼前一亮呢？",
+        "jp": "新年には、やっぱり服を新調しないとよね～。\r\n先生も来週、昔からの友達何人かと会うから、ちゃんとおしゃれしなくっちゃ。\r\nキララちゃんは、先生はどんなスタイルで行った方がいいと思う？",
+        "en": "I'm meeting some friends next week, so I gotta look good. Kirara, what style do you think will really pop?",
+        "kr": "선생님도 다음 주에 어릴 때 친구들을 만나기로 해서, 예쁘게 꾸며야 좋을 것 같은데, 키라라는 어떤 스타일이 눈에 확 띌 것 같아?"
+    },
+    {
+        "id": 25122093,
+        "type": "",
+        "chs": "诶——老师，你说的难不成是……联谊？哼哼，我知道了～那当然是推荐辣妹Power全开！",
+        "chsT": "欸——老師，你說的難不成是……聯誼？哼哼，我知道了～那當然是推薦辣妹Power全開！",
+        "jp": "先生！？えっやば、それって…合コン的な？\r\nなるほどね～、ならもちセクシーパワー全開っしょ！",
+        "en": "Ooh – are you talking about a... group date? Hehe, say no more! You absolutely have to go full-on Hot Girl mode!",
+        "kr": "어라…… 선생님, 그거 설마…… 동창회? 흐흐, 알겠어~ 그렇다면 갸루 모드 풀 가동이다!"
+    },
+    {
+        "id": 25122094,
+        "type": "",
+        "chs": "糟糕！我忘记准备新衣服了！……要不就穿运动服去祈福算了？",
+        "chsT": "糟糕！我忘記準備新衣服了！……要不就穿運動服去祈福算了？",
+        "jp": "やばっ、新しい服用意するのすっかり忘れてた！\r\nもう初詣に間に合わないかも……いっそジャージで行っちゃおっかな？",
+        "en": "Oh shoot! I forgot to prep an outfit! ...Ugh, guess I'll just go pray in my tracksuit. It's a look, right?",
+        "kr": "큰일 났다! 새 옷 준비하는 걸 잊어버렸어! …… 그냥 운동복 입고 기도하러 갈까?"
+    },
+    {
+        "id": 25122095,
+        "type": "",
+        "chs": "奈奈！！穿运动服去新年祈福绝对——不行！这可是对自己青春的犯罪啊？！",
+        "chsT": "奈奈！！穿運動服去新年祈福絕對——不行！這可是對自己青春的犯罪啊？！",
+        "jp": "奈々！さすがにダメ！\r\nジャージで初詣はマジギルティだかんね！？",
+        "en": "Tracksuit?! Absolutely NOT! Nana! That is a total betrayal of your potential glow-up! You are committing a crime against fashion itself!",
+        "kr": "나나!! 운동복 차림으로 신년 기도하러 가는 건 절대~~ 안 돼! 네 청춘에 미안하지 않겠어?!"
+    },
+    {
+        "id": 25122096,
+        "type": "",
+        "chs": "放心放心，开玩笑的啦，再怎么样我也不会穿着运动服去嘛～",
+        "chsT": "放心放心，開玩笑的啦，再怎麼樣我也不會穿著運動服去嘛～",
+        "jp": "あ、あはは、まっさか～。\r\nいくらウチでも、ジャージで行くわけないよ～。",
+        "en": "Chill, chill, I was kidding. I wouldn't actually wear a tracksuit to the shrine!",
+        "kr": "걱정하지 마, 농담이었어. 아무리 나라고 해도 운동복을 입고 갈 순 없지~"
+    },
+    {
+        "id": 25122097,
+        "type": "",
+        "chs": "圣诞节电玩城有活动欸！在娃娃机里面可以抓到超——可爱的草莓蛋糕玩偶！是限定款！买完配饰要不要一起去抓抓看？",
+        "chsT": "聖誕節街機廳有活動欸！在夾娃娃機裡面會有超——可愛的草莓蛋糕玩偶！是限定款！買完配飾要不要一起去夾夾看？",
+        "jp": "ゲーセンでクリスマスイベントやってるって！\r\nちょー可愛いショートケーキのぬいぐるみが取れるらしいよ！\r\nしかも限定モデル！後で一緒に取りに行かない？",
+        "en": "The arcade is having a Christmas event! You can win a suuuper cute strawberry cake plushie from the claw machine! It's a limited drop! Wanna go after we get our accessories?",
+        "kr": "크리스마스 오락실 이벤트! 인형뽑기 기계에서 엄~~청나게 귀여운 딸기 케이크 인형을 뽑을 수 있대! 심지어 한정판! 액세서리 사고 나서 같이 뽑으러 갈래?"
+    },
+    {
+        "id": 25122098,
+        "type": "",
+        "chs": "那个玩偶是挺可爱的啦……但是你不是有那个什么直播活动吗？！我刚刚才在CatChat上看到预告哦？！",
+        "chsT": "那個玩偶是挺可愛的啦……但是你不是有那個什麼直播活動嗎？！我剛剛才在CatChat上看到預告哦？！",
+        "jp": "あのぬい、ヤバ可愛くない！？\r\nてか、あんた、配信イベント的なのあるんじゃなかったっけ！？\r\nさっきCatChatで予告見たんだけど！！",
+        "en": "That plushie is pretty cute... but aren't you supposed to be streaming?! I literally just saw the announcement on CatChat!",
+        "kr": "인형이 진짜 귀엽긴 한데…… 근데 너 무슨 라이브 하는 거 아니었어??! 방금 CatChat에서 예고를 봤는데?!"
+    },
+    {
+        "id": 25122099,
+        "type": "",
+        "chs": "绮罗的时尚品味一直都很棒呢。",
+        "chsT": "綺羅的時尚品味一直都很棒呢。",
+        "jp": "キララさんのファッションセンスはいつも抜きんでてるなあ。",
+        "en": "Kirara, your sense of style is always on point.",
+        "kr": "키라라의 패션 감각은 언제나 최고야."
+    },
+    {
+        "id": 25122100,
+        "type": "",
+        "chs": "哼哼，很有眼光嘛{name}！怎么样，你要不要也找我参谋一下？",
+        "chsT": "哼哼，很有眼光嘛{name}！怎麼樣，你要不要也找我參謀一下？",
+        "jp": "おー、見る目あんじゃん、{name}！\r\nどう？あんたもあたしのコーデ、試してみたい？\r\n最近なんか無性にそういう気分でさ～",
+        "en": "Hehe, I knew you had a good eye, {name}! So, what do you say? Want me to be your personal stylist for a bit?",
+        "kr": "흐흥, 보는 눈이 있네, {name}! 어때, 너도 나한테 조언받아 볼래?"
+    },
+    {
+        "id": 25122101,
+        "type": "",
+        "chs": "配饰准备加点什么呢？",
+        "chsT": "配飾準備加點什麼呢？",
+        "jp": "プラスしたい小物って、もう決まってるの？",
+        "en": "So, what's the plan for the extra bling?",
+        "kr": "어떤 액세서리를 매치할 건데?"
+    },
+    {
+        "id": 25122102,
+        "type": "",
+        "chs": "啊……现在还没什么头绪呢，要不{name}陪我一起去商场逛一圈好啦！到时候就选你看中的第一个就好，我相信你的眼光哦！",
+        "chsT": "啊……現在還沒什麼頭緒呢，要不{name}陪我一起去商場逛一圈好啦！到時候就選你看中的第一個就好，我相信你的眼光哦！",
+        "jp": "あー…まだ全然ノープランなんだよね。\r\nそだ、今度一緒に買い物付き合ってよ！あんたが最初に気に入ったやつにするから。\r\nあんたのセンス、信じてるかんね！",
+        "en": "Ugh... I have zero ideas. Wait, {name}, be my shopping buddy! Let's just hit the mall and I'll cop the first thing that catches your eye. I totally trust your taste!",
+        "kr": "아…… 아직 딱히 생각나는 건 없는데. {name}, 네가 같이 쇼핑몰 돌아 줘! 네가 제일 처음 골라주는 걸로 할게. 나는 너의 안목을 믿으니까!"
+    },
+    {
+        "id": 25122103,
+        "type": "",
+        "chs": "原本以为这么冷的天没什么人出门的，但现在看来街上不是有很多凑在一起的年轻人嘛，好嘞，出发！",
+        "chsT": "原本以為這麼冷的天沒什麼人出門的，但現在看來街上不是有很多湊在一起的年輕人嘛，好嘞，出發！",
+        "jp": "こんな寒い日に出かけるヤツなんていねーだろと思ってたけど、街に出てみりゃ、若い奴らがたくさんいんじゃねえか。\r\nよし、出発するぜ！",
+        "en": "I thought this deep freeze would be a total bust, but the streets are crawling with potential couples! Let's go!",
+        "kr": "날이 추워서 밖에 아무도 없을 줄 알았는데, 길거리에 돌아다니는 젊은이들이 꽤 많잖아. 좋았어, 출발해 볼까!"
+    },
+    {
+        "id": 25122104,
+        "type": "",
+        "chs": "西风东渐，喧宾夺主，最近红尘扰攘，正缘不显，小友行色匆匆，容易空手而归哦。",
+        "chsT": "西風東漸，喧賓奪主，最近紅塵擾攘，正緣不顯，小友行色匆匆，容易空手而歸哦。",
+        "jp": "西学東漸、主客転倒……近頃は俗世が騒がしく、良縁が見えてきませんネ。小さき同朋も、そう急いては手ぶらで帰ることになりますヨ～。",
+        "en": "Tch. The world is in chaos, and the strings of fate are all tangled up. Charge into that mess if you want, my friend... but don't be surprised when you come up empty.",
+        "kr": "서풍은 동쪽으로 사라지고, 주객이 전도된 시대네. 요즘은 자기 일만으로도 소란스러워 진한 인연을 찾기가 쉽지 않지. 친구처럼 조급하게 서두르면, 허탕 치기 일쑤일 거야."
+    },
+    {
+        "id": 25122105,
+        "type": "",
+        "chs": "……最近这几年确实有点邪门，现在的年轻人一个个把心锁得死死的，好像生怕被谁看穿了一样……",
+        "chsT": "……最近這幾年確實有點邪門，現在的年輕人一個個把心鎖得死死的，好像生怕被誰看穿了一樣……",
+        "jp": "まあな、ここ数年は確かにおかしい。若者はどいつもこいつも心を固く閉ざしやがって、胸の内を見透かされることを恐れてるみてえだ。",
+        "en": "Yeah... the last couple of years have been weird. Young people these days have their walls up so high, like they're terrified of letting anyone get a glimpse inside...",
+        "kr": "……요 몇 년 사이 정말 이상해지긴 했어. 요즘 젊은이들은 하나같이 마음에 빗장을 꽁꽁 걸어둔 것 같아. 마치 누가 자기 속을 들여다볼지 겁먹은 것처럼 말이야……"
+    },
+    {
+        "id": 25122106,
+        "type": "",
+        "chs": "不过本大爷掌管了这么多年姻缘，什么场面没见过！你！来这边的市集，看本大爷给你好好露一手！",
+        "chsT": "不過本大爺掌管了這麼多年姻緣，什麼場面沒見過！你！來這邊的市集，看本大爺給你好好露一手！",
+        "jp": "けどよ、何年縁結びを司ってきたと思ってんだ？\r\nあらゆるパターンを経験済みだぜ！\r\nそうだ、お前！こっちのマーケットまで来い、オレ様が腕前を披露してやる！",
+        "en": "Hah! I've been tying the knots of fate for ages. You think a little thing like that can stop me? Get to the market, now – I'm about to give you a masterclass in matchmaking.",
+        "kr": "그래도 이 몸이 몇 년째 인연을 이어 오고 있는데, 뭔들 못 봤겠어! 너! 이쪽으로 와 봐. 이 몸이 너에게 한 수 가르쳐 주지!"
+    },
+    {
+        "id": 25122107,
+        "type": "",
+        "chs": "天机不泄，缘分不胁。一番市的姻缘最近沾染不得……哦？稍等，有人敲门，小友还是择日再跟我论道吧～",
+        "chsT": "天機不泄，緣分不脅。一番市的姻緣最近沾染不得……哦？稍等，有人敲門，小友還是擇日再跟我論道吧～",
+        "jp": "天機は漏らすべからず、縁は脅かすべからず。しばらくは、一飜市の縁結び事情に首を突っ込むのはやめた方が……おっと、誰か来たようですネ。日を改めてまた論ずるとしましょ～！",
+        "en": "Fate's script must not be spoiled, nor its cast be coerced. Lately, the romantic energies in One Han City... are not to be messed with. Ah, one moment. I have a visitor. Let's pick this up later, my friend.",
+        "kr": "하늘의 뜻은 누설해선 안 되고, 인연은 억지로 붙잡을 수 없지. 요즘 이한시 쪽의 인연은 가까이하지 않는 게 좋아…… 어? 잠깐, 누군가가 문을 두드리는군. 친구, 오늘은 여기까지 하고 내일 다시 이야기하자고~"
+    },
+    {
+        "id": 25122108,
+        "type": "",
+        "chs": "你你你你你岂有此理！说话不说全的家伙，本大爷要把你的红线全打成死结！！",
+        "chsT": "你你你你你豈有此理！說話不說全的傢伙，本大爺要把你的紅線全打成死結！！",
+        "jp": "に、逃げやがったなこの野郎！\r\nお前の赤い糸、端から端までぐっちゃぐちゃの固結びにしてやる！！",
+        "en": "W-w-what?! You can't just drop a bomb like that and bail! That's it! I'm turning all your precious strings of fate into a complete rat's nest!",
+        "kr": "너, 너, 너, 너 이게 무슨 짓이지! 말하다가 끊다니, 이 몸이 네 인연을 꽁꽁 묶어버릴 거야!!"
+    },
+    {
+        "id": 25122109,
+        "type": "",
+        "chs": "是又要出去执行特别任务吗！阳菜可以叫上野猫军团一起帮忙！",
+        "chsT": "是又要出去執行特別任務嗎！陽菜可以叫上野貓軍團一起幫忙！",
+        "jp": "「特別任務」だね！\r\n陽菜も猫ちゃん軍団を呼んで、お手伝いするね！",
+        "en": "Ooh, are you going on another special mission?! I can call the Kitty Warriors to help!",
+        "kr": "또 특별 임무하러 가는 거지! 하루나가 고양이들을 불러서 도와줄게!"
+    },
+    {
+        "id": 25122110,
+        "type": "",
+        "chs": "本大爷的业务范畴和你们好像不太一样……咳，总之，这是很复杂的大人的战争，小孩子就别操心啦！",
+        "chsT": "本大爺的業務範疇和你們好像不太一樣……咳，總之，這是很複雜的大人的戰爭，小孩子就別操心啦！",
+        "jp": "オレ様の仕事の範囲は、お前らのそれとは被ってない気がするけど……\r\nとにかく、これは大人の戦いだ、お子様は心配しなくていいぜ！",
+        "en": "My whole deal is... kinda different from yours. Ahem. Look, this is a complicated grown-up business, so stay out of it, kiddo!",
+        "kr": "이 몸이 하는 일은 너희들의 일과는 조금 달라…… 흠, 어쨌든 이건 아주 복잡한 어른들의 전쟁이라고. 꼬맹이는 저리 가 있어!"
+    },
+    {
+        "id": 25122111,
+        "type": "",
+        "chs": "阳菜和野猫军团可是很厉害的，不要小看我们哦！无论是帮忙找掉了的东西，还是找家里走丢的猫咪，我们都能帮得上忙！不过……什么姻什么缘，那是什么意思？",
+        "chsT": "陽菜和野貓軍團可是很厲害的，不要小看我們哦！無論是幫忙找掉了的東西，還是找家裡走丟的貓咪，我們都能幫得上忙！不過……什麼姻什麼緣，那是什麼意思？",
+        "jp": "陽菜も、猫ちゃん軍団も、すっごくすごいんだよ？\r\n落とし物探しも、迷子の猫ちゃん探しも、大得意なんだからね！\r\nあ、でも…「縁結び」？って、どういう意味？",
+        "en": "Hey! Me and my Kitty Warriors are legit, so don't underestimate us! We find lost stuff, lost kitties, you name it! We're awesome! But... what is \"matchmaking\"?",
+        "kr": "하루나랑 고양이들은 대단해! 우리를 무시하지 마! 잃어버린 물건 찾기든 집에서 가출한 고양이 찾기든 우리는 다 할 수 있어! 그런데…… 그 인…… 연……? 그게 뭐야?"
+    },
+    {
+        "id": 25122112,
+        "type": "",
+        "chs": "需要我来帮忙吗？",
+        "chsT": "需要我來幫忙嗎？",
+        "jp": "手伝おうか？",
+        "en": "Need any help?",
+        "kr": "도와줄까?"
+    },
+    {
+        "id": 25122113,
+        "type": "",
+        "chs": "牵红线这种技术活可不是凡人能随便插手的，不过嘛，你跟普通凡人不一样，本大爷就给你个机会。你现在在哪？本大爷现在就来找你！",
+        "chsT": "牽紅線這種技術活可不是凡人能隨便插手的，不過嘛，你跟普通凡人不一樣，本大爺就給你個機會。你現在在哪？本大爺現在就來找你！",
+        "jp": "赤い糸結びみてーな技術がいる仕事、凡人に簡単に任せたりできねーよ。\r\nまあでも、お前は普通の凡人とは違うし、特別にチャンスをやってもいいけど。\r\n今どこだ？今からそっちに行くぜ！",
+        "en": "Matchmaking is an art, not something any rando mortal can handle. But... you're different. I'll let you tag along. Where are you at? I'm heading over now!",
+        "kr": "붉은 실을 잇는 건 평범한 사람이 거들 수 있는 기술이 아니야. 하지만, 넌 평범한 사람이 아니니 이 몸이 기회를 주도록 하지. 지금 어디야? 이 몸이 당장 그쪽으로 갈게!"
+    },
+    {
+        "id": 25122114,
+        "type": "",
+        "chs": "节日也要工作吗，好辛苦……！",
+        "chsT": "節日也要工作嗎，好辛苦……！",
+        "jp": "世間はお休みなのに七夕はお仕事か、大変だね……！",
+        "en": "Working on the holiday? That's rough!",
+        "kr": "크리스마스에도 일을 하다니, 고생이 많아……!"
+    },
+    {
+        "id": 25122115,
+        "type": "",
+        "chs": "你以为本大爷想在这种节日加班吗！还不是因为{name}你的红线不知道为什么乱成一大团……本大爷为了你的幸福肯定要拼命工作才行啊！",
+        "chsT": "你以為本大爺想在這種節日加班嗎！還不是因為{name}你的紅線不知道為什麼亂成一大團……本大爺為了你的幸福肯定要拼命工作才行啊！",
+        "jp": "オレ様だって、したくてこんな日に出勤してんじゃねーよ！\r\nつーか、これも全部、お前の赤い糸がすごい勢いで絡まっちまってるせいなんだけどな……\r\nお前の幸せのためだ、オレ様も必死に頑張るしかねーんだよ！",
+        "en": "You think I wanna be working on a holiday?! It's because your love life has somehow become a total train wreck, {name}... and I have to pull out all the stops to make sure you get your happy ending!",
+        "kr": "넌 이 몸이 이런 날까지 일하고 싶어서 이러는 줄 알아?! 이게 다 {name}, 네 붉은 실이 알 수 없는 이유로 엉켜 있어서 그런 거잖아…… 이 몸이 너의 행복을 위해서 죽어라 일하고 있는 거야!"
+    },
+    {
+        "id": 25122116,
+        "type": "",
+        "chs": "……还有，咳咳，平安夜快乐。",
+        "chsT": "……還有，咳咳，平安夜快樂。",
+        "jp": "あ、そうだ、メリークリスマス！",
+        "en": "And, uh... Merry Christmas.",
+        "kr": "……그리고, 흠흠, 크리스마스이브 잘 보내."
+    },
+    {
+        "id": 25122117,
+        "type": "",
+        "chs": "节日快乐～外面都在咚咚锵锵地大搞活动呢，咱的福禄双全馆岂能输阵？有了，就让大家穿上五颜六色的衣服叮叮当当地在门口揽客吧～",
+        "chsT": "節日快樂～外面都在咚咚鏘鏘地大搞活動呢，咱的福祿雙全館豈能輸陣？有了，就讓大家穿上五顏六色的衣服叮叮噹當地在門口攬客吧～",
+        "jp": "連休や～！どこもかしこもドンチャン騒ぎでやかましなぁ。\r\nウチの福寿双全館も、負けてられへんで！\r\n皆、お願いや！ カラフルな衣装でめかしこんで、店の前で客引きしてくれんか！？",
+        "en": "Happy Holidays! Things are getting pretty wild out there with all the events. No way Luck and Fortune is getting left in the dust! ...I got it! Let's get everyone in some flashy costumes to jingle all the way and bring in the customers!",
+        "kr": "메리 크리스마스데이~ 밖에서 다들 시끄럽게 행사하고 있는데, 우리 복수쌍전관이 질 수 있긋나? 자, 다들 알록달록하게 차려입고 입구에서 손님 모아보제이~"
+    },
+    {
+        "id": 25122118,
+        "type": "",
+        "chs": "没有工资哪里会有人愿意来帮你这样做宣传汪……",
+        "chsT": "沒有工資哪裡會有人願意來幫你這樣做宣傳汪……",
+        "jp": "報酬もなしに、手伝う奴がいるのかワン…？",
+        "en": "You really think anyone would do that for free, woof?",
+        "kr": "월급이 없는데 누가 홍보해 주겠느냐멍……"
+    },
+    {
+        "id": 25122119,
+        "type": "",
+        "chs": "送福禄双全馆九折场代券哦～",
+        "chsT": "送福祿雙全館九折場代券哦～",
+        "jp": "福寿双全館の場代2割引券プレゼントしたげましょ～！",
+        "en": "They'll get a 10% off coupon for Luck and Fortune!",
+        "kr": "복수쌍전관의 모든 서비스를 90% 금액으로 이용할 수 있는 쿠폰을 준데이~"
+    },
+    {
+        "id": 25122120,
+        "type": "",
+        "chs": "你以前是不是用过这一招汪？",
+        "chsT": "你以前是不是用過這一招汪？",
+        "jp": "その手、前にも使ってなかったかワン……？",
+        "en": "Didn't you pull this same stunt before, woof...?",
+        "kr": "전에도 그 수법 쓰지 않았냐멍?"
+    },
+    {
+        "id": 25122121,
+        "type": "",
+        "chs": "上次是八折，这次可是唰地降到了更厉害的折扣呢。",
+        "chsT": "上次是八折，這次可是唰地降到更厲害的折扣呢。",
+        "jp": "前回はタダの2割引きです。\r\nでもなんと、今回は！ 特別に！ どーんと！ どえらい割引や！",
+        "en": "That was a 20% discount, but this time? I've slashed the number all the way down to rock bottom!",
+        "kr": "지난번에는 80%고, 이번에는 퍼센티지가 훨씬 크다 아이가."
+    },
+    {
+        "id": 25122122,
+        "type": "",
+        "chs": "降的是折扣本身吗……明明是更抠门了汪……",
+        "chsT": "降的是折扣本身嗎……明明是更摳門了汪……",
+        "jp": "……いや今回もタダの2割引きじゃねえか。\r\nどこがどえらくなったんだワン！？",
+        "en": "Did you slash the price... or just the discount? Sounds like you're being even stingier, woof...",
+        "kr": "……할인율은 내려간 거잖아…… 이건 더 쪼잔해진 거다멍……"
+    },
+    {
+        "id": 25122123,
+        "type": "",
+        "chs": "你发现了重点呢～恭喜通过面试，这就来领工作服吧？",
+        "chsT": "你發現了重點呢～恭喜通過面試，這就來領工作服吧？",
+        "jp": "ええ突っ込みやなぁ。\r\nおめでとうワン次郎さん、面接合格です。\r\nさっそく仕事着を受け取りに来てくれはります？",
+        "en": "Oh, you've figured it out! Congrats, you passed the interview. How about you come get your uniform?",
+        "kr": "제대로 짚었구마~ 면접 통과데이. 지금 바로 작업복 받을 끼가?"
+    },
+    {
+        "id": 25122124,
+        "type": "",
+        "chs": "什么时候在面试了！这明明就是在强征苦力汪！",
+        "chsT": "什麼時候在面試了！這明明就是在強徵苦力汪！",
+        "jp": "いやこれ面接かよ！\r\nこんな強引な人員確保あってたまるかワン！",
+        "en": "Since WHEN was this an interview?! This is basically forced labor, woof!",
+        "kr": "언제 면접을 본 거지! 이건 직원 강제 고용이다멍!"
+    },
+    {
+        "id": 25122125,
+        "type": "",
+        "chs": "好厉害的折扣！怎么报名喵？",
+        "chsT": "好厲害的折扣！怎麼報名喵？",
+        "jp": "2、2割も…！すごいにゃ！\r\nどうやって申し込むにゃ！？",
+        "en": "Whoa, sweet discount! How do I sign up, nyaa?",
+        "kr": "엄청난 할인이다냥! 어떻게 등록하냥?"
+    },
+    {
+        "id": 25122126,
+        "type": "",
+        "chs": "到咱店里找前台登记就能领取折扣券了，可别磨蹭哦。",
+        "chsT": "到咱店裡找前臺登記就能領取折扣券了，可別磨蹭哦。",
+        "jp": "ウチの受付ん人に言っとけばええで～！\r\nはよ来てくれんとなくなってまうよ！",
+        "en": "Just head to the parlor and sign up at the front desk to get your coupon. First-come, first-served!",
+        "kr": "우리 가게 프런트에 가서 등록하면 바로 받을 수 있제. 꾸물대지 마레이~"
+    },
+    {
+        "id": 25122127,
+        "type": "",
+        "chs": "我要报名！",
+        "chsT": "我要報名！",
+        "jp": "はいはいっ！ 私にやらせて！",
+        "en": "Count me in!",
+        "kr": "나도 등록할래!"
+    },
+    {
+        "id": 25122128,
+        "type": "",
+        "chs": "呵呵呵，年轻人，就算是变成店员，咱也不会给你调查年龄的机会哦？",
+        "chsT": "呵呵呵，年輕人，就算是變成店員，咱也不會給你調查年齡的機會哦？",
+        "jp": "ふん、ヒヨッ子め、スタッフになったかて、ウチの歳を調べる隙は与えへんで？",
+        "en": "Uhehe, young lady. Even if I hired you, I wouldn't give you a chance to figure out my age.",
+        "kr": "허허허, 얼라야, 점원으로 변장 한다 캐도 나이 조사할 기회는 없을 낀데?"
+    },
+    {
+        "id": 25122129,
+        "type": "",
+        "chs": "暴露了……一番市未解之谜的调查计划，一开始就失败了……！",
+        "chsT": "暴露了……一番市未解之謎的調查計畫，一開始就失敗了……！",
+        "jp": "くっ、バレたか……！\r\n一飜市ミステリー大調査計画、開始早々に失敗とは……！",
+        "en": "Busted... The Great One Han City Unsolved Mystery Investigation failed right out of the gate...!",
+        "kr": "들켰다…… 이한시 미스터리 조사 계획, 시작부터 실패야……!"
+    },
+    {
+        "id": 25122130,
+        "type": "",
+        "chs": "折扣力度不够吸引人啊……",
+        "chsT": "折扣力度不夠吸引人啊……",
+        "jp": "もう一声欲しいかも。",
+        "en": "That's not much of a discount...",
+        "kr": "할인율이 좀 별로네……"
+    },
+    {
+        "id": 25122131,
+        "type": "",
+        "chs": "{name}要是想来，咱可以给出额外的折扣，毕竟每次{name}来店里帮忙，咱都能簌簌地赚上一大笔～不过，重点是咱对你另有安排——圣诞夜的麻将局绝对不能缺席哦。",
+        "chsT": "{name}要是想來，咱可以給出額外的折扣，畢竟每次{name}來店裡幫忙，咱都能簌簌地賺上一大筆～不過，重點是咱對你另有安排——聖誕夜的麻將局絕對不能缺席哦。",
+        "jp": "{name}さんが来てくれるいうなら、特別に割引率を上げてもええで。\r\n何せ、あんさんが来てくれはるたびに、ガッポリ儲けさせてもろてますからなぁ。\r\nせや、あんさんには、もうひとつ大事な頼み事があったんやわ。クリスマスイブの麻雀対局は、絶対欠席したらあかんで。",
+        "en": "If you're interested, {name}, I can sweeten the deal. I always make a killing when you're around, after all. But honestly, I've got something else in mind for you – you are absolutely not missing our Christmas mahjong night.",
+        "kr": "{name}, 니가 오고 싶다꼬만 카믄 추가 할인 해주께. 가게에 올 때마다 큰돈 벌게 도와줬다 아이가~ 근데 말이제, 제일 중요한 게 있다. 니는 크리스마스이브 대국에는 절대 빠지면 안 된데이."
+    },
+    {
+        "id": 25122132,
+        "type": "",
+        "chs": "福姬呢？作为馆主也会穿着新衣服来做宣传吗？",
+        "chsT": "福姬呢？作為館主也會穿著新衣服來做宣傳嗎？",
+        "jp": "福姫さんは？ 新しい衣装で宣伝したりしないの？",
+        "en": "What about you, Fu Ji? As the owner, are you gonna dress up too?",
+        "kr": "후지는? 주인도 새 옷을 입고 나와서 홍보하는 거야?"
+    },
+    {
+        "id": 25122133,
+        "type": "",
+        "chs": "呵呵呵，你的心思都明明白白地写在脸上了呢。咱当然准备好了只为你一人的特别预案，不过能不能说服咱，就看你的诚心了～",
+        "chsT": "呵呵呵，你的心思都明明白白地寫在臉上了呢。咱當然準備好了只為你一人的特別預案，不過能不能說服咱，就看你的誠心了～",
+        "jp": "あは、考えてることが顔に書いてあんで。\r\nもちろん、あんさん用の特別な衣装は用意してあります。\r\nせやけど、うちを口説き落とせるかどうかは、あんさんの誠意次第やな～！",
+        "en": "Hehehe, I can see exactly what you're thinking. I do have a special plan just for your eyes only. But if you want me to say yes, you'll have to convince me first~",
+        "kr": "후후후, 니 얼굴에서 속마음이 다 티가 난데이. 내야 물론 니를 위한 특별한 계획을 준비해 뒀지만, 보여줄지 말지는 네 성의에 달렸데이~"
+    },
+    {
+        "id": 25122134,
+        "type": "",
+        "chs": "最近一番市内钟鸣不停，为免劳神伤形，还是专心闭门修习心法为好。",
+        "chsT": "最近一番市內鐘鳴不停，為免勞神傷形，還是專心閉門修習心法為好。",
+        "jp": "クリスマスのせいだろうが、近頃の一飜市はベルの音が鳴り止まず、時折爆竹の音まで聞こえてくる。またしばらく引きこもらねばならんとは、実に不愉快だ。",
+        "en": "The bells in One Han City haven't stopped ringing. Better to stay inside and focus on my meditation than let the clamor dull my senses.",
+        "kr": "요즘 이한시에 종소리가 너무 자주 들려, 심신 수련에 방해가 된다. 한동안은 외출을 삼가고 심법 수련에 전념하는 게 맞겠어."
+    },
+    {
+        "id": 25122135,
+        "type": "",
+        "chs": "爆竹声也吵得很，对你这需要以耳辨位的人来说真乃一劫啊……不对，你是怎么在CatChat上发消息的？",
+        "chsT": "爆竹聲也吵得很，對你這需要以耳辨位的人來說真乃一劫啊……不對，你是怎麼在CatChat上發訊息的？",
+        "jp": "……どうやってCatChatに書き込んでるんです？",
+        "en": "The firecrackers are making a huge racket, too. Must be torture for someone who relies on their ears as much as you do... Wait, hold on. How are you even sending messages on CatChat??",
+        "kr": "폭죽 소리도 많이 시끄러우니, 귀로 위치를 파악해야 하는 사람에겐 정말 재앙이겠네요…… 잠깐, CatChat은 어떻게 올린 거지?"
+    },
+    {
+        "id": 25122136,
+        "type": "",
+        "chs": "一番市自有便利之物，语音输入便可成文，语音诵读便可听帖，无需局限于看，借物传意即可。",
+        "chsT": "一番市自有便利之物，語音輸入便可成文，語音誦讀便可聽帖，無需局限於看，借物傳意即可。",
+        "jp": "一飜市には、音声入力という便利なものもある。読み上げ機能を使えば、他者の投稿も聞ける。視覚ばかりに頼る必要はないのだ。",
+        "en": "The modern world offers its own solutions. I speak, and my words are transcribed; posts are read aloud for me to hear. The mind is not bound by the eyes – tools can serve as a means to convey one's thoughts.",
+        "kr": "이한시에는 편한 도구가 있지 않은가. 말하면 글로 바꿔주고, 또한 게시물을 읽어주니 들을 수도 있지. 도구를 활용하면 '눈으로 보는 것'에 얽매이지 않고 소통할 수 있다."
+    },
+    {
+        "id": 25122137,
+        "type": "",
+        "chs": "我还以为你真的做到了指尖可听风辨位，皮肤可感温知形，甚至能用心神感知到字的程度……",
+        "chsT": "我還以為你真的做到了指尖可聽風辨位，皮膚可感溫知形，甚至能用心神感知到字的程度……",
+        "jp": "てっきり、指先で温度とか振動を感じ取るとか、あるいはついに心眼で文字を読めるようになったのかと……。",
+        "en": "And here I thought you'd have some next-level sensory powers, like reading the wind with your fingertips or literally seeing words with your mind's eye...",
+        "kr": "손끝에 스치는 바람을 통해 위치를 파악하고, 피부로 온도를 느껴 형태를 구분하며, 심지어는 마음의 눈을 통해 글자를 느끼는 경지까지 다다른 줄 알았는데……"
+    },
+    {
+        "id": 25122138,
+        "type": "",
+        "chs": "呵，还有闲心在这说些风凉话……看来是前些天的修行还不够严格，今日非抓住你让你再练一番心法不可。",
+        "chsT": "呵，還有閒心在這說些風涼話……看來是前些天的修行還不夠嚴格，今日非抓住你讓你再練一番心法不可。",
+        "jp": "フッ、耳目聡明なれども、必ずしも心明ならず、まさにお前のことだ。そんな軽口を叩く余裕があるとは。どうやら、先日の修行では足りなかったようだな。今日こそ逃がさず、もう一度心法を叩き込んでやる。",
+        "en": "A quick tongue doesn't mean a focused mind. If you've got the energy for wisecracks, you clearly haven't been training hard enough. I'm on my way. We're drilling until you have no breath left to waste.",
+        "kr": "허, 여전히 그런 여유 부릴 겨를이 있다니…… 지난번 수행이 모자랐던 모양이군. 오늘 붙잡아서 심법 수련을 다시 시켜야겠어."
+    },
+    {
+        "id": 25122139,
+        "type": "",
+        "chs": "我掐指一算，这心法与我命理相克，练了怕是要折损道行，恕我不奉陪了！",
+        "chsT": "我掐指一算，這心法與我命理相剋，練了怕是要折損道行，恕我不奉陪了！",
+        "jp": "いやいや、チョイと占ってみましたところ、どうも北落先生の心法はボクの性分とは相性が悪いようなんですヨ。\r\n修行なんてしようものなら、ボクのなけなしの心法をむしろ損ないかねませんので、お気持ちだけ頂戴しますネ……。\r\n先日の修行でも頑張りすぎちゃいましたし、申し訳ないのですが、ご一緒しかねます～！",
+        "en": "I've done a quick divination, and alas! It says this training is totally incompatible with my current star sign. To train now would be to destroy my own path to enlightenment! ...So if you'll excuse me, I'm out!",
+        "kr": "점을 쳐보니, 그 심법은 내 팔자와 상극이라 수련했다간 도력이 깎일 수도 있다네요. 이만 실례!"
+    },
+    {
+        "id": 25122140,
+        "type": "",
+        "chs": "……",
+        "chsT": "……",
+        "jp": "問答無用、扉を開けろ。今から道場へ連れて行く。逃げられると思うな。",
+        "en": "...",
+        "kr": "……"
+    },
+    {
+        "id": 25122141,
+        "type": "",
+        "chs": "老师，最近我们不能在道场上课了吗？",
+        "chsT": "老師，最近我們不能在道場上課了嗎？",
+        "jp": "となると、しばらく道場での稽古も難しいのでしょうか？",
+        "en": "Does this mean the dojo's closed? No class?",
+        "kr": "선생님, 당분간 도장에서 수업 못 들어요?"
+    },
+    {
+        "id": 25122142,
+        "type": "",
+        "chs": "尘世喧嚣，亦是修行。道场虽然暂时停课，但剑心不可怠惰，假日期间需在家每日温习我先前提过的技巧要领，回来我会抽查。",
+        "chsT": "塵世喧囂，亦是修行。道場雖然暫時停課，但劍心不可怠惰，假日期間需在家每日溫習我先前提過的技巧要領，回來我會抽查。",
+        "jp": "俗世の喧騒もまた修行のうち。道場はしばらく休みとするが、剣の心の修練を疎かにしてはならん。休暇中は毎日家で、以前伝授した技の要点を復習しておくように。戻ったら抜き打ちで成果を見るぞ。",
+        "en": "The noise of the world is its own kind of training. Though the dojo is closed for now, your inner blade must stay sharp. While you're home for the holidays, I expect you to review the techniques we've covered. I will be testing you when you return.",
+        "kr": "속세의 소란함도 수행의 일부다. 도장은 잠시 쉬지만, 수련을 게을리해서는 안 된다. 연휴 동안 집에서 매일 내가 알려준 기술을 복습하도록. 돌아오면 직접 확인하겠다."
+    },
+    {
+        "id": 25122143,
+        "type": "",
+        "chs": "就算放假还得在家复习……早知道不提这一句了！！",
+        "chsT": "就算放假還得在家複習……早知道不提這一句了！！",
+        "jp": "うっ、休みでも家で修練……！聞くんじゃなかった！！",
+        "en": "Homework over the holidays...? Should've just stayed quiet!!",
+        "kr": "쉬는 날에도 복습이라니…… 이럴 줄 알았으면 물어보지 말걸!!"
+    },
+    {
+        "id": 25122144,
+        "type": "",
+        "chs": "老师当以身体为重……若有不适请告诉鄙人。",
+        "chsT": "老師當以身體為重……若有不適請告訴鄙人。",
+        "jp": "あまり無理はなさらぬよう。不調を感じた時は、拙者にお申し付けを。",
+        "en": "Mr. Hokuraku, your health comes first. If you feel unwell, please let me know.",
+        "kr": "선생님, 건강이 우선이니…… 만약 불편한 곳이 있으시면, 소인에게 말씀해 주십시오."
+    },
+    {
+        "id": 25122145,
+        "type": "",
+        "chs": "只是些许嘈杂而已，对我身体无碍，馆主有心了。",
+        "chsT": "只是些許嘈雜而已，對我身體無礙，館主有心了。",
+        "jp": "少々騒がしく感じるだけだ、体に障るほどではない。心遣い痛み入る。",
+        "en": "It's just a bit of noise, harmless to my health. Thank you for your concern, Kazuha.",
+        "kr": "조금 소란스러울 뿐이지, 건강에는 이상이 없습니다. 신경 써줘서 고맙습니다."
+    },
+    {
+        "id": 25122146,
+        "type": "",
+        "chs": "郊外会不会清静一点？",
+        "chsT": "郊外會不會清靜一點？",
+        "jp": "郊外のほうに行けば、多少は静かになりそうですが……。",
+        "en": "Maybe you could find some peace out in the suburbs?",
+        "kr": "교외가 좀 더 조용하지 않을까?"
+    },
+    {
+        "id": 25122147,
+        "type": "",
+        "chs": "我的确知道一个僻静之处，正打算前去静心养性，听听风穿竹叶的声音，你若是有空，可以与我同行。",
+        "chsT": "我的確知道一個僻靜之處，正打算前去靜心養性，聽聽風穿竹葉的聲音，你若是有空，可以與我同行。",
+        "jp": "ああ、静かな場所を一つ知っている。今夜はそこで一人、風が笹の葉を揺らす音でも聞きながら一杯やろうと思っていたところだ。お前も暇なら、共にどうだ？",
+        "en": "I do know of a secluded place. I was planning to go there to clear my mind – just listen to the wind in the bamboo leaves. If you are free, you may come with me.",
+        "kr": "확실히 한적한 장소를 알고 있지. 마침, 거기로 가서 대나무 사이를 지나가는 바람 소리를 들으며 술 한잔할 참이다. 만약 시간이 난다면, 함께 가지 않겠나."
+    },
+    {
+        "id": 25122148,
+        "type": "",
+        "chs": "需要推荐隔音耳塞吗？",
+        "chsT": "需要推薦隔音耳塞嗎？",
+        "jp": "騒音対策用の耳栓を試してみては？",
+        "en": "Ever tried noise-canceling earplugs? I can recommend a good pair.",
+        "kr": "귀마개 추천해 줄까?"
+    },
+    {
+        "id": 25122149,
+        "type": "",
+        "chs": "阁下的好意我心领了。只是……依赖外物终究不是解决之道。真正的静，还是要由心而生才是。",
+        "chsT": "閣下的好意我心領了。只是……依賴外物終究不是解決之道。真正的靜，還是要由心而生才是。",
+        "jp": "物質に頼って外部を遮断するは、所詮下策よ。真の「静」とは心から生まれるもの、外部の事象に心を動かされぬことなのだ。だが、その心遣いは受け取っておこう。",
+        "en": "I appreciate the thought. But true silence isn't what you can't hear – it is what you find within.",
+        "kr": "마음은 고맙게 받지. 다만, 외부 무언가에 기대는 것은 해결법이라 할 수 없다. 진정한 고요함은 마음에서 비로소 피어나는 것이니 말이야."
+    },
+    {
+        "id": 25122150,
+        "type": "",
+        "chs": "最近下雪，学校也放假了，除了一棵在不停抖雪的奇怪圣诞树，操场没有其他人或者东西在呢……",
+        "chsT": "最近下雪，學校也放假了，除了一棵在不停抖雪的奇怪聖誕樹，操場沒有其他人或者東西在呢……",
+        "jp": "ここんとこ雪続きだから、部活もずっと休みだな…。\r\nグラウンドにも、ひたすら自分に積もった雪を払い続けてる妙なクリスマスツリー以外、誰もいないよ。",
+        "en": "It's been snowing, and school's out. The field's totally empty except for this weird Christmas tree that keeps shaking...",
+        "kr": "요즘 눈이 내려서 학교도 휴교했어. 눈을 계속해서 털어대는 이상한 크리스마스트리 하나를 빼면, 운동장에는 아무것도 없어……"
+    },
+    {
+        "id": 25122151,
+        "type": "",
+        "chs": "学校连人都没有，为什么还要专门立一棵圣诞树在操场上？真奇怪……",
+        "chsT": "學校連人都沒有，為什麼還要專門立一棵聖誕樹在操場上？真奇怪……",
+        "jp": "誰も学校行かねえのに、なんでわざわざクリスマスツリー立ててあんだ？\r\nやっぱおかしくね？",
+        "en": "Why would they put a Christmas tree on the field when the school is empty? Kinda creepy...",
+        "kr": "학교에 사람도 없는데 왜 운동장에 크리스마스트리를 세워놓은 거지? 진짜 이상해……"
+    },
+    {
+        "id": 25122152,
+        "type": "",
+        "chs": "要不我们几个来陪你？其实我们也挺有空的！",
+        "chsT": "要不我們幾個來陪你？其實我們也挺有空的！",
+        "jp": "サッカーやるなら付き合おうか？\r\n休みっつっても、ゆーてみんな暇してるし！",
+        "en": "We could come hang out with you, y'know? We're free!",
+        "kr": "우리랑 놀래? 우리도 딱히 할 일 없거든!"
+    },
+    {
+        "id": 25122153,
+        "type": "",
+        "chs": "今天不运动的话，要不要一起逛逛？",
+        "chsT": "今天不運動的話，要不要一起逛逛？",
+        "jp": "今日は部活が無いなら、一緒にどこかぶらぶらしない？",
+        "en": "Not practicing today? Wanna hang out?",
+        "kr": "오늘 운동 안 하면, 같이 산책할래?"
+    },
+    {
+        "id": 25122154,
+        "type": "",
+        "chs": "原来队长是在等这句话！",
+        "chsT": "原來隊長是在等這句話！",
+        "jp": "なるほど、キャプテンはこの言葉を待ってたんか！",
+        "en": "So that's what he was waiting for!",
+        "kr": "주장은 이 말을 기다리고 있었어!"
+    },
+    {
+        "id": 25122155,
+        "type": "",
+        "chs": "我就说嘛，队长怎么会突然发这么一条CatChat，原来是在等这个啊～",
+        "chsT": "我就說嘛，隊長怎麼會突然發這麼一條CatChat，原來是在等這個啊～",
+        "jp": "だからかー！なんか急に珍しい投稿したなって思ったわ。",
+        "en": "I knew it! No way he'd post something like that out of the blue.",
+        "kr": "내가 말했잖아, 주장이 갑자기 CatChat을 왜 보냈겠냐고. 이런 반응을 기다렸던 거지~"
+    },
+    {
+        "id": 25122156,
+        "type": "",
+        "chs": "你别听他们起哄啊！还有……我很乐意！",
+        "chsT": "你別聽他們起鬨啊！還有……我很樂意！",
+        "jp": "おい、お前ら何言ってんだ！\r\nあっあと、めっちゃ嬉しい！",
+        "en": "Ignore them! And uh... yeah, I'd love to!",
+        "kr": "쟤네가 말하는 거 듣지 마! 그리고…… 나는 좋아!"
+    },
+    {
+        "id": 25122157,
+        "type": "",
+        "chs": "去室内体育场怎么样？",
+        "chsT": "去室內體育場怎麼樣？",
+        "jp": "体を動かすなら、体育館に行くのは？",
+        "en": "What about the indoor gym?",
+        "kr": "실내 체육관 가는 거 어때?"
+    },
+    {
+        "id": 25122158,
+        "type": "",
+        "chs": "不错！下大雪也能好好训练了！",
+        "chsT": "不錯！下大雪也能好好訓練了！",
+        "jp": "もちろんアリ！室内なら、大雪でもちゃんと練習できるしな！",
+        "en": "Sweet! We can still get a good practice in despite the snow!",
+        "kr": "좋아! 눈이 많이 와도 훈련할 수 있겠어!"
+    },
+    {
+        "id": 25122159,
+        "type": "",
+        "chs": "注孤生。",
+        "chsT": "註定孤獨一生。",
+        "jp": "我らがキャプテン、これだからモテないんだよな。",
+        "en": "Uh... he's hopeless.",
+        "kr": "평생 혼자 살겠네."
+    },
+    {
+        "id": 25122160,
+        "type": "",
+        "chs": "队长这个可怜的情商……",
+        "chsT": "隊長這個可憐的情商……",
+        "jp": "それな、恋愛偏差値だけ残念なんだから……。",
+        "en": "Yeah, totally clueless.",
+        "kr": "참 안타깝다, 주장의 감성지수가……"
+    },
+    {
+        "id": 25122161,
+        "type": "",
+        "chs": "你们几个什么意思啊？！",
+        "chsT": "你們幾個什麼意思啊？！",
+        "jp": "お前らなんなんだ！！",
+        "en": "What's that supposed to mean?!",
+        "kr": "너희들 그게 무슨 뜻이야?!"
+    },
+    {
+        "id": 25122162,
+        "type": "",
+        "chs": "在大雪中练习隐蔽术。",
+        "chsT": "在大雪中練習隱蔽術。",
+        "jp": "本日は大雪に乗じて、隠形術の修行でござる。",
+        "en": "Training my stealth arts in the snow.",
+        "kr": "폭설 속에서 은신술을 수련하고 있소."
+    },
+    {
+        "id": 25122163,
+        "type": "",
+        "chs": "小岚星，长时间在雪地里会冻伤身体的哦，老师这里有暖宝宝，快来保健室拿～",
+        "chsT": "小嵐星，長時間在雪地裡會凍傷身體的哦，老師這裡有暖暖包，快來保健室拿～",
+        "jp": "嵐星ちゃん？　雪の中でずっと隠れてると、凍傷になっちゃうわよ。\r\n先生カイロを持ってるから、時間があったら保健室まで取りに来てね。",
+        "en": "Ransei, you'll get frostbite if you're in the snow for too long! I've got hand warmers here. Come to the nurse's office and get them!",
+        "kr": "란세이, 눈밭에 오래 있으면 동상에 걸릴 수 있어. 선생님한테 핫팩 있으니까, 어서 보건실로 오렴~"
+    },
+    {
+        "id": 25122164,
+        "type": "",
+        "chs": "谢谢如月老师！但忍者的意志能抵御严寒！不过……暖宝宝可以贴在苦无上防止结冰，在下这就前来！",
+        "chsT": "謝謝如月老師！但忍者的意志能抵禦嚴寒！不過……暖暖包可以貼在苦無上防止結冰，在下這就前來！",
+        "jp": "如月先生、恩に着るでござる！ 拙者、忍の意志をもって、この厳寒にも耐えてみせるでござる！\r\n……ただ、カイロはクナイに貼ることで凍結防止に役立つ故、頂戴しに参る所存！",
+        "en": "Thank you, Miss Kisaragi! A ninja's spirit can endure any cold! But... the warmers could keep my kunai from icing up. I'm on my way!",
+        "kr": "감사하오, 키사라기 선생! 하지만 닌자의 의지는 추위에도 꺾이지 않는 법이오! 그래도…… 핫팩을 쿠나이에 붙이면 얼어붙는 일은 없을 테니, 지금 바로 가겠소!"
+    },
+    {
+        "id": 25122165,
+        "type": "",
+        "chs": "那个，昨天突然出现在园艺社附近的奇怪圣诞树……也是你吗？",
+        "chsT": "那個，昨天突然出現在園藝社附近的奇怪聖誕樹……也是你嗎？",
+        "jp": "もしかして、昨日園芸部前のグラウンドに出現した変なクリスマスツリーって、嵐星さんだったんですか……？",
+        "en": "Um... that weird Christmas tree that popped up near the gardening club yesterday... that was you, wasn't it?",
+        "kr": "그, 어제 갑자기 원예부 근처에 나타난 이상한 크리스마스트리도…… 란세이였어요?"
+    },
+    {
+        "id": 25122166,
+        "type": "",
+        "chs": "怎么发现的？！在下明明使用了「隐蔽术·雪遁」！难道是因为绿色忍服和松针的颜色不一样？",
+        "chsT": "怎麼發現的？！在下明明使用了「隱蔽術·雪遁」！難道是因為綠色忍服和松針的顏色不一樣？",
+        "jp": "な、なぜわかったでござるか！？\r\n秘技「木の葉隠れの術」を使ったはずでござるが……もしや、装束の緑とモミの木の葉の緑と、色合いが異なっていたのが敗因でござるか？",
+        "en": "How did you spot me?! I was using Stealth Art: Snow Hiding Jutsu! Was it because my uniform isn't the same color as the pine needles?",
+        "kr": "어떻게 눈치챈 것이오?! 분명 '은신술·눈의 방패'를 사용했는데! 혹시 녹색 닌자복과 솔잎의 색이 달라서 눈치챘소?"
+    },
+    {
+        "id": 25122167,
+        "type": "",
+        "chs": "因为……你一直在抖雪……就算是想不注意到也很难呢……",
+        "chsT": "因為……你一直在抖雪……就算是想不注意到也很難呢……",
+        "jp": "だって、ずっと雪を払っていましたし……\r\nむしろ気づかない方が難しいといいますか。",
+        "en": "It was because you kept shaking snow... It was kind of hard to miss...",
+        "kr": "그게…… 란세이가 계속 눈을 털고 있어서요…… 못 알아채는 게 더 이상할 거예요……"
+    },
+    {
+        "id": 25122168,
+        "type": "",
+        "chs": "果然，二之宫学姐不仅隐蔽术高超，观察术也很厉害，在下又完败了。但是在下会一直修行下去！",
+        "chsT": "果然，二之宮學姐不僅隱蔽術高超，觀察術也很厲害，在下又完敗了。但是在下會一直修行下去！",
+        "jp": "やはり、二之宮殿は隠形術に長けているだけでなく、観察眼も目を見張るものがあるでござるな。\r\n拙者の完敗でござる。引き続き、より一層修行に励む所存でござる！",
+        "en": "I should have known. Your stealth is top-tier, but your observation skills are on a whole other level. It is my complete defeat again. However, I'll keep training!",
+        "kr": "역시 니노미야 선배는 은신술도 뛰어나지만, 관찰력도 대단하오. 또 완패했구려. 하지만 나는 계속 수련할 것이오!"
+    },
+    {
+        "id": 25122169,
+        "type": "",
+        "chs": "加、加油……",
+        "chsT": "加、加油……",
+        "jp": "が、頑張ってください……！",
+        "en": "G-go for it...",
+        "kr": "힘, 힘내요……"
+    },
+    {
+        "id": 25122170,
+        "type": "",
+        "chs": "虽然是休假期间的个人行为，但还是触及到了校园安全隐患的红线，不可以再这么做了。",
+        "chsT": "雖然是休假期間的個人行為，但還是觸及到了校園安全隱患的紅線，不可以再這麼做了。",
+        "jp": "休暇中とはいえ、学園生活の安全性を脅かす事態になっていますよ。\r\n二度とこのようなことはしないように。",
+        "en": "Even though it's during the holiday, that's still a campus safety violation. You can't do it again.",
+        "kr": "연휴 기간에 한 개인행동이라지만, 이건 학교 안전 수칙을 위반하는 행동입니다. 다시는 이런 일이 없길 부탁드립니다."
+    },
+    {
+        "id": 25122171,
+        "type": "",
+        "chs": "抗议，本场修行在下分明没有损坏任何公共设施。",
+        "chsT": "抗議，本場修行在下分明沒有損壞任何公共設施。",
+        "jp": "異議あり！\r\n拙者、この修行においては、公共の物を損なう行為は一切していないでござるよ！",
+        "en": "I object. I didn't damage any school property during my training.",
+        "kr": "항의하고 싶소. 난 이번 수련 중에 그 어떤 공공시설도 손상시킨 적이 없소."
+    },
+    {
+        "id": 25122172,
+        "type": "",
+        "chs": "学生人身安全才是校园安全中最重要的。从保健室出来立刻到学生会找我报到。",
+        "chsT": "學生人身安全才是校園安全中最重要的。從保健室出來立刻到學生會找我報到。",
+        "jp": "生徒自身の安全こそ、学園生活の安全確保において最も重要な事項です。\r\n保健室を出たら、すぐに生徒会に報告するように。その後、私の目の前で反省文を書くこと。",
+        "en": "Student safety is campus safety. Report to the student council office after you're done at the nurse's. You'll be copying the campus safety rules.",
+        "kr": "학생의 신체적 안전은 학교 안전 수칙에서 최우선, 절대적 핵심입니다. 따라서 보건실에서 나오는 즉시 학생회로 와서 제게 보고하시고, 학교 안전 수칙을 필사하도록 하세요."
+    },
+    {
+        "id": 25122173,
+        "type": "",
+        "chs": "……高中校园的规则陷阱，太多了！",
+        "chsT": "……高中校園的規則陷阱，太多了！",
+        "jp": "……この高校の校則、罠が多すぎるでござる～！",
+        "en": "This high school is a minefield of rules!",
+        "kr": "……고등학교의 수칙에는 함정이 너무 많소!"
+    },
+    {
+        "id": 25122174,
+        "type": "",
+        "chs": "你的忍术已经大成，今日的修行就到这里吧。",
+        "chsT": "你的忍術已經大成，今日的修行就到這裡吧。",
+        "jp": "お主の忍術はすでに大成しておる。本日の修行はここまでだ。",
+        "en": "Your ninjutsu is already superb. That's enough training for today.",
+        "kr": "네 닌자술은 대성공이야. 오늘 수련은 여기까지 하자."
+    },
+    {
+        "id": 25122175,
+        "type": "",
+        "chs": "是师父的认可！修行再苦都值得了！师父，等在下写完检讨就一起去逛街吧！",
+        "chsT": "是師父的認可！修行再苦都值得了！師父，等在下寫完檢討就一起去逛街吧！",
+        "jp": "お師匠からのお墨付きをいただけるのなら、どんなに辛い修行であっても励んだ甲斐があるというもの！\r\nお師匠、反省文を書き終えたら、一緒に街へ繰り出しましょうぞ！",
+        "en": "You think so, Master?! All that training was worth it! Let's go shopping after I'm done with those safety rules!",
+        "kr": "스승의 인정을 받다니! 수련은 힘들지만 뿌듯하오! 스승, 반성문을 다 쓰면 함께 쇼핑하러 가는 게 어떻겠소!"
+    },
+    {
+        "id": 25122176,
+        "type": "",
+        "chs": "隐蔽术修行紧急暂停，接下来好好修行安全守则！",
+        "chsT": "隱蔽術修行緊急暫停，接下來好好修行安全守則！",
+        "jp": "隠形術の修行はひとまず中止。そして、安全確保の修行をしっかり行うように！",
+        "en": "Emergency pause on stealth training! Your next mission is mastering the safety rules!",
+        "kr": "은신술 수련은 잠시 중단하고, 이제는 안전 수칙에 대한 수련을 해보자!"
+    },
+    {
+        "id": 25122177,
+        "type": "",
+        "chs": "师父，在下已经在反省自己的修行之路了！",
+        "chsT": "師父，在下已經在反省自己的修行之路了！",
+        "jp": "お師匠、拙者はすでに己が修行の道を反省しているでござる！",
+        "en": "Master, I'm already reflecting on the way of the ninja while copying the rules!",
+        "kr": "스승, 소생은 지금 수칙을 베껴 쓰면서 스스로의 수행의 길을 돌아보고 있소!"
+    },
+    {
+        "id": 25122178,
+        "type": "",
+        "chs": "只是……在下可以拜托师父带一些红豆包来吗？在下的肚子已经在发动「忍饥挨饿之术」了！",
+        "chsT": "只是……在下可以拜託師父帶一些紅豆麵包來嗎？在下的肚子已經在發動「忍饑挨餓之術」了！",
+        "jp": "しかし、お師匠に一つ頼みが……。\r\nあんぱんをいくつかお恵みいただけないでござるか！\r\n拙者の腹は、すでに「空腹忍耐の術」を発動しているのでござる！",
+        "en": "It's just... could you please bring me some red bean buns? My stomach is about to unleash the Starving Rumble Jutsu!",
+        "kr": "다만…… 스승에게 팥빵을 가져다 달라고 좀 부탁해도 되겠소? 소생의 배가 이미 '허기 인내의 술'을 시전한 상태오!"
+    },
+    {
+        "id": 25122179,
+        "type": "",
+        "chs": "假期特报：本市规模最大的酒馆推出“机车骑士特饮”，骑重机车到店者可免费续杯——据说是某位高个子女骑手的提议？",
+        "chsT": "假期特報：本市規模最大的酒館推出「機車騎士特調」，騎重型機車到店者可免費續杯——據說是某位高個子女騎手的提議？",
+        "jp": "最速ホリデー情報：当市最大とされる酒場にて「ライダー・スペシャル」なる新メニュー登場。\r\n大型バイクで来店すると、お替わり無料。話によれば、とある長身の女性ライダーからの提案か。",
+        "en": "Holiday Special: The city's largest pub is serving up a new \"Biker's Brew.\" Ride your motorcycle there and get refills on the house! Apparently, a certain tall lady biker suggested it?",
+        "kr": "연휴 특보: 이한시 최대 규모의 술집에서 '바이크 라이더 스페셜 드링크'를 출시했다. 헤비 바이크를 타고 가게 방문 시 무료 리필 서비스가 제공되며…… 이는 어떤 키 큰 여성 라이더가 제안했다고 한다?"
+    },
+    {
+        "id": 25122180,
+        "type": "",
+        "chs": "你说的“还有点工作要整理”，就是把群聊总结成新闻？我已经坐在吧台了，你们到底什么时候能来？[tag]@寺崎千穗理[/tag] [tag]@如月彩音[/tag]",
+        "chsT": "你說的「還有點工作要整理」，就是把群組的訊息總結成新聞？我已經坐在吧台了，你們到底什麼時候能來？[tag]@寺崎千穗理[/tag] [tag]@如月彩音[/tag]",
+        "jp": "「まだ片付けないといけない仕事が残ってる」ってのは、グループチャットの内容を速報にすることだったわけ？\r\nあたしもうカウンター席座ってんだけど、あんた達いつになったら来るんだい？\r\n[tag]@寺崎千穂理[/tag] [tag]@如月彩音[/tag]",
+        "en": "So \"gotta finish some work\" is your code for \"live-catchating our group chat\"? I'm at the bar. When are you two getting here? [tag]@Chihori Terasaki[/tag] [tag]@Ayane Kisaragi[/tag]",
+        "kr": "\"정리할 일이 있다\"더니, 단톡방 채팅을 뉴스로 정리하는 거였어? 난 벌써 바 테이블에 앉아 있는데, 너희들은 대체 언제 도착해? [tag]@테라사키 치호리[/tag] [tag]@키사라기 아야네[/tag]"
+    },
+    {
+        "id": 25122181,
+        "type": "",
+        "chs": "职业习惯嘛～我在门口拍点素材，马上就来。",
+        "chsT": "職業習慣嘛～我在門口拍點照片，馬上就來。",
+        "jp": "職業柄どうしてもね。\r\n入り口付近でちょっとネタ集めしてるの。すぐ行くわ。",
+        "en": "Just a force of habit! Grabbing some B-roll at the door, be right in.",
+        "kr": "직업병이야~ 입구에서 자료만 좀 찍고 바로 들어갈게."
+    },
+    {
+        "id": 25122182,
+        "type": "",
+        "chs": "呜呜呜我还在值班啦！都怪校长他说最近发现假期操场上居然还有人在，让老师们轮流值班确认学生安全……",
+        "chsT": "嗚嗚嗚我還在值班啦！都怪校長他說最近發現假期操場上居然還有人在，讓老師們輪流值班確認學生安全……",
+        "jp": "うう～私まだ学校なの！\r\n校長先生が、\r\n「このところ、休み中なのにグラウンドに誰かがずっといるようだから、\r\n教師が交代で当直して、生徒の安全を確認するように」\r\nって……。",
+        "en": "Ugh, still on duty! It's all the principal's fault. He said he saw someone on the school field during the holiday, and now he's making the teachers rotate shifts to keep an eye on things...",
+        "kr": "흑흑, 난 아직 당직 중이야! 교장선생님이 최근 방학 기간에 운동장에서 사람을 봤다고, 선생님들이 돌아가면서 학생들 안전을 확인하라는 거야……"
+    },
+    {
+        "id": 25122183,
+        "type": "",
+        "chs": "兼顾了学生的安全和你的健康，校长的安排真是一举两得。",
+        "chsT": "兼顧了學生的安全和你的健康，校長的安排真是一舉兩得。",
+        "jp": "生徒の安全と先生の健康的生活、両方に配慮したということですか。\r\n校長先生の采配は、まさに一石二鳥ですね。",
+        "en": "It keeps the students safe and makes sure you get your sleep. Sounds like a win-win from the principal.",
+        "kr": "학생의 안전과 누님의 건강을 모두 챙기는 일이라니, 교장선생님의 조치는 그야말로 일석이조로군요."
+    },
+    {
+        "id": 25122184,
+        "type": "",
+        "chs": "啊啊啊！真是的，你就不能稍微体谅一下长辈需要一些工作之外的放松时间吗？……下班没多久就要回家睡觉，人生还有什么意义啊？！",
+        "chsT": "啊啊啊！真是的，你就不能稍微體諒一下長輩需要一些工作之外的放鬆時間嗎？……下班沒多久就要回家睡覺，人生還有什麼意義啊？！",
+        "jp": "も～、大人には仕事の時間だけじゃなくて、息抜きの時間も必要だって、少しくらい思いやりがあってもいいと思わない？\r\n職場と家を往復するだけの人生なんて、何の意味があるっていうのよ～！",
+        "en": "ARGH! For real! Can't you have some sympathy for a lady who needs to unwind after work? If my life is just work-sleep-repeat, what's the point?!",
+        "kr": "아아! 정말이지, 어른들에게 일 외적인 자유 시간이 필요하다는 걸 조금이라도 이해해 줄 순 없는 거야? ……퇴근한 후에 잠만 자야 한다면 그게 인생에 무슨 의미가 있겠어?!"
+    },
+    {
+        "id": 25122185,
+        "type": "",
+        "chs": "新闻报道的结局又变成喝酒了！",
+        "chsT": "新聞報導的結局又變成喝酒了！",
+        "jp": "ニュースだと思ったら、結局飲み会の話かい！",
+        "en": "And of course, the news story ends with drinking again!",
+        "kr": "뉴스 보도가 결국 또 술로 마무리됐네!"
+    },
+    {
+        "id": 25122186,
+        "type": "",
+        "chs": "毕竟是难得的假日，要好好放松工作中的疲惫才行。你也来吧，我想在这个特殊的日子对{name}进行一场令人兴奋的专访……",
+        "chsT": "畢竟是難得的假日，要好好消除工作的疲勞才行。你也來吧，我想在這個特殊的日子對{name}進行一場令人興奮的專訪……",
+        "jp": "せっかくの休日だもの、仕事の疲れをしっかり癒さないとね。\r\n君も来てちょうだい。せっかくの日だし、いつもより刺激的な独占インタビューをさせて欲しいわ。",
+        "en": "It's a rare holiday, gotta relax and leave all that work stress behind. You should come too. I'm dying to do an exciting exclusive interview with {name} on a day like this...",
+        "kr": "모처럼의 연휴 기간인데 일하면서 힘들었던 걸 다 날려버려야 하지 않겠어? {name}, 너도 와. 이 특별한 날에 너랑 재밌는 인터뷰도 하고 싶어……"
+    },
+    {
+        "id": 25122187,
+        "type": "",
+        "chs": "这是终于准备开始享受假期了？",
+        "chsT": "這是終於準備開始享受假期了？",
+        "jp": "やっと休日を楽しむ気になったんですか？",
+        "en": "So you're finally deciding to enjoy your holiday?",
+        "kr": "이제야 본격적으로 연휴 즐길 준비를 하는 거야?"
+    },
+    {
+        "id": 25122188,
+        "type": "",
+        "chs": "要跟我们一起吗？就算不喝酒也没关系。让我看看……抚子和彩音正在为我提供新的素材……呵呵，保证有趣。",
+        "chsT": "要跟我們一起嗎？就算不喝酒也沒關係。讓我看看……撫子和彩音正在為我提供新的點子……呵呵，保證有趣。",
+        "jp": "君も一緒にどう？ お酒を飲まなくても大丈夫よ。それに……撫子と彩音が新しいネタを提供してくれるはずだもの。きっと楽しい時間になるわ。",
+        "en": "Wanna join? You don't have to drink. Let's see... Nadeshiko and Ayane are giving me a great scoop right now... Hehe, I promise it'll be entertaining.",
+        "kr": "우리랑 같이 갈래? 술 안 마셔도 괜찮아. 어디 보자…… 나데시코와 아야네가 마침 새로운 기삿거리를 보내줬어…… 후후, 재미있을 거야."
+    },
+    {
+        "id": 25122189,
+        "type": "",
+        "chs": "过节和我没什么关系吧？我只想在游戏里过新年，也许只有外卖的元旦新品和我有点关系……",
+        "chsT": "過節和我沒什麼關係吧？我只想在遊戲裡過新年，也許只有外送的元旦新品和我有點關係……",
+        "jp": "正月とかどうでもよすぎ\r\nゲームの正月イベントとかなら話変わってくるけど……あでも、デリバリーの正月限定メニューはちょっと気になるかも。",
+        "en": "Holidays are kinda whatever to me. I just wanna spend New Year's gaming. The only thing remotely interesting is the holiday takeout specials...",
+        "kr": "명절이랑 나랑 무슨 상관이지? 난 게임이나 하면서 새해를 보낼 거야. 그나마 새해 배달 신메뉴 정도가 나하고 관련이 좀 있을 거 같네……"
+    },
+    {
+        "id": 25122190,
+        "type": "",
+        "chs": "希望下次你缺勤的借口不是熬夜打游戏透支了精力。",
+        "chsT": "希望下次你缺勤的藉口不是熬夜打遊戲透支了精力。",
+        "jp": "次の欠席理由が「徹夜でゲームをして体力を使い果たしたため」なんてものだったら承知しませんからね。",
+        "en": "Hope your next excuse for ditching class isn't \"I pulled an all-nighter gaming and now I'm literally burned.\"",
+        "kr": "다음번에는 '밤새 게임하느라 체력이 고갈되었다.' 같은 결석 핑계는 들고 오지 않았으면 합니다."
+    },
+    {
+        "id": 25122191,
+        "type": "",
+        "chs": "出去晒晒太阳吧你，小心年纪轻轻就骨质疏松了。",
+        "chsT": "出去曬曬太陽吧你，小心年紀輕輕就骨質疏鬆了。",
+        "jp": "少しは外に出て、日に当たったらどう？\r\n若いのに、骨粗しょう症になっちゃうよ。",
+        "en": "Go touch grass. You're gonna have the bones of an eighty-year-old before you even hit thirty.",
+        "kr": "나가서 햇볕 좀 쬐고 그래. 나이도 어린데 골다공증 오겠어."
+    },
+    {
+        "id": 25122192,
+        "type": "",
+        "chs": "我来陪你打游戏！",
+        "chsT": "我來陪你打遊戲！",
+        "jp": "ゲーム、付き合うよ！",
+        "en": "I'll game with you!",
+        "kr": "내가 같이 게임해 줄게!"
+    },
+    {
+        "id": 25122193,
+        "type": "",
+        "chs": "你要来吗？……那就准备上线吧。",
+        "chsT": "你要來嗎？……那就準備上線吧。",
+        "jp": "来る？ok、インして待ってる。",
+        "en": "You are? Alright, get on.",
+        "kr": "너도 하려고? ……그러면 바로 로그인해."
+    },
+    {
+        "id": 25122194,
+        "type": "",
+        "chs": "不过，你要是想出门也行……？让你整个假期都耗在我这，好像有点过意不去……提前说好，不去人多的地方。",
+        "chsT": "不過，你要是想出門也行……？讓你整個假期都耗在我這，好像有點過意不去……提前說好，不去人多的地方。",
+        "jp": "あ、いやでも、出かけたいってことならそれでもいい。\r\n貴重な休みを全部俺に合わせてもらうの、なんか悪いし……\r\n先に言っとくけど、人が多いところはパスで。",
+        "en": "But if you wanna go out, I guess that's cool too... Feels bad making you waste your whole holiday on me... Just a heads-up, no crowded places.",
+        "kr": "근데, 나가고 싶으면 나가도 돼…… 연휴 내내 여기다 잡아두는 건 좀 미안하니까…… 미리 말해두겠는데, 난 사람 많은 곳은 안 가."
+    },
+    {
+        "id": 25122195,
+        "type": "",
+        "chs": "有什么推荐的外卖新品吗？",
+        "chsT": "有什麼推薦的外送新品嗎？",
+        "jp": "おすすめのデリバリーメニューない？",
+        "en": "Any good new takeout specials?",
+        "kr": "배달앱에 추천하는 신메뉴 있어?"
+    },
+    {
+        "id": 25122196,
+        "type": "",
+        "chs": "关注点居然是这个？……行，我推给你。别点那个魔法少女主题的草莓三明治，上次踩雷了。",
+        "chsT": "關注點居然是這個？……行，我推給你。別點那個魔法少女主題的草莓三明治，上次踩雷了。",
+        "jp": "食いつくとこそこ？ まぁいいや、URL送る。\r\nちなみに、「魔法少女のいちごサンド」ってやつはやめといた方がいい。マジで酷いから。",
+        "en": "Really, that's what you care about? ...Fine, I'll send you the link. Just don't order the magical girl strawberry sandwich. Total trap.",
+        "kr": "네가 그런 데에 관심이 있어? ……좋아, 추천해 주지. 그 마법 소녀 테마 딸기 샌드위치는 시키지 마. 저번에 먹어 봤는데 별로였어"
+    },
+    {
+        "id": 25122197,
+        "type": "",
+        "chs": "……咳，顺带一提，你假日有安排吗……",
+        "chsT": "……咳，順帶一提，你假日有安排嗎……",
+        "jp": "あ、ついでに聞くけど、休みの予定ってどんな感じ？",
+        "en": "Ahem. So... you got plans for the holiday?",
+        "kr": "……크흠, 그나저나 연휴에 약속 있어……?"
+    },
+    {
+        "id": 25122198,
+        "type": "",
+        "chs": "这家店的新品也有双人套餐……要去试试吗？",
+        "chsT": "這家店的新品也有雙人套餐……要去試試嗎？",
+        "jp": "この店、店内限定のペアセットもあるっぽいんだけど……行く？",
+        "en": "This place has a new combo for two... Wanna go check it out?",
+        "kr": "이 집 신메뉴에 2인 세트도 있거든…… 가서 먹을래?"
+    },
+    {
+        "id": 25122199,
+        "type": "",
+        "chs": "小舞尝试了几道新的料理，谨呈一点心意……",
+        "chsT": "小舞嘗試了幾道新的料理，謹呈一點心意……",
+        "jp": "新しいお料理に挑戦してみました。\r\nほんの心ばかりですが、あの方に伝わると嬉しいです……。",
+        "en": "I tried my hand at a few new dishes... Just a little something to show my appreciation...",
+        "kr": "마이가 요리를 몇 가지 만들어 봤어요. 별거 아니지만 받아주세요……"
+    },
+    {
+        "id": 25122200,
+        "type": "",
+        "chs": "小舞好厉害，一姬隔着屏幕都闻到香味了喵！",
+        "chsT": "小舞好厲害，一姬隔著螢幕都聞到香味了喵！",
+        "jp": "舞、すごいにゃ！\r\n画面越しでもいい匂いがするにゃ～！",
+        "en": "Whoa, Mai, you're amazing! I can practically smell it through my phone, nyaa!",
+        "kr": "마이 대단하다냥. 화면 너머인데도 이치히메는 맛있는 냄새가 느껴지는 거 같다냥!"
+    },
+    {
+        "id": 25122201,
+        "type": "",
+        "chs": "过……过奖了……下次去魂天神社的时候，小舞也为一姬准备一份吧？",
+        "chsT": "過……過獎了……下次去魂天神社的時候，小舞也為一姬準備一份吧？",
+        "jp": "お、大げさですよ……\r\n今度、魂天神社に行く際に、一姫ちゃんの分をお渡ししますね。",
+        "en": "Th-that's... you're too kind... Maybe next time I go to Mahjong Soul Shrine, I could prepare some for you too, Ichihime?",
+        "kr": "과…… 과찬이세요…… 다음에 혼천 신사에 갈 때는 마이가 이치히메 먹을 것도 준비해 갈게요."
+    },
+    {
+        "id": 25122202,
+        "type": "",
+        "chs": "很丰盛嘛，不过还缺少了一道重要的菜品呢～",
+        "chsT": "很豐盛嘛，不過還缺少了一道重要的菜品呢～",
+        "jp": "豪勢じゃのう。\r\nじゃが、まだ大事な一品が足りておらぬようじゃな。",
+        "en": "Quite the menu, but you're missing a key dish, you know!",
+        "kr": "훌륭하군. 하지만 아주 중요한 요리 하나가 빠졌구나~"
+    },
+    {
+        "id": 25122203,
+        "type": "",
+        "chs": "诶？！是、是这样吗？还请辉夜姬小姐指点一二……",
+        "chsT": "欸？！是、是這樣嗎？還請輝夜姬小姐指點一二……",
+        "jp": "えっ、そうなんですか！？\r\nどうか、ご指導をよろしくお願いします……！",
+        "en": "Oh?! R-really? Please, enlighten me, Miss Kaguyahime...",
+        "kr": "네?! 그, 그런가요? 카구야히메 씨, 그 요리가 무엇인지 가르쳐 주세요……"
+    },
+    {
+        "id": 25122204,
+        "type": "",
+        "chs": "哼哼～要是没有月宫柠檬，怎么能称得上是精心准备的宴席呢？正好妾身这里的还有点盈余的食材，赠予汝也未尝不可，呜嘻嘻～",
+        "chsT": "哼哼～要是沒有月宮檸檬，怎麼能稱得上是精心準備的宴席呢？正好妾身這裡還有點盈餘的食材，贈予汝也未嘗不可，嗚嘻嘻～",
+        "jp": "ぐひひ～！月の宮殿のレモン無くしては、心のこもった宴とは言えないじゃろう？\r\nちょうどわらわの元に余っているものがあるからのう、くれてやってもよいぞ！",
+        "en": "Hmph! How can it be considered a carefully prepared feast without my Moon Palace lemons? Lucky for you, I have some to spare. I suppose I could bestow them upon you, uhehe!",
+        "kr": "으흠~ 달의 레몬이 없는데 어떻게 정성 가득 준비한 연회라 할 수 있겠느냐? 마침 이 몸에게 재료가 남아 있으니, 너에게 하사하겠노라, 우히히~"
+    },
+    {
+        "id": 25122205,
+        "type": "",
+        "chs": "原来如此……！谢谢辉夜姬小姐，小舞这就来取……！",
+        "chsT": "原來如此……！謝謝輝夜姬小姐，小舞這就來取……！",
+        "jp": "そ、そうなんですか……！ お心遣い、ありがとうございます！\r\nでは、ありがたくいただきます……！",
+        "en": "I see! Thank you, Miss Kaguyahime! I'll come get them right now...!",
+        "kr": "그렇군요……! 카구야히메 씨, 감사합니다. 마이가 지금 바로 챙길게요……!"
+    },
+    {
+        "id": 25122206,
+        "type": "",
+        "chs": "食物真是通往内心的捷径呢，让爱人的味蕾感受自己的灵魂……接下来便水到渠成，展开更热烈的交流……",
+        "chsT": "食物真是通往內心的捷徑呢，讓愛人的味蕾感受自己的靈魂……接下來便水到渠成，展開更熱烈的交流……",
+        "jp": "食は心への近道ですね。愛する人の味蕾に自分の魂を感じさせ……\r\nそれからは、自ずとより熱烈な交わりへと発展するもの……といったところでしょうか。",
+        "en": "Food is the quickest way to someone's heart... letting your beloved taste your very soul. From there, things naturally escalate to a more... intense exchange.",
+        "kr": "음식은 마음으로 향하는 지름길이죠. 사랑하는 사람이 미각으로 제 영혼을 느끼게 만들고…… 그다음은 자연스럽게 더 뜨거운 교감으로……"
+    },
+    {
+        "id": 25122207,
+        "type": "",
+        "chs": "小……小野寺小姐，接下来的内容还不在小舞目前考虑的范畴内……！",
+        "chsT": "小……小野寺小姐，接下來的內容還不在小舞目前考慮的範疇內……！",
+        "jp": "お、小野寺さん……！\r\nそれ以上は、まだいけません！",
+        "en": "M-Miss Onodera, I'm... not really thinking that far ahead yet!",
+        "kr": "오…… 오노데라 씨, 그다음은 아직 마이는 생각 안 해 봤어요……!"
+    },
+    {
+        "id": 25122208,
+        "type": "",
+        "chs": "看起来好棒！",
+        "chsT": "看起來好棒！",
+        "jp": "すごく美味しそう！",
+        "en": "Whoa, this looks incredible!",
+        "kr": "맛있어 보여!"
+    },
+    {
+        "id": 25122209,
+        "type": "",
+        "chs": "大人能喜欢真是太好了……",
+        "chsT": "大人能喜歡真是太好了……",
+        "jp": "旦那様に気に入っていただけたのなら、良かったです……！",
+        "en": "I'm so happy you like it...",
+        "kr": "주인님이 좋아해 주셔서 정말 다행이에요……"
+    },
+    {
+        "id": 25122210,
+        "type": "",
+        "chs": "从准备食材到摆盘，小舞的心里……一直都只想着一个人，用心制作的饭菜，果然还是要和最重要的人一起分享才对。",
+        "chsT": "從準備食材到擺盤，小舞的心裡……一直都只想著一個人，用心製作的飯菜，果然還是要和最重要的人一起分享才對。",
+        "jp": "食材の準備から盛り付けに至るまで、舞は、ずっととあるお一人だけを想っていました。\r\n心を込めて作ったお料理は、やはり大切な人と分かち合いたいです。",
+        "en": "From preparing the ingredients to the final presentation... my heart was focused on just one person. A meal made with this much love... has to be shared with the one who matters most.",
+        "kr": "재료를 준비하는 것부터 플레이팅을 하는 것까지, 마이는 마음속으로…… 단 한 사람만 생각했어요. 정성을 다해 만든 요리는 역시 가장 소중한 사람과 함께 나누어야 하는 거니까요."
+    },
+    {
+        "id": 25122211,
+        "type": "",
+        "chs": "我也想吃……",
+        "chsT": "我也想吃……",
+        "jp": "私も食べたい……",
+        "en": "I really wanna try some...",
+        "kr": "나도 먹고 싶어……"
+    },
+    {
+        "id": 25122212,
+        "type": "",
+        "chs": "诶？当、当然可以！",
+        "chsT": "欸？當、當然可以！",
+        "jp": "もちろん喜んで……！",
+        "en": "Huh? O-of course you can!",
+        "kr": "네? 당, 당연히 드셔야 해요!"
+    },
+    {
+        "id": 25122213,
+        "type": "",
+        "chs": "小舞一直偷偷练习，就是盼望着有一天，能为您准备合心意的料理……您稍等一下，小舞马上就来……！",
+        "chsT": "小舞一直偷偷練習，就是盼望著有一天，能為您準備合心意的料理……您稍等一下，小舞馬上就來……！",
+        "jp": "いつか、旦那様のために心を込めたお料理をご用意できる日を夢見て、ずっと練習していました。\r\n少々お待ちください、舞、すぐに参ります……！",
+        "en": "I've been practicing in secret, hoping that one day I could finally make a meal you'd love... P-please wait just a moment! I'll bring it to you right away...!",
+        "kr": "마이가 여태 몰래 연습했었어요. 언젠가는 주인님이 좋아할 만한 요리를 해드리고 싶었거든요…… 잠시만요, 마이가 바로 가져갈게요……!"
+    },
+    {
+        "id": 25122214,
+        "type": "",
+        "chs": "新年已至～圣西弗修道院将聆听各位的祈祷……诸位的心中有着怎样的新年愿景呢？在这里留下你的愿望并且心怀期望，也许就真的能够实现哦～",
+        "chsT": "新年已至～聖西弗修道院將聆聽各位的祈禱……諸位的心中有著怎樣的新年願景呢？在這裡留下你的願望並且心懷期望，也許就真的能實現哦～",
+        "jp": "あけましておめでとうございます。\r\n今年も、聖シーベルト修道院は、皆様の祈りを聞き入れて参ります。\r\n皆様の心に秘められた新年の願いをお告げいただれば、必ず叶う日が来るでしょう。",
+        "en": "The New Year is upon us. St. Severus's awaits your prayers... What does your heart desire for the coming year? Leave your wish here, keep the faith... and perhaps, it shall come to pass.",
+        "kr": "새해가 밝았네요~ 성 세이프리드 수도원이 여러분의 기도를 듣겠습니다…… 여러분은 마음속에 어떤 새해 소원을 품고 계시나요? 이곳에 소원을 남기고 희망을 품는다면 정말 소원이 이루어질지도 모른답니다~"
+    },
+    {
+        "id": 25122215,
+        "type": "",
+        "chs": "新年……猎物，更大……更多。",
+        "chsT": "新年……獵物，更大……更多。",
+        "jp": "今年 えもの もっと大きく もっと多く",
+        "en": "Wish for... prey. More. Bigger.",
+        "kr": "새해에는…… 더 큰…… 사냥감…… 더 많이."
+    },
+    {
+        "id": 25122216,
+        "type": "",
+        "chs": "所以老子才说你这鬣狗没什么见识！靠祈祷来获得猎物，那狩猎还有什么意思！",
+        "chsT": "所以老子才說你這鬣狗沒什麼見識！靠祈禱來獲得獵物，那狩獵還有什麼意思！",
+        "jp": "だからてめぇみてーなハイエナヤローは常識がねぇんだ！お祈りの仕方すら知らねえのかよ？ \r\nつーか、祈るだけで獲物が手に入んなら、狩りする意味も無くなっちまうだろ！",
+        "en": "Told you hyenas really don't have a clue! If praying got you prey, what's the point of the hunt?!",
+        "kr": "이래서 내가 너 같은 하이에나는 아는 게 없다고 하는 거야! 소원을 어떻게 비는지도 모르면서! 기도만으로 사냥감을 얻을 수 있다면, 사냥이 무슨 의미가 있겠어!"
+    },
+    {
+        "id": 25122217,
+        "type": "",
+        "chs": "……？猎物，交给……{name}……开心。你的，愿望？",
+        "chsT": "……？獵物，交給……{name}……開心。你的，願望？",
+        "jp": "？えものじゃんしにプレゼント じゃんし喜ぶ おまえの願いは？",
+        "en": "...? Giving prey... to {name}... makes me happy. Your wish?",
+        "kr": "……? 사냥감, {name}에게…… 주면…… 행복하다. 너, 소원은?"
+    },
+    {
+        "id": 25122218,
+        "type": "",
+        "chs": "啊啊？老子的愿望那还用说？当然是成为更强大的猎人！正好！我们来比比看，谁能给{name}猎到更多更厉害的猎物，谁就是胜者！",
+        "chsT": "啊啊？老子的願望那還用說？當然是成為更強大的獵人！正好！我們來比比看，誰能給{name}獵到更多更厲害的獵物，誰就是勝者！",
+        "jp": "あ？聞くまでもねえ、もちろん、もっと強い獲物を狩って、もっと強い狩人になることだ！\r\nちょうどいい！どっちがアイツのためにより多く、よりすごい獲物を狩れるか、勝負だ！",
+        "en": "My wish? Duh! To take down tougher prey and become an even better hunter! In fact, let's compete: whoever catches the most impressive prey for {name} is the winner!",
+        "kr": "아? 내 소원이 뭐냐고? 당연히 더 강한 사냥감을 잡고, 더 강한 사냥꾼이 되는 거지! 마침, 잘 됐군! 승부다! {name}에게 강한 사냥감을 더 많이 가져다주는 쪽이 승리하는 거다!"
+    },
+    {
+        "id": 25122219,
+        "type": "",
+        "chs": "有趣……愿意，比试……",
+        "chsT": "有趣……願意，比試……",
+        "jp": "面白い 受けて立つ",
+        "en": "Interesting... Challenge... accepted.",
+        "kr": "재미있는…… 소원. 승부하자……"
+    },
+    {
+        "id": 25122220,
+        "type": "",
+        "chs": "愿望啊，希望新的一年里，莱恩最期待的观众可以每天都来看莱恩的演出，这样莱恩就可以独占那位观众的心了吧？[tag]@{name}[/tag]",
+        "chsT": "願望啊，希望新的一年，萊恩最期待的觀眾可以每天都來看萊恩的演出，這樣萊恩就可以獨佔那位觀眾的心了吧？[tag]@{name}[/tag]",
+        "jp": "願い事……そうですね、今年はもっと素敵なショーを披露して、お姉さまの心をしっかりと掴んでいられますように……。",
+        "en": "For my wish... I want the person I care about most to come watch every one of my performances. That's the only way to make sure I have your heart completely locked down, isn't it? [tag]@{name}[/tag]",
+        "kr": "소원이라…… 새해에는 라이언이 가장 기다리는 관객이 매일 라이언의 공연을 보러 와주었으면 좋겠어요. 그러면 누님의 마음을 독점할 수 있겠죠? [tag]@{name}[/tag]"
+    },
+    {
+        "id": 25122221,
+        "type": "",
+        "chs": "这份祈祷的内容我已经完全了解了，不过，也要当心物极必反哦～？",
+        "chsT": "這份祈禱的內容我已經完全瞭解了，不過，也要當心物極必反哦～？",
+        "jp": "その願い、確かに伺いました。\r\nしかしながら、物事は極まれば転じると言いますゆえ、よくよくお気をつけくださいませ。",
+        "en": "Your prayer has been heard, loud and clear. But be careful what you wish for, my child... sometimes, getting exactly what you want is a curse in disguise.",
+        "kr": "기도 내용은 제가 이미 다 파악했어요. 그렇지만 너무 도가 지나치지 않도록 주의해 주세요~"
+    },
+    {
+        "id": 25122222,
+        "type": "",
+        "chs": "一姬要祈祷！祈祷新年可以和更多的大牌喵！最好是上来就天和喵！",
+        "chsT": "一姬要祈禱！祈禱新年可以和更多的大牌喵！最好是上來就天和喵！",
+        "jp": "一姫もお祈りするにゃ！\r\n今年は、いっぱい大きい役であがれますように、だにゃ！\r\nできれば天和がいいにゃ！",
+        "en": "I'm gonna pray! For tons of big hands this year! Like, a Blessing of Heaven on the first game, nyaa!",
+        "kr": "이치히메도 기도할 거다냥! 새해에는 고득점 화료가 더 많이 나왔으면 좋겠다고 기도할 거다냥! 제일 좋은 건 처음부터 천화가 떠버리는 거다냥!"
+    },
+    {
+        "id": 25122223,
+        "type": "",
+        "chs": "做不到的汪……如果真的这样，就绝对没人再想和一姬打麻将了汪。",
+        "chsT": "做不到的汪……如果真的這樣，就絕對沒人想再和一姬打麻將了汪。",
+        "jp": "いやいや……神頼み一つでできるもんじゃねーワン。\r\nっていうか、もし本当に叶ったら、誰も一姫と麻雀したくなくなるワン。",
+        "en": "Not gonna happen, woof... If it did, nobody would ever play mahjong with you again.",
+        "kr": "그건 무리다멍…… 정말 그러면 이치히메랑 마작하고 싶은 사람은 없을거다멍."
+    },
+    {
+        "id": 25122224,
+        "type": "",
+        "chs": "说不准呢～心愿足够强烈，说不定真的能改变命运哦？",
+        "chsT": "說不準呢～心願足夠強烈，說不定真的能改變命運哦？",
+        "jp": "できないとも限りませんよ？\r\n強い願いであれば、運命さえも変えることができる、かもしれません。",
+        "en": "Who can say? If your wish is strong enough... maybe you really can change your destiny. Hmm?",
+        "kr": "꼭 그렇지도 않아요~ 간절하게 바라면 운명도 바꿀 수 있지 않겠어요?"
+    },
+    {
+        "id": 25122225,
+        "type": "",
+        "chs": "更多评论已折叠",
+        "chsT": "更多留言已被折疊",
+        "jp": "一部のコメントは折り畳まれています",
+        "en": "More comments hidden",
+        "kr": "댓글 더 보기"
+    },
+    {
+        "id": 25122226,
+        "type": "",
+        "chs": "许下什么愿望都可以实现吗？",
+        "chsT": "許下什麼願望都可以實現嗎？",
+        "jp": "どんな願いでも叶うんですか？",
+        "en": "So, like, any wish at all?",
+        "kr": "무슨 소원이든 다 이루어지는 거야?"
+    },
+    {
+        "id": 25122227,
+        "type": "",
+        "chs": "呵呵～要是把圣西弗修道院当做能够实现奇迹的魂天神社……未免会有些太贪心了呢～不过，只要是{name}的愿望，我都会怀抱着爱意仔细倾听哦～",
+        "chsT": "呵呵～要是把聖西弗修道院當做能夠實現奇蹟的魂天神社……未免會有些太貪心了呢～不過，只要是{name}的願望，我都會懷抱著愛意仔細傾聽哦～",
+        "jp": "ふふふ。聖シーベルト修道院のことを、奇跡を起こす魂天神社と同様に捉えておいでなのでしょうか？\r\nそれは少々、欲張りというものではございませんか。ですが、あなた様の願いでしたら、\r\nわたくしが愛情を込めて、しっかりとお伺いいたしますよ。",
+        "en": "Now, now, it might be a tad greedy to expect miracles from St. Severus's like you do from Mahjong Soul Shrine, you know? But since it is your wish, {name}, I'll listen to it with all my heart.",
+        "kr": "후후~ 성 세이프리드 수도원을, 기적을 만드는 혼천 신사처럼 생각하는 건…… 욕심이 지나치신 거예요~ 하지만, {name}의 소원이라면 제가 정성을 다해 들어드릴 거랍니다~"
+    },
+    {
+        "id": 25122228,
+        "type": "",
+        "chs": "那我许愿莉莉在新的一年里也能获得幸福！",
+        "chsT": "那我許願莉莉在新的一年裡也能獲得幸福！",
+        "jp": "じゃあ、リリィさんにとっても、今年が幸せな一年でありますように！",
+        "en": "Then my wish is for you, Lily! I hope you find happiness in the new year too!",
+        "kr": "그러면 난 릴리가 새해에도 행복하길 빌래!"
+    },
+    {
+        "id": 25122229,
+        "type": "",
+        "chs": "呵呵～不是为了自己而是为了他人吗？神明一定能听到你这无私的愿望的……只是，我的幸福若是想要实现，需要{name}你一直留在我的身边才行哦～",
+        "chsT": "呵呵～不是為了自己而是為了他人嗎？神明一定能聽到你這無私的願望的……只是，我的幸福若是想要實現，需要{name}你一直留在我的身邊才行哦～",
+        "jp": "まあ、ご自身ではなく、他者のために祈りを？\r\n神はきっと、あなた様の願いを聞き届けてくださることでしょう。\r\n……ただ、それが叶うためには、{name}さんがずっとわたくしの傍にいてくださらなければなりませんよ？",
+        "en": "Hehe, a selfless wish for someone else? The gods will surely hear that... But for my happiness to be complete, I need you to stay by my side, {name}... forever.",
+        "kr": "후후~ 자신을 위한 소원이 아닌, 타인을 위한 소원이네요? 신은 사심이 들어있지 않은 당신의 소원을 분명 들어줄 거예요…… 다만, 제 행복을 바라신다면, {name}, 제 옆에 계속 있어 주셔야 해요~"
+    },
+    {
+        "id": 25122230,
+        "type": "",
+        "chs": "假日的一番市别有趣味，不过，既然是新年和某位金牌向导的第一次出游，还是找个没去过的地方玩玩吧？",
+        "chsT": "假日的一番市別有趣味，不過，既然是新年和某位金牌嚮導的第一次出遊，還是找個沒去過的地方玩玩吧？",
+        "jp": "新年の⼀飜市は、他の時期とはまた違った趣がありますわね。\r\nそういえば、どこだかのガイドさんも今お休みだったはずですし、どこかまだ行ったことのない場所にでも出かけようかしら。",
+        "en": "One Han City has a special charm during the holidays... But since this is my first New Year's outing with a certain expert guide, I'd rather we go somewhere we haven't visited yet.",
+        "kr": "휴일의 이한시는 색다른 느낌이네요. 하지만, 새해에 특급 가이드와 함께하는 첫 여행인 만큼, 아직 가본 적 없는 곳으로 떠나는 게 어떨까요?"
+    },
+    {
+        "id": 25122231,
+        "type": "",
+        "chs": "虽然是假期内，但大小姐出门仍需遵守《贵族礼仪守则》的各项条例。",
+        "chsT": "雖然是在假期中，但大小姐出門仍需遵守《貴族禮儀守則》的各項條例。",
+        "jp": "お嬢様。休暇中といえど、お出かけになる際は、くれぐれも「貴族礼儀作法集」の各条項を遵守していただきますよう。\r\nこちら、念のため再送いたします。",
+        "en": "Even on holiday, my lady, you must still adhere to all articles of the Code of Noble Etiquette when leaving the premises.",
+        "kr": "아무리 연휴 기간이라 하더라도, 아가씨께서는 외출하실 때 '귀족 예의 교범'을 준수하셔야 합니다."
+    },
+    {
+        "id": 25122232,
+        "type": "",
+        "chs": "1.出发后需要与家中报备。",
+        "chsT": "1. 出發後需要與家中報備。",
+        "jp": "1.出発後はご実家へ連絡を入れること。",
+        "en": "1. Report to the estate upon departure.",
+        "kr": "1. 출발 후에는 반드시 저택에 보고합니다."
+    },
+    {
+        "id": 25122233,
+        "type": "",
+        "chs": "2.旅途中时刻注意贵族礼仪与家族风范。",
+        "chsT": "2. 旅途中時刻注意貴族禮儀與家族風範。",
+        "jp": "2.道中は常に貴族としての礼儀と、一族に連なる者としての品位に気を配ること。",
+        "en": "2. Maintain noble decorum and family prestige at all times.",
+        "kr": "2. 여행 중에도 귀족으로서의 예의와 가문의 품위를 지킵니다."
+    },
+    {
+        "id": 25122234,
+        "type": "",
+        "chs": "更多评论已折叠",
+        "chsT": "更多留言已被折疊",
+        "jp": "一部のコメントは折り畳まれています",
+        "en": "More comments hidden",
+        "kr": "댓글 더 보기"
+    },
+    {
+        "id": 25122235,
+        "type": "",
+        "chs": "20.旅途结束后，误差三小时内返回一番市的庄园。",
+        "chsT": "20. 旅途結束後，誤差三小時內返回一番市的莊園。",
+        "jp": "20.帰宅予定時刻の誤差三時間以内に、屋敷に戻ること。",
+        "en": "20. Return to the manor in One Han City no later than three hours following the conclusion of the journey.",
+        "kr": "20. 여행이 끝나면 오차 범위 3시간 내로 이한시의 저택으로 복귀합니다."
+    },
+    {
+        "id": 25122236,
+        "type": "",
+        "chs": "啊啊玛丽知道了知道了……！我早就把那一套东西全都背下来了！",
+        "chsT": "啊啊瑪麗知道了知道了……！我早就把那一套東西全都背下來了！",
+        "jp": "もう、メアリーってば……！\r\nそのくらい心得ておりますわ、全部覚えてますもの。",
+        "en": "Argh, Marie, I know, I know...! I've had that whole thing memorized forever!",
+        "kr": "아아, 마리, 알겠어요, 알겠어요……! 그 수칙들은 이미 다 외우고 있어요!"
+    },
+    {
+        "id": 25122237,
+        "type": "",
+        "chs": "那就，祝大小姐玩得开心。",
+        "chsT": "那就，祝大小姐玩得開心。",
+        "jp": "それでは、お嬢様、お気をつけて。",
+        "en": "In that case, have a wonderful time, my lady.",
+        "kr": "그렇다면 아가씨, 즐거운 여행 되세요."
+    },
+    {
+        "id": 25122238,
+        "type": "",
+        "chs": "没错，无论何时都要有一颗探索世界的Brave Heart！就像我和乔治一样永远充满冒险的激情！出发吧，Let's Go！",
+        "chsT": "沒錯，無論何時都要有一顆探索世界的Brave Heart！就像我和喬治一樣永遠充滿冒險的激情！出發吧，Let's Go！",
+        "jp": "Exactly！\r\nどんな時でも、世界を探求しようとするBrave Heartを持つことが大切だ！\r\n俺とジョージのように、常に冒険への情熱を燃やし続けるんだ！\r\nさあLet's Go！",
+        "en": "Exactly! Always gotta have a brave heart for exploring the world! Just like George and me, always fired up for an adventure! Let's GO!",
+        "kr": "맞아, 언제나 세계를 탐험하고자 하는 Brave Heart를 가져야지! 나와 조지처럼 언제나 모험심 가득한 열정으로 가득 차 있어야 해! 출발하자, Let's Go!"
+    },
+    {
+        "id": 25122239,
+        "type": "",
+        "chs": "谢谢你的鼓励，我也希望自己能像你一样走遍世界的每个角落！",
+        "chsT": "謝謝你的鼓勵，我也希望自己能像你一樣走遍世界的每個角落！",
+        "jp": "激励をありがとうございます、ジョセフさん。\r\nわたくしもいつか、世界中を余すところなく旅してみたいですわ！",
+        "en": "Thanks for the encouragement! I really hope I get to see every corner of the world someday, just like you!",
+        "kr": "응원해 주셔서 감사해요. 저도 언젠가 당신처럼 세계 곳곳을 둘러보고 싶어요!"
+    },
+    {
+        "id": 25122240,
+        "type": "",
+        "chs": "一姬也想去旅游喵！",
+        "chsT": "一姬也想去旅遊喵！",
+        "jp": "一姫も旅行に行きたいにゃ！",
+        "en": "I wanna go traveling too, nyaa!",
+        "kr": "이치히메도 여행 가고 싶다냥!"
+    },
+    {
+        "id": 25122241,
+        "type": "",
+        "chs": "巫女小姐想要去什么地方？",
+        "chsT": "巫女小姐想要去什麼地方？",
+        "jp": "巫女さん、どこか行きたい所がありまして？",
+        "en": "And where would you like to go?",
+        "kr": "무녀님은 어디를 가보고 싶으신가요?"
+    },
+    {
+        "id": 25122242,
+        "type": "",
+        "chs": "有很多很多零食的地方……？最好是能够不停吃零食吃到饱的地方喵！",
+        "chsT": "有很多很多零食的地方……？最好是能不停吃零食吃到飽的地方喵！",
+        "jp": "おやつがいっぱいあるところ…かにゃ？\r\nできれば、お腹いっぱい食べ続けられるところがいいにゃ！",
+        "en": "A place with tons of snacks...? No, even better – an all-you-can-eat snack paradise, nyaa!",
+        "kr": "난 간식이 잔뜩 있는 곳……? 간식을 배부를 때까지 계속해서 먹을 수 있는 곳이면 좋겠다냥!"
+    },
+    {
+        "id": 25122243,
+        "type": "",
+        "chs": "嗯～！不过去附近的商业街应该不算旅游呢……",
+        "chsT": "嗯～！不過去附近的商業街應該不算旅遊呢……",
+        "jp": "そうですわね……ああ、一つ思いつきましたわ。\r\nとはいっても、近くの商店街に行くのは、旅行とは言わないかしら……？",
+        "en": "Sure... but I don't think a trip to the local shopping street really counts as \"traveling\"...",
+        "kr": "음~! 근처 번화가에 가는 걸 여행이라 말할 순 없을 것 같은데요……"
+    },
+    {
+        "id": 25122244,
+        "type": "",
+        "chs": "希望这次去的地方不会太危险……",
+        "chsT": "希望這次去的地方不會太危險……",
+        "jp": "今度の行き先は、あまり危ない場所じゃないといいけど……。",
+        "en": "Hope we're not going someplace super dangerous this time...",
+        "kr": "이번에 가는 곳은 많이 위험하지 않았으면 좋겠어……"
+    },
+    {
+        "id": 25122245,
+        "type": "",
+        "chs": "有{name}在身边就没问题了吧？而且，我想你会很乐意跟本小姐一起留下心跳回忆的，对吧～？",
+        "chsT": "有{name}在身邊就沒問題了吧？而且，我想你會很樂意跟本小姐一起留下心跳回憶的，對吧～？",
+        "jp": "あら、あなたが一緒なら問題ないでしょう？\r\nそれに、わたくしと一緒にときめくような思い出を作ること、あなたも満更でもなさそうだと思っていたのですけれど？",
+        "en": "It'll be fine as long as you're there, {name}. Plus, I know you'd love to make some heart-pounding memories with me, right?",
+        "kr": "{name}, 당신이 옆에 있어 준다면 문제없지 않을까요? 그리고 당신도 저와 두근거리는 추억을 만들고 싶으시잖아요. 그렇죠~?"
+    },
+    {
+        "id": 25122246,
+        "type": "",
+        "chs": "泽尼娅已经有计划了吗？",
+        "chsT": "澤尼婭已經有計畫了嗎？",
+        "jp": "もう計画があるの？",
+        "en": "Got a plan already, Xenia?",
+        "kr": "지니아는 이미 계획이 있나 봐?"
+    },
+    {
+        "id": 25122247,
+        "type": "",
+        "chs": "还没有，不如这一次换你来决定该去哪里吧？让我体验一下走向未知的兴奋感！",
+        "chsT": "還沒有，不如這一次換你來決定該去哪裡吧？讓我體驗一下走向未知的興奮感！",
+        "jp": "まだありませんわ。いっそ、今度はあなたが行先を決めてくださる？\r\nわたくしにも、未知へ向かう時のワクワクを体験させてくださいませ！",
+        "en": "Nope, not yet! How about you decide where we go this time? Give me a taste of the unknown!",
+        "kr": "아직 없는데요. 이번엔 당신이 어디 갈지 정해보는 게 어떠신가요? 제게 미지로 떠나는 설렘을 안겨주세요!"
+    },
+    {
+        "id": 25122248,
+        "type": "",
+        "chs": "急招一名临时秘书，时薪是市面上的三倍起，表现优异者另有特别奖金，欢迎能者自荐。",
+        "chsT": "急徵一名臨時秘書，時薪是一般行情的三倍起，表現優異者另有特別獎金，歡迎能者自薦。",
+        "jp": "【急募】臨時秘書一名\r\n時給は応相談ですけれど、相場の三倍以上をお約束いたします。\r\nまた、仕事を完璧に遂行する者には別途ボーナスあり。自信のある方、いつでも歓迎いたしますわ。",
+        "en": "URGENT HIRING: Temporary Secretary\\nStarting pay is 3x the market rate, plus special bonuses for top performance. Strong candidates are encouraged to apply.",
+        "kr": "단기 비서 급하게 구합니다. 시급은 시장가의 3배 이상 제공하며, 업무 성과가 뛰어난 분께는 특별 상여금이 지급됩니다. 자신 있는 분들의 많은 지원 부탁드립니다."
+    },
+    {
+        "id": 25122249,
+        "type": "",
+        "chs": "丽莎丽莎又来应聘啦！这次丽莎丽莎绝对会比上次更可靠的！",
+        "chsT": "麗莎麗莎又來應徵啦！這次麗莎麗莎絕對會比上次更可靠的！",
+        "jp": "リサリサ、また応募しに来たよ！\r\n今回のリサリサは、前回より絶対頼りになるから！",
+        "en": "Liisa Liisa's here to apply again! I'll be super reliable this time, I swear!",
+        "kr": "리사리사 또 지원할래! 지금의 리사리사는 지난번보다 훨씬 잘할 거야!"
+    },
+    {
+        "id": 25122250,
+        "type": "",
+        "chs": "咱、咱也再奈挑战！介次咱一定能把计算器用得粉流畅的！",
+        "chsT": "咱、咱也再奈挑戰！介次咱一定能把計算機用得粉流暢的！",
+        "jp": "わ、わも、けっぱる！",
+        "en": "I-I'll try again too! I'll use the calculator real good this time!",
+        "kr": "나, 나도 다시 해보고 싶어! 이번에는 계산기도 더 잘 다룰 자신이 있는디."
+    },
+    {
+        "id": 25122251,
+        "type": "",
+        "chs": "报酬这么丰厚，听起来这工作不好干啊。",
+        "chsT": "報酬這麼豐厚，聽起來這工作不好幹啊。",
+        "jp": "そんなに報酬が良いなんて……さぞかし大変なお仕事なんでしょうね……。",
+        "en": "That much pay? This job must be a real handful.",
+        "kr": "보수를 이렇게 잘 주는 걸 보니, 일이 쉽진 않겠는데."
+    },
+    {
+        "id": 25122252,
+        "type": "",
+        "chs": "{name}，你这是退缩了？别怕，你的能力我很清楚，完全符合我的标准。当然，你也可以拒绝……只要你不介意错过一次“让我欠你一个人情”的机会。",
+        "chsT": "{name}，你這是退縮了？別怕，你的能力我很清楚，完全符合我的標準。當然，你也可以拒絕……只要你不介意錯過一次「讓我欠你一個人情」的機會。",
+        "jp": "あら、あなた、怯えてますの？ そう心配することはありませんのに。\r\nあなたがこの仕事に相応しい能力を備えておいでであること、あたくしよく存じてますのよ。\r\nまあ……あたくしに「貸し」を作る機会を逃しても構わないというのなら、断っても構わなくてよ。",
+        "en": "{name}, backing out already? Don't be. I know what you can do, you're more than qualified. You can say no, of course... if you don't mind missing the chance to have me owe you one.",
+        "kr": "{name}, 설마 겁먹은 건가요? 걱정하지 마요, 당신 능력은 제가 제일 잘 알잖아요. 당신의 조건은 완전히 제 기준에 부합하지만, 물론 거절해도 괜찮아요…… '저에게 빚을 지울 기회'를 놓쳐도 괜찮다면 말이에요."
+    },
+    {
+        "id": 25122253,
+        "type": "",
+        "chs": "但是现在还是放假时间诶……",
+        "chsT": "但是現在還是放假時間耶……",
+        "jp": "いやでも、せっかくの連休ですし……",
+        "en": "But it's still on holiday...",
+        "kr": "그런데 지금은 연휴 기간이잖아……"
+    },
+    {
+        "id": 25122254,
+        "type": "",
+        "chs": "「竹云」的加班费规矩，你是知道的。只要你能想到的愿望，我都会尽全力为你实现。做我的私人秘书，亏待不了你的。",
+        "chsT": "「竹雲」的加班費規定，你是知道的。只要你能想到的願望，我都會盡全力為你實現。做我的私人秘書，虧待不了你的。",
+        "jp": "「竹雲」の残業手当……あなたはもう知っておいでのはず。\r\nそれに加えて、今来てくださるのなら、あなたが思いつく限りの願いを、あたくしが全力で叶えて差し上げてよ。\r\nあたくし、専属秘書を悪いようにはいたしませんもの。",
+        "en": "You know Bamboo Cloud's policy on overtime, right? Think of a wish, any wish, and I'll do my best to grant it. You won't regret becoming my personal secretary.",
+        "kr": "'죽운'의 초과 근무 규정은 당신도 알잖아요. 당신이 상상할 수 있는 소원이라면 제가 최대한 이루어줄게요. 제 전담 비서가 되는 거, 절대 손해가 아닐 거예요."
+    },
+    {
+        "id": 25122255,
+        "type": "",
+        "chs": "呜嘻嘻～新年第一份神明级艺术品完成！宏伟高大的兔子雪人，足足3米高！完美的身材是照着妾身的比例和高度制作的，颤抖吧凡人们！",
+        "chsT": "嗚嘻嘻～新年第一份神明級藝術品完成！宏偉高大的兔子雪人，足足3公尺高！完美的身材是照著妾身的比例和高度製作的，顫抖吧凡人們！",
+        "jp": "ぐひひ……新年一発目の、神の芸術が完成じゃ！\r\n見るがよい、この巨大な兎の雪だるま、なんと高さは3メートルじゃ！\r\nわらわの肉体をもとに、黄金比で作られた完璧なプロポーションじゃぞ。\r\n凡人ども、震えるがよい！",
+        "en": "Uhehe! The first godlike masterpiece of the new year is complete! A glorious rabbit snowman, a full 3 meters tall! Its perfect form is modeled on my own divine proportions and height. Tremble before me, you mortals!",
+        "kr": "우히히~ 새해 첫 번째 걸작이 완성되었다! 이 거대한 토끼 눈사람은 높이가 무려 3미터나 되지! 게다가 이 몸의 비율과 키를 기준으로 만들어서 몸매도 완벽하다. 전율해라, 인간들아!"
+    },
+    {
+        "id": 25122256,
+        "type": "",
+        "chs": "高有什么用喵！一姬的雪人可是堆满了好吃的东西喵！比蠢兔子的雪人厉害多了喵～",
+        "chsT": "高有什麼用喵！一姬的雪人可是堆滿了好吃的東西喵！比蠢兔子的雪人厲害多了喵～",
+        "jp": "デカいからって何にゃ！\r\n一姫の雪だるまは、目の前に美味しいものがいっぱいあるんだにゃ！\r\nバカウサギの雪だるまなんかより、ずっとすごいにゃ～！",
+        "en": "Who cares if it's tall, nyaa?! My snowman is STUFFED with yummy snacks! It's way better than that dumb rabbit's, nyaa!",
+        "kr": "크기만 하면 뭐하냥! 이치히메의 눈사람은 맛있는 걸로 가득 차 있다냥! 네 멍청한 토끼 눈사람보다 훨씬 낫다냥~"
+    },
+    {
+        "id": 25122257,
+        "type": "",
+        "chs": "矮冬瓜，汝那雪人……其实就是个野生的冰柜吧？真是笑死妾身了～",
+        "chsT": "矮冬瓜，汝那雪人……其實就是個野生的冰櫃吧？真是笑死妾身了～",
+        "jp": "ちんちくりんの雪だるまじゃが……。\r\nただ、皆に冷蔵庫扱いされてるだけではないか？ わらわも見た時、思わず笑ってしもうたわ。",
+        "en": "Don't make me laugh, you little shorty. That thing you made... it's just a glorified outdoor freezer!",
+        "kr": "난쟁이, 네 눈사람은…… 사실상 야외 냉장고가 아니냐? 이 몸은 정말 웃겨 죽겠구나~"
+    },
+    {
+        "id": 25122258,
+        "type": "",
+        "chs": "好漂亮……小舞也想在千月神社堆一个类似的……",
+        "chsT": "好漂亮……小舞也想在千月神社堆一個類似的……",
+        "jp": "綺麗……。舞も、千月神社でこのような立派な雪像を作ってみたいです……！",
+        "en": "It's so gorgeous... I want to build one like that at the Temple of Moons, too...",
+        "kr": "너무 아름다워요…… 마이도 천월 신사에다 비슷하게 만들어보고 싶어요……"
+    },
+    {
+        "id": 25122259,
+        "type": "",
+        "chs": "想要堆出妾身的雪人？那么就要拥护妾身成为魂天神社的新主人才行哦～呜嘻嘻～",
+        "chsT": "想要堆出妾身的雪人？那麼就要擁護妾身成為魂天神社的新主人才行哦～嗚嘻嘻～",
+        "jp": "わらわの像を作りたいとな？\r\nならば、わらわを信奉し、魂天神社の新しい主として崇めることじゃな～。\r\nぐひひ～！",
+        "en": "You wish to build a snowman just like MINE? Very well... but only if you support me as the new master of Mahjong Soul Shrine! Uhehe!",
+        "kr": "이 몸의 눈사람을 만들고 싶다고? 그렇다면 이 몸을 혼천 신사의 새로운 주인으로 추대하도록 해라~ 우히히~"
+    },
+    {
+        "id": 25122260,
+        "type": "",
+        "chs": "坏兔子又在骗人了，小舞不要上当，一姬来跟你一起堆个更高的喵！",
+        "chsT": "壞兔子又在騙人了，小舞不要上當，一姬來跟你一起堆個更高的喵！",
+        "jp": "バカウサギがまたしょうもないことで騙そうとしてやがるにゃ！\r\n舞ちゃん、騙されちゃだめにゃ！\r\n一姫がもっとデカいのを作るのを手伝ってあげるにゃ！",
+        "en": "That bad rabbit is tricking you! Don't listen to her, Mai. I'll help you build one that's even TALLER, nyaa!",
+        "kr": "나쁜 토끼, 또 사람을 속이려 드는 거냥. 마이, 속지 마라냥. 이치히메랑 같이 더 거대한 눈사람을 만들자냥!"
+    },
+    {
+        "id": 25122261,
+        "type": "",
+        "chs": "又吵起来了，真幼稚汪。顺便一提，本大爷也堆了一碗又高又精美的的拉面雪人，这才是今年最佳雪人汪。",
+        "chsT": "又吵起來了，真幼稚汪。順便一提，本大爺也堆了一碗又高又精美的拉麵雪人，這才是今年最佳雪人汪。",
+        "jp": "なんなんだこいつら、またしょうもねえ喧嘩して……まったく幼稚だワン。\r\nちなみに俺も、デカくてイカした、ラーメン食ってる雪だるまを作ったワン。\r\n参ったワン、これで今年のベスト雪だるまは決まりだワン。",
+        "en": "Bickering again. So immature, woof. And for the record, I built a tall, beautiful ramen snowman. That's the REAL snowman of the year, woof.",
+        "kr": "또 싸우네, 정말 유치하다멍. 말이 나와서 그런데, 나도 크고 정교한 라면 눈사람을 만들었는데, 이거야말로 올해 최고의 눈사람이다멍."
+    },
+    {
+        "id": 25122262,
+        "type": "",
+        "chs": "辉夜姬你的真身有这么高大吗？",
+        "chsT": "輝夜姬你的真身有這麼高大嗎？",
+        "jp": "かぐや姫ってそんなに背が高かったっけ？",
+        "en": "Wait, is your real form actually that tall, Kaguyahime?",
+        "kr": "카구야히메, 너 키가 정말 이렇게 커?"
+    },
+    {
+        "id": 25122263,
+        "type": "",
+        "chs": "汝又在质疑神明吗？妾身知道了，汝这是在故意引起妾身的注意吧～",
+        "chsT": "汝又在質疑神明嗎？妾身知道了，汝這是在故意引起妾身的注意吧～",
+        "jp": "汝よ、わらわを疑うというのか？\r\n……はは～ん、さてはわらわの気を引こうとしておるのじゃな？",
+        "en": "Questioning a deity again? I see what you're doing. You're just trying to get my attention!",
+        "kr": "또 신을 의심하는 것이냐? 이 몸은 다 알고 있다. 네가 일부러 이 몸의 관심을 끌려고 한다는 것을~"
+    },
+    {
+        "id": 25122264,
+        "type": "",
+        "chs": "好吧，那妾身就大发慈悲地祝汝新年快乐好了～新的一年记得多多上供，知道了吗？",
+        "chsT": "好吧，那妾身就大發慈悲地祝汝新年快樂好了～新的一年記得多多上供，知道了嗎？",
+        "jp": "仕方ないのう、わらわは慈悲深いからな、新年を祝う言葉でもかけてやろう。\r\n今年もたっぷり供物を捧げるのじゃぞ、わかっておるな？",
+        "en": "Fine. I'll deign to wish you a happy New Year. Now, don't forget to bring lots more offerings this year, you hear me?",
+        "kr": "좋다. 이 몸이 특별히 너에게 자비를 베풀어 새해 복 많이 받으라고 축복해 주마~ 새해엔 더 많은 공물을 바치도록 해라. 알겠느냐?"
+    },
+    {
+        "id": 25122265,
+        "type": "",
+        "chs": "这个雪人看着不太像你……",
+        "chsT": "這個雪人看著不太像你……",
+        "jp": "この雪だるま、あんまりかぐや姫に似てないような……。",
+        "en": "This snowman doesn't really look like you tho...",
+        "kr": "이 눈사람, 너랑 안 닮은 거 같은데……"
+    },
+    {
+        "id": 25122266,
+        "type": "",
+        "chs": "汝竟敢置喙神明的艺术品！这雪人凝聚了妾身真身伟大的气质，可不是凡人能评头论足的～！",
+        "chsT": "汝竟敢置喙神明的藝術品！這雪人凝聚了妾身真身偉大的氣質，可不是凡人能評頭論足的～！",
+        "jp": "汝、神様の芸術作品にけちをつけるというのか！\r\nわらわの偉大さが込められておるこの雪だるまに、凡人ごときがとやかく言うでないわ！",
+        "en": "How dare you critique a deity's art! This snowman contains the majestic aura of my true form. It's not for some mortal to judge!",
+        "kr": "감히 신의 예술품을 깎아내리는 것이냐! 이 눈사람에는 이 몸의 진짜 모습이 풍기는 위대함을 담았다. 평범한 인간이 뭐라 평가할 수 있는 게 아니란 말이다~!"
+    },
+    {
+        "id": 25122267,
+        "type": "",
+        "chs": "不过嘛～要是想近距离观摩一番妾身也准许了，这雪人内部究竟有何玄机，汝真的不想来一探究竟嘛？呜嘻嘻～",
+        "chsT": "不過嘛～要是想近距離觀摩一番妾身也准許了，這雪人內部究竟有何玄機，汝真的不想來一探究竟嗎？嗚嘻嘻～",
+        "jp": "まあ、もっと近くで見たいと言うのなら、許してやろう。\r\nこの雪だるま、内部にも仕掛けを施してあるのじゃが、確かめに来なくて良いのか？\r\nぐひひ……。",
+        "en": "Hmph! But... if you want a closer look, I'll allow it. Aren't you just dying to see what secrets it holds inside? Uhehe!",
+        "kr": "그래도~ 네가 가까이서 살펴보고 싶다면 이 몸이 허락해 주마. 이 눈사람 안에는 어떤 비밀이 숨겨져 있는지…… 파헤쳐 보고 싶지 않느냐? 우히히~"
+    },
+    {
+        "id": 25122268,
+        "type": "",
+        "chs": "难得的节日假期……各种情报又开始满天飞了。提醒一下同行们，业务量激增也记得注意信息安全，别被麻烦找上门哦。",
+        "chsT": "難得的節日假期……各種情報又開始滿天飛了。提醒一下同行們，業務量激增也記得注意資訊安全，別被麻煩找上門哦。",
+        "jp": "せっかくの祝日だってのに、もうあんな情報やこんな情報が飛び交い出してやがる。\r\n同業者連中に忠告しとくが、どんなに仕事が多かろうと、セキュリティには常に注意しとけ。\r\n面倒事に巻き込まれてからじゃ遅ェからな。",
+        "en": "A rare holiday break... and of course, intel is flying all over the place. Heads-up to everyone in the trade: even with business going through the roof, don't get sloppy with info security. You definitely don't want trouble coming knocking.",
+        "kr": "모처럼 연휴인데…… 온갖 정보들이 또 쏟아지기 시작하는구만. 동업자들에게 경고 한마디 하자면, 업무량이 늘어도 정보 보안은 신경 쓰라고. 귀찮은 일에 휘말릴 수도 있으니까."
+    },
+    {
+        "id": 25122269,
+        "type": "",
+        "chs": "该账号已开启评论精选",
+        "chsT": "該帳號已開啟精選留言",
+        "jp": "一部のコメントは投稿者によって削除されました",
+        "en": "Comments on this account are filtered.",
+        "kr": "작성자에 의해 댓글쓰기가 제한된 게시물입니다."
+    },
+    {
+        "id": 25122270,
+        "type": "",
+        "chs": "玖辻你不过节吗？要不要一起出去走走？",
+        "chsT": "玖辻你不過節嗎？要不要一起出去走走？",
+        "jp": "玖辻は、まとまった休みは取らないの？ 暇なら一緒にどこか行こうよ。",
+        "en": "Not celebrating, Kutsuji? Wanna go for a walk?",
+        "kr": "쿠츠지, 너는 명절 안 지내? 같이 나가서 걸을래?"
+    },
+    {
+        "id": 25122271,
+        "type": "",
+        "chs": "嗯？这种大家都休息的日子我反而忙得很啊。不过看在老板你今年照顾了我这么多生意的份上，今天的时间就卖给你了。",
+        "chsT": "嗯？這種大家都休息的日子我反而忙得很啊。不過看在老闆你今年照顧了我這麼多生意的份上，今天的時間就賣給你了。",
+        "jp": "あァ？俺みてぇのは、皆が休んでる時こそ忙しいんだよ。\r\nけどまあ……今年は旦那にはさんざん世話になったからな。\r\n今日くらい付き合ってやるか。",
+        "en": "Hmm? I'm swamped when everyone else is off. But since you've been such a good client this year, I'll let you buy my time today. It's yours.",
+        "kr": "응? 다들 쉬는 이런 날에 난 더 바빠. 하지만 올해 형씨가 나한테 일을 많이 맡긴 것도 있으니, 오늘 시간은 형씨에게 내어줄게."
+    },
+    {
+        "id": 25122272,
+        "type": "",
+        "chs": "当然，想要顺便套取什么免费情报可是不行的。一码归一码，这规矩你懂的吧，老板？",
+        "chsT": "當然，想要順便套取什麼免費情報可是不行的。一碼歸一碼，這規矩你懂的吧，老闆？",
+        "jp": "もちろん、ついでにタダで情報を聞き出そうなんてのはナシだ。\r\nそれはそれ、これはこれ。そのへんの流儀はわかってるよな、旦那？",
+        "en": "But no trying to get free intel. Business is business. You know the drill, right?",
+        "kr": "물론 공짜로 정보를 캐내는 건 안 돼. 일은 일이라고. 형씨도 그건 잘 알지?"
+    },
+    {
+        "id": 25122273,
+        "type": "",
+        "chs": "这种情况下，信息的可信度会变低吧……",
+        "chsT": "這種情況下，資訊的可信度會變低吧……",
+        "jp": "こういう状況だと、情報の信頼度も低くなるんじゃない？",
+        "en": "So I guess the intel quality drops around now, huh...",
+        "kr": "이런 상황이면 정보의 신뢰도가 떨어질 텐데……"
+    },
+    {
+        "id": 25122274,
+        "type": "",
+        "chs": "哦？老板你该不会在怀疑我的专业性吧。",
+        "chsT": "哦？老闆你該不會在懷疑我的專業性吧。",
+        "jp": "おや？ 旦那ァ、まさか俺の腕を疑ってンのか。",
+        "en": "Oh? You aren't doubting my skills, are you?",
+        "kr": "뭐? 형씨, 설마 내 전문성을 의심하는 건 아니겠지?"
+    },
+    {
+        "id": 25122275,
+        "type": "",
+        "chs": "还是说，老板其实是在担心我？哎呀，有老板这样热情似火的关注，我感动得眼泪都要掉下来了。",
+        "chsT": "還是說，老闆其實是在擔心我？哎呀，有老闆這樣熱情似火的關注，我感動得眼淚都要掉下來了。",
+        "jp": "それとも、実は心配してくれたとか？\r\n参ったなァ、旦那にそこまで熱烈にされちゃ、感動で涙が出ちまいそうになるぜ。",
+        "en": "Wait, are you actually worried about me? Aww, getting this much heat from my top client... I'm tearing up over here, for real.",
+        "kr": "아니면 형씨, 실은 날 걱정하는 거야? 아, 이렇게나 뜨거운 형씨의 관심이라니, 나 감동해서 눈물 날 거 같잖아."
+    },
+    {
+        "id": 25122276,
+        "type": "",
+        "chs": "「浮梦」新年新气象！本姑娘一招“登云步”就上去了，是不是颇有几分刀马旦的英气？[tag]@{name}[/tag]，来跟我一起挂灯笼吧！",
+        "chsT": "「浮夢」新年新氣象！本姑娘一招「登雲步」就上去了，是不是頗有幾分刀馬旦的英氣？[tag]@{name}[/tag]，來跟我一起掛燈籠吧！",
+        "jp": "劇団「浮夢」も、新年を迎えて新しい装いになったよ！\r\n「登雲歩」の一蹴りで、ここまで登ってきちゃった！どうかな、刀馬旦としても様になってきたんじゃない？\r\nそうだ、一緒にランタンを飾ろうよ！ [tag]@{name}[/tag]",
+        "en": "New year, new vibes at Floating Dreams! Just one \"Cloud Step\" and I'm up here. Don't I look like a true warrior? [tag]@{name}[/tag], come hang lanterns with me!",
+        "kr": "'부몽' 새로운 한 해의 시작! '등운보'로 한 번에 올라간 걸 보니, 나 액션영화 주인공 같지 않아? [tag]@{name}[/tag], 같이 등불 달자!"
+    },
+    {
+        "id": 25122277,
+        "type": "",
+        "chs": "外头天寒地冻，你却跑出去挂灯笼。记得加件衣裳，小心着凉了。",
+        "chsT": "外頭天寒地凍，你卻跑出去掛燈籠。記得加件衣裳，小心著涼了。",
+        "jp": "外は凍えるほど寒いのに、ランタンを飾りに行くなんて。\r\n風邪を引かないためにも、上着を一枚多く着て。",
+        "en": "It's freezing, and you're out there hanging lanterns? Put on a coat or you'll catch a cold.",
+        "kr": "날씨가 이렇게 추운데, 등불을 달러 가게? 옷 꼭 더 챙겨 입고, 감기 걸리지 않게 조심해."
+    },
+    {
+        "id": 25122278,
+        "type": "",
+        "chs": "知道啦姐姐，我不会耽误排练的！",
+        "chsT": "知道啦姊姊，我不會耽誤排練的！",
+        "jp": "わかった、わかったってば！\r\nもー、お姉ちゃんってば心配性……稽古に響かないように、気を付けまーす！",
+        "en": "I know, Sis. I won't be late for rehearsal, promise!",
+        "kr": "알겠어, 언니. 리허설에는 늦지 않을게!"
+    },
+    {
+        "id": 25122279,
+        "type": "",
+        "chs": "那就好，你既想演好你的新编剧目，就少不了多费些心思了。",
+        "chsT": "那就好，你既然想演好你的新編劇碼，就少不了多費些心思了。",
+        "jp": "ならいいのだけど。\r\n新しい演目を立派に演じたいと言ったのは青でしょう、それには相応の努力が要るものよ。",
+        "en": "Good. If you want to nail your part in the new play, you'll need to focus.",
+        "kr": "그래. 네가 각본 쓴 새 공연을 잘 해내려면, 그만큼 신경 써야지."
+    },
+    {
+        "id": 25122280,
+        "type": "",
+        "chs": "好厉害！刀马旦你也会！",
+        "chsT": "好厲害！刀馬旦你也會！",
+        "jp": "すごい！ 刀馬旦もできるんだ！",
+        "en": "Whoa, you're amazing! You can do warrior roles too?",
+        "kr": "대단해! 액션 연기도 할 수 있구나!"
+    },
+    {
+        "id": 25122281,
+        "type": "",
+        "chs": "嘿嘿，其实是因为最近我排了一出新编《盗仙草》，可是有不少高难度武戏的哦！",
+        "chsT": "嘿嘿，其實是因為最近我排了一齣新編《盜仙草》，可是有不少高難度武戲的哦！",
+        "jp": "へへっ、実は、今、新しい劇『盗仙草』の稽古中なんだー。\r\nなかなかやりがいのある殺陣がいっぱいあるんだよ！",
+        "en": "Hehe, it's because I'm rehearsing a new play, Stealing the Immortal Herb! It has a ton of intense fight scenes!",
+        "kr": "헤헤, 사실 요즘 신작 '도선초'를 준비하고 있거든. 고난도 액션이 엄청 많아!"
+    },
+    {
+        "id": 25122282,
+        "type": "",
+        "chs": "而且是你绝对想不到的颠覆性改编！今年的开年大戏，{name}可以好好期待一下！",
+        "chsT": "而且是你絕對想不到的顛覆性改編！今年的開春大作，{name}可以好好期待一下！",
+        "jp": "しかも、誰もがあっと驚くような、大胆なアレンジも入ってるんだ！\r\n今年最初の演目、{name}も楽しみにしててね！",
+        "en": "And it's a completely wild adaptation you'll never see coming! Get ready, {name}, this year's opening show is going to be huge!",
+        "kr": "그리고 작사님이 상상도 못 할 드라마틱한 각색도 들어갔어! 올해의 첫 번째 주요 공연이니까, {name}, 기대해도 좋아!"
+    },
+    {
+        "id": 25122283,
+        "type": "",
+        "chs": "好帅的身段！",
+        "chsT": "好帥的身段！",
+        "jp": "すごく格好いいね！",
+        "en": "Coool pose!",
+        "kr": "동작이 진짜 멋있는데!"
+    },
+    {
+        "id": 25122284,
+        "type": "",
+        "chs": "对吧对吧～这就叫艺高人胆大嘛！我还能挂更高，{name}你来帮我扶着梯子，要扶稳点哦！",
+        "chsT": "對吧對吧～這就叫藝高人膽大嘛！我還能掛更高，{name}你來幫我扶著梯子，要扶穩點哦！",
+        "jp": "でしょでしょ～！まさに芸達者ってやつかも！\r\nもっと高くまで登れるよ、はしごを支えるのを手伝ってね！",
+        "en": "Right? That's what you call skill and guts! I can go even higher. {name}, come hold the ladder steady for me!",
+        "kr": "그치, 그치~ 이것도 다 실력이 있으니까, 되는 거야! 나 더 높이도 올라갈 수 있어. {name}, 사다리 좀 잡아 줘. 꽉 붙잡고 있어야 해!"
+    },
+    {
+        "id": 25122285,
+        "type": "",
+        "chs": "你就惯着她吧……不过，这灯笼挂得倒也算周正。我这还有些红纸，已写好了春联和福字，劳烦{name}帮着小青一起贴在「浮梦」的大门上了。",
+        "chsT": "你就慣著她吧……不過，這燈籠掛得倒也算周正。我這還有些紅紙，已寫好了春聯和福字，勞煩{name}幫著小青一起貼在「浮夢」的大門上了。",
+        "jp": "もう、君はいつもこの子を甘やかすんだから。まあ、こうしてランタンを飾れるのはこの子だけだけど。\r\nそうだ、{name}さん、こちらで春聯と倒福を用意してあるわ。青と一緒に、「浮夢」の正門に貼ってもらえないかしら。",
+        "en": "You're just spoiling her... But I have to admit, the lanterns do look nice. I've got some red paper here with couplets and the \"Fu\" character ready. Would you mind helping Yuqing paste them up on the main doors of Floating Dreams, {name}?",
+        "kr": "작사님, 위칭의 응석을 많이 받아주네…… 그래도 이 등불은 제대로 달아 놨어. 나한테 붉은 종이가 남아 있는데, 새해 기원 문구랑 '복' 자도 써놓았으니 {name}, 위칭이랑 같이 가서 '부몽' 정문에다 붙여줘."
+    },
+    {
+        "id": 25122286,
+        "type": "",
+        "chs": "没想到遇到了一个年轻的家伙！",
+        "chsT": "沒想到遇到了一個年輕的傢伙！",
+        "jp": "新米ちゃんに出会ったぜ！",
+        "en": "Didn't expect to run into a fella like this!",
+        "kr": "꼬맹이 녀석을 만날 줄이야!"
+    },
+    {
+        "id": 25122287,
+        "type": "",
+        "chs": "喂，不是老子想在这种时候打击你，这只狐狸弱得要死，你对猎物的品味已经差到这种程度了吗？",
+        "chsT": "喂，不是老子想在這種時候打擊你，這隻狐狸弱得要死，你對獵物的品味已經差到這種程度了嗎？",
+        "jp": "おい、こういう日にケチつけたかねェが、この狐、クソ雑魚じゃねえか。\r\nテメェ、獲物の趣味もここまで落ちたのかよ？",
+        "en": "Look, not to spoil the mood, but that fox is weak as a kitten. Is your taste in prey seriously this terrible now?",
+        "kr": "어이, 내가 네 녀석을 깎아내리려고 하는 말은 아닌데, 이 여우는 너무 약하잖아. 사냥감 보는 눈이 이 정도밖에 안 되는 거야?"
+    },
+    {
+        "id": 25122288,
+        "type": "",
+        "chs": "它跟我一样是个意志很坚韧的猎手——寒冷的天气也在练习狩猎，反正总比在家里待着的某人强吧？",
+        "chsT": "牠跟我一樣是個意志很堅韌的獵手——寒冷的天氣也在練習狩獵，反正總比在家裡待著的某人強吧？",
+        "jp": "こいつ、こんなクソ寒い中でも狩りの練習をしてたんだぜ？俺と同じ、強い意志を秘めた狩人だ！\r\n家に引きこもってるどっかの誰かさんよりだいぶマシだぜ。",
+        "en": "He's a tough hunter, just like me – out here training in the cold. At least he's not stuck at home like someone, right?",
+        "kr": "얘도 나만큼이나 의지가 강한 사냥꾼이라고…… 추운 날씨에도 사냥 연습을 하는데, 집에서 빈둥거리는 누구보다는 훨씬 나은 거 아니야?"
+    },
+    {
+        "id": 25122289,
+        "type": "",
+        "chs": "你待在原地别动，老子现在就来跟你一决胜负！区区耐冻的毅力，十个你也不及老子一根尾巴毛！",
+        "chsT": "你待在原地別動，老子現在就來跟你一決勝負！區區耐凍的毅力，十個你也不及老子一根尾巴毛！",
+        "jp": "テンメェ……、そこを動くんじゃねェぞ。今からタイマンしに行ってやっからな！！\r\n寒さに耐える根性だァ？お前が十人いようと、俺の尻尾の毛一本にも及ばねえぜ！",
+        "en": "Don't move an inch. I'm coming to end this right now! You think you can handle the cold? Ten of you wouldn't match a single hair on my tail!",
+        "kr": "네 녀석, 거기 꼼작 말고 있어, 내가 지금 바로 승부를 겨뤄주마! 추위를 견디는 의지 따위, 너 같은 거 열 명이 와도 내 꼬리털보다 못할 거다!"
+    },
+    {
+        "id": 25122290,
+        "type": "",
+        "chs": "怡然自得，看起来真不错……大叔我给它准备点糖果带过去吧。",
+        "chsT": "怡然自得，看起來真不錯……大叔我給牠準備點糖果帶過去吧。",
+        "jp": "ほのぼのとした、いい光景だねぇ。おじさんは、飴ちゃんでも持って行ってやろうかね。",
+        "en": "Look at him, totally at ease... I will bring some candy over for the little guy.",
+        "kr": "즐거워 보여서 보기 좋아…… 이 아저씨가 사탕을 좀 줄까."
+    },
+    {
+        "id": 25122291,
+        "type": "",
+        "chs": "喂喂，给狐狸吃糖可是会掉毛的吧！！",
+        "chsT": "喂喂，給狐狸吃糖可是會掉毛的吧！！",
+        "jp": "おいおい、狐に飴なんてやったら毛が抜けるだろ！！",
+        "en": "Whoa, hold on! Giving a fox candy will make its fur fall out!",
+        "kr": "어이, 여우는 사탕을 먹으면 털이 빠진단 말이야!!"
+    },
+    {
+        "id": 25122292,
+        "type": "",
+        "chs": "好可爱！",
+        "chsT": "好可愛！",
+        "jp": "かわいい！",
+        "en": "So cute!",
+        "kr": "귀여워!"
+    },
+    {
+        "id": 25122293,
+        "type": "",
+        "chs": "是、是吗？！这么凶猛的野兽它……可爱吗？",
+        "chsT": "是、是嗎？！這麼兇猛的野獸牠……可愛嗎？",
+        "jp": "そ、そうか！？\r\nこのワイルドな獣が……可愛い……？",
+        "en": "R-really?! This ferocious beast is... cute?",
+        "kr": "그, 그래?! 이렇게 사나운 야수가…… 귀엽다고?"
+    },
+    {
+        "id": 25122294,
+        "type": "",
+        "chs": "难道我平日狩猎的时候，{name}也是这样看我的吗！虽然我也不讨厌被你说可爱就是了……",
+        "chsT": "難道我平日狩獵的時候，{name}也是這樣看我的嗎！雖然我也不討厭被你說可愛就是了……",
+        "jp": "まさか、俺が普段狩りをしてる時もそんな目で見てたのか、君！\r\nまあ、可愛いって言われんのが嫌ってわけじゃねえけど……。",
+        "en": "Is that how you see me when I'm out hunting, {name}?! Not that I hate it when you call me cute, or anything.",
+        "kr": "설마, {name}, 내가 평소에 사냥할 때도 날 그렇게 보는 건 아니겠지! 너한테 귀엽다는 말 듣는 게 싫진 않지만……"
+    },
+    {
+        "id": 25122295,
+        "type": "",
+        "chs": "你们两个都要小心别着凉了。",
+        "chsT": "你們兩個都要小心別著涼了。",
+        "jp": "二人とも、風邪ひかないようにね。",
+        "en": "You two better be careful not to catch a cold.",
+        "kr": "둘 다 감기 걸리지 않게 조심해."
+    },
+    {
+        "id": 25122296,
+        "type": "",
+        "chs": "放心好了～狐狸的体温可是很暖和的，{name}要不要抱一下试试看？选哪只狐狸都行哦！",
+        "chsT": "放心好了～狐狸的體溫可是很暖和的，{name}要不要抱一下試試看？選哪隻狐狸都行哦！",
+        "jp": "心配すんな。狐の体は熱を逃がさねえように出来てるから、結構あったけーんだ。\r\n君も抱きしめてみればわかると思うぜ。試してみるか？どっちの狐でもいいぞ！",
+        "en": "Relax! Foxes are like little furnaces. {name}, wanna hug one and find out? You can pick either one of us!",
+        "kr": "걱정하지 마~ 여우는 체온이 높으니까. {name}, 한번 안아볼래? 어느 여우든 괜찮으니까!"
+    },
+    {
+        "id": 25122297,
+        "type": "",
+        "chs": "被薄冰封住，却仍在冰层下悄然跳动的小溪，在与天空飘落的雪花秘密合唱……一番市的冬天就像一串被风摇响的银铃，清脆又活泼。如此充满生命力的冬天，真想为它谱上一曲。",
+        "chsT": "被薄冰封住，卻仍在冰層下悄然跳動的小溪，在與天空飄落的雪花祕密合唱……一番市的冬天就像一串被風搖響的銀鈴，清脆又活潑。如此充滿生命力的冬天，真想為它譜上一曲。",
+        "jp": "薄氷の下、小川は静かに躍動し、空から舞い落ちる雪とひそやかな歌をうたう。\r\n一飜市の冬は、まるで風に揺れる銀の鈴のよう。どこまでも澄んでいて、しかも活気に満ちている。\r\nこれほどまでに生命力に溢れた冬には、ぜひとも一曲捧げたいものだね。",
+        "en": "Sealed by thin ice, the stream still pulses silently below, singing a secret chorus with the falling snow... Winter in One Han City is like silver bells ringing in the wind, crisp and lively. A season so vibrant... I long to compose a song for it.",
+        "kr": "얇은 얼음에 갇혔지만, 여전히 그 아래에서 멈추지 않고 은은하게 흐르고 있는 시냇물, 하늘에서 흩날리는 눈송이와 비밀스러운 노래를 하네…… 이한시의 겨울은 마치 바람에 살랑살랑 흔들리는 은방울처럼 맑고 활기차. 이토록 생명력 넘치는 겨울을 위해, 정말 멋진 노래를 하나를 쓰고 싶어."
+    },
+    {
+        "id": 25122298,
+        "type": "",
+        "chs": "精妙的比喻！虽然之前你拒绝了常驻专栏的邀约，但这几句文案……我能否收录进下期的导语？稿费按最高标准算，如何？",
+        "chsT": "精妙的比喻！雖然之前你拒絕了常駐專欄的邀約，但這幾句文案……我能否收錄進下期的導語？稿費按最高標準算，如何？",
+        "jp": "素晴らしい比喩ね。前依頼した連載コラムは断られてしまったけど、この詩、次号の序文に使わせてもらえないかしら。原稿料は最高額相当を支払うわ。いかが？",
+        "en": "A stunning simile! I know you turned down my offer for a regular column, but these lines... Could I use them for the intro of our next issue? I'll pay the highest rate possible, what do you say?",
+        "kr": "정말 멋진 비유야! 저번에 상시 칼럼 제안은 네가 거절했지만, 이번 그 문장은…… 다음 호 헤드라인으로 써도 될까? 원고료는 최고 수준으로 줄게. 어때?"
+    },
+    {
+        "id": 25122299,
+        "type": "",
+        "chs": "能捕捉到灵感，并非我笔力殊胜，而是因为这城市本身就如诗歌般流淌……既然是自然的馈赠，就请随意使用吧。",
+        "chsT": "能捕捉到靈感，並非我筆力殊勝，而是因為這城市本身就如詩歌般流淌……既然是自然的饋贈，就請隨意使用吧。",
+        "jp": "美しい文ができたのは、僕の腕ではなくて、この街自体が詩のように流麗なものだからだよ。\r\n自然からの贈り物だから、どうぞ自由に使って。",
+        "en": "I cannot take the credit. It's not that my words are special, but the city itself flows like poetry... Since it is a gift from nature, please, use it as you wish.",
+        "kr": "영감이 떠오른 건 내 필력이 좋아서가 아니라 이 도시 자체가 시처럼 흐르고 있어서야…… 자연이 준 선물이니 마음껏 써도 돼."
+    },
+    {
+        "id": 25122300,
+        "type": "",
+        "chs": "Wow！伙计！你的描述太有画面感了！正好，我下次的探险节目打算做一番市的冬季Special Edition！你来当特邀嘉宾怎么样？",
+        "chsT": "Wow！朋友！你的描述太有畫面感了！正好，我下次的探險節目打算做一番市的冬季Special Edition！你來當特邀嘉賓怎麼樣？",
+        "jp": "Wow、Boy! 一瞬で一飜市の景色が目に浮かんだぜ！\r\nちょうどいい、次回の冒険番組では、冬の一飜市スペシャルをやろうと思ってるんだ！\r\n君に特別ゲストとして出演してもらいたいのだが、どうだ？",
+        "en": "Whoa, man! That description was cinematic! You know what? My next adventure show is gonna be a One Han City Winter Special! You gotta be my special guest!",
+        "kr": "Wow! 친구! 너의 설명을 들으니, 머릿속에 그림이 절로 그려지는걸! 마침, 다음 탐험 프로그램으로 이한시의 겨울 Special Edition을 준비 중인데, 네가 스페셜 게스트로 출연해줄래?"
+    },
+    {
+        "id": 25122301,
+        "type": "",
+        "chs": "在探险节目里邀请吟游诗人……？听上去会是一段未知的旅程，你打算如何安排这场跨界合作呢？",
+        "chsT": "在探險節目裡邀請吟游詩人……？聽上去會是一段未知的旅程，你打算如何安排這場跨界合作呢？",
+        "jp": "冒険番組に吟遊詩人を……？\r\nそれもまた、未知の旅路になりそうだね。この異色のコラボレーション、ジョセフさんならどう演出するのかな？",
+        "en": "A bard on an adventure show...? Sounds like an interesting journey. What's your plan for this collaboration?",
+        "kr": "탐험 프로그램에 음유시인을……? 미지의 여정이 될 것 같은데, 넌 이 콜라보를 어떻게 연출할 생각이야?"
+    },
+    {
+        "id": 25122302,
+        "type": "",
+        "chs": "就比如一边攀冰一边吟诗，探险家和吟游诗人的极限Winter Hiking，是不是很有意思？",
+        "chsT": "就比如一邊攀冰一邊吟詩，探險家和吟游詩人的極限Winter Hiking，是不是很有意思？",
+        "jp": "そうだな、アイスクライミングをしながら詩を詠むとか、冒険家と吟遊詩人の極限ウィンターハイキングとか。\r\n面白そうだろ？",
+        "en": "Picture this: writing poetry while ice climbing? An explorer and a bard on an extreme winter hike! How awesome would that be?",
+        "kr": "예를 들자면, 빙벽을 오르면서 시를 읊는 거지! 탐험가와 음유시인이 떠나는 극한의 Winter Hiking, 재밌을 거 같지 않아?"
+    },
+    {
+        "id": 25122303,
+        "type": "",
+        "chs": "您的邀请让我倍感荣幸，但那种画面恐怕是“吟游诗人的绝唱”……也许我们可以试着考虑一些更加安稳的录制方案？",
+        "chsT": "您的邀請讓我倍感榮幸，但那種畫面恐怕是「吟游詩人的絕唱」……也許我們可以試著考慮一些更加安穩的錄製方案？",
+        "jp": "お誘いは大変光栄だけれど、そのプランだと、きっと「吟遊詩人の断末魔」になってしまうだろうな。\r\nもう少し穏やかなプランを検討してみるというのはどうだい？",
+        "en": "I'm honored, but that sounds more like \"a bard's swan song\"... Could we maybe consider some slightly less... fatal options?",
+        "kr": "제안은 정말 영광이지만, 그렇게 해버리면 화면에는 '음유시인의 마지막 노래'로 나오지 않을까…… 우리 좀 더 안전한 방향으로 촬영을 해보는 건 어때?"
+    },
+    {
+        "id": 25122304,
+        "type": "",
+        "chs": "好美的诗，眼前就好像浮现出画面了。",
+        "chsT": "好美的詩，眼前就好像浮現出畫面了。",
+        "jp": "綺麗な詩だね。情景が浮かんでくるよ。",
+        "en": "That's beautiful. It's like I can see it right in front of me.",
+        "kr": "아름다운 시야. 눈앞에 풍경이 그려지는 것 같아."
+    },
+    {
+        "id": 25122305,
+        "type": "",
+        "chs": "文字能化作你眼中的风景，这是对一位诗人最高的赞誉。",
+        "chsT": "文字能化作你眼中的風景，這是對一位詩人最高的讚譽。",
+        "jp": "この言葉が君の瞳に映る景色となったなら、詩人としてこれ以上の喜びはないよ。",
+        "en": "To turn words into an image in your eyes... that is a poet's greatest prize.",
+        "kr": "글이 눈앞에 풍경처럼 그려지는 것 같다는 칭찬은 시인에게 최고의 찬사지."
+    },
+    {
+        "id": 25122306,
+        "type": "",
+        "chs": "我也想有这么源源不绝的灵感……",
+        "chsT": "我也想有這麼源源不絕的靈感……",
+        "jp": "私にもサミールさんくらいの尽きないインスピレーションがあったらな……",
+        "en": "If only I had your wellspring of inspiration...",
+        "kr": "나도 그렇게 영감이 계속 떠올랐으면 좋겠어……"
+    },
+    {
+        "id": 25122307,
+        "type": "",
+        "chs": "走过的路多了，风会把灵感吹进你的心里……如果你愿意，我可以做你的引路人，陪你练习如何自然共鸣。",
+        "chsT": "走過的路多了，風會把靈感吹進你的心裡……如果你願意，我可以做你的引路人，陪你練習如何與自然共鳴。",
+        "jp": "多くの道を歩き続ければ、風が君の心にインスピレーションを連れてきてくれるさ。\r\nもし君が望むなら、僕と一緒に、自然と共鳴する練習をしよう。",
+        "en": "The farther you wander, the more secrets the wind will whisper to your heart... And if you'll allow me, I can show you how to listen, truly... listen.",
+        "kr": "길을 오래 걷다 보면 바람이 자연스럽게 영감을 불어다 줄 거야…… 네가 원한다면 너의 안내자가 되어 자연과의 공명을 연습하는 걸 도와줄게."
+    },
+    {
+        "id": 25122308,
+        "type": "",
+        "chs": "为可爱的孩子们准备了新年礼物。",
+        "chsT": "為可愛的孩子們準備了新年禮物。",
+        "jp": "可愛い子ちゃん達のために、お年玉代わりのプレゼントを用意したわ。",
+        "en": "I've got some holiday gifts for all my lovely students.",
+        "kr": "귀여운 아이들을 위한 새해 선물을 준비했어."
+    },
+    {
+        "id": 25122309,
+        "type": "",
+        "chs": "……老师，我感觉到不祥的命运正在接近……您又在里面放了什么？",
+        "chsT": "……老師，我感覺到不祥的命運正在接近……您又在裡面放了什麼？",
+        "jp": "……師匠、なにやら不吉な運命を感じます。\r\nまた中に変な物を入れたのでしょう？",
+        "en": "Uh, Miss Leia... I'm getting a very bad feeling about this... What's the catch this time?",
+        "kr": "……스승님, 불길한 운명이 다가오는 걸 느꼈습니다…… 안에 무엇을 넣으신 건가요?"
+    },
+    {
+        "id": 25122310,
+        "type": "",
+        "chs": "呵呵……这是老师的小秘密，之后自己看看吧？",
+        "chsT": "呵呵……這是老師的小秘密，之後自己看看吧？",
+        "jp": "ふふ……内緒よ。\r\n後で自分で確かめてごらんなさい。",
+        "en": "Hehe... It's a secret. You'll just have to open it and find out, won't you?",
+        "kr": "후후…… 그건 선생님만의 비밀이야. 나중에 직접 보는 게 어때?"
+    },
+    {
+        "id": 25122311,
+        "type": "",
+        "chs": "……上次老师送的就是一副会在分心时喷出痒痒粉的塔罗牌，我能退掉这个包裹吗？",
+        "chsT": "……上次老師送的就是一副會在分心時噴出癢癢粉的塔羅牌，我能退掉這個包裹嗎？",
+        "jp": "……前回は、集中力が切れると痒くなる粉を噴射するタロットカードでしたね。\r\nやはりこの小包、返送させてもらいます。",
+        "en": "Okay... but last time it was a tarot deck that blasted me with itching powder whenever I zoned out. Can I just... mark this \"Return to Sender\"?",
+        "kr": "……지난번에 스승님께서 딴짓하면 간지럼 가루를 뿜어내는 타로카드를 선물로 주셨지요. 이번 선물은 거절해도 될까요?"
+    },
+    {
+        "id": 25122312,
+        "type": "",
+        "chs": "不行哦，既然你认为命运是不可违逆的，那就直面这份小礼物吧～",
+        "chsT": "不行哦，既然你認為命運是不可違逆的，那就直面這份小禮物吧～",
+        "jp": "それはだめよ。師匠たるもの、「定められた運命」への恐怖を打ち破る手助けをする義務があるもの。\r\nまずは、この何気ないサプライズと向き合うことから始めましょう。",
+        "en": "That's a no-go, dear. I'm obligated to help you conquer your fear of the inevitable. Consider this... exposure therapy. Starting with this little gift.",
+        "kr": "안 돼. 운명은 절대적인 거라며? 그럼 이 선물을 마주하도록 해~"
+    },
+    {
+        "id": 25122313,
+        "type": "",
+        "chs": "为什么柚的新年礼物是牙膏……啾噜噜，老师你这是在暗示什么……！",
+        "chsT": "為什麼柚的新年禮物是牙膏……啾嚕嚕，老師你這是在暗示什麼……！",
+        "jp": "師匠！ なぜ、ゆずへのプレゼントが歯磨き粉なのだ！\r\nキュルルゥ、嫌がらせか何かか！",
+        "en": "Toothpaste... as a New Year's gift? Miss Leia, w-what are you trying to say exactly...?!",
+        "kr": "왜 유즈의 새해 선물은 치약인 거지…… 큐르르. 스승, 이건 무슨 의미인 거냐……!"
+    },
+    {
+        "id": 25122314,
+        "type": "",
+        "chs": "这是老师特制的牙膏。如果刷牙认真，甜食会变得更美味，要是不认真，甜食就会变成沙子的味道。",
+        "chsT": "這是老師特製的牙膏。如果刷牙認真，甜食會變得更美味，要是不認真，甜食就會變成沙子的味道。",
+        "jp": "師匠特製の歯磨き粉よ。\r\nきちんと歯を磨けば、甘いものがもっと美味しく感じられるわ。\r\nでもサボったら、甘いものが砂の味になるのよ。",
+        "en": "It's a special formula I made. If you're a good girl and brush your teeth properly, your candy will be extra yummy. If you're not, it'll taste like you're eating sand.",
+        "kr": "선생님이 특별히 만든 치약이야. 양치질을 열심히 하면 디저트가 더 맛있어지고, 열심히 닦지 않으면 디저트에서 흙 맛이 날 거야."
+    },
+    {
+        "id": 25122315,
+        "type": "",
+        "chs": "看来你的厄运已经提前降临了。需要我为你占卜下次会被老师送些什么吗？友情价，五万铜币。",
+        "chsT": "看來你的厄運已經提前降臨了。需要我為你占卜下次會被老師送些什麼嗎？友情價，五萬銅幣。",
+        "jp": "どうやら、厄災は一足先にそちらに訪れたようね。\r\n次は、師匠から贈られた物が何か占ってあげましょうか？\r\n友情価格、五万コインで。",
+        "en": "Looks like your luck just ran out. Need me to do a reading on what her next \"gift\" will be? 50,000 coppers, just for you.",
+        "kr": "당신에게 불행이 이미 찾아온 모양이군요. 다음에 스승님께 무엇을 받을지 점쳐줄까요? 지인이니 5만 코인만 받을게요."
+    },
+    {
+        "id": 25122316,
+        "type": "",
+        "chs": "你……你这个看见别人倒霉就开心的坏女人！",
+        "chsT": "你……你這個看見別人倒楣就開心的壞女人！",
+        "jp": "こ…この、人の不幸を見て楽しむ性悪女！",
+        "en": "You... You're awful! You just love it when bad things happen to other people!",
+        "kr": "으…… 남의 불행에 기뻐하는 이 나쁜 여자!"
+    },
+    {
+        "id": 25122317,
+        "type": "",
+        "chs": "有我的礼物吗？",
+        "chsT": "有我的禮物嗎？",
+        "jp": "私のプレゼントは……？",
+        "en": "Is there a gift for me?",
+        "kr": "내 선물도 있어?"
+    },
+    {
+        "id": 25122318,
+        "type": "",
+        "chs": "老师怎么会遗漏给好孩子的奖励呢？{name}去年的表现我很满意，来「曼陀罗」一趟吧，你的礼物就由老师亲手交给你。",
+        "chsT": "老師怎麼會遺漏給好孩子的獎勵呢？{name}去年的表現我很滿意，來「曼陀羅」一趟吧，你的禮物就由老師親手交給你。",
+        "jp": "いい子へのご褒美を忘れるわけないでしょう？\r\n{name}がいっぱい頑張ってたこと、師匠である私も見ていたわ。\r\n時間が出来たら「マンダラ」までいらっしゃい。\r\nプレゼントは、師匠直々に渡してあげるわ。",
+        "en": "Of course! I wouldn't forget a reward for one of my best students. I'm very happy with the progress you made over the past year, {name}. Come to Datura, and I'll give you your gift personally.",
+        "kr": "선생님이 어떻게 착한 아이에게 줄 상을 빠뜨릴 수 있겠어? {name}의 작년 퍼포먼스는 정말 좋았어. '만다라'에 들러줘. 네 선물은 선생님이 직접 줄게."
+    },
+    {
+        "id": 25122319,
+        "type": "",
+        "chs": "大家的礼物看起来都好有趣！",
+        "chsT": "大家的禮物看起來都好有趣！",
+        "jp": "みんなのプレゼント、どれも面白そう！",
+        "en": "Wow! Everyone's gifts look so fun!",
+        "kr": "다들 재밌는 선물을 받았네!"
+    },
+    {
+        "id": 25122320,
+        "type": "",
+        "chs": "毕竟大家都是我心爱的学生们，老师在礼物上可是花了不少心思呢。当然，我也给{name}准备了礼物。“牌运提升药水”……你一定会喜欢的。",
+        "chsT": "畢竟大家都是我心愛的學生們，老師在禮物上可是花了不少心思呢。當然，我也給{name}準備了禮物。「牌運提升藥水」……你一定會喜歡的。",
+        "jp": "二人とも、私の愛弟子だからね。\r\nそういえば、君にもプレゼントを用意したわ。\r\nこの「牌運が上がるドリンク」、気に入ってくれるといいのだけれど。",
+        "en": "You're all my beloved students, so I put a lot of thought into these gifts. Of course, I have something special for you too, {name}. A \"Mahjong Luck Potion\"... I'm sure you'll love it.",
+        "kr": "너희는 사랑하는 내 제자들이니까, 선생님이 선물 준비에 꽤 신경을 썼어. 물론, {name}에게도 줄 선물을 준비했지. '마작 운 상승 물약'…… 분명 너도 마음에 들거야."
+    },
+    {
+        "id": 25122321,
+        "type": "",
+        "chs": "喝了那个药水听牌后会不受控制地大笑起来……{name}多保重，啾噜！",
+        "chsT": "喝了那個藥水聽牌後會不受控制地大笑起來……{name}多保重，啾嚕！",
+        "jp": "あのドリンク、飲んだら大笑いして止まらなくなるやつじゃ……？！\r\n雀士よ、幸運を祈るぞ、キュル。",
+        "en": "Once you drink it, you won't be able to stop laughing when you're in Tenpai... Good luck with that, {name}!",
+        "kr": "그 물약을 마시고 나면, 텐파이 후에 웃음을 참지 못하게 될 거다…… 조심해라 {name}, 큐르!"
+    },
+    {
+        "id": 25122322,
+        "type": "",
+        "chs": "大功告成，用冬天换下来的叶子做成了好运花篮～新的一年，「Éternité」的大家一定都会顺顺利利的！",
+        "chsT": "大功告成，用冬天換下來的葉子做成了好運花籃～新的一年，「Éternité」的大家一定都會順順利利的！",
+        "jp": "かんせ～い！落葉でバスケットを作ったよ～！\r\nこれで、新年の「エテルニテ」も順風満帆だね！",
+        "en": "Voila! I made a good-luck flower basket with all the fallen leaves! Here's to a smooth and happy New Year for everyone at Éternité!",
+        "kr": "성공이야! 겨울에 떨어진 낙엽으로 만든 행운의 꽃바구니~ 새해엔 'Éternité' 사람들 모두 하는 일이 잘 됐으면 좋겠어!"
+    },
+    {
+        "id": 25122323,
+        "type": "",
+        "chs": "唔姆姆，雏田好厉害～",
+        "chsT": "唔姆姆，雛田好厲害～",
+        "jp": "ふむふむ！ひなたお姉ちゃん、すごい！",
+        "en": "Whoa, Hinata, you're a genius!",
+        "kr": "어머, 히나타, 정말 대단해~"
+    },
+    {
+        "id": 25122324,
+        "type": "",
+        "chs": "嘿嘿，小店长想要把它摆在哪里呢？我现在准备出发去店里啦。",
+        "chsT": "嘿嘿，小店長想要把它擺在哪裡呢？我現在準備出發去店裡啦。",
+        "jp": "わ～い、今からお店に持っていくから、どこに飾るか決めてね～？",
+        "en": "Hehe, so where do you think we should put it, Reina? I'm heading over to the shop now.",
+        "kr": "헤헤, 점장님, 이거 어디에 놓으면 좋을까요? 저 지금 가게로 갈 건데요."
+    },
+    {
+        "id": 25122325,
+        "type": "",
+        "chs": "放在离门口最近的桌子怎么样？这样的话，客人们一进门就能闻到新年好运的味道。",
+        "chsT": "放在離門口最近的桌子怎麼樣？這樣的話，客人們一進門就能聞到新年好運的味道。",
+        "jp": "入り口に一番近いテーブル席はどうかな？\r\nお店に入ってきたお客様に、すぐに新年の幸運を受け取ってもらえるかなって。",
+        "en": "Let's put it on the table right by the door! That way, customers will be greeted by the scent of New Year's luck as soon as they walk in.",
+        "kr": "입구 근처 테이블에 놓는 건 어때? 그러면 손님들이 가게에 들어오자마자 행운의 향기를 맡을 수 있을 거야."
+    },
+    {
+        "id": 25122326,
+        "type": "",
+        "chs": "包在我身上哦，马上就来上门安装～",
+        "chsT": "包在我身上哦，馬上就來上門安裝～",
+        "jp": "いいね～！\r\nすぐに取り付けるね～！",
+        "en": "On it! I'll be right over to set it up!",
+        "kr": "맡겨 주세요. 지금 놓으러 갈게요~"
+    },
+    {
+        "id": 25122327,
+        "type": "",
+        "chs": "没想到前辈对植物装饰也这么有研究……材料是用的银杏叶+尤加利+松果吗……我也试试……",
+        "chsT": "沒想到前輩對植物裝飾也這麼有研究……材料是用銀杏葉+尤加利+松果嗎……我也試試……",
+        "jp": "小鳥遊先輩は、植物を使った装飾品にも詳しいんですね。\r\n材料は、銀杏の葉にユーカリの葉、そして松ぼっくりですか。私も試しに作ってみようかな……",
+        "en": "That's amazing! I had no idea you knew so much about floral arrangements as well... Are those ginkgo leaves mixed with eucalyptus and pine cones...? I might have to try that...",
+        "kr": "선배, 꽃꽂이에 이렇게 조예가 깊으신 줄은 몰랐어요…… 은행잎에 유칼립투스 그리고 솔방울로 꾸민 거 맞죠……? 저도 한번 해볼래요……"
+    },
+    {
+        "id": 25122328,
+        "type": "",
+        "chs": "好眼力～！这还是“萌芽疗养院”的账号邮箱里收到的点子呢。",
+        "chsT": "好眼力～！這還是「萌芽療養院」的帳號信箱裡收到的點子呢。",
+        "jp": "さすが花ちゃん！\r\n実はこれ、 [tag]@癒しのめばえ園[/tag] のDMに届いたアイデアなんだ～！",
+        "en": "Nice catch! The idea actually came from an email sent to the \"Sprout Nursery\" account.",
+        "kr": "눈썰미가 좋은 걸~! 이건 '새싹 요양원' 계정이 받은 메일에서 아이디어를 얻은 거야."
+    },
+    {
+        "id": 25122329,
+        "type": "",
+        "chs": "哇哇，丽莎丽莎也想要！不过呆呆会把家里的植物都啃光……",
+        "chsT": "哇哇，麗莎麗莎也想要！不過呆呆會把家裡的植物都啃光……",
+        "jp": "わー、かわいい！リサリサもほしい！\r\nあっでも、家に植物があると、ぽややんが全部食べちゃうからだめか…。",
+        "en": "Wow, I want one too! But Shaun will literally eat any plant in the house...",
+        "kr": "우와, 리사리사도 갖고 싶어! 하지만 집에 식물을 두면 뽀요용이 다 먹어버릴 거야……"
+    },
+    {
+        "id": 25122330,
+        "type": "",
+        "chs": "诶？！那，那养一盆仙人球之类的呢？看起来刺刺的，呆呆应该不敢碰……",
+        "chsT": "欸？！那、那養一盆仙人球之類的呢？看起來刺刺的，呆呆應該不敢碰……",
+        "jp": "えっ！？サボテンみたいなものでもだめ？\r\nトゲトゲしてるし、いくらぽややんでも食べない、よね…？",
+        "en": "Eh?! What about a cactus? It's super spiky, so Shaun probably wouldn't dare to touch it...",
+        "kr": "뭐?! 그, 그럼 선인장 같은 건 어때? 뾰족뾰족하니까 뽀요용도 못 건드리지 않을까……"
+    },
+    {
+        "id": 25122331,
+        "type": "",
+        "chs": "不行啦，仙人掌、仙人球、月季……带刺的植物全都不是呆呆的对手……",
+        "chsT": "不行啦，仙人掌、仙人球、月季……帶刺的植物全都不是呆呆的對手……",
+        "jp": "だめだった…。\r\nサボテンも、バラも、トゲがあるくらいじゃ、ぽややんの敵じゃないみたい……。",
+        "en": "Nuh-uh. Cacti, succulents, roses... nothing with spikes is safe from Shaun...",
+        "kr": "안돼. 선인장이나 장미처럼 가시 달린 식물들이라도 전부 뽀요용 상대는 될 수 없어……"
+    },
+    {
+        "id": 25122332,
+        "type": "",
+        "chs": "怎么会这样……那，艾丽莎还是来「Éternité」云养好运花吧～",
+        "chsT": "怎麼會這樣……那，艾麗莎還是來「Éternité」雲養好運花吧～",
+        "jp": "そうなんだ～……じゃあ、エリサちゃんは「エテルニテ」で、ここのお花たちを可愛がりましょ～！",
+        "en": "Oh no... Well, Eliisa, you can just come to Éternité and enjoy our lucky flowers as if they were your own!",
+        "kr": "그럴 수가…… 그러면, 엘리사는 'Éternité'에 와서 행운을 부르는 꽃을 키우는 게 좋겠어~"
+    },
+    {
+        "id": 25122333,
+        "type": "",
+        "chs": "我也想要好运花篮！",
+        "chsT": "我也想要好運花籃！",
+        "jp": "私も幸運のフラワーバスケットがほしい！",
+        "en": "I want a flower basket too!",
+        "kr": "나도 행운의 꽃바구니를 갖고 싶어!"
+    },
+    {
+        "id": 25122334,
+        "type": "",
+        "chs": "{name}的那一盆已经做好了哦，在「Éternité」碰面的时候给你！",
+        "chsT": "{name}的那一盆已經做好了哦，在「Éternité」碰面的時候給你！",
+        "jp": "{name}さんの分は、もう作ってあるよ～。\r\n次に「エテルニテ」で会う時に渡すね～！",
+        "en": "Yours is all ready, {name}! I'll give it to you at Éternité when I see you!",
+        "kr": "{name}의 꽃바구니도 만들어놨어. 'Éternité'에서 만나면 줄게!"
+    },
+    {
+        "id": 25122335,
+        "type": "",
+        "chs": "新的一年，一切顺利。",
+        "chsT": "新的一年，一切順利。",
+        "jp": "明けましておめでとう！",
+        "en": "Wishing you all the best in the new year!",
+        "kr": "새해에는 모든 일이 잘 풀리길 바라."
+    },
+    {
+        "id": 25122336,
+        "type": "",
+        "chs": "谢谢{name}～新的一年我们都会好运满满哦！",
+        "chsT": "謝謝{name}～新的一年我們都會好運滿滿哦！",
+        "jp": "{name}さんも、おめでとうございます～！\r\nこの一年、私たちみんなが幸運に恵まれますように～！",
+        "en": "Thanks, {name}! Here's to a new year that's super lucky for both of us!",
+        "kr": "고마워, {name}~ 새해에는 우리 모두 행운이 가득할 거야!"
+    },
+    {
+        "id": 25122337,
+        "type": "",
+        "chs": "下大雪了呢……总感觉头晕晕的，我这副不争气的身体是不是又感冒了呢……哎……",
+        "chsT": "下大雪了呢……總感覺頭暈暈的，我這副不爭氣的身體是不是又感冒了呢……唉……",
+        "jp": "今日は大雪ですね……。\r\nなんだか朝から少し目眩がします。もしかして、また風邪を引いてしまったのでしょうか。\r\nはあ……この体、情けないです。",
+        "en": "The snow is really coming down... I feel kind of dizzy. Did my useless body catch a cold again? Ugh...",
+        "kr": "눈이 많이 와서 그런지…… 머리가 어지럽네요. 안 그래도 약한 몸인데 또 감기에 걸린 걸까요…… 으……"
+    },
+    {
+        "id": 25122338,
+        "type": "",
+        "chs": "吃过药了吗？需要我帮忙吗？",
+        "chsT": "吃過藥了嗎？需要我幫忙嗎？",
+        "jp": "薬は飲んだ？ 何か手伝おうか？",
+        "en": "Took your meds? Need me to come over?",
+        "kr": "약은 먹었어? 내가 도울 수 있는 게 있을까?"
+    },
+    {
+        "id": 25122339,
+        "type": "",
+        "chs": "嗯……劳烦{name}费心了，真抱歉……在这种日子还要劳烦你关心。",
+        "chsT": "嗯……勞煩{name}費心了，真抱歉……在這種日子還要勞煩你關心。",
+        "jp": "そうですね……こんな日にまで、ご心配をおかけして、申し訳ありません。",
+        "en": "Mmm... Thanks for checking on me, {name}. Sorry... for being such a pain, especially today.",
+        "kr": "네…… 번거롭게 해드려서 죄송해요, {name}. 이런 날에도 폐를 끼치다니."
+    },
+    {
+        "id": 25122340,
+        "type": "",
+        "chs": "不过比起吃药……要是{name}能陪在我身边的话，说不定能痊愈得更快一些呢……",
+        "chsT": "不過比起吃藥……要是{name}能陪在我身邊的話，說不定能痊癒得更快一些呢……",
+        "jp": "でも、お薬より……あなたがそばにいてくれたら、もっと早く良くなると思います。",
+        "en": "But more than medicine... if you were here with me, {name}, I feel like I'd get better in a heartbeat...",
+        "kr": "하지만 약보다는…… {name}, 당신이 곁에 있어 주면 더 빨리 나을 수 있을 거 같아요……"
+    },
+    {
+        "id": 25122341,
+        "type": "",
+        "chs": "好好休息，早日康复。",
+        "chsT": "好好休息，早日康復。",
+        "jp": "ゆっくり休んで。早く治るといいね。",
+        "en": "Get some rest and feel better soon.",
+        "kr": "푹 쉬고 빨리 나아."
+    },
+    {
+        "id": 25122342,
+        "type": "",
+        "chs": "谢谢你……大家都在迎接新年，只有{name}还在关心我……这样的我果然很麻烦吧？但是想到能得到{name}的一点温柔，哪怕是自己会被人讨厌，我也想要发出这条消息呢……",
+        "chsT": "謝謝你……大家都在迎接新年，只有{name}還在關心我……這樣的我果然很麻煩吧？但是想到能得到{name}的一點溫柔，哪怕是自己會被人討厭，我也想要發出這條訊息呢……",
+        "jp": "ありがとうございます。世間が新年で賑わっている中、気にかけてくれるのはあなただけです……。\r\nこんな私って、やっぱりご迷惑ですよね……？\r\nでも、{name}さんの優しさに少しでも触れていたくて、迷惑だとわかっていても、メッセージを打つ手が止まりません……。",
+        "en": "Thanks... Everyone else is celebrating, but you're still thinking of me, {name}... I must be such a burden, right? But the thought of getting even a tiny bit of your warmth... I had to post this, even if I sound pathetic...",
+        "kr": "고마워요…… 다들 새해를 맞이하느라 정신이 없는데, {name}만 저를 챙겨주는군요…… 이런 제가 많이 귀찮죠? 싫어하실 줄 알면서도 {name}의 따뜻한 관심을 받고 싶어서, 메시지를 보냈어요……"
+    },
+    {
+        "id": 25122343,
+        "type": "",
+        "chs": "大家——有好好享受圣诞和新年假期吗？新的一年，米亚也会继续陪着你们的！接下来「W·I·N」的演出和米亚的直播活动，也拜托大家继续支持啦～",
+        "chsT": "大家——有好好享受聖誕和新年假期嗎？新的一年，米亞也會繼續陪著你們的！接下來「W·I·N」的演出和米亞的直播活動，也拜託大家繼續支持啦～",
+        "jp": "みんなー！ あけましておめでとーっ！\r\nクリスマスに年末年始、ちゃんと楽しんでる～？\r\n今年もミアは、みんなのそばにいるからね♪\r\nこれからも「W·I·N」の活動と、ミアのソロ配信の応援よろしくね♡",
+        "en": "Hiii everyone! Are you having the best Christmas & New Year's ever? I'll be right here with you all this year too! Please keep supporting W.I.N and tuning in to my streams! Let's make this year amazing together! ♡",
+        "kr": "모두들~~ 성탄절이랑 새해 연휴 잘 보내고 있어? 새해에도 미야는 모두와 함께할 거야! 앞으로 있을 'W·I·N'의 공연과 미야의 방송도 많은 관심 부탁해~"
+    },
+    {
+        "id": 25122344,
+        "type": "",
+        "chs": "有米亚的笑容陪伴，一整年都好圆满！新的一年也要继续加油啊！米亚！",
+        "chsT": "有米亞的笑容陪伴，一整年都好圓滿！新的一年也要繼續加油啊！米亞！",
+        "jp": "ミアちゃんの笑顔があれば、一年中幸せだよ！\r\n今年も頑張ってね！ミアちゃん！",
+        "en": "Mia's smile is everything! It totally made my year! Here's to shining even brighter in the year ahead. Let's goooo Mia!",
+        "kr": "미야의 미소와 함께라면 1년 365일이 행복하지! 새로운 한 해에도 힘내, 미야!"
+    },
+    {
+        "id": 25122345,
+        "type": "",
+        "chs": "收到了天使米亚的祝福，就没有遗憾了……！新年快乐！",
+        "chsT": "收到了天使米亞的祝福，就沒有遺憾了……！新年快樂！",
+        "jp": "マイエンジェル・ミアちゃんからのお祝いの言葉だ……！\r\nもう思い残すことはない……！\r\nあけおめ…………！（ガクッ）",
+        "en": "Blessed by Mia... My life is complete! Happy New Year!",
+        "kr": "나의 천사 미야의 축복을 받다니, 이제 여한이 없다……! 새해 복 많이 받아!"
+    },
+    {
+        "id": 25122346,
+        "type": "",
+        "chs": "收到了米亚能量！现在身体中能量充盈，我又能鼓起干劲了！",
+        "chsT": "收到了米亞能量！現在身體中能量充盈，我又能鼓起幹勁了！",
+        "jp": "ミアニウムチャージ出来て嬉しい……嬉しくない？\r\nやる気がみなぎってきた！",
+        "en": "My Mia-energy has been refilled! I'm so pumped, I can do anything now!",
+        "kr": "미야 덕분에 힘을 얻었어! 몸에 에너지가 가득 충전된 느낌이야! 다시 힘낼게!"
+    },
+    {
+        "id": 25122347,
+        "type": "",
+        "chs": "呜呜呜好可爱……新的一年也请继续闪耀下去吧！",
+        "chsT": "嗚嗚嗚好可愛……新的一年也請繼續閃耀下去吧！",
+        "jp": "可愛すぎて泣いちゃった これからも輝き続けて！",
+        "en": "Waaah so CUTE... pls keep shining bright this year!",
+        "kr": "아아, 귀여워…… 새해에도 계속 빛나 줘!"
+    },
+    {
+        "id": 25122348,
+        "type": "",
+        "chs": "新的一年我也会在第一排为你和「W·I·N」应援的！",
+        "chsT": "新的一年我也會在第一排為你和「W·I·N」應援的！",
+        "jp": "今年も最前列でミアちゃんと「W·I·N」を応援するよ！",
+        "en": "See you in the front row! Cheering for you and W.I.N all year long!",
+        "kr": "새해에도 맨 앞에서 미야와 'W·I·N'을 응원할게!"
+    },
+    {
+        "id": 25122349,
+        "type": "",
+        "chs": "更多评论已折叠",
+        "chsT": "更多留言已被折疊",
+        "jp": "一部のコメントは折り畳まれています",
+        "en": "More comments hidden",
+        "kr": "댓글 더 보기"
+    },
+    {
+        "id": 25122350,
+        "type": "",
+        "chs": "工作之余也要注意休息啊。",
+        "chsT": "工作之餘也要注意休息啊。",
+        "jp": "仕事の合間にちゃんと休んで。",
+        "en": "You gotta take breaks too! Don't overwork yourself!",
+        "kr": "일하면서 중간중간 쉬기도 하고 그래."
+    },
+    {
+        "id": 25122351,
+        "type": "",
+        "chs": "谢谢你的关心～！大家的笑容就是米亚最好的能量补给～所有支持米亚的粉丝请放心，米亚会好好照顾自己的！",
+        "chsT": "謝謝你的關心～！大家的笑容就是米亞最好的能量補給～所有支持米亞的粉絲請放心，米亞會好好照顧自己的！",
+        "jp": "心配してくれてありがと～♡\r\nファンのみんなの笑顔が、ミアにとっては一番のエネルギーだから、心配しないで。\r\nミアだって、自分の面倒くらいちゃんと見れるもん！",
+        "en": "Thanks for looking out for me! Your smiles give me all the energy I need! To all my amazing fans, rest assured, I'll take great care of myself!",
+        "kr": "관심 고마워~! 모두의 웃음이야말로 미야에게는 최고의 에너지야~ 미야를 응원해 주는 팬들 모두, 안심해. 미야는 건강도 꼭 챙길 거니까!"
+    },
+    {
+        "id": 25122352,
+        "type": "",
+        "chs": "怎么这个账号每次都能被W·I·N的大家翻牌子！一定是我对米亚的爱还没传达到，火热起来，更加火热起来啊！",
+        "chsT": "怎麼這個帳號每次都能被W·I·N的大家回覆留言！一定是我對米亞的愛還沒傳達到，火熱起來，更加火熱起來啊！",
+        "jp": "こいつ、いっつも「W·I·N」のみんなにリプもらえてる！\r\nなんでだ、なんで俺じゃないんだ……！俺のミアちゃんへの愛がまだ足りないとでもいうのか！",
+        "en": "How are you getting replies from W.I.N EVERY SINGLE TIME?! My love for Mia must not be loud enough... I need to be more passionate! MORE PASSION!!",
+        "kr": "이 계정 어떻게 매번 W·I·N 멤버들에게 답변을 받을 수 있는 거야! 이건 미야를 향한 내 사랑이 부족해서 닿지 못한 게 분명해. 더욱더 열정을 담아야겠어!"
+    },
+    {
+        "id": 25122353,
+        "type": "",
+        "chs": "吸吸欧气，下次一定会轮到我的……！",
+        "chsT": "吸吸歐氣，下次一定會輪到我的……！",
+        "jp": "つ、次こそ私にリプしてくれるはず…！",
+        "en": "Lemme just soak up some of this good luck... It'll be my turn next...!",
+        "kr": "기운을 받아서, 다음엔 반드시 내가……!"
+    },
+    {
+        "id": 25122354,
+        "type": "",
+        "chs": "直播活动！好期待啊！",
+        "chsT": "直播活動！好期待啊！",
+        "jp": "ソロ配信やるの！？ 楽しみ！",
+        "en": "Livestreams! I can't wait!",
+        "kr": "방송 활동! 너무 기대돼!"
+    },
+    {
+        "id": 25122355,
+        "type": "",
+        "chs": "哼哼～米亚会准备很——多能让大家心跳加速的环节哦～",
+        "chsT": "哼哼～米亞會準備很——多能讓大家心跳加速的環節哦～",
+        "jp": "えへへっ♡\r\nミア、みんながドキドキしちゃうようなコーナーをたくさん用意しておくからね♪",
+        "en": "Hehe! I'm planning looots of stuff that'll get your hearts racing!",
+        "kr": "후훗~ 모두의 심장을 떨리게 할 코너를 미야가 야심 차게 준비하고 있지~"
+    },
+    {
+        "id": 25122356,
+        "type": "",
+        "chs": "这句话会让我从现在一直期待到米亚直播开始的啊，为了米亚能量……我会一直等下去的！",
+        "chsT": "這句話會讓我從現在一直期待到米亞直播開始的啊，為了米亞能量……我會一直等下去的！",
+        "jp": "やばい、ミアちゃんの配信今から楽しみすぎる。\r\nミアニウムのためなら……俺はいつまでも待つぜ！",
+        "en": "That alone is enough to keep me hyped until the streams! For my Mia-energy fix... I'd wait an eternity!",
+        "kr": "이 말 한마디만 들었는데도 미야의 방송이 너무 기다려져. 미야가 우리에게 선사할 에너지…… 계속 기다릴게!"
+    },
+    {
+        "id": 25122357,
+        "type": "",
+        "chs": "呜呜呜……光是现在就已经心跳过速了！期待死了！",
+        "chsT": "嗚嗚嗚……光是現在就已經心跳過快了！期待死了！",
+        "jp": "今からもう心臓がバクバクだよ；；\r\n楽しみ！",
+        "en": "OMG my heart's already racing! I can't handle this! I'm shaking!!!",
+        "kr": "으으으…… 지금도 심장이 미친 듯이 뛴다! 너무 기대돼!"
+    },
+    {
+        "id": 25122358,
+        "type": "",
+        "chs": "真是怪事……按照惯例，那位最近本该来露面的，但是本宫主现在都没感觉到什么气息……还要在这冰天雪地的天气里苦等……",
+        "chsT": "真是怪事……按照慣例，那位最近本該來露面的，但是本宮主現在都沒感覺到什麼氣息……還要在這冰天雪地的天氣裡苦等……",
+        "jp": "妙だわ……。\r\nあの人が顔を見せてもいい頃合いなのに、いまだに何の気配も感じない。\r\nこの雪の中を待たされるなんて。",
+        "en": "How peculiar... By all custom, that one ought to have made an appearance by now, yet I sense not a single trace... And to be left waiting in this bitter, biting cold... the sheer indignity of it all.",
+        "kr": "참으로 이상한 일이구나…… 관례대로라면 지금쯤 나타나셔야 할 분인데, 기척조차 느껴지지 않는다니…… 이 눈보라 속에서 더 기다려야 하는 것인가……"
+    },
+    {
+        "id": 25122359,
+        "type": "",
+        "chs": "宫主在等谁？",
+        "chsT": "宮主在等誰？",
+        "jp": "宮主様、誰を待ってるんですか？",
+        "en": "Waiting for someone, my lady?",
+        "kr": "궁주, 누구를 기다리는 거야?"
+    },
+    {
+        "id": 25122360,
+        "type": "",
+        "chs": "呵呵～没什么，想必那位很快就会与你见面的。不过现在你还是本宫主的专属贡品……不要想别人了。",
+        "chsT": "呵呵～沒什麼，想必那位很快就會與你見面的。不過現在你還是本宮主的專屬貢品……不要想別人了。",
+        "jp": "ふふっ、気にしないで。まあ、あの人もじきにあなたに会うのでしょうけど、今はまだ、あなたは私だけの貢ぎ物。\r\n……他の人のことなど考えないで。",
+        "en": "Oh, pay it no mind. You two will meet soon enough. But right now, you are still my precious offering... Do not let your thoughts wander to anyone else.",
+        "kr": "후후, 아무것도 아니다. 너도 곧 만나게 될 테지. 하지만 지금 넌 나만의 공물이야…… 다른 사람은 생각하지 마."
+    },
+    {
+        "id": 25122361,
+        "type": "",
+        "chs": "唉，真想一直独占着你呢……",
+        "chsT": "唉，真想一直獨佔著你呢……",
+        "jp": "はあ、あなたをずっと独り占めできたら、どんなにいいか。",
+        "en": "Sigh... I'm so tempted to keep you all to myself forever.",
+        "kr": "하, 계속 널 독차지하고 싶은데……"
+    },
+    {
+        "id": 25122362,
+        "type": "",
+        "chs": "是在等朋友一起过新年吗？",
+        "chsT": "是在等朋友一起過新年嗎？",
+        "jp": "友達と新年を過ごすんですか？",
+        "en": "Waiting on a friend for New Year's?",
+        "kr": "혹시 친구랑 새해를 같이 보내려고 기다리는 중이야?"
+    },
+    {
+        "id": 25122363,
+        "type": "",
+        "chs": "朋友？呵，除了你，我还会想跟谁一起？在这种下雪天，本宫主还是想待在暖和的地方，守着自己的贡品，舒舒服服地睡觉……不等那位了，你过来，就这么办吧。",
+        "chsT": "朋友？呵……除了你，我還會想跟誰一起呢？在這種下雪天，本宮主還是想待在暖和的地方，守著自己的貢品，舒舒服服地睡覺……不等那位了，你過來，就這麼辦吧。",
+        "jp": "友達……？\r\n面白いことを言うわね。あなた以外の人と過ごすなんて、考えたこともないわよ？\r\nはあ、こんな雪の日は、暖かい場所で貢ぎ物を守りながら、心地よく冬眠したいものだけど。\r\nやっぱそうしようかしら。",
+        "en": "Friend? Don't be silly. Who else would I possibly want to be with? In this freezing snow, my place should be in the warmth with my favorite offering... just enjoying a nice, long sleep. I'm done waiting. Come here, {name}. We're doing this.",
+        "kr": "친구? 흥…… 너 말고 내가 또 누구랑 같이 있지? 이런 눈 내리는 날, 본 궁주는 당연히 따뜻한 이곳에서 내 공물을 지키며, 편안히 잠들고 싶구나…… 그분은 기다리지 않겠어. {name}, 내가 있는 곳으로 와. 방금 말한 대로 하자."
     }
 ]

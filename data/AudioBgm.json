@@ -144,6 +144,24 @@
         "unlockItem": 30600002
     },
     {
+        "id": 30600003,
+        "autoHide": 1,
+        "nameChs": "圣夜鸣奏",
+        "nameChsT": "聖夜鳴奏",
+        "nameJp": "聖夜の響き",
+        "nameEn": "Serene Sleigh Ride",
+        "nameKr": "이브의 연주",
+        "path": "music/lobby_25dongri.mp3",
+        "timeLength": 0,
+        "type": "lobby",
+        "unlockDescChs": "活动限定",
+        "unlockDescChsT": "活動限定",
+        "unlockDescJp": "イベント限定",
+        "unlockDescEn": "Event Limited",
+        "unlockDescKr": "이벤트 한정",
+        "unlockItem": 30600003
+    },
+    {
         "id": 306101,
         "autoHide": 0,
         "nameChs": "竹取之语",
