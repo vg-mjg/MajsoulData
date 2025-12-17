@@ -64,6 +64,7 @@ async function main() {
         console.error('Failed to fetch resversion.json or it is invalid.');
         process.exit(1);
     }
+    await fs.writeFile('resversion.json', JSON.stringify(resVersionJson, null, 2));
     const resourceManifest = resVersionJson.res;
     console.log('Resource manifest loaded.');
 
