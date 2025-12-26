@@ -3061,6 +3061,21 @@
     },
     {
         "sargs": [
+            "0",
+            "",
+            "",
+            ""
+        ],
+        "id": 30550038,
+        "resName": "sxz",
+        "audioId": 0,
+        "characterId": 0,
+        "oldEffectMark": 0,
+        "handVersion": 0,
+        "seatRelated": 0
+    },
+    {
+        "sargs": [
             "",
             "",
             "",

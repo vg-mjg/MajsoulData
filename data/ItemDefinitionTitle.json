@@ -3214,5 +3214,77 @@
         "priority": 40085,
         "unlockType": 1,
         "crossView": 0
+    },
+    {
+        "unlockParam": [
+            30557052,
+            0,
+            0,
+            0
+        ],
+        "id": 600146,
+        "nameChs": "華風戦優勝",
+        "nameChsT": "華風戦優勝",
+        "nameJp": "華風戦優勝",
+        "nameEn": "華風戦優勝",
+        "nameKr": "華風戦優勝",
+        "descChs": "「華風戦」優勝賞品",
+        "descChsT": "「華風戦」優勝賞品",
+        "descJp": "「華風戦」優勝賞品",
+        "descEn": "「華風戦」優勝賞品",
+        "descKr": "「華風戦」優勝賞品",
+        "icon": "extendRes/title/2301hfz.png",
+        "iconItem": "extendRes/title/2301hfz_item.jpg",
+        "priority": 40086,
+        "unlockType": 1,
+        "crossView": 0
+    },
+    {
+        "unlockParam": [
+            30557053,
+            0,
+            0,
+            0
+        ],
+        "id": 600147,
+        "nameChs": "四象战冠军",
+        "nameChsT": "四象戰冠軍",
+        "nameJp": "四象・白虎",
+        "nameEn": "四象戰冠軍",
+        "nameKr": "四象戰冠軍",
+        "descChs": "赠予四象战冠军",
+        "descChsT": "贈予四象戰冠軍",
+        "descJp": "四象戦冬の陣優勝称号",
+        "descEn": "贈予四象戰冠軍",
+        "descKr": "贈予四象戰冠軍",
+        "icon": "extendRes/title/24sxz4.png",
+        "iconItem": "extendRes/title/24sxz4_item.jpg",
+        "priority": 40087,
+        "unlockType": 1,
+        "crossView": 0
+    },
+    {
+        "unlockParam": [
+            30557054,
+            0,
+            0,
+            0
+        ],
+        "id": 600148,
+        "nameChs": "雀魂インビ冬将軍",
+        "nameChsT": "雀魂インビ冬将軍",
+        "nameJp": "雀魂インビ冬将軍",
+        "nameEn": "雀魂インビ冬将軍",
+        "nameKr": "雀魂インビ冬将軍",
+        "descChs": "雀魂インビテーショナル2025冬優勝記念称号",
+        "descChsT": "雀魂インビテーショナル2025冬優勝記念称号",
+        "descJp": "雀魂インビテーショナル2025冬優勝記念称号",
+        "descEn": "雀魂インビテーショナル2025冬優勝記念称号",
+        "descKr": "雀魂インビテーショナル2025冬優勝記念称号",
+        "icon": "extendRes/title/2306iw.png",
+        "iconItem": "extendRes/title/2306iw_item.jpg",
+        "priority": 40088,
+        "unlockType": 1,
+        "crossView": 0
     }
 ]
