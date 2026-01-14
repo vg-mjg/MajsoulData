@@ -438,5 +438,16 @@
         "bannerLeftSelected": "",
         "bannerLeftIcon": "",
         "timeRemind": 0
+    },
+    {
+        "id": 260101,
+        "sort": 131,
+        "bannerType": 2,
+        "enterIcon": "myres2/activity_banner/26lifu_0.png",
+        "bannerBig": "myres2/activity_banner/26lifu_b.jpg",
+        "bannerLeft": "myres2/activity_banner/26lifu.png",
+        "bannerLeftSelected": "",
+        "bannerLeftIcon": "",
+        "timeRemind": 0
     }
 ]
