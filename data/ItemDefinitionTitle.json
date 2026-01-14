@@ -3257,8 +3257,8 @@
         "descJp": "A reward for Mahjong Soul official tournament Catfood Bowl winner",
         "descEn": "A reward for Mahjong Soul official tournament Catfood Bowl winner",
         "descKr": "A reward for Mahjong Soul official tournament Catfood Bowl winner",
-        "icon": "extendRes/title/2509qilinzhan.png",
-        "iconItem": "extendRes/title/2509qilinzhan_item.jpg",
+        "icon": "extendRes/title/25catfoodbowl.png",
+        "iconItem": "extendRes/title/25catfoodbowl_item.jpg",
         "priority": 40087,
         "unlockType": 1,
         "crossView": 0
@@ -3284,7 +3284,7 @@
         "icon": "extendRes/title/kirin2025cn.png",
         "iconItem": "extendRes/title/kirin2025cn_item.jpg",
         "priority": 40088,
-        "unlockType": 1,
+        "unlockType": 0,
         "crossView": 0
     },
     {
