@@ -13,5 +13,20 @@
         "keyItemId": 30900016,
         "faceTimeBlock": "3800-5600",
         "faceWeight": "0-55,1-15,2-15,3-15"
+    },
+    {
+        "activityId": 260101,
+        "followerAmount": 1145,
+        "dailyFollowerPlus": 1,
+        "introText": 26010001,
+        "textMaxAmount": 100,
+        "textCreateTimer": "800-1800",
+        "textCreateWeight": "1-20,2-5,3-70,4-5",
+        "rolltextSpeed": 3600,
+        "giftWeight": "30900017-50,30900018-30,30900019-15,30900020-5",
+        "rolltextGiftTime": "30900017-5,30900018-10,30900019-20,30900020-30",
+        "keyItemId": 30900016,
+        "faceTimeBlock": "3800-5600",
+        "faceWeight": "0-55,1-15,2-15,3-15"
     }
 ]

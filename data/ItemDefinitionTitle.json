@@ -3217,6 +3217,78 @@
     },
     {
         "unlockParam": [
+            30557049,
+            0,
+            0,
+            0
+        ],
+        "id": 600143,
+        "nameChs": "MKC 2026 국사무쌍",
+        "nameChsT": "MKC 2026 국사무쌍",
+        "nameJp": "MKC 2026 국사무쌍",
+        "nameEn": "MKC 2026 국사무쌍",
+        "nameKr": "MKC 2026 국사무쌍",
+        "descChs": "MKC 2026 대회 우승자 전용 칭호(유효기간 1년)",
+        "descChsT": "MKC 2026 대회 우승자 전용 칭호(유효기간 1년)",
+        "descJp": "MKC 2026 대회 우승자 전용 칭호(유효기간 1년)",
+        "descEn": "MKC 2026 대회 우승자 전용 칭호(유효기간 1년)",
+        "descKr": "MKC 2026 대회 우승자 전용 칭호(유효기간 1년)",
+        "icon": "extendRes/title/26mkc.png",
+        "iconItem": "extendRes/title/26mkc_item.jpg",
+        "priority": 40086,
+        "unlockType": 1,
+        "crossView": 0
+    },
+    {
+        "unlockParam": [
+            30557050,
+            0,
+            0,
+            0
+        ],
+        "id": 600144,
+        "nameChs": "Limited Title",
+        "nameChsT": "Limited Title",
+        "nameJp": "Limited Title",
+        "nameEn": "Limited Title",
+        "nameKr": "Limited Title",
+        "descChs": "A reward for Mahjong Soul official tournament Catfood Bowl winner",
+        "descChsT": "A reward for Mahjong Soul official tournament Catfood Bowl winner",
+        "descJp": "A reward for Mahjong Soul official tournament Catfood Bowl winner",
+        "descEn": "A reward for Mahjong Soul official tournament Catfood Bowl winner",
+        "descKr": "A reward for Mahjong Soul official tournament Catfood Bowl winner",
+        "icon": "extendRes/title/2509qilinzhan.png",
+        "iconItem": "extendRes/title/2509qilinzhan_item.jpg",
+        "priority": 40087,
+        "unlockType": 1,
+        "crossView": 0
+    },
+    {
+        "unlockParam": [
+            0,
+            0,
+            0,
+            0
+        ],
+        "id": 600145,
+        "nameChs": "麒麟位2025",
+        "nameChsT": "麒麟位2025",
+        "nameJp": "麒麟位2025",
+        "nameEn": "麒麟位2025",
+        "nameKr": "麒麟位2025",
+        "descChs": "麒麟战2025冠军纪念",
+        "descChsT": "麒麟战2025冠军纪念",
+        "descJp": "麒麟战2025冠军纪念",
+        "descEn": "麒麟战2025冠军纪念",
+        "descKr": "麒麟战2025冠军纪念",
+        "icon": "extendRes/title/kirin2025cn.png",
+        "iconItem": "extendRes/title/kirin2025cn_item.jpg",
+        "priority": 40088,
+        "unlockType": 1,
+        "crossView": 0
+    },
+    {
+        "unlockParam": [
             30557052,
             0,
             0,
@@ -3235,7 +3307,7 @@
         "descKr": "「華風戦」優勝賞品",
         "icon": "extendRes/title/2301hfz.png",
         "iconItem": "extendRes/title/2301hfz_item.jpg",
-        "priority": 40086,
+        "priority": 40089,
         "unlockType": 1,
         "crossView": 0
     },
@@ -3259,7 +3331,7 @@
         "descKr": "贈予四象戰冠軍",
         "icon": "extendRes/title/24sxz4.png",
         "iconItem": "extendRes/title/24sxz4_item.jpg",
-        "priority": 40087,
+        "priority": 40090,
         "unlockType": 1,
         "crossView": 0
     },
@@ -3283,7 +3355,7 @@
         "descKr": "雀魂インビテーショナル2025冬優勝記念称号",
         "icon": "extendRes/title/2306iw.png",
         "iconItem": "extendRes/title/2306iw_item.jpg",
-        "priority": 40088,
+        "priority": 40091,
         "unlockType": 1,
         "crossView": 0
     }

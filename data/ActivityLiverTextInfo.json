@@ -214,5 +214,221 @@
         "mobStrId": 2296,
         "normalText": "2299-2338",
         "giftText": ""
+    },
+    {
+        "activityId": 260101,
+        "type": 1,
+        "charaId": 200001,
+        "mobStrId": 0,
+        "normalText": "26010101-26010102",
+        "giftText": "26010201-26010202"
+    },
+    {
+        "activityId": 260101,
+        "type": 1,
+        "charaId": 200054,
+        "mobStrId": 0,
+        "normalText": "26010103-26010104",
+        "giftText": "26010203-26010204"
+    },
+    {
+        "activityId": 260101,
+        "type": 1,
+        "charaId": 200059,
+        "mobStrId": 0,
+        "normalText": "26010105-26010106",
+        "giftText": "26010205-26010206"
+    },
+    {
+        "activityId": 260101,
+        "type": 1,
+        "charaId": 200026,
+        "mobStrId": 0,
+        "normalText": "26010107-26010108",
+        "giftText": "26010207-26010208"
+    },
+    {
+        "activityId": 260101,
+        "type": 1,
+        "charaId": 200098,
+        "mobStrId": 0,
+        "normalText": "26010109-26010110",
+        "giftText": "26010209-26010210"
+    },
+    {
+        "activityId": 260101,
+        "type": 1,
+        "charaId": 200016,
+        "mobStrId": 0,
+        "normalText": "26010111-26010112",
+        "giftText": "26010211-26010212"
+    },
+    {
+        "activityId": 260101,
+        "type": 1,
+        "charaId": 200012,
+        "mobStrId": 0,
+        "normalText": "26010113-26010114",
+        "giftText": "26010213-26010214"
+    },
+    {
+        "activityId": 260101,
+        "type": 2,
+        "charaId": 0,
+        "mobStrId": 26010301,
+        "normalText": "26010401-26010440",
+        "giftText": ""
+    },
+    {
+        "activityId": 260101,
+        "type": 2,
+        "charaId": 0,
+        "mobStrId": 26010302,
+        "normalText": "26010401-26010440",
+        "giftText": ""
+    },
+    {
+        "activityId": 260101,
+        "type": 2,
+        "charaId": 0,
+        "mobStrId": 26010303,
+        "normalText": "26010401-26010440",
+        "giftText": ""
+    },
+    {
+        "activityId": 260101,
+        "type": 2,
+        "charaId": 0,
+        "mobStrId": 26010304,
+        "normalText": "26010401-26010440",
+        "giftText": ""
+    },
+    {
+        "activityId": 260101,
+        "type": 2,
+        "charaId": 0,
+        "mobStrId": 26010305,
+        "normalText": "26010401-26010440",
+        "giftText": ""
+    },
+    {
+        "activityId": 260101,
+        "type": 2,
+        "charaId": 0,
+        "mobStrId": 26010306,
+        "normalText": "26010401-26010440",
+        "giftText": ""
+    },
+    {
+        "activityId": 260101,
+        "type": 2,
+        "charaId": 0,
+        "mobStrId": 26010307,
+        "normalText": "26010401-26010440",
+        "giftText": ""
+    },
+    {
+        "activityId": 260101,
+        "type": 2,
+        "charaId": 0,
+        "mobStrId": 26010308,
+        "normalText": "26010401-26010440",
+        "giftText": ""
+    },
+    {
+        "activityId": 260101,
+        "type": 2,
+        "charaId": 0,
+        "mobStrId": 26010309,
+        "normalText": "26010401-26010440",
+        "giftText": ""
+    },
+    {
+        "activityId": 260101,
+        "type": 2,
+        "charaId": 0,
+        "mobStrId": 26010310,
+        "normalText": "26010401-26010440",
+        "giftText": ""
+    },
+    {
+        "activityId": 260101,
+        "type": 2,
+        "charaId": 0,
+        "mobStrId": 26010311,
+        "normalText": "26010401-26010440",
+        "giftText": ""
+    },
+    {
+        "activityId": 260101,
+        "type": 2,
+        "charaId": 0,
+        "mobStrId": 26010312,
+        "normalText": "26010401-26010440",
+        "giftText": ""
+    },
+    {
+        "activityId": 260101,
+        "type": 2,
+        "charaId": 0,
+        "mobStrId": 26010313,
+        "normalText": "26010401-26010440",
+        "giftText": ""
+    },
+    {
+        "activityId": 260101,
+        "type": 2,
+        "charaId": 0,
+        "mobStrId": 26010314,
+        "normalText": "26010401-26010440",
+        "giftText": ""
+    },
+    {
+        "activityId": 260101,
+        "type": 2,
+        "charaId": 0,
+        "mobStrId": 26010315,
+        "normalText": "26010401-26010440",
+        "giftText": ""
+    },
+    {
+        "activityId": 260101,
+        "type": 2,
+        "charaId": 0,
+        "mobStrId": 26010316,
+        "normalText": "26010401-26010440",
+        "giftText": ""
+    },
+    {
+        "activityId": 260101,
+        "type": 2,
+        "charaId": 0,
+        "mobStrId": 26010317,
+        "normalText": "26010401-26010440",
+        "giftText": ""
+    },
+    {
+        "activityId": 260101,
+        "type": 2,
+        "charaId": 0,
+        "mobStrId": 26010318,
+        "normalText": "26010401-26010440",
+        "giftText": ""
+    },
+    {
+        "activityId": 260101,
+        "type": 2,
+        "charaId": 0,
+        "mobStrId": 26010319,
+        "normalText": "26010401-26010440",
+        "giftText": ""
+    },
+    {
+        "activityId": 260101,
+        "type": 2,
+        "charaId": 0,
+        "mobStrId": 26010320,
+        "normalText": "26010401-26010440",
+        "giftText": ""
     }
 ]

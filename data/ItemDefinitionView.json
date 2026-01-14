@@ -3052,7 +3052,37 @@
             ""
         ],
         "id": 30550035,
-        "resName": "sxz",
+        "resName": "headframe_sxz",
+        "audioId": 0,
+        "characterId": 0,
+        "oldEffectMark": 0,
+        "handVersion": 0,
+        "seatRelated": 0
+    },
+    {
+        "sargs": [
+            "0",
+            "",
+            "",
+            ""
+        ],
+        "id": 30550036,
+        "resName": "headframe_sxz",
+        "audioId": 0,
+        "characterId": 0,
+        "oldEffectMark": 0,
+        "handVersion": 0,
+        "seatRelated": 0
+    },
+    {
+        "sargs": [
+            "0",
+            "",
+            "",
+            ""
+        ],
+        "id": 30550037,
+        "resName": "headframe_sxz",
         "audioId": 0,
         "characterId": 0,
         "oldEffectMark": 0,
@@ -3067,7 +3097,7 @@
             ""
         ],
         "id": 30550038,
-        "resName": "sxz",
+        "resName": "headframe_sxz",
         "audioId": 0,
         "characterId": 0,
         "oldEffectMark": 0,
@@ -4267,7 +4297,7 @@
             ""
         ],
         "id": 30570017,
-        "resName": "mjp_25dongri",
+        "resName": "mjp_26chunjie",
         "audioId": 0,
         "characterId": 0,
         "oldEffectMark": 0,
@@ -4957,7 +4987,7 @@
             ""
         ],
         "id": 30580025,
-        "resName": "tablecloth_25dongri",
+        "resName": "tablecloth_26mkc",
         "audioId": 0,
         "characterId": 0,
         "oldEffectMark": 0,

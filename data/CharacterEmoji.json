@@ -20302,5 +20302,77 @@
         "afterUnlockDescEn": "Song of the Bells",
         "afterUnlockDescKr": "순백의 악장",
         "unlockType": 3
+    },
+    {
+        "unlockParam": [
+            409903,
+            0,
+            0,
+            0
+        ],
+        "charid": 200099,
+        "subId": 931,
+        "unlockDescChs": "服饰解锁",
+        "unlockDescChsT": "服飾解鎖",
+        "unlockDescJp": "着せ替え入手",
+        "unlockDescEn": "Unlock Outfit",
+        "unlockDescKr": "스킨 오픈",
+        "type": 1,
+        "view": "",
+        "audio": 0,
+        "afterUnlockDescChs": "流连深蓝",
+        "afterUnlockDescChsT": "流連深藍",
+        "afterUnlockDescJp": "青に夢中",
+        "afterUnlockDescEn": "Susurrus of Blue",
+        "afterUnlockDescKr": "끝없는 푸름",
+        "unlockType": 3
+    },
+    {
+        "unlockParam": [
+            409803,
+            0,
+            0,
+            0
+        ],
+        "charid": 200098,
+        "subId": 931,
+        "unlockDescChs": "服饰解锁",
+        "unlockDescChsT": "服飾解鎖",
+        "unlockDescJp": "着せ替え入手",
+        "unlockDescEn": "Unlock Outfit",
+        "unlockDescKr": "스킨 오픈",
+        "type": 1,
+        "view": "",
+        "audio": 0,
+        "afterUnlockDescChs": "流连深蓝",
+        "afterUnlockDescChsT": "流連深藍",
+        "afterUnlockDescJp": "青に夢中",
+        "afterUnlockDescEn": "Susurrus of Blue",
+        "afterUnlockDescKr": "끝없는 푸름",
+        "unlockType": 3
+    },
+    {
+        "unlockParam": [
+            409703,
+            0,
+            0,
+            0
+        ],
+        "charid": 200097,
+        "subId": 931,
+        "unlockDescChs": "服饰解锁",
+        "unlockDescChsT": "服飾解鎖",
+        "unlockDescJp": "着せ替え入手",
+        "unlockDescEn": "Unlock Outfit",
+        "unlockDescKr": "스킨 오픈",
+        "type": 1,
+        "view": "",
+        "audio": 0,
+        "afterUnlockDescChs": "流连深蓝",
+        "afterUnlockDescChsT": "流連深藍",
+        "afterUnlockDescJp": "青に夢中",
+        "afterUnlockDescEn": "Susurrus of Blue",
+        "afterUnlockDescKr": "끝없는 푸름",
+        "unlockType": 3
     }
 ]

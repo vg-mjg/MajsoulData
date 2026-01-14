@@ -1303,7 +1303,7 @@
       "prefix": "v0.11.159.w"
     },
     "res/atlas/bitmapfont/jp2.png": {
-      "prefix": "v0.11.205.w"
+      "prefix": "v0.11.212.w"
     },
     "scene/Assets/Resource/effect/texture/yiji_zui.lmat": {
       "prefix": "v0.10.278.w"
@@ -1732,7 +1732,7 @@
       "prefix": "v0.11.14.w"
     },
     "docs/spot/lianggong/210005_en.bytes": {
-      "prefix": "v0.11.58.w"
+      "prefix": "v0.11.212.w"
     },
     "audio/sound/chutao/fan_qiduizi.mp3": {
       "prefix": "v0.10.1.w"
@@ -4240,7 +4240,7 @@
       "prefix": "v0.10.1.w"
     },
     "res/config/lqc.lqbin": {
-      "prefix": "v0.11.210.w"
+      "prefix": "v0.11.212.w"
     },
     "jp/extendRes/charactor/xiamier/half.png": {
       "prefix": "v0.11.14.w"
@@ -5434,7 +5434,7 @@
       "prefix": "v0.10.1.w"
     },
     "ui.json": {
-      "prefix": "v0.11.205.w"
+      "prefix": "v0.11.213.w"
     },
     "extendRes/charactor/qingku_YZ/waitingroom.png": {
       "prefix": "v0.10.237.w"
@@ -7009,7 +7009,7 @@
       "prefix": "v0.10.1.w"
     },
     "res/atlas/bitmapfont/chs_t.png": {
-      "prefix": "v0.11.205.w"
+      "prefix": "v0.11.212.w"
     },
     "scene/Assets/Resource/effect/texture/shilianzhidaoCH_lian.png": {
       "prefix": "v0.10.1.w"
@@ -9307,7 +9307,7 @@
       "prefix": "v0.10.1.w"
     },
     "uiconfig/ui_chs_t.json": {
-      "prefix": "v0.11.205.w"
+      "prefix": "v0.11.213.w"
     },
     "jp/extendRes/charactor/xiaoniaoyouchutian/half.png": {
       "prefix": "v0.11.14.w"
@@ -9778,7 +9778,7 @@
       "prefix": "v0.10.1.w"
     },
     "res/atlas/chs_t/myres/activity_entrance.png": {
-      "prefix": "v0.11.205.w"
+      "prefix": "v0.11.212.w"
     },
     "chs_t/extendRes/items2/22CJ4.jpg": {
       "prefix": "v0.10.31.w"
@@ -9799,7 +9799,7 @@
       "prefix": "v0.10.31.w"
     },
     "res/atlas/en/myres/match_lobby.atlas": {
-      "prefix": "v0.11.184.w"
+      "prefix": "v0.11.212.w"
     },
     "jp/extendRes/emo/e200058/2.png": {
       "prefix": "v0.10.90.w"
@@ -12013,7 +12013,7 @@
       "prefix": "v0.10.1.w"
     },
     "res/atlas/myres/activity_entrance.png": {
-      "prefix": "v0.11.205.w"
+      "prefix": "v0.11.212.w"
     },
     "chs_t/extendRes/emo/e200048/12.png": {
       "prefix": "v0.10.1.w"
@@ -13078,7 +13078,7 @@
       "prefix": "v0.10.1.w"
     },
     "res/atlas/myres/match_lobby.atlas": {
-      "prefix": "v0.11.184.w"
+      "prefix": "v0.11.212.w"
     },
     "audio/sound/jichuanxiang/lobby_gift.mp3": {
       "prefix": "v0.10.1.w"
@@ -13972,7 +13972,7 @@
       "prefix": "v0.11.14.w"
     },
     "sw.js": {
-      "prefix": "v0.11.210.w"
+      "prefix": "v0.11.213.w"
     },
     "audio/sound/xiangyuan/extra/scfan_jiangdui.mp3": {
       "prefix": "v0.10.1.w"
@@ -15088,7 +15088,7 @@
       "prefix": "v0.10.1.w"
     },
     "res/atlas/bitmapfont/chs_t1.png": {
-      "prefix": "v0.11.205.w"
+      "prefix": "v0.11.212.w"
     },
     "chs_t/extendRes/emo/e200033/4.png": {
       "prefix": "v0.10.1.w"
@@ -19594,7 +19594,7 @@
       "prefix": "v0.11.14.w"
     },
     "res/atlas/jp/myres/match_lobby.atlas": {
-      "prefix": "v0.11.184.w"
+      "prefix": "v0.11.212.w"
     },
     "jp/extendRes/charactor/yiji/reverse/full.png": {
       "prefix": "v0.11.165.w"
@@ -22606,7 +22606,7 @@
       "prefix": "v0.10.1.w"
     },
     "uiconfig/ui_chs.json": {
-      "prefix": "v0.11.205.w"
+      "prefix": "v0.11.213.w"
     },
     "jp/extendRes/charactor/huiyeji/reverse/full.png": {
       "prefix": "v0.11.159.w"
@@ -23116,7 +23116,7 @@
       "prefix": "v0.11.165.w"
     },
     "res/atlas/bitmapfont/jp1.png": {
-      "prefix": "v0.11.205.w"
+      "prefix": "v0.11.212.w"
     },
     "jp/extendRes/skin_shop/qihailinaiSD_shop.jpg": {
       "prefix": "v0.10.1.w"
@@ -24478,7 +24478,7 @@
       "prefix": "v0.10.1.w"
     },
     "res/atlas/bitmapfont/jp.atlas": {
-      "prefix": "v0.11.205.w"
+      "prefix": "v0.11.212.w"
     },
     "res/atlas/jp/myres/activity_huiye7.png": {
       "prefix": "v0.10.89.w"
@@ -25525,7 +25525,7 @@
       "prefix": "v0.10.1.w"
     },
     "res/atlas/bitmapfont2.png": {
-      "prefix": "v0.11.205.w"
+      "prefix": "v0.11.212.w"
     },
     "res/atlas/myres/activity_shaizi.png": {
       "prefix": "v0.10.1.w"
@@ -26479,7 +26479,7 @@
       "prefix": "v0.10.1.w"
     },
     "res/atlas/chs_t/myres/match_lobby.png": {
-      "prefix": "v0.11.188.w"
+      "prefix": "v0.11.212.w"
     },
     "scene/Assets/Resource/effect/anim/dongtai_denglongxian-dongtai_denglongxian.lani": {
       "prefix": "v0.10.1.w"
@@ -28804,7 +28804,7 @@
       "prefix": "v0.10.1.w"
     },
     "res/proto/liqi.json": {
-      "prefix": "v0.11.205.w"
+      "prefix": "v0.11.212.w"
     },
     "chs_t/myres/lobby/lobby - 快捷方式.lnk/read_no.png": {
       "prefix": "v0.10.46.w"
@@ -28939,7 +28939,7 @@
       "prefix": "v0.10.1.w"
     },
     "bitmapfont/jp/jp_jiye.fnt": {
-      "prefix": "v0.11.205.w"
+      "prefix": "v0.11.212.w"
     },
     "audio/sound/sigonghuiye/act_pon.mp3": {
       "prefix": "v0.10.89.w"
@@ -30754,7 +30754,7 @@
       "prefix": "v0.10.1.w"
     },
     "res/atlas/en/myres/match_lobby.png": {
-      "prefix": "v0.11.188.w"
+      "prefix": "v0.11.212.w"
     },
     "audio/sound/qingkuniang/gameend_yiman3.mp3": {
       "prefix": "v0.10.1.w"
@@ -32584,7 +32584,7 @@
       "prefix": "v0.10.1.w"
     },
     "res/atlas/chs_t/myres/match_lobby.atlas": {
-      "prefix": "v0.11.184.w"
+      "prefix": "v0.11.212.w"
     },
     "en/extendRes/charactor/yizhilaikong_SDJ/smallhead1.png": {
       "prefix": "v0.11.14.w"
@@ -33631,7 +33631,7 @@
       "prefix": "v0.10.1.w"
     },
     "res/atlas/bitmapfont.png": {
-      "prefix": "v0.11.205.w"
+      "prefix": "v0.11.212.w"
     },
     "en/extendRes/emo/e200058/2.png": {
       "prefix": "v0.10.90.w"
@@ -33742,7 +33742,7 @@
       "prefix": "v0.10.237.w"
     },
     "res/atlas/bitmapfont/jp.png": {
-      "prefix": "v0.11.205.w"
+      "prefix": "v0.11.212.w"
     },
     "audio/sound/erjietang/fan_dong.mp3": {
       "prefix": "v0.10.1.w"
@@ -34945,7 +34945,7 @@
       "prefix": "v0.10.1.w"
     },
     "bitmapfont/chs_t/chst_fengyu.fnt": {
-      "prefix": "v0.11.205.w"
+      "prefix": "v0.11.212.w"
     },
     "audio/sound/baishinainai/fan_lvyise.mp3": {
       "prefix": "v0.10.1.w"
@@ -37912,7 +37912,7 @@
       "prefix": "v0.10.1.w"
     },
     "index.html": {
-      "prefix": "v0.11.210.w"
+      "prefix": "v0.11.213.w"
     },
     "chs_t/extendRes/items2/kuangdu_pai.jpg": {
       "prefix": "v0.10.1.w"
@@ -39709,7 +39709,7 @@
       "prefix": "v0.11.14.w"
     },
     "config.json": {
-      "prefix": "v0.11.210.w"
+      "prefix": "v0.11.213.w"
     },
     "audio/sound/xiaoyesiqiyu/fan_dora7.mp3": {
       "prefix": "v0.10.31.w"
@@ -40303,7 +40303,7 @@
       "prefix": "v0.10.1.w"
     },
     "res/atlas/myres/activity_entrance.atlas": {
-      "prefix": "v0.11.205.w"
+      "prefix": "v0.11.212.w"
     },
     "chs_t/extendRes/charactor/yuesefu_0/waitingroom.png": {
       "prefix": "v0.11.14.w"
@@ -41443,7 +41443,7 @@
       "prefix": "v0.10.1.w"
     },
     "code.js": {
-      "prefix": "v0.11.210.w"
+      "prefix": "v0.11.213.w"
     },
     "extendRes/emo/e200026/989.png": {
       "prefix": "v0.10.1.w"
@@ -43561,7 +43561,7 @@
       "prefix": "v0.10.13.w"
     },
     "res/atlas/jp/myres/match_lobby.png": {
-      "prefix": "v0.11.188.w"
+      "prefix": "v0.11.212.w"
     },
     "scene/Assets/Resource/effect/texture/mingzhimuyuEN01.png": {
       "prefix": "v0.10.1.w"
@@ -53521,7 +53521,7 @@
       "prefix": "v0.10.1.w"
     },
     "res/atlas/jp/myres/activity_entrance.atlas": {
-      "prefix": "v0.11.205.w"
+      "prefix": "v0.11.212.w"
     },
     "audio/sound/jichuanxiang/fan_doublenan.mp3": {
       "prefix": "v0.10.1.w"
@@ -55765,7 +55765,7 @@
       "prefix": "v0.10.1.w"
     },
     "res/atlas/bitmapfont1.png": {
-      "prefix": "v0.11.205.w"
+      "prefix": "v0.11.212.w"
     },
     "audio/sound/zaoyinv/ingame_yiman.mp3": {
       "prefix": "v0.10.1.w"
@@ -56080,7 +56080,7 @@
       "prefix": "v0.11.205.w"
     },
     "alitrace.js": {
-      "prefix": "v0.11.210.w"
+      "prefix": "v0.11.213.w"
     },
     "en/extendRes/emo/e200055/4.png": {
       "prefix": "v0.10.89.w"
@@ -56605,7 +56605,7 @@
       "prefix": "v0.10.1.w"
     },
     "d3_prefab.json": {
-      "prefix": "v0.11.205.w"
+      "prefix": "v0.11.212.w"
     },
     "extendRes/charactor/qingku/half.png": {
       "prefix": "v0.10.251.w"
@@ -59320,7 +59320,7 @@
       "prefix": "v0.10.1.w"
     },
     "res/atlas/myres/match_lobby.png": {
-      "prefix": "v0.11.188.w"
+      "prefix": "v0.11.212.w"
     },
     "chs_t/extendRes/items/ron_sakura.jpg": {
       "prefix": "v0.10.1.w"
@@ -62140,7 +62140,7 @@
       "prefix": "v0.10.89.w"
     },
     "res/atlas/chs_t/myres/activity_entrance.atlas": {
-      "prefix": "v0.11.205.w"
+      "prefix": "v0.11.212.w"
     },
     "chs_t/extendRes/charactor/jianai_SDJ/waitingroom.png": {
       "prefix": "v0.11.14.w"
@@ -62806,7 +62806,7 @@
       "prefix": "v0.10.1.w"
     },
     "res/atlas/en/myres/activity_entrance.atlas": {
-      "prefix": "v0.11.205.w"
+      "prefix": "v0.11.212.w"
     },
     "audio/sound/baiyingui/fan_ziyise.mp3": {
       "prefix": "v0.10.89.w"
@@ -64795,7 +64795,7 @@
       "prefix": "v0.10.1.w"
     },
     "res/atlas/en/myres/activity_entrance.png": {
-      "prefix": "v0.11.205.w"
+      "prefix": "v0.11.212.w"
     },
     "audio/sound/jianai/ingame_lianda.mp3": {
       "prefix": "v0.10.1.w"
@@ -65353,7 +65353,7 @@
       "prefix": "v0.10.89.w"
     },
     "bitmapfont/fengyu.fnt": {
-      "prefix": "v0.11.205.w"
+      "prefix": "v0.11.212.w"
     },
     "chs_t/myres2/loading_3que1/right3.png": {
       "prefix": "v0.10.1.w"
@@ -67177,7 +67177,7 @@
       "prefix": "v0.10.31.w"
     },
     "res/atlas/bitmapfont.atlas": {
-      "prefix": "v0.11.205.w"
+      "prefix": "v0.11.212.w"
     },
     "jp/extendRes/emo/e200049/7.png": {
       "prefix": "v0.10.1.w"
@@ -67891,7 +67891,7 @@
       "prefix": "v0.10.1.w"
     },
     "uiconfig/ui_jp.json": {
-      "prefix": "v0.11.205.w"
+      "prefix": "v0.11.213.w"
     },
     "jp/extendRes/emo/e200028/7.png": {
       "prefix": "v0.10.1.w"
@@ -68017,7 +68017,7 @@
       "prefix": "v0.10.89.w"
     },
     "uiconfig/ui_en.json": {
-      "prefix": "v0.11.205.w"
+      "prefix": "v0.11.213.w"
     },
     "audio/sound/baiyinyuxing/gameend_tingpai.mp3": {
       "prefix": "v0.10.89.w"
@@ -71806,7 +71806,7 @@
       "prefix": "v0.10.1.w"
     },
     "res/atlas/jp/myres/activity_entrance.png": {
-      "prefix": "v0.11.205.w"
+      "prefix": "v0.11.212.w"
     },
     "scene/tablecloth_christmas.lh": {
       "prefix": "v0.10.1.w"
@@ -74758,7 +74758,7 @@
       "prefix": "v0.11.58.w"
     },
     "docs/spot/lianggong/210005_kr.bytes": {
-      "prefix": "v0.11.58.w"
+      "prefix": "v0.11.212.w"
     },
     "docs/spot/lianggong/210006_kr.bytes": {
       "prefix": "v0.11.58.w"
@@ -74968,7 +74968,7 @@
       "prefix": "v0.10.125.w"
     },
     "uiconfig/ui_kr.json": {
-      "prefix": "v0.11.205.w"
+      "prefix": "v0.11.213.w"
     },
     "video/404803.mp3": {
       "prefix": "v0.10.125.w"
@@ -84253,10 +84253,10 @@
       "prefix": "v0.10.125.w"
     },
     "res/atlas/kr/myres/activity_entrance.atlas": {
-      "prefix": "v0.11.205.w"
+      "prefix": "v0.11.212.w"
     },
     "res/atlas/kr/myres/activity_entrance.png": {
-      "prefix": "v0.11.205.w"
+      "prefix": "v0.11.212.w"
     },
     "res/atlas/kr/myres/activity_entrance_extra.atlas": {
       "prefix": "v0.11.188.w"
@@ -84442,10 +84442,10 @@
       "prefix": "v0.11.188.w"
     },
     "res/atlas/kr/myres/match_lobby.atlas": {
-      "prefix": "v0.11.184.w"
+      "prefix": "v0.11.212.w"
     },
     "res/atlas/kr/myres/match_lobby.png": {
-      "prefix": "v0.11.188.w"
+      "prefix": "v0.11.212.w"
     },
     "res/atlas/kr/myres/mjdesktop/number.atlas": {
       "prefix": "v0.10.125.w"
@@ -96445,7 +96445,7 @@
       "prefix": "v0.10.180.w"
     },
     "res/atlas/bitmapfont/chs_t2.png": {
-      "prefix": "v0.11.205.w"
+      "prefix": "v0.11.212.w"
     },
     "res/atlas/chs_t/myres2/mjp/mjp_22winter/ui.atlas": {
       "prefix": "v0.10.180.w"
@@ -102268,13 +102268,13 @@
       "prefix": "v0.10.217.w"
     },
     "docs/spot/yizhilaikong/yizhilaikong04_en.bytes": {
-      "prefix": "v0.10.217.w"
+      "prefix": "v0.11.212.w"
     },
     "docs/spot/yizhilaikong/yizhilaikong04_jp.bytes": {
       "prefix": "v0.10.217.w"
     },
     "docs/spot/yizhilaikong/yizhilaikong04_kr.bytes": {
-      "prefix": "v0.10.217.w"
+      "prefix": "v0.11.212.w"
     },
     "docs/spot/yizhilaikong/yizhilaikong05.json": {
       "prefix": "v0.10.217.w"
@@ -102286,13 +102286,13 @@
       "prefix": "v0.10.217.w"
     },
     "docs/spot/yizhilaikong/yizhilaikong05_en.bytes": {
-      "prefix": "v0.10.217.w"
+      "prefix": "v0.11.212.w"
     },
     "docs/spot/yizhilaikong/yizhilaikong05_jp.bytes": {
       "prefix": "v0.10.217.w"
     },
     "docs/spot/yizhilaikong/yizhilaikong05_kr.bytes": {
-      "prefix": "v0.10.217.w"
+      "prefix": "v0.11.212.w"
     },
     "docs/spot/yizhilaikong/yizhilaikong06.json": {
       "prefix": "v0.10.217.w"
@@ -102304,13 +102304,13 @@
       "prefix": "v0.10.217.w"
     },
     "docs/spot/yizhilaikong/yizhilaikong06_en.bytes": {
-      "prefix": "v0.10.217.w"
+      "prefix": "v0.11.212.w"
     },
     "docs/spot/yizhilaikong/yizhilaikong06_jp.bytes": {
       "prefix": "v0.10.217.w"
     },
     "docs/spot/yizhilaikong/yizhilaikong06_kr.bytes": {
-      "prefix": "v0.10.217.w"
+      "prefix": "v0.11.212.w"
     },
     "extendRes/charactor/huiyeji_WQ/bighead.png": {
       "prefix": "v0.10.237.w"
@@ -133057,13 +133057,13 @@
       "prefix": "v0.10.297.w"
     },
     "chs.json": {
-      "prefix": "v0.11.210.w"
+      "prefix": "v0.11.213.w"
     },
     "chs_t.json": {
-      "prefix": "v0.11.210.w"
+      "prefix": "v0.11.213.w"
     },
     "en.json": {
-      "prefix": "v0.11.210.w"
+      "prefix": "v0.11.213.w"
     },
     "font/notosansjapanese.css": {
       "prefix": "v0.10.306.w"
@@ -133075,10 +133075,10 @@
       "prefix": "v0.10.306.w"
     },
     "jp.json": {
-      "prefix": "v0.11.210.w"
+      "prefix": "v0.11.213.w"
     },
     "kr.json": {
-      "prefix": "v0.11.210.w"
+      "prefix": "v0.11.213.w"
     },
     "lang/base/extendRes/charactor/a37/bighead.png": {
       "prefix": "v0.10.306.w"
@@ -165844,25 +165844,25 @@
       "prefix": "v0.10.306.w"
     },
     "lang/pic_sha_baseinfo.json": {
-      "prefix": "v0.11.205.w"
+      "prefix": "v0.11.212.w"
     },
     "lang/pic_sha_chsinfo.json": {
-      "prefix": "v0.11.205.w"
+      "prefix": "v0.11.212.w"
     },
     "lang/pic_sha_chs_tinfo.json": {
-      "prefix": "v0.11.205.w"
+      "prefix": "v0.11.212.w"
     },
     "lang/pic_sha_eninfo.json": {
-      "prefix": "v0.11.208.w"
+      "prefix": "v0.11.212.w"
     },
     "lang/pic_sha_jpinfo.json": {
-      "prefix": "v0.11.205.w"
+      "prefix": "v0.11.212.w"
     },
     "lang/pic_sha_krinfo.json": {
-      "prefix": "v0.11.205.w"
+      "prefix": "v0.11.212.w"
     },
     "lang/pic_sha_sceneinfo.json": {
-      "prefix": "v0.11.206.w"
+      "prefix": "v0.11.212.w"
     },
     "lang/scene/Assets/arts/lizhibang/catknife/catknife-catknife001.lm": {
       "prefix": "v0.10.306.w"
@@ -193180,19 +193180,19 @@
       "prefix": "v0.10.306.w"
     },
     "res/atlas_q7/atlas_map.json": {
-      "prefix": "v0.11.205.w"
+      "prefix": "v0.11.212.w"
     },
     "res/atlas_q7/bitmapfont/chs_t.atlas": {
       "prefix": "v0.11.205.w"
     },
     "res/atlas_q7/bitmapfont/chs_t.png": {
-      "prefix": "v0.11.205.w"
+      "prefix": "v0.11.212.w"
     },
     "res/atlas_q7/bitmapfont/chs_t1.png": {
-      "prefix": "v0.11.205.w"
+      "prefix": "v0.11.212.w"
     },
     "res/atlas_q7/bitmapfont/chs_t2.png": {
-      "prefix": "v0.11.205.w"
+      "prefix": "v0.11.212.w"
     },
     "res/atlas_q7/bitmapfont/en.atlas": {
       "prefix": "v0.11.165.w"
@@ -193201,16 +193201,16 @@
       "prefix": "v0.11.205.w"
     },
     "res/atlas_q7/bitmapfont/jp.atlas": {
-      "prefix": "v0.11.205.w"
+      "prefix": "v0.11.212.w"
     },
     "res/atlas_q7/bitmapfont/jp.png": {
-      "prefix": "v0.11.205.w"
+      "prefix": "v0.11.212.w"
     },
     "res/atlas_q7/bitmapfont/jp1.png": {
-      "prefix": "v0.11.205.w"
+      "prefix": "v0.11.212.w"
     },
     "res/atlas_q7/bitmapfont/jp2.png": {
-      "prefix": "v0.11.205.w"
+      "prefix": "v0.11.212.w"
     },
     "res/atlas_q7/bitmapfont/kr.atlas": {
       "prefix": "v0.11.104.w"
@@ -193231,16 +193231,16 @@
       "prefix": "v0.11.205.w"
     },
     "res/atlas_q7/bitmapfont.atlas": {
-      "prefix": "v0.11.205.w"
+      "prefix": "v0.11.212.w"
     },
     "res/atlas_q7/bitmapfont.png": {
-      "prefix": "v0.11.205.w"
+      "prefix": "v0.11.212.w"
     },
     "res/atlas_q7/bitmapfont1.png": {
-      "prefix": "v0.11.205.w"
+      "prefix": "v0.11.212.w"
     },
     "res/atlas_q7/bitmapfont2.png": {
-      "prefix": "v0.11.205.w"
+      "prefix": "v0.11.212.w"
     },
     "res/atlas_q7/bitmapfont_0.png": {
       "prefix": "v0.10.306.w"
@@ -193279,10 +193279,10 @@
       "prefix": "v0.10.306.w"
     },
     "res/atlas_q7/chs_t/myres/activity_entrance.atlas": {
-      "prefix": "v0.11.205.w"
+      "prefix": "v0.11.212.w"
     },
     "res/atlas_q7/chs_t/myres/activity_entrance_0.png": {
-      "prefix": "v0.11.205.w"
+      "prefix": "v0.11.212.w"
     },
     "res/atlas_q7/chs_t/myres/activity_entrance_extra.atlas": {
       "prefix": "v0.11.188.w"
@@ -193525,10 +193525,10 @@
       "prefix": "v0.10.306.w"
     },
     "res/atlas_q7/chs_t/myres/match_lobby.atlas": {
-      "prefix": "v0.11.184.w"
+      "prefix": "v0.11.212.w"
     },
     "res/atlas_q7/chs_t/myres/match_lobby_0.png": {
-      "prefix": "v0.11.184.w"
+      "prefix": "v0.11.212.w"
     },
     "res/atlas_q7/chs_t/myres/mjdesktop/number.atlas": {
       "prefix": "v0.10.306.w"
@@ -194008,10 +194008,10 @@
       "prefix": "v0.10.306.w"
     },
     "res/atlas_q7/myres/activity_entrance.atlas": {
-      "prefix": "v0.11.205.w"
+      "prefix": "v0.11.212.w"
     },
     "res/atlas_q7/myres/activity_entrance_0.png": {
-      "prefix": "v0.11.205.w"
+      "prefix": "v0.11.212.w"
     },
     "res/atlas_q7/myres/activity_entrance_extra.atlas": {
       "prefix": "v0.11.188.w"
@@ -194266,10 +194266,10 @@
       "prefix": "v0.10.306.w"
     },
     "res/atlas_q7/myres/match_lobby.atlas": {
-      "prefix": "v0.11.184.w"
+      "prefix": "v0.11.212.w"
     },
     "res/atlas_q7/myres/match_lobby_0.png": {
-      "prefix": "v0.11.184.w"
+      "prefix": "v0.11.212.w"
     },
     "res/atlas_q7/myres/mjdesktop/number.atlas": {
       "prefix": "v0.10.306.w"
@@ -194719,10 +194719,10 @@
       "prefix": "v0.10.306.w"
     },
     "res/ui_img_atlas_q7_sha.json": {
-      "prefix": "v0.11.205.w"
+      "prefix": "v0.11.212.w"
     },
     "res/ui_img_atlas_sha.json": {
-      "prefix": "v0.11.205.w"
+      "prefix": "v0.11.212.w"
     },
     "res/atlas_q7/en/myres/ab_match.atlas": {
       "prefix": "v0.10.306.w"
@@ -194755,10 +194755,10 @@
       "prefix": "v0.10.306.w"
     },
     "res/atlas_q7/en/myres/activity_entrance.atlas": {
-      "prefix": "v0.11.205.w"
+      "prefix": "v0.11.212.w"
     },
     "res/atlas_q7/en/myres/activity_entrance_0.png": {
-      "prefix": "v0.11.205.w"
+      "prefix": "v0.11.212.w"
     },
     "res/atlas_q7/en/myres/activity_entrance_extra.atlas": {
       "prefix": "v0.11.188.w"
@@ -195010,10 +195010,10 @@
       "prefix": "v0.10.306.w"
     },
     "res/atlas_q7/en/myres/match_lobby.atlas": {
-      "prefix": "v0.11.184.w"
+      "prefix": "v0.11.212.w"
     },
     "res/atlas_q7/en/myres/match_lobby_0.png": {
-      "prefix": "v0.11.184.w"
+      "prefix": "v0.11.212.w"
     },
     "res/atlas_q7/en/myres/mjdesktop/number.atlas": {
       "prefix": "v0.10.306.w"
@@ -195508,10 +195508,10 @@
       "prefix": "v0.10.306.w"
     },
     "res/atlas_q7/kr/myres/activity_entrance.atlas": {
-      "prefix": "v0.11.205.w"
+      "prefix": "v0.11.212.w"
     },
     "res/atlas_q7/kr/myres/activity_entrance_0.png": {
-      "prefix": "v0.11.205.w"
+      "prefix": "v0.11.212.w"
     },
     "res/atlas_q7/kr/myres/activity_entrance_extra.atlas": {
       "prefix": "v0.11.188.w"
@@ -195745,10 +195745,10 @@
       "prefix": "v0.11.188.w"
     },
     "res/atlas_q7/kr/myres/match_lobby.atlas": {
-      "prefix": "v0.11.184.w"
+      "prefix": "v0.11.212.w"
     },
     "res/atlas_q7/kr/myres/match_lobby_0.png": {
-      "prefix": "v0.11.184.w"
+      "prefix": "v0.11.212.w"
     },
     "res/atlas_q7/kr/myres/mjdesktop/number.atlas": {
       "prefix": "v0.10.306.w"
@@ -196255,10 +196255,10 @@
       "prefix": "v0.10.306.w"
     },
     "res/atlas_q7/jp/myres/activity_entrance.atlas": {
-      "prefix": "v0.11.205.w"
+      "prefix": "v0.11.212.w"
     },
     "res/atlas_q7/jp/myres/activity_entrance_0.png": {
-      "prefix": "v0.11.205.w"
+      "prefix": "v0.11.212.w"
     },
     "res/atlas_q7/jp/myres/activity_entrance_extra.atlas": {
       "prefix": "v0.11.188.w"
@@ -196510,10 +196510,10 @@
       "prefix": "v0.10.306.w"
     },
     "res/atlas_q7/jp/myres/match_lobby.atlas": {
-      "prefix": "v0.11.184.w"
+      "prefix": "v0.11.212.w"
     },
     "res/atlas_q7/jp/myres/match_lobby_0.png": {
-      "prefix": "v0.11.184.w"
+      "prefix": "v0.11.212.w"
     },
     "res/atlas_q7/jp/myres/mjdesktop/number.atlas": {
       "prefix": "v0.10.306.w"
@@ -209980,10 +209980,10 @@
       "prefix": "v0.11.26.w"
     },
     "res/atlas/bitmapfont/chs_t3.png": {
-      "prefix": "v0.11.205.w"
+      "prefix": "v0.11.212.w"
     },
     "res/atlas/bitmapfont3.png": {
-      "prefix": "v0.11.205.w"
+      "prefix": "v0.11.212.w"
     },
     "res/atlas/chs_t/myres/pop_panel.atlas": {
       "prefix": "v0.11.194.w"
@@ -209998,7 +209998,7 @@
       "prefix": "v0.11.205.w"
     },
     "res/atlas_q7/bitmapfont/chs_t3.png": {
-      "prefix": "v0.11.205.w"
+      "prefix": "v0.11.212.w"
     },
     "res/atlas_q7/chs_t/myres/pop_panel.atlas": {
       "prefix": "v0.11.194.w"
@@ -210481,7 +210481,7 @@
       "prefix": "v0.11.194.w"
     },
     "res/atlas_q7/bitmapfont3.png": {
-      "prefix": "v0.11.205.w"
+      "prefix": "v0.11.212.w"
     },
     "audio/music/lobby_24anime.mp3": {
       "prefix": "v0.11.29.w"
@@ -211192,19 +211192,19 @@
       "prefix": "v0.11.29.w"
     },
     "res/atlas/chs_t/myres/activity_vtuber.atlas": {
-      "prefix": "v0.11.29.w"
+      "prefix": "v0.11.212.w"
     },
     "res/atlas/chs_t/myres/activity_vtuber.png": {
-      "prefix": "v0.11.29.w"
+      "prefix": "v0.11.212.w"
     },
     "res/atlas/chs_t/myres/activity_vtuber1.png": {
-      "prefix": "v0.11.29.w"
+      "prefix": "v0.11.212.w"
     },
     "res/atlas/chs_t/myres/activity_vtuber2.png": {
-      "prefix": "v0.11.29.w"
+      "prefix": "v0.11.212.w"
     },
     "res/atlas/chs_t/myres/activity_vtuber3.png": {
-      "prefix": "v0.11.29.w"
+      "prefix": "v0.11.212.w"
     },
     "res/atlas/chs_t/myres2/mjp/mjp_24anime/hand.atlas": {
       "prefix": "v0.11.29.w"
@@ -211213,19 +211213,19 @@
       "prefix": "v0.11.29.w"
     },
     "res/atlas/myres/activity_vtuber.atlas": {
-      "prefix": "v0.11.29.w"
+      "prefix": "v0.11.212.w"
     },
     "res/atlas/myres/activity_vtuber.png": {
-      "prefix": "v0.11.29.w"
+      "prefix": "v0.11.212.w"
     },
     "res/atlas/myres/activity_vtuber1.png": {
-      "prefix": "v0.11.29.w"
+      "prefix": "v0.11.212.w"
     },
     "res/atlas/myres/activity_vtuber2.png": {
-      "prefix": "v0.11.29.w"
+      "prefix": "v0.11.212.w"
     },
     "res/atlas/myres/activity_vtuber3.png": {
-      "prefix": "v0.11.29.w"
+      "prefix": "v0.11.212.w"
     },
     "res/atlas/myres2/mjp/mjp_24anime/hand.atlas": {
       "prefix": "v0.11.29.w"
@@ -211234,13 +211234,13 @@
       "prefix": "v0.11.29.w"
     },
     "res/atlas_q7/chs_t/myres/activity_vtuber.atlas": {
-      "prefix": "v0.11.29.w"
+      "prefix": "v0.11.212.w"
     },
     "res/atlas_q7/chs_t/myres/activity_vtuber_0.png": {
-      "prefix": "v0.11.29.w"
+      "prefix": "v0.11.212.w"
     },
     "res/atlas_q7/chs_t/myres/activity_vtuber_1.png": {
-      "prefix": "v0.11.29.w"
+      "prefix": "v0.11.212.w"
     },
     "res/atlas_q7/chs_t/myres2/mjp/mjp_24anime/hand.atlas": {
       "prefix": "v0.11.29.w"
@@ -211249,13 +211249,13 @@
       "prefix": "v0.11.29.w"
     },
     "res/atlas_q7/myres/activity_vtuber.atlas": {
-      "prefix": "v0.11.29.w"
+      "prefix": "v0.11.212.w"
     },
     "res/atlas_q7/myres/activity_vtuber_0.png": {
-      "prefix": "v0.11.29.w"
+      "prefix": "v0.11.212.w"
     },
     "res/atlas_q7/myres/activity_vtuber_1.png": {
-      "prefix": "v0.11.29.w"
+      "prefix": "v0.11.212.w"
     },
     "res/atlas_q7/myres2/mjp/mjp_24anime/hand.atlas": {
       "prefix": "v0.11.29.w"
@@ -211684,19 +211684,19 @@
       "prefix": "v0.11.29.w"
     },
     "res/atlas/en/myres/activity_vtuber.atlas": {
-      "prefix": "v0.11.29.w"
+      "prefix": "v0.11.212.w"
     },
     "res/atlas/en/myres/activity_vtuber.png": {
-      "prefix": "v0.11.29.w"
+      "prefix": "v0.11.212.w"
     },
     "res/atlas/en/myres/activity_vtuber1.png": {
-      "prefix": "v0.11.29.w"
+      "prefix": "v0.11.212.w"
     },
     "res/atlas/en/myres/activity_vtuber2.png": {
-      "prefix": "v0.11.29.w"
+      "prefix": "v0.11.212.w"
     },
     "res/atlas/en/myres/activity_vtuber3.png": {
-      "prefix": "v0.11.29.w"
+      "prefix": "v0.11.212.w"
     },
     "res/atlas/en/myres2/mjp/mjp_24anime/hand.atlas": {
       "prefix": "v0.11.29.w"
@@ -211705,19 +211705,19 @@
       "prefix": "v0.11.29.w"
     },
     "res/atlas/kr/myres/activity_vtuber.atlas": {
-      "prefix": "v0.11.29.w"
+      "prefix": "v0.11.212.w"
     },
     "res/atlas/kr/myres/activity_vtuber.png": {
-      "prefix": "v0.11.29.w"
+      "prefix": "v0.11.212.w"
     },
     "res/atlas/kr/myres/activity_vtuber1.png": {
-      "prefix": "v0.11.29.w"
+      "prefix": "v0.11.212.w"
     },
     "res/atlas/kr/myres/activity_vtuber2.png": {
-      "prefix": "v0.11.29.w"
+      "prefix": "v0.11.212.w"
     },
     "res/atlas/kr/myres/activity_vtuber3.png": {
-      "prefix": "v0.11.29.w"
+      "prefix": "v0.11.212.w"
     },
     "res/atlas/kr/myres/lobby7.png": {
       "prefix": "v0.11.188.w"
@@ -211729,13 +211729,13 @@
       "prefix": "v0.11.29.w"
     },
     "res/atlas_q7/en/myres/activity_vtuber.atlas": {
-      "prefix": "v0.11.29.w"
+      "prefix": "v0.11.212.w"
     },
     "res/atlas_q7/en/myres/activity_vtuber_0.png": {
-      "prefix": "v0.11.29.w"
+      "prefix": "v0.11.212.w"
     },
     "res/atlas_q7/en/myres/activity_vtuber_1.png": {
-      "prefix": "v0.11.29.w"
+      "prefix": "v0.11.212.w"
     },
     "res/atlas_q7/en/myres2/mjp/mjp_24anime/hand.atlas": {
       "prefix": "v0.11.29.w"
@@ -211744,13 +211744,13 @@
       "prefix": "v0.11.29.w"
     },
     "res/atlas_q7/kr/myres/activity_vtuber.atlas": {
-      "prefix": "v0.11.29.w"
+      "prefix": "v0.11.212.w"
     },
     "res/atlas_q7/kr/myres/activity_vtuber_0.png": {
-      "prefix": "v0.11.29.w"
+      "prefix": "v0.11.212.w"
     },
     "res/atlas_q7/kr/myres/activity_vtuber_1.png": {
-      "prefix": "v0.11.29.w"
+      "prefix": "v0.11.212.w"
     },
     "res/atlas_q7/kr/myres2/mjp/mjp_24anime/hand.atlas": {
       "prefix": "v0.11.29.w"
@@ -212101,19 +212101,19 @@
       "prefix": "v0.11.29.w"
     },
     "res/atlas/jp/myres/activity_vtuber.atlas": {
-      "prefix": "v0.11.29.w"
+      "prefix": "v0.11.212.w"
     },
     "res/atlas/jp/myres/activity_vtuber.png": {
-      "prefix": "v0.11.29.w"
+      "prefix": "v0.11.212.w"
     },
     "res/atlas/jp/myres/activity_vtuber1.png": {
-      "prefix": "v0.11.29.w"
+      "prefix": "v0.11.212.w"
     },
     "res/atlas/jp/myres/activity_vtuber2.png": {
-      "prefix": "v0.11.29.w"
+      "prefix": "v0.11.212.w"
     },
     "res/atlas/jp/myres/activity_vtuber3.png": {
-      "prefix": "v0.11.29.w"
+      "prefix": "v0.11.212.w"
     },
     "res/atlas/jp/myres2/mjp/mjp_24anime/hand.atlas": {
       "prefix": "v0.11.29.w"
@@ -212122,13 +212122,13 @@
       "prefix": "v0.11.29.w"
     },
     "res/atlas_q7/jp/myres/activity_vtuber.atlas": {
-      "prefix": "v0.11.29.w"
+      "prefix": "v0.11.212.w"
     },
     "res/atlas_q7/jp/myres/activity_vtuber_0.png": {
-      "prefix": "v0.11.29.w"
+      "prefix": "v0.11.212.w"
     },
     "res/atlas_q7/jp/myres/activity_vtuber_1.png": {
-      "prefix": "v0.11.29.w"
+      "prefix": "v0.11.212.w"
     },
     "res/atlas_q7/jp/myres2/mjp/mjp_24anime/hand.atlas": {
       "prefix": "v0.11.29.w"
@@ -219439,13 +219439,13 @@
       "prefix": "v0.11.44.w"
     },
     "docs/spot/jiutiaoliyu/jiutiaoliyu06_en.bytes": {
-      "prefix": "v0.11.44.w"
+      "prefix": "v0.11.212.w"
     },
     "docs/spot/jiutiaoliyu/jiutiaoliyu06_jp.bytes": {
       "prefix": "v0.11.76.w"
     },
     "docs/spot/jiutiaoliyu/jiutiaoliyu06_kr.bytes": {
-      "prefix": "v0.11.44.w"
+      "prefix": "v0.11.212.w"
     },
     "game_audio_info.json": {
       "prefix": "v0.11.205.w"
@@ -225991,7 +225991,7 @@
       "prefix": "v0.11.48.w"
     },
     "res/atlas/bitmapfont4.png": {
-      "prefix": "v0.11.205.w"
+      "prefix": "v0.11.212.w"
     },
     "res/atlas/chs_t/myres/activity_2406_haidao/spot_images.atlas": {
       "prefix": "v0.11.48.w"
@@ -226108,7 +226108,7 @@
       "prefix": "v0.11.48.w"
     },
     "res/atlas_q7/bitmapfont4.png": {
-      "prefix": "v0.11.205.w"
+      "prefix": "v0.11.212.w"
     },
     "res/atlas_q7/chs_t/myres/activity_2406_haidao/spot_images.atlas": {
       "prefix": "v0.11.48.w"
@@ -230392,25 +230392,25 @@
       "prefix": "v0.11.73.w"
     },
     "lang/base/extendRes/charactor/huayubai/bighead.png": {
-      "prefix": "v0.11.120.w"
+      "prefix": "v0.11.212.w"
     },
     "lang/base/extendRes/charactor/huayubai/full.png": {
-      "prefix": "v0.11.120.w"
+      "prefix": "v0.11.212.w"
     },
     "lang/base/extendRes/charactor/huayubai/half.png": {
       "prefix": "v0.11.120.w"
     },
     "lang/base/extendRes/charactor/huayubai/smallhead.png": {
-      "prefix": "v0.11.120.w"
+      "prefix": "v0.11.212.w"
     },
     "lang/base/extendRes/charactor/huayubai/smallhead1.png": {
-      "prefix": "v0.11.120.w"
+      "prefix": "v0.11.212.w"
     },
     "lang/base/extendRes/charactor/huayubai/smallhead2.png": {
-      "prefix": "v0.11.120.w"
+      "prefix": "v0.11.212.w"
     },
     "lang/base/extendRes/charactor/huayubai/smallhead3.png": {
-      "prefix": "v0.11.120.w"
+      "prefix": "v0.11.212.w"
     },
     "lang/base/extendRes/charactor/huayubai/waitingroom.png": {
       "prefix": "v0.11.120.w"
@@ -230419,25 +230419,25 @@
       "prefix": "v0.11.120.w"
     },
     "lang/base/extendRes/charactor/huayuqing/bighead.png": {
-      "prefix": "v0.11.120.w"
+      "prefix": "v0.11.212.w"
     },
     "lang/base/extendRes/charactor/huayuqing/full.png": {
-      "prefix": "v0.11.120.w"
+      "prefix": "v0.11.212.w"
     },
     "lang/base/extendRes/charactor/huayuqing/half.png": {
       "prefix": "v0.11.120.w"
     },
     "lang/base/extendRes/charactor/huayuqing/smallhead.png": {
-      "prefix": "v0.11.120.w"
+      "prefix": "v0.11.212.w"
     },
     "lang/base/extendRes/charactor/huayuqing/smallhead1.png": {
-      "prefix": "v0.11.120.w"
+      "prefix": "v0.11.212.w"
     },
     "lang/base/extendRes/charactor/huayuqing/smallhead2.png": {
-      "prefix": "v0.11.120.w"
+      "prefix": "v0.11.212.w"
     },
     "lang/base/extendRes/charactor/huayuqing/smallhead3.png": {
-      "prefix": "v0.11.120.w"
+      "prefix": "v0.11.212.w"
     },
     "lang/base/extendRes/charactor/huayuqing/waitingroom.png": {
       "prefix": "v0.11.120.w"
@@ -231166,25 +231166,25 @@
       "prefix": "v0.11.73.w"
     },
     "lang/base_q7/extendRes/charactor/huayubai/bighead.png": {
-      "prefix": "v0.11.120.w"
+      "prefix": "v0.11.212.w"
     },
     "lang/base_q7/extendRes/charactor/huayubai/full.png": {
-      "prefix": "v0.11.120.w"
+      "prefix": "v0.11.212.w"
     },
     "lang/base_q7/extendRes/charactor/huayubai/half.png": {
       "prefix": "v0.11.120.w"
     },
     "lang/base_q7/extendRes/charactor/huayubai/smallhead.png": {
-      "prefix": "v0.11.120.w"
+      "prefix": "v0.11.212.w"
     },
     "lang/base_q7/extendRes/charactor/huayubai/smallhead1.png": {
-      "prefix": "v0.11.120.w"
+      "prefix": "v0.11.212.w"
     },
     "lang/base_q7/extendRes/charactor/huayubai/smallhead2.png": {
-      "prefix": "v0.11.120.w"
+      "prefix": "v0.11.212.w"
     },
     "lang/base_q7/extendRes/charactor/huayubai/smallhead3.png": {
-      "prefix": "v0.11.120.w"
+      "prefix": "v0.11.212.w"
     },
     "lang/base_q7/extendRes/charactor/huayubai/waitingroom.png": {
       "prefix": "v0.11.120.w"
@@ -231193,25 +231193,25 @@
       "prefix": "v0.11.120.w"
     },
     "lang/base_q7/extendRes/charactor/huayuqing/bighead.png": {
-      "prefix": "v0.11.120.w"
+      "prefix": "v0.11.212.w"
     },
     "lang/base_q7/extendRes/charactor/huayuqing/full.png": {
-      "prefix": "v0.11.120.w"
+      "prefix": "v0.11.212.w"
     },
     "lang/base_q7/extendRes/charactor/huayuqing/half.png": {
       "prefix": "v0.11.120.w"
     },
     "lang/base_q7/extendRes/charactor/huayuqing/smallhead.png": {
-      "prefix": "v0.11.120.w"
+      "prefix": "v0.11.212.w"
     },
     "lang/base_q7/extendRes/charactor/huayuqing/smallhead1.png": {
-      "prefix": "v0.11.120.w"
+      "prefix": "v0.11.212.w"
     },
     "lang/base_q7/extendRes/charactor/huayuqing/smallhead2.png": {
-      "prefix": "v0.11.120.w"
+      "prefix": "v0.11.212.w"
     },
     "lang/base_q7/extendRes/charactor/huayuqing/smallhead3.png": {
-      "prefix": "v0.11.120.w"
+      "prefix": "v0.11.212.w"
     },
     "lang/base_q7/extendRes/charactor/huayuqing/waitingroom.png": {
       "prefix": "v0.11.120.w"
@@ -237274,25 +237274,25 @@
       "prefix": "v0.11.73.w"
     },
     "chs_t/extendRes/charactor/huayubai/bighead.png": {
-      "prefix": "v0.11.120.w"
+      "prefix": "v0.11.212.w"
     },
     "chs_t/extendRes/charactor/huayubai/full.png": {
-      "prefix": "v0.11.120.w"
+      "prefix": "v0.11.212.w"
     },
     "chs_t/extendRes/charactor/huayubai/half.png": {
       "prefix": "v0.11.120.w"
     },
     "chs_t/extendRes/charactor/huayubai/smallhead.png": {
-      "prefix": "v0.11.120.w"
+      "prefix": "v0.11.212.w"
     },
     "chs_t/extendRes/charactor/huayubai/smallhead1.png": {
-      "prefix": "v0.11.120.w"
+      "prefix": "v0.11.212.w"
     },
     "chs_t/extendRes/charactor/huayubai/smallhead2.png": {
-      "prefix": "v0.11.120.w"
+      "prefix": "v0.11.212.w"
     },
     "chs_t/extendRes/charactor/huayubai/smallhead3.png": {
-      "prefix": "v0.11.120.w"
+      "prefix": "v0.11.212.w"
     },
     "chs_t/extendRes/charactor/huayubai/waitingroom.png": {
       "prefix": "v0.11.120.w"
@@ -237301,25 +237301,25 @@
       "prefix": "v0.11.120.w"
     },
     "chs_t/extendRes/charactor/huayuqing/bighead.png": {
-      "prefix": "v0.11.120.w"
+      "prefix": "v0.11.212.w"
     },
     "chs_t/extendRes/charactor/huayuqing/full.png": {
-      "prefix": "v0.11.120.w"
+      "prefix": "v0.11.212.w"
     },
     "chs_t/extendRes/charactor/huayuqing/half.png": {
       "prefix": "v0.11.120.w"
     },
     "chs_t/extendRes/charactor/huayuqing/smallhead.png": {
-      "prefix": "v0.11.120.w"
+      "prefix": "v0.11.212.w"
     },
     "chs_t/extendRes/charactor/huayuqing/smallhead1.png": {
-      "prefix": "v0.11.120.w"
+      "prefix": "v0.11.212.w"
     },
     "chs_t/extendRes/charactor/huayuqing/smallhead2.png": {
-      "prefix": "v0.11.120.w"
+      "prefix": "v0.11.212.w"
     },
     "chs_t/extendRes/charactor/huayuqing/smallhead3.png": {
-      "prefix": "v0.11.120.w"
+      "prefix": "v0.11.212.w"
     },
     "chs_t/extendRes/charactor/huayuqing/waitingroom.png": {
       "prefix": "v0.11.120.w"
@@ -238081,25 +238081,25 @@
       "prefix": "v0.11.73.w"
     },
     "en/extendRes/charactor/huayubai/bighead.png": {
-      "prefix": "v0.11.120.w"
+      "prefix": "v0.11.212.w"
     },
     "en/extendRes/charactor/huayubai/full.png": {
-      "prefix": "v0.11.120.w"
+      "prefix": "v0.11.212.w"
     },
     "en/extendRes/charactor/huayubai/half.png": {
       "prefix": "v0.11.120.w"
     },
     "en/extendRes/charactor/huayubai/smallhead.png": {
-      "prefix": "v0.11.120.w"
+      "prefix": "v0.11.212.w"
     },
     "en/extendRes/charactor/huayubai/smallhead1.png": {
-      "prefix": "v0.11.120.w"
+      "prefix": "v0.11.212.w"
     },
     "en/extendRes/charactor/huayubai/smallhead2.png": {
-      "prefix": "v0.11.120.w"
+      "prefix": "v0.11.212.w"
     },
     "en/extendRes/charactor/huayubai/smallhead3.png": {
-      "prefix": "v0.11.120.w"
+      "prefix": "v0.11.212.w"
     },
     "en/extendRes/charactor/huayubai/waitingroom.png": {
       "prefix": "v0.11.120.w"
@@ -238108,25 +238108,25 @@
       "prefix": "v0.11.120.w"
     },
     "en/extendRes/charactor/huayuqing/bighead.png": {
-      "prefix": "v0.11.120.w"
+      "prefix": "v0.11.212.w"
     },
     "en/extendRes/charactor/huayuqing/full.png": {
-      "prefix": "v0.11.120.w"
+      "prefix": "v0.11.212.w"
     },
     "en/extendRes/charactor/huayuqing/half.png": {
       "prefix": "v0.11.120.w"
     },
     "en/extendRes/charactor/huayuqing/smallhead.png": {
-      "prefix": "v0.11.120.w"
+      "prefix": "v0.11.212.w"
     },
     "en/extendRes/charactor/huayuqing/smallhead1.png": {
-      "prefix": "v0.11.120.w"
+      "prefix": "v0.11.212.w"
     },
     "en/extendRes/charactor/huayuqing/smallhead2.png": {
-      "prefix": "v0.11.120.w"
+      "prefix": "v0.11.212.w"
     },
     "en/extendRes/charactor/huayuqing/smallhead3.png": {
-      "prefix": "v0.11.120.w"
+      "prefix": "v0.11.212.w"
     },
     "en/extendRes/charactor/huayuqing/waitingroom.png": {
       "prefix": "v0.11.120.w"
@@ -238885,25 +238885,25 @@
       "prefix": "v0.11.73.w"
     },
     "kr/extendRes/charactor/huayubai/bighead.png": {
-      "prefix": "v0.11.120.w"
+      "prefix": "v0.11.212.w"
     },
     "kr/extendRes/charactor/huayubai/full.png": {
-      "prefix": "v0.11.120.w"
+      "prefix": "v0.11.212.w"
     },
     "kr/extendRes/charactor/huayubai/half.png": {
       "prefix": "v0.11.120.w"
     },
     "kr/extendRes/charactor/huayubai/smallhead.png": {
-      "prefix": "v0.11.120.w"
+      "prefix": "v0.11.212.w"
     },
     "kr/extendRes/charactor/huayubai/smallhead1.png": {
-      "prefix": "v0.11.120.w"
+      "prefix": "v0.11.212.w"
     },
     "kr/extendRes/charactor/huayubai/smallhead2.png": {
-      "prefix": "v0.11.120.w"
+      "prefix": "v0.11.212.w"
     },
     "kr/extendRes/charactor/huayubai/smallhead3.png": {
-      "prefix": "v0.11.120.w"
+      "prefix": "v0.11.212.w"
     },
     "kr/extendRes/charactor/huayubai/waitingroom.png": {
       "prefix": "v0.11.120.w"
@@ -238912,25 +238912,25 @@
       "prefix": "v0.11.120.w"
     },
     "kr/extendRes/charactor/huayuqing/bighead.png": {
-      "prefix": "v0.11.120.w"
+      "prefix": "v0.11.212.w"
     },
     "kr/extendRes/charactor/huayuqing/full.png": {
-      "prefix": "v0.11.120.w"
+      "prefix": "v0.11.212.w"
     },
     "kr/extendRes/charactor/huayuqing/half.png": {
       "prefix": "v0.11.120.w"
     },
     "kr/extendRes/charactor/huayuqing/smallhead.png": {
-      "prefix": "v0.11.120.w"
+      "prefix": "v0.11.212.w"
     },
     "kr/extendRes/charactor/huayuqing/smallhead1.png": {
-      "prefix": "v0.11.120.w"
+      "prefix": "v0.11.212.w"
     },
     "kr/extendRes/charactor/huayuqing/smallhead2.png": {
-      "prefix": "v0.11.120.w"
+      "prefix": "v0.11.212.w"
     },
     "kr/extendRes/charactor/huayuqing/smallhead3.png": {
-      "prefix": "v0.11.120.w"
+      "prefix": "v0.11.212.w"
     },
     "kr/extendRes/charactor/huayuqing/waitingroom.png": {
       "prefix": "v0.11.120.w"
@@ -242404,25 +242404,25 @@
       "prefix": "v0.11.73.w"
     },
     "jp/extendRes/charactor/huayubai/bighead.png": {
-      "prefix": "v0.11.120.w"
+      "prefix": "v0.11.212.w"
     },
     "jp/extendRes/charactor/huayubai/full.png": {
-      "prefix": "v0.11.120.w"
+      "prefix": "v0.11.212.w"
     },
     "jp/extendRes/charactor/huayubai/half.png": {
       "prefix": "v0.11.120.w"
     },
     "jp/extendRes/charactor/huayubai/smallhead.png": {
-      "prefix": "v0.11.120.w"
+      "prefix": "v0.11.212.w"
     },
     "jp/extendRes/charactor/huayubai/smallhead1.png": {
-      "prefix": "v0.11.120.w"
+      "prefix": "v0.11.212.w"
     },
     "jp/extendRes/charactor/huayubai/smallhead2.png": {
-      "prefix": "v0.11.120.w"
+      "prefix": "v0.11.212.w"
     },
     "jp/extendRes/charactor/huayubai/smallhead3.png": {
-      "prefix": "v0.11.120.w"
+      "prefix": "v0.11.212.w"
     },
     "jp/extendRes/charactor/huayubai/waitingroom.png": {
       "prefix": "v0.11.120.w"
@@ -242431,25 +242431,25 @@
       "prefix": "v0.11.120.w"
     },
     "jp/extendRes/charactor/huayuqing/bighead.png": {
-      "prefix": "v0.11.120.w"
+      "prefix": "v0.11.212.w"
     },
     "jp/extendRes/charactor/huayuqing/full.png": {
-      "prefix": "v0.11.120.w"
+      "prefix": "v0.11.212.w"
     },
     "jp/extendRes/charactor/huayuqing/half.png": {
       "prefix": "v0.11.120.w"
     },
     "jp/extendRes/charactor/huayuqing/smallhead.png": {
-      "prefix": "v0.11.120.w"
+      "prefix": "v0.11.212.w"
     },
     "jp/extendRes/charactor/huayuqing/smallhead1.png": {
-      "prefix": "v0.11.120.w"
+      "prefix": "v0.11.212.w"
     },
     "jp/extendRes/charactor/huayuqing/smallhead2.png": {
-      "prefix": "v0.11.120.w"
+      "prefix": "v0.11.212.w"
     },
     "jp/extendRes/charactor/huayuqing/smallhead3.png": {
-      "prefix": "v0.11.120.w"
+      "prefix": "v0.11.212.w"
     },
     "jp/extendRes/charactor/huayuqing/waitingroom.png": {
       "prefix": "v0.11.120.w"
@@ -244786,7 +244786,7 @@
       "prefix": "v0.11.160.w"
     },
     "chs_t/extendRes/charactor/sataen/full.png": {
-      "prefix": "v0.11.160.w"
+      "prefix": "v0.11.212.w"
     },
     "chs_t/extendRes/charactor/sataen/half.png": {
       "prefix": "v0.11.76.w"
@@ -244939,7 +244939,7 @@
       "prefix": "v0.11.160.w"
     },
     "en/extendRes/charactor/sataen/full.png": {
-      "prefix": "v0.11.160.w"
+      "prefix": "v0.11.212.w"
     },
     "en/extendRes/charactor/sataen/half.png": {
       "prefix": "v0.11.76.w"
@@ -245092,7 +245092,7 @@
       "prefix": "v0.11.160.w"
     },
     "kr/extendRes/charactor/sataen/full.png": {
-      "prefix": "v0.11.160.w"
+      "prefix": "v0.11.212.w"
     },
     "kr/extendRes/charactor/sataen/half.png": {
       "prefix": "v0.11.76.w"
@@ -245404,7 +245404,7 @@
       "prefix": "v0.11.160.w"
     },
     "jp/extendRes/charactor/sataen/full.png": {
-      "prefix": "v0.11.160.w"
+      "prefix": "v0.11.212.w"
     },
     "jp/extendRes/charactor/sataen/half.png": {
       "prefix": "v0.11.76.w"
@@ -267025,31 +267025,31 @@
       "prefix": "v0.11.120.w"
     },
     "lang/base/extendRes/charactor/huayubai_0/bighead.png": {
-      "prefix": "v0.11.120.w"
+      "prefix": "v0.11.212.w"
     },
     "lang/base/extendRes/charactor/huayubai_0/full.png": {
-      "prefix": "v0.11.120.w"
+      "prefix": "v0.11.212.w"
     },
     "lang/base/extendRes/charactor/huayubai_0/half.png": {
       "prefix": "v0.11.120.w"
     },
     "lang/base/extendRes/charactor/huayubai_0/smallhead.png": {
-      "prefix": "v0.11.120.w"
+      "prefix": "v0.11.212.w"
     },
     "lang/base/extendRes/charactor/huayubai_0/waitingroom.png": {
       "prefix": "v0.11.120.w"
     },
     "lang/base/extendRes/charactor/huayuqing_0/bighead.png": {
-      "prefix": "v0.11.120.w"
+      "prefix": "v0.11.212.w"
     },
     "lang/base/extendRes/charactor/huayuqing_0/full.png": {
-      "prefix": "v0.11.120.w"
+      "prefix": "v0.11.212.w"
     },
     "lang/base/extendRes/charactor/huayuqing_0/half.png": {
       "prefix": "v0.11.120.w"
     },
     "lang/base/extendRes/charactor/huayuqing_0/smallhead.png": {
-      "prefix": "v0.11.120.w"
+      "prefix": "v0.11.212.w"
     },
     "lang/base/extendRes/charactor/huayuqing_0/waitingroom.png": {
       "prefix": "v0.11.120.w"
@@ -267445,31 +267445,31 @@
       "prefix": "v0.11.120.w"
     },
     "lang/base_q7/extendRes/charactor/huayubai_0/bighead.png": {
-      "prefix": "v0.11.120.w"
+      "prefix": "v0.11.212.w"
     },
     "lang/base_q7/extendRes/charactor/huayubai_0/full.png": {
-      "prefix": "v0.11.120.w"
+      "prefix": "v0.11.212.w"
     },
     "lang/base_q7/extendRes/charactor/huayubai_0/half.png": {
       "prefix": "v0.11.120.w"
     },
     "lang/base_q7/extendRes/charactor/huayubai_0/smallhead.png": {
-      "prefix": "v0.11.120.w"
+      "prefix": "v0.11.212.w"
     },
     "lang/base_q7/extendRes/charactor/huayubai_0/waitingroom.png": {
       "prefix": "v0.11.120.w"
     },
     "lang/base_q7/extendRes/charactor/huayuqing_0/bighead.png": {
-      "prefix": "v0.11.120.w"
+      "prefix": "v0.11.212.w"
     },
     "lang/base_q7/extendRes/charactor/huayuqing_0/full.png": {
-      "prefix": "v0.11.120.w"
+      "prefix": "v0.11.212.w"
     },
     "lang/base_q7/extendRes/charactor/huayuqing_0/half.png": {
       "prefix": "v0.11.120.w"
     },
     "lang/base_q7/extendRes/charactor/huayuqing_0/smallhead.png": {
-      "prefix": "v0.11.120.w"
+      "prefix": "v0.11.212.w"
     },
     "lang/base_q7/extendRes/charactor/huayuqing_0/waitingroom.png": {
       "prefix": "v0.11.120.w"
@@ -271747,31 +271747,31 @@
       "prefix": "v0.11.120.w"
     },
     "chs_t/extendRes/charactor/huayubai_0/bighead.png": {
-      "prefix": "v0.11.120.w"
+      "prefix": "v0.11.212.w"
     },
     "chs_t/extendRes/charactor/huayubai_0/full.png": {
-      "prefix": "v0.11.120.w"
+      "prefix": "v0.11.212.w"
     },
     "chs_t/extendRes/charactor/huayubai_0/half.png": {
       "prefix": "v0.11.120.w"
     },
     "chs_t/extendRes/charactor/huayubai_0/smallhead.png": {
-      "prefix": "v0.11.120.w"
+      "prefix": "v0.11.212.w"
     },
     "chs_t/extendRes/charactor/huayubai_0/waitingroom.png": {
       "prefix": "v0.11.120.w"
     },
     "chs_t/extendRes/charactor/huayuqing_0/bighead.png": {
-      "prefix": "v0.11.120.w"
+      "prefix": "v0.11.212.w"
     },
     "chs_t/extendRes/charactor/huayuqing_0/full.png": {
-      "prefix": "v0.11.120.w"
+      "prefix": "v0.11.212.w"
     },
     "chs_t/extendRes/charactor/huayuqing_0/half.png": {
       "prefix": "v0.11.120.w"
     },
     "chs_t/extendRes/charactor/huayuqing_0/smallhead.png": {
-      "prefix": "v0.11.120.w"
+      "prefix": "v0.11.212.w"
     },
     "chs_t/extendRes/charactor/huayuqing_0/waitingroom.png": {
       "prefix": "v0.11.120.w"
@@ -272242,31 +272242,31 @@
       "prefix": "v0.11.120.w"
     },
     "en/extendRes/charactor/huayubai_0/bighead.png": {
-      "prefix": "v0.11.120.w"
+      "prefix": "v0.11.212.w"
     },
     "en/extendRes/charactor/huayubai_0/full.png": {
-      "prefix": "v0.11.120.w"
+      "prefix": "v0.11.212.w"
     },
     "en/extendRes/charactor/huayubai_0/half.png": {
       "prefix": "v0.11.120.w"
     },
     "en/extendRes/charactor/huayubai_0/smallhead.png": {
-      "prefix": "v0.11.120.w"
+      "prefix": "v0.11.212.w"
     },
     "en/extendRes/charactor/huayubai_0/waitingroom.png": {
       "prefix": "v0.11.120.w"
     },
     "en/extendRes/charactor/huayuqing_0/bighead.png": {
-      "prefix": "v0.11.120.w"
+      "prefix": "v0.11.212.w"
     },
     "en/extendRes/charactor/huayuqing_0/full.png": {
-      "prefix": "v0.11.120.w"
+      "prefix": "v0.11.212.w"
     },
     "en/extendRes/charactor/huayuqing_0/half.png": {
       "prefix": "v0.11.120.w"
     },
     "en/extendRes/charactor/huayuqing_0/smallhead.png": {
-      "prefix": "v0.11.120.w"
+      "prefix": "v0.11.212.w"
     },
     "en/extendRes/charactor/huayuqing_0/waitingroom.png": {
       "prefix": "v0.11.120.w"
@@ -272737,31 +272737,31 @@
       "prefix": "v0.11.120.w"
     },
     "kr/extendRes/charactor/huayubai_0/bighead.png": {
-      "prefix": "v0.11.120.w"
+      "prefix": "v0.11.212.w"
     },
     "kr/extendRes/charactor/huayubai_0/full.png": {
-      "prefix": "v0.11.120.w"
+      "prefix": "v0.11.212.w"
     },
     "kr/extendRes/charactor/huayubai_0/half.png": {
       "prefix": "v0.11.120.w"
     },
     "kr/extendRes/charactor/huayubai_0/smallhead.png": {
-      "prefix": "v0.11.120.w"
+      "prefix": "v0.11.212.w"
     },
     "kr/extendRes/charactor/huayubai_0/waitingroom.png": {
       "prefix": "v0.11.120.w"
     },
     "kr/extendRes/charactor/huayuqing_0/bighead.png": {
-      "prefix": "v0.11.120.w"
+      "prefix": "v0.11.212.w"
     },
     "kr/extendRes/charactor/huayuqing_0/full.png": {
-      "prefix": "v0.11.120.w"
+      "prefix": "v0.11.212.w"
     },
     "kr/extendRes/charactor/huayuqing_0/half.png": {
       "prefix": "v0.11.120.w"
     },
     "kr/extendRes/charactor/huayuqing_0/smallhead.png": {
-      "prefix": "v0.11.120.w"
+      "prefix": "v0.11.212.w"
     },
     "kr/extendRes/charactor/huayuqing_0/waitingroom.png": {
       "prefix": "v0.11.120.w"
@@ -275065,31 +275065,31 @@
       "prefix": "v0.11.120.w"
     },
     "jp/extendRes/charactor/huayubai_0/bighead.png": {
-      "prefix": "v0.11.120.w"
+      "prefix": "v0.11.212.w"
     },
     "jp/extendRes/charactor/huayubai_0/full.png": {
-      "prefix": "v0.11.120.w"
+      "prefix": "v0.11.212.w"
     },
     "jp/extendRes/charactor/huayubai_0/half.png": {
       "prefix": "v0.11.120.w"
     },
     "jp/extendRes/charactor/huayubai_0/smallhead.png": {
-      "prefix": "v0.11.120.w"
+      "prefix": "v0.11.212.w"
     },
     "jp/extendRes/charactor/huayubai_0/waitingroom.png": {
       "prefix": "v0.11.120.w"
     },
     "jp/extendRes/charactor/huayuqing_0/bighead.png": {
-      "prefix": "v0.11.120.w"
+      "prefix": "v0.11.212.w"
     },
     "jp/extendRes/charactor/huayuqing_0/full.png": {
-      "prefix": "v0.11.120.w"
+      "prefix": "v0.11.212.w"
     },
     "jp/extendRes/charactor/huayuqing_0/half.png": {
       "prefix": "v0.11.120.w"
     },
     "jp/extendRes/charactor/huayuqing_0/smallhead.png": {
-      "prefix": "v0.11.120.w"
+      "prefix": "v0.11.212.w"
     },
     "jp/extendRes/charactor/huayuqing_0/waitingroom.png": {
       "prefix": "v0.11.120.w"
@@ -317383,7 +317383,7 @@
       "prefix": "v0.11.159.w"
     },
     "lang/base/extendRes/illust_data/sataen.json": {
-      "prefix": "v0.11.159.w"
+      "prefix": "v0.11.212.w"
     },
     "lang/base/extendRes/illust_data/sataen_0.json": {
       "prefix": "v0.11.159.w"
@@ -317671,7 +317671,7 @@
       "prefix": "v0.11.159.w"
     },
     "lang/base_q7/extendRes/illust_data/sataen.json": {
-      "prefix": "v0.11.159.w"
+      "prefix": "v0.11.212.w"
     },
     "lang/base_q7/extendRes/illust_data/sataen_0.json": {
       "prefix": "v0.11.159.w"
@@ -318742,7 +318742,7 @@
       "prefix": "v0.11.159.w"
     },
     "chs_t/extendRes/illust_data/sataen.json": {
-      "prefix": "v0.11.159.w"
+      "prefix": "v0.11.212.w"
     },
     "chs_t/extendRes/illust_data/sataen_0.json": {
       "prefix": "v0.11.159.w"
@@ -319042,7 +319042,7 @@
       "prefix": "v0.11.159.w"
     },
     "en/extendRes/illust_data/sataen.json": {
-      "prefix": "v0.11.159.w"
+      "prefix": "v0.11.212.w"
     },
     "en/extendRes/illust_data/sataen_0.json": {
       "prefix": "v0.11.159.w"
@@ -319342,7 +319342,7 @@
       "prefix": "v0.11.159.w"
     },
     "kr/extendRes/illust_data/sataen.json": {
-      "prefix": "v0.11.159.w"
+      "prefix": "v0.11.212.w"
     },
     "kr/extendRes/illust_data/sataen_0.json": {
       "prefix": "v0.11.159.w"
@@ -320047,7 +320047,7 @@
       "prefix": "v0.11.159.w"
     },
     "jp/extendRes/illust_data/sataen.json": {
-      "prefix": "v0.11.159.w"
+      "prefix": "v0.11.212.w"
     },
     "jp/extendRes/illust_data/sataen_0.json": {
       "prefix": "v0.11.159.w"
@@ -336391,7 +336391,7 @@
       "prefix": "v0.11.172.w"
     },
     "res/atlas/bitmapfont/chs_t4.png": {
-      "prefix": "v0.11.205.w"
+      "prefix": "v0.11.212.w"
     },
     "res/atlas/chs_t/myres/activity_2508navigation.atlas": {
       "prefix": "v0.11.172.w"
@@ -336571,7 +336571,7 @@
       "prefix": "v0.11.172.w"
     },
     "res/atlas_q7/bitmapfont/chs_t4.png": {
-      "prefix": "v0.11.205.w"
+      "prefix": "v0.11.212.w"
     },
     "res/atlas_q7/chs_t/myres/activity_2508navigation.atlas": {
       "prefix": "v0.11.172.w"
@@ -348289,7 +348289,7 @@
       "prefix": "v0.11.184.w"
     },
     "res/atlas/en/myres/match_lobby1.png": {
-      "prefix": "v0.11.188.w"
+      "prefix": "v0.11.212.w"
     },
     "res/atlas/en/myres/shop/skin_choose.atlas": {
       "prefix": "v0.11.184.w"
@@ -348304,7 +348304,7 @@
       "prefix": "v0.11.184.w"
     },
     "res/atlas/kr/myres/match_lobby1.png": {
-      "prefix": "v0.11.188.w"
+      "prefix": "v0.11.212.w"
     },
     "res/atlas/kr/myres/shop/skin_choose.atlas": {
       "prefix": "v0.11.184.w"
@@ -348610,7 +348610,7 @@
       "prefix": "v0.11.184.w"
     },
     "res/atlas/jp/myres/match_lobby1.png": {
-      "prefix": "v0.11.188.w"
+      "prefix": "v0.11.212.w"
     },
     "res/atlas/jp/myres/shop/skin_choose.atlas": {
       "prefix": "v0.11.184.w"
@@ -372946,85 +372946,85 @@
       "prefix": "v0.11.205.w"
     },
     "res/atlas/chs_t/myres/activity_2512winter/chara.png": {
-      "prefix": "v0.11.205.w"
+      "prefix": "v0.11.212.w"
     },
     "res/atlas/chs_t/myres/activity_2512winter/font.atlas": {
       "prefix": "v0.11.205.w"
     },
     "res/atlas/chs_t/myres/activity_2512winter/font.png": {
-      "prefix": "v0.11.205.w"
+      "prefix": "v0.11.212.w"
     },
     "res/atlas/chs_t/myres/activity_2512winter.atlas": {
       "prefix": "v0.11.205.w"
     },
     "res/atlas/chs_t/myres/activity_2512winter.png": {
-      "prefix": "v0.11.205.w"
+      "prefix": "v0.11.212.w"
     },
     "res/atlas/chs_t/myres/activity_2512winter1.png": {
-      "prefix": "v0.11.205.w"
+      "prefix": "v0.11.212.w"
     },
     "res/atlas/chs_t/myres/activity_2512winter2.png": {
-      "prefix": "v0.11.205.w"
+      "prefix": "v0.11.212.w"
     },
     "res/atlas/chs_t/myres/activity_2512winter3.png": {
-      "prefix": "v0.11.205.w"
+      "prefix": "v0.11.212.w"
     },
     "res/atlas/chs_t/myres/activity_2512winter4.png": {
-      "prefix": "v0.11.205.w"
+      "prefix": "v0.11.212.w"
     },
     "res/atlas/chs_t/myres/activity_2512winter5.png": {
-      "prefix": "v0.11.205.w"
+      "prefix": "v0.11.212.w"
     },
     "res/atlas/chs_t/myres/activity_2512winter6.png": {
-      "prefix": "v0.11.205.w"
+      "prefix": "v0.11.212.w"
     },
     "res/atlas/chs_t/myres/activity_2512winter7.png": {
-      "prefix": "v0.11.205.w"
+      "prefix": "v0.11.212.w"
     },
     "res/atlas/chs_t/myres/activity_2512winter8.png": {
-      "prefix": "v0.11.205.w"
+      "prefix": "v0.11.212.w"
     },
     "res/atlas/myres/activity_2512winter/chara.atlas": {
       "prefix": "v0.11.205.w"
     },
     "res/atlas/myres/activity_2512winter/chara.png": {
-      "prefix": "v0.11.205.w"
+      "prefix": "v0.11.212.w"
     },
     "res/atlas/myres/activity_2512winter/font.atlas": {
       "prefix": "v0.11.205.w"
     },
     "res/atlas/myres/activity_2512winter/font.png": {
-      "prefix": "v0.11.205.w"
+      "prefix": "v0.11.212.w"
     },
     "res/atlas/myres/activity_2512winter.atlas": {
       "prefix": "v0.11.205.w"
     },
     "res/atlas/myres/activity_2512winter.png": {
-      "prefix": "v0.11.205.w"
+      "prefix": "v0.11.212.w"
     },
     "res/atlas/myres/activity_2512winter1.png": {
-      "prefix": "v0.11.205.w"
+      "prefix": "v0.11.212.w"
     },
     "res/atlas/myres/activity_2512winter2.png": {
-      "prefix": "v0.11.205.w"
+      "prefix": "v0.11.212.w"
     },
     "res/atlas/myres/activity_2512winter3.png": {
-      "prefix": "v0.11.205.w"
+      "prefix": "v0.11.212.w"
     },
     "res/atlas/myres/activity_2512winter4.png": {
-      "prefix": "v0.11.205.w"
+      "prefix": "v0.11.212.w"
     },
     "res/atlas/myres/activity_2512winter5.png": {
-      "prefix": "v0.11.205.w"
+      "prefix": "v0.11.212.w"
     },
     "res/atlas/myres/activity_2512winter6.png": {
-      "prefix": "v0.11.205.w"
+      "prefix": "v0.11.212.w"
     },
     "res/atlas/myres/activity_2512winter7.png": {
-      "prefix": "v0.11.205.w"
+      "prefix": "v0.11.212.w"
     },
     "res/atlas/myres/activity_2512winter8.png": {
-      "prefix": "v0.11.205.w"
+      "prefix": "v0.11.212.w"
     },
     "res/atlas_q7/chs_t/myres/activity_2512winter/chara.atlas": {
       "prefix": "v0.11.205.w"
@@ -375409,85 +375409,85 @@
       "prefix": "v0.11.205.w"
     },
     "res/atlas/en/myres/activity_2512winter/chara.png": {
-      "prefix": "v0.11.205.w"
+      "prefix": "v0.11.212.w"
     },
     "res/atlas/en/myres/activity_2512winter/font.atlas": {
       "prefix": "v0.11.205.w"
     },
     "res/atlas/en/myres/activity_2512winter/font.png": {
-      "prefix": "v0.11.205.w"
+      "prefix": "v0.11.212.w"
     },
     "res/atlas/en/myres/activity_2512winter.atlas": {
       "prefix": "v0.11.205.w"
     },
     "res/atlas/en/myres/activity_2512winter.png": {
-      "prefix": "v0.11.205.w"
+      "prefix": "v0.11.212.w"
     },
     "res/atlas/en/myres/activity_2512winter1.png": {
-      "prefix": "v0.11.205.w"
+      "prefix": "v0.11.212.w"
     },
     "res/atlas/en/myres/activity_2512winter2.png": {
-      "prefix": "v0.11.205.w"
+      "prefix": "v0.11.212.w"
     },
     "res/atlas/en/myres/activity_2512winter3.png": {
-      "prefix": "v0.11.205.w"
+      "prefix": "v0.11.212.w"
     },
     "res/atlas/en/myres/activity_2512winter4.png": {
-      "prefix": "v0.11.205.w"
+      "prefix": "v0.11.212.w"
     },
     "res/atlas/en/myres/activity_2512winter5.png": {
-      "prefix": "v0.11.205.w"
+      "prefix": "v0.11.212.w"
     },
     "res/atlas/en/myres/activity_2512winter6.png": {
-      "prefix": "v0.11.205.w"
+      "prefix": "v0.11.212.w"
     },
     "res/atlas/en/myres/activity_2512winter7.png": {
-      "prefix": "v0.11.205.w"
+      "prefix": "v0.11.212.w"
     },
     "res/atlas/en/myres/activity_2512winter8.png": {
-      "prefix": "v0.11.205.w"
+      "prefix": "v0.11.212.w"
     },
     "res/atlas/kr/myres/activity_2512winter/chara.atlas": {
       "prefix": "v0.11.205.w"
     },
     "res/atlas/kr/myres/activity_2512winter/chara.png": {
-      "prefix": "v0.11.205.w"
+      "prefix": "v0.11.212.w"
     },
     "res/atlas/kr/myres/activity_2512winter/font.atlas": {
       "prefix": "v0.11.205.w"
     },
     "res/atlas/kr/myres/activity_2512winter/font.png": {
-      "prefix": "v0.11.205.w"
+      "prefix": "v0.11.212.w"
     },
     "res/atlas/kr/myres/activity_2512winter.atlas": {
       "prefix": "v0.11.205.w"
     },
     "res/atlas/kr/myres/activity_2512winter.png": {
-      "prefix": "v0.11.205.w"
+      "prefix": "v0.11.212.w"
     },
     "res/atlas/kr/myres/activity_2512winter1.png": {
-      "prefix": "v0.11.205.w"
+      "prefix": "v0.11.212.w"
     },
     "res/atlas/kr/myres/activity_2512winter2.png": {
-      "prefix": "v0.11.205.w"
+      "prefix": "v0.11.212.w"
     },
     "res/atlas/kr/myres/activity_2512winter3.png": {
-      "prefix": "v0.11.205.w"
+      "prefix": "v0.11.212.w"
     },
     "res/atlas/kr/myres/activity_2512winter4.png": {
-      "prefix": "v0.11.205.w"
+      "prefix": "v0.11.212.w"
     },
     "res/atlas/kr/myres/activity_2512winter5.png": {
-      "prefix": "v0.11.205.w"
+      "prefix": "v0.11.212.w"
     },
     "res/atlas/kr/myres/activity_2512winter6.png": {
-      "prefix": "v0.11.205.w"
+      "prefix": "v0.11.212.w"
     },
     "res/atlas/kr/myres/activity_2512winter7.png": {
-      "prefix": "v0.11.205.w"
+      "prefix": "v0.11.212.w"
     },
     "res/atlas/kr/myres/activity_2512winter8.png": {
-      "prefix": "v0.11.205.w"
+      "prefix": "v0.11.212.w"
     },
     "res/atlas_q7/en/myres/activity_2512winter/chara.atlas": {
       "prefix": "v0.11.205.w"
@@ -377509,43 +377509,43 @@
       "prefix": "v0.11.205.w"
     },
     "res/atlas/jp/myres/activity_2512winter/chara.png": {
-      "prefix": "v0.11.205.w"
+      "prefix": "v0.11.212.w"
     },
     "res/atlas/jp/myres/activity_2512winter/font.atlas": {
       "prefix": "v0.11.205.w"
     },
     "res/atlas/jp/myres/activity_2512winter/font.png": {
-      "prefix": "v0.11.205.w"
+      "prefix": "v0.11.212.w"
     },
     "res/atlas/jp/myres/activity_2512winter.atlas": {
       "prefix": "v0.11.205.w"
     },
     "res/atlas/jp/myres/activity_2512winter.png": {
-      "prefix": "v0.11.205.w"
+      "prefix": "v0.11.212.w"
     },
     "res/atlas/jp/myres/activity_2512winter1.png": {
-      "prefix": "v0.11.205.w"
+      "prefix": "v0.11.212.w"
     },
     "res/atlas/jp/myres/activity_2512winter2.png": {
-      "prefix": "v0.11.205.w"
+      "prefix": "v0.11.212.w"
     },
     "res/atlas/jp/myres/activity_2512winter3.png": {
-      "prefix": "v0.11.205.w"
+      "prefix": "v0.11.212.w"
     },
     "res/atlas/jp/myres/activity_2512winter4.png": {
-      "prefix": "v0.11.205.w"
+      "prefix": "v0.11.212.w"
     },
     "res/atlas/jp/myres/activity_2512winter5.png": {
-      "prefix": "v0.11.205.w"
+      "prefix": "v0.11.212.w"
     },
     "res/atlas/jp/myres/activity_2512winter6.png": {
-      "prefix": "v0.11.205.w"
+      "prefix": "v0.11.212.w"
     },
     "res/atlas/jp/myres/activity_2512winter7.png": {
-      "prefix": "v0.11.205.w"
+      "prefix": "v0.11.212.w"
     },
     "res/atlas/jp/myres/activity_2512winter8.png": {
-      "prefix": "v0.11.205.w"
+      "prefix": "v0.11.212.w"
     },
     "res/atlas_q7/jp/myres/activity_2512winter/chara.atlas": {
       "prefix": "v0.11.205.w"
@@ -377627,6 +377627,1359 @@
     },
     "scene/lingzi_ws_eff2.lh": {
       "prefix": "v0.11.206.w"
+    },
+    "audio/skin/HYB_SE_409903/celebrate.mp3": {
+      "prefix": "v0.11.212.w"
+    },
+    "audio/skin/HYB_SE_409903/click.mp3": {
+      "prefix": "v0.11.212.w"
+    },
+    "audio/skin/HYB_SE_409903/greeting.mp3": {
+      "prefix": "v0.11.212.w"
+    },
+    "audio/skin/HYQ_SE_409803/celebrate.mp3": {
+      "prefix": "v0.11.212.w"
+    },
+    "audio/skin/HYQ_SE_409803/click.mp3": {
+      "prefix": "v0.11.212.w"
+    },
+    "audio/skin/HYQ_SE_409803/greeting.mp3": {
+      "prefix": "v0.11.212.w"
+    },
+    "lang/base/extendRes/charactor/huayubai_LF/bighead.png": {
+      "prefix": "v0.11.212.w"
+    },
+    "lang/base/extendRes/charactor/huayubai_LF/full.png": {
+      "prefix": "v0.11.212.w"
+    },
+    "lang/base/extendRes/charactor/huayubai_LF/smallhead.png": {
+      "prefix": "v0.11.212.w"
+    },
+    "lang/base/extendRes/charactor/huayubai_LF/spine/huayubai_lf.png": {
+      "prefix": "v0.11.212.w"
+    },
+    "lang/base/extendRes/charactor/huayubai_LF/spine/huayubai_lf_2.png": {
+      "prefix": "v0.11.212.w"
+    },
+    "lang/base/extendRes/charactor/huayubai_LF/spine/huayubai_lf_3.png": {
+      "prefix": "v0.11.212.w"
+    },
+    "lang/base/extendRes/charactor/huayubai_LF/spine/spine.atlas.txt": {
+      "prefix": "v0.11.212.w"
+    },
+    "lang/base/extendRes/charactor/huayubai_LF/spine/spine.skel.txt": {
+      "prefix": "v0.11.212.w"
+    },
+    "lang/base/extendRes/charactor/huayuqing_LF/bighead.png": {
+      "prefix": "v0.11.212.w"
+    },
+    "lang/base/extendRes/charactor/huayuqing_LF/full.png": {
+      "prefix": "v0.11.212.w"
+    },
+    "lang/base/extendRes/charactor/huayuqing_LF/smallhead.png": {
+      "prefix": "v0.11.212.w"
+    },
+    "lang/base/extendRes/charactor/huayuqing_LF/spine/huayuqing_lf.png": {
+      "prefix": "v0.11.212.w"
+    },
+    "lang/base/extendRes/charactor/huayuqing_LF/spine/huayuqing_lf_2.png": {
+      "prefix": "v0.11.212.w"
+    },
+    "lang/base/extendRes/charactor/huayuqing_LF/spine/spine.atlas.txt": {
+      "prefix": "v0.11.212.w"
+    },
+    "lang/base/extendRes/charactor/huayuqing_LF/spine/spine.skel.txt": {
+      "prefix": "v0.11.212.w"
+    },
+    "lang/base/extendRes/charactor/sataen_LF/bighead.png": {
+      "prefix": "v0.11.212.w"
+    },
+    "lang/base/extendRes/charactor/sataen_LF/full.png": {
+      "prefix": "v0.11.212.w"
+    },
+    "lang/base/extendRes/charactor/sataen_LF/smallhead.png": {
+      "prefix": "v0.11.212.w"
+    },
+    "lang/base/extendRes/emo/e200097/931.png": {
+      "prefix": "v0.11.212.w"
+    },
+    "lang/base/extendRes/emo/e200098/931.png": {
+      "prefix": "v0.11.212.w"
+    },
+    "lang/base/extendRes/emo/e200099/931.png": {
+      "prefix": "v0.11.212.w"
+    },
+    "lang/base/extendRes/illust_data/huayubai.json": {
+      "prefix": "v0.11.212.w"
+    },
+    "lang/base/extendRes/illust_data/huayubai_0.json": {
+      "prefix": "v0.11.212.w"
+    },
+    "lang/base/extendRes/illust_data/huayubai_lf.json": {
+      "prefix": "v0.11.212.w"
+    },
+    "lang/base/extendRes/illust_data/huayuqing.json": {
+      "prefix": "v0.11.212.w"
+    },
+    "lang/base/extendRes/illust_data/huayuqing_0.json": {
+      "prefix": "v0.11.212.w"
+    },
+    "lang/base/extendRes/illust_data/huayuqing_lf.json": {
+      "prefix": "v0.11.212.w"
+    },
+    "lang/base/extendRes/illust_data/sataen_lf.json": {
+      "prefix": "v0.11.212.w"
+    },
+    "lang/base/extendRes/loading_cg/260101.jpg": {
+      "prefix": "v0.11.212.w"
+    },
+    "lang/base/extendRes/loading_cg/260101_thumb.jpg": {
+      "prefix": "v0.11.212.w"
+    },
+    "lang/base/extendRes/skin_shop/huayubaiLF_shop.jpg": {
+      "prefix": "v0.11.212.w"
+    },
+    "lang/base/extendRes/skin_shop/huayuqingLF_shop.jpg": {
+      "prefix": "v0.11.212.w"
+    },
+    "lang/base/extendRes/skin_shop/sataenLF_shop.jpg": {
+      "prefix": "v0.11.212.w"
+    },
+    "lang/base/myres2/activity_banner/26lifu.png": {
+      "prefix": "v0.11.212.w"
+    },
+    "lang/base/myres2/activity_banner/26lifu_0.png": {
+      "prefix": "v0.11.212.w"
+    },
+    "lang/base_q7/extendRes/charactor/huayubai_LF/bighead.png": {
+      "prefix": "v0.11.212.w"
+    },
+    "lang/base_q7/extendRes/charactor/huayubai_LF/full.png": {
+      "prefix": "v0.11.212.w"
+    },
+    "lang/base_q7/extendRes/charactor/huayubai_LF/smallhead.png": {
+      "prefix": "v0.11.212.w"
+    },
+    "lang/base_q7/extendRes/charactor/huayubai_LF/spine/huayubai_lf.png": {
+      "prefix": "v0.11.212.w"
+    },
+    "lang/base_q7/extendRes/charactor/huayubai_LF/spine/huayubai_lf_2.png": {
+      "prefix": "v0.11.212.w"
+    },
+    "lang/base_q7/extendRes/charactor/huayubai_LF/spine/huayubai_lf_3.png": {
+      "prefix": "v0.11.212.w"
+    },
+    "lang/base_q7/extendRes/charactor/huayubai_LF/spine/spine.atlas.txt": {
+      "prefix": "v0.11.212.w"
+    },
+    "lang/base_q7/extendRes/charactor/huayubai_LF/spine/spine.skel.txt": {
+      "prefix": "v0.11.212.w"
+    },
+    "lang/base_q7/extendRes/charactor/huayuqing_LF/bighead.png": {
+      "prefix": "v0.11.212.w"
+    },
+    "lang/base_q7/extendRes/charactor/huayuqing_LF/full.png": {
+      "prefix": "v0.11.212.w"
+    },
+    "lang/base_q7/extendRes/charactor/huayuqing_LF/smallhead.png": {
+      "prefix": "v0.11.212.w"
+    },
+    "lang/base_q7/extendRes/charactor/huayuqing_LF/spine/huayuqing_lf.png": {
+      "prefix": "v0.11.212.w"
+    },
+    "lang/base_q7/extendRes/charactor/huayuqing_LF/spine/huayuqing_lf_2.png": {
+      "prefix": "v0.11.212.w"
+    },
+    "lang/base_q7/extendRes/charactor/huayuqing_LF/spine/spine.atlas.txt": {
+      "prefix": "v0.11.212.w"
+    },
+    "lang/base_q7/extendRes/charactor/huayuqing_LF/spine/spine.skel.txt": {
+      "prefix": "v0.11.212.w"
+    },
+    "lang/base_q7/extendRes/charactor/sataen_LF/bighead.png": {
+      "prefix": "v0.11.212.w"
+    },
+    "lang/base_q7/extendRes/charactor/sataen_LF/full.png": {
+      "prefix": "v0.11.212.w"
+    },
+    "lang/base_q7/extendRes/charactor/sataen_LF/smallhead.png": {
+      "prefix": "v0.11.212.w"
+    },
+    "lang/base_q7/extendRes/emo/e200097/931.png": {
+      "prefix": "v0.11.212.w"
+    },
+    "lang/base_q7/extendRes/emo/e200098/931.png": {
+      "prefix": "v0.11.212.w"
+    },
+    "lang/base_q7/extendRes/emo/e200099/931.png": {
+      "prefix": "v0.11.212.w"
+    },
+    "lang/base_q7/extendRes/illust_data/huayubai.json": {
+      "prefix": "v0.11.212.w"
+    },
+    "lang/base_q7/extendRes/illust_data/huayubai_0.json": {
+      "prefix": "v0.11.212.w"
+    },
+    "lang/base_q7/extendRes/illust_data/huayubai_lf.json": {
+      "prefix": "v0.11.212.w"
+    },
+    "lang/base_q7/extendRes/illust_data/huayuqing.json": {
+      "prefix": "v0.11.212.w"
+    },
+    "lang/base_q7/extendRes/illust_data/huayuqing_0.json": {
+      "prefix": "v0.11.212.w"
+    },
+    "lang/base_q7/extendRes/illust_data/huayuqing_lf.json": {
+      "prefix": "v0.11.212.w"
+    },
+    "lang/base_q7/extendRes/illust_data/sataen_lf.json": {
+      "prefix": "v0.11.212.w"
+    },
+    "lang/base_q7/extendRes/loading_cg/260101.jpg": {
+      "prefix": "v0.11.212.w"
+    },
+    "lang/base_q7/extendRes/loading_cg/260101_thumb.jpg": {
+      "prefix": "v0.11.212.w"
+    },
+    "lang/base_q7/extendRes/skin_shop/huayubaiLF_shop.jpg": {
+      "prefix": "v0.11.212.w"
+    },
+    "lang/base_q7/extendRes/skin_shop/huayuqingLF_shop.jpg": {
+      "prefix": "v0.11.212.w"
+    },
+    "lang/base_q7/extendRes/skin_shop/sataenLF_shop.jpg": {
+      "prefix": "v0.11.212.w"
+    },
+    "lang/base_q7/myres2/activity_banner/26lifu.png": {
+      "prefix": "v0.11.212.w"
+    },
+    "lang/base_q7/myres2/activity_banner/26lifu_0.png": {
+      "prefix": "v0.11.212.w"
+    },
+    "lang/chs/extendRes/title/kirin2025cn.png": {
+      "prefix": "v0.11.212.w"
+    },
+    "lang/chs/extendRes/title/kirin2025cn_item.jpg": {
+      "prefix": "v0.11.212.w"
+    },
+    "lang/chs/myres2/activity_banner/26lifu_b.jpg": {
+      "prefix": "v0.11.212.w"
+    },
+    "lang/chs_q7/extendRes/title/kirin2025cn.png": {
+      "prefix": "v0.11.212.w"
+    },
+    "lang/chs_q7/extendRes/title/kirin2025cn_item.jpg": {
+      "prefix": "v0.11.212.w"
+    },
+    "lang/chs_q7/myres2/activity_banner/26lifu_b.jpg": {
+      "prefix": "v0.11.212.w"
+    },
+    "lang/chs_t/extendRes/title/kirin2025cn.png": {
+      "prefix": "v0.11.212.w"
+    },
+    "lang/chs_t/extendRes/title/kirin2025cn_item.jpg": {
+      "prefix": "v0.11.212.w"
+    },
+    "lang/chs_t/myres2/activity_banner/26lifu_b.jpg": {
+      "prefix": "v0.11.212.w"
+    },
+    "lang/chs_t_q7/extendRes/title/kirin2025cn.png": {
+      "prefix": "v0.11.212.w"
+    },
+    "lang/chs_t_q7/extendRes/title/kirin2025cn_item.jpg": {
+      "prefix": "v0.11.212.w"
+    },
+    "lang/chs_t_q7/myres2/activity_banner/26lifu_b.jpg": {
+      "prefix": "v0.11.212.w"
+    },
+    "lang/scene/Assets/MyAssets/Spine/huayubai_lf/animator/celebrate.cani": {
+      "prefix": "v0.11.212.w"
+    },
+    "lang/scene/Assets/MyAssets/Spine/huayubai_lf/animator/greeting.cani": {
+      "prefix": "v0.11.212.w"
+    },
+    "lang/scene/Assets/MyAssets/Spine/huayubai_lf/material/huayubai_lifu_001.lmat": {
+      "prefix": "v0.11.212.w"
+    },
+    "lang/scene/Assets/MyAssets/Spine/huayubai_lf/material/huayubai_lifu_002.lmat": {
+      "prefix": "v0.11.212.w"
+    },
+    "lang/scene/Assets/MyAssets/Spine/huayubai_lf/material/huayubai_lifu_003.lmat": {
+      "prefix": "v0.11.212.w"
+    },
+    "lang/scene/Assets/MyAssets/Spine/huayubai_lf/material/huayubai_lifu_004.lmat": {
+      "prefix": "v0.11.212.w"
+    },
+    "lang/scene/Assets/MyAssets/Spine/huayubai_lf/material/huayubai_lifu_005.lmat": {
+      "prefix": "v0.11.212.w"
+    },
+    "lang/scene/Assets/MyAssets/Spine/huayubai_lf/material/huayubai_lifu_006.lmat": {
+      "prefix": "v0.11.212.w"
+    },
+    "lang/scene/Assets/MyAssets/Spine/huayubai_lf/material/huayubai_lifu_007.lmat": {
+      "prefix": "v0.11.212.w"
+    },
+    "lang/scene/Assets/MyAssets/Spine/huayubai_lf/material/huayubai_lifu_008.lmat": {
+      "prefix": "v0.11.212.w"
+    },
+    "lang/scene/Assets/MyAssets/Spine/huayubai_lf/material/huayubai_lifu_009.lmat": {
+      "prefix": "v0.11.212.w"
+    },
+    "lang/scene/Assets/MyAssets/Spine/huayubai_lf/material/huayubai_lifu_010.lmat": {
+      "prefix": "v0.11.212.w"
+    },
+    "lang/scene/Assets/MyAssets/Spine/huayubai_lf/material/huayubai_lifu_011.lmat": {
+      "prefix": "v0.11.212.w"
+    },
+    "lang/scene/Assets/MyAssets/Spine/huayubai_lf/material/huayubai_lifu_012.lmat": {
+      "prefix": "v0.11.212.w"
+    },
+    "lang/scene/Assets/MyAssets/Spine/huayubai_lf/material/huayubai_lifu_013.lmat": {
+      "prefix": "v0.11.212.w"
+    },
+    "lang/scene/Assets/MyAssets/Spine/huayubai_lf/material/huayubai_lifu_014.lmat": {
+      "prefix": "v0.11.212.w"
+    },
+    "lang/scene/Assets/MyAssets/Spine/huayubai_lf/material/huayubai_lifu_015.lmat": {
+      "prefix": "v0.11.212.w"
+    },
+    "lang/scene/Assets/MyAssets/Spine/huayubai_lf/material/huayubai_lifu_016.lmat": {
+      "prefix": "v0.11.212.w"
+    },
+    "lang/scene/Assets/MyAssets/Spine/huayubai_lf/material/huayubai_lifu_017.lmat": {
+      "prefix": "v0.11.212.w"
+    },
+    "lang/scene/Assets/MyAssets/Spine/huayubai_lf/material/huayubai_lifu_018.lmat": {
+      "prefix": "v0.11.212.w"
+    },
+    "lang/scene/Assets/MyAssets/Spine/huayubai_lf/material/huayubai_lifu_019.lmat": {
+      "prefix": "v0.11.212.w"
+    },
+    "lang/scene/Assets/MyAssets/Spine/huayubai_lf/material/huayubai_lifu_020.lmat": {
+      "prefix": "v0.11.212.w"
+    },
+    "lang/scene/Assets/MyAssets/Spine/huayubai_lf/material/huayubai_lifu_021.lmat": {
+      "prefix": "v0.11.212.w"
+    },
+    "lang/scene/Assets/MyAssets/Spine/huayubai_lf/material/huayubai_lifu_022.lmat": {
+      "prefix": "v0.11.212.w"
+    },
+    "lang/scene/Assets/MyAssets/Spine/huayubai_lf/material/huayubai_lifu_023.lmat": {
+      "prefix": "v0.11.212.w"
+    },
+    "lang/scene/Assets/MyAssets/Spine/huayubai_lf/material/huayubai_lifu_024.lmat": {
+      "prefix": "v0.11.212.w"
+    },
+    "lang/scene/Assets/MyAssets/Spine/huayubai_lf/material/huayubai_lifu_025.lmat": {
+      "prefix": "v0.11.212.w"
+    },
+    "lang/scene/Assets/MyAssets/Spine/huayubai_lf/material/huayubai_lifu_026.lmat": {
+      "prefix": "v0.11.212.w"
+    },
+    "lang/scene/Assets/MyAssets/Spine/huayubai_lf/material/huayubai_lifu_027.lmat": {
+      "prefix": "v0.11.212.w"
+    },
+    "lang/scene/Assets/MyAssets/Spine/huayubai_lf/material/huayubai_lifu_028.lmat": {
+      "prefix": "v0.11.212.w"
+    },
+    "lang/scene/Assets/MyAssets/Spine/huayubai_lf/material/huayubai_lifu_029.lmat": {
+      "prefix": "v0.11.212.w"
+    },
+    "lang/scene/Assets/MyAssets/Spine/huayubai_lf/material/huayubai_lifu_030.lmat": {
+      "prefix": "v0.11.212.w"
+    },
+    "lang/scene/Assets/MyAssets/Spine/huayubai_lf/material/huayubai_lifu_031.lmat": {
+      "prefix": "v0.11.212.w"
+    },
+    "lang/scene/Assets/MyAssets/Spine/huayubai_lf/mesh/huayubai_lifu_001-Plane003.lm": {
+      "prefix": "v0.11.212.w"
+    },
+    "lang/scene/Assets/MyAssets/Spine/huayubai_lf/mesh/huayubai_lifu_002-Cylinder001.lm": {
+      "prefix": "v0.11.212.w"
+    },
+    "lang/scene/Assets/MyAssets/Spine/huayubai_lf/mesh/huayubai_lifu_003-Plane002.lm": {
+      "prefix": "v0.11.212.w"
+    },
+    "lang/scene/Assets/MyAssets/Spine/huayubai_lf/texture/huayubai_lifu_001.png": {
+      "prefix": "v0.11.212.w"
+    },
+    "lang/scene/Assets/MyAssets/Spine/huayubai_lf/texture/huayubai_lifu_002.png": {
+      "prefix": "v0.11.212.w"
+    },
+    "lang/scene/Assets/MyAssets/Spine/huayubai_lf/texture/huayubai_lifu_003.png": {
+      "prefix": "v0.11.212.w"
+    },
+    "lang/scene/Assets/MyAssets/Spine/huayubai_lf/texture/huayubai_lifu_004.png": {
+      "prefix": "v0.11.212.w"
+    },
+    "lang/scene/Assets/MyAssets/Spine/huayubai_lf/texture/huayubai_lifu_005.png": {
+      "prefix": "v0.11.212.w"
+    },
+    "lang/scene/Assets/MyAssets/Spine/huayubai_lf/texture/huayubai_lifu_006.png": {
+      "prefix": "v0.11.212.w"
+    },
+    "lang/scene/Assets/MyAssets/Spine/huayubai_lf/texture/huayubai_lifu_007.png": {
+      "prefix": "v0.11.212.w"
+    },
+    "lang/scene/Assets/MyAssets/Spine/huayubai_lf/texture/huayubai_lifu_008.png": {
+      "prefix": "v0.11.212.w"
+    },
+    "lang/scene/Assets/MyAssets/Spine/huayubai_lf/texture/huayubai_lifu_009.png": {
+      "prefix": "v0.11.212.w"
+    },
+    "lang/scene/Assets/MyAssets/Spine/huayubai_lf/texture/huayubai_lifu_010.png": {
+      "prefix": "v0.11.212.w"
+    },
+    "lang/scene/Assets/MyAssets/Spine/huayubai_lf/texture/huayubai_lifu_011.png": {
+      "prefix": "v0.11.212.w"
+    },
+    "lang/scene/Assets/MyAssets/Spine/huayubai_lf/texture/huayubai_lifu_012.png": {
+      "prefix": "v0.11.212.w"
+    },
+    "lang/scene/Assets/MyAssets/Spine/huayubai_lf/texture/huayubai_lifu_013.png": {
+      "prefix": "v0.11.212.w"
+    },
+    "lang/scene/Assets/MyAssets/Spine/huayubai_lf/texture/huayubai_lifu_014.png": {
+      "prefix": "v0.11.212.w"
+    },
+    "lang/scene/Assets/MyAssets/Spine/huayubai_lf/texture/huayubai_lifu_015.png": {
+      "prefix": "v0.11.212.w"
+    },
+    "lang/scene/Assets/MyAssets/Spine/huayubai_lf/texture/huayubai_lifu_016.png": {
+      "prefix": "v0.11.212.w"
+    },
+    "lang/scene/Assets/MyAssets/Spine/huayubai_lf/texture/huayubai_lifu_017.png": {
+      "prefix": "v0.11.212.w"
+    },
+    "lang/scene/Assets/MyAssets/Spine/huayubai_lf/texture/huayubai_lifu_018.png": {
+      "prefix": "v0.11.212.w"
+    },
+    "lang/scene/Assets/MyAssets/Spine/huayubai_lf/texture/huayubai_lifu_019.png": {
+      "prefix": "v0.11.212.w"
+    },
+    "lang/scene/Assets/MyAssets/Spine/huayubai_lf/texture/huayubai_lifu_020.png": {
+      "prefix": "v0.11.212.w"
+    },
+    "lang/scene/Assets/MyAssets/Spine/huayubai_lf/texture/huayubai_lifu_021.png": {
+      "prefix": "v0.11.212.w"
+    },
+    "lang/scene/Assets/MyAssets/Spine/huayubai_lf/texture/huayubai_lifu_022.png": {
+      "prefix": "v0.11.212.w"
+    },
+    "lang/scene/Assets/MyAssets/Spine/huayubai_lf/texture/huayubai_lifu_023.png": {
+      "prefix": "v0.11.212.w"
+    },
+    "lang/scene/Assets/MyAssets/Spine/huayubai_lf/texture/huayubai_lifu_024.png": {
+      "prefix": "v0.11.212.w"
+    },
+    "lang/scene/Assets/Resource/tablecloth/tablecloth_26mkc/Table_Dif.jpg": {
+      "prefix": "v0.11.212.w"
+    },
+    "lang/scene/Assets/Resource/tablecloth/tablecloth_26mkc/Table_Dif.lmat": {
+      "prefix": "v0.11.212.w"
+    },
+    "lang/scene/huayubai_26lf_eff1.lh": {
+      "prefix": "v0.11.212.w"
+    },
+    "lang/scene/huayubai_26lf_eff2.lh": {
+      "prefix": "v0.11.212.w"
+    },
+    "lang/scene/tablecloth_26mkc.lh": {
+      "prefix": "v0.11.212.w"
+    },
+    "lang/scene_q7/Assets/MyAssets/Spine/huayubai_lf/animator/celebrate.cani": {
+      "prefix": "v0.11.212.w"
+    },
+    "lang/scene_q7/Assets/MyAssets/Spine/huayubai_lf/animator/greeting.cani": {
+      "prefix": "v0.11.212.w"
+    },
+    "lang/scene_q7/Assets/MyAssets/Spine/huayubai_lf/material/huayubai_lifu_001.lmat": {
+      "prefix": "v0.11.212.w"
+    },
+    "lang/scene_q7/Assets/MyAssets/Spine/huayubai_lf/material/huayubai_lifu_002.lmat": {
+      "prefix": "v0.11.212.w"
+    },
+    "lang/scene_q7/Assets/MyAssets/Spine/huayubai_lf/material/huayubai_lifu_003.lmat": {
+      "prefix": "v0.11.212.w"
+    },
+    "lang/scene_q7/Assets/MyAssets/Spine/huayubai_lf/material/huayubai_lifu_004.lmat": {
+      "prefix": "v0.11.212.w"
+    },
+    "lang/scene_q7/Assets/MyAssets/Spine/huayubai_lf/material/huayubai_lifu_005.lmat": {
+      "prefix": "v0.11.212.w"
+    },
+    "lang/scene_q7/Assets/MyAssets/Spine/huayubai_lf/material/huayubai_lifu_006.lmat": {
+      "prefix": "v0.11.212.w"
+    },
+    "lang/scene_q7/Assets/MyAssets/Spine/huayubai_lf/material/huayubai_lifu_007.lmat": {
+      "prefix": "v0.11.212.w"
+    },
+    "lang/scene_q7/Assets/MyAssets/Spine/huayubai_lf/material/huayubai_lifu_008.lmat": {
+      "prefix": "v0.11.212.w"
+    },
+    "lang/scene_q7/Assets/MyAssets/Spine/huayubai_lf/material/huayubai_lifu_009.lmat": {
+      "prefix": "v0.11.212.w"
+    },
+    "lang/scene_q7/Assets/MyAssets/Spine/huayubai_lf/material/huayubai_lifu_010.lmat": {
+      "prefix": "v0.11.212.w"
+    },
+    "lang/scene_q7/Assets/MyAssets/Spine/huayubai_lf/material/huayubai_lifu_011.lmat": {
+      "prefix": "v0.11.212.w"
+    },
+    "lang/scene_q7/Assets/MyAssets/Spine/huayubai_lf/material/huayubai_lifu_012.lmat": {
+      "prefix": "v0.11.212.w"
+    },
+    "lang/scene_q7/Assets/MyAssets/Spine/huayubai_lf/material/huayubai_lifu_013.lmat": {
+      "prefix": "v0.11.212.w"
+    },
+    "lang/scene_q7/Assets/MyAssets/Spine/huayubai_lf/material/huayubai_lifu_014.lmat": {
+      "prefix": "v0.11.212.w"
+    },
+    "lang/scene_q7/Assets/MyAssets/Spine/huayubai_lf/material/huayubai_lifu_015.lmat": {
+      "prefix": "v0.11.212.w"
+    },
+    "lang/scene_q7/Assets/MyAssets/Spine/huayubai_lf/material/huayubai_lifu_016.lmat": {
+      "prefix": "v0.11.212.w"
+    },
+    "lang/scene_q7/Assets/MyAssets/Spine/huayubai_lf/material/huayubai_lifu_017.lmat": {
+      "prefix": "v0.11.212.w"
+    },
+    "lang/scene_q7/Assets/MyAssets/Spine/huayubai_lf/material/huayubai_lifu_018.lmat": {
+      "prefix": "v0.11.212.w"
+    },
+    "lang/scene_q7/Assets/MyAssets/Spine/huayubai_lf/material/huayubai_lifu_019.lmat": {
+      "prefix": "v0.11.212.w"
+    },
+    "lang/scene_q7/Assets/MyAssets/Spine/huayubai_lf/material/huayubai_lifu_020.lmat": {
+      "prefix": "v0.11.212.w"
+    },
+    "lang/scene_q7/Assets/MyAssets/Spine/huayubai_lf/material/huayubai_lifu_021.lmat": {
+      "prefix": "v0.11.212.w"
+    },
+    "lang/scene_q7/Assets/MyAssets/Spine/huayubai_lf/material/huayubai_lifu_022.lmat": {
+      "prefix": "v0.11.212.w"
+    },
+    "lang/scene_q7/Assets/MyAssets/Spine/huayubai_lf/material/huayubai_lifu_023.lmat": {
+      "prefix": "v0.11.212.w"
+    },
+    "lang/scene_q7/Assets/MyAssets/Spine/huayubai_lf/material/huayubai_lifu_024.lmat": {
+      "prefix": "v0.11.212.w"
+    },
+    "lang/scene_q7/Assets/MyAssets/Spine/huayubai_lf/material/huayubai_lifu_025.lmat": {
+      "prefix": "v0.11.212.w"
+    },
+    "lang/scene_q7/Assets/MyAssets/Spine/huayubai_lf/material/huayubai_lifu_026.lmat": {
+      "prefix": "v0.11.212.w"
+    },
+    "lang/scene_q7/Assets/MyAssets/Spine/huayubai_lf/material/huayubai_lifu_027.lmat": {
+      "prefix": "v0.11.212.w"
+    },
+    "lang/scene_q7/Assets/MyAssets/Spine/huayubai_lf/material/huayubai_lifu_028.lmat": {
+      "prefix": "v0.11.212.w"
+    },
+    "lang/scene_q7/Assets/MyAssets/Spine/huayubai_lf/material/huayubai_lifu_029.lmat": {
+      "prefix": "v0.11.212.w"
+    },
+    "lang/scene_q7/Assets/MyAssets/Spine/huayubai_lf/material/huayubai_lifu_030.lmat": {
+      "prefix": "v0.11.212.w"
+    },
+    "lang/scene_q7/Assets/MyAssets/Spine/huayubai_lf/material/huayubai_lifu_031.lmat": {
+      "prefix": "v0.11.212.w"
+    },
+    "lang/scene_q7/Assets/MyAssets/Spine/huayubai_lf/mesh/huayubai_lifu_001-Plane003.lm": {
+      "prefix": "v0.11.212.w"
+    },
+    "lang/scene_q7/Assets/MyAssets/Spine/huayubai_lf/mesh/huayubai_lifu_002-Cylinder001.lm": {
+      "prefix": "v0.11.212.w"
+    },
+    "lang/scene_q7/Assets/MyAssets/Spine/huayubai_lf/mesh/huayubai_lifu_003-Plane002.lm": {
+      "prefix": "v0.11.212.w"
+    },
+    "lang/scene_q7/Assets/MyAssets/Spine/huayubai_lf/texture/huayubai_lifu_001.png": {
+      "prefix": "v0.11.212.w"
+    },
+    "lang/scene_q7/Assets/MyAssets/Spine/huayubai_lf/texture/huayubai_lifu_002.png": {
+      "prefix": "v0.11.212.w"
+    },
+    "lang/scene_q7/Assets/MyAssets/Spine/huayubai_lf/texture/huayubai_lifu_003.png": {
+      "prefix": "v0.11.212.w"
+    },
+    "lang/scene_q7/Assets/MyAssets/Spine/huayubai_lf/texture/huayubai_lifu_004.png": {
+      "prefix": "v0.11.212.w"
+    },
+    "lang/scene_q7/Assets/MyAssets/Spine/huayubai_lf/texture/huayubai_lifu_005.png": {
+      "prefix": "v0.11.212.w"
+    },
+    "lang/scene_q7/Assets/MyAssets/Spine/huayubai_lf/texture/huayubai_lifu_006.png": {
+      "prefix": "v0.11.212.w"
+    },
+    "lang/scene_q7/Assets/MyAssets/Spine/huayubai_lf/texture/huayubai_lifu_007.png": {
+      "prefix": "v0.11.212.w"
+    },
+    "lang/scene_q7/Assets/MyAssets/Spine/huayubai_lf/texture/huayubai_lifu_008.png": {
+      "prefix": "v0.11.212.w"
+    },
+    "lang/scene_q7/Assets/MyAssets/Spine/huayubai_lf/texture/huayubai_lifu_009.png": {
+      "prefix": "v0.11.212.w"
+    },
+    "lang/scene_q7/Assets/MyAssets/Spine/huayubai_lf/texture/huayubai_lifu_010.png": {
+      "prefix": "v0.11.212.w"
+    },
+    "lang/scene_q7/Assets/MyAssets/Spine/huayubai_lf/texture/huayubai_lifu_011.png": {
+      "prefix": "v0.11.212.w"
+    },
+    "lang/scene_q7/Assets/MyAssets/Spine/huayubai_lf/texture/huayubai_lifu_012.png": {
+      "prefix": "v0.11.212.w"
+    },
+    "lang/scene_q7/Assets/MyAssets/Spine/huayubai_lf/texture/huayubai_lifu_013.png": {
+      "prefix": "v0.11.212.w"
+    },
+    "lang/scene_q7/Assets/MyAssets/Spine/huayubai_lf/texture/huayubai_lifu_014.png": {
+      "prefix": "v0.11.212.w"
+    },
+    "lang/scene_q7/Assets/MyAssets/Spine/huayubai_lf/texture/huayubai_lifu_015.png": {
+      "prefix": "v0.11.212.w"
+    },
+    "lang/scene_q7/Assets/MyAssets/Spine/huayubai_lf/texture/huayubai_lifu_016.png": {
+      "prefix": "v0.11.212.w"
+    },
+    "lang/scene_q7/Assets/MyAssets/Spine/huayubai_lf/texture/huayubai_lifu_017.png": {
+      "prefix": "v0.11.212.w"
+    },
+    "lang/scene_q7/Assets/MyAssets/Spine/huayubai_lf/texture/huayubai_lifu_018.png": {
+      "prefix": "v0.11.212.w"
+    },
+    "lang/scene_q7/Assets/MyAssets/Spine/huayubai_lf/texture/huayubai_lifu_019.png": {
+      "prefix": "v0.11.212.w"
+    },
+    "lang/scene_q7/Assets/MyAssets/Spine/huayubai_lf/texture/huayubai_lifu_020.png": {
+      "prefix": "v0.11.212.w"
+    },
+    "lang/scene_q7/Assets/MyAssets/Spine/huayubai_lf/texture/huayubai_lifu_021.png": {
+      "prefix": "v0.11.212.w"
+    },
+    "lang/scene_q7/Assets/MyAssets/Spine/huayubai_lf/texture/huayubai_lifu_022.png": {
+      "prefix": "v0.11.212.w"
+    },
+    "lang/scene_q7/Assets/MyAssets/Spine/huayubai_lf/texture/huayubai_lifu_023.png": {
+      "prefix": "v0.11.212.w"
+    },
+    "lang/scene_q7/Assets/MyAssets/Spine/huayubai_lf/texture/huayubai_lifu_024.png": {
+      "prefix": "v0.11.212.w"
+    },
+    "lang/scene_q7/Assets/Resource/tablecloth/tablecloth_26mkc/Table_Dif.jpg": {
+      "prefix": "v0.11.212.w"
+    },
+    "lang/scene_q7/Assets/Resource/tablecloth/tablecloth_26mkc/Table_Dif.lmat": {
+      "prefix": "v0.11.212.w"
+    },
+    "lang/scene_q7/huayubai_26lf_eff1.lh": {
+      "prefix": "v0.11.212.w"
+    },
+    "lang/scene_q7/huayubai_26lf_eff2.lh": {
+      "prefix": "v0.11.212.w"
+    },
+    "lang/scene_q7/tablecloth_26mkc.lh": {
+      "prefix": "v0.11.212.w"
+    },
+    "res/atlas/chs_t/myres/activity_vtuber4.png": {
+      "prefix": "v0.11.212.w"
+    },
+    "res/atlas/chs_t/myres/match_lobby1.png": {
+      "prefix": "v0.11.212.w"
+    },
+    "res/atlas/myres/activity_vtuber4.png": {
+      "prefix": "v0.11.212.w"
+    },
+    "res/atlas/myres/match_lobby1.png": {
+      "prefix": "v0.11.212.w"
+    },
+    "res/atlas_q7/chs_t/myres/activity_vtuber_2.png": {
+      "prefix": "v0.11.212.w"
+    },
+    "res/atlas_q7/myres/activity_vtuber_2.png": {
+      "prefix": "v0.11.212.w"
+    },
+    "video/409803.mp3": {
+      "prefix": "v0.11.212.w"
+    },
+    "video/409803.mp4": {
+      "prefix": "v0.11.212.w"
+    },
+    "video/409903.mp3": {
+      "prefix": "v0.11.212.w"
+    },
+    "video/409903.mp4": {
+      "prefix": "v0.11.212.w"
+    },
+    "chs_t/extendRes/charactor/huayubai_LF/bighead.png": {
+      "prefix": "v0.11.212.w"
+    },
+    "chs_t/extendRes/charactor/huayubai_LF/full.png": {
+      "prefix": "v0.11.212.w"
+    },
+    "chs_t/extendRes/charactor/huayubai_LF/smallhead.png": {
+      "prefix": "v0.11.212.w"
+    },
+    "chs_t/extendRes/charactor/huayubai_LF/spine/huayubai_lf.png": {
+      "prefix": "v0.11.212.w"
+    },
+    "chs_t/extendRes/charactor/huayubai_LF/spine/huayubai_lf_2.png": {
+      "prefix": "v0.11.212.w"
+    },
+    "chs_t/extendRes/charactor/huayubai_LF/spine/huayubai_lf_3.png": {
+      "prefix": "v0.11.212.w"
+    },
+    "chs_t/extendRes/charactor/huayubai_LF/spine/spine.atlas.txt": {
+      "prefix": "v0.11.212.w"
+    },
+    "chs_t/extendRes/charactor/huayubai_LF/spine/spine.skel.txt": {
+      "prefix": "v0.11.212.w"
+    },
+    "chs_t/extendRes/charactor/huayuqing_LF/bighead.png": {
+      "prefix": "v0.11.212.w"
+    },
+    "chs_t/extendRes/charactor/huayuqing_LF/full.png": {
+      "prefix": "v0.11.212.w"
+    },
+    "chs_t/extendRes/charactor/huayuqing_LF/smallhead.png": {
+      "prefix": "v0.11.212.w"
+    },
+    "chs_t/extendRes/charactor/huayuqing_LF/spine/huayuqing_lf.png": {
+      "prefix": "v0.11.212.w"
+    },
+    "chs_t/extendRes/charactor/huayuqing_LF/spine/huayuqing_lf_2.png": {
+      "prefix": "v0.11.212.w"
+    },
+    "chs_t/extendRes/charactor/huayuqing_LF/spine/spine.atlas.txt": {
+      "prefix": "v0.11.212.w"
+    },
+    "chs_t/extendRes/charactor/huayuqing_LF/spine/spine.skel.txt": {
+      "prefix": "v0.11.212.w"
+    },
+    "chs_t/extendRes/charactor/sataen_LF/bighead.png": {
+      "prefix": "v0.11.212.w"
+    },
+    "chs_t/extendRes/charactor/sataen_LF/full.png": {
+      "prefix": "v0.11.212.w"
+    },
+    "chs_t/extendRes/charactor/sataen_LF/smallhead.png": {
+      "prefix": "v0.11.212.w"
+    },
+    "chs_t/extendRes/emo/e200097/931.png": {
+      "prefix": "v0.11.212.w"
+    },
+    "chs_t/extendRes/emo/e200098/931.png": {
+      "prefix": "v0.11.212.w"
+    },
+    "chs_t/extendRes/emo/e200099/931.png": {
+      "prefix": "v0.11.212.w"
+    },
+    "chs_t/extendRes/illust_data/huayubai.json": {
+      "prefix": "v0.11.212.w"
+    },
+    "chs_t/extendRes/illust_data/huayubai_0.json": {
+      "prefix": "v0.11.212.w"
+    },
+    "chs_t/extendRes/illust_data/huayubai_lf.json": {
+      "prefix": "v0.11.212.w"
+    },
+    "chs_t/extendRes/illust_data/huayuqing.json": {
+      "prefix": "v0.11.212.w"
+    },
+    "chs_t/extendRes/illust_data/huayuqing_0.json": {
+      "prefix": "v0.11.212.w"
+    },
+    "chs_t/extendRes/illust_data/huayuqing_lf.json": {
+      "prefix": "v0.11.212.w"
+    },
+    "chs_t/extendRes/illust_data/sataen_lf.json": {
+      "prefix": "v0.11.212.w"
+    },
+    "chs_t/extendRes/loading_cg/260101.jpg": {
+      "prefix": "v0.11.212.w"
+    },
+    "chs_t/extendRes/loading_cg/260101_thumb.jpg": {
+      "prefix": "v0.11.212.w"
+    },
+    "chs_t/extendRes/skin_shop/huayubaiLF_shop.jpg": {
+      "prefix": "v0.11.212.w"
+    },
+    "chs_t/extendRes/skin_shop/huayuqingLF_shop.jpg": {
+      "prefix": "v0.11.212.w"
+    },
+    "chs_t/extendRes/skin_shop/sataenLF_shop.jpg": {
+      "prefix": "v0.11.212.w"
+    },
+    "chs_t/extendRes/title/kirin2025cn.png": {
+      "prefix": "v0.11.212.w"
+    },
+    "chs_t/extendRes/title/kirin2025cn_item.jpg": {
+      "prefix": "v0.11.212.w"
+    },
+    "chs_t/myres2/activity_banner/26lifu.png": {
+      "prefix": "v0.11.212.w"
+    },
+    "chs_t/myres2/activity_banner/26lifu_0.png": {
+      "prefix": "v0.11.212.w"
+    },
+    "chs_t/myres2/activity_banner/26lifu_b.jpg": {
+      "prefix": "v0.11.212.w"
+    },
+    "en/extendRes/charactor/huayubai_LF/bighead.png": {
+      "prefix": "v0.11.212.w"
+    },
+    "en/extendRes/charactor/huayubai_LF/full.png": {
+      "prefix": "v0.11.212.w"
+    },
+    "en/extendRes/charactor/huayubai_LF/smallhead.png": {
+      "prefix": "v0.11.212.w"
+    },
+    "en/extendRes/charactor/huayubai_LF/spine/huayubai_lf.png": {
+      "prefix": "v0.11.212.w"
+    },
+    "en/extendRes/charactor/huayubai_LF/spine/huayubai_lf_2.png": {
+      "prefix": "v0.11.212.w"
+    },
+    "en/extendRes/charactor/huayubai_LF/spine/huayubai_lf_3.png": {
+      "prefix": "v0.11.212.w"
+    },
+    "en/extendRes/charactor/huayubai_LF/spine/spine.atlas.txt": {
+      "prefix": "v0.11.212.w"
+    },
+    "en/extendRes/charactor/huayubai_LF/spine/spine.skel.txt": {
+      "prefix": "v0.11.212.w"
+    },
+    "en/extendRes/charactor/huayuqing_LF/bighead.png": {
+      "prefix": "v0.11.212.w"
+    },
+    "en/extendRes/charactor/huayuqing_LF/full.png": {
+      "prefix": "v0.11.212.w"
+    },
+    "en/extendRes/charactor/huayuqing_LF/smallhead.png": {
+      "prefix": "v0.11.212.w"
+    },
+    "en/extendRes/charactor/huayuqing_LF/spine/huayuqing_lf.png": {
+      "prefix": "v0.11.212.w"
+    },
+    "en/extendRes/charactor/huayuqing_LF/spine/huayuqing_lf_2.png": {
+      "prefix": "v0.11.212.w"
+    },
+    "en/extendRes/charactor/huayuqing_LF/spine/spine.atlas.txt": {
+      "prefix": "v0.11.212.w"
+    },
+    "en/extendRes/charactor/huayuqing_LF/spine/spine.skel.txt": {
+      "prefix": "v0.11.212.w"
+    },
+    "en/extendRes/charactor/sataen_LF/bighead.png": {
+      "prefix": "v0.11.212.w"
+    },
+    "en/extendRes/charactor/sataen_LF/full.png": {
+      "prefix": "v0.11.212.w"
+    },
+    "en/extendRes/charactor/sataen_LF/smallhead.png": {
+      "prefix": "v0.11.212.w"
+    },
+    "en/extendRes/emo/e200097/931.png": {
+      "prefix": "v0.11.212.w"
+    },
+    "en/extendRes/emo/e200098/931.png": {
+      "prefix": "v0.11.212.w"
+    },
+    "en/extendRes/emo/e200099/931.png": {
+      "prefix": "v0.11.212.w"
+    },
+    "en/extendRes/illust_data/huayubai.json": {
+      "prefix": "v0.11.212.w"
+    },
+    "en/extendRes/illust_data/huayubai_0.json": {
+      "prefix": "v0.11.212.w"
+    },
+    "en/extendRes/illust_data/huayubai_lf.json": {
+      "prefix": "v0.11.212.w"
+    },
+    "en/extendRes/illust_data/huayuqing.json": {
+      "prefix": "v0.11.212.w"
+    },
+    "en/extendRes/illust_data/huayuqing_0.json": {
+      "prefix": "v0.11.212.w"
+    },
+    "en/extendRes/illust_data/huayuqing_lf.json": {
+      "prefix": "v0.11.212.w"
+    },
+    "en/extendRes/illust_data/sataen_lf.json": {
+      "prefix": "v0.11.212.w"
+    },
+    "en/extendRes/loading_cg/260101.jpg": {
+      "prefix": "v0.11.212.w"
+    },
+    "en/extendRes/loading_cg/260101_thumb.jpg": {
+      "prefix": "v0.11.212.w"
+    },
+    "en/extendRes/skin_shop/huayubaiLF_shop.jpg": {
+      "prefix": "v0.11.212.w"
+    },
+    "en/extendRes/skin_shop/huayuqingLF_shop.jpg": {
+      "prefix": "v0.11.212.w"
+    },
+    "en/extendRes/skin_shop/sataenLF_shop.jpg": {
+      "prefix": "v0.11.212.w"
+    },
+    "en/extendRes/title/26mkc.png": {
+      "prefix": "v0.11.212.w"
+    },
+    "en/extendRes/title/26mkc_item.jpg": {
+      "prefix": "v0.11.212.w"
+    },
+    "en/myres2/activity_banner/26lifu.png": {
+      "prefix": "v0.11.212.w"
+    },
+    "en/myres2/activity_banner/26lifu_0.png": {
+      "prefix": "v0.11.212.w"
+    },
+    "en/myres2/activity_banner/26lifu_b.jpg": {
+      "prefix": "v0.11.212.w"
+    },
+    "kr/extendRes/charactor/huayubai_LF/bighead.png": {
+      "prefix": "v0.11.212.w"
+    },
+    "kr/extendRes/charactor/huayubai_LF/full.png": {
+      "prefix": "v0.11.212.w"
+    },
+    "kr/extendRes/charactor/huayubai_LF/smallhead.png": {
+      "prefix": "v0.11.212.w"
+    },
+    "kr/extendRes/charactor/huayubai_LF/spine/huayubai_lf.png": {
+      "prefix": "v0.11.212.w"
+    },
+    "kr/extendRes/charactor/huayubai_LF/spine/huayubai_lf_2.png": {
+      "prefix": "v0.11.212.w"
+    },
+    "kr/extendRes/charactor/huayubai_LF/spine/huayubai_lf_3.png": {
+      "prefix": "v0.11.212.w"
+    },
+    "kr/extendRes/charactor/huayubai_LF/spine/spine.atlas.txt": {
+      "prefix": "v0.11.212.w"
+    },
+    "kr/extendRes/charactor/huayubai_LF/spine/spine.skel.txt": {
+      "prefix": "v0.11.212.w"
+    },
+    "kr/extendRes/charactor/huayuqing_LF/bighead.png": {
+      "prefix": "v0.11.212.w"
+    },
+    "kr/extendRes/charactor/huayuqing_LF/full.png": {
+      "prefix": "v0.11.212.w"
+    },
+    "kr/extendRes/charactor/huayuqing_LF/smallhead.png": {
+      "prefix": "v0.11.212.w"
+    },
+    "kr/extendRes/charactor/huayuqing_LF/spine/huayuqing_lf.png": {
+      "prefix": "v0.11.212.w"
+    },
+    "kr/extendRes/charactor/huayuqing_LF/spine/huayuqing_lf_2.png": {
+      "prefix": "v0.11.212.w"
+    },
+    "kr/extendRes/charactor/huayuqing_LF/spine/spine.atlas.txt": {
+      "prefix": "v0.11.212.w"
+    },
+    "kr/extendRes/charactor/huayuqing_LF/spine/spine.skel.txt": {
+      "prefix": "v0.11.212.w"
+    },
+    "kr/extendRes/charactor/sataen_LF/bighead.png": {
+      "prefix": "v0.11.212.w"
+    },
+    "kr/extendRes/charactor/sataen_LF/full.png": {
+      "prefix": "v0.11.212.w"
+    },
+    "kr/extendRes/charactor/sataen_LF/smallhead.png": {
+      "prefix": "v0.11.212.w"
+    },
+    "kr/extendRes/emo/e200097/931.png": {
+      "prefix": "v0.11.212.w"
+    },
+    "kr/extendRes/emo/e200098/931.png": {
+      "prefix": "v0.11.212.w"
+    },
+    "kr/extendRes/emo/e200099/931.png": {
+      "prefix": "v0.11.212.w"
+    },
+    "kr/extendRes/illust_data/huayubai.json": {
+      "prefix": "v0.11.212.w"
+    },
+    "kr/extendRes/illust_data/huayubai_0.json": {
+      "prefix": "v0.11.212.w"
+    },
+    "kr/extendRes/illust_data/huayubai_lf.json": {
+      "prefix": "v0.11.212.w"
+    },
+    "kr/extendRes/illust_data/huayuqing.json": {
+      "prefix": "v0.11.212.w"
+    },
+    "kr/extendRes/illust_data/huayuqing_0.json": {
+      "prefix": "v0.11.212.w"
+    },
+    "kr/extendRes/illust_data/huayuqing_lf.json": {
+      "prefix": "v0.11.212.w"
+    },
+    "kr/extendRes/illust_data/sataen_lf.json": {
+      "prefix": "v0.11.212.w"
+    },
+    "kr/extendRes/items2/tablecloth_26mkc.jpg": {
+      "prefix": "v0.11.212.w"
+    },
+    "kr/extendRes/loading_cg/260101.jpg": {
+      "prefix": "v0.11.212.w"
+    },
+    "kr/extendRes/loading_cg/260101_thumb.jpg": {
+      "prefix": "v0.11.212.w"
+    },
+    "kr/extendRes/skin_shop/huayubaiLF_shop.jpg": {
+      "prefix": "v0.11.212.w"
+    },
+    "kr/extendRes/skin_shop/huayuqingLF_shop.jpg": {
+      "prefix": "v0.11.212.w"
+    },
+    "kr/extendRes/skin_shop/sataenLF_shop.jpg": {
+      "prefix": "v0.11.212.w"
+    },
+    "kr/extendRes/title/26mkc.png": {
+      "prefix": "v0.11.212.w"
+    },
+    "kr/extendRes/title/26mkc_item.jpg": {
+      "prefix": "v0.11.212.w"
+    },
+    "kr/myres2/activity_banner/26lifu.png": {
+      "prefix": "v0.11.212.w"
+    },
+    "kr/myres2/activity_banner/26lifu_0.png": {
+      "prefix": "v0.11.212.w"
+    },
+    "kr/myres2/activity_banner/26lifu_b.jpg": {
+      "prefix": "v0.11.212.w"
+    },
+    "kr/myres2/tablecloth/tablecloth_26mkc/preview.jpg": {
+      "prefix": "v0.11.212.w"
+    },
+    "res/atlas/en/myres/activity_vtuber4.png": {
+      "prefix": "v0.11.212.w"
+    },
+    "res/atlas/kr/myres/activity_vtuber4.png": {
+      "prefix": "v0.11.212.w"
+    },
+    "res/atlas_q7/en/myres/activity_vtuber_2.png": {
+      "prefix": "v0.11.212.w"
+    },
+    "res/atlas_q7/kr/myres/activity_vtuber_2.png": {
+      "prefix": "v0.11.212.w"
+    },
+    "scene/Assets/MyAssets/Spine/huayubai_lf/animator/celebrate.cani": {
+      "prefix": "v0.11.212.w"
+    },
+    "scene/Assets/MyAssets/Spine/huayubai_lf/animator/greeting.cani": {
+      "prefix": "v0.11.212.w"
+    },
+    "scene/Assets/MyAssets/Spine/huayubai_lf/material/huayubai_lifu_001.lmat": {
+      "prefix": "v0.11.212.w"
+    },
+    "scene/Assets/MyAssets/Spine/huayubai_lf/material/huayubai_lifu_002.lmat": {
+      "prefix": "v0.11.212.w"
+    },
+    "scene/Assets/MyAssets/Spine/huayubai_lf/material/huayubai_lifu_003.lmat": {
+      "prefix": "v0.11.212.w"
+    },
+    "scene/Assets/MyAssets/Spine/huayubai_lf/material/huayubai_lifu_004.lmat": {
+      "prefix": "v0.11.212.w"
+    },
+    "scene/Assets/MyAssets/Spine/huayubai_lf/material/huayubai_lifu_005.lmat": {
+      "prefix": "v0.11.212.w"
+    },
+    "scene/Assets/MyAssets/Spine/huayubai_lf/material/huayubai_lifu_006.lmat": {
+      "prefix": "v0.11.212.w"
+    },
+    "scene/Assets/MyAssets/Spine/huayubai_lf/material/huayubai_lifu_007.lmat": {
+      "prefix": "v0.11.212.w"
+    },
+    "scene/Assets/MyAssets/Spine/huayubai_lf/material/huayubai_lifu_008.lmat": {
+      "prefix": "v0.11.212.w"
+    },
+    "scene/Assets/MyAssets/Spine/huayubai_lf/material/huayubai_lifu_009.lmat": {
+      "prefix": "v0.11.212.w"
+    },
+    "scene/Assets/MyAssets/Spine/huayubai_lf/material/huayubai_lifu_010.lmat": {
+      "prefix": "v0.11.212.w"
+    },
+    "scene/Assets/MyAssets/Spine/huayubai_lf/material/huayubai_lifu_011.lmat": {
+      "prefix": "v0.11.212.w"
+    },
+    "scene/Assets/MyAssets/Spine/huayubai_lf/material/huayubai_lifu_012.lmat": {
+      "prefix": "v0.11.212.w"
+    },
+    "scene/Assets/MyAssets/Spine/huayubai_lf/material/huayubai_lifu_013.lmat": {
+      "prefix": "v0.11.212.w"
+    },
+    "scene/Assets/MyAssets/Spine/huayubai_lf/material/huayubai_lifu_014.lmat": {
+      "prefix": "v0.11.212.w"
+    },
+    "scene/Assets/MyAssets/Spine/huayubai_lf/material/huayubai_lifu_015.lmat": {
+      "prefix": "v0.11.212.w"
+    },
+    "scene/Assets/MyAssets/Spine/huayubai_lf/material/huayubai_lifu_016.lmat": {
+      "prefix": "v0.11.212.w"
+    },
+    "scene/Assets/MyAssets/Spine/huayubai_lf/material/huayubai_lifu_017.lmat": {
+      "prefix": "v0.11.212.w"
+    },
+    "scene/Assets/MyAssets/Spine/huayubai_lf/material/huayubai_lifu_018.lmat": {
+      "prefix": "v0.11.212.w"
+    },
+    "scene/Assets/MyAssets/Spine/huayubai_lf/material/huayubai_lifu_019.lmat": {
+      "prefix": "v0.11.212.w"
+    },
+    "scene/Assets/MyAssets/Spine/huayubai_lf/material/huayubai_lifu_020.lmat": {
+      "prefix": "v0.11.212.w"
+    },
+    "scene/Assets/MyAssets/Spine/huayubai_lf/material/huayubai_lifu_021.lmat": {
+      "prefix": "v0.11.212.w"
+    },
+    "scene/Assets/MyAssets/Spine/huayubai_lf/material/huayubai_lifu_022.lmat": {
+      "prefix": "v0.11.212.w"
+    },
+    "scene/Assets/MyAssets/Spine/huayubai_lf/material/huayubai_lifu_023.lmat": {
+      "prefix": "v0.11.212.w"
+    },
+    "scene/Assets/MyAssets/Spine/huayubai_lf/material/huayubai_lifu_024.lmat": {
+      "prefix": "v0.11.212.w"
+    },
+    "scene/Assets/MyAssets/Spine/huayubai_lf/material/huayubai_lifu_025.lmat": {
+      "prefix": "v0.11.212.w"
+    },
+    "scene/Assets/MyAssets/Spine/huayubai_lf/material/huayubai_lifu_026.lmat": {
+      "prefix": "v0.11.212.w"
+    },
+    "scene/Assets/MyAssets/Spine/huayubai_lf/material/huayubai_lifu_027.lmat": {
+      "prefix": "v0.11.212.w"
+    },
+    "scene/Assets/MyAssets/Spine/huayubai_lf/material/huayubai_lifu_028.lmat": {
+      "prefix": "v0.11.212.w"
+    },
+    "scene/Assets/MyAssets/Spine/huayubai_lf/material/huayubai_lifu_029.lmat": {
+      "prefix": "v0.11.212.w"
+    },
+    "scene/Assets/MyAssets/Spine/huayubai_lf/material/huayubai_lifu_030.lmat": {
+      "prefix": "v0.11.212.w"
+    },
+    "scene/Assets/MyAssets/Spine/huayubai_lf/material/huayubai_lifu_031.lmat": {
+      "prefix": "v0.11.212.w"
+    },
+    "scene/Assets/MyAssets/Spine/huayubai_lf/mesh/huayubai_lifu_001-Plane003.lm": {
+      "prefix": "v0.11.212.w"
+    },
+    "scene/Assets/MyAssets/Spine/huayubai_lf/mesh/huayubai_lifu_002-Cylinder001.lm": {
+      "prefix": "v0.11.212.w"
+    },
+    "scene/Assets/MyAssets/Spine/huayubai_lf/mesh/huayubai_lifu_003-Plane002.lm": {
+      "prefix": "v0.11.212.w"
+    },
+    "scene/Assets/MyAssets/Spine/huayubai_lf/texture/huayubai_lifu_001.png": {
+      "prefix": "v0.11.212.w"
+    },
+    "scene/Assets/MyAssets/Spine/huayubai_lf/texture/huayubai_lifu_002.png": {
+      "prefix": "v0.11.212.w"
+    },
+    "scene/Assets/MyAssets/Spine/huayubai_lf/texture/huayubai_lifu_003.png": {
+      "prefix": "v0.11.212.w"
+    },
+    "scene/Assets/MyAssets/Spine/huayubai_lf/texture/huayubai_lifu_004.png": {
+      "prefix": "v0.11.212.w"
+    },
+    "scene/Assets/MyAssets/Spine/huayubai_lf/texture/huayubai_lifu_005.png": {
+      "prefix": "v0.11.212.w"
+    },
+    "scene/Assets/MyAssets/Spine/huayubai_lf/texture/huayubai_lifu_006.png": {
+      "prefix": "v0.11.212.w"
+    },
+    "scene/Assets/MyAssets/Spine/huayubai_lf/texture/huayubai_lifu_007.png": {
+      "prefix": "v0.11.212.w"
+    },
+    "scene/Assets/MyAssets/Spine/huayubai_lf/texture/huayubai_lifu_008.png": {
+      "prefix": "v0.11.212.w"
+    },
+    "scene/Assets/MyAssets/Spine/huayubai_lf/texture/huayubai_lifu_009.png": {
+      "prefix": "v0.11.212.w"
+    },
+    "scene/Assets/MyAssets/Spine/huayubai_lf/texture/huayubai_lifu_010.png": {
+      "prefix": "v0.11.212.w"
+    },
+    "scene/Assets/MyAssets/Spine/huayubai_lf/texture/huayubai_lifu_011.png": {
+      "prefix": "v0.11.212.w"
+    },
+    "scene/Assets/MyAssets/Spine/huayubai_lf/texture/huayubai_lifu_012.png": {
+      "prefix": "v0.11.212.w"
+    },
+    "scene/Assets/MyAssets/Spine/huayubai_lf/texture/huayubai_lifu_013.png": {
+      "prefix": "v0.11.212.w"
+    },
+    "scene/Assets/MyAssets/Spine/huayubai_lf/texture/huayubai_lifu_014.png": {
+      "prefix": "v0.11.212.w"
+    },
+    "scene/Assets/MyAssets/Spine/huayubai_lf/texture/huayubai_lifu_015.png": {
+      "prefix": "v0.11.212.w"
+    },
+    "scene/Assets/MyAssets/Spine/huayubai_lf/texture/huayubai_lifu_016.png": {
+      "prefix": "v0.11.212.w"
+    },
+    "scene/Assets/MyAssets/Spine/huayubai_lf/texture/huayubai_lifu_017.png": {
+      "prefix": "v0.11.212.w"
+    },
+    "scene/Assets/MyAssets/Spine/huayubai_lf/texture/huayubai_lifu_018.png": {
+      "prefix": "v0.11.212.w"
+    },
+    "scene/Assets/MyAssets/Spine/huayubai_lf/texture/huayubai_lifu_019.png": {
+      "prefix": "v0.11.212.w"
+    },
+    "scene/Assets/MyAssets/Spine/huayubai_lf/texture/huayubai_lifu_020.png": {
+      "prefix": "v0.11.212.w"
+    },
+    "scene/Assets/MyAssets/Spine/huayubai_lf/texture/huayubai_lifu_021.png": {
+      "prefix": "v0.11.212.w"
+    },
+    "scene/Assets/MyAssets/Spine/huayubai_lf/texture/huayubai_lifu_022.png": {
+      "prefix": "v0.11.212.w"
+    },
+    "scene/Assets/MyAssets/Spine/huayubai_lf/texture/huayubai_lifu_023.png": {
+      "prefix": "v0.11.212.w"
+    },
+    "scene/Assets/MyAssets/Spine/huayubai_lf/texture/huayubai_lifu_024.png": {
+      "prefix": "v0.11.212.w"
+    },
+    "scene/Assets/Resource/tablecloth/tablecloth_26mkc/Table_Dif.jpg": {
+      "prefix": "v0.11.212.w"
+    },
+    "scene/Assets/Resource/tablecloth/tablecloth_26mkc/Table_Dif.lmat": {
+      "prefix": "v0.11.212.w"
+    },
+    "scene/huayubai_26lf_eff1.lh": {
+      "prefix": "v0.11.212.w"
+    },
+    "scene/huayubai_26lf_eff2.lh": {
+      "prefix": "v0.11.212.w"
+    },
+    "scene/tablecloth_26mkc.lh": {
+      "prefix": "v0.11.212.w"
+    },
+    "jp/extendRes/charactor/huayubai_LF/bighead.png": {
+      "prefix": "v0.11.212.w"
+    },
+    "jp/extendRes/charactor/huayubai_LF/full.png": {
+      "prefix": "v0.11.212.w"
+    },
+    "jp/extendRes/charactor/huayubai_LF/smallhead.png": {
+      "prefix": "v0.11.212.w"
+    },
+    "jp/extendRes/charactor/huayubai_LF/spine/huayubai_lf.png": {
+      "prefix": "v0.11.212.w"
+    },
+    "jp/extendRes/charactor/huayubai_LF/spine/huayubai_lf_2.png": {
+      "prefix": "v0.11.212.w"
+    },
+    "jp/extendRes/charactor/huayubai_LF/spine/huayubai_lf_3.png": {
+      "prefix": "v0.11.212.w"
+    },
+    "jp/extendRes/charactor/huayubai_LF/spine/spine.atlas.txt": {
+      "prefix": "v0.11.212.w"
+    },
+    "jp/extendRes/charactor/huayubai_LF/spine/spine.skel.txt": {
+      "prefix": "v0.11.212.w"
+    },
+    "jp/extendRes/charactor/huayuqing_LF/bighead.png": {
+      "prefix": "v0.11.212.w"
+    },
+    "jp/extendRes/charactor/huayuqing_LF/full.png": {
+      "prefix": "v0.11.212.w"
+    },
+    "jp/extendRes/charactor/huayuqing_LF/smallhead.png": {
+      "prefix": "v0.11.212.w"
+    },
+    "jp/extendRes/charactor/huayuqing_LF/spine/huayuqing_lf.png": {
+      "prefix": "v0.11.212.w"
+    },
+    "jp/extendRes/charactor/huayuqing_LF/spine/huayuqing_lf_2.png": {
+      "prefix": "v0.11.212.w"
+    },
+    "jp/extendRes/charactor/huayuqing_LF/spine/spine.atlas.txt": {
+      "prefix": "v0.11.212.w"
+    },
+    "jp/extendRes/charactor/huayuqing_LF/spine/spine.skel.txt": {
+      "prefix": "v0.11.212.w"
+    },
+    "jp/extendRes/charactor/sataen_LF/bighead.png": {
+      "prefix": "v0.11.212.w"
+    },
+    "jp/extendRes/charactor/sataen_LF/full.png": {
+      "prefix": "v0.11.212.w"
+    },
+    "jp/extendRes/charactor/sataen_LF/smallhead.png": {
+      "prefix": "v0.11.212.w"
+    },
+    "jp/extendRes/emo/e200097/931.png": {
+      "prefix": "v0.11.212.w"
+    },
+    "jp/extendRes/emo/e200098/931.png": {
+      "prefix": "v0.11.212.w"
+    },
+    "jp/extendRes/emo/e200099/931.png": {
+      "prefix": "v0.11.212.w"
+    },
+    "jp/extendRes/illust_data/huayubai.json": {
+      "prefix": "v0.11.212.w"
+    },
+    "jp/extendRes/illust_data/huayubai_0.json": {
+      "prefix": "v0.11.212.w"
+    },
+    "jp/extendRes/illust_data/huayubai_lf.json": {
+      "prefix": "v0.11.212.w"
+    },
+    "jp/extendRes/illust_data/huayuqing.json": {
+      "prefix": "v0.11.212.w"
+    },
+    "jp/extendRes/illust_data/huayuqing_0.json": {
+      "prefix": "v0.11.212.w"
+    },
+    "jp/extendRes/illust_data/huayuqing_lf.json": {
+      "prefix": "v0.11.212.w"
+    },
+    "jp/extendRes/illust_data/sataen_lf.json": {
+      "prefix": "v0.11.212.w"
+    },
+    "jp/extendRes/loading_cg/260101.jpg": {
+      "prefix": "v0.11.212.w"
+    },
+    "jp/extendRes/loading_cg/260101_thumb.jpg": {
+      "prefix": "v0.11.212.w"
+    },
+    "jp/extendRes/skin_shop/huayubaiLF_shop.jpg": {
+      "prefix": "v0.11.212.w"
+    },
+    "jp/extendRes/skin_shop/huayuqingLF_shop.jpg": {
+      "prefix": "v0.11.212.w"
+    },
+    "jp/extendRes/skin_shop/sataenLF_shop.jpg": {
+      "prefix": "v0.11.212.w"
+    },
+    "jp/myres2/activity_banner/26lifu.png": {
+      "prefix": "v0.11.212.w"
+    },
+    "jp/myres2/activity_banner/26lifu_0.png": {
+      "prefix": "v0.11.212.w"
+    },
+    "jp/myres2/activity_banner/26lifu_b.jpg": {
+      "prefix": "v0.11.212.w"
+    },
+    "res/atlas/jp/myres/activity_vtuber4.png": {
+      "prefix": "v0.11.212.w"
+    },
+    "res/atlas_q7/jp/myres/activity_vtuber_2.png": {
+      "prefix": "v0.11.212.w"
     }
   }
 }

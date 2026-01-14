@@ -517,13 +517,13 @@
     },
     {
         "id": 233,
-        "path": "audio/audio_mj/effect_hupai_ice",
+        "path": "",
         "timeLength": 0,
         "type": "effect"
     },
     {
         "id": 234,
-        "path": "audio/audio_mj/effect_hupai_spotlight",
+        "path": "",
         "timeLength": 0,
         "type": "effect"
     },
@@ -1915,7 +1915,7 @@
     },
     {
         "id": 305214,
-        "path": "audio/audio_mj/ron_4gr_nan",
+        "path": "",
         "timeLength": 0,
         "type": "effect"
     },
@@ -2143,7 +2143,7 @@
     },
     {
         "id": 305314,
-        "path": "audio/audio_mj/effect_liqi_4gr_nan",
+        "path": "",
         "timeLength": 0,
         "type": "effect"
     },

@@ -1151,6 +1151,10 @@
                 </li>
               
                 <li>
+                  <a href="#lq.ClientDeviceInfoLog"><span class="badge">M</span>ClientDeviceInfoLog</a>
+                </li>
+              
+                <li>
                   <a href="#lq.ClientVersionInfo"><span class="badge">M</span>ClientVersionInfo</a>
                 </li>
               
@@ -1208,6 +1212,10 @@
               
                 <li>
                   <a href="#lq.CustomizedContestGameEnd.Item"><span class="badge">M</span>CustomizedContestGameEnd.Item</a>
+                </li>
+              
+                <li>
+                  <a href="#lq.CustomizedContestGamePlan"><span class="badge">M</span>CustomizedContestGamePlan</a>
                 </li>
               
                 <li>
@@ -1656,6 +1664,14 @@
               
                 <li>
                   <a href="#lq.NotifyCustomContestSystemMsg"><span class="badge">M</span>NotifyCustomContestSystemMsg</a>
+                </li>
+              
+                <li>
+                  <a href="#lq.NotifyCustomizedContestPlanCancel"><span class="badge">M</span>NotifyCustomizedContestPlanCancel</a>
+                </li>
+              
+                <li>
+                  <a href="#lq.NotifyCustomizedContestPlanReady"><span class="badge">M</span>NotifyCustomizedContestPlanReady</a>
                 </li>
               
                 <li>
@@ -16978,6 +16994,44 @@
 
         
       
+        <h3 id="lq.ClientDeviceInfoLog">ClientDeviceInfoLog</h3>
+        <p></p>
+
+        
+          <table class="field-table">
+            <thead>
+              <tr><td>Field</td><td>Type</td><td>Label</td><td>Description</td></tr>
+            </thead>
+            <tbody>
+              
+                <tr>
+                  <td>device_info</td>
+                  <td><a href="#lq.ClientDeviceInfo">ClientDeviceInfo</a></td>
+                  <td></td>
+                  <td><p> </p></td>
+                </tr>
+              
+                <tr>
+                  <td>login_time</td>
+                  <td><a href="#uint32">uint32</a></td>
+                  <td></td>
+                  <td><p> </p></td>
+                </tr>
+              
+                <tr>
+                  <td>account_id</td>
+                  <td><a href="#uint32">uint32</a></td>
+                  <td></td>
+                  <td><p> </p></td>
+                </tr>
+              
+            </tbody>
+          </table>
+
+          
+
+        
+      
         <h3 id="lq.ClientVersionInfo">ClientVersionInfo</h3>
         <p></p>
 
@@ -18125,6 +18179,65 @@
                 <tr>
                   <td>total_point</td>
                   <td><a href="#int32">int32</a></td>
+                  <td></td>
+                  <td><p> </p></td>
+                </tr>
+              
+            </tbody>
+          </table>
+
+          
+
+        
+      
+        <h3 id="lq.CustomizedContestGamePlan">CustomizedContestGamePlan</h3>
+        <p></p>
+
+        
+          <table class="field-table">
+            <thead>
+              <tr><td>Field</td><td>Type</td><td>Label</td><td>Description</td></tr>
+            </thead>
+            <tbody>
+              
+                <tr>
+                  <td>unique_id</td>
+                  <td><a href="#uint32">uint32</a></td>
+                  <td></td>
+                  <td><p> </p></td>
+                </tr>
+              
+                <tr>
+                  <td>uuid</td>
+                  <td><a href="#string">string</a></td>
+                  <td></td>
+                  <td><p> </p></td>
+                </tr>
+              
+                <tr>
+                  <td>ready_players</td>
+                  <td><a href="#uint32">uint32</a></td>
+                  <td>repeated</td>
+                  <td><p> </p></td>
+                </tr>
+              
+                <tr>
+                  <td>account_ids</td>
+                  <td><a href="#uint32">uint32</a></td>
+                  <td>repeated</td>
+                  <td><p> </p></td>
+                </tr>
+              
+                <tr>
+                  <td>game_start_time</td>
+                  <td><a href="#uint32">uint32</a></td>
+                  <td></td>
+                  <td><p> </p></td>
+                </tr>
+              
+                <tr>
+                  <td>expired_time</td>
+                  <td><a href="#uint32">uint32</a></td>
                   <td></td>
                   <td><p> </p></td>
                 </tr>
@@ -23422,6 +23535,61 @@
                 <tr>
                   <td>game_end</td>
                   <td><a href="#lq.CustomizedContestGameEnd">CustomizedContestGameEnd</a></td>
+                  <td></td>
+                  <td><p> </p></td>
+                </tr>
+              
+            </tbody>
+          </table>
+
+          
+
+        
+      
+        <h3 id="lq.NotifyCustomizedContestPlanCancel">NotifyCustomizedContestPlanCancel</h3>
+        <p></p>
+
+        
+          <table class="field-table">
+            <thead>
+              <tr><td>Field</td><td>Type</td><td>Label</td><td>Description</td></tr>
+            </thead>
+            <tbody>
+              
+                <tr>
+                  <td>unique_id</td>
+                  <td><a href="#uint32">uint32</a></td>
+                  <td></td>
+                  <td><p> </p></td>
+                </tr>
+              
+                <tr>
+                  <td>uuid</td>
+                  <td><a href="#string">string</a></td>
+                  <td></td>
+                  <td><p> </p></td>
+                </tr>
+              
+            </tbody>
+          </table>
+
+          
+
+        
+      
+        <h3 id="lq.NotifyCustomizedContestPlanReady">NotifyCustomizedContestPlanReady</h3>
+        <p></p>
+
+        
+          <table class="field-table">
+            <thead>
+              <tr><td>Field</td><td>Type</td><td>Label</td><td>Description</td></tr>
+            </thead>
+            <tbody>
+              
+                <tr>
+                  <td>game_plan</td>
+                  <td><a href="#lq.CustomizedContestGamePlan">CustomizedContestGamePlan</a></td>
                   <td></td>
                   <td><p> </p></td>
                 </tr>
@@ -29936,22 +30104,8 @@
                 </tr>
               
                 <tr>
-                  <td>session</td>
-                  <td><a href="#string">string</a></td>
-                  <td></td>
-                  <td><p> </p></td>
-                </tr>
-              
-                <tr>
-                  <td>gift</td>
-                  <td><a href="#string">string</a></td>
-                  <td></td>
-                  <td><p> </p></td>
-                </tr>
-              
-                <tr>
-                  <td>vs</td>
-                  <td><a href="#uint32">uint32</a></td>
+                  <td>device</td>
+                  <td><a href="#lq.ClientDeviceInfo">ClientDeviceInfo</a></td>
                   <td></td>
                   <td><p> </p></td>
                 </tr>
@@ -44543,6 +44697,13 @@
                 <tr>
                   <td>is_admin</td>
                   <td><a href="#bool">bool</a></td>
+                  <td></td>
+                  <td><p> </p></td>
+                </tr>
+              
+                <tr>
+                  <td>game_plan</td>
+                  <td><a href="#lq.CustomizedContestGamePlan">CustomizedContestGamePlan</a></td>
                   <td></td>
                   <td><p> </p></td>
                 </tr>
