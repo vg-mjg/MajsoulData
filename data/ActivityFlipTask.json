@@ -3886,5 +3886,329 @@
         "matrixX": 5,
         "matrixY": 5,
         "isReward": 1
+    },
+    {
+        "id": 26019001,
+        "activityId": 260190,
+        "baseTaskId": 22499,
+        "reward": "302007-1",
+        "matrixX": 0,
+        "matrixY": 0,
+        "isReward": 0
+    },
+    {
+        "id": 26019002,
+        "activityId": 260190,
+        "baseTaskId": 22503,
+        "reward": "100002-2888",
+        "matrixX": 1,
+        "matrixY": 0,
+        "isReward": 0
+    },
+    {
+        "id": 26019003,
+        "activityId": 260190,
+        "baseTaskId": 22500,
+        "reward": "100002-3888",
+        "matrixX": 2,
+        "matrixY": 0,
+        "isReward": 0
+    },
+    {
+        "id": 26019004,
+        "activityId": 260190,
+        "baseTaskId": 22497,
+        "reward": "100002-2888",
+        "matrixX": 3,
+        "matrixY": 0,
+        "isReward": 0
+    },
+    {
+        "id": 26019005,
+        "activityId": 260190,
+        "baseTaskId": 22501,
+        "reward": "302008-1",
+        "matrixX": 4,
+        "matrixY": 0,
+        "isReward": 0
+    },
+    {
+        "id": 26019006,
+        "activityId": 260190,
+        "baseTaskId": 0,
+        "reward": "100002-2888",
+        "matrixX": 5,
+        "matrixY": 0,
+        "isReward": 1
+    },
+    {
+        "id": 26019007,
+        "activityId": 260190,
+        "baseTaskId": 22497,
+        "reward": "100002-2888",
+        "matrixX": 0,
+        "matrixY": 1,
+        "isReward": 0
+    },
+    {
+        "id": 26019008,
+        "activityId": 260190,
+        "baseTaskId": 22499,
+        "reward": "100002-3888",
+        "matrixX": 1,
+        "matrixY": 1,
+        "isReward": 0
+    },
+    {
+        "id": 26019009,
+        "activityId": 260190,
+        "baseTaskId": 22502,
+        "reward": "100002-3888",
+        "matrixX": 2,
+        "matrixY": 1,
+        "isReward": 0
+    },
+    {
+        "id": 26019010,
+        "activityId": 260190,
+        "baseTaskId": 22500,
+        "reward": "100002-3888",
+        "matrixX": 3,
+        "matrixY": 1,
+        "isReward": 0
+    },
+    {
+        "id": 26019011,
+        "activityId": 260190,
+        "baseTaskId": 22502,
+        "reward": "100002-2888",
+        "matrixX": 4,
+        "matrixY": 1,
+        "isReward": 0
+    },
+    {
+        "id": 26019012,
+        "activityId": 260190,
+        "baseTaskId": 0,
+        "reward": "100002-1888",
+        "matrixX": 5,
+        "matrixY": 1,
+        "isReward": 1
+    },
+    {
+        "id": 26019013,
+        "activityId": 260190,
+        "baseTaskId": 22495,
+        "reward": "100002-3888",
+        "matrixX": 0,
+        "matrixY": 2,
+        "isReward": 0
+    },
+    {
+        "id": 26019014,
+        "activityId": 260190,
+        "baseTaskId": 22502,
+        "reward": "100002-3888",
+        "matrixX": 1,
+        "matrixY": 2,
+        "isReward": 0
+    },
+    {
+        "id": 26019015,
+        "activityId": 260190,
+        "baseTaskId": 22496,
+        "reward": "304008-1",
+        "matrixX": 2,
+        "matrixY": 2,
+        "isReward": 0
+    },
+    {
+        "id": 26019016,
+        "activityId": 260190,
+        "baseTaskId": 22497,
+        "reward": "100002-3888",
+        "matrixX": 3,
+        "matrixY": 2,
+        "isReward": 0
+    },
+    {
+        "id": 26019017,
+        "activityId": 260190,
+        "baseTaskId": 22498,
+        "reward": "100002-3888",
+        "matrixX": 4,
+        "matrixY": 2,
+        "isReward": 0
+    },
+    {
+        "id": 26019018,
+        "activityId": 260190,
+        "baseTaskId": 0,
+        "reward": "304008-1",
+        "matrixX": 5,
+        "matrixY": 2,
+        "isReward": 1
+    },
+    {
+        "id": 26019019,
+        "activityId": 260190,
+        "baseTaskId": 22498,
+        "reward": "100002-2888",
+        "matrixX": 0,
+        "matrixY": 3,
+        "isReward": 0
+    },
+    {
+        "id": 26019020,
+        "activityId": 260190,
+        "baseTaskId": 22499,
+        "reward": "100002-3888",
+        "matrixX": 1,
+        "matrixY": 3,
+        "isReward": 0
+    },
+    {
+        "id": 26019021,
+        "activityId": 260190,
+        "baseTaskId": 22501,
+        "reward": "100002-3888",
+        "matrixX": 2,
+        "matrixY": 3,
+        "isReward": 0
+    },
+    {
+        "id": 26019022,
+        "activityId": 260190,
+        "baseTaskId": 22503,
+        "reward": "100002-3888",
+        "matrixX": 3,
+        "matrixY": 3,
+        "isReward": 0
+    },
+    {
+        "id": 26019023,
+        "activityId": 260190,
+        "baseTaskId": 22495,
+        "reward": "100002-2888",
+        "matrixX": 4,
+        "matrixY": 3,
+        "isReward": 0
+    },
+    {
+        "id": 26019024,
+        "activityId": 260190,
+        "baseTaskId": 0,
+        "reward": "100002-1888",
+        "matrixX": 5,
+        "matrixY": 3,
+        "isReward": 1
+    },
+    {
+        "id": 26019025,
+        "activityId": 260190,
+        "baseTaskId": 22497,
+        "reward": "302010-1",
+        "matrixX": 0,
+        "matrixY": 4,
+        "isReward": 0
+    },
+    {
+        "id": 26019026,
+        "activityId": 260190,
+        "baseTaskId": 22501,
+        "reward": "100002-2888",
+        "matrixX": 1,
+        "matrixY": 4,
+        "isReward": 0
+    },
+    {
+        "id": 26019027,
+        "activityId": 260190,
+        "baseTaskId": 22498,
+        "reward": "100002-3888",
+        "matrixX": 2,
+        "matrixY": 4,
+        "isReward": 0
+    },
+    {
+        "id": 26019028,
+        "activityId": 260190,
+        "baseTaskId": 22500,
+        "reward": "100002-2888",
+        "matrixX": 3,
+        "matrixY": 4,
+        "isReward": 0
+    },
+    {
+        "id": 26019029,
+        "activityId": 260190,
+        "baseTaskId": 22495,
+        "reward": "302009-1",
+        "matrixX": 4,
+        "matrixY": 4,
+        "isReward": 0
+    },
+    {
+        "id": 26019030,
+        "activityId": 260190,
+        "baseTaskId": 0,
+        "reward": "100002-2888",
+        "matrixX": 5,
+        "matrixY": 4,
+        "isReward": 1
+    },
+    {
+        "id": 26019031,
+        "activityId": 260190,
+        "baseTaskId": 0,
+        "reward": "100002-2888",
+        "matrixX": 0,
+        "matrixY": 5,
+        "isReward": 1
+    },
+    {
+        "id": 26019032,
+        "activityId": 260190,
+        "baseTaskId": 0,
+        "reward": "100002-1888",
+        "matrixX": 1,
+        "matrixY": 5,
+        "isReward": 1
+    },
+    {
+        "id": 26019033,
+        "activityId": 260190,
+        "baseTaskId": 0,
+        "reward": "304008-1",
+        "matrixX": 2,
+        "matrixY": 5,
+        "isReward": 1
+    },
+    {
+        "id": 26019034,
+        "activityId": 260190,
+        "baseTaskId": 0,
+        "reward": "100002-1888",
+        "matrixX": 3,
+        "matrixY": 5,
+        "isReward": 1
+    },
+    {
+        "id": 26019035,
+        "activityId": 260190,
+        "baseTaskId": 0,
+        "reward": "100002-2888",
+        "matrixX": 4,
+        "matrixY": 5,
+        "isReward": 1
+    },
+    {
+        "id": 26019036,
+        "activityId": 260190,
+        "baseTaskId": 0,
+        "reward": "304009-1",
+        "matrixX": 5,
+        "matrixY": 5,
+        "isReward": 1
     }
 ]

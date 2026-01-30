@@ -11108,5 +11108,15 @@
         "nameKr": "",
         "type": "chest_replace_up",
         "needPopout": 0
+    },
+    {
+        "id": 260190,
+        "nameChs": "灵乌衔光",
+        "nameChsT": "靈烏銜光",
+        "nameJp": "霊鳥の光",
+        "nameEn": "Wings of the Sun",
+        "nameKr": "빛을 물고 온 새",
+        "type": "flip_task",
+        "needPopout": 1
     }
 ]
