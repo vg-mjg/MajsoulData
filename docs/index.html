@@ -2403,6 +2403,10 @@
                 </li>
               
                 <li>
+                  <a href="#lq.ReqCompleteActivityFlipTaskBatch"><span class="badge">M</span>ReqCompleteActivityFlipTaskBatch</a>
+                </li>
+              
+                <li>
                   <a href="#lq.ReqCompleteActivityTask"><span class="badge">M</span>ReqCompleteActivityTask</a>
                 </li>
               
@@ -3107,6 +3111,10 @@
                 </li>
               
                 <li>
+                  <a href="#lq.ReqReceiveActivityFlipTaskBatch"><span class="badge">M</span>ReqReceiveActivityFlipTaskBatch</a>
+                </li>
+              
+                <li>
                   <a href="#lq.ReqReceiveActivityGift"><span class="badge">M</span>ReqReceiveActivityGift</a>
                 </li>
               
@@ -3740,6 +3748,10 @@
               
                 <li>
                   <a href="#lq.ResCommonViews"><span class="badge">M</span>ResCommonViews</a>
+                </li>
+              
+                <li>
+                  <a href="#lq.ResCompleteActivityFlipTaskBatch"><span class="badge">M</span>ResCompleteActivityFlipTaskBatch</a>
                 </li>
               
                 <li>
@@ -4548,6 +4560,10 @@
               
                 <li>
                   <a href="#lq.ResReceiveActivityFlipTask"><span class="badge">M</span>ResReceiveActivityFlipTask</a>
+                </li>
+              
+                <li>
+                  <a href="#lq.ResReceiveActivityFlipTaskBatch"><span class="badge">M</span>ResReceiveActivityFlipTaskBatch</a>
                 </li>
               
                 <li>
@@ -31095,6 +31111,30 @@
 
         
       
+        <h3 id="lq.ReqCompleteActivityFlipTaskBatch">ReqCompleteActivityFlipTaskBatch</h3>
+        <p></p>
+
+        
+          <table class="field-table">
+            <thead>
+              <tr><td>Field</td><td>Type</td><td>Label</td><td>Description</td></tr>
+            </thead>
+            <tbody>
+              
+                <tr>
+                  <td>task_list</td>
+                  <td><a href="#uint32">uint32</a></td>
+                  <td>repeated</td>
+                  <td><p> </p></td>
+                </tr>
+              
+            </tbody>
+          </table>
+
+          
+
+        
+      
         <h3 id="lq.ReqCompleteActivityTask">ReqCompleteActivityTask</h3>
         <p></p>
 
@@ -37465,6 +37505,30 @@
 
         
       
+        <h3 id="lq.ReqReceiveActivityFlipTaskBatch">ReqReceiveActivityFlipTaskBatch</h3>
+        <p></p>
+
+        
+          <table class="field-table">
+            <thead>
+              <tr><td>Field</td><td>Type</td><td>Label</td><td>Description</td></tr>
+            </thead>
+            <tbody>
+              
+                <tr>
+                  <td>task_list</td>
+                  <td><a href="#uint32">uint32</a></td>
+                  <td>repeated</td>
+                  <td><p> </p></td>
+                </tr>
+              
+            </tbody>
+          </table>
+
+          
+
+        
+      
         <h3 id="lq.ReqReceiveActivityGift">ReqReceiveActivityGift</h3>
         <p></p>
 
@@ -42983,6 +43047,37 @@
                   <td>name</td>
                   <td><a href="#string">string</a></td>
                   <td></td>
+                  <td><p> </p></td>
+                </tr>
+              
+            </tbody>
+          </table>
+
+          
+
+        
+      
+        <h3 id="lq.ResCompleteActivityFlipTaskBatch">ResCompleteActivityFlipTaskBatch</h3>
+        <p></p>
+
+        
+          <table class="field-table">
+            <thead>
+              <tr><td>Field</td><td>Type</td><td>Label</td><td>Description</td></tr>
+            </thead>
+            <tbody>
+              
+                <tr>
+                  <td>error</td>
+                  <td><a href="#lq.Error">Error</a></td>
+                  <td></td>
+                  <td><p> </p></td>
+                </tr>
+              
+                <tr>
+                  <td>total_rewards</td>
+                  <td><a href="#lq.ExecuteReward">ExecuteReward</a></td>
+                  <td>repeated</td>
                   <td><p> </p></td>
                 </tr>
               
@@ -50851,6 +50946,37 @@
 
         
       
+        <h3 id="lq.ResReceiveActivityFlipTaskBatch">ResReceiveActivityFlipTaskBatch</h3>
+        <p></p>
+
+        
+          <table class="field-table">
+            <thead>
+              <tr><td>Field</td><td>Type</td><td>Label</td><td>Description</td></tr>
+            </thead>
+            <tbody>
+              
+                <tr>
+                  <td>error</td>
+                  <td><a href="#lq.Error">Error</a></td>
+                  <td></td>
+                  <td><p> </p></td>
+                </tr>
+              
+                <tr>
+                  <td>count</td>
+                  <td><a href="#uint32">uint32</a></td>
+                  <td></td>
+                  <td><p> </p></td>
+                </tr>
+              
+            </tbody>
+          </table>
+
+          
+
+        
+      
         <h3 id="lq.ResReceiveActivitySpotReward">ResReceiveActivitySpotReward</h3>
         <p></p>
 
@@ -58703,6 +58829,13 @@
               </tr>
             
               <tr>
+                <td>completeActivityFlipTaskBatch</td>
+                <td><a href="#lq.ReqCompleteActivityFlipTaskBatch">ReqCompleteActivityFlipTaskBatch</a></td>
+                <td><a href="#lq.ResCompleteActivityFlipTaskBatch">ResCompleteActivityFlipTaskBatch</a></td>
+                <td><p></p></td>
+              </tr>
+            
+              <tr>
                 <td>completePeriodActivityTask</td>
                 <td><a href="#lq.ReqCompleteActivityTask">ReqCompleteActivityTask</a></td>
                 <td><a href="#lq.ResCommon">ResCommon</a></td>
@@ -58734,6 +58867,13 @@
                 <td>receiveActivityFlipTask</td>
                 <td><a href="#lq.ReqReceiveActivityFlipTask">ReqReceiveActivityFlipTask</a></td>
                 <td><a href="#lq.ResReceiveActivityFlipTask">ResReceiveActivityFlipTask</a></td>
+                <td><p></p></td>
+              </tr>
+            
+              <tr>
+                <td>receiveActivityFlipTaskBatch</td>
+                <td><a href="#lq.ReqReceiveActivityFlipTaskBatch">ReqReceiveActivityFlipTaskBatch</a></td>
+                <td><a href="#lq.ResReceiveActivityFlipTaskBatch">ResReceiveActivityFlipTaskBatch</a></td>
                 <td><p></p></td>
               </tr>
             

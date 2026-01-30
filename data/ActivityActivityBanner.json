@@ -449,5 +449,16 @@
         "bannerLeftSelected": "",
         "bannerLeftIcon": "",
         "timeRemind": 0
+    },
+    {
+        "id": 260190,
+        "sort": 132,
+        "bannerType": 2,
+        "enterIcon": "",
+        "bannerBig": "myres2/activity_banner/26fanpai_b.jpg",
+        "bannerLeft": "myres2/activity_banner/26fanpai.png",
+        "bannerLeftSelected": "",
+        "bannerLeftIcon": "",
+        "timeRemind": 0
     }
 ]
