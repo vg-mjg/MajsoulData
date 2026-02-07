@@ -1,0 +1,17 @@
+[
+    {
+        "groupId": 101,
+        "level": 1011,
+        "enemyGroupId": 1011
+    },
+    {
+        "groupId": 101,
+        "level": 1012,
+        "enemyGroupId": 1012
+    },
+    {
+        "groupId": 101,
+        "level": 1013,
+        "enemyGroupId": 1013
+    }
+]

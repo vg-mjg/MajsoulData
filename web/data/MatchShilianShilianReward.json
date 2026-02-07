@@ -1,0 +1,52 @@
+[
+    {
+        "id": 1,
+        "rewardId": 100001,
+        "rewardCount": 2
+    },
+    {
+        "id": 1,
+        "rewardId": 100002,
+        "rewardCount": 50
+    },
+    {
+        "id": 2,
+        "rewardId": 100001,
+        "rewardCount": 2
+    },
+    {
+        "id": 2,
+        "rewardId": 100002,
+        "rewardCount": 50
+    },
+    {
+        "id": 3,
+        "rewardId": 100001,
+        "rewardCount": 2
+    },
+    {
+        "id": 3,
+        "rewardId": 100002,
+        "rewardCount": 50
+    },
+    {
+        "id": 4,
+        "rewardId": 100001,
+        "rewardCount": 2
+    },
+    {
+        "id": 4,
+        "rewardId": 100002,
+        "rewardCount": 50
+    },
+    {
+        "id": 5,
+        "rewardId": 100001,
+        "rewardCount": 2
+    },
+    {
+        "id": 5,
+        "rewardId": 100002,
+        "rewardCount": 50
+    }
+]

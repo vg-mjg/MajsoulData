@@ -1,0 +1,177 @@
+[
+    {
+        "activityId": 1064,
+        "name": "天然呆",
+        "id": 1,
+        "exp": 0,
+        "buff": 0
+    },
+    {
+        "activityId": 1064,
+        "name": "实习萌新",
+        "id": 2,
+        "exp": 10,
+        "buff": 5
+    },
+    {
+        "activityId": 1064,
+        "name": "打工能手",
+        "id": 3,
+        "exp": 30,
+        "buff": 10
+    },
+    {
+        "activityId": 1064,
+        "name": "优秀员工",
+        "id": 4,
+        "exp": 60,
+        "buff": 30
+    },
+    {
+        "activityId": 1064,
+        "name": "招财猫",
+        "id": 5,
+        "exp": 90,
+        "buff": 50
+    },
+    {
+        "activityId": 1073,
+        "name": "天然呆",
+        "id": 1,
+        "exp": 0,
+        "buff": 0
+    },
+    {
+        "activityId": 1073,
+        "name": "实习萌新",
+        "id": 2,
+        "exp": 10,
+        "buff": 5
+    },
+    {
+        "activityId": 1073,
+        "name": "打工能手",
+        "id": 3,
+        "exp": 30,
+        "buff": 10
+    },
+    {
+        "activityId": 1073,
+        "name": "优秀员工",
+        "id": 4,
+        "exp": 60,
+        "buff": 30
+    },
+    {
+        "activityId": 1073,
+        "name": "招财猫",
+        "id": 5,
+        "exp": 90,
+        "buff": 50
+    },
+    {
+        "activityId": 1094,
+        "name": "好感度Lv1",
+        "id": 1,
+        "exp": 0,
+        "buff": 0
+    },
+    {
+        "activityId": 1094,
+        "name": "好感度Lv2",
+        "id": 2,
+        "exp": 15,
+        "buff": 5
+    },
+    {
+        "activityId": 1094,
+        "name": "好感度Lv3",
+        "id": 3,
+        "exp": 40,
+        "buff": 10
+    },
+    {
+        "activityId": 1094,
+        "name": "好感度Lv4",
+        "id": 4,
+        "exp": 75,
+        "buff": 30
+    },
+    {
+        "activityId": 1094,
+        "name": "好感度LvMax",
+        "id": 5,
+        "exp": 120,
+        "buff": 50
+    },
+    {
+        "activityId": 1246,
+        "name": "西园寺Lv1",
+        "id": 1,
+        "exp": 0,
+        "buff": 0
+    },
+    {
+        "activityId": 1246,
+        "name": "西园寺Lv2",
+        "id": 2,
+        "exp": 15,
+        "buff": 5
+    },
+    {
+        "activityId": 1246,
+        "name": "西园寺Lv3",
+        "id": 3,
+        "exp": 40,
+        "buff": 10
+    },
+    {
+        "activityId": 1246,
+        "name": "西园寺Lv4",
+        "id": 4,
+        "exp": 75,
+        "buff": 30
+    },
+    {
+        "activityId": 1246,
+        "name": "西园寺LvMax",
+        "id": 5,
+        "exp": 120,
+        "buff": 50
+    },
+    {
+        "activityId": 241201,
+        "name": "新人",
+        "id": 1,
+        "exp": 0,
+        "buff": 0
+    },
+    {
+        "activityId": 241201,
+        "name": "游园向导",
+        "id": 2,
+        "exp": 15,
+        "buff": 5
+    },
+    {
+        "activityId": 241201,
+        "name": "游园高手",
+        "id": 3,
+        "exp": 40,
+        "buff": 10
+    },
+    {
+        "activityId": 241201,
+        "name": "摊主鬼见愁",
+        "id": 4,
+        "exp": 75,
+        "buff": 30
+    },
+    {
+        "activityId": 241201,
+        "name": "小游戏之王",
+        "id": 5,
+        "exp": 120,
+        "buff": 50
+    }
+]

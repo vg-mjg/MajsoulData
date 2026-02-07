@@ -1,0 +1,50 @@
+[
+    {
+        "activityId": 230143,
+        "desktopId": 33,
+        "interval": 1,
+        "intervalType": 2
+    },
+    {
+        "activityId": 230143,
+        "desktopId": 51,
+        "interval": 2,
+        "intervalType": 2
+    },
+    {
+        "activityId": 230143,
+        "desktopId": 46,
+        "interval": 3,
+        "intervalType": 2
+    },
+    {
+        "activityId": 230143,
+        "desktopId": 35,
+        "interval": 4,
+        "intervalType": 2
+    },
+    {
+        "activityId": 230143,
+        "desktopId": 47,
+        "interval": 5,
+        "intervalType": 2
+    },
+    {
+        "activityId": 230143,
+        "desktopId": 48,
+        "interval": 6,
+        "intervalType": 2
+    },
+    {
+        "activityId": 230143,
+        "desktopId": 49,
+        "interval": 7,
+        "intervalType": 2
+    },
+    {
+        "activityId": 230143,
+        "desktopId": 50,
+        "interval": 8,
+        "intervalType": 2
+    }
+]

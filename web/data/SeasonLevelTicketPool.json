@@ -1,0 +1,68 @@
+[
+    {
+        "poolId": 100101,
+        "levelLower": 1,
+        "levelUpper": 9,
+        "ticketLevel": 1
+    },
+    {
+        "poolId": 100101,
+        "levelLower": 10,
+        "levelUpper": 27,
+        "ticketLevel": 2
+    },
+    {
+        "poolId": 100101,
+        "levelLower": 28,
+        "levelUpper": 42,
+        "ticketLevel": 3
+    },
+    {
+        "poolId": 100101,
+        "levelLower": 43,
+        "levelUpper": 54,
+        "ticketLevel": 4
+    },
+    {
+        "poolId": 100101,
+        "levelLower": 55,
+        "levelUpper": 64,
+        "ticketLevel": 5
+    },
+    {
+        "poolId": 100101,
+        "levelLower": 65,
+        "levelUpper": 74,
+        "ticketLevel": 6
+    },
+    {
+        "poolId": 100101,
+        "levelLower": 75,
+        "levelUpper": 82,
+        "ticketLevel": 7
+    },
+    {
+        "poolId": 100101,
+        "levelLower": 83,
+        "levelUpper": 90,
+        "ticketLevel": 8
+    },
+    {
+        "poolId": 100101,
+        "levelLower": 91,
+        "levelUpper": 95,
+        "ticketLevel": 9
+    },
+    {
+        "poolId": 100101,
+        "levelLower": 96,
+        "levelUpper": 100,
+        "ticketLevel": 10
+    },
+    {
+        "poolId": 100101,
+        "levelLower": 101,
+        "levelUpper": 9999,
+        "ticketLevel": 10
+    }
+]

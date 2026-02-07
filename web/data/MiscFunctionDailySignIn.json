@@ -1,0 +1,37 @@
+[
+    {
+        "id": 1,
+        "rewardId": 100002,
+        "rewardCount": 101
+    },
+    {
+        "id": 2,
+        "rewardId": 100002,
+        "rewardCount": 102
+    },
+    {
+        "id": 3,
+        "rewardId": 100002,
+        "rewardCount": 103
+    },
+    {
+        "id": 4,
+        "rewardId": 100002,
+        "rewardCount": 104
+    },
+    {
+        "id": 5,
+        "rewardId": 100002,
+        "rewardCount": 105
+    },
+    {
+        "id": 6,
+        "rewardId": 100002,
+        "rewardCount": 106
+    },
+    {
+        "id": 7,
+        "rewardId": 100002,
+        "rewardCount": 107
+    }
+]

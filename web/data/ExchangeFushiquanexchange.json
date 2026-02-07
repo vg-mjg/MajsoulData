@@ -1,0 +1,20 @@
+[
+    {
+        "id": 4001,
+        "sourceCurrency": 100004,
+        "sourceValue": 10,
+        "targetCurrency": 100001,
+        "targetValue": 10,
+        "icon": "extendRes/items/jade0.jpg",
+        "nameChs": "10辉玉",
+        "nameChsT": "10輝玉",
+        "nameJp": "輝石へ変換",
+        "nameEn": "10Jade",
+        "nameKr": "10 휘석",
+        "descChs": "充满灵力的玉石，可以用来购买各种道具。",
+        "descChsT": "充滿靈力的玉石，可用來購買各種道具。",
+        "descJp": "さまざまな道具を買うのに使います。",
+        "descEn": "Can be used to buy props.",
+        "descKr": "영력이 가득찬 옥석. 각종 아이템을 구매하는 데 쓰인다."
+    }
+]

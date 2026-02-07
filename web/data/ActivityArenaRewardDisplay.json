@@ -1,0 +1,67 @@
+[
+    {
+        "groupId": 124501,
+        "winCountMin": 0,
+        "winCountMax": 2,
+        "reward_1": 304007,
+        "reward_1Remark": "1-2",
+        "reward_2": 100002,
+        "reward_2Remark": "",
+        "reward_3": 0,
+        "reward_3Remark": "",
+        "reward_4": 0,
+        "reward_4Remark": ""
+    },
+    {
+        "groupId": 124501,
+        "winCountMin": 3,
+        "winCountMax": 5,
+        "reward_1": 304007,
+        "reward_1Remark": "3-4",
+        "reward_2": 100002,
+        "reward_2Remark": "",
+        "reward_3": 0,
+        "reward_3Remark": "",
+        "reward_4": 0,
+        "reward_4Remark": ""
+    },
+    {
+        "groupId": 124501,
+        "winCountMin": 6,
+        "winCountMax": 9,
+        "reward_1": 304008,
+        "reward_1Remark": "1-2",
+        "reward_2": 304007,
+        "reward_2Remark": "0-3",
+        "reward_3": 100002,
+        "reward_3Remark": "",
+        "reward_4": 0,
+        "reward_4Remark": ""
+    },
+    {
+        "groupId": 124501,
+        "winCountMin": 10,
+        "winCountMax": 11,
+        "reward_1": 304006,
+        "reward_1Remark": "1",
+        "reward_2": 304008,
+        "reward_2Remark": "0-2",
+        "reward_3": 100002,
+        "reward_3Remark": "",
+        "reward_4": 0,
+        "reward_4Remark": ""
+    },
+    {
+        "groupId": 124501,
+        "winCountMin": 12,
+        "winCountMax": 12,
+        "reward_1": 304102,
+        "reward_1Remark": "1",
+        "reward_2": 304006,
+        "reward_2Remark": "1",
+        "reward_3": 304008,
+        "reward_3Remark": "2",
+        "reward_4": 100002,
+        "reward_4Remark": ""
+    }
+]

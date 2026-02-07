@@ -1,0 +1,2522 @@
+[
+    {
+        "groupId": 100101,
+        "endingId": 61,
+        "endingType": 1,
+        "weight": 8,
+        "itemPlus": "30900024-10",
+        "itemMinus": "",
+        "funds": 20,
+        "endingText": 2345
+    },
+    {
+        "groupId": 100101,
+        "endingId": 79,
+        "endingType": 2,
+        "weight": 2,
+        "itemPlus": "30900023-10",
+        "itemMinus": "30900024-10",
+        "funds": 0,
+        "endingText": 2344
+    },
+    {
+        "groupId": 100102,
+        "endingId": 97,
+        "endingType": 1,
+        "weight": 7,
+        "itemPlus": "30900023-20",
+        "itemMinus": "",
+        "funds": 20,
+        "endingText": 2348
+    },
+    {
+        "groupId": 100102,
+        "endingId": 115,
+        "endingType": 2,
+        "weight": 3,
+        "itemPlus": "30900022-20",
+        "itemMinus": "30900023-10",
+        "funds": 0,
+        "endingText": 2347
+    },
+    {
+        "groupId": 100201,
+        "endingId": 62,
+        "endingType": 1,
+        "weight": 7,
+        "itemPlus": "30900022-10",
+        "itemMinus": "",
+        "funds": 20,
+        "endingText": 2354
+    },
+    {
+        "groupId": 100201,
+        "endingId": 80,
+        "endingType": 2,
+        "weight": 3,
+        "itemPlus": "30900023-10",
+        "itemMinus": "30900024-10",
+        "funds": 0,
+        "endingText": 2353
+    },
+    {
+        "groupId": 100202,
+        "endingId": 98,
+        "endingType": 1,
+        "weight": 8,
+        "itemPlus": "30900023-10",
+        "itemMinus": "",
+        "funds": 20,
+        "endingText": 2357
+    },
+    {
+        "groupId": 100202,
+        "endingId": 116,
+        "endingType": 2,
+        "weight": 2,
+        "itemPlus": "30900023-20",
+        "itemMinus": "30900024-10",
+        "funds": 0,
+        "endingText": 2356
+    },
+    {
+        "groupId": 100301,
+        "endingId": 63,
+        "endingType": 1,
+        "weight": 5,
+        "itemPlus": "30900023-20",
+        "itemMinus": "",
+        "funds": 10,
+        "endingText": 2363
+    },
+    {
+        "groupId": 100301,
+        "endingId": 81,
+        "endingType": 2,
+        "weight": 5,
+        "itemPlus": "30900024-20",
+        "itemMinus": "30900022-20",
+        "funds": 0,
+        "endingText": 2362
+    },
+    {
+        "groupId": 100302,
+        "endingId": 99,
+        "endingType": 1,
+        "weight": 8,
+        "itemPlus": "30900024-20",
+        "itemMinus": "",
+        "funds": 0,
+        "endingText": 2366
+    },
+    {
+        "groupId": 100302,
+        "endingId": 117,
+        "endingType": 2,
+        "weight": 2,
+        "itemPlus": "30900024-20",
+        "itemMinus": "30900023-10",
+        "funds": 0,
+        "endingText": 2365
+    },
+    {
+        "groupId": 100401,
+        "endingId": 64,
+        "endingType": 1,
+        "weight": 6,
+        "itemPlus": "30900022-10,30900024-20",
+        "itemMinus": "",
+        "funds": 0,
+        "endingText": 2372
+    },
+    {
+        "groupId": 100401,
+        "endingId": 82,
+        "endingType": 2,
+        "weight": 4,
+        "itemPlus": "30900024-20",
+        "itemMinus": "30900023-10",
+        "funds": 0,
+        "endingText": 2371
+    },
+    {
+        "groupId": 100402,
+        "endingId": 100,
+        "endingType": 1,
+        "weight": 8,
+        "itemPlus": "30900022-10,30900024-20",
+        "itemMinus": "",
+        "funds": 0,
+        "endingText": 2375
+    },
+    {
+        "groupId": 100402,
+        "endingId": 118,
+        "endingType": 2,
+        "weight": 2,
+        "itemPlus": "30900022-10",
+        "itemMinus": "30900024-10",
+        "funds": 0,
+        "endingText": 2374
+    },
+    {
+        "groupId": 100501,
+        "endingId": 65,
+        "endingType": 1,
+        "weight": 7,
+        "itemPlus": "30900024-20",
+        "itemMinus": "",
+        "funds": 0,
+        "endingText": 2381
+    },
+    {
+        "groupId": 100501,
+        "endingId": 83,
+        "endingType": 2,
+        "weight": 3,
+        "itemPlus": "30900022-20",
+        "itemMinus": "30900024-10",
+        "funds": 0,
+        "endingText": 2380
+    },
+    {
+        "groupId": 100502,
+        "endingId": 101,
+        "endingType": 1,
+        "weight": 8,
+        "itemPlus": "30900023-10,30900024-20",
+        "itemMinus": "",
+        "funds": 0,
+        "endingText": 2384
+    },
+    {
+        "groupId": 100502,
+        "endingId": 119,
+        "endingType": 2,
+        "weight": 2,
+        "itemPlus": "30900023-20",
+        "itemMinus": "30900024-10",
+        "funds": 0,
+        "endingText": 2383
+    },
+    {
+        "groupId": 100601,
+        "endingId": 66,
+        "endingType": 1,
+        "weight": 7,
+        "itemPlus": "30900023-20",
+        "itemMinus": "",
+        "funds": 10,
+        "endingText": 2390
+    },
+    {
+        "groupId": 100601,
+        "endingId": 84,
+        "endingType": 2,
+        "weight": 3,
+        "itemPlus": "30900022-10",
+        "itemMinus": "30900023-10",
+        "funds": 0,
+        "endingText": 2389
+    },
+    {
+        "groupId": 100602,
+        "endingId": 102,
+        "endingType": 1,
+        "weight": 8,
+        "itemPlus": "30900023-20",
+        "itemMinus": "",
+        "funds": 0,
+        "endingText": 2393
+    },
+    {
+        "groupId": 100602,
+        "endingId": 120,
+        "endingType": 2,
+        "weight": 2,
+        "itemPlus": "",
+        "itemMinus": "30900024-10",
+        "funds": 20,
+        "endingText": 2392
+    },
+    {
+        "groupId": 100701,
+        "endingId": 67,
+        "endingType": 1,
+        "weight": 7,
+        "itemPlus": "30900022-20",
+        "itemMinus": "",
+        "funds": 0,
+        "endingText": 2399
+    },
+    {
+        "groupId": 100701,
+        "endingId": 85,
+        "endingType": 2,
+        "weight": 3,
+        "itemPlus": "30900023-20",
+        "itemMinus": "30900024-10",
+        "funds": 0,
+        "endingText": 2398
+    },
+    {
+        "groupId": 100702,
+        "endingId": 103,
+        "endingType": 1,
+        "weight": 8,
+        "itemPlus": "30900024-20",
+        "itemMinus": "",
+        "funds": 0,
+        "endingText": 2402
+    },
+    {
+        "groupId": 100702,
+        "endingId": 121,
+        "endingType": 2,
+        "weight": 2,
+        "itemPlus": "30900024-20",
+        "itemMinus": "30900023-10",
+        "funds": 0,
+        "endingText": 2401
+    },
+    {
+        "groupId": 100801,
+        "endingId": 68,
+        "endingType": 1,
+        "weight": 7,
+        "itemPlus": "30900023-20",
+        "itemMinus": "",
+        "funds": 0,
+        "endingText": 2408
+    },
+    {
+        "groupId": 100801,
+        "endingId": 86,
+        "endingType": 2,
+        "weight": 3,
+        "itemPlus": "30900022-20",
+        "itemMinus": "30900024-10",
+        "funds": 0,
+        "endingText": 2407
+    },
+    {
+        "groupId": 100802,
+        "endingId": 104,
+        "endingType": 1,
+        "weight": 8,
+        "itemPlus": "30900022-20",
+        "itemMinus": "",
+        "funds": 0,
+        "endingText": 2411
+    },
+    {
+        "groupId": 100802,
+        "endingId": 122,
+        "endingType": 2,
+        "weight": 2,
+        "itemPlus": "",
+        "itemMinus": "30900022-10",
+        "funds": 20,
+        "endingText": 2410
+    },
+    {
+        "groupId": 100901,
+        "endingId": 69,
+        "endingType": 1,
+        "weight": 5,
+        "itemPlus": "30900023-10,30900024-10",
+        "itemMinus": "",
+        "funds": 0,
+        "endingText": 2417
+    },
+    {
+        "groupId": 100901,
+        "endingId": 87,
+        "endingType": 2,
+        "weight": 5,
+        "itemPlus": "30900023-10",
+        "itemMinus": "",
+        "funds": 10,
+        "endingText": 2416
+    },
+    {
+        "groupId": 100902,
+        "endingId": 105,
+        "endingType": 1,
+        "weight": 7,
+        "itemPlus": "30900023-20,30900024-10",
+        "itemMinus": "",
+        "funds": 0,
+        "endingText": 2420
+    },
+    {
+        "groupId": 100902,
+        "endingId": 123,
+        "endingType": 2,
+        "weight": 3,
+        "itemPlus": "30900023-20",
+        "itemMinus": "30900024-10",
+        "funds": 0,
+        "endingText": 2419
+    },
+    {
+        "groupId": 101001,
+        "endingId": 70,
+        "endingType": 1,
+        "weight": 8,
+        "itemPlus": "30900022-20",
+        "itemMinus": "",
+        "funds": 0,
+        "endingText": 2426
+    },
+    {
+        "groupId": 101001,
+        "endingId": 88,
+        "endingType": 2,
+        "weight": 2,
+        "itemPlus": "30900022-20",
+        "itemMinus": "30900024-10",
+        "funds": 0,
+        "endingText": 2425
+    },
+    {
+        "groupId": 101002,
+        "endingId": 106,
+        "endingType": 1,
+        "weight": 6,
+        "itemPlus": "30900022-10",
+        "itemMinus": "",
+        "funds": 20,
+        "endingText": 2429
+    },
+    {
+        "groupId": 101002,
+        "endingId": 124,
+        "endingType": 2,
+        "weight": 4,
+        "itemPlus": "30900024-20",
+        "itemMinus": "30900023-10",
+        "funds": 0,
+        "endingText": 2428
+    },
+    {
+        "groupId": 101101,
+        "endingId": 71,
+        "endingType": 1,
+        "weight": 7,
+        "itemPlus": "30900022-20",
+        "itemMinus": "",
+        "funds": 0,
+        "endingText": 2435
+    },
+    {
+        "groupId": 101101,
+        "endingId": 89,
+        "endingType": 2,
+        "weight": 3,
+        "itemPlus": "30900022-20",
+        "itemMinus": "30900023-10",
+        "funds": 0,
+        "endingText": 2434
+    },
+    {
+        "groupId": 101102,
+        "endingId": 107,
+        "endingType": 1,
+        "weight": 9,
+        "itemPlus": "30900023-20",
+        "itemMinus": "",
+        "funds": 10,
+        "endingText": 2438
+    },
+    {
+        "groupId": 101102,
+        "endingId": 125,
+        "endingType": 2,
+        "weight": 1,
+        "itemPlus": "30900024-20",
+        "itemMinus": "30900023-10",
+        "funds": 0,
+        "endingText": 2437
+    },
+    {
+        "groupId": 101201,
+        "endingId": 72,
+        "endingType": 1,
+        "weight": 7,
+        "itemPlus": "30900024-10",
+        "itemMinus": "",
+        "funds": 20,
+        "endingText": 2444
+    },
+    {
+        "groupId": 101201,
+        "endingId": 90,
+        "endingType": 2,
+        "weight": 3,
+        "itemPlus": "30900022-20",
+        "itemMinus": "30900024-10",
+        "funds": 0,
+        "endingText": 2443
+    },
+    {
+        "groupId": 101202,
+        "endingId": 108,
+        "endingType": 1,
+        "weight": 6,
+        "itemPlus": "30900022-10,30900024-20",
+        "itemMinus": "",
+        "funds": 0,
+        "endingText": 2447
+    },
+    {
+        "groupId": 101202,
+        "endingId": 126,
+        "endingType": 2,
+        "weight": 4,
+        "itemPlus": "30900023-10",
+        "itemMinus": "30900022-10",
+        "funds": 0,
+        "endingText": 2446
+    },
+    {
+        "groupId": 101301,
+        "endingId": 73,
+        "endingType": 1,
+        "weight": 8,
+        "itemPlus": "30900022-20,30900023-10",
+        "itemMinus": "",
+        "funds": 0,
+        "endingText": 2453
+    },
+    {
+        "groupId": 101301,
+        "endingId": 91,
+        "endingType": 2,
+        "weight": 2,
+        "itemPlus": "30900023-20",
+        "itemMinus": "30900022-10",
+        "funds": 0,
+        "endingText": 2452
+    },
+    {
+        "groupId": 101302,
+        "endingId": 109,
+        "endingType": 1,
+        "weight": 7,
+        "itemPlus": "30900022-20",
+        "itemMinus": "",
+        "funds": 0,
+        "endingText": 2456
+    },
+    {
+        "groupId": 101302,
+        "endingId": 127,
+        "endingType": 2,
+        "weight": 3,
+        "itemPlus": "30900022-10",
+        "itemMinus": "30900023-10",
+        "funds": 0,
+        "endingText": 2455
+    },
+    {
+        "groupId": 101401,
+        "endingId": 74,
+        "endingType": 1,
+        "weight": 8,
+        "itemPlus": "30900022-10,30900023-10",
+        "itemMinus": "",
+        "funds": 0,
+        "endingText": 2462
+    },
+    {
+        "groupId": 101401,
+        "endingId": 92,
+        "endingType": 2,
+        "weight": 2,
+        "itemPlus": "30900024-20",
+        "itemMinus": "30900023-10",
+        "funds": 0,
+        "endingText": 2461
+    },
+    {
+        "groupId": 101402,
+        "endingId": 110,
+        "endingType": 1,
+        "weight": 7,
+        "itemPlus": "30900024-20",
+        "itemMinus": "",
+        "funds": 10,
+        "endingText": 2465
+    },
+    {
+        "groupId": 101402,
+        "endingId": 128,
+        "endingType": 2,
+        "weight": 3,
+        "itemPlus": "30900022-10",
+        "itemMinus": "30900024-10",
+        "funds": 0,
+        "endingText": 2464
+    },
+    {
+        "groupId": 101501,
+        "endingId": 75,
+        "endingType": 1,
+        "weight": 6,
+        "itemPlus": "30900022-20",
+        "itemMinus": "",
+        "funds": 0,
+        "endingText": 2471
+    },
+    {
+        "groupId": 101501,
+        "endingId": 93,
+        "endingType": 2,
+        "weight": 4,
+        "itemPlus": "30900023-20",
+        "itemMinus": "30900022-10",
+        "funds": 0,
+        "endingText": 2470
+    },
+    {
+        "groupId": 101502,
+        "endingId": 111,
+        "endingType": 1,
+        "weight": 7,
+        "itemPlus": "30900024-20",
+        "itemMinus": "",
+        "funds": 0,
+        "endingText": 2474
+    },
+    {
+        "groupId": 101502,
+        "endingId": 129,
+        "endingType": 2,
+        "weight": 3,
+        "itemPlus": "30900023-20",
+        "itemMinus": "30900022-10",
+        "funds": 0,
+        "endingText": 2473
+    },
+    {
+        "groupId": 101601,
+        "endingId": 76,
+        "endingType": 1,
+        "weight": 6,
+        "itemPlus": "30900022-20",
+        "itemMinus": "",
+        "funds": 0,
+        "endingText": 2480
+    },
+    {
+        "groupId": 101601,
+        "endingId": 94,
+        "endingType": 2,
+        "weight": 4,
+        "itemPlus": "30900022-20",
+        "itemMinus": "30900023-10",
+        "funds": 0,
+        "endingText": 2479
+    },
+    {
+        "groupId": 101602,
+        "endingId": 112,
+        "endingType": 1,
+        "weight": 8,
+        "itemPlus": "30900023-20",
+        "itemMinus": "",
+        "funds": 0,
+        "endingText": 2483
+    },
+    {
+        "groupId": 101602,
+        "endingId": 130,
+        "endingType": 2,
+        "weight": 2,
+        "itemPlus": "30900023-20",
+        "itemMinus": "30900024-10",
+        "funds": 0,
+        "endingText": 2482
+    },
+    {
+        "groupId": 101701,
+        "endingId": 77,
+        "endingType": 1,
+        "weight": 8,
+        "itemPlus": "30900023-10,30900024-20",
+        "itemMinus": "",
+        "funds": 0,
+        "endingText": 2489
+    },
+    {
+        "groupId": 101701,
+        "endingId": 95,
+        "endingType": 2,
+        "weight": 2,
+        "itemPlus": "30900023-10",
+        "itemMinus": "30900022-10",
+        "funds": 0,
+        "endingText": 2488
+    },
+    {
+        "groupId": 101702,
+        "endingId": 113,
+        "endingType": 1,
+        "weight": 6,
+        "itemPlus": "30900024-20",
+        "itemMinus": "",
+        "funds": 10,
+        "endingText": 2492
+    },
+    {
+        "groupId": 101702,
+        "endingId": 131,
+        "endingType": 2,
+        "weight": 4,
+        "itemPlus": "30900023-20",
+        "itemMinus": "30900022-20",
+        "funds": 0,
+        "endingText": 2491
+    },
+    {
+        "groupId": 101801,
+        "endingId": 78,
+        "endingType": 1,
+        "weight": 2,
+        "itemPlus": "30900022-20",
+        "itemMinus": "",
+        "funds": 0,
+        "endingText": 2498
+    },
+    {
+        "groupId": 101801,
+        "endingId": 96,
+        "endingType": 2,
+        "weight": 8,
+        "itemPlus": "30900022-10",
+        "itemMinus": "30900024-10",
+        "funds": 0,
+        "endingText": 2497
+    },
+    {
+        "groupId": 101802,
+        "endingId": 114,
+        "endingType": 1,
+        "weight": 4,
+        "itemPlus": "30900023-20",
+        "itemMinus": "",
+        "funds": 0,
+        "endingText": 2501
+    },
+    {
+        "groupId": 101802,
+        "endingId": 132,
+        "endingType": 2,
+        "weight": 6,
+        "itemPlus": "30900023-20",
+        "itemMinus": "30900024-10",
+        "funds": 0,
+        "endingText": 2500
+    },
+    {
+        "groupId": 1000101,
+        "endingId": 1,
+        "endingType": 0,
+        "weight": 1,
+        "itemPlus": "30900022-10",
+        "itemMinus": "",
+        "funds": -10,
+        "endingText": 0
+    },
+    {
+        "groupId": 1000102,
+        "endingId": 31,
+        "endingType": 0,
+        "weight": 1,
+        "itemPlus": "30900022-20",
+        "itemMinus": "",
+        "funds": -20,
+        "endingText": 0
+    },
+    {
+        "groupId": 1000201,
+        "endingId": 2,
+        "endingType": 0,
+        "weight": 1,
+        "itemPlus": "30900023-10",
+        "itemMinus": "",
+        "funds": -10,
+        "endingText": 0
+    },
+    {
+        "groupId": 1000202,
+        "endingId": 32,
+        "endingType": 0,
+        "weight": 1,
+        "itemPlus": "30900023-20",
+        "itemMinus": "",
+        "funds": -20,
+        "endingText": 0
+    },
+    {
+        "groupId": 1000301,
+        "endingId": 3,
+        "endingType": 0,
+        "weight": 1,
+        "itemPlus": "30900024-10",
+        "itemMinus": "",
+        "funds": -10,
+        "endingText": 0
+    },
+    {
+        "groupId": 1000302,
+        "endingId": 33,
+        "endingType": 0,
+        "weight": 1,
+        "itemPlus": "30900024-20",
+        "itemMinus": "",
+        "funds": -20,
+        "endingText": 0
+    },
+    {
+        "groupId": 1000401,
+        "endingId": 4,
+        "endingType": 0,
+        "weight": 1,
+        "itemPlus": "30900022-10,30900023-10",
+        "itemMinus": "",
+        "funds": 0,
+        "endingText": 0
+    },
+    {
+        "groupId": 1000402,
+        "endingId": 34,
+        "endingType": 0,
+        "weight": 1,
+        "itemPlus": "30900022-20",
+        "itemMinus": "",
+        "funds": 0,
+        "endingText": 0
+    },
+    {
+        "groupId": 1000501,
+        "endingId": 5,
+        "endingType": 0,
+        "weight": 1,
+        "itemPlus": "30900023-10,30900024-10",
+        "itemMinus": "",
+        "funds": 0,
+        "endingText": 0
+    },
+    {
+        "groupId": 1000502,
+        "endingId": 35,
+        "endingType": 0,
+        "weight": 1,
+        "itemPlus": "30900023-20",
+        "itemMinus": "",
+        "funds": 0,
+        "endingText": 0
+    },
+    {
+        "groupId": 1000601,
+        "endingId": 6,
+        "endingType": 0,
+        "weight": 1,
+        "itemPlus": "30900024-20",
+        "itemMinus": "",
+        "funds": -20,
+        "endingText": 0
+    },
+    {
+        "groupId": 1000602,
+        "endingId": 36,
+        "endingType": 0,
+        "weight": 1,
+        "itemPlus": "30900022-10,30900023-10",
+        "itemMinus": "",
+        "funds": 0,
+        "endingText": 0
+    },
+    {
+        "groupId": 1000701,
+        "endingId": 7,
+        "endingType": 0,
+        "weight": 1,
+        "itemPlus": "30900022-20",
+        "itemMinus": "",
+        "funds": -20,
+        "endingText": 0
+    },
+    {
+        "groupId": 1000702,
+        "endingId": 37,
+        "endingType": 0,
+        "weight": 1,
+        "itemPlus": "",
+        "itemMinus": "",
+        "funds": 20,
+        "endingText": 0
+    },
+    {
+        "groupId": 1000801,
+        "endingId": 8,
+        "endingType": 0,
+        "weight": 1,
+        "itemPlus": "30900023-20",
+        "itemMinus": "",
+        "funds": -20,
+        "endingText": 0
+    },
+    {
+        "groupId": 1000802,
+        "endingId": 38,
+        "endingType": 0,
+        "weight": 1,
+        "itemPlus": "",
+        "itemMinus": "",
+        "funds": 20,
+        "endingText": 0
+    },
+    {
+        "groupId": 1000901,
+        "endingId": 9,
+        "endingType": 0,
+        "weight": 1,
+        "itemPlus": "30900024-20",
+        "itemMinus": "",
+        "funds": -20,
+        "endingText": 0
+    },
+    {
+        "groupId": 1000902,
+        "endingId": 39,
+        "endingType": 0,
+        "weight": 1,
+        "itemPlus": "",
+        "itemMinus": "",
+        "funds": 20,
+        "endingText": 0
+    },
+    {
+        "groupId": 1001001,
+        "endingId": 10,
+        "endingType": 0,
+        "weight": 1,
+        "itemPlus": "30900022-20",
+        "itemMinus": "",
+        "funds": -20,
+        "endingText": 0
+    },
+    {
+        "groupId": 1001002,
+        "endingId": 40,
+        "endingType": 0,
+        "weight": 1,
+        "itemPlus": "",
+        "itemMinus": "",
+        "funds": 20,
+        "endingText": 0
+    },
+    {
+        "groupId": 1001101,
+        "endingId": 11,
+        "endingType": 0,
+        "weight": 1,
+        "itemPlus": "30900023-20",
+        "itemMinus": "",
+        "funds": -20,
+        "endingText": 0
+    },
+    {
+        "groupId": 1001102,
+        "endingId": 41,
+        "endingType": 0,
+        "weight": 1,
+        "itemPlus": "",
+        "itemMinus": "",
+        "funds": 20,
+        "endingText": 0
+    },
+    {
+        "groupId": 1001201,
+        "endingId": 12,
+        "endingType": 0,
+        "weight": 1,
+        "itemPlus": "30900024-20",
+        "itemMinus": "",
+        "funds": -20,
+        "endingText": 0
+    },
+    {
+        "groupId": 1001202,
+        "endingId": 42,
+        "endingType": 0,
+        "weight": 1,
+        "itemPlus": "",
+        "itemMinus": "",
+        "funds": 20,
+        "endingText": 0
+    },
+    {
+        "groupId": 1001301,
+        "endingId": 13,
+        "endingType": 0,
+        "weight": 1,
+        "itemPlus": "30900022-10",
+        "itemMinus": "30900023-10",
+        "funds": 0,
+        "endingText": 0
+    },
+    {
+        "groupId": 1001302,
+        "endingId": 43,
+        "endingType": 0,
+        "weight": 1,
+        "itemPlus": "30900023-10",
+        "itemMinus": "30900022-10",
+        "funds": 0,
+        "endingText": 0
+    },
+    {
+        "groupId": 1001401,
+        "endingId": 14,
+        "endingType": 0,
+        "weight": 1,
+        "itemPlus": "30900023-10",
+        "itemMinus": "30900024-10",
+        "funds": 0,
+        "endingText": 0
+    },
+    {
+        "groupId": 1001402,
+        "endingId": 44,
+        "endingType": 0,
+        "weight": 1,
+        "itemPlus": "30900024-10",
+        "itemMinus": "30900023-10",
+        "funds": 0,
+        "endingText": 0
+    },
+    {
+        "groupId": 1001501,
+        "endingId": 15,
+        "endingType": 0,
+        "weight": 1,
+        "itemPlus": "30900022-10,30900024-10",
+        "itemMinus": "",
+        "funds": 0,
+        "endingText": 0
+    },
+    {
+        "groupId": 1001502,
+        "endingId": 45,
+        "endingType": 0,
+        "weight": 1,
+        "itemPlus": "",
+        "itemMinus": "",
+        "funds": 20,
+        "endingText": 0
+    },
+    {
+        "groupId": 1001601,
+        "endingId": 16,
+        "endingType": 0,
+        "weight": 1,
+        "itemPlus": "30900023-20",
+        "itemMinus": "30900022-20",
+        "funds": 0,
+        "endingText": 0
+    },
+    {
+        "groupId": 1001602,
+        "endingId": 46,
+        "endingType": 0,
+        "weight": 1,
+        "itemPlus": "30900022-20",
+        "itemMinus": "30900023-20",
+        "funds": 0,
+        "endingText": 0
+    },
+    {
+        "groupId": 1001701,
+        "endingId": 17,
+        "endingType": 0,
+        "weight": 1,
+        "itemPlus": "30900023-20",
+        "itemMinus": "30900024-20",
+        "funds": 0,
+        "endingText": 0
+    },
+    {
+        "groupId": 1001702,
+        "endingId": 47,
+        "endingType": 0,
+        "weight": 1,
+        "itemPlus": "30900024-20",
+        "itemMinus": "30900023-20",
+        "funds": 0,
+        "endingText": 0
+    },
+    {
+        "groupId": 1001801,
+        "endingId": 18,
+        "endingType": 0,
+        "weight": 1,
+        "itemPlus": "30900022-10",
+        "itemMinus": "",
+        "funds": 0,
+        "endingText": 0
+    },
+    {
+        "groupId": 1001802,
+        "endingId": 48,
+        "endingType": 0,
+        "weight": 1,
+        "itemPlus": "30900023-10",
+        "itemMinus": "",
+        "funds": 0,
+        "endingText": 0
+    },
+    {
+        "groupId": 1001901,
+        "endingId": 19,
+        "endingType": 0,
+        "weight": 1,
+        "itemPlus": "30900023-10",
+        "itemMinus": "",
+        "funds": 10,
+        "endingText": 0
+    },
+    {
+        "groupId": 1001902,
+        "endingId": 49,
+        "endingType": 0,
+        "weight": 1,
+        "itemPlus": "30900024-20",
+        "itemMinus": "",
+        "funds": 0,
+        "endingText": 0
+    },
+    {
+        "groupId": 1002001,
+        "endingId": 20,
+        "endingType": 0,
+        "weight": 1,
+        "itemPlus": "30900024-10",
+        "itemMinus": "",
+        "funds": 10,
+        "endingText": 0
+    },
+    {
+        "groupId": 1002002,
+        "endingId": 50,
+        "endingType": 0,
+        "weight": 1,
+        "itemPlus": "30900022-20",
+        "itemMinus": "30900024-10",
+        "funds": 0,
+        "endingText": 0
+    },
+    {
+        "groupId": 1002101,
+        "endingId": 21,
+        "endingType": 0,
+        "weight": 1,
+        "itemPlus": "30900022-20",
+        "itemMinus": "",
+        "funds": 0,
+        "endingText": 0
+    },
+    {
+        "groupId": 1002102,
+        "endingId": 51,
+        "endingType": 0,
+        "weight": 1,
+        "itemPlus": "30900023-10",
+        "itemMinus": "",
+        "funds": 10,
+        "endingText": 0
+    },
+    {
+        "groupId": 1002201,
+        "endingId": 22,
+        "endingType": 0,
+        "weight": 1,
+        "itemPlus": "30900023-20",
+        "itemMinus": "",
+        "funds": 0,
+        "endingText": 0
+    },
+    {
+        "groupId": 1002202,
+        "endingId": 52,
+        "endingType": 0,
+        "weight": 1,
+        "itemPlus": "30900024-20",
+        "itemMinus": "",
+        "funds": 0,
+        "endingText": 0
+    },
+    {
+        "groupId": 1002301,
+        "endingId": 23,
+        "endingType": 0,
+        "weight": 1,
+        "itemPlus": "30900024-20",
+        "itemMinus": "",
+        "funds": 0,
+        "endingText": 0
+    },
+    {
+        "groupId": 1002302,
+        "endingId": 53,
+        "endingType": 0,
+        "weight": 1,
+        "itemPlus": "30900022-20",
+        "itemMinus": "",
+        "funds": 0,
+        "endingText": 0
+    },
+    {
+        "groupId": 1002401,
+        "endingId": 24,
+        "endingType": 0,
+        "weight": 1,
+        "itemPlus": "30900023-10,30900024-10",
+        "itemMinus": "",
+        "funds": 0,
+        "endingText": 0
+    },
+    {
+        "groupId": 1002402,
+        "endingId": 54,
+        "endingType": 0,
+        "weight": 1,
+        "itemPlus": "30900022-20",
+        "itemMinus": "",
+        "funds": 0,
+        "endingText": 0
+    },
+    {
+        "groupId": 1002501,
+        "endingId": 25,
+        "endingType": 0,
+        "weight": 1,
+        "itemPlus": "30900023-10",
+        "itemMinus": "",
+        "funds": 10,
+        "endingText": 0
+    },
+    {
+        "groupId": 1002502,
+        "endingId": 55,
+        "endingType": 0,
+        "weight": 1,
+        "itemPlus": "30900022-10,30900024-10",
+        "itemMinus": "",
+        "funds": 0,
+        "endingText": 0
+    },
+    {
+        "groupId": 1002601,
+        "endingId": 26,
+        "endingType": 0,
+        "weight": 1,
+        "itemPlus": "30900024-20",
+        "itemMinus": "",
+        "funds": 0,
+        "endingText": 0
+    },
+    {
+        "groupId": 1002602,
+        "endingId": 56,
+        "endingType": 0,
+        "weight": 1,
+        "itemPlus": "30900022-10,30900023-10",
+        "itemMinus": "",
+        "funds": 0,
+        "endingText": 0
+    },
+    {
+        "groupId": 1002701,
+        "endingId": 27,
+        "endingType": 0,
+        "weight": 1,
+        "itemPlus": "30900022-10,30900024-10",
+        "itemMinus": "",
+        "funds": 0,
+        "endingText": 0
+    },
+    {
+        "groupId": 1002702,
+        "endingId": 57,
+        "endingType": 0,
+        "weight": 1,
+        "itemPlus": "30900023-10",
+        "itemMinus": "",
+        "funds": 10,
+        "endingText": 0
+    },
+    {
+        "groupId": 1002801,
+        "endingId": 28,
+        "endingType": 0,
+        "weight": 1,
+        "itemPlus": "30900023-10",
+        "itemMinus": "",
+        "funds": 10,
+        "endingText": 0
+    },
+    {
+        "groupId": 1002802,
+        "endingId": 58,
+        "endingType": 0,
+        "weight": 1,
+        "itemPlus": "30900024-20",
+        "itemMinus": "30900023-10",
+        "funds": 0,
+        "endingText": 0
+    },
+    {
+        "groupId": 1002901,
+        "endingId": 29,
+        "endingType": 0,
+        "weight": 1,
+        "itemPlus": "30900024-20",
+        "itemMinus": "",
+        "funds": 0,
+        "endingText": 0
+    },
+    {
+        "groupId": 1002902,
+        "endingId": 59,
+        "endingType": 0,
+        "weight": 1,
+        "itemPlus": "30900022-10",
+        "itemMinus": "",
+        "funds": 10,
+        "endingText": 0
+    },
+    {
+        "groupId": 200101,
+        "endingId": 61,
+        "endingType": 1,
+        "weight": 6,
+        "itemPlus": "30900081-20,30900082-20",
+        "itemMinus": "",
+        "funds": 0,
+        "endingText": 3129
+    },
+    {
+        "groupId": 200101,
+        "endingId": 79,
+        "endingType": 2,
+        "weight": 4,
+        "itemPlus": "30900082-20",
+        "itemMinus": "30900083-10",
+        "funds": 0,
+        "endingText": 3130
+    },
+    {
+        "groupId": 200102,
+        "endingId": 97,
+        "endingType": 1,
+        "weight": 6,
+        "itemPlus": "30900083-20",
+        "itemMinus": "",
+        "funds": 20,
+        "endingText": 3132
+    },
+    {
+        "groupId": 200102,
+        "endingId": 115,
+        "endingType": 2,
+        "weight": 4,
+        "itemPlus": "30900082-20",
+        "itemMinus": "30900083-10",
+        "funds": 0,
+        "endingText": 3133
+    },
+    {
+        "groupId": 200201,
+        "endingId": 62,
+        "endingType": 1,
+        "weight": 7,
+        "itemPlus": "30900081-20,30900083-20",
+        "itemMinus": "",
+        "funds": 0,
+        "endingText": 3138
+    },
+    {
+        "groupId": 200201,
+        "endingId": 80,
+        "endingType": 2,
+        "weight": 3,
+        "itemPlus": "30900081-10,30900083-20",
+        "itemMinus": "",
+        "funds": 0,
+        "endingText": 3139
+    },
+    {
+        "groupId": 200202,
+        "endingId": 98,
+        "endingType": 1,
+        "weight": 7,
+        "itemPlus": "30900082-20",
+        "itemMinus": "",
+        "funds": 20,
+        "endingText": 3141
+    },
+    {
+        "groupId": 200202,
+        "endingId": 116,
+        "endingType": 2,
+        "weight": 3,
+        "itemPlus": "30900083-20",
+        "itemMinus": "30900081-10",
+        "funds": 0,
+        "endingText": 3142
+    },
+    {
+        "groupId": 200301,
+        "endingId": 63,
+        "endingType": 1,
+        "weight": 7,
+        "itemPlus": "30900082-20,30900083-10",
+        "itemMinus": "",
+        "funds": 0,
+        "endingText": 3147
+    },
+    {
+        "groupId": 200301,
+        "endingId": 81,
+        "endingType": 2,
+        "weight": 3,
+        "itemPlus": "30900082-20",
+        "itemMinus": "30900081-10",
+        "funds": 0,
+        "endingText": 3148
+    },
+    {
+        "groupId": 200302,
+        "endingId": 99,
+        "endingType": 1,
+        "weight": 8,
+        "itemPlus": "30900081-20,30900082-20",
+        "itemMinus": "",
+        "funds": 0,
+        "endingText": 3150
+    },
+    {
+        "groupId": 200302,
+        "endingId": 117,
+        "endingType": 2,
+        "weight": 2,
+        "itemPlus": "30900081-20",
+        "itemMinus": "30900082-10",
+        "funds": 0,
+        "endingText": 3151
+    },
+    {
+        "groupId": 200401,
+        "endingId": 64,
+        "endingType": 1,
+        "weight": 8,
+        "itemPlus": "30900082-20",
+        "itemMinus": "",
+        "funds": 20,
+        "endingText": 3156
+    },
+    {
+        "groupId": 200401,
+        "endingId": 82,
+        "endingType": 2,
+        "weight": 2,
+        "itemPlus": "30900081-20",
+        "itemMinus": "30900082-10",
+        "funds": 0,
+        "endingText": 3157
+    },
+    {
+        "groupId": 200402,
+        "endingId": 100,
+        "endingType": 1,
+        "weight": 7,
+        "itemPlus": "30900083-20",
+        "itemMinus": "",
+        "funds": 20,
+        "endingText": 3159
+    },
+    {
+        "groupId": 200402,
+        "endingId": 118,
+        "endingType": 2,
+        "weight": 3,
+        "itemPlus": "30900081-20",
+        "itemMinus": "30900083-10",
+        "funds": 0,
+        "endingText": 3160
+    },
+    {
+        "groupId": 200501,
+        "endingId": 65,
+        "endingType": 1,
+        "weight": 7,
+        "itemPlus": "30900081-20",
+        "itemMinus": "",
+        "funds": 20,
+        "endingText": 3165
+    },
+    {
+        "groupId": 200501,
+        "endingId": 83,
+        "endingType": 2,
+        "weight": 3,
+        "itemPlus": "30900082-20",
+        "itemMinus": "30900083-10",
+        "funds": 0,
+        "endingText": 3166
+    },
+    {
+        "groupId": 200502,
+        "endingId": 101,
+        "endingType": 1,
+        "weight": 8,
+        "itemPlus": "30900081-20,30900083-20",
+        "itemMinus": "",
+        "funds": 0,
+        "endingText": 3168
+    },
+    {
+        "groupId": 200502,
+        "endingId": 119,
+        "endingType": 2,
+        "weight": 2,
+        "itemPlus": "",
+        "itemMinus": "30900082-10",
+        "funds": 20,
+        "endingText": 3169
+    },
+    {
+        "groupId": 200601,
+        "endingId": 66,
+        "endingType": 1,
+        "weight": 7,
+        "itemPlus": "30900083-20",
+        "itemMinus": "",
+        "funds": 20,
+        "endingText": 3174
+    },
+    {
+        "groupId": 200601,
+        "endingId": 84,
+        "endingType": 2,
+        "weight": 3,
+        "itemPlus": "",
+        "itemMinus": "30900081-10",
+        "funds": 20,
+        "endingText": 3175
+    },
+    {
+        "groupId": 200602,
+        "endingId": 102,
+        "endingType": 1,
+        "weight": 6,
+        "itemPlus": "30900081-20,30900082-20",
+        "itemMinus": "",
+        "funds": 0,
+        "endingText": 3177
+    },
+    {
+        "groupId": 200602,
+        "endingId": 120,
+        "endingType": 2,
+        "weight": 4,
+        "itemPlus": "30900081-20",
+        "itemMinus": "30900083-10",
+        "funds": 0,
+        "endingText": 3178
+    },
+    {
+        "groupId": 200701,
+        "endingId": 67,
+        "endingType": 1,
+        "weight": 7,
+        "itemPlus": "30900082-20,30900083-20",
+        "itemMinus": "",
+        "funds": 0,
+        "endingText": 3183
+    },
+    {
+        "groupId": 200701,
+        "endingId": 85,
+        "endingType": 2,
+        "weight": 3,
+        "itemPlus": "30900082-20",
+        "itemMinus": "30900081-10",
+        "funds": 0,
+        "endingText": 3184
+    },
+    {
+        "groupId": 200702,
+        "endingId": 103,
+        "endingType": 1,
+        "weight": 7,
+        "itemPlus": "30900081-20,30900083-20",
+        "itemMinus": "",
+        "funds": 0,
+        "endingText": 3186
+    },
+    {
+        "groupId": 200702,
+        "endingId": 121,
+        "endingType": 2,
+        "weight": 3,
+        "itemPlus": "30900082-20",
+        "itemMinus": "30900081-10",
+        "funds": 0,
+        "endingText": 3187
+    },
+    {
+        "groupId": 200801,
+        "endingId": 68,
+        "endingType": 1,
+        "weight": 7,
+        "itemPlus": "30900082-20,30900083-20",
+        "itemMinus": "",
+        "funds": 0,
+        "endingText": 3192
+    },
+    {
+        "groupId": 200801,
+        "endingId": 86,
+        "endingType": 2,
+        "weight": 3,
+        "itemPlus": "30900082-20",
+        "itemMinus": "30900083-10",
+        "funds": 0,
+        "endingText": 3193
+    },
+    {
+        "groupId": 200802,
+        "endingId": 104,
+        "endingType": 1,
+        "weight": 6,
+        "itemPlus": "30900081-20,30900083-20",
+        "itemMinus": "",
+        "funds": 0,
+        "endingText": 3195
+    },
+    {
+        "groupId": 200802,
+        "endingId": 122,
+        "endingType": 2,
+        "weight": 4,
+        "itemPlus": "30900082-20",
+        "itemMinus": "30900081-10",
+        "funds": 0,
+        "endingText": 3196
+    },
+    {
+        "groupId": 200901,
+        "endingId": 69,
+        "endingType": 1,
+        "weight": 7,
+        "itemPlus": "30900081-20",
+        "itemMinus": "",
+        "funds": 20,
+        "endingText": 3201
+    },
+    {
+        "groupId": 200901,
+        "endingId": 87,
+        "endingType": 2,
+        "weight": 3,
+        "itemPlus": "30900083-20",
+        "itemMinus": "30900082-10",
+        "funds": 0,
+        "endingText": 3202
+    },
+    {
+        "groupId": 200902,
+        "endingId": 105,
+        "endingType": 1,
+        "weight": 4,
+        "itemPlus": "30900081-20",
+        "itemMinus": "",
+        "funds": 10,
+        "endingText": 3204
+    },
+    {
+        "groupId": 200902,
+        "endingId": 123,
+        "endingType": 2,
+        "weight": 6,
+        "itemPlus": "30900081-20",
+        "itemMinus": "30900082-20",
+        "funds": 0,
+        "endingText": 3205
+    },
+    {
+        "groupId": 201001,
+        "endingId": 70,
+        "endingType": 1,
+        "weight": 7,
+        "itemPlus": "30900081-20,30900083-20",
+        "itemMinus": "",
+        "funds": 0,
+        "endingText": 3210
+    },
+    {
+        "groupId": 201001,
+        "endingId": 88,
+        "endingType": 2,
+        "weight": 3,
+        "itemPlus": "",
+        "itemMinus": "30900081-10",
+        "funds": 20,
+        "endingText": 3211
+    },
+    {
+        "groupId": 201002,
+        "endingId": 106,
+        "endingType": 1,
+        "weight": 7,
+        "itemPlus": "30900081-20,30900083-20",
+        "itemMinus": "",
+        "funds": 0,
+        "endingText": 3213
+    },
+    {
+        "groupId": 201002,
+        "endingId": 124,
+        "endingType": 2,
+        "weight": 3,
+        "itemPlus": "30900083-20",
+        "itemMinus": "30900081-10",
+        "funds": 0,
+        "endingText": 3214
+    },
+    {
+        "groupId": 201101,
+        "endingId": 71,
+        "endingType": 1,
+        "weight": 7,
+        "itemPlus": "30900081-20,30900083-20",
+        "itemMinus": "",
+        "funds": 0,
+        "endingText": 3219
+    },
+    {
+        "groupId": 201101,
+        "endingId": 89,
+        "endingType": 2,
+        "weight": 3,
+        "itemPlus": "30900081-20",
+        "itemMinus": "30900083-10",
+        "funds": 0,
+        "endingText": 3220
+    },
+    {
+        "groupId": 201102,
+        "endingId": 107,
+        "endingType": 1,
+        "weight": 7,
+        "itemPlus": "30900082-20,30900083-20",
+        "itemMinus": "",
+        "funds": 0,
+        "endingText": 3222
+    },
+    {
+        "groupId": 201102,
+        "endingId": 125,
+        "endingType": 2,
+        "weight": 3,
+        "itemPlus": "30900082-20",
+        "itemMinus": "30900083-10",
+        "funds": 0,
+        "endingText": 3223
+    },
+    {
+        "groupId": 201201,
+        "endingId": 72,
+        "endingType": 1,
+        "weight": 7,
+        "itemPlus": "30900081-20,30900082-20",
+        "itemMinus": "",
+        "funds": 0,
+        "endingText": 3228
+    },
+    {
+        "groupId": 201201,
+        "endingId": 90,
+        "endingType": 2,
+        "weight": 3,
+        "itemPlus": "",
+        "itemMinus": "30900082-10",
+        "funds": 20,
+        "endingText": 3229
+    },
+    {
+        "groupId": 201202,
+        "endingId": 108,
+        "endingType": 1,
+        "weight": 8,
+        "itemPlus": "30900083-20",
+        "itemMinus": "",
+        "funds": 0,
+        "endingText": 3231
+    },
+    {
+        "groupId": 201202,
+        "endingId": 126,
+        "endingType": 2,
+        "weight": 2,
+        "itemPlus": "",
+        "itemMinus": "30900082-10",
+        "funds": 20,
+        "endingText": 3232
+    },
+    {
+        "groupId": 201301,
+        "endingId": 73,
+        "endingType": 1,
+        "weight": 7,
+        "itemPlus": "30900081-20,30900083-20",
+        "itemMinus": "",
+        "funds": 0,
+        "endingText": 3237
+    },
+    {
+        "groupId": 201301,
+        "endingId": 91,
+        "endingType": 2,
+        "weight": 3,
+        "itemPlus": "30900081-20",
+        "itemMinus": "30900082-10",
+        "funds": 0,
+        "endingText": 3238
+    },
+    {
+        "groupId": 201302,
+        "endingId": 109,
+        "endingType": 1,
+        "weight": 7,
+        "itemPlus": "30900081-20,30900083-20",
+        "itemMinus": "",
+        "funds": 0,
+        "endingText": 3240
+    },
+    {
+        "groupId": 201302,
+        "endingId": 127,
+        "endingType": 2,
+        "weight": 3,
+        "itemPlus": "30900083-20",
+        "itemMinus": "30900081-10",
+        "funds": 0,
+        "endingText": 3241
+    },
+    {
+        "groupId": 201401,
+        "endingId": 74,
+        "endingType": 1,
+        "weight": 7,
+        "itemPlus": "30900081-20,30900083-20",
+        "itemMinus": "",
+        "funds": 0,
+        "endingText": 3246
+    },
+    {
+        "groupId": 201401,
+        "endingId": 92,
+        "endingType": 2,
+        "weight": 3,
+        "itemPlus": "30900083-20",
+        "itemMinus": "30900081-10",
+        "funds": 0,
+        "endingText": 3247
+    },
+    {
+        "groupId": 201402,
+        "endingId": 110,
+        "endingType": 1,
+        "weight": 7,
+        "itemPlus": "30900081-20",
+        "itemMinus": "",
+        "funds": 20,
+        "endingText": 3249
+    },
+    {
+        "groupId": 201402,
+        "endingId": 128,
+        "endingType": 2,
+        "weight": 3,
+        "itemPlus": "",
+        "itemMinus": "30900081-10",
+        "funds": 20,
+        "endingText": 3250
+    },
+    {
+        "groupId": 201501,
+        "endingId": 75,
+        "endingType": 1,
+        "weight": 6,
+        "itemPlus": "30900083-20",
+        "itemMinus": "",
+        "funds": 20,
+        "endingText": 3255
+    },
+    {
+        "groupId": 201501,
+        "endingId": 93,
+        "endingType": 2,
+        "weight": 4,
+        "itemPlus": "30900082-20",
+        "itemMinus": "30900083-10",
+        "funds": 0,
+        "endingText": 3256
+    },
+    {
+        "groupId": 201502,
+        "endingId": 111,
+        "endingType": 1,
+        "weight": 7,
+        "itemPlus": "30900081-20,30900082-20",
+        "itemMinus": "",
+        "funds": 0,
+        "endingText": 3258
+    },
+    {
+        "groupId": 201502,
+        "endingId": 129,
+        "endingType": 2,
+        "weight": 3,
+        "itemPlus": "",
+        "itemMinus": "30900082-10",
+        "funds": 20,
+        "endingText": 3259
+    },
+    {
+        "groupId": 201601,
+        "endingId": 76,
+        "endingType": 1,
+        "weight": 8,
+        "itemPlus": "30900081-20,30900082-20",
+        "itemMinus": "",
+        "funds": 0,
+        "endingText": 3264
+    },
+    {
+        "groupId": 201601,
+        "endingId": 94,
+        "endingType": 2,
+        "weight": 2,
+        "itemPlus": "30900081-20",
+        "itemMinus": "30900082-10",
+        "funds": 0,
+        "endingText": 3265
+    },
+    {
+        "groupId": 201602,
+        "endingId": 112,
+        "endingType": 1,
+        "weight": 8,
+        "itemPlus": "30900082-20,30900083-20",
+        "itemMinus": "",
+        "funds": 0,
+        "endingText": 3267
+    },
+    {
+        "groupId": 201602,
+        "endingId": 130,
+        "endingType": 2,
+        "weight": 2,
+        "itemPlus": "30900082-20",
+        "itemMinus": "30900081-10",
+        "funds": 0,
+        "endingText": 3268
+    },
+    {
+        "groupId": 201701,
+        "endingId": 77,
+        "endingType": 1,
+        "weight": 6,
+        "itemPlus": "30900082-20,30900083-20",
+        "itemMinus": "",
+        "funds": 0,
+        "endingText": 3273
+    },
+    {
+        "groupId": 201701,
+        "endingId": 95,
+        "endingType": 2,
+        "weight": 4,
+        "itemPlus": "30900082-20",
+        "itemMinus": "30900083-10",
+        "funds": 0,
+        "endingText": 3274
+    },
+    {
+        "groupId": 201702,
+        "endingId": 113,
+        "endingType": 1,
+        "weight": 6,
+        "itemPlus": "30900081-20,30900083-20",
+        "itemMinus": "",
+        "funds": 0,
+        "endingText": 3276
+    },
+    {
+        "groupId": 201702,
+        "endingId": 131,
+        "endingType": 2,
+        "weight": 4,
+        "itemPlus": "30900081-20",
+        "itemMinus": "30900082-10",
+        "funds": 0,
+        "endingText": 3277
+    },
+    {
+        "groupId": 201801,
+        "endingId": 78,
+        "endingType": 1,
+        "weight": 10,
+        "itemPlus": "30900081-20,30900083-20",
+        "itemMinus": "",
+        "funds": 0,
+        "endingText": 3282
+    },
+    {
+        "groupId": 201801,
+        "endingId": 96,
+        "endingType": 2,
+        "weight": 0,
+        "itemPlus": "30900081-20,30900083-20",
+        "itemMinus": "",
+        "funds": 0,
+        "endingText": 3283
+    },
+    {
+        "groupId": 201802,
+        "endingId": 114,
+        "endingType": 1,
+        "weight": 10,
+        "itemPlus": "30900081-20,30900083-20",
+        "itemMinus": "",
+        "funds": 0,
+        "endingText": 3285
+    },
+    {
+        "groupId": 201802,
+        "endingId": 132,
+        "endingType": 2,
+        "weight": 0,
+        "itemPlus": "30900081-20,30900083-20",
+        "itemMinus": "",
+        "funds": 0,
+        "endingText": 3286
+    },
+    {
+        "groupId": 2000101,
+        "endingId": 1,
+        "endingType": 0,
+        "weight": 1,
+        "itemPlus": "30900082-20",
+        "itemMinus": "",
+        "funds": -10,
+        "endingText": 0
+    },
+    {
+        "groupId": 2000102,
+        "endingId": 31,
+        "endingType": 0,
+        "weight": 1,
+        "itemPlus": "30900082-10",
+        "itemMinus": "",
+        "funds": 0,
+        "endingText": 0
+    },
+    {
+        "groupId": 2000201,
+        "endingId": 2,
+        "endingType": 0,
+        "weight": 1,
+        "itemPlus": "30900081-10",
+        "itemMinus": "",
+        "funds": 0,
+        "endingText": 0
+    },
+    {
+        "groupId": 2000202,
+        "endingId": 32,
+        "endingType": 0,
+        "weight": 1,
+        "itemPlus": "30900082-10",
+        "itemMinus": "",
+        "funds": 0,
+        "endingText": 0
+    },
+    {
+        "groupId": 2000301,
+        "endingId": 3,
+        "endingType": 0,
+        "weight": 1,
+        "itemPlus": "30900082-20",
+        "itemMinus": "30900083-10",
+        "funds": 0,
+        "endingText": 0
+    },
+    {
+        "groupId": 2000302,
+        "endingId": 33,
+        "endingType": 0,
+        "weight": 1,
+        "itemPlus": "30900083-20",
+        "itemMinus": "",
+        "funds": 0,
+        "endingText": 0
+    },
+    {
+        "groupId": 2000401,
+        "endingId": 4,
+        "endingType": 0,
+        "weight": 1,
+        "itemPlus": "30900082-20",
+        "itemMinus": "",
+        "funds": 0,
+        "endingText": 0
+    },
+    {
+        "groupId": 2000402,
+        "endingId": 34,
+        "endingType": 0,
+        "weight": 1,
+        "itemPlus": "30900081-20",
+        "itemMinus": "",
+        "funds": 0,
+        "endingText": 0
+    },
+    {
+        "groupId": 2000501,
+        "endingId": 5,
+        "endingType": 0,
+        "weight": 1,
+        "itemPlus": "30900081-20",
+        "itemMinus": "",
+        "funds": -10,
+        "endingText": 0
+    },
+    {
+        "groupId": 2000502,
+        "endingId": 35,
+        "endingType": 0,
+        "weight": 1,
+        "itemPlus": "30900081-10",
+        "itemMinus": "",
+        "funds": 0,
+        "endingText": 0
+    },
+    {
+        "groupId": 2000601,
+        "endingId": 6,
+        "endingType": 0,
+        "weight": 1,
+        "itemPlus": "30900083-20",
+        "itemMinus": "",
+        "funds": 0,
+        "endingText": 0
+    },
+    {
+        "groupId": 2000602,
+        "endingId": 36,
+        "endingType": 0,
+        "weight": 1,
+        "itemPlus": "",
+        "itemMinus": "30900082-10",
+        "funds": 20,
+        "endingText": 0
+    },
+    {
+        "groupId": 2000701,
+        "endingId": 7,
+        "endingType": 0,
+        "weight": 1,
+        "itemPlus": "30900081-20",
+        "itemMinus": "",
+        "funds": 0,
+        "endingText": 0
+    },
+    {
+        "groupId": 2000702,
+        "endingId": 37,
+        "endingType": 0,
+        "weight": 1,
+        "itemPlus": "30900083-20",
+        "itemMinus": "",
+        "funds": 0,
+        "endingText": 0
+    },
+    {
+        "groupId": 2000801,
+        "endingId": 8,
+        "endingType": 0,
+        "weight": 1,
+        "itemPlus": "30900083-20",
+        "itemMinus": "30900082-10",
+        "funds": 0,
+        "endingText": 0
+    },
+    {
+        "groupId": 2000802,
+        "endingId": 38,
+        "endingType": 0,
+        "weight": 1,
+        "itemPlus": "30900082-20",
+        "itemMinus": "30900083-10",
+        "funds": 0,
+        "endingText": 0
+    },
+    {
+        "groupId": 2000901,
+        "endingId": 9,
+        "endingType": 0,
+        "weight": 1,
+        "itemPlus": "30900081-10,30900082-10",
+        "itemMinus": "",
+        "funds": 0,
+        "endingText": 0
+    },
+    {
+        "groupId": 2000902,
+        "endingId": 39,
+        "endingType": 0,
+        "weight": 1,
+        "itemPlus": "30900083-20",
+        "itemMinus": "",
+        "funds": 0,
+        "endingText": 0
+    },
+    {
+        "groupId": 2001001,
+        "endingId": 10,
+        "endingType": 0,
+        "weight": 1,
+        "itemPlus": "30900082-10,30900083-10",
+        "itemMinus": "",
+        "funds": 0,
+        "endingText": 0
+    },
+    {
+        "groupId": 2001002,
+        "endingId": 40,
+        "endingType": 0,
+        "weight": 1,
+        "itemPlus": "30900081-20",
+        "itemMinus": "",
+        "funds": 0,
+        "endingText": 0
+    },
+    {
+        "groupId": 2001101,
+        "endingId": 11,
+        "endingType": 0,
+        "weight": 1,
+        "itemPlus": "30900081-10,30900083-10",
+        "itemMinus": "",
+        "funds": 0,
+        "endingText": 0
+    },
+    {
+        "groupId": 2001102,
+        "endingId": 41,
+        "endingType": 0,
+        "weight": 1,
+        "itemPlus": "30900082-20",
+        "itemMinus": "",
+        "funds": 0,
+        "endingText": 0
+    },
+    {
+        "groupId": 2001201,
+        "endingId": 12,
+        "endingType": 0,
+        "weight": 1,
+        "itemPlus": "30900082-20",
+        "itemMinus": "30900081-10",
+        "funds": 0,
+        "endingText": 0
+    },
+    {
+        "groupId": 2001202,
+        "endingId": 42,
+        "endingType": 0,
+        "weight": 1,
+        "itemPlus": "30900081-20",
+        "itemMinus": "30900082-10",
+        "funds": 0,
+        "endingText": 0
+    },
+    {
+        "groupId": 2001301,
+        "endingId": 13,
+        "endingType": 0,
+        "weight": 1,
+        "itemPlus": "30900082-10",
+        "itemMinus": "",
+        "funds": 0,
+        "endingText": 0
+    },
+    {
+        "groupId": 2001302,
+        "endingId": 43,
+        "endingType": 0,
+        "weight": 1,
+        "itemPlus": "30900083-10",
+        "itemMinus": "",
+        "funds": 0,
+        "endingText": 0
+    },
+    {
+        "groupId": 2001401,
+        "endingId": 14,
+        "endingType": 0,
+        "weight": 1,
+        "itemPlus": "",
+        "itemMinus": "30900083-10",
+        "funds": 20,
+        "endingText": 0
+    },
+    {
+        "groupId": 2001402,
+        "endingId": 44,
+        "endingType": 0,
+        "weight": 1,
+        "itemPlus": "",
+        "itemMinus": "",
+        "funds": 10,
+        "endingText": 0
+    },
+    {
+        "groupId": 2001501,
+        "endingId": 15,
+        "endingType": 0,
+        "weight": 1,
+        "itemPlus": "30900083-20",
+        "itemMinus": "30900081-10",
+        "funds": 0,
+        "endingText": 0
+    },
+    {
+        "groupId": 2001502,
+        "endingId": 45,
+        "endingType": 0,
+        "weight": 1,
+        "itemPlus": "30900081-20",
+        "itemMinus": "30900083-10",
+        "funds": 0,
+        "endingText": 0
+    },
+    {
+        "groupId": 2001601,
+        "endingId": 16,
+        "endingType": 0,
+        "weight": 1,
+        "itemPlus": "",
+        "itemMinus": "30900082-10",
+        "funds": 20,
+        "endingText": 0
+    },
+    {
+        "groupId": 2001602,
+        "endingId": 46,
+        "endingType": 0,
+        "weight": 1,
+        "itemPlus": "30900082-10",
+        "itemMinus": "",
+        "funds": 0,
+        "endingText": 0
+    },
+    {
+        "groupId": 2001701,
+        "endingId": 17,
+        "endingType": 0,
+        "weight": 1,
+        "itemPlus": "30900081-20",
+        "itemMinus": "",
+        "funds": -10,
+        "endingText": 0
+    },
+    {
+        "groupId": 2001702,
+        "endingId": 47,
+        "endingType": 0,
+        "weight": 1,
+        "itemPlus": "30900082-20",
+        "itemMinus": "30900081-10",
+        "funds": 0,
+        "endingText": 0
+    },
+    {
+        "groupId": 2001801,
+        "endingId": 18,
+        "endingType": 0,
+        "weight": 1,
+        "itemPlus": "30900082-20",
+        "itemMinus": "",
+        "funds": -10,
+        "endingText": 0
+    },
+    {
+        "groupId": 2001802,
+        "endingId": 48,
+        "endingType": 0,
+        "weight": 1,
+        "itemPlus": "",
+        "itemMinus": "",
+        "funds": 20,
+        "endingText": 0
+    },
+    {
+        "groupId": 2001901,
+        "endingId": 19,
+        "endingType": 0,
+        "weight": 1,
+        "itemPlus": "",
+        "itemMinus": "",
+        "funds": 20,
+        "endingText": 0
+    },
+    {
+        "groupId": 2001902,
+        "endingId": 49,
+        "endingType": 0,
+        "weight": 1,
+        "itemPlus": "30900081-20",
+        "itemMinus": "",
+        "funds": -10,
+        "endingText": 0
+    },
+    {
+        "groupId": 2002001,
+        "endingId": 20,
+        "endingType": 0,
+        "weight": 1,
+        "itemPlus": "30900081-20",
+        "itemMinus": "30900083-10",
+        "funds": 0,
+        "endingText": 0
+    },
+    {
+        "groupId": 2002002,
+        "endingId": 50,
+        "endingType": 0,
+        "weight": 1,
+        "itemPlus": "30900083-20",
+        "itemMinus": "30900081-10",
+        "funds": 0,
+        "endingText": 0
+    },
+    {
+        "groupId": 2002101,
+        "endingId": 21,
+        "endingType": 0,
+        "weight": 1,
+        "itemPlus": "30900082-20",
+        "itemMinus": "30900083-10",
+        "funds": 0,
+        "endingText": 0
+    },
+    {
+        "groupId": 2002102,
+        "endingId": 51,
+        "endingType": 0,
+        "weight": 1,
+        "itemPlus": "30900083-20",
+        "itemMinus": "",
+        "funds": -10,
+        "endingText": 0
+    },
+    {
+        "groupId": 2002201,
+        "endingId": 22,
+        "endingType": 0,
+        "weight": 1,
+        "itemPlus": "30900083-10",
+        "itemMinus": "",
+        "funds": 0,
+        "endingText": 0
+    },
+    {
+        "groupId": 2002202,
+        "endingId": 52,
+        "endingType": 0,
+        "weight": 1,
+        "itemPlus": "30900081-10",
+        "itemMinus": "",
+        "funds": 0,
+        "endingText": 0
+    },
+    {
+        "groupId": 2002301,
+        "endingId": 23,
+        "endingType": 0,
+        "weight": 1,
+        "itemPlus": "30900081-20",
+        "itemMinus": "30900082-10",
+        "funds": 0,
+        "endingText": 0
+    },
+    {
+        "groupId": 2002302,
+        "endingId": 53,
+        "endingType": 0,
+        "weight": 1,
+        "itemPlus": "30900082-20",
+        "itemMinus": "30900081-10",
+        "funds": 0,
+        "endingText": 0
+    },
+    {
+        "groupId": 2002401,
+        "endingId": 24,
+        "endingType": 0,
+        "weight": 1,
+        "itemPlus": "",
+        "itemMinus": "30900083-10",
+        "funds": 20,
+        "endingText": 0
+    },
+    {
+        "groupId": 2002402,
+        "endingId": 54,
+        "endingType": 0,
+        "weight": 1,
+        "itemPlus": "30900083-20",
+        "itemMinus": "",
+        "funds": 0,
+        "endingText": 0
+    },
+    {
+        "groupId": 2002501,
+        "endingId": 25,
+        "endingType": 0,
+        "weight": 1,
+        "itemPlus": "30900083-20",
+        "itemMinus": "",
+        "funds": -10,
+        "endingText": 0
+    },
+    {
+        "groupId": 2002502,
+        "endingId": 55,
+        "endingType": 0,
+        "weight": 1,
+        "itemPlus": "30900083-10",
+        "itemMinus": "",
+        "funds": 0,
+        "endingText": 0
+    }
+]

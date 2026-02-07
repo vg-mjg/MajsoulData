@@ -1,0 +1,27 @@
+[
+    {
+        "groupId": 100102,
+        "count": 1,
+        "cost": 0
+    },
+    {
+        "groupId": 100102,
+        "count": 2,
+        "cost": 2000
+    },
+    {
+        "groupId": 100102,
+        "count": 3,
+        "cost": 5000
+    },
+    {
+        "groupId": 100102,
+        "count": 4,
+        "cost": 10000
+    },
+    {
+        "groupId": 100102,
+        "count": 5,
+        "cost": 20000
+    }
+]

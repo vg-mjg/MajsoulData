@@ -1,0 +1,119 @@
+[
+    {
+        "activityId": 240601,
+        "goodsId": 1001,
+        "goodsName": 2650,
+        "matrix": "1,1,1",
+        "price": 10,
+        "goodsRes": "prop1_water_bottle.png",
+        "icon": "prop_icon_1_water_bottle.png"
+    },
+    {
+        "activityId": 240601,
+        "goodsId": 1002,
+        "goodsName": 2651,
+        "matrix": "2,1,1,0,1",
+        "price": 40,
+        "goodsRes": "prop2_shrimp.png",
+        "icon": "prop_icon_2_shrimp.png"
+    },
+    {
+        "activityId": 240601,
+        "goodsId": 1003,
+        "goodsName": 2652,
+        "matrix": "2,1,1,1,1",
+        "price": 80,
+        "goodsRes": "prop3_shell.png",
+        "icon": "prop_icon_3_shell.png"
+    },
+    {
+        "activityId": 240601,
+        "goodsId": 1004,
+        "goodsName": 2653,
+        "matrix": "3,0,1,1,1,1,0",
+        "price": 140,
+        "goodsRes": "prop4_pizza.png",
+        "icon": "prop_icon_4_pizza.png"
+    },
+    {
+        "activityId": 240601,
+        "goodsId": 1005,
+        "goodsName": 2654,
+        "matrix": "3,1,1,0,0,1,1",
+        "price": 130,
+        "goodsRes": "prop5_wastepa.png",
+        "icon": "prop_icon_5_wastepa.png"
+    },
+    {
+        "activityId": 240601,
+        "goodsId": 1006,
+        "goodsName": 2655,
+        "matrix": "3,0,1,0,1,1,1",
+        "price": 160,
+        "goodsRes": "prop6_bread.png",
+        "icon": "prop_icon_6_bread.png"
+    },
+    {
+        "activityId": 240601,
+        "goodsId": 1007,
+        "goodsName": 2656,
+        "matrix": "3,1,1,1,1,0,0",
+        "price": 330,
+        "goodsRes": "prop7_water_gun.png",
+        "icon": "prop_icon_7_water_gun.png"
+    },
+    {
+        "activityId": 240601,
+        "goodsId": 1008,
+        "goodsName": 2657,
+        "matrix": "3,1,1,1,0,0,1",
+        "price": 360,
+        "goodsRes": "prop8_fascia.png",
+        "icon": "prop_icon_8_fascia.png"
+    },
+    {
+        "activityId": 240601,
+        "goodsId": 1009,
+        "goodsName": 2658,
+        "matrix": "1,1,1,1,1",
+        "price": 800,
+        "goodsRes": "prop9_umbrella.png",
+        "icon": "prop_icon_9_umbrella.png"
+    },
+    {
+        "activityId": 240601,
+        "goodsId": 1010,
+        "goodsName": 2659,
+        "matrix": "3,1,0,1,1,1,1",
+        "price": 1000,
+        "goodsRes": "prop10_mahjong.png",
+        "icon": "prop_icon_10_mahjong.png"
+    },
+    {
+        "activityId": 240601,
+        "goodsId": 1011,
+        "goodsName": 2660,
+        "matrix": "3,1,1,1,0,1,0,0,1,0",
+        "price": 1200,
+        "goodsRes": "prop11_stand_upright.png",
+        "icon": "prop_icon_11_stand_upright.png"
+    },
+    {
+        "activityId": 240601,
+        "goodsId": 1012,
+        "goodsName": 2661,
+        "matrix": "3,1,0,0,1,1,1,0,1,0",
+        "price": 2000,
+        "goodsRes": "prop12_crystal_dinosaur.png",
+        "icon": "prop_icon_12_crystal_dinosaur.png"
+    },
+    {
+        "activityId": 240601,
+        "goodsId": 1013,
+        "goodsName": 2662,
+        "matrix": "3,0,0,1,1,1,1,0,1,0",
+        "price": 3000,
+        "goodsRes": "prop13_golden_decoration.png",
+        "icon": "prop_icon_13_golden_decoration.png"
+    }
+]

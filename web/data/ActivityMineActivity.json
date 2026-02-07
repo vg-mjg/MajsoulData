@@ -1,0 +1,51 @@
+[
+    {
+        "activityId": 1194,
+        "rewardGroup": 1194,
+        "costItem": "309037-1",
+        "mapSizeX": 9,
+        "mapSizeY": 9
+    },
+    {
+        "activityId": 1301,
+        "rewardGroup": 1301,
+        "costItem": "309037-1",
+        "mapSizeX": 9,
+        "mapSizeY": 9
+    },
+    {
+        "activityId": 221002,
+        "rewardGroup": 221002,
+        "costItem": "309037-1",
+        "mapSizeX": 9,
+        "mapSizeY": 9
+    },
+    {
+        "activityId": 230502,
+        "rewardGroup": 230502,
+        "costItem": "309037-1",
+        "mapSizeX": 9,
+        "mapSizeY": 9
+    },
+    {
+        "activityId": 240202,
+        "rewardGroup": 240202,
+        "costItem": "309037-1",
+        "mapSizeX": 9,
+        "mapSizeY": 9
+    },
+    {
+        "activityId": 241002,
+        "rewardGroup": 241002,
+        "costItem": "309037-1",
+        "mapSizeX": 9,
+        "mapSizeY": 9
+    },
+    {
+        "activityId": 250702,
+        "rewardGroup": 250702,
+        "costItem": "309037-1",
+        "mapSizeX": 9,
+        "mapSizeY": 9
+    }
+]

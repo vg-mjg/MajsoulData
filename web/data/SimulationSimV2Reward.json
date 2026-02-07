@@ -1,0 +1,26 @@
+[
+    {
+        "activityId": 250401,
+        "rank": 1,
+        "ability": 500,
+        "randomEffect": 0
+    },
+    {
+        "activityId": 250401,
+        "rank": 2,
+        "ability": 500,
+        "randomEffect": 0
+    },
+    {
+        "activityId": 250401,
+        "rank": 3,
+        "ability": 0,
+        "randomEffect": 1
+    },
+    {
+        "activityId": 250401,
+        "rank": 4,
+        "ability": 0,
+        "randomEffect": 1
+    }
+]

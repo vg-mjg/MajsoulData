@@ -1,0 +1,57 @@
+[
+    {
+        "id": 300001,
+        "isFullscreen": 0,
+        "queueChangeDelay": 0
+    },
+    {
+        "id": 308011,
+        "isFullscreen": 1,
+        "queueChangeDelay": 0
+    },
+    {
+        "id": 308026,
+        "isFullscreen": 1,
+        "queueChangeDelay": 0
+    },
+    {
+        "id": 305215,
+        "isFullscreen": 1,
+        "queueChangeDelay": 0
+    },
+    {
+        "id": 305217,
+        "isFullscreen": 1,
+        "queueChangeDelay": 0
+    },
+    {
+        "id": 305219,
+        "isFullscreen": 1,
+        "queueChangeDelay": 0
+    },
+    {
+        "id": 305223,
+        "isFullscreen": 1,
+        "queueChangeDelay": 0
+    },
+    {
+        "id": 30520006,
+        "isFullscreen": 1,
+        "queueChangeDelay": 0
+    },
+    {
+        "id": 30520007,
+        "isFullscreen": 1,
+        "queueChangeDelay": 2500
+    },
+    {
+        "id": 308041,
+        "isFullscreen": 1,
+        "queueChangeDelay": 0
+    },
+    {
+        "id": 30520009,
+        "isFullscreen": 1,
+        "queueChangeDelay": 1860
+    }
+]

@@ -1,0 +1,56 @@
+[
+    {
+        "groupId": 251201,
+        "track": 0,
+        "flightTime": 30,
+        "atk": 1,
+        "mpConsume": 5,
+        "cd": 90,
+        "snowballNameStr": 25120119
+    },
+    {
+        "groupId": 251201,
+        "track": 1,
+        "flightTime": 36,
+        "atk": 2,
+        "mpConsume": 8,
+        "cd": 150,
+        "snowballNameStr": 25120120
+    },
+    {
+        "groupId": 251201,
+        "track": 2,
+        "flightTime": 45,
+        "atk": 3,
+        "mpConsume": 11,
+        "cd": 210,
+        "snowballNameStr": 25120121
+    },
+    {
+        "groupId": 251202,
+        "track": 0,
+        "flightTime": 30,
+        "atk": 1,
+        "mpConsume": 5,
+        "cd": 90,
+        "snowballNameStr": 25120119
+    },
+    {
+        "groupId": 251202,
+        "track": 1,
+        "flightTime": 36,
+        "atk": 2,
+        "mpConsume": 8,
+        "cd": 150,
+        "snowballNameStr": 25120120
+    },
+    {
+        "groupId": 251202,
+        "track": 2,
+        "flightTime": 45,
+        "atk": 3,
+        "mpConsume": 11,
+        "cd": 210,
+        "snowballNameStr": 25120121
+    }
+]

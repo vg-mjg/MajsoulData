@@ -1,0 +1,1342 @@
+[
+    {
+        "id": 1000041,
+        "type": 1,
+        "contentChs": "解锁结局【一姬的心意】",
+        "contentChsT": "解鎖結局【一姬的心意】",
+        "contentJp": "End1.一姫の思い",
+        "contentEn": "Unlock the Ending - Ichihime's thoughts",
+        "contentKr": "End1. 이치히메의 생각",
+        "reward": "302010-1"
+    },
+    {
+        "id": 1000042,
+        "type": 2,
+        "contentChs": "解锁结局【毫无所获的一天】",
+        "contentChsT": "解鎖結局【毫無所獲的一天】",
+        "contentJp": "End2.空回り",
+        "contentEn": "Unlock the Ending - A day wasted",
+        "contentKr": "End2. 의미 없는 하루",
+        "reward": "100002-8000"
+    },
+    {
+        "id": 1000043,
+        "type": 3,
+        "contentChs": "解锁结局【得与失？】",
+        "contentChsT": "解鎖結局【得與失？】",
+        "contentJp": "End3.失うことと得ること",
+        "contentEn": "Unlock the Ending - Gain & loss?",
+        "contentKr": "End3. 잃는 것과 얻는 것",
+        "reward": "304005-1"
+    },
+    {
+        "id": 1000051,
+        "type": 2,
+        "contentChs": "解锁结局【解除危机的正确姿势】",
+        "contentChsT": "解鎖結局【解除危機的正確姿勢】",
+        "contentJp": "End4.正しい解決方法",
+        "contentEn": "Unlock the Ending - How to resolve a crisis properly",
+        "contentKr": "End4. 올바른 해결책",
+        "reward": "100002-8000,304005-1"
+    },
+    {
+        "id": 1000052,
+        "type": 1,
+        "contentChs": "解锁结局【新的挑战&守护巫女】",
+        "contentChsT": "解鎖結局【新的挑戰&守護巫女】",
+        "contentJp": "End5.守護者巫女",
+        "contentEn": "Unlock the Ending - A new challenge & protect the priestess",
+        "contentKr": "End5. 새로운 도전 & 수호자 무녀",
+        "reward": "100002-8000,304006-1"
+    },
+    {
+        "id": 1000061,
+        "type": 1,
+        "contentChs": "解锁结局【无法忘却的回忆】",
+        "contentChsT": "解鎖結局【無法忘卻的回憶】",
+        "contentJp": "End6.忘れられない思い出",
+        "contentEn": "Unlock the Ending - Unforgettable memories",
+        "contentKr": "End6. 새겨진 기억",
+        "reward": "302001-1"
+    },
+    {
+        "id": 1000062,
+        "type": 3,
+        "contentChs": "解锁结局【以毒攻毒】",
+        "contentChsT": "解鎖結局【以毒攻毒】",
+        "contentJp": "End7.毒を以て毒を制す",
+        "contentEn": "Unlock the Ending - Fighting fire with fire",
+        "contentKr": "End7. 이독제독",
+        "reward": "302007-1"
+    },
+    {
+        "id": 2000041,
+        "type": 1,
+        "contentChs": "解锁结局【为了你，我可以！】",
+        "contentChsT": "解鎖結局【為了你，我可以！】",
+        "contentJp": "End1.君のためなら",
+        "contentEn": "Unlock Ending - I will do anything for you!",
+        "contentKr": "End1. 당신을 위해 서라면!",
+        "reward": "302005-1"
+    },
+    {
+        "id": 2000042,
+        "type": 3,
+        "contentChs": "解锁结局【饭里……有毒……】",
+        "contentChsT": "解鎖結局【飯裡……有毒……】",
+        "contentJp": "End2.綺麗な花には棘がある",
+        "contentEn": "Unlock Ending - The meal was... toxic...",
+        "contentKr": "End2. 도…독이……",
+        "reward": "100002-8000"
+    },
+    {
+        "id": 2000051,
+        "type": 3,
+        "contentChs": "解锁结局【好像失去了些什么……】",
+        "contentChsT": "解鎖結局【好像失去了些什麼……】",
+        "contentJp": "End3.なにかを失ったような",
+        "contentEn": "Unlock Ending - I feel like I've lost something...",
+        "contentKr": "End3. 무언가 잃어버린 기분",
+        "reward": "100002-12000"
+    },
+    {
+        "id": 2000052,
+        "type": 1,
+        "contentChs": "解锁结局【夕阳与蜜糖】",
+        "contentChsT": "解鎖結局【夕陽與蜜糖】",
+        "contentJp": "End4.夕日と蜜の味",
+        "contentEn": "Unlock Ending - The sunset and the sweetness",
+        "contentKr": "End4. 석양과 달콤함",
+        "reward": "304005-1"
+    },
+    {
+        "id": 2000061,
+        "type": 1,
+        "contentChs": "解锁结局【喜欢你】",
+        "contentChsT": "解鎖結局【喜歡你】",
+        "contentJp": "End5.君のことが好きだ",
+        "contentEn": "Unlock Ending - I like you",
+        "contentKr": "End5. 좋아해",
+        "reward": "304006-1"
+    },
+    {
+        "id": 2000062,
+        "type": 1,
+        "contentChs": "解锁结局【两个人的秘密】",
+        "contentChsT": "解鎖結局【兩個人的秘密】",
+        "contentJp": "End6.二人だけの秘密",
+        "contentEn": "Unlock Ending - A secret between just the two of us",
+        "contentKr": "End6. 우리 둘만의 비밀",
+        "reward": "302001-1"
+    },
+    {
+        "id": 2100041,
+        "type": 1,
+        "contentChs": "解锁结局【中秋节的礼物】",
+        "contentChsT": "解鎖結局【中秋節的禮物】",
+        "contentJp": "End1.中秋節のプレゼント",
+        "contentEn": "Unlock the Ending - Mid-Autumn Gift",
+        "contentKr": "End1. 보름날의 선물",
+        "reward": "302012-1"
+    },
+    {
+        "id": 2100042,
+        "type": 2,
+        "contentChs": "解锁结局【月饼里的心意】",
+        "contentChsT": "解鎖結局【月餅裡的心意】",
+        "contentJp": "End2.愛のこもった月餅を",
+        "contentEn": "Unlock the Ending - Mooncakes with Love",
+        "contentKr": "End2. 사랑이 담긴 문케이크",
+        "reward": "100002-8000"
+    },
+    {
+        "id": 2100051,
+        "type": 1,
+        "contentChs": "解锁结局【心意相通的朋友】",
+        "contentChsT": "解鎖結局【心意相通的朋友】",
+        "contentJp": "End3.以心伝心",
+        "contentEn": "Unlock the Ending - Friends in Sync",
+        "contentKr": "End3. 이심전심",
+        "reward": "304005-1"
+    },
+    {
+        "id": 2100052,
+        "type": 1,
+        "contentChs": "解锁结局【志同道合的朋友】",
+        "contentChsT": "解鎖結局【志同道合的朋友】",
+        "contentJp": "End4.意気投合",
+        "contentEn": "Unlock the Ending - Like-minded Friends",
+        "contentKr": "End4. 의기투합",
+        "reward": "100002-8000"
+    },
+    {
+        "id": 2100061,
+        "type": 1,
+        "contentChs": "解锁结局【旋转的幸福】",
+        "contentChsT": "解鎖結局【旋轉的幸福】",
+        "contentJp": "End5.幸せの回転",
+        "contentEn": "Unlock the Ending - Happiness-go-round",
+        "contentKr": "End5. 돌고도는 행복",
+        "reward": "304006-1"
+    },
+    {
+        "id": 2100062,
+        "type": 1,
+        "contentChs": "解锁结局【“生死”之交】",
+        "contentChsT": "解鎖結局【“生死”之交】",
+        "contentJp": "End6.「生と死」をこえて",
+        "contentEn": "Unlock the Ending - Through \"Life\" and \"Death\"",
+        "contentKr": "End6. 삶과 죽음",
+        "reward": "100002-8000"
+    },
+    {
+        "id": 2100063,
+        "type": 1,
+        "contentChs": "解锁结局【斗恶龙的公主】",
+        "contentChsT": "解鎖結局【鬥惡龍的公主】",
+        "contentJp": "End7.勇者のお姫様",
+        "contentEn": "Unlock the Ending - Princess Heroine",
+        "contentKr": "End7. 용기의 공주님",
+        "reward": "302001-1"
+    },
+    {
+        "id": 2200041,
+        "type": 2,
+        "contentChs": "解锁结局【买个彩票？】",
+        "contentChsT": "解鎖結局【買個彩券？】",
+        "contentJp": "End1.宝くじが当たるかも",
+        "contentEn": "Unlock the Ending - Buy a Lottery Ticket?",
+        "contentKr": "End1. 복권 좀 사볼까?",
+        "reward": "100002-8000"
+    },
+    {
+        "id": 2200042,
+        "type": 1,
+        "contentChs": "解锁结局【有点眼熟？】",
+        "contentChsT": "解鎖結局【有點眼熟？】",
+        "contentJp": "End2.見覚えしかない",
+        "contentEn": "Unlock the Ending - Looking Familiar",
+        "contentKr": "End2. 어디서 본 것 같은데?",
+        "reward": "302007-1"
+    },
+    {
+        "id": 2200051,
+        "type": 2,
+        "contentChs": "解锁结局【男人的风格】",
+        "contentChsT": "解鎖結局【男人的風格】",
+        "contentJp": "End3.漢の風格",
+        "contentEn": "Unlock the Ending - The Style of a Man",
+        "contentKr": "End3. 남자의 품격",
+        "reward": "100002-12000"
+    },
+    {
+        "id": 2200052,
+        "type": 1,
+        "contentChs": "解锁结局【港湾】",
+        "contentChsT": "解鎖結局【港灣】",
+        "contentJp": "End4.帰れる港",
+        "contentEn": "Unlock the Ending - Home Harbor",
+        "contentKr": "End4. 항구",
+        "reward": "304005-1"
+    },
+    {
+        "id": 2200061,
+        "type": 2,
+        "contentChs": "解锁结局【还有明天】",
+        "contentChsT": "解鎖結局【還有明天】",
+        "contentJp": "End5.明日も楽しもう",
+        "contentEn": "Unlock the Ending - There's Always Tomorrow",
+        "contentKr": "End5. 내일이 있잖아",
+        "reward": "304006-1"
+    },
+    {
+        "id": 2200062,
+        "type": 1,
+        "contentChs": "解锁结局【连接未来的回忆】",
+        "contentChsT": "解鎖結局【連接未來的回憶】",
+        "contentJp": "End6.未来へつなぐ思い出",
+        "contentEn": "Unlock the Ending - Memories Leading to Future",
+        "contentKr": "End6. 미래로 이어지는 추억",
+        "reward": "302001-1"
+    },
+    {
+        "id": 500041,
+        "type": 1,
+        "contentChs": "解锁结局【亲密的朋友】",
+        "contentChsT": "解鎖結局【親密的朋友】",
+        "contentJp": "End1.フクニャン、親友を見つける",
+        "contentEn": "Unlock the Ending - Tubby's New Friend",
+        "contentKr": "End1. 푸린의 새로운 친구",
+        "reward": "100002-8000"
+    },
+    {
+        "id": 500042,
+        "type": 2,
+        "contentChs": "解锁结局【胖丁回家】",
+        "contentChsT": "解鎖結局【胖丁回家】",
+        "contentJp": "End2.フクニャン、家に帰る",
+        "contentEn": "Unlock the Ending - Tubby Returned Home",
+        "contentKr": "End2. 돌아온 푸린",
+        "reward": "302012-1"
+    },
+    {
+        "id": 500051,
+        "type": 1,
+        "contentChs": "解锁结局【并不重要的真相】",
+        "contentChsT": "解鎖結局【並不重要的真相】",
+        "contentJp": "End3.明かされなかった真実",
+        "contentEn": "Unlock the Ending - The Truth Unrevealed",
+        "contentKr": "End3. 중요하지 않은 진실",
+        "reward": "304005-1"
+    },
+    {
+        "id": 500052,
+        "type": 3,
+        "contentChs": "解锁结局【被保护的秘密】",
+        "contentChsT": "解鎖結局【被保護的秘密】",
+        "contentJp": "End4.守られた秘密",
+        "contentEn": "Unlock the Ending - The Secret Is Safe",
+        "contentKr": "End4. 지켜진 비밀",
+        "reward": "100002-8000"
+    },
+    {
+        "id": 500053,
+        "type": 2,
+        "contentChs": "解锁结局【名字很长的书】",
+        "contentChsT": "解鎖結局【名字很長的書】",
+        "contentJp": "End5.長すぎタイトルのラノベにご用心",
+        "contentEn": "Unlock the Ending - Beware of Books with Long Titles",
+        "contentKr": "End5. 제목이 긴 책",
+        "reward": "302006-1"
+    },
+    {
+        "id": 500061,
+        "type": 1,
+        "contentChs": "解锁结局【只为你的神乐舞】",
+        "contentChsT": "解鎖結局【只為你的神樂舞】",
+        "contentJp": "End6.観客はあなただけ",
+        "contentEn": "Unlock the Ending - A Dance Just for You",
+        "contentKr": "End6. 당신만을 위한 춤",
+        "reward": "302001-1"
+    },
+    {
+        "id": 500062,
+        "type": 2,
+        "contentChs": "解锁结局【美好的庆典】",
+        "contentChsT": "解鎖結局【美好的慶典】",
+        "contentJp": "End7.素晴らしいお祭り",
+        "contentEn": "Unlock the Ending - A Beautiful Festival",
+        "contentKr": "End7. 즐거운 축제",
+        "reward": "304006-1"
+    },
+    {
+        "id": 500063,
+        "type": 3,
+        "contentChs": "解锁结局【神乐铃】",
+        "contentChsT": "解鎖結局【神樂鈴】",
+        "contentJp": "End8.神楽鈴",
+        "contentEn": "Unlock the Ending - The Kagura Bell",
+        "contentKr": "End8. 무녀의 방울",
+        "reward": "100002-8000"
+    },
+    {
+        "id": 1300041,
+        "type": 1,
+        "contentChs": "解锁结局【科学怪人的胜利】",
+        "contentChsT": "解鎖結局【科學怪人的勝利】",
+        "contentJp": "End1.「怪物」の勝利",
+        "contentEn": "Unlock the Ending - Victory for Frankenstein",
+        "contentKr": "End1. 프랑켄슈타인의 승리",
+        "reward": "302009-1"
+    },
+    {
+        "id": 1300042,
+        "type": 2,
+        "contentChs": "解锁结局【意外收获】",
+        "contentChsT": "解鎖結局【意外收穫】",
+        "contentJp": "End2.思わぬ収穫",
+        "contentEn": "Unlock the Ending - Unexpected Bonus",
+        "contentKr": "End2. 뜻밖의 수확",
+        "reward": "302010-1"
+    },
+    {
+        "id": 1300043,
+        "type": 3,
+        "contentChs": "解锁结局【吸血鬼伯爵】",
+        "contentChsT": "解鎖結局【吸血鬼伯爵】",
+        "contentJp": "End3.ドラキュラ伯爵",
+        "contentEn": "Unlock the Ending - Fall of the Vampire",
+        "contentKr": "End3. 드라큘라 백작",
+        "reward": "100002-8000"
+    },
+    {
+        "id": 1300051,
+        "type": 1,
+        "contentChs": "解锁结局【你好，新朋友】",
+        "contentChsT": "解鎖結局【你好，新朋友】",
+        "contentJp": "End4.これからもよろしく",
+        "contentEn": "Unlock the Ending - Hello, New Friends",
+        "contentKr": "End4. 안녕, 새로운 친구",
+        "reward": "304005-1"
+    },
+    {
+        "id": 1300052,
+        "type": 2,
+        "contentChs": "解锁结局【学霸的知识盲区】",
+        "contentChsT": "解鎖結局【學霸的知識盲區】",
+        "contentJp": "End5.そこは盲点でした",
+        "contentEn": "Unlock the Ending - Straight-A Student's Blindspot",
+        "contentKr": "End5. 지식의 사각지대",
+        "reward": "100002-12000"
+    },
+    {
+        "id": 1300061,
+        "type": 1,
+        "contentChs": "解锁结局【完美通关】",
+        "contentChsT": "解鎖結局【完美通關】",
+        "contentJp": "End6.パーフェクトクリア",
+        "contentEn": "Unlock the Ending - Perfect Victory",
+        "contentKr": "End6. 퍼펙트 클리어",
+        "reward": "302001-1"
+    },
+    {
+        "id": 1300062,
+        "type": 3,
+        "contentChs": "解锁结局【Game Over】",
+        "contentChsT": "解鎖結局【Game Over】",
+        "contentJp": "End7.ゲームオーバー",
+        "contentEn": "Unlock the Ending - Game Over",
+        "contentKr": "End7. 게임 오버",
+        "reward": "304006-1"
+    },
+    {
+        "id": 600041,
+        "type": 2,
+        "contentChs": "解锁结局【欲言又止】",
+        "contentChsT": "解鎖結局【欲言又止】",
+        "contentJp": "End1.今日はお疲れ",
+        "contentEn": "Unlock the Ending - Hesitant Words",
+        "contentKr": "End1. 머뭇거리는 입술",
+        "reward": "100002-8000"
+    },
+    {
+        "id": 600042,
+        "type": 1,
+        "contentChs": "解锁结局【畅聊之夜】",
+        "contentChsT": "解鎖結局【暢聊之夜】",
+        "contentJp": "End2.旅の約束",
+        "contentEn": "Unlock the Ending - Fun Night Out",
+        "contentKr": "End2. 즐거운 저녁",
+        "reward": "302005-1"
+    },
+    {
+        "id": 600051,
+        "type": 3,
+        "contentChs": "解锁结局【匆匆结束的同行】",
+        "contentChsT": "解鎖結局【匆匆結束的同行】",
+        "contentJp": "End3.早まった行動",
+        "contentEn": "Unlock the Ending - Unfinished Journey",
+        "contentKr": "End3. 끝나지 않은 여정",
+        "reward": "100002-8000"
+    },
+    {
+        "id": 600052,
+        "type": 2,
+        "contentChs": "解锁结局【平平无奇的纪念】",
+        "contentChsT": "解鎖結局【平平無奇的紀念】",
+        "contentJp": "End4.ありきたりの記念写真",
+        "contentEn": "Unlock the Ending - Unremarkable Memento",
+        "contentKr": "End4. 인상깊은 순간",
+        "reward": "302007-1"
+    },
+    {
+        "id": 600053,
+        "type": 1,
+        "contentChs": "解锁结局【念念难忘的羁绊】",
+        "contentChsT": "解鎖結局【念念難忘的羈絆】",
+        "contentJp": "End5.忘れられない絆",
+        "contentEn": "Unlock the Ending - Unforgettable Bond",
+        "contentKr": "End5. 잊을 수 없는 속박",
+        "reward": "304005-1"
+    },
+    {
+        "id": 600061,
+        "type": 3,
+        "contentChs": "解锁结局【失败的作战】",
+        "contentChsT": "解鎖結局【失敗的作戰】",
+        "contentJp": "End6.作戦失敗！",
+        "contentEn": "Unlock the Ending - Challenge Lost",
+        "contentKr": "End6. 실패한 작전",
+        "reward": "100002-8000"
+    },
+    {
+        "id": 600062,
+        "type": 2,
+        "contentChs": "解锁结局【成功的作战】",
+        "contentChsT": "解鎖結局【成功的作戰】",
+        "contentJp": "End7.作戦成功！",
+        "contentEn": "Unlock the Ending - Challenge Won",
+        "contentKr": "End7. 성공한 작전",
+        "reward": "304006-1"
+    },
+    {
+        "id": 600063,
+        "type": 1,
+        "contentChs": "解锁结局【惊喜的作战】",
+        "contentChsT": "解鎖結局【驚喜的作戰】",
+        "contentJp": "End8.スペシャルなサプライズ",
+        "contentEn": "Unlock the Ending - Surprising Challenge",
+        "contentKr": "End8. 깜짝 작전",
+        "reward": "302001-1"
+    },
+    {
+        "id": 1400041,
+        "type": 2,
+        "contentChs": "解锁结局【微笑面具】",
+        "contentChsT": "解鎖結局【微笑面具】",
+        "contentJp": "End1.笑顔の仮面",
+        "contentEn": "Unlock the Ending - Mask of Smiles",
+        "contentKr": "End1. 미소짓는 가면",
+        "reward": "100002-8000"
+    },
+    {
+        "id": 1400042,
+        "type": 1,
+        "contentChs": "解锁结局【非完美人设】",
+        "contentChsT": "解鎖結局【非完美人設】",
+        "contentJp": "End2.完璧じゃない君",
+        "contentEn": "Unlock the Ending - Non-Perfection",
+        "contentKr": "End2. 인물 미정",
+        "reward": "302012-1"
+    },
+    {
+        "id": 1400051,
+        "type": 2,
+        "contentChs": "解锁结局【盛装舞步】",
+        "contentChsT": "解鎖結局【盛裝舞步】",
+        "contentJp": "End3.優美なステップ",
+        "contentEn": "Unlock the Ending - Dressage",
+        "contentKr": "End3. 마장마술",
+        "reward": "302008-1"
+    },
+    {
+        "id": 1400052,
+        "type": 1,
+        "contentChs": "解锁结局【冠亚之争】",
+        "contentChsT": "解鎖結局【冠亞之爭】",
+        "contentJp": "End4.一位と二位",
+        "contentEn": "Unlock the Ending - Championship",
+        "contentKr": "End4. 챔피언은 누구?",
+        "reward": "304005-1"
+    },
+    {
+        "id": 1400053,
+        "type": 3,
+        "contentChs": "解锁结局【秘密心事】",
+        "contentChsT": "解鎖結局【秘密心事】",
+        "contentJp": "End5.心に秘めた思い",
+        "contentEn": "Unlock the Ending - Private Thoughts",
+        "contentKr": "End5. 비밀스러운 생각들",
+        "reward": "100002-12000"
+    },
+    {
+        "id": 1400061,
+        "type": 2,
+        "contentChs": "解锁结局【独家记忆】",
+        "contentChsT": "解鎖結局【獨家記憶】",
+        "contentJp": "End6.私だけの思い出",
+        "contentEn": "Unlock the Ending - Exclusive Memory",
+        "contentKr": "End6. 나만의 기억",
+        "reward": "304006-1"
+    },
+    {
+        "id": 1400062,
+        "type": 1,
+        "contentChs": "解锁结局【过去、现在和未来】",
+        "contentChsT": "解鎖結局【過去、現在和未來】",
+        "contentJp": "End7.過去、今と未来",
+        "contentEn": "Unlock the Ending - Past, Present, and Future",
+        "contentKr": "End7. 과거, 현재 그리고 미래",
+        "reward": "302001-1"
+    },
+    {
+        "id": 1600041,
+        "type": 2,
+        "contentChs": "解锁结局【奇怪的客人】",
+        "contentChsT": "解鎖結局【奇怪的客人】",
+        "contentJp": "End1. 変わったお客さん",
+        "contentEn": "Unlock the Ending - A Weird Customer",
+        "contentKr": "End1. 이상한 사람",
+        "reward": "100002-8000"
+    },
+    {
+        "id": 1600042,
+        "type": 1,
+        "contentChs": "解锁结局【小丑之舞】",
+        "contentChsT": "解鎖結局【小丑之舞】",
+        "contentJp": "End2. ピエロの舞",
+        "contentEn": "Unlock the Ending - Dance of the Clown",
+        "contentKr": "End2. 춤추는 삐에로",
+        "reward": "302006-1"
+    },
+    {
+        "id": 1600051,
+        "type": 2,
+        "contentChs": "解锁结局【燃烧于野】",
+        "contentChsT": "解鎖結局【燃燒於野】",
+        "contentJp": "End3. 荒野で燃え盛る炎",
+        "contentEn": "Unlock the Ending - Flames in the Wild",
+        "contentKr": "End3. 들판 위 불꽃",
+        "reward": "302008-1"
+    },
+    {
+        "id": 1600052,
+        "type": 1,
+        "contentChs": "解锁结局【故乡】",
+        "contentChsT": "解鎖結局【故鄉】",
+        "contentJp": "End4. 故郷",
+        "contentEn": "Unlock the Ending - Homeland",
+        "contentKr": "End4. 고향",
+        "reward": "304005-1"
+    },
+    {
+        "id": 1600061,
+        "type": 2,
+        "contentChs": "解锁结局【最后的自尊】",
+        "contentChsT": "解鎖結局【最後的自尊】",
+        "contentJp": "End5. ドン・ホセのプライド",
+        "contentEn": "Unlock the Ending - Last Piece of Pride",
+        "contentKr": "End5. 마지막 자존심",
+        "reward": "304006-1"
+    },
+    {
+        "id": 1600062,
+        "type": 1,
+        "contentChs": "解锁结局【一个难以拒绝的提议】",
+        "contentChsT": "解鎖結局【一個難以拒絕的提議】",
+        "contentJp": "End6. 断れない誘い",
+        "contentEn": "Unlock the Ending - An Enticing Offer",
+        "contentKr": "End6. 거절하기 어려운 제안",
+        "reward": "302001-1"
+    },
+    {
+        "id": 1600063,
+        "type": 3,
+        "contentChs": "解锁结局【平手】",
+        "contentChsT": "解鎖結局【平手】",
+        "contentJp": "End7. 引き分け",
+        "contentEn": "Unlock the Ending - A Tie",
+        "contentKr": "End7. 동점",
+        "reward": "100002-12000"
+    },
+    {
+        "id": 300041,
+        "type": 1,
+        "contentChs": "解锁结局【偶像的意义】",
+        "contentChsT": "解鎖結局【偶像的意義】",
+        "contentJp": "End1.アイドルの価値",
+        "contentEn": "Unlock the Ending - Idol's Purpose",
+        "contentKr": "End1. 아이돌의 의미",
+        "reward": "302005-1"
+    },
+    {
+        "id": 300042,
+        "type": 3,
+        "contentChs": "解锁结局【涨……涨秤了】",
+        "contentChsT": "解鎖結局【漲……漲秤了】",
+        "contentJp": "End2.リバウンドしちゃった……",
+        "contentEn": "Unlock the Ending - Weight... Gained",
+        "contentKr": "End2. 살…쪘어",
+        "reward": "100002-8000"
+    },
+    {
+        "id": 300051,
+        "type": 2,
+        "contentChs": "解锁结局【辟谣声明】",
+        "contentChsT": "解鎖結局【闢謠聲明】",
+        "contentJp": "End3.「デマでした」宣言",
+        "contentEn": "Unlock the Ending - Paparazzo's Statement",
+        "contentKr": "End3. 루머 해명",
+        "reward": "302011-1"
+    },
+    {
+        "id": 300052,
+        "type": 1,
+        "contentChs": "解锁结局【闪闪发光的自己】",
+        "contentChsT": "解鎖結局【閃閃發光的自己】",
+        "contentJp": "End4.光り輝く私",
+        "contentEn": "Unlock the Ending - Become Radiant",
+        "contentKr": "End4. 자체 발광",
+        "reward": "304005-1,100002-12000"
+    },
+    {
+        "id": 300061,
+        "type": 2,
+        "contentChs": "解锁结局【一起创造未来吧】",
+        "contentChsT": "解鎖結局【一起創造未來吧】",
+        "contentJp": "End5.一緒に未来を創ろう！",
+        "contentEn": "Unlock the Ending - Create a Future Together",
+        "contentKr": "End5. 함께하는 미래",
+        "reward": "304006-1"
+    },
+    {
+        "id": 300062,
+        "type": 1,
+        "contentChs": "解锁结局【遇见你真好】",
+        "contentChsT": "解鎖結局【遇見你真好】",
+        "contentJp": "End6.君に会えてよかった！",
+        "contentEn": "Unlock the Ending - Happy to Have Met You",
+        "contentKr": "End6. 네가 있어 참 좋다",
+        "reward": "302001-1"
+    },
+    {
+        "id": 1700041,
+        "type": 1,
+        "contentChs": "解锁结局【早安，二之宫】",
+        "contentChsT": "解鎖結局【早安，二之宮】",
+        "contentJp": "End1.おはよう、二之宮さん",
+        "contentEn": "Unlock the Ending - Good Morning, Ninomiya",
+        "contentKr": "End1. 좋은 아침, 니노미야",
+        "reward": "302010-1"
+    },
+    {
+        "id": 1700042,
+        "type": 3,
+        "contentChs": "解锁结局【扑了个空】",
+        "contentChsT": "解鎖結局【撲了個空】",
+        "contentJp": "End2.空回り",
+        "contentEn": "Unlock the Ending - Empty Handed",
+        "contentKr": "End2. 공회전",
+        "reward": "100002-8000"
+    },
+    {
+        "id": 1700051,
+        "type": 1,
+        "contentChs": "解锁结局【春天如期而至】",
+        "contentChsT": "解鎖結局【春天如期而至】",
+        "contentJp": "End3.そして春はやってくる",
+        "contentEn": "Unlock the Ending - Spring Is Here",
+        "contentKr": "End3. 그리고 봄은 온다",
+        "reward": "304005-1"
+    },
+    {
+        "id": 1700052,
+        "type": 2,
+        "contentChs": "解锁结局【秘密舞台】",
+        "contentChsT": "解鎖結局【秘密舞臺】",
+        "contentJp": "End4.秘密のステージ",
+        "contentEn": "Unlock the Ending - Secret Stage",
+        "contentKr": "End4. 비밀 스테이지",
+        "reward": "302012-1"
+    },
+    {
+        "id": 1700053,
+        "type": 2,
+        "contentChs": "解锁结局【方法不止一种】",
+        "contentChsT": "解鎖結局【方法不止一種】",
+        "contentJp": "End5.道は一つだけじゃない",
+        "contentEn": "Unlock the Ending - Another Path",
+        "contentKr": "End5. 여러가지 길",
+        "reward": "100002-12000"
+    },
+    {
+        "id": 1700061,
+        "type": 1,
+        "contentChs": "解锁结局【我一直都在】",
+        "contentChsT": "解鎖結局【我一直都在】",
+        "contentJp": "End6.いつでも君のそばに",
+        "contentEn": "Unlock the Ending - I'll Always Be Here",
+        "contentKr": "End6. 언제나 그대 곁에",
+        "reward": "302001-1"
+    },
+    {
+        "id": 1700062,
+        "type": 2,
+        "contentChs": "解锁结局【前人的智慧】",
+        "contentChsT": "解鎖結局【前人的智慧】",
+        "contentJp": "End7.先人の知恵",
+        "contentEn": "Unlock the Ending - Wisdom of Predecessors",
+        "contentKr": "End7. 선인의 지혜",
+        "reward": "304006-1"
+    },
+    {
+        "id": 400041,
+        "type": 1,
+        "contentChs": "解锁结局【千织的报恩】",
+        "contentChsT": "解鎖結局【千織的報恩】",
+        "contentJp": "End1.千織の恩返し",
+        "contentEn": "Unlock the Ending - Chiori Returns",
+        "contentKr": "End1. 은혜 갚은 치오리",
+        "reward": "302007-1"
+    },
+    {
+        "id": 400042,
+        "type": 2,
+        "contentChs": "解锁结局【主仆间的秘密】",
+        "contentChsT": "解鎖結局【主僕間的秘密】",
+        "contentJp": "End2.二人の秘密",
+        "contentEn": "Unlock the Ending - Secret Between Lady and Maid",
+        "contentKr": "End2. 우리끼리의 비밀",
+        "reward": "100002-8000"
+    },
+    {
+        "id": 400051,
+        "type": 1,
+        "contentChs": "解锁结局【游戏刚刚开始】",
+        "contentChsT": "解鎖結局【遊戲剛剛開始】",
+        "contentJp": "End3.まだ始まったばかり",
+        "contentEn": "Unlock the Ending - The Game Starts Now",
+        "contentKr": "End3. 시작된 게임",
+        "reward": "304005-1"
+    },
+    {
+        "id": 400052,
+        "type": 2,
+        "contentChs": "解锁结局【一回目即结束】",
+        "contentChsT": "解鎖結局【一回目即結束】",
+        "contentJp": "End4.開始即終了",
+        "contentEn": "Unlock the Ending - One Turn Defeat",
+        "contentKr": "End4. 한 번에 끝난 결말",
+        "reward": "302010-1"
+    },
+    {
+        "id": 400053,
+        "type": 3,
+        "contentChs": "解锁结局【暂无入场资格】",
+        "contentChsT": "解鎖結局【暫無入場資格】",
+        "contentJp": "End5.参加資格なし",
+        "contentEn": "Unlock the Ending - Not Qualified for Entry",
+        "contentKr": "End5. 입장 자격 부족",
+        "reward": "100002-12000"
+    },
+    {
+        "id": 400061,
+        "type": 1,
+        "contentChs": "解锁结局【长大前的约定】",
+        "contentChsT": "解鎖結局【長大前的約定】",
+        "contentJp": "End6.大人になる前の約束",
+        "contentEn": "Unlock the Ending - Promise Before Growing Up",
+        "contentKr": "End6. 어른이 되기 전 약속",
+        "reward": "302001-1"
+    },
+    {
+        "id": 400062,
+        "type": 2,
+        "contentChs": "解锁结局【重回日常生活】",
+        "contentChsT": "解鎖結局【重回日常生活】",
+        "contentJp": "End7.いつもの日常へ",
+        "contentEn": "Unlock the Ending - Return to Daily Life",
+        "contentKr": "End7. 다시 일상으로",
+        "reward": "304006-1"
+    },
+    {
+        "id": 1800041,
+        "type": 1,
+        "contentChs": "解锁结局【可靠的前辈】",
+        "contentChsT": "解鎖結局【可靠的前輩】",
+        "contentJp": "End1.頼もしいセンパイ",
+        "contentEn": "Unlock the Ending - Reliable Senpai",
+        "contentKr": "End1. 믿음직한 후배",
+        "reward": "302005-1"
+    },
+    {
+        "id": 1800042,
+        "type": 2,
+        "contentChs": "解锁结局【被记恨了？】",
+        "contentChsT": "解鎖結局【被記恨了？】",
+        "contentJp": "End2.根に持つタイプ？",
+        "contentEn": "Unlock the Ending - Begrudged?",
+        "contentKr": "End2. 복수(?)",
+        "reward": "100002-8000"
+    },
+    {
+        "id": 1800051,
+        "type": 1,
+        "contentChs": "解锁结局【同类的气息】",
+        "contentChsT": "解鎖結局【同類的氣息】",
+        "contentJp": "End3.類は友を呼ぶ",
+        "contentEn": "Unlock the Ending - One of a Kind",
+        "contentKr": "End3. 같은 냄새",
+        "reward": "304005-1"
+    },
+    {
+        "id": 1800052,
+        "type": 2,
+        "contentChs": "解锁结局【想迈出一步的勇气】",
+        "contentChsT": "解鎖結局【想邁出一步的勇氣】",
+        "contentJp": "End4.一歩踏み出す勇気",
+        "contentEn": "Unlock the Ending - Courage for the First Step",
+        "contentKr": "End4. 첫 걸음을 위한 용기",
+        "reward": "302012-1"
+    },
+    {
+        "id": 1800053,
+        "type": 2,
+        "contentChs": "解锁结局【狂奔永不停歇】",
+        "contentChsT": "解鎖結局【狂奔永不停歇】",
+        "contentJp": "End5.ネバー・エンディング・ラン",
+        "contentEn": "Unlock the Ending - Neverending Runaway",
+        "contentKr": "End5. 끝나지 않는 달리기",
+        "reward": "100002-12000"
+    },
+    {
+        "id": 1800061,
+        "type": 1,
+        "contentChs": "解锁结局【最重要的彼此】",
+        "contentChsT": "解鎖結局【最重要的彼此】",
+        "contentJp": "End6.お互いが一番大切",
+        "contentEn": "Unlock the Ending - Important to Each Other",
+        "contentKr": "End6. 중요한 건 우리 둘",
+        "reward": "302001-1"
+    },
+    {
+        "id": 1800062,
+        "type": 2,
+        "contentChs": "解锁结局【流言四起】",
+        "contentChsT": "解鎖結局【流言四起】",
+        "contentJp": "End7.囁かれる噂",
+        "contentEn": "Unlock the Ending - The Start of Rumors",
+        "contentKr": "End7. 스캔들의 시작",
+        "reward": "304006-1"
+    },
+    {
+        "id": 2500041,
+        "type": 1,
+        "contentChs": "解锁结局【另一种生活】",
+        "contentChsT": "解鎖結局【另一種生活】",
+        "contentJp": "End1. 新しい生活",
+        "contentEn": "Unlock the Ending - Another Kind of Life",
+        "contentKr": "End1. 또 다른 라이프 스타일",
+        "reward": "302006-1"
+    },
+    {
+        "id": 2500042,
+        "type": 2,
+        "contentChs": "解锁结局【同甘苦共患难才是真朋友】",
+        "contentChsT": "解鎖結局【同甘苦共患難才是真朋友】",
+        "contentJp": "End2. 苦楽を共にする真の友",
+        "contentEn": "Unlock the Ending - True Friends Share Joys and Sorrows",
+        "contentKr": "End2. 친구라면 동고동락",
+        "reward": "100002-8000"
+    },
+    {
+        "id": 2500043,
+        "type": 2,
+        "contentChs": "解锁结局【这就是水逆吧】",
+        "contentChsT": "解鎖結局【這就是水逆吧】",
+        "contentJp": "End3 やっぱり不運だ！",
+        "contentEn": "Unlock the Ending - What Bad Luck Brings",
+        "contentKr": "End3. 이런 게 불행이지",
+        "reward": "100002-8000"
+    },
+    {
+        "id": 2500051,
+        "type": 1,
+        "contentChs": "解锁结局【良药苦口】",
+        "contentChsT": "解鎖結局【良藥苦口】",
+        "contentJp": "End4. 良薬口に苦し",
+        "contentEn": "Unlock the Ending - Good Medicine Is Bitter",
+        "contentKr": "End4. 좋은 약은 입에 쓴 법",
+        "reward": "304005-1"
+    },
+    {
+        "id": 2500052,
+        "type": 3,
+        "contentChs": "解锁结局【欺骗的惩罚】",
+        "contentChsT": "解鎖結局【欺騙的懲罰】",
+        "contentJp": "End5. 嘘に対する罰",
+        "contentEn": "Unlock the Ending - Punishment for the Lie",
+        "contentKr": "End5. 거짓말의 대가",
+        "reward": "100002-8000"
+    },
+    {
+        "id": 2500061,
+        "type": 1,
+        "contentChs": "解锁结局【新的约定】",
+        "contentChsT": "解鎖結局【新的約定】",
+        "contentJp": "End6.新たな約束",
+        "contentEn": "Unlock the Ending - A New Promise",
+        "contentKr": "End6. 새로운 약속",
+        "reward": "302001-1"
+    },
+    {
+        "id": 2500062,
+        "type": 2,
+        "contentChs": "解锁结局【端水大师】",
+        "contentChsT": "解鎖結局【端水大師】",
+        "contentJp": "End7. 両手に「花」",
+        "contentEn": "Unlock the Ending - Master Peacemaker",
+        "contentKr": "End7. 평정심의 달인",
+        "reward": "302011-1"
+    },
+    {
+        "id": 2500063,
+        "type": 2,
+        "contentChs": "解锁结局【猎人or猎物？】",
+        "contentChsT": "解鎖結局【獵人or獵物？】",
+        "contentJp": "End8. 狩人か獲物か？",
+        "contentEn": "Unlock the Ending - Hunter or Prey?",
+        "contentKr": "End8. 사냥꾼 혹은 사냥감",
+        "reward": "304006-1"
+    },
+    {
+        "id": 800041,
+        "type": 1,
+        "contentChs": "解锁结局【另眼相待】",
+        "contentChsT": "解鎖結局【另眼相待】",
+        "contentJp": "End1.刮目して見よ",
+        "contentEn": "Unlock the Ending - Seeing in a New Light",
+        "contentKr": "End1. 특별 대우",
+        "reward": "302008-1"
+    },
+    {
+        "id": 800042,
+        "type": 2,
+        "contentChs": "解锁结局【干净离场】",
+        "contentChsT": "解鎖結局【乾淨離場】",
+        "contentJp": "End2.綺麗な仕上げ",
+        "contentEn": "Unlock the Ending - A Clean Exit",
+        "contentKr": "End2. 깔끔하게 퇴장",
+        "reward": "100002-6000"
+    },
+    {
+        "id": 800043,
+        "type": 3,
+        "contentChs": "解锁结局【礼貌赴约】",
+        "contentChsT": "解鎖結局【禮貌赴約】",
+        "contentJp": "End3.任務のみをこなす",
+        "contentEn": "Unlock the Ending - A Polite Gesture",
+        "contentKr": "End3. 임무만 수행하라",
+        "reward": "100002-4000"
+    },
+    {
+        "id": 800051,
+        "type": 1,
+        "contentChs": "解锁结局【漂亮的双赢采访】",
+        "contentChsT": "解鎖結局【漂亮的雙贏採訪】",
+        "contentJp": "End4.Win-winなインタビュー",
+        "contentEn": "Unlock the Ending - A Win-win Interview",
+        "contentKr": "End4. 윈윈 인터뷰",
+        "reward": "304005-1"
+    },
+    {
+        "id": 800052,
+        "type": 2,
+        "contentChs": "解锁结局【无法使用的素材】",
+        "contentChsT": "解鎖結局【無法使用的素材】",
+        "contentJp": "End5.使えない素材",
+        "contentEn": "Unlock the Ending - Unusable Shots",
+        "contentKr": "End5. 사용 불가 영상",
+        "reward": "100002-6000"
+    },
+    {
+        "id": 800053,
+        "type": 3,
+        "contentChs": "解锁结局【潦草结束的跟拍】",
+        "contentChsT": "解鎖結局【潦草結束的跟拍】",
+        "contentJp": "End6.早々に終わる撮影",
+        "contentEn": "Unlock the Ending - Hasty Conclusion",
+        "contentKr": "End6. 얼렁뚱땅 마무리",
+        "reward": "100002-4000"
+    },
+    {
+        "id": 800061,
+        "type": 1,
+        "contentChs": "解锁结局【柔软的依靠】",
+        "contentChsT": "解鎖結局【柔軟的依靠】",
+        "contentJp": "End7.心のよりどころ",
+        "contentEn": "Unlock the Ending - Where the Heart Lies",
+        "contentKr": "End7. 마음이 의지할 곳",
+        "reward": "302001-1"
+    },
+    {
+        "id": 800062,
+        "type": 2,
+        "contentChs": "解锁结局【尽在不言中】",
+        "contentChsT": "解鎖結局【盡在不言中】",
+        "contentJp": "End8.言葉はいらない",
+        "contentEn": "Unlock the Ending - Need No Words",
+        "contentKr": "End8. 말은 필요 없어",
+        "reward": "302012-1"
+    },
+    {
+        "id": 800063,
+        "type": 3,
+        "contentChs": "解锁结局【感冒的代价】",
+        "contentChsT": "解鎖結局【感冒的代價】",
+        "contentJp": "End9.休みの代償",
+        "contentEn": "Unlock the Ending - What the Cold Brings",
+        "contentKr": "End9. 감기의 대가",
+        "reward": "304006-1"
+    },
+    {
+        "id": 20000041,
+        "type": 1,
+        "contentChs": "解锁结局【雨过天晴的笑颜】",
+        "contentChsT": "解鎖結局【雨過天晴的笑顏】",
+        "contentJp": "End1.雨のち笑顔",
+        "contentEn": "Unlock the Ending - Smile After the Storm",
+        "contentKr": "End1. 비 온 뒤 맑은 웃음",
+        "reward": "302008-1"
+    },
+    {
+        "id": 20000042,
+        "type": 2,
+        "contentChs": "解锁结局【作业补完计划】",
+        "contentChsT": "解鎖結局【作業補完計畫】",
+        "contentJp": "End2.宿題補完計画",
+        "contentEn": "Unlock the Ending - Homework Finishing Plan",
+        "contentKr": "End2. 숙제 보충 계획",
+        "reward": "100002-8000"
+    },
+    {
+        "id": 20000051,
+        "type": 1,
+        "contentChs": "解锁结局【超级棒冰之神】",
+        "contentChsT": "解鎖結局【超級冰棒之神】",
+        "contentJp": "End3.アルティメットアイスの神様",
+        "contentEn": "Unlock the Ending - Super God of Popsicles",
+        "contentKr": "End3. 슈퍼 아이스크림 신",
+        "reward": "304005-1"
+    },
+    {
+        "id": 20000052,
+        "type": 2,
+        "contentChs": "解锁结局【勇者的下一站】",
+        "contentChsT": "解鎖結局【勇者的下一站】",
+        "contentJp": "End4.勇者の次なる挑戦",
+        "contentEn": "Unlock the Ending - The Next Is...?",
+        "contentKr": "End4. 용사의 다음 목표",
+        "reward": "302011-1"
+    },
+    {
+        "id": 20000053,
+        "type": 3,
+        "contentChs": "解锁结局【义卖日的假期】",
+        "contentChsT": "解鎖結局【義賣日的假期】",
+        "contentJp": "End5.バザーの日はお休み",
+        "contentEn": "Unlock the Ending - Charity Day Break",
+        "contentKr": "End5. 바자회 휴일",
+        "reward": "100002-12000"
+    },
+    {
+        "id": 20000061,
+        "type": 1,
+        "contentChs": "解锁结局【独家回忆的夏天】",
+        "contentChsT": "解鎖結局【獨家回憶的夏天】",
+        "contentJp": "End6.夏の特別な思い出",
+        "contentEn": "Unlock the Ending - Summer of Special Memories",
+        "contentKr": "End6. 특별한 추억의 여름",
+        "reward": "302001-1"
+    },
+    {
+        "id": 20000062,
+        "type": 3,
+        "contentChs": "解锁结局【好好学习的夏天】",
+        "contentChsT": "解鎖結局【好好學習的夏天】",
+        "contentJp": "End7.夏の猛勉強",
+        "contentEn": "Unlock the Ending - Summer of Diligent Learning",
+        "contentKr": "End7. 열심히 공부한 여름",
+        "reward": "304006-1"
+    },
+    {
+        "id": 9400041,
+        "type": 1,
+        "contentChs": "解锁结局【熊猫果然不会出错】",
+        "contentChsT": "解鎖結局【熊貓果然不會出錯】",
+        "contentJp": "End1.パンダだったら間違いない",
+        "contentEn": "Unlock the Ending - Can't Go Wrong with Pandas",
+        "contentKr": "End1. 판다는 틀리지 않아",
+        "reward": "302005-1"
+    },
+    {
+        "id": 9400042,
+        "type": 3,
+        "contentChs": "解锁结局【过于前卫的设计】",
+        "contentChsT": "解鎖結局【過於前衛的設計】",
+        "contentJp": "End2.前衛的すぎるデザイン",
+        "contentEn": "Unlock the Ending - Way Out There Design",
+        "contentKr": "End2. 아방가르드한 디자인",
+        "reward": "100002-8000"
+    },
+    {
+        "id": 9400051,
+        "type": 1,
+        "contentChs": "解锁结局【真实的自己】",
+        "contentChsT": "解鎖結局【真實的自己】",
+        "contentJp": "End3.素の自分",
+        "contentEn": "Unlock the Ending - True Colors",
+        "contentKr": "End3. 진짜 나",
+        "reward": "304005-1"
+    },
+    {
+        "id": 9400052,
+        "type": 3,
+        "contentChs": "解锁结局【训练不能停！】",
+        "contentChsT": "解鎖結局【訓練不能停！】",
+        "contentJp": "End4.トレーニングは続く",
+        "contentEn": "Unlock the Ending - Training Never Stops",
+        "contentKr": "End4. 멈추지 않는 트레이닝!",
+        "reward": "302007-1,100002-12000"
+    },
+    {
+        "id": 9400061,
+        "type": 1,
+        "contentChs": "解锁结局【命运之人】",
+        "contentChsT": "解鎖結局【命運之人】",
+        "contentJp": "End5.運命の人",
+        "contentEn": "Unlock the Ending - The One",
+        "contentKr": "End5. 운명의 상대",
+        "reward": "302001-1"
+    },
+    {
+        "id": 9400062,
+        "type": 3,
+        "contentChs": "解锁结局【当务之急】",
+        "contentChsT": "解鎖結局【當務之急】",
+        "contentJp": "End6.まずは腹ごしらえ",
+        "contentEn": "Unlock the Ending - Top Priority",
+        "contentKr": "End6. 식사가 우선",
+        "reward": "304006-1"
+    },
+    {
+        "id": 700011,
+        "type": 1,
+        "contentChs": "解锁结局【肥皂泡为何是圆的】",
+        "contentChsT": "解鎖結局【肥皂泡為何是圓的】",
+        "contentJp": "End1.シャボン玉が丸い理由",
+        "contentEn": "Unlock the Ending - The Shape of a Bubble",
+        "contentKr": "End1. 비눗방울이 둥근 이유",
+        "reward": "302006-1"
+    },
+    {
+        "id": 700012,
+        "type": 2,
+        "contentChs": "解锁结局【难以预料的咖喱】",
+        "contentChsT": "解鎖結局【難以預料的咖喱】",
+        "contentJp": "End2.未知数なカレー",
+        "contentEn": "Unlock the Ending - Unpredictable Curry",
+        "contentKr": "End2. 예측불가 카레",
+        "reward": "100002-8000"
+    },
+    {
+        "id": 700021,
+        "type": 1,
+        "contentChs": "解锁结局【新世界】",
+        "contentChsT": "解鎖結局【新世界】",
+        "contentJp": "End3.新世界",
+        "contentEn": "Unlock the Ending - My New World",
+        "contentKr": "End3. 새로운 세계",
+        "reward": "304005-1"
+    },
+    {
+        "id": 700022,
+        "type": 2,
+        "contentChs": "解锁结局【方寸世界】",
+        "contentChsT": "解鎖結局【方寸世界】",
+        "contentJp": "End4.方寸世界",
+        "contentEn": "Unlock the Ending - A Tiny World",
+        "contentKr": "End4. 작은 세계",
+        "reward": "302009-1"
+    },
+    {
+        "id": 700031,
+        "type": 1,
+        "contentChs": "解锁结局【基本粒子与夕阳】",
+        "contentChsT": "解鎖結局【基本粒子與夕陽】",
+        "contentJp": "End5.素粒子たちの夕景",
+        "contentEn": "Unlock the Ending - Wind in the Sunset",
+        "contentKr": "End5. 기본 입자와 석양",
+        "reward": "302001-1"
+    },
+    {
+        "id": 700032,
+        "type": 2,
+        "contentChs": "解锁结局【两人的挑战】",
+        "contentChsT": "解鎖結局【兩人的挑戰】",
+        "contentJp": "End6.ふたりの挑戦",
+        "contentEn": "Unlock the Ending - A Challenge for Two",
+        "contentKr": "End6. 두 사람의 도전",
+        "reward": "304006-1"
+    },
+    {
+        "id": 700033,
+        "type": 3,
+        "contentChs": "解锁结局【究极的咖啡】",
+        "contentChsT": "解鎖結局【究極的咖啡】",
+        "contentJp": "End7.究極のコーヒー",
+        "contentEn": "Unlock the Ending - The Ultimate Coffee",
+        "contentKr": "End7. 궁극의 커피",
+        "reward": "100002-12000"
+    },
+    {
+        "id": 900011,
+        "type": 1,
+        "contentChs": "解锁结局【青春悸动攻略】",
+        "contentChsT": "解鎖結局【青春悸動攻略】",
+        "contentJp": "End1.青春のときめき",
+        "contentEn": "Unlock the Ending - Unspoken Feelings",
+        "contentKr": "End1. 두근두근 청춘 프로젝트",
+        "reward": "302005-1"
+    },
+    {
+        "id": 900012,
+        "type": 3,
+        "contentChs": "解锁结局【超出工期的艺术】",
+        "contentChsT": "解鎖結局【超出工期的藝術】",
+        "contentJp": "End2.暴走するお嬢様",
+        "contentEn": "Unlock the Ending - Noble Power Unleashed",
+        "contentKr": "End2. 폭주하는 돈의 힘",
+        "reward": "100002-8000"
+    },
+    {
+        "id": 900013,
+        "type": 2,
+        "contentChs": "解锁结局【失控的钞能力】",
+        "contentChsT": "解鎖結局【失控的鈔能力】",
+        "contentJp": "End3.好事魔多し",
+        "contentEn": "Unlock the Ending - The Belated Artworks",
+        "contentKr": "End3. 마감 시간이 끝난 예술",
+        "reward": "100002-12000"
+    },
+    {
+        "id": 900021,
+        "type": 1,
+        "contentChs": "解锁结局【泽尼娅的世界】",
+        "contentChsT": "解鎖結局【澤尼婭的世界】",
+        "contentJp": "End4.ジニアの世界",
+        "contentEn": "Unlock the Ending - Xenia's World",
+        "contentKr": "End4. 지니아의 세계",
+        "reward": "304005-1"
+    },
+    {
+        "id": 900022,
+        "type": 2,
+        "contentChs": "解锁结局【城堡观光日】",
+        "contentChsT": "解鎖結局【城堡觀光日】",
+        "contentJp": "End5.お屋敷見学ツアー",
+        "contentEn": "Unlock the Ending - Sightseeing at the Manor",
+        "contentKr": "End5. 성 나들이 날",
+        "reward": "302006-1"
+    },
+    {
+        "id": 900031,
+        "type": 1,
+        "contentChs": "解锁结局【此刻启程】",
+        "contentChsT": "解鎖結局【此刻啟程】",
+        "contentJp": "End6.旅立ちの時",
+        "contentEn": "Unlock the Ending - The Journey Begins",
+        "contentKr": "End6. 여정의 시작",
+        "reward": "302001-1"
+    },
+    {
+        "id": 900032,
+        "type": 3,
+        "contentChs": "解锁结局【势在必得】",
+        "contentChsT": "解鎖結局【勢在必得】",
+        "contentJp": "End7.ジニア、次こそは！",
+        "contentEn": "Unlock the Ending - Through Any Barrier",
+        "contentKr": "End7. 필승의 의지",
+        "reward": "304006-1"
+    }
+]
