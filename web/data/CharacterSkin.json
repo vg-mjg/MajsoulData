@@ -1,0 +1,665 @@
+[
+    {
+        "effects": [
+            "",
+            "xiangyuanwu_wq_eff2",
+            "xiangyuanwu_wq_eff3",
+            ""
+        ],
+        "skinid": 400506,
+        "spineLayers": 3,
+        "audioCelebrate": "XYW_SE/240228_qh_xiangyuanwu_celebrate",
+        "audioCelebrateIdle": "",
+        "audioIdle": "",
+        "audioGreeting": "XYW_SE/240228_qh_xiangyuanwu_greeting",
+        "audioClick": "XYW_SE/240228_qh_xiangyuanwu_click",
+        "audioClick2": "",
+        "celebrateDelay": 1
+    },
+    {
+        "effects": [
+            "ALS_SC_eff1",
+            "ALS_SC_eff2",
+            "",
+            ""
+        ],
+        "skinid": 403206,
+        "spineLayers": 1,
+        "audioCelebrate": "ALS_SE_403206/celebrate",
+        "audioCelebrateIdle": "",
+        "audioIdle": "",
+        "audioGreeting": "ALS_SE_403206/greeting",
+        "audioClick": "ALS_SE_403206/click",
+        "audioClick2": "",
+        "celebrateDelay": 1
+    },
+    {
+        "effects": [
+            "",
+            "",
+            "",
+            ""
+        ],
+        "skinid": 402406,
+        "spineLayers": 1,
+        "audioCelebrate": "BJSHZ_SE_402406/celebrate",
+        "audioCelebrateIdle": "",
+        "audioIdle": "",
+        "audioGreeting": "BJSHZ_SE_402406/greeting",
+        "audioClick": "BJSHZ_SE_402406/click",
+        "audioClick2": "",
+        "celebrateDelay": 1
+    },
+    {
+        "effects": [
+            "",
+            "",
+            "",
+            ""
+        ],
+        "skinid": 401906,
+        "spineLayers": 3,
+        "audioCelebrate": "XNYCT_SE_401906/celebrate",
+        "audioCelebrateIdle": "",
+        "audioIdle": "",
+        "audioGreeting": "XNYCT_SE_401906/greeting",
+        "audioClick": "XNYCT_SE_401906/click",
+        "audioClick2": "",
+        "celebrateDelay": 1
+    },
+    {
+        "effects": [
+            "",
+            "",
+            "",
+            ""
+        ],
+        "skinid": 403304,
+        "spineLayers": 1,
+        "audioCelebrate": "SQQSL_SE_403304/celebrate",
+        "audioCelebrateIdle": "",
+        "audioIdle": "",
+        "audioGreeting": "SQQSL_SE_403304/greeting",
+        "audioClick": "SQQSL_SE_403304/click",
+        "audioClick2": "",
+        "celebrateDelay": 1
+    },
+    {
+        "effects": [
+            "Y_01_sustain_eff",
+            "Y_02_sustain_eff",
+            "",
+            ""
+        ],
+        "skinid": 405905,
+        "spineLayers": 1,
+        "audioCelebrate": "Y_SE_405905/celebrate",
+        "audioCelebrateIdle": "",
+        "audioIdle": "",
+        "audioGreeting": "Y_SE_405905/greeting",
+        "audioClick": "Y_SE_405905/click",
+        "audioClick2": "",
+        "celebrateDelay": 1
+    },
+    {
+        "effects": [
+            "",
+            "",
+            "",
+            ""
+        ],
+        "skinid": 409502,
+        "spineLayers": 1,
+        "audioCelebrate": "NFH_SE_409502/celebrate",
+        "audioCelebrateIdle": "",
+        "audioIdle": "",
+        "audioGreeting": "NFH_SE_409502/greeting",
+        "audioClick": "NFH_SE_409502/click",
+        "audioClick2": "NFH_SE_409502/click2",
+        "celebrateDelay": 1
+    },
+    {
+        "effects": [
+            ",fuji_YZ_01_eff",
+            ",fuji_YZ_02_eff",
+            "",
+            ""
+        ],
+        "skinid": 403805,
+        "spineLayers": 1,
+        "audioCelebrate": "FUJI_SE_403805/celebrate",
+        "audioCelebrateIdle": "",
+        "audioIdle": "",
+        "audioGreeting": "FUJI_SE_403805/greeting",
+        "audioClick": "",
+        "audioClick2": "",
+        "celebrateDelay": 1
+    },
+    {
+        "effects": [
+            "",
+            "",
+            "",
+            ""
+        ],
+        "skinid": 400305,
+        "spineLayers": 1,
+        "audioCelebrate": "TTJN_SE_400305/celebrate",
+        "audioCelebrateIdle": "",
+        "audioIdle": "",
+        "audioGreeting": "TTJN_SE_400305/greeting",
+        "audioClick": "TTJN_SE_400305/click",
+        "audioClick2": "",
+        "celebrateDelay": 1
+    },
+    {
+        "effects": [
+            "",
+            "A37_24ws_01_eff,A37_24ws_02_eff",
+            "",
+            ""
+        ],
+        "skinid": 404505,
+        "spineLayers": 2,
+        "audioCelebrate": "A37_SE_404505/celebrate",
+        "audioCelebrateIdle": "",
+        "audioIdle": "",
+        "audioGreeting": "A37_SE_404505/greeting",
+        "audioClick": "A37_SE_404505/click",
+        "audioClick2": "",
+        "celebrateDelay": 1
+    },
+    {
+        "effects": [
+            "",
+            "senchuanlingzi_ws_eff1",
+            "senchuanlingzi_ws_eff2",
+            ""
+        ],
+        "skinid": 404805,
+        "spineLayers": 2,
+        "audioCelebrate": "LZ_SE_404805/celebrate",
+        "audioCelebrateIdle": "",
+        "audioIdle": "",
+        "audioGreeting": "LZ_SE_404805/greeting",
+        "audioClick": "LZ_SE_404805/click",
+        "audioClick2": "",
+        "celebrateDelay": 1
+    },
+    {
+        "effects": [
+            "",
+            "",
+            "",
+            ""
+        ],
+        "skinid": 401709,
+        "spineLayers": 1,
+        "audioCelebrate": "EZGH_SE_401709/celebrate",
+        "audioCelebrateIdle": "",
+        "audioIdle": "",
+        "audioGreeting": "EZGH_SE_401709/greeting",
+        "audioClick": "EZGH_SE_401709/click",
+        "audioClick2": "",
+        "celebrateDelay": 1
+    },
+    {
+        "effects": [
+            "",
+            "",
+            "",
+            ""
+        ],
+        "skinid": 406804,
+        "spineLayers": 1,
+        "audioCelebrate": "RYCY_SE_406804/celebrate",
+        "audioCelebrateIdle": "",
+        "audioIdle": "",
+        "audioGreeting": "RYCY_SE_406804/greeting",
+        "audioClick": "RYCY_SE_406804/click",
+        "audioClick2": "",
+        "celebrateDelay": 1
+    },
+    {
+        "effects": [
+            "",
+            "",
+            "",
+            ""
+        ],
+        "skinid": 400306,
+        "spineLayers": 1,
+        "audioCelebrate": "TTJN_SE_400306/celebrate",
+        "audioCelebrateIdle": "",
+        "audioIdle": "",
+        "audioGreeting": "TTJN_SE_400306/greeting",
+        "audioClick": "TTJN_SE_400306/click",
+        "audioClick2": "",
+        "celebrateDelay": 1
+    },
+    {
+        "effects": [
+            "",
+            "",
+            "",
+            ""
+        ],
+        "skinid": 406004,
+        "spineLayers": 1,
+        "audioCelebrate": "ZKS_SE_406004/celebrate",
+        "audioCelebrateIdle": "ZKS_SE_406004/celebrate_idle",
+        "audioIdle": "",
+        "audioGreeting": "ZKS_SE_406004/greeting",
+        "audioClick": "ZKS_SE_406004/click",
+        "audioClick2": "",
+        "celebrateDelay": 1
+    },
+    {
+        "effects": [
+            "",
+            "",
+            "",
+            ""
+        ],
+        "skinid": 402407,
+        "spineLayers": 1,
+        "audioCelebrate": "BJSHZ_SE_402407/celebrate",
+        "audioCelebrateIdle": "",
+        "audioIdle": "",
+        "audioGreeting": "BJSHZ_SE_402407/greeting",
+        "audioClick": "BJSHZ_SE_402407/click",
+        "audioClick2": "",
+        "celebrateDelay": 1
+    },
+    {
+        "effects": [
+            "",
+            "jiantongying_25hf_eff2",
+            "",
+            "jiantongying_25hf_eff4"
+        ],
+        "skinid": 40010803,
+        "spineLayers": 3,
+        "audioCelebrate": "JTY_SE_40010803/celebrate",
+        "audioCelebrateIdle": "",
+        "audioIdle": "",
+        "audioGreeting": "JTY_SE_40010803/greeting",
+        "audioClick": "JTY_SE_40010803/click",
+        "audioClick2": "",
+        "celebrateDelay": 0
+    },
+    {
+        "effects": [
+            "",
+            "yuanbanlin_25hf_eff2",
+            "yuanbanlin_25hf_eff3",
+            ""
+        ],
+        "skinid": 40010903,
+        "spineLayers": 2,
+        "audioCelebrate": "YBL_SE_40010903/celebrate",
+        "audioCelebrateIdle": "",
+        "audioIdle": "",
+        "audioGreeting": "YBL_SE_40010903/greeting",
+        "audioClick": "YBL_SE_40010903/click",
+        "audioClick2": "",
+        "celebrateDelay": 0
+    },
+    {
+        "effects": [
+            "",
+            "saber_25hf_eff2",
+            "saber_25hf_eff3",
+            ""
+        ],
+        "skinid": 40011003,
+        "spineLayers": 2,
+        "audioCelebrate": "Saber_SE_40011003/celebrate",
+        "audioCelebrateIdle": "",
+        "audioIdle": "",
+        "audioGreeting": "Saber_SE_40011003/greeting",
+        "audioClick": "Saber_SE_40011003/click",
+        "audioClick2": "",
+        "celebrateDelay": 0
+    },
+    {
+        "effects": [
+            "",
+            "archer_25hf_eff2",
+            "archer_25hf_eff3",
+            ""
+        ],
+        "skinid": 40011103,
+        "spineLayers": 2,
+        "audioCelebrate": "Archer_SE_40011103/celebrate",
+        "audioCelebrateIdle": "",
+        "audioIdle": "",
+        "audioGreeting": "Archer_SE_40011103/greeting",
+        "audioClick": "Archer_SE_40011103/click",
+        "audioClick2": "",
+        "celebrateDelay": 0
+    },
+    {
+        "effects": [
+            "",
+            "",
+            "",
+            ""
+        ],
+        "skinid": 402106,
+        "spineLayers": 1,
+        "audioCelebrate": "LGXS_SE_402106/celebrate",
+        "audioCelebrateIdle": "",
+        "audioIdle": "",
+        "audioGreeting": "LGXS_SE_402106/greeting",
+        "audioClick": "LGXS_SE_402106/click",
+        "audioClick2": "",
+        "celebrateDelay": 0
+    },
+    {
+        "effects": [
+            "",
+            "",
+            "",
+            ""
+        ],
+        "skinid": 405906,
+        "spineLayers": 1,
+        "audioCelebrate": "Y_SE_405906/celebrate",
+        "audioCelebrateIdle": "",
+        "audioIdle": "",
+        "audioGreeting": "Y_SE_405906/greeting",
+        "audioClick": "Y_SE_405906/click",
+        "audioClick2": "",
+        "celebrateDelay": 0
+    },
+    {
+        "effects": [
+            "",
+            "",
+            "",
+            ""
+        ],
+        "skinid": 401907,
+        "spineLayers": 1,
+        "audioCelebrate": "XNYCT_SE_401907/celebrate",
+        "audioCelebrateIdle": "",
+        "audioIdle": "",
+        "audioGreeting": "XNYCT_SE_401907/greeting",
+        "audioClick": "XNYCT_SE_401907/click",
+        "audioClick2": "",
+        "celebrateDelay": 0
+    },
+    {
+        "effects": [
+            "",
+            "",
+            "",
+            ""
+        ],
+        "skinid": 400107,
+        "spineLayers": 1,
+        "audioCelebrate": "YJ_SE_400107/celebrate",
+        "audioCelebrateIdle": "",
+        "audioIdle": "",
+        "audioGreeting": "YJ_SE_400107/greeting",
+        "audioClick": "YJ_SE_400107/click",
+        "audioClick2": "",
+        "celebrateDelay": 0
+    },
+    {
+        "effects": [
+            "",
+            "",
+            "",
+            ""
+        ],
+        "skinid": 400907,
+        "spineLayers": 1,
+        "audioCelebrate": "ZNY_SE_400907/celebrate",
+        "audioCelebrateIdle": "",
+        "audioIdle": "",
+        "audioGreeting": "ZNY_SE_400907/greeting",
+        "audioClick": "ZNY_SE_400907/click",
+        "audioClick2": "",
+        "celebrateDelay": 0
+    },
+    {
+        "effects": [
+            "",
+            "liyang_0_eff2",
+            "liyang_0_eff3",
+            ""
+        ],
+        "skinid": 40011202,
+        "spineLayers": 2,
+        "audioCelebrate": "LY_SE_40011202/celebrate",
+        "audioCelebrateIdle": "",
+        "audioIdle": "",
+        "audioGreeting": "LY_SE_40011202/greeting",
+        "audioClick": "LY_SE_40011202/click",
+        "audioClick2": "LY_SE_40011202/click2",
+        "celebrateDelay": 0
+    },
+    {
+        "effects": [
+            "",
+            "liyang_1_eff2",
+            "liyang_1_eff3",
+            ""
+        ],
+        "skinid": 40011203,
+        "spineLayers": 3,
+        "audioCelebrate": "LY_SE_40011203/celebrate",
+        "audioCelebrateIdle": "",
+        "audioIdle": "",
+        "audioGreeting": "LY_SE_40011203/greeting",
+        "audioClick": "LY_SE_40011203/click",
+        "audioClick2": "LY_SE_40011203/click2",
+        "celebrateDelay": 0
+    },
+    {
+        "effects": [
+            "",
+            "qingluan_25summer_eff2",
+            "",
+            ""
+        ],
+        "skinid": 406704,
+        "spineLayers": 1,
+        "audioCelebrate": "QL_SE_406704/celebrate",
+        "audioCelebrateIdle": "",
+        "audioIdle": "",
+        "audioGreeting": "QL_SE_406704/greeting",
+        "audioClick": "QL_SE_406704/click",
+        "audioClick2": "",
+        "celebrateDelay": 0
+    },
+    {
+        "effects": [
+            "",
+            "",
+            "",
+            ""
+        ],
+        "skinid": 402606,
+        "spineLayers": 1,
+        "audioCelebrate": "CT_SE_402606/celebrate",
+        "audioCelebrateIdle": "",
+        "audioIdle": "",
+        "audioGreeting": "CT_SE_402606/greeting",
+        "audioClick": "CT_SE_402606/click",
+        "audioClick2": "",
+        "celebrateDelay": 0
+    },
+    {
+        "effects": [
+            "",
+            "",
+            "",
+            ""
+        ],
+        "skinid": 409003,
+        "spineLayers": 2,
+        "audioCelebrate": "JS_SE_409003/celebrate",
+        "audioCelebrateIdle": "",
+        "audioIdle": "",
+        "audioGreeting": "JS_SE_409003/greeting",
+        "audioClick": "JS_SE_409003/click",
+        "audioClick2": "",
+        "celebrateDelay": 0
+    },
+    {
+        "effects": [
+            "",
+            "",
+            "",
+            ""
+        ],
+        "skinid": 400709,
+        "spineLayers": 2,
+        "audioCelebrate": "BMW_SE_400709/celebrate",
+        "audioCelebrateIdle": "",
+        "audioIdle": "",
+        "audioGreeting": "BMW_SE_400709/greeting",
+        "audioClick": "BMW_SE_400709/click",
+        "audioClick2": "",
+        "celebrateDelay": 0
+    },
+    {
+        "effects": [
+            "",
+            "yuanxiao_25wuxia_eff2",
+            "yuanxiao_25wuxia_eff3",
+            ""
+        ],
+        "skinid": 40010703,
+        "spineLayers": 2,
+        "audioCelebrate": "YX_SE_40010703/celebrate",
+        "audioCelebrateIdle": "",
+        "audioIdle": "",
+        "audioGreeting": "YX_SE_40010703/greeting",
+        "audioClick": "YX_SE_40010703/click",
+        "audioClick2": "",
+        "celebrateDelay": 0
+    },
+    {
+        "effects": [
+            "",
+            "",
+            "",
+            ""
+        ],
+        "skinid": 402907,
+        "spineLayers": 1,
+        "audioCelebrate": "HYJ_SE_402907/celebrate",
+        "audioCelebrateIdle": "",
+        "audioIdle": "",
+        "audioGreeting": "HYJ_SE_402907/greeting",
+        "audioClick": "HYJ_SE_402907/click",
+        "audioClick2": "",
+        "celebrateDelay": 0
+    },
+    {
+        "effects": [
+            "",
+            "lanxing_25yh_eff2",
+            "lanxing_25yh_eff3",
+            ""
+        ],
+        "skinid": 407404,
+        "spineLayers": 2,
+        "audioCelebrate": "LX_SE_407404/celebrate",
+        "audioCelebrateIdle": "",
+        "audioIdle": "",
+        "audioGreeting": "LX_SE_407404/greeting",
+        "audioClick": "LX_SE_407404/click",
+        "audioClick2": "",
+        "celebrateDelay": 0
+    },
+    {
+        "effects": [
+            "",
+            "",
+            "xiangyuanwu_yd_eff3",
+            ""
+        ],
+        "skinid": 400508,
+        "spineLayers": 1,
+        "audioCelebrate": "XYW_SE_400508/celebrate",
+        "audioCelebrateIdle": "",
+        "audioIdle": "",
+        "audioGreeting": "XYW_SE_400508/greeting",
+        "audioClick": "XYW_SE_400508/click",
+        "audioClick2": "",
+        "celebrateDelay": 0
+    },
+    {
+        "effects": [
+            "",
+            "",
+            "",
+            ""
+        ],
+        "skinid": 404806,
+        "spineLayers": 1,
+        "audioCelebrate": "SCLZ_SE_404806/celebrate",
+        "audioCelebrateIdle": "",
+        "audioIdle": "",
+        "audioGreeting": "SCLZ_SE_404806/greeting",
+        "audioClick": "SCLZ_SE_404806/click",
+        "audioClick2": "",
+        "celebrateDelay": 0
+    },
+    {
+        "effects": [
+            "",
+            "",
+            "",
+            ""
+        ],
+        "skinid": 408404,
+        "spineLayers": 1,
+        "audioCelebrate": "LL_SE_408404/celebrate",
+        "audioCelebrateIdle": "",
+        "audioIdle": "",
+        "audioGreeting": "LL_SE_408404/greeting",
+        "audioClick": "LL_SE_408404/click",
+        "audioClick2": "",
+        "celebrateDelay": 0
+    },
+    {
+        "effects": [
+            "",
+            "huayubai_26lf_eff2",
+            "",
+            ""
+        ],
+        "skinid": 409903,
+        "spineLayers": 1,
+        "audioCelebrate": "HYB_SE_409903/celebrate",
+        "audioCelebrateIdle": "",
+        "audioIdle": "",
+        "audioGreeting": "HYB_SE_409903/greeting",
+        "audioClick": "HYB_SE_409903/click",
+        "audioClick2": "",
+        "celebrateDelay": 0
+    },
+    {
+        "effects": [
+            "",
+            "",
+            "",
+            ""
+        ],
+        "skinid": 409803,
+        "spineLayers": 1,
+        "audioCelebrate": "HYQ_SE_409803/celebrate",
+        "audioCelebrateIdle": "",
+        "audioIdle": "",
+        "audioGreeting": "HYQ_SE_409803/greeting",
+        "audioClick": "HYQ_SE_409803/click",
+        "audioClick2": "",
+        "celebrateDelay": 0
+    }
+]

@@ -1,0 +1,417 @@
+[
+    {
+        "id": 10001,
+        "resId": 100001,
+        "resCount": 100
+    },
+    {
+        "id": 10001,
+        "resId": 100002,
+        "resCount": 50000
+    },
+    {
+        "id": 10001,
+        "resId": 302002,
+        "resCount": 100
+    },
+    {
+        "id": 10001,
+        "resId": 200004,
+        "resCount": 1
+    },
+    {
+        "id": 304101,
+        "resId": 303112,
+        "resCount": 1
+    },
+    {
+        "id": 304101,
+        "resId": 303122,
+        "resCount": 1
+    },
+    {
+        "id": 304101,
+        "resId": 303132,
+        "resCount": 1
+    },
+    {
+        "id": 304101,
+        "resId": 303142,
+        "resCount": 1
+    },
+    {
+        "id": 304101,
+        "resId": 303152,
+        "resCount": 1
+    },
+    {
+        "id": 304101,
+        "resId": 303162,
+        "resCount": 1
+    },
+    {
+        "id": 304101,
+        "resId": 303172,
+        "resCount": 1
+    },
+    {
+        "id": 304101,
+        "resId": 303182,
+        "resCount": 1
+    },
+    {
+        "id": 304102,
+        "resId": 303113,
+        "resCount": 1
+    },
+    {
+        "id": 304102,
+        "resId": 303123,
+        "resCount": 1
+    },
+    {
+        "id": 304102,
+        "resId": 303133,
+        "resCount": 1
+    },
+    {
+        "id": 304102,
+        "resId": 303143,
+        "resCount": 1
+    },
+    {
+        "id": 304102,
+        "resId": 303153,
+        "resCount": 1
+    },
+    {
+        "id": 304102,
+        "resId": 303163,
+        "resCount": 1
+    },
+    {
+        "id": 304102,
+        "resId": 303173,
+        "resCount": 1
+    },
+    {
+        "id": 304102,
+        "resId": 303183,
+        "resCount": 1
+    },
+    {
+        "id": 309063,
+        "resId": 400103,
+        "resCount": 1
+    },
+    {
+        "id": 309063,
+        "resId": 400104,
+        "resCount": 1
+    },
+    {
+        "id": 309063,
+        "resId": 400105,
+        "resCount": 1
+    },
+    {
+        "id": 309063,
+        "resId": 400203,
+        "resCount": 1
+    },
+    {
+        "id": 309063,
+        "resId": 400206,
+        "resCount": 1
+    },
+    {
+        "id": 309063,
+        "resId": 400303,
+        "resCount": 1
+    },
+    {
+        "id": 309063,
+        "resId": 400304,
+        "resCount": 1
+    },
+    {
+        "id": 309063,
+        "resId": 400403,
+        "resCount": 1
+    },
+    {
+        "id": 309063,
+        "resId": 400404,
+        "resCount": 1
+    },
+    {
+        "id": 309063,
+        "resId": 400405,
+        "resCount": 1
+    },
+    {
+        "id": 309063,
+        "resId": 400503,
+        "resCount": 1
+    },
+    {
+        "id": 309063,
+        "resId": 400504,
+        "resCount": 1
+    },
+    {
+        "id": 309063,
+        "resId": 400603,
+        "resCount": 1
+    },
+    {
+        "id": 309063,
+        "resId": 400604,
+        "resCount": 1
+    },
+    {
+        "id": 309063,
+        "resId": 400703,
+        "resCount": 1
+    },
+    {
+        "id": 309063,
+        "resId": 400704,
+        "resCount": 1
+    },
+    {
+        "id": 309063,
+        "resId": 400705,
+        "resCount": 1
+    },
+    {
+        "id": 309063,
+        "resId": 400803,
+        "resCount": 1
+    },
+    {
+        "id": 309063,
+        "resId": 400804,
+        "resCount": 1
+    },
+    {
+        "id": 309063,
+        "resId": 400805,
+        "resCount": 1
+    },
+    {
+        "id": 309063,
+        "resId": 400903,
+        "resCount": 1
+    },
+    {
+        "id": 309063,
+        "resId": 400904,
+        "resCount": 1
+    },
+    {
+        "id": 309063,
+        "resId": 401003,
+        "resCount": 1
+    },
+    {
+        "id": 309063,
+        "resId": 401103,
+        "resCount": 1
+    },
+    {
+        "id": 309063,
+        "resId": 401104,
+        "resCount": 1
+    },
+    {
+        "id": 309063,
+        "resId": 401203,
+        "resCount": 1
+    },
+    {
+        "id": 309063,
+        "resId": 401303,
+        "resCount": 1
+    },
+    {
+        "id": 309063,
+        "resId": 401304,
+        "resCount": 1
+    },
+    {
+        "id": 309063,
+        "resId": 401403,
+        "resCount": 1
+    },
+    {
+        "id": 309063,
+        "resId": 401404,
+        "resCount": 1
+    },
+    {
+        "id": 309063,
+        "resId": 401405,
+        "resCount": 1
+    },
+    {
+        "id": 309063,
+        "resId": 401603,
+        "resCount": 1
+    },
+    {
+        "id": 309063,
+        "resId": 401604,
+        "resCount": 1
+    },
+    {
+        "id": 309063,
+        "resId": 401605,
+        "resCount": 1
+    },
+    {
+        "id": 309063,
+        "resId": 401706,
+        "resCount": 1
+    },
+    {
+        "id": 309063,
+        "resId": 401707,
+        "resCount": 1
+    },
+    {
+        "id": 309063,
+        "resId": 401803,
+        "resCount": 1
+    },
+    {
+        "id": 309063,
+        "resId": 401903,
+        "resCount": 1
+    },
+    {
+        "id": 309063,
+        "resId": 401904,
+        "resCount": 1
+    },
+    {
+        "id": 309063,
+        "resId": 401905,
+        "resCount": 1
+    },
+    {
+        "id": 309063,
+        "resId": 402003,
+        "resCount": 1
+    },
+    {
+        "id": 309063,
+        "resId": 402004,
+        "resCount": 1
+    },
+    {
+        "id": 309063,
+        "resId": 402103,
+        "resCount": 1
+    },
+    {
+        "id": 309063,
+        "resId": 402203,
+        "resCount": 1
+    },
+    {
+        "id": 309063,
+        "resId": 402303,
+        "resCount": 1
+    },
+    {
+        "id": 309063,
+        "resId": 402403,
+        "resCount": 1
+    },
+    {
+        "id": 309063,
+        "resId": 402404,
+        "resCount": 1
+    },
+    {
+        "id": 309063,
+        "resId": 402503,
+        "resCount": 1
+    },
+    {
+        "id": 309063,
+        "resId": 402603,
+        "resCount": 1
+    },
+    {
+        "id": 309063,
+        "resId": 402604,
+        "resCount": 1
+    },
+    {
+        "id": 309063,
+        "resId": 402703,
+        "resCount": 1
+    },
+    {
+        "id": 309063,
+        "resId": 402803,
+        "resCount": 1
+    },
+    {
+        "id": 309063,
+        "resId": 402804,
+        "resCount": 1
+    },
+    {
+        "id": 309063,
+        "resId": 402903,
+        "resCount": 1
+    },
+    {
+        "id": 309063,
+        "resId": 403003,
+        "resCount": 1
+    },
+    {
+        "id": 309063,
+        "resId": 403103,
+        "resCount": 1
+    },
+    {
+        "id": 309063,
+        "resId": 403203,
+        "resCount": 1
+    },
+    {
+        "id": 309063,
+        "resId": 403303,
+        "resCount": 1
+    },
+    {
+        "id": 309063,
+        "resId": 403803,
+        "resCount": 1
+    },
+    {
+        "id": 309063,
+        "resId": 403903,
+        "resCount": 1
+    },
+    {
+        "id": 309063,
+        "resId": 404403,
+        "resCount": 1
+    },
+    {
+        "id": 309063,
+        "resId": 404504,
+        "resCount": 1
+    },
+    {
+        "id": 309063,
+        "resId": 405403,
+        "resCount": 1
+    }
+]

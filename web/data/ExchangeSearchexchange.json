@@ -1,0 +1,38 @@
+[
+    {
+        "id": 3001,
+        "sourceCurrency": 100001,
+        "sourceValue": 200,
+        "targetCurrency": 302014,
+        "targetValue": 200,
+        "icon": "extendRes/items/xunmihuishi.jpg",
+        "nameChs": "200寻觅辉石",
+        "nameChsT": "200尋覓輝石",
+        "nameJp": "祈りの輝石200個",
+        "nameEn": "200 Summon Stones",
+        "nameKr": "기원 휘석 200개",
+        "descChs": "集齐特定数量可以进行寻觅。",
+        "descChsT": "集齊一定的數量可以進行尋覓。",
+        "descJp": "お祈りをするときに必要",
+        "descEn": "Collect a specific amount to summon.",
+        "descKor": "기원에 필요한 휘석"
+    },
+    {
+        "id": 3002,
+        "sourceCurrency": 100001,
+        "sourceValue": 1800,
+        "targetCurrency": 302014,
+        "targetValue": 1800,
+        "icon": "extendRes/items/xunmihuishi.jpg",
+        "nameChs": "1800寻觅辉石",
+        "nameChsT": "1800尋覓輝石",
+        "nameJp": "祈りの輝石1,800個",
+        "nameEn": "1,800 Summon Stones",
+        "nameKr": "기원 휘석 1800개",
+        "descChs": "集齐特定数量可以进行寻觅。",
+        "descChsT": "集齊一定的數量可以進行尋覓。",
+        "descJp": "お祈りをするときに必要",
+        "descEn": "Collect a specific amount to summon.",
+        "descKor": "기원에 필요한 휘석"
+    }
+]

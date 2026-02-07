@@ -1,0 +1,62 @@
+[
+    {
+        "activityId": 231201,
+        "pointItemId": 30900006,
+        "pointItemCount": 0,
+        "workbenchCount": 8
+    },
+    {
+        "activityId": 231201,
+        "pointItemId": 30900006,
+        "pointItemCount": 400,
+        "workbenchCount": 10
+    },
+    {
+        "activityId": 231201,
+        "pointItemId": 30900006,
+        "pointItemCount": 800,
+        "workbenchCount": 12
+    },
+    {
+        "activityId": 231201,
+        "pointItemId": 30900006,
+        "pointItemCount": 1300,
+        "workbenchCount": 16
+    },
+    {
+        "activityId": 231201,
+        "pointItemId": 30900006,
+        "pointItemCount": 2300,
+        "workbenchCount": 24
+    },
+    {
+        "activityId": 250601,
+        "pointItemId": 30900091,
+        "pointItemCount": 0,
+        "workbenchCount": 8
+    },
+    {
+        "activityId": 250601,
+        "pointItemId": 30900091,
+        "pointItemCount": 400,
+        "workbenchCount": 10
+    },
+    {
+        "activityId": 250601,
+        "pointItemId": 30900091,
+        "pointItemCount": 800,
+        "workbenchCount": 12
+    },
+    {
+        "activityId": 250601,
+        "pointItemId": 30900091,
+        "pointItemCount": 1300,
+        "workbenchCount": 16
+    },
+    {
+        "activityId": 250601,
+        "pointItemId": 30900091,
+        "pointItemCount": 2300,
+        "workbenchCount": 24
+    }
+]

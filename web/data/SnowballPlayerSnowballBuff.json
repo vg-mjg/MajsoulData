@@ -1,0 +1,178 @@
+[
+    {
+        "activityId": 251201,
+        "buffId": 251211,
+        "level": 1,
+        "nextLevelId": 251212,
+        "type": 0,
+        "effect": 2512011,
+        "unlock": 0,
+        "auto": 1,
+        "price": 0
+    },
+    {
+        "activityId": 251201,
+        "buffId": 251212,
+        "level": 2,
+        "nextLevelId": 251213,
+        "type": 0,
+        "effect": 2512012,
+        "unlock": 0,
+        "auto": 0,
+        "price": 3
+    },
+    {
+        "activityId": 251201,
+        "buffId": 251213,
+        "level": 3,
+        "nextLevelId": 251214,
+        "type": 0,
+        "effect": 2512013,
+        "unlock": 0,
+        "auto": 0,
+        "price": 5
+    },
+    {
+        "activityId": 251201,
+        "buffId": 251214,
+        "level": 4,
+        "nextLevelId": 0,
+        "type": 0,
+        "effect": 2512014,
+        "unlock": 0,
+        "auto": 0,
+        "price": 7
+    },
+    {
+        "activityId": 251201,
+        "buffId": 251221,
+        "level": 1,
+        "nextLevelId": 251222,
+        "type": 1,
+        "effect": 2512021,
+        "unlock": 1,
+        "auto": 1,
+        "price": 0
+    },
+    {
+        "activityId": 251201,
+        "buffId": 251222,
+        "level": 2,
+        "nextLevelId": 251223,
+        "type": 1,
+        "effect": 2512022,
+        "unlock": 1,
+        "auto": 0,
+        "price": 3
+    },
+    {
+        "activityId": 251201,
+        "buffId": 251223,
+        "level": 3,
+        "nextLevelId": 251224,
+        "type": 1,
+        "effect": 2512023,
+        "unlock": 1,
+        "auto": 0,
+        "price": 5
+    },
+    {
+        "activityId": 251201,
+        "buffId": 251224,
+        "level": 4,
+        "nextLevelId": 0,
+        "type": 1,
+        "effect": 2512024,
+        "unlock": 1,
+        "auto": 0,
+        "price": 7
+    },
+    {
+        "activityId": 251201,
+        "buffId": 251231,
+        "level": 1,
+        "nextLevelId": 251232,
+        "type": 2,
+        "effect": 2512031,
+        "unlock": 3,
+        "auto": 1,
+        "price": 0
+    },
+    {
+        "activityId": 251201,
+        "buffId": 251232,
+        "level": 2,
+        "nextLevelId": 251233,
+        "type": 2,
+        "effect": 2512032,
+        "unlock": 3,
+        "auto": 0,
+        "price": 3
+    },
+    {
+        "activityId": 251201,
+        "buffId": 251233,
+        "level": 3,
+        "nextLevelId": 251234,
+        "type": 2,
+        "effect": 2512033,
+        "unlock": 3,
+        "auto": 0,
+        "price": 5
+    },
+    {
+        "activityId": 251201,
+        "buffId": 251234,
+        "level": 4,
+        "nextLevelId": 0,
+        "type": 2,
+        "effect": 2512034,
+        "unlock": 3,
+        "auto": 0,
+        "price": 7
+    },
+    {
+        "activityId": 251201,
+        "buffId": 251241,
+        "level": 1,
+        "nextLevelId": 251242,
+        "type": 3,
+        "effect": 0,
+        "unlock": 0,
+        "auto": 1,
+        "price": 0
+    },
+    {
+        "activityId": 251201,
+        "buffId": 251242,
+        "level": 2,
+        "nextLevelId": 251243,
+        "type": 3,
+        "effect": 5,
+        "unlock": 0,
+        "auto": 0,
+        "price": 3
+    },
+    {
+        "activityId": 251201,
+        "buffId": 251243,
+        "level": 3,
+        "nextLevelId": 251244,
+        "type": 3,
+        "effect": 15,
+        "unlock": 0,
+        "auto": 0,
+        "price": 5
+    },
+    {
+        "activityId": 251201,
+        "buffId": 251244,
+        "level": 4,
+        "nextLevelId": 0,
+        "type": 3,
+        "effect": 25,
+        "unlock": 0,
+        "auto": 0,
+        "price": 7
+    }
+]

@@ -1,0 +1,22 @@
+[
+    {
+        "activityId": 240401,
+        "fundsId": 30900021,
+        "proposalId": 70000001,
+        "proposalConsume": 20,
+        "dailyBuyLimit": 5,
+        "arrowAmount": 10,
+        "maxAmount": 999,
+        "maxProposalPos": 4
+    },
+    {
+        "activityId": 250101,
+        "fundsId": 30900080,
+        "proposalId": 70000010,
+        "proposalConsume": 0,
+        "dailyBuyLimit": 0,
+        "arrowAmount": 10,
+        "maxAmount": 999,
+        "maxProposalPos": 4
+    }
+]

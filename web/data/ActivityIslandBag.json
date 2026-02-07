@@ -1,0 +1,41 @@
+[
+    {
+        "activityId": 240601,
+        "bagId": 101,
+        "bagName": 0,
+        "bagDesc": 0,
+        "bagIconLocked": "",
+        "bagIconUnlocked": "",
+        "matrix": "5,1,1,1,1,1,1,0,0,0,1,1,0,0,0,1,1,0,0,0,1,1,1,1,1,1",
+        "maxMatrix": "5,1,0,1,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,1",
+        "unlockConsume": "30900029-20",
+        "initial": 1,
+        "unlockTaskId": 0
+    },
+    {
+        "activityId": 240601,
+        "bagId": 102,
+        "bagName": 4350,
+        "bagDesc": 4351,
+        "bagIconLocked": "backpack_pop_up_window_huiyeji.png",
+        "bagIconUnlocked": "new_backpack_unlock_huiyeji.png",
+        "matrix": "5,1,1,1,1,1,1,0,1,0,1,1,0,0,0,1,1,0,0,0,1,1,1,1,1,1",
+        "maxMatrix": "5,0,0,1,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0",
+        "unlockConsume": "30900029-30",
+        "initial": 0,
+        "unlockTaskId": 24060701
+    },
+    {
+        "activityId": 240601,
+        "bagId": 103,
+        "bagName": 4352,
+        "bagDesc": 4353,
+        "bagIconLocked": "backpack_pop_up_window_wangjiro.png",
+        "bagIconUnlocked": "new_backpack_unlock_wangjiro.png",
+        "matrix": "5,1,1,1,1,1,1,0,0,0,1,1,0,0,0,1,1,0,0,0,1,1,1,1,1,1",
+        "maxMatrix": "5,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0",
+        "unlockConsume": "30900029-50",
+        "initial": 0,
+        "unlockTaskId": 24060702
+    }
+]

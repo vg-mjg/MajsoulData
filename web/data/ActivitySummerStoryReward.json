@@ -1,0 +1,50 @@
+[
+    {
+        "activityId": 240811,
+        "periodTaskId": 24081201,
+        "buildingIcon": "1",
+        "clickNotice": 3077
+    },
+    {
+        "activityId": 240811,
+        "periodTaskId": 24081202,
+        "buildingIcon": "1",
+        "clickNotice": 3078
+    },
+    {
+        "activityId": 240811,
+        "periodTaskId": 24081203,
+        "buildingIcon": "4",
+        "clickNotice": 3079
+    },
+    {
+        "activityId": 240811,
+        "periodTaskId": 24081204,
+        "buildingIcon": "4",
+        "clickNotice": 3080
+    },
+    {
+        "activityId": 240811,
+        "periodTaskId": 24081205,
+        "buildingIcon": "3",
+        "clickNotice": 3081
+    },
+    {
+        "activityId": 240811,
+        "periodTaskId": 24081206,
+        "buildingIcon": "3",
+        "clickNotice": 3082
+    },
+    {
+        "activityId": 240811,
+        "periodTaskId": 24081207,
+        "buildingIcon": "2",
+        "clickNotice": 3083
+    },
+    {
+        "activityId": 240811,
+        "periodTaskId": 24081208,
+        "buildingIcon": "2",
+        "clickNotice": 3084
+    }
+]

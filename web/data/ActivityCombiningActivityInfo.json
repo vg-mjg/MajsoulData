@@ -1,0 +1,42 @@
+[
+    {
+        "craftBin": [
+            23120101,
+            23120102
+        ],
+        "craftBinPrice": [
+            "30900005-10",
+            "30900005-10"
+        ],
+        "craftBinUnlock": [
+            0,
+            300
+        ],
+        "activityId": 231201,
+        "pointItem": 30900006,
+        "bonusDailyLimit": 10,
+        "multiOrderRate": 0,
+        "oneCoinNum": 0,
+        "coinNumMax": 0
+    },
+    {
+        "craftBin": [
+            25060101,
+            25060102
+        ],
+        "craftBinPrice": [
+            "30900090-10",
+            "30900090-10"
+        ],
+        "craftBinUnlock": [
+            0,
+            300
+        ],
+        "activityId": 250601,
+        "pointItem": 30900091,
+        "bonusDailyLimit": 10,
+        "multiOrderRate": 120,
+        "oneCoinNum": 5,
+        "coinNumMax": 20
+    }
+]

@@ -1,0 +1,42 @@
+[
+    {
+        "id": 1001,
+        "hasRobot": "1",
+        "category": "2",
+        "room": "1,2,3,4,6",
+        "mode": "1,2",
+        "pointCoe": 1
+    },
+    {
+        "id": 1001,
+        "hasRobot": "1",
+        "category": "2",
+        "room": "1,2,3,4,6",
+        "mode": "11,12",
+        "pointCoe": 3
+    },
+    {
+        "id": 1001,
+        "hasRobot": "1",
+        "category": "2",
+        "room": "320",
+        "mode": "1",
+        "pointCoe": 3
+    },
+    {
+        "id": 221201,
+        "hasRobot": "0",
+        "category": "0",
+        "room": "0",
+        "mode": "0",
+        "pointCoe": 1
+    },
+    {
+        "id": 231151,
+        "hasRobot": "0",
+        "category": "0",
+        "room": "0",
+        "mode": "0",
+        "pointCoe": 1
+    }
+]

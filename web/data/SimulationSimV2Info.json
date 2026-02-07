@@ -1,0 +1,24 @@
+[
+    {
+        "activityId": 250401,
+        "playerCharaId": 200001,
+        "eventGroupId": 25040101,
+        "trainResultFail": 180,
+        "trainResultNormal": 270,
+        "trainResultGreat": 540,
+        "trainCap": 10000,
+        "findTingAdj": 5,
+        "shunweima_2": 5,
+        "shunweima_3": -5,
+        "shunweima_4": -15,
+        "matchEventCd": 10,
+        "showArrowBuff": "12001,12002,12004,12005,12014",
+        "addSubBuff": "12003,12033,12013",
+        "attributeAddBuff": "12032",
+        "arrowAmount_12001": 100,
+        "arrowAmount_12002": 100,
+        "arrowAmount_12004": 100,
+        "arrowAmount_12005": 100,
+        "arrowAmount_12014": 100
+    }
+]

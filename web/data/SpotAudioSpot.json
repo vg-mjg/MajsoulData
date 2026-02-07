@@ -1,0 +1,786 @@
+[
+    {
+        "id": 101,
+        "path": "spot/spot_se/dc_gt_001",
+        "timeLength": 0,
+        "str": "人群喧闹声",
+        "type": 0
+    },
+    {
+        "id": 102,
+        "path": "spot/spot_se/dc_gt_002",
+        "timeLength": 0,
+        "str": "脚步声",
+        "type": 0
+    },
+    {
+        "id": 103,
+        "path": "spot/spot_se/dc_gt_003",
+        "timeLength": 0,
+        "str": "推门声",
+        "type": 0
+    },
+    {
+        "id": 104,
+        "path": "spot/spot_se/dc_gt_004",
+        "timeLength": 0,
+        "str": "按钮声",
+        "type": 0
+    },
+    {
+        "id": 105,
+        "path": "spot/spot_se/dc_gt_005",
+        "timeLength": 0,
+        "str": "副露码牌声",
+        "type": 0
+    },
+    {
+        "id": 106,
+        "path": "spot/spot_se/dc_gt_006",
+        "timeLength": 0,
+        "str": "自摸和牌声",
+        "type": 0
+    },
+    {
+        "id": 107,
+        "path": "spot/spot_se/dc_gt_007",
+        "timeLength": 0,
+        "str": "机器洗牌声",
+        "type": 0
+    },
+    {
+        "id": 108,
+        "path": "spot/spot_se/dc_gt_008",
+        "timeLength": 0,
+        "str": "摊开手牌声",
+        "type": 0
+    },
+    {
+        "id": 109,
+        "path": "spot/spot_se/dc_gt_009",
+        "timeLength": 0,
+        "str": "密码解锁声",
+        "type": 0
+    },
+    {
+        "id": 110,
+        "path": "spot/spot_se/dc_gt_010",
+        "timeLength": 0,
+        "str": "敲门声",
+        "type": 0
+    },
+    {
+        "id": 111,
+        "path": "spot/spot_se/dc_gt_011",
+        "timeLength": 0,
+        "str": "响指声",
+        "type": 0
+    },
+    {
+        "id": 112,
+        "path": "spot/spot_se/dc_gt_012",
+        "timeLength": 0,
+        "str": "渐远脚步声",
+        "type": 0
+    },
+    {
+        "id": 113,
+        "path": "spot/spot_se/dc_gt_013",
+        "timeLength": 0,
+        "str": "肚子叫声",
+        "type": 0
+    },
+    {
+        "id": 114,
+        "path": "spot/spot_se/dc_gt_014",
+        "timeLength": 0,
+        "str": "单次击掌声",
+        "type": 0
+    },
+    {
+        "id": 115,
+        "path": "spot/spot_se/dc_gt_015",
+        "timeLength": 0,
+        "str": "金属倒地声",
+        "type": 0
+    },
+    {
+        "id": 116,
+        "path": "spot/spot_se/dc_gt_016",
+        "timeLength": 0,
+        "str": "金属滑动声",
+        "type": 0
+    },
+    {
+        "id": 117,
+        "path": "spot/spot_se/dc_gt_017",
+        "timeLength": 0,
+        "str": "篝火晚会声",
+        "type": 0
+    },
+    {
+        "id": 118,
+        "path": "spot/spot_se/dc_gt_018",
+        "timeLength": 0,
+        "str": "野火燃烧声",
+        "type": 0
+    },
+    {
+        "id": 119,
+        "path": "spot/spot_se/dc_xxd2_001",
+        "timeLength": 0,
+        "str": "来电振动声",
+        "type": 0
+    },
+    {
+        "id": 120,
+        "path": "spot/spot_se/dc_xxd2_001_1",
+        "timeLength": 0,
+        "str": "短信振动声",
+        "type": 0
+    },
+    {
+        "id": 121,
+        "path": "spot/spot_se/dc_xxd2_002",
+        "timeLength": 0,
+        "str": "布料摩擦声",
+        "type": 0
+    },
+    {
+        "id": 122,
+        "path": "spot/spot_se/dc_xxd2_003",
+        "timeLength": 0,
+        "str": "电话忙音",
+        "type": 0
+    },
+    {
+        "id": 123,
+        "path": "spot/spot_se/dc_xxd2_004",
+        "timeLength": 0,
+        "str": "叩击木制品声",
+        "type": 0
+    },
+    {
+        "id": 124,
+        "path": "spot/spot_se/dc_xxd2_005",
+        "timeLength": 0,
+        "str": "撞击木制品声",
+        "type": 0
+    },
+    {
+        "id": 125,
+        "path": "spot/spot_se/dc_xxd3_001",
+        "timeLength": 0,
+        "str": "跑步声",
+        "type": 0
+    },
+    {
+        "id": 126,
+        "path": "spot/spot_se/dc_xxd3_002",
+        "timeLength": 0,
+        "str": "地铁关门声",
+        "type": 0
+    },
+    {
+        "id": 127,
+        "path": "spot/spot_se/dc_xxd3_003",
+        "timeLength": 0,
+        "str": "纸张摩擦声",
+        "type": 0
+    },
+    {
+        "id": 128,
+        "path": "spot/spot_se/dc_xxd3_004",
+        "timeLength": 0,
+        "str": "敲锣声",
+        "type": 0
+    },
+    {
+        "id": 129,
+        "path": "spot/spot_se/dc_xxd3_005",
+        "timeLength": 0,
+        "str": "高跟鞋走路声",
+        "type": 0
+    },
+    {
+        "id": 130,
+        "path": "spot/spot_se/dc_xxd3_006",
+        "timeLength": 0,
+        "str": "举牌声",
+        "type": 0
+    },
+    {
+        "id": 131,
+        "path": "spot/spot_se/dc_xxd3_007",
+        "timeLength": 0,
+        "str": "木槌撞击声",
+        "type": 0
+    },
+    {
+        "id": 132,
+        "path": "spot/spot_se/dc_xxd3_008",
+        "timeLength": 0,
+        "str": "男性叹息声",
+        "type": 0
+    },
+    {
+        "id": 133,
+        "path": "spot/spot_se/dc_xxd3_009",
+        "timeLength": 0,
+        "str": "心跳声",
+        "type": 0
+    },
+    {
+        "id": 134,
+        "path": "spot/spot_se/dc_xxd3_010",
+        "timeLength": 0,
+        "str": "调整安全带声",
+        "type": 0
+    },
+    {
+        "id": 135,
+        "path": "spot/spot_se/dc_xxd3_011",
+        "timeLength": 0,
+        "str": "微电流声",
+        "type": 0
+    },
+    {
+        "id": 136,
+        "path": "spot/spot_se/dc_xxd3_012",
+        "timeLength": 0,
+        "str": "撕魔术贴声",
+        "type": 0
+    },
+    {
+        "id": 137,
+        "path": "spot/spot_se/dc_xxd3_013",
+        "timeLength": 0,
+        "str": "汽车开走声",
+        "type": 0
+    },
+    {
+        "id": 138,
+        "path": "spot/spot_se/dc_xxd4_001",
+        "timeLength": 0,
+        "str": "刹车声",
+        "type": 0
+    },
+    {
+        "id": 139,
+        "path": "spot/spot_se/dc_xxd4_002",
+        "timeLength": 0,
+        "str": "开箱盒声",
+        "type": 0
+    },
+    {
+        "id": 140,
+        "path": "spot/spot_se/dc_xxd4_003",
+        "timeLength": 0,
+        "str": "倒水声",
+        "type": 0
+    },
+    {
+        "id": 141,
+        "path": "spot/spot_se/dc_xxd4_004",
+        "timeLength": 0,
+        "str": "轻放小物品声",
+        "type": 0
+    },
+    {
+        "id": 142,
+        "path": "spot/spot_se/dc_xxd4_005",
+        "timeLength": 0,
+        "str": "细微脚步声",
+        "type": 0
+    },
+    {
+        "id": 143,
+        "path": "spot/spot_se/dc_xxd5_001",
+        "timeLength": 0,
+        "str": "摩托发动声",
+        "type": 0
+    },
+    {
+        "id": 144,
+        "path": "spot/spot_se/dc_xxd5_002",
+        "timeLength": 0,
+        "str": "摩托行驶声",
+        "type": 0
+    },
+    {
+        "id": 145,
+        "path": "spot/spot_se/dc_xxd5_003",
+        "timeLength": 0,
+        "str": "骑行疾风声",
+        "type": 0
+    },
+    {
+        "id": 146,
+        "path": "spot/spot_se/dc_xxd5_004",
+        "timeLength": 0,
+        "str": "摩托减速声",
+        "type": 0
+    },
+    {
+        "id": 147,
+        "path": "spot/spot_se/dc_xxd5_005",
+        "timeLength": 0,
+        "str": "雷雨声",
+        "type": 0
+    },
+    {
+        "id": 148,
+        "path": "spot/spot_se/dc_xxd5_006",
+        "timeLength": 0,
+        "str": "大雨声",
+        "type": 0
+    },
+    {
+        "id": 149,
+        "path": "spot/spot_se/dc_xxd5_007",
+        "timeLength": 0,
+        "str": "移动小物品声",
+        "type": 0
+    },
+    {
+        "id": 150,
+        "path": "spot/spot_se/dc_sould5_001",
+        "timeLength": 0,
+        "str": "金属球棒碰撞",
+        "type": 0
+    },
+    {
+        "id": 151,
+        "path": "spot/spot_se/dc_sould5_002",
+        "timeLength": 0,
+        "str": "鞭子声",
+        "type": 0
+    },
+    {
+        "id": 152,
+        "path": "spot/spot_se/dc_sould5_003",
+        "timeLength": 0,
+        "str": "球棒砸中人",
+        "type": 0
+    },
+    {
+        "id": 153,
+        "path": "spot/spot_se/dc_sould5_004",
+        "timeLength": 0,
+        "str": "虚弱鹤鸣声",
+        "type": 0
+    },
+    {
+        "id": 154,
+        "path": "spot/spot_se/dc_sould5_005",
+        "timeLength": 0,
+        "str": "玄凤鹦鹉叫声",
+        "type": 0
+    },
+    {
+        "id": 155,
+        "path": "spot/spot_se/jt_04_001",
+        "timeLength": 0,
+        "str": "焕然一新",
+        "type": 0
+    },
+    {
+        "id": 156,
+        "path": "spot/spot_se/hd_01_001",
+        "timeLength": 0,
+        "str": "男性挨打声",
+        "type": 0
+    },
+    {
+        "id": 157,
+        "path": "spot/spot_se/hd_01_002",
+        "timeLength": 0,
+        "str": "哨子声",
+        "type": 0
+    },
+    {
+        "id": 158,
+        "path": "spot/spot_se/hd_02_001",
+        "timeLength": 0,
+        "str": "多敲几下的敲门声",
+        "type": 0
+    },
+    {
+        "id": 159,
+        "path": "spot/spot_se/hd_02_002",
+        "timeLength": 0,
+        "str": "开门脚步声",
+        "type": 0
+    },
+    {
+        "id": 160,
+        "path": "spot/spot_se/hd_02_003",
+        "timeLength": 0,
+        "str": "玻璃破碎声",
+        "type": 0
+    },
+    {
+        "id": 161,
+        "path": "spot/spot_se/hd_02_004",
+        "timeLength": 0,
+        "str": "铁门关门声",
+        "type": 0
+    },
+    {
+        "id": 162,
+        "path": "spot/spot_se/hd_02_005",
+        "timeLength": 0,
+        "str": "拖拽铁棍时的脚步声",
+        "type": 0
+    },
+    {
+        "id": 163,
+        "path": "spot/spot_se/hd_02_006",
+        "timeLength": 0,
+        "str": "电棍声",
+        "type": 0
+    },
+    {
+        "id": 164,
+        "path": "spot/spot_se/hd_04_001",
+        "timeLength": 0,
+        "str": "抓娃娃机",
+        "type": 0
+    },
+    {
+        "id": 165,
+        "path": "spot/spot_se/hd_04_002_g",
+        "timeLength": 0,
+        "str": "按钮提示",
+        "type": 0
+    },
+    {
+        "id": 166,
+        "path": "spot/spot_se/hd_07_001_a",
+        "timeLength": 0,
+        "str": "烟花声近1",
+        "type": 0
+    },
+    {
+        "id": 167,
+        "path": "spot/spot_se/hd_07_001_c",
+        "timeLength": 0,
+        "str": "烟花声近2",
+        "type": 0
+    },
+    {
+        "id": 168,
+        "path": "spot/spot_se/hd_07_002_a",
+        "timeLength": 0,
+        "str": "烟花声远1",
+        "type": 0
+    },
+    {
+        "id": 169,
+        "path": "spot/spot_se/hd_07_002_c",
+        "timeLength": 0,
+        "str": "烟花声远2",
+        "type": 0
+    },
+    {
+        "id": 170,
+        "path": "spot/spot_se/hd_08_001",
+        "timeLength": 0,
+        "str": "马蹄声轻",
+        "type": 0
+    },
+    {
+        "id": 171,
+        "path": "spot/spot_se/hd_08_002",
+        "timeLength": 0,
+        "str": "马蹄远去",
+        "type": 0
+    },
+    {
+        "id": 172,
+        "path": "spot/spot_se/hd_08_003",
+        "timeLength": 0,
+        "str": "马蹄疾驰",
+        "type": 0
+    },
+    {
+        "id": 173,
+        "path": "spot/spot_se/hd_09_001",
+        "timeLength": 0,
+        "str": "快门声",
+        "type": 0
+    },
+    {
+        "id": 174,
+        "path": "spot/spot_se/hd_09_002",
+        "timeLength": 0,
+        "str": "鼓掌声",
+        "type": 0
+    },
+    {
+        "id": 175,
+        "path": "spot/spot_se/ZYQD_zongci_01_001",
+        "timeLength": 0,
+        "str": "鸡叫声",
+        "type": 0
+    },
+    {
+        "id": 176,
+        "path": "spot/spot_se/ZYQD_zongci_01_002",
+        "timeLength": 0,
+        "str": "男性喷嚏声",
+        "type": 0
+    },
+    {
+        "id": 177,
+        "path": "spot/spot_se/ZYQD_zongci_01_003",
+        "timeLength": 0,
+        "str": "鞭炮声",
+        "type": 0
+    },
+    {
+        "id": 178,
+        "path": "spot/spot_se/cat_meow_1",
+        "timeLength": 0,
+        "str": "猫叫1",
+        "type": 0
+    },
+    {
+        "id": 179,
+        "path": "spot/spot_se/cat_meow_2",
+        "timeLength": 0,
+        "str": "猫叫2",
+        "type": 0
+    },
+    {
+        "id": 180,
+        "path": "spot/spot_se/cat_meow_3",
+        "timeLength": 0,
+        "str": "猫叫3",
+        "type": 0
+    },
+    {
+        "id": 181,
+        "path": "spot/spot_se/baopo",
+        "timeLength": 0,
+        "str": "爆破声",
+        "type": 0
+    },
+    {
+        "id": 1001,
+        "path": "spot/spot_se/yiliyase01",
+        "timeLength": 0,
+        "str": "伊莉雅音效1",
+        "type": 0
+    },
+    {
+        "id": 1002,
+        "path": "spot/spot_se/yiliyase02",
+        "timeLength": 0,
+        "str": "伊莉雅音效2",
+        "type": 0
+    },
+    {
+        "id": 6001,
+        "path": "spot/spot_bgm/anchaoyongdong",
+        "timeLength": 0,
+        "str": "暗潮涌动",
+        "type": 1
+    },
+    {
+        "id": 6002,
+        "path": "spot/spot_bgm/chenguangchuxian",
+        "timeLength": 0,
+        "str": "晨光初现",
+        "type": 1
+    },
+    {
+        "id": 6003,
+        "path": "spot/spot_bgm/jiuriyixiang",
+        "timeLength": 0,
+        "str": "旧日忆想",
+        "type": 1
+    },
+    {
+        "id": 6004,
+        "path": "spot/spot_bgm/youzaiyouzai",
+        "timeLength": 0,
+        "str": "优哉游哉",
+        "type": 1
+    },
+    {
+        "id": 6005,
+        "path": "spot/spot_bgm/xunmi",
+        "timeLength": 0,
+        "str": "寻觅前bgm",
+        "type": 1
+    },
+    {
+        "id": 10001,
+        "path": "spot/spot_se/bubble01",
+        "timeLength": 0,
+        "str": "气泡-爱心",
+        "type": 0
+    },
+    {
+        "id": 10002,
+        "path": "spot/spot_se/bubble02",
+        "timeLength": 0,
+        "str": "气泡-畅想",
+        "type": 0
+    },
+    {
+        "id": 10003,
+        "path": "spot/spot_se/bubble03",
+        "timeLength": 0,
+        "str": "气泡-惊讶",
+        "type": 0
+    },
+    {
+        "id": 10004,
+        "path": "spot/spot_se/bubble04",
+        "timeLength": 0,
+        "str": "气泡-脸红",
+        "type": 0
+    },
+    {
+        "id": 10005,
+        "path": "spot/spot_se/bubble05",
+        "timeLength": 0,
+        "str": "气泡-流汗",
+        "type": 0
+    },
+    {
+        "id": 10006,
+        "path": "spot/spot_se/bubble06",
+        "timeLength": 0,
+        "str": "气泡-生气",
+        "type": 0
+    },
+    {
+        "id": 10007,
+        "path": "spot/spot_se/bubble07",
+        "timeLength": 0,
+        "str": "气泡-说笑",
+        "type": 0
+    },
+    {
+        "id": 10008,
+        "path": "spot/spot_se/bubble08",
+        "timeLength": 0,
+        "str": "气泡-无语",
+        "type": 0
+    },
+    {
+        "id": 10009,
+        "path": "spot/spot_se/bubble09",
+        "timeLength": 0,
+        "str": "气泡-心碎",
+        "type": 0
+    },
+    {
+        "id": 10010,
+        "path": "spot/spot_se/bubble10",
+        "timeLength": 0,
+        "str": "气泡-疑惑",
+        "type": 0
+    },
+    {
+        "id": 10011,
+        "path": "spot/spot_se/bubble11",
+        "timeLength": 0,
+        "str": "气泡-震惊",
+        "type": 0
+    },
+    {
+        "id": 10012,
+        "path": "spot/spot_se/bubble12",
+        "timeLength": 0,
+        "str": "气泡-注意",
+        "type": 0
+    },
+    {
+        "id": 10013,
+        "path": "spot/spot_se/bubble13",
+        "timeLength": 0,
+        "str": "气泡-混乱",
+        "type": 0
+    },
+    {
+        "id": 10014,
+        "path": "spot/spot_se/bubble14",
+        "timeLength": 0,
+        "str": "气泡-黑线",
+        "type": 0
+    },
+    {
+        "id": 10015,
+        "path": "spot/spot_se/bubble15",
+        "timeLength": 0,
+        "str": "气泡-焦急",
+        "type": 0
+    },
+    {
+        "id": 10016,
+        "path": "spot/spot_se/bubble16",
+        "timeLength": 0,
+        "str": "气泡-叹气",
+        "type": 0
+    },
+    {
+        "id": 10017,
+        "path": "spot/spot_se/bubble17",
+        "timeLength": 0,
+        "str": "气泡-闲聊",
+        "type": 0
+    },
+    {
+        "id": 10018,
+        "path": "spot/spot_se/bubble18",
+        "timeLength": 0,
+        "str": "气泡-星星",
+        "type": 0
+    },
+    {
+        "id": 10019,
+        "path": "spot/spot_se/bubble19",
+        "timeLength": 0,
+        "str": "气泡-音符",
+        "type": 0
+    },
+    {
+        "id": 20001,
+        "path": "spot/spot_ambient_sound/rain_big",
+        "timeLength": 0,
+        "str": "环境音-大雨声",
+        "type": 2
+    },
+    {
+        "id": 20002,
+        "path": "spot/spot_ambient_sound/rain_thunder",
+        "timeLength": 0,
+        "str": "环境音-雷雨声",
+        "type": 2
+    },
+    {
+        "id": 20003,
+        "path": "spot/spot_ambient_sound/rain_thunder_2",
+        "timeLength": 0,
+        "str": "环境音-雷雨声2",
+        "type": 2
+    },
+    {
+        "id": 20004,
+        "path": "spot/spot_ambient_sound/sea_bird",
+        "timeLength": 0,
+        "str": "环境音-海鸥叫",
+        "type": 2
+    },
+    {
+        "id": 20005,
+        "path": "spot/spot_ambient_sound/sea_wave",
+        "timeLength": 0,
+        "str": "环境音-海浪声",
+        "type": 2
+    }
+]

@@ -1,0 +1,26 @@
+[
+    {
+        "activityId": 1135,
+        "rankRateLower": 0,
+        "rankRateUpper": 5,
+        "reward": "100002-50000,304008-1,304009-1,302001-1"
+    },
+    {
+        "activityId": 1135,
+        "rankRateLower": 5,
+        "rankRateUpper": 10,
+        "reward": "100002-50000,304008-1,304009-1"
+    },
+    {
+        "activityId": 1135,
+        "rankRateLower": 10,
+        "rankRateUpper": 25,
+        "reward": "100002-50000,304008-1"
+    },
+    {
+        "activityId": 1135,
+        "rankRateLower": 25,
+        "rankRateUpper": 50,
+        "reward": "100002-50000"
+    }
+]

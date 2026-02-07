@@ -1,0 +1,19 @@
+[
+    {
+        "id": 1001,
+        "startTime": "2020-07-27 04:59:00+08",
+        "endTime": "2020-10-25 06:59:00+08",
+        "disappearTime": "2020-11-01 04:59:00+08",
+        "matchMode": 300,
+        "levelTicketPool": 100101,
+        "ticketRetry": 100102,
+        "pointItemId": 309000,
+        "pointConsume": 100,
+        "descChs": "1st Season",
+        "descChsT": "1st Season",
+        "descJp": "1st Season",
+        "descEn": "Season 1",
+        "descKr": "시즌 1",
+        "desktopType": 1
+    }
+]

@@ -1,0 +1,67 @@
+[
+    {
+        "id": 1,
+        "expStep": 1000,
+        "nameChs": "银之宝匣",
+        "nameChsT": "銀之寶匣",
+        "nameJp": "銀の宝箱",
+        "nameEn": "Silver Chest",
+        "nameKr": "은 보물 상자",
+        "icon": "extendRes/items/present_silver.png",
+        "rewardPool": 10000,
+        "selectCount": 2,
+        "repeated": 1
+    },
+    {
+        "id": 2,
+        "expStep": 1000,
+        "nameChs": "金之宝匣",
+        "nameChsT": "金之寶匣",
+        "nameJp": "金の宝箱",
+        "nameEn": "Gold Chest",
+        "nameKr": "금 보물 상자",
+        "icon": "extendRes/items/present_gold.png",
+        "rewardPool": 10001,
+        "selectCount": 2,
+        "repeated": 1
+    },
+    {
+        "id": 3,
+        "expStep": 1000,
+        "nameChs": "玉之宝匣",
+        "nameChsT": "玉之寶匣",
+        "nameJp": "玉の宝箱",
+        "nameEn": "Jade Chest",
+        "nameKr": "옥 보물 상자",
+        "icon": "extendRes/items/present_jade.png",
+        "rewardPool": 10002,
+        "selectCount": 2,
+        "repeated": 1
+    },
+    {
+        "id": 4,
+        "expStep": 1000,
+        "nameChs": "王者宝匣",
+        "nameChsT": "王者寶匣",
+        "nameJp": "王者の宝箱",
+        "nameEn": "King’s Chest",
+        "nameKr": "왕좌의 보물 상자",
+        "icon": "extendRes/items/present_king.png",
+        "rewardPool": 10003,
+        "selectCount": 2,
+        "repeated": 1
+    },
+    {
+        "id": 5,
+        "expStep": 1000,
+        "nameChs": "一姬的礼物盒",
+        "nameChsT": "一姬的禮物盒",
+        "nameJp": "一姫の宝箱",
+        "nameEn": "Casual Chest",
+        "nameKr": "이치히메의 보물 상자",
+        "icon": "extendRes/items/present_yiji.png",
+        "rewardPool": 10004,
+        "selectCount": 2,
+        "repeated": 1
+    }
+]

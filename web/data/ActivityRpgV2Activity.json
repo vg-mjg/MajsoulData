@@ -1,0 +1,15 @@
+[
+    {
+        "activityId": 220811,
+        "baseAtk": 100,
+        "monsterGroup": 22081101,
+        "sanmaDebuff": 3,
+        "specialDebuff": 3,
+        "hasRobot": 0,
+        "category": "0",
+        "mode": "0",
+        "room": "0",
+        "dailyLimit": 9,
+        "mailTemplateId": 109
+    }
+]

@@ -1,0 +1,163 @@
+[
+    {
+        "id": 901,
+        "level": 0,
+        "skillPoint": 1,
+        "buffId": 9010,
+        "displayValue": 10
+    },
+    {
+        "id": 901,
+        "level": 1,
+        "skillPoint": 2,
+        "buffId": 9011,
+        "displayValue": 15
+    },
+    {
+        "id": 901,
+        "level": 2,
+        "skillPoint": 3,
+        "buffId": 9012,
+        "displayValue": 20
+    },
+    {
+        "id": 901,
+        "level": 3,
+        "skillPoint": 0,
+        "buffId": 9013,
+        "displayValue": 25
+    },
+    {
+        "id": 902,
+        "level": 0,
+        "skillPoint": 1,
+        "buffId": 9020,
+        "displayValue": 2
+    },
+    {
+        "id": 902,
+        "level": 1,
+        "skillPoint": 2,
+        "buffId": 9021,
+        "displayValue": 3
+    },
+    {
+        "id": 902,
+        "level": 2,
+        "skillPoint": 3,
+        "buffId": 9022,
+        "displayValue": 4
+    },
+    {
+        "id": 902,
+        "level": 3,
+        "skillPoint": 0,
+        "buffId": 9023,
+        "displayValue": 5
+    },
+    {
+        "id": 903,
+        "level": 0,
+        "skillPoint": 2,
+        "buffId": 9030,
+        "displayValue": 0
+    },
+    {
+        "id": 903,
+        "level": 1,
+        "skillPoint": 4,
+        "buffId": 9031,
+        "displayValue": 1
+    },
+    {
+        "id": 903,
+        "level": 2,
+        "skillPoint": 6,
+        "buffId": 9032,
+        "displayValue": 2
+    },
+    {
+        "id": 903,
+        "level": 3,
+        "skillPoint": 0,
+        "buffId": 9033,
+        "displayValue": 3
+    },
+    {
+        "id": 904,
+        "level": 0,
+        "skillPoint": 2,
+        "buffId": 9040,
+        "displayValue": 5
+    },
+    {
+        "id": 904,
+        "level": 1,
+        "skillPoint": 4,
+        "buffId": 9041,
+        "displayValue": 3
+    },
+    {
+        "id": 904,
+        "level": 2,
+        "skillPoint": 6,
+        "buffId": 9042,
+        "displayValue": 2
+    },
+    {
+        "id": 904,
+        "level": 3,
+        "skillPoint": 0,
+        "buffId": 9043,
+        "displayValue": 1
+    },
+    {
+        "id": 905,
+        "level": 0,
+        "skillPoint": 3,
+        "buffId": 9050,
+        "displayValue": 5
+    },
+    {
+        "id": 905,
+        "level": 1,
+        "skillPoint": 6,
+        "buffId": 9051,
+        "displayValue": 6
+    },
+    {
+        "id": 905,
+        "level": 2,
+        "skillPoint": 9,
+        "buffId": 9052,
+        "displayValue": 7
+    },
+    {
+        "id": 905,
+        "level": 3,
+        "skillPoint": 0,
+        "buffId": 9053,
+        "displayValue": 8
+    },
+    {
+        "id": 906,
+        "level": 0,
+        "skillPoint": 3,
+        "buffId": 9060,
+        "displayValue": 3
+    },
+    {
+        "id": 906,
+        "level": 1,
+        "skillPoint": 6,
+        "buffId": 9061,
+        "displayValue": 4
+    },
+    {
+        "id": 906,
+        "level": 2,
+        "skillPoint": 0,
+        "buffId": 9062,
+        "displayValue": 5
+    }
+]
