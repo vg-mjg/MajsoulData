@@ -153,11 +153,11 @@ async function main() {
         if (pluginPath) docArgs.push(`--plugin=protoc-gen-doc=${pluginPath}`);
 
         await fs.mkdir('docs', { recursive: true });
-        docArgs.push('--doc_out=docs', '--doc_opt=markdown,README.md', 'liqi.proto');
+        docArgs.push('--doc_out=docs', '--doc_opt=markdown,protocol.md', 'liqi.proto');
 
         try {
             execFileSync('protoc', docArgs, { stdio: 'inherit' });
-            console.log('Documentation generated in docs/README.md');
+            console.log('Documentation generated in docs/protocol.md');
         } catch (docError) {
             console.warn('Docs generation failed (protoc missing?):', docError.message);
         }
