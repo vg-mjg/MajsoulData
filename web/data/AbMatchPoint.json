@@ -1,0 +1,212 @@
+[
+    {
+        "id": 4001,
+        "rank": 1,
+        "desktopIdList": "5,6,8,9,11,12,15,16",
+        "point": 20
+    },
+    {
+        "id": 4001,
+        "rank": 2,
+        "desktopIdList": "5,6,8,9,11,12,15,16",
+        "point": 15
+    },
+    {
+        "id": 4001,
+        "rank": 3,
+        "desktopIdList": "5,6,8,9,11,12,15,16",
+        "point": 10
+    },
+    {
+        "id": 4001,
+        "rank": 4,
+        "desktopIdList": "5,6,8,9,11,12,15,16",
+        "point": 5
+    },
+    {
+        "id": 4001,
+        "rank": 1,
+        "desktopIdList": "19,20,21,22,23,24,25,26",
+        "point": 20
+    },
+    {
+        "id": 4001,
+        "rank": 2,
+        "desktopIdList": "19,20,21,22,23,24,25,26",
+        "point": 12
+    },
+    {
+        "id": 4001,
+        "rank": 3,
+        "desktopIdList": "19,20,21,22,23,24,25,26",
+        "point": 5
+    },
+    {
+        "id": 4002,
+        "rank": 1,
+        "desktopIdList": "5,6,8,9,11,12,15,16",
+        "point": 20
+    },
+    {
+        "id": 4002,
+        "rank": 2,
+        "desktopIdList": "5,6,8,9,11,12,15,16",
+        "point": 15
+    },
+    {
+        "id": 4002,
+        "rank": 3,
+        "desktopIdList": "5,6,8,9,11,12,15,16",
+        "point": 10
+    },
+    {
+        "id": 4002,
+        "rank": 4,
+        "desktopIdList": "5,6,8,9,11,12,15,16",
+        "point": 5
+    },
+    {
+        "id": 4002,
+        "rank": 1,
+        "desktopIdList": "19,20,21,22,23,24,25,26",
+        "point": 20
+    },
+    {
+        "id": 4002,
+        "rank": 2,
+        "desktopIdList": "19,20,21,22,23,24,25,26",
+        "point": 12
+    },
+    {
+        "id": 4002,
+        "rank": 3,
+        "desktopIdList": "19,20,21,22,23,24,25,26",
+        "point": 5
+    },
+    {
+        "id": 4003,
+        "rank": 1,
+        "desktopIdList": "5,6,8,9,11,12,15,16",
+        "point": 20
+    },
+    {
+        "id": 4003,
+        "rank": 2,
+        "desktopIdList": "5,6,8,9,11,12,15,16",
+        "point": 15
+    },
+    {
+        "id": 4003,
+        "rank": 3,
+        "desktopIdList": "5,6,8,9,11,12,15,16",
+        "point": 10
+    },
+    {
+        "id": 4003,
+        "rank": 4,
+        "desktopIdList": "5,6,8,9,11,12,15,16",
+        "point": 5
+    },
+    {
+        "id": 4003,
+        "rank": 1,
+        "desktopIdList": "19,20,21,22,23,24,25,26",
+        "point": 20
+    },
+    {
+        "id": 4003,
+        "rank": 2,
+        "desktopIdList": "19,20,21,22,23,24,25,26",
+        "point": 12
+    },
+    {
+        "id": 4003,
+        "rank": 3,
+        "desktopIdList": "19,20,21,22,23,24,25,26",
+        "point": 5
+    },
+    {
+        "id": 4004,
+        "rank": 1,
+        "desktopIdList": "5,6,8,9,11,12,15,16",
+        "point": 20
+    },
+    {
+        "id": 4004,
+        "rank": 2,
+        "desktopIdList": "5,6,8,9,11,12,15,16",
+        "point": 15
+    },
+    {
+        "id": 4004,
+        "rank": 3,
+        "desktopIdList": "5,6,8,9,11,12,15,16",
+        "point": 10
+    },
+    {
+        "id": 4004,
+        "rank": 4,
+        "desktopIdList": "5,6,8,9,11,12,15,16",
+        "point": 5
+    },
+    {
+        "id": 4004,
+        "rank": 1,
+        "desktopIdList": "19,20,21,22,23,24,25,26",
+        "point": 20
+    },
+    {
+        "id": 4004,
+        "rank": 2,
+        "desktopIdList": "19,20,21,22,23,24,25,26",
+        "point": 12
+    },
+    {
+        "id": 4004,
+        "rank": 3,
+        "desktopIdList": "19,20,21,22,23,24,25,26",
+        "point": 5
+    },
+    {
+        "id": 4005,
+        "rank": 1,
+        "desktopIdList": "5,6,8,9,11,12,15,16",
+        "point": 20
+    },
+    {
+        "id": 4005,
+        "rank": 2,
+        "desktopIdList": "5,6,8,9,11,12,15,16",
+        "point": 15
+    },
+    {
+        "id": 4005,
+        "rank": 3,
+        "desktopIdList": "5,6,8,9,11,12,15,16",
+        "point": 10
+    },
+    {
+        "id": 4005,
+        "rank": 4,
+        "desktopIdList": "5,6,8,9,11,12,15,16",
+        "point": 5
+    },
+    {
+        "id": 4005,
+        "rank": 1,
+        "desktopIdList": "19,20,21,22,23,24,25,26",
+        "point": 20
+    },
+    {
+        "id": 4005,
+        "rank": 2,
+        "desktopIdList": "19,20,21,22,23,24,25,26",
+        "point": 12
+    },
+    {
+        "id": 4005,
+        "rank": 3,
+        "desktopIdList": "19,20,21,22,23,24,25,26",
+        "point": 5
+    }
+]

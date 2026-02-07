@@ -1,0 +1,674 @@
+[
+    {
+        "requiredPos": [
+            1,
+            2,
+            3
+        ],
+        "cardId": 100001,
+        "rewardId": 10000101,
+        "reward": "100002-2000",
+        "rewardType": 1,
+        "nodeMark": 0
+    },
+    {
+        "requiredPos": [
+            4,
+            5,
+            6
+        ],
+        "cardId": 100001,
+        "rewardId": 10000102,
+        "reward": "100002-2000",
+        "rewardType": 1,
+        "nodeMark": 0
+    },
+    {
+        "requiredPos": [
+            7,
+            8,
+            9
+        ],
+        "cardId": 100001,
+        "rewardId": 10000103,
+        "reward": "100002-2000",
+        "rewardType": 1,
+        "nodeMark": 0
+    },
+    {
+        "requiredPos": [
+            1,
+            4,
+            7
+        ],
+        "cardId": 100001,
+        "rewardId": 10000104,
+        "reward": "100002-2000",
+        "rewardType": 1,
+        "nodeMark": 0
+    },
+    {
+        "requiredPos": [
+            2,
+            5,
+            8
+        ],
+        "cardId": 100001,
+        "rewardId": 10000105,
+        "reward": "100002-2000",
+        "rewardType": 1,
+        "nodeMark": 0
+    },
+    {
+        "requiredPos": [
+            3,
+            6,
+            9
+        ],
+        "cardId": 100001,
+        "rewardId": 10000106,
+        "reward": "100002-2000",
+        "rewardType": 1,
+        "nodeMark": 0
+    },
+    {
+        "requiredPos": [
+            1,
+            5,
+            9
+        ],
+        "cardId": 100001,
+        "rewardId": 10000107,
+        "reward": "302005-1",
+        "rewardType": 2,
+        "nodeMark": 0
+    },
+    {
+        "requiredPos": [
+            3,
+            5,
+            7
+        ],
+        "cardId": 100001,
+        "rewardId": 10000108,
+        "reward": "100002-2000",
+        "rewardType": 1,
+        "nodeMark": 0
+    },
+    {
+        "requiredPos": [
+            1,
+            2,
+            3
+        ],
+        "cardId": 100002,
+        "rewardId": 10000201,
+        "reward": "100002-2000",
+        "rewardType": 1,
+        "nodeMark": 0
+    },
+    {
+        "requiredPos": [
+            4,
+            5,
+            6
+        ],
+        "cardId": 100002,
+        "rewardId": 10000202,
+        "reward": "100002-2000",
+        "rewardType": 1,
+        "nodeMark": 0
+    },
+    {
+        "requiredPos": [
+            7,
+            8,
+            9
+        ],
+        "cardId": 100002,
+        "rewardId": 10000203,
+        "reward": "100002-2000",
+        "rewardType": 1,
+        "nodeMark": 0
+    },
+    {
+        "requiredPos": [
+            1,
+            4,
+            7
+        ],
+        "cardId": 100002,
+        "rewardId": 10000204,
+        "reward": "100002-2000",
+        "rewardType": 1,
+        "nodeMark": 0
+    },
+    {
+        "requiredPos": [
+            2,
+            5,
+            8
+        ],
+        "cardId": 100002,
+        "rewardId": 10000205,
+        "reward": "100002-2000",
+        "rewardType": 1,
+        "nodeMark": 0
+    },
+    {
+        "requiredPos": [
+            3,
+            6,
+            9
+        ],
+        "cardId": 100002,
+        "rewardId": 10000206,
+        "reward": "100002-2000",
+        "rewardType": 1,
+        "nodeMark": 0
+    },
+    {
+        "requiredPos": [
+            1,
+            5,
+            9
+        ],
+        "cardId": 100002,
+        "rewardId": 10000207,
+        "reward": "304008-1",
+        "rewardType": 3,
+        "nodeMark": 0
+    },
+    {
+        "requiredPos": [
+            3,
+            5,
+            7
+        ],
+        "cardId": 100002,
+        "rewardId": 10000208,
+        "reward": "302006-1",
+        "rewardType": 2,
+        "nodeMark": 0
+    },
+    {
+        "requiredPos": [
+            1,
+            2,
+            3
+        ],
+        "cardId": 100003,
+        "rewardId": 10000301,
+        "reward": "100002-2000",
+        "rewardType": 1,
+        "nodeMark": 0
+    },
+    {
+        "requiredPos": [
+            4,
+            5,
+            6
+        ],
+        "cardId": 100003,
+        "rewardId": 10000302,
+        "reward": "100002-2000",
+        "rewardType": 1,
+        "nodeMark": 0
+    },
+    {
+        "requiredPos": [
+            7,
+            8,
+            9
+        ],
+        "cardId": 100003,
+        "rewardId": 10000303,
+        "reward": "100002-2000",
+        "rewardType": 1,
+        "nodeMark": 0
+    },
+    {
+        "requiredPos": [
+            1,
+            4,
+            7
+        ],
+        "cardId": 100003,
+        "rewardId": 10000304,
+        "reward": "100002-2000",
+        "rewardType": 1,
+        "nodeMark": 0
+    },
+    {
+        "requiredPos": [
+            2,
+            5,
+            8
+        ],
+        "cardId": 100003,
+        "rewardId": 10000305,
+        "reward": "100002-2000",
+        "rewardType": 1,
+        "nodeMark": 0
+    },
+    {
+        "requiredPos": [
+            3,
+            6,
+            9
+        ],
+        "cardId": 100003,
+        "rewardId": 10000306,
+        "reward": "100002-2000",
+        "rewardType": 1,
+        "nodeMark": 0
+    },
+    {
+        "requiredPos": [
+            1,
+            5,
+            9
+        ],
+        "cardId": 100003,
+        "rewardId": 10000307,
+        "reward": "302007-1",
+        "rewardType": 2,
+        "nodeMark": 0
+    },
+    {
+        "requiredPos": [
+            3,
+            5,
+            7
+        ],
+        "cardId": 100003,
+        "rewardId": 10000308,
+        "reward": "302008-1",
+        "rewardType": 2,
+        "nodeMark": 0
+    },
+    {
+        "requiredPos": [
+            1,
+            2,
+            3
+        ],
+        "cardId": 100004,
+        "rewardId": 10000401,
+        "reward": "100002-2000",
+        "rewardType": 1,
+        "nodeMark": 0
+    },
+    {
+        "requiredPos": [
+            4,
+            5,
+            6
+        ],
+        "cardId": 100004,
+        "rewardId": 10000402,
+        "reward": "100002-2000",
+        "rewardType": 1,
+        "nodeMark": 0
+    },
+    {
+        "requiredPos": [
+            7,
+            8,
+            9
+        ],
+        "cardId": 100004,
+        "rewardId": 10000403,
+        "reward": "100002-2000",
+        "rewardType": 1,
+        "nodeMark": 0
+    },
+    {
+        "requiredPos": [
+            1,
+            4,
+            7
+        ],
+        "cardId": 100004,
+        "rewardId": 10000404,
+        "reward": "100002-2000",
+        "rewardType": 1,
+        "nodeMark": 0
+    },
+    {
+        "requiredPos": [
+            2,
+            5,
+            8
+        ],
+        "cardId": 100004,
+        "rewardId": 10000405,
+        "reward": "100002-2000",
+        "rewardType": 1,
+        "nodeMark": 0
+    },
+    {
+        "requiredPos": [
+            3,
+            6,
+            9
+        ],
+        "cardId": 100004,
+        "rewardId": 10000406,
+        "reward": "100002-2000",
+        "rewardType": 1,
+        "nodeMark": 0
+    },
+    {
+        "requiredPos": [
+            1,
+            5,
+            9
+        ],
+        "cardId": 100004,
+        "rewardId": 10000407,
+        "reward": "304008-1",
+        "rewardType": 3,
+        "nodeMark": 0
+    },
+    {
+        "requiredPos": [
+            3,
+            5,
+            7
+        ],
+        "cardId": 100004,
+        "rewardId": 10000408,
+        "reward": "302009-1",
+        "rewardType": 2,
+        "nodeMark": 0
+    },
+    {
+        "requiredPos": [
+            1,
+            2,
+            3
+        ],
+        "cardId": 100005,
+        "rewardId": 10000501,
+        "reward": "100002-2000",
+        "rewardType": 1,
+        "nodeMark": 0
+    },
+    {
+        "requiredPos": [
+            4,
+            5,
+            6
+        ],
+        "cardId": 100005,
+        "rewardId": 10000502,
+        "reward": "100002-2000",
+        "rewardType": 1,
+        "nodeMark": 0
+    },
+    {
+        "requiredPos": [
+            7,
+            8,
+            9
+        ],
+        "cardId": 100005,
+        "rewardId": 10000503,
+        "reward": "100002-2000",
+        "rewardType": 1,
+        "nodeMark": 0
+    },
+    {
+        "requiredPos": [
+            1,
+            4,
+            7
+        ],
+        "cardId": 100005,
+        "rewardId": 10000504,
+        "reward": "100002-2000",
+        "rewardType": 1,
+        "nodeMark": 0
+    },
+    {
+        "requiredPos": [
+            2,
+            5,
+            8
+        ],
+        "cardId": 100005,
+        "rewardId": 10000505,
+        "reward": "100002-2000",
+        "rewardType": 1,
+        "nodeMark": 0
+    },
+    {
+        "requiredPos": [
+            3,
+            6,
+            9
+        ],
+        "cardId": 100005,
+        "rewardId": 10000506,
+        "reward": "100002-2000",
+        "rewardType": 1,
+        "nodeMark": 0
+    },
+    {
+        "requiredPos": [
+            1,
+            5,
+            9
+        ],
+        "cardId": 100005,
+        "rewardId": 10000507,
+        "reward": "302010-1",
+        "rewardType": 2,
+        "nodeMark": 0
+    },
+    {
+        "requiredPos": [
+            3,
+            5,
+            7
+        ],
+        "cardId": 100005,
+        "rewardId": 10000508,
+        "reward": "302011-1",
+        "rewardType": 2,
+        "nodeMark": 0
+    },
+    {
+        "requiredPos": [
+            1,
+            2,
+            3
+        ],
+        "cardId": 100006,
+        "rewardId": 10000601,
+        "reward": "100002-2000",
+        "rewardType": 1,
+        "nodeMark": 0
+    },
+    {
+        "requiredPos": [
+            4,
+            5,
+            6
+        ],
+        "cardId": 100006,
+        "rewardId": 10000602,
+        "reward": "100002-2000",
+        "rewardType": 1,
+        "nodeMark": 0
+    },
+    {
+        "requiredPos": [
+            7,
+            8,
+            9
+        ],
+        "cardId": 100006,
+        "rewardId": 10000603,
+        "reward": "100002-2000",
+        "rewardType": 1,
+        "nodeMark": 0
+    },
+    {
+        "requiredPos": [
+            1,
+            4,
+            7
+        ],
+        "cardId": 100006,
+        "rewardId": 10000604,
+        "reward": "100002-2000",
+        "rewardType": 1,
+        "nodeMark": 0
+    },
+    {
+        "requiredPos": [
+            2,
+            5,
+            8
+        ],
+        "cardId": 100006,
+        "rewardId": 10000605,
+        "reward": "100002-2000",
+        "rewardType": 1,
+        "nodeMark": 0
+    },
+    {
+        "requiredPos": [
+            3,
+            6,
+            9
+        ],
+        "cardId": 100006,
+        "rewardId": 10000606,
+        "reward": "100002-2000",
+        "rewardType": 1,
+        "nodeMark": 0
+    },
+    {
+        "requiredPos": [
+            1,
+            5,
+            9
+        ],
+        "cardId": 100006,
+        "rewardId": 10000607,
+        "reward": "304008-1",
+        "rewardType": 3,
+        "nodeMark": 0
+    },
+    {
+        "requiredPos": [
+            3,
+            5,
+            7
+        ],
+        "cardId": 100006,
+        "rewardId": 10000608,
+        "reward": "302012-1",
+        "rewardType": 2,
+        "nodeMark": 0
+    },
+    {
+        "requiredPos": [
+            1,
+            2,
+            3
+        ],
+        "cardId": 100007,
+        "rewardId": 10000701,
+        "reward": "100002-2000",
+        "rewardType": 1,
+        "nodeMark": 0
+    },
+    {
+        "requiredPos": [
+            4,
+            5,
+            6
+        ],
+        "cardId": 100007,
+        "rewardId": 10000702,
+        "reward": "100002-2000",
+        "rewardType": 1,
+        "nodeMark": 0
+    },
+    {
+        "requiredPos": [
+            7,
+            8,
+            9
+        ],
+        "cardId": 100007,
+        "rewardId": 10000703,
+        "reward": "100002-2000",
+        "rewardType": 1,
+        "nodeMark": 0
+    },
+    {
+        "requiredPos": [
+            1,
+            4,
+            7
+        ],
+        "cardId": 100007,
+        "rewardId": 10000704,
+        "reward": "100002-2000",
+        "rewardType": 1,
+        "nodeMark": 0
+    },
+    {
+        "requiredPos": [
+            2,
+            5,
+            8
+        ],
+        "cardId": 100007,
+        "rewardId": 10000705,
+        "reward": "100002-2000",
+        "rewardType": 1,
+        "nodeMark": 0
+    },
+    {
+        "requiredPos": [
+            3,
+            6,
+            9
+        ],
+        "cardId": 100007,
+        "rewardId": 10000706,
+        "reward": "100002-2000",
+        "rewardType": 1,
+        "nodeMark": 0
+    },
+    {
+        "requiredPos": [
+            1,
+            5,
+            9
+        ],
+        "cardId": 100007,
+        "rewardId": 10000707,
+        "reward": "304009-1",
+        "rewardType": 4,
+        "nodeMark": 1
+    },
+    {
+        "requiredPos": [
+            3,
+            5,
+            7
+        ],
+        "cardId": 100007,
+        "rewardId": 10000708,
+        "reward": "100002-2000",
+        "rewardType": 1,
+        "nodeMark": 0
+    }
+]

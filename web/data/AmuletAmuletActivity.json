@@ -1,0 +1,80 @@
+[
+    {
+        "initBadgeWeight": [
+            800,
+            140,
+            50,
+            10
+        ],
+        "activityId": 240801,
+        "skillItem": 30900044,
+        "initCoin": 10,
+        "shopCount": 2,
+        "recordLevel": 503,
+        "bookUnlockLevel": 503,
+        "freeEffectGoodsId": 991,
+        "shopRefreshCoin": 5,
+        "effectMaxCount": 5,
+        "initDoraIndicator": 1,
+        "initChangeHand": 3,
+        "initDesktopCount": 36,
+        "initOpenDesktopCount": 6,
+        "initShupaiPoint": 5,
+        "initZipaiPoint": 10,
+        "initMountCount": 10,
+        "initLevel": 101,
+        "initTianCount": 0
+    },
+    {
+        "initBadgeWeight": [
+            800,
+            140,
+            50,
+            10
+        ],
+        "activityId": 250111,
+        "skillItem": 30900044,
+        "initCoin": 10,
+        "shopCount": 2,
+        "recordLevel": 503,
+        "bookUnlockLevel": 503,
+        "freeEffectGoodsId": 991,
+        "shopRefreshCoin": 5,
+        "effectMaxCount": 5,
+        "initDoraIndicator": 1,
+        "initChangeHand": 3,
+        "initDesktopCount": 36,
+        "initOpenDesktopCount": 6,
+        "initShupaiPoint": 5,
+        "initZipaiPoint": 10,
+        "initMountCount": 10,
+        "initLevel": 101,
+        "initTianCount": 0
+    },
+    {
+        "initBadgeWeight": [
+            800,
+            140,
+            50,
+            10
+        ],
+        "activityId": 250811,
+        "skillItem": 30900044,
+        "initCoin": 10,
+        "shopCount": 2,
+        "recordLevel": 503,
+        "bookUnlockLevel": 503,
+        "freeEffectGoodsId": 991,
+        "shopRefreshCoin": 5,
+        "effectMaxCount": 5,
+        "initDoraIndicator": 1,
+        "initChangeHand": 3,
+        "initDesktopCount": 36,
+        "initOpenDesktopCount": 6,
+        "initShupaiPoint": 5,
+        "initZipaiPoint": 10,
+        "initMountCount": 10,
+        "initLevel": 101,
+        "initTianCount": 0
+    }
+]

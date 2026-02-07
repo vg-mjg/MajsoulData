@@ -1,0 +1,142 @@
+[
+    {
+        "id": 5001,
+        "pointLower": 0,
+        "pointUpper": 19,
+        "reward": "100002-5000",
+        "chestMark": 1
+    },
+    {
+        "id": 5001,
+        "pointLower": 20,
+        "pointUpper": 39,
+        "reward": "100002-6000,302005-1",
+        "chestMark": 1
+    },
+    {
+        "id": 5001,
+        "pointLower": 40,
+        "pointUpper": 59,
+        "reward": "100002-8000,302005-1-1,304008-1",
+        "chestMark": 1
+    },
+    {
+        "id": 5001,
+        "pointLower": 60,
+        "pointUpper": 80,
+        "reward": "100002-12000,302005-1-1,304008-1",
+        "chestMark": 1
+    },
+    {
+        "id": 5002,
+        "pointLower": 0,
+        "pointUpper": 19,
+        "reward": "100002-5000",
+        "chestMark": 1
+    },
+    {
+        "id": 5002,
+        "pointLower": 20,
+        "pointUpper": 39,
+        "reward": "100002-6000,304008-1",
+        "chestMark": 1
+    },
+    {
+        "id": 5002,
+        "pointLower": 40,
+        "pointUpper": 59,
+        "reward": "100002-10000,304008-1",
+        "chestMark": 1
+    },
+    {
+        "id": 5002,
+        "pointLower": 60,
+        "pointUpper": 80,
+        "reward": "100002-15000,304008-1,304009-1",
+        "chestMark": 1
+    },
+    {
+        "id": 5003,
+        "pointLower": 0,
+        "pointUpper": 19,
+        "reward": "304008-1",
+        "chestMark": 1
+    },
+    {
+        "id": 5003,
+        "pointLower": 20,
+        "pointUpper": 39,
+        "reward": "100002-8000,304008-1",
+        "chestMark": 1
+    },
+    {
+        "id": 5003,
+        "pointLower": 40,
+        "pointUpper": 59,
+        "reward": "100002-12000,304008-2",
+        "chestMark": 1
+    },
+    {
+        "id": 5003,
+        "pointLower": 60,
+        "pointUpper": 80,
+        "reward": "100002-20000,304008-2,304009-1",
+        "chestMark": 1
+    },
+    {
+        "id": 5004,
+        "pointLower": 0,
+        "pointUpper": 19,
+        "reward": "304008-1,304009-1",
+        "chestMark": 1
+    },
+    {
+        "id": 5004,
+        "pointLower": 20,
+        "pointUpper": 39,
+        "reward": "100002-12000,304008-1,304009-1",
+        "chestMark": 1
+    },
+    {
+        "id": 5004,
+        "pointLower": 40,
+        "pointUpper": 59,
+        "reward": "100002-18000,304008-2,304009-1",
+        "chestMark": 1
+    },
+    {
+        "id": 5004,
+        "pointLower": 60,
+        "pointUpper": 80,
+        "reward": "100002-30000,304008-2,304009-2",
+        "chestMark": 1
+    },
+    {
+        "id": 5005,
+        "pointLower": 0,
+        "pointUpper": 19,
+        "reward": "304008-2,304009-1",
+        "chestMark": 1
+    },
+    {
+        "id": 5005,
+        "pointLower": 20,
+        "pointUpper": 39,
+        "reward": "100002-20000,304008-2,304009-1",
+        "chestMark": 1
+    },
+    {
+        "id": 5005,
+        "pointLower": 40,
+        "pointUpper": 59,
+        "reward": "100002-30000,304008-2,304009-2",
+        "chestMark": 1
+    },
+    {
+        "id": 5005,
+        "pointLower": 60,
+        "pointUpper": 80,
+        "reward": "100002-50000,304008-2,304009-2,304102-1",
+        "chestMark": 1
+    }
+]

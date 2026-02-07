@@ -1,0 +1,2162 @@
+[
+    {
+        "unlockParams": [
+            0,
+            0,
+            0
+        ],
+        "buffId": 10001,
+        "activityId": 1106,
+        "buffLevel": 1,
+        "buffType": 1,
+        "upgradeResourceId": 309030,
+        "upgradeResourceCount": 15,
+        "effect": 120,
+        "effectDesc": 0,
+        "effectDesc_2": 0,
+        "limitCount": 0,
+        "limitInterval": 0
+    },
+    {
+        "unlockParams": [
+            0,
+            0,
+            0
+        ],
+        "buffId": 10001,
+        "activityId": 1106,
+        "buffLevel": 2,
+        "buffType": 1,
+        "upgradeResourceId": 309030,
+        "upgradeResourceCount": 30,
+        "effect": 140,
+        "effectDesc": 0,
+        "effectDesc_2": 0,
+        "limitCount": 0,
+        "limitInterval": 0
+    },
+    {
+        "unlockParams": [
+            0,
+            0,
+            0
+        ],
+        "buffId": 10001,
+        "activityId": 1106,
+        "buffLevel": 3,
+        "buffType": 1,
+        "upgradeResourceId": 309030,
+        "upgradeResourceCount": 45,
+        "effect": 160,
+        "effectDesc": 0,
+        "effectDesc_2": 0,
+        "limitCount": 0,
+        "limitInterval": 0
+    },
+    {
+        "unlockParams": [
+            0,
+            0,
+            0
+        ],
+        "buffId": 10001,
+        "activityId": 1106,
+        "buffLevel": 4,
+        "buffType": 1,
+        "upgradeResourceId": 309030,
+        "upgradeResourceCount": 60,
+        "effect": 180,
+        "effectDesc": 0,
+        "effectDesc_2": 0,
+        "limitCount": 0,
+        "limitInterval": 0
+    },
+    {
+        "unlockParams": [
+            0,
+            0,
+            0
+        ],
+        "buffId": 10001,
+        "activityId": 1106,
+        "buffLevel": 5,
+        "buffType": 1,
+        "upgradeResourceId": 309030,
+        "upgradeResourceCount": 75,
+        "effect": 200,
+        "effectDesc": 0,
+        "effectDesc_2": 0,
+        "limitCount": 0,
+        "limitInterval": 0
+    },
+    {
+        "unlockParams": [
+            0,
+            0,
+            0
+        ],
+        "buffId": 10002,
+        "activityId": 1106,
+        "buffLevel": 1,
+        "buffType": 2,
+        "upgradeResourceId": 309030,
+        "upgradeResourceCount": 20,
+        "effect": 110,
+        "effectDesc": 0,
+        "effectDesc_2": 0,
+        "limitCount": 0,
+        "limitInterval": 0
+    },
+    {
+        "unlockParams": [
+            0,
+            0,
+            0
+        ],
+        "buffId": 10002,
+        "activityId": 1106,
+        "buffLevel": 2,
+        "buffType": 2,
+        "upgradeResourceId": 309030,
+        "upgradeResourceCount": 40,
+        "effect": 120,
+        "effectDesc": 0,
+        "effectDesc_2": 0,
+        "limitCount": 0,
+        "limitInterval": 0
+    },
+    {
+        "unlockParams": [
+            0,
+            0,
+            0
+        ],
+        "buffId": 10002,
+        "activityId": 1106,
+        "buffLevel": 3,
+        "buffType": 2,
+        "upgradeResourceId": 309030,
+        "upgradeResourceCount": 60,
+        "effect": 130,
+        "effectDesc": 0,
+        "effectDesc_2": 0,
+        "limitCount": 0,
+        "limitInterval": 0
+    },
+    {
+        "unlockParams": [
+            0,
+            0,
+            0
+        ],
+        "buffId": 10002,
+        "activityId": 1106,
+        "buffLevel": 4,
+        "buffType": 2,
+        "upgradeResourceId": 309030,
+        "upgradeResourceCount": 80,
+        "effect": 140,
+        "effectDesc": 0,
+        "effectDesc_2": 0,
+        "limitCount": 0,
+        "limitInterval": 0
+    },
+    {
+        "unlockParams": [
+            0,
+            0,
+            0
+        ],
+        "buffId": 10002,
+        "activityId": 1106,
+        "buffLevel": 5,
+        "buffType": 2,
+        "upgradeResourceId": 309030,
+        "upgradeResourceCount": 100,
+        "effect": 150,
+        "effectDesc": 0,
+        "effectDesc_2": 0,
+        "limitCount": 0,
+        "limitInterval": 0
+    },
+    {
+        "unlockParams": [
+            0,
+            0,
+            0
+        ],
+        "buffId": 10003,
+        "activityId": 1106,
+        "buffLevel": 1,
+        "buffType": 3,
+        "upgradeResourceId": 309030,
+        "upgradeResourceCount": 10,
+        "effect": 110,
+        "effectDesc": 0,
+        "effectDesc_2": 0,
+        "limitCount": 0,
+        "limitInterval": 0
+    },
+    {
+        "unlockParams": [
+            0,
+            0,
+            0
+        ],
+        "buffId": 10003,
+        "activityId": 1106,
+        "buffLevel": 2,
+        "buffType": 3,
+        "upgradeResourceId": 309030,
+        "upgradeResourceCount": 20,
+        "effect": 120,
+        "effectDesc": 0,
+        "effectDesc_2": 0,
+        "limitCount": 0,
+        "limitInterval": 0
+    },
+    {
+        "unlockParams": [
+            0,
+            0,
+            0
+        ],
+        "buffId": 10003,
+        "activityId": 1106,
+        "buffLevel": 3,
+        "buffType": 3,
+        "upgradeResourceId": 309030,
+        "upgradeResourceCount": 30,
+        "effect": 130,
+        "effectDesc": 0,
+        "effectDesc_2": 0,
+        "limitCount": 0,
+        "limitInterval": 0
+    },
+    {
+        "unlockParams": [
+            0,
+            0,
+            0
+        ],
+        "buffId": 10003,
+        "activityId": 1106,
+        "buffLevel": 4,
+        "buffType": 3,
+        "upgradeResourceId": 309030,
+        "upgradeResourceCount": 40,
+        "effect": 140,
+        "effectDesc": 0,
+        "effectDesc_2": 0,
+        "limitCount": 0,
+        "limitInterval": 0
+    },
+    {
+        "unlockParams": [
+            0,
+            0,
+            0
+        ],
+        "buffId": 10003,
+        "activityId": 1106,
+        "buffLevel": 5,
+        "buffType": 3,
+        "upgradeResourceId": 309030,
+        "upgradeResourceCount": 50,
+        "effect": 150,
+        "effectDesc": 0,
+        "effectDesc_2": 0,
+        "limitCount": 0,
+        "limitInterval": 0
+    },
+    {
+        "unlockParams": [
+            0,
+            0,
+            0
+        ],
+        "buffId": 117501,
+        "activityId": 1175,
+        "buffLevel": 1,
+        "buffType": 1,
+        "upgradeResourceId": 309034,
+        "upgradeResourceCount": 1,
+        "effect": 120,
+        "effectDesc": 0,
+        "effectDesc_2": 0,
+        "limitCount": 0,
+        "limitInterval": 0
+    },
+    {
+        "unlockParams": [
+            0,
+            0,
+            0
+        ],
+        "buffId": 117501,
+        "activityId": 1175,
+        "buffLevel": 2,
+        "buffType": 1,
+        "upgradeResourceId": 309034,
+        "upgradeResourceCount": 1,
+        "effect": 140,
+        "effectDesc": 0,
+        "effectDesc_2": 0,
+        "limitCount": 0,
+        "limitInterval": 0
+    },
+    {
+        "unlockParams": [
+            0,
+            0,
+            0
+        ],
+        "buffId": 117501,
+        "activityId": 1175,
+        "buffLevel": 3,
+        "buffType": 1,
+        "upgradeResourceId": 309034,
+        "upgradeResourceCount": 1,
+        "effect": 160,
+        "effectDesc": 0,
+        "effectDesc_2": 0,
+        "limitCount": 0,
+        "limitInterval": 0
+    },
+    {
+        "unlockParams": [
+            0,
+            0,
+            0
+        ],
+        "buffId": 117501,
+        "activityId": 1175,
+        "buffLevel": 4,
+        "buffType": 1,
+        "upgradeResourceId": 309034,
+        "upgradeResourceCount": 1,
+        "effect": 180,
+        "effectDesc": 0,
+        "effectDesc_2": 0,
+        "limitCount": 0,
+        "limitInterval": 0
+    },
+    {
+        "unlockParams": [
+            0,
+            0,
+            0
+        ],
+        "buffId": 117501,
+        "activityId": 1175,
+        "buffLevel": 5,
+        "buffType": 1,
+        "upgradeResourceId": 309034,
+        "upgradeResourceCount": 1,
+        "effect": 200,
+        "effectDesc": 0,
+        "effectDesc_2": 0,
+        "limitCount": 0,
+        "limitInterval": 0
+    },
+    {
+        "unlockParams": [
+            0,
+            0,
+            0
+        ],
+        "buffId": 117502,
+        "activityId": 1175,
+        "buffLevel": 1,
+        "buffType": 2,
+        "upgradeResourceId": 309034,
+        "upgradeResourceCount": 1,
+        "effect": 110,
+        "effectDesc": 0,
+        "effectDesc_2": 0,
+        "limitCount": 0,
+        "limitInterval": 0
+    },
+    {
+        "unlockParams": [
+            0,
+            0,
+            0
+        ],
+        "buffId": 117502,
+        "activityId": 1175,
+        "buffLevel": 2,
+        "buffType": 2,
+        "upgradeResourceId": 309034,
+        "upgradeResourceCount": 1,
+        "effect": 120,
+        "effectDesc": 0,
+        "effectDesc_2": 0,
+        "limitCount": 0,
+        "limitInterval": 0
+    },
+    {
+        "unlockParams": [
+            0,
+            0,
+            0
+        ],
+        "buffId": 117502,
+        "activityId": 1175,
+        "buffLevel": 3,
+        "buffType": 2,
+        "upgradeResourceId": 309034,
+        "upgradeResourceCount": 1,
+        "effect": 130,
+        "effectDesc": 0,
+        "effectDesc_2": 0,
+        "limitCount": 0,
+        "limitInterval": 0
+    },
+    {
+        "unlockParams": [
+            0,
+            0,
+            0
+        ],
+        "buffId": 117502,
+        "activityId": 1175,
+        "buffLevel": 4,
+        "buffType": 2,
+        "upgradeResourceId": 309034,
+        "upgradeResourceCount": 1,
+        "effect": 140,
+        "effectDesc": 0,
+        "effectDesc_2": 0,
+        "limitCount": 0,
+        "limitInterval": 0
+    },
+    {
+        "unlockParams": [
+            0,
+            0,
+            0
+        ],
+        "buffId": 117502,
+        "activityId": 1175,
+        "buffLevel": 5,
+        "buffType": 2,
+        "upgradeResourceId": 309034,
+        "upgradeResourceCount": 1,
+        "effect": 150,
+        "effectDesc": 0,
+        "effectDesc_2": 0,
+        "limitCount": 0,
+        "limitInterval": 0
+    },
+    {
+        "unlockParams": [
+            0,
+            0,
+            0
+        ],
+        "buffId": 117503,
+        "activityId": 1175,
+        "buffLevel": 1,
+        "buffType": 3,
+        "upgradeResourceId": 309034,
+        "upgradeResourceCount": 1,
+        "effect": 110,
+        "effectDesc": 0,
+        "effectDesc_2": 0,
+        "limitCount": 0,
+        "limitInterval": 0
+    },
+    {
+        "unlockParams": [
+            0,
+            0,
+            0
+        ],
+        "buffId": 117503,
+        "activityId": 1175,
+        "buffLevel": 2,
+        "buffType": 3,
+        "upgradeResourceId": 309034,
+        "upgradeResourceCount": 1,
+        "effect": 120,
+        "effectDesc": 0,
+        "effectDesc_2": 0,
+        "limitCount": 0,
+        "limitInterval": 0
+    },
+    {
+        "unlockParams": [
+            0,
+            0,
+            0
+        ],
+        "buffId": 117503,
+        "activityId": 1175,
+        "buffLevel": 3,
+        "buffType": 3,
+        "upgradeResourceId": 309034,
+        "upgradeResourceCount": 1,
+        "effect": 130,
+        "effectDesc": 0,
+        "effectDesc_2": 0,
+        "limitCount": 0,
+        "limitInterval": 0
+    },
+    {
+        "unlockParams": [
+            0,
+            0,
+            0
+        ],
+        "buffId": 117503,
+        "activityId": 1175,
+        "buffLevel": 4,
+        "buffType": 3,
+        "upgradeResourceId": 309034,
+        "upgradeResourceCount": 1,
+        "effect": 140,
+        "effectDesc": 0,
+        "effectDesc_2": 0,
+        "limitCount": 0,
+        "limitInterval": 0
+    },
+    {
+        "unlockParams": [
+            0,
+            0,
+            0
+        ],
+        "buffId": 117503,
+        "activityId": 1175,
+        "buffLevel": 5,
+        "buffType": 3,
+        "upgradeResourceId": 309034,
+        "upgradeResourceCount": 1,
+        "effect": 150,
+        "effectDesc": 0,
+        "effectDesc_2": 0,
+        "limitCount": 0,
+        "limitInterval": 0
+    },
+    {
+        "unlockParams": [
+            0,
+            0,
+            0
+        ],
+        "buffId": 117504,
+        "activityId": 1175,
+        "buffLevel": 1,
+        "buffType": 3,
+        "upgradeResourceId": 309034,
+        "upgradeResourceCount": 1,
+        "effect": 110,
+        "effectDesc": 0,
+        "effectDesc_2": 0,
+        "limitCount": 0,
+        "limitInterval": 0
+    },
+    {
+        "unlockParams": [
+            0,
+            0,
+            0
+        ],
+        "buffId": 117504,
+        "activityId": 1175,
+        "buffLevel": 2,
+        "buffType": 3,
+        "upgradeResourceId": 309034,
+        "upgradeResourceCount": 1,
+        "effect": 120,
+        "effectDesc": 0,
+        "effectDesc_2": 0,
+        "limitCount": 0,
+        "limitInterval": 0
+    },
+    {
+        "unlockParams": [
+            0,
+            0,
+            0
+        ],
+        "buffId": 117504,
+        "activityId": 1175,
+        "buffLevel": 3,
+        "buffType": 3,
+        "upgradeResourceId": 309034,
+        "upgradeResourceCount": 1,
+        "effect": 130,
+        "effectDesc": 0,
+        "effectDesc_2": 0,
+        "limitCount": 0,
+        "limitInterval": 0
+    },
+    {
+        "unlockParams": [
+            0,
+            0,
+            0
+        ],
+        "buffId": 117504,
+        "activityId": 1175,
+        "buffLevel": 4,
+        "buffType": 3,
+        "upgradeResourceId": 309034,
+        "upgradeResourceCount": 1,
+        "effect": 140,
+        "effectDesc": 0,
+        "effectDesc_2": 0,
+        "limitCount": 0,
+        "limitInterval": 0
+    },
+    {
+        "unlockParams": [
+            0,
+            0,
+            0
+        ],
+        "buffId": 117504,
+        "activityId": 1175,
+        "buffLevel": 5,
+        "buffType": 3,
+        "upgradeResourceId": 309034,
+        "upgradeResourceCount": 1,
+        "effect": 150,
+        "effectDesc": 0,
+        "effectDesc_2": 0,
+        "limitCount": 0,
+        "limitInterval": 0
+    },
+    {
+        "unlockParams": [
+            0,
+            0,
+            0
+        ],
+        "buffId": 121401,
+        "activityId": 1214,
+        "buffLevel": 1,
+        "buffType": 4,
+        "upgradeResourceId": 309041,
+        "upgradeResourceCount": 1,
+        "effect": 110,
+        "effectDesc": 0,
+        "effectDesc_2": 0,
+        "limitCount": 0,
+        "limitInterval": 0
+    },
+    {
+        "unlockParams": [
+            0,
+            0,
+            0
+        ],
+        "buffId": 121401,
+        "activityId": 1214,
+        "buffLevel": 2,
+        "buffType": 4,
+        "upgradeResourceId": 309041,
+        "upgradeResourceCount": 1,
+        "effect": 120,
+        "effectDesc": 0,
+        "effectDesc_2": 0,
+        "limitCount": 0,
+        "limitInterval": 0
+    },
+    {
+        "unlockParams": [
+            0,
+            0,
+            0
+        ],
+        "buffId": 121401,
+        "activityId": 1214,
+        "buffLevel": 3,
+        "buffType": 4,
+        "upgradeResourceId": 309041,
+        "upgradeResourceCount": 1,
+        "effect": 130,
+        "effectDesc": 0,
+        "effectDesc_2": 0,
+        "limitCount": 0,
+        "limitInterval": 0
+    },
+    {
+        "unlockParams": [
+            0,
+            0,
+            0
+        ],
+        "buffId": 121401,
+        "activityId": 1214,
+        "buffLevel": 4,
+        "buffType": 4,
+        "upgradeResourceId": 309041,
+        "upgradeResourceCount": 1,
+        "effect": 140,
+        "effectDesc": 0,
+        "effectDesc_2": 0,
+        "limitCount": 0,
+        "limitInterval": 0
+    },
+    {
+        "unlockParams": [
+            0,
+            0,
+            0
+        ],
+        "buffId": 121401,
+        "activityId": 1214,
+        "buffLevel": 5,
+        "buffType": 4,
+        "upgradeResourceId": 309041,
+        "upgradeResourceCount": 1,
+        "effect": 150,
+        "effectDesc": 0,
+        "effectDesc_2": 0,
+        "limitCount": 0,
+        "limitInterval": 0
+    },
+    {
+        "unlockParams": [
+            0,
+            0,
+            0
+        ],
+        "buffId": 121402,
+        "activityId": 1214,
+        "buffLevel": 1,
+        "buffType": 5,
+        "upgradeResourceId": 309041,
+        "upgradeResourceCount": 1,
+        "effect": 120,
+        "effectDesc": 0,
+        "effectDesc_2": 0,
+        "limitCount": 0,
+        "limitInterval": 0
+    },
+    {
+        "unlockParams": [
+            0,
+            0,
+            0
+        ],
+        "buffId": 121402,
+        "activityId": 1214,
+        "buffLevel": 2,
+        "buffType": 5,
+        "upgradeResourceId": 309041,
+        "upgradeResourceCount": 1,
+        "effect": 140,
+        "effectDesc": 0,
+        "effectDesc_2": 0,
+        "limitCount": 0,
+        "limitInterval": 0
+    },
+    {
+        "unlockParams": [
+            0,
+            0,
+            0
+        ],
+        "buffId": 121402,
+        "activityId": 1214,
+        "buffLevel": 3,
+        "buffType": 5,
+        "upgradeResourceId": 309041,
+        "upgradeResourceCount": 1,
+        "effect": 160,
+        "effectDesc": 0,
+        "effectDesc_2": 0,
+        "limitCount": 0,
+        "limitInterval": 0
+    },
+    {
+        "unlockParams": [
+            0,
+            0,
+            0
+        ],
+        "buffId": 121402,
+        "activityId": 1214,
+        "buffLevel": 4,
+        "buffType": 5,
+        "upgradeResourceId": 309041,
+        "upgradeResourceCount": 1,
+        "effect": 180,
+        "effectDesc": 0,
+        "effectDesc_2": 0,
+        "limitCount": 0,
+        "limitInterval": 0
+    },
+    {
+        "unlockParams": [
+            0,
+            0,
+            0
+        ],
+        "buffId": 121402,
+        "activityId": 1214,
+        "buffLevel": 5,
+        "buffType": 5,
+        "upgradeResourceId": 309041,
+        "upgradeResourceCount": 1,
+        "effect": 200,
+        "effectDesc": 0,
+        "effectDesc_2": 0,
+        "limitCount": 0,
+        "limitInterval": 0
+    },
+    {
+        "unlockParams": [
+            0,
+            0,
+            0
+        ],
+        "buffId": 121403,
+        "activityId": 1214,
+        "buffLevel": 1,
+        "buffType": 6,
+        "upgradeResourceId": 309041,
+        "upgradeResourceCount": 1,
+        "effect": 5,
+        "effectDesc": 0,
+        "effectDesc_2": 0,
+        "limitCount": 0,
+        "limitInterval": 0
+    },
+    {
+        "unlockParams": [
+            0,
+            0,
+            0
+        ],
+        "buffId": 121403,
+        "activityId": 1214,
+        "buffLevel": 2,
+        "buffType": 6,
+        "upgradeResourceId": 309041,
+        "upgradeResourceCount": 1,
+        "effect": 10,
+        "effectDesc": 0,
+        "effectDesc_2": 0,
+        "limitCount": 0,
+        "limitInterval": 0
+    },
+    {
+        "unlockParams": [
+            0,
+            0,
+            0
+        ],
+        "buffId": 121403,
+        "activityId": 1214,
+        "buffLevel": 3,
+        "buffType": 6,
+        "upgradeResourceId": 309041,
+        "upgradeResourceCount": 1,
+        "effect": 15,
+        "effectDesc": 0,
+        "effectDesc_2": 0,
+        "limitCount": 0,
+        "limitInterval": 0
+    },
+    {
+        "unlockParams": [
+            0,
+            0,
+            0
+        ],
+        "buffId": 121403,
+        "activityId": 1214,
+        "buffLevel": 4,
+        "buffType": 6,
+        "upgradeResourceId": 309041,
+        "upgradeResourceCount": 1,
+        "effect": 20,
+        "effectDesc": 0,
+        "effectDesc_2": 0,
+        "limitCount": 0,
+        "limitInterval": 0
+    },
+    {
+        "unlockParams": [
+            0,
+            0,
+            0
+        ],
+        "buffId": 121403,
+        "activityId": 1214,
+        "buffLevel": 5,
+        "buffType": 6,
+        "upgradeResourceId": 309041,
+        "upgradeResourceCount": 1,
+        "effect": 25,
+        "effectDesc": 0,
+        "effectDesc_2": 0,
+        "limitCount": 0,
+        "limitInterval": 0
+    },
+    {
+        "unlockParams": [
+            0,
+            0,
+            0
+        ],
+        "buffId": 121404,
+        "activityId": 1214,
+        "buffLevel": 1,
+        "buffType": 7,
+        "upgradeResourceId": 309041,
+        "upgradeResourceCount": 1,
+        "effect": 5,
+        "effectDesc": 0,
+        "effectDesc_2": 0,
+        "limitCount": 0,
+        "limitInterval": 0
+    },
+    {
+        "unlockParams": [
+            0,
+            0,
+            0
+        ],
+        "buffId": 121404,
+        "activityId": 1214,
+        "buffLevel": 2,
+        "buffType": 7,
+        "upgradeResourceId": 309041,
+        "upgradeResourceCount": 1,
+        "effect": 10,
+        "effectDesc": 0,
+        "effectDesc_2": 0,
+        "limitCount": 0,
+        "limitInterval": 0
+    },
+    {
+        "unlockParams": [
+            0,
+            0,
+            0
+        ],
+        "buffId": 121404,
+        "activityId": 1214,
+        "buffLevel": 3,
+        "buffType": 7,
+        "upgradeResourceId": 309041,
+        "upgradeResourceCount": 1,
+        "effect": 15,
+        "effectDesc": 0,
+        "effectDesc_2": 0,
+        "limitCount": 0,
+        "limitInterval": 0
+    },
+    {
+        "unlockParams": [
+            0,
+            0,
+            0
+        ],
+        "buffId": 121404,
+        "activityId": 1214,
+        "buffLevel": 4,
+        "buffType": 7,
+        "upgradeResourceId": 309041,
+        "upgradeResourceCount": 1,
+        "effect": 20,
+        "effectDesc": 0,
+        "effectDesc_2": 0,
+        "limitCount": 0,
+        "limitInterval": 0
+    },
+    {
+        "unlockParams": [
+            0,
+            0,
+            0
+        ],
+        "buffId": 121404,
+        "activityId": 1214,
+        "buffLevel": 5,
+        "buffType": 7,
+        "upgradeResourceId": 309041,
+        "upgradeResourceCount": 1,
+        "effect": 25,
+        "effectDesc": 0,
+        "effectDesc_2": 0,
+        "limitCount": 0,
+        "limitInterval": 0
+    },
+    {
+        "unlockParams": [
+            0,
+            0,
+            0
+        ],
+        "buffId": 22081201,
+        "activityId": 220812,
+        "buffLevel": 1,
+        "buffType": 11,
+        "upgradeResourceId": 309041,
+        "upgradeResourceCount": 2,
+        "effect": 105,
+        "effectDesc": 0,
+        "effectDesc_2": 0,
+        "limitCount": 0,
+        "limitInterval": 0
+    },
+    {
+        "unlockParams": [
+            0,
+            0,
+            0
+        ],
+        "buffId": 22081201,
+        "activityId": 220812,
+        "buffLevel": 2,
+        "buffType": 11,
+        "upgradeResourceId": 309041,
+        "upgradeResourceCount": 3,
+        "effect": 110,
+        "effectDesc": 0,
+        "effectDesc_2": 0,
+        "limitCount": 0,
+        "limitInterval": 0
+    },
+    {
+        "unlockParams": [
+            0,
+            0,
+            0
+        ],
+        "buffId": 22081201,
+        "activityId": 220812,
+        "buffLevel": 3,
+        "buffType": 11,
+        "upgradeResourceId": 309041,
+        "upgradeResourceCount": 4,
+        "effect": 115,
+        "effectDesc": 0,
+        "effectDesc_2": 0,
+        "limitCount": 0,
+        "limitInterval": 0
+    },
+    {
+        "unlockParams": [
+            0,
+            0,
+            0
+        ],
+        "buffId": 22081202,
+        "activityId": 220812,
+        "buffLevel": 1,
+        "buffType": 12,
+        "upgradeResourceId": 309041,
+        "upgradeResourceCount": 2,
+        "effect": 110,
+        "effectDesc": 0,
+        "effectDesc_2": 0,
+        "limitCount": 0,
+        "limitInterval": 0
+    },
+    {
+        "unlockParams": [
+            0,
+            0,
+            0
+        ],
+        "buffId": 22081202,
+        "activityId": 220812,
+        "buffLevel": 2,
+        "buffType": 12,
+        "upgradeResourceId": 309041,
+        "upgradeResourceCount": 3,
+        "effect": 120,
+        "effectDesc": 0,
+        "effectDesc_2": 0,
+        "limitCount": 0,
+        "limitInterval": 0
+    },
+    {
+        "unlockParams": [
+            0,
+            0,
+            0
+        ],
+        "buffId": 22081202,
+        "activityId": 220812,
+        "buffLevel": 3,
+        "buffType": 12,
+        "upgradeResourceId": 309041,
+        "upgradeResourceCount": 4,
+        "effect": 130,
+        "effectDesc": 0,
+        "effectDesc_2": 0,
+        "limitCount": 0,
+        "limitInterval": 0
+    },
+    {
+        "unlockParams": [
+            0,
+            0,
+            0
+        ],
+        "buffId": 22081203,
+        "activityId": 220812,
+        "buffLevel": 1,
+        "buffType": 13,
+        "upgradeResourceId": 309041,
+        "upgradeResourceCount": 2,
+        "effect": 110,
+        "effectDesc": 0,
+        "effectDesc_2": 0,
+        "limitCount": 0,
+        "limitInterval": 0
+    },
+    {
+        "unlockParams": [
+            0,
+            0,
+            0
+        ],
+        "buffId": 22081203,
+        "activityId": 220812,
+        "buffLevel": 2,
+        "buffType": 13,
+        "upgradeResourceId": 309041,
+        "upgradeResourceCount": 3,
+        "effect": 120,
+        "effectDesc": 0,
+        "effectDesc_2": 0,
+        "limitCount": 0,
+        "limitInterval": 0
+    },
+    {
+        "unlockParams": [
+            0,
+            0,
+            0
+        ],
+        "buffId": 22081203,
+        "activityId": 220812,
+        "buffLevel": 3,
+        "buffType": 13,
+        "upgradeResourceId": 309041,
+        "upgradeResourceCount": 4,
+        "effect": 130,
+        "effectDesc": 0,
+        "effectDesc_2": 0,
+        "limitCount": 0,
+        "limitInterval": 0
+    },
+    {
+        "unlockParams": [
+            0,
+            0,
+            0
+        ],
+        "buffId": 22081204,
+        "activityId": 220812,
+        "buffLevel": 1,
+        "buffType": 14,
+        "upgradeResourceId": 309041,
+        "upgradeResourceCount": 2,
+        "effect": 110,
+        "effectDesc": 0,
+        "effectDesc_2": 0,
+        "limitCount": 0,
+        "limitInterval": 0
+    },
+    {
+        "unlockParams": [
+            0,
+            0,
+            0
+        ],
+        "buffId": 22081204,
+        "activityId": 220812,
+        "buffLevel": 2,
+        "buffType": 14,
+        "upgradeResourceId": 309041,
+        "upgradeResourceCount": 3,
+        "effect": 120,
+        "effectDesc": 0,
+        "effectDesc_2": 0,
+        "limitCount": 0,
+        "limitInterval": 0
+    },
+    {
+        "unlockParams": [
+            0,
+            0,
+            0
+        ],
+        "buffId": 22081204,
+        "activityId": 220812,
+        "buffLevel": 3,
+        "buffType": 14,
+        "upgradeResourceId": 309041,
+        "upgradeResourceCount": 4,
+        "effect": 130,
+        "effectDesc": 0,
+        "effectDesc_2": 0,
+        "limitCount": 0,
+        "limitInterval": 0
+    },
+    {
+        "unlockParams": [
+            0,
+            0,
+            0
+        ],
+        "buffId": 22081205,
+        "activityId": 220812,
+        "buffLevel": 1,
+        "buffType": 15,
+        "upgradeResourceId": 309041,
+        "upgradeResourceCount": 2,
+        "effect": 110,
+        "effectDesc": 0,
+        "effectDesc_2": 0,
+        "limitCount": 0,
+        "limitInterval": 0
+    },
+    {
+        "unlockParams": [
+            0,
+            0,
+            0
+        ],
+        "buffId": 22081205,
+        "activityId": 220812,
+        "buffLevel": 2,
+        "buffType": 15,
+        "upgradeResourceId": 309041,
+        "upgradeResourceCount": 3,
+        "effect": 120,
+        "effectDesc": 0,
+        "effectDesc_2": 0,
+        "limitCount": 0,
+        "limitInterval": 0
+    },
+    {
+        "unlockParams": [
+            0,
+            0,
+            0
+        ],
+        "buffId": 22081205,
+        "activityId": 220812,
+        "buffLevel": 3,
+        "buffType": 15,
+        "upgradeResourceId": 309041,
+        "upgradeResourceCount": 4,
+        "effect": 130,
+        "effectDesc": 0,
+        "effectDesc_2": 0,
+        "limitCount": 0,
+        "limitInterval": 0
+    },
+    {
+        "unlockParams": [
+            240401,
+            0,
+            0
+        ],
+        "buffId": 24040101,
+        "activityId": 240402,
+        "buffLevel": 1,
+        "buffType": 21,
+        "upgradeResourceId": 30900021,
+        "upgradeResourceCount": 40,
+        "effect": 3,
+        "effectDesc": 2620,
+        "effectDesc_2": 0,
+        "limitCount": 0,
+        "limitInterval": 0
+    },
+    {
+        "unlockParams": [
+            240401,
+            2,
+            3
+        ],
+        "buffId": 24040101,
+        "activityId": 240402,
+        "buffLevel": 2,
+        "buffType": 21,
+        "upgradeResourceId": 30900021,
+        "upgradeResourceCount": 50,
+        "effect": 6,
+        "effectDesc": 2620,
+        "effectDesc_2": 0,
+        "limitCount": 0,
+        "limitInterval": 0
+    },
+    {
+        "unlockParams": [
+            240401,
+            4,
+            5
+        ],
+        "buffId": 24040101,
+        "activityId": 240402,
+        "buffLevel": 3,
+        "buffType": 21,
+        "upgradeResourceId": 30900021,
+        "upgradeResourceCount": 60,
+        "effect": 9,
+        "effectDesc": 2620,
+        "effectDesc_2": 0,
+        "limitCount": 0,
+        "limitInterval": 0
+    },
+    {
+        "unlockParams": [
+            240401,
+            6,
+            7
+        ],
+        "buffId": 24040101,
+        "activityId": 240402,
+        "buffLevel": 4,
+        "buffType": 21,
+        "upgradeResourceId": 30900021,
+        "upgradeResourceCount": 80,
+        "effect": 12,
+        "effectDesc": 2620,
+        "effectDesc_2": 0,
+        "limitCount": 0,
+        "limitInterval": 0
+    },
+    {
+        "unlockParams": [
+            240401,
+            9,
+            10
+        ],
+        "buffId": 24040101,
+        "activityId": 240402,
+        "buffLevel": 5,
+        "buffType": 21,
+        "upgradeResourceId": 30900021,
+        "upgradeResourceCount": 100,
+        "effect": 15,
+        "effectDesc": 2620,
+        "effectDesc_2": 0,
+        "limitCount": 0,
+        "limitInterval": 0
+    },
+    {
+        "unlockParams": [
+            240401,
+            0,
+            0
+        ],
+        "buffId": 24040102,
+        "activityId": 240402,
+        "buffLevel": 1,
+        "buffType": 22,
+        "upgradeResourceId": 30900021,
+        "upgradeResourceCount": 30,
+        "effect": 10,
+        "effectDesc": 2621,
+        "effectDesc_2": 0,
+        "limitCount": 0,
+        "limitInterval": 0
+    },
+    {
+        "unlockParams": [
+            240401,
+            2,
+            3
+        ],
+        "buffId": 24040102,
+        "activityId": 240402,
+        "buffLevel": 2,
+        "buffType": 22,
+        "upgradeResourceId": 30900021,
+        "upgradeResourceCount": 35,
+        "effect": 20,
+        "effectDesc": 2621,
+        "effectDesc_2": 0,
+        "limitCount": 0,
+        "limitInterval": 0
+    },
+    {
+        "unlockParams": [
+            240401,
+            4,
+            5
+        ],
+        "buffId": 24040102,
+        "activityId": 240402,
+        "buffLevel": 3,
+        "buffType": 22,
+        "upgradeResourceId": 30900021,
+        "upgradeResourceCount": 45,
+        "effect": 40,
+        "effectDesc": 2621,
+        "effectDesc_2": 0,
+        "limitCount": 0,
+        "limitInterval": 0
+    },
+    {
+        "unlockParams": [
+            240401,
+            6,
+            7
+        ],
+        "buffId": 24040102,
+        "activityId": 240402,
+        "buffLevel": 4,
+        "buffType": 22,
+        "upgradeResourceId": 30900021,
+        "upgradeResourceCount": 60,
+        "effect": 60,
+        "effectDesc": 2621,
+        "effectDesc_2": 0,
+        "limitCount": 0,
+        "limitInterval": 0
+    },
+    {
+        "unlockParams": [
+            240401,
+            9,
+            10
+        ],
+        "buffId": 24040102,
+        "activityId": 240402,
+        "buffLevel": 5,
+        "buffType": 22,
+        "upgradeResourceId": 30900021,
+        "upgradeResourceCount": 80,
+        "effect": 80,
+        "effectDesc": 2621,
+        "effectDesc_2": 0,
+        "limitCount": 0,
+        "limitInterval": 0
+    },
+    {
+        "unlockParams": [
+            240401,
+            0,
+            0
+        ],
+        "buffId": 24040103,
+        "activityId": 240402,
+        "buffLevel": 1,
+        "buffType": 23,
+        "upgradeResourceId": 30900021,
+        "upgradeResourceCount": 10,
+        "effect": 0,
+        "effectDesc": 2622,
+        "effectDesc_2": 0,
+        "limitCount": 0,
+        "limitInterval": 0
+    },
+    {
+        "unlockParams": [
+            240401,
+            2,
+            3
+        ],
+        "buffId": 24040103,
+        "activityId": 240402,
+        "buffLevel": 2,
+        "buffType": 23,
+        "upgradeResourceId": 30900021,
+        "upgradeResourceCount": 15,
+        "effect": 2,
+        "effectDesc": 2623,
+        "effectDesc_2": 0,
+        "limitCount": 0,
+        "limitInterval": 0
+    },
+    {
+        "unlockParams": [
+            240401,
+            4,
+            5
+        ],
+        "buffId": 24040103,
+        "activityId": 240402,
+        "buffLevel": 3,
+        "buffType": 23,
+        "upgradeResourceId": 30900021,
+        "upgradeResourceCount": 20,
+        "effect": 4,
+        "effectDesc": 2623,
+        "effectDesc_2": 0,
+        "limitCount": 0,
+        "limitInterval": 0
+    },
+    {
+        "unlockParams": [
+            240401,
+            6,
+            7
+        ],
+        "buffId": 24040103,
+        "activityId": 240402,
+        "buffLevel": 4,
+        "buffType": 23,
+        "upgradeResourceId": 30900021,
+        "upgradeResourceCount": 25,
+        "effect": 7,
+        "effectDesc": 2623,
+        "effectDesc_2": 0,
+        "limitCount": 0,
+        "limitInterval": 0
+    },
+    {
+        "unlockParams": [
+            240401,
+            9,
+            10
+        ],
+        "buffId": 24040103,
+        "activityId": 240402,
+        "buffLevel": 5,
+        "buffType": 23,
+        "upgradeResourceId": 30900021,
+        "upgradeResourceCount": 30,
+        "effect": 10,
+        "effectDesc": 2623,
+        "effectDesc_2": 0,
+        "limitCount": 0,
+        "limitInterval": 0
+    },
+    {
+        "unlockParams": [
+            240401,
+            0,
+            0
+        ],
+        "buffId": 24040104,
+        "activityId": 240402,
+        "buffLevel": 1,
+        "buffType": 24,
+        "upgradeResourceId": 30900021,
+        "upgradeResourceCount": 50,
+        "effect": 1,
+        "effectDesc": 2624,
+        "effectDesc_2": 0,
+        "limitCount": 0,
+        "limitInterval": 0
+    },
+    {
+        "unlockParams": [
+            240401,
+            2,
+            3
+        ],
+        "buffId": 24040104,
+        "activityId": 240402,
+        "buffLevel": 2,
+        "buffType": 24,
+        "upgradeResourceId": 30900021,
+        "upgradeResourceCount": 60,
+        "effect": 2,
+        "effectDesc": 2624,
+        "effectDesc_2": 0,
+        "limitCount": 0,
+        "limitInterval": 0
+    },
+    {
+        "unlockParams": [
+            240401,
+            4,
+            5
+        ],
+        "buffId": 24040104,
+        "activityId": 240402,
+        "buffLevel": 3,
+        "buffType": 24,
+        "upgradeResourceId": 30900021,
+        "upgradeResourceCount": 70,
+        "effect": 3,
+        "effectDesc": 2624,
+        "effectDesc_2": 0,
+        "limitCount": 0,
+        "limitInterval": 0
+    },
+    {
+        "unlockParams": [
+            240401,
+            6,
+            7
+        ],
+        "buffId": 24040104,
+        "activityId": 240402,
+        "buffLevel": 4,
+        "buffType": 24,
+        "upgradeResourceId": 30900021,
+        "upgradeResourceCount": 90,
+        "effect": 4,
+        "effectDesc": 2624,
+        "effectDesc_2": 0,
+        "limitCount": 0,
+        "limitInterval": 0
+    },
+    {
+        "unlockParams": [
+            240401,
+            9,
+            10
+        ],
+        "buffId": 24040104,
+        "activityId": 240402,
+        "buffLevel": 5,
+        "buffType": 24,
+        "upgradeResourceId": 30900021,
+        "upgradeResourceCount": 110,
+        "effect": 5,
+        "effectDesc": 2624,
+        "effectDesc_2": 0,
+        "limitCount": 0,
+        "limitInterval": 0
+    },
+    {
+        "unlockParams": [
+            0,
+            0,
+            0
+        ],
+        "buffId": 24110301,
+        "activityId": 241103,
+        "buffLevel": 1,
+        "buffType": 3,
+        "upgradeResourceId": 30900078,
+        "upgradeResourceCount": 1,
+        "effect": 120,
+        "effectDesc": 3091,
+        "effectDesc_2": 3094,
+        "limitCount": 2,
+        "limitInterval": 1
+    },
+    {
+        "unlockParams": [
+            0,
+            0,
+            0
+        ],
+        "buffId": 24110301,
+        "activityId": 241103,
+        "buffLevel": 2,
+        "buffType": 3,
+        "upgradeResourceId": 30900078,
+        "upgradeResourceCount": 1,
+        "effect": 140,
+        "effectDesc": 3091,
+        "effectDesc_2": 3094,
+        "limitCount": 2,
+        "limitInterval": 1
+    },
+    {
+        "unlockParams": [
+            0,
+            0,
+            0
+        ],
+        "buffId": 24110301,
+        "activityId": 241103,
+        "buffLevel": 3,
+        "buffType": 3,
+        "upgradeResourceId": 30900078,
+        "upgradeResourceCount": 1,
+        "effect": 160,
+        "effectDesc": 3091,
+        "effectDesc_2": 3094,
+        "limitCount": 2,
+        "limitInterval": 1
+    },
+    {
+        "unlockParams": [
+            0,
+            0,
+            0
+        ],
+        "buffId": 24110301,
+        "activityId": 241103,
+        "buffLevel": 4,
+        "buffType": 3,
+        "upgradeResourceId": 30900078,
+        "upgradeResourceCount": 1,
+        "effect": 180,
+        "effectDesc": 3091,
+        "effectDesc_2": 3094,
+        "limitCount": 2,
+        "limitInterval": 1
+    },
+    {
+        "unlockParams": [
+            0,
+            0,
+            0
+        ],
+        "buffId": 24110301,
+        "activityId": 241103,
+        "buffLevel": 5,
+        "buffType": 3,
+        "upgradeResourceId": 30900078,
+        "upgradeResourceCount": 1,
+        "effect": 200,
+        "effectDesc": 3091,
+        "effectDesc_2": 3094,
+        "limitCount": 2,
+        "limitInterval": 1
+    },
+    {
+        "unlockParams": [
+            0,
+            0,
+            0
+        ],
+        "buffId": 24110302,
+        "activityId": 241103,
+        "buffLevel": 1,
+        "buffType": 3,
+        "upgradeResourceId": 30900078,
+        "upgradeResourceCount": 1,
+        "effect": 120,
+        "effectDesc": 3092,
+        "effectDesc_2": 3095,
+        "limitCount": 0,
+        "limitInterval": 0
+    },
+    {
+        "unlockParams": [
+            0,
+            0,
+            0
+        ],
+        "buffId": 24110302,
+        "activityId": 241103,
+        "buffLevel": 2,
+        "buffType": 3,
+        "upgradeResourceId": 30900078,
+        "upgradeResourceCount": 1,
+        "effect": 140,
+        "effectDesc": 3092,
+        "effectDesc_2": 3095,
+        "limitCount": 0,
+        "limitInterval": 0
+    },
+    {
+        "unlockParams": [
+            0,
+            0,
+            0
+        ],
+        "buffId": 24110302,
+        "activityId": 241103,
+        "buffLevel": 3,
+        "buffType": 3,
+        "upgradeResourceId": 30900078,
+        "upgradeResourceCount": 1,
+        "effect": 160,
+        "effectDesc": 3092,
+        "effectDesc_2": 3095,
+        "limitCount": 0,
+        "limitInterval": 0
+    },
+    {
+        "unlockParams": [
+            0,
+            0,
+            0
+        ],
+        "buffId": 24110302,
+        "activityId": 241103,
+        "buffLevel": 4,
+        "buffType": 3,
+        "upgradeResourceId": 30900078,
+        "upgradeResourceCount": 1,
+        "effect": 180,
+        "effectDesc": 3092,
+        "effectDesc_2": 3095,
+        "limitCount": 0,
+        "limitInterval": 0
+    },
+    {
+        "unlockParams": [
+            0,
+            0,
+            0
+        ],
+        "buffId": 24110302,
+        "activityId": 241103,
+        "buffLevel": 5,
+        "buffType": 3,
+        "upgradeResourceId": 30900078,
+        "upgradeResourceCount": 1,
+        "effect": 200,
+        "effectDesc": 3092,
+        "effectDesc_2": 3095,
+        "limitCount": 0,
+        "limitInterval": 0
+    },
+    {
+        "unlockParams": [
+            0,
+            0,
+            0
+        ],
+        "buffId": 24110303,
+        "activityId": 241103,
+        "buffLevel": 1,
+        "buffType": 3,
+        "upgradeResourceId": 30900078,
+        "upgradeResourceCount": 1,
+        "effect": 110,
+        "effectDesc": 3093,
+        "effectDesc_2": 3096,
+        "limitCount": 0,
+        "limitInterval": 0
+    },
+    {
+        "unlockParams": [
+            0,
+            0,
+            0
+        ],
+        "buffId": 24110303,
+        "activityId": 241103,
+        "buffLevel": 2,
+        "buffType": 3,
+        "upgradeResourceId": 30900078,
+        "upgradeResourceCount": 1,
+        "effect": 120,
+        "effectDesc": 3093,
+        "effectDesc_2": 3096,
+        "limitCount": 0,
+        "limitInterval": 0
+    },
+    {
+        "unlockParams": [
+            0,
+            0,
+            0
+        ],
+        "buffId": 24110303,
+        "activityId": 241103,
+        "buffLevel": 3,
+        "buffType": 3,
+        "upgradeResourceId": 30900078,
+        "upgradeResourceCount": 1,
+        "effect": 130,
+        "effectDesc": 3093,
+        "effectDesc_2": 3096,
+        "limitCount": 0,
+        "limitInterval": 0
+    },
+    {
+        "unlockParams": [
+            0,
+            0,
+            0
+        ],
+        "buffId": 24110303,
+        "activityId": 241103,
+        "buffLevel": 4,
+        "buffType": 3,
+        "upgradeResourceId": 30900078,
+        "upgradeResourceCount": 1,
+        "effect": 140,
+        "effectDesc": 3093,
+        "effectDesc_2": 3096,
+        "limitCount": 0,
+        "limitInterval": 0
+    },
+    {
+        "unlockParams": [
+            0,
+            0,
+            0
+        ],
+        "buffId": 24110303,
+        "activityId": 241103,
+        "buffLevel": 5,
+        "buffType": 3,
+        "upgradeResourceId": 30900078,
+        "upgradeResourceCount": 1,
+        "effect": 150,
+        "effectDesc": 3093,
+        "effectDesc_2": 3096,
+        "limitCount": 0,
+        "limitInterval": 0
+    },
+    {
+        "unlockParams": [
+            250101,
+            0,
+            0
+        ],
+        "buffId": 25010201,
+        "activityId": 250102,
+        "buffLevel": 1,
+        "buffType": 21,
+        "upgradeResourceId": 30900080,
+        "upgradeResourceCount": 40,
+        "effect": 3,
+        "effectDesc": 3103,
+        "effectDesc_2": 3098,
+        "limitCount": 0,
+        "limitInterval": 0
+    },
+    {
+        "unlockParams": [
+            250101,
+            0,
+            3
+        ],
+        "buffId": 25010201,
+        "activityId": 250102,
+        "buffLevel": 2,
+        "buffType": 21,
+        "upgradeResourceId": 30900080,
+        "upgradeResourceCount": 50,
+        "effect": 6,
+        "effectDesc": 3103,
+        "effectDesc_2": 3098,
+        "limitCount": 0,
+        "limitInterval": 0
+    },
+    {
+        "unlockParams": [
+            250101,
+            0,
+            5
+        ],
+        "buffId": 25010201,
+        "activityId": 250102,
+        "buffLevel": 3,
+        "buffType": 21,
+        "upgradeResourceId": 30900080,
+        "upgradeResourceCount": 60,
+        "effect": 9,
+        "effectDesc": 3103,
+        "effectDesc_2": 3098,
+        "limitCount": 0,
+        "limitInterval": 0
+    },
+    {
+        "unlockParams": [
+            250101,
+            8,
+            7
+        ],
+        "buffId": 25010201,
+        "activityId": 250102,
+        "buffLevel": 4,
+        "buffType": 21,
+        "upgradeResourceId": 30900080,
+        "upgradeResourceCount": 80,
+        "effect": 12,
+        "effectDesc": 3103,
+        "effectDesc_2": 3098,
+        "limitCount": 0,
+        "limitInterval": 0
+    },
+    {
+        "unlockParams": [
+            250101,
+            8,
+            10
+        ],
+        "buffId": 25010201,
+        "activityId": 250102,
+        "buffLevel": 5,
+        "buffType": 21,
+        "upgradeResourceId": 30900080,
+        "upgradeResourceCount": 100,
+        "effect": 15,
+        "effectDesc": 3103,
+        "effectDesc_2": 3098,
+        "limitCount": 0,
+        "limitInterval": 0
+    },
+    {
+        "unlockParams": [
+            250101,
+            0,
+            0
+        ],
+        "buffId": 25010202,
+        "activityId": 250102,
+        "buffLevel": 1,
+        "buffType": 22,
+        "upgradeResourceId": 30900080,
+        "upgradeResourceCount": 30,
+        "effect": 10,
+        "effectDesc": 3104,
+        "effectDesc_2": 3099,
+        "limitCount": 0,
+        "limitInterval": 0
+    },
+    {
+        "unlockParams": [
+            250101,
+            0,
+            3
+        ],
+        "buffId": 25010202,
+        "activityId": 250102,
+        "buffLevel": 2,
+        "buffType": 22,
+        "upgradeResourceId": 30900080,
+        "upgradeResourceCount": 35,
+        "effect": 20,
+        "effectDesc": 3104,
+        "effectDesc_2": 3099,
+        "limitCount": 0,
+        "limitInterval": 0
+    },
+    {
+        "unlockParams": [
+            250101,
+            0,
+            5
+        ],
+        "buffId": 25010202,
+        "activityId": 250102,
+        "buffLevel": 3,
+        "buffType": 22,
+        "upgradeResourceId": 30900080,
+        "upgradeResourceCount": 45,
+        "effect": 40,
+        "effectDesc": 3104,
+        "effectDesc_2": 3099,
+        "limitCount": 0,
+        "limitInterval": 0
+    },
+    {
+        "unlockParams": [
+            250101,
+            8,
+            7
+        ],
+        "buffId": 25010202,
+        "activityId": 250102,
+        "buffLevel": 4,
+        "buffType": 22,
+        "upgradeResourceId": 30900080,
+        "upgradeResourceCount": 60,
+        "effect": 60,
+        "effectDesc": 3104,
+        "effectDesc_2": 3099,
+        "limitCount": 0,
+        "limitInterval": 0
+    },
+    {
+        "unlockParams": [
+            250101,
+            8,
+            10
+        ],
+        "buffId": 25010202,
+        "activityId": 250102,
+        "buffLevel": 5,
+        "buffType": 22,
+        "upgradeResourceId": 30900080,
+        "upgradeResourceCount": 80,
+        "effect": 80,
+        "effectDesc": 3104,
+        "effectDesc_2": 3099,
+        "limitCount": 0,
+        "limitInterval": 0
+    },
+    {
+        "unlockParams": [
+            250101,
+            0,
+            0
+        ],
+        "buffId": 25010203,
+        "activityId": 250102,
+        "buffLevel": 1,
+        "buffType": 24,
+        "upgradeResourceId": 30900080,
+        "upgradeResourceCount": 50,
+        "effect": 1,
+        "effectDesc": 3105,
+        "effectDesc_2": 3102,
+        "limitCount": 0,
+        "limitInterval": 0
+    },
+    {
+        "unlockParams": [
+            250101,
+            0,
+            3
+        ],
+        "buffId": 25010203,
+        "activityId": 250102,
+        "buffLevel": 2,
+        "buffType": 24,
+        "upgradeResourceId": 30900080,
+        "upgradeResourceCount": 60,
+        "effect": 2,
+        "effectDesc": 3105,
+        "effectDesc_2": 3102,
+        "limitCount": 0,
+        "limitInterval": 0
+    },
+    {
+        "unlockParams": [
+            250101,
+            0,
+            5
+        ],
+        "buffId": 25010203,
+        "activityId": 250102,
+        "buffLevel": 3,
+        "buffType": 24,
+        "upgradeResourceId": 30900080,
+        "upgradeResourceCount": 70,
+        "effect": 3,
+        "effectDesc": 3105,
+        "effectDesc_2": 3102,
+        "limitCount": 0,
+        "limitInterval": 0
+    },
+    {
+        "unlockParams": [
+            250101,
+            8,
+            7
+        ],
+        "buffId": 25010203,
+        "activityId": 250102,
+        "buffLevel": 4,
+        "buffType": 24,
+        "upgradeResourceId": 30900080,
+        "upgradeResourceCount": 90,
+        "effect": 4,
+        "effectDesc": 3105,
+        "effectDesc_2": 3102,
+        "limitCount": 0,
+        "limitInterval": 0
+    },
+    {
+        "unlockParams": [
+            250101,
+            8,
+            10
+        ],
+        "buffId": 25010203,
+        "activityId": 250102,
+        "buffLevel": 5,
+        "buffType": 24,
+        "upgradeResourceId": 30900080,
+        "upgradeResourceCount": 110,
+        "effect": 5,
+        "effectDesc": 3105,
+        "effectDesc_2": 3102,
+        "limitCount": 0,
+        "limitInterval": 0
+    }
+]

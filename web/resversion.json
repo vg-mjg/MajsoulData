@@ -31672,7 +31672,7 @@
       "prefix": "v0.10.89.w"
     },
     "res/atlas/en/myres/activity_fanpai.atlas": {
-      "prefix": "v0.11.216.w"
+      "prefix": "v0.11.167.w"
     },
     "en/extendRes/items/toy1.jpg": {
       "prefix": "v0.10.1.w"
@@ -33769,7 +33769,7 @@
       "prefix": "v0.10.1.w"
     },
     "res/atlas/en/myres/activity_fanpai.png": {
-      "prefix": "v0.11.216.w"
+      "prefix": "v0.11.167.w"
     },
     "audio/sound/longchuanxiayan/lobby_levelup2.mp3": {
       "prefix": "v0.10.1.w"
@@ -84265,10 +84265,10 @@
       "prefix": "v0.11.188.w"
     },
     "res/atlas/kr/myres/activity_fanpai.atlas": {
-      "prefix": "v0.11.216.w"
+      "prefix": "v0.11.167.w"
     },
     "res/atlas/kr/myres/activity_fanpai.png": {
-      "prefix": "v0.11.216.w"
+      "prefix": "v0.11.167.w"
     },
     "res/atlas/kr/myres/activity_huiye.atlas": {
       "prefix": "v0.10.125.w"
@@ -194767,10 +194767,10 @@
       "prefix": "v0.11.188.w"
     },
     "res/atlas_q7/en/myres/activity_fanpai.atlas": {
-      "prefix": "v0.11.216.w"
+      "prefix": "v0.11.167.w"
     },
     "res/atlas_q7/en/myres/activity_fanpai_0.png": {
-      "prefix": "v0.11.216.w"
+      "prefix": "v0.11.167.w"
     },
     "res/atlas_q7/en/myres/activity_huiye.atlas": {
       "prefix": "v0.10.306.w"
@@ -195520,10 +195520,10 @@
       "prefix": "v0.11.188.w"
     },
     "res/atlas_q7/kr/myres/activity_fanpai.atlas": {
-      "prefix": "v0.11.216.w"
+      "prefix": "v0.11.167.w"
     },
     "res/atlas_q7/kr/myres/activity_fanpai_0.png": {
-      "prefix": "v0.11.216.w"
+      "prefix": "v0.11.167.w"
     },
     "res/atlas_q7/kr/myres/activity_huiye.atlas": {
       "prefix": "v0.10.306.w"
@@ -378997,24 +378997,6 @@
       "prefix": "v0.11.216.w"
     },
     "lang/chs_t_q7/myres2/activity_banner/26fanpai_b.jpg": {
-      "prefix": "v0.11.216.w"
-    },
-    "chs_t/myres2/activity_banner/26fanpai.png": {
-      "prefix": "v0.11.216.w"
-    },
-    "chs_t/myres2/activity_banner/26fanpai_b.jpg": {
-      "prefix": "v0.11.216.w"
-    },
-    "en/myres2/activity_banner/26fanpai.png": {
-      "prefix": "v0.11.216.w"
-    },
-    "en/myres2/activity_banner/26fanpai_b.jpg": {
-      "prefix": "v0.11.216.w"
-    },
-    "kr/myres2/activity_banner/26fanpai.png": {
-      "prefix": "v0.11.216.w"
-    },
-    "kr/myres2/activity_banner/26fanpai_b.jpg": {
       "prefix": "v0.11.216.w"
     }
   }

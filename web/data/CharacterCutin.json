@@ -1,0 +1,123 @@
+[
+    {
+        "skinid": 405201,
+        "cutinName": "cutin_xiyuansi",
+        "effect": "cutin_xiyuansi",
+        "atlas": "xiyuansi",
+        "charX": 15,
+        "charY": 503,
+        "charWidth": 1315,
+        "charHeight": 1960,
+        "type": 0
+    },
+    {
+        "skinid": 405202,
+        "cutinName": "cutin_xiyuansi",
+        "effect": "cutin_xiyuansi_0",
+        "atlas": "xiyuansi",
+        "charX": -294,
+        "charY": 479,
+        "charWidth": 2500,
+        "charHeight": 2137,
+        "type": 0
+    },
+    {
+        "skinid": 406101,
+        "cutinName": "cutin_beiyuan",
+        "effect": "cutin_beiyuan",
+        "atlas": "beiyuanlili",
+        "charX": 412,
+        "charY": 576,
+        "charWidth": 1578,
+        "charHeight": 2054,
+        "type": 0
+    },
+    {
+        "skinid": 406102,
+        "cutinName": "cutin_beiyuan",
+        "effect": "cutin_beiyuan_0",
+        "atlas": "beiyuanlili",
+        "charX": 188,
+        "charY": 420,
+        "charWidth": 3143,
+        "charHeight": 3164,
+        "type": 0
+    },
+    {
+        "skinid": 407601,
+        "cutinName": "cutin_dongcheng",
+        "effect": "cutin_dongcheng",
+        "atlas": "dongcheng",
+        "charX": -294,
+        "charY": 479,
+        "charWidth": 1009,
+        "charHeight": 1633,
+        "type": 0
+    },
+    {
+        "skinid": 407602,
+        "cutinName": "cutin_dongcheng",
+        "effect": "cutin_dongcheng_0",
+        "atlas": "dongcheng",
+        "charX": -147,
+        "charY": 456,
+        "charWidth": 1645,
+        "charHeight": 1615,
+        "type": 0
+    },
+    {
+        "skinid": 409501,
+        "cutinName": "cutin_nanfeng",
+        "effect": "cutin_nanfeng",
+        "atlas": "nanfeng",
+        "charX": -326,
+        "charY": 482,
+        "charWidth": 821,
+        "charHeight": 1488,
+        "type": 0
+    },
+    {
+        "skinid": 409502,
+        "cutinName": "cutin_nanfeng",
+        "effect": "cutin_nanfeng_0",
+        "atlas": "nanfeng",
+        "charX": -402,
+        "charY": 216,
+        "charWidth": 1317,
+        "charHeight": 1500,
+        "type": 0
+    },
+    {
+        "skinid": 40011201,
+        "cutinName": "cutin_liyang",
+        "effect": "cutin_liyang",
+        "atlas": "liyang",
+        "charX": 0,
+        "charY": 0,
+        "charWidth": 0,
+        "charHeight": 0,
+        "type": 1
+    },
+    {
+        "skinid": 40011202,
+        "cutinName": "cutin_liyang",
+        "effect": "cutin_liyang_0",
+        "atlas": "liyang",
+        "charX": 0,
+        "charY": 0,
+        "charWidth": 0,
+        "charHeight": 0,
+        "type": 1
+    },
+    {
+        "skinid": 40011203,
+        "cutinName": "cutin_liyang",
+        "effect": "cutin_liyang_1",
+        "atlas": "liyang",
+        "charX": 0,
+        "charY": 0,
+        "charWidth": 0,
+        "charHeight": 0,
+        "type": 1
+    }
+]

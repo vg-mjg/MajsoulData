@@ -1,0 +1,407 @@
+[
+    {
+        "groupId": 1011,
+        "enemyId": 101101,
+        "hp": 3,
+        "rewardGroupId": 101101,
+        "x": 4,
+        "y": 3,
+        "width": 6
+    },
+    {
+        "groupId": 1011,
+        "enemyId": 101102,
+        "hp": 3,
+        "rewardGroupId": 101101,
+        "x": 14,
+        "y": 3,
+        "width": 6
+    },
+    {
+        "groupId": 1011,
+        "enemyId": 101103,
+        "hp": 3,
+        "rewardGroupId": 101101,
+        "x": 24,
+        "y": 3,
+        "width": 6
+    },
+    {
+        "groupId": 1011,
+        "enemyId": 101104,
+        "hp": 2,
+        "rewardGroupId": 101102,
+        "x": 1,
+        "y": 2,
+        "width": 4
+    },
+    {
+        "groupId": 1011,
+        "enemyId": 101105,
+        "hp": 2,
+        "rewardGroupId": 101102,
+        "x": 8,
+        "y": 2,
+        "width": 4
+    },
+    {
+        "groupId": 1011,
+        "enemyId": 101106,
+        "hp": 2,
+        "rewardGroupId": 101102,
+        "x": 15,
+        "y": 2,
+        "width": 4
+    },
+    {
+        "groupId": 1011,
+        "enemyId": 101107,
+        "hp": 2,
+        "rewardGroupId": 101102,
+        "x": 22,
+        "y": 2,
+        "width": 4
+    },
+    {
+        "groupId": 1011,
+        "enemyId": 101108,
+        "hp": 2,
+        "rewardGroupId": 101102,
+        "x": 29,
+        "y": 2,
+        "width": 4
+    },
+    {
+        "groupId": 1011,
+        "enemyId": 101109,
+        "hp": 1,
+        "rewardGroupId": 101103,
+        "x": 1,
+        "y": 1,
+        "width": 2
+    },
+    {
+        "groupId": 1011,
+        "enemyId": 101110,
+        "hp": 1,
+        "rewardGroupId": 101103,
+        "x": 6,
+        "y": 1,
+        "width": 2
+    },
+    {
+        "groupId": 1011,
+        "enemyId": 101111,
+        "hp": 1,
+        "rewardGroupId": 101103,
+        "x": 11,
+        "y": 1,
+        "width": 2
+    },
+    {
+        "groupId": 1011,
+        "enemyId": 101112,
+        "hp": 1,
+        "rewardGroupId": 101103,
+        "x": 16,
+        "y": 1,
+        "width": 2
+    },
+    {
+        "groupId": 1011,
+        "enemyId": 101113,
+        "hp": 1,
+        "rewardGroupId": 101103,
+        "x": 21,
+        "y": 1,
+        "width": 2
+    },
+    {
+        "groupId": 1011,
+        "enemyId": 101114,
+        "hp": 1,
+        "rewardGroupId": 101103,
+        "x": 26,
+        "y": 1,
+        "width": 2
+    },
+    {
+        "groupId": 1011,
+        "enemyId": 101115,
+        "hp": 1,
+        "rewardGroupId": 101103,
+        "x": 31,
+        "y": 1,
+        "width": 2
+    },
+    {
+        "groupId": 1012,
+        "enemyId": 101201,
+        "hp": 3,
+        "rewardGroupId": 101201,
+        "x": 4,
+        "y": 3,
+        "width": 6
+    },
+    {
+        "groupId": 1012,
+        "enemyId": 101202,
+        "hp": 3,
+        "rewardGroupId": 101201,
+        "x": 14,
+        "y": 3,
+        "width": 6
+    },
+    {
+        "groupId": 1012,
+        "enemyId": 101203,
+        "hp": 3,
+        "rewardGroupId": 101201,
+        "x": 24,
+        "y": 3,
+        "width": 6
+    },
+    {
+        "groupId": 1012,
+        "enemyId": 101204,
+        "hp": 2,
+        "rewardGroupId": 101202,
+        "x": 1,
+        "y": 2,
+        "width": 4
+    },
+    {
+        "groupId": 1012,
+        "enemyId": 101205,
+        "hp": 2,
+        "rewardGroupId": 101202,
+        "x": 8,
+        "y": 2,
+        "width": 4
+    },
+    {
+        "groupId": 1012,
+        "enemyId": 101206,
+        "hp": 2,
+        "rewardGroupId": 101202,
+        "x": 15,
+        "y": 2,
+        "width": 4
+    },
+    {
+        "groupId": 1012,
+        "enemyId": 101207,
+        "hp": 2,
+        "rewardGroupId": 101202,
+        "x": 22,
+        "y": 2,
+        "width": 4
+    },
+    {
+        "groupId": 1012,
+        "enemyId": 101208,
+        "hp": 2,
+        "rewardGroupId": 101202,
+        "x": 29,
+        "y": 2,
+        "width": 4
+    },
+    {
+        "groupId": 1012,
+        "enemyId": 101209,
+        "hp": 1,
+        "rewardGroupId": 101203,
+        "x": 1,
+        "y": 1,
+        "width": 2
+    },
+    {
+        "groupId": 1012,
+        "enemyId": 101210,
+        "hp": 1,
+        "rewardGroupId": 101203,
+        "x": 6,
+        "y": 1,
+        "width": 2
+    },
+    {
+        "groupId": 1012,
+        "enemyId": 101211,
+        "hp": 1,
+        "rewardGroupId": 101203,
+        "x": 11,
+        "y": 1,
+        "width": 2
+    },
+    {
+        "groupId": 1012,
+        "enemyId": 101212,
+        "hp": 1,
+        "rewardGroupId": 101203,
+        "x": 16,
+        "y": 1,
+        "width": 2
+    },
+    {
+        "groupId": 1012,
+        "enemyId": 101213,
+        "hp": 1,
+        "rewardGroupId": 101203,
+        "x": 21,
+        "y": 1,
+        "width": 2
+    },
+    {
+        "groupId": 1012,
+        "enemyId": 101214,
+        "hp": 1,
+        "rewardGroupId": 101203,
+        "x": 26,
+        "y": 1,
+        "width": 2
+    },
+    {
+        "groupId": 1012,
+        "enemyId": 101215,
+        "hp": 1,
+        "rewardGroupId": 101203,
+        "x": 31,
+        "y": 1,
+        "width": 2
+    },
+    {
+        "groupId": 1013,
+        "enemyId": 101301,
+        "hp": 3,
+        "rewardGroupId": 101301,
+        "x": 4,
+        "y": 3,
+        "width": 6
+    },
+    {
+        "groupId": 1013,
+        "enemyId": 101302,
+        "hp": 3,
+        "rewardGroupId": 101301,
+        "x": 14,
+        "y": 3,
+        "width": 6
+    },
+    {
+        "groupId": 1013,
+        "enemyId": 101303,
+        "hp": 3,
+        "rewardGroupId": 101301,
+        "x": 24,
+        "y": 3,
+        "width": 6
+    },
+    {
+        "groupId": 1013,
+        "enemyId": 101304,
+        "hp": 2,
+        "rewardGroupId": 101302,
+        "x": 1,
+        "y": 2,
+        "width": 4
+    },
+    {
+        "groupId": 1013,
+        "enemyId": 101305,
+        "hp": 2,
+        "rewardGroupId": 101302,
+        "x": 8,
+        "y": 2,
+        "width": 4
+    },
+    {
+        "groupId": 1013,
+        "enemyId": 101306,
+        "hp": 2,
+        "rewardGroupId": 101302,
+        "x": 15,
+        "y": 2,
+        "width": 4
+    },
+    {
+        "groupId": 1013,
+        "enemyId": 101307,
+        "hp": 2,
+        "rewardGroupId": 101302,
+        "x": 22,
+        "y": 2,
+        "width": 4
+    },
+    {
+        "groupId": 1013,
+        "enemyId": 101308,
+        "hp": 2,
+        "rewardGroupId": 101302,
+        "x": 29,
+        "y": 2,
+        "width": 4
+    },
+    {
+        "groupId": 1013,
+        "enemyId": 101309,
+        "hp": 1,
+        "rewardGroupId": 101303,
+        "x": 1,
+        "y": 1,
+        "width": 2
+    },
+    {
+        "groupId": 1013,
+        "enemyId": 101310,
+        "hp": 1,
+        "rewardGroupId": 101303,
+        "x": 6,
+        "y": 1,
+        "width": 2
+    },
+    {
+        "groupId": 1013,
+        "enemyId": 101311,
+        "hp": 1,
+        "rewardGroupId": 101303,
+        "x": 11,
+        "y": 1,
+        "width": 2
+    },
+    {
+        "groupId": 1013,
+        "enemyId": 101312,
+        "hp": 1,
+        "rewardGroupId": 101303,
+        "x": 16,
+        "y": 1,
+        "width": 2
+    },
+    {
+        "groupId": 1013,
+        "enemyId": 101313,
+        "hp": 1,
+        "rewardGroupId": 101303,
+        "x": 21,
+        "y": 1,
+        "width": 2
+    },
+    {
+        "groupId": 1013,
+        "enemyId": 101314,
+        "hp": 1,
+        "rewardGroupId": 101303,
+        "x": 26,
+        "y": 1,
+        "width": 2
+    },
+    {
+        "groupId": 1013,
+        "enemyId": 101315,
+        "hp": 1,
+        "rewardGroupId": 101303,
+        "x": 31,
+        "y": 1,
+        "width": 2
+    }
+]

@@ -1,0 +1,7812 @@
+[
+    {
+        "id": 1004001,
+        "activityId": 1004,
+        "baseTaskId": 20079,
+        "rewardId": 309003,
+        "rewardCount": 1,
+        "hiddenReward": "",
+        "limitId": 0,
+        "deprecated": 0
+    },
+    {
+        "id": 1004002,
+        "activityId": 1004,
+        "baseTaskId": 20080,
+        "rewardId": 309003,
+        "rewardCount": 1,
+        "hiddenReward": "",
+        "limitId": 0,
+        "deprecated": 0
+    },
+    {
+        "id": 1004003,
+        "activityId": 1004,
+        "baseTaskId": 20081,
+        "rewardId": 309003,
+        "rewardCount": 1,
+        "hiddenReward": "",
+        "limitId": 0,
+        "deprecated": 0
+    },
+    {
+        "id": 1004004,
+        "activityId": 1004,
+        "baseTaskId": 20082,
+        "rewardId": 309003,
+        "rewardCount": 1,
+        "hiddenReward": "",
+        "limitId": 0,
+        "deprecated": 0
+    },
+    {
+        "id": 1004005,
+        "activityId": 1004,
+        "baseTaskId": 20083,
+        "rewardId": 309003,
+        "rewardCount": 2,
+        "hiddenReward": "",
+        "limitId": 0,
+        "deprecated": 0
+    },
+    {
+        "id": 1004006,
+        "activityId": 1004,
+        "baseTaskId": 20084,
+        "rewardId": 309003,
+        "rewardCount": 4,
+        "hiddenReward": "",
+        "limitId": 0,
+        "deprecated": 0
+    },
+    {
+        "id": 1004007,
+        "activityId": 1004,
+        "baseTaskId": 20085,
+        "rewardId": 309003,
+        "rewardCount": 4,
+        "hiddenReward": "",
+        "limitId": 0,
+        "deprecated": 0
+    },
+    {
+        "id": 1004008,
+        "activityId": 1004,
+        "baseTaskId": 20086,
+        "rewardId": 309003,
+        "rewardCount": 8,
+        "hiddenReward": "",
+        "limitId": 0,
+        "deprecated": 0
+    },
+    {
+        "id": 1004009,
+        "activityId": 1004,
+        "baseTaskId": 20087,
+        "rewardId": 309003,
+        "rewardCount": 8,
+        "hiddenReward": "",
+        "limitId": 0,
+        "deprecated": 0
+    },
+    {
+        "id": 1004010,
+        "activityId": 1004,
+        "baseTaskId": 20088,
+        "rewardId": 309003,
+        "rewardCount": 8,
+        "hiddenReward": "",
+        "limitId": 0,
+        "deprecated": 0
+    },
+    {
+        "id": 1004011,
+        "activityId": 1004,
+        "baseTaskId": 20089,
+        "rewardId": 309003,
+        "rewardCount": 8,
+        "hiddenReward": "",
+        "limitId": 0,
+        "deprecated": 0
+    },
+    {
+        "id": 1004012,
+        "activityId": 1004,
+        "baseTaskId": 20090,
+        "rewardId": 309003,
+        "rewardCount": 8,
+        "hiddenReward": "",
+        "limitId": 0,
+        "deprecated": 0
+    },
+    {
+        "id": 1004013,
+        "activityId": 1004,
+        "baseTaskId": 20091,
+        "rewardId": 309003,
+        "rewardCount": 8,
+        "hiddenReward": "",
+        "limitId": 0,
+        "deprecated": 0
+    },
+    {
+        "id": 1004014,
+        "activityId": 1004,
+        "baseTaskId": 20092,
+        "rewardId": 309003,
+        "rewardCount": 8,
+        "hiddenReward": "",
+        "limitId": 0,
+        "deprecated": 0
+    },
+    {
+        "id": 1004015,
+        "activityId": 1004,
+        "baseTaskId": 20093,
+        "rewardId": 309003,
+        "rewardCount": 8,
+        "hiddenReward": "",
+        "limitId": 0,
+        "deprecated": 0
+    },
+    {
+        "id": 1004016,
+        "activityId": 1004,
+        "baseTaskId": 20094,
+        "rewardId": 309004,
+        "rewardCount": 1,
+        "hiddenReward": "",
+        "limitId": 0,
+        "deprecated": 0
+    },
+    {
+        "id": 1004017,
+        "activityId": 1004,
+        "baseTaskId": 20095,
+        "rewardId": 309004,
+        "rewardCount": 1,
+        "hiddenReward": "",
+        "limitId": 0,
+        "deprecated": 0
+    },
+    {
+        "id": 1004018,
+        "activityId": 1004,
+        "baseTaskId": 20096,
+        "rewardId": 309004,
+        "rewardCount": 1,
+        "hiddenReward": "",
+        "limitId": 0,
+        "deprecated": 0
+    },
+    {
+        "id": 1004019,
+        "activityId": 1004,
+        "baseTaskId": 20097,
+        "rewardId": 309004,
+        "rewardCount": 1,
+        "hiddenReward": "",
+        "limitId": 0,
+        "deprecated": 0
+    },
+    {
+        "id": 1004020,
+        "activityId": 1004,
+        "baseTaskId": 20098,
+        "rewardId": 309004,
+        "rewardCount": 1,
+        "hiddenReward": "",
+        "limitId": 0,
+        "deprecated": 0
+    },
+    {
+        "id": 1004021,
+        "activityId": 1004,
+        "baseTaskId": 20099,
+        "rewardId": 309004,
+        "rewardCount": 1,
+        "hiddenReward": "",
+        "limitId": 0,
+        "deprecated": 0
+    },
+    {
+        "id": 1004022,
+        "activityId": 1004,
+        "baseTaskId": 20100,
+        "rewardId": 309004,
+        "rewardCount": 2,
+        "hiddenReward": "",
+        "limitId": 0,
+        "deprecated": 0
+    },
+    {
+        "id": 1004023,
+        "activityId": 1004,
+        "baseTaskId": 20101,
+        "rewardId": 309004,
+        "rewardCount": 2,
+        "hiddenReward": "",
+        "limitId": 0,
+        "deprecated": 0
+    },
+    {
+        "id": 1004024,
+        "activityId": 1004,
+        "baseTaskId": 20102,
+        "rewardId": 309004,
+        "rewardCount": 2,
+        "hiddenReward": "",
+        "limitId": 0,
+        "deprecated": 0
+    },
+    {
+        "id": 1004025,
+        "activityId": 1004,
+        "baseTaskId": 20103,
+        "rewardId": 309004,
+        "rewardCount": 2,
+        "hiddenReward": "",
+        "limitId": 0,
+        "deprecated": 0
+    },
+    {
+        "id": 1004026,
+        "activityId": 1004,
+        "baseTaskId": 20104,
+        "rewardId": 309004,
+        "rewardCount": 2,
+        "hiddenReward": "",
+        "limitId": 0,
+        "deprecated": 0
+    },
+    {
+        "id": 1004027,
+        "activityId": 1004,
+        "baseTaskId": 20105,
+        "rewardId": 309004,
+        "rewardCount": 2,
+        "hiddenReward": "",
+        "limitId": 0,
+        "deprecated": 0
+    },
+    {
+        "id": 1004028,
+        "activityId": 1004,
+        "baseTaskId": 20106,
+        "rewardId": 309004,
+        "rewardCount": 2,
+        "hiddenReward": "",
+        "limitId": 0,
+        "deprecated": 0
+    },
+    {
+        "id": 1004029,
+        "activityId": 1004,
+        "baseTaskId": 20107,
+        "rewardId": 309004,
+        "rewardCount": 4,
+        "hiddenReward": "",
+        "limitId": 0,
+        "deprecated": 0
+    },
+    {
+        "id": 1004030,
+        "activityId": 1004,
+        "baseTaskId": 20108,
+        "rewardId": 309004,
+        "rewardCount": 4,
+        "hiddenReward": "",
+        "limitId": 0,
+        "deprecated": 0
+    },
+    {
+        "id": 1004031,
+        "activityId": 1004,
+        "baseTaskId": 20109,
+        "rewardId": 309004,
+        "rewardCount": 4,
+        "hiddenReward": "",
+        "limitId": 0,
+        "deprecated": 0
+    },
+    {
+        "id": 1004032,
+        "activityId": 1004,
+        "baseTaskId": 20110,
+        "rewardId": 309004,
+        "rewardCount": 4,
+        "hiddenReward": "",
+        "limitId": 0,
+        "deprecated": 0
+    },
+    {
+        "id": 1004033,
+        "activityId": 1004,
+        "baseTaskId": 20111,
+        "rewardId": 309004,
+        "rewardCount": 4,
+        "hiddenReward": "",
+        "limitId": 0,
+        "deprecated": 0
+    },
+    {
+        "id": 1004034,
+        "activityId": 1004,
+        "baseTaskId": 20112,
+        "rewardId": 309004,
+        "rewardCount": 8,
+        "hiddenReward": "",
+        "limitId": 0,
+        "deprecated": 0
+    },
+    {
+        "id": 1004035,
+        "activityId": 1004,
+        "baseTaskId": 20113,
+        "rewardId": 309004,
+        "rewardCount": 8,
+        "hiddenReward": "",
+        "limitId": 0,
+        "deprecated": 0
+    },
+    {
+        "id": 1004036,
+        "activityId": 1004,
+        "baseTaskId": 20114,
+        "rewardId": 309004,
+        "rewardCount": 8,
+        "hiddenReward": "",
+        "limitId": 0,
+        "deprecated": 0
+    },
+    {
+        "id": 1004037,
+        "activityId": 1004,
+        "baseTaskId": 20115,
+        "rewardId": 309005,
+        "rewardCount": 1,
+        "hiddenReward": "",
+        "limitId": 0,
+        "deprecated": 0
+    },
+    {
+        "id": 1004038,
+        "activityId": 1004,
+        "baseTaskId": 20116,
+        "rewardId": 309005,
+        "rewardCount": 1,
+        "hiddenReward": "",
+        "limitId": 0,
+        "deprecated": 0
+    },
+    {
+        "id": 1004039,
+        "activityId": 1004,
+        "baseTaskId": 20117,
+        "rewardId": 309005,
+        "rewardCount": 1,
+        "hiddenReward": "",
+        "limitId": 0,
+        "deprecated": 0
+    },
+    {
+        "id": 1004040,
+        "activityId": 1004,
+        "baseTaskId": 20118,
+        "rewardId": 309005,
+        "rewardCount": 1,
+        "hiddenReward": "",
+        "limitId": 0,
+        "deprecated": 0
+    },
+    {
+        "id": 1004041,
+        "activityId": 1004,
+        "baseTaskId": 20119,
+        "rewardId": 309005,
+        "rewardCount": 1,
+        "hiddenReward": "",
+        "limitId": 0,
+        "deprecated": 0
+    },
+    {
+        "id": 1004042,
+        "activityId": 1004,
+        "baseTaskId": 20120,
+        "rewardId": 309005,
+        "rewardCount": 2,
+        "hiddenReward": "",
+        "limitId": 0,
+        "deprecated": 0
+    },
+    {
+        "id": 1004043,
+        "activityId": 1004,
+        "baseTaskId": 20121,
+        "rewardId": 309005,
+        "rewardCount": 2,
+        "hiddenReward": "",
+        "limitId": 0,
+        "deprecated": 0
+    },
+    {
+        "id": 1004044,
+        "activityId": 1004,
+        "baseTaskId": 20122,
+        "rewardId": 309005,
+        "rewardCount": 2,
+        "hiddenReward": "",
+        "limitId": 0,
+        "deprecated": 0
+    },
+    {
+        "id": 1004045,
+        "activityId": 1004,
+        "baseTaskId": 20123,
+        "rewardId": 309005,
+        "rewardCount": 4,
+        "hiddenReward": "",
+        "limitId": 0,
+        "deprecated": 0
+    },
+    {
+        "id": 1004046,
+        "activityId": 1004,
+        "baseTaskId": 20124,
+        "rewardId": 309005,
+        "rewardCount": 8,
+        "hiddenReward": "",
+        "limitId": 0,
+        "deprecated": 0
+    },
+    {
+        "id": 1004047,
+        "activityId": 1004,
+        "baseTaskId": 20125,
+        "rewardId": 309005,
+        "rewardCount": 8,
+        "hiddenReward": "",
+        "limitId": 0,
+        "deprecated": 0
+    },
+    {
+        "id": 1004048,
+        "activityId": 1004,
+        "baseTaskId": 20126,
+        "rewardId": 309005,
+        "rewardCount": 8,
+        "hiddenReward": "",
+        "limitId": 0,
+        "deprecated": 0
+    },
+    {
+        "id": 1004049,
+        "activityId": 1004,
+        "baseTaskId": 20127,
+        "rewardId": 309005,
+        "rewardCount": 8,
+        "hiddenReward": "",
+        "limitId": 0,
+        "deprecated": 0
+    },
+    {
+        "id": 1012001,
+        "activityId": 1012,
+        "baseTaskId": 20179,
+        "rewardId": 309008,
+        "rewardCount": 1,
+        "hiddenReward": "",
+        "limitId": 10000,
+        "deprecated": 0
+    },
+    {
+        "id": 1012002,
+        "activityId": 1012,
+        "baseTaskId": 20180,
+        "rewardId": 309008,
+        "rewardCount": 1,
+        "hiddenReward": "",
+        "limitId": 10000,
+        "deprecated": 0
+    },
+    {
+        "id": 1012003,
+        "activityId": 1012,
+        "baseTaskId": 20181,
+        "rewardId": 309008,
+        "rewardCount": 1,
+        "hiddenReward": "",
+        "limitId": 10000,
+        "deprecated": 0
+    },
+    {
+        "id": 1012004,
+        "activityId": 1012,
+        "baseTaskId": 20182,
+        "rewardId": 309008,
+        "rewardCount": 1,
+        "hiddenReward": "",
+        "limitId": 10000,
+        "deprecated": 0
+    },
+    {
+        "id": 1012005,
+        "activityId": 1012,
+        "baseTaskId": 20183,
+        "rewardId": 309008,
+        "rewardCount": 2,
+        "hiddenReward": "",
+        "limitId": 10000,
+        "deprecated": 0
+    },
+    {
+        "id": 1012006,
+        "activityId": 1012,
+        "baseTaskId": 20184,
+        "rewardId": 309008,
+        "rewardCount": 3,
+        "hiddenReward": "",
+        "limitId": 10000,
+        "deprecated": 0
+    },
+    {
+        "id": 1012007,
+        "activityId": 1012,
+        "baseTaskId": 20185,
+        "rewardId": 309008,
+        "rewardCount": 3,
+        "hiddenReward": "",
+        "limitId": 10000,
+        "deprecated": 0
+    },
+    {
+        "id": 1012008,
+        "activityId": 1012,
+        "baseTaskId": 20186,
+        "rewardId": 309008,
+        "rewardCount": 4,
+        "hiddenReward": "",
+        "limitId": 10000,
+        "deprecated": 0
+    },
+    {
+        "id": 1012009,
+        "activityId": 1012,
+        "baseTaskId": 20187,
+        "rewardId": 309008,
+        "rewardCount": 4,
+        "hiddenReward": "",
+        "limitId": 10000,
+        "deprecated": 0
+    },
+    {
+        "id": 1012010,
+        "activityId": 1012,
+        "baseTaskId": 20188,
+        "rewardId": 309008,
+        "rewardCount": 4,
+        "hiddenReward": "",
+        "limitId": 10000,
+        "deprecated": 0
+    },
+    {
+        "id": 1012011,
+        "activityId": 1012,
+        "baseTaskId": 20189,
+        "rewardId": 309008,
+        "rewardCount": 4,
+        "hiddenReward": "",
+        "limitId": 10000,
+        "deprecated": 0
+    },
+    {
+        "id": 1012012,
+        "activityId": 1012,
+        "baseTaskId": 20190,
+        "rewardId": 309008,
+        "rewardCount": 4,
+        "hiddenReward": "",
+        "limitId": 10000,
+        "deprecated": 0
+    },
+    {
+        "id": 1012013,
+        "activityId": 1012,
+        "baseTaskId": 20191,
+        "rewardId": 309008,
+        "rewardCount": 4,
+        "hiddenReward": "",
+        "limitId": 10000,
+        "deprecated": 0
+    },
+    {
+        "id": 1012014,
+        "activityId": 1012,
+        "baseTaskId": 20192,
+        "rewardId": 309008,
+        "rewardCount": 4,
+        "hiddenReward": "",
+        "limitId": 10000,
+        "deprecated": 0
+    },
+    {
+        "id": 1012015,
+        "activityId": 1012,
+        "baseTaskId": 20193,
+        "rewardId": 309008,
+        "rewardCount": 4,
+        "hiddenReward": "",
+        "limitId": 10000,
+        "deprecated": 0
+    },
+    {
+        "id": 1012016,
+        "activityId": 1012,
+        "baseTaskId": 20194,
+        "rewardId": 309009,
+        "rewardCount": 1,
+        "hiddenReward": "",
+        "limitId": 10000,
+        "deprecated": 0
+    },
+    {
+        "id": 1012017,
+        "activityId": 1012,
+        "baseTaskId": 20195,
+        "rewardId": 309009,
+        "rewardCount": 1,
+        "hiddenReward": "",
+        "limitId": 10000,
+        "deprecated": 0
+    },
+    {
+        "id": 1012018,
+        "activityId": 1012,
+        "baseTaskId": 20196,
+        "rewardId": 309009,
+        "rewardCount": 1,
+        "hiddenReward": "",
+        "limitId": 10000,
+        "deprecated": 0
+    },
+    {
+        "id": 1012019,
+        "activityId": 1012,
+        "baseTaskId": 20197,
+        "rewardId": 309009,
+        "rewardCount": 1,
+        "hiddenReward": "",
+        "limitId": 10000,
+        "deprecated": 0
+    },
+    {
+        "id": 1012020,
+        "activityId": 1012,
+        "baseTaskId": 20198,
+        "rewardId": 309009,
+        "rewardCount": 1,
+        "hiddenReward": "",
+        "limitId": 10000,
+        "deprecated": 0
+    },
+    {
+        "id": 1012021,
+        "activityId": 1012,
+        "baseTaskId": 20199,
+        "rewardId": 309009,
+        "rewardCount": 1,
+        "hiddenReward": "",
+        "limitId": 10000,
+        "deprecated": 0
+    },
+    {
+        "id": 1012022,
+        "activityId": 1012,
+        "baseTaskId": 20200,
+        "rewardId": 309009,
+        "rewardCount": 2,
+        "hiddenReward": "",
+        "limitId": 10000,
+        "deprecated": 0
+    },
+    {
+        "id": 1012023,
+        "activityId": 1012,
+        "baseTaskId": 20201,
+        "rewardId": 309009,
+        "rewardCount": 2,
+        "hiddenReward": "",
+        "limitId": 10000,
+        "deprecated": 0
+    },
+    {
+        "id": 1012024,
+        "activityId": 1012,
+        "baseTaskId": 20202,
+        "rewardId": 309009,
+        "rewardCount": 2,
+        "hiddenReward": "",
+        "limitId": 10000,
+        "deprecated": 0
+    },
+    {
+        "id": 1012025,
+        "activityId": 1012,
+        "baseTaskId": 20203,
+        "rewardId": 309009,
+        "rewardCount": 2,
+        "hiddenReward": "",
+        "limitId": 10000,
+        "deprecated": 0
+    },
+    {
+        "id": 1012026,
+        "activityId": 1012,
+        "baseTaskId": 20204,
+        "rewardId": 309009,
+        "rewardCount": 2,
+        "hiddenReward": "",
+        "limitId": 10000,
+        "deprecated": 0
+    },
+    {
+        "id": 1012027,
+        "activityId": 1012,
+        "baseTaskId": 20205,
+        "rewardId": 309009,
+        "rewardCount": 2,
+        "hiddenReward": "",
+        "limitId": 10000,
+        "deprecated": 0
+    },
+    {
+        "id": 1012028,
+        "activityId": 1012,
+        "baseTaskId": 20206,
+        "rewardId": 309009,
+        "rewardCount": 2,
+        "hiddenReward": "",
+        "limitId": 10000,
+        "deprecated": 0
+    },
+    {
+        "id": 1012029,
+        "activityId": 1012,
+        "baseTaskId": 20207,
+        "rewardId": 309009,
+        "rewardCount": 3,
+        "hiddenReward": "",
+        "limitId": 10000,
+        "deprecated": 0
+    },
+    {
+        "id": 1012030,
+        "activityId": 1012,
+        "baseTaskId": 20208,
+        "rewardId": 309009,
+        "rewardCount": 3,
+        "hiddenReward": "",
+        "limitId": 10000,
+        "deprecated": 0
+    },
+    {
+        "id": 1012031,
+        "activityId": 1012,
+        "baseTaskId": 20209,
+        "rewardId": 309009,
+        "rewardCount": 3,
+        "hiddenReward": "",
+        "limitId": 10000,
+        "deprecated": 0
+    },
+    {
+        "id": 1012032,
+        "activityId": 1012,
+        "baseTaskId": 20210,
+        "rewardId": 309009,
+        "rewardCount": 3,
+        "hiddenReward": "",
+        "limitId": 10000,
+        "deprecated": 0
+    },
+    {
+        "id": 1012033,
+        "activityId": 1012,
+        "baseTaskId": 20211,
+        "rewardId": 309009,
+        "rewardCount": 3,
+        "hiddenReward": "",
+        "limitId": 10000,
+        "deprecated": 0
+    },
+    {
+        "id": 1012034,
+        "activityId": 1012,
+        "baseTaskId": 20212,
+        "rewardId": 309009,
+        "rewardCount": 4,
+        "hiddenReward": "",
+        "limitId": 10000,
+        "deprecated": 0
+    },
+    {
+        "id": 1012035,
+        "activityId": 1012,
+        "baseTaskId": 20213,
+        "rewardId": 309009,
+        "rewardCount": 4,
+        "hiddenReward": "",
+        "limitId": 10000,
+        "deprecated": 0
+    },
+    {
+        "id": 1012036,
+        "activityId": 1012,
+        "baseTaskId": 20214,
+        "rewardId": 309009,
+        "rewardCount": 4,
+        "hiddenReward": "",
+        "limitId": 10000,
+        "deprecated": 0
+    },
+    {
+        "id": 1012037,
+        "activityId": 1012,
+        "baseTaskId": 20215,
+        "rewardId": 309010,
+        "rewardCount": 1,
+        "hiddenReward": "",
+        "limitId": 10000,
+        "deprecated": 0
+    },
+    {
+        "id": 1012038,
+        "activityId": 1012,
+        "baseTaskId": 20216,
+        "rewardId": 309010,
+        "rewardCount": 1,
+        "hiddenReward": "",
+        "limitId": 10000,
+        "deprecated": 0
+    },
+    {
+        "id": 1012039,
+        "activityId": 1012,
+        "baseTaskId": 20217,
+        "rewardId": 309010,
+        "rewardCount": 1,
+        "hiddenReward": "",
+        "limitId": 10000,
+        "deprecated": 0
+    },
+    {
+        "id": 1012040,
+        "activityId": 1012,
+        "baseTaskId": 20218,
+        "rewardId": 309010,
+        "rewardCount": 1,
+        "hiddenReward": "",
+        "limitId": 10000,
+        "deprecated": 0
+    },
+    {
+        "id": 1012041,
+        "activityId": 1012,
+        "baseTaskId": 20219,
+        "rewardId": 309010,
+        "rewardCount": 1,
+        "hiddenReward": "",
+        "limitId": 10000,
+        "deprecated": 0
+    },
+    {
+        "id": 1012042,
+        "activityId": 1012,
+        "baseTaskId": 20220,
+        "rewardId": 309010,
+        "rewardCount": 2,
+        "hiddenReward": "",
+        "limitId": 10000,
+        "deprecated": 0
+    },
+    {
+        "id": 1012043,
+        "activityId": 1012,
+        "baseTaskId": 20221,
+        "rewardId": 309010,
+        "rewardCount": 2,
+        "hiddenReward": "",
+        "limitId": 10000,
+        "deprecated": 0
+    },
+    {
+        "id": 1012044,
+        "activityId": 1012,
+        "baseTaskId": 20222,
+        "rewardId": 309010,
+        "rewardCount": 2,
+        "hiddenReward": "",
+        "limitId": 10000,
+        "deprecated": 0
+    },
+    {
+        "id": 1012045,
+        "activityId": 1012,
+        "baseTaskId": 20223,
+        "rewardId": 309010,
+        "rewardCount": 3,
+        "hiddenReward": "",
+        "limitId": 10000,
+        "deprecated": 0
+    },
+    {
+        "id": 1012046,
+        "activityId": 1012,
+        "baseTaskId": 20224,
+        "rewardId": 309010,
+        "rewardCount": 4,
+        "hiddenReward": "",
+        "limitId": 10000,
+        "deprecated": 0
+    },
+    {
+        "id": 1012047,
+        "activityId": 1012,
+        "baseTaskId": 20225,
+        "rewardId": 309010,
+        "rewardCount": 4,
+        "hiddenReward": "",
+        "limitId": 10000,
+        "deprecated": 0
+    },
+    {
+        "id": 1012048,
+        "activityId": 1012,
+        "baseTaskId": 20226,
+        "rewardId": 309010,
+        "rewardCount": 4,
+        "hiddenReward": "",
+        "limitId": 10000,
+        "deprecated": 0
+    },
+    {
+        "id": 1012049,
+        "activityId": 1012,
+        "baseTaskId": 20227,
+        "rewardId": 309010,
+        "rewardCount": 4,
+        "hiddenReward": "",
+        "limitId": 10000,
+        "deprecated": 0
+    },
+    {
+        "id": 1024001,
+        "activityId": 1024,
+        "baseTaskId": 20179,
+        "rewardId": 309013,
+        "rewardCount": 1,
+        "hiddenReward": "",
+        "limitId": 10001,
+        "deprecated": 0
+    },
+    {
+        "id": 1024002,
+        "activityId": 1024,
+        "baseTaskId": 20180,
+        "rewardId": 309013,
+        "rewardCount": 1,
+        "hiddenReward": "",
+        "limitId": 10001,
+        "deprecated": 0
+    },
+    {
+        "id": 1024003,
+        "activityId": 1024,
+        "baseTaskId": 20181,
+        "rewardId": 309013,
+        "rewardCount": 1,
+        "hiddenReward": "",
+        "limitId": 10001,
+        "deprecated": 0
+    },
+    {
+        "id": 1024004,
+        "activityId": 1024,
+        "baseTaskId": 20182,
+        "rewardId": 309013,
+        "rewardCount": 1,
+        "hiddenReward": "",
+        "limitId": 10001,
+        "deprecated": 0
+    },
+    {
+        "id": 1024005,
+        "activityId": 1024,
+        "baseTaskId": 20183,
+        "rewardId": 309013,
+        "rewardCount": 2,
+        "hiddenReward": "",
+        "limitId": 10001,
+        "deprecated": 0
+    },
+    {
+        "id": 1024006,
+        "activityId": 1024,
+        "baseTaskId": 20184,
+        "rewardId": 309013,
+        "rewardCount": 3,
+        "hiddenReward": "",
+        "limitId": 10001,
+        "deprecated": 0
+    },
+    {
+        "id": 1024007,
+        "activityId": 1024,
+        "baseTaskId": 20185,
+        "rewardId": 309013,
+        "rewardCount": 3,
+        "hiddenReward": "",
+        "limitId": 10001,
+        "deprecated": 0
+    },
+    {
+        "id": 1024008,
+        "activityId": 1024,
+        "baseTaskId": 20186,
+        "rewardId": 309013,
+        "rewardCount": 4,
+        "hiddenReward": "",
+        "limitId": 10001,
+        "deprecated": 0
+    },
+    {
+        "id": 1024009,
+        "activityId": 1024,
+        "baseTaskId": 20187,
+        "rewardId": 309013,
+        "rewardCount": 4,
+        "hiddenReward": "",
+        "limitId": 10001,
+        "deprecated": 0
+    },
+    {
+        "id": 1024010,
+        "activityId": 1024,
+        "baseTaskId": 20188,
+        "rewardId": 309013,
+        "rewardCount": 4,
+        "hiddenReward": "",
+        "limitId": 10001,
+        "deprecated": 0
+    },
+    {
+        "id": 1024011,
+        "activityId": 1024,
+        "baseTaskId": 20189,
+        "rewardId": 309013,
+        "rewardCount": 4,
+        "hiddenReward": "",
+        "limitId": 10001,
+        "deprecated": 0
+    },
+    {
+        "id": 1024012,
+        "activityId": 1024,
+        "baseTaskId": 20190,
+        "rewardId": 309013,
+        "rewardCount": 4,
+        "hiddenReward": "",
+        "limitId": 10001,
+        "deprecated": 0
+    },
+    {
+        "id": 1024013,
+        "activityId": 1024,
+        "baseTaskId": 20191,
+        "rewardId": 309013,
+        "rewardCount": 4,
+        "hiddenReward": "",
+        "limitId": 10001,
+        "deprecated": 0
+    },
+    {
+        "id": 1024014,
+        "activityId": 1024,
+        "baseTaskId": 20192,
+        "rewardId": 309013,
+        "rewardCount": 4,
+        "hiddenReward": "",
+        "limitId": 10001,
+        "deprecated": 0
+    },
+    {
+        "id": 1024015,
+        "activityId": 1024,
+        "baseTaskId": 20193,
+        "rewardId": 309013,
+        "rewardCount": 4,
+        "hiddenReward": "",
+        "limitId": 10001,
+        "deprecated": 0
+    },
+    {
+        "id": 1024016,
+        "activityId": 1024,
+        "baseTaskId": 20194,
+        "rewardId": 309014,
+        "rewardCount": 1,
+        "hiddenReward": "",
+        "limitId": 10001,
+        "deprecated": 0
+    },
+    {
+        "id": 1024017,
+        "activityId": 1024,
+        "baseTaskId": 20195,
+        "rewardId": 309014,
+        "rewardCount": 1,
+        "hiddenReward": "",
+        "limitId": 10001,
+        "deprecated": 0
+    },
+    {
+        "id": 1024018,
+        "activityId": 1024,
+        "baseTaskId": 20196,
+        "rewardId": 309014,
+        "rewardCount": 1,
+        "hiddenReward": "",
+        "limitId": 10001,
+        "deprecated": 0
+    },
+    {
+        "id": 1024019,
+        "activityId": 1024,
+        "baseTaskId": 20197,
+        "rewardId": 309014,
+        "rewardCount": 1,
+        "hiddenReward": "",
+        "limitId": 10001,
+        "deprecated": 0
+    },
+    {
+        "id": 1024020,
+        "activityId": 1024,
+        "baseTaskId": 20198,
+        "rewardId": 309014,
+        "rewardCount": 1,
+        "hiddenReward": "",
+        "limitId": 10001,
+        "deprecated": 0
+    },
+    {
+        "id": 1024021,
+        "activityId": 1024,
+        "baseTaskId": 20199,
+        "rewardId": 309014,
+        "rewardCount": 1,
+        "hiddenReward": "",
+        "limitId": 10001,
+        "deprecated": 0
+    },
+    {
+        "id": 1024022,
+        "activityId": 1024,
+        "baseTaskId": 20200,
+        "rewardId": 309014,
+        "rewardCount": 2,
+        "hiddenReward": "",
+        "limitId": 10001,
+        "deprecated": 0
+    },
+    {
+        "id": 1024023,
+        "activityId": 1024,
+        "baseTaskId": 20201,
+        "rewardId": 309014,
+        "rewardCount": 2,
+        "hiddenReward": "",
+        "limitId": 10001,
+        "deprecated": 0
+    },
+    {
+        "id": 1024024,
+        "activityId": 1024,
+        "baseTaskId": 20202,
+        "rewardId": 309014,
+        "rewardCount": 2,
+        "hiddenReward": "",
+        "limitId": 10001,
+        "deprecated": 0
+    },
+    {
+        "id": 1024025,
+        "activityId": 1024,
+        "baseTaskId": 20203,
+        "rewardId": 309014,
+        "rewardCount": 2,
+        "hiddenReward": "",
+        "limitId": 10001,
+        "deprecated": 0
+    },
+    {
+        "id": 1024026,
+        "activityId": 1024,
+        "baseTaskId": 20204,
+        "rewardId": 309014,
+        "rewardCount": 2,
+        "hiddenReward": "",
+        "limitId": 10001,
+        "deprecated": 0
+    },
+    {
+        "id": 1024027,
+        "activityId": 1024,
+        "baseTaskId": 20205,
+        "rewardId": 309014,
+        "rewardCount": 2,
+        "hiddenReward": "",
+        "limitId": 10001,
+        "deprecated": 0
+    },
+    {
+        "id": 1024028,
+        "activityId": 1024,
+        "baseTaskId": 20206,
+        "rewardId": 309014,
+        "rewardCount": 2,
+        "hiddenReward": "",
+        "limitId": 10001,
+        "deprecated": 0
+    },
+    {
+        "id": 1024029,
+        "activityId": 1024,
+        "baseTaskId": 20207,
+        "rewardId": 309014,
+        "rewardCount": 3,
+        "hiddenReward": "",
+        "limitId": 10001,
+        "deprecated": 0
+    },
+    {
+        "id": 1024030,
+        "activityId": 1024,
+        "baseTaskId": 20208,
+        "rewardId": 309014,
+        "rewardCount": 3,
+        "hiddenReward": "",
+        "limitId": 10001,
+        "deprecated": 0
+    },
+    {
+        "id": 1024031,
+        "activityId": 1024,
+        "baseTaskId": 20209,
+        "rewardId": 309014,
+        "rewardCount": 3,
+        "hiddenReward": "",
+        "limitId": 10001,
+        "deprecated": 0
+    },
+    {
+        "id": 1024032,
+        "activityId": 1024,
+        "baseTaskId": 20210,
+        "rewardId": 309014,
+        "rewardCount": 3,
+        "hiddenReward": "",
+        "limitId": 10001,
+        "deprecated": 0
+    },
+    {
+        "id": 1024033,
+        "activityId": 1024,
+        "baseTaskId": 20211,
+        "rewardId": 309014,
+        "rewardCount": 3,
+        "hiddenReward": "",
+        "limitId": 10001,
+        "deprecated": 0
+    },
+    {
+        "id": 1024034,
+        "activityId": 1024,
+        "baseTaskId": 20212,
+        "rewardId": 309014,
+        "rewardCount": 4,
+        "hiddenReward": "",
+        "limitId": 10001,
+        "deprecated": 0
+    },
+    {
+        "id": 1024035,
+        "activityId": 1024,
+        "baseTaskId": 20213,
+        "rewardId": 309014,
+        "rewardCount": 4,
+        "hiddenReward": "",
+        "limitId": 10001,
+        "deprecated": 0
+    },
+    {
+        "id": 1024036,
+        "activityId": 1024,
+        "baseTaskId": 20214,
+        "rewardId": 309014,
+        "rewardCount": 4,
+        "hiddenReward": "",
+        "limitId": 10001,
+        "deprecated": 0
+    },
+    {
+        "id": 1024037,
+        "activityId": 1024,
+        "baseTaskId": 20215,
+        "rewardId": 309015,
+        "rewardCount": 1,
+        "hiddenReward": "",
+        "limitId": 10001,
+        "deprecated": 0
+    },
+    {
+        "id": 1024038,
+        "activityId": 1024,
+        "baseTaskId": 20216,
+        "rewardId": 309015,
+        "rewardCount": 1,
+        "hiddenReward": "",
+        "limitId": 10001,
+        "deprecated": 0
+    },
+    {
+        "id": 1024039,
+        "activityId": 1024,
+        "baseTaskId": 20217,
+        "rewardId": 309015,
+        "rewardCount": 1,
+        "hiddenReward": "",
+        "limitId": 10001,
+        "deprecated": 0
+    },
+    {
+        "id": 1024040,
+        "activityId": 1024,
+        "baseTaskId": 20218,
+        "rewardId": 309015,
+        "rewardCount": 1,
+        "hiddenReward": "",
+        "limitId": 10001,
+        "deprecated": 0
+    },
+    {
+        "id": 1024041,
+        "activityId": 1024,
+        "baseTaskId": 20219,
+        "rewardId": 309015,
+        "rewardCount": 1,
+        "hiddenReward": "",
+        "limitId": 10001,
+        "deprecated": 0
+    },
+    {
+        "id": 1024042,
+        "activityId": 1024,
+        "baseTaskId": 20220,
+        "rewardId": 309015,
+        "rewardCount": 2,
+        "hiddenReward": "",
+        "limitId": 10001,
+        "deprecated": 0
+    },
+    {
+        "id": 1024043,
+        "activityId": 1024,
+        "baseTaskId": 20221,
+        "rewardId": 309015,
+        "rewardCount": 2,
+        "hiddenReward": "",
+        "limitId": 10001,
+        "deprecated": 0
+    },
+    {
+        "id": 1024044,
+        "activityId": 1024,
+        "baseTaskId": 20222,
+        "rewardId": 309015,
+        "rewardCount": 2,
+        "hiddenReward": "",
+        "limitId": 10001,
+        "deprecated": 0
+    },
+    {
+        "id": 1024045,
+        "activityId": 1024,
+        "baseTaskId": 20223,
+        "rewardId": 309015,
+        "rewardCount": 3,
+        "hiddenReward": "",
+        "limitId": 10001,
+        "deprecated": 0
+    },
+    {
+        "id": 1024046,
+        "activityId": 1024,
+        "baseTaskId": 20224,
+        "rewardId": 309015,
+        "rewardCount": 4,
+        "hiddenReward": "",
+        "limitId": 10001,
+        "deprecated": 0
+    },
+    {
+        "id": 1024047,
+        "activityId": 1024,
+        "baseTaskId": 20225,
+        "rewardId": 309015,
+        "rewardCount": 4,
+        "hiddenReward": "309036-1",
+        "limitId": 10001,
+        "deprecated": 0
+    },
+    {
+        "id": 1024048,
+        "activityId": 1024,
+        "baseTaskId": 20226,
+        "rewardId": 309015,
+        "rewardCount": 4,
+        "hiddenReward": "309036-1",
+        "limitId": 10001,
+        "deprecated": 0
+    },
+    {
+        "id": 1024049,
+        "activityId": 1024,
+        "baseTaskId": 20227,
+        "rewardId": 309015,
+        "rewardCount": 4,
+        "hiddenReward": "309036-1",
+        "limitId": 10001,
+        "deprecated": 0
+    },
+    {
+        "id": 1024050,
+        "activityId": 1024,
+        "baseTaskId": 20228,
+        "rewardId": 309013,
+        "rewardCount": 3,
+        "hiddenReward": "309036-1",
+        "limitId": 10001,
+        "deprecated": 0
+    },
+    {
+        "id": 1024051,
+        "activityId": 1024,
+        "baseTaskId": 20229,
+        "rewardId": 309014,
+        "rewardCount": 3,
+        "hiddenReward": "309036-1",
+        "limitId": 10001,
+        "deprecated": 0
+    },
+    {
+        "id": 1024052,
+        "activityId": 1024,
+        "baseTaskId": 20230,
+        "rewardId": 309015,
+        "rewardCount": 3,
+        "hiddenReward": "309036-1",
+        "limitId": 10001,
+        "deprecated": 0
+    },
+    {
+        "id": 1024053,
+        "activityId": 1024,
+        "baseTaskId": 20231,
+        "rewardId": 309013,
+        "rewardCount": 4,
+        "hiddenReward": "309036-1",
+        "limitId": 10001,
+        "deprecated": 0
+    },
+    {
+        "id": 1024054,
+        "activityId": 1024,
+        "baseTaskId": 20232,
+        "rewardId": 309014,
+        "rewardCount": 4,
+        "hiddenReward": "309036-1",
+        "limitId": 10001,
+        "deprecated": 0
+    },
+    {
+        "id": 1024055,
+        "activityId": 1024,
+        "baseTaskId": 20233,
+        "rewardId": 309015,
+        "rewardCount": 4,
+        "hiddenReward": "309036-1",
+        "limitId": 10001,
+        "deprecated": 0
+    },
+    {
+        "id": 1024056,
+        "activityId": 1024,
+        "baseTaskId": 20234,
+        "rewardId": 309013,
+        "rewardCount": 4,
+        "hiddenReward": "309036-1",
+        "limitId": 10001,
+        "deprecated": 0
+    },
+    {
+        "id": 1024057,
+        "activityId": 1024,
+        "baseTaskId": 20235,
+        "rewardId": 309014,
+        "rewardCount": 4,
+        "hiddenReward": "309036-1",
+        "limitId": 10001,
+        "deprecated": 0
+    },
+    {
+        "id": 1024058,
+        "activityId": 1024,
+        "baseTaskId": 20236,
+        "rewardId": 309015,
+        "rewardCount": 4,
+        "hiddenReward": "309036-1",
+        "limitId": 10001,
+        "deprecated": 0
+    },
+    {
+        "id": 1024059,
+        "activityId": 1024,
+        "baseTaskId": 20237,
+        "rewardId": 309013,
+        "rewardCount": 4,
+        "hiddenReward": "309036-1",
+        "limitId": 10001,
+        "deprecated": 0
+    },
+    {
+        "id": 1024060,
+        "activityId": 1024,
+        "baseTaskId": 20238,
+        "rewardId": 309014,
+        "rewardCount": 4,
+        "hiddenReward": "309036-1",
+        "limitId": 10001,
+        "deprecated": 0
+    },
+    {
+        "id": 1024061,
+        "activityId": 1024,
+        "baseTaskId": 20239,
+        "rewardId": 309015,
+        "rewardCount": 4,
+        "hiddenReward": "309036-1",
+        "limitId": 10001,
+        "deprecated": 0
+    },
+    {
+        "id": 1024062,
+        "activityId": 1024,
+        "baseTaskId": 20240,
+        "rewardId": 309013,
+        "rewardCount": 4,
+        "hiddenReward": "309036-1",
+        "limitId": 10001,
+        "deprecated": 0
+    },
+    {
+        "id": 1024063,
+        "activityId": 1024,
+        "baseTaskId": 20241,
+        "rewardId": 309015,
+        "rewardCount": 4,
+        "hiddenReward": "309036-1",
+        "limitId": 10001,
+        "deprecated": 0
+    },
+    {
+        "id": 1062001,
+        "activityId": 1062,
+        "baseTaskId": 20179,
+        "rewardId": 309019,
+        "rewardCount": 1,
+        "hiddenReward": "309036-1",
+        "limitId": 10002,
+        "deprecated": 0
+    },
+    {
+        "id": 1062002,
+        "activityId": 1062,
+        "baseTaskId": 20180,
+        "rewardId": 309019,
+        "rewardCount": 1,
+        "hiddenReward": "309036-1",
+        "limitId": 10002,
+        "deprecated": 0
+    },
+    {
+        "id": 1062003,
+        "activityId": 1062,
+        "baseTaskId": 20181,
+        "rewardId": 309019,
+        "rewardCount": 1,
+        "hiddenReward": "309036-1",
+        "limitId": 10002,
+        "deprecated": 0
+    },
+    {
+        "id": 1062004,
+        "activityId": 1062,
+        "baseTaskId": 20182,
+        "rewardId": 309019,
+        "rewardCount": 1,
+        "hiddenReward": "309036-1",
+        "limitId": 10002,
+        "deprecated": 0
+    },
+    {
+        "id": 1062005,
+        "activityId": 1062,
+        "baseTaskId": 20183,
+        "rewardId": 309019,
+        "rewardCount": 2,
+        "hiddenReward": "309036-1",
+        "limitId": 10002,
+        "deprecated": 0
+    },
+    {
+        "id": 1062006,
+        "activityId": 1062,
+        "baseTaskId": 20184,
+        "rewardId": 309019,
+        "rewardCount": 3,
+        "hiddenReward": "309036-1",
+        "limitId": 10002,
+        "deprecated": 0
+    },
+    {
+        "id": 1062007,
+        "activityId": 1062,
+        "baseTaskId": 20185,
+        "rewardId": 309019,
+        "rewardCount": 3,
+        "hiddenReward": "309036-1",
+        "limitId": 10002,
+        "deprecated": 0
+    },
+    {
+        "id": 1062008,
+        "activityId": 1062,
+        "baseTaskId": 20186,
+        "rewardId": 309019,
+        "rewardCount": 4,
+        "hiddenReward": "309036-1",
+        "limitId": 10002,
+        "deprecated": 0
+    },
+    {
+        "id": 1062009,
+        "activityId": 1062,
+        "baseTaskId": 20187,
+        "rewardId": 309019,
+        "rewardCount": 4,
+        "hiddenReward": "309036-1",
+        "limitId": 10002,
+        "deprecated": 0
+    },
+    {
+        "id": 1062010,
+        "activityId": 1062,
+        "baseTaskId": 20188,
+        "rewardId": 309019,
+        "rewardCount": 4,
+        "hiddenReward": "309036-1",
+        "limitId": 10002,
+        "deprecated": 0
+    },
+    {
+        "id": 1062011,
+        "activityId": 1062,
+        "baseTaskId": 20189,
+        "rewardId": 309019,
+        "rewardCount": 4,
+        "hiddenReward": "309036-1",
+        "limitId": 10002,
+        "deprecated": 0
+    },
+    {
+        "id": 1062012,
+        "activityId": 1062,
+        "baseTaskId": 20190,
+        "rewardId": 309019,
+        "rewardCount": 4,
+        "hiddenReward": "309036-1",
+        "limitId": 10002,
+        "deprecated": 0
+    },
+    {
+        "id": 1062013,
+        "activityId": 1062,
+        "baseTaskId": 20191,
+        "rewardId": 309019,
+        "rewardCount": 4,
+        "hiddenReward": "309036-1",
+        "limitId": 10002,
+        "deprecated": 0
+    },
+    {
+        "id": 1062014,
+        "activityId": 1062,
+        "baseTaskId": 20192,
+        "rewardId": 309019,
+        "rewardCount": 4,
+        "hiddenReward": "309036-1",
+        "limitId": 10002,
+        "deprecated": 0
+    },
+    {
+        "id": 1062015,
+        "activityId": 1062,
+        "baseTaskId": 20193,
+        "rewardId": 309019,
+        "rewardCount": 4,
+        "hiddenReward": "309036-1",
+        "limitId": 10002,
+        "deprecated": 0
+    },
+    {
+        "id": 1062016,
+        "activityId": 1062,
+        "baseTaskId": 20194,
+        "rewardId": 309020,
+        "rewardCount": 1,
+        "hiddenReward": "309036-1",
+        "limitId": 10002,
+        "deprecated": 0
+    },
+    {
+        "id": 1062017,
+        "activityId": 1062,
+        "baseTaskId": 20195,
+        "rewardId": 309020,
+        "rewardCount": 1,
+        "hiddenReward": "309036-1",
+        "limitId": 10002,
+        "deprecated": 0
+    },
+    {
+        "id": 1062018,
+        "activityId": 1062,
+        "baseTaskId": 20196,
+        "rewardId": 309020,
+        "rewardCount": 1,
+        "hiddenReward": "309036-1",
+        "limitId": 10002,
+        "deprecated": 0
+    },
+    {
+        "id": 1062019,
+        "activityId": 1062,
+        "baseTaskId": 20197,
+        "rewardId": 309020,
+        "rewardCount": 1,
+        "hiddenReward": "309036-1",
+        "limitId": 10002,
+        "deprecated": 0
+    },
+    {
+        "id": 1062020,
+        "activityId": 1062,
+        "baseTaskId": 20198,
+        "rewardId": 309020,
+        "rewardCount": 1,
+        "hiddenReward": "309036-1",
+        "limitId": 10002,
+        "deprecated": 0
+    },
+    {
+        "id": 1062021,
+        "activityId": 1062,
+        "baseTaskId": 20199,
+        "rewardId": 309020,
+        "rewardCount": 1,
+        "hiddenReward": "309036-1",
+        "limitId": 10002,
+        "deprecated": 0
+    },
+    {
+        "id": 1062022,
+        "activityId": 1062,
+        "baseTaskId": 20200,
+        "rewardId": 309020,
+        "rewardCount": 2,
+        "hiddenReward": "309036-1",
+        "limitId": 10002,
+        "deprecated": 0
+    },
+    {
+        "id": 1062023,
+        "activityId": 1062,
+        "baseTaskId": 20201,
+        "rewardId": 309020,
+        "rewardCount": 2,
+        "hiddenReward": "309036-1",
+        "limitId": 10002,
+        "deprecated": 0
+    },
+    {
+        "id": 1062024,
+        "activityId": 1062,
+        "baseTaskId": 20202,
+        "rewardId": 309020,
+        "rewardCount": 2,
+        "hiddenReward": "309036-1",
+        "limitId": 10002,
+        "deprecated": 0
+    },
+    {
+        "id": 1062025,
+        "activityId": 1062,
+        "baseTaskId": 20203,
+        "rewardId": 309020,
+        "rewardCount": 2,
+        "hiddenReward": "309036-1",
+        "limitId": 10002,
+        "deprecated": 0
+    },
+    {
+        "id": 1062026,
+        "activityId": 1062,
+        "baseTaskId": 20204,
+        "rewardId": 309020,
+        "rewardCount": 2,
+        "hiddenReward": "309036-1",
+        "limitId": 10002,
+        "deprecated": 0
+    },
+    {
+        "id": 1062027,
+        "activityId": 1062,
+        "baseTaskId": 20205,
+        "rewardId": 309020,
+        "rewardCount": 2,
+        "hiddenReward": "309036-1",
+        "limitId": 10002,
+        "deprecated": 0
+    },
+    {
+        "id": 1062028,
+        "activityId": 1062,
+        "baseTaskId": 20206,
+        "rewardId": 309020,
+        "rewardCount": 2,
+        "hiddenReward": "309036-1",
+        "limitId": 10002,
+        "deprecated": 0
+    },
+    {
+        "id": 1062029,
+        "activityId": 1062,
+        "baseTaskId": 20207,
+        "rewardId": 309020,
+        "rewardCount": 3,
+        "hiddenReward": "309036-1",
+        "limitId": 10002,
+        "deprecated": 0
+    },
+    {
+        "id": 1062030,
+        "activityId": 1062,
+        "baseTaskId": 20208,
+        "rewardId": 309020,
+        "rewardCount": 3,
+        "hiddenReward": "309036-1",
+        "limitId": 10002,
+        "deprecated": 0
+    },
+    {
+        "id": 1062031,
+        "activityId": 1062,
+        "baseTaskId": 20209,
+        "rewardId": 309020,
+        "rewardCount": 3,
+        "hiddenReward": "309036-1",
+        "limitId": 10002,
+        "deprecated": 0
+    },
+    {
+        "id": 1062032,
+        "activityId": 1062,
+        "baseTaskId": 20210,
+        "rewardId": 309020,
+        "rewardCount": 3,
+        "hiddenReward": "309036-1",
+        "limitId": 10002,
+        "deprecated": 0
+    },
+    {
+        "id": 1062033,
+        "activityId": 1062,
+        "baseTaskId": 20211,
+        "rewardId": 309020,
+        "rewardCount": 3,
+        "hiddenReward": "309036-1",
+        "limitId": 10002,
+        "deprecated": 0
+    },
+    {
+        "id": 1062034,
+        "activityId": 1062,
+        "baseTaskId": 20212,
+        "rewardId": 309020,
+        "rewardCount": 4,
+        "hiddenReward": "309036-1",
+        "limitId": 10002,
+        "deprecated": 0
+    },
+    {
+        "id": 1062035,
+        "activityId": 1062,
+        "baseTaskId": 20213,
+        "rewardId": 309020,
+        "rewardCount": 4,
+        "hiddenReward": "309036-1",
+        "limitId": 10002,
+        "deprecated": 0
+    },
+    {
+        "id": 1062036,
+        "activityId": 1062,
+        "baseTaskId": 20214,
+        "rewardId": 309020,
+        "rewardCount": 4,
+        "hiddenReward": "309036-1",
+        "limitId": 10002,
+        "deprecated": 0
+    },
+    {
+        "id": 1062037,
+        "activityId": 1062,
+        "baseTaskId": 20215,
+        "rewardId": 309021,
+        "rewardCount": 1,
+        "hiddenReward": "309036-1",
+        "limitId": 10002,
+        "deprecated": 0
+    },
+    {
+        "id": 1062038,
+        "activityId": 1062,
+        "baseTaskId": 20216,
+        "rewardId": 309021,
+        "rewardCount": 1,
+        "hiddenReward": "309036-1",
+        "limitId": 10002,
+        "deprecated": 0
+    },
+    {
+        "id": 1062039,
+        "activityId": 1062,
+        "baseTaskId": 20217,
+        "rewardId": 309021,
+        "rewardCount": 1,
+        "hiddenReward": "309036-1",
+        "limitId": 10002,
+        "deprecated": 0
+    },
+    {
+        "id": 1062040,
+        "activityId": 1062,
+        "baseTaskId": 20218,
+        "rewardId": 309021,
+        "rewardCount": 1,
+        "hiddenReward": "309036-1",
+        "limitId": 10002,
+        "deprecated": 0
+    },
+    {
+        "id": 1062041,
+        "activityId": 1062,
+        "baseTaskId": 20219,
+        "rewardId": 309021,
+        "rewardCount": 1,
+        "hiddenReward": "309036-1",
+        "limitId": 10002,
+        "deprecated": 0
+    },
+    {
+        "id": 1062042,
+        "activityId": 1062,
+        "baseTaskId": 20220,
+        "rewardId": 309021,
+        "rewardCount": 2,
+        "hiddenReward": "309036-1",
+        "limitId": 10002,
+        "deprecated": 0
+    },
+    {
+        "id": 1062043,
+        "activityId": 1062,
+        "baseTaskId": 20221,
+        "rewardId": 309021,
+        "rewardCount": 2,
+        "hiddenReward": "309036-1",
+        "limitId": 10002,
+        "deprecated": 0
+    },
+    {
+        "id": 1062044,
+        "activityId": 1062,
+        "baseTaskId": 20222,
+        "rewardId": 309021,
+        "rewardCount": 2,
+        "hiddenReward": "309036-1",
+        "limitId": 10002,
+        "deprecated": 0
+    },
+    {
+        "id": 1062045,
+        "activityId": 1062,
+        "baseTaskId": 20223,
+        "rewardId": 309021,
+        "rewardCount": 3,
+        "hiddenReward": "309036-1",
+        "limitId": 10002,
+        "deprecated": 0
+    },
+    {
+        "id": 1062046,
+        "activityId": 1062,
+        "baseTaskId": 20224,
+        "rewardId": 309021,
+        "rewardCount": 4,
+        "hiddenReward": "309036-1",
+        "limitId": 10002,
+        "deprecated": 0
+    },
+    {
+        "id": 1062047,
+        "activityId": 1062,
+        "baseTaskId": 20225,
+        "rewardId": 309021,
+        "rewardCount": 4,
+        "hiddenReward": "309036-1",
+        "limitId": 10002,
+        "deprecated": 0
+    },
+    {
+        "id": 1062048,
+        "activityId": 1062,
+        "baseTaskId": 20226,
+        "rewardId": 309021,
+        "rewardCount": 4,
+        "hiddenReward": "309036-1",
+        "limitId": 10002,
+        "deprecated": 0
+    },
+    {
+        "id": 1062049,
+        "activityId": 1062,
+        "baseTaskId": 20227,
+        "rewardId": 309021,
+        "rewardCount": 4,
+        "hiddenReward": "309036-1",
+        "limitId": 10002,
+        "deprecated": 0
+    },
+    {
+        "id": 1080001,
+        "activityId": 1080,
+        "baseTaskId": 20179,
+        "rewardId": 309024,
+        "rewardCount": 1,
+        "hiddenReward": "309036-1",
+        "limitId": 10003,
+        "deprecated": 0
+    },
+    {
+        "id": 1080002,
+        "activityId": 1080,
+        "baseTaskId": 20180,
+        "rewardId": 309024,
+        "rewardCount": 1,
+        "hiddenReward": "309036-1",
+        "limitId": 10003,
+        "deprecated": 0
+    },
+    {
+        "id": 1080003,
+        "activityId": 1080,
+        "baseTaskId": 20181,
+        "rewardId": 309024,
+        "rewardCount": 1,
+        "hiddenReward": "309036-1",
+        "limitId": 10003,
+        "deprecated": 0
+    },
+    {
+        "id": 1080004,
+        "activityId": 1080,
+        "baseTaskId": 20182,
+        "rewardId": 309024,
+        "rewardCount": 1,
+        "hiddenReward": "309036-1",
+        "limitId": 10003,
+        "deprecated": 0
+    },
+    {
+        "id": 1080005,
+        "activityId": 1080,
+        "baseTaskId": 20183,
+        "rewardId": 309024,
+        "rewardCount": 2,
+        "hiddenReward": "",
+        "limitId": 10003,
+        "deprecated": 0
+    },
+    {
+        "id": 1080006,
+        "activityId": 1080,
+        "baseTaskId": 20184,
+        "rewardId": 309024,
+        "rewardCount": 3,
+        "hiddenReward": "",
+        "limitId": 10003,
+        "deprecated": 0
+    },
+    {
+        "id": 1080007,
+        "activityId": 1080,
+        "baseTaskId": 20185,
+        "rewardId": 309024,
+        "rewardCount": 3,
+        "hiddenReward": "",
+        "limitId": 10003,
+        "deprecated": 0
+    },
+    {
+        "id": 1080008,
+        "activityId": 1080,
+        "baseTaskId": 20186,
+        "rewardId": 309024,
+        "rewardCount": 4,
+        "hiddenReward": "",
+        "limitId": 10003,
+        "deprecated": 0
+    },
+    {
+        "id": 1080009,
+        "activityId": 1080,
+        "baseTaskId": 20187,
+        "rewardId": 309024,
+        "rewardCount": 4,
+        "hiddenReward": "",
+        "limitId": 10003,
+        "deprecated": 0
+    },
+    {
+        "id": 1080010,
+        "activityId": 1080,
+        "baseTaskId": 20188,
+        "rewardId": 309024,
+        "rewardCount": 4,
+        "hiddenReward": "",
+        "limitId": 10003,
+        "deprecated": 0
+    },
+    {
+        "id": 1080011,
+        "activityId": 1080,
+        "baseTaskId": 20189,
+        "rewardId": 309024,
+        "rewardCount": 4,
+        "hiddenReward": "",
+        "limitId": 10003,
+        "deprecated": 0
+    },
+    {
+        "id": 1080012,
+        "activityId": 1080,
+        "baseTaskId": 20190,
+        "rewardId": 309024,
+        "rewardCount": 4,
+        "hiddenReward": "",
+        "limitId": 10003,
+        "deprecated": 0
+    },
+    {
+        "id": 1080013,
+        "activityId": 1080,
+        "baseTaskId": 20191,
+        "rewardId": 309024,
+        "rewardCount": 4,
+        "hiddenReward": "",
+        "limitId": 10003,
+        "deprecated": 0
+    },
+    {
+        "id": 1080014,
+        "activityId": 1080,
+        "baseTaskId": 20192,
+        "rewardId": 309024,
+        "rewardCount": 4,
+        "hiddenReward": "",
+        "limitId": 10003,
+        "deprecated": 0
+    },
+    {
+        "id": 1080015,
+        "activityId": 1080,
+        "baseTaskId": 20193,
+        "rewardId": 309024,
+        "rewardCount": 4,
+        "hiddenReward": "",
+        "limitId": 10003,
+        "deprecated": 0
+    },
+    {
+        "id": 1080016,
+        "activityId": 1080,
+        "baseTaskId": 20194,
+        "rewardId": 309025,
+        "rewardCount": 1,
+        "hiddenReward": "",
+        "limitId": 10003,
+        "deprecated": 0
+    },
+    {
+        "id": 1080017,
+        "activityId": 1080,
+        "baseTaskId": 20195,
+        "rewardId": 309025,
+        "rewardCount": 1,
+        "hiddenReward": "",
+        "limitId": 10003,
+        "deprecated": 0
+    },
+    {
+        "id": 1080018,
+        "activityId": 1080,
+        "baseTaskId": 20196,
+        "rewardId": 309025,
+        "rewardCount": 1,
+        "hiddenReward": "",
+        "limitId": 10003,
+        "deprecated": 0
+    },
+    {
+        "id": 1080019,
+        "activityId": 1080,
+        "baseTaskId": 20197,
+        "rewardId": 309025,
+        "rewardCount": 1,
+        "hiddenReward": "",
+        "limitId": 10003,
+        "deprecated": 0
+    },
+    {
+        "id": 1080020,
+        "activityId": 1080,
+        "baseTaskId": 20198,
+        "rewardId": 309025,
+        "rewardCount": 1,
+        "hiddenReward": "",
+        "limitId": 10003,
+        "deprecated": 0
+    },
+    {
+        "id": 1080021,
+        "activityId": 1080,
+        "baseTaskId": 20199,
+        "rewardId": 309025,
+        "rewardCount": 1,
+        "hiddenReward": "",
+        "limitId": 10003,
+        "deprecated": 0
+    },
+    {
+        "id": 1080022,
+        "activityId": 1080,
+        "baseTaskId": 20200,
+        "rewardId": 309025,
+        "rewardCount": 2,
+        "hiddenReward": "",
+        "limitId": 10003,
+        "deprecated": 0
+    },
+    {
+        "id": 1080023,
+        "activityId": 1080,
+        "baseTaskId": 20201,
+        "rewardId": 309025,
+        "rewardCount": 2,
+        "hiddenReward": "",
+        "limitId": 10003,
+        "deprecated": 0
+    },
+    {
+        "id": 1080024,
+        "activityId": 1080,
+        "baseTaskId": 20202,
+        "rewardId": 309025,
+        "rewardCount": 2,
+        "hiddenReward": "",
+        "limitId": 10003,
+        "deprecated": 0
+    },
+    {
+        "id": 1080025,
+        "activityId": 1080,
+        "baseTaskId": 20203,
+        "rewardId": 309025,
+        "rewardCount": 2,
+        "hiddenReward": "",
+        "limitId": 10003,
+        "deprecated": 0
+    },
+    {
+        "id": 1080026,
+        "activityId": 1080,
+        "baseTaskId": 20204,
+        "rewardId": 309025,
+        "rewardCount": 2,
+        "hiddenReward": "",
+        "limitId": 10003,
+        "deprecated": 0
+    },
+    {
+        "id": 1080027,
+        "activityId": 1080,
+        "baseTaskId": 20205,
+        "rewardId": 309025,
+        "rewardCount": 2,
+        "hiddenReward": "",
+        "limitId": 10003,
+        "deprecated": 0
+    },
+    {
+        "id": 1080028,
+        "activityId": 1080,
+        "baseTaskId": 20206,
+        "rewardId": 309025,
+        "rewardCount": 2,
+        "hiddenReward": "",
+        "limitId": 10003,
+        "deprecated": 0
+    },
+    {
+        "id": 1080029,
+        "activityId": 1080,
+        "baseTaskId": 20207,
+        "rewardId": 309025,
+        "rewardCount": 3,
+        "hiddenReward": "",
+        "limitId": 10003,
+        "deprecated": 0
+    },
+    {
+        "id": 1080030,
+        "activityId": 1080,
+        "baseTaskId": 20208,
+        "rewardId": 309025,
+        "rewardCount": 3,
+        "hiddenReward": "",
+        "limitId": 10003,
+        "deprecated": 0
+    },
+    {
+        "id": 1080031,
+        "activityId": 1080,
+        "baseTaskId": 20209,
+        "rewardId": 309025,
+        "rewardCount": 3,
+        "hiddenReward": "",
+        "limitId": 10003,
+        "deprecated": 0
+    },
+    {
+        "id": 1080032,
+        "activityId": 1080,
+        "baseTaskId": 20210,
+        "rewardId": 309025,
+        "rewardCount": 3,
+        "hiddenReward": "",
+        "limitId": 10003,
+        "deprecated": 0
+    },
+    {
+        "id": 1080033,
+        "activityId": 1080,
+        "baseTaskId": 20211,
+        "rewardId": 309025,
+        "rewardCount": 3,
+        "hiddenReward": "",
+        "limitId": 10003,
+        "deprecated": 0
+    },
+    {
+        "id": 1080034,
+        "activityId": 1080,
+        "baseTaskId": 20212,
+        "rewardId": 309025,
+        "rewardCount": 4,
+        "hiddenReward": "",
+        "limitId": 10003,
+        "deprecated": 0
+    },
+    {
+        "id": 1080035,
+        "activityId": 1080,
+        "baseTaskId": 20213,
+        "rewardId": 309025,
+        "rewardCount": 4,
+        "hiddenReward": "",
+        "limitId": 10003,
+        "deprecated": 0
+    },
+    {
+        "id": 1080036,
+        "activityId": 1080,
+        "baseTaskId": 20214,
+        "rewardId": 309025,
+        "rewardCount": 4,
+        "hiddenReward": "",
+        "limitId": 10003,
+        "deprecated": 0
+    },
+    {
+        "id": 1080037,
+        "activityId": 1080,
+        "baseTaskId": 20215,
+        "rewardId": 309026,
+        "rewardCount": 1,
+        "hiddenReward": "",
+        "limitId": 10003,
+        "deprecated": 0
+    },
+    {
+        "id": 1080038,
+        "activityId": 1080,
+        "baseTaskId": 20216,
+        "rewardId": 309026,
+        "rewardCount": 1,
+        "hiddenReward": "",
+        "limitId": 10003,
+        "deprecated": 0
+    },
+    {
+        "id": 1080039,
+        "activityId": 1080,
+        "baseTaskId": 20217,
+        "rewardId": 309026,
+        "rewardCount": 1,
+        "hiddenReward": "",
+        "limitId": 10003,
+        "deprecated": 0
+    },
+    {
+        "id": 1080040,
+        "activityId": 1080,
+        "baseTaskId": 20218,
+        "rewardId": 309026,
+        "rewardCount": 1,
+        "hiddenReward": "",
+        "limitId": 10003,
+        "deprecated": 0
+    },
+    {
+        "id": 1080041,
+        "activityId": 1080,
+        "baseTaskId": 20219,
+        "rewardId": 309026,
+        "rewardCount": 1,
+        "hiddenReward": "",
+        "limitId": 10003,
+        "deprecated": 0
+    },
+    {
+        "id": 1080042,
+        "activityId": 1080,
+        "baseTaskId": 20220,
+        "rewardId": 309026,
+        "rewardCount": 2,
+        "hiddenReward": "",
+        "limitId": 10003,
+        "deprecated": 0
+    },
+    {
+        "id": 1080043,
+        "activityId": 1080,
+        "baseTaskId": 20221,
+        "rewardId": 309026,
+        "rewardCount": 2,
+        "hiddenReward": "",
+        "limitId": 10003,
+        "deprecated": 0
+    },
+    {
+        "id": 1080044,
+        "activityId": 1080,
+        "baseTaskId": 20222,
+        "rewardId": 309026,
+        "rewardCount": 2,
+        "hiddenReward": "",
+        "limitId": 10003,
+        "deprecated": 0
+    },
+    {
+        "id": 1080045,
+        "activityId": 1080,
+        "baseTaskId": 20223,
+        "rewardId": 309026,
+        "rewardCount": 3,
+        "hiddenReward": "",
+        "limitId": 10003,
+        "deprecated": 0
+    },
+    {
+        "id": 1080046,
+        "activityId": 1080,
+        "baseTaskId": 20224,
+        "rewardId": 309026,
+        "rewardCount": 4,
+        "hiddenReward": "",
+        "limitId": 10003,
+        "deprecated": 0
+    },
+    {
+        "id": 1080047,
+        "activityId": 1080,
+        "baseTaskId": 20225,
+        "rewardId": 309026,
+        "rewardCount": 4,
+        "hiddenReward": "",
+        "limitId": 10003,
+        "deprecated": 0
+    },
+    {
+        "id": 1080048,
+        "activityId": 1080,
+        "baseTaskId": 20226,
+        "rewardId": 309026,
+        "rewardCount": 4,
+        "hiddenReward": "",
+        "limitId": 10003,
+        "deprecated": 0
+    },
+    {
+        "id": 1080049,
+        "activityId": 1080,
+        "baseTaskId": 20227,
+        "rewardId": 309026,
+        "rewardCount": 4,
+        "hiddenReward": "",
+        "limitId": 10003,
+        "deprecated": 0
+    },
+    {
+        "id": 1091001,
+        "activityId": 1091,
+        "baseTaskId": 20680,
+        "rewardId": 309000,
+        "rewardCount": 16,
+        "hiddenReward": "",
+        "limitId": 10004,
+        "deprecated": 0
+    },
+    {
+        "id": 1091002,
+        "activityId": 1091,
+        "baseTaskId": 20681,
+        "rewardId": 309000,
+        "rewardCount": 10,
+        "hiddenReward": "",
+        "limitId": 10004,
+        "deprecated": 0
+    },
+    {
+        "id": 1091003,
+        "activityId": 1091,
+        "baseTaskId": 20682,
+        "rewardId": 309000,
+        "rewardCount": 6,
+        "hiddenReward": "",
+        "limitId": 10004,
+        "deprecated": 0
+    },
+    {
+        "id": 1091004,
+        "activityId": 1091,
+        "baseTaskId": 20683,
+        "rewardId": 309000,
+        "rewardCount": 3,
+        "hiddenReward": "",
+        "limitId": 10004,
+        "deprecated": 0
+    },
+    {
+        "id": 1091005,
+        "activityId": 1091,
+        "baseTaskId": 20684,
+        "rewardId": 309000,
+        "rewardCount": 1,
+        "hiddenReward": "",
+        "limitId": 10004,
+        "deprecated": 0
+    },
+    {
+        "id": 1091006,
+        "activityId": 1091,
+        "baseTaskId": 20685,
+        "rewardId": 309000,
+        "rewardCount": 2,
+        "hiddenReward": "",
+        "limitId": 10004,
+        "deprecated": 0
+    },
+    {
+        "id": 1091007,
+        "activityId": 1091,
+        "baseTaskId": 20686,
+        "rewardId": 309000,
+        "rewardCount": 3,
+        "hiddenReward": "",
+        "limitId": 10004,
+        "deprecated": 0
+    },
+    {
+        "id": 1091008,
+        "activityId": 1091,
+        "baseTaskId": 20687,
+        "rewardId": 309000,
+        "rewardCount": 4,
+        "hiddenReward": "",
+        "limitId": 10004,
+        "deprecated": 0
+    },
+    {
+        "id": 1091009,
+        "activityId": 1091,
+        "baseTaskId": 20688,
+        "rewardId": 309000,
+        "rewardCount": 6,
+        "hiddenReward": "",
+        "limitId": 10004,
+        "deprecated": 0
+    },
+    {
+        "id": 1091010,
+        "activityId": 1091,
+        "baseTaskId": 20689,
+        "rewardId": 309000,
+        "rewardCount": 8,
+        "hiddenReward": "",
+        "limitId": 10004,
+        "deprecated": 0
+    },
+    {
+        "id": 1110001,
+        "activityId": 1110,
+        "baseTaskId": 21050,
+        "rewardId": 309030,
+        "rewardCount": 32,
+        "hiddenReward": "",
+        "limitId": 10004,
+        "deprecated": 0
+    },
+    {
+        "id": 1110002,
+        "activityId": 1110,
+        "baseTaskId": 21051,
+        "rewardId": 309030,
+        "rewardCount": 20,
+        "hiddenReward": "",
+        "limitId": 10004,
+        "deprecated": 0
+    },
+    {
+        "id": 1110003,
+        "activityId": 1110,
+        "baseTaskId": 21052,
+        "rewardId": 309030,
+        "rewardCount": 12,
+        "hiddenReward": "",
+        "limitId": 10004,
+        "deprecated": 0
+    },
+    {
+        "id": 1110004,
+        "activityId": 1110,
+        "baseTaskId": 21053,
+        "rewardId": 309030,
+        "rewardCount": 6,
+        "hiddenReward": "",
+        "limitId": 10004,
+        "deprecated": 0
+    },
+    {
+        "id": 1110005,
+        "activityId": 1110,
+        "baseTaskId": 21054,
+        "rewardId": 309030,
+        "rewardCount": 2,
+        "hiddenReward": "",
+        "limitId": 10004,
+        "deprecated": 0
+    },
+    {
+        "id": 1110006,
+        "activityId": 1110,
+        "baseTaskId": 21055,
+        "rewardId": 309030,
+        "rewardCount": 4,
+        "hiddenReward": "",
+        "limitId": 10004,
+        "deprecated": 0
+    },
+    {
+        "id": 1110007,
+        "activityId": 1110,
+        "baseTaskId": 21056,
+        "rewardId": 309030,
+        "rewardCount": 6,
+        "hiddenReward": "",
+        "limitId": 10004,
+        "deprecated": 0
+    },
+    {
+        "id": 1110008,
+        "activityId": 1110,
+        "baseTaskId": 21057,
+        "rewardId": 309030,
+        "rewardCount": 8,
+        "hiddenReward": "",
+        "limitId": 10004,
+        "deprecated": 0
+    },
+    {
+        "id": 1110009,
+        "activityId": 1110,
+        "baseTaskId": 21058,
+        "rewardId": 309030,
+        "rewardCount": 12,
+        "hiddenReward": "",
+        "limitId": 10004,
+        "deprecated": 0
+    },
+    {
+        "id": 1110010,
+        "activityId": 1110,
+        "baseTaskId": 21059,
+        "rewardId": 309030,
+        "rewardCount": 16,
+        "hiddenReward": "",
+        "limitId": 10004,
+        "deprecated": 0
+    },
+    {
+        "id": 1167001,
+        "activityId": 1167,
+        "baseTaskId": 20179,
+        "rewardId": 309031,
+        "rewardCount": 1,
+        "hiddenReward": "",
+        "limitId": 10005,
+        "deprecated": 0
+    },
+    {
+        "id": 1167002,
+        "activityId": 1167,
+        "baseTaskId": 20180,
+        "rewardId": 309031,
+        "rewardCount": 1,
+        "hiddenReward": "",
+        "limitId": 10005,
+        "deprecated": 0
+    },
+    {
+        "id": 1167003,
+        "activityId": 1167,
+        "baseTaskId": 20181,
+        "rewardId": 309031,
+        "rewardCount": 1,
+        "hiddenReward": "",
+        "limitId": 10005,
+        "deprecated": 0
+    },
+    {
+        "id": 1167004,
+        "activityId": 1167,
+        "baseTaskId": 20182,
+        "rewardId": 309031,
+        "rewardCount": 1,
+        "hiddenReward": "",
+        "limitId": 10005,
+        "deprecated": 0
+    },
+    {
+        "id": 1167005,
+        "activityId": 1167,
+        "baseTaskId": 20183,
+        "rewardId": 309031,
+        "rewardCount": 2,
+        "hiddenReward": "",
+        "limitId": 10005,
+        "deprecated": 0
+    },
+    {
+        "id": 1167006,
+        "activityId": 1167,
+        "baseTaskId": 20184,
+        "rewardId": 309031,
+        "rewardCount": 3,
+        "hiddenReward": "",
+        "limitId": 10005,
+        "deprecated": 0
+    },
+    {
+        "id": 1167007,
+        "activityId": 1167,
+        "baseTaskId": 20185,
+        "rewardId": 309031,
+        "rewardCount": 3,
+        "hiddenReward": "",
+        "limitId": 10005,
+        "deprecated": 0
+    },
+    {
+        "id": 1167008,
+        "activityId": 1167,
+        "baseTaskId": 20186,
+        "rewardId": 309031,
+        "rewardCount": 4,
+        "hiddenReward": "",
+        "limitId": 10005,
+        "deprecated": 0
+    },
+    {
+        "id": 1167009,
+        "activityId": 1167,
+        "baseTaskId": 20187,
+        "rewardId": 309031,
+        "rewardCount": 4,
+        "hiddenReward": "",
+        "limitId": 10005,
+        "deprecated": 0
+    },
+    {
+        "id": 1167010,
+        "activityId": 1167,
+        "baseTaskId": 20188,
+        "rewardId": 309031,
+        "rewardCount": 4,
+        "hiddenReward": "",
+        "limitId": 10005,
+        "deprecated": 0
+    },
+    {
+        "id": 1167011,
+        "activityId": 1167,
+        "baseTaskId": 20189,
+        "rewardId": 309031,
+        "rewardCount": 4,
+        "hiddenReward": "",
+        "limitId": 10005,
+        "deprecated": 0
+    },
+    {
+        "id": 1167012,
+        "activityId": 1167,
+        "baseTaskId": 20190,
+        "rewardId": 309031,
+        "rewardCount": 4,
+        "hiddenReward": "",
+        "limitId": 10005,
+        "deprecated": 0
+    },
+    {
+        "id": 1167013,
+        "activityId": 1167,
+        "baseTaskId": 20191,
+        "rewardId": 309031,
+        "rewardCount": 4,
+        "hiddenReward": "",
+        "limitId": 10005,
+        "deprecated": 0
+    },
+    {
+        "id": 1167014,
+        "activityId": 1167,
+        "baseTaskId": 20192,
+        "rewardId": 309031,
+        "rewardCount": 4,
+        "hiddenReward": "",
+        "limitId": 10005,
+        "deprecated": 0
+    },
+    {
+        "id": 1167015,
+        "activityId": 1167,
+        "baseTaskId": 20193,
+        "rewardId": 309031,
+        "rewardCount": 4,
+        "hiddenReward": "",
+        "limitId": 10005,
+        "deprecated": 0
+    },
+    {
+        "id": 1167016,
+        "activityId": 1167,
+        "baseTaskId": 20194,
+        "rewardId": 309032,
+        "rewardCount": 1,
+        "hiddenReward": "",
+        "limitId": 10005,
+        "deprecated": 0
+    },
+    {
+        "id": 1167017,
+        "activityId": 1167,
+        "baseTaskId": 20195,
+        "rewardId": 309032,
+        "rewardCount": 1,
+        "hiddenReward": "",
+        "limitId": 10005,
+        "deprecated": 0
+    },
+    {
+        "id": 1167018,
+        "activityId": 1167,
+        "baseTaskId": 20196,
+        "rewardId": 309032,
+        "rewardCount": 1,
+        "hiddenReward": "",
+        "limitId": 10005,
+        "deprecated": 0
+    },
+    {
+        "id": 1167019,
+        "activityId": 1167,
+        "baseTaskId": 20197,
+        "rewardId": 309032,
+        "rewardCount": 1,
+        "hiddenReward": "",
+        "limitId": 10005,
+        "deprecated": 0
+    },
+    {
+        "id": 1167020,
+        "activityId": 1167,
+        "baseTaskId": 20198,
+        "rewardId": 309032,
+        "rewardCount": 1,
+        "hiddenReward": "",
+        "limitId": 10005,
+        "deprecated": 0
+    },
+    {
+        "id": 1167021,
+        "activityId": 1167,
+        "baseTaskId": 20199,
+        "rewardId": 309032,
+        "rewardCount": 1,
+        "hiddenReward": "",
+        "limitId": 10005,
+        "deprecated": 0
+    },
+    {
+        "id": 1167022,
+        "activityId": 1167,
+        "baseTaskId": 20200,
+        "rewardId": 309032,
+        "rewardCount": 2,
+        "hiddenReward": "",
+        "limitId": 10005,
+        "deprecated": 0
+    },
+    {
+        "id": 1167023,
+        "activityId": 1167,
+        "baseTaskId": 20201,
+        "rewardId": 309032,
+        "rewardCount": 2,
+        "hiddenReward": "",
+        "limitId": 10005,
+        "deprecated": 0
+    },
+    {
+        "id": 1167024,
+        "activityId": 1167,
+        "baseTaskId": 20202,
+        "rewardId": 309032,
+        "rewardCount": 2,
+        "hiddenReward": "",
+        "limitId": 10005,
+        "deprecated": 0
+    },
+    {
+        "id": 1167025,
+        "activityId": 1167,
+        "baseTaskId": 20203,
+        "rewardId": 309032,
+        "rewardCount": 2,
+        "hiddenReward": "",
+        "limitId": 10005,
+        "deprecated": 0
+    },
+    {
+        "id": 1167026,
+        "activityId": 1167,
+        "baseTaskId": 20204,
+        "rewardId": 309032,
+        "rewardCount": 2,
+        "hiddenReward": "",
+        "limitId": 10005,
+        "deprecated": 0
+    },
+    {
+        "id": 1167027,
+        "activityId": 1167,
+        "baseTaskId": 20205,
+        "rewardId": 309032,
+        "rewardCount": 2,
+        "hiddenReward": "",
+        "limitId": 10005,
+        "deprecated": 0
+    },
+    {
+        "id": 1167028,
+        "activityId": 1167,
+        "baseTaskId": 20206,
+        "rewardId": 309032,
+        "rewardCount": 2,
+        "hiddenReward": "",
+        "limitId": 10005,
+        "deprecated": 0
+    },
+    {
+        "id": 1167029,
+        "activityId": 1167,
+        "baseTaskId": 20207,
+        "rewardId": 309032,
+        "rewardCount": 3,
+        "hiddenReward": "",
+        "limitId": 10005,
+        "deprecated": 0
+    },
+    {
+        "id": 1167030,
+        "activityId": 1167,
+        "baseTaskId": 20208,
+        "rewardId": 309032,
+        "rewardCount": 3,
+        "hiddenReward": "",
+        "limitId": 10005,
+        "deprecated": 0
+    },
+    {
+        "id": 1167031,
+        "activityId": 1167,
+        "baseTaskId": 20209,
+        "rewardId": 309032,
+        "rewardCount": 3,
+        "hiddenReward": "",
+        "limitId": 10005,
+        "deprecated": 0
+    },
+    {
+        "id": 1167032,
+        "activityId": 1167,
+        "baseTaskId": 20210,
+        "rewardId": 309032,
+        "rewardCount": 3,
+        "hiddenReward": "",
+        "limitId": 10005,
+        "deprecated": 0
+    },
+    {
+        "id": 1167033,
+        "activityId": 1167,
+        "baseTaskId": 20211,
+        "rewardId": 309032,
+        "rewardCount": 3,
+        "hiddenReward": "",
+        "limitId": 10005,
+        "deprecated": 0
+    },
+    {
+        "id": 1167034,
+        "activityId": 1167,
+        "baseTaskId": 20212,
+        "rewardId": 309032,
+        "rewardCount": 4,
+        "hiddenReward": "",
+        "limitId": 10005,
+        "deprecated": 0
+    },
+    {
+        "id": 1167035,
+        "activityId": 1167,
+        "baseTaskId": 20213,
+        "rewardId": 309032,
+        "rewardCount": 4,
+        "hiddenReward": "",
+        "limitId": 10005,
+        "deprecated": 0
+    },
+    {
+        "id": 1167036,
+        "activityId": 1167,
+        "baseTaskId": 20214,
+        "rewardId": 309032,
+        "rewardCount": 4,
+        "hiddenReward": "",
+        "limitId": 10005,
+        "deprecated": 0
+    },
+    {
+        "id": 1167037,
+        "activityId": 1167,
+        "baseTaskId": 20215,
+        "rewardId": 309033,
+        "rewardCount": 1,
+        "hiddenReward": "",
+        "limitId": 10005,
+        "deprecated": 0
+    },
+    {
+        "id": 1167038,
+        "activityId": 1167,
+        "baseTaskId": 20216,
+        "rewardId": 309033,
+        "rewardCount": 1,
+        "hiddenReward": "",
+        "limitId": 10005,
+        "deprecated": 0
+    },
+    {
+        "id": 1167039,
+        "activityId": 1167,
+        "baseTaskId": 20217,
+        "rewardId": 309033,
+        "rewardCount": 1,
+        "hiddenReward": "",
+        "limitId": 10005,
+        "deprecated": 0
+    },
+    {
+        "id": 1167040,
+        "activityId": 1167,
+        "baseTaskId": 20218,
+        "rewardId": 309033,
+        "rewardCount": 1,
+        "hiddenReward": "",
+        "limitId": 10005,
+        "deprecated": 0
+    },
+    {
+        "id": 1167041,
+        "activityId": 1167,
+        "baseTaskId": 20219,
+        "rewardId": 309033,
+        "rewardCount": 1,
+        "hiddenReward": "",
+        "limitId": 10005,
+        "deprecated": 0
+    },
+    {
+        "id": 1167042,
+        "activityId": 1167,
+        "baseTaskId": 20220,
+        "rewardId": 309033,
+        "rewardCount": 2,
+        "hiddenReward": "",
+        "limitId": 10005,
+        "deprecated": 0
+    },
+    {
+        "id": 1167043,
+        "activityId": 1167,
+        "baseTaskId": 20221,
+        "rewardId": 309033,
+        "rewardCount": 2,
+        "hiddenReward": "",
+        "limitId": 10005,
+        "deprecated": 0
+    },
+    {
+        "id": 1167044,
+        "activityId": 1167,
+        "baseTaskId": 20222,
+        "rewardId": 309033,
+        "rewardCount": 2,
+        "hiddenReward": "",
+        "limitId": 10005,
+        "deprecated": 0
+    },
+    {
+        "id": 1167045,
+        "activityId": 1167,
+        "baseTaskId": 20223,
+        "rewardId": 309033,
+        "rewardCount": 3,
+        "hiddenReward": "",
+        "limitId": 10005,
+        "deprecated": 0
+    },
+    {
+        "id": 1167046,
+        "activityId": 1167,
+        "baseTaskId": 20224,
+        "rewardId": 309033,
+        "rewardCount": 4,
+        "hiddenReward": "",
+        "limitId": 10005,
+        "deprecated": 0
+    },
+    {
+        "id": 1167047,
+        "activityId": 1167,
+        "baseTaskId": 20225,
+        "rewardId": 309033,
+        "rewardCount": 4,
+        "hiddenReward": "",
+        "limitId": 10005,
+        "deprecated": 0
+    },
+    {
+        "id": 1167048,
+        "activityId": 1167,
+        "baseTaskId": 20226,
+        "rewardId": 309033,
+        "rewardCount": 4,
+        "hiddenReward": "",
+        "limitId": 10005,
+        "deprecated": 0
+    },
+    {
+        "id": 1167049,
+        "activityId": 1167,
+        "baseTaskId": 20227,
+        "rewardId": 309033,
+        "rewardCount": 4,
+        "hiddenReward": "",
+        "limitId": 10005,
+        "deprecated": 0
+    },
+    {
+        "id": 1170001,
+        "activityId": 1110,
+        "baseTaskId": 21050,
+        "rewardId": 309030,
+        "rewardCount": 32,
+        "hiddenReward": "",
+        "limitId": 10004,
+        "deprecated": 0
+    },
+    {
+        "id": 1170002,
+        "activityId": 1110,
+        "baseTaskId": 21051,
+        "rewardId": 309030,
+        "rewardCount": 20,
+        "hiddenReward": "",
+        "limitId": 10004,
+        "deprecated": 0
+    },
+    {
+        "id": 1170003,
+        "activityId": 1110,
+        "baseTaskId": 21052,
+        "rewardId": 309030,
+        "rewardCount": 12,
+        "hiddenReward": "",
+        "limitId": 10004,
+        "deprecated": 0
+    },
+    {
+        "id": 1170004,
+        "activityId": 1110,
+        "baseTaskId": 21053,
+        "rewardId": 309030,
+        "rewardCount": 6,
+        "hiddenReward": "",
+        "limitId": 10004,
+        "deprecated": 0
+    },
+    {
+        "id": 1170005,
+        "activityId": 1110,
+        "baseTaskId": 21054,
+        "rewardId": 309030,
+        "rewardCount": 2,
+        "hiddenReward": "",
+        "limitId": 10004,
+        "deprecated": 0
+    },
+    {
+        "id": 1170006,
+        "activityId": 1110,
+        "baseTaskId": 21055,
+        "rewardId": 309030,
+        "rewardCount": 4,
+        "hiddenReward": "",
+        "limitId": 10004,
+        "deprecated": 0
+    },
+    {
+        "id": 1170007,
+        "activityId": 1110,
+        "baseTaskId": 21056,
+        "rewardId": 309030,
+        "rewardCount": 6,
+        "hiddenReward": "",
+        "limitId": 10004,
+        "deprecated": 0
+    },
+    {
+        "id": 1170008,
+        "activityId": 1110,
+        "baseTaskId": 21057,
+        "rewardId": 309030,
+        "rewardCount": 8,
+        "hiddenReward": "",
+        "limitId": 10004,
+        "deprecated": 0
+    },
+    {
+        "id": 1170009,
+        "activityId": 1110,
+        "baseTaskId": 21058,
+        "rewardId": 309030,
+        "rewardCount": 12,
+        "hiddenReward": "",
+        "limitId": 10004,
+        "deprecated": 0
+    },
+    {
+        "id": 1170010,
+        "activityId": 1110,
+        "baseTaskId": 21059,
+        "rewardId": 309030,
+        "rewardCount": 16,
+        "hiddenReward": "",
+        "limitId": 10004,
+        "deprecated": 0
+    },
+    {
+        "id": 1179001,
+        "activityId": 1179,
+        "baseTaskId": 21060,
+        "rewardId": 309035,
+        "rewardCount": 20000,
+        "hiddenReward": "",
+        "limitId": 10006,
+        "deprecated": 0
+    },
+    {
+        "id": 1179002,
+        "activityId": 1179,
+        "baseTaskId": 21061,
+        "rewardId": 309035,
+        "rewardCount": 12000,
+        "hiddenReward": "",
+        "limitId": 10006,
+        "deprecated": 0
+    },
+    {
+        "id": 1179003,
+        "activityId": 1179,
+        "baseTaskId": 21062,
+        "rewardId": 309035,
+        "rewardCount": 6000,
+        "hiddenReward": "",
+        "limitId": 10006,
+        "deprecated": 0
+    },
+    {
+        "id": 1179004,
+        "activityId": 1179,
+        "baseTaskId": 21063,
+        "rewardId": 309035,
+        "rewardCount": 2000,
+        "hiddenReward": "",
+        "limitId": 10006,
+        "deprecated": 0
+    },
+    {
+        "id": 1179005,
+        "activityId": 1179,
+        "baseTaskId": 21064,
+        "rewardId": 309035,
+        "rewardCount": 3000,
+        "hiddenReward": "",
+        "limitId": 10006,
+        "deprecated": 0
+    },
+    {
+        "id": 1179006,
+        "activityId": 1179,
+        "baseTaskId": 21065,
+        "rewardId": 309035,
+        "rewardCount": 6000,
+        "hiddenReward": "",
+        "limitId": 10006,
+        "deprecated": 0
+    },
+    {
+        "id": 1179007,
+        "activityId": 1179,
+        "baseTaskId": 21066,
+        "rewardId": 309035,
+        "rewardCount": 9000,
+        "hiddenReward": "",
+        "limitId": 10006,
+        "deprecated": 0
+    },
+    {
+        "id": 1179008,
+        "activityId": 1179,
+        "baseTaskId": 21067,
+        "rewardId": 309035,
+        "rewardCount": 12000,
+        "hiddenReward": "",
+        "limitId": 10006,
+        "deprecated": 0
+    },
+    {
+        "id": 1179009,
+        "activityId": 1179,
+        "baseTaskId": 21068,
+        "rewardId": 309035,
+        "rewardCount": 18000,
+        "hiddenReward": "",
+        "limitId": 10006,
+        "deprecated": 0
+    },
+    {
+        "id": 1179010,
+        "activityId": 1179,
+        "baseTaskId": 21069,
+        "rewardId": 309035,
+        "rewardCount": 24000,
+        "hiddenReward": "",
+        "limitId": 10006,
+        "deprecated": 0
+    },
+    {
+        "id": 1179011,
+        "activityId": 1179,
+        "baseTaskId": 21070,
+        "rewardId": 309035,
+        "rewardCount": 20000,
+        "hiddenReward": "",
+        "limitId": 10006,
+        "deprecated": 0
+    },
+    {
+        "id": 1179012,
+        "activityId": 1179,
+        "baseTaskId": 21071,
+        "rewardId": 309035,
+        "rewardCount": 12000,
+        "hiddenReward": "",
+        "limitId": 10006,
+        "deprecated": 0
+    },
+    {
+        "id": 1179013,
+        "activityId": 1179,
+        "baseTaskId": 21072,
+        "rewardId": 309035,
+        "rewardCount": 6000,
+        "hiddenReward": "",
+        "limitId": 10006,
+        "deprecated": 0
+    },
+    {
+        "id": 1179014,
+        "activityId": 1179,
+        "baseTaskId": 21073,
+        "rewardId": 309035,
+        "rewardCount": 2000,
+        "hiddenReward": "",
+        "limitId": 10006,
+        "deprecated": 0
+    },
+    {
+        "id": 1179015,
+        "activityId": 1179,
+        "baseTaskId": 21074,
+        "rewardId": 309035,
+        "rewardCount": 1000,
+        "hiddenReward": "",
+        "limitId": 10006,
+        "deprecated": 0
+    },
+    {
+        "id": 1179016,
+        "activityId": 1179,
+        "baseTaskId": 21075,
+        "rewardId": 309035,
+        "rewardCount": 2000,
+        "hiddenReward": "",
+        "limitId": 10006,
+        "deprecated": 0
+    },
+    {
+        "id": 1179017,
+        "activityId": 1179,
+        "baseTaskId": 21076,
+        "rewardId": 309035,
+        "rewardCount": 3000,
+        "hiddenReward": "",
+        "limitId": 10006,
+        "deprecated": 0
+    },
+    {
+        "id": 1179018,
+        "activityId": 1179,
+        "baseTaskId": 21077,
+        "rewardId": 309035,
+        "rewardCount": 4000,
+        "hiddenReward": "",
+        "limitId": 10006,
+        "deprecated": 0
+    },
+    {
+        "id": 1179019,
+        "activityId": 1179,
+        "baseTaskId": 21078,
+        "rewardId": 309035,
+        "rewardCount": 6000,
+        "hiddenReward": "",
+        "limitId": 10006,
+        "deprecated": 0
+    },
+    {
+        "id": 1179020,
+        "activityId": 1179,
+        "baseTaskId": 21079,
+        "rewardId": 309035,
+        "rewardCount": 8000,
+        "hiddenReward": "",
+        "limitId": 10006,
+        "deprecated": 0
+    },
+    {
+        "id": 1220001,
+        "activityId": 1220,
+        "baseTaskId": 20179,
+        "rewardId": 309042,
+        "rewardCount": 1,
+        "hiddenReward": "309036-1",
+        "limitId": 10008,
+        "deprecated": 0
+    },
+    {
+        "id": 1220002,
+        "activityId": 1220,
+        "baseTaskId": 20180,
+        "rewardId": 309042,
+        "rewardCount": 1,
+        "hiddenReward": "309036-1",
+        "limitId": 10008,
+        "deprecated": 0
+    },
+    {
+        "id": 1220003,
+        "activityId": 1220,
+        "baseTaskId": 20181,
+        "rewardId": 309042,
+        "rewardCount": 1,
+        "hiddenReward": "309036-1",
+        "limitId": 10008,
+        "deprecated": 0
+    },
+    {
+        "id": 1220004,
+        "activityId": 1220,
+        "baseTaskId": 20182,
+        "rewardId": 309042,
+        "rewardCount": 1,
+        "hiddenReward": "309036-1",
+        "limitId": 10008,
+        "deprecated": 0
+    },
+    {
+        "id": 1220005,
+        "activityId": 1220,
+        "baseTaskId": 20183,
+        "rewardId": 309042,
+        "rewardCount": 2,
+        "hiddenReward": "309036-1",
+        "limitId": 10008,
+        "deprecated": 0
+    },
+    {
+        "id": 1220006,
+        "activityId": 1220,
+        "baseTaskId": 20184,
+        "rewardId": 309042,
+        "rewardCount": 3,
+        "hiddenReward": "309036-1",
+        "limitId": 10008,
+        "deprecated": 0
+    },
+    {
+        "id": 1220007,
+        "activityId": 1220,
+        "baseTaskId": 20185,
+        "rewardId": 309042,
+        "rewardCount": 3,
+        "hiddenReward": "309036-1",
+        "limitId": 10008,
+        "deprecated": 0
+    },
+    {
+        "id": 1220008,
+        "activityId": 1220,
+        "baseTaskId": 20186,
+        "rewardId": 309042,
+        "rewardCount": 4,
+        "hiddenReward": "309036-1",
+        "limitId": 10008,
+        "deprecated": 0
+    },
+    {
+        "id": 1220009,
+        "activityId": 1220,
+        "baseTaskId": 20187,
+        "rewardId": 309042,
+        "rewardCount": 4,
+        "hiddenReward": "309036-1",
+        "limitId": 10008,
+        "deprecated": 0
+    },
+    {
+        "id": 1220010,
+        "activityId": 1220,
+        "baseTaskId": 20188,
+        "rewardId": 309042,
+        "rewardCount": 4,
+        "hiddenReward": "309036-1",
+        "limitId": 10008,
+        "deprecated": 0
+    },
+    {
+        "id": 1220011,
+        "activityId": 1220,
+        "baseTaskId": 20189,
+        "rewardId": 309042,
+        "rewardCount": 4,
+        "hiddenReward": "309036-1",
+        "limitId": 10008,
+        "deprecated": 0
+    },
+    {
+        "id": 1220012,
+        "activityId": 1220,
+        "baseTaskId": 20190,
+        "rewardId": 309042,
+        "rewardCount": 4,
+        "hiddenReward": "309036-1",
+        "limitId": 10008,
+        "deprecated": 0
+    },
+    {
+        "id": 1220013,
+        "activityId": 1220,
+        "baseTaskId": 20191,
+        "rewardId": 309042,
+        "rewardCount": 4,
+        "hiddenReward": "309036-1",
+        "limitId": 10008,
+        "deprecated": 0
+    },
+    {
+        "id": 1220014,
+        "activityId": 1220,
+        "baseTaskId": 20192,
+        "rewardId": 309042,
+        "rewardCount": 4,
+        "hiddenReward": "309036-1",
+        "limitId": 10008,
+        "deprecated": 0
+    },
+    {
+        "id": 1220015,
+        "activityId": 1220,
+        "baseTaskId": 20193,
+        "rewardId": 309042,
+        "rewardCount": 4,
+        "hiddenReward": "309036-1",
+        "limitId": 10008,
+        "deprecated": 0
+    },
+    {
+        "id": 1220016,
+        "activityId": 1220,
+        "baseTaskId": 20194,
+        "rewardId": 309043,
+        "rewardCount": 1,
+        "hiddenReward": "309036-1",
+        "limitId": 10008,
+        "deprecated": 0
+    },
+    {
+        "id": 1220017,
+        "activityId": 1220,
+        "baseTaskId": 20195,
+        "rewardId": 309043,
+        "rewardCount": 1,
+        "hiddenReward": "309036-1",
+        "limitId": 10008,
+        "deprecated": 0
+    },
+    {
+        "id": 1220018,
+        "activityId": 1220,
+        "baseTaskId": 20196,
+        "rewardId": 309043,
+        "rewardCount": 1,
+        "hiddenReward": "309036-1",
+        "limitId": 10008,
+        "deprecated": 0
+    },
+    {
+        "id": 1220019,
+        "activityId": 1220,
+        "baseTaskId": 20197,
+        "rewardId": 309043,
+        "rewardCount": 1,
+        "hiddenReward": "309036-1",
+        "limitId": 10008,
+        "deprecated": 0
+    },
+    {
+        "id": 1220020,
+        "activityId": 1220,
+        "baseTaskId": 20198,
+        "rewardId": 309043,
+        "rewardCount": 1,
+        "hiddenReward": "309036-1",
+        "limitId": 10008,
+        "deprecated": 0
+    },
+    {
+        "id": 1220021,
+        "activityId": 1220,
+        "baseTaskId": 20199,
+        "rewardId": 309043,
+        "rewardCount": 1,
+        "hiddenReward": "309036-1",
+        "limitId": 10008,
+        "deprecated": 0
+    },
+    {
+        "id": 1220022,
+        "activityId": 1220,
+        "baseTaskId": 20200,
+        "rewardId": 309043,
+        "rewardCount": 2,
+        "hiddenReward": "309036-1",
+        "limitId": 10008,
+        "deprecated": 0
+    },
+    {
+        "id": 1220023,
+        "activityId": 1220,
+        "baseTaskId": 20201,
+        "rewardId": 309043,
+        "rewardCount": 2,
+        "hiddenReward": "309036-1",
+        "limitId": 10008,
+        "deprecated": 0
+    },
+    {
+        "id": 1220024,
+        "activityId": 1220,
+        "baseTaskId": 20202,
+        "rewardId": 309043,
+        "rewardCount": 2,
+        "hiddenReward": "309036-1",
+        "limitId": 10008,
+        "deprecated": 0
+    },
+    {
+        "id": 1220025,
+        "activityId": 1220,
+        "baseTaskId": 20203,
+        "rewardId": 309043,
+        "rewardCount": 2,
+        "hiddenReward": "309036-1",
+        "limitId": 10008,
+        "deprecated": 0
+    },
+    {
+        "id": 1220026,
+        "activityId": 1220,
+        "baseTaskId": 20204,
+        "rewardId": 309043,
+        "rewardCount": 2,
+        "hiddenReward": "309036-1",
+        "limitId": 10008,
+        "deprecated": 0
+    },
+    {
+        "id": 1220027,
+        "activityId": 1220,
+        "baseTaskId": 20205,
+        "rewardId": 309043,
+        "rewardCount": 2,
+        "hiddenReward": "309036-1",
+        "limitId": 10008,
+        "deprecated": 0
+    },
+    {
+        "id": 1220028,
+        "activityId": 1220,
+        "baseTaskId": 20206,
+        "rewardId": 309043,
+        "rewardCount": 2,
+        "hiddenReward": "309036-1",
+        "limitId": 10008,
+        "deprecated": 0
+    },
+    {
+        "id": 1220029,
+        "activityId": 1220,
+        "baseTaskId": 20207,
+        "rewardId": 309043,
+        "rewardCount": 3,
+        "hiddenReward": "309036-1",
+        "limitId": 10008,
+        "deprecated": 0
+    },
+    {
+        "id": 1220030,
+        "activityId": 1220,
+        "baseTaskId": 20208,
+        "rewardId": 309043,
+        "rewardCount": 3,
+        "hiddenReward": "309036-1",
+        "limitId": 10008,
+        "deprecated": 0
+    },
+    {
+        "id": 1220031,
+        "activityId": 1220,
+        "baseTaskId": 20209,
+        "rewardId": 309043,
+        "rewardCount": 3,
+        "hiddenReward": "309036-1",
+        "limitId": 10008,
+        "deprecated": 0
+    },
+    {
+        "id": 1220032,
+        "activityId": 1220,
+        "baseTaskId": 20210,
+        "rewardId": 309043,
+        "rewardCount": 3,
+        "hiddenReward": "309036-1",
+        "limitId": 10008,
+        "deprecated": 0
+    },
+    {
+        "id": 1220033,
+        "activityId": 1220,
+        "baseTaskId": 20211,
+        "rewardId": 309043,
+        "rewardCount": 3,
+        "hiddenReward": "309036-1",
+        "limitId": 10008,
+        "deprecated": 0
+    },
+    {
+        "id": 1220034,
+        "activityId": 1220,
+        "baseTaskId": 20212,
+        "rewardId": 309043,
+        "rewardCount": 4,
+        "hiddenReward": "309036-1",
+        "limitId": 10008,
+        "deprecated": 0
+    },
+    {
+        "id": 1220035,
+        "activityId": 1220,
+        "baseTaskId": 20213,
+        "rewardId": 309043,
+        "rewardCount": 4,
+        "hiddenReward": "309036-1",
+        "limitId": 10008,
+        "deprecated": 0
+    },
+    {
+        "id": 1220036,
+        "activityId": 1220,
+        "baseTaskId": 20214,
+        "rewardId": 309043,
+        "rewardCount": 4,
+        "hiddenReward": "309036-1",
+        "limitId": 10008,
+        "deprecated": 0
+    },
+    {
+        "id": 1220037,
+        "activityId": 1220,
+        "baseTaskId": 20215,
+        "rewardId": 309044,
+        "rewardCount": 1,
+        "hiddenReward": "309036-1",
+        "limitId": 10008,
+        "deprecated": 0
+    },
+    {
+        "id": 1220038,
+        "activityId": 1220,
+        "baseTaskId": 20216,
+        "rewardId": 309044,
+        "rewardCount": 1,
+        "hiddenReward": "309036-1",
+        "limitId": 10008,
+        "deprecated": 0
+    },
+    {
+        "id": 1220039,
+        "activityId": 1220,
+        "baseTaskId": 20217,
+        "rewardId": 309044,
+        "rewardCount": 1,
+        "hiddenReward": "309036-1",
+        "limitId": 10008,
+        "deprecated": 0
+    },
+    {
+        "id": 1220040,
+        "activityId": 1220,
+        "baseTaskId": 20218,
+        "rewardId": 309044,
+        "rewardCount": 1,
+        "hiddenReward": "309036-1",
+        "limitId": 10008,
+        "deprecated": 0
+    },
+    {
+        "id": 1220041,
+        "activityId": 1220,
+        "baseTaskId": 20219,
+        "rewardId": 309044,
+        "rewardCount": 1,
+        "hiddenReward": "309036-1",
+        "limitId": 10008,
+        "deprecated": 0
+    },
+    {
+        "id": 1220042,
+        "activityId": 1220,
+        "baseTaskId": 20220,
+        "rewardId": 309044,
+        "rewardCount": 2,
+        "hiddenReward": "309036-1",
+        "limitId": 10008,
+        "deprecated": 0
+    },
+    {
+        "id": 1220043,
+        "activityId": 1220,
+        "baseTaskId": 20221,
+        "rewardId": 309044,
+        "rewardCount": 2,
+        "hiddenReward": "309036-1",
+        "limitId": 10008,
+        "deprecated": 0
+    },
+    {
+        "id": 1220044,
+        "activityId": 1220,
+        "baseTaskId": 20222,
+        "rewardId": 309044,
+        "rewardCount": 2,
+        "hiddenReward": "309036-1",
+        "limitId": 10008,
+        "deprecated": 0
+    },
+    {
+        "id": 1220045,
+        "activityId": 1220,
+        "baseTaskId": 20223,
+        "rewardId": 309044,
+        "rewardCount": 3,
+        "hiddenReward": "309036-1",
+        "limitId": 10008,
+        "deprecated": 0
+    },
+    {
+        "id": 1220046,
+        "activityId": 1220,
+        "baseTaskId": 20224,
+        "rewardId": 309044,
+        "rewardCount": 4,
+        "hiddenReward": "309036-1",
+        "limitId": 10008,
+        "deprecated": 0
+    },
+    {
+        "id": 1220047,
+        "activityId": 1220,
+        "baseTaskId": 20225,
+        "rewardId": 309044,
+        "rewardCount": 4,
+        "hiddenReward": "309036-1",
+        "limitId": 10008,
+        "deprecated": 0
+    },
+    {
+        "id": 1220048,
+        "activityId": 1220,
+        "baseTaskId": 20226,
+        "rewardId": 309044,
+        "rewardCount": 4,
+        "hiddenReward": "309036-1",
+        "limitId": 10008,
+        "deprecated": 0
+    },
+    {
+        "id": 1220049,
+        "activityId": 1220,
+        "baseTaskId": 20227,
+        "rewardId": 309044,
+        "rewardCount": 4,
+        "hiddenReward": "309036-1",
+        "limitId": 10008,
+        "deprecated": 0
+    },
+    {
+        "id": 22030501,
+        "activityId": 220305,
+        "baseTaskId": 20179,
+        "rewardId": 309053,
+        "rewardCount": 1,
+        "hiddenReward": "",
+        "limitId": 10009,
+        "deprecated": 0
+    },
+    {
+        "id": 22030502,
+        "activityId": 220305,
+        "baseTaskId": 20180,
+        "rewardId": 309053,
+        "rewardCount": 1,
+        "hiddenReward": "",
+        "limitId": 10009,
+        "deprecated": 0
+    },
+    {
+        "id": 22030503,
+        "activityId": 220305,
+        "baseTaskId": 20181,
+        "rewardId": 309053,
+        "rewardCount": 1,
+        "hiddenReward": "",
+        "limitId": 10009,
+        "deprecated": 0
+    },
+    {
+        "id": 22030504,
+        "activityId": 220305,
+        "baseTaskId": 20182,
+        "rewardId": 309053,
+        "rewardCount": 1,
+        "hiddenReward": "",
+        "limitId": 10009,
+        "deprecated": 0
+    },
+    {
+        "id": 22030505,
+        "activityId": 220305,
+        "baseTaskId": 20183,
+        "rewardId": 309053,
+        "rewardCount": 2,
+        "hiddenReward": "",
+        "limitId": 10009,
+        "deprecated": 0
+    },
+    {
+        "id": 22030506,
+        "activityId": 220305,
+        "baseTaskId": 20184,
+        "rewardId": 309053,
+        "rewardCount": 3,
+        "hiddenReward": "",
+        "limitId": 10009,
+        "deprecated": 0
+    },
+    {
+        "id": 22030507,
+        "activityId": 220305,
+        "baseTaskId": 20185,
+        "rewardId": 309053,
+        "rewardCount": 3,
+        "hiddenReward": "",
+        "limitId": 10009,
+        "deprecated": 0
+    },
+    {
+        "id": 22030508,
+        "activityId": 220305,
+        "baseTaskId": 20186,
+        "rewardId": 309053,
+        "rewardCount": 4,
+        "hiddenReward": "",
+        "limitId": 10009,
+        "deprecated": 0
+    },
+    {
+        "id": 22030509,
+        "activityId": 220305,
+        "baseTaskId": 20187,
+        "rewardId": 309053,
+        "rewardCount": 4,
+        "hiddenReward": "",
+        "limitId": 10009,
+        "deprecated": 0
+    },
+    {
+        "id": 22030510,
+        "activityId": 220305,
+        "baseTaskId": 20188,
+        "rewardId": 309053,
+        "rewardCount": 4,
+        "hiddenReward": "",
+        "limitId": 10009,
+        "deprecated": 0
+    },
+    {
+        "id": 22030511,
+        "activityId": 220305,
+        "baseTaskId": 20189,
+        "rewardId": 309053,
+        "rewardCount": 4,
+        "hiddenReward": "",
+        "limitId": 10009,
+        "deprecated": 0
+    },
+    {
+        "id": 22030512,
+        "activityId": 220305,
+        "baseTaskId": 20190,
+        "rewardId": 309053,
+        "rewardCount": 4,
+        "hiddenReward": "",
+        "limitId": 10009,
+        "deprecated": 0
+    },
+    {
+        "id": 22030513,
+        "activityId": 220305,
+        "baseTaskId": 20191,
+        "rewardId": 309053,
+        "rewardCount": 4,
+        "hiddenReward": "",
+        "limitId": 10009,
+        "deprecated": 0
+    },
+    {
+        "id": 22030514,
+        "activityId": 220305,
+        "baseTaskId": 20192,
+        "rewardId": 309053,
+        "rewardCount": 4,
+        "hiddenReward": "",
+        "limitId": 10009,
+        "deprecated": 0
+    },
+    {
+        "id": 22030515,
+        "activityId": 220305,
+        "baseTaskId": 20193,
+        "rewardId": 309053,
+        "rewardCount": 4,
+        "hiddenReward": "",
+        "limitId": 10009,
+        "deprecated": 0
+    },
+    {
+        "id": 22030516,
+        "activityId": 220305,
+        "baseTaskId": 20194,
+        "rewardId": 309054,
+        "rewardCount": 1,
+        "hiddenReward": "",
+        "limitId": 10009,
+        "deprecated": 0
+    },
+    {
+        "id": 22030517,
+        "activityId": 220305,
+        "baseTaskId": 20195,
+        "rewardId": 309054,
+        "rewardCount": 1,
+        "hiddenReward": "",
+        "limitId": 10009,
+        "deprecated": 0
+    },
+    {
+        "id": 22030518,
+        "activityId": 220305,
+        "baseTaskId": 20196,
+        "rewardId": 309054,
+        "rewardCount": 1,
+        "hiddenReward": "",
+        "limitId": 10009,
+        "deprecated": 0
+    },
+    {
+        "id": 22030519,
+        "activityId": 220305,
+        "baseTaskId": 20197,
+        "rewardId": 309054,
+        "rewardCount": 1,
+        "hiddenReward": "",
+        "limitId": 10009,
+        "deprecated": 0
+    },
+    {
+        "id": 22030520,
+        "activityId": 220305,
+        "baseTaskId": 20198,
+        "rewardId": 309054,
+        "rewardCount": 1,
+        "hiddenReward": "",
+        "limitId": 10009,
+        "deprecated": 0
+    },
+    {
+        "id": 22030521,
+        "activityId": 220305,
+        "baseTaskId": 20199,
+        "rewardId": 309054,
+        "rewardCount": 1,
+        "hiddenReward": "",
+        "limitId": 10009,
+        "deprecated": 0
+    },
+    {
+        "id": 22030522,
+        "activityId": 220305,
+        "baseTaskId": 20200,
+        "rewardId": 309054,
+        "rewardCount": 2,
+        "hiddenReward": "",
+        "limitId": 10009,
+        "deprecated": 0
+    },
+    {
+        "id": 22030523,
+        "activityId": 220305,
+        "baseTaskId": 20201,
+        "rewardId": 309054,
+        "rewardCount": 2,
+        "hiddenReward": "",
+        "limitId": 10009,
+        "deprecated": 0
+    },
+    {
+        "id": 22030524,
+        "activityId": 220305,
+        "baseTaskId": 20202,
+        "rewardId": 309054,
+        "rewardCount": 2,
+        "hiddenReward": "",
+        "limitId": 10009,
+        "deprecated": 0
+    },
+    {
+        "id": 22030525,
+        "activityId": 220305,
+        "baseTaskId": 20203,
+        "rewardId": 309054,
+        "rewardCount": 2,
+        "hiddenReward": "",
+        "limitId": 10009,
+        "deprecated": 0
+    },
+    {
+        "id": 22030526,
+        "activityId": 220305,
+        "baseTaskId": 20204,
+        "rewardId": 309054,
+        "rewardCount": 2,
+        "hiddenReward": "",
+        "limitId": 10009,
+        "deprecated": 0
+    },
+    {
+        "id": 22030527,
+        "activityId": 220305,
+        "baseTaskId": 20205,
+        "rewardId": 309054,
+        "rewardCount": 2,
+        "hiddenReward": "",
+        "limitId": 10009,
+        "deprecated": 0
+    },
+    {
+        "id": 22030528,
+        "activityId": 220305,
+        "baseTaskId": 20206,
+        "rewardId": 309054,
+        "rewardCount": 2,
+        "hiddenReward": "",
+        "limitId": 10009,
+        "deprecated": 0
+    },
+    {
+        "id": 22030529,
+        "activityId": 220305,
+        "baseTaskId": 20207,
+        "rewardId": 309054,
+        "rewardCount": 3,
+        "hiddenReward": "",
+        "limitId": 10009,
+        "deprecated": 0
+    },
+    {
+        "id": 22030530,
+        "activityId": 220305,
+        "baseTaskId": 20208,
+        "rewardId": 309054,
+        "rewardCount": 3,
+        "hiddenReward": "",
+        "limitId": 10009,
+        "deprecated": 0
+    },
+    {
+        "id": 22030531,
+        "activityId": 220305,
+        "baseTaskId": 20209,
+        "rewardId": 309054,
+        "rewardCount": 3,
+        "hiddenReward": "",
+        "limitId": 10009,
+        "deprecated": 0
+    },
+    {
+        "id": 22030532,
+        "activityId": 220305,
+        "baseTaskId": 20210,
+        "rewardId": 309054,
+        "rewardCount": 3,
+        "hiddenReward": "",
+        "limitId": 10009,
+        "deprecated": 0
+    },
+    {
+        "id": 22030533,
+        "activityId": 220305,
+        "baseTaskId": 20211,
+        "rewardId": 309054,
+        "rewardCount": 3,
+        "hiddenReward": "",
+        "limitId": 10009,
+        "deprecated": 0
+    },
+    {
+        "id": 22030534,
+        "activityId": 220305,
+        "baseTaskId": 20212,
+        "rewardId": 309054,
+        "rewardCount": 4,
+        "hiddenReward": "",
+        "limitId": 10009,
+        "deprecated": 0
+    },
+    {
+        "id": 22030535,
+        "activityId": 220305,
+        "baseTaskId": 20213,
+        "rewardId": 309054,
+        "rewardCount": 4,
+        "hiddenReward": "",
+        "limitId": 10009,
+        "deprecated": 0
+    },
+    {
+        "id": 22030536,
+        "activityId": 220305,
+        "baseTaskId": 20214,
+        "rewardId": 309054,
+        "rewardCount": 4,
+        "hiddenReward": "",
+        "limitId": 10009,
+        "deprecated": 0
+    },
+    {
+        "id": 22030537,
+        "activityId": 220305,
+        "baseTaskId": 20215,
+        "rewardId": 309055,
+        "rewardCount": 1,
+        "hiddenReward": "",
+        "limitId": 10009,
+        "deprecated": 0
+    },
+    {
+        "id": 22030538,
+        "activityId": 220305,
+        "baseTaskId": 20216,
+        "rewardId": 309055,
+        "rewardCount": 1,
+        "hiddenReward": "",
+        "limitId": 10009,
+        "deprecated": 0
+    },
+    {
+        "id": 22030539,
+        "activityId": 220305,
+        "baseTaskId": 20217,
+        "rewardId": 309055,
+        "rewardCount": 1,
+        "hiddenReward": "",
+        "limitId": 10009,
+        "deprecated": 0
+    },
+    {
+        "id": 22030540,
+        "activityId": 220305,
+        "baseTaskId": 20218,
+        "rewardId": 309055,
+        "rewardCount": 1,
+        "hiddenReward": "",
+        "limitId": 10009,
+        "deprecated": 0
+    },
+    {
+        "id": 22030541,
+        "activityId": 220305,
+        "baseTaskId": 20219,
+        "rewardId": 309055,
+        "rewardCount": 1,
+        "hiddenReward": "",
+        "limitId": 10009,
+        "deprecated": 0
+    },
+    {
+        "id": 22030542,
+        "activityId": 220305,
+        "baseTaskId": 20220,
+        "rewardId": 309055,
+        "rewardCount": 2,
+        "hiddenReward": "",
+        "limitId": 10009,
+        "deprecated": 0
+    },
+    {
+        "id": 22030543,
+        "activityId": 220305,
+        "baseTaskId": 20221,
+        "rewardId": 309055,
+        "rewardCount": 2,
+        "hiddenReward": "",
+        "limitId": 10009,
+        "deprecated": 0
+    },
+    {
+        "id": 22030544,
+        "activityId": 220305,
+        "baseTaskId": 20222,
+        "rewardId": 309055,
+        "rewardCount": 2,
+        "hiddenReward": "",
+        "limitId": 10009,
+        "deprecated": 0
+    },
+    {
+        "id": 22030545,
+        "activityId": 220305,
+        "baseTaskId": 20223,
+        "rewardId": 309055,
+        "rewardCount": 3,
+        "hiddenReward": "",
+        "limitId": 10009,
+        "deprecated": 0
+    },
+    {
+        "id": 22030546,
+        "activityId": 220305,
+        "baseTaskId": 20224,
+        "rewardId": 309055,
+        "rewardCount": 4,
+        "hiddenReward": "",
+        "limitId": 10009,
+        "deprecated": 0
+    },
+    {
+        "id": 22030547,
+        "activityId": 220305,
+        "baseTaskId": 20225,
+        "rewardId": 309055,
+        "rewardCount": 4,
+        "hiddenReward": "",
+        "limitId": 10009,
+        "deprecated": 0
+    },
+    {
+        "id": 22030548,
+        "activityId": 220305,
+        "baseTaskId": 20226,
+        "rewardId": 309055,
+        "rewardCount": 4,
+        "hiddenReward": "",
+        "limitId": 10009,
+        "deprecated": 0
+    },
+    {
+        "id": 22030549,
+        "activityId": 220305,
+        "baseTaskId": 20227,
+        "rewardId": 309055,
+        "rewardCount": 4,
+        "hiddenReward": "",
+        "limitId": 10009,
+        "deprecated": 0
+    },
+    {
+        "id": 22040601,
+        "activityId": 220406,
+        "baseTaskId": 21200,
+        "rewardId": 309056,
+        "rewardCount": 200,
+        "hiddenReward": "",
+        "limitId": 0,
+        "deprecated": 0
+    },
+    {
+        "id": 22040602,
+        "activityId": 220406,
+        "baseTaskId": 21201,
+        "rewardId": 309056,
+        "rewardCount": 120,
+        "hiddenReward": "",
+        "limitId": 0,
+        "deprecated": 0
+    },
+    {
+        "id": 22040603,
+        "activityId": 220406,
+        "baseTaskId": 21202,
+        "rewardId": 309056,
+        "rewardCount": 60,
+        "hiddenReward": "",
+        "limitId": 0,
+        "deprecated": 0
+    },
+    {
+        "id": 22040604,
+        "activityId": 220406,
+        "baseTaskId": 21203,
+        "rewardId": 309056,
+        "rewardCount": 20,
+        "hiddenReward": "",
+        "limitId": 0,
+        "deprecated": 0
+    },
+    {
+        "id": 22040605,
+        "activityId": 220406,
+        "baseTaskId": 21204,
+        "rewardId": 309056,
+        "rewardCount": 30,
+        "hiddenReward": "",
+        "limitId": 0,
+        "deprecated": 0
+    },
+    {
+        "id": 22040606,
+        "activityId": 220406,
+        "baseTaskId": 21205,
+        "rewardId": 309056,
+        "rewardCount": 60,
+        "hiddenReward": "",
+        "limitId": 0,
+        "deprecated": 0
+    },
+    {
+        "id": 22040607,
+        "activityId": 220406,
+        "baseTaskId": 21206,
+        "rewardId": 309056,
+        "rewardCount": 90,
+        "hiddenReward": "",
+        "limitId": 0,
+        "deprecated": 0
+    },
+    {
+        "id": 22040608,
+        "activityId": 220406,
+        "baseTaskId": 21207,
+        "rewardId": 309056,
+        "rewardCount": 120,
+        "hiddenReward": "",
+        "limitId": 0,
+        "deprecated": 0
+    },
+    {
+        "id": 22040609,
+        "activityId": 220406,
+        "baseTaskId": 21208,
+        "rewardId": 309056,
+        "rewardCount": 180,
+        "hiddenReward": "",
+        "limitId": 0,
+        "deprecated": 0
+    },
+    {
+        "id": 22040610,
+        "activityId": 220406,
+        "baseTaskId": 21209,
+        "rewardId": 309056,
+        "rewardCount": 240,
+        "hiddenReward": "",
+        "limitId": 0,
+        "deprecated": 0
+    },
+    {
+        "id": 22040611,
+        "activityId": 220406,
+        "baseTaskId": 21210,
+        "rewardId": 309056,
+        "rewardCount": 200,
+        "hiddenReward": "",
+        "limitId": 0,
+        "deprecated": 0
+    },
+    {
+        "id": 22040612,
+        "activityId": 220406,
+        "baseTaskId": 21211,
+        "rewardId": 309056,
+        "rewardCount": 120,
+        "hiddenReward": "",
+        "limitId": 0,
+        "deprecated": 0
+    },
+    {
+        "id": 22040613,
+        "activityId": 220406,
+        "baseTaskId": 21212,
+        "rewardId": 309056,
+        "rewardCount": 60,
+        "hiddenReward": "",
+        "limitId": 0,
+        "deprecated": 0
+    },
+    {
+        "id": 22040614,
+        "activityId": 220406,
+        "baseTaskId": 21213,
+        "rewardId": 309056,
+        "rewardCount": 20,
+        "hiddenReward": "",
+        "limitId": 0,
+        "deprecated": 0
+    },
+    {
+        "id": 22040615,
+        "activityId": 220406,
+        "baseTaskId": 21214,
+        "rewardId": 309056,
+        "rewardCount": 30,
+        "hiddenReward": "",
+        "limitId": 0,
+        "deprecated": 0
+    },
+    {
+        "id": 22040616,
+        "activityId": 220406,
+        "baseTaskId": 21215,
+        "rewardId": 309056,
+        "rewardCount": 60,
+        "hiddenReward": "",
+        "limitId": 0,
+        "deprecated": 0
+    },
+    {
+        "id": 22040617,
+        "activityId": 220406,
+        "baseTaskId": 21216,
+        "rewardId": 309056,
+        "rewardCount": 90,
+        "hiddenReward": "",
+        "limitId": 0,
+        "deprecated": 0
+    },
+    {
+        "id": 22040618,
+        "activityId": 220406,
+        "baseTaskId": 21217,
+        "rewardId": 309056,
+        "rewardCount": 120,
+        "hiddenReward": "",
+        "limitId": 0,
+        "deprecated": 0
+    },
+    {
+        "id": 22040619,
+        "activityId": 220406,
+        "baseTaskId": 21218,
+        "rewardId": 309056,
+        "rewardCount": 180,
+        "hiddenReward": "",
+        "limitId": 0,
+        "deprecated": 0
+    },
+    {
+        "id": 22040620,
+        "activityId": 220406,
+        "baseTaskId": 21219,
+        "rewardId": 309056,
+        "rewardCount": 240,
+        "hiddenReward": "",
+        "limitId": 0,
+        "deprecated": 0
+    },
+    {
+        "id": 22040621,
+        "activityId": 220406,
+        "baseTaskId": 21220,
+        "rewardId": 309056,
+        "rewardCount": 120,
+        "hiddenReward": "",
+        "limitId": 0,
+        "deprecated": 0
+    },
+    {
+        "id": 22040622,
+        "activityId": 220406,
+        "baseTaskId": 21221,
+        "rewardId": 309056,
+        "rewardCount": 60,
+        "hiddenReward": "",
+        "limitId": 0,
+        "deprecated": 0
+    },
+    {
+        "id": 22040623,
+        "activityId": 220406,
+        "baseTaskId": 21222,
+        "rewardId": 309056,
+        "rewardCount": 20,
+        "hiddenReward": "",
+        "limitId": 0,
+        "deprecated": 0
+    },
+    {
+        "id": 22070501,
+        "activityId": 220705,
+        "baseTaskId": 20179,
+        "rewardId": 309060,
+        "rewardCount": 1,
+        "hiddenReward": "",
+        "limitId": 10010,
+        "deprecated": 0
+    },
+    {
+        "id": 22070502,
+        "activityId": 220705,
+        "baseTaskId": 20180,
+        "rewardId": 309060,
+        "rewardCount": 1,
+        "hiddenReward": "",
+        "limitId": 10010,
+        "deprecated": 0
+    },
+    {
+        "id": 22070503,
+        "activityId": 220705,
+        "baseTaskId": 20181,
+        "rewardId": 309060,
+        "rewardCount": 1,
+        "hiddenReward": "",
+        "limitId": 10010,
+        "deprecated": 0
+    },
+    {
+        "id": 22070504,
+        "activityId": 220705,
+        "baseTaskId": 20182,
+        "rewardId": 309060,
+        "rewardCount": 1,
+        "hiddenReward": "",
+        "limitId": 10010,
+        "deprecated": 0
+    },
+    {
+        "id": 22070505,
+        "activityId": 220705,
+        "baseTaskId": 20183,
+        "rewardId": 309060,
+        "rewardCount": 2,
+        "hiddenReward": "",
+        "limitId": 10010,
+        "deprecated": 0
+    },
+    {
+        "id": 22070506,
+        "activityId": 220705,
+        "baseTaskId": 20184,
+        "rewardId": 309060,
+        "rewardCount": 3,
+        "hiddenReward": "",
+        "limitId": 10010,
+        "deprecated": 0
+    },
+    {
+        "id": 22070507,
+        "activityId": 220705,
+        "baseTaskId": 20185,
+        "rewardId": 309060,
+        "rewardCount": 3,
+        "hiddenReward": "",
+        "limitId": 10010,
+        "deprecated": 0
+    },
+    {
+        "id": 22070508,
+        "activityId": 220705,
+        "baseTaskId": 20186,
+        "rewardId": 309060,
+        "rewardCount": 4,
+        "hiddenReward": "",
+        "limitId": 10010,
+        "deprecated": 0
+    },
+    {
+        "id": 22070509,
+        "activityId": 220705,
+        "baseTaskId": 20187,
+        "rewardId": 309060,
+        "rewardCount": 4,
+        "hiddenReward": "",
+        "limitId": 10010,
+        "deprecated": 0
+    },
+    {
+        "id": 22070510,
+        "activityId": 220705,
+        "baseTaskId": 20188,
+        "rewardId": 309060,
+        "rewardCount": 4,
+        "hiddenReward": "",
+        "limitId": 10010,
+        "deprecated": 0
+    },
+    {
+        "id": 22070511,
+        "activityId": 220705,
+        "baseTaskId": 20189,
+        "rewardId": 309060,
+        "rewardCount": 4,
+        "hiddenReward": "",
+        "limitId": 10010,
+        "deprecated": 0
+    },
+    {
+        "id": 22070512,
+        "activityId": 220705,
+        "baseTaskId": 20190,
+        "rewardId": 309060,
+        "rewardCount": 4,
+        "hiddenReward": "",
+        "limitId": 10010,
+        "deprecated": 0
+    },
+    {
+        "id": 22070513,
+        "activityId": 220705,
+        "baseTaskId": 20191,
+        "rewardId": 309060,
+        "rewardCount": 4,
+        "hiddenReward": "",
+        "limitId": 10010,
+        "deprecated": 0
+    },
+    {
+        "id": 22070514,
+        "activityId": 220705,
+        "baseTaskId": 20192,
+        "rewardId": 309060,
+        "rewardCount": 4,
+        "hiddenReward": "",
+        "limitId": 10010,
+        "deprecated": 0
+    },
+    {
+        "id": 22070515,
+        "activityId": 220705,
+        "baseTaskId": 20193,
+        "rewardId": 309060,
+        "rewardCount": 4,
+        "hiddenReward": "",
+        "limitId": 10010,
+        "deprecated": 0
+    },
+    {
+        "id": 22070516,
+        "activityId": 220705,
+        "baseTaskId": 20194,
+        "rewardId": 309061,
+        "rewardCount": 1,
+        "hiddenReward": "",
+        "limitId": 10010,
+        "deprecated": 0
+    },
+    {
+        "id": 22070517,
+        "activityId": 220705,
+        "baseTaskId": 20195,
+        "rewardId": 309061,
+        "rewardCount": 1,
+        "hiddenReward": "",
+        "limitId": 10010,
+        "deprecated": 0
+    },
+    {
+        "id": 22070518,
+        "activityId": 220705,
+        "baseTaskId": 20196,
+        "rewardId": 309061,
+        "rewardCount": 1,
+        "hiddenReward": "",
+        "limitId": 10010,
+        "deprecated": 0
+    },
+    {
+        "id": 22070519,
+        "activityId": 220705,
+        "baseTaskId": 20197,
+        "rewardId": 309061,
+        "rewardCount": 1,
+        "hiddenReward": "",
+        "limitId": 10010,
+        "deprecated": 0
+    },
+    {
+        "id": 22070520,
+        "activityId": 220705,
+        "baseTaskId": 20198,
+        "rewardId": 309061,
+        "rewardCount": 1,
+        "hiddenReward": "",
+        "limitId": 10010,
+        "deprecated": 0
+    },
+    {
+        "id": 22070521,
+        "activityId": 220705,
+        "baseTaskId": 20199,
+        "rewardId": 309061,
+        "rewardCount": 1,
+        "hiddenReward": "",
+        "limitId": 10010,
+        "deprecated": 0
+    },
+    {
+        "id": 22070522,
+        "activityId": 220705,
+        "baseTaskId": 20200,
+        "rewardId": 309061,
+        "rewardCount": 2,
+        "hiddenReward": "",
+        "limitId": 10010,
+        "deprecated": 0
+    },
+    {
+        "id": 22070523,
+        "activityId": 220705,
+        "baseTaskId": 20201,
+        "rewardId": 309061,
+        "rewardCount": 2,
+        "hiddenReward": "",
+        "limitId": 10010,
+        "deprecated": 0
+    },
+    {
+        "id": 22070524,
+        "activityId": 220705,
+        "baseTaskId": 20202,
+        "rewardId": 309061,
+        "rewardCount": 2,
+        "hiddenReward": "",
+        "limitId": 10010,
+        "deprecated": 0
+    },
+    {
+        "id": 22070525,
+        "activityId": 220705,
+        "baseTaskId": 20203,
+        "rewardId": 309061,
+        "rewardCount": 2,
+        "hiddenReward": "",
+        "limitId": 10010,
+        "deprecated": 0
+    },
+    {
+        "id": 22070526,
+        "activityId": 220705,
+        "baseTaskId": 20204,
+        "rewardId": 309061,
+        "rewardCount": 2,
+        "hiddenReward": "",
+        "limitId": 10010,
+        "deprecated": 0
+    },
+    {
+        "id": 22070527,
+        "activityId": 220705,
+        "baseTaskId": 20205,
+        "rewardId": 309061,
+        "rewardCount": 2,
+        "hiddenReward": "",
+        "limitId": 10010,
+        "deprecated": 0
+    },
+    {
+        "id": 22070528,
+        "activityId": 220705,
+        "baseTaskId": 20206,
+        "rewardId": 309061,
+        "rewardCount": 2,
+        "hiddenReward": "",
+        "limitId": 10010,
+        "deprecated": 0
+    },
+    {
+        "id": 22070529,
+        "activityId": 220705,
+        "baseTaskId": 20207,
+        "rewardId": 309061,
+        "rewardCount": 3,
+        "hiddenReward": "",
+        "limitId": 10010,
+        "deprecated": 0
+    },
+    {
+        "id": 22070530,
+        "activityId": 220705,
+        "baseTaskId": 20208,
+        "rewardId": 309061,
+        "rewardCount": 3,
+        "hiddenReward": "",
+        "limitId": 10010,
+        "deprecated": 0
+    },
+    {
+        "id": 22070531,
+        "activityId": 220705,
+        "baseTaskId": 20209,
+        "rewardId": 309061,
+        "rewardCount": 3,
+        "hiddenReward": "",
+        "limitId": 10010,
+        "deprecated": 0
+    },
+    {
+        "id": 22070532,
+        "activityId": 220705,
+        "baseTaskId": 20210,
+        "rewardId": 309061,
+        "rewardCount": 3,
+        "hiddenReward": "",
+        "limitId": 10010,
+        "deprecated": 0
+    },
+    {
+        "id": 22070533,
+        "activityId": 220705,
+        "baseTaskId": 20211,
+        "rewardId": 309061,
+        "rewardCount": 3,
+        "hiddenReward": "",
+        "limitId": 10010,
+        "deprecated": 0
+    },
+    {
+        "id": 22070534,
+        "activityId": 220705,
+        "baseTaskId": 20212,
+        "rewardId": 309061,
+        "rewardCount": 4,
+        "hiddenReward": "",
+        "limitId": 10010,
+        "deprecated": 0
+    },
+    {
+        "id": 22070535,
+        "activityId": 220705,
+        "baseTaskId": 20213,
+        "rewardId": 309061,
+        "rewardCount": 4,
+        "hiddenReward": "",
+        "limitId": 10010,
+        "deprecated": 0
+    },
+    {
+        "id": 22070536,
+        "activityId": 220705,
+        "baseTaskId": 20214,
+        "rewardId": 309061,
+        "rewardCount": 4,
+        "hiddenReward": "",
+        "limitId": 10010,
+        "deprecated": 0
+    },
+    {
+        "id": 22070537,
+        "activityId": 220705,
+        "baseTaskId": 20215,
+        "rewardId": 309062,
+        "rewardCount": 1,
+        "hiddenReward": "",
+        "limitId": 10010,
+        "deprecated": 0
+    },
+    {
+        "id": 22070538,
+        "activityId": 220705,
+        "baseTaskId": 20216,
+        "rewardId": 309062,
+        "rewardCount": 1,
+        "hiddenReward": "",
+        "limitId": 10010,
+        "deprecated": 0
+    },
+    {
+        "id": 22070539,
+        "activityId": 220705,
+        "baseTaskId": 20217,
+        "rewardId": 309062,
+        "rewardCount": 1,
+        "hiddenReward": "",
+        "limitId": 10010,
+        "deprecated": 0
+    },
+    {
+        "id": 22070540,
+        "activityId": 220705,
+        "baseTaskId": 20218,
+        "rewardId": 309062,
+        "rewardCount": 1,
+        "hiddenReward": "",
+        "limitId": 10010,
+        "deprecated": 0
+    },
+    {
+        "id": 22070541,
+        "activityId": 220705,
+        "baseTaskId": 20219,
+        "rewardId": 309062,
+        "rewardCount": 1,
+        "hiddenReward": "",
+        "limitId": 10010,
+        "deprecated": 0
+    },
+    {
+        "id": 22070542,
+        "activityId": 220705,
+        "baseTaskId": 20220,
+        "rewardId": 309062,
+        "rewardCount": 2,
+        "hiddenReward": "",
+        "limitId": 10010,
+        "deprecated": 0
+    },
+    {
+        "id": 22070543,
+        "activityId": 220705,
+        "baseTaskId": 20221,
+        "rewardId": 309062,
+        "rewardCount": 2,
+        "hiddenReward": "",
+        "limitId": 10010,
+        "deprecated": 0
+    },
+    {
+        "id": 22070544,
+        "activityId": 220705,
+        "baseTaskId": 20222,
+        "rewardId": 309062,
+        "rewardCount": 2,
+        "hiddenReward": "",
+        "limitId": 10010,
+        "deprecated": 0
+    },
+    {
+        "id": 22070545,
+        "activityId": 220705,
+        "baseTaskId": 20223,
+        "rewardId": 309062,
+        "rewardCount": 3,
+        "hiddenReward": "",
+        "limitId": 10010,
+        "deprecated": 0
+    },
+    {
+        "id": 22070546,
+        "activityId": 220705,
+        "baseTaskId": 20224,
+        "rewardId": 309062,
+        "rewardCount": 4,
+        "hiddenReward": "",
+        "limitId": 10010,
+        "deprecated": 0
+    },
+    {
+        "id": 22070547,
+        "activityId": 220705,
+        "baseTaskId": 20225,
+        "rewardId": 309062,
+        "rewardCount": 4,
+        "hiddenReward": "",
+        "limitId": 10010,
+        "deprecated": 0
+    },
+    {
+        "id": 22070548,
+        "activityId": 220705,
+        "baseTaskId": 20226,
+        "rewardId": 309062,
+        "rewardCount": 4,
+        "hiddenReward": "",
+        "limitId": 10010,
+        "deprecated": 0
+    },
+    {
+        "id": 22070549,
+        "activityId": 220705,
+        "baseTaskId": 20227,
+        "rewardId": 309062,
+        "rewardCount": 4,
+        "hiddenReward": "",
+        "limitId": 10010,
+        "deprecated": 0
+    },
+    {
+        "id": 22110501,
+        "activityId": 221105,
+        "baseTaskId": 21600,
+        "rewardId": 309068,
+        "rewardCount": 200,
+        "hiddenReward": "",
+        "limitId": 0,
+        "deprecated": 0
+    },
+    {
+        "id": 22110502,
+        "activityId": 221105,
+        "baseTaskId": 21601,
+        "rewardId": 309068,
+        "rewardCount": 120,
+        "hiddenReward": "",
+        "limitId": 0,
+        "deprecated": 0
+    },
+    {
+        "id": 22110503,
+        "activityId": 221105,
+        "baseTaskId": 21602,
+        "rewardId": 309068,
+        "rewardCount": 60,
+        "hiddenReward": "",
+        "limitId": 0,
+        "deprecated": 0
+    },
+    {
+        "id": 22110504,
+        "activityId": 221105,
+        "baseTaskId": 21603,
+        "rewardId": 309068,
+        "rewardCount": 20,
+        "hiddenReward": "",
+        "limitId": 0,
+        "deprecated": 0
+    },
+    {
+        "id": 22110505,
+        "activityId": 221105,
+        "baseTaskId": 21604,
+        "rewardId": 309068,
+        "rewardCount": 30,
+        "hiddenReward": "",
+        "limitId": 0,
+        "deprecated": 0
+    },
+    {
+        "id": 22110506,
+        "activityId": 221105,
+        "baseTaskId": 21605,
+        "rewardId": 309068,
+        "rewardCount": 60,
+        "hiddenReward": "",
+        "limitId": 0,
+        "deprecated": 0
+    },
+    {
+        "id": 22110507,
+        "activityId": 221105,
+        "baseTaskId": 21606,
+        "rewardId": 309068,
+        "rewardCount": 90,
+        "hiddenReward": "",
+        "limitId": 0,
+        "deprecated": 0
+    },
+    {
+        "id": 22110508,
+        "activityId": 221105,
+        "baseTaskId": 21607,
+        "rewardId": 309068,
+        "rewardCount": 120,
+        "hiddenReward": "",
+        "limitId": 0,
+        "deprecated": 0
+    },
+    {
+        "id": 22110509,
+        "activityId": 221105,
+        "baseTaskId": 21608,
+        "rewardId": 309068,
+        "rewardCount": 180,
+        "hiddenReward": "",
+        "limitId": 0,
+        "deprecated": 0
+    },
+    {
+        "id": 22110510,
+        "activityId": 221105,
+        "baseTaskId": 21609,
+        "rewardId": 309068,
+        "rewardCount": 240,
+        "hiddenReward": "",
+        "limitId": 0,
+        "deprecated": 0
+    },
+    {
+        "id": 22110511,
+        "activityId": 221105,
+        "baseTaskId": 21210,
+        "rewardId": 309068,
+        "rewardCount": 200,
+        "hiddenReward": "",
+        "limitId": 0,
+        "deprecated": 0
+    },
+    {
+        "id": 22110512,
+        "activityId": 221105,
+        "baseTaskId": 21211,
+        "rewardId": 309068,
+        "rewardCount": 120,
+        "hiddenReward": "",
+        "limitId": 0,
+        "deprecated": 0
+    },
+    {
+        "id": 22110513,
+        "activityId": 221105,
+        "baseTaskId": 21212,
+        "rewardId": 309068,
+        "rewardCount": 60,
+        "hiddenReward": "",
+        "limitId": 0,
+        "deprecated": 0
+    },
+    {
+        "id": 22110514,
+        "activityId": 221105,
+        "baseTaskId": 21213,
+        "rewardId": 309068,
+        "rewardCount": 20,
+        "hiddenReward": "",
+        "limitId": 0,
+        "deprecated": 0
+    },
+    {
+        "id": 22110515,
+        "activityId": 221105,
+        "baseTaskId": 21214,
+        "rewardId": 309068,
+        "rewardCount": 30,
+        "hiddenReward": "",
+        "limitId": 0,
+        "deprecated": 0
+    },
+    {
+        "id": 22110516,
+        "activityId": 221105,
+        "baseTaskId": 21215,
+        "rewardId": 309068,
+        "rewardCount": 60,
+        "hiddenReward": "",
+        "limitId": 0,
+        "deprecated": 0
+    },
+    {
+        "id": 22110517,
+        "activityId": 221105,
+        "baseTaskId": 21216,
+        "rewardId": 309068,
+        "rewardCount": 90,
+        "hiddenReward": "",
+        "limitId": 0,
+        "deprecated": 0
+    },
+    {
+        "id": 22110518,
+        "activityId": 221105,
+        "baseTaskId": 21217,
+        "rewardId": 309068,
+        "rewardCount": 120,
+        "hiddenReward": "",
+        "limitId": 0,
+        "deprecated": 0
+    },
+    {
+        "id": 22110519,
+        "activityId": 221105,
+        "baseTaskId": 21218,
+        "rewardId": 309068,
+        "rewardCount": 180,
+        "hiddenReward": "",
+        "limitId": 0,
+        "deprecated": 0
+    },
+    {
+        "id": 22110520,
+        "activityId": 221105,
+        "baseTaskId": 21219,
+        "rewardId": 309068,
+        "rewardCount": 240,
+        "hiddenReward": "",
+        "limitId": 0,
+        "deprecated": 0
+    },
+    {
+        "id": 22110521,
+        "activityId": 221105,
+        "baseTaskId": 21220,
+        "rewardId": 309068,
+        "rewardCount": 120,
+        "hiddenReward": "",
+        "limitId": 0,
+        "deprecated": 0
+    },
+    {
+        "id": 22110522,
+        "activityId": 221105,
+        "baseTaskId": 21221,
+        "rewardId": 309068,
+        "rewardCount": 60,
+        "hiddenReward": "",
+        "limitId": 0,
+        "deprecated": 0
+    },
+    {
+        "id": 22110523,
+        "activityId": 221105,
+        "baseTaskId": 21222,
+        "rewardId": 309068,
+        "rewardCount": 20,
+        "hiddenReward": "",
+        "limitId": 0,
+        "deprecated": 0
+    },
+    {
+        "id": 23040601,
+        "activityId": 230406,
+        "baseTaskId": 21740,
+        "rewardId": 309035,
+        "rewardCount": 200,
+        "hiddenReward": "",
+        "limitId": 0,
+        "deprecated": 0
+    },
+    {
+        "id": 23040602,
+        "activityId": 230406,
+        "baseTaskId": 21741,
+        "rewardId": 309035,
+        "rewardCount": 120,
+        "hiddenReward": "",
+        "limitId": 0,
+        "deprecated": 0
+    },
+    {
+        "id": 23040603,
+        "activityId": 230406,
+        "baseTaskId": 21742,
+        "rewardId": 309035,
+        "rewardCount": 60,
+        "hiddenReward": "",
+        "limitId": 0,
+        "deprecated": 0
+    },
+    {
+        "id": 23040604,
+        "activityId": 230406,
+        "baseTaskId": 21743,
+        "rewardId": 309035,
+        "rewardCount": 20,
+        "hiddenReward": "",
+        "limitId": 0,
+        "deprecated": 0
+    },
+    {
+        "id": 23040605,
+        "activityId": 230406,
+        "baseTaskId": 21744,
+        "rewardId": 309035,
+        "rewardCount": 30,
+        "hiddenReward": "",
+        "limitId": 0,
+        "deprecated": 0
+    },
+    {
+        "id": 23040606,
+        "activityId": 230406,
+        "baseTaskId": 21745,
+        "rewardId": 309035,
+        "rewardCount": 60,
+        "hiddenReward": "",
+        "limitId": 0,
+        "deprecated": 0
+    },
+    {
+        "id": 23040607,
+        "activityId": 230406,
+        "baseTaskId": 21746,
+        "rewardId": 309035,
+        "rewardCount": 90,
+        "hiddenReward": "",
+        "limitId": 0,
+        "deprecated": 0
+    },
+    {
+        "id": 23040608,
+        "activityId": 230406,
+        "baseTaskId": 21747,
+        "rewardId": 309035,
+        "rewardCount": 120,
+        "hiddenReward": "",
+        "limitId": 0,
+        "deprecated": 0
+    },
+    {
+        "id": 23040609,
+        "activityId": 230406,
+        "baseTaskId": 21748,
+        "rewardId": 309035,
+        "rewardCount": 180,
+        "hiddenReward": "",
+        "limitId": 0,
+        "deprecated": 0
+    },
+    {
+        "id": 23040610,
+        "activityId": 230406,
+        "baseTaskId": 21749,
+        "rewardId": 309035,
+        "rewardCount": 240,
+        "hiddenReward": "",
+        "limitId": 0,
+        "deprecated": 0
+    },
+    {
+        "id": 23040611,
+        "activityId": 230406,
+        "baseTaskId": 21210,
+        "rewardId": 309035,
+        "rewardCount": 200,
+        "hiddenReward": "",
+        "limitId": 0,
+        "deprecated": 0
+    },
+    {
+        "id": 23040612,
+        "activityId": 230406,
+        "baseTaskId": 21211,
+        "rewardId": 309035,
+        "rewardCount": 120,
+        "hiddenReward": "",
+        "limitId": 0,
+        "deprecated": 0
+    },
+    {
+        "id": 23040613,
+        "activityId": 230406,
+        "baseTaskId": 21212,
+        "rewardId": 309035,
+        "rewardCount": 60,
+        "hiddenReward": "",
+        "limitId": 0,
+        "deprecated": 0
+    },
+    {
+        "id": 23040614,
+        "activityId": 230406,
+        "baseTaskId": 21213,
+        "rewardId": 309035,
+        "rewardCount": 20,
+        "hiddenReward": "",
+        "limitId": 0,
+        "deprecated": 0
+    },
+    {
+        "id": 23040615,
+        "activityId": 230406,
+        "baseTaskId": 21214,
+        "rewardId": 309035,
+        "rewardCount": 30,
+        "hiddenReward": "",
+        "limitId": 0,
+        "deprecated": 0
+    },
+    {
+        "id": 23040616,
+        "activityId": 230406,
+        "baseTaskId": 21215,
+        "rewardId": 309035,
+        "rewardCount": 60,
+        "hiddenReward": "",
+        "limitId": 0,
+        "deprecated": 0
+    },
+    {
+        "id": 23040617,
+        "activityId": 230406,
+        "baseTaskId": 21216,
+        "rewardId": 309035,
+        "rewardCount": 90,
+        "hiddenReward": "",
+        "limitId": 0,
+        "deprecated": 0
+    },
+    {
+        "id": 23040618,
+        "activityId": 230406,
+        "baseTaskId": 21217,
+        "rewardId": 309035,
+        "rewardCount": 120,
+        "hiddenReward": "",
+        "limitId": 0,
+        "deprecated": 0
+    },
+    {
+        "id": 23040619,
+        "activityId": 230406,
+        "baseTaskId": 21218,
+        "rewardId": 309035,
+        "rewardCount": 180,
+        "hiddenReward": "",
+        "limitId": 0,
+        "deprecated": 0
+    },
+    {
+        "id": 23040620,
+        "activityId": 230406,
+        "baseTaskId": 21219,
+        "rewardId": 309035,
+        "rewardCount": 240,
+        "hiddenReward": "",
+        "limitId": 0,
+        "deprecated": 0
+    },
+    {
+        "id": 23040621,
+        "activityId": 230406,
+        "baseTaskId": 21220,
+        "rewardId": 309035,
+        "rewardCount": 120,
+        "hiddenReward": "",
+        "limitId": 0,
+        "deprecated": 0
+    },
+    {
+        "id": 23040622,
+        "activityId": 230406,
+        "baseTaskId": 21221,
+        "rewardId": 309035,
+        "rewardCount": 60,
+        "hiddenReward": "",
+        "limitId": 0,
+        "deprecated": 0
+    },
+    {
+        "id": 23040623,
+        "activityId": 230406,
+        "baseTaskId": 21222,
+        "rewardId": 309035,
+        "rewardCount": 20,
+        "hiddenReward": "",
+        "limitId": 0,
+        "deprecated": 0
+    },
+    {
+        "id": 23060201,
+        "activityId": 230602,
+        "baseTaskId": 20179,
+        "rewardId": 309073,
+        "rewardCount": 2,
+        "hiddenReward": "",
+        "limitId": 10013,
+        "deprecated": 0
+    },
+    {
+        "id": 23060202,
+        "activityId": 230602,
+        "baseTaskId": 20180,
+        "rewardId": 309073,
+        "rewardCount": 2,
+        "hiddenReward": "",
+        "limitId": 10013,
+        "deprecated": 0
+    },
+    {
+        "id": 23060203,
+        "activityId": 230602,
+        "baseTaskId": 20181,
+        "rewardId": 309073,
+        "rewardCount": 2,
+        "hiddenReward": "",
+        "limitId": 10013,
+        "deprecated": 0
+    },
+    {
+        "id": 23060204,
+        "activityId": 230602,
+        "baseTaskId": 20194,
+        "rewardId": 309073,
+        "rewardCount": 2,
+        "hiddenReward": "",
+        "limitId": 10013,
+        "deprecated": 0
+    },
+    {
+        "id": 23060205,
+        "activityId": 230602,
+        "baseTaskId": 20182,
+        "rewardId": 309073,
+        "rewardCount": 3,
+        "hiddenReward": "",
+        "limitId": 10013,
+        "deprecated": 0
+    },
+    {
+        "id": 23060206,
+        "activityId": 230602,
+        "baseTaskId": 20183,
+        "rewardId": 309073,
+        "rewardCount": 3,
+        "hiddenReward": "",
+        "limitId": 10013,
+        "deprecated": 0
+    },
+    {
+        "id": 23060207,
+        "activityId": 230602,
+        "baseTaskId": 20184,
+        "rewardId": 309073,
+        "rewardCount": 5,
+        "hiddenReward": "",
+        "limitId": 10013,
+        "deprecated": 0
+    },
+    {
+        "id": 23060208,
+        "activityId": 230602,
+        "baseTaskId": 20185,
+        "rewardId": 309073,
+        "rewardCount": 5,
+        "hiddenReward": "",
+        "limitId": 10013,
+        "deprecated": 0
+    },
+    {
+        "id": 23060209,
+        "activityId": 230602,
+        "baseTaskId": 20186,
+        "rewardId": 309073,
+        "rewardCount": 10,
+        "hiddenReward": "",
+        "limitId": 10013,
+        "deprecated": 0
+    },
+    {
+        "id": 23060210,
+        "activityId": 230602,
+        "baseTaskId": 20187,
+        "rewardId": 309073,
+        "rewardCount": 10,
+        "hiddenReward": "",
+        "limitId": 10013,
+        "deprecated": 0
+    },
+    {
+        "id": 23060211,
+        "activityId": 230602,
+        "baseTaskId": 20188,
+        "rewardId": 309073,
+        "rewardCount": 10,
+        "hiddenReward": "",
+        "limitId": 10013,
+        "deprecated": 0
+    },
+    {
+        "id": 23060212,
+        "activityId": 230602,
+        "baseTaskId": 20189,
+        "rewardId": 309073,
+        "rewardCount": 10,
+        "hiddenReward": "",
+        "limitId": 10013,
+        "deprecated": 0
+    },
+    {
+        "id": 23060213,
+        "activityId": 230602,
+        "baseTaskId": 20190,
+        "rewardId": 309073,
+        "rewardCount": 10,
+        "hiddenReward": "",
+        "limitId": 10013,
+        "deprecated": 0
+    },
+    {
+        "id": 23060214,
+        "activityId": 230602,
+        "baseTaskId": 20191,
+        "rewardId": 309073,
+        "rewardCount": 10,
+        "hiddenReward": "",
+        "limitId": 10013,
+        "deprecated": 0
+    },
+    {
+        "id": 23060215,
+        "activityId": 230602,
+        "baseTaskId": 20192,
+        "rewardId": 309073,
+        "rewardCount": 10,
+        "hiddenReward": "",
+        "limitId": 10013,
+        "deprecated": 0
+    },
+    {
+        "id": 23060216,
+        "activityId": 230602,
+        "baseTaskId": 20193,
+        "rewardId": 309073,
+        "rewardCount": 10,
+        "hiddenReward": "",
+        "limitId": 10013,
+        "deprecated": 0
+    },
+    {
+        "id": 23060217,
+        "activityId": 230602,
+        "baseTaskId": 20195,
+        "rewardId": 309074,
+        "rewardCount": 2,
+        "hiddenReward": "",
+        "limitId": 10013,
+        "deprecated": 0
+    },
+    {
+        "id": 23060218,
+        "activityId": 230602,
+        "baseTaskId": 20196,
+        "rewardId": 309074,
+        "rewardCount": 2,
+        "hiddenReward": "",
+        "limitId": 10013,
+        "deprecated": 0
+    },
+    {
+        "id": 23060219,
+        "activityId": 230602,
+        "baseTaskId": 20197,
+        "rewardId": 309074,
+        "rewardCount": 2,
+        "hiddenReward": "",
+        "limitId": 10013,
+        "deprecated": 0
+    },
+    {
+        "id": 23060220,
+        "activityId": 230602,
+        "baseTaskId": 20198,
+        "rewardId": 309074,
+        "rewardCount": 2,
+        "hiddenReward": "",
+        "limitId": 10013,
+        "deprecated": 0
+    },
+    {
+        "id": 23060221,
+        "activityId": 230602,
+        "baseTaskId": 20199,
+        "rewardId": 309074,
+        "rewardCount": 2,
+        "hiddenReward": "",
+        "limitId": 10013,
+        "deprecated": 0
+    },
+    {
+        "id": 23060222,
+        "activityId": 230602,
+        "baseTaskId": 20200,
+        "rewardId": 309074,
+        "rewardCount": 3,
+        "hiddenReward": "",
+        "limitId": 10013,
+        "deprecated": 0
+    },
+    {
+        "id": 23060223,
+        "activityId": 230602,
+        "baseTaskId": 20201,
+        "rewardId": 309074,
+        "rewardCount": 3,
+        "hiddenReward": "",
+        "limitId": 10013,
+        "deprecated": 0
+    },
+    {
+        "id": 23060224,
+        "activityId": 230602,
+        "baseTaskId": 20202,
+        "rewardId": 309074,
+        "rewardCount": 3,
+        "hiddenReward": "",
+        "limitId": 10013,
+        "deprecated": 0
+    },
+    {
+        "id": 23060225,
+        "activityId": 230602,
+        "baseTaskId": 20203,
+        "rewardId": 309074,
+        "rewardCount": 3,
+        "hiddenReward": "",
+        "limitId": 10013,
+        "deprecated": 0
+    },
+    {
+        "id": 23060226,
+        "activityId": 230602,
+        "baseTaskId": 20204,
+        "rewardId": 309074,
+        "rewardCount": 3,
+        "hiddenReward": "",
+        "limitId": 10013,
+        "deprecated": 0
+    },
+    {
+        "id": 23060227,
+        "activityId": 230602,
+        "baseTaskId": 20205,
+        "rewardId": 309074,
+        "rewardCount": 3,
+        "hiddenReward": "",
+        "limitId": 10013,
+        "deprecated": 0
+    },
+    {
+        "id": 23060228,
+        "activityId": 230602,
+        "baseTaskId": 20206,
+        "rewardId": 309074,
+        "rewardCount": 3,
+        "hiddenReward": "",
+        "limitId": 10013,
+        "deprecated": 0
+    },
+    {
+        "id": 23060229,
+        "activityId": 230602,
+        "baseTaskId": 20207,
+        "rewardId": 309074,
+        "rewardCount": 5,
+        "hiddenReward": "",
+        "limitId": 10013,
+        "deprecated": 0
+    },
+    {
+        "id": 23060230,
+        "activityId": 230602,
+        "baseTaskId": 20208,
+        "rewardId": 309074,
+        "rewardCount": 5,
+        "hiddenReward": "",
+        "limitId": 10013,
+        "deprecated": 0
+    },
+    {
+        "id": 23060231,
+        "activityId": 230602,
+        "baseTaskId": 20209,
+        "rewardId": 309074,
+        "rewardCount": 5,
+        "hiddenReward": "",
+        "limitId": 10013,
+        "deprecated": 0
+    },
+    {
+        "id": 23060232,
+        "activityId": 230602,
+        "baseTaskId": 20210,
+        "rewardId": 309074,
+        "rewardCount": 5,
+        "hiddenReward": "",
+        "limitId": 10013,
+        "deprecated": 0
+    },
+    {
+        "id": 23060233,
+        "activityId": 230602,
+        "baseTaskId": 20211,
+        "rewardId": 309074,
+        "rewardCount": 5,
+        "hiddenReward": "",
+        "limitId": 10013,
+        "deprecated": 0
+    },
+    {
+        "id": 23060234,
+        "activityId": 230602,
+        "baseTaskId": 20212,
+        "rewardId": 309074,
+        "rewardCount": 10,
+        "hiddenReward": "",
+        "limitId": 10013,
+        "deprecated": 0
+    },
+    {
+        "id": 23060235,
+        "activityId": 230602,
+        "baseTaskId": 20213,
+        "rewardId": 309074,
+        "rewardCount": 10,
+        "hiddenReward": "",
+        "limitId": 10013,
+        "deprecated": 0
+    },
+    {
+        "id": 23060236,
+        "activityId": 230602,
+        "baseTaskId": 20214,
+        "rewardId": 309074,
+        "rewardCount": 10,
+        "hiddenReward": "",
+        "limitId": 10013,
+        "deprecated": 0
+    },
+    {
+        "id": 23060237,
+        "activityId": 230602,
+        "baseTaskId": 20215,
+        "rewardId": 309075,
+        "rewardCount": 2,
+        "hiddenReward": "",
+        "limitId": 10013,
+        "deprecated": 0
+    },
+    {
+        "id": 23060238,
+        "activityId": 230602,
+        "baseTaskId": 20216,
+        "rewardId": 309075,
+        "rewardCount": 2,
+        "hiddenReward": "",
+        "limitId": 10013,
+        "deprecated": 0
+    },
+    {
+        "id": 23060239,
+        "activityId": 230602,
+        "baseTaskId": 20217,
+        "rewardId": 309075,
+        "rewardCount": 2,
+        "hiddenReward": "",
+        "limitId": 10013,
+        "deprecated": 0
+    },
+    {
+        "id": 23060240,
+        "activityId": 230602,
+        "baseTaskId": 20218,
+        "rewardId": 309075,
+        "rewardCount": 2,
+        "hiddenReward": "",
+        "limitId": 10013,
+        "deprecated": 0
+    },
+    {
+        "id": 23060241,
+        "activityId": 230602,
+        "baseTaskId": 20219,
+        "rewardId": 309075,
+        "rewardCount": 2,
+        "hiddenReward": "",
+        "limitId": 10013,
+        "deprecated": 0
+    },
+    {
+        "id": 23060242,
+        "activityId": 230602,
+        "baseTaskId": 20220,
+        "rewardId": 309075,
+        "rewardCount": 3,
+        "hiddenReward": "",
+        "limitId": 10013,
+        "deprecated": 0
+    },
+    {
+        "id": 23060243,
+        "activityId": 230602,
+        "baseTaskId": 20221,
+        "rewardId": 309075,
+        "rewardCount": 3,
+        "hiddenReward": "",
+        "limitId": 10013,
+        "deprecated": 0
+    },
+    {
+        "id": 23060244,
+        "activityId": 230602,
+        "baseTaskId": 20222,
+        "rewardId": 309075,
+        "rewardCount": 3,
+        "hiddenReward": "",
+        "limitId": 10013,
+        "deprecated": 0
+    },
+    {
+        "id": 23060245,
+        "activityId": 230602,
+        "baseTaskId": 20223,
+        "rewardId": 309075,
+        "rewardCount": 5,
+        "hiddenReward": "",
+        "limitId": 10013,
+        "deprecated": 0
+    },
+    {
+        "id": 23060246,
+        "activityId": 230602,
+        "baseTaskId": 20224,
+        "rewardId": 309075,
+        "rewardCount": 10,
+        "hiddenReward": "",
+        "limitId": 10013,
+        "deprecated": 0
+    },
+    {
+        "id": 23060247,
+        "activityId": 230602,
+        "baseTaskId": 20225,
+        "rewardId": 309075,
+        "rewardCount": 10,
+        "hiddenReward": "",
+        "limitId": 10013,
+        "deprecated": 0
+    },
+    {
+        "id": 23060248,
+        "activityId": 230602,
+        "baseTaskId": 20226,
+        "rewardId": 309075,
+        "rewardCount": 10,
+        "hiddenReward": "",
+        "limitId": 10013,
+        "deprecated": 0
+    },
+    {
+        "id": 23060249,
+        "activityId": 230602,
+        "baseTaskId": 20227,
+        "rewardId": 309075,
+        "rewardCount": 10,
+        "hiddenReward": "",
+        "limitId": 10013,
+        "deprecated": 0
+    },
+    {
+        "id": 23111501,
+        "activityId": 231115,
+        "baseTaskId": 21920,
+        "rewardId": 30900004,
+        "rewardCount": 200,
+        "hiddenReward": "",
+        "limitId": 0,
+        "deprecated": 0
+    },
+    {
+        "id": 23111502,
+        "activityId": 231115,
+        "baseTaskId": 21921,
+        "rewardId": 30900004,
+        "rewardCount": 120,
+        "hiddenReward": "",
+        "limitId": 0,
+        "deprecated": 0
+    },
+    {
+        "id": 23111503,
+        "activityId": 231115,
+        "baseTaskId": 21922,
+        "rewardId": 30900004,
+        "rewardCount": 60,
+        "hiddenReward": "",
+        "limitId": 0,
+        "deprecated": 0
+    },
+    {
+        "id": 23111504,
+        "activityId": 231115,
+        "baseTaskId": 21923,
+        "rewardId": 30900004,
+        "rewardCount": 20,
+        "hiddenReward": "",
+        "limitId": 0,
+        "deprecated": 0
+    },
+    {
+        "id": 23111505,
+        "activityId": 231115,
+        "baseTaskId": 21924,
+        "rewardId": 30900004,
+        "rewardCount": 30,
+        "hiddenReward": "",
+        "limitId": 0,
+        "deprecated": 0
+    },
+    {
+        "id": 23111506,
+        "activityId": 231115,
+        "baseTaskId": 21925,
+        "rewardId": 30900004,
+        "rewardCount": 60,
+        "hiddenReward": "",
+        "limitId": 0,
+        "deprecated": 0
+    },
+    {
+        "id": 23111507,
+        "activityId": 231115,
+        "baseTaskId": 21926,
+        "rewardId": 30900004,
+        "rewardCount": 90,
+        "hiddenReward": "",
+        "limitId": 0,
+        "deprecated": 0
+    },
+    {
+        "id": 23111508,
+        "activityId": 231115,
+        "baseTaskId": 21927,
+        "rewardId": 30900004,
+        "rewardCount": 120,
+        "hiddenReward": "",
+        "limitId": 0,
+        "deprecated": 0
+    },
+    {
+        "id": 23111509,
+        "activityId": 231115,
+        "baseTaskId": 21928,
+        "rewardId": 30900004,
+        "rewardCount": 180,
+        "hiddenReward": "",
+        "limitId": 0,
+        "deprecated": 0
+    },
+    {
+        "id": 23111510,
+        "activityId": 231115,
+        "baseTaskId": 21929,
+        "rewardId": 30900004,
+        "rewardCount": 240,
+        "hiddenReward": "",
+        "limitId": 0,
+        "deprecated": 0
+    },
+    {
+        "id": 23111511,
+        "activityId": 231115,
+        "baseTaskId": 21210,
+        "rewardId": 30900004,
+        "rewardCount": 200,
+        "hiddenReward": "",
+        "limitId": 0,
+        "deprecated": 0
+    },
+    {
+        "id": 23111512,
+        "activityId": 231115,
+        "baseTaskId": 21211,
+        "rewardId": 30900004,
+        "rewardCount": 120,
+        "hiddenReward": "",
+        "limitId": 0,
+        "deprecated": 0
+    },
+    {
+        "id": 23111513,
+        "activityId": 231115,
+        "baseTaskId": 21212,
+        "rewardId": 30900004,
+        "rewardCount": 60,
+        "hiddenReward": "",
+        "limitId": 0,
+        "deprecated": 0
+    },
+    {
+        "id": 23111514,
+        "activityId": 231115,
+        "baseTaskId": 21213,
+        "rewardId": 30900004,
+        "rewardCount": 20,
+        "hiddenReward": "",
+        "limitId": 0,
+        "deprecated": 0
+    },
+    {
+        "id": 23111515,
+        "activityId": 231115,
+        "baseTaskId": 21214,
+        "rewardId": 30900004,
+        "rewardCount": 30,
+        "hiddenReward": "",
+        "limitId": 0,
+        "deprecated": 0
+    },
+    {
+        "id": 23111516,
+        "activityId": 231115,
+        "baseTaskId": 21215,
+        "rewardId": 30900004,
+        "rewardCount": 60,
+        "hiddenReward": "",
+        "limitId": 0,
+        "deprecated": 0
+    },
+    {
+        "id": 23111517,
+        "activityId": 231115,
+        "baseTaskId": 21216,
+        "rewardId": 30900004,
+        "rewardCount": 90,
+        "hiddenReward": "",
+        "limitId": 0,
+        "deprecated": 0
+    },
+    {
+        "id": 23111518,
+        "activityId": 231115,
+        "baseTaskId": 21217,
+        "rewardId": 30900004,
+        "rewardCount": 120,
+        "hiddenReward": "",
+        "limitId": 0,
+        "deprecated": 0
+    },
+    {
+        "id": 23111519,
+        "activityId": 231115,
+        "baseTaskId": 21218,
+        "rewardId": 30900004,
+        "rewardCount": 180,
+        "hiddenReward": "",
+        "limitId": 0,
+        "deprecated": 0
+    },
+    {
+        "id": 23111520,
+        "activityId": 231115,
+        "baseTaskId": 21219,
+        "rewardId": 30900004,
+        "rewardCount": 240,
+        "hiddenReward": "",
+        "limitId": 0,
+        "deprecated": 0
+    },
+    {
+        "id": 23111521,
+        "activityId": 231115,
+        "baseTaskId": 21220,
+        "rewardId": 30900004,
+        "rewardCount": 120,
+        "hiddenReward": "",
+        "limitId": 0,
+        "deprecated": 0
+    },
+    {
+        "id": 23111522,
+        "activityId": 231115,
+        "baseTaskId": 21221,
+        "rewardId": 30900004,
+        "rewardCount": 60,
+        "hiddenReward": "",
+        "limitId": 0,
+        "deprecated": 0
+    },
+    {
+        "id": 23111523,
+        "activityId": 231115,
+        "baseTaskId": 21222,
+        "rewardId": 30900004,
+        "rewardCount": 20,
+        "hiddenReward": "",
+        "limitId": 0,
+        "deprecated": 0
+    },
+    {
+        "id": 23120201,
+        "activityId": 231202,
+        "baseTaskId": 22009,
+        "rewardId": 30900005,
+        "rewardCount": 30,
+        "hiddenReward": "",
+        "limitId": 0,
+        "deprecated": 0
+    },
+    {
+        "id": 23120202,
+        "activityId": 231202,
+        "baseTaskId": 22010,
+        "rewardId": 30900005,
+        "rewardCount": 60,
+        "hiddenReward": "",
+        "limitId": 0,
+        "deprecated": 0
+    },
+    {
+        "id": 23120203,
+        "activityId": 231202,
+        "baseTaskId": 22011,
+        "rewardId": 30900005,
+        "rewardCount": 90,
+        "hiddenReward": "",
+        "limitId": 0,
+        "deprecated": 0
+    },
+    {
+        "id": 23120204,
+        "activityId": 231202,
+        "baseTaskId": 22012,
+        "rewardId": 30900005,
+        "rewardCount": 120,
+        "hiddenReward": "",
+        "limitId": 0,
+        "deprecated": 0
+    },
+    {
+        "id": 23120205,
+        "activityId": 231202,
+        "baseTaskId": 22013,
+        "rewardId": 30900005,
+        "rewardCount": 180,
+        "hiddenReward": "",
+        "limitId": 0,
+        "deprecated": 0
+    },
+    {
+        "id": 23120206,
+        "activityId": 231202,
+        "baseTaskId": 22014,
+        "rewardId": 30900005,
+        "rewardCount": 240,
+        "hiddenReward": "",
+        "limitId": 0,
+        "deprecated": 0
+    },
+    {
+        "id": 24010401,
+        "activityId": 240104,
+        "baseTaskId": 22150,
+        "rewardId": 30900007,
+        "rewardCount": 10,
+        "hiddenReward": "",
+        "limitId": 10014,
+        "deprecated": 0
+    },
+    {
+        "id": 24040501,
+        "activityId": 240405,
+        "baseTaskId": 22150,
+        "rewardId": 30900021,
+        "rewardCount": 10,
+        "hiddenReward": "",
+        "limitId": 0,
+        "deprecated": 0
+    },
+    {
+        "id": 24050101,
+        "activityId": 240501,
+        "baseTaskId": 20179,
+        "rewardId": 30900025,
+        "rewardCount": 2,
+        "hiddenReward": "",
+        "limitId": 10015,
+        "deprecated": 0
+    },
+    {
+        "id": 24050102,
+        "activityId": 240501,
+        "baseTaskId": 20180,
+        "rewardId": 30900025,
+        "rewardCount": 2,
+        "hiddenReward": "",
+        "limitId": 10015,
+        "deprecated": 0
+    },
+    {
+        "id": 24050103,
+        "activityId": 240501,
+        "baseTaskId": 20181,
+        "rewardId": 30900025,
+        "rewardCount": 2,
+        "hiddenReward": "",
+        "limitId": 10015,
+        "deprecated": 0
+    },
+    {
+        "id": 24050104,
+        "activityId": 240501,
+        "baseTaskId": 20194,
+        "rewardId": 30900025,
+        "rewardCount": 2,
+        "hiddenReward": "",
+        "limitId": 10015,
+        "deprecated": 0
+    },
+    {
+        "id": 24050105,
+        "activityId": 240501,
+        "baseTaskId": 20182,
+        "rewardId": 30900025,
+        "rewardCount": 3,
+        "hiddenReward": "",
+        "limitId": 10015,
+        "deprecated": 0
+    },
+    {
+        "id": 24050106,
+        "activityId": 240501,
+        "baseTaskId": 20183,
+        "rewardId": 30900025,
+        "rewardCount": 3,
+        "hiddenReward": "",
+        "limitId": 10015,
+        "deprecated": 0
+    },
+    {
+        "id": 24050107,
+        "activityId": 240501,
+        "baseTaskId": 20184,
+        "rewardId": 30900025,
+        "rewardCount": 5,
+        "hiddenReward": "",
+        "limitId": 10015,
+        "deprecated": 0
+    },
+    {
+        "id": 24050108,
+        "activityId": 240501,
+        "baseTaskId": 20185,
+        "rewardId": 30900025,
+        "rewardCount": 5,
+        "hiddenReward": "",
+        "limitId": 10015,
+        "deprecated": 0
+    },
+    {
+        "id": 24050109,
+        "activityId": 240501,
+        "baseTaskId": 20186,
+        "rewardId": 30900025,
+        "rewardCount": 10,
+        "hiddenReward": "",
+        "limitId": 10015,
+        "deprecated": 0
+    },
+    {
+        "id": 24050110,
+        "activityId": 240501,
+        "baseTaskId": 20187,
+        "rewardId": 30900025,
+        "rewardCount": 10,
+        "hiddenReward": "",
+        "limitId": 10015,
+        "deprecated": 0
+    },
+    {
+        "id": 24050111,
+        "activityId": 240501,
+        "baseTaskId": 20188,
+        "rewardId": 30900025,
+        "rewardCount": 10,
+        "hiddenReward": "",
+        "limitId": 10015,
+        "deprecated": 0
+    },
+    {
+        "id": 24050112,
+        "activityId": 240501,
+        "baseTaskId": 20189,
+        "rewardId": 30900025,
+        "rewardCount": 10,
+        "hiddenReward": "",
+        "limitId": 10015,
+        "deprecated": 0
+    },
+    {
+        "id": 24050113,
+        "activityId": 240501,
+        "baseTaskId": 20190,
+        "rewardId": 30900025,
+        "rewardCount": 10,
+        "hiddenReward": "",
+        "limitId": 10015,
+        "deprecated": 0
+    },
+    {
+        "id": 24050114,
+        "activityId": 240501,
+        "baseTaskId": 20191,
+        "rewardId": 30900025,
+        "rewardCount": 10,
+        "hiddenReward": "",
+        "limitId": 10015,
+        "deprecated": 0
+    },
+    {
+        "id": 24050115,
+        "activityId": 240501,
+        "baseTaskId": 20192,
+        "rewardId": 30900025,
+        "rewardCount": 10,
+        "hiddenReward": "",
+        "limitId": 10015,
+        "deprecated": 0
+    },
+    {
+        "id": 24050116,
+        "activityId": 240501,
+        "baseTaskId": 20193,
+        "rewardId": 30900025,
+        "rewardCount": 10,
+        "hiddenReward": "",
+        "limitId": 10015,
+        "deprecated": 0
+    },
+    {
+        "id": 24050117,
+        "activityId": 240501,
+        "baseTaskId": 20195,
+        "rewardId": 30900026,
+        "rewardCount": 2,
+        "hiddenReward": "",
+        "limitId": 10015,
+        "deprecated": 0
+    },
+    {
+        "id": 24050118,
+        "activityId": 240501,
+        "baseTaskId": 20196,
+        "rewardId": 30900026,
+        "rewardCount": 2,
+        "hiddenReward": "",
+        "limitId": 10015,
+        "deprecated": 0
+    },
+    {
+        "id": 24050119,
+        "activityId": 240501,
+        "baseTaskId": 20197,
+        "rewardId": 30900026,
+        "rewardCount": 2,
+        "hiddenReward": "",
+        "limitId": 10015,
+        "deprecated": 0
+    },
+    {
+        "id": 24050120,
+        "activityId": 240501,
+        "baseTaskId": 20198,
+        "rewardId": 30900026,
+        "rewardCount": 2,
+        "hiddenReward": "",
+        "limitId": 10015,
+        "deprecated": 0
+    },
+    {
+        "id": 24050121,
+        "activityId": 240501,
+        "baseTaskId": 20199,
+        "rewardId": 30900026,
+        "rewardCount": 2,
+        "hiddenReward": "",
+        "limitId": 10015,
+        "deprecated": 0
+    },
+    {
+        "id": 24050122,
+        "activityId": 240501,
+        "baseTaskId": 20200,
+        "rewardId": 30900026,
+        "rewardCount": 3,
+        "hiddenReward": "",
+        "limitId": 10015,
+        "deprecated": 0
+    },
+    {
+        "id": 24050123,
+        "activityId": 240501,
+        "baseTaskId": 20201,
+        "rewardId": 30900026,
+        "rewardCount": 3,
+        "hiddenReward": "",
+        "limitId": 10015,
+        "deprecated": 0
+    },
+    {
+        "id": 24050124,
+        "activityId": 240501,
+        "baseTaskId": 20202,
+        "rewardId": 30900026,
+        "rewardCount": 3,
+        "hiddenReward": "",
+        "limitId": 10015,
+        "deprecated": 0
+    },
+    {
+        "id": 24050125,
+        "activityId": 240501,
+        "baseTaskId": 20203,
+        "rewardId": 30900026,
+        "rewardCount": 3,
+        "hiddenReward": "",
+        "limitId": 10015,
+        "deprecated": 0
+    },
+    {
+        "id": 24050126,
+        "activityId": 240501,
+        "baseTaskId": 20204,
+        "rewardId": 30900026,
+        "rewardCount": 3,
+        "hiddenReward": "",
+        "limitId": 10015,
+        "deprecated": 0
+    },
+    {
+        "id": 24050127,
+        "activityId": 240501,
+        "baseTaskId": 20205,
+        "rewardId": 30900026,
+        "rewardCount": 3,
+        "hiddenReward": "",
+        "limitId": 10015,
+        "deprecated": 0
+    },
+    {
+        "id": 24050128,
+        "activityId": 240501,
+        "baseTaskId": 20206,
+        "rewardId": 30900026,
+        "rewardCount": 3,
+        "hiddenReward": "",
+        "limitId": 10015,
+        "deprecated": 0
+    },
+    {
+        "id": 24050129,
+        "activityId": 240501,
+        "baseTaskId": 20207,
+        "rewardId": 30900026,
+        "rewardCount": 5,
+        "hiddenReward": "",
+        "limitId": 10015,
+        "deprecated": 0
+    },
+    {
+        "id": 24050130,
+        "activityId": 240501,
+        "baseTaskId": 20208,
+        "rewardId": 30900026,
+        "rewardCount": 5,
+        "hiddenReward": "",
+        "limitId": 10015,
+        "deprecated": 0
+    },
+    {
+        "id": 24050131,
+        "activityId": 240501,
+        "baseTaskId": 20209,
+        "rewardId": 30900026,
+        "rewardCount": 5,
+        "hiddenReward": "",
+        "limitId": 10015,
+        "deprecated": 0
+    },
+    {
+        "id": 24050132,
+        "activityId": 240501,
+        "baseTaskId": 20210,
+        "rewardId": 30900026,
+        "rewardCount": 5,
+        "hiddenReward": "",
+        "limitId": 10015,
+        "deprecated": 0
+    },
+    {
+        "id": 24050133,
+        "activityId": 240501,
+        "baseTaskId": 20211,
+        "rewardId": 30900026,
+        "rewardCount": 5,
+        "hiddenReward": "",
+        "limitId": 10015,
+        "deprecated": 0
+    },
+    {
+        "id": 24050134,
+        "activityId": 240501,
+        "baseTaskId": 20212,
+        "rewardId": 30900026,
+        "rewardCount": 10,
+        "hiddenReward": "",
+        "limitId": 10015,
+        "deprecated": 0
+    },
+    {
+        "id": 24050135,
+        "activityId": 240501,
+        "baseTaskId": 20213,
+        "rewardId": 30900026,
+        "rewardCount": 10,
+        "hiddenReward": "",
+        "limitId": 10015,
+        "deprecated": 0
+    },
+    {
+        "id": 24050136,
+        "activityId": 240501,
+        "baseTaskId": 20214,
+        "rewardId": 30900026,
+        "rewardCount": 10,
+        "hiddenReward": "",
+        "limitId": 10015,
+        "deprecated": 0
+    },
+    {
+        "id": 24050137,
+        "activityId": 240501,
+        "baseTaskId": 20215,
+        "rewardId": 30900027,
+        "rewardCount": 2,
+        "hiddenReward": "",
+        "limitId": 10015,
+        "deprecated": 0
+    },
+    {
+        "id": 24050138,
+        "activityId": 240501,
+        "baseTaskId": 20216,
+        "rewardId": 30900027,
+        "rewardCount": 2,
+        "hiddenReward": "",
+        "limitId": 10015,
+        "deprecated": 0
+    },
+    {
+        "id": 24050139,
+        "activityId": 240501,
+        "baseTaskId": 20217,
+        "rewardId": 30900027,
+        "rewardCount": 2,
+        "hiddenReward": "",
+        "limitId": 10015,
+        "deprecated": 0
+    },
+    {
+        "id": 24050140,
+        "activityId": 240501,
+        "baseTaskId": 20218,
+        "rewardId": 30900027,
+        "rewardCount": 2,
+        "hiddenReward": "",
+        "limitId": 10015,
+        "deprecated": 0
+    },
+    {
+        "id": 24050141,
+        "activityId": 240501,
+        "baseTaskId": 20219,
+        "rewardId": 30900027,
+        "rewardCount": 2,
+        "hiddenReward": "",
+        "limitId": 10015,
+        "deprecated": 0
+    },
+    {
+        "id": 24050142,
+        "activityId": 240501,
+        "baseTaskId": 20220,
+        "rewardId": 30900027,
+        "rewardCount": 3,
+        "hiddenReward": "",
+        "limitId": 10015,
+        "deprecated": 0
+    },
+    {
+        "id": 24050143,
+        "activityId": 240501,
+        "baseTaskId": 20221,
+        "rewardId": 30900027,
+        "rewardCount": 3,
+        "hiddenReward": "",
+        "limitId": 10015,
+        "deprecated": 0
+    },
+    {
+        "id": 24050144,
+        "activityId": 240501,
+        "baseTaskId": 20222,
+        "rewardId": 30900027,
+        "rewardCount": 3,
+        "hiddenReward": "",
+        "limitId": 10015,
+        "deprecated": 0
+    },
+    {
+        "id": 24050145,
+        "activityId": 240501,
+        "baseTaskId": 20223,
+        "rewardId": 30900027,
+        "rewardCount": 5,
+        "hiddenReward": "",
+        "limitId": 10015,
+        "deprecated": 0
+    },
+    {
+        "id": 24050146,
+        "activityId": 240501,
+        "baseTaskId": 20224,
+        "rewardId": 30900027,
+        "rewardCount": 10,
+        "hiddenReward": "",
+        "limitId": 10015,
+        "deprecated": 0
+    },
+    {
+        "id": 24050147,
+        "activityId": 240501,
+        "baseTaskId": 20225,
+        "rewardId": 30900027,
+        "rewardCount": 10,
+        "hiddenReward": "",
+        "limitId": 10015,
+        "deprecated": 0
+    },
+    {
+        "id": 24050148,
+        "activityId": 240501,
+        "baseTaskId": 20226,
+        "rewardId": 30900027,
+        "rewardCount": 10,
+        "hiddenReward": "",
+        "limitId": 10015,
+        "deprecated": 0
+    },
+    {
+        "id": 24050149,
+        "activityId": 240501,
+        "baseTaskId": 20227,
+        "rewardId": 30900027,
+        "rewardCount": 10,
+        "hiddenReward": "",
+        "limitId": 10015,
+        "deprecated": 0
+    },
+    {
+        "id": 24110601,
+        "activityId": 241106,
+        "baseTaskId": 22504,
+        "rewardId": 30900079,
+        "rewardCount": 16000,
+        "hiddenReward": "",
+        "limitId": 0,
+        "deprecated": 0
+    },
+    {
+        "id": 24110602,
+        "activityId": 241106,
+        "baseTaskId": 22505,
+        "rewardId": 30900079,
+        "rewardCount": 9600,
+        "hiddenReward": "",
+        "limitId": 0,
+        "deprecated": 0
+    },
+    {
+        "id": 24110603,
+        "activityId": 241106,
+        "baseTaskId": 22506,
+        "rewardId": 30900079,
+        "rewardCount": 4800,
+        "hiddenReward": "",
+        "limitId": 0,
+        "deprecated": 0
+    },
+    {
+        "id": 24110604,
+        "activityId": 241106,
+        "baseTaskId": 22507,
+        "rewardId": 30900079,
+        "rewardCount": 1600,
+        "hiddenReward": "",
+        "limitId": 0,
+        "deprecated": 0
+    },
+    {
+        "id": 24110605,
+        "activityId": 241106,
+        "baseTaskId": 22508,
+        "rewardId": 30900079,
+        "rewardCount": 2500,
+        "hiddenReward": "",
+        "limitId": 0,
+        "deprecated": 0
+    },
+    {
+        "id": 24110606,
+        "activityId": 241106,
+        "baseTaskId": 22509,
+        "rewardId": 30900079,
+        "rewardCount": 5000,
+        "hiddenReward": "",
+        "limitId": 0,
+        "deprecated": 0
+    },
+    {
+        "id": 24110607,
+        "activityId": 241106,
+        "baseTaskId": 22510,
+        "rewardId": 30900079,
+        "rewardCount": 7000,
+        "hiddenReward": "",
+        "limitId": 0,
+        "deprecated": 0
+    },
+    {
+        "id": 24110608,
+        "activityId": 241106,
+        "baseTaskId": 22511,
+        "rewardId": 30900079,
+        "rewardCount": 10000,
+        "hiddenReward": "",
+        "limitId": 0,
+        "deprecated": 0
+    },
+    {
+        "id": 24110609,
+        "activityId": 241106,
+        "baseTaskId": 22512,
+        "rewardId": 30900079,
+        "rewardCount": 15000,
+        "hiddenReward": "",
+        "limitId": 0,
+        "deprecated": 0
+    },
+    {
+        "id": 24110610,
+        "activityId": 241106,
+        "baseTaskId": 22513,
+        "rewardId": 30900079,
+        "rewardCount": 20000,
+        "hiddenReward": "",
+        "limitId": 0,
+        "deprecated": 0
+    },
+    {
+        "id": 24110611,
+        "activityId": 241106,
+        "baseTaskId": 22585,
+        "rewardId": 30900079,
+        "rewardCount": 9600,
+        "hiddenReward": "",
+        "limitId": 0,
+        "deprecated": 0
+    },
+    {
+        "id": 24110612,
+        "activityId": 241106,
+        "baseTaskId": 22586,
+        "rewardId": 30900079,
+        "rewardCount": 4800,
+        "hiddenReward": "",
+        "limitId": 0,
+        "deprecated": 0
+    },
+    {
+        "id": 24110613,
+        "activityId": 241106,
+        "baseTaskId": 22587,
+        "rewardId": 30900079,
+        "rewardCount": 1600,
+        "hiddenReward": "",
+        "limitId": 0,
+        "deprecated": 0
+    },
+    {
+        "id": 25030101,
+        "activityId": 250301,
+        "baseTaskId": 20179,
+        "rewardId": 30900086,
+        "rewardCount": 3,
+        "hiddenReward": "",
+        "limitId": 10016,
+        "deprecated": 0
+    },
+    {
+        "id": 25030102,
+        "activityId": 250301,
+        "baseTaskId": 20180,
+        "rewardId": 30900086,
+        "rewardCount": 3,
+        "hiddenReward": "",
+        "limitId": 10016,
+        "deprecated": 0
+    },
+    {
+        "id": 25030103,
+        "activityId": 250301,
+        "baseTaskId": 20181,
+        "rewardId": 30900086,
+        "rewardCount": 3,
+        "hiddenReward": "",
+        "limitId": 10016,
+        "deprecated": 0
+    },
+    {
+        "id": 25030104,
+        "activityId": 250301,
+        "baseTaskId": 20194,
+        "rewardId": 30900086,
+        "rewardCount": 3,
+        "hiddenReward": "",
+        "limitId": 10016,
+        "deprecated": 0
+    },
+    {
+        "id": 25030105,
+        "activityId": 250301,
+        "baseTaskId": 20182,
+        "rewardId": 30900086,
+        "rewardCount": 5,
+        "hiddenReward": "",
+        "limitId": 10016,
+        "deprecated": 0
+    },
+    {
+        "id": 25030106,
+        "activityId": 250301,
+        "baseTaskId": 20183,
+        "rewardId": 30900086,
+        "rewardCount": 5,
+        "hiddenReward": "",
+        "limitId": 10016,
+        "deprecated": 0
+    },
+    {
+        "id": 25030107,
+        "activityId": 250301,
+        "baseTaskId": 20184,
+        "rewardId": 30900086,
+        "rewardCount": 7,
+        "hiddenReward": "",
+        "limitId": 10016,
+        "deprecated": 0
+    },
+    {
+        "id": 25030108,
+        "activityId": 250301,
+        "baseTaskId": 20185,
+        "rewardId": 30900086,
+        "rewardCount": 7,
+        "hiddenReward": "",
+        "limitId": 10016,
+        "deprecated": 0
+    },
+    {
+        "id": 25030109,
+        "activityId": 250301,
+        "baseTaskId": 20186,
+        "rewardId": 30900086,
+        "rewardCount": 10,
+        "hiddenReward": "",
+        "limitId": 10016,
+        "deprecated": 0
+    },
+    {
+        "id": 25030110,
+        "activityId": 250301,
+        "baseTaskId": 20187,
+        "rewardId": 30900086,
+        "rewardCount": 10,
+        "hiddenReward": "",
+        "limitId": 10016,
+        "deprecated": 0
+    },
+    {
+        "id": 25030111,
+        "activityId": 250301,
+        "baseTaskId": 20188,
+        "rewardId": 30900086,
+        "rewardCount": 10,
+        "hiddenReward": "",
+        "limitId": 10016,
+        "deprecated": 0
+    },
+    {
+        "id": 25030112,
+        "activityId": 250301,
+        "baseTaskId": 20189,
+        "rewardId": 30900086,
+        "rewardCount": 10,
+        "hiddenReward": "",
+        "limitId": 10016,
+        "deprecated": 0
+    },
+    {
+        "id": 25030113,
+        "activityId": 250301,
+        "baseTaskId": 20190,
+        "rewardId": 30900086,
+        "rewardCount": 10,
+        "hiddenReward": "",
+        "limitId": 10016,
+        "deprecated": 0
+    },
+    {
+        "id": 25030114,
+        "activityId": 250301,
+        "baseTaskId": 20191,
+        "rewardId": 30900086,
+        "rewardCount": 10,
+        "hiddenReward": "",
+        "limitId": 10016,
+        "deprecated": 0
+    },
+    {
+        "id": 25030115,
+        "activityId": 250301,
+        "baseTaskId": 20192,
+        "rewardId": 30900086,
+        "rewardCount": 10,
+        "hiddenReward": "",
+        "limitId": 10016,
+        "deprecated": 0
+    },
+    {
+        "id": 25030116,
+        "activityId": 250301,
+        "baseTaskId": 20193,
+        "rewardId": 30900086,
+        "rewardCount": 10,
+        "hiddenReward": "",
+        "limitId": 10016,
+        "deprecated": 0
+    },
+    {
+        "id": 25030117,
+        "activityId": 250301,
+        "baseTaskId": 20195,
+        "rewardId": 30900087,
+        "rewardCount": 3,
+        "hiddenReward": "",
+        "limitId": 10016,
+        "deprecated": 0
+    },
+    {
+        "id": 25030118,
+        "activityId": 250301,
+        "baseTaskId": 20196,
+        "rewardId": 30900087,
+        "rewardCount": 3,
+        "hiddenReward": "",
+        "limitId": 10016,
+        "deprecated": 0
+    },
+    {
+        "id": 25030119,
+        "activityId": 250301,
+        "baseTaskId": 20197,
+        "rewardId": 30900087,
+        "rewardCount": 3,
+        "hiddenReward": "",
+        "limitId": 10016,
+        "deprecated": 0
+    },
+    {
+        "id": 25030120,
+        "activityId": 250301,
+        "baseTaskId": 20198,
+        "rewardId": 30900087,
+        "rewardCount": 3,
+        "hiddenReward": "",
+        "limitId": 10016,
+        "deprecated": 0
+    },
+    {
+        "id": 25030121,
+        "activityId": 250301,
+        "baseTaskId": 20199,
+        "rewardId": 30900087,
+        "rewardCount": 3,
+        "hiddenReward": "",
+        "limitId": 10016,
+        "deprecated": 0
+    },
+    {
+        "id": 25030122,
+        "activityId": 250301,
+        "baseTaskId": 20200,
+        "rewardId": 30900087,
+        "rewardCount": 5,
+        "hiddenReward": "",
+        "limitId": 10016,
+        "deprecated": 0
+    },
+    {
+        "id": 25030123,
+        "activityId": 250301,
+        "baseTaskId": 20201,
+        "rewardId": 30900087,
+        "rewardCount": 5,
+        "hiddenReward": "",
+        "limitId": 10016,
+        "deprecated": 0
+    },
+    {
+        "id": 25030124,
+        "activityId": 250301,
+        "baseTaskId": 20202,
+        "rewardId": 30900087,
+        "rewardCount": 5,
+        "hiddenReward": "",
+        "limitId": 10016,
+        "deprecated": 0
+    },
+    {
+        "id": 25030125,
+        "activityId": 250301,
+        "baseTaskId": 20203,
+        "rewardId": 30900087,
+        "rewardCount": 5,
+        "hiddenReward": "",
+        "limitId": 10016,
+        "deprecated": 0
+    },
+    {
+        "id": 25030126,
+        "activityId": 250301,
+        "baseTaskId": 20204,
+        "rewardId": 30900087,
+        "rewardCount": 5,
+        "hiddenReward": "",
+        "limitId": 10016,
+        "deprecated": 0
+    },
+    {
+        "id": 25030127,
+        "activityId": 250301,
+        "baseTaskId": 20205,
+        "rewardId": 30900087,
+        "rewardCount": 5,
+        "hiddenReward": "",
+        "limitId": 10016,
+        "deprecated": 0
+    },
+    {
+        "id": 25030128,
+        "activityId": 250301,
+        "baseTaskId": 20206,
+        "rewardId": 30900087,
+        "rewardCount": 5,
+        "hiddenReward": "",
+        "limitId": 10016,
+        "deprecated": 0
+    },
+    {
+        "id": 25030129,
+        "activityId": 250301,
+        "baseTaskId": 20207,
+        "rewardId": 30900087,
+        "rewardCount": 7,
+        "hiddenReward": "",
+        "limitId": 10016,
+        "deprecated": 0
+    },
+    {
+        "id": 25030130,
+        "activityId": 250301,
+        "baseTaskId": 20208,
+        "rewardId": 30900087,
+        "rewardCount": 7,
+        "hiddenReward": "",
+        "limitId": 10016,
+        "deprecated": 0
+    },
+    {
+        "id": 25030131,
+        "activityId": 250301,
+        "baseTaskId": 20209,
+        "rewardId": 30900087,
+        "rewardCount": 7,
+        "hiddenReward": "",
+        "limitId": 10016,
+        "deprecated": 0
+    },
+    {
+        "id": 25030132,
+        "activityId": 250301,
+        "baseTaskId": 20210,
+        "rewardId": 30900087,
+        "rewardCount": 7,
+        "hiddenReward": "",
+        "limitId": 10016,
+        "deprecated": 0
+    },
+    {
+        "id": 25030133,
+        "activityId": 250301,
+        "baseTaskId": 20211,
+        "rewardId": 30900087,
+        "rewardCount": 7,
+        "hiddenReward": "",
+        "limitId": 10016,
+        "deprecated": 0
+    },
+    {
+        "id": 25030134,
+        "activityId": 250301,
+        "baseTaskId": 20212,
+        "rewardId": 30900087,
+        "rewardCount": 10,
+        "hiddenReward": "",
+        "limitId": 10016,
+        "deprecated": 0
+    },
+    {
+        "id": 25030135,
+        "activityId": 250301,
+        "baseTaskId": 20213,
+        "rewardId": 30900087,
+        "rewardCount": 10,
+        "hiddenReward": "",
+        "limitId": 10016,
+        "deprecated": 0
+    },
+    {
+        "id": 25030136,
+        "activityId": 250301,
+        "baseTaskId": 20214,
+        "rewardId": 30900087,
+        "rewardCount": 10,
+        "hiddenReward": "",
+        "limitId": 10016,
+        "deprecated": 0
+    },
+    {
+        "id": 25030137,
+        "activityId": 250301,
+        "baseTaskId": 20215,
+        "rewardId": 30900088,
+        "rewardCount": 3,
+        "hiddenReward": "",
+        "limitId": 10016,
+        "deprecated": 0
+    },
+    {
+        "id": 25030138,
+        "activityId": 250301,
+        "baseTaskId": 20216,
+        "rewardId": 30900088,
+        "rewardCount": 3,
+        "hiddenReward": "",
+        "limitId": 10016,
+        "deprecated": 0
+    },
+    {
+        "id": 25030139,
+        "activityId": 250301,
+        "baseTaskId": 20217,
+        "rewardId": 30900088,
+        "rewardCount": 3,
+        "hiddenReward": "",
+        "limitId": 10016,
+        "deprecated": 0
+    },
+    {
+        "id": 25030140,
+        "activityId": 250301,
+        "baseTaskId": 20218,
+        "rewardId": 30900088,
+        "rewardCount": 3,
+        "hiddenReward": "",
+        "limitId": 10016,
+        "deprecated": 0
+    },
+    {
+        "id": 25030141,
+        "activityId": 250301,
+        "baseTaskId": 20219,
+        "rewardId": 30900088,
+        "rewardCount": 3,
+        "hiddenReward": "",
+        "limitId": 10016,
+        "deprecated": 0
+    },
+    {
+        "id": 25030142,
+        "activityId": 250301,
+        "baseTaskId": 20220,
+        "rewardId": 30900088,
+        "rewardCount": 5,
+        "hiddenReward": "",
+        "limitId": 10016,
+        "deprecated": 0
+    },
+    {
+        "id": 25030143,
+        "activityId": 250301,
+        "baseTaskId": 20221,
+        "rewardId": 30900088,
+        "rewardCount": 5,
+        "hiddenReward": "",
+        "limitId": 10016,
+        "deprecated": 0
+    },
+    {
+        "id": 25030144,
+        "activityId": 250301,
+        "baseTaskId": 20222,
+        "rewardId": 30900088,
+        "rewardCount": 5,
+        "hiddenReward": "",
+        "limitId": 10016,
+        "deprecated": 0
+    },
+    {
+        "id": 25030145,
+        "activityId": 250301,
+        "baseTaskId": 20223,
+        "rewardId": 30900088,
+        "rewardCount": 7,
+        "hiddenReward": "",
+        "limitId": 10016,
+        "deprecated": 0
+    },
+    {
+        "id": 25030146,
+        "activityId": 250301,
+        "baseTaskId": 20224,
+        "rewardId": 30900088,
+        "rewardCount": 10,
+        "hiddenReward": "",
+        "limitId": 10016,
+        "deprecated": 0
+    },
+    {
+        "id": 25030147,
+        "activityId": 250301,
+        "baseTaskId": 20225,
+        "rewardId": 30900088,
+        "rewardCount": 10,
+        "hiddenReward": "",
+        "limitId": 10016,
+        "deprecated": 0
+    },
+    {
+        "id": 25030148,
+        "activityId": 250301,
+        "baseTaskId": 20226,
+        "rewardId": 30900088,
+        "rewardCount": 10,
+        "hiddenReward": "",
+        "limitId": 10016,
+        "deprecated": 0
+    },
+    {
+        "id": 25030149,
+        "activityId": 250301,
+        "baseTaskId": 20227,
+        "rewardId": 30900088,
+        "rewardCount": 10,
+        "hiddenReward": "",
+        "limitId": 10016,
+        "deprecated": 0
+    },
+    {
+        "id": 25060201,
+        "activityId": 250602,
+        "baseTaskId": 22799,
+        "rewardId": 30900090,
+        "rewardCount": 30,
+        "hiddenReward": "",
+        "limitId": 0,
+        "deprecated": 0
+    },
+    {
+        "id": 25060202,
+        "activityId": 250602,
+        "baseTaskId": 22800,
+        "rewardId": 30900090,
+        "rewardCount": 60,
+        "hiddenReward": "",
+        "limitId": 0,
+        "deprecated": 0
+    },
+    {
+        "id": 25060203,
+        "activityId": 250602,
+        "baseTaskId": 22801,
+        "rewardId": 30900090,
+        "rewardCount": 90,
+        "hiddenReward": "",
+        "limitId": 0,
+        "deprecated": 0
+    },
+    {
+        "id": 25060204,
+        "activityId": 250602,
+        "baseTaskId": 22802,
+        "rewardId": 30900090,
+        "rewardCount": 120,
+        "hiddenReward": "",
+        "limitId": 0,
+        "deprecated": 0
+    },
+    {
+        "id": 25060205,
+        "activityId": 250602,
+        "baseTaskId": 22803,
+        "rewardId": 30900090,
+        "rewardCount": 180,
+        "hiddenReward": "",
+        "limitId": 0,
+        "deprecated": 0
+    },
+    {
+        "id": 25060206,
+        "activityId": 250602,
+        "baseTaskId": 22804,
+        "rewardId": 30900090,
+        "rewardCount": 240,
+        "hiddenReward": "",
+        "limitId": 0,
+        "deprecated": 0
+    },
+    {
+        "id": 25100601,
+        "activityId": 251006,
+        "baseTaskId": 23061,
+        "rewardId": 30900095,
+        "rewardCount": 8,
+        "hiddenReward": "",
+        "limitId": 0,
+        "deprecated": 0
+    },
+    {
+        "id": 25100602,
+        "activityId": 251006,
+        "baseTaskId": 23062,
+        "rewardId": 30900095,
+        "rewardCount": 6,
+        "hiddenReward": "",
+        "limitId": 0,
+        "deprecated": 0
+    },
+    {
+        "id": 25100603,
+        "activityId": 251006,
+        "baseTaskId": 23063,
+        "rewardId": 30900095,
+        "rewardCount": 4,
+        "hiddenReward": "",
+        "limitId": 0,
+        "deprecated": 0
+    },
+    {
+        "id": 25100604,
+        "activityId": 251006,
+        "baseTaskId": 23064,
+        "rewardId": 30900095,
+        "rewardCount": 2,
+        "hiddenReward": "",
+        "limitId": 0,
+        "deprecated": 0
+    },
+    {
+        "id": 25100605,
+        "activityId": 251006,
+        "baseTaskId": 23065,
+        "rewardId": 30900095,
+        "rewardCount": 6,
+        "hiddenReward": "",
+        "limitId": 0,
+        "deprecated": 0
+    },
+    {
+        "id": 25100606,
+        "activityId": 251006,
+        "baseTaskId": 23066,
+        "rewardId": 30900095,
+        "rewardCount": 4,
+        "hiddenReward": "",
+        "limitId": 0,
+        "deprecated": 0
+    },
+    {
+        "id": 25100607,
+        "activityId": 251006,
+        "baseTaskId": 23067,
+        "rewardId": 30900095,
+        "rewardCount": 2,
+        "hiddenReward": "",
+        "limitId": 0,
+        "deprecated": 0
+    },
+    {
+        "id": 25100608,
+        "activityId": 251006,
+        "baseTaskId": 23068,
+        "rewardId": 30900095,
+        "rewardCount": 2,
+        "hiddenReward": "",
+        "limitId": 0,
+        "deprecated": 0
+    },
+    {
+        "id": 25100609,
+        "activityId": 251006,
+        "baseTaskId": 23069,
+        "rewardId": 30900095,
+        "rewardCount": 3,
+        "hiddenReward": "",
+        "limitId": 0,
+        "deprecated": 0
+    },
+    {
+        "id": 25100610,
+        "activityId": 251006,
+        "baseTaskId": 23070,
+        "rewardId": 30900095,
+        "rewardCount": 4,
+        "hiddenReward": "",
+        "limitId": 0,
+        "deprecated": 0
+    }
+]

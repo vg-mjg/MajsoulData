@@ -1,0 +1,90 @@
+[
+    {
+        "binId": 23120101,
+        "craftId": 1001
+    },
+    {
+        "binId": 23120101,
+        "craftId": 1002
+    },
+    {
+        "binId": 23120101,
+        "craftId": 2001
+    },
+    {
+        "binId": 23120101,
+        "craftId": 2002
+    },
+    {
+        "binId": 23120102,
+        "craftId": 3001
+    },
+    {
+        "binId": 23120102,
+        "craftId": 3002
+    },
+    {
+        "binId": 23120102,
+        "craftId": 4001
+    },
+    {
+        "binId": 23120102,
+        "craftId": 4002
+    },
+    {
+        "binId": 23120103,
+        "craftId": 5001
+    },
+    {
+        "binId": 23120103,
+        "craftId": 5002
+    },
+    {
+        "binId": 23120103,
+        "craftId": 5003
+    },
+    {
+        "binId": 25060101,
+        "craftId": 11001
+    },
+    {
+        "binId": 25060101,
+        "craftId": 11002
+    },
+    {
+        "binId": 25060101,
+        "craftId": 12001
+    },
+    {
+        "binId": 25060101,
+        "craftId": 12002
+    },
+    {
+        "binId": 25060102,
+        "craftId": 13001
+    },
+    {
+        "binId": 25060102,
+        "craftId": 13002
+    },
+    {
+        "binId": 25060102,
+        "craftId": 14001
+    },
+    {
+        "binId": 25060102,
+        "craftId": 14002
+    },
+    {
+        "binId": 25060103,
+        "craftId": 15001
+    },
+    {
+        "binId": 25060103,
+        "craftId": 15002
+    },
+    {
+        "binId": 25060103,
+        "craftId": 15003
+    }
+]

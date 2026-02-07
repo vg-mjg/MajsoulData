@@ -1,0 +1,50 @@
+[
+    {
+        "id": 126101,
+        "activityId": 1261,
+        "baseTaskId": 21196,
+        "maxFinishCount": 1,
+        "reward": "309047-2",
+        "interval": 1
+    },
+    {
+        "id": 126102,
+        "activityId": 1261,
+        "baseTaskId": 21197,
+        "maxFinishCount": 1,
+        "reward": "309047-3",
+        "interval": 1
+    },
+    {
+        "id": 126103,
+        "activityId": 1261,
+        "baseTaskId": 21198,
+        "maxFinishCount": 10,
+        "reward": "309047-1",
+        "interval": 1
+    },
+    {
+        "id": 22082201,
+        "activityId": 220822,
+        "baseTaskId": 21500,
+        "maxFinishCount": 5,
+        "reward": "309065-1",
+        "interval": 0
+    },
+    {
+        "id": 23010301,
+        "activityId": 230103,
+        "baseTaskId": 21700,
+        "maxFinishCount": 20,
+        "reward": "309069-1",
+        "interval": 1
+    },
+    {
+        "id": 23091101,
+        "activityId": 230911,
+        "baseTaskId": 21500,
+        "maxFinishCount": 4,
+        "reward": "30900003-1",
+        "interval": 0
+    }
+]

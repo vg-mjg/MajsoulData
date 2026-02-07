@@ -1,0 +1,23 @@
+[
+    {
+        "activityId": 1135,
+        "filterId": 1001,
+        "rewardMailTemplate": 107,
+        "maxPointLimitDay": 4,
+        "shouldRank": 1
+    },
+    {
+        "activityId": 221201,
+        "filterId": 221201,
+        "rewardMailTemplate": 110,
+        "maxPointLimitDay": 0,
+        "shouldRank": 0
+    },
+    {
+        "activityId": 231151,
+        "filterId": 231151,
+        "rewardMailTemplate": 0,
+        "maxPointLimitDay": 0,
+        "shouldRank": 0
+    }
+]

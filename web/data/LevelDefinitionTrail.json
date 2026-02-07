@@ -1,0 +1,93 @@
+[
+    {
+        "id": 1,
+        "initLevel": 1,
+        "endLevel": 4,
+        "trailIcon": 1,
+        "trailFire": 0
+    },
+    {
+        "id": 2,
+        "initLevel": 5,
+        "endLevel": 9,
+        "trailIcon": 1,
+        "trailFire": 1
+    },
+    {
+        "id": 3,
+        "initLevel": 10,
+        "endLevel": 14,
+        "trailIcon": 1,
+        "trailFire": 2
+    },
+    {
+        "id": 4,
+        "initLevel": 15,
+        "endLevel": 19,
+        "trailIcon": 1,
+        "trailFire": 3
+    },
+    {
+        "id": 5,
+        "initLevel": 20,
+        "endLevel": 24,
+        "trailIcon": 2,
+        "trailFire": 0
+    },
+    {
+        "id": 6,
+        "initLevel": 25,
+        "endLevel": 29,
+        "trailIcon": 2,
+        "trailFire": 1
+    },
+    {
+        "id": 7,
+        "initLevel": 30,
+        "endLevel": 34,
+        "trailIcon": 2,
+        "trailFire": 2
+    },
+    {
+        "id": 8,
+        "initLevel": 35,
+        "endLevel": 39,
+        "trailIcon": 2,
+        "trailFire": 3
+    },
+    {
+        "id": 9,
+        "initLevel": 40,
+        "endLevel": 44,
+        "trailIcon": 3,
+        "trailFire": 0
+    },
+    {
+        "id": 10,
+        "initLevel": 45,
+        "endLevel": 49,
+        "trailIcon": 3,
+        "trailFire": 1
+    },
+    {
+        "id": 11,
+        "initLevel": 50,
+        "endLevel": 54,
+        "trailIcon": 3,
+        "trailFire": 2
+    },
+    {
+        "id": 12,
+        "initLevel": 55,
+        "endLevel": 59,
+        "trailIcon": 3,
+        "trailFire": 3
+    },
+    {
+        "id": 13,
+        "initLevel": 60,
+        "endLevel": 9999,
+        "trailIcon": 4,
+        "trailFire": -1
+    }
+]

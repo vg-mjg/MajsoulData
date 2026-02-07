@@ -1,0 +1,222 @@
+[
+    {
+        "activityId": 230601,
+        "day": 1,
+        "taskSerialNumber": 0,
+        "taskType": 999,
+        "periodTaskId": 23060122,
+        "answer": 0,
+        "rightStr": 0,
+        "wrongStr": 0
+    },
+    {
+        "activityId": 230601,
+        "day": 1,
+        "taskSerialNumber": 1,
+        "taskType": 1,
+        "periodTaskId": 23060101,
+        "answer": 1,
+        "rightStr": 7004,
+        "wrongStr": 7035
+    },
+    {
+        "activityId": 230601,
+        "day": 1,
+        "taskSerialNumber": 2,
+        "taskType": 0,
+        "periodTaskId": 23060108,
+        "answer": 0,
+        "rightStr": 0,
+        "wrongStr": 0
+    },
+    {
+        "activityId": 230601,
+        "day": 1,
+        "taskSerialNumber": 3,
+        "taskType": 0,
+        "periodTaskId": 23060115,
+        "answer": 0,
+        "rightStr": 0,
+        "wrongStr": 0
+    },
+    {
+        "activityId": 230601,
+        "day": 2,
+        "taskSerialNumber": 1,
+        "taskType": 1,
+        "periodTaskId": 23060102,
+        "answer": 3,
+        "rightStr": 7009,
+        "wrongStr": 7035
+    },
+    {
+        "activityId": 230601,
+        "day": 2,
+        "taskSerialNumber": 2,
+        "taskType": 0,
+        "periodTaskId": 23060109,
+        "answer": 0,
+        "rightStr": 0,
+        "wrongStr": 0
+    },
+    {
+        "activityId": 230601,
+        "day": 2,
+        "taskSerialNumber": 3,
+        "taskType": 0,
+        "periodTaskId": 23060116,
+        "answer": 0,
+        "rightStr": 0,
+        "wrongStr": 0
+    },
+    {
+        "activityId": 230601,
+        "day": 3,
+        "taskSerialNumber": 1,
+        "taskType": 1,
+        "periodTaskId": 23060103,
+        "answer": 1,
+        "rightStr": 7014,
+        "wrongStr": 7035
+    },
+    {
+        "activityId": 230601,
+        "day": 3,
+        "taskSerialNumber": 2,
+        "taskType": 0,
+        "periodTaskId": 23060110,
+        "answer": 0,
+        "rightStr": 0,
+        "wrongStr": 0
+    },
+    {
+        "activityId": 230601,
+        "day": 3,
+        "taskSerialNumber": 3,
+        "taskType": 0,
+        "periodTaskId": 23060117,
+        "answer": 0,
+        "rightStr": 0,
+        "wrongStr": 0
+    },
+    {
+        "activityId": 230601,
+        "day": 4,
+        "taskSerialNumber": 1,
+        "taskType": 1,
+        "periodTaskId": 23060104,
+        "answer": 2,
+        "rightStr": 7019,
+        "wrongStr": 7035
+    },
+    {
+        "activityId": 230601,
+        "day": 4,
+        "taskSerialNumber": 2,
+        "taskType": 0,
+        "periodTaskId": 23060111,
+        "answer": 0,
+        "rightStr": 0,
+        "wrongStr": 0
+    },
+    {
+        "activityId": 230601,
+        "day": 4,
+        "taskSerialNumber": 3,
+        "taskType": 0,
+        "periodTaskId": 23060118,
+        "answer": 0,
+        "rightStr": 0,
+        "wrongStr": 0
+    },
+    {
+        "activityId": 230601,
+        "day": 5,
+        "taskSerialNumber": 1,
+        "taskType": 1,
+        "periodTaskId": 23060105,
+        "answer": 3,
+        "rightStr": 7024,
+        "wrongStr": 7035
+    },
+    {
+        "activityId": 230601,
+        "day": 5,
+        "taskSerialNumber": 2,
+        "taskType": 0,
+        "periodTaskId": 23060112,
+        "answer": 0,
+        "rightStr": 0,
+        "wrongStr": 0
+    },
+    {
+        "activityId": 230601,
+        "day": 5,
+        "taskSerialNumber": 3,
+        "taskType": 0,
+        "periodTaskId": 23060119,
+        "answer": 0,
+        "rightStr": 0,
+        "wrongStr": 0
+    },
+    {
+        "activityId": 230601,
+        "day": 6,
+        "taskSerialNumber": 1,
+        "taskType": 1,
+        "periodTaskId": 23060106,
+        "answer": 1,
+        "rightStr": 7029,
+        "wrongStr": 7035
+    },
+    {
+        "activityId": 230601,
+        "day": 6,
+        "taskSerialNumber": 2,
+        "taskType": 0,
+        "periodTaskId": 23060113,
+        "answer": 0,
+        "rightStr": 0,
+        "wrongStr": 0
+    },
+    {
+        "activityId": 230601,
+        "day": 6,
+        "taskSerialNumber": 3,
+        "taskType": 0,
+        "periodTaskId": 23060120,
+        "answer": 0,
+        "rightStr": 0,
+        "wrongStr": 0
+    },
+    {
+        "activityId": 230601,
+        "day": 7,
+        "taskSerialNumber": 1,
+        "taskType": 1,
+        "periodTaskId": 23060107,
+        "answer": 2,
+        "rightStr": 7034,
+        "wrongStr": 7035
+    },
+    {
+        "activityId": 230601,
+        "day": 7,
+        "taskSerialNumber": 2,
+        "taskType": 0,
+        "periodTaskId": 23060114,
+        "answer": 0,
+        "rightStr": 0,
+        "wrongStr": 0
+    },
+    {
+        "activityId": 230601,
+        "day": 7,
+        "taskSerialNumber": 3,
+        "taskType": 0,
+        "periodTaskId": 23060121,
+        "answer": 0,
+        "rightStr": 0,
+        "wrongStr": 0
+    }
+]

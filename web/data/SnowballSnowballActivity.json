@@ -1,0 +1,23 @@
+[
+    {
+        "activityId": 251201,
+        "monsterGroup": 2512001,
+        "playerAttackGroup": 251201,
+        "monsterAttackGroup": 251202,
+        "hp": 5,
+        "mp": 15,
+        "playerLuk": 10,
+        "criticalHit": 2,
+        "mpRecover": 30,
+        "tick": 30,
+        "playerId": "player_001",
+        "skillItem": 30900097,
+        "attackInterval": 5,
+        "playerAttackDelay": 4,
+        "playerHeight": 325,
+        "audioEnter": "audio/audio_event/2512dongri_player_enter",
+        "audioHit": "audio/audio_event/2512dongri_player_hit",
+        "audioWin": "audio/audio_event/2512dongri_player_win",
+        "audioDie": "audio/audio_event/2512dongri_player_die"
+    }
+]
