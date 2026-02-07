@@ -54,7 +54,7 @@ jobs:
       - name: Upload Pages artifact
         uses: actions/upload-pages-artifact@v3
         with:
-          path: ./docs
+          path: ./web
 
       - name: Deploy to GitHub Pages
         id: deployment
@@ -64,7 +64,7 @@ jobs:
         run: |
           git config --global user.name "github-actions[bot]"
           git config --global user.email "github-actions[bot]@users.noreply.github.com"
-          git add -f docs/ data/ resversion.json
+          git add -f docs/ web/
           if git diff --staged --quiet; then
             echo "No changes to commit"
           else
