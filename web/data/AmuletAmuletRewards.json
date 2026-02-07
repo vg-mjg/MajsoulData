@@ -1,0 +1,77 @@
+[
+    {
+        "activityId": 240801,
+        "targetPoint": 150,
+        "rewardCoin": 1
+    },
+    {
+        "activityId": 240801,
+        "targetPoint": 200,
+        "rewardCoin": 2
+    },
+    {
+        "activityId": 240801,
+        "targetPoint": 300,
+        "rewardCoin": 4
+    },
+    {
+        "activityId": 240801,
+        "targetPoint": 400,
+        "rewardCoin": 8
+    },
+    {
+        "activityId": 240801,
+        "targetPoint": 500,
+        "rewardCoin": 15
+    },
+    {
+        "activityId": 250111,
+        "targetPoint": 150,
+        "rewardCoin": 1
+    },
+    {
+        "activityId": 250111,
+        "targetPoint": 200,
+        "rewardCoin": 2
+    },
+    {
+        "activityId": 250111,
+        "targetPoint": 300,
+        "rewardCoin": 4
+    },
+    {
+        "activityId": 250111,
+        "targetPoint": 400,
+        "rewardCoin": 8
+    },
+    {
+        "activityId": 250111,
+        "targetPoint": 500,
+        "rewardCoin": 12
+    },
+    {
+        "activityId": 250811,
+        "targetPoint": 150,
+        "rewardCoin": 1
+    },
+    {
+        "activityId": 250811,
+        "targetPoint": 200,
+        "rewardCoin": 2
+    },
+    {
+        "activityId": 250811,
+        "targetPoint": 300,
+        "rewardCoin": 4
+    },
+    {
+        "activityId": 250811,
+        "targetPoint": 400,
+        "rewardCoin": 8
+    },
+    {
+        "activityId": 250811,
+        "targetPoint": 500,
+        "rewardCoin": 12
+    }
+]

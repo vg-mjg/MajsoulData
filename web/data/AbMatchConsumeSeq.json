@@ -1,0 +1,38 @@
+[
+    {
+        "id": 9001,
+        "matchCount": 1,
+        "itemId": 0,
+        "itemCount": 0
+    },
+    {
+        "id": 9001,
+        "matchCount": 2,
+        "itemId": 100002,
+        "itemCount": 20000
+    },
+    {
+        "id": 9001,
+        "matchCount": 3,
+        "itemId": 100002,
+        "itemCount": 20000
+    },
+    {
+        "id": 9002,
+        "matchCount": 1,
+        "itemId": 0,
+        "itemCount": 0
+    },
+    {
+        "id": 9002,
+        "matchCount": 2,
+        "itemId": 100002,
+        "itemCount": 20000
+    },
+    {
+        "id": 9003,
+        "matchCount": 1,
+        "itemId": 0,
+        "itemCount": 0
+    }
+]

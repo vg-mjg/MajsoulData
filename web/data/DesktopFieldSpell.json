@@ -1,0 +1,92 @@
+[
+    {
+        "field": 1,
+        "id": 1,
+        "cardname": "风纪",
+        "sordCardId": 1
+    },
+    {
+        "field": 1,
+        "id": 2,
+        "cardname": "永夜",
+        "sordCardId": 2
+    },
+    {
+        "field": 1,
+        "id": 3,
+        "cardname": "没收",
+        "sordCardId": 3
+    },
+    {
+        "field": 1,
+        "id": 4,
+        "cardname": "炒作",
+        "sordCardId": 4
+    },
+    {
+        "field": 1,
+        "id": 5,
+        "cardname": "赠品",
+        "sordCardId": 5
+    },
+    {
+        "field": 2,
+        "id": 100,
+        "cardname": "里世界",
+        "sordCardId": 6
+    },
+    {
+        "field": 2,
+        "id": 200,
+        "cardname": "三倍速",
+        "sordCardId": 7
+    },
+    {
+        "field": 2,
+        "id": 300,
+        "cardname": "金闪闪",
+        "sordCardId": 8
+    },
+    {
+        "field": 2,
+        "id": 400,
+        "cardname": "超断幺",
+        "sordCardId": 9
+    },
+    {
+        "field": 2,
+        "id": 500,
+        "cardname": "胜负手",
+        "sordCardId": 10
+    },
+    {
+        "field": 3,
+        "id": 10000,
+        "cardname": "夸大其词",
+        "sordCardId": 11
+    },
+    {
+        "field": 3,
+        "id": 20000,
+        "cardname": "过度准备",
+        "sordCardId": 12
+    },
+    {
+        "field": 3,
+        "id": 30000,
+        "cardname": "厄运沙漏",
+        "sordCardId": 13
+    },
+    {
+        "field": 3,
+        "id": 40000,
+        "cardname": "暗中交易",
+        "sordCardId": 14
+    },
+    {
+        "field": 3,
+        "id": 50000,
+        "cardname": "爱的代价",
+        "sordCardId": 15
+    }
+]

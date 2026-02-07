@@ -1,0 +1,74 @@
+[
+    {
+        "attackLevelId": 2512011,
+        "snowballCount": 0,
+        "mpBuff": 0,
+        "cdBuff": 0
+    },
+    {
+        "attackLevelId": 2512012,
+        "snowballCount": 1,
+        "mpBuff": 1,
+        "cdBuff": 0
+    },
+    {
+        "attackLevelId": 2512013,
+        "snowballCount": 2,
+        "mpBuff": 1,
+        "cdBuff": 30
+    },
+    {
+        "attackLevelId": 2512014,
+        "snowballCount": 2,
+        "mpBuff": 2,
+        "cdBuff": 60
+    },
+    {
+        "attackLevelId": 2512021,
+        "snowballCount": 0,
+        "mpBuff": 0,
+        "cdBuff": 0
+    },
+    {
+        "attackLevelId": 2512022,
+        "snowballCount": 1,
+        "mpBuff": 1,
+        "cdBuff": 0
+    },
+    {
+        "attackLevelId": 2512023,
+        "snowballCount": 2,
+        "mpBuff": 1,
+        "cdBuff": 30
+    },
+    {
+        "attackLevelId": 2512024,
+        "snowballCount": 2,
+        "mpBuff": 2,
+        "cdBuff": 60
+    },
+    {
+        "attackLevelId": 2512031,
+        "snowballCount": 0,
+        "mpBuff": 0,
+        "cdBuff": 0
+    },
+    {
+        "attackLevelId": 2512032,
+        "snowballCount": 1,
+        "mpBuff": 1,
+        "cdBuff": 0
+    },
+    {
+        "attackLevelId": 2512033,
+        "snowballCount": 2,
+        "mpBuff": 1,
+        "cdBuff": 30
+    },
+    {
+        "attackLevelId": 2512034,
+        "snowballCount": 2,
+        "mpBuff": 2,
+        "cdBuff": 60
+    }
+]

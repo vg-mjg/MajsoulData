@@ -1,0 +1,2414 @@
+[
+    {
+        "id": 101,
+        "path": "audio/audio_lobby/btn_click",
+        "timeLength": 0,
+        "type": "lobby"
+    },
+    {
+        "id": 102,
+        "path": "audio/audio_lobby/flyin",
+        "timeLength": 0,
+        "type": "lobby"
+    },
+    {
+        "id": 103,
+        "path": "audio/audio_lobby/mouseclick",
+        "timeLength": 0,
+        "type": "lobby"
+    },
+    {
+        "id": 104,
+        "path": "audio/audio_lobby/normalflyin",
+        "timeLength": 0,
+        "type": "lobby"
+    },
+    {
+        "id": 105,
+        "path": "audio/audio_lobby/quehun_flash",
+        "timeLength": 0,
+        "type": "lobby"
+    },
+    {
+        "id": 106,
+        "path": "audio/audio_lobby/buy_success",
+        "timeLength": 0,
+        "type": "lobby"
+    },
+    {
+        "id": 107,
+        "path": "audio/audio_lobby/gacha_character",
+        "timeLength": 0,
+        "type": "lobby"
+    },
+    {
+        "id": 108,
+        "path": "audio/audio_lobby/gacha_tree_out",
+        "timeLength": 0,
+        "type": "lobby"
+    },
+    {
+        "id": 109,
+        "path": "audio/audio_lobby/gacha_wupin",
+        "timeLength": 0,
+        "type": "lobby"
+    },
+    {
+        "id": 110,
+        "path": "audio/audio_lobby/gacha_zhuangban",
+        "timeLength": 0,
+        "type": "lobby"
+    },
+    {
+        "id": 111,
+        "path": "audio/audio_lobby/heart_levelup",
+        "timeLength": 0,
+        "type": "lobby"
+    },
+    {
+        "id": 113,
+        "path": "audio/audio_lobby/heart_levelup_bai",
+        "timeLength": 0,
+        "type": "lobby"
+    },
+    {
+        "id": 115,
+        "path": "audio/audio_lobby/matchcomplete",
+        "timeLength": 0,
+        "type": "lobby"
+    },
+    {
+        "id": 116,
+        "path": "audio/audio_lobby/rpg/rpg_start",
+        "timeLength": 0,
+        "type": "lobby"
+    },
+    {
+        "id": 117,
+        "path": "audio/audio_lobby/rpg/attack1",
+        "timeLength": 0,
+        "type": "lobby"
+    },
+    {
+        "id": 118,
+        "path": "audio/audio_lobby/rpg/attack2",
+        "timeLength": 0,
+        "type": "lobby"
+    },
+    {
+        "id": 119,
+        "path": "audio/audio_lobby/rpg/attack3",
+        "timeLength": 0,
+        "type": "lobby"
+    },
+    {
+        "id": 120,
+        "path": "audio/audio_lobby/rpg/critical1",
+        "timeLength": 0,
+        "type": "lobby"
+    },
+    {
+        "id": 121,
+        "path": "audio/audio_lobby/rpg/critical2",
+        "timeLength": 0,
+        "type": "lobby"
+    },
+    {
+        "id": 122,
+        "path": "audio/audio_lobby/rpg/critical3",
+        "timeLength": 0,
+        "type": "lobby"
+    },
+    {
+        "id": 123,
+        "path": "audio/audio_lobby/rpg/doge1",
+        "timeLength": 0,
+        "type": "lobby"
+    },
+    {
+        "id": 124,
+        "path": "audio/audio_lobby/rpg/doge2",
+        "timeLength": 0,
+        "type": "lobby"
+    },
+    {
+        "id": 125,
+        "path": "audio/audio_lobby/rpg/doge3",
+        "timeLength": 0,
+        "type": "lobby"
+    },
+    {
+        "id": 126,
+        "path": "audio/audio_lobby/rpg/move",
+        "timeLength": 0,
+        "type": "lobby"
+    },
+    {
+        "id": 127,
+        "path": "audio/audio_lobby/composite",
+        "timeLength": 0,
+        "type": "lobby"
+    },
+    {
+        "id": 128,
+        "path": "audio/audio_lobby/sound_gacha",
+        "timeLength": 0,
+        "type": "lobby"
+    },
+    {
+        "id": 129,
+        "path": "audio/audio_lobby/xunmi_1",
+        "timeLength": 0,
+        "type": "lobby"
+    },
+    {
+        "id": 130,
+        "path": "audio/audio_lobby/xunmi_1_5",
+        "timeLength": 0,
+        "type": "lobby"
+    },
+    {
+        "id": 131,
+        "path": "audio/audio_lobby/xunmi_2_loop",
+        "timeLength": 0,
+        "type": "lobby"
+    },
+    {
+        "id": 132,
+        "path": "audio/audio_lobby/xunmi_3",
+        "timeLength": 0,
+        "type": "lobby"
+    },
+    {
+        "id": 133,
+        "path": "audio/audio_lobby/xunmi_3_star",
+        "timeLength": 0,
+        "type": "lobby"
+    },
+    {
+        "id": 134,
+        "path": "audio/audio_lobby/xunmi_4_item",
+        "timeLength": 0,
+        "type": "lobby"
+    },
+    {
+        "id": 135,
+        "path": "audio/audio_lobby/xunmi_4_chara1",
+        "timeLength": 0,
+        "type": "lobby"
+    },
+    {
+        "id": 136,
+        "path": "audio/audio_lobby/xunmi_4_chara2",
+        "timeLength": 0,
+        "type": "lobby"
+    },
+    {
+        "id": 137,
+        "path": "audio/audio_lobby/xunmi_5",
+        "timeLength": 0,
+        "type": "lobby"
+    },
+    {
+        "id": 138,
+        "path": "audio/audio_lobby/xunmi_1_2",
+        "timeLength": 0,
+        "type": "lobby"
+    },
+    {
+        "id": 139,
+        "path": "audio/audio_lobby/xunmi_bgm_1",
+        "timeLength": 0,
+        "type": "lobby"
+    },
+    {
+        "id": 140,
+        "path": "audio/audio_lobby/xunmi_bgm_loop",
+        "timeLength": 0,
+        "type": "lobby"
+    },
+    {
+        "id": 141,
+        "path": "audio/audio_lobby/2308event/bs",
+        "timeLength": 0,
+        "type": "lobby"
+    },
+    {
+        "id": 142,
+        "path": "audio/audio_lobby/2308event/ss",
+        "timeLength": 0,
+        "type": "lobby"
+    },
+    {
+        "id": 143,
+        "path": "audio/audio_lobby/2308event/f",
+        "timeLength": 0,
+        "type": "lobby"
+    },
+    {
+        "id": 144,
+        "path": "audio/audio_lobby/xunmi_4_deco",
+        "timeLength": 0,
+        "type": "lobby"
+    },
+    {
+        "id": 145,
+        "path": "audio/audio_lobby/tournament_bgm",
+        "timeLength": 0,
+        "type": "lobby"
+    },
+    {
+        "id": 146,
+        "path": "audio/audio_lobby/gacha_banner_normal",
+        "timeLength": 0,
+        "type": "lobby"
+    },
+    {
+        "id": 147,
+        "path": "audio/audio_lobby/gacha_banner_nanfenghua",
+        "timeLength": 0,
+        "type": "lobby"
+    },
+    {
+        "id": 148,
+        "path": "audio/audio_lobby/yueka_claim_1",
+        "timeLength": 0,
+        "type": "lobby"
+    },
+    {
+        "id": 149,
+        "path": "audio/audio_lobby/yueka_alarm",
+        "timeLength": 0,
+        "type": "lobby"
+    },
+    {
+        "id": 150,
+        "path": "audio/audio_lobby/yueka_claim_2",
+        "timeLength": 0,
+        "type": "lobby"
+    },
+    {
+        "id": 151,
+        "path": "audio/audio_lobby/maka_1",
+        "timeLength": 0,
+        "type": "lobby"
+    },
+    {
+        "id": 152,
+        "path": "audio/audio_lobby/maka_2",
+        "timeLength": 0,
+        "type": "lobby"
+    },
+    {
+        "id": 153,
+        "path": "audio/audio_lobby/maka_3",
+        "timeLength": 0,
+        "type": "lobby"
+    },
+    {
+        "id": 154,
+        "path": "audio/audio_lobby/gacha_banner_fate",
+        "timeLength": 0,
+        "type": "lobby"
+    },
+    {
+        "id": 155,
+        "path": "audio/audio_lobby/gacha_banner_liyang",
+        "timeLength": 0,
+        "type": "lobby"
+    },
+    {
+        "id": 156,
+        "path": "audio/audio_lobby/gacha_banner_yh",
+        "timeLength": 0,
+        "type": "lobby"
+    },
+    {
+        "id": 201,
+        "path": "audio/audio_mj/beiman",
+        "timeLength": 2098,
+        "type": "mj"
+    },
+    {
+        "id": 202,
+        "path": "audio/audio_mj/btn_appear",
+        "timeLength": 1000,
+        "type": "mj"
+    },
+    {
+        "id": 203,
+        "path": "audio/audio_mj/btn_cancel",
+        "timeLength": 1000,
+        "type": "mj"
+    },
+    {
+        "id": 204,
+        "path": "audio/audio_mj/click_pai",
+        "timeLength": 1000,
+        "type": "mj"
+    },
+    {
+        "id": 205,
+        "path": "audio/audio_mj/countdown5",
+        "timeLength": 1000,
+        "type": "mj"
+    },
+    {
+        "id": 206,
+        "path": "audio/audio_mj/cutin",
+        "timeLength": 1583,
+        "type": "mj"
+    },
+    {
+        "id": 207,
+        "path": "audio/audio_mj/discard_tile",
+        "timeLength": 1000,
+        "type": "mj"
+    },
+    {
+        "id": 208,
+        "path": "audio/audio_mj/fu_appear",
+        "timeLength": 1105,
+        "type": "mj"
+    },
+    {
+        "id": 209,
+        "path": "audio/audio_mj/fulu",
+        "timeLength": 1000,
+        "type": "mj"
+    },
+    {
+        "id": 210,
+        "path": "audio/audio_mj/gang",
+        "timeLength": 1000,
+        "type": "mj"
+    },
+    {
+        "id": 211,
+        "path": "audio/audio_mj/hule_fan_out",
+        "timeLength": 1105,
+        "type": "mj"
+    },
+    {
+        "id": 212,
+        "path": "audio/audio_mj/hule_point1",
+        "timeLength": 1602,
+        "type": "mj"
+    },
+    {
+        "id": 213,
+        "path": "audio/audio_mj/hupai",
+        "timeLength": 2098,
+        "type": "mj"
+    },
+    {
+        "id": 214,
+        "path": "audio/audio_mj/mangan",
+        "timeLength": 2098,
+        "type": "mj"
+    },
+    {
+        "id": 215,
+        "path": "audio/audio_mj/new_dora",
+        "timeLength": 1000,
+        "type": "mj"
+    },
+    {
+        "id": 216,
+        "path": "audio/audio_mj/newround_pais",
+        "timeLength": 1000,
+        "type": "mj"
+    },
+    {
+        "id": 217,
+        "path": "audio/audio_mj/put_liqi",
+        "timeLength": 1000,
+        "type": "mj"
+    },
+    {
+        "id": 218,
+        "path": "audio/audio_mj/rank1",
+        "timeLength": 1714,
+        "type": "mj"
+    },
+    {
+        "id": 219,
+        "path": "audio/audio_mj/rank234",
+        "timeLength": 1000,
+        "type": "mj"
+    },
+    {
+        "id": 220,
+        "path": "audio/audio_mj/rankchange",
+        "timeLength": 1000,
+        "type": "mj"
+    },
+    {
+        "id": 221,
+        "path": "audio/audio_mj/score_appear",
+        "timeLength": 1602,
+        "type": "mj"
+    },
+    {
+        "id": 222,
+        "path": "audio/audio_mj/score_change",
+        "timeLength": 1000,
+        "type": "mj"
+    },
+    {
+        "id": 223,
+        "path": "audio/audio_mj/showtile",
+        "timeLength": 1105,
+        "type": "mj"
+    },
+    {
+        "id": 224,
+        "path": "audio/audio_mj/sys_event02",
+        "timeLength": 2098,
+        "type": "mj"
+    },
+    {
+        "id": 225,
+        "path": "audio/audio_mj/winlose",
+        "timeLength": 2206,
+        "type": "mj"
+    },
+    {
+        "id": 226,
+        "path": "audio/audio_mj/yakuman",
+        "timeLength": 2098,
+        "type": "mj"
+    },
+    {
+        "id": 227,
+        "path": "audio/audio_mj/zimo",
+        "timeLength": 1031,
+        "type": "mj"
+    },
+    {
+        "id": 228,
+        "path": "audio/audio_mj/jianzhou_open",
+        "timeLength": 1000,
+        "type": "mj"
+    },
+    {
+        "id": 229,
+        "path": "audio/audio_mj/queshi_down",
+        "timeLength": 1000,
+        "type": "mj"
+    },
+    {
+        "id": 230,
+        "path": "audio/audio_mj/effect_hupai_fire",
+        "timeLength": 1702,
+        "type": "effect"
+    },
+    {
+        "id": 231,
+        "path": "audio/audio_mj/effect_hupai_feng",
+        "timeLength": 2391,
+        "type": "effect"
+    },
+    {
+        "id": 232,
+        "path": "audio/audio_mj/effect_hupai_sakura",
+        "timeLength": 2628,
+        "type": "effect"
+    },
+    {
+        "id": 233,
+        "path": "",
+        "timeLength": 0,
+        "type": "effect"
+    },
+    {
+        "id": 234,
+        "path": "",
+        "timeLength": 0,
+        "type": "effect"
+    },
+    {
+        "id": 235,
+        "path": "audio/audio_mj/effect_rich_frozen",
+        "timeLength": 4051,
+        "type": "effect"
+    },
+    {
+        "id": 236,
+        "path": "audio/audio_mj/effect_rich_fire",
+        "timeLength": 1104,
+        "type": "effect"
+    },
+    {
+        "id": 237,
+        "path": "audio/audio_mj/effect_hupai_heihuo",
+        "timeLength": 2176,
+        "type": "effect"
+    },
+    {
+        "id": 238,
+        "path": "audio/audio_mj/effect_hupai_yanhua",
+        "timeLength": 4057,
+        "type": "effect"
+    },
+    {
+        "id": 239,
+        "path": "audio/audio_mj/effect_yakumanchance",
+        "timeLength": 0,
+        "type": "mj"
+    },
+    {
+        "id": 240,
+        "path": "audio/audio_mj/effect_yakumanready",
+        "timeLength": 0,
+        "type": "mj"
+    },
+    {
+        "id": 241,
+        "path": "audio/audio_mj/effect_biaoqing_chiyuebin",
+        "timeLength": 0,
+        "type": "effect"
+    },
+    {
+        "id": 242,
+        "path": "audio/audio_mj/effect_biaoqing_guoqingmiao",
+        "timeLength": 0,
+        "type": "effect"
+    },
+    {
+        "id": 243,
+        "path": "audio/audio_mj/effect_moshi_baopai",
+        "timeLength": 0,
+        "type": "effect"
+    },
+    {
+        "id": 244,
+        "path": "audio/audio_mj/effect_moshi_fanbaopai",
+        "timeLength": 0,
+        "type": "effect"
+    },
+    {
+        "id": 245,
+        "path": "audio/audio_mj/effect_biaoqing_WSJ",
+        "timeLength": 0,
+        "type": "effect"
+    },
+    {
+        "id": 246,
+        "path": "audio/audio_mj/moshi_longzhimuyu",
+        "timeLength": 0,
+        "type": "effect"
+    },
+    {
+        "id": 247,
+        "path": "audio/audio_mj/yiman_effect/fan_chunzhengjiulianbaodeng",
+        "timeLength": 5434,
+        "type": "yiman"
+    },
+    {
+        "id": 248,
+        "path": "audio/audio_mj/yiman_effect/fan_dasanyuan",
+        "timeLength": 5517,
+        "type": "yiman"
+    },
+    {
+        "id": 249,
+        "path": "audio/audio_mj/yiman_effect/fan_dasixi",
+        "timeLength": 5550,
+        "type": "yiman"
+    },
+    {
+        "id": 250,
+        "path": "audio/audio_mj/yiman_effect/fan_dihu",
+        "timeLength": 5717,
+        "type": "yiman"
+    },
+    {
+        "id": 251,
+        "path": "audio/audio_mj/yiman_effect/fan_guoshishisanmian",
+        "timeLength": 5484,
+        "type": "yiman"
+    },
+    {
+        "id": 252,
+        "path": "audio/audio_mj/yiman_effect/fan_guoshiwushuang",
+        "timeLength": 5484,
+        "type": "yiman"
+    },
+    {
+        "id": 253,
+        "path": "audio/audio_mj/yiman_effect/fan_jiulianbaodeng",
+        "timeLength": 5350,
+        "type": "yiman"
+    },
+    {
+        "id": 254,
+        "path": "audio/audio_mj/yiman_effect/fan_lvyise",
+        "timeLength": 5217,
+        "type": "yiman"
+    },
+    {
+        "id": 255,
+        "path": "audio/audio_mj/yiman_effect/fan_qinglaotou",
+        "timeLength": 5650,
+        "type": "yiman"
+    },
+    {
+        "id": 256,
+        "path": "audio/audio_mj/yiman_effect/fan_sianke",
+        "timeLength": 5650,
+        "type": "yiman"
+    },
+    {
+        "id": 257,
+        "path": "audio/audio_mj/yiman_effect/fan_siankedanqi",
+        "timeLength": 5534,
+        "type": "yiman"
+    },
+    {
+        "id": 258,
+        "path": "audio/audio_mj/yiman_effect/fan_sigangzi",
+        "timeLength": 5800,
+        "type": "yiman"
+    },
+    {
+        "id": 259,
+        "path": "audio/audio_mj/yiman_effect/fan_tianhu",
+        "timeLength": 5617,
+        "type": "yiman"
+    },
+    {
+        "id": 260,
+        "path": "audio/audio_mj/yiman_effect/fan_xiaosixi",
+        "timeLength": 5617,
+        "type": "yiman"
+    },
+    {
+        "id": 261,
+        "path": "audio/audio_mj/yiman_effect/fan_ziyise",
+        "timeLength": 5550,
+        "type": "yiman"
+    },
+    {
+        "id": 262,
+        "path": "audio/audio_mj/yiman_effect/yiman_preload",
+        "timeLength": 0,
+        "type": "yiman"
+    },
+    {
+        "id": 263,
+        "path": "audio/audio_mj/huntianlevelup",
+        "timeLength": 0,
+        "type": "mj"
+    },
+    {
+        "id": 264,
+        "path": "audio/audio_mj/anpai_cutin",
+        "timeLength": 0,
+        "type": "mj"
+    },
+    {
+        "id": 265,
+        "path": "audio/audio_mj/anpai_reverse",
+        "timeLength": 0,
+        "type": "mj"
+    },
+    {
+        "id": 266,
+        "path": "audio/audio_event/akagi_rain",
+        "timeLength": 30000,
+        "type": "event"
+    },
+    {
+        "id": 8001,
+        "path": "audio/audio_mj/hunzhiyiji_countstart",
+        "timeLength": 0,
+        "type": "event"
+    },
+    {
+        "id": 8002,
+        "path": "audio/audio_mj/hunzhiyiji_countdown",
+        "timeLength": 0,
+        "type": "event"
+    },
+    {
+        "id": 8003,
+        "path": "audio/audio_mj/hunzhiyiji_overload",
+        "timeLength": 0,
+        "type": "event"
+    },
+    {
+        "id": 10000,
+        "path": "audio/audio_event/2506xila_bgm",
+        "timeLength": 0,
+        "type": "event"
+    },
+    {
+        "id": 10001,
+        "path": "audio/audio_event/2312winter_combine",
+        "timeLength": 0,
+        "type": "event"
+    },
+    {
+        "id": 10002,
+        "path": "audio/audio_event/2312winter_delivery",
+        "timeLength": 0,
+        "type": "event"
+    },
+    {
+        "id": 10003,
+        "path": "audio/audio_event/2312winter_new",
+        "timeLength": 0,
+        "type": "event"
+    },
+    {
+        "id": 10101,
+        "path": "audio/audio_event/2401chunjie_bgm_intro",
+        "timeLength": 7500,
+        "type": "event"
+    },
+    {
+        "id": 10102,
+        "path": "audio/audio_event/2401chunjie_bgm_loop",
+        "timeLength": 73427,
+        "type": "event"
+    },
+    {
+        "id": 10103,
+        "path": "audio/audio_event/2401chunjie_bailongmiao_open",
+        "timeLength": 0,
+        "type": "event"
+    },
+    {
+        "id": 10104,
+        "path": "audio/audio_event/2401chunjie_bailongmiao_close",
+        "timeLength": 0,
+        "type": "event"
+    },
+    {
+        "id": 10105,
+        "path": "audio/audio_event/2401chunjie_area_increase",
+        "timeLength": 0,
+        "type": "event"
+    },
+    {
+        "id": 10106,
+        "path": "audio/audio_event/2401chunjie_activity_enter",
+        "timeLength": 0,
+        "type": "event"
+    },
+    {
+        "id": 10107,
+        "path": "audio/audio_event/2401chunjie_farmer_remove",
+        "timeLength": 0,
+        "type": "event"
+    },
+    {
+        "id": 10108,
+        "path": "audio/audio_event/2401chunjie_farmer_send",
+        "timeLength": 0,
+        "type": "event"
+    },
+    {
+        "id": 10109,
+        "path": "audio/audio_event/2401chunjie_upgrade",
+        "timeLength": 0,
+        "type": "event"
+    },
+    {
+        "id": 10110,
+        "path": "audio/audio_event/2401chunjie_get_fruit",
+        "timeLength": 0,
+        "type": "event"
+    },
+    {
+        "id": 10111,
+        "path": "audio/audio_event/2401chunjie_get_wood",
+        "timeLength": 0,
+        "type": "event"
+    },
+    {
+        "id": 10112,
+        "path": "audio/audio_event/2401chunjie_get_stone",
+        "timeLength": 0,
+        "type": "event"
+    },
+    {
+        "id": 10113,
+        "path": "audio/audio_event/2401chunjie_get_food",
+        "timeLength": 0,
+        "type": "event"
+    },
+    {
+        "id": 10114,
+        "path": "audio/audio_event/2401chunjie_travel",
+        "timeLength": 0,
+        "type": "event"
+    },
+    {
+        "id": 10115,
+        "path": "audio/audio_event/2401chunjie_ui_open",
+        "timeLength": 0,
+        "type": "event"
+    },
+    {
+        "id": 10116,
+        "path": "audio/audio_event/2401chunjie_unlock",
+        "timeLength": 0,
+        "type": "event"
+    },
+    {
+        "id": 10117,
+        "path": "audio/audio_event/2401chunjie_cloud",
+        "timeLength": 0,
+        "type": "event"
+    },
+    {
+        "id": 10118,
+        "path": "audio/audio_event/2404ba_bgm_loop",
+        "timeLength": 120048,
+        "type": "event"
+    },
+    {
+        "id": 10119,
+        "path": "audio/audio_event/2404ba_great_success",
+        "timeLength": 0,
+        "type": "event"
+    },
+    {
+        "id": 10120,
+        "path": "audio/audio_event/2404ba_success",
+        "timeLength": 0,
+        "type": "event"
+    },
+    {
+        "id": 10121,
+        "path": "audio/audio_event/2404ba_failure",
+        "timeLength": 0,
+        "type": "event"
+    },
+    {
+        "id": 10122,
+        "path": "audio/audio_event/2404ba_gaizhang",
+        "timeLength": 0,
+        "type": "event"
+    },
+    {
+        "id": 10123,
+        "path": "audio/audio_event/2404ba_activity_enter",
+        "timeLength": 0,
+        "type": "event"
+    },
+    {
+        "id": 10124,
+        "path": "audio/audio_event/2404ba_level_up",
+        "timeLength": 0,
+        "type": "event"
+    },
+    {
+        "id": 10125,
+        "path": "audio/audio_event/2404ba_ui_open",
+        "timeLength": 0,
+        "type": "event"
+    },
+    {
+        "id": 10126,
+        "path": "audio/audio_event/2404ba_switch",
+        "timeLength": 0,
+        "type": "event"
+    },
+    {
+        "id": 10127,
+        "path": "audio/audio_event/2404ba_procure_proposal",
+        "timeLength": 0,
+        "type": "event"
+    },
+    {
+        "id": 10128,
+        "path": "audio/audio_event/2404ba_failure_switch_success",
+        "timeLength": 0,
+        "type": "event"
+    },
+    {
+        "id": 10129,
+        "path": "audio/audio_event/2406haidao_bgm_loop",
+        "timeLength": 65184,
+        "type": "event"
+    },
+    {
+        "id": 10130,
+        "path": "audio/audio_event/2406haidao_bag_grid_unlock",
+        "timeLength": 0,
+        "type": "event"
+    },
+    {
+        "id": 10131,
+        "path": "audio/audio_event/2406haidao_reward_ui_open",
+        "timeLength": 0,
+        "type": "event"
+    },
+    {
+        "id": 10132,
+        "path": "audio/audio_event/2406haidao_start_move",
+        "timeLength": 0,
+        "type": "event"
+    },
+    {
+        "id": 10133,
+        "path": "audio/audio_event/2406haidao_activity_enter",
+        "timeLength": 0,
+        "type": "event"
+    },
+    {
+        "id": 10134,
+        "path": "audio/audio_event/2406haidao_bag_switch",
+        "timeLength": 0,
+        "type": "event"
+    },
+    {
+        "id": 10135,
+        "path": "audio/audio_event/2406haidao_level_up",
+        "timeLength": 0,
+        "type": "event"
+    },
+    {
+        "id": 10136,
+        "path": "audio/audio_event/2406haidao_put",
+        "timeLength": 0,
+        "type": "event"
+    },
+    {
+        "id": 10137,
+        "path": "audio/audio_event/2401chunjie_bgm_intro",
+        "timeLength": 7500,
+        "type": "event"
+    },
+    {
+        "id": 10138,
+        "path": "audio/audio_event/2401chunjie_bgm_loop",
+        "timeLength": 73427,
+        "type": "event"
+    },
+    {
+        "id": 10139,
+        "path": "audio/audio_event/2408zhuyun_activity_enter",
+        "timeLength": 0,
+        "type": "event"
+    },
+    {
+        "id": 10140,
+        "path": "audio/audio_event/2408zhuyun_building_unlock",
+        "timeLength": 0,
+        "type": "event"
+    },
+    {
+        "id": 10141,
+        "path": "audio/audio_event/2408zhuyun_story_ui_open",
+        "timeLength": 0,
+        "type": "event"
+    },
+    {
+        "id": 10142,
+        "path": "audio/audio_event/2408zhuyun_building_finish",
+        "timeLength": 0,
+        "type": "event"
+    },
+    {
+        "id": 10143,
+        "path": "audio/audio_event/2408qyzz_lobby_loop",
+        "timeLength": 180000,
+        "type": "event"
+    },
+    {
+        "id": 10144,
+        "path": "audio/audio_event/2408qyzz_shop_clickpack",
+        "timeLength": 0,
+        "type": "event"
+    },
+    {
+        "id": 10145,
+        "path": "audio/audio_event/2408qyzz_win_bigpoint",
+        "timeLength": 0,
+        "type": "event"
+    },
+    {
+        "id": 10146,
+        "path": "audio/audio_event/2408qyzz_stage_clear",
+        "timeLength": 0,
+        "type": "event"
+    },
+    {
+        "id": 10147,
+        "path": "audio/audio_event/2408qyzz_stage_show",
+        "timeLength": 0,
+        "type": "event"
+    },
+    {
+        "id": 10148,
+        "path": "audio/audio_event/2408qyzz_stage_changepai",
+        "timeLength": 0,
+        "type": "event"
+    },
+    {
+        "id": 10149,
+        "path": "audio/audio_event/2408qyzz_stage_getmoney",
+        "timeLength": 0,
+        "type": "event"
+    },
+    {
+        "id": 10150,
+        "path": "audio/audio_event/2408qyzz_start3card",
+        "timeLength": 0,
+        "type": "event"
+    },
+    {
+        "id": 10151,
+        "path": "audio/audio_event/2408qyzz_getcard",
+        "timeLength": 0,
+        "type": "event"
+    },
+    {
+        "id": 10152,
+        "path": "audio/audio_event/2408qyzz_stage_in",
+        "timeLength": 0,
+        "type": "event"
+    },
+    {
+        "id": 10153,
+        "path": "audio/audio_event/2408qyzz_stage_feverpai",
+        "timeLength": 0,
+        "type": "event"
+    },
+    {
+        "id": 10154,
+        "path": "audio/audio_event/2408qyzz_stage_getpai",
+        "timeLength": 0,
+        "type": "event"
+    },
+    {
+        "id": 10155,
+        "path": "audio/audio_event/2408qyzz_shop_buypack",
+        "timeLength": 0,
+        "type": "event"
+    },
+    {
+        "id": 10156,
+        "path": "audio/audio_event/2408qyzz_shop_upgrade",
+        "timeLength": 0,
+        "type": "event"
+    },
+    {
+        "id": 10157,
+        "path": "audio/audio_event/2408qyzz_shop_pop",
+        "timeLength": 0,
+        "type": "event"
+    },
+    {
+        "id": 10158,
+        "path": "audio/audio_event/2408qyzz_shop_selectcard",
+        "timeLength": 0,
+        "type": "event"
+    },
+    {
+        "id": 10159,
+        "path": "audio/audio_event/2408qyzz_win_calculate",
+        "timeLength": 0,
+        "type": "event"
+    },
+    {
+        "id": 10160,
+        "path": "audio/audio_event/2408qyzz_win_medium",
+        "timeLength": 0,
+        "type": "event"
+    },
+    {
+        "id": 10161,
+        "path": "audio/audio_event/2408qyzz_win_small",
+        "timeLength": 0,
+        "type": "event"
+    },
+    {
+        "id": 10162,
+        "path": "audio/audio_event/2408qyzz_win_big",
+        "timeLength": 0,
+        "type": "event"
+    },
+    {
+        "id": 10163,
+        "path": "audio/audio_event/2408qyzz_win_cardeffect",
+        "timeLength": 0,
+        "type": "event"
+    },
+    {
+        "id": 10164,
+        "path": "audio/audio_event/2408qyzz_win_paieffect",
+        "timeLength": 0,
+        "type": "event"
+    },
+    {
+        "id": 10165,
+        "path": "audio/audio_event/2408qyzz_game_over",
+        "timeLength": 0,
+        "type": "event"
+    },
+    {
+        "id": 10166,
+        "path": "audio/audio_event/2408qyzz_point_long",
+        "timeLength": 0,
+        "type": "event"
+    },
+    {
+        "id": 10167,
+        "path": "audio/audio_event/2408qyzz_point",
+        "timeLength": 0,
+        "type": "event"
+    },
+    {
+        "id": 10168,
+        "path": "audio/audio_event/2408qyzz_formula",
+        "timeLength": 0,
+        "type": "event"
+    },
+    {
+        "id": 10169,
+        "path": "audio/audio_event/2409sanliou_activity_enter",
+        "timeLength": 0,
+        "type": "event"
+    },
+    {
+        "id": 10170,
+        "path": "audio/audio_event/2409sanliou_gacha",
+        "timeLength": 0,
+        "type": "event"
+    },
+    {
+        "id": 10171,
+        "path": "audio/audio_event/2411imas_bgm_loop",
+        "timeLength": 76000,
+        "type": "event"
+    },
+    {
+        "id": 10172,
+        "path": "audio/audio_event/2411imas_ui_open",
+        "timeLength": 0,
+        "type": "event"
+    },
+    {
+        "id": 10173,
+        "path": "audio/audio_event/2411imas_ui_close",
+        "timeLength": 0,
+        "type": "event"
+    },
+    {
+        "id": 10174,
+        "path": "audio/audio_event/2411imas_level_up",
+        "timeLength": 0,
+        "type": "event"
+    },
+    {
+        "id": 10175,
+        "path": "audio/audio_event/2411imas_level_big",
+        "timeLength": 0,
+        "type": "event"
+    },
+    {
+        "id": 10176,
+        "path": "audio/audio_event/2411imas_level_small",
+        "timeLength": 0,
+        "type": "event"
+    },
+    {
+        "id": 10177,
+        "path": "audio/audio_event/2411imas_activity_enter",
+        "timeLength": 0,
+        "type": "event"
+    },
+    {
+        "id": 10178,
+        "path": "audio/audio_event/2411imas_match",
+        "timeLength": 0,
+        "type": "event"
+    },
+    {
+        "id": 10179,
+        "path": "audio/audio_event/2411imas_skill_level_up",
+        "timeLength": 0,
+        "type": "event"
+    },
+    {
+        "id": 10180,
+        "path": "audio/audio_event/2412touzi_activity_enter",
+        "timeLength": 0,
+        "type": "event"
+    },
+    {
+        "id": 10181,
+        "path": "audio/audio_event/2412touzi_bank",
+        "timeLength": 0,
+        "type": "event"
+    },
+    {
+        "id": 10182,
+        "path": "audio/audio_event/2412touzi_chest_appear",
+        "timeLength": 0,
+        "type": "event"
+    },
+    {
+        "id": 10183,
+        "path": "audio/audio_event/2412touzi_chest_disappear",
+        "timeLength": 0,
+        "type": "event"
+    },
+    {
+        "id": 10184,
+        "path": "audio/audio_event/2412touzi_qizi_buff",
+        "timeLength": 0,
+        "type": "event"
+    },
+    {
+        "id": 10185,
+        "path": "audio/audio_event/2412touzi_qizi_debuff",
+        "timeLength": 0,
+        "type": "event"
+    },
+    {
+        "id": 10186,
+        "path": "audio/audio_event/2412touzi_qizi_lvup",
+        "timeLength": 0,
+        "type": "event"
+    },
+    {
+        "id": 10187,
+        "path": "audio/audio_event/2412touzi_qizi_move",
+        "timeLength": 0,
+        "type": "event"
+    },
+    {
+        "id": 10188,
+        "path": "audio/audio_event/2412touzi_touzi",
+        "timeLength": 0,
+        "type": "event"
+    },
+    {
+        "id": 10189,
+        "path": "audio/audio_event/2412touzi_touzi_red",
+        "timeLength": 0,
+        "type": "event"
+    },
+    {
+        "id": 10190,
+        "path": "audio/audio_event/2501qyzz_lobby_loop",
+        "timeLength": 174000,
+        "type": "event"
+    },
+    {
+        "id": 10191,
+        "path": "audio/audio_event/2501qyzz_stage_clear",
+        "timeLength": 0,
+        "type": "event"
+    },
+    {
+        "id": 10192,
+        "path": "audio/audio_event/2501qyzz_stage_in",
+        "timeLength": 0,
+        "type": "event"
+    },
+    {
+        "id": 10193,
+        "path": "audio/audio_event/2501qyzz_shop_pop",
+        "timeLength": 0,
+        "type": "event"
+    },
+    {
+        "id": 10194,
+        "path": "audio/audio_event/2501qyzz_stage_fevertime",
+        "timeLength": 0,
+        "type": "event"
+    },
+    {
+        "id": 10195,
+        "path": "audio/audio_event/2501qyzz_stage_show",
+        "timeLength": 0,
+        "type": "event"
+    },
+    {
+        "id": 10300,
+        "path": "audio/audio_event/2501chunjie_bgm_loop",
+        "timeLength": 63000,
+        "type": "event"
+    },
+    {
+        "id": 10301,
+        "path": "audio/audio_event/2501chunjie_activity_enter",
+        "timeLength": 0,
+        "type": "event"
+    },
+    {
+        "id": 10302,
+        "path": "audio/audio_event/2501chunjie_ui_open",
+        "timeLength": 0,
+        "type": "event"
+    },
+    {
+        "id": 10303,
+        "path": "audio/audio_event/2501chunjie_great_success",
+        "timeLength": 0,
+        "type": "event"
+    },
+    {
+        "id": 10304,
+        "path": "audio/audio_event/2501chunjie_success",
+        "timeLength": 0,
+        "type": "event"
+    },
+    {
+        "id": 10305,
+        "path": "audio/audio_event/2501chunjie_failure",
+        "timeLength": 0,
+        "type": "event"
+    },
+    {
+        "id": 10306,
+        "path": "audio/audio_event/2501chunjie_failure_switch_success",
+        "timeLength": 0,
+        "type": "event"
+    },
+    {
+        "id": 10307,
+        "path": "audio/audio_event/2501chunjie_skill_ui_open",
+        "timeLength": 0,
+        "type": "event"
+    },
+    {
+        "id": 10308,
+        "path": "audio/audio_event/2501chunjie_skill_level_up",
+        "timeLength": 0,
+        "type": "event"
+    },
+    {
+        "id": 10309,
+        "path": "audio/audio_event/2501chunjie_level_up_14_17",
+        "timeLength": 0,
+        "type": "event"
+    },
+    {
+        "id": 10310,
+        "path": "audio/audio_event/2501chunjie_level_up_8_13",
+        "timeLength": 0,
+        "type": "event"
+    },
+    {
+        "id": 10311,
+        "path": "audio/audio_event/2501chunjie_level_up_1_7",
+        "timeLength": 0,
+        "type": "event"
+    },
+    {
+        "id": 10312,
+        "path": "audio/audio_event/2501chunjie_add_point",
+        "timeLength": 0,
+        "type": "event"
+    },
+    {
+        "id": 10313,
+        "path": "audio/audio_event/2504quedou_train_bgm",
+        "timeLength": 0,
+        "type": "event"
+    },
+    {
+        "id": 10314,
+        "path": "audio/audio_event/2504quedou_match_bgm",
+        "timeLength": 0,
+        "type": "event"
+    },
+    {
+        "id": 10315,
+        "path": "audio/audio_event/2504quedou_activity_enter",
+        "timeLength": 0,
+        "type": "event"
+    },
+    {
+        "id": 10316,
+        "path": "audio/audio_event/2504quedou_ui_open",
+        "timeLength": 0,
+        "type": "event"
+    },
+    {
+        "id": 10317,
+        "path": "audio/audio_event/2504quedou_train_failure",
+        "timeLength": 0,
+        "type": "event"
+    },
+    {
+        "id": 10318,
+        "path": "audio/audio_event/2504quedou_train_success",
+        "timeLength": 0,
+        "type": "event"
+    },
+    {
+        "id": 10319,
+        "path": "audio/audio_event/2504quedou_train_great_success",
+        "timeLength": 0,
+        "type": "event"
+    },
+    {
+        "id": 10320,
+        "path": "audio/audio_event/2504quedou_event_show",
+        "timeLength": 0,
+        "type": "event"
+    },
+    {
+        "id": 10321,
+        "path": "audio/audio_event/2504quedou_event_normal",
+        "timeLength": 0,
+        "type": "event"
+    },
+    {
+        "id": 10322,
+        "path": "audio/audio_event/2504quedou_event_success",
+        "timeLength": 0,
+        "type": "event"
+    },
+    {
+        "id": 10323,
+        "path": "audio/audio_event/2504quedou_event_great_success",
+        "timeLength": 0,
+        "type": "event"
+    },
+    {
+        "id": 10324,
+        "path": "audio/audio_event/2504quedou_waiting_enter_match",
+        "timeLength": 0,
+        "type": "event"
+    },
+    {
+        "id": 10325,
+        "path": "audio/audio_event/2504quedou_match_begin",
+        "timeLength": 0,
+        "type": "event"
+    },
+    {
+        "id": 10326,
+        "path": "audio/audio_event/2504quedou_traveling",
+        "timeLength": 0,
+        "type": "event"
+    },
+    {
+        "id": 10327,
+        "path": "audio/audio_event/2504quedou_match_over",
+        "timeLength": 0,
+        "type": "event"
+    },
+    {
+        "id": 10328,
+        "path": "audio/audio_event/2504quedou_lifetime_over",
+        "timeLength": 0,
+        "type": "event"
+    },
+    {
+        "id": 10329,
+        "path": "audio/audio_event/2504beishui_big_fire",
+        "timeLength": 0,
+        "type": "event"
+    },
+    {
+        "id": 10330,
+        "path": "audio/audio_event/2504beishui_normal_fire",
+        "timeLength": 0,
+        "type": "event"
+    },
+    {
+        "id": 10331,
+        "path": "audio/audio_event/2508qyzz_lobby_normal_loop",
+        "timeLength": 60000,
+        "type": "event"
+    },
+    {
+        "id": 10332,
+        "path": "audio/audio_event/2508qyzz_lobby_boss_loop",
+        "timeLength": 60000,
+        "type": "event"
+    },
+    {
+        "id": 10333,
+        "path": "audio/audio_event/2508qyzz_lobby_in",
+        "timeLength": 0,
+        "type": "event"
+    },
+    {
+        "id": 10334,
+        "path": "audio/audio_event/2508qyzz_lobby_breathing",
+        "timeLength": 0,
+        "type": "event"
+    },
+    {
+        "id": 10335,
+        "path": "audio/audio_event/2508qyzz_lobby_lighting",
+        "timeLength": 0,
+        "type": "event"
+    },
+    {
+        "id": 10336,
+        "path": "audio/audio_event/2508qyzz_lobby_shooting",
+        "timeLength": 0,
+        "type": "event"
+    },
+    {
+        "id": 10337,
+        "path": "audio/audio_event/2508qyzz_stage_show",
+        "timeLength": 0,
+        "type": "event"
+    },
+    {
+        "id": 10338,
+        "path": "audio/audio_event/2508qyzz_shop_pop",
+        "timeLength": 0,
+        "type": "event"
+    },
+    {
+        "id": 10339,
+        "path": "audio/audio_event/2508qyzz_stage_fevertime",
+        "timeLength": 0,
+        "type": "event"
+    },
+    {
+        "id": 10340,
+        "path": "audio/audio_event/2508qyzz_stage_clear",
+        "timeLength": 0,
+        "type": "event"
+    },
+    {
+        "id": 10341,
+        "path": "audio/audio_event/2508qyzz_stage_game_over",
+        "timeLength": 0,
+        "type": "event"
+    },
+    {
+        "id": 10342,
+        "path": "audio/audio_event/2508qyzz_stage_amulet_transform",
+        "timeLength": 0,
+        "type": "event"
+    },
+    {
+        "id": 10350,
+        "path": "audio/audio_event/2508hanghai_sea_bird",
+        "timeLength": 0,
+        "type": "event"
+    },
+    {
+        "id": 10351,
+        "path": "audio/audio_event/2508hanghai_sea_wave",
+        "timeLength": 0,
+        "type": "event"
+    },
+    {
+        "id": 10352,
+        "path": "audio/audio_event/2508hanghai_rain",
+        "timeLength": 0,
+        "type": "event"
+    },
+    {
+        "id": 10353,
+        "path": "audio/audio_event/2508hanghai_boom",
+        "timeLength": 0,
+        "type": "event"
+    },
+    {
+        "id": 10354,
+        "path": "audio/audio_event/2504quedou_ui_open",
+        "timeLength": 0,
+        "type": "event"
+    },
+    {
+        "id": 10355,
+        "path": "audio/audio_event/2510yh_bgm",
+        "timeLength": 0,
+        "type": "event"
+    },
+    {
+        "id": 10356,
+        "path": "audio/audio_event/2510yh_activity_enter",
+        "timeLength": 0,
+        "type": "event"
+    },
+    {
+        "id": 10357,
+        "path": "audio/audio_event/2510yh_ui_open",
+        "timeLength": 0,
+        "type": "event"
+    },
+    {
+        "id": 10358,
+        "path": "audio/audio_event/2510yh_request_start",
+        "timeLength": 0,
+        "type": "event"
+    },
+    {
+        "id": 10359,
+        "path": "audio/audio_event/2510yh_request_success",
+        "timeLength": 0,
+        "type": "event"
+    },
+    {
+        "id": 10360,
+        "path": "audio/audio_event/2510yh_request_great_success",
+        "timeLength": 0,
+        "type": "event"
+    },
+    {
+        "id": 10361,
+        "path": "audio/audio_event/2510yh_pass",
+        "timeLength": 0,
+        "type": "event"
+    },
+    {
+        "id": 10362,
+        "path": "audio/audio_event/2510yh_hire_employee",
+        "timeLength": 0,
+        "type": "event"
+    },
+    {
+        "id": 10363,
+        "path": "audio/audio_event/2510yh_charge",
+        "timeLength": 0,
+        "type": "event"
+    },
+    {
+        "id": 10364,
+        "path": "audio/audio_event/2511yuehui_enter_game",
+        "timeLength": 0,
+        "type": "event"
+    },
+    {
+        "id": 10365,
+        "path": "audio/audio_event/2511yuehui_exchange_page",
+        "timeLength": 0,
+        "type": "event"
+    },
+    {
+        "id": 10366,
+        "path": "audio/audio_event/2511yuehui_move_airplane",
+        "timeLength": 0,
+        "type": "event"
+    },
+    {
+        "id": 10367,
+        "path": "audio/audio_event/2511yuehui_shoot_bullet",
+        "timeLength": 0,
+        "type": "event"
+    },
+    {
+        "id": 10368,
+        "path": "audio/audio_event/2511yuehui_hit_enemy",
+        "timeLength": 0,
+        "type": "event"
+    },
+    {
+        "id": 10369,
+        "path": "audio/audio_event/2511yuehui_defeat_enemy",
+        "timeLength": 0,
+        "type": "event"
+    },
+    {
+        "id": 10370,
+        "path": "audio/audio_event/2512dongri_bgm",
+        "timeLength": 0,
+        "type": "event"
+    },
+    {
+        "id": 10371,
+        "path": "audio/audio_event/2512dongri_activity_enter",
+        "timeLength": 0,
+        "type": "event"
+    },
+    {
+        "id": 10372,
+        "path": "audio/audio_event/2512dongri_threw_normal",
+        "timeLength": 0,
+        "type": "event"
+    },
+    {
+        "id": 10373,
+        "path": "audio/audio_event/2512dongri_threw_luk",
+        "timeLength": 0,
+        "type": "event"
+    },
+    {
+        "id": 10374,
+        "path": "audio/audio_event/2512dongri_snowball_broken",
+        "timeLength": 0,
+        "type": "event"
+    },
+    {
+        "id": 10375,
+        "path": "audio/audio_event/2512dongri_hit_luk",
+        "timeLength": 0,
+        "type": "event"
+    },
+    {
+        "id": 10376,
+        "path": "audio/audio_event/2512dongri_boss_fight",
+        "timeLength": 0,
+        "type": "event"
+    },
+    {
+        "id": 10377,
+        "path": "audio/audio_event/2512dongri_k.o.",
+        "timeLength": 0,
+        "type": "event"
+    },
+    {
+        "id": 10378,
+        "path": "audio/audio_event/2404ba_success",
+        "timeLength": 0,
+        "type": "event"
+    },
+    {
+        "id": 10379,
+        "path": "audio/audio_event/2404ba_failure",
+        "timeLength": 0,
+        "type": "event"
+    },
+    {
+        "id": 10380,
+        "path": "audio/audio_event/2406haidao_reward_ui_open",
+        "timeLength": 0,
+        "type": "event"
+    },
+    {
+        "id": 305032,
+        "path": "audio/audio_mj/effect_liqi_canying",
+        "timeLength": 1314,
+        "type": "effect"
+    },
+    {
+        "id": 305033,
+        "path": "audio/audio_mj/effect_liqi_feiyu",
+        "timeLength": 1445,
+        "type": "effect"
+    },
+    {
+        "id": 305034,
+        "path": "audio/audio_mj/ron_huolongjuan",
+        "timeLength": 2098,
+        "type": "effect"
+    },
+    {
+        "id": 305035,
+        "path": "audio/audio_mj/ron_keji",
+        "timeLength": 1523,
+        "type": "effect"
+    },
+    {
+        "id": 305036,
+        "path": "audio/audio_mj/ron_meiguihua",
+        "timeLength": 1915,
+        "type": "effect"
+    },
+    {
+        "id": 305037,
+        "path": "audio/audio_mj/effect_liqi_ding",
+        "timeLength": 1200,
+        "type": "effect"
+    },
+    {
+        "id": 305038,
+        "path": "audio/audio_mj/effect_liqi_longteng",
+        "timeLength": 2500,
+        "type": "effect"
+    },
+    {
+        "id": 305039,
+        "path": "audio/audio_mj/ron_ko",
+        "timeLength": 1200,
+        "type": "effect"
+    },
+    {
+        "id": 305040,
+        "path": "audio/audio_mj/ron_nilin",
+        "timeLength": 2500,
+        "type": "effect"
+    },
+    {
+        "id": 305200,
+        "path": "audio/audio_mj/effect_ron_youling",
+        "timeLength": 0,
+        "type": "effect"
+    },
+    {
+        "id": 305201,
+        "path": "audio/audio_mj/ron_gejumeiying",
+        "timeLength": 0,
+        "type": "effect"
+    },
+    {
+        "id": 305202,
+        "path": "audio/audio_mj/ron_mofashaonv",
+        "timeLength": 0,
+        "type": "effect"
+    },
+    {
+        "id": 305203,
+        "path": "audio/audio_mj/ron_20chunjie",
+        "timeLength": 0,
+        "type": "effect"
+    },
+    {
+        "id": 305204,
+        "path": "audio/audio_mj/ron_szx",
+        "timeLength": 0,
+        "type": "effect"
+    },
+    {
+        "id": 305205,
+        "path": "audio/audio_mj/ron_xhzy",
+        "timeLength": 0,
+        "type": "effect"
+    },
+    {
+        "id": 305206,
+        "path": "audio/audio_mj/ron_nws",
+        "timeLength": 0,
+        "type": "effect"
+    },
+    {
+        "id": 305207,
+        "path": "audio/audio_mj/ron_jd",
+        "timeLength": 0,
+        "type": "effect"
+    },
+    {
+        "id": 305208,
+        "path": "audio/audio_mj/ron_hl",
+        "timeLength": 0,
+        "type": "effect"
+    },
+    {
+        "id": 305209,
+        "path": "audio/audio_mj/ron_music",
+        "timeLength": 0,
+        "type": "effect"
+    },
+    {
+        "id": 305210,
+        "path": "audio/audio_mj/ron_21chunjie",
+        "timeLength": 0,
+        "type": "effect"
+    },
+    {
+        "id": 305211,
+        "path": "audio/audio_mj/ron_21cyber",
+        "timeLength": 0,
+        "type": "effect"
+    },
+    {
+        "id": 305212,
+        "path": "audio/audio_mj/ron_21magic",
+        "timeLength": 0,
+        "type": "effect"
+    },
+    {
+        "id": 305213,
+        "path": "audio/audio_mj/ron_21zhounian",
+        "timeLength": 0,
+        "type": "effect"
+    },
+    {
+        "id": 305214,
+        "path": "",
+        "timeLength": 0,
+        "type": "effect"
+    },
+    {
+        "id": 305215,
+        "path": "audio/audio_mj/ron_xiyuansi",
+        "timeLength": 0,
+        "type": "effect"
+    },
+    {
+        "id": 305216,
+        "path": "audio/audio_mj/ron_21winter",
+        "timeLength": 0,
+        "type": "effect"
+    },
+    {
+        "id": 305217,
+        "path": "audio/audio_mj/ron_22chunjie",
+        "timeLength": 0,
+        "type": "effect"
+    },
+    {
+        "id": 305218,
+        "path": "audio/audio_mj/ron_22rpg",
+        "timeLength": 0,
+        "type": "effect"
+    },
+    {
+        "id": 305219,
+        "path": "audio/audio_mj/ron_beiyuan",
+        "timeLength": 0,
+        "type": "effect"
+    },
+    {
+        "id": 305220,
+        "path": "audio/audio_mj/ron_22summer",
+        "timeLength": 0,
+        "type": "effect"
+    },
+    {
+        "id": 305221,
+        "path": "audio/audio_mj/ron_23wenquan",
+        "timeLength": 0,
+        "type": "effect"
+    },
+    {
+        "id": 305222,
+        "path": "audio/audio_mj/ron_23rpg",
+        "timeLength": 0,
+        "type": "effect"
+    },
+    {
+        "id": 305223,
+        "path": "audio/audio_mj/ron_dongcheng",
+        "timeLength": 0,
+        "type": "effect"
+    },
+    {
+        "id": 30520001,
+        "path": "audio/audio_mj/ron_23wansheng",
+        "timeLength": 0,
+        "type": "effect"
+    },
+    {
+        "id": 30520002,
+        "path": "audio/audio_mj/ron_23winter",
+        "timeLength": 0,
+        "type": "effect"
+    },
+    {
+        "id": 30520003,
+        "path": "audio/audio_mj/ron_24chunjie",
+        "timeLength": 0,
+        "type": "effect"
+    },
+    {
+        "id": 30520004,
+        "path": "audio/audio_mj/ron_24haidao",
+        "timeLength": 0,
+        "type": "effect"
+    },
+    {
+        "id": 30520005,
+        "path": "audio/audio_mj/ron_24maomizhadan",
+        "timeLength": 0,
+        "type": "effect"
+    },
+    {
+        "id": 30520006,
+        "path": "audio/audio_mj/ron_nanfenghua",
+        "timeLength": 0,
+        "type": "effect"
+    },
+    {
+        "id": 30520007,
+        "path": "audio/audio_mj/ron_24imas",
+        "timeLength": 0,
+        "type": "effect"
+    },
+    {
+        "id": 30520008,
+        "path": "audio/audio_mj/ron_24winter",
+        "timeLength": 0,
+        "type": "effect"
+    },
+    {
+        "id": 30520009,
+        "path": "audio/audio_mj/ron_liyang",
+        "timeLength": 0,
+        "type": "effect"
+    },
+    {
+        "id": 30520010,
+        "path": "audio/audio_mj/ron_25summer",
+        "timeLength": 0,
+        "type": "effect"
+    },
+    {
+        "id": 30520011,
+        "path": "audio/audio_mj/ron_25dongri",
+        "timeLength": 0,
+        "type": "effect"
+    },
+    {
+        "id": 305224,
+        "path": "audio/audio_mj/ron_23ex_heidong",
+        "timeLength": 0,
+        "type": "effect"
+    },
+    {
+        "id": 305225,
+        "path": "audio/audio_mj/ron_23ex_liandao",
+        "timeLength": 0,
+        "type": "effect"
+    },
+    {
+        "id": 305226,
+        "path": "audio/audio_mj/ron_23ex_shuizhu",
+        "timeLength": 0,
+        "type": "effect"
+    },
+    {
+        "id": 305300,
+        "path": "audio/audio_mj/effect_liqi_bianfu",
+        "timeLength": 0,
+        "type": "effect"
+    },
+    {
+        "id": 305301,
+        "path": "audio/audio_mj/effect_liqi_feichangshitai",
+        "timeLength": 0,
+        "type": "effect"
+    },
+    {
+        "id": 305302,
+        "path": "audio/audio_mj/effect_liqi_mofashaonv",
+        "timeLength": 0,
+        "type": "effect"
+    },
+    {
+        "id": 305303,
+        "path": "audio/audio_mj/effect_liqi_20chunjie",
+        "timeLength": 0,
+        "type": "effect"
+    },
+    {
+        "id": 305304,
+        "path": "audio/audio_mj/effect_liqi_szx",
+        "timeLength": 0,
+        "type": "effect"
+    },
+    {
+        "id": 305305,
+        "path": "audio/audio_mj/effect_liqi_xhzy",
+        "timeLength": 0,
+        "type": "effect"
+    },
+    {
+        "id": 305306,
+        "path": "audio/audio_mj/effect_liqi_nws",
+        "timeLength": 0,
+        "type": "effect"
+    },
+    {
+        "id": 305307,
+        "path": "audio/audio_mj/effect_liqi_jd",
+        "timeLength": 0,
+        "type": "effect"
+    },
+    {
+        "id": 305308,
+        "path": "audio/audio_mj/effect_liqi_hl",
+        "timeLength": 0,
+        "type": "effect"
+    },
+    {
+        "id": 305309,
+        "path": "audio/audio_mj/effect_liqi_music",
+        "timeLength": 0,
+        "type": "effect"
+    },
+    {
+        "id": 305310,
+        "path": "audio/audio_mj/effect_liqi_21chunjie",
+        "timeLength": 0,
+        "type": "effect"
+    },
+    {
+        "id": 305311,
+        "path": "audio/audio_mj/effect_liqi_21cyber",
+        "timeLength": 0,
+        "type": "effect"
+    },
+    {
+        "id": 305312,
+        "path": "audio/audio_mj/effect_liqi_21magic",
+        "timeLength": 0,
+        "type": "effect"
+    },
+    {
+        "id": 305313,
+        "path": "audio/audio_mj/effect_liqi_21zhounian",
+        "timeLength": 0,
+        "type": "effect"
+    },
+    {
+        "id": 305314,
+        "path": "",
+        "timeLength": 0,
+        "type": "effect"
+    },
+    {
+        "id": 305315,
+        "path": "audio/audio_mj/effect_liqi_xiyuansi",
+        "timeLength": 0,
+        "type": "effect"
+    },
+    {
+        "id": 305316,
+        "path": "audio/audio_mj/effect_liqi_21winter",
+        "timeLength": 0,
+        "type": "effect"
+    },
+    {
+        "id": 305317,
+        "path": "audio/audio_mj/effect_liqi_22chunjie",
+        "timeLength": 0,
+        "type": "effect"
+    },
+    {
+        "id": 305318,
+        "path": "audio/audio_mj/effect_liqi_22rpg",
+        "timeLength": 0,
+        "type": "effect"
+    },
+    {
+        "id": 305319,
+        "path": "audio/audio_mj/effect_liqi_beiyuan",
+        "timeLength": 0,
+        "type": "effect"
+    },
+    {
+        "id": 305320,
+        "path": "audio/audio_mj/effect_liqi_22summer",
+        "timeLength": 0,
+        "type": "effect"
+    },
+    {
+        "id": 305321,
+        "path": "audio/audio_mj/effect_liqi_23wenquan",
+        "timeLength": 0,
+        "type": "effect"
+    },
+    {
+        "id": 305322,
+        "path": "audio/audio_mj/effect_liqi_23rpg",
+        "timeLength": 0,
+        "type": "effect"
+    },
+    {
+        "id": 305323,
+        "path": "audio/audio_mj/effect_liqi_dongcheng",
+        "timeLength": 0,
+        "type": "effect"
+    },
+    {
+        "id": 305324,
+        "path": "audio/audio_mj/effect_liqi_23ex_maozhua",
+        "timeLength": 0,
+        "type": "effect"
+    },
+    {
+        "id": 305325,
+        "path": "audio/audio_mj/effect_liqi_23ex_liandao",
+        "timeLength": 0,
+        "type": "effect"
+    },
+    {
+        "id": 305326,
+        "path": "audio/audio_mj/effect_liqi_23ex_xueqiu",
+        "timeLength": 0,
+        "type": "effect"
+    },
+    {
+        "id": 30530001,
+        "path": "audio/audio_mj/effect_liqi_23wansheng",
+        "timeLength": 0,
+        "type": "effect"
+    },
+    {
+        "id": 30530002,
+        "path": "audio/audio_mj/effect_liqi_23winter",
+        "timeLength": 0,
+        "type": "effect"
+    },
+    {
+        "id": 30530003,
+        "path": "audio/audio_mj/effect_liqi_24chunjie",
+        "timeLength": 0,
+        "type": "effect"
+    },
+    {
+        "id": 30530004,
+        "path": "audio/audio_mj/effect_liqi_24haidao",
+        "timeLength": 0,
+        "type": "effect"
+    },
+    {
+        "id": 30530005,
+        "path": "audio/audio_mj/effect_liqi_24maomizhadan",
+        "timeLength": 0,
+        "type": "effect"
+    },
+    {
+        "id": 30530006,
+        "path": "audio/audio_mj/effect_liqi_nanfenghua",
+        "timeLength": 0,
+        "type": "effect"
+    },
+    {
+        "id": 30530007,
+        "path": "audio/audio_mj/effect_liqi_24imas",
+        "timeLength": 0,
+        "type": "effect"
+    },
+    {
+        "id": 30530008,
+        "path": "audio/audio_mj/effect_liqi_24winter",
+        "timeLength": 0,
+        "type": "effect"
+    },
+    {
+        "id": 30530009,
+        "path": "audio/audio_mj/effect_liqi_liyang",
+        "timeLength": 0,
+        "type": "effect"
+    },
+    {
+        "id": 30530010,
+        "path": "audio/audio_mj/effect_liqi_25summer",
+        "timeLength": 0,
+        "type": "effect"
+    },
+    {
+        "id": 30530011,
+        "path": "audio/audio_mj/effect_liqi_25dongri",
+        "timeLength": 0,
+        "type": "effect"
+    },
+    {
+        "id": 309205,
+        "path": "audio/audio_mj/effect_biaoqing_appmiao",
+        "timeLength": 0,
+        "type": "effect"
+    },
+    {
+        "id": 308001,
+        "path": "audio/audio_mj/ron_saki",
+        "timeLength": 0,
+        "type": "effect"
+    },
+    {
+        "id": 308002,
+        "path": "audio/audio_mj/effect_liqi_saki",
+        "timeLength": 0,
+        "type": "effect"
+    },
+    {
+        "id": 308006,
+        "path": "audio/audio_mj/ron_kuangdu",
+        "timeLength": 0,
+        "type": "effect"
+    },
+    {
+        "id": 308007,
+        "path": "audio/audio_mj/effect_liqi_kuangdu",
+        "timeLength": 0,
+        "type": "effect"
+    },
+    {
+        "id": 308011,
+        "path": "audio/audio_mj/ron_akagi",
+        "timeLength": 0,
+        "type": "effect"
+    },
+    {
+        "id": 308012,
+        "path": "audio/audio_mj/effect_liqi_akagi",
+        "timeLength": 0,
+        "type": "effect"
+    },
+    {
+        "id": 308016,
+        "path": "audio/audio_mj/ron_kaguya",
+        "timeLength": 0,
+        "type": "effect"
+    },
+    {
+        "id": 308017,
+        "path": "audio/audio_mj/effect_liqi_kaguya",
+        "timeLength": 0,
+        "type": "effect"
+    },
+    {
+        "id": 308021,
+        "path": "audio/audio_mj/ron_2211saki",
+        "timeLength": 0,
+        "type": "effect"
+    },
+    {
+        "id": 308022,
+        "path": "audio/audio_mj/effect_liqi_2211saki",
+        "timeLength": 0,
+        "type": "effect"
+    },
+    {
+        "id": 308026,
+        "path": "audio/audio_mj/ron_23llx",
+        "timeLength": 0,
+        "type": "effect"
+    },
+    {
+        "id": 308027,
+        "path": "audio/audio_mj/effect_liqi_23llx",
+        "timeLength": 0,
+        "type": "effect"
+    },
+    {
+        "id": 308031,
+        "path": "audio/audio_mj/ron_23yly",
+        "timeLength": 0,
+        "type": "effect"
+    },
+    {
+        "id": 308032,
+        "path": "audio/audio_mj/effect_liqi_23yly",
+        "timeLength": 0,
+        "type": "effect"
+    },
+    {
+        "id": 308036,
+        "path": "audio/audio_mj/ron_24ba",
+        "timeLength": 0,
+        "type": "effect"
+    },
+    {
+        "id": 308037,
+        "path": "audio/audio_mj/effect_liqi_24ba",
+        "timeLength": 0,
+        "type": "effect"
+    },
+    {
+        "id": 308041,
+        "path": "audio/audio_mj/ron_25hf",
+        "timeLength": 0,
+        "type": "effect"
+    },
+    {
+        "id": 308042,
+        "path": "audio/audio_mj/effect_liqi_25hf",
+        "timeLength": 0,
+        "type": "effect"
+    },
+    {
+        "id": 308046,
+        "path": "audio/audio_mj/ron_25yh",
+        "timeLength": 0,
+        "type": "effect"
+    },
+    {
+        "id": 308047,
+        "path": "audio/audio_mj/effect_liqi_25yh",
+        "timeLength": 0,
+        "type": "effect"
+    }
+]

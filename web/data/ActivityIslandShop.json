@@ -1,0 +1,4202 @@
+[
+    {
+        "activityId": 240601,
+        "day": 0,
+        "zoneId": 0,
+        "goodsId": 1001,
+        "count": 10,
+        "discount": 10
+    },
+    {
+        "activityId": 240601,
+        "day": 0,
+        "zoneId": 0,
+        "goodsId": 1002,
+        "count": 10,
+        "discount": 120
+    },
+    {
+        "activityId": 240601,
+        "day": 0,
+        "zoneId": 0,
+        "goodsId": 1003,
+        "count": 10,
+        "discount": 110
+    },
+    {
+        "activityId": 240601,
+        "day": 0,
+        "zoneId": 0,
+        "goodsId": 1007,
+        "count": 10,
+        "discount": 80
+    },
+    {
+        "activityId": 240601,
+        "day": 0,
+        "zoneId": 0,
+        "goodsId": 1008,
+        "count": 10,
+        "discount": 120
+    },
+    {
+        "activityId": 240601,
+        "day": 0,
+        "zoneId": 1,
+        "goodsId": 1001,
+        "count": 10,
+        "discount": 120
+    },
+    {
+        "activityId": 240601,
+        "day": 0,
+        "zoneId": 1,
+        "goodsId": 1002,
+        "count": 10,
+        "discount": 100
+    },
+    {
+        "activityId": 240601,
+        "day": 0,
+        "zoneId": 1,
+        "goodsId": 1004,
+        "count": 10,
+        "discount": 90
+    },
+    {
+        "activityId": 240601,
+        "day": 0,
+        "zoneId": 1,
+        "goodsId": 1005,
+        "count": 10,
+        "discount": 120
+    },
+    {
+        "activityId": 240601,
+        "day": 0,
+        "zoneId": 1,
+        "goodsId": 1006,
+        "count": 10,
+        "discount": 110
+    },
+    {
+        "activityId": 240601,
+        "day": 0,
+        "zoneId": 2,
+        "goodsId": 1003,
+        "count": 10,
+        "discount": 120
+    },
+    {
+        "activityId": 240601,
+        "day": 0,
+        "zoneId": 2,
+        "goodsId": 1007,
+        "count": 10,
+        "discount": 100
+    },
+    {
+        "activityId": 240601,
+        "day": 0,
+        "zoneId": 2,
+        "goodsId": 1008,
+        "count": 10,
+        "discount": 80
+    },
+    {
+        "activityId": 240601,
+        "day": 0,
+        "zoneId": 2,
+        "goodsId": 1012,
+        "count": 4,
+        "discount": 80
+    },
+    {
+        "activityId": 240601,
+        "day": 0,
+        "zoneId": 2,
+        "goodsId": 1013,
+        "count": 2,
+        "discount": 110
+    },
+    {
+        "activityId": 240601,
+        "day": 0,
+        "zoneId": 3,
+        "goodsId": 1004,
+        "count": 10,
+        "discount": 110
+    },
+    {
+        "activityId": 240601,
+        "day": 0,
+        "zoneId": 3,
+        "goodsId": 1006,
+        "count": 10,
+        "discount": 90
+    },
+    {
+        "activityId": 240601,
+        "day": 0,
+        "zoneId": 3,
+        "goodsId": 1009,
+        "count": 10,
+        "discount": 80
+    },
+    {
+        "activityId": 240601,
+        "day": 0,
+        "zoneId": 3,
+        "goodsId": 1010,
+        "count": 6,
+        "discount": 80
+    },
+    {
+        "activityId": 240601,
+        "day": 0,
+        "zoneId": 3,
+        "goodsId": 1011,
+        "count": 6,
+        "discount": 110
+    },
+    {
+        "activityId": 240601,
+        "day": 0,
+        "zoneId": 4,
+        "goodsId": 1005,
+        "count": 10,
+        "discount": 90
+    },
+    {
+        "activityId": 240601,
+        "day": 0,
+        "zoneId": 4,
+        "goodsId": 1010,
+        "count": 6,
+        "discount": 80
+    },
+    {
+        "activityId": 240601,
+        "day": 0,
+        "zoneId": 4,
+        "goodsId": 1011,
+        "count": 6,
+        "discount": 80
+    },
+    {
+        "activityId": 240601,
+        "day": 0,
+        "zoneId": 4,
+        "goodsId": 1012,
+        "count": 4,
+        "discount": 100
+    },
+    {
+        "activityId": 240601,
+        "day": 0,
+        "zoneId": 4,
+        "goodsId": 1013,
+        "count": 2,
+        "discount": 120
+    },
+    {
+        "activityId": 240601,
+        "day": 1,
+        "zoneId": 0,
+        "goodsId": 1001,
+        "count": 10,
+        "discount": 10
+    },
+    {
+        "activityId": 240601,
+        "day": 1,
+        "zoneId": 0,
+        "goodsId": 1002,
+        "count": 10,
+        "discount": 110
+    },
+    {
+        "activityId": 240601,
+        "day": 1,
+        "zoneId": 0,
+        "goodsId": 1003,
+        "count": 10,
+        "discount": 110
+    },
+    {
+        "activityId": 240601,
+        "day": 1,
+        "zoneId": 0,
+        "goodsId": 1007,
+        "count": 10,
+        "discount": 90
+    },
+    {
+        "activityId": 240601,
+        "day": 1,
+        "zoneId": 0,
+        "goodsId": 1008,
+        "count": 10,
+        "discount": 120
+    },
+    {
+        "activityId": 240601,
+        "day": 1,
+        "zoneId": 1,
+        "goodsId": 1001,
+        "count": 10,
+        "discount": 110
+    },
+    {
+        "activityId": 240601,
+        "day": 1,
+        "zoneId": 1,
+        "goodsId": 1002,
+        "count": 10,
+        "discount": 110
+    },
+    {
+        "activityId": 240601,
+        "day": 1,
+        "zoneId": 1,
+        "goodsId": 1004,
+        "count": 10,
+        "discount": 110
+    },
+    {
+        "activityId": 240601,
+        "day": 1,
+        "zoneId": 1,
+        "goodsId": 1005,
+        "count": 10,
+        "discount": 90
+    },
+    {
+        "activityId": 240601,
+        "day": 1,
+        "zoneId": 1,
+        "goodsId": 1006,
+        "count": 10,
+        "discount": 100
+    },
+    {
+        "activityId": 240601,
+        "day": 1,
+        "zoneId": 2,
+        "goodsId": 1003,
+        "count": 10,
+        "discount": 110
+    },
+    {
+        "activityId": 240601,
+        "day": 1,
+        "zoneId": 2,
+        "goodsId": 1007,
+        "count": 10,
+        "discount": 120
+    },
+    {
+        "activityId": 240601,
+        "day": 1,
+        "zoneId": 2,
+        "goodsId": 1008,
+        "count": 10,
+        "discount": 90
+    },
+    {
+        "activityId": 240601,
+        "day": 1,
+        "zoneId": 2,
+        "goodsId": 1012,
+        "count": 4,
+        "discount": 90
+    },
+    {
+        "activityId": 240601,
+        "day": 1,
+        "zoneId": 2,
+        "goodsId": 1013,
+        "count": 2,
+        "discount": 110
+    },
+    {
+        "activityId": 240601,
+        "day": 1,
+        "zoneId": 3,
+        "goodsId": 1004,
+        "count": 10,
+        "discount": 120
+    },
+    {
+        "activityId": 240601,
+        "day": 1,
+        "zoneId": 3,
+        "goodsId": 1006,
+        "count": 10,
+        "discount": 120
+    },
+    {
+        "activityId": 240601,
+        "day": 1,
+        "zoneId": 3,
+        "goodsId": 1009,
+        "count": 10,
+        "discount": 90
+    },
+    {
+        "activityId": 240601,
+        "day": 1,
+        "zoneId": 3,
+        "goodsId": 1010,
+        "count": 6,
+        "discount": 80
+    },
+    {
+        "activityId": 240601,
+        "day": 1,
+        "zoneId": 3,
+        "goodsId": 1011,
+        "count": 6,
+        "discount": 80
+    },
+    {
+        "activityId": 240601,
+        "day": 1,
+        "zoneId": 4,
+        "goodsId": 1005,
+        "count": 10,
+        "discount": 90
+    },
+    {
+        "activityId": 240601,
+        "day": 1,
+        "zoneId": 4,
+        "goodsId": 1010,
+        "count": 6,
+        "discount": 110
+    },
+    {
+        "activityId": 240601,
+        "day": 1,
+        "zoneId": 4,
+        "goodsId": 1011,
+        "count": 6,
+        "discount": 120
+    },
+    {
+        "activityId": 240601,
+        "day": 1,
+        "zoneId": 4,
+        "goodsId": 1012,
+        "count": 4,
+        "discount": 90
+    },
+    {
+        "activityId": 240601,
+        "day": 1,
+        "zoneId": 4,
+        "goodsId": 1013,
+        "count": 2,
+        "discount": 90
+    },
+    {
+        "activityId": 240601,
+        "day": 2,
+        "zoneId": 0,
+        "goodsId": 1001,
+        "count": 10,
+        "discount": 10
+    },
+    {
+        "activityId": 240601,
+        "day": 2,
+        "zoneId": 0,
+        "goodsId": 1002,
+        "count": 10,
+        "discount": 80
+    },
+    {
+        "activityId": 240601,
+        "day": 2,
+        "zoneId": 0,
+        "goodsId": 1003,
+        "count": 10,
+        "discount": 110
+    },
+    {
+        "activityId": 240601,
+        "day": 2,
+        "zoneId": 0,
+        "goodsId": 1007,
+        "count": 10,
+        "discount": 110
+    },
+    {
+        "activityId": 240601,
+        "day": 2,
+        "zoneId": 0,
+        "goodsId": 1008,
+        "count": 10,
+        "discount": 110
+    },
+    {
+        "activityId": 240601,
+        "day": 2,
+        "zoneId": 1,
+        "goodsId": 1001,
+        "count": 10,
+        "discount": 120
+    },
+    {
+        "activityId": 240601,
+        "day": 2,
+        "zoneId": 1,
+        "goodsId": 1002,
+        "count": 10,
+        "discount": 80
+    },
+    {
+        "activityId": 240601,
+        "day": 2,
+        "zoneId": 1,
+        "goodsId": 1004,
+        "count": 10,
+        "discount": 90
+    },
+    {
+        "activityId": 240601,
+        "day": 2,
+        "zoneId": 1,
+        "goodsId": 1005,
+        "count": 10,
+        "discount": 80
+    },
+    {
+        "activityId": 240601,
+        "day": 2,
+        "zoneId": 1,
+        "goodsId": 1006,
+        "count": 10,
+        "discount": 100
+    },
+    {
+        "activityId": 240601,
+        "day": 2,
+        "zoneId": 2,
+        "goodsId": 1003,
+        "count": 10,
+        "discount": 120
+    },
+    {
+        "activityId": 240601,
+        "day": 2,
+        "zoneId": 2,
+        "goodsId": 1007,
+        "count": 10,
+        "discount": 120
+    },
+    {
+        "activityId": 240601,
+        "day": 2,
+        "zoneId": 2,
+        "goodsId": 1008,
+        "count": 10,
+        "discount": 80
+    },
+    {
+        "activityId": 240601,
+        "day": 2,
+        "zoneId": 2,
+        "goodsId": 1012,
+        "count": 4,
+        "discount": 120
+    },
+    {
+        "activityId": 240601,
+        "day": 2,
+        "zoneId": 2,
+        "goodsId": 1013,
+        "count": 2,
+        "discount": 100
+    },
+    {
+        "activityId": 240601,
+        "day": 2,
+        "zoneId": 3,
+        "goodsId": 1004,
+        "count": 10,
+        "discount": 100
+    },
+    {
+        "activityId": 240601,
+        "day": 2,
+        "zoneId": 3,
+        "goodsId": 1006,
+        "count": 10,
+        "discount": 100
+    },
+    {
+        "activityId": 240601,
+        "day": 2,
+        "zoneId": 3,
+        "goodsId": 1009,
+        "count": 10,
+        "discount": 80
+    },
+    {
+        "activityId": 240601,
+        "day": 2,
+        "zoneId": 3,
+        "goodsId": 1010,
+        "count": 6,
+        "discount": 110
+    },
+    {
+        "activityId": 240601,
+        "day": 2,
+        "zoneId": 3,
+        "goodsId": 1011,
+        "count": 6,
+        "discount": 100
+    },
+    {
+        "activityId": 240601,
+        "day": 2,
+        "zoneId": 4,
+        "goodsId": 1005,
+        "count": 10,
+        "discount": 100
+    },
+    {
+        "activityId": 240601,
+        "day": 2,
+        "zoneId": 4,
+        "goodsId": 1010,
+        "count": 6,
+        "discount": 110
+    },
+    {
+        "activityId": 240601,
+        "day": 2,
+        "zoneId": 4,
+        "goodsId": 1011,
+        "count": 6,
+        "discount": 90
+    },
+    {
+        "activityId": 240601,
+        "day": 2,
+        "zoneId": 4,
+        "goodsId": 1012,
+        "count": 4,
+        "discount": 80
+    },
+    {
+        "activityId": 240601,
+        "day": 2,
+        "zoneId": 4,
+        "goodsId": 1013,
+        "count": 2,
+        "discount": 120
+    },
+    {
+        "activityId": 240601,
+        "day": 3,
+        "zoneId": 0,
+        "goodsId": 1001,
+        "count": 10,
+        "discount": 10
+    },
+    {
+        "activityId": 240601,
+        "day": 3,
+        "zoneId": 0,
+        "goodsId": 1002,
+        "count": 10,
+        "discount": 90
+    },
+    {
+        "activityId": 240601,
+        "day": 3,
+        "zoneId": 0,
+        "goodsId": 1003,
+        "count": 10,
+        "discount": 120
+    },
+    {
+        "activityId": 240601,
+        "day": 3,
+        "zoneId": 0,
+        "goodsId": 1007,
+        "count": 10,
+        "discount": 120
+    },
+    {
+        "activityId": 240601,
+        "day": 3,
+        "zoneId": 0,
+        "goodsId": 1008,
+        "count": 10,
+        "discount": 120
+    },
+    {
+        "activityId": 240601,
+        "day": 3,
+        "zoneId": 1,
+        "goodsId": 1001,
+        "count": 10,
+        "discount": 110
+    },
+    {
+        "activityId": 240601,
+        "day": 3,
+        "zoneId": 1,
+        "goodsId": 1002,
+        "count": 10,
+        "discount": 120
+    },
+    {
+        "activityId": 240601,
+        "day": 3,
+        "zoneId": 1,
+        "goodsId": 1004,
+        "count": 10,
+        "discount": 120
+    },
+    {
+        "activityId": 240601,
+        "day": 3,
+        "zoneId": 1,
+        "goodsId": 1005,
+        "count": 10,
+        "discount": 90
+    },
+    {
+        "activityId": 240601,
+        "day": 3,
+        "zoneId": 1,
+        "goodsId": 1006,
+        "count": 10,
+        "discount": 120
+    },
+    {
+        "activityId": 240601,
+        "day": 3,
+        "zoneId": 2,
+        "goodsId": 1003,
+        "count": 10,
+        "discount": 90
+    },
+    {
+        "activityId": 240601,
+        "day": 3,
+        "zoneId": 2,
+        "goodsId": 1007,
+        "count": 10,
+        "discount": 80
+    },
+    {
+        "activityId": 240601,
+        "day": 3,
+        "zoneId": 2,
+        "goodsId": 1008,
+        "count": 10,
+        "discount": 100
+    },
+    {
+        "activityId": 240601,
+        "day": 3,
+        "zoneId": 2,
+        "goodsId": 1012,
+        "count": 4,
+        "discount": 110
+    },
+    {
+        "activityId": 240601,
+        "day": 3,
+        "zoneId": 2,
+        "goodsId": 1013,
+        "count": 2,
+        "discount": 80
+    },
+    {
+        "activityId": 240601,
+        "day": 3,
+        "zoneId": 3,
+        "goodsId": 1004,
+        "count": 10,
+        "discount": 120
+    },
+    {
+        "activityId": 240601,
+        "day": 3,
+        "zoneId": 3,
+        "goodsId": 1006,
+        "count": 10,
+        "discount": 100
+    },
+    {
+        "activityId": 240601,
+        "day": 3,
+        "zoneId": 3,
+        "goodsId": 1009,
+        "count": 10,
+        "discount": 90
+    },
+    {
+        "activityId": 240601,
+        "day": 3,
+        "zoneId": 3,
+        "goodsId": 1010,
+        "count": 6,
+        "discount": 100
+    },
+    {
+        "activityId": 240601,
+        "day": 3,
+        "zoneId": 3,
+        "goodsId": 1011,
+        "count": 6,
+        "discount": 80
+    },
+    {
+        "activityId": 240601,
+        "day": 3,
+        "zoneId": 4,
+        "goodsId": 1005,
+        "count": 10,
+        "discount": 90
+    },
+    {
+        "activityId": 240601,
+        "day": 3,
+        "zoneId": 4,
+        "goodsId": 1010,
+        "count": 6,
+        "discount": 90
+    },
+    {
+        "activityId": 240601,
+        "day": 3,
+        "zoneId": 4,
+        "goodsId": 1011,
+        "count": 6,
+        "discount": 120
+    },
+    {
+        "activityId": 240601,
+        "day": 3,
+        "zoneId": 4,
+        "goodsId": 1012,
+        "count": 4,
+        "discount": 100
+    },
+    {
+        "activityId": 240601,
+        "day": 3,
+        "zoneId": 4,
+        "goodsId": 1013,
+        "count": 2,
+        "discount": 100
+    },
+    {
+        "activityId": 240601,
+        "day": 4,
+        "zoneId": 0,
+        "goodsId": 1001,
+        "count": 10,
+        "discount": 10
+    },
+    {
+        "activityId": 240601,
+        "day": 4,
+        "zoneId": 0,
+        "goodsId": 1002,
+        "count": 10,
+        "discount": 90
+    },
+    {
+        "activityId": 240601,
+        "day": 4,
+        "zoneId": 0,
+        "goodsId": 1003,
+        "count": 10,
+        "discount": 100
+    },
+    {
+        "activityId": 240601,
+        "day": 4,
+        "zoneId": 0,
+        "goodsId": 1007,
+        "count": 10,
+        "discount": 100
+    },
+    {
+        "activityId": 240601,
+        "day": 4,
+        "zoneId": 0,
+        "goodsId": 1008,
+        "count": 10,
+        "discount": 110
+    },
+    {
+        "activityId": 240601,
+        "day": 4,
+        "zoneId": 1,
+        "goodsId": 1001,
+        "count": 10,
+        "discount": 120
+    },
+    {
+        "activityId": 240601,
+        "day": 4,
+        "zoneId": 1,
+        "goodsId": 1002,
+        "count": 10,
+        "discount": 90
+    },
+    {
+        "activityId": 240601,
+        "day": 4,
+        "zoneId": 1,
+        "goodsId": 1004,
+        "count": 10,
+        "discount": 100
+    },
+    {
+        "activityId": 240601,
+        "day": 4,
+        "zoneId": 1,
+        "goodsId": 1005,
+        "count": 10,
+        "discount": 80
+    },
+    {
+        "activityId": 240601,
+        "day": 4,
+        "zoneId": 1,
+        "goodsId": 1006,
+        "count": 10,
+        "discount": 120
+    },
+    {
+        "activityId": 240601,
+        "day": 4,
+        "zoneId": 2,
+        "goodsId": 1003,
+        "count": 10,
+        "discount": 90
+    },
+    {
+        "activityId": 240601,
+        "day": 4,
+        "zoneId": 2,
+        "goodsId": 1007,
+        "count": 10,
+        "discount": 100
+    },
+    {
+        "activityId": 240601,
+        "day": 4,
+        "zoneId": 2,
+        "goodsId": 1008,
+        "count": 10,
+        "discount": 90
+    },
+    {
+        "activityId": 240601,
+        "day": 4,
+        "zoneId": 2,
+        "goodsId": 1012,
+        "count": 4,
+        "discount": 80
+    },
+    {
+        "activityId": 240601,
+        "day": 4,
+        "zoneId": 2,
+        "goodsId": 1013,
+        "count": 2,
+        "discount": 110
+    },
+    {
+        "activityId": 240601,
+        "day": 4,
+        "zoneId": 3,
+        "goodsId": 1004,
+        "count": 10,
+        "discount": 120
+    },
+    {
+        "activityId": 240601,
+        "day": 4,
+        "zoneId": 3,
+        "goodsId": 1006,
+        "count": 10,
+        "discount": 120
+    },
+    {
+        "activityId": 240601,
+        "day": 4,
+        "zoneId": 3,
+        "goodsId": 1009,
+        "count": 10,
+        "discount": 90
+    },
+    {
+        "activityId": 240601,
+        "day": 4,
+        "zoneId": 3,
+        "goodsId": 1010,
+        "count": 6,
+        "discount": 90
+    },
+    {
+        "activityId": 240601,
+        "day": 4,
+        "zoneId": 3,
+        "goodsId": 1011,
+        "count": 6,
+        "discount": 100
+    },
+    {
+        "activityId": 240601,
+        "day": 4,
+        "zoneId": 4,
+        "goodsId": 1005,
+        "count": 10,
+        "discount": 100
+    },
+    {
+        "activityId": 240601,
+        "day": 4,
+        "zoneId": 4,
+        "goodsId": 1010,
+        "count": 6,
+        "discount": 100
+    },
+    {
+        "activityId": 240601,
+        "day": 4,
+        "zoneId": 4,
+        "goodsId": 1011,
+        "count": 6,
+        "discount": 110
+    },
+    {
+        "activityId": 240601,
+        "day": 4,
+        "zoneId": 4,
+        "goodsId": 1012,
+        "count": 4,
+        "discount": 120
+    },
+    {
+        "activityId": 240601,
+        "day": 4,
+        "zoneId": 4,
+        "goodsId": 1013,
+        "count": 2,
+        "discount": 110
+    },
+    {
+        "activityId": 240601,
+        "day": 5,
+        "zoneId": 0,
+        "goodsId": 1001,
+        "count": 10,
+        "discount": 10
+    },
+    {
+        "activityId": 240601,
+        "day": 5,
+        "zoneId": 0,
+        "goodsId": 1002,
+        "count": 10,
+        "discount": 120
+    },
+    {
+        "activityId": 240601,
+        "day": 5,
+        "zoneId": 0,
+        "goodsId": 1003,
+        "count": 10,
+        "discount": 90
+    },
+    {
+        "activityId": 240601,
+        "day": 5,
+        "zoneId": 0,
+        "goodsId": 1007,
+        "count": 10,
+        "discount": 120
+    },
+    {
+        "activityId": 240601,
+        "day": 5,
+        "zoneId": 0,
+        "goodsId": 1008,
+        "count": 10,
+        "discount": 90
+    },
+    {
+        "activityId": 240601,
+        "day": 5,
+        "zoneId": 1,
+        "goodsId": 1001,
+        "count": 10,
+        "discount": 110
+    },
+    {
+        "activityId": 240601,
+        "day": 5,
+        "zoneId": 1,
+        "goodsId": 1002,
+        "count": 10,
+        "discount": 90
+    },
+    {
+        "activityId": 240601,
+        "day": 5,
+        "zoneId": 1,
+        "goodsId": 1004,
+        "count": 10,
+        "discount": 80
+    },
+    {
+        "activityId": 240601,
+        "day": 5,
+        "zoneId": 1,
+        "goodsId": 1005,
+        "count": 10,
+        "discount": 120
+    },
+    {
+        "activityId": 240601,
+        "day": 5,
+        "zoneId": 1,
+        "goodsId": 1006,
+        "count": 10,
+        "discount": 110
+    },
+    {
+        "activityId": 240601,
+        "day": 5,
+        "zoneId": 2,
+        "goodsId": 1003,
+        "count": 10,
+        "discount": 100
+    },
+    {
+        "activityId": 240601,
+        "day": 5,
+        "zoneId": 2,
+        "goodsId": 1007,
+        "count": 10,
+        "discount": 100
+    },
+    {
+        "activityId": 240601,
+        "day": 5,
+        "zoneId": 2,
+        "goodsId": 1008,
+        "count": 10,
+        "discount": 90
+    },
+    {
+        "activityId": 240601,
+        "day": 5,
+        "zoneId": 2,
+        "goodsId": 1012,
+        "count": 4,
+        "discount": 80
+    },
+    {
+        "activityId": 240601,
+        "day": 5,
+        "zoneId": 2,
+        "goodsId": 1013,
+        "count": 2,
+        "discount": 90
+    },
+    {
+        "activityId": 240601,
+        "day": 5,
+        "zoneId": 3,
+        "goodsId": 1004,
+        "count": 10,
+        "discount": 100
+    },
+    {
+        "activityId": 240601,
+        "day": 5,
+        "zoneId": 3,
+        "goodsId": 1006,
+        "count": 10,
+        "discount": 120
+    },
+    {
+        "activityId": 240601,
+        "day": 5,
+        "zoneId": 3,
+        "goodsId": 1009,
+        "count": 10,
+        "discount": 80
+    },
+    {
+        "activityId": 240601,
+        "day": 5,
+        "zoneId": 3,
+        "goodsId": 1010,
+        "count": 6,
+        "discount": 120
+    },
+    {
+        "activityId": 240601,
+        "day": 5,
+        "zoneId": 3,
+        "goodsId": 1011,
+        "count": 6,
+        "discount": 90
+    },
+    {
+        "activityId": 240601,
+        "day": 5,
+        "zoneId": 4,
+        "goodsId": 1005,
+        "count": 10,
+        "discount": 80
+    },
+    {
+        "activityId": 240601,
+        "day": 5,
+        "zoneId": 4,
+        "goodsId": 1010,
+        "count": 6,
+        "discount": 110
+    },
+    {
+        "activityId": 240601,
+        "day": 5,
+        "zoneId": 4,
+        "goodsId": 1011,
+        "count": 6,
+        "discount": 90
+    },
+    {
+        "activityId": 240601,
+        "day": 5,
+        "zoneId": 4,
+        "goodsId": 1012,
+        "count": 4,
+        "discount": 110
+    },
+    {
+        "activityId": 240601,
+        "day": 5,
+        "zoneId": 4,
+        "goodsId": 1013,
+        "count": 2,
+        "discount": 120
+    },
+    {
+        "activityId": 240601,
+        "day": 6,
+        "zoneId": 0,
+        "goodsId": 1001,
+        "count": 10,
+        "discount": 10
+    },
+    {
+        "activityId": 240601,
+        "day": 6,
+        "zoneId": 0,
+        "goodsId": 1002,
+        "count": 10,
+        "discount": 80
+    },
+    {
+        "activityId": 240601,
+        "day": 6,
+        "zoneId": 0,
+        "goodsId": 1003,
+        "count": 10,
+        "discount": 100
+    },
+    {
+        "activityId": 240601,
+        "day": 6,
+        "zoneId": 0,
+        "goodsId": 1007,
+        "count": 10,
+        "discount": 110
+    },
+    {
+        "activityId": 240601,
+        "day": 6,
+        "zoneId": 0,
+        "goodsId": 1008,
+        "count": 10,
+        "discount": 80
+    },
+    {
+        "activityId": 240601,
+        "day": 6,
+        "zoneId": 1,
+        "goodsId": 1001,
+        "count": 10,
+        "discount": 110
+    },
+    {
+        "activityId": 240601,
+        "day": 6,
+        "zoneId": 1,
+        "goodsId": 1002,
+        "count": 10,
+        "discount": 90
+    },
+    {
+        "activityId": 240601,
+        "day": 6,
+        "zoneId": 1,
+        "goodsId": 1004,
+        "count": 10,
+        "discount": 100
+    },
+    {
+        "activityId": 240601,
+        "day": 6,
+        "zoneId": 1,
+        "goodsId": 1005,
+        "count": 10,
+        "discount": 120
+    },
+    {
+        "activityId": 240601,
+        "day": 6,
+        "zoneId": 1,
+        "goodsId": 1006,
+        "count": 10,
+        "discount": 100
+    },
+    {
+        "activityId": 240601,
+        "day": 6,
+        "zoneId": 2,
+        "goodsId": 1003,
+        "count": 10,
+        "discount": 120
+    },
+    {
+        "activityId": 240601,
+        "day": 6,
+        "zoneId": 2,
+        "goodsId": 1007,
+        "count": 10,
+        "discount": 90
+    },
+    {
+        "activityId": 240601,
+        "day": 6,
+        "zoneId": 2,
+        "goodsId": 1008,
+        "count": 10,
+        "discount": 100
+    },
+    {
+        "activityId": 240601,
+        "day": 6,
+        "zoneId": 2,
+        "goodsId": 1012,
+        "count": 4,
+        "discount": 100
+    },
+    {
+        "activityId": 240601,
+        "day": 6,
+        "zoneId": 2,
+        "goodsId": 1013,
+        "count": 2,
+        "discount": 100
+    },
+    {
+        "activityId": 240601,
+        "day": 6,
+        "zoneId": 3,
+        "goodsId": 1004,
+        "count": 10,
+        "discount": 120
+    },
+    {
+        "activityId": 240601,
+        "day": 6,
+        "zoneId": 3,
+        "goodsId": 1006,
+        "count": 10,
+        "discount": 110
+    },
+    {
+        "activityId": 240601,
+        "day": 6,
+        "zoneId": 3,
+        "goodsId": 1009,
+        "count": 10,
+        "discount": 90
+    },
+    {
+        "activityId": 240601,
+        "day": 6,
+        "zoneId": 3,
+        "goodsId": 1010,
+        "count": 6,
+        "discount": 110
+    },
+    {
+        "activityId": 240601,
+        "day": 6,
+        "zoneId": 3,
+        "goodsId": 1011,
+        "count": 6,
+        "discount": 100
+    },
+    {
+        "activityId": 240601,
+        "day": 6,
+        "zoneId": 4,
+        "goodsId": 1005,
+        "count": 10,
+        "discount": 120
+    },
+    {
+        "activityId": 240601,
+        "day": 6,
+        "zoneId": 4,
+        "goodsId": 1010,
+        "count": 6,
+        "discount": 100
+    },
+    {
+        "activityId": 240601,
+        "day": 6,
+        "zoneId": 4,
+        "goodsId": 1011,
+        "count": 6,
+        "discount": 90
+    },
+    {
+        "activityId": 240601,
+        "day": 6,
+        "zoneId": 4,
+        "goodsId": 1012,
+        "count": 4,
+        "discount": 100
+    },
+    {
+        "activityId": 240601,
+        "day": 6,
+        "zoneId": 4,
+        "goodsId": 1013,
+        "count": 2,
+        "discount": 110
+    },
+    {
+        "activityId": 240601,
+        "day": 7,
+        "zoneId": 0,
+        "goodsId": 1001,
+        "count": 10,
+        "discount": 10
+    },
+    {
+        "activityId": 240601,
+        "day": 7,
+        "zoneId": 0,
+        "goodsId": 1002,
+        "count": 10,
+        "discount": 120
+    },
+    {
+        "activityId": 240601,
+        "day": 7,
+        "zoneId": 0,
+        "goodsId": 1003,
+        "count": 10,
+        "discount": 90
+    },
+    {
+        "activityId": 240601,
+        "day": 7,
+        "zoneId": 0,
+        "goodsId": 1007,
+        "count": 10,
+        "discount": 110
+    },
+    {
+        "activityId": 240601,
+        "day": 7,
+        "zoneId": 0,
+        "goodsId": 1008,
+        "count": 10,
+        "discount": 80
+    },
+    {
+        "activityId": 240601,
+        "day": 7,
+        "zoneId": 1,
+        "goodsId": 1001,
+        "count": 10,
+        "discount": 110
+    },
+    {
+        "activityId": 240601,
+        "day": 7,
+        "zoneId": 1,
+        "goodsId": 1002,
+        "count": 10,
+        "discount": 80
+    },
+    {
+        "activityId": 240601,
+        "day": 7,
+        "zoneId": 1,
+        "goodsId": 1004,
+        "count": 10,
+        "discount": 110
+    },
+    {
+        "activityId": 240601,
+        "day": 7,
+        "zoneId": 1,
+        "goodsId": 1005,
+        "count": 10,
+        "discount": 80
+    },
+    {
+        "activityId": 240601,
+        "day": 7,
+        "zoneId": 1,
+        "goodsId": 1006,
+        "count": 10,
+        "discount": 80
+    },
+    {
+        "activityId": 240601,
+        "day": 7,
+        "zoneId": 2,
+        "goodsId": 1003,
+        "count": 10,
+        "discount": 100
+    },
+    {
+        "activityId": 240601,
+        "day": 7,
+        "zoneId": 2,
+        "goodsId": 1007,
+        "count": 10,
+        "discount": 100
+    },
+    {
+        "activityId": 240601,
+        "day": 7,
+        "zoneId": 2,
+        "goodsId": 1008,
+        "count": 10,
+        "discount": 100
+    },
+    {
+        "activityId": 240601,
+        "day": 7,
+        "zoneId": 2,
+        "goodsId": 1012,
+        "count": 4,
+        "discount": 100
+    },
+    {
+        "activityId": 240601,
+        "day": 7,
+        "zoneId": 2,
+        "goodsId": 1013,
+        "count": 2,
+        "discount": 100
+    },
+    {
+        "activityId": 240601,
+        "day": 7,
+        "zoneId": 3,
+        "goodsId": 1004,
+        "count": 10,
+        "discount": 100
+    },
+    {
+        "activityId": 240601,
+        "day": 7,
+        "zoneId": 3,
+        "goodsId": 1006,
+        "count": 10,
+        "discount": 80
+    },
+    {
+        "activityId": 240601,
+        "day": 7,
+        "zoneId": 3,
+        "goodsId": 1009,
+        "count": 10,
+        "discount": 90
+    },
+    {
+        "activityId": 240601,
+        "day": 7,
+        "zoneId": 3,
+        "goodsId": 1010,
+        "count": 6,
+        "discount": 80
+    },
+    {
+        "activityId": 240601,
+        "day": 7,
+        "zoneId": 3,
+        "goodsId": 1011,
+        "count": 6,
+        "discount": 80
+    },
+    {
+        "activityId": 240601,
+        "day": 7,
+        "zoneId": 4,
+        "goodsId": 1005,
+        "count": 10,
+        "discount": 120
+    },
+    {
+        "activityId": 240601,
+        "day": 7,
+        "zoneId": 4,
+        "goodsId": 1010,
+        "count": 6,
+        "discount": 110
+    },
+    {
+        "activityId": 240601,
+        "day": 7,
+        "zoneId": 4,
+        "goodsId": 1011,
+        "count": 6,
+        "discount": 80
+    },
+    {
+        "activityId": 240601,
+        "day": 7,
+        "zoneId": 4,
+        "goodsId": 1012,
+        "count": 4,
+        "discount": 100
+    },
+    {
+        "activityId": 240601,
+        "day": 7,
+        "zoneId": 4,
+        "goodsId": 1013,
+        "count": 2,
+        "discount": 100
+    },
+    {
+        "activityId": 240601,
+        "day": 8,
+        "zoneId": 0,
+        "goodsId": 1001,
+        "count": 10,
+        "discount": 10
+    },
+    {
+        "activityId": 240601,
+        "day": 8,
+        "zoneId": 0,
+        "goodsId": 1002,
+        "count": 10,
+        "discount": 100
+    },
+    {
+        "activityId": 240601,
+        "day": 8,
+        "zoneId": 0,
+        "goodsId": 1003,
+        "count": 10,
+        "discount": 80
+    },
+    {
+        "activityId": 240601,
+        "day": 8,
+        "zoneId": 0,
+        "goodsId": 1007,
+        "count": 10,
+        "discount": 110
+    },
+    {
+        "activityId": 240601,
+        "day": 8,
+        "zoneId": 0,
+        "goodsId": 1008,
+        "count": 10,
+        "discount": 90
+    },
+    {
+        "activityId": 240601,
+        "day": 8,
+        "zoneId": 1,
+        "goodsId": 1001,
+        "count": 10,
+        "discount": 120
+    },
+    {
+        "activityId": 240601,
+        "day": 8,
+        "zoneId": 1,
+        "goodsId": 1002,
+        "count": 10,
+        "discount": 120
+    },
+    {
+        "activityId": 240601,
+        "day": 8,
+        "zoneId": 1,
+        "goodsId": 1004,
+        "count": 10,
+        "discount": 110
+    },
+    {
+        "activityId": 240601,
+        "day": 8,
+        "zoneId": 1,
+        "goodsId": 1005,
+        "count": 10,
+        "discount": 80
+    },
+    {
+        "activityId": 240601,
+        "day": 8,
+        "zoneId": 1,
+        "goodsId": 1006,
+        "count": 10,
+        "discount": 90
+    },
+    {
+        "activityId": 240601,
+        "day": 8,
+        "zoneId": 2,
+        "goodsId": 1003,
+        "count": 10,
+        "discount": 100
+    },
+    {
+        "activityId": 240601,
+        "day": 8,
+        "zoneId": 2,
+        "goodsId": 1007,
+        "count": 10,
+        "discount": 100
+    },
+    {
+        "activityId": 240601,
+        "day": 8,
+        "zoneId": 2,
+        "goodsId": 1008,
+        "count": 10,
+        "discount": 110
+    },
+    {
+        "activityId": 240601,
+        "day": 8,
+        "zoneId": 2,
+        "goodsId": 1012,
+        "count": 4,
+        "discount": 80
+    },
+    {
+        "activityId": 240601,
+        "day": 8,
+        "zoneId": 2,
+        "goodsId": 1013,
+        "count": 2,
+        "discount": 110
+    },
+    {
+        "activityId": 240601,
+        "day": 8,
+        "zoneId": 3,
+        "goodsId": 1004,
+        "count": 10,
+        "discount": 90
+    },
+    {
+        "activityId": 240601,
+        "day": 8,
+        "zoneId": 3,
+        "goodsId": 1006,
+        "count": 10,
+        "discount": 120
+    },
+    {
+        "activityId": 240601,
+        "day": 8,
+        "zoneId": 3,
+        "goodsId": 1009,
+        "count": 10,
+        "discount": 80
+    },
+    {
+        "activityId": 240601,
+        "day": 8,
+        "zoneId": 3,
+        "goodsId": 1010,
+        "count": 6,
+        "discount": 80
+    },
+    {
+        "activityId": 240601,
+        "day": 8,
+        "zoneId": 3,
+        "goodsId": 1011,
+        "count": 6,
+        "discount": 80
+    },
+    {
+        "activityId": 240601,
+        "day": 8,
+        "zoneId": 4,
+        "goodsId": 1005,
+        "count": 10,
+        "discount": 110
+    },
+    {
+        "activityId": 240601,
+        "day": 8,
+        "zoneId": 4,
+        "goodsId": 1010,
+        "count": 6,
+        "discount": 90
+    },
+    {
+        "activityId": 240601,
+        "day": 8,
+        "zoneId": 4,
+        "goodsId": 1011,
+        "count": 6,
+        "discount": 90
+    },
+    {
+        "activityId": 240601,
+        "day": 8,
+        "zoneId": 4,
+        "goodsId": 1012,
+        "count": 4,
+        "discount": 110
+    },
+    {
+        "activityId": 240601,
+        "day": 8,
+        "zoneId": 4,
+        "goodsId": 1013,
+        "count": 2,
+        "discount": 110
+    },
+    {
+        "activityId": 240601,
+        "day": 9,
+        "zoneId": 0,
+        "goodsId": 1001,
+        "count": 10,
+        "discount": 10
+    },
+    {
+        "activityId": 240601,
+        "day": 9,
+        "zoneId": 0,
+        "goodsId": 1002,
+        "count": 10,
+        "discount": 120
+    },
+    {
+        "activityId": 240601,
+        "day": 9,
+        "zoneId": 0,
+        "goodsId": 1003,
+        "count": 10,
+        "discount": 90
+    },
+    {
+        "activityId": 240601,
+        "day": 9,
+        "zoneId": 0,
+        "goodsId": 1007,
+        "count": 10,
+        "discount": 110
+    },
+    {
+        "activityId": 240601,
+        "day": 9,
+        "zoneId": 0,
+        "goodsId": 1008,
+        "count": 10,
+        "discount": 120
+    },
+    {
+        "activityId": 240601,
+        "day": 9,
+        "zoneId": 1,
+        "goodsId": 1001,
+        "count": 10,
+        "discount": 110
+    },
+    {
+        "activityId": 240601,
+        "day": 9,
+        "zoneId": 1,
+        "goodsId": 1002,
+        "count": 10,
+        "discount": 120
+    },
+    {
+        "activityId": 240601,
+        "day": 9,
+        "zoneId": 1,
+        "goodsId": 1004,
+        "count": 10,
+        "discount": 80
+    },
+    {
+        "activityId": 240601,
+        "day": 9,
+        "zoneId": 1,
+        "goodsId": 1005,
+        "count": 10,
+        "discount": 80
+    },
+    {
+        "activityId": 240601,
+        "day": 9,
+        "zoneId": 1,
+        "goodsId": 1006,
+        "count": 10,
+        "discount": 100
+    },
+    {
+        "activityId": 240601,
+        "day": 9,
+        "zoneId": 2,
+        "goodsId": 1003,
+        "count": 10,
+        "discount": 120
+    },
+    {
+        "activityId": 240601,
+        "day": 9,
+        "zoneId": 2,
+        "goodsId": 1007,
+        "count": 10,
+        "discount": 110
+    },
+    {
+        "activityId": 240601,
+        "day": 9,
+        "zoneId": 2,
+        "goodsId": 1008,
+        "count": 10,
+        "discount": 120
+    },
+    {
+        "activityId": 240601,
+        "day": 9,
+        "zoneId": 2,
+        "goodsId": 1012,
+        "count": 4,
+        "discount": 100
+    },
+    {
+        "activityId": 240601,
+        "day": 9,
+        "zoneId": 2,
+        "goodsId": 1013,
+        "count": 2,
+        "discount": 100
+    },
+    {
+        "activityId": 240601,
+        "day": 9,
+        "zoneId": 3,
+        "goodsId": 1004,
+        "count": 10,
+        "discount": 120
+    },
+    {
+        "activityId": 240601,
+        "day": 9,
+        "zoneId": 3,
+        "goodsId": 1006,
+        "count": 10,
+        "discount": 100
+    },
+    {
+        "activityId": 240601,
+        "day": 9,
+        "zoneId": 3,
+        "goodsId": 1009,
+        "count": 10,
+        "discount": 80
+    },
+    {
+        "activityId": 240601,
+        "day": 9,
+        "zoneId": 3,
+        "goodsId": 1010,
+        "count": 6,
+        "discount": 120
+    },
+    {
+        "activityId": 240601,
+        "day": 9,
+        "zoneId": 3,
+        "goodsId": 1011,
+        "count": 6,
+        "discount": 90
+    },
+    {
+        "activityId": 240601,
+        "day": 9,
+        "zoneId": 4,
+        "goodsId": 1005,
+        "count": 10,
+        "discount": 120
+    },
+    {
+        "activityId": 240601,
+        "day": 9,
+        "zoneId": 4,
+        "goodsId": 1010,
+        "count": 6,
+        "discount": 100
+    },
+    {
+        "activityId": 240601,
+        "day": 9,
+        "zoneId": 4,
+        "goodsId": 1011,
+        "count": 6,
+        "discount": 90
+    },
+    {
+        "activityId": 240601,
+        "day": 9,
+        "zoneId": 4,
+        "goodsId": 1012,
+        "count": 4,
+        "discount": 120
+    },
+    {
+        "activityId": 240601,
+        "day": 9,
+        "zoneId": 4,
+        "goodsId": 1013,
+        "count": 2,
+        "discount": 120
+    },
+    {
+        "activityId": 240601,
+        "day": 10,
+        "zoneId": 0,
+        "goodsId": 1001,
+        "count": 10,
+        "discount": 10
+    },
+    {
+        "activityId": 240601,
+        "day": 10,
+        "zoneId": 0,
+        "goodsId": 1002,
+        "count": 10,
+        "discount": 80
+    },
+    {
+        "activityId": 240601,
+        "day": 10,
+        "zoneId": 0,
+        "goodsId": 1003,
+        "count": 10,
+        "discount": 120
+    },
+    {
+        "activityId": 240601,
+        "day": 10,
+        "zoneId": 0,
+        "goodsId": 1007,
+        "count": 10,
+        "discount": 110
+    },
+    {
+        "activityId": 240601,
+        "day": 10,
+        "zoneId": 0,
+        "goodsId": 1008,
+        "count": 10,
+        "discount": 120
+    },
+    {
+        "activityId": 240601,
+        "day": 10,
+        "zoneId": 1,
+        "goodsId": 1001,
+        "count": 10,
+        "discount": 120
+    },
+    {
+        "activityId": 240601,
+        "day": 10,
+        "zoneId": 1,
+        "goodsId": 1002,
+        "count": 10,
+        "discount": 120
+    },
+    {
+        "activityId": 240601,
+        "day": 10,
+        "zoneId": 1,
+        "goodsId": 1004,
+        "count": 10,
+        "discount": 80
+    },
+    {
+        "activityId": 240601,
+        "day": 10,
+        "zoneId": 1,
+        "goodsId": 1005,
+        "count": 10,
+        "discount": 80
+    },
+    {
+        "activityId": 240601,
+        "day": 10,
+        "zoneId": 1,
+        "goodsId": 1006,
+        "count": 10,
+        "discount": 120
+    },
+    {
+        "activityId": 240601,
+        "day": 10,
+        "zoneId": 2,
+        "goodsId": 1003,
+        "count": 10,
+        "discount": 90
+    },
+    {
+        "activityId": 240601,
+        "day": 10,
+        "zoneId": 2,
+        "goodsId": 1007,
+        "count": 10,
+        "discount": 100
+    },
+    {
+        "activityId": 240601,
+        "day": 10,
+        "zoneId": 2,
+        "goodsId": 1008,
+        "count": 10,
+        "discount": 110
+    },
+    {
+        "activityId": 240601,
+        "day": 10,
+        "zoneId": 2,
+        "goodsId": 1012,
+        "count": 4,
+        "discount": 120
+    },
+    {
+        "activityId": 240601,
+        "day": 10,
+        "zoneId": 2,
+        "goodsId": 1013,
+        "count": 2,
+        "discount": 100
+    },
+    {
+        "activityId": 240601,
+        "day": 10,
+        "zoneId": 3,
+        "goodsId": 1004,
+        "count": 10,
+        "discount": 120
+    },
+    {
+        "activityId": 240601,
+        "day": 10,
+        "zoneId": 3,
+        "goodsId": 1006,
+        "count": 10,
+        "discount": 100
+    },
+    {
+        "activityId": 240601,
+        "day": 10,
+        "zoneId": 3,
+        "goodsId": 1009,
+        "count": 10,
+        "discount": 90
+    },
+    {
+        "activityId": 240601,
+        "day": 10,
+        "zoneId": 3,
+        "goodsId": 1010,
+        "count": 6,
+        "discount": 80
+    },
+    {
+        "activityId": 240601,
+        "day": 10,
+        "zoneId": 3,
+        "goodsId": 1011,
+        "count": 6,
+        "discount": 120
+    },
+    {
+        "activityId": 240601,
+        "day": 10,
+        "zoneId": 4,
+        "goodsId": 1005,
+        "count": 10,
+        "discount": 90
+    },
+    {
+        "activityId": 240601,
+        "day": 10,
+        "zoneId": 4,
+        "goodsId": 1010,
+        "count": 6,
+        "discount": 110
+    },
+    {
+        "activityId": 240601,
+        "day": 10,
+        "zoneId": 4,
+        "goodsId": 1011,
+        "count": 6,
+        "discount": 80
+    },
+    {
+        "activityId": 240601,
+        "day": 10,
+        "zoneId": 4,
+        "goodsId": 1012,
+        "count": 4,
+        "discount": 100
+    },
+    {
+        "activityId": 240601,
+        "day": 10,
+        "zoneId": 4,
+        "goodsId": 1013,
+        "count": 2,
+        "discount": 120
+    },
+    {
+        "activityId": 240601,
+        "day": 11,
+        "zoneId": 0,
+        "goodsId": 1001,
+        "count": 10,
+        "discount": 10
+    },
+    {
+        "activityId": 240601,
+        "day": 11,
+        "zoneId": 0,
+        "goodsId": 1002,
+        "count": 10,
+        "discount": 120
+    },
+    {
+        "activityId": 240601,
+        "day": 11,
+        "zoneId": 0,
+        "goodsId": 1003,
+        "count": 10,
+        "discount": 80
+    },
+    {
+        "activityId": 240601,
+        "day": 11,
+        "zoneId": 0,
+        "goodsId": 1007,
+        "count": 10,
+        "discount": 120
+    },
+    {
+        "activityId": 240601,
+        "day": 11,
+        "zoneId": 0,
+        "goodsId": 1008,
+        "count": 10,
+        "discount": 80
+    },
+    {
+        "activityId": 240601,
+        "day": 11,
+        "zoneId": 1,
+        "goodsId": 1001,
+        "count": 10,
+        "discount": 120
+    },
+    {
+        "activityId": 240601,
+        "day": 11,
+        "zoneId": 1,
+        "goodsId": 1002,
+        "count": 10,
+        "discount": 100
+    },
+    {
+        "activityId": 240601,
+        "day": 11,
+        "zoneId": 1,
+        "goodsId": 1004,
+        "count": 10,
+        "discount": 90
+    },
+    {
+        "activityId": 240601,
+        "day": 11,
+        "zoneId": 1,
+        "goodsId": 1005,
+        "count": 10,
+        "discount": 110
+    },
+    {
+        "activityId": 240601,
+        "day": 11,
+        "zoneId": 1,
+        "goodsId": 1006,
+        "count": 10,
+        "discount": 80
+    },
+    {
+        "activityId": 240601,
+        "day": 11,
+        "zoneId": 2,
+        "goodsId": 1003,
+        "count": 10,
+        "discount": 120
+    },
+    {
+        "activityId": 240601,
+        "day": 11,
+        "zoneId": 2,
+        "goodsId": 1007,
+        "count": 10,
+        "discount": 100
+    },
+    {
+        "activityId": 240601,
+        "day": 11,
+        "zoneId": 2,
+        "goodsId": 1008,
+        "count": 10,
+        "discount": 120
+    },
+    {
+        "activityId": 240601,
+        "day": 11,
+        "zoneId": 2,
+        "goodsId": 1012,
+        "count": 4,
+        "discount": 90
+    },
+    {
+        "activityId": 240601,
+        "day": 11,
+        "zoneId": 2,
+        "goodsId": 1013,
+        "count": 2,
+        "discount": 90
+    },
+    {
+        "activityId": 240601,
+        "day": 11,
+        "zoneId": 3,
+        "goodsId": 1004,
+        "count": 10,
+        "discount": 120
+    },
+    {
+        "activityId": 240601,
+        "day": 11,
+        "zoneId": 3,
+        "goodsId": 1006,
+        "count": 10,
+        "discount": 110
+    },
+    {
+        "activityId": 240601,
+        "day": 11,
+        "zoneId": 3,
+        "goodsId": 1009,
+        "count": 10,
+        "discount": 90
+    },
+    {
+        "activityId": 240601,
+        "day": 11,
+        "zoneId": 3,
+        "goodsId": 1010,
+        "count": 6,
+        "discount": 90
+    },
+    {
+        "activityId": 240601,
+        "day": 11,
+        "zoneId": 3,
+        "goodsId": 1011,
+        "count": 6,
+        "discount": 100
+    },
+    {
+        "activityId": 240601,
+        "day": 11,
+        "zoneId": 4,
+        "goodsId": 1005,
+        "count": 10,
+        "discount": 90
+    },
+    {
+        "activityId": 240601,
+        "day": 11,
+        "zoneId": 4,
+        "goodsId": 1010,
+        "count": 6,
+        "discount": 110
+    },
+    {
+        "activityId": 240601,
+        "day": 11,
+        "zoneId": 4,
+        "goodsId": 1011,
+        "count": 6,
+        "discount": 120
+    },
+    {
+        "activityId": 240601,
+        "day": 11,
+        "zoneId": 4,
+        "goodsId": 1012,
+        "count": 4,
+        "discount": 90
+    },
+    {
+        "activityId": 240601,
+        "day": 11,
+        "zoneId": 4,
+        "goodsId": 1013,
+        "count": 2,
+        "discount": 120
+    },
+    {
+        "activityId": 240601,
+        "day": 12,
+        "zoneId": 0,
+        "goodsId": 1001,
+        "count": 10,
+        "discount": 10
+    },
+    {
+        "activityId": 240601,
+        "day": 12,
+        "zoneId": 0,
+        "goodsId": 1002,
+        "count": 10,
+        "discount": 100
+    },
+    {
+        "activityId": 240601,
+        "day": 12,
+        "zoneId": 0,
+        "goodsId": 1003,
+        "count": 10,
+        "discount": 120
+    },
+    {
+        "activityId": 240601,
+        "day": 12,
+        "zoneId": 0,
+        "goodsId": 1007,
+        "count": 10,
+        "discount": 90
+    },
+    {
+        "activityId": 240601,
+        "day": 12,
+        "zoneId": 0,
+        "goodsId": 1008,
+        "count": 10,
+        "discount": 100
+    },
+    {
+        "activityId": 240601,
+        "day": 12,
+        "zoneId": 1,
+        "goodsId": 1001,
+        "count": 10,
+        "discount": 110
+    },
+    {
+        "activityId": 240601,
+        "day": 12,
+        "zoneId": 1,
+        "goodsId": 1002,
+        "count": 10,
+        "discount": 100
+    },
+    {
+        "activityId": 240601,
+        "day": 12,
+        "zoneId": 1,
+        "goodsId": 1004,
+        "count": 10,
+        "discount": 120
+    },
+    {
+        "activityId": 240601,
+        "day": 12,
+        "zoneId": 1,
+        "goodsId": 1005,
+        "count": 10,
+        "discount": 90
+    },
+    {
+        "activityId": 240601,
+        "day": 12,
+        "zoneId": 1,
+        "goodsId": 1006,
+        "count": 10,
+        "discount": 100
+    },
+    {
+        "activityId": 240601,
+        "day": 12,
+        "zoneId": 2,
+        "goodsId": 1003,
+        "count": 10,
+        "discount": 80
+    },
+    {
+        "activityId": 240601,
+        "day": 12,
+        "zoneId": 2,
+        "goodsId": 1007,
+        "count": 10,
+        "discount": 90
+    },
+    {
+        "activityId": 240601,
+        "day": 12,
+        "zoneId": 2,
+        "goodsId": 1008,
+        "count": 10,
+        "discount": 90
+    },
+    {
+        "activityId": 240601,
+        "day": 12,
+        "zoneId": 2,
+        "goodsId": 1012,
+        "count": 4,
+        "discount": 110
+    },
+    {
+        "activityId": 240601,
+        "day": 12,
+        "zoneId": 2,
+        "goodsId": 1013,
+        "count": 2,
+        "discount": 100
+    },
+    {
+        "activityId": 240601,
+        "day": 12,
+        "zoneId": 3,
+        "goodsId": 1004,
+        "count": 10,
+        "discount": 90
+    },
+    {
+        "activityId": 240601,
+        "day": 12,
+        "zoneId": 3,
+        "goodsId": 1006,
+        "count": 10,
+        "discount": 90
+    },
+    {
+        "activityId": 240601,
+        "day": 12,
+        "zoneId": 3,
+        "goodsId": 1009,
+        "count": 10,
+        "discount": 90
+    },
+    {
+        "activityId": 240601,
+        "day": 12,
+        "zoneId": 3,
+        "goodsId": 1010,
+        "count": 6,
+        "discount": 90
+    },
+    {
+        "activityId": 240601,
+        "day": 12,
+        "zoneId": 3,
+        "goodsId": 1011,
+        "count": 6,
+        "discount": 110
+    },
+    {
+        "activityId": 240601,
+        "day": 12,
+        "zoneId": 4,
+        "goodsId": 1005,
+        "count": 10,
+        "discount": 80
+    },
+    {
+        "activityId": 240601,
+        "day": 12,
+        "zoneId": 4,
+        "goodsId": 1010,
+        "count": 6,
+        "discount": 120
+    },
+    {
+        "activityId": 240601,
+        "day": 12,
+        "zoneId": 4,
+        "goodsId": 1011,
+        "count": 6,
+        "discount": 120
+    },
+    {
+        "activityId": 240601,
+        "day": 12,
+        "zoneId": 4,
+        "goodsId": 1012,
+        "count": 4,
+        "discount": 100
+    },
+    {
+        "activityId": 240601,
+        "day": 12,
+        "zoneId": 4,
+        "goodsId": 1013,
+        "count": 2,
+        "discount": 90
+    },
+    {
+        "activityId": 240601,
+        "day": 13,
+        "zoneId": 0,
+        "goodsId": 1001,
+        "count": 10,
+        "discount": 10
+    },
+    {
+        "activityId": 240601,
+        "day": 13,
+        "zoneId": 0,
+        "goodsId": 1002,
+        "count": 10,
+        "discount": 80
+    },
+    {
+        "activityId": 240601,
+        "day": 13,
+        "zoneId": 0,
+        "goodsId": 1003,
+        "count": 10,
+        "discount": 100
+    },
+    {
+        "activityId": 240601,
+        "day": 13,
+        "zoneId": 0,
+        "goodsId": 1007,
+        "count": 10,
+        "discount": 100
+    },
+    {
+        "activityId": 240601,
+        "day": 13,
+        "zoneId": 0,
+        "goodsId": 1008,
+        "count": 10,
+        "discount": 110
+    },
+    {
+        "activityId": 240601,
+        "day": 13,
+        "zoneId": 1,
+        "goodsId": 1001,
+        "count": 10,
+        "discount": 120
+    },
+    {
+        "activityId": 240601,
+        "day": 13,
+        "zoneId": 1,
+        "goodsId": 1002,
+        "count": 10,
+        "discount": 90
+    },
+    {
+        "activityId": 240601,
+        "day": 13,
+        "zoneId": 1,
+        "goodsId": 1004,
+        "count": 10,
+        "discount": 90
+    },
+    {
+        "activityId": 240601,
+        "day": 13,
+        "zoneId": 1,
+        "goodsId": 1005,
+        "count": 10,
+        "discount": 80
+    },
+    {
+        "activityId": 240601,
+        "day": 13,
+        "zoneId": 1,
+        "goodsId": 1006,
+        "count": 10,
+        "discount": 80
+    },
+    {
+        "activityId": 240601,
+        "day": 13,
+        "zoneId": 2,
+        "goodsId": 1003,
+        "count": 10,
+        "discount": 100
+    },
+    {
+        "activityId": 240601,
+        "day": 13,
+        "zoneId": 2,
+        "goodsId": 1007,
+        "count": 10,
+        "discount": 120
+    },
+    {
+        "activityId": 240601,
+        "day": 13,
+        "zoneId": 2,
+        "goodsId": 1008,
+        "count": 10,
+        "discount": 110
+    },
+    {
+        "activityId": 240601,
+        "day": 13,
+        "zoneId": 2,
+        "goodsId": 1012,
+        "count": 4,
+        "discount": 120
+    },
+    {
+        "activityId": 240601,
+        "day": 13,
+        "zoneId": 2,
+        "goodsId": 1013,
+        "count": 2,
+        "discount": 90
+    },
+    {
+        "activityId": 240601,
+        "day": 13,
+        "zoneId": 3,
+        "goodsId": 1004,
+        "count": 10,
+        "discount": 100
+    },
+    {
+        "activityId": 240601,
+        "day": 13,
+        "zoneId": 3,
+        "goodsId": 1006,
+        "count": 10,
+        "discount": 80
+    },
+    {
+        "activityId": 240601,
+        "day": 13,
+        "zoneId": 3,
+        "goodsId": 1009,
+        "count": 10,
+        "discount": 80
+    },
+    {
+        "activityId": 240601,
+        "day": 13,
+        "zoneId": 3,
+        "goodsId": 1010,
+        "count": 6,
+        "discount": 90
+    },
+    {
+        "activityId": 240601,
+        "day": 13,
+        "zoneId": 3,
+        "goodsId": 1011,
+        "count": 6,
+        "discount": 120
+    },
+    {
+        "activityId": 240601,
+        "day": 13,
+        "zoneId": 4,
+        "goodsId": 1005,
+        "count": 10,
+        "discount": 80
+    },
+    {
+        "activityId": 240601,
+        "day": 13,
+        "zoneId": 4,
+        "goodsId": 1010,
+        "count": 6,
+        "discount": 100
+    },
+    {
+        "activityId": 240601,
+        "day": 13,
+        "zoneId": 4,
+        "goodsId": 1011,
+        "count": 6,
+        "discount": 100
+    },
+    {
+        "activityId": 240601,
+        "day": 13,
+        "zoneId": 4,
+        "goodsId": 1012,
+        "count": 4,
+        "discount": 100
+    },
+    {
+        "activityId": 240601,
+        "day": 13,
+        "zoneId": 4,
+        "goodsId": 1013,
+        "count": 2,
+        "discount": 100
+    },
+    {
+        "activityId": 240601,
+        "day": 14,
+        "zoneId": 0,
+        "goodsId": 1001,
+        "count": 10,
+        "discount": 10
+    },
+    {
+        "activityId": 240601,
+        "day": 14,
+        "zoneId": 0,
+        "goodsId": 1002,
+        "count": 10,
+        "discount": 100
+    },
+    {
+        "activityId": 240601,
+        "day": 14,
+        "zoneId": 0,
+        "goodsId": 1003,
+        "count": 10,
+        "discount": 90
+    },
+    {
+        "activityId": 240601,
+        "day": 14,
+        "zoneId": 0,
+        "goodsId": 1007,
+        "count": 10,
+        "discount": 100
+    },
+    {
+        "activityId": 240601,
+        "day": 14,
+        "zoneId": 0,
+        "goodsId": 1008,
+        "count": 10,
+        "discount": 80
+    },
+    {
+        "activityId": 240601,
+        "day": 14,
+        "zoneId": 1,
+        "goodsId": 1001,
+        "count": 10,
+        "discount": 110
+    },
+    {
+        "activityId": 240601,
+        "day": 14,
+        "zoneId": 1,
+        "goodsId": 1002,
+        "count": 10,
+        "discount": 120
+    },
+    {
+        "activityId": 240601,
+        "day": 14,
+        "zoneId": 1,
+        "goodsId": 1004,
+        "count": 10,
+        "discount": 80
+    },
+    {
+        "activityId": 240601,
+        "day": 14,
+        "zoneId": 1,
+        "goodsId": 1005,
+        "count": 10,
+        "discount": 120
+    },
+    {
+        "activityId": 240601,
+        "day": 14,
+        "zoneId": 1,
+        "goodsId": 1006,
+        "count": 10,
+        "discount": 100
+    },
+    {
+        "activityId": 240601,
+        "day": 14,
+        "zoneId": 2,
+        "goodsId": 1003,
+        "count": 10,
+        "discount": 110
+    },
+    {
+        "activityId": 240601,
+        "day": 14,
+        "zoneId": 2,
+        "goodsId": 1007,
+        "count": 10,
+        "discount": 100
+    },
+    {
+        "activityId": 240601,
+        "day": 14,
+        "zoneId": 2,
+        "goodsId": 1008,
+        "count": 10,
+        "discount": 120
+    },
+    {
+        "activityId": 240601,
+        "day": 14,
+        "zoneId": 2,
+        "goodsId": 1012,
+        "count": 4,
+        "discount": 120
+    },
+    {
+        "activityId": 240601,
+        "day": 14,
+        "zoneId": 2,
+        "goodsId": 1013,
+        "count": 2,
+        "discount": 90
+    },
+    {
+        "activityId": 240601,
+        "day": 14,
+        "zoneId": 3,
+        "goodsId": 1004,
+        "count": 10,
+        "discount": 100
+    },
+    {
+        "activityId": 240601,
+        "day": 14,
+        "zoneId": 3,
+        "goodsId": 1006,
+        "count": 10,
+        "discount": 110
+    },
+    {
+        "activityId": 240601,
+        "day": 14,
+        "zoneId": 3,
+        "goodsId": 1009,
+        "count": 10,
+        "discount": 90
+    },
+    {
+        "activityId": 240601,
+        "day": 14,
+        "zoneId": 3,
+        "goodsId": 1010,
+        "count": 6,
+        "discount": 100
+    },
+    {
+        "activityId": 240601,
+        "day": 14,
+        "zoneId": 3,
+        "goodsId": 1011,
+        "count": 6,
+        "discount": 120
+    },
+    {
+        "activityId": 240601,
+        "day": 14,
+        "zoneId": 4,
+        "goodsId": 1005,
+        "count": 10,
+        "discount": 90
+    },
+    {
+        "activityId": 240601,
+        "day": 14,
+        "zoneId": 4,
+        "goodsId": 1010,
+        "count": 6,
+        "discount": 90
+    },
+    {
+        "activityId": 240601,
+        "day": 14,
+        "zoneId": 4,
+        "goodsId": 1011,
+        "count": 6,
+        "discount": 120
+    },
+    {
+        "activityId": 240601,
+        "day": 14,
+        "zoneId": 4,
+        "goodsId": 1012,
+        "count": 4,
+        "discount": 80
+    },
+    {
+        "activityId": 240601,
+        "day": 14,
+        "zoneId": 4,
+        "goodsId": 1013,
+        "count": 2,
+        "discount": 100
+    },
+    {
+        "activityId": 240601,
+        "day": 15,
+        "zoneId": 0,
+        "goodsId": 1001,
+        "count": 10,
+        "discount": 10
+    },
+    {
+        "activityId": 240601,
+        "day": 15,
+        "zoneId": 0,
+        "goodsId": 1002,
+        "count": 10,
+        "discount": 90
+    },
+    {
+        "activityId": 240601,
+        "day": 15,
+        "zoneId": 0,
+        "goodsId": 1003,
+        "count": 10,
+        "discount": 100
+    },
+    {
+        "activityId": 240601,
+        "day": 15,
+        "zoneId": 0,
+        "goodsId": 1007,
+        "count": 10,
+        "discount": 110
+    },
+    {
+        "activityId": 240601,
+        "day": 15,
+        "zoneId": 0,
+        "goodsId": 1008,
+        "count": 10,
+        "discount": 110
+    },
+    {
+        "activityId": 240601,
+        "day": 15,
+        "zoneId": 1,
+        "goodsId": 1001,
+        "count": 10,
+        "discount": 120
+    },
+    {
+        "activityId": 240601,
+        "day": 15,
+        "zoneId": 1,
+        "goodsId": 1002,
+        "count": 10,
+        "discount": 90
+    },
+    {
+        "activityId": 240601,
+        "day": 15,
+        "zoneId": 1,
+        "goodsId": 1004,
+        "count": 10,
+        "discount": 90
+    },
+    {
+        "activityId": 240601,
+        "day": 15,
+        "zoneId": 1,
+        "goodsId": 1005,
+        "count": 10,
+        "discount": 80
+    },
+    {
+        "activityId": 240601,
+        "day": 15,
+        "zoneId": 1,
+        "goodsId": 1006,
+        "count": 10,
+        "discount": 100
+    },
+    {
+        "activityId": 240601,
+        "day": 15,
+        "zoneId": 2,
+        "goodsId": 1003,
+        "count": 10,
+        "discount": 90
+    },
+    {
+        "activityId": 240601,
+        "day": 15,
+        "zoneId": 2,
+        "goodsId": 1007,
+        "count": 10,
+        "discount": 90
+    },
+    {
+        "activityId": 240601,
+        "day": 15,
+        "zoneId": 2,
+        "goodsId": 1008,
+        "count": 10,
+        "discount": 100
+    },
+    {
+        "activityId": 240601,
+        "day": 15,
+        "zoneId": 2,
+        "goodsId": 1012,
+        "count": 4,
+        "discount": 110
+    },
+    {
+        "activityId": 240601,
+        "day": 15,
+        "zoneId": 2,
+        "goodsId": 1013,
+        "count": 2,
+        "discount": 100
+    },
+    {
+        "activityId": 240601,
+        "day": 15,
+        "zoneId": 3,
+        "goodsId": 1004,
+        "count": 10,
+        "discount": 120
+    },
+    {
+        "activityId": 240601,
+        "day": 15,
+        "zoneId": 3,
+        "goodsId": 1006,
+        "count": 10,
+        "discount": 80
+    },
+    {
+        "activityId": 240601,
+        "day": 15,
+        "zoneId": 3,
+        "goodsId": 1009,
+        "count": 10,
+        "discount": 80
+    },
+    {
+        "activityId": 240601,
+        "day": 15,
+        "zoneId": 3,
+        "goodsId": 1010,
+        "count": 6,
+        "discount": 120
+    },
+    {
+        "activityId": 240601,
+        "day": 15,
+        "zoneId": 3,
+        "goodsId": 1011,
+        "count": 6,
+        "discount": 100
+    },
+    {
+        "activityId": 240601,
+        "day": 15,
+        "zoneId": 4,
+        "goodsId": 1005,
+        "count": 10,
+        "discount": 100
+    },
+    {
+        "activityId": 240601,
+        "day": 15,
+        "zoneId": 4,
+        "goodsId": 1010,
+        "count": 6,
+        "discount": 90
+    },
+    {
+        "activityId": 240601,
+        "day": 15,
+        "zoneId": 4,
+        "goodsId": 1011,
+        "count": 6,
+        "discount": 90
+    },
+    {
+        "activityId": 240601,
+        "day": 15,
+        "zoneId": 4,
+        "goodsId": 1012,
+        "count": 4,
+        "discount": 90
+    },
+    {
+        "activityId": 240601,
+        "day": 15,
+        "zoneId": 4,
+        "goodsId": 1013,
+        "count": 2,
+        "discount": 120
+    },
+    {
+        "activityId": 240601,
+        "day": 16,
+        "zoneId": 0,
+        "goodsId": 1001,
+        "count": 10,
+        "discount": 10
+    },
+    {
+        "activityId": 240601,
+        "day": 16,
+        "zoneId": 0,
+        "goodsId": 1002,
+        "count": 10,
+        "discount": 110
+    },
+    {
+        "activityId": 240601,
+        "day": 16,
+        "zoneId": 0,
+        "goodsId": 1003,
+        "count": 10,
+        "discount": 110
+    },
+    {
+        "activityId": 240601,
+        "day": 16,
+        "zoneId": 0,
+        "goodsId": 1007,
+        "count": 10,
+        "discount": 110
+    },
+    {
+        "activityId": 240601,
+        "day": 16,
+        "zoneId": 0,
+        "goodsId": 1008,
+        "count": 10,
+        "discount": 80
+    },
+    {
+        "activityId": 240601,
+        "day": 16,
+        "zoneId": 1,
+        "goodsId": 1001,
+        "count": 10,
+        "discount": 120
+    },
+    {
+        "activityId": 240601,
+        "day": 16,
+        "zoneId": 1,
+        "goodsId": 1002,
+        "count": 10,
+        "discount": 90
+    },
+    {
+        "activityId": 240601,
+        "day": 16,
+        "zoneId": 1,
+        "goodsId": 1004,
+        "count": 10,
+        "discount": 100
+    },
+    {
+        "activityId": 240601,
+        "day": 16,
+        "zoneId": 1,
+        "goodsId": 1005,
+        "count": 10,
+        "discount": 80
+    },
+    {
+        "activityId": 240601,
+        "day": 16,
+        "zoneId": 1,
+        "goodsId": 1006,
+        "count": 10,
+        "discount": 80
+    },
+    {
+        "activityId": 240601,
+        "day": 16,
+        "zoneId": 2,
+        "goodsId": 1003,
+        "count": 10,
+        "discount": 120
+    },
+    {
+        "activityId": 240601,
+        "day": 16,
+        "zoneId": 2,
+        "goodsId": 1007,
+        "count": 10,
+        "discount": 80
+    },
+    {
+        "activityId": 240601,
+        "day": 16,
+        "zoneId": 2,
+        "goodsId": 1008,
+        "count": 10,
+        "discount": 110
+    },
+    {
+        "activityId": 240601,
+        "day": 16,
+        "zoneId": 2,
+        "goodsId": 1012,
+        "count": 4,
+        "discount": 90
+    },
+    {
+        "activityId": 240601,
+        "day": 16,
+        "zoneId": 2,
+        "goodsId": 1013,
+        "count": 2,
+        "discount": 80
+    },
+    {
+        "activityId": 240601,
+        "day": 16,
+        "zoneId": 3,
+        "goodsId": 1004,
+        "count": 10,
+        "discount": 90
+    },
+    {
+        "activityId": 240601,
+        "day": 16,
+        "zoneId": 3,
+        "goodsId": 1006,
+        "count": 10,
+        "discount": 110
+    },
+    {
+        "activityId": 240601,
+        "day": 16,
+        "zoneId": 3,
+        "goodsId": 1009,
+        "count": 10,
+        "discount": 90
+    },
+    {
+        "activityId": 240601,
+        "day": 16,
+        "zoneId": 3,
+        "goodsId": 1010,
+        "count": 6,
+        "discount": 120
+    },
+    {
+        "activityId": 240601,
+        "day": 16,
+        "zoneId": 3,
+        "goodsId": 1011,
+        "count": 6,
+        "discount": 120
+    },
+    {
+        "activityId": 240601,
+        "day": 16,
+        "zoneId": 4,
+        "goodsId": 1005,
+        "count": 10,
+        "discount": 110
+    },
+    {
+        "activityId": 240601,
+        "day": 16,
+        "zoneId": 4,
+        "goodsId": 1010,
+        "count": 6,
+        "discount": 80
+    },
+    {
+        "activityId": 240601,
+        "day": 16,
+        "zoneId": 4,
+        "goodsId": 1011,
+        "count": 6,
+        "discount": 100
+    },
+    {
+        "activityId": 240601,
+        "day": 16,
+        "zoneId": 4,
+        "goodsId": 1012,
+        "count": 4,
+        "discount": 110
+    },
+    {
+        "activityId": 240601,
+        "day": 16,
+        "zoneId": 4,
+        "goodsId": 1013,
+        "count": 2,
+        "discount": 90
+    },
+    {
+        "activityId": 240601,
+        "day": 17,
+        "zoneId": 0,
+        "goodsId": 1001,
+        "count": 10,
+        "discount": 10
+    },
+    {
+        "activityId": 240601,
+        "day": 17,
+        "zoneId": 0,
+        "goodsId": 1002,
+        "count": 10,
+        "discount": 80
+    },
+    {
+        "activityId": 240601,
+        "day": 17,
+        "zoneId": 0,
+        "goodsId": 1003,
+        "count": 10,
+        "discount": 100
+    },
+    {
+        "activityId": 240601,
+        "day": 17,
+        "zoneId": 0,
+        "goodsId": 1007,
+        "count": 10,
+        "discount": 80
+    },
+    {
+        "activityId": 240601,
+        "day": 17,
+        "zoneId": 0,
+        "goodsId": 1008,
+        "count": 10,
+        "discount": 80
+    },
+    {
+        "activityId": 240601,
+        "day": 17,
+        "zoneId": 1,
+        "goodsId": 1001,
+        "count": 10,
+        "discount": 110
+    },
+    {
+        "activityId": 240601,
+        "day": 17,
+        "zoneId": 1,
+        "goodsId": 1002,
+        "count": 10,
+        "discount": 90
+    },
+    {
+        "activityId": 240601,
+        "day": 17,
+        "zoneId": 1,
+        "goodsId": 1004,
+        "count": 10,
+        "discount": 120
+    },
+    {
+        "activityId": 240601,
+        "day": 17,
+        "zoneId": 1,
+        "goodsId": 1005,
+        "count": 10,
+        "discount": 110
+    },
+    {
+        "activityId": 240601,
+        "day": 17,
+        "zoneId": 1,
+        "goodsId": 1006,
+        "count": 10,
+        "discount": 80
+    },
+    {
+        "activityId": 240601,
+        "day": 17,
+        "zoneId": 2,
+        "goodsId": 1003,
+        "count": 10,
+        "discount": 100
+    },
+    {
+        "activityId": 240601,
+        "day": 17,
+        "zoneId": 2,
+        "goodsId": 1007,
+        "count": 10,
+        "discount": 100
+    },
+    {
+        "activityId": 240601,
+        "day": 17,
+        "zoneId": 2,
+        "goodsId": 1008,
+        "count": 10,
+        "discount": 90
+    },
+    {
+        "activityId": 240601,
+        "day": 17,
+        "zoneId": 2,
+        "goodsId": 1012,
+        "count": 4,
+        "discount": 80
+    },
+    {
+        "activityId": 240601,
+        "day": 17,
+        "zoneId": 2,
+        "goodsId": 1013,
+        "count": 2,
+        "discount": 120
+    },
+    {
+        "activityId": 240601,
+        "day": 17,
+        "zoneId": 3,
+        "goodsId": 1004,
+        "count": 10,
+        "discount": 90
+    },
+    {
+        "activityId": 240601,
+        "day": 17,
+        "zoneId": 3,
+        "goodsId": 1006,
+        "count": 10,
+        "discount": 80
+    },
+    {
+        "activityId": 240601,
+        "day": 17,
+        "zoneId": 3,
+        "goodsId": 1009,
+        "count": 10,
+        "discount": 90
+    },
+    {
+        "activityId": 240601,
+        "day": 17,
+        "zoneId": 3,
+        "goodsId": 1010,
+        "count": 6,
+        "discount": 90
+    },
+    {
+        "activityId": 240601,
+        "day": 17,
+        "zoneId": 3,
+        "goodsId": 1011,
+        "count": 6,
+        "discount": 110
+    },
+    {
+        "activityId": 240601,
+        "day": 17,
+        "zoneId": 4,
+        "goodsId": 1005,
+        "count": 10,
+        "discount": 120
+    },
+    {
+        "activityId": 240601,
+        "day": 17,
+        "zoneId": 4,
+        "goodsId": 1010,
+        "count": 6,
+        "discount": 80
+    },
+    {
+        "activityId": 240601,
+        "day": 17,
+        "zoneId": 4,
+        "goodsId": 1011,
+        "count": 6,
+        "discount": 120
+    },
+    {
+        "activityId": 240601,
+        "day": 17,
+        "zoneId": 4,
+        "goodsId": 1012,
+        "count": 4,
+        "discount": 80
+    },
+    {
+        "activityId": 240601,
+        "day": 17,
+        "zoneId": 4,
+        "goodsId": 1013,
+        "count": 2,
+        "discount": 90
+    },
+    {
+        "activityId": 240601,
+        "day": 18,
+        "zoneId": 0,
+        "goodsId": 1001,
+        "count": 10,
+        "discount": 10
+    },
+    {
+        "activityId": 240601,
+        "day": 18,
+        "zoneId": 0,
+        "goodsId": 1002,
+        "count": 10,
+        "discount": 90
+    },
+    {
+        "activityId": 240601,
+        "day": 18,
+        "zoneId": 0,
+        "goodsId": 1003,
+        "count": 10,
+        "discount": 80
+    },
+    {
+        "activityId": 240601,
+        "day": 18,
+        "zoneId": 0,
+        "goodsId": 1007,
+        "count": 10,
+        "discount": 100
+    },
+    {
+        "activityId": 240601,
+        "day": 18,
+        "zoneId": 0,
+        "goodsId": 1008,
+        "count": 10,
+        "discount": 110
+    },
+    {
+        "activityId": 240601,
+        "day": 18,
+        "zoneId": 1,
+        "goodsId": 1001,
+        "count": 10,
+        "discount": 110
+    },
+    {
+        "activityId": 240601,
+        "day": 18,
+        "zoneId": 1,
+        "goodsId": 1002,
+        "count": 10,
+        "discount": 80
+    },
+    {
+        "activityId": 240601,
+        "day": 18,
+        "zoneId": 1,
+        "goodsId": 1004,
+        "count": 10,
+        "discount": 120
+    },
+    {
+        "activityId": 240601,
+        "day": 18,
+        "zoneId": 1,
+        "goodsId": 1005,
+        "count": 10,
+        "discount": 90
+    },
+    {
+        "activityId": 240601,
+        "day": 18,
+        "zoneId": 1,
+        "goodsId": 1006,
+        "count": 10,
+        "discount": 80
+    },
+    {
+        "activityId": 240601,
+        "day": 18,
+        "zoneId": 2,
+        "goodsId": 1003,
+        "count": 10,
+        "discount": 90
+    },
+    {
+        "activityId": 240601,
+        "day": 18,
+        "zoneId": 2,
+        "goodsId": 1007,
+        "count": 10,
+        "discount": 80
+    },
+    {
+        "activityId": 240601,
+        "day": 18,
+        "zoneId": 2,
+        "goodsId": 1008,
+        "count": 10,
+        "discount": 120
+    },
+    {
+        "activityId": 240601,
+        "day": 18,
+        "zoneId": 2,
+        "goodsId": 1012,
+        "count": 4,
+        "discount": 100
+    },
+    {
+        "activityId": 240601,
+        "day": 18,
+        "zoneId": 2,
+        "goodsId": 1013,
+        "count": 2,
+        "discount": 100
+    },
+    {
+        "activityId": 240601,
+        "day": 18,
+        "zoneId": 3,
+        "goodsId": 1004,
+        "count": 10,
+        "discount": 90
+    },
+    {
+        "activityId": 240601,
+        "day": 18,
+        "zoneId": 3,
+        "goodsId": 1006,
+        "count": 10,
+        "discount": 80
+    },
+    {
+        "activityId": 240601,
+        "day": 18,
+        "zoneId": 3,
+        "goodsId": 1009,
+        "count": 10,
+        "discount": 90
+    },
+    {
+        "activityId": 240601,
+        "day": 18,
+        "zoneId": 3,
+        "goodsId": 1010,
+        "count": 6,
+        "discount": 80
+    },
+    {
+        "activityId": 240601,
+        "day": 18,
+        "zoneId": 3,
+        "goodsId": 1011,
+        "count": 6,
+        "discount": 110
+    },
+    {
+        "activityId": 240601,
+        "day": 18,
+        "zoneId": 4,
+        "goodsId": 1005,
+        "count": 10,
+        "discount": 100
+    },
+    {
+        "activityId": 240601,
+        "day": 18,
+        "zoneId": 4,
+        "goodsId": 1010,
+        "count": 6,
+        "discount": 90
+    },
+    {
+        "activityId": 240601,
+        "day": 18,
+        "zoneId": 4,
+        "goodsId": 1011,
+        "count": 6,
+        "discount": 100
+    },
+    {
+        "activityId": 240601,
+        "day": 18,
+        "zoneId": 4,
+        "goodsId": 1012,
+        "count": 4,
+        "discount": 120
+    },
+    {
+        "activityId": 240601,
+        "day": 18,
+        "zoneId": 4,
+        "goodsId": 1013,
+        "count": 2,
+        "discount": 120
+    },
+    {
+        "activityId": 240601,
+        "day": 19,
+        "zoneId": 0,
+        "goodsId": 1001,
+        "count": 10,
+        "discount": 10
+    },
+    {
+        "activityId": 240601,
+        "day": 19,
+        "zoneId": 0,
+        "goodsId": 1002,
+        "count": 10,
+        "discount": 100
+    },
+    {
+        "activityId": 240601,
+        "day": 19,
+        "zoneId": 0,
+        "goodsId": 1003,
+        "count": 10,
+        "discount": 110
+    },
+    {
+        "activityId": 240601,
+        "day": 19,
+        "zoneId": 0,
+        "goodsId": 1007,
+        "count": 10,
+        "discount": 80
+    },
+    {
+        "activityId": 240601,
+        "day": 19,
+        "zoneId": 0,
+        "goodsId": 1008,
+        "count": 10,
+        "discount": 110
+    },
+    {
+        "activityId": 240601,
+        "day": 19,
+        "zoneId": 1,
+        "goodsId": 1001,
+        "count": 10,
+        "discount": 110
+    },
+    {
+        "activityId": 240601,
+        "day": 19,
+        "zoneId": 1,
+        "goodsId": 1002,
+        "count": 10,
+        "discount": 120
+    },
+    {
+        "activityId": 240601,
+        "day": 19,
+        "zoneId": 1,
+        "goodsId": 1004,
+        "count": 10,
+        "discount": 120
+    },
+    {
+        "activityId": 240601,
+        "day": 19,
+        "zoneId": 1,
+        "goodsId": 1005,
+        "count": 10,
+        "discount": 120
+    },
+    {
+        "activityId": 240601,
+        "day": 19,
+        "zoneId": 1,
+        "goodsId": 1006,
+        "count": 10,
+        "discount": 110
+    },
+    {
+        "activityId": 240601,
+        "day": 19,
+        "zoneId": 2,
+        "goodsId": 1003,
+        "count": 10,
+        "discount": 90
+    },
+    {
+        "activityId": 240601,
+        "day": 19,
+        "zoneId": 2,
+        "goodsId": 1007,
+        "count": 10,
+        "discount": 100
+    },
+    {
+        "activityId": 240601,
+        "day": 19,
+        "zoneId": 2,
+        "goodsId": 1008,
+        "count": 10,
+        "discount": 90
+    },
+    {
+        "activityId": 240601,
+        "day": 19,
+        "zoneId": 2,
+        "goodsId": 1012,
+        "count": 4,
+        "discount": 100
+    },
+    {
+        "activityId": 240601,
+        "day": 19,
+        "zoneId": 2,
+        "goodsId": 1013,
+        "count": 2,
+        "discount": 90
+    },
+    {
+        "activityId": 240601,
+        "day": 19,
+        "zoneId": 3,
+        "goodsId": 1004,
+        "count": 10,
+        "discount": 80
+    },
+    {
+        "activityId": 240601,
+        "day": 19,
+        "zoneId": 3,
+        "goodsId": 1006,
+        "count": 10,
+        "discount": 100
+    },
+    {
+        "activityId": 240601,
+        "day": 19,
+        "zoneId": 3,
+        "goodsId": 1009,
+        "count": 10,
+        "discount": 90
+    },
+    {
+        "activityId": 240601,
+        "day": 19,
+        "zoneId": 3,
+        "goodsId": 1010,
+        "count": 6,
+        "discount": 100
+    },
+    {
+        "activityId": 240601,
+        "day": 19,
+        "zoneId": 3,
+        "goodsId": 1011,
+        "count": 6,
+        "discount": 80
+    },
+    {
+        "activityId": 240601,
+        "day": 19,
+        "zoneId": 4,
+        "goodsId": 1005,
+        "count": 10,
+        "discount": 120
+    },
+    {
+        "activityId": 240601,
+        "day": 19,
+        "zoneId": 4,
+        "goodsId": 1010,
+        "count": 6,
+        "discount": 100
+    },
+    {
+        "activityId": 240601,
+        "day": 19,
+        "zoneId": 4,
+        "goodsId": 1011,
+        "count": 6,
+        "discount": 110
+    },
+    {
+        "activityId": 240601,
+        "day": 19,
+        "zoneId": 4,
+        "goodsId": 1012,
+        "count": 4,
+        "discount": 110
+    },
+    {
+        "activityId": 240601,
+        "day": 19,
+        "zoneId": 4,
+        "goodsId": 1013,
+        "count": 2,
+        "discount": 80
+    },
+    {
+        "activityId": 240601,
+        "day": 20,
+        "zoneId": 0,
+        "goodsId": 1001,
+        "count": 10,
+        "discount": 10
+    },
+    {
+        "activityId": 240601,
+        "day": 20,
+        "zoneId": 0,
+        "goodsId": 1002,
+        "count": 10,
+        "discount": 120
+    },
+    {
+        "activityId": 240601,
+        "day": 20,
+        "zoneId": 0,
+        "goodsId": 1003,
+        "count": 10,
+        "discount": 100
+    },
+    {
+        "activityId": 240601,
+        "day": 20,
+        "zoneId": 0,
+        "goodsId": 1007,
+        "count": 10,
+        "discount": 80
+    },
+    {
+        "activityId": 240601,
+        "day": 20,
+        "zoneId": 0,
+        "goodsId": 1008,
+        "count": 10,
+        "discount": 100
+    },
+    {
+        "activityId": 240601,
+        "day": 20,
+        "zoneId": 1,
+        "goodsId": 1001,
+        "count": 10,
+        "discount": 110
+    },
+    {
+        "activityId": 240601,
+        "day": 20,
+        "zoneId": 1,
+        "goodsId": 1002,
+        "count": 10,
+        "discount": 90
+    },
+    {
+        "activityId": 240601,
+        "day": 20,
+        "zoneId": 1,
+        "goodsId": 1004,
+        "count": 10,
+        "discount": 110
+    },
+    {
+        "activityId": 240601,
+        "day": 20,
+        "zoneId": 1,
+        "goodsId": 1005,
+        "count": 10,
+        "discount": 80
+    },
+    {
+        "activityId": 240601,
+        "day": 20,
+        "zoneId": 1,
+        "goodsId": 1006,
+        "count": 10,
+        "discount": 90
+    },
+    {
+        "activityId": 240601,
+        "day": 20,
+        "zoneId": 2,
+        "goodsId": 1003,
+        "count": 10,
+        "discount": 110
+    },
+    {
+        "activityId": 240601,
+        "day": 20,
+        "zoneId": 2,
+        "goodsId": 1007,
+        "count": 10,
+        "discount": 90
+    },
+    {
+        "activityId": 240601,
+        "day": 20,
+        "zoneId": 2,
+        "goodsId": 1008,
+        "count": 10,
+        "discount": 90
+    },
+    {
+        "activityId": 240601,
+        "day": 20,
+        "zoneId": 2,
+        "goodsId": 1012,
+        "count": 4,
+        "discount": 120
+    },
+    {
+        "activityId": 240601,
+        "day": 20,
+        "zoneId": 2,
+        "goodsId": 1013,
+        "count": 2,
+        "discount": 110
+    },
+    {
+        "activityId": 240601,
+        "day": 20,
+        "zoneId": 3,
+        "goodsId": 1004,
+        "count": 10,
+        "discount": 90
+    },
+    {
+        "activityId": 240601,
+        "day": 20,
+        "zoneId": 3,
+        "goodsId": 1006,
+        "count": 10,
+        "discount": 100
+    },
+    {
+        "activityId": 240601,
+        "day": 20,
+        "zoneId": 3,
+        "goodsId": 1009,
+        "count": 10,
+        "discount": 80
+    },
+    {
+        "activityId": 240601,
+        "day": 20,
+        "zoneId": 3,
+        "goodsId": 1010,
+        "count": 6,
+        "discount": 80
+    },
+    {
+        "activityId": 240601,
+        "day": 20,
+        "zoneId": 3,
+        "goodsId": 1011,
+        "count": 6,
+        "discount": 90
+    },
+    {
+        "activityId": 240601,
+        "day": 20,
+        "zoneId": 4,
+        "goodsId": 1005,
+        "count": 10,
+        "discount": 80
+    },
+    {
+        "activityId": 240601,
+        "day": 20,
+        "zoneId": 4,
+        "goodsId": 1010,
+        "count": 6,
+        "discount": 120
+    },
+    {
+        "activityId": 240601,
+        "day": 20,
+        "zoneId": 4,
+        "goodsId": 1011,
+        "count": 6,
+        "discount": 120
+    },
+    {
+        "activityId": 240601,
+        "day": 20,
+        "zoneId": 4,
+        "goodsId": 1012,
+        "count": 4,
+        "discount": 120
+    },
+    {
+        "activityId": 240601,
+        "day": 20,
+        "zoneId": 4,
+        "goodsId": 1013,
+        "count": 2,
+        "discount": 110
+    }
+]

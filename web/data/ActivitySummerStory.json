@@ -1,0 +1,93 @@
+[
+    {
+        "activityId": 240811,
+        "id": 1,
+        "storyName": 3042,
+        "building": 0,
+        "buildingName": 0,
+        "exchangeActivity": 0,
+        "buildingUnlock": 0,
+        "storyUnlock": "",
+        "storyId": "",
+        "storyDesc": 3035,
+        "showCharacter": "409501"
+    },
+    {
+        "activityId": 240811,
+        "id": 2,
+        "storyName": 3043,
+        "building": 1,
+        "buildingName": 3049,
+        "exchangeActivity": 240814,
+        "buildingUnlock": 30900054,
+        "storyUnlock": "",
+        "storyId": "24081111,24081112,24081113",
+        "storyDesc": 3036,
+        "showCharacter": ""
+    },
+    {
+        "activityId": 240811,
+        "id": 3,
+        "storyName": 3044,
+        "building": 4,
+        "buildingName": 3050,
+        "exchangeActivity": 240815,
+        "buildingUnlock": 30900055,
+        "storyUnlock": "",
+        "storyId": "24081121,24081122,24081123",
+        "storyDesc": 3037,
+        "showCharacter": ""
+    },
+    {
+        "activityId": 240811,
+        "id": 4,
+        "storyName": 3045,
+        "building": 3,
+        "buildingName": 3051,
+        "exchangeActivity": 240816,
+        "buildingUnlock": 30900056,
+        "storyUnlock": "",
+        "storyId": "24081131,24081132,24081133",
+        "storyDesc": 3038,
+        "showCharacter": ""
+    },
+    {
+        "activityId": 240811,
+        "id": 5,
+        "storyName": 3046,
+        "building": 2,
+        "buildingName": 3052,
+        "exchangeActivity": 240817,
+        "buildingUnlock": 30900057,
+        "storyUnlock": "",
+        "storyId": "24081141,24081142,24081143",
+        "storyDesc": 3039,
+        "showCharacter": ""
+    },
+    {
+        "activityId": 240811,
+        "id": 6,
+        "storyName": 3047,
+        "building": 0,
+        "buildingName": 0,
+        "exchangeActivity": 0,
+        "buildingUnlock": 0,
+        "storyUnlock": "30900075-1,30900076-1",
+        "storyId": "24081101",
+        "storyDesc": 3040,
+        "showCharacter": "409501"
+    },
+    {
+        "activityId": 240811,
+        "id": 7,
+        "storyName": 3048,
+        "building": 0,
+        "buildingName": 0,
+        "exchangeActivity": 0,
+        "buildingUnlock": 0,
+        "storyUnlock": "30900045-12",
+        "storyId": "24081102",
+        "storyDesc": 3041,
+        "showCharacter": ""
+    }
+]

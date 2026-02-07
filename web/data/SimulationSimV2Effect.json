@@ -1,0 +1,202 @@
+[
+    {
+        "effectId": 9001,
+        "luk": 600,
+        "tec": 0,
+        "ins": 0,
+        "int": -100,
+        "res": 0,
+        "effectTitle": 25040001,
+        "effectDesc": 25041001
+    },
+    {
+        "effectId": 9002,
+        "luk": 300,
+        "tec": 0,
+        "ins": 0,
+        "int": 0,
+        "res": 0,
+        "effectTitle": 25040002,
+        "effectDesc": 25041002
+    },
+    {
+        "effectId": 9003,
+        "luk": 0,
+        "tec": -100,
+        "ins": 0,
+        "int": 700,
+        "res": 0,
+        "effectTitle": 25040003,
+        "effectDesc": 25041003
+    },
+    {
+        "effectId": 9004,
+        "luk": 0,
+        "tec": 0,
+        "ins": 0,
+        "int": 0,
+        "res": 300,
+        "effectTitle": 25040004,
+        "effectDesc": 25041004
+    },
+    {
+        "effectId": 9005,
+        "luk": 0,
+        "tec": 0,
+        "ins": 800,
+        "int": 0,
+        "res": 0,
+        "effectTitle": 25040005,
+        "effectDesc": 25041005
+    },
+    {
+        "effectId": 9006,
+        "luk": 0,
+        "tec": 0,
+        "ins": 0,
+        "int": 200,
+        "res": 0,
+        "effectTitle": 25040006,
+        "effectDesc": 25041006
+    },
+    {
+        "effectId": 9007,
+        "luk": 0,
+        "tec": 0,
+        "ins": 400,
+        "int": 0,
+        "res": 0,
+        "effectTitle": 25040007,
+        "effectDesc": 25041007
+    },
+    {
+        "effectId": 9008,
+        "luk": 0,
+        "tec": 0,
+        "ins": 0,
+        "int": 0,
+        "res": 600,
+        "effectTitle": 25040008,
+        "effectDesc": 25041008
+    },
+    {
+        "effectId": 9009,
+        "luk": 500,
+        "tec": 0,
+        "ins": 0,
+        "int": 0,
+        "res": 0,
+        "effectTitle": 25040009,
+        "effectDesc": 25041009
+    },
+    {
+        "effectId": 9010,
+        "luk": 0,
+        "tec": 700,
+        "ins": 0,
+        "int": 0,
+        "res": 0,
+        "effectTitle": 25040010,
+        "effectDesc": 25041010
+    },
+    {
+        "effectId": 9011,
+        "luk": 0,
+        "tec": 0,
+        "ins": 0,
+        "int": 0,
+        "res": 500,
+        "effectTitle": 25040011,
+        "effectDesc": 25041011
+    },
+    {
+        "effectId": 9012,
+        "luk": 0,
+        "tec": 0,
+        "ins": -300,
+        "int": 1000,
+        "res": 0,
+        "effectTitle": 25040012,
+        "effectDesc": 25041012
+    },
+    {
+        "effectId": 9013,
+        "luk": 0,
+        "tec": 0,
+        "ins": 0,
+        "int": 400,
+        "res": 0,
+        "effectTitle": 25040013,
+        "effectDesc": 25041013
+    },
+    {
+        "effectId": 9014,
+        "luk": -100,
+        "tec": 0,
+        "ins": 0,
+        "int": 0,
+        "res": 500,
+        "effectTitle": 25040014,
+        "effectDesc": 25041014
+    },
+    {
+        "effectId": 9015,
+        "luk": 0,
+        "tec": 500,
+        "ins": 0,
+        "int": 0,
+        "res": 0,
+        "effectTitle": 25040015,
+        "effectDesc": 25041015
+    },
+    {
+        "effectId": 9016,
+        "luk": 0,
+        "tec": 0,
+        "ins": 400,
+        "int": 0,
+        "res": 0,
+        "effectTitle": 25040016,
+        "effectDesc": 25041016
+    },
+    {
+        "effectId": 9017,
+        "luk": 0,
+        "tec": 0,
+        "ins": 400,
+        "int": 0,
+        "res": 0,
+        "effectTitle": 25040017,
+        "effectDesc": 25041017
+    },
+    {
+        "effectId": 9018,
+        "luk": 0,
+        "tec": 1000,
+        "ins": -100,
+        "int": 0,
+        "res": 0,
+        "effectTitle": 25040018,
+        "effectDesc": 25041018
+    },
+    {
+        "effectId": 9019,
+        "luk": 500,
+        "tec": 0,
+        "ins": 0,
+        "int": 0,
+        "res": -100,
+        "effectTitle": 25040019,
+        "effectDesc": 25041019
+    },
+    {
+        "effectId": 9020,
+        "luk": 0,
+        "tec": 600,
+        "ins": 0,
+        "int": 0,
+        "res": 0,
+        "effectTitle": 25040020,
+        "effectDesc": 25041020
+    }
+]

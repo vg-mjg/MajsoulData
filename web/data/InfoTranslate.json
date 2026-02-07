@@ -1,0 +1,90 @@
+[
+    {
+        "original": "unknown error",
+        "chs": "未知错误",
+        "chsT": "未知錯誤",
+        "jp": "未知のエラー（2332）",
+        "en": "Unknown error.",
+        "kr": "알 수 없는 오류"
+    },
+    {
+        "original": "auth not found",
+        "chs": "验证失败",
+        "chsT": "驗證失敗",
+        "jp": "認証失敗（2333）",
+        "en": "Validation failed.",
+        "kr": "인증 오류"
+    },
+    {
+        "original": "auth expired",
+        "chs": "验证过期",
+        "chsT": "驗證過期",
+        "jp": "認証コードの有効期限切れ（2334）",
+        "en": "Validation expired.",
+        "kr": "인증 코드 유효기간 만료"
+    },
+    {
+        "original": "not authed",
+        "chs": "未验证",
+        "chsT": "未驗證",
+        "jp": "未認証（2335）",
+        "en": "Not verified.",
+        "kr": "미인증"
+    },
+    {
+        "original": "game not found",
+        "chs": "此对局不存在",
+        "chsT": "此對局不存在",
+        "jp": "対局が存在しない（2336）",
+        "en": "Match not found.",
+        "kr": "대국이 존재하지 않음"
+    },
+    {
+        "original": "send existing error",
+        "chs": "数据传输错误",
+        "chsT": "資料傳輸錯誤",
+        "jp": "データ送信失敗(2337）",
+        "en": "Data transmission error.",
+        "kr": "데이터 송신 오류"
+    },
+    {
+        "original": "duplicate token",
+        "chs": "验证重复",
+        "chsT": "驗證重複",
+        "jp": "二重認証（2338）",
+        "en": "Repeated verification.",
+        "kr": "중복 인증"
+    },
+    {
+        "original": "game not start",
+        "chs": "此对局尚未开始",
+        "chsT": "此對局尚未開始",
+        "jp": "対局開始前（2339）",
+        "en": "Match not started yet.",
+        "kr": "대국 시작 전"
+    },
+    {
+        "original": "live stream not found",
+        "chs": "观战数据传输错误",
+        "chsT": "觀戰數據傳輸錯誤",
+        "jp": "観戦データ読み込み失敗。",
+        "en": "Match watching data transmission failure.",
+        "kr": "관전 데이터 가져오기 실패."
+    },
+    {
+        "original": "segment delay",
+        "chs": "观战同步错误",
+        "chsT": "觀戰同步錯誤",
+        "jp": "観戦データ同期失敗。",
+        "en": "Match watching data synchronization error.",
+        "kr": "관전 데이터 동기화 실패."
+    },
+    {
+        "original": "segment not found",
+        "chs": "观战数据错误",
+        "chsT": "觀戰數據錯誤",
+        "jp": "観戦データが見つかりませんでした。",
+        "en": "Match watching data error.",
+        "kr": "관전 데이터를 찾을 수 없습니다."
+    }
+]

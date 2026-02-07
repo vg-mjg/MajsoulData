@@ -1,0 +1,20 @@
+[
+    {
+        "seasonId": 1001,
+        "rankLower": 1,
+        "rankUpper": 1,
+        "rewards": "305522-1"
+    },
+    {
+        "seasonId": 1001,
+        "rankLower": 2,
+        "rankUpper": 10,
+        "rewards": "305521-1"
+    },
+    {
+        "seasonId": 1001,
+        "rankLower": 11,
+        "rankUpper": 100,
+        "rewards": "305520-1"
+    }
+]

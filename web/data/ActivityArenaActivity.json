@@ -1,0 +1,17 @@
+[
+    {
+        "activityId": 1245,
+        "matchTime": "0",
+        "ticketTimeLimit": "2021-12-20 04:59:00+08",
+        "ticketItemId": 309040,
+        "ticketPrice": "100002-75000",
+        "desktopId": 42,
+        "maxWinCount": 12,
+        "maxLoseCount": 3,
+        "rewardGroup": 124501,
+        "dailyTicketLimit": 5,
+        "mailTemplate": 108,
+        "arenaRewardDisplayGroup": 124501,
+        "levelLimit": 201
+    }
+]
