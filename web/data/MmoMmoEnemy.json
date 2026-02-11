@@ -1,0 +1,222 @@
+[
+    {
+        "activityId": 260401,
+        "enemyId": 10001,
+        "hp": 100,
+        "atk": 10,
+        "criticalRate": 10,
+        "criticalDamage": 2,
+        "actionTick": 100,
+        "actionSeq": 2,
+        "equipmentList": ""
+    },
+    {
+        "activityId": 260401,
+        "enemyId": 10002,
+        "hp": 200,
+        "atk": 20,
+        "criticalRate": 10,
+        "criticalDamage": 2,
+        "actionTick": 100,
+        "actionSeq": 2,
+        "equipmentList": ""
+    },
+    {
+        "activityId": 260401,
+        "enemyId": 10003,
+        "hp": 300,
+        "atk": 30,
+        "criticalRate": 10,
+        "criticalDamage": 2,
+        "actionTick": 100,
+        "actionSeq": 2,
+        "equipmentList": ""
+    },
+    {
+        "activityId": 260401,
+        "enemyId": 10004,
+        "hp": 400,
+        "atk": 40,
+        "criticalRate": 10,
+        "criticalDamage": 2,
+        "actionTick": 100,
+        "actionSeq": 2,
+        "equipmentList": ""
+    },
+    {
+        "activityId": 260401,
+        "enemyId": 10005,
+        "hp": 500,
+        "atk": 50,
+        "criticalRate": 10,
+        "criticalDamage": 2,
+        "actionTick": 100,
+        "actionSeq": 2,
+        "equipmentList": ""
+    },
+    {
+        "activityId": 260401,
+        "enemyId": 10006,
+        "hp": 600,
+        "atk": 60,
+        "criticalRate": 10,
+        "criticalDamage": 2,
+        "actionTick": 100,
+        "actionSeq": 2,
+        "equipmentList": ""
+    },
+    {
+        "activityId": 260401,
+        "enemyId": 10007,
+        "hp": 700,
+        "atk": 70,
+        "criticalRate": 10,
+        "criticalDamage": 2,
+        "actionTick": 100,
+        "actionSeq": 2,
+        "equipmentList": ""
+    },
+    {
+        "activityId": 260401,
+        "enemyId": 10008,
+        "hp": 800,
+        "atk": 80,
+        "criticalRate": 10,
+        "criticalDamage": 2,
+        "actionTick": 100,
+        "actionSeq": 2,
+        "equipmentList": ""
+    },
+    {
+        "activityId": 260401,
+        "enemyId": 10009,
+        "hp": 900,
+        "atk": 90,
+        "criticalRate": 10,
+        "criticalDamage": 2,
+        "actionTick": 100,
+        "actionSeq": 2,
+        "equipmentList": ""
+    },
+    {
+        "activityId": 260401,
+        "enemyId": 10010,
+        "hp": 1000,
+        "atk": 100,
+        "criticalRate": 10,
+        "criticalDamage": 2,
+        "actionTick": 100,
+        "actionSeq": 2,
+        "equipmentList": ""
+    },
+    {
+        "activityId": 260401,
+        "enemyId": 10011,
+        "hp": 1100,
+        "atk": 110,
+        "criticalRate": 10,
+        "criticalDamage": 2,
+        "actionTick": 100,
+        "actionSeq": 2,
+        "equipmentList": ""
+    },
+    {
+        "activityId": 260401,
+        "enemyId": 10012,
+        "hp": 1200,
+        "atk": 120,
+        "criticalRate": 10,
+        "criticalDamage": 2,
+        "actionTick": 100,
+        "actionSeq": 2,
+        "equipmentList": ""
+    },
+    {
+        "activityId": 260401,
+        "enemyId": 10013,
+        "hp": 1300,
+        "atk": 130,
+        "criticalRate": 10,
+        "criticalDamage": 2,
+        "actionTick": 100,
+        "actionSeq": 2,
+        "equipmentList": ""
+    },
+    {
+        "activityId": 260401,
+        "enemyId": 10014,
+        "hp": 1400,
+        "atk": 140,
+        "criticalRate": 10,
+        "criticalDamage": 2,
+        "actionTick": 100,
+        "actionSeq": 2,
+        "equipmentList": ""
+    },
+    {
+        "activityId": 260401,
+        "enemyId": 10015,
+        "hp": 1500,
+        "atk": 150,
+        "criticalRate": 10,
+        "criticalDamage": 2,
+        "actionTick": 100,
+        "actionSeq": 2,
+        "equipmentList": ""
+    },
+    {
+        "activityId": 260401,
+        "enemyId": 10016,
+        "hp": 1600,
+        "atk": 160,
+        "criticalRate": 10,
+        "criticalDamage": 2,
+        "actionTick": 100,
+        "actionSeq": 2,
+        "equipmentList": ""
+    },
+    {
+        "activityId": 260401,
+        "enemyId": 10017,
+        "hp": 1700,
+        "atk": 170,
+        "criticalRate": 10,
+        "criticalDamage": 2,
+        "actionTick": 100,
+        "actionSeq": 2,
+        "equipmentList": ""
+    },
+    {
+        "activityId": 260401,
+        "enemyId": 10018,
+        "hp": 1800,
+        "atk": 180,
+        "criticalRate": 10,
+        "criticalDamage": 2,
+        "actionTick": 100,
+        "actionSeq": 2,
+        "equipmentList": ""
+    },
+    {
+        "activityId": 260401,
+        "enemyId": 10019,
+        "hp": 1900,
+        "atk": 190,
+        "criticalRate": 10,
+        "criticalDamage": 2,
+        "actionTick": 100,
+        "actionSeq": 2,
+        "equipmentList": ""
+    },
+    {
+        "activityId": 260401,
+        "enemyId": 10020,
+        "hp": 2000,
+        "atk": 200,
+        "criticalRate": 10,
+        "criticalDamage": 2,
+        "actionTick": 100,
+        "actionSeq": 2,
+        "equipmentList": ""
+    }
+]

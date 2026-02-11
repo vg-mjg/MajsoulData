@@ -1,0 +1,38 @@
+[
+    {
+        "activityId": 260401,
+        "characterId": 1001,
+        "hp": 100,
+        "atk": 20,
+        "criticalRate": 10,
+        "criticalDamage": 2,
+        "actionTick": 100,
+        "actionSeq": 1,
+        "weaponType": 1,
+        "initEquipment": ""
+    },
+    {
+        "activityId": 260401,
+        "characterId": 1002,
+        "hp": 200,
+        "atk": 10,
+        "criticalRate": 0,
+        "criticalDamage": 0,
+        "actionTick": 100,
+        "actionSeq": 3,
+        "weaponType": 2,
+        "initEquipment": ""
+    },
+    {
+        "activityId": 260401,
+        "characterId": 1003,
+        "hp": 50,
+        "atk": 15,
+        "criticalRate": 0,
+        "criticalDamage": 0,
+        "actionTick": 100,
+        "actionSeq": 4,
+        "weaponType": 3,
+        "initEquipment": ""
+    }
+]
