@@ -120,8 +120,8 @@
     },
     {
         "effects": [
-            ",fuji_YZ_01_eff",
-            ",fuji_YZ_02_eff",
+            "fuji_xr_eff1",
+            "fuji_xr_eff2",
             "",
             ""
         ],
@@ -659,6 +659,57 @@
         "audioIdle": "",
         "audioGreeting": "HYQ_SE_409803/greeting",
         "audioClick": "HYQ_SE_409803/click",
+        "audioClick2": "",
+        "celebrateDelay": 0
+    },
+    {
+        "effects": [
+            "",
+            "fuji_cj_eff2",
+            "fuji_cj_eff3",
+            ""
+        ],
+        "skinid": 403807,
+        "spineLayers": 1,
+        "audioCelebrate": "fj_se_403807/celebrate",
+        "audioCelebrateIdle": "",
+        "audioIdle": "",
+        "audioGreeting": "fj_se_403807/greeting",
+        "audioClick": "fj_se_403807/click",
+        "audioClick2": "",
+        "celebrateDelay": 0
+    },
+    {
+        "effects": [
+            "",
+            "yifu_cj_eff2",
+            "",
+            ""
+        ],
+        "skinid": 408304,
+        "spineLayers": 3,
+        "audioCelebrate": "yf_se_408304/celebrate",
+        "audioCelebrateIdle": "",
+        "audioIdle": "",
+        "audioGreeting": "yf_se_408304/greeting",
+        "audioClick": "yf_se_408304/click",
+        "audioClick2": "",
+        "celebrateDelay": 0
+    },
+    {
+        "effects": [
+            "",
+            "",
+            "",
+            ""
+        ],
+        "skinid": 409203,
+        "spineLayers": 1,
+        "audioCelebrate": "j_se_409203/celebrate",
+        "audioCelebrateIdle": "",
+        "audioIdle": "",
+        "audioGreeting": "j_se_409203/greeting",
+        "audioClick": "j_se_409203/click",
         "audioClick2": "",
         "celebrateDelay": 0
     }

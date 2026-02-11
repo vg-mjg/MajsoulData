@@ -3358,5 +3358,53 @@
         "priority": 40091,
         "unlockType": 1,
         "crossView": 0
+    },
+    {
+        "unlockParam": [
+            30557055,
+            0,
+            0,
+            0
+        ],
+        "id": 600149,
+        "nameChs": "四象战冠军",
+        "nameChsT": "四象戰冠軍",
+        "nameJp": "四象戦優勝",
+        "nameEn": "四象戰冠軍",
+        "nameKr": "四象戰冠軍",
+        "descChs": "赠予四象战冠军",
+        "descChsT": "贈予四象戰冠軍",
+        "descJp": "贈予四象戰冠軍",
+        "descEn": "贈予四象戰冠軍",
+        "descKr": "贈予四象戰冠軍",
+        "icon": "extendRes/title/24sxz1.png",
+        "iconItem": "extendRes/title/24sxz1_item.jpg",
+        "priority": 40092,
+        "unlockType": 1,
+        "crossView": 0
+    },
+    {
+        "unlockParam": [
+            30557056,
+            0,
+            0,
+            0
+        ],
+        "id": 600150,
+        "nameChs": "開運全甲斐だ",
+        "nameChsT": "開運全甲斐だ",
+        "nameJp": "開運全甲斐だ",
+        "nameEn": "開運全甲斐だ",
+        "nameKr": "開運全甲斐だ",
+        "descChs": "にじさんじ麻雀杯2026優勝記念",
+        "descChsT": "にじさんじ麻雀杯2026優勝記念",
+        "descJp": "にじさんじ麻雀杯2026優勝記念",
+        "descEn": "にじさんじ麻雀杯2026優勝記念",
+        "descKr": "にじさんじ麻雀杯2026優勝記念",
+        "icon": "extendRes/title/26njsj.png",
+        "iconItem": "extendRes/title/26njsj_item.jpg",
+        "priority": 40093,
+        "unlockType": 1,
+        "crossView": 0
     }
 ]

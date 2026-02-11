@@ -3037,27 +3037,39 @@
     },
     {
         "chestId": 1004,
-        "itemId": 305812,
-        "type": "skin",
-        "checkActivity": 260110
+        "itemId": 20000119,
+        "type": "chara",
+        "checkActivity": 0
     },
     {
         "chestId": 1004,
-        "itemId": 305542,
-        "type": "skin",
-        "checkActivity": 260110
+        "itemId": 20000120,
+        "type": "chara",
+        "checkActivity": 0
     },
     {
         "chestId": 1004,
-        "itemId": 305710,
+        "itemId": 30520012,
         "type": "skin",
-        "checkActivity": 260110
+        "checkActivity": 260211
     },
     {
         "chestId": 1004,
-        "itemId": 305614,
+        "itemId": 30530012,
         "type": "skin",
-        "checkActivity": 260110
+        "checkActivity": 260211
+    },
+    {
+        "chestId": 1004,
+        "itemId": 30580027,
+        "type": "skin",
+        "checkActivity": 260211
+    },
+    {
+        "chestId": 1004,
+        "itemId": 30570017,
+        "type": "skin",
+        "checkActivity": 260211
     },
     {
         "chestId": 1004,
@@ -3811,27 +3823,39 @@
     },
     {
         "chestId": 1005,
-        "itemId": 305812,
-        "type": "skin",
-        "checkActivity": 260110
+        "itemId": 20000119,
+        "type": "chara",
+        "checkActivity": 0
     },
     {
         "chestId": 1005,
-        "itemId": 305542,
-        "type": "skin",
-        "checkActivity": 260110
+        "itemId": 20000120,
+        "type": "chara",
+        "checkActivity": 0
     },
     {
         "chestId": 1005,
-        "itemId": 305710,
+        "itemId": 30520012,
         "type": "skin",
-        "checkActivity": 260110
+        "checkActivity": 260211
     },
     {
         "chestId": 1005,
-        "itemId": 305614,
+        "itemId": 30530012,
         "type": "skin",
-        "checkActivity": 260110
+        "checkActivity": 260211
+    },
+    {
+        "chestId": 1005,
+        "itemId": 30580027,
+        "type": "skin",
+        "checkActivity": 260211
+    },
+    {
+        "chestId": 1005,
+        "itemId": 30570017,
+        "type": "skin",
+        "checkActivity": 260211
     },
     {
         "chestId": 1005,
@@ -4477,27 +4501,27 @@
     },
     {
         "chestId": 1006,
-        "itemId": 305812,
+        "itemId": 30520012,
         "type": "skin",
-        "checkActivity": 260110
+        "checkActivity": 260211
     },
     {
         "chestId": 1006,
-        "itemId": 305542,
+        "itemId": 30530012,
         "type": "skin",
-        "checkActivity": 260110
+        "checkActivity": 260211
     },
     {
         "chestId": 1006,
-        "itemId": 305710,
+        "itemId": 30580027,
         "type": "skin",
-        "checkActivity": 260110
+        "checkActivity": 260211
     },
     {
         "chestId": 1006,
-        "itemId": 305614,
+        "itemId": 30570017,
         "type": "skin",
-        "checkActivity": 260110
+        "checkActivity": 260211
     },
     {
         "chestId": 1006,
@@ -5143,27 +5167,27 @@
     },
     {
         "chestId": 1007,
-        "itemId": 305812,
+        "itemId": 30520012,
         "type": "skin",
-        "checkActivity": 260110
+        "checkActivity": 260211
     },
     {
         "chestId": 1007,
-        "itemId": 305542,
+        "itemId": 30530012,
         "type": "skin",
-        "checkActivity": 260110
+        "checkActivity": 260211
     },
     {
         "chestId": 1007,
-        "itemId": 305710,
+        "itemId": 30580027,
         "type": "skin",
-        "checkActivity": 260110
+        "checkActivity": 260211
     },
     {
         "chestId": 1007,
-        "itemId": 305614,
+        "itemId": 30570017,
         "type": "skin",
-        "checkActivity": 260110
+        "checkActivity": 260211
     },
     {
         "chestId": 1007,
@@ -5917,27 +5941,39 @@
     },
     {
         "chestId": 1008,
-        "itemId": 305812,
-        "type": "skin",
-        "checkActivity": 260110
+        "itemId": 20000119,
+        "type": "chara",
+        "checkActivity": 0
     },
     {
         "chestId": 1008,
-        "itemId": 305542,
-        "type": "skin",
-        "checkActivity": 260110
+        "itemId": 20000120,
+        "type": "chara",
+        "checkActivity": 0
     },
     {
         "chestId": 1008,
-        "itemId": 305710,
+        "itemId": 30520012,
         "type": "skin",
-        "checkActivity": 260110
+        "checkActivity": 260211
     },
     {
         "chestId": 1008,
-        "itemId": 305614,
+        "itemId": 30530012,
         "type": "skin",
-        "checkActivity": 260110
+        "checkActivity": 260211
+    },
+    {
+        "chestId": 1008,
+        "itemId": 30580027,
+        "type": "skin",
+        "checkActivity": 260211
+    },
+    {
+        "chestId": 1008,
+        "itemId": 30570017,
+        "type": "skin",
+        "checkActivity": 260211
     },
     {
         "chestId": 1008,
@@ -6691,27 +6727,39 @@
     },
     {
         "chestId": 1009,
-        "itemId": 305812,
-        "type": "skin",
-        "checkActivity": 260110
+        "itemId": 20000119,
+        "type": "chara",
+        "checkActivity": 0
     },
     {
         "chestId": 1009,
-        "itemId": 305542,
-        "type": "skin",
-        "checkActivity": 260110
+        "itemId": 20000120,
+        "type": "chara",
+        "checkActivity": 0
     },
     {
         "chestId": 1009,
-        "itemId": 305710,
+        "itemId": 30520012,
         "type": "skin",
-        "checkActivity": 260110
+        "checkActivity": 260211
     },
     {
         "chestId": 1009,
-        "itemId": 305614,
+        "itemId": 30530012,
         "type": "skin",
-        "checkActivity": 260110
+        "checkActivity": 260211
+    },
+    {
+        "chestId": 1009,
+        "itemId": 30580027,
+        "type": "skin",
+        "checkActivity": 260211
+    },
+    {
+        "chestId": 1009,
+        "itemId": 30570017,
+        "type": "skin",
+        "checkActivity": 260211
     },
     {
         "chestId": 1009,
@@ -7357,27 +7405,27 @@
     },
     {
         "chestId": 1010,
-        "itemId": 305812,
+        "itemId": 30520012,
         "type": "skin",
-        "checkActivity": 260110
+        "checkActivity": 260211
     },
     {
         "chestId": 1010,
-        "itemId": 305542,
+        "itemId": 30530012,
         "type": "skin",
-        "checkActivity": 260110
+        "checkActivity": 260211
     },
     {
         "chestId": 1010,
-        "itemId": 305710,
+        "itemId": 30580027,
         "type": "skin",
-        "checkActivity": 260110
+        "checkActivity": 260211
     },
     {
         "chestId": 1010,
-        "itemId": 305614,
+        "itemId": 30570017,
         "type": "skin",
-        "checkActivity": 260110
+        "checkActivity": 260211
     },
     {
         "chestId": 1010,
@@ -8023,27 +8071,27 @@
     },
     {
         "chestId": 1011,
-        "itemId": 305812,
+        "itemId": 30520012,
         "type": "skin",
-        "checkActivity": 260110
+        "checkActivity": 260211
     },
     {
         "chestId": 1011,
-        "itemId": 305542,
+        "itemId": 30530012,
         "type": "skin",
-        "checkActivity": 260110
+        "checkActivity": 260211
     },
     {
         "chestId": 1011,
-        "itemId": 305710,
+        "itemId": 30580027,
         "type": "skin",
-        "checkActivity": 260110
+        "checkActivity": 260211
     },
     {
         "chestId": 1011,
-        "itemId": 305614,
+        "itemId": 30570017,
         "type": "skin",
-        "checkActivity": 260110
+        "checkActivity": 260211
     },
     {
         "chestId": 1011,
@@ -8797,27 +8845,39 @@
     },
     {
         "chestId": 1012,
-        "itemId": 305812,
-        "type": "skin",
-        "checkActivity": 260110
+        "itemId": 20000119,
+        "type": "chara",
+        "checkActivity": 0
     },
     {
         "chestId": 1012,
-        "itemId": 305542,
-        "type": "skin",
-        "checkActivity": 260110
+        "itemId": 20000120,
+        "type": "chara",
+        "checkActivity": 0
     },
     {
         "chestId": 1012,
-        "itemId": 305710,
+        "itemId": 30520012,
         "type": "skin",
-        "checkActivity": 260110
+        "checkActivity": 260211
     },
     {
         "chestId": 1012,
-        "itemId": 305614,
+        "itemId": 30530012,
         "type": "skin",
-        "checkActivity": 260110
+        "checkActivity": 260211
+    },
+    {
+        "chestId": 1012,
+        "itemId": 30580027,
+        "type": "skin",
+        "checkActivity": 260211
+    },
+    {
+        "chestId": 1012,
+        "itemId": 30570017,
+        "type": "skin",
+        "checkActivity": 260211
     },
     {
         "chestId": 1012,
@@ -9571,27 +9631,39 @@
     },
     {
         "chestId": 1013,
-        "itemId": 305812,
-        "type": "skin",
-        "checkActivity": 260110
+        "itemId": 20000119,
+        "type": "chara",
+        "checkActivity": 0
     },
     {
         "chestId": 1013,
-        "itemId": 305542,
-        "type": "skin",
-        "checkActivity": 260110
+        "itemId": 20000120,
+        "type": "chara",
+        "checkActivity": 0
     },
     {
         "chestId": 1013,
-        "itemId": 305710,
+        "itemId": 30520012,
         "type": "skin",
-        "checkActivity": 260110
+        "checkActivity": 260211
     },
     {
         "chestId": 1013,
-        "itemId": 305614,
+        "itemId": 30530012,
         "type": "skin",
-        "checkActivity": 260110
+        "checkActivity": 260211
+    },
+    {
+        "chestId": 1013,
+        "itemId": 30580027,
+        "type": "skin",
+        "checkActivity": 260211
+    },
+    {
+        "chestId": 1013,
+        "itemId": 30570017,
+        "type": "skin",
+        "checkActivity": 260211
     },
     {
         "chestId": 1013,
@@ -10237,33 +10309,27 @@
     },
     {
         "chestId": 1014,
-        "itemId": 30580015,
+        "itemId": 30520012,
         "type": "skin",
-        "checkActivity": 250121
+        "checkActivity": 260211
     },
     {
         "chestId": 1014,
-        "itemId": 30570009,
+        "itemId": 30530012,
         "type": "skin",
-        "checkActivity": 250121
+        "checkActivity": 260211
     },
     {
         "chestId": 1014,
-        "itemId": 30560007,
+        "itemId": 30580027,
         "type": "skin",
-        "checkActivity": 250121
+        "checkActivity": 260211
     },
     {
         "chestId": 1014,
-        "itemId": 30505005,
+        "itemId": 30570017,
         "type": "skin",
-        "checkActivity": 250121
-    },
-    {
-        "chestId": 1014,
-        "itemId": 30550022,
-        "type": "skin",
-        "checkActivity": 250121
+        "checkActivity": 260211
     },
     {
         "chestId": 1014,
@@ -10909,33 +10975,27 @@
     },
     {
         "chestId": 1015,
-        "itemId": 30580015,
+        "itemId": 30520012,
         "type": "skin",
-        "checkActivity": 250121
+        "checkActivity": 260211
     },
     {
         "chestId": 1015,
-        "itemId": 30570009,
+        "itemId": 30530012,
         "type": "skin",
-        "checkActivity": 250121
+        "checkActivity": 260211
     },
     {
         "chestId": 1015,
-        "itemId": 30560007,
+        "itemId": 30580027,
         "type": "skin",
-        "checkActivity": 250121
+        "checkActivity": 260211
     },
     {
         "chestId": 1015,
-        "itemId": 30505005,
+        "itemId": 30570017,
         "type": "skin",
-        "checkActivity": 250121
-    },
-    {
-        "chestId": 1015,
-        "itemId": 30550022,
-        "type": "skin",
-        "checkActivity": 250121
+        "checkActivity": 260211
     },
     {
         "chestId": 1015,
@@ -11689,33 +11749,39 @@
     },
     {
         "chestId": 1016,
-        "itemId": 30580015,
-        "type": "skin",
-        "checkActivity": 250121
+        "itemId": 20000119,
+        "type": "chara",
+        "checkActivity": 0
     },
     {
         "chestId": 1016,
-        "itemId": 30570009,
-        "type": "skin",
-        "checkActivity": 250121
+        "itemId": 20000120,
+        "type": "chara",
+        "checkActivity": 0
     },
     {
         "chestId": 1016,
-        "itemId": 30560007,
+        "itemId": 30520012,
         "type": "skin",
-        "checkActivity": 250121
+        "checkActivity": 260211
     },
     {
         "chestId": 1016,
-        "itemId": 30505005,
+        "itemId": 30530012,
         "type": "skin",
-        "checkActivity": 250121
+        "checkActivity": 260211
     },
     {
         "chestId": 1016,
-        "itemId": 30550022,
+        "itemId": 30580027,
         "type": "skin",
-        "checkActivity": 250121
+        "checkActivity": 260211
+    },
+    {
+        "chestId": 1016,
+        "itemId": 30570017,
+        "type": "skin",
+        "checkActivity": 260211
     },
     {
         "chestId": 1016,
@@ -12469,33 +12535,39 @@
     },
     {
         "chestId": 1017,
-        "itemId": 30580015,
-        "type": "skin",
-        "checkActivity": 250121
+        "itemId": 20000119,
+        "type": "chara",
+        "checkActivity": 0
     },
     {
         "chestId": 1017,
-        "itemId": 30570009,
-        "type": "skin",
-        "checkActivity": 250121
+        "itemId": 20000120,
+        "type": "chara",
+        "checkActivity": 0
     },
     {
         "chestId": 1017,
-        "itemId": 30560007,
+        "itemId": 30520012,
         "type": "skin",
-        "checkActivity": 250121
+        "checkActivity": 260211
     },
     {
         "chestId": 1017,
-        "itemId": 30505005,
+        "itemId": 30530012,
         "type": "skin",
-        "checkActivity": 250121
+        "checkActivity": 260211
     },
     {
         "chestId": 1017,
-        "itemId": 30550022,
+        "itemId": 30580027,
         "type": "skin",
-        "checkActivity": 250121
+        "checkActivity": 260211
+    },
+    {
+        "chestId": 1017,
+        "itemId": 30570017,
+        "type": "skin",
+        "checkActivity": 260211
     },
     {
         "chestId": 1017,
@@ -13141,33 +13213,27 @@
     },
     {
         "chestId": 1018,
-        "itemId": 30580015,
+        "itemId": 30520012,
         "type": "skin",
-        "checkActivity": 250121
+        "checkActivity": 260211
     },
     {
         "chestId": 1018,
-        "itemId": 30570009,
+        "itemId": 30530012,
         "type": "skin",
-        "checkActivity": 250121
+        "checkActivity": 260211
     },
     {
         "chestId": 1018,
-        "itemId": 30560007,
+        "itemId": 30580027,
         "type": "skin",
-        "checkActivity": 250121
+        "checkActivity": 260211
     },
     {
         "chestId": 1018,
-        "itemId": 30505005,
+        "itemId": 30570017,
         "type": "skin",
-        "checkActivity": 250121
-    },
-    {
-        "chestId": 1018,
-        "itemId": 30550022,
-        "type": "skin",
-        "checkActivity": 250121
+        "checkActivity": 260211
     },
     {
         "chestId": 1018,
@@ -13813,33 +13879,27 @@
     },
     {
         "chestId": 1019,
-        "itemId": 30580015,
+        "itemId": 30520012,
         "type": "skin",
-        "checkActivity": 250121
+        "checkActivity": 260211
     },
     {
         "chestId": 1019,
-        "itemId": 30570009,
+        "itemId": 30530012,
         "type": "skin",
-        "checkActivity": 250121
+        "checkActivity": 260211
     },
     {
         "chestId": 1019,
-        "itemId": 30560007,
+        "itemId": 30580027,
         "type": "skin",
-        "checkActivity": 250121
+        "checkActivity": 260211
     },
     {
         "chestId": 1019,
-        "itemId": 30505005,
+        "itemId": 30570017,
         "type": "skin",
-        "checkActivity": 250121
-    },
-    {
-        "chestId": 1019,
-        "itemId": 30550022,
-        "type": "skin",
-        "checkActivity": 250121
+        "checkActivity": 260211
     },
     {
         "chestId": 1019,
@@ -14587,6 +14647,24 @@
     },
     {
         "chestId": 8000,
+        "itemId": 20000117,
+        "type": "chara",
+        "checkActivity": 0
+    },
+    {
+        "chestId": 8000,
+        "itemId": 20000119,
+        "type": "chara",
+        "checkActivity": 0
+    },
+    {
+        "chestId": 8000,
+        "itemId": 20000120,
+        "type": "chara",
+        "checkActivity": 0
+    },
+    {
+        "chestId": 8000,
         "itemId": 305007,
         "type": "skin",
         "checkActivity": 0
@@ -15331,6 +15409,24 @@
     },
     {
         "chestId": 8001,
+        "itemId": 20000117,
+        "type": "chara",
+        "checkActivity": 0
+    },
+    {
+        "chestId": 8001,
+        "itemId": 20000119,
+        "type": "chara",
+        "checkActivity": 0
+    },
+    {
+        "chestId": 8001,
+        "itemId": 20000120,
+        "type": "chara",
+        "checkActivity": 0
+    },
+    {
+        "chestId": 8001,
         "itemId": 305007,
         "type": "skin",
         "checkActivity": 0
@@ -15967,6 +16063,12 @@
     },
     {
         "chestId": 8002,
+        "itemId": 20000118,
+        "type": "chara",
+        "checkActivity": 0
+    },
+    {
+        "chestId": 8002,
         "itemId": 305007,
         "type": "skin",
         "checkActivity": 0
@@ -16598,6 +16700,12 @@
     {
         "chestId": 8003,
         "itemId": 200097,
+        "type": "chara",
+        "checkActivity": 0
+    },
+    {
+        "chestId": 8003,
+        "itemId": 20000118,
         "type": "chara",
         "checkActivity": 0
     },

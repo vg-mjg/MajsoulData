@@ -1,0 +1,27 @@
+[
+    {
+        "groupId": 4001,
+        "type": 1,
+        "weight": 30
+    },
+    {
+        "groupId": 4001,
+        "type": 2,
+        "weight": 70
+    },
+    {
+        "groupId": 4002,
+        "type": 1,
+        "weight": 15
+    },
+    {
+        "groupId": 4002,
+        "type": 2,
+        "weight": 85
+    },
+    {
+        "groupId": 4003,
+        "type": 2,
+        "weight": 100
+    }
+]

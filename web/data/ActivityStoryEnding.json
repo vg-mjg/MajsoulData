@@ -328,5 +328,25 @@
         "unlockEnding": "",
         "unlockConsume": "",
         "reward": ""
+    },
+    {
+        "storyId": 2602051,
+        "endingId": 26020511,
+        "unlockDay": 0,
+        "unlockItem": "",
+        "unlockStory": "",
+        "unlockEnding": "",
+        "unlockConsume": "",
+        "reward": ""
+    },
+    {
+        "storyId": 2602052,
+        "endingId": 26020521,
+        "unlockDay": 0,
+        "unlockItem": "",
+        "unlockStory": "",
+        "unlockEnding": "",
+        "unlockConsume": "",
+        "reward": ""
     }
 ]

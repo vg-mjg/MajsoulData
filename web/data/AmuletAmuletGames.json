@@ -3887,7 +3887,7 @@
     {
         "activityId": 250811,
         "level": 1006,
-        "targetPoint": "100354000000",
+        "targetPoint": "1.00354E+11",
         "rewardPack": "113",
         "reward": 10,
         "boss": 1,
@@ -3902,7 +3902,7 @@
     {
         "activityId": 250811,
         "level": 1007,
-        "targetPoint": "1355020000000",
+        "targetPoint": "1.3552E+12",
         "rewardPack": "",
         "reward": 10,
         "boss": 1,
@@ -3917,7 +3917,7 @@
     {
         "activityId": 250811,
         "level": 1008,
-        "targetPoint": "20565900000000",
+        "targetPoint": "2.05659E+13",
         "rewardPack": "",
         "reward": 10,
         "boss": 1,
@@ -3932,7 +3932,7 @@
     {
         "activityId": 250811,
         "level": 1009,
-        "targetPoint": "348311510000000",
+        "targetPoint": "3.48312E+14",
         "rewardPack": "113",
         "reward": 10,
         "boss": 1,

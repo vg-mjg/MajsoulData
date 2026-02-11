@@ -85,7 +85,7 @@
     },
     {
         "id": 1004,
-        "type": 1,
+        "type": 2,
         "nameChs": "寻觅",
         "nameJp": "お祈り",
         "nameEn": "Summon",
@@ -106,7 +106,7 @@
     },
     {
         "id": 1005,
-        "type": 1,
+        "type": 2,
         "nameChs": "寻觅",
         "nameJp": "祈願",
         "nameEn": "Summon",
@@ -127,7 +127,7 @@
     },
     {
         "id": 1006,
-        "type": 1,
+        "type": 2,
         "nameChs": "寻觅",
         "nameJp": "お祈り",
         "nameEn": "Summon",
@@ -148,7 +148,7 @@
     },
     {
         "id": 1007,
-        "type": 1,
+        "type": 2,
         "nameChs": "寻觅",
         "nameJp": "祈願",
         "nameEn": "Summon",
@@ -337,7 +337,7 @@
     },
     {
         "id": 1016,
-        "type": 1,
+        "type": 3,
         "nameChs": "寻觅",
         "nameJp": "お祈り",
         "nameEn": "Summon",
@@ -358,7 +358,7 @@
     },
     {
         "id": 1017,
-        "type": 1,
+        "type": 3,
         "nameChs": "寻觅",
         "nameJp": "祈願",
         "nameEn": "Summon",
@@ -379,7 +379,7 @@
     },
     {
         "id": 1018,
-        "type": 1,
+        "type": 3,
         "nameChs": "寻觅",
         "nameJp": "お祈り",
         "nameEn": "Summon",
@@ -400,7 +400,7 @@
     },
     {
         "id": 1019,
-        "type": 1,
+        "type": 3,
         "nameChs": "寻觅",
         "nameJp": "祈願",
         "nameEn": "Summon",

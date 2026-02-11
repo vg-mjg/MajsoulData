@@ -6,6 +6,11 @@
             1006,
             1007
         ],
+        "banList": [
+            0,
+            0,
+            0
+        ],
         "chooseType": [
             "chara"
         ],
@@ -26,6 +31,48 @@
         "strId": "5110",
         "charaStrId": 5203,
         "itemStrId": 5207,
+        "img": "chest_2",
+        "titleImg": "myres2/treasurehead/zx.png",
+        "titleImg_2": "",
+        "typeset": 4,
+        "enterAnimation": "",
+        "specialEffectFront": "",
+        "specialEffectBack": "",
+        "specialAudio": 0,
+        "upItemsType": 1
+    },
+    {
+        "baseChestId": [
+            1004,
+            1005,
+            1006,
+            1007
+        ],
+        "banList": [
+            20000119,
+            20000120,
+            0
+        ],
+        "chooseType": [
+            "chara"
+        ],
+        "upItems": [
+            30520012,
+            30530012,
+            30580027,
+            30570017,
+            0,
+            0,
+            0,
+            0
+        ],
+        "activityId": 260215,
+        "replaceId": 1002,
+        "sort": 100,
+        "titleStrId": 5018,
+        "strId": "5110",
+        "charaStrId": 5203,
+        "itemStrId": 5206,
         "img": "chest_2",
         "titleImg": "myres2/treasurehead/zx.png",
         "titleImg_2": "",

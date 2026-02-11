@@ -8587,5 +8587,684 @@
         "type": 14,
         "path": "audio/sound/beiluo/spot/jtm_beil_245",
         "typeDesc": "ex2"
+    },
+    {
+        "id": 12101,
+        "character": 20000121,
+        "type": 1,
+        "path": "audio/sound/chilin/spot/jtm_akr_232",
+        "typeDesc": "表示惊讶"
+    },
+    {
+        "id": 12102,
+        "character": 20000121,
+        "type": 2,
+        "path": "audio/sound/chilin/spot/jtm_akr_233",
+        "typeDesc": "表示肯定"
+    },
+    {
+        "id": 12103,
+        "character": 20000121,
+        "type": 3,
+        "path": "audio/sound/chilin/spot/jtm_akr_234",
+        "typeDesc": "表示否定"
+    },
+    {
+        "id": 12104,
+        "character": 20000121,
+        "type": 4,
+        "path": "audio/sound/chilin/spot/jtm_akr_235",
+        "typeDesc": "打招呼"
+    },
+    {
+        "id": 12105,
+        "character": 20000121,
+        "type": 5,
+        "path": "audio/sound/chilin/spot/jtm_akr_236",
+        "typeDesc": "告别"
+    },
+    {
+        "id": 12106,
+        "character": 20000121,
+        "type": 6,
+        "path": "audio/sound/chilin/spot/jtm_akr_237",
+        "typeDesc": "承接"
+    },
+    {
+        "id": 12107,
+        "character": 20000121,
+        "type": 7,
+        "path": "audio/sound/chilin/spot/jtm_akr_238",
+        "typeDesc": "叹气"
+    },
+    {
+        "id": 12108,
+        "character": 20000121,
+        "type": 8,
+        "path": "audio/sound/chilin/spot/jtm_akr_239",
+        "typeDesc": "高兴"
+    },
+    {
+        "id": 12109,
+        "character": 20000121,
+        "type": 9,
+        "path": "audio/sound/chilin/spot/jtm_akr_240",
+        "typeDesc": "生气"
+    },
+    {
+        "id": 12110,
+        "character": 20000121,
+        "type": 10,
+        "path": "audio/sound/chilin/spot/jtm_akr_241",
+        "typeDesc": "递进"
+    },
+    {
+        "id": 12111,
+        "character": 20000121,
+        "type": 11,
+        "path": "audio/sound/chilin/spot/jtm_akr_242",
+        "typeDesc": "转折"
+    },
+    {
+        "id": 12112,
+        "character": 20000121,
+        "type": 12,
+        "path": "audio/sound/chilin/spot/jtm_akr_243",
+        "typeDesc": "疑惑"
+    },
+    {
+        "id": 12113,
+        "character": 20000121,
+        "type": 13,
+        "path": "audio/sound/chilin/spot/jtm_akr_244",
+        "typeDesc": "ex1"
+    },
+    {
+        "id": 12114,
+        "character": 20000121,
+        "type": 14,
+        "path": "audio/sound/chilin/spot/jtm_akr_245",
+        "typeDesc": "ex2"
+    },
+    {
+        "id": 12115,
+        "character": 20000121,
+        "type": 15,
+        "path": "audio/sound/chilin/spot/chilin01",
+        "typeDesc": "赤麟剧情1"
+    },
+    {
+        "id": 12116,
+        "character": 20000121,
+        "type": 16,
+        "path": "audio/sound/chilin/spot/chilin02",
+        "typeDesc": "赤麟剧情2"
+    },
+    {
+        "id": 12117,
+        "character": 20000121,
+        "type": 17,
+        "path": "audio/sound/chilin/spot/chilin03",
+        "typeDesc": "赤麟剧情3"
+    },
+    {
+        "id": 12118,
+        "character": 20000121,
+        "type": 18,
+        "path": "audio/sound/chilin/spot/chilin04",
+        "typeDesc": "赤麟剧情4"
+    },
+    {
+        "id": 12119,
+        "character": 20000121,
+        "type": 19,
+        "path": "audio/sound/chilin/spot/chilin05",
+        "typeDesc": "赤麟剧情5"
+    },
+    {
+        "id": 12120,
+        "character": 20000121,
+        "type": 20,
+        "path": "audio/sound/chilin/spot/chilin06",
+        "typeDesc": "赤麟剧情6"
+    },
+    {
+        "id": 12121,
+        "character": 20000121,
+        "type": 21,
+        "path": "audio/sound/chilin/spot/chilin07",
+        "typeDesc": "赤麟剧情7"
+    },
+    {
+        "id": 12122,
+        "character": 20000121,
+        "type": 22,
+        "path": "audio/sound/chilin/spot/chilin08",
+        "typeDesc": "赤麟剧情8"
+    },
+    {
+        "id": 12123,
+        "character": 20000121,
+        "type": 23,
+        "path": "audio/sound/chilin/spot/chilin09",
+        "typeDesc": "赤麟剧情9"
+    },
+    {
+        "id": 12124,
+        "character": 20000121,
+        "type": 24,
+        "path": "audio/sound/chilin/spot/chilin10",
+        "typeDesc": "赤麟剧情10"
+    },
+    {
+        "id": 12125,
+        "character": 20000121,
+        "type": 25,
+        "path": "audio/sound/chilin/spot/chilin11",
+        "typeDesc": "赤麟剧情11"
+    },
+    {
+        "id": 12126,
+        "character": 20000121,
+        "type": 26,
+        "path": "audio/sound/chilin/spot/chilin12",
+        "typeDesc": "赤麟剧情12"
+    },
+    {
+        "id": 12127,
+        "character": 20000121,
+        "type": 27,
+        "path": "audio/sound/chilin/spot/chilin13",
+        "typeDesc": "赤麟剧情13"
+    },
+    {
+        "id": 12128,
+        "character": 20000121,
+        "type": 28,
+        "path": "audio/sound/chilin/spot/chilin14",
+        "typeDesc": "赤麟剧情14"
+    },
+    {
+        "id": 12129,
+        "character": 20000121,
+        "type": 29,
+        "path": "audio/sound/chilin/spot/chilin15",
+        "typeDesc": "赤麟剧情15"
+    },
+    {
+        "id": 12130,
+        "character": 20000121,
+        "type": 30,
+        "path": "audio/sound/chilin/spot/chilin062",
+        "typeDesc": "赤麟剧情6_2"
+    },
+    {
+        "id": 12131,
+        "character": 20000121,
+        "type": 31,
+        "path": "audio/sound/chilin/spot/chilin16",
+        "typeDesc": "叹气1"
+    },
+    {
+        "id": 12132,
+        "character": 20000121,
+        "type": 32,
+        "path": "audio/sound/chilin/spot/chilin17",
+        "typeDesc": "叹气2"
+    },
+    {
+        "id": 12133,
+        "character": 20000121,
+        "type": 33,
+        "path": "audio/sound/chilin/spot/chilin18",
+        "typeDesc": "笑声1"
+    },
+    {
+        "id": 12134,
+        "character": 20000121,
+        "type": 34,
+        "path": "audio/sound/chilin/spot/chilin19",
+        "typeDesc": "笑声2"
+    },
+    {
+        "id": 12135,
+        "character": 20000121,
+        "type": 35,
+        "path": "audio/sound/chilin/spot/chilin20",
+        "typeDesc": "笑声3"
+    },
+    {
+        "id": 12136,
+        "character": 20000121,
+        "type": 36,
+        "path": "audio/sound/chilin/spot/chilin21",
+        "typeDesc": "笑声4"
+    },
+    {
+        "id": 12137,
+        "character": 20000121,
+        "type": 37,
+        "path": "audio/sound/chilin/spot/chilin22",
+        "typeDesc": "笑声5"
+    },
+    {
+        "id": 1115,
+        "character": 200011,
+        "type": 1,
+        "path": "audio/sound/sigongxiasheng/spot/sigongxiasheng01",
+        "typeDesc": "安慰1"
+    },
+    {
+        "id": 1116,
+        "character": 200011,
+        "type": 2,
+        "path": "audio/sound/sigongxiasheng/spot/sigongxiasheng02",
+        "typeDesc": "安慰2"
+    },
+    {
+        "id": 1117,
+        "character": 200011,
+        "type": 3,
+        "path": "audio/sound/sigongxiasheng/spot/sigongxiasheng03",
+        "typeDesc": "安慰3"
+    },
+    {
+        "id": 1118,
+        "character": 200011,
+        "type": 4,
+        "path": "audio/sound/sigongxiasheng/spot/sigongxiasheng04",
+        "typeDesc": "悲伤1"
+    },
+    {
+        "id": 1119,
+        "character": 200011,
+        "type": 5,
+        "path": "audio/sound/sigongxiasheng/spot/sigongxiasheng05",
+        "typeDesc": "承接1"
+    },
+    {
+        "id": 1120,
+        "character": 200011,
+        "type": 6,
+        "path": "audio/sound/sigongxiasheng/spot/sigongxiasheng06",
+        "typeDesc": "打招呼1"
+    },
+    {
+        "id": 1121,
+        "character": 200011,
+        "type": 7,
+        "path": "audio/sound/sigongxiasheng/spot/sigongxiasheng07",
+        "typeDesc": "打招呼2"
+    },
+    {
+        "id": 1122,
+        "character": 200011,
+        "type": 8,
+        "path": "audio/sound/sigongxiasheng/spot/sigongxiasheng08",
+        "typeDesc": "道谢1"
+    },
+    {
+        "id": 1123,
+        "character": 200011,
+        "type": 9,
+        "path": "audio/sound/sigongxiasheng/spot/sigongxiasheng09",
+        "typeDesc": "道谢2"
+    },
+    {
+        "id": 1124,
+        "character": 200011,
+        "type": 10,
+        "path": "audio/sound/sigongxiasheng/spot/sigongxiasheng10",
+        "typeDesc": "愤怒1"
+    },
+    {
+        "id": 1125,
+        "character": 200011,
+        "type": 11,
+        "path": "audio/sound/sigongxiasheng/spot/sigongxiasheng11",
+        "typeDesc": "否定1"
+    },
+    {
+        "id": 1126,
+        "character": 200011,
+        "type": 12,
+        "path": "audio/sound/sigongxiasheng/spot/sigongxiasheng12",
+        "typeDesc": "否定2"
+    },
+    {
+        "id": 1127,
+        "character": 200011,
+        "type": 13,
+        "path": "audio/sound/sigongxiasheng/spot/sigongxiasheng13",
+        "typeDesc": "高兴1"
+    },
+    {
+        "id": 1128,
+        "character": 200011,
+        "type": 14,
+        "path": "audio/sound/sigongxiasheng/spot/sigongxiasheng14",
+        "typeDesc": "高兴2"
+    },
+    {
+        "id": 1129,
+        "character": 200011,
+        "type": 15,
+        "path": "audio/sound/sigongxiasheng/spot/sigongxiasheng15",
+        "typeDesc": "高兴3"
+    },
+    {
+        "id": 1130,
+        "character": 200011,
+        "type": 16,
+        "path": "audio/sound/sigongxiasheng/spot/sigongxiasheng16",
+        "typeDesc": "高兴4"
+    },
+    {
+        "id": 1131,
+        "character": 200011,
+        "type": 17,
+        "path": "audio/sound/sigongxiasheng/spot/sigongxiasheng17",
+        "typeDesc": "高兴5"
+    },
+    {
+        "id": 1132,
+        "character": 200011,
+        "type": 18,
+        "path": "audio/sound/sigongxiasheng/spot/sigongxiasheng18",
+        "typeDesc": "惊讶1"
+    },
+    {
+        "id": 1133,
+        "character": 200011,
+        "type": 19,
+        "path": "audio/sound/sigongxiasheng/spot/sigongxiasheng19",
+        "typeDesc": "惊讶2"
+    },
+    {
+        "id": 1134,
+        "character": 200011,
+        "type": 20,
+        "path": "audio/sound/sigongxiasheng/spot/sigongxiasheng20",
+        "typeDesc": "肯定1"
+    },
+    {
+        "id": 1135,
+        "character": 200011,
+        "type": 21,
+        "path": "audio/sound/sigongxiasheng/spot/sigongxiasheng21",
+        "typeDesc": "肯定2"
+    },
+    {
+        "id": 1136,
+        "character": 200011,
+        "type": 22,
+        "path": "audio/sound/sigongxiasheng/spot/sigongxiasheng22",
+        "typeDesc": "肯定3"
+    },
+    {
+        "id": 1137,
+        "character": 200011,
+        "type": 23,
+        "path": "audio/sound/sigongxiasheng/spot/sigongxiasheng23",
+        "typeDesc": "思考1"
+    },
+    {
+        "id": 1138,
+        "character": 200011,
+        "type": 24,
+        "path": "audio/sound/sigongxiasheng/spot/sigongxiasheng24",
+        "typeDesc": "叹气1"
+    },
+    {
+        "id": 1139,
+        "character": 200011,
+        "type": 25,
+        "path": "audio/sound/sigongxiasheng/spot/sigongxiasheng25",
+        "typeDesc": "询问1"
+    },
+    {
+        "id": 1140,
+        "character": 200011,
+        "type": 26,
+        "path": "audio/sound/sigongxiasheng/spot/sigongxiasheng26",
+        "typeDesc": "询问2"
+    },
+    {
+        "id": 1141,
+        "character": 200011,
+        "type": 27,
+        "path": "audio/sound/sigongxiasheng/spot/sigongxiasheng27",
+        "typeDesc": "询问3"
+    },
+    {
+        "id": 1142,
+        "character": 200011,
+        "type": 28,
+        "path": "audio/sound/sigongxiasheng/spot/sigongxiasheng28",
+        "typeDesc": "邀请1"
+    },
+    {
+        "id": 1143,
+        "character": 200011,
+        "type": 29,
+        "path": "audio/sound/sigongxiasheng/spot/sigongxiasheng29",
+        "typeDesc": "邀请2"
+    },
+    {
+        "id": 1144,
+        "character": 200011,
+        "type": 30,
+        "path": "audio/sound/sigongxiasheng/spot/sigongxiasheng30",
+        "typeDesc": "语气1"
+    },
+    {
+        "id": 1145,
+        "character": 200011,
+        "type": 31,
+        "path": "audio/sound/sigongxiasheng/spot/sigongxiasheng31",
+        "typeDesc": "语气2"
+    },
+    {
+        "id": 1146,
+        "character": 200011,
+        "type": 32,
+        "path": "audio/sound/sigongxiasheng/spot/sigongxiasheng32",
+        "typeDesc": "自信1"
+    },
+    {
+        "id": 11901,
+        "character": 20000119,
+        "type": 1,
+        "path": "audio/sound/miya/spot/jtm_mia_232",
+        "typeDesc": "表示惊讶"
+    },
+    {
+        "id": 11902,
+        "character": 20000119,
+        "type": 2,
+        "path": "audio/sound/miya/spot/jtm_mia_233",
+        "typeDesc": "表示肯定"
+    },
+    {
+        "id": 11903,
+        "character": 20000119,
+        "type": 3,
+        "path": "audio/sound/miya/spot/jtm_mia_234",
+        "typeDesc": "表示否定"
+    },
+    {
+        "id": 11904,
+        "character": 20000119,
+        "type": 4,
+        "path": "audio/sound/miya/spot/jtm_mia_235",
+        "typeDesc": "打招呼1"
+    },
+    {
+        "id": 11905,
+        "character": 20000119,
+        "type": 5,
+        "path": "audio/sound/miya/spot/jtm_mia_244",
+        "typeDesc": "打招呼2"
+    },
+    {
+        "id": 11906,
+        "character": 20000119,
+        "type": 6,
+        "path": "audio/sound/miya/spot/jtm_mia_245",
+        "typeDesc": "道歉"
+    },
+    {
+        "id": 11907,
+        "character": 20000119,
+        "type": 7,
+        "path": "audio/sound/miya/spot/jtm_mia_236",
+        "typeDesc": "告别"
+    },
+    {
+        "id": 11908,
+        "character": 20000119,
+        "type": 8,
+        "path": "audio/sound/miya/spot/jtm_mia_237",
+        "typeDesc": "承接"
+    },
+    {
+        "id": 11909,
+        "character": 20000119,
+        "type": 9,
+        "path": "audio/sound/miya/spot/jtm_mia_238",
+        "typeDesc": "叹气"
+    },
+    {
+        "id": 11910,
+        "character": 20000119,
+        "type": 10,
+        "path": "audio/sound/miya/spot/jtm_mia_239",
+        "typeDesc": "高兴"
+    },
+    {
+        "id": 11911,
+        "character": 20000119,
+        "type": 11,
+        "path": "audio/sound/miya/spot/jtm_mia_240",
+        "typeDesc": "生气"
+    },
+    {
+        "id": 11912,
+        "character": 20000119,
+        "type": 12,
+        "path": "audio/sound/miya/spot/jtm_mia_241",
+        "typeDesc": "递进"
+    },
+    {
+        "id": 11913,
+        "character": 20000119,
+        "type": 13,
+        "path": "audio/sound/miya/spot/jtm_mia_242",
+        "typeDesc": "转折"
+    },
+    {
+        "id": 11914,
+        "character": 20000119,
+        "type": 14,
+        "path": "audio/sound/miya/spot/jtm_mia_243",
+        "typeDesc": "疑惑"
+    },
+    {
+        "id": 12001,
+        "character": 20000120,
+        "type": 1,
+        "path": "audio/sound/jinwu/spot/jtm_knu_232",
+        "typeDesc": "表示惊讶"
+    },
+    {
+        "id": 12002,
+        "character": 20000120,
+        "type": 2,
+        "path": "audio/sound/jinwu/spot/jtm_knu_233",
+        "typeDesc": "表示肯定"
+    },
+    {
+        "id": 12003,
+        "character": 20000120,
+        "type": 3,
+        "path": "audio/sound/jinwu/spot/jtm_knu_234",
+        "typeDesc": "表示否定"
+    },
+    {
+        "id": 12004,
+        "character": 20000120,
+        "type": 4,
+        "path": "audio/sound/jinwu/spot/jtm_knu_235",
+        "typeDesc": "早上打招呼"
+    },
+    {
+        "id": 12005,
+        "character": 20000120,
+        "type": 5,
+        "path": "audio/sound/jinwu/spot/jtm_knu_236",
+        "typeDesc": "中午打招呼"
+    },
+    {
+        "id": 12006,
+        "character": 20000120,
+        "type": 6,
+        "path": "audio/sound/jinwu/spot/jtm_knu_237",
+        "typeDesc": "晚上打招呼"
+    },
+    {
+        "id": 12007,
+        "character": 20000120,
+        "type": 7,
+        "path": "audio/sound/jinwu/spot/jtm_knu_238",
+        "typeDesc": "告别"
+    },
+    {
+        "id": 12008,
+        "character": 20000120,
+        "type": 8,
+        "path": "audio/sound/jinwu/spot/jtm_knu_239",
+        "typeDesc": "承接"
+    },
+    {
+        "id": 12009,
+        "character": 20000120,
+        "type": 9,
+        "path": "audio/sound/jinwu/spot/jtm_knu_240",
+        "typeDesc": "叹气"
+    },
+    {
+        "id": 12010,
+        "character": 20000120,
+        "type": 10,
+        "path": "audio/sound/jinwu/spot/jtm_knu_241",
+        "typeDesc": "高兴"
+    },
+    {
+        "id": 12011,
+        "character": 20000120,
+        "type": 11,
+        "path": "audio/sound/jinwu/spot/jtm_knu_242",
+        "typeDesc": "生气"
+    },
+    {
+        "id": 12012,
+        "character": 20000120,
+        "type": 12,
+        "path": "audio/sound/jinwu/spot/jtm_knu_243",
+        "typeDesc": "递进"
+    },
+    {
+        "id": 12013,
+        "character": 20000120,
+        "type": 13,
+        "path": "audio/sound/jinwu/spot/jtm_knu_244",
+        "typeDesc": "转折"
+    },
+    {
+        "id": 12014,
+        "character": 20000120,
+        "type": 14,
+        "path": "audio/sound/jinwu/spot/jtm_knu_245",
+        "typeDesc": "疑惑"
     }
 ]

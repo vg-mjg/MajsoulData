@@ -1776,6 +1776,54 @@
         "type": "event"
     },
     {
+        "id": 10381,
+        "path": "audio/audio_lobby/2602chunjie_bgm",
+        "timeLength": 0,
+        "type": "event"
+    },
+    {
+        "id": 10382,
+        "path": "audio/audio_lobby/2602chunjie_fever",
+        "timeLength": 0,
+        "type": "event"
+    },
+    {
+        "id": 10383,
+        "path": "audio/audio_lobby/2602chunjie_start",
+        "timeLength": 0,
+        "type": "event"
+    },
+    {
+        "id": 10384,
+        "path": "audio/audio_lobby/2602chunjie_pai1",
+        "timeLength": 0,
+        "type": "event"
+    },
+    {
+        "id": 10385,
+        "path": "audio/audio_lobby/2602chunjie_pai2",
+        "timeLength": 0,
+        "type": "event"
+    },
+    {
+        "id": 10386,
+        "path": "audio/audio_lobby/2602chunjie_remove",
+        "timeLength": 0,
+        "type": "event"
+    },
+    {
+        "id": 10387,
+        "path": "audio/audio_lobby/2602chunjie_item",
+        "timeLength": 0,
+        "type": "event"
+    },
+    {
+        "id": 10388,
+        "path": "audio/audio_lobby/2602chunjie_end",
+        "timeLength": 0,
+        "type": "event"
+    },
+    {
         "id": 305032,
         "path": "audio/audio_mj/effect_liqi_canying",
         "timeLength": 1314,
@@ -2040,6 +2088,12 @@
         "type": "effect"
     },
     {
+        "id": 30520012,
+        "path": "audio/audio_mj/ron_26chunjie",
+        "timeLength": 0,
+        "type": "effect"
+    },
+    {
         "id": 305224,
         "path": "audio/audio_mj/ron_23ex_heidong",
         "timeLength": 0,
@@ -2282,6 +2336,12 @@
     {
         "id": 30530011,
         "path": "audio/audio_mj/effect_liqi_25dongri",
+        "timeLength": 0,
+        "type": "effect"
+    },
+    {
+        "id": 30530012,
+        "path": "audio/audio_mj/effect_liqi_26chunjie",
         "timeLength": 0,
         "type": "effect"
     },

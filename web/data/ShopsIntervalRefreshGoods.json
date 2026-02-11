@@ -85,6 +85,12 @@
     },
     {
         "groupId": 1001,
+        "goodsId": 9076,
+        "interval": 1,
+        "intervalType": 2
+    },
+    {
+        "groupId": 1001,
         "goodsId": 9011,
         "interval": 2,
         "intervalType": 2
@@ -146,6 +152,12 @@
     {
         "groupId": 1001,
         "goodsId": 9075,
+        "interval": 2,
+        "intervalType": 2
+    },
+    {
+        "groupId": 1001,
+        "goodsId": 9077,
         "interval": 2,
         "intervalType": 2
     },
