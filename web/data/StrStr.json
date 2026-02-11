@@ -274,7 +274,7 @@
         "type": "",
         "chs": "赛事大厅由玩家创建并管理的各种赛事组成，赛事规则由玩家自定义。\r\n雀魂严禁任何赌博等非法行为，一经发现将会严肃处理，希望大家一起维护一个健康的游戏环境。\r\n\r\n参赛者：\r\n- 赛事对局不会结算铜币、PT点数。\r\n- 只有状态为“进行中”的赛事可以进行对局准备。\r\n- 赛事对局只能在对应的赛事会场内进行观战；观战有300秒的延迟。\r\n- 玩家可以在赛事会场内查看全部的赛事牌谱。\r\n\r\n组织者：\r\n- 组织者可以在游戏内或www.maj-soul.com上的“赛事管理”入口进入雀魂赛事管理后台进行赛事的创建和管理。\r\n- 创建赛事需要消耗60辉玉。\r\n- 不开启进阶规则时，比赛将采用和匹配场一致的规则。\r\n- 创建者可以添加其他玩家为管理员进行辅助管理。\r\n- 管理后台中有统计工具，管理者可以通过该工具统计玩家得分和排名。",
         "chsT": "賽事大廳由玩家創建並管理的各種賽事組成，賽事規則由玩家自訂。\r\n雀魂嚴禁任何賭博等非法行為，一經發現將會嚴肅處理，希望大家一起維護一個健康的遊戲環境。\r\n\r\n參賽者：\r\n- 賽事對局不會結算銅幣、PT點數。\r\n- 只有狀態為「進行中」的賽事可以進行對局準備。\r\n- 賽事對局只能在對應的賽事會場內進行觀戰；觀戰有300秒的延遲。\r\n- 玩家可以在賽事會場內查看全部的賽事牌譜。\r\n\r\n組織者：\r\n- 組織者可以在遊戲內或www.maj-soul.com上的「賽事管理」入口進入雀魂賽事管理後台進行賽事的創建和管理。\r\n- 創建賽事需要消耗60輝玉。\r\n- 不開啟進階規則時，比賽將採用和匹配場一致的規則。\r\n- 創建者可以添加其他玩家為管理員進行輔助管理。\r\n- 管理後台中有統計工具，管理者可以透過該工具統計玩家得分和排名。",
-        "jp": "大会戦はプレイヤーが様々な大会を開催し、参加するモードです。大会ルールは主催者のプレイヤーが指定できます。\r\n  雀魂ではいかなる賭博行為も厳しく禁止されています。確認された対象者には厳重なペナルティが科せられます。\r\n\r\n参加者：\r\n- 大会戦は段位点数やコインに影響しません。\r\n- 大会戦は対戦記録、ステータスや対戦詳細に影響しませんが、最近のハイライトは記録されます。\r\n- 大会戦を観戦できるのは大会の参加者のみです。観戦と実際の対戦とは300秒の遅延が設けられています。\r\n- 大会の参加者は大会部屋内で当大会の牌譜を確認することができます。\r\n\r\n主催者：\r\n- 主催者のプレイヤーはmahjongsoul.comのページの「大会管理」から大会の開催と管理ができます。\r\n- 大会を開催する度に輝石が60個消費されます。\r\n- ルールの詳細設定をしない場合、大会は段位戦と同じルールを使用します。\r\n- 主催者は他のプレイヤーを管理者に指名することができます。\r\n- 主催者と管理者は「大会管理」から大会の統計データを確認することができます。\r\n- 大会の対戦では自動マッチングは行えません。",
+        "jp": "大会戦はプレイヤーが様々な大会を開催し、参加するモードです。大会ルールは主催者のプレイヤーが指定できます。\r\n雀魂ではいかなる賭博行為も厳しく禁止されています。確認された対象者には厳重なペナルティが科せられます。\r\n\r\n参加者：\r\n- 大会戦は段位点数やコインに影響しません。\r\n- 大会戦は対戦記録、ステータスや対戦詳細に影響しませんが、最近のハイライトは記録されます。\r\n- 大会戦を観戦できるのは大会の参加者のみです。観戦と実際の対戦とは300秒の遅延が設けられています。\r\n- 大会の参加者は大会部屋内で当大会の牌譜を確認することができます。\r\n\r\n主催者：\r\n- 主催者のプレイヤーはmahjongsoul.comのページの「大会管理」から大会の開催と管理ができます。\r\n- 大会を開催する度に輝石が60個消費されます。\r\n- ルールの詳細設定をしない場合、大会は段位戦と同じルールを使用します。\r\n- 主催者は他のプレイヤーを管理者に指名することができます。\r\n- 主催者と管理者は「大会管理」から大会の統計データを確認することができます。\r\n- 大会の対戦では自動マッチングは行えません。",
         "en": "In the tournament lobby, players can create and manage different tournaments using customized rules. \r\n Illegal activities, such as gambling, are strictly prohibited in Mahjong Soul and will face serious consequences once found. We hope all players can work together to ensure a healthy gaming environment. \r\n\r\nParticipant:\r\n - Tournament matches will not involve coppers or PTs. \r\n - Tournament match results will not be reflected in “Recent Trends”, “Style (stats)” or “Match Info”, but may appear in “Recent High Score”. \r\n - Players can only prepare for tournaments marked as “In Progress”. \r\n - Tournament matches can only be spectated in corresponding tournament rooms with a 300 seconds delay. \r\n - Participants can view the match logs of a tournament within the tournament room. \r\n\r\nOrganizer:\r\n - Organizers can enter the organizer center to create and manage tournaments via “Manage Tournament” on mahjongsoul.yo-star.com. \r\n - Creating a tournament will cost 60 Jade. \r\n - A tournament room will exist for up to 90 days, starting from the day it was created. \r\n - Tournament matches will use the same rules as the standard Ranked Match if “Advanced Rules” are disabled. \r\n - Creators can add other players as admins to help manage the tournament. \r\n - Tournament admins may use statistical tools in the organizer center to analyze participant scores and rankings. \r\n - Tournament matches must be manually activated by admins. Participants will not be randomly matched.",
         "kr": "대회전은 플레이어가 각자의 대회를 개최하거나 참가하는 모드입니다. 대회 규칙은 주최자가 지정할 수 있습니다. \\n작혼에서는 어떠한 도박 행위도 엄격하게 금지되어 있습니다. 적발된 대상자에게는 엄중한 패널티가 부여됩니다.\\n\\n참가자:\\n- 대회전은 등급 점수나 코인에 변동이 없습니다.\\n- 대회전은 스테이터스나 대국 기록에는 기록되지 않으나, 최근 하이라이트는 기록됩니다.\\n- 대회전을 관전하는 것은 대회 참가자만이 가능합니다. 관전은 실제 대국과 300초의 지연이 적용됩니다.\\n- 대회 참가자는 대회 방 내에서 대회의 패보를 확인할 수 있습니다.\\n\\n주최자:\\n- 주최자는 mahjongsoul.com 페이지의 '대회 관리'에서 대회의 개최와 관리가 가능합니다.\\n- 대회를 개최하기 위해서는 휘석 60개가 필요합니다.\\n- 규칙을 따로 설정하지 않을 경우 등급전와 같은 규칙이 적용됩니다.\\n- 주최자는 다른 플레이어를 관리자로 임명할 수 있습니다.\\n- 주최자와 관리자는 '대회 관리'에서 대회 통계 데이터를 확인할 수 있습니다.\\n- 대회의 대국은 자동 매칭을 지원하지 않습니다."
     },
@@ -3885,7 +3885,7 @@
         "chsT": "使用者協定",
         "jp": "ソフトウェア利用許諾契約",
         "en": "User Agreement",
-        "kr": "사용자 라이선스 계약"
+        "kr": "서비스 이용약관"
     },
     {
         "id": 2344,
@@ -4729,7 +4729,7 @@
         "type": "",
         "chs": "最小单位100，最大值200000，必须大于等于起始点数\r\nAll LAST时1位不足该点数将南入/西入",
         "chsT": "最小單位100，最大值200000，必須大於等於起始點數\r\nAll LAST時1位不足該點數將南入/西入",
-        "jp": "100単位、最大200000まで、配原より大きくなければなりません\r\nオーラス時、1位がこの点数以下の場合南入/西入",
+        "jp": "100単位、最大200000まで。配原未満に設定できません\r\n一位がこの点数を下回る場合、オーラス終了後に南入/西入します。",
         "en": "Minimum points 100, maximum points 200000.At ALL LAST, if the 1st-ranked player has less points than this value, the game will extend into South/West Round",
         "kr": "최소 100점, 최대 200000점. 시작 점수보다 커야 합니다.\r\nAll LAST 시, 1위가 해당 점수 이하인 경우 남입/서입"
     },
@@ -4738,7 +4738,7 @@
         "type": "",
         "chs": "All LAST时1位不足该点数将南入/西入",
         "chsT": "All LAST時1位不足該點數將南入/西入",
-        "jp": "オーラス時、1位がこの点数以下の場合南入/西入",
+        "jp": "一位がこの点数を下回る場合、オーラス終了後に南入/西入します。",
         "en": "At ALL LAST, if the 1st-ranked player has less points than this value, the game will extend into South/West Round",
         "kr": "All LAST 시, 1위가 해당 점수 이하인 경우 남입/서입"
     },
@@ -23112,6 +23112,33 @@
         "kr": ""
     },
     {
+        "id": 5029,
+        "type": "",
+        "chs": "新春甄选-樱花",
+        "chsT": "新春甄選-櫻花",
+        "jp": "新春の風-桜",
+        "en": "Spring's Bounty: Sakura",
+        "kr": "새해 특별 기원-벚꽃"
+    },
+    {
+        "id": 5030,
+        "type": "",
+        "chs": "新春甄选-竹林",
+        "chsT": "新春甄選-竹林",
+        "jp": "新春の風-竹",
+        "en": "Spring's Bounty: Bamboo",
+        "kr": "새해 특별 기원-죽림"
+    },
+    {
+        "id": 5031,
+        "type": "",
+        "chs": "",
+        "chsT": "",
+        "jp": "",
+        "en": "",
+        "kr": ""
+    },
+    {
         "id": 5040,
         "type": "",
         "chs": "银霓蛇祀",
@@ -23236,6 +23263,24 @@
         "jp": "輝石で10回祈願すると[tag]紫色の贈り物[/tag]を必ず1個以上獲得できます。\r\n[tag]特別限定雀士・新装飾品[/tag]が期間限定ピックアップ！\r\n璃央は期間終了後、[tag]通常祈願から入手できません。[/tag]\r\n璃央の絆レベルが上がると[tag]特別な装飾品[/tag]が入手可能。",
         "en": "You will get at least [tag]1 purple gift[/tag] when you perform a 10-summon using Jade.\r\nLi Yang is a limited-time character and [tag]WON'T be added to regular summon after the event ends[/tag].\r\nIncrease Bond with Li Yang for [tag]exclusive decorations and portrait frame[/tag].\r\nDuring the event, [tag]new character and new decorations[/tag] get limited-time rate up!",
         "kr": "휘석을 사용하여 10회 기원 시, 최소 [tag]1개의 보라색 선물[/tag]을 획득합니다.\r\n한정 작사 캐릭터 리오는 [tag]이벤트 종료 후 상시 기원에 포함되지 않습니다[/tag].\r\n리오의 인연 포인트를 올리면 [tag]전용 장식품과 프로필 테두리[/tag]가 해제됩니다.\r\n이벤트 기간 동안, [tag]특정 작사 캐릭터, 신규 장식품[/tag]의 획득 확률이 상승합니다."
+    },
+    {
+        "id": 5112,
+        "type": "",
+        "chs": "使用辉玉10连寻觅，至少会获得[tag]1个紫色礼物[/tag]\r\n进行新春甄选寻觅时，[tag]选择的特定两名雀士组合[/tag]限时UP！\r\n进行新春甄选寻觅时，[tag]特定装扮[/tag]限时UP！\r\n活动期间，UP的雀士组合[tag]可以无限更换和寻觅！[/tag]",
+        "chsT": "使用輝玉10連尋覓，至少會獲得[tag]1個紫色禮物[/tag]\r\n進行新春甄選尋覓時，[tag]選擇的特定兩名雀士組合[/tag]限時UP！\r\n進行新春甄選尋覓時，[tag]特定裝扮[/tag]限時UP！\r\n活動期間，UP的雀士組合[tag]可以無限更換和尋覓！[/tag]",
+        "jp": "・輝石で10回祈願すると、紫色の贈り物を必ず1個以上獲得できます。\r\n・[tag]選んだ2名の雀士[/tag]が期間限定ピックアップ！\r\n・[tag]特定装飾品[/tag]が期間限定ピックアップ！\r\n・[tag]選んだ2名の雀士[/tag]は期間中、いつでも変更可能！\r\n・選択した雀士を獲得後、引き続き他の雀士を選択可能です。",
+        "en": "You will get at least [tag]1 purple gift[/tag] when you perform a 10-summon using Jade.\r\nDuring Spring's Bounty, [tag]a selected pair of characters[/tag] get limited-time rate UP!\r\nDuring Spring's Bounty, [tag]specific decorations[/tag] get limited-time rate UP!\r\nThere is [tag]no limit[/tag] to the number of times you can change your Rate Up pair or summon for the selected characters.",
+        "kr": "·휘석을 사용하여 10회 기원 시, 최소 [tag]1개의 보라색 선물[/tag]을 획득합니다. \r\n·새해 특별 기원 기간 동안, [tag]선택한 작사 페어[/tag]의 획득 확률이 상승합니다.\r\n·새해 특별 기원 기간 동안, [tag]특정 장식품[/tag]의 획득 확률이 상승합니다.\r\n·이벤트 기간 동안, 확률 UP 작사 페어는 [tag]제한없이[/tag] 변경하여 기원할 수 있습니다."
+    },
+    {
+        "id": 5113,
+        "type": "",
+        "chs": "使用辉玉10连寻觅，至少会获得[tag]1个紫色礼物[/tag]\r\n进行新春甄选寻觅时，[tag]选择的特定两名雀士组合[/tag]限时UP！\r\n进行新春甄选寻觅时，[tag]新装扮[/tag]限时UP！\r\n活动期间，UP的雀士组合[tag]可以无限更换和寻觅！[/tag]",
+        "chsT": "使用輝玉10連尋覓，至少會獲得[tag]1個紫色禮物[/tag]\r\n進行新春甄選尋覓時，[tag]選擇的特定兩名雀士組合[/tag]限時UP！\r\n進行新春甄選尋覓時，[tag]新裝扮[/tag]限時UP！\r\n活動期間，UP的雀士組合[tag]可以無限更換和尋覓！[/tag]",
+        "jp": "・輝石で10回祈願すると、紫色の贈り物を必ず1個以上獲得できます。\r\n・[tag]選んだ2名の雀士[/tag]が期間限定ピックアップ！\r\n・[tag]新装飾品[/tag]が期間限定ピックアップ！\r\n・[tag]選んだ2名の雀士[/tag]は期間中、いつでも変更可能！\r\n・選択した雀士を獲得後、引き続き他の雀士を選択可能です。",
+        "en": "You will get at least [tag]1 purple gift[/tag] when you perform a 10-summon using Jade.\r\nDuring Spring's Bounty, [tag]a selected pair of characters[/tag] get limited-time rate UP!\r\nDuring Spring's Bounty, [tag]new decorations[/tag] get limited-time rate UP!\r\nThere is [tag]no limit[/tag] to the number of times you can change your Rate Up pair or summon for the selected characters.",
+        "kr": "·휘석을 사용하여 10회 기원 시, 최소 [tag]1개의 보라색 선물[/tag]을 획득합니다. \r\n·새해 특별 기원 기간 동안, [tag]선택한 작사 페어[/tag]의 획득 확률이 상승합니다.\r\n·새해 특별 기원 기간 동안, [tag]신규 장식품[/tag]의 획득 확률이 상승합니다.\r\n·이벤트 기간 동안, 확률 UP 작사 페어는 [tag]제한없이[/tag] 변경하여 기원할 수 있습니다."
     },
     {
         "id": 5201,
@@ -26759,11 +26804,11 @@
     {
         "id": 8183,
         "type": "",
-        "chs": "您已获得所有常驻雀士",
-        "chsT": "您已獲得所有常駐雀士",
-        "jp": "期間限定以外の雀士は全員入手済みです。",
-        "en": "You have obtained all regular characters.",
-        "kr": "이미 상시 기원의 모든 작사를 보유 중입니다."
+        "chs": "您已获得所有可选的常驻雀士",
+        "chsT": "您已獲得所有可選的常駐雀士",
+        "jp": "2025年12月31日23:59までの期間限定以外の雀士は全員所持済みです。",
+        "en": "You have obtained all selectable regular characters.",
+        "kr": "이미 선택 가능한 상시 기원의 모든 작사를 보유 중입니다."
     },
     {
         "id": 8184,
@@ -26777,20 +26822,20 @@
     {
         "id": 8185,
         "type": "",
-        "chs": "请选择寻觅类型\r\n您已获得所有樱花之路的常驻雀士",
-        "chsT": "請選擇尋覓類型\r\n您已獲得所有櫻花之路的常駐雀士",
-        "jp": "祈願タイプを選んでください。\r\n落桜の道で排出される雀士キャラクターは全員所持中です。",
-        "en": "Please choose one path.\r\nYou have obtained all regular characters in Sakura Path.",
-        "kr": "기원 종류를 선택해 주세요.\r\n이미 벚꽃의 길의 모든 작사를 보유 중입니다."
+        "chs": "请选择寻觅类型\r\n您已获得所有可选的樱花之路常驻雀士",
+        "chsT": "請選擇尋覓類型\r\n您已獲得所有可選的櫻花之路常駐雀士",
+        "jp": "祈願タイプを選んでください。\r\n落桜の道で排出される対象雀士（2025年12月31日23:59までの期間限定以外の雀士）は全員所持済です。",
+        "en": "Please choose one path.\r\nYou already own all selectable regular characters in Sakura Path.",
+        "kr": "기원 종류를 선택해 주세요.\r\n이미 선택 가능한 벚꽃의 길의 모든 작사를 보유 중입니다."
     },
     {
         "id": 8186,
         "type": "",
-        "chs": "请选择寻觅类型\r\n您已获得所有竹林之路的常驻雀士",
-        "chsT": "請選擇尋覓類型\r\n您已獲得所有竹林之路的常駐雀士",
-        "jp": "祈願タイプを選んでください。\r\n竹林の道で排出される雀士キャラクターは全員所持中です。",
-        "en": "Please choose one path.\r\nYou have obtained all regular characters in Bamboo Path.",
-        "kr": "기원 종류를 선택해 주세요.\r\n이미 죽림의 길의 모든 작사를 보유 중입니다."
+        "chs": "请选择寻觅类型\r\n您已获得所有可选的竹林之路常驻雀士",
+        "chsT": "請選擇尋覓類型\r\n您已獲得所有可選的竹林之路常駐雀士",
+        "jp": "祈願タイプを選んでください。\r\n竹林の道で排出される対象雀士（2025年12月31日23:59までの期間限定以外の雀士）は全員所持済です。",
+        "en": "Please choose one path.\r\nYou already own all selectable regular characters in Bamboo Path.",
+        "kr": "기원 종류를 선택해 주세요.\r\n이미 선택 가능한 죽림의 길의 모든 작사를 보유 중입니다."
     },
     {
         "id": 8187,
@@ -38754,7 +38799,7 @@
         "kr": "리소스 다운로드 중… ({0}/{1})"
     },
     {
-        "id": 25110901,
+        "id": 25110801,
         "type": "",
         "chs": "超级麻将牌宾果活动说明\r\n活动期间，每天将解锁一张全新的宾果卡\r\n在无电脑的对局中和牌，若和牌牌型中包含指定种类的麻将牌，即可点亮宾果卡上的对应格子\r\n点亮横线、竖线或斜线的全部宾果格，即可领取连线上的奖励！\r\n\r\n宾果格种类说明：\r\n-百搭：初始即为点亮状态\r\n-万：和牌型包含任意万子\r\n-筒：和牌型包含任意筒子\r\n-索：和牌型包含任意索子\r\n-风：和牌型包含东/南/西/北\r\n-三元：和牌型包含白/发/中\r\n\r\n*每场对局只能完成当前的宾果卡\r\n*与电脑的对局不计入活动进度",
         "chsT": "超級麻將牌賓果活動說明\r\n活動期間，每天將解鎖一張全新的賓果卡\r\n在無電腦的對局中和牌，若和牌牌型中包含指定種類的麻將牌，即可點亮賓果卡上的對應格子\r\n點亮橫線、豎線或斜線的全部賓果格，即可領取連線上的獎勵！\r\n\r\n賓果格種類說明：\r\n-百搭：初始即為點亮狀態\r\n-萬：和牌型包含任意萬子\r\n-筒：和牌型包含任意筒子\r\n-索：和牌型包含任意索子\r\n-風：和牌型包含東/南/西/北\r\n-三元：和牌型包含白/發/中\r\n\r\n*每場對局只能完成當前的賓果卡\r\n*與電腦的對局不計入活動進度",
@@ -38763,7 +38808,7 @@
         "kr": "슈퍼 마작패 빙고 이벤트 설명\r\n\r\n이벤트 기간 동안 매일 새로운 빙고판이 오픈됩니다. 일반 대국에서 화료에 성공하면, 화료한 패의 유형에 따라 빙고판의 해당 칸을 오픈할 수 있습니다. (AI 대국 제외)\r\n가로, 세로, 대각선 줄을 모두 완성하면 보상을 받으실 수 있습니다!\r\n\r\n빙고 칸 종류 설명:\r\n-백탑: 처음부터 오픈됩니다.\r\n-만: 임의의 만수패를 포함하여 화료 시에 오픈됩니다.\r\n-통: 임의의 통수패를 포함하여 화료 시에 오픈됩니다.\r\n-삭: 임의의 삭수패를 포함하여 화료 시에 오픈됩니다.\r\n-풍: 동/남/서/북 패 중 하나를 포함하여 화료 시에 오픈됩니다.\r\n-삼원: 백/발/중 패 중 하나를 포함하여 화료 시에 오픈됩니다.\r\n\r\n*각 대국에서는 현재 이벤트 페이지에 표시된 빙고판만 완성할 수 있습니다.\r\n*AI 대국은 이벤트 진행도에 포함되지 않습니다."
     },
     {
-        "id": 25110903,
+        "id": 25110803,
         "type": "",
         "chs": "完成上一张宾果卡后解锁",
         "chsT": "完成上一張賓果卡後解鎖",
@@ -38772,7 +38817,7 @@
         "kr": "이전 단계의 빙고판을 완성하면 오픈됩니다."
     },
     {
-        "id": 25110904,
+        "id": 25110804,
         "type": "",
         "chs": "12.8 - 12.17 4:59",
         "chsT": "12.8 - 12.17 4:59 (UTC+8)",
@@ -38781,13 +38826,67 @@
         "kr": "12월 8일~12월 17일 5:59 AM (GMT+9)"
     },
     {
-        "id": 25110905,
+        "id": 25110805,
         "type": "",
         "chs": "和牌时包含指定种类牌即可点亮对应格子（与电脑的对局除外）",
         "chsT": "和牌時包含指定種類牌即可點亮對應格子（與電腦的對局除外）",
         "jp": "和了した手にマスの指定された牌が含まれていた場合点灯できます（CPU相手との対局は対象外）。",
         "en": "Mark off bingo spaces by winning hands that contain the matching tiles (excluding matches against AI).",
         "kr": "화료 시 지정된 종류의 패가 포함되어 있으면 해당 칸을 오픈할 수 있습니다. (AI 대국 제외)"
+    },
+    {
+        "id": 25110901,
+        "type": "",
+        "chs": "用户中心",
+        "chsT": "用戶中心",
+        "jp": "ユーザーセンター",
+        "en": "User Center",
+        "kr": "유저 센터"
+    },
+    {
+        "id": 25110902,
+        "type": "",
+        "chs": "个人信息处理方针",
+        "chsT": "個人資訊處理方針",
+        "jp": "",
+        "en": "",
+        "kr": "개인정보처리방침"
+    },
+    {
+        "id": 25110903,
+        "type": "",
+        "chs": "退款协议",
+        "chsT": "退款協議",
+        "jp": "",
+        "en": "",
+        "kr": "청약 철회 관련 규정"
+    },
+    {
+        "id": 25110904,
+        "type": "",
+        "chs": "未成年人商店协议",
+        "chsT": "未成年人商店協議",
+        "jp": "",
+        "en": "",
+        "kr": "미성년자 법정대리인 결제 동의 확인 안내"
+    },
+    {
+        "id": 25110905,
+        "type": "",
+        "chs": "客服中心",
+        "chsT": "客服中心",
+        "jp": "お問い合わせ窓口",
+        "en": "CS Center",
+        "kr": "고객 센터"
+    },
+    {
+        "id": 25110906,
+        "type": "",
+        "chs": "用户协议",
+        "chsT": "使用者協定",
+        "jp": "ソフトウェア利用許諾契約",
+        "en": "User Agreement",
+        "kr": "서비스 이용약관"
     },
     {
         "id": 25120101,
@@ -39238,5 +39337,392 @@
         "jp": "既にすべてのマスが開けられた",
         "en": "All missions have been revealed.",
         "kr": "모든 임무를 오픈하였습니다"
+    },
+    {
+        "id": 26022001,
+        "type": "",
+        "chs": "2.11-3.7 4:59",
+        "chsT": "2.11-3.7 4:59",
+        "jp": "2月11日(水) ～ 3月7日(土) 5：59",
+        "en": "2/10 - 3/6 1:59 P.M. (UTC-7)",
+        "kr": "2월 11일 업데이트 후~3월 7일 5:59 AM (GMT+9)"
+    },
+    {
+        "id": 26022002,
+        "type": "",
+        "chs": "新春特别活动 - 神驰集愿\r\n\r\n活动时间：2026年2月11日维护后 - 3月7日4:59\r\n为了收集人们的祈愿兼自身修行，午马宫宫主赤麟将穿梭在一番市的大街小巷，东奔西走为大家分发美食珍馐。\r\n清除路上的麻将障碍，获得更多胡萝卜和训练度，将心意传达到更远吧！\r\n活动期间完成活动任务，可以获得春节限定表情、限定桌布、活动插画、寻觅卷轴等丰厚奖励！\r\n\r\n基础操作\r\n-赤麟全程会向右自动奔跑\r\n-点击界面右侧的【上/下箭头】或是键盘的【W/S】与【上/下方向键】可让她上下移动\r\n\r\n游戏规则\r\n-奔跑过程中撞击麻将牌，其会自动收入背包中，至多7张\r\n-当背包中的牌组成【顺子】或【刻子】时，会自动消除并获得胡萝卜\r\n-当背包已满且新获得牌后无法消除，或剩余游戏时间为0时，游戏结束\r\n-奔跑过程中收集路上的奖励道具，也可获得额外胡萝卜或游戏时间\r\n-每轮游戏中获得的胡萝卜和训练度可用于领取活动奖励\r\n\r\n福牌与极速时间\r\n-游戏开始时会随机指定3种麻将牌为【福牌】，用黄色牌面表示\r\n-消除包含福牌的组合时，可获得额外胡萝卜并延长游戏时间\r\n-消除所有3种福牌后将进入极速时间，此时前方所有牌都会变成福牌，是累积胡萝卜的好机会！",
+        "chsT": "新春特別活動 - 神馳集願\r\n\r\n活動時間：2026年2月11日維護後 - 3月7日4:59(UTC+8)\r\n為了蒐集人們的祈願兼自身修行，午馬宮宮主赤麟將穿梭在一番市的大街小巷，東奔西走為大家分發美食珍饈。\r\n清除路上的麻將障礙，獲得更多胡蘿蔔和訓練度，將心意傳達到更遠吧！\r\n活動期間完成活動任務，可以獲得春節限定表情、限定桌布、活動插畫、尋覓卷軸等豐厚獎勵！\r\n\r\n基礎操作\r\n-赤麟全程會向右自動奔跑\r\n-點擊介面右側的【上/下箭頭】或是鍵盤的【W/S】與【上/下方向鍵】可讓她上下移動\r\n\r\n遊戲規則\r\n-奔跑過程中撞擊麻將牌，其會自動收入背包中，至多7張\r\n-當背包中的牌組成【順子】或【刻子】時，會自動消除並獲得胡蘿蔔\r\n-當背包已滿且新獲得牌後無法消除，或剩餘遊戲時間為0時，遊戲結束\r\n-奔跑過程中蒐集路上的獎勵道具，也可獲得額外胡蘿蔔或遊戲時間\r\n-每輪遊戲中獲得的胡蘿蔔和訓練度可用於領取活動獎勵\r\n\r\n福牌與極速時間\r\n-遊戲開始時會隨機指定3種麻將牌為【福牌】，用黃色牌面表示\r\n-消除包含福牌的組合時，可獲得額外胡蘿蔔並延長遊戲時間\r\n-消除所有3種福牌後將進入極速時間，此時前方所有牌都會變成福牌，是累積胡蘿蔔的好機會！",
+        "jp": "「午神の願い事集め」について\r\n人々の願いの収集と自分の修行を兼ねて、午馬宮の宮主・赤麟は今日も一飜市中を駆け回る。\r\n赤麟を操作し、障害物（麻雀牌）を取り除いて、ハイスコアに挑戦しよう！\r\n期間中にイベントクエストを達成、またはミニゲームに挑戦すると、祈願の巻物や春節期間限定スタンプ、限定雀卓、ローディングイラストなどの豪華報酬を獲得できます！\r\n\r\nイベント期間\r\n2026年2月11日（水）～ 3月7日（土）5:59\r\n\r\n操作方法\r\n-赤麟は自動で画面の右方向に走り続ける。\r\n-画面右側の【↑・↓】をタップすると、赤麟を上下の列に移動させられる（キーボード操作では【上・下矢印キー】または【W・Sキー】）。\r\n\r\n基本ルール\r\n-赤麟が麻雀牌に当たった時、当たった麻雀牌を最大7枚までバッグに収納する。\r\n-バッグにある麻雀牌が「順子」または「刻子」になる時、自動的に「チー」または「ポン」され、スコアになる。\r\n-タイムが0になった時、もしくはバッグがいっぱいの時に当たった麻雀牌がバッグの麻雀牌と組み合わせて「順子」または「刻子」にならない時は、ゲームオーバーとなる。\r\n-途中でボーナスアイテムが出現することがある。ボーナスアイテムに当たると、ボーナススコアまたはボーナスタイムを獲得できる。\r\n-イベントクエストまたはミニゲームで「ニンジン」や「練度」を集めると、イベント報酬を獲得できる。\r\n\r\n「福の牌」と「RUSH TIME!」について\r\n-毎回ミニゲーム開始時に、ランダムで3種の牌が「福の牌」に指定される。ゲーム中、「福の牌」は黄色くハイライトされる。\r\n-「福の牌」を含む形で「チー」または「ポン」をすると、ボーナススコアとボーナスタイムを獲得できる。\r\n-3種類の「福の牌」を1枚ずつ含む形で「チー」または「ポン」すると「RUSH TIME!」に突入する。「RUSH TIME!」中は、すべての牌が「福の牌」になる。",
+        "en": "Spring Festival Event - Wishes Unbridled\r\n\r\nEvent Period: 2/10 - 3/6 1:59 P.M. (UTC-7)\r\n\r\nTo gather wishes and hone her skills, Chi Lin, Lady of the Horse Palace, is dashing through the streets of One Han City to deliver delicious treats!\r\nClear mahjong obstacles along the way to collect Chi Lin's favorite Carrots and boost her Gallop Power, carrying her message as far as you can!\r\nDuring the event, complete missions and play the minigame to earn various rewards, including Spring Festival Emotes, exclusive Tablecloth, Event Illustration, and Summon Scrolls!\r\n\r\nControls\r\n- Chi Lin automatically runs to the right.\r\n- Tap the [Up/Down Arrows] on the right side of the screen, or press [W/S] / [↑/↓] on your keyboard to move up and down.\r\n\r\nGame Rules\r\n- Hit mahjong tiles to collect them in Chi Lin's bag. It can hold a maximum of 7 tiles.\r\n- Forming a sequence or triplet automatically clears the tiles and grants Carrots.\r\n- The game ends if the bag is full and no new meld can be made, or when the timer reaches 0.\r\n- Collect special items along the way to earn bonus Carrots or extend game time.\r\n- Accumulate Carrots and increase Gallop Power from each run to unlock event rewards.\r\n\r\nLucky Tiles and Gallop Time\r\n- At the start of the game, 3 different tiles are randomly designated as [Lucky Tiles], highlighted in yellow.\r\n- Clearing a meld that contains a Lucky Tile grants bonus Carrots and adds extra time.\r\n- Clear all 3 Lucky Tiles to trigger Gallop Time! During this mode, all upcoming tiles become Lucky Tiles – the perfect chance to harvest a ton of Carrots!",
+        "kr": "새해 맞이 이벤트 - 소원이 닿는 곳\r\n\r\n이벤트 기간: 2월 11일 업데이트 후 ~ 3월 7일 5:59 AM (GMT+9)\r\n\r\n인간들의 소원을 모으고 수행을 쌓기 위해, 오마궁의 궁주 아카리는 이한시의 대로와 골목길 곳곳을 돌아다니며, 모두에게 진귀한 음식을 나눠주려고 합니다.\r\n길 위의 장애물(마작패)을 제거하고, 더 많은 당근과 훈련도를 획득하여, 마음을 멀리까지 전하세요!\r\n\r\n이벤트 기간 동안 임무를 완료하면, 새해 한정 스탬프, 한정 작탁, 이벤트 일러스트, 기원의 두루마리 등 다양한 보상을 획득할 수 있습니다! \r\n\r\n[기본조작]\r\n- 아카리는 자동으로 오른쪽으로 이동합니다.\r\n- 화면 오른쪽의 '위/아래 화살표'를 클릭하거나, 키보드의 'W/S 키'와 '위/아래 방향키'를 사용하여 아카리를 위, 아래로 움직일 수 있습니다.\r\n\r\n[게임규칙]\r\n- 달리는 도중 마작패에 부딪치면 마작패가 자동으로 가방 속에 들어가며, 최대 7장을 보관할 수 있습니다.\r\n- 가방 안의 패가 '슌쯔' 혹은 '커쯔'를 만들면 자동으로 처리되며 당근을 획득합니다.\r\n- 가방이 가득 차면 새로운 패를 획득해도 처리할 수 없으며, 남은 게임 시간이 0이 되면 게임이 종료됩니다.\r\n- 달리는 도중 보너스 아이템을 수집하면, 보너스 당근 혹은 연장 시간을 획득할 수 있습니다.\r\n- 게임 중 획득한 매 라운드 당근과 훈련도는 이벤트 보상을 획득하는 데 사용할 수 있습니다.\r\n\r\n[복패 및 피버타임]\r\n- 게임을 시작할 때 무작위로 3가지 마작패가 '복패'로 지정되며, '복패'는 노란색으로 표시됩니다.\r\n- 복패가 포함된 조합을 처리하면 보너스 당근 및 연장 시간을 획득할 수 있습니다.\r\n- 3가지 복패를 처리하면 피버타임에 진입하며, 전방의 패들이 복패로 변해 더 많은 당근을 획득할 수 있습니다."
+    },
+    {
+        "id": 26022003,
+        "type": "",
+        "chs": "累计获得",
+        "chsT": "累計獲得",
+        "jp": "累計入手",
+        "en": "Total Collected",
+        "kr": "누적 획득"
+    },
+    {
+        "id": 26022004,
+        "type": "",
+        "chs": "最佳游戏时间",
+        "chsT": "最佳遊戲時間",
+        "jp": "ベストタイム",
+        "en": "Best Time",
+        "kr": "최고 달린 시간"
+    },
+    {
+        "id": 26022005,
+        "type": "",
+        "chs": "最佳前进距离",
+        "chsT": "最佳前進距離",
+        "jp": "最長距離",
+        "en": "Best Distance",
+        "kr": "최고 이동 거리"
+    },
+    {
+        "id": 26022006,
+        "type": "",
+        "chs": "最佳单轮收集",
+        "chsT": "最佳單輪蒐集",
+        "jp": "最多収集",
+        "en": "Most Collected in Single Run",
+        "kr": "최고 라운드 획득량"
+    },
+    {
+        "id": 26022007,
+        "type": "",
+        "chs": "训练度",
+        "chsT": "訓練度",
+        "jp": "練度",
+        "en": "Gallop Power",
+        "kr": "훈련도"
+    },
+    {
+        "id": 26022008,
+        "type": "",
+        "chs": "{0}/{1}",
+        "chsT": "{0}/{1}",
+        "jp": "{0}/{1}",
+        "en": "{0}/{1}",
+        "kr": "{0}/{1}"
+    },
+    {
+        "id": 26022009,
+        "type": "",
+        "chs": "福牌",
+        "chsT": "福牌",
+        "jp": "福の牌",
+        "en": "Lucky Tiles",
+        "kr": "복패"
+    },
+    {
+        "id": 26022010,
+        "type": "",
+        "chs": "本轮记录",
+        "chsT": "本輪記錄",
+        "jp": "リザルト",
+        "en": "Results",
+        "kr": "이번 라운드 기록"
+    },
+    {
+        "id": 26022011,
+        "type": "",
+        "chs": "游戏时间",
+        "chsT": "遊戲時間",
+        "jp": "ゲームタイム",
+        "en": "Time",
+        "kr": "달린 시간"
+    },
+    {
+        "id": 26022012,
+        "type": "",
+        "chs": "前进距离",
+        "chsT": "前進距離",
+        "jp": "進んだ距離",
+        "en": "Distance",
+        "kr": "이동 거리"
+    },
+    {
+        "id": 26022013,
+        "type": "",
+        "chs": "本轮收集",
+        "chsT": "本輪蒐集",
+        "jp": "収集数",
+        "en": "Collected",
+        "kr": "이번 라운드 획득량"
+    },
+    {
+        "id": 26022014,
+        "type": "",
+        "chs": "再来一局",
+        "chsT": "再來一局",
+        "jp": "再挑戦",
+        "en": "Run Again",
+        "kr": "재도전"
+    },
+    {
+        "id": 26022015,
+        "type": "",
+        "chs": "确认",
+        "chsT": "確認",
+        "jp": "確定",
+        "en": "Confirm",
+        "kr": "확인"
+    },
+    {
+        "id": 26022016,
+        "type": "",
+        "chs": "全部",
+        "chsT": "全部",
+        "jp": "全部",
+        "en": "All",
+        "kr": "전부"
+    },
+    {
+        "id": 26022017,
+        "type": "",
+        "chs": "未完成",
+        "chsT": "未完成",
+        "jp": "未完了",
+        "en": "Incomplete",
+        "kr": "미완료"
+    },
+    {
+        "id": 26022018,
+        "type": "",
+        "chs": "已完成",
+        "chsT": "已完成",
+        "jp": "完了済",
+        "en": "Completed",
+        "kr": "완료"
+    },
+    {
+        "id": 26022019,
+        "type": "",
+        "chs": "领取",
+        "chsT": "領取",
+        "jp": "受取",
+        "en": "Claim",
+        "kr": "수령"
+    },
+    {
+        "id": 26022020,
+        "type": "",
+        "chs": "全部领取",
+        "chsT": "全部領取",
+        "jp": "一括受取",
+        "en": "Claim All",
+        "kr": "전부 수령"
+    },
+    {
+        "id": 26022021,
+        "type": "",
+        "chs": "每日5:00刷新",
+        "chsT": "每日5:00刷新",
+        "jp": "毎日6:00に更新",
+        "en": "Refreshes daily at 2:00 P.M. (UTC-7)",
+        "kr": "매일 6:00 AM 갱신됩니다."
+    },
+    {
+        "id": 26022022,
+        "type": "",
+        "chs": "累计获得",
+        "chsT": "累計獲得",
+        "jp": "累計入手",
+        "en": "Total Collected",
+        "kr": "누적 획득"
+    },
+    {
+        "id": 26022023,
+        "type": "",
+        "chs": "奖励",
+        "chsT": "獎勵",
+        "jp": "報酬",
+        "en": "Rewards",
+        "kr": "보상"
+    },
+    {
+        "id": 26022024,
+        "type": "",
+        "chs": "领取",
+        "chsT": "領取",
+        "jp": "受取",
+        "en": "Claim",
+        "kr": "수령"
+    },
+    {
+        "id": 26022025,
+        "type": "",
+        "chs": "全部领取",
+        "chsT": "全部領取",
+        "jp": "一括受取",
+        "en": "Claim All",
+        "kr": "전부 수령"
+    },
+    {
+        "id": 26022026,
+        "type": "",
+        "chs": "暂停",
+        "chsT": "暫停",
+        "jp": "一時停止",
+        "en": "Paused",
+        "kr": "일시중지"
+    },
+    {
+        "id": 26022027,
+        "type": "",
+        "chs": "放弃本轮",
+        "chsT": "放棄本輪",
+        "jp": "諦める",
+        "en": "Quit",
+        "kr": "그만하기"
+    },
+    {
+        "id": 26022028,
+        "type": "",
+        "chs": "重新开始",
+        "chsT": "重新開始",
+        "jp": "最初から",
+        "en": "Restart",
+        "kr": "다시하기"
+    },
+    {
+        "id": 26022029,
+        "type": "",
+        "chs": "继续游戏",
+        "chsT": "繼續遊戲",
+        "jp": "つづける",
+        "en": "Continue",
+        "kr": "계속하기"
+    },
+    {
+        "id": 26022030,
+        "type": "",
+        "chs": "训练度满级后解锁",
+        "chsT": "訓練度滿級後解鎖",
+        "jp": "練度最大で解禁",
+        "en": "Unlocks at Max Gallop Power",
+        "kr": "훈련도 최고 레벨 달성 후 해제"
+    },
+    {
+        "id": 26020001,
+        "type": "",
+        "chs": "请选择一组UP的雀士组合，活动期间可以无限更换和寻觅！",
+        "chsT": "請選擇一組UP的雀士組合，活動期間可以無限更換和尋覓！",
+        "jp": "下記の組み合わせから、好きな2名の雀士を選んでください。期間中はいつでも変更できます。\r\n選択した雀士を獲得後、引き続き他の雀士を選択可能です。",
+        "en": "Please select a pair of Rate Up characters. During the event, you can change your selection at any time!",
+        "kr": "확률 UP 작사 페어를 선택해주세요. 이벤트 기간 동안 제한없이 변경하여 기원할 수 있습니다!"
+    },
+    {
+        "id": 26020002,
+        "type": "",
+        "chs": "选择UP组合",
+        "chsT": "選擇UP組合",
+        "jp": "ピックアップ雀士選択",
+        "en": "Select Rate Up Pair",
+        "kr": "확률 UP 작사 페어 선택"
+    },
+    {
+        "id": 26020003,
+        "type": "",
+        "chs": "已获得",
+        "chsT": "已獲得",
+        "jp": "獲得済",
+        "en": "Owned",
+        "kr": "보유 중"
+    },
+    {
+        "id": 26020004,
+        "type": "",
+        "chs": "取消",
+        "chsT": "取消",
+        "jp": "取消",
+        "en": "Cancel",
+        "kr": "취소"
+    },
+    {
+        "id": 26020005,
+        "type": "",
+        "chs": "确定",
+        "chsT": "確定",
+        "jp": "確定",
+        "en": "Confirm",
+        "kr": "확인"
+    },
+    {
+        "id": 26020006,
+        "type": "",
+        "chs": "更换",
+        "chsT": "更換",
+        "jp": "変更",
+        "en": "Change",
+        "kr": "변경"
+    },
+    {
+        "id": 26020007,
+        "type": "",
+        "chs": "恭喜您获得了全部目标雀士！您仍然可以选择其他雀士组合进行UP！",
+        "chsT": "恭喜您獲得了全部目標雀士！您仍然可以選擇其他雀士組合進行UP！",
+        "jp": "選んだ雀士をどちらも獲得しました。引き続き他の雀士を選択可能です。",
+        "en": "You have obtained both of the current Rate Up characters! You can still select another pair for Rate Up!",
+        "kr": "선택한 작사를 모두 획득하셨습니다! 또 다른 작사 페어를 선택하여 확률 UP을 진행할 수 있습니다."
+    },
+    {
+        "id": 26020008,
+        "type": "",
+        "chs": "您已获得所有可选的樱花之路常驻雀士",
+        "chsT": "您已獲得所有可選的櫻花之路常駐雀士",
+        "jp": "落桜の道で排出される対象雀士（2025年12月31日23:59までの期間限定以外の雀士）はすべて獲得済です。",
+        "en": "You already own all selectable regular characters in Sakura Path.",
+        "kr": "이미 선택 가능한 벚꽃의 길의 모든 작사를 보유 중입니다."
+    },
+    {
+        "id": 26020009,
+        "type": "",
+        "chs": "您已获得所有可选的竹林之路常驻雀士",
+        "chsT": "您已獲得所有可選的竹林之路常駐雀士",
+        "jp": "竹林の道で排出される対象雀士（2025年12月31日23:59までの期間限定以外の雀士）はすべて獲得済です。",
+        "en": "You already own all selectable regular characters in Bamboo Path.",
+        "kr": "이미 선택 가능한 죽림의 길의 모든 작사를 보유 중입니다."
+    },
+    {
+        "id": 26020010,
+        "type": "",
+        "chs": "选择后可以随时更换",
+        "chsT": "選擇後可以隨時更換",
+        "jp": "期間中いつでも変更できます。",
+        "en": "Selection can be changed at any time",
+        "kr": "선택한 후에도 언제든지 변경할 수 있습니다."
+    },
+    {
+        "id": 26020011,
+        "type": "",
+        "chs": "{0}&{1}",
+        "chsT": "{0}&{1}",
+        "jp": "{0}&{1}",
+        "en": "{0} & {1}",
+        "kr": "{0} & {1}"
+    },
+    {
+        "id": 26020012,
+        "type": "",
+        "chs": "已拥有",
+        "chsT": "已擁有",
+        "jp": "所持済",
+        "en": "Owned",
+        "kr": "보유 중"
+    },
+    {
+        "id": 26023001,
+        "type": "",
+        "chs": "出现意外错误，请重新进入游戏",
+        "chsT": "出現意外錯誤，請重新進入遊戲",
+        "jp": "不明なエラーが発生しました。ゲームを更新してください。",
+        "en": "An unexpected error occurred, please re-enter the game.",
+        "kr": "예상치 못한 오류가 발생했습니다. 게임에 다시 접속해주시기 바랍니다."
     }
 ]

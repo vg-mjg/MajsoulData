@@ -1,0 +1,27 @@
+[
+    {
+        "wallEmptyPos": [
+            1,
+            3,
+            5
+        ],
+        "activityId": 260201,
+        "tick": 30,
+        "handsCount": 8,
+        "startTime": 900,
+        "feverSpeed": 30,
+        "feverTimeBonus": 100,
+        "feverTimeDuration": 15,
+        "wallTileCount": 7,
+        "wallMaxSameTile": 2,
+        "wallGroupId": 1001,
+        "tileGroup": 2001,
+        "rewardGroup": 3001,
+        "itemGroup": 4001,
+        "pointItemId": 30900098,
+        "feverItemType": 2,
+        "distanceItemId": 30900099,
+        "distanceRewardRate": 100,
+        "maxDistanceReward": 10
+    }
+]

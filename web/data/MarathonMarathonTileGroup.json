@@ -1,0 +1,206 @@
+[
+    {
+        "groupId": 2001,
+        "tile": "1m",
+        "weight": 0,
+        "feverWeight": 0
+    },
+    {
+        "groupId": 2001,
+        "tile": "2m",
+        "weight": 0,
+        "feverWeight": 0
+    },
+    {
+        "groupId": 2001,
+        "tile": "3m",
+        "weight": 0,
+        "feverWeight": 0
+    },
+    {
+        "groupId": 2001,
+        "tile": "4m",
+        "weight": 0,
+        "feverWeight": 0
+    },
+    {
+        "groupId": 2001,
+        "tile": "5m",
+        "weight": 0,
+        "feverWeight": 0
+    },
+    {
+        "groupId": 2001,
+        "tile": "6m",
+        "weight": 0,
+        "feverWeight": 0
+    },
+    {
+        "groupId": 2001,
+        "tile": "7m",
+        "weight": 0,
+        "feverWeight": 0
+    },
+    {
+        "groupId": 2001,
+        "tile": "8m",
+        "weight": 0,
+        "feverWeight": 0
+    },
+    {
+        "groupId": 2001,
+        "tile": "9m",
+        "weight": 0,
+        "feverWeight": 0
+    },
+    {
+        "groupId": 2001,
+        "tile": "1p",
+        "weight": 40,
+        "feverWeight": 100
+    },
+    {
+        "groupId": 2001,
+        "tile": "2p",
+        "weight": 60,
+        "feverWeight": 100
+    },
+    {
+        "groupId": 2001,
+        "tile": "3p",
+        "weight": 80,
+        "feverWeight": 100
+    },
+    {
+        "groupId": 2001,
+        "tile": "4p",
+        "weight": 100,
+        "feverWeight": 100
+    },
+    {
+        "groupId": 2001,
+        "tile": "5p",
+        "weight": 100,
+        "feverWeight": 100
+    },
+    {
+        "groupId": 2001,
+        "tile": "6p",
+        "weight": 100,
+        "feverWeight": 100
+    },
+    {
+        "groupId": 2001,
+        "tile": "7p",
+        "weight": 80,
+        "feverWeight": 100
+    },
+    {
+        "groupId": 2001,
+        "tile": "8p",
+        "weight": 60,
+        "feverWeight": 100
+    },
+    {
+        "groupId": 2001,
+        "tile": "9p",
+        "weight": 40,
+        "feverWeight": 100
+    },
+    {
+        "groupId": 2001,
+        "tile": "1s",
+        "weight": 40,
+        "feverWeight": 100
+    },
+    {
+        "groupId": 2001,
+        "tile": "2s",
+        "weight": 60,
+        "feverWeight": 100
+    },
+    {
+        "groupId": 2001,
+        "tile": "3s",
+        "weight": 80,
+        "feverWeight": 100
+    },
+    {
+        "groupId": 2001,
+        "tile": "4s",
+        "weight": 100,
+        "feverWeight": 100
+    },
+    {
+        "groupId": 2001,
+        "tile": "5s",
+        "weight": 100,
+        "feverWeight": 100
+    },
+    {
+        "groupId": 2001,
+        "tile": "6s",
+        "weight": 100,
+        "feverWeight": 100
+    },
+    {
+        "groupId": 2001,
+        "tile": "7s",
+        "weight": 80,
+        "feverWeight": 100
+    },
+    {
+        "groupId": 2001,
+        "tile": "8s",
+        "weight": 60,
+        "feverWeight": 100
+    },
+    {
+        "groupId": 2001,
+        "tile": "9s",
+        "weight": 40,
+        "feverWeight": 100
+    },
+    {
+        "groupId": 2001,
+        "tile": "1z",
+        "weight": 0,
+        "feverWeight": 0
+    },
+    {
+        "groupId": 2001,
+        "tile": "2z",
+        "weight": 0,
+        "feverWeight": 0
+    },
+    {
+        "groupId": 2001,
+        "tile": "3z",
+        "weight": 0,
+        "feverWeight": 0
+    },
+    {
+        "groupId": 2001,
+        "tile": "4z",
+        "weight": 0,
+        "feverWeight": 0
+    },
+    {
+        "groupId": 2001,
+        "tile": "5z",
+        "weight": 0,
+        "feverWeight": 0
+    },
+    {
+        "groupId": 2001,
+        "tile": "6z",
+        "weight": 0,
+        "feverWeight": 0
+    },
+    {
+        "groupId": 2001,
+        "tile": "7z",
+        "weight": 0,
+        "feverWeight": 0
+    }
+]

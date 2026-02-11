@@ -267,6 +267,20 @@
     },
     {
         "unlockItems": [
+            30740020,
+            0,
+            0
+        ],
+        "args": [
+            0
+        ],
+        "id": 30740020,
+        "imgPath": "extendRes/loading_cg/CG200011.jpg",
+        "thumbPath": "extendRes/loading_cg/CG200011_thumb.jpg",
+        "sort": 20
+    },
+    {
+        "unlockItems": [
             307401,
             0,
             0
@@ -1412,5 +1426,47 @@
         "imgPath": "extendRes/loading_cg/260101.jpg",
         "thumbPath": "extendRes/loading_cg/260101_thumb.jpg",
         "sort": 1082
+    },
+    {
+        "unlockItems": [
+            307483,
+            307283,
+            0
+        ],
+        "args": [
+            0
+        ],
+        "id": 260201,
+        "imgPath": "extendRes/loading_cg/260201.jpg",
+        "thumbPath": "extendRes/loading_cg/260201_thumb.jpg",
+        "sort": 1083
+    },
+    {
+        "unlockItems": [
+            307484,
+            307284,
+            0
+        ],
+        "args": [
+            0
+        ],
+        "id": 260202,
+        "imgPath": "extendRes/loading_cg/260202.jpg",
+        "thumbPath": "extendRes/loading_cg/260202_thumb.jpg",
+        "sort": 1084
+    },
+    {
+        "unlockItems": [
+            307485,
+            0,
+            0
+        ],
+        "args": [
+            0
+        ],
+        "id": 260203,
+        "imgPath": "extendRes/loading_cg/260203.jpg",
+        "thumbPath": "extendRes/loading_cg/260203_thumb.jpg",
+        "sort": 1085
     }
 ]

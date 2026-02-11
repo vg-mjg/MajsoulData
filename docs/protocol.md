@@ -117,6 +117,7 @@
     - [ActivityBingoCardData.BingoRewardRecord](#lq-ActivityBingoCardData-BingoRewardRecord)
     - [ActivityBingoData](#lq-ActivityBingoData)
     - [ActivityBuffData](#lq-ActivityBuffData)
+    - [ActivityChooseGroupData](#lq-ActivityChooseGroupData)
     - [ActivityChooseUpData](#lq-ActivityChooseUpData)
     - [ActivityCombiningData](#lq-ActivityCombiningData)
     - [ActivityCombiningData.BonusData](#lq-ActivityCombiningData-BonusData)
@@ -137,6 +138,10 @@
     - [ActivityGachaUpdateData](#lq-ActivityGachaUpdateData)
     - [ActivityIdTimeRecord](#lq-ActivityIdTimeRecord)
     - [ActivityIslandData](#lq-ActivityIslandData)
+    - [ActivityMarathonCheckData](#lq-ActivityMarathonCheckData)
+    - [ActivityMarathonData](#lq-ActivityMarathonData)
+    - [ActivityMarathonData.MarathonRaceData](#lq-ActivityMarathonData-MarathonRaceData)
+    - [ActivityMarathonData.MarathonRaceHistory](#lq-ActivityMarathonData-MarathonRaceHistory)
     - [ActivityProgressRewardData](#lq-ActivityProgressRewardData)
     - [ActivityQuestCrewChanges](#lq-ActivityQuestCrewChanges)
     - [ActivityQuestCrewChanges.QCMemberArrayDirty](#lq-ActivityQuestCrewChanges-QCMemberArrayDirty)
@@ -337,6 +342,7 @@
     - [LiQiSuccess](#lq-LiQiSuccess)
     - [Mail](#lq-Mail)
     - [MaintainNotice](#lq-MaintainNotice)
+    - [MarathonGameRecord](#lq-MarathonGameRecord)
     - [MineActivityData](#lq-MineActivityData)
     - [MineReward](#lq-MineReward)
     - [MonthTicketInfo](#lq-MonthTicketInfo)
@@ -701,6 +707,8 @@
     - [ReqLogin](#lq-ReqLogin)
     - [ReqLoginBeat](#lq-ReqLoginBeat)
     - [ReqLogout](#lq-ReqLogout)
+    - [ReqMarathonActivityFinishRace](#lq-ReqMarathonActivityFinishRace)
+    - [ReqMarathonActivityStartRace](#lq-ReqMarathonActivityStartRace)
     - [ReqModifyBirthday](#lq-ReqModifyBirthday)
     - [ReqModifyNickname](#lq-ReqModifyNickname)
     - [ReqModifyPassword](#lq-ReqModifyPassword)
@@ -772,6 +780,7 @@
     - [ReqSearchAccountByEidLobby](#lq-ReqSearchAccountByEidLobby)
     - [ReqSearchAccountById](#lq-ReqSearchAccountById)
     - [ReqSearchAccountByPattern](#lq-ReqSearchAccountByPattern)
+    - [ReqSelectChestChooseGroupActivity](#lq-ReqSelectChestChooseGroupActivity)
     - [ReqSelectChestChooseUp](#lq-ReqSelectChestChooseUp)
     - [ReqSelfOperation](#lq-ReqSelfOperation)
     - [ReqSellItem](#lq-ReqSellItem)
@@ -1067,6 +1076,8 @@
     - [ResLogin](#lq-ResLogin)
     - [ResLogout](#lq-ResLogout)
     - [ResMailInfo](#lq-ResMailInfo)
+    - [ResMarathonActivityFinishRace](#lq-ResMarathonActivityFinishRace)
+    - [ResMarathonActivityStartRace](#lq-ResMarathonActivityStartRace)
     - [ResMisc](#lq-ResMisc)
     - [ResMisc.MiscFaithData](#lq-ResMisc-MiscFaithData)
     - [ResModNicknameTime](#lq-ResModNicknameTime)
@@ -1524,6 +1535,7 @@
 | shoot_data | [ActivityShootData](#lq-ActivityShootData) | repeated |  |
 | bingo_data | [ActivityBingoData](#lq-ActivityBingoData) | repeated |  |
 | snowball_data | [ActivitySnowballValueChanges](#lq-ActivitySnowballValueChanges) | repeated |  |
+| choose_group_up_data | [ActivityChooseGroupData](#lq-ActivityChooseGroupData) | repeated |  |
 
 
 
@@ -3383,6 +3395,23 @@
 
 
 
+<a name="lq-ActivityChooseGroupData"></a>
+
+### ActivityChooseGroupData
+
+
+
+| Field | Type | Label | Description |
+| ----- | ---- | ----- | ----------- |
+| activity_id | [uint32](#uint32) |  |  |
+| chest_id | [uint32](#uint32) |  |  |
+| selection_id | [uint32](#uint32) |  |  |
+
+
+
+
+
+
 <a name="lq-ActivityChooseUpData"></a>
 
 ### ActivityChooseUpData
@@ -3738,6 +3767,77 @@
 | zone | [uint32](#uint32) |  |  |
 | bags | [IslandBagData](#lq-IslandBagData) | repeated |  |
 | zones | [IslandZoneData](#lq-IslandZoneData) | repeated |  |
+
+
+
+
+
+
+<a name="lq-ActivityMarathonCheckData"></a>
+
+### ActivityMarathonCheckData
+
+
+
+| Field | Type | Label | Description |
+| ----- | ---- | ----- | ----------- |
+| round | [uint32](#uint32) |  |  |
+| item | [uint32](#uint32) | repeated |  |
+| tile | [string](#string) |  |  |
+| tick | [uint32](#uint32) |  |  |
+| point | [uint32](#uint32) |  |  |
+| time_end | [uint32](#uint32) |  |  |
+
+
+
+
+
+
+<a name="lq-ActivityMarathonData"></a>
+
+### ActivityMarathonData
+
+
+
+| Field | Type | Label | Description |
+| ----- | ---- | ----- | ----------- |
+| activity_id | [uint32](#uint32) |  |  |
+| highest_record | [MarathonGameRecord](#lq-MarathonGameRecord) |  |  |
+| race_data | [ActivityMarathonData.MarathonRaceData](#lq-ActivityMarathonData-MarathonRaceData) |  |  |
+| history | [ActivityMarathonData.MarathonRaceHistory](#lq-ActivityMarathonData-MarathonRaceHistory) | repeated |  |
+
+
+
+
+
+
+<a name="lq-ActivityMarathonData-MarathonRaceData"></a>
+
+### ActivityMarathonData.MarathonRaceData
+
+
+
+| Field | Type | Label | Description |
+| ----- | ---- | ----- | ----------- |
+| id | [string](#string) |  |  |
+| random_seed | [uint32](#uint32) |  |  |
+| start_time | [uint32](#uint32) |  |  |
+
+
+
+
+
+
+<a name="lq-ActivityMarathonData-MarathonRaceHistory"></a>
+
+### ActivityMarathonData.MarathonRaceHistory
+
+
+
+| Field | Type | Label | Description |
+| ----- | ---- | ----- | ----------- |
+| race_data | [ActivityMarathonData.MarathonRaceData](#lq-ActivityMarathonData-MarathonRaceData) |  |  |
+| record | [MarathonGameRecord](#lq-MarathonGameRecord) |  |  |
 
 
 
@@ -6046,7 +6146,6 @@
 | contest_id | [uint32](#uint32) |  |  |
 | contest_name | [string](#string) |  |  |
 | state | [uint32](#uint32) |  |  |
-| creator_id | [uint32](#uint32) |  |  |
 | create_time | [uint32](#uint32) |  |  |
 | start_time | [uint32](#uint32) |  |  |
 | finish_time | [uint32](#uint32) |  |  |
@@ -7543,6 +7642,23 @@
 | Field | Type | Label | Description |
 | ----- | ---- | ----- | ----------- |
 | maintain_time | [uint32](#uint32) |  |  |
+
+
+
+
+
+
+<a name="lq-MarathonGameRecord"></a>
+
+### MarathonGameRecord
+
+
+
+| Field | Type | Label | Description |
+| ----- | ---- | ----- | ----------- |
+| point | [uint32](#uint32) |  |  |
+| distance | [uint32](#uint32) |  |  |
+| used_tick | [uint32](#uint32) |  |  |
 
 
 
@@ -13747,6 +13863,39 @@
 
 
 
+<a name="lq-ReqMarathonActivityFinishRace"></a>
+
+### ReqMarathonActivityFinishRace
+
+
+
+| Field | Type | Label | Description |
+| ----- | ---- | ----- | ----------- |
+| activity_id | [uint32](#uint32) |  |  |
+| race_data | [ActivityMarathonCheckData](#lq-ActivityMarathonCheckData) | repeated |  |
+| record | [MarathonGameRecord](#lq-MarathonGameRecord) |  |  |
+| race_id | [string](#string) |  |  |
+
+
+
+
+
+
+<a name="lq-ReqMarathonActivityStartRace"></a>
+
+### ReqMarathonActivityStartRace
+
+
+
+| Field | Type | Label | Description |
+| ----- | ---- | ----- | ----------- |
+| activity_id | [uint32](#uint32) |  |  |
+
+
+
+
+
+
 <a name="lq-ReqModifyBirthday"></a>
 
 ### ReqModifyBirthday
@@ -14012,6 +14161,7 @@
 | count | [uint32](#uint32) |  |  |
 | use_ticket | [bool](#bool) |  |  |
 | choose_up_activity_id | [uint32](#uint32) |  |  |
+| choose_group_activity_id | [uint32](#uint32) |  |  |
 
 
 
@@ -14869,6 +15019,23 @@
 | ----- | ---- | ----- | ----------- |
 | search_next | [bool](#bool) |  |  |
 | pattern | [string](#string) |  |  |
+
+
+
+
+
+
+<a name="lq-ReqSelectChestChooseGroupActivity"></a>
+
+### ReqSelectChestChooseGroupActivity
+
+
+
+| Field | Type | Label | Description |
+| ----- | ---- | ----- | ----------- |
+| activity_id | [uint32](#uint32) |  |  |
+| selection | [uint32](#uint32) |  |  |
+| chest_id | [uint32](#uint32) |  |  |
 
 
 
@@ -16176,6 +16343,8 @@
 | shoot_data | [ActivityShootData](#lq-ActivityShootData) | repeated |  |
 | bingo_data | [ActivityBingoData](#lq-ActivityBingoData) | repeated |  |
 | snowball_data | [ActivitySnowballData](#lq-ActivitySnowballData) | repeated |  |
+| marathon_data | [ActivityMarathonData](#lq-ActivityMarathonData) | repeated |  |
+| choose_group_up_data | [ActivityChooseGroupData](#lq-ActivityChooseGroupData) | repeated |  |
 
 
 
@@ -19899,6 +20068,40 @@
 
 
 
+<a name="lq-ResMarathonActivityFinishRace"></a>
+
+### ResMarathonActivityFinishRace
+
+
+
+| Field | Type | Label | Description |
+| ----- | ---- | ----- | ----------- |
+| error | [Error](#lq-Error) |  |  |
+| highest_record | [MarathonGameRecord](#lq-MarathonGameRecord) |  |  |
+| rewards | [ExecuteReward](#lq-ExecuteReward) | repeated |  |
+
+
+
+
+
+
+<a name="lq-ResMarathonActivityStartRace"></a>
+
+### ResMarathonActivityStartRace
+
+
+
+| Field | Type | Label | Description |
+| ----- | ---- | ----- | ----------- |
+| error | [Error](#lq-Error) |  |  |
+| random_seed | [uint32](#uint32) |  |  |
+| race_id | [string](#string) |  |  |
+
+
+
+
+
+
 <a name="lq-ResMisc"></a>
 
 ### ResMisc
@@ -23482,7 +23685,8 @@
 | createSeerReport | [ReqCreateSeerReport](#lq-ReqCreateSeerReport) | [ResCreateSeerReport](#lq-ResCreateSeerReport) |  |
 | fetchSeerReportList | [ReqCommon](#lq-ReqCommon) | [ResFetchSeerReportList](#lq-ResFetchSeerReportList) |  |
 | fetchSeerInfo | [ReqCommon](#lq-ReqCommon) | [ResFetchSeerInfo](#lq-ResFetchSeerInfo) |  |
-| selectChestChooseUpActivity | [ReqSelectChestChooseUp](#lq-ReqSelectChestChooseUp) | [ReqCommon](#lq-ReqCommon) |  |
+| selectChestChooseUpActivity | [ReqSelectChestChooseUp](#lq-ReqSelectChestChooseUp) | [ResCommon](#lq-ResCommon) |  |
+| selectChestChooseGroupActivity | [ReqSelectChestChooseGroupActivity](#lq-ReqSelectChestChooseGroupActivity) | [ResCommon](#lq-ResCommon) |  |
 | generateAnnualReportToken | [ReqGenerateAnnualReportToken](#lq-ReqGenerateAnnualReportToken) | [ResGenerateAnnualReportToken](#lq-ResGenerateAnnualReportToken) |  |
 | fetchAnnualReportInfo | [ReqCommon](#lq-ReqCommon) | [ResFetchAnnualReportInfo](#lq-ResFetchAnnualReportInfo) |  |
 | remarkFriend | [ReqRemarkFriend](#lq-ReqRemarkFriend) | [ResCommon](#lq-ResCommon) |  |
@@ -23506,6 +23710,8 @@
 | snowballActivityFinishBattle | [ReqSnowballActivityFinishBattle](#lq-ReqSnowballActivityFinishBattle) | [ResSnowballActivityFinishBattle](#lq-ResSnowballActivityFinishBattle) |  |
 | snowballActivityUpgrade | [ReqSnowballActivityUpgrade](#lq-ReqSnowballActivityUpgrade) | [ResSnowballActivityUpgrade](#lq-ResSnowballActivityUpgrade) |  |
 | snowballActivityReceiveReward | [ReqSnowballActivityReceiveReward](#lq-ReqSnowballActivityReceiveReward) | [ResSnowballActivityReceiveReward](#lq-ResSnowballActivityReceiveReward) |  |
+| marathonActivityStartRace | [ReqMarathonActivityStartRace](#lq-ReqMarathonActivityStartRace) | [ResMarathonActivityStartRace](#lq-ResMarathonActivityStartRace) |  |
+| marathonActivityFinishRace | [ReqMarathonActivityFinishRace](#lq-ReqMarathonActivityFinishRace) | [ResMarathonActivityFinishRace](#lq-ResMarathonActivityFinishRace) |  |
 
 
 <a name="lq-Route"></a>

@@ -1338,5 +1338,75 @@
         "contentEn": "Unlock the Ending - Through Any Barrier",
         "contentKr": "End7. 필승의 의지",
         "reward": "304006-1"
+    },
+    {
+        "id": 1100011,
+        "type": 1,
+        "contentChs": "解锁结局【白夜归来】",
+        "contentChsT": "解鎖結局【白夜歸來】",
+        "contentJp": "End1.【白夜】の帰還",
+        "contentEn": "Unlock the Ending - The Return of White Night",
+        "contentKr": "End1. 백야의 귀환",
+        "reward": "302005-1"
+    },
+    {
+        "id": 1100012,
+        "type": 2,
+        "contentChs": "解锁结局【得失难量】",
+        "contentChsT": "解鎖結局【得失難量】",
+        "contentJp": "End2.友情の代償",
+        "contentEn": "Unlock the Ending - Gains and Losses, Hard to Weigh",
+        "contentKr": "End2. 무엇을 얻고, 무엇을 잃었나",
+        "reward": "100002-8000"
+    },
+    {
+        "id": 1100021,
+        "type": 1,
+        "contentChs": "解锁结局【新的传说】",
+        "contentChsT": "解鎖結局【新的傳說】",
+        "contentJp": "End3.新たなる伝説",
+        "contentEn": "Unlock the Ending - The Rise of a New Legend",
+        "contentKr": "End3. 새로운 전설",
+        "reward": "304005-1"
+    },
+    {
+        "id": 1100022,
+        "type": 2,
+        "contentChs": "解锁结局【征程未竟】",
+        "contentChsT": "解鎖結局【征程未竟】",
+        "contentJp": "End4.伝説の再来",
+        "contentEn": "Unlock the Ending - The Journey Goes On",
+        "contentKr": "End4. 계속되는 여정",
+        "reward": "302007-1"
+    },
+    {
+        "id": 1100023,
+        "type": 3,
+        "contentChs": "解锁结局【孤胆英雄】",
+        "contentChsT": "解鎖結局【孤膽英雄】",
+        "contentJp": "End5.正直者が馬鹿を見る",
+        "contentEn": "Unlock the Ending - The Hero Who Stands Alone",
+        "contentKr": "End5. 고독한 영웅",
+        "reward": "100002-12000"
+    },
+    {
+        "id": 1100031,
+        "type": 1,
+        "contentChs": "解锁结局【乐园永不落幕】",
+        "contentChsT": "解鎖結局【樂園永不落幕】",
+        "contentJp": "End6.パラダイスは終わらない",
+        "contentEn": "Unlock the Ending - Paradise Never Ends",
+        "contentKr": "End6. 영원한 낙원",
+        "reward": "302001-1"
+    },
+    {
+        "id": 1100032,
+        "type": 2,
+        "contentChs": "解锁结局【误入新支线……】",
+        "contentChsT": "解鎖結局【誤入新支線……】",
+        "contentJp": "End7.そして新章へ……",
+        "contentEn": "Unlock the Ending - Next Chapter...",
+        "contentKr": "End7. 예상치 못한 루트",
+        "reward": "304006-1"
     }
 ]

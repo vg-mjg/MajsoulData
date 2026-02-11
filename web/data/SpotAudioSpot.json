@@ -616,6 +616,20 @@
         "type": 1
     },
     {
+        "id": 6006,
+        "path": "audio_lobby/2602chunjie_bgm",
+        "timeLength": 0,
+        "str": "神驰集愿1",
+        "type": 1
+    },
+    {
+        "id": 6007,
+        "path": "audio_lobby/2602chunjie_fever",
+        "timeLength": 0,
+        "str": "神驰集愿2",
+        "type": 1
+    },
+    {
         "id": 10001,
         "path": "spot/spot_se/bubble01",
         "timeLength": 0,

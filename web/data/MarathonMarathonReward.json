@@ -1,0 +1,32 @@
+[
+    {
+        "groupId": 3001,
+        "type": 1,
+        "point": 50,
+        "time": 0
+    },
+    {
+        "groupId": 3001,
+        "type": 2,
+        "point": 75,
+        "time": 0
+    },
+    {
+        "groupId": 3001,
+        "type": 3,
+        "point": 100,
+        "time": 60
+    },
+    {
+        "groupId": 3001,
+        "type": 4,
+        "point": 200,
+        "time": 0
+    },
+    {
+        "groupId": 3001,
+        "type": 5,
+        "point": 0,
+        "time": 150
+    }
+]
