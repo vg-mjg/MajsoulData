@@ -25,8 +25,7 @@ async function fetchData(url, responseType = 'json') {
 async function downloadAndSaveResource(baseUrl, resourceManifest, resourcePath) {
     const resourceInfo = resourceManifest[resourcePath];
     if (!resourceInfo || !resourceInfo.prefix) {
-        console.error(`Could not find prefix for ${resourcePath} in resversion.json`);
-        return;
+        throw new Error(`Could not find prefix for ${resourcePath} in resversion.json`);
     }
 
     const prefix = resourceInfo.prefix;
@@ -35,7 +34,9 @@ async function downloadAndSaveResource(baseUrl, resourceManifest, resourcePath) 
     const responseType = outputFilename.endsWith('.lqbin') ? 'arraybuffer' : 'json';
 
     const data = await fetchData(finalUrl, responseType);
-    if (data === null) return;
+    if (data === null) {
+        throw new Error(`Failed to download ${resourcePath}`);
+    }
 
     try {
         const dataToSave = (responseType === 'json' && typeof data === 'object')
@@ -44,7 +45,7 @@ async function downloadAndSaveResource(baseUrl, resourceManifest, resourcePath) 
         await fs.writeFile(outputFilename, dataToSave);
         console.log(`Successfully saved ${outputFilename}`);
     } catch (error) {
-        console.error(`Failed to write file ${outputFilename}: ${error.message}`);
+        throw new Error(`Failed to write file ${outputFilename}: ${error.message}`);
     }
 }
 
@@ -55,12 +56,10 @@ async function main() {
     // 1. Get Version
     const versionJson = await fetchData(`${BASE_URL}version.json?randv=${randomValue}`);
     if (!versionJson || !versionJson.version) {
-        console.error('Failed to fetch version.json');
-        return;
+        throw new Error('Failed to fetch version.json');
     }
     const version = versionJson.version;
     console.log(`Found game version: ${version}`);
-    await fs.writeFile('version.txt', version);
 
     // Save version.json and resversion.json to /web directory
     const webDir = path.join(__dirname, 'web');
@@ -71,8 +70,7 @@ async function main() {
     // 2. Get ResVersion
     const resVersionJson = await fetchData(`${BASE_URL}resversion${version}.json`);
     if (!resVersionJson || !resVersionJson.res) {
-        console.error('Failed to fetch resversion.json');
-        return;
+        throw new Error('Failed to fetch resversion.json');
     }
 
     await fs.writeFile(path.join(webDir, 'resversion.json'), JSON.stringify(resVersionJson, null, 2));
@@ -164,6 +162,7 @@ async function main() {
 
     } catch (e) {
         console.error('Proto processing failed:', e);
+        throw e;
     }
 
     // 5. Process lqc.lqbin (Extract Game Data)
@@ -222,9 +221,13 @@ async function main() {
 
     } catch (e) {
         console.error('lqc processing failed:', e);
+        throw e;
     }
 
     console.log('\nAll tasks complete.');
 }
 
-main();
+main().catch((error) => {
+    console.error('Fatal error:', error);
+    process.exitCode = 1;
+});
