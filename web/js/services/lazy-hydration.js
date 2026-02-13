@@ -1,7 +1,5 @@
-const MAX_CONCURRENT_VISIBLE_TASKS = 4;
 const OBSERVER_ROOT_MARGIN = "280px 0px";
 
-let activeTaskCount = 0;
 const pendingQueue = [];
 const observedEntries = new Map();
 
@@ -45,24 +43,22 @@ function dequeueNextTask() {
 }
 
 function runTaskQueue() {
-  while (activeTaskCount < MAX_CONCURRENT_VISIBLE_TASKS) {
-    const entry = dequeueNextTask();
-    if (!entry) return;
-
-    activeTaskCount += 1;
+  let entry = dequeueNextTask();
+  while (entry) {
+    const currentEntry = entry;
     Promise.resolve()
       .then(() => {
-        if (entry.cancelled) return;
-        return entry.task();
+        if (currentEntry.cancelled) return;
+        return currentEntry.task();
       })
       .catch(() => {
-        // Ignore task failures so the queue keeps moving.
+        // Ignore task failures so hydration keeps moving.
       })
       .finally(() => {
-        activeTaskCount = Math.max(0, activeTaskCount - 1);
-        observedEntries.delete(entry.element);
-        runTaskQueue();
+        observedEntries.delete(currentEntry.element);
       });
+
+    entry = dequeueNextTask();
   }
 }
 
