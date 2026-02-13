@@ -1,6 +1,7 @@
 import { makeInitials } from "../../../utils.js";
 import { loadCharacterImageSource } from "../../services/asset-image-loader.js";
 import { loadAudioSource } from "../../services/asset-audio-loader.js";
+import { scheduleVisibleTask } from "../../services/lazy-hydration.js";
 import { loadItemDetail } from "../../services/item-detail-data.js";
 
 const APP_TITLE = "Mahjong Soul Data";
@@ -21,26 +22,39 @@ function textOrDash(value) {
   return text.length > 0 ? text : "-";
 }
 
-async function hydrateIcon(placeholder, candidates, altText) {
+function hydrateIcon(placeholder, candidates, altText) {
   if (!Array.isArray(candidates) || candidates.length === 0) return;
-  const source = await loadCharacterImageSource(candidates);
-  if (!source || !placeholder.isConnected) return;
 
-  const image = createElement("img", "item-detail-icon");
-  image.src = source;
-  image.alt = altText;
-  placeholder.replaceWith(image);
+  scheduleVisibleTask(placeholder, async () => {
+    if (!placeholder.isConnected) return;
+
+    const source = await loadCharacterImageSource(candidates);
+    if (!source || !placeholder.isConnected) return;
+
+    const image = createElement("img", "item-detail-icon");
+    image.src = source;
+    image.alt = altText;
+    image.loading = "lazy";
+    image.decoding = "async";
+    placeholder.replaceWith(image);
+  });
 }
 
-async function hydrateOriginalImage(placeholder, candidates, altText) {
+function hydrateOriginalImage(placeholder, candidates, altText) {
   if (!Array.isArray(candidates) || candidates.length === 0) return;
-  const source = await loadCharacterImageSource(candidates);
-  if (!source || !placeholder.isConnected) return;
+  scheduleVisibleTask(placeholder, async () => {
+    if (!placeholder.isConnected) return;
 
-  const image = createElement("img", "item-detail-original-image");
-  image.src = source;
-  image.alt = altText;
-  placeholder.replaceWith(image);
+    const source = await loadCharacterImageSource(candidates);
+    if (!source || !placeholder.isConnected) return;
+
+    const image = createElement("img", "item-detail-original-image");
+    image.src = source;
+    image.alt = altText;
+    image.loading = "lazy";
+    image.decoding = "async";
+    placeholder.replaceWith(image);
+  });
 }
 
 function stopActiveItemAudio() {
@@ -100,7 +114,7 @@ export async function renderItemDetailPage({
     const iconWrap = createElement("div", "item-detail-image-wrap");
     const iconPlaceholder = createElement("div", "item-detail-icon placeholder", makeInitials(detail.localized.name));
     iconWrap.append(iconPlaceholder);
-    void hydrateIcon(iconPlaceholder, detail.assets.icon, `${detail.localized.name} icon`);
+    hydrateIcon(iconPlaceholder, detail.assets.icon, `${detail.localized.name} icon`);
     imageColumn.append(iconWrap);
 
     const infoColumn = createElement("section", "card border-0 shadow-sm detail-section item-detail-info-column");
@@ -135,7 +149,7 @@ export async function renderItemDetailPage({
         makeInitials(detail.localized.name),
       );
       originalBody.append(originalPlaceholder);
-      void hydrateOriginalImage(
+      hydrateOriginalImage(
         originalPlaceholder,
         originalImageCandidates,
         `${detail.localized.name} original image`,

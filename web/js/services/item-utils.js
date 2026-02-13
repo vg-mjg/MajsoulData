@@ -1,6 +1,4 @@
-import { localizedAssetPrefixes, localizedFieldValue, normalizeUiLanguage } from "../../utils.js";
-
-const LOCALIZED_PREFIX_PATTERN = /^(en|jp|chs_t|kr|en_kr)\//;
+import { localizedAssetPathCandidates, localizedFieldValue, normalizeUiLanguage } from "../../utils.js";
 
 export function numberValue(value) {
   return Number(value || 0);
@@ -11,19 +9,12 @@ export function stringValue(value) {
   return String(value);
 }
 
-function hasLocalizedPrefix(path) {
-  return LOCALIZED_PREFIX_PATTERN.test(path);
-}
-
 function uniqueStrings(values) {
   return Array.from(new Set((values || []).map((value) => stringValue(value).trim()).filter(Boolean)));
 }
 
 export function expandLocalizedAssetPaths(rawPath, language) {
-  const normalized = stringValue(rawPath).trim().replace(/^\/+/, "");
-  if (!normalized) return [];
-  if (hasLocalizedPrefix(normalized)) return [normalized];
-  return localizedAssetPrefixes(language).map((prefix) => (prefix ? `${prefix}${normalized}` : normalized));
+  return localizedAssetPathCandidates(rawPath, language);
 }
 
 export function itemIconPaths(entry, language) {

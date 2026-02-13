@@ -55,6 +55,15 @@ const RESOURCE_PREFIXES_BY_LANGUAGE = {
 
 const RESOURCE_PREFIX_FALLBACK = ["", "chs_t/", "en/", "jp/", "kr/", "en_kr/"];
 const ASSET_PREFIX_FALLBACK = ["", "chs_t/", "en/", "kr/", "en_kr/", "jp/"];
+const LANG_PATH_PREFIX_PRIORITY = {
+  [LANGUAGE.EN]: ["base/", "base_q7/", "chs_t/", "chs_t_q7/", "chs/", "chs_q7/"],
+  [LANGUAGE.JP]: ["base/", "base_q7/", "chs_t/", "chs_t_q7/", "chs/", "chs_q7/"],
+  [LANGUAGE.KR]: ["base/", "base_q7/", "chs_t/", "chs_t_q7/", "chs/", "chs_q7/"],
+  [LANGUAGE.CHS]: ["chs/", "chs_q7/", "chs_t/", "chs_t_q7/", "base/", "base_q7/"],
+  [LANGUAGE.CHS_T]: ["chs_t/", "chs_t_q7/", "chs/", "chs_q7/", "base/", "base_q7/"],
+};
+const LANG_PATH_PATTERN = /^lang\/(base_q7|base|chs_t_q7|chs_t|chs_q7|chs)\//;
+const UI_LANGUAGE_STORAGE_KEY = "mahjong-soul-data.language";
 
 const LOCALIZED_PREFIX_PATTERN = /^(en_kr|en|jp|chs_t|kr)\//;
 
@@ -467,7 +476,7 @@ export function decryptBytes(buffer) {
 }
 
 function hasLocalizedPrefix(path) {
-  return /^(en|jp|chs_t|kr|en_kr)\//.test(String(path || ""));
+  return LOCALIZED_PREFIX_PATTERN.test(String(path || ""));
 }
 
 export const DEFAULT_UI_LANGUAGE = LANGUAGE.EN;
@@ -525,6 +534,43 @@ export function localizedAssetPrefixes(language = DEFAULT_UI_LANGUAGE) {
   return prefixes;
 }
 
+function preferredLangPathPrefixes(language = DEFAULT_UI_LANGUAGE) {
+  const normalizedLanguage = normalizeUiLanguage(language);
+  return LANG_PATH_PREFIX_PRIORITY[normalizedLanguage] || LANG_PATH_PREFIX_PRIORITY[DEFAULT_UI_LANGUAGE];
+}
+
+export function localizedAssetPathCandidates(rawPath, language = DEFAULT_UI_LANGUAGE) {
+  const normalized = String(rawPath || "").trim().replace(/^\/+/, "");
+  if (!normalized) return [];
+
+  const candidates = [];
+  const seen = new Set();
+  const add = (path) => {
+    const value = String(path || "").trim();
+    if (!value || seen.has(value)) return;
+    seen.add(value);
+    candidates.push(value);
+  };
+
+  const stripped = stripLocalizedPrefix(normalized);
+  for (const prefix of localizedAssetPrefixes(language)) {
+    add(prefix ? `${prefix}${stripped}` : stripped);
+  }
+  add(normalized);
+  add(stripped);
+
+  const langTail = LANG_PATH_PATTERN.test(normalized)
+    ? normalized.replace(LANG_PATH_PATTERN, "")
+    : stripped;
+  if (langTail) {
+    for (const prefix of preferredLangPathPrefixes(language)) {
+      add(`lang/${prefix}${langTail}`);
+    }
+  }
+
+  return candidates;
+}
+
 export function localizedFieldValue(entry, baseKey, language) {
   if (!entry || typeof entry !== "object") return "";
   const normalizedLanguage = normalizeUiLanguage(language);
@@ -552,12 +598,7 @@ export function characterDisplayName(character, language = DEFAULT_UI_LANGUAGE) 
 
 export function characterBigheadCandidatePaths(basePath, language = DEFAULT_UI_LANGUAGE) {
   if (!basePath) return [];
-  if (hasLocalizedPrefix(basePath)) {
-    return [`${basePath}/bighead.png`];
-  }
-
-  const prefixes = localizedAssetPrefixes(language);
-  return prefixes.map((prefix) => (prefix ? `${prefix}${basePath}/bighead.png` : `${basePath}/bighead.png`));
+  return localizedAssetPathCandidates(`${basePath}/bighead.png`, language);
 }
 
 export function assetUrlFromPathAndPrefix(path, prefix) {
@@ -581,11 +622,25 @@ export function assetUrlFromPathAndPrefix(path, prefix) {
   return `${server}/${cleanPrefix}/${path}`;
 }
 
-export function assetUrlCandidates(path, prefix) {
-  const language = languageOfResourcePath(path);
-  const languageServerKey = serverForLanguage(language);
+function currentUiLanguage() {
+  if (typeof window === "undefined") {
+    return DEFAULT_UI_LANGUAGE;
+  }
+  try {
+    return normalizeUiLanguage(window.localStorage.getItem(UI_LANGUAGE_STORAGE_KEY));
+  } catch {
+    return DEFAULT_UI_LANGUAGE;
+  }
+}
+
+export function assetUrlCandidates(path, prefix, uiLanguage) {
+  const normalizedUiLanguage = normalizeUiLanguage(uiLanguage || currentUiLanguage());
+  const uiServerKey = serverForLanguage(normalizedUiLanguage);
+  const pathLanguage = languageOfResourcePath(path);
+  const pathServerKey = serverForLanguage(pathLanguage);
   const orderedBases = [
-    GAME_SERVER_URLS[languageServerKey],
+    GAME_SERVER_URLS[pathServerKey],
+    GAME_SERVER_URLS[uiServerKey],
     GAME_SERVER_URLS.chs_t,
     GAME_SERVER_URLS.en,
     GAME_SERVER_URLS.kr,

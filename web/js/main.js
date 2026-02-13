@@ -11,6 +11,7 @@ import { renderCatChatPage } from "./features/catchat/view.js";
 import { DEFAULT_UI_LANGUAGE, makeInitials, normalizeUiLanguage } from "../utils.js";
 import { clearImageSourceCache, loadCharacterImageSource } from "./services/asset-image-loader.js";
 import { clearAudioSourceCache } from "./services/asset-audio-loader.js";
+import { clearLazyHydrationQueue, scheduleVisibleTask } from "./services/lazy-hydration.js";
 import { searchGlobalEntries } from "./services/global-search.js";
 
 const APP_TITLE = "Mahjong Soul Data";
@@ -188,7 +189,9 @@ function createSearchResultButton(entry) {
   button.append(thumb);
 
   if (Array.isArray(entry.imageCandidates) && entry.imageCandidates.length > 0) {
-    void (async () => {
+    scheduleVisibleTask(thumb, async () => {
+      if (!thumb.isConnected) return;
+
       const source = await loadCharacterImageSource(entry.imageCandidates);
       if (!source || !thumb.isConnected) return;
 
@@ -196,8 +199,10 @@ function createSearchResultButton(entry) {
       image.className = "sidebar-search-thumb";
       image.src = source;
       image.alt = entry.title;
+      image.loading = "lazy";
+      image.decoding = "async";
       thumb.replaceWith(image);
-    })();
+    });
   }
 
   const body = document.createElement("div");
@@ -322,6 +327,7 @@ async function renderRoute(routeState) {
   const config = routeConfig[resolvedRoute];
   updateActiveNav(resolvedRoute);
   hideSidebarSearchResults();
+  clearLazyHydrationQueue();
   await config.render(currentRouteState);
 }
 
@@ -348,6 +354,7 @@ function applyLanguage(language, { persist, rerender } = { persist: true, rerend
   currentLanguage = normalized;
 
   if (languageChanged) {
+    clearLazyHydrationQueue();
     clearImageSourceCache();
     clearAudioSourceCache();
   }

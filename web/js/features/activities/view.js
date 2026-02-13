@@ -1,5 +1,6 @@
 import { makeInitials } from "../../../utils.js";
 import { loadCharacterImageSource } from "../../services/asset-image-loader.js";
+import { scheduleVisibleTask } from "../../services/lazy-hydration.js";
 import { loadActivitiesData } from "../../services/activities-data.js";
 
 let lightboxRoot = null;
@@ -62,19 +63,26 @@ function createActivityPlaceholder(name) {
   return placeholder;
 }
 
-async function hydrateActivityImage(activity, placeholder, altText, onResolved) {
+function hydrateActivityImage(activity, placeholder, altText, onResolved) {
   if (!Array.isArray(activity.bannerCandidates) || activity.bannerCandidates.length === 0) return;
-  const source = await loadCharacterImageSource(activity.bannerCandidates);
-  if (!source || !placeholder.isConnected) return;
 
-  const image = document.createElement("img");
-  image.className = "activity-thumb is-clickable";
-  image.src = source;
-  image.alt = altText;
-  placeholder.replaceWith(image);
-  if (typeof onResolved === "function") {
-    onResolved(source);
-  }
+  scheduleVisibleTask(placeholder, async () => {
+    if (!placeholder.isConnected) return;
+
+    const source = await loadCharacterImageSource(activity.bannerCandidates);
+    if (!source || !placeholder.isConnected) return;
+
+    const image = document.createElement("img");
+    image.className = "activity-thumb is-clickable";
+    image.src = source;
+    image.alt = altText;
+    image.loading = "lazy";
+    image.decoding = "async";
+    placeholder.replaceWith(image);
+    if (typeof onResolved === "function") {
+      onResolved(source);
+    }
+  });
 }
 
 function createActivityCard(activity) {
@@ -83,7 +91,7 @@ function createActivityCard(activity) {
 
   const placeholder = createActivityPlaceholder(activity.name);
   card.append(placeholder);
-  void hydrateActivityImage(activity, placeholder, activity.name, (source) => {
+  hydrateActivityImage(activity, placeholder, activity.name, (source) => {
     const openPreview = () => openLightbox(source, activity.name);
     card.classList.add("is-previewable");
     card.tabIndex = 0;

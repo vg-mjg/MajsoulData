@@ -3,6 +3,7 @@ import { loadCharacterImageSource } from "../../services/asset-image-loader.js";
 import { loadAudioSource } from "../../services/asset-audio-loader.js";
 import { loadCharacterStoryContent } from "../../services/character-story-loader.js";
 import { mountCharacterSpinePreview } from "../../services/spine-viewer.js";
+import { scheduleVisibleTask } from "../../services/lazy-hydration.js";
 import { makeInitials } from "../../../utils.js";
 
 const APP_TITLE = "Mahjong Soul Data";
@@ -44,15 +45,22 @@ function appendProfileGrid(container, items) {
   container.append(grid);
 }
 
-async function hydrateImage(placeholder, imageCandidates, altText, imageClassName) {
+function hydrateImage(placeholder, imageCandidates, altText, imageClassName) {
   if (!imageCandidates || imageCandidates.length === 0) return;
-  const source = await loadCharacterImageSource(imageCandidates);
-  if (!source || !placeholder.isConnected) return;
 
-  const image = createElement("img", imageClassName);
-  image.src = source;
-  image.alt = altText;
-  placeholder.replaceWith(image);
+  scheduleVisibleTask(placeholder, async () => {
+    if (!placeholder.isConnected) return;
+
+    const source = await loadCharacterImageSource(imageCandidates);
+    if (!source || !placeholder.isConnected) return;
+
+    const image = createElement("img", imageClassName);
+    image.src = source;
+    image.alt = altText;
+    image.loading = "lazy";
+    image.decoding = "async";
+    placeholder.replaceWith(image);
+  });
 }
 
 function pickStandCandidatesFromDetail(detail) {
@@ -109,7 +117,7 @@ function renderContractItems(body, contractItems, onOpenItemDetail) {
       "detail-contract-icon placeholder",
       makeInitials(nameText),
     );
-    void hydrateImage(
+    hydrateImage(
       iconPlaceholder,
       entry.imageCandidates || [],
       `${nameText} icon`,
@@ -152,7 +160,7 @@ function renderSkinSelector(body, detail, onSelectSkin) {
     const thumbWrap = createElement("div", "detail-skin-thumb-wrap");
     const thumbPlaceholder = createElement("div", "detail-skin-thumb placeholder", makeInitials(skin.name));
     thumbWrap.append(thumbPlaceholder);
-    void hydrateImage(thumbPlaceholder, pickSkinThumbCandidates(skin), `${skin.name} thumbnail`, "detail-skin-thumb");
+    hydrateImage(thumbPlaceholder, pickSkinThumbCandidates(skin), `${skin.name} thumbnail`, "detail-skin-thumb");
     if (Number(skin.spineType) === 1) {
       thumbWrap.append(createElement("span", "detail-skin-tag", "Live2D"));
     }
@@ -198,7 +206,7 @@ function renderStampGrid(body, stamps) {
   for (const stamp of entries) {
     const placeholder = createElement("div", "detail-stamp-image placeholder", String(stamp.subId || "?"));
     placeholder.title = textOrDash(stamp.unlockDescription || `Stamp ${stamp.subId}`);
-    void hydrateImage(
+    hydrateImage(
       placeholder,
       stamp.imageCandidates || [],
       `Stamp ${stamp.subId}`,

@@ -1,8 +1,8 @@
 import { assetUrlCandidates, decryptBytes, isEncryptedUrl } from "../../utils.js";
 
 const audioSourceCache = new Map();
-const blockedOrigins = new Set();
 const createdObjectUrls = new Set();
+const directAudioProbeCache = new Map();
 
 function mimeTypeFromPath(path) {
   const normalized = String(path || "").toLowerCase();
@@ -29,28 +29,64 @@ async function fetchAudioSource(url, path) {
   return source;
 }
 
+function probeDirectAudioSource(url) {
+  if (directAudioProbeCache.has(url)) {
+    return directAudioProbeCache.get(url);
+  }
+
+  const promise = new Promise((resolve) => {
+    const audio = document.createElement("audio");
+    const cleanup = () => {
+      audio.onloadedmetadata = null;
+      audio.oncanplaythrough = null;
+      audio.onerror = null;
+      audio.removeAttribute("src");
+      try {
+        audio.load();
+      } catch {
+        // ignore cleanup failures
+      }
+    };
+
+    audio.preload = "metadata";
+    audio.onloadedmetadata = () => {
+      cleanup();
+      resolve(url);
+    };
+    audio.oncanplaythrough = () => {
+      cleanup();
+      resolve(url);
+    };
+    audio.onerror = () => {
+      cleanup();
+      resolve(null);
+    };
+    audio.src = url;
+    try {
+      audio.load();
+    } catch {
+      cleanup();
+      resolve(null);
+    }
+  });
+
+  directAudioProbeCache.set(url, promise);
+  return promise;
+}
+
 async function resolveCandidateAudioSource(path, prefix) {
   for (const url of assetUrlCandidates(path, prefix)) {
-    let origin = "";
-    try {
-      origin = new URL(url).origin;
-    } catch {
-      continue;
-    }
-
-    if (blockedOrigins.has(origin)) {
-      continue;
-    }
+    const encrypted = isEncryptedUrl(url);
 
     try {
-      const source = await fetchAudioSource(url, path);
+      const source = encrypted
+        ? await fetchAudioSource(url, path)
+        : await probeDirectAudioSource(url);
       if (source) {
         return source;
       }
-    } catch (error) {
-      if (error instanceof TypeError) {
-        blockedOrigins.add(origin);
-      }
+    } catch {
+      // Try next candidate URL.
     }
   }
 
@@ -77,7 +113,7 @@ export async function loadAudioSource(audioCandidates) {
 
 export function clearAudioSourceCache() {
   audioSourceCache.clear();
-  blockedOrigins.clear();
+  directAudioProbeCache.clear();
   for (const source of createdObjectUrls) {
     try {
       URL.revokeObjectURL(source);
