@@ -1,8 +1,8 @@
 import { assetUrlCandidates, decryptBytes, isEncryptedUrl } from "../../utils.js";
 
 const imageSourceCache = new Map();
-const blockedOrigins = new Set();
 const createdObjectUrls = new Set();
+const directImageProbeCache = new Map();
 
 function mimeTypeFromPath(path) {
   const normalized = String(path || "").toLowerCase();
@@ -30,28 +30,36 @@ async function fetchImageSource(url, path) {
   return source;
 }
 
+function probeDirectImageSource(url) {
+  if (directImageProbeCache.has(url)) {
+    return directImageProbeCache.get(url);
+  }
+
+  const promise = new Promise((resolve) => {
+    const image = new Image();
+    image.decoding = "async";
+    image.onload = () => resolve(url);
+    image.onerror = () => resolve(null);
+    image.src = url;
+  });
+
+  directImageProbeCache.set(url, promise);
+  return promise;
+}
+
 async function resolveCandidateImageSource(path, prefix) {
   for (const url of assetUrlCandidates(path, prefix)) {
-    let origin = "";
-    try {
-      origin = new URL(url).origin;
-    } catch {
-      continue;
-    }
-
-    if (blockedOrigins.has(origin)) {
-      continue;
-    }
+    const encrypted = isEncryptedUrl(url);
 
     try {
-      const source = await fetchImageSource(url, path);
+      const source = encrypted
+        ? await fetchImageSource(url, path)
+        : await probeDirectImageSource(url);
       if (source) {
         return source;
       }
-    } catch (error) {
-      if (error instanceof TypeError) {
-        blockedOrigins.add(origin);
-      }
+    } catch {
+      // Try next candidate URL.
     }
   }
 
@@ -78,7 +86,7 @@ export async function loadCharacterImageSource(imageCandidates) {
 
 export function clearImageSourceCache() {
   imageSourceCache.clear();
-  blockedOrigins.clear();
+  directImageProbeCache.clear();
   for (const source of createdObjectUrls) {
     try {
       URL.revokeObjectURL(source);

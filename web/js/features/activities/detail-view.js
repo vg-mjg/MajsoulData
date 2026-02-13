@@ -1,6 +1,7 @@
 import { makeInitials } from "../../../utils.js";
 import { loadCharacterImageSource } from "../../services/asset-image-loader.js";
 import { loadActivityDetail } from "../../services/activities-data.js";
+import { scheduleVisibleTask } from "../../services/lazy-hydration.js";
 
 function createElement(tagName, className = "", text = "") {
   const element = document.createElement(tagName);
@@ -23,15 +24,22 @@ function createStatCell(label, value) {
   return cell;
 }
 
-async function hydrateBannerImage(placeholder, candidates, altText) {
+function hydrateBannerImage(placeholder, candidates, altText) {
   if (!Array.isArray(candidates) || candidates.length === 0) return;
-  const source = await loadCharacterImageSource(candidates);
-  if (!source || !placeholder.isConnected) return;
 
-  const image = createElement("img", "activity-detail-banner");
-  image.src = source;
-  image.alt = altText;
-  placeholder.replaceWith(image);
+  scheduleVisibleTask(placeholder, async () => {
+    if (!placeholder.isConnected) return;
+
+    const source = await loadCharacterImageSource(candidates);
+    if (!source || !placeholder.isConnected) return;
+
+    const image = createElement("img", "activity-detail-banner");
+    image.src = source;
+    image.alt = altText;
+    image.loading = "lazy";
+    image.decoding = "async";
+    placeholder.replaceWith(image);
+  });
 }
 
 function createItemChip(item, onOpenItemDetail) {
@@ -138,7 +146,7 @@ export async function renderActivityDetailPage({
       makeInitials(detail.name),
     );
     bannerColumn.append(bannerPlaceholder);
-    void hydrateBannerImage(
+    hydrateBannerImage(
       bannerPlaceholder,
       detail.banner ? detail.banner.candidates : [],
       `${detail.name} banner`,

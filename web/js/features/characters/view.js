@@ -1,5 +1,6 @@
 import { loadCharacters } from "../../services/characters-data.js";
 import { loadCharacterImageSource } from "../../services/asset-image-loader.js";
+import { scheduleVisibleTask } from "../../services/lazy-hydration.js";
 import { characterDisplayName, makeInitials } from "../../../utils.js";
 
 const FILTERS = [
@@ -32,22 +33,26 @@ function createCharacterPlaceholder(name) {
   return placeholder;
 }
 
-async function hydrateCharacterImage(character, placeholder, displayName) {
+function hydrateCharacterImage(character, placeholder, displayName) {
   if (!character.imageCandidates || character.imageCandidates.length === 0) {
     return;
   }
 
-  const source = await loadCharacterImageSource(character.imageCandidates);
-  if (!source || !placeholder.isConnected) {
-    return;
-  }
+  scheduleVisibleTask(placeholder, async () => {
+    if (!placeholder.isConnected) return;
 
-  const image = document.createElement("img");
-  image.className = "character-avatar";
-  image.src = source;
-  image.alt = displayName;
+    const source = await loadCharacterImageSource(character.imageCandidates);
+    if (!source || !placeholder.isConnected) return;
 
-  placeholder.replaceWith(image);
+    const image = document.createElement("img");
+    image.className = "character-avatar";
+    image.src = source;
+    image.alt = displayName;
+    image.loading = "lazy";
+    image.decoding = "async";
+
+    placeholder.replaceWith(image);
+  });
 }
 
 function createCharacterCard(character, language, onOpenDetail) {
@@ -63,7 +68,7 @@ function createCharacterCard(character, language, onOpenDetail) {
 
   const placeholder = createCharacterPlaceholder(displayName);
   card.append(placeholder);
-  void hydrateCharacterImage(character, placeholder, displayName);
+  hydrateCharacterImage(character, placeholder, displayName);
 
   const name = document.createElement("p");
   name.className = "character-name text-truncate";

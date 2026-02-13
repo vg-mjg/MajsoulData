@@ -1,6 +1,7 @@
 import { normalizeUiLanguage } from "../../../utils.js";
 import { makeInitials } from "../../../utils.js";
 import { loadCharacterImageSource } from "../../services/asset-image-loader.js";
+import { scheduleVisibleTask } from "../../services/lazy-hydration.js";
 import { loadItems } from "../../services/items-data.js";
 
 const BASE_FILTERS = [
@@ -147,16 +148,23 @@ function createIconPlaceholder(name) {
   return placeholder;
 }
 
-async function hydrateItemImage(item, placeholder, name) {
+function hydrateItemImage(item, placeholder, name) {
   if (!Array.isArray(item.imageCandidates) || item.imageCandidates.length === 0) return;
-  const source = await loadCharacterImageSource(item.imageCandidates);
-  if (!source || !placeholder.isConnected) return;
 
-  const image = document.createElement("img");
-  image.className = "item-icon";
-  image.src = source;
-  image.alt = name;
-  placeholder.replaceWith(image);
+  scheduleVisibleTask(placeholder, async () => {
+    if (!placeholder.isConnected) return;
+
+    const source = await loadCharacterImageSource(item.imageCandidates);
+    if (!source || !placeholder.isConnected) return;
+
+    const image = document.createElement("img");
+    image.className = "item-icon";
+    image.src = source;
+    image.alt = name;
+    image.loading = "lazy";
+    image.decoding = "async";
+    placeholder.replaceWith(image);
+  });
 }
 
 function createItemCard(item, language, onOpenDetail) {
@@ -172,7 +180,7 @@ function createItemCard(item, language, onOpenDetail) {
 
   const placeholder = createIconPlaceholder(name);
   card.append(placeholder);
-  void hydrateItemImage(item, placeholder, name);
+  hydrateItemImage(item, placeholder, name);
 
   const title = document.createElement("p");
   title.className = "item-name text-truncate";

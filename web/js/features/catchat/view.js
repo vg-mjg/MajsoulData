@@ -1,5 +1,6 @@
 import { makeInitials } from "../../../utils.js";
 import { loadCharacterImageSource } from "../../services/asset-image-loader.js";
+import { scheduleVisibleTask } from "../../services/lazy-hydration.js";
 import { loadCatChatData } from "../../services/catchat-data.js";
 
 const MAO_AVATAR_URL = new URL("../../../mao.png", import.meta.url).href;
@@ -81,14 +82,21 @@ function applyImageElement(image, source, altText, imageClassName, { clickable =
   }
 }
 
-async function hydrateImage(placeholder, candidates, altText, imageClassName, options = {}) {
+function hydrateImage(placeholder, candidates, altText, imageClassName, options = {}) {
   if (!Array.isArray(candidates) || candidates.length === 0) return;
-  const source = await loadCharacterImageSource(candidates);
-  if (!source || !placeholder.isConnected) return;
 
-  const image = document.createElement("img");
-  applyImageElement(image, source, altText, imageClassName, options);
-  placeholder.replaceWith(image);
+  scheduleVisibleTask(placeholder, async () => {
+    if (!placeholder.isConnected) return;
+
+    const source = await loadCharacterImageSource(candidates);
+    if (!source || !placeholder.isConnected) return;
+
+    const image = document.createElement("img");
+    image.loading = "lazy";
+    image.decoding = "async";
+    applyImageElement(image, source, altText, imageClassName, options);
+    placeholder.replaceWith(image);
+  });
 }
 
 function createMetaBadge(text, className = "") {
@@ -107,7 +115,7 @@ function createUnlockBlock(unlock) {
   const iconCandidates = Array.isArray(unlock.iconCandidates) ? unlock.iconCandidates : [];
   const iconPlaceholder = createImagePlaceholder("catchat-unlock-icon", makeInitials(unlock.name || `#${unlock.id}`));
   block.append(iconPlaceholder);
-  void hydrateImage(
+  hydrateImage(
     iconPlaceholder,
     iconCandidates,
     unlock.name ? `${unlock.name} icon` : `Item #${unlock.id} icon`,
@@ -153,7 +161,7 @@ function createEntryImages(entry, useHeadAsAvatar) {
   for (const job of imageJobs) {
     const placeholder = createImagePlaceholder("catchat-entry-image", job.fallbackText);
     wrap.append(placeholder);
-    void hydrateImage(placeholder, job.candidates, job.alt, job.className, { clickable: true });
+    hydrateImage(placeholder, job.candidates, job.alt, job.className, { clickable: true });
   }
 
   return wrap;
@@ -202,7 +210,7 @@ function createEntryNode(entry, depth = 0) {
     applyImageElement(image, MAO_AVATAR_URL, "Player avatar", "catchat-entry-avatar");
     avatar.replaceWith(image);
   } else {
-    void hydrateImage(
+    hydrateImage(
       avatar,
       finalAvatarCandidates,
       `${entry.authorName} avatar`,

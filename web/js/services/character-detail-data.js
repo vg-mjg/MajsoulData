@@ -2,6 +2,7 @@ import {
   characterBigheadCandidatePaths,
   characterDisplayName,
   localizedFieldValue,
+  localizedAssetPathCandidates,
   localizedAssetPrefixes,
   normalizeUiLanguage,
   stripLocalizedPrefix,
@@ -175,12 +176,7 @@ function emojiSubIdsFromManifest(emoBasePath, resourceManifest) {
 function candidatePathsForSkinFile(basePath, filename, language) {
   if (!basePath) return [];
   const normalizedBasePath = stringValue(basePath).replace(/\/+$/, "");
-  if (LOCALIZED_PREFIX_PATTERN.test(normalizedBasePath)) {
-    return [`${normalizedBasePath}/${filename}`];
-  }
-  return localizedAssetPrefixes(language).map((prefix) =>
-    prefix ? `${prefix}${normalizedBasePath}/${filename}` : `${normalizedBasePath}/${filename}`,
-  );
+  return localizedAssetPathCandidates(`${normalizedBasePath}/${filename}`, language);
 }
 
 function candidatePathsForEmoji(emoBasePath, subId, language) {
