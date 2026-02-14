@@ -587,38 +587,46 @@ export async function loadActivitiesData(language) {
     return overviewCacheByLanguage.get(normalizedLanguage);
   }
 
-  const repository = await loadActivitiesRepository();
-  const allActivities = repository.activities
-    .map((activity) => activityOverviewModel(activity, repository, normalizedLanguage))
-    .sort((left, right) => right.id - left.id);
-  const meaningfulActivities = allActivities.filter((activity) => activity.isMeaningful);
-  const activities = meaningfulActivities.length > 0 ? meaningfulActivities : allActivities;
+  const promise = loadActivitiesRepository()
+    .then((repository) => {
+      const allActivities = repository.activities
+        .map((activity) => activityOverviewModel(activity, repository, normalizedLanguage))
+        .sort((left, right) => right.id - left.id);
+      const meaningfulActivities = allActivities.filter((activity) => activity.isMeaningful);
+      const activities = meaningfulActivities.length > 0 ? meaningfulActivities : allActivities;
 
-  const typeCounts = new Map();
-  for (const activity of activities) {
-    typeCounts.set(activity.type, numberValue(typeCounts.get(activity.type)) + 1);
-  }
+      const typeCounts = new Map();
+      for (const activity of activities) {
+        typeCounts.set(activity.type, numberValue(typeCounts.get(activity.type)) + 1);
+      }
 
-  const result = {
-    activities,
-    typeCounts: Array.from(typeCounts.entries())
-      .map(([type, count]) => ({ type, count }))
-      .sort((left, right) => {
-        if (left.count !== right.count) return right.count - left.count;
-        return left.type.localeCompare(right.type);
-      }),
-    summary: {
-      totalActivities: allActivities.length,
-      shownActivities: activities.length,
-      hiddenActivities: allActivities.length - activities.length,
-      types: typeCounts.size,
-      withName: activities.filter((activity) => activity.hasLocalizedName).length,
-      withBanner: activities.filter((activity) => activity.hasBannerVisual).length,
-    },
-  };
+      return {
+        activities,
+        typeCounts: Array.from(typeCounts.entries())
+          .map(([type, count]) => ({ type, count }))
+          .sort((left, right) => {
+            if (left.count !== right.count) return right.count - left.count;
+            return left.type.localeCompare(right.type);
+          }),
+        summary: {
+          totalActivities: allActivities.length,
+          shownActivities: activities.length,
+          hiddenActivities: allActivities.length - activities.length,
+          types: typeCounts.size,
+          withName: activities.filter((activity) => activity.hasLocalizedName).length,
+          withBanner: activities.filter((activity) => activity.hasBannerVisual).length,
+        },
+      };
+    })
+    .catch((error) => {
+      if (overviewCacheByLanguage.get(normalizedLanguage) === promise) {
+        overviewCacheByLanguage.delete(normalizedLanguage);
+      }
+      throw error;
+    });
 
-  overviewCacheByLanguage.set(normalizedLanguage, result);
-  return result;
+  overviewCacheByLanguage.set(normalizedLanguage, promise);
+  return promise;
 }
 
 export async function loadActivityDetail(activityId, language) {
@@ -631,8 +639,14 @@ export async function loadActivityDetail(activityId, language) {
     return detailCacheByLanguageAndId.get(cacheKey);
   }
 
-  const repository = await loadActivitiesRepository();
-  const detail = activityDetailModel(normalizedActivityId, repository, normalizedLanguage);
-  detailCacheByLanguageAndId.set(cacheKey, detail);
-  return detail;
+  const promise = loadActivitiesRepository()
+    .then((repository) => activityDetailModel(normalizedActivityId, repository, normalizedLanguage))
+    .catch((error) => {
+      if (detailCacheByLanguageAndId.get(cacheKey) === promise) {
+        detailCacheByLanguageAndId.delete(cacheKey);
+      }
+      throw error;
+    });
+  detailCacheByLanguageAndId.set(cacheKey, promise);
+  return promise;
 }

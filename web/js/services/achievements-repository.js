@@ -14,7 +14,7 @@ const URLS = {
   itemDefinitionTitle: new URL("../../data/ItemDefinitionTitle.json", import.meta.url),
 };
 
-let cachedRepository = null;
+let cachedRepositoryPromise = null;
 
 function mapTitleEntries(titleRows) {
   return (titleRows || []).map((row) => ({
@@ -39,22 +39,11 @@ function groupBy(items, keySelector) {
 }
 
 export async function loadAchievementsRepository() {
-  if (cachedRepository) {
-    return cachedRepository;
+  if (cachedRepositoryPromise) {
+    return cachedRepositoryPromise;
   }
 
-  const [
-    resversion,
-    achievementAchievement,
-    achievementAchievementGroup,
-    achievementBadge,
-    achievementBadgeGroup,
-    eventsBaseTask,
-    strStr,
-    itemDefinitionItem,
-    itemDefinitionCurrency,
-    itemDefinitionTitle,
-  ] = await Promise.all([
+  cachedRepositoryPromise = Promise.all([
     fetchJson(URLS.resversion),
     fetchJson(URLS.achievementAchievement),
     fetchJson(URLS.achievementAchievementGroup),
@@ -65,49 +54,64 @@ export async function loadAchievementsRepository() {
     fetchJson(URLS.itemDefinitionItem),
     fetchJson(URLS.itemDefinitionCurrency),
     fetchJson(URLS.itemDefinitionTitle),
-  ]);
+  ]).then(([
+    resversion,
+    achievementAchievement,
+    achievementAchievementGroup,
+    achievementBadge,
+    achievementBadgeGroup,
+    eventsBaseTask,
+    strStr,
+    itemDefinitionItem,
+    itemDefinitionCurrency,
+    itemDefinitionTitle,
+  ]) => {
 
-  const resourceManifest = resversion && resversion.res ? resversion.res : {};
-  const achievements = Array.isArray(achievementAchievement) ? achievementAchievement : [];
-  const achievementGroups = Array.isArray(achievementAchievementGroup) ? achievementAchievementGroup : [];
-  const badges = Array.isArray(achievementBadge) ? achievementBadge : [];
-  const badgeGroups = Array.isArray(achievementBadgeGroup) ? achievementBadgeGroup : [];
-  const baseTasks = Array.isArray(eventsBaseTask) ? eventsBaseTask : [];
-  const strings = Array.isArray(strStr) ? strStr : [];
-  const items = Array.isArray(itemDefinitionItem) ? itemDefinitionItem : [];
-  const currencies = Array.isArray(itemDefinitionCurrency) ? itemDefinitionCurrency : [];
-  const titles = Array.isArray(itemDefinitionTitle) ? itemDefinitionTitle : [];
-  const titleEntries = mapTitleEntries(titles);
-  const itemEntries = [...currencies, ...items, ...titleEntries];
+    const resourceManifest = resversion && resversion.res ? resversion.res : {};
+    const achievements = Array.isArray(achievementAchievement) ? achievementAchievement : [];
+    const achievementGroups = Array.isArray(achievementAchievementGroup) ? achievementAchievementGroup : [];
+    const badges = Array.isArray(achievementBadge) ? achievementBadge : [];
+    const badgeGroups = Array.isArray(achievementBadgeGroup) ? achievementBadgeGroup : [];
+    const baseTasks = Array.isArray(eventsBaseTask) ? eventsBaseTask : [];
+    const strings = Array.isArray(strStr) ? strStr : [];
+    const items = Array.isArray(itemDefinitionItem) ? itemDefinitionItem : [];
+    const currencies = Array.isArray(itemDefinitionCurrency) ? itemDefinitionCurrency : [];
+    const titles = Array.isArray(itemDefinitionTitle) ? itemDefinitionTitle : [];
+    const titleEntries = mapTitleEntries(titles);
+    const itemEntries = [...currencies, ...items, ...titleEntries];
 
-  const achievementById = new Map(achievements.map((entry) => [numberValue(entry.id), entry]));
-  const achievementGroupById = new Map(achievementGroups.map((entry) => [numberValue(entry.id), entry]));
-  const badgeById = new Map(badges.map((entry) => [numberValue(entry.id), entry]));
-  const baseTaskById = new Map(baseTasks.map((entry) => [numberValue(entry.id), entry]));
-  const stringById = new Map(strings.map((entry) => [numberValue(entry.id), entry]));
-  const itemEntryById = new Map(itemEntries.map((entry) => [numberValue(entry.id), entry]));
+    const achievementById = new Map(achievements.map((entry) => [numberValue(entry.id), entry]));
+    const achievementGroupById = new Map(achievementGroups.map((entry) => [numberValue(entry.id), entry]));
+    const badgeById = new Map(badges.map((entry) => [numberValue(entry.id), entry]));
+    const baseTaskById = new Map(baseTasks.map((entry) => [numberValue(entry.id), entry]));
+    const stringById = new Map(strings.map((entry) => [numberValue(entry.id), entry]));
+    const itemEntryById = new Map(itemEntries.map((entry) => [numberValue(entry.id), entry]));
 
-  cachedRepository = {
-    resourceManifest,
-    achievements,
-    achievementGroups,
-    badges,
-    badgeGroups,
-    baseTasks,
-    strings,
-    items,
-    currencies,
-    titles,
-    titleEntries,
-    itemEntries,
-    achievementById,
-    achievementGroupById,
-    badgeById,
-    baseTaskById,
-    stringById,
-    itemEntryById,
-    achievementsByGroupId: groupBy(achievements, (entry) => numberValue(entry.groupId)),
-  };
+    return {
+      resourceManifest,
+      achievements,
+      achievementGroups,
+      badges,
+      badgeGroups,
+      baseTasks,
+      strings,
+      items,
+      currencies,
+      titles,
+      titleEntries,
+      itemEntries,
+      achievementById,
+      achievementGroupById,
+      badgeById,
+      baseTaskById,
+      stringById,
+      itemEntryById,
+      achievementsByGroupId: groupBy(achievements, (entry) => numberValue(entry.groupId)),
+    };
+  }).catch((error) => {
+    cachedRepositoryPromise = null;
+    throw error;
+  });
 
-  return cachedRepository;
+  return cachedRepositoryPromise;
 }

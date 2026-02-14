@@ -110,7 +110,7 @@ function mapShopListings(rows, repository, language) {
 
 function mapShopPricing(rows, repository, language) {
   return (rows || []).map((entry) => {
-    const shop = (repository.shops || []).find((candidate) => numberValue(candidate.id) === numberValue(entry.shopId));
+    const shop = repository.shopById.get(numberValue(entry.shopId));
     return {
       shopId: numberValue(entry.shopId),
       shopName: shop

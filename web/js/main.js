@@ -9,13 +9,21 @@ import { renderAchievementsPage } from "./features/achievements/view.js";
 import { renderActivitiesPage } from "./features/activities/view.js";
 import { renderCatChatPage } from "./features/catchat/view.js";
 import { DEFAULT_UI_LANGUAGE, makeInitials, normalizeUiLanguage } from "../utils.js";
-import { clearImageSourceCache, loadCharacterImageSource } from "./services/asset-image-loader.js";
-import { clearAudioSourceCache } from "./services/asset-audio-loader.js";
+import {
+  clearImageSourceCache,
+  loadCharacterImageSource,
+  setImageLoaderLanguage,
+} from "./services/asset-image-loader.js";
+import {
+  clearAudioSourceCache,
+  setAudioLoaderLanguage,
+} from "./services/asset-audio-loader.js";
 import { clearLazyHydrationQueue, scheduleVisibleTask } from "./services/lazy-hydration.js";
 import { searchGlobalEntries } from "./services/global-search.js";
 
 const APP_TITLE = "Mahjong Soul Data";
 const LANGUAGE_STORAGE_KEY = "mahjong-soul-data.language";
+const SIDEBAR_SEARCH_DEBOUNCE_MS = 180;
 
 const dom = {
   viewRoot: document.getElementById("viewRoot"),
@@ -30,6 +38,8 @@ const dom = {
 let currentRoute = "home";
 let currentLanguage = DEFAULT_UI_LANGUAGE;
 let searchRequestToken = 0;
+let sidebarSearchDebounceTimer = null;
+let pendingSidebarSearchQuery = "";
 let currentRouteState = {
   route: "home",
   segments: ["home"],
@@ -162,6 +172,11 @@ function updateActiveNav(route) {
 
 function hideSidebarSearchResults({ keepInput = true } = { keepInput: true }) {
   searchRequestToken += 1;
+  if (sidebarSearchDebounceTimer) {
+    window.clearTimeout(sidebarSearchDebounceTimer);
+    sidebarSearchDebounceTimer = null;
+  }
+  pendingSidebarSearchQuery = "";
   if (!dom.sidebarSearchResults) return;
   dom.sidebarSearchResults.classList.add("d-none");
   dom.sidebarSearchResults.innerHTML = "";
@@ -270,16 +285,34 @@ async function runSidebarSearch(rawQuery) {
   }
 }
 
+function scheduleSidebarSearch(rawQuery, { immediate = false } = {}) {
+  pendingSidebarSearchQuery = String(rawQuery || "");
+  if (sidebarSearchDebounceTimer) {
+    window.clearTimeout(sidebarSearchDebounceTimer);
+    sidebarSearchDebounceTimer = null;
+  }
+
+  if (immediate) {
+    void runSidebarSearch(pendingSidebarSearchQuery);
+    return;
+  }
+
+  sidebarSearchDebounceTimer = window.setTimeout(() => {
+    sidebarSearchDebounceTimer = null;
+    void runSidebarSearch(pendingSidebarSearchQuery);
+  }, SIDEBAR_SEARCH_DEBOUNCE_MS);
+}
+
 function initSidebarSearch() {
   if (!dom.sidebarSearch || !dom.sidebarSearchInput || !dom.sidebarSearchResults) return;
 
   dom.sidebarSearchInput.addEventListener("input", () => {
-    void runSidebarSearch(dom.sidebarSearchInput.value);
+    scheduleSidebarSearch(dom.sidebarSearchInput.value);
   });
 
   dom.sidebarSearchInput.addEventListener("focus", () => {
     if (String(dom.sidebarSearchInput.value || "").trim()) {
-      void runSidebarSearch(dom.sidebarSearchInput.value);
+      scheduleSidebarSearch(dom.sidebarSearchInput.value, { immediate: true });
     }
   });
 
@@ -352,6 +385,8 @@ function applyLanguage(language, { persist, rerender } = { persist: true, rerend
   const normalized = normalizeUiLanguage(language);
   const languageChanged = normalized !== currentLanguage;
   currentLanguage = normalized;
+  setImageLoaderLanguage(normalized);
+  setAudioLoaderLanguage(normalized);
 
   if (languageChanged) {
     clearLazyHydrationQueue();
@@ -366,7 +401,7 @@ function applyLanguage(language, { persist, rerender } = { persist: true, rerend
     saveLanguage(normalized);
   }
   if (languageChanged && dom.sidebarSearchInput && String(dom.sidebarSearchInput.value || "").trim()) {
-    void runSidebarSearch(dom.sidebarSearchInput.value);
+    scheduleSidebarSearch(dom.sidebarSearchInput.value, { immediate: true });
   }
   if (rerender) {
     void renderRoute(currentRouteState);

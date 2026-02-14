@@ -231,55 +231,62 @@ export async function loadAchievementsData(language) {
     return detailCache.get(normalizedLanguage);
   }
 
-  const repository = await loadAchievementsRepository();
+  const promise = loadAchievementsRepository()
+    .then((repository) => {
+      const achievements = repository.achievements
+        .map((entry) => mapAchievement(entry, repository, normalizedLanguage))
+        .sort(achievementSort);
+      const achievementsByGroupId = new Map();
+      for (const achievement of achievements) {
+        if (!achievementsByGroupId.has(achievement.groupId)) {
+          achievementsByGroupId.set(achievement.groupId, []);
+        }
+        achievementsByGroupId.get(achievement.groupId).push(achievement);
+      }
 
-  const achievements = repository.achievements
-    .map((entry) => mapAchievement(entry, repository, normalizedLanguage))
-    .sort(achievementSort);
-  const achievementsByGroupId = new Map();
-  for (const achievement of achievements) {
-    if (!achievementsByGroupId.has(achievement.groupId)) {
-      achievementsByGroupId.set(achievement.groupId, []);
-    }
-    achievementsByGroupId.get(achievement.groupId).push(achievement);
-  }
+      const groups = repository.achievementGroups
+        .map((entry) => mapAchievementGroup(entry, repository, normalizedLanguage, achievementsByGroupId))
+        .sort(groupSort);
+      const badgeGroups = repository.badgeGroups
+        .map((entry) => mapBadgeGroup(entry, repository, normalizedLanguage))
+        .sort(badgeGroupSort);
 
-  const groups = repository.achievementGroups
-    .map((entry) => mapAchievementGroup(entry, repository, normalizedLanguage, achievementsByGroupId))
-    .sort(groupSort);
-  const badgeGroups = repository.badgeGroups
-    .map((entry) => mapBadgeGroup(entry, repository, normalizedLanguage))
-    .sort(badgeGroupSort);
+      const missingTaskRefs = achievements.filter((entry) => entry.baseTaskId > 0 && !entry.task.exists).length;
+      const missingGroupRefs = achievements.filter((entry) => !repository.achievementGroupById.has(entry.groupId)).length;
+      const missingBadgeTaskRefs = badgeGroups
+        .flatMap((group) => group.badges)
+        .filter((badge) => badge.baseTaskId > 0 && !badge.task.exists).length;
+      const missingBadgeStrings = badgeGroups
+        .filter((group) => group.name.length === 0 || group.description.length === 0).length;
 
-  const missingTaskRefs = achievements.filter((entry) => entry.baseTaskId > 0 && !entry.task.exists).length;
-  const missingGroupRefs = achievements.filter((entry) => !repository.achievementGroupById.has(entry.groupId)).length;
-  const missingBadgeTaskRefs = badgeGroups
-    .flatMap((group) => group.badges)
-    .filter((badge) => badge.baseTaskId > 0 && !badge.task.exists).length;
-  const missingBadgeStrings = badgeGroups
-    .filter((group) => group.name.length === 0 || group.description.length === 0).length;
+      return {
+        achievements,
+        groups,
+        badgeGroups,
+        summary: {
+          achievements: achievements.length,
+          groups: groups.length,
+          badgeGroups: badgeGroups.length,
+          hidden: achievements.filter((entry) => entry.hidden > 0).length,
+          locked: achievements.filter((entry) => entry.locked > 0).length,
+          deprecated: achievements.filter((entry) => entry.deprecated > 0).length,
+          rare3: achievements.filter((entry) => entry.rare >= 3).length,
+        },
+        diagnostics: {
+          missingTaskRefs,
+          missingGroupRefs,
+          missingBadgeTaskRefs,
+          missingBadgeStrings,
+        },
+      };
+    })
+    .catch((error) => {
+      if (detailCache.get(normalizedLanguage) === promise) {
+        detailCache.delete(normalizedLanguage);
+      }
+      throw error;
+    });
 
-  const result = {
-    achievements,
-    groups,
-    badgeGroups,
-    summary: {
-      achievements: achievements.length,
-      groups: groups.length,
-      badgeGroups: badgeGroups.length,
-      hidden: achievements.filter((entry) => entry.hidden > 0).length,
-      locked: achievements.filter((entry) => entry.locked > 0).length,
-      deprecated: achievements.filter((entry) => entry.deprecated > 0).length,
-      rare3: achievements.filter((entry) => entry.rare >= 3).length,
-    },
-    diagnostics: {
-      missingTaskRefs,
-      missingGroupRefs,
-      missingBadgeTaskRefs,
-      missingBadgeStrings,
-    },
-  };
-
-  detailCache.set(normalizedLanguage, result);
-  return result;
+  detailCache.set(normalizedLanguage, promise);
+  return promise;
 }

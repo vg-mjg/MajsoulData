@@ -190,10 +190,18 @@ function createItemCard(item, language, onOpenDetail) {
   return card;
 }
 
-function countByFilter(items, filters) {
-  const counts = {};
+function buildFilterBuckets(items, filters) {
+  const buckets = new Map();
   for (const filter of filters || []) {
-    counts[filter.id] = items.filter((item) => filter.matches(item)).length;
+    buckets.set(filter.id, (items || []).filter((item) => filter.matches(item)));
+  }
+  return buckets;
+}
+
+function countByBuckets(buckets) {
+  const counts = {};
+  for (const [id, entries] of buckets) {
+    counts[id] = Array.isArray(entries) ? entries.length : 0;
   }
   return counts;
 }
@@ -224,9 +232,8 @@ function createFilterButtons(filters, activeFilterId, counts, onClick) {
   return container;
 }
 
-function renderFilteredGrid({ root, items, filters, filterId, language, onOpenDetail }) {
-  const selectedFilter = (filters || []).find((filter) => filter.id === filterId) || (filters || [])[0];
-  const filtered = items.filter((item) => selectedFilter.matches(item));
+function renderFilteredGrid({ root, filteredItems, language, onOpenDetail }) {
+  const filtered = Array.isArray(filteredItems) ? filteredItems : [];
 
   root.innerHTML = "";
   if (filtered.length === 0) {
@@ -257,7 +264,8 @@ export async function renderItemsPage({ viewRoot, getLanguage, onOpenDetail }) {
     viewRoot.innerHTML = "";
     let activeFilterId = "all";
     const filters = buildFilters(items);
-    const filterCounts = countByFilter(items, filters);
+    const filterBuckets = buildFilterBuckets(items, filters);
+    const filterCounts = countByBuckets(filterBuckets);
     const sortedFilters = sortFiltersByCount(filters, filterCounts);
 
     const filterRoot = document.createElement("div");
@@ -273,9 +281,7 @@ export async function renderItemsPage({ viewRoot, getLanguage, onOpenDetail }) {
       );
       renderFilteredGrid({
         root: gridRoot,
-        items,
-        filters,
-        filterId: activeFilterId,
+        filteredItems: filterBuckets.get(activeFilterId) || [],
         language,
         onOpenDetail,
       });

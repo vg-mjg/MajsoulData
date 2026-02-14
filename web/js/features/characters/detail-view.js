@@ -86,6 +86,15 @@ function pickSkinThumbCandidates(skin) {
   return skin.previewWaitingRoom || [];
 }
 
+function canRenderSkinLive2D(skin) {
+  return Boolean(
+    skin &&
+    Number(skin.spineType) === 1 &&
+    Array.isArray(skin.spineAssetPairs) &&
+    skin.spineAssetPairs.length > 0,
+  );
+}
+
 function renderContractItems(body, contractItems, onOpenItemDetail) {
   const entries = Array.isArray(contractItems) ? contractItems : [];
   if (entries.length === 0) {
@@ -647,11 +656,22 @@ export async function renderCharacterDetailPage({
     const spineHost = createElement("div", "detail-spine-host d-none");
     const illustrationImage = createElement("img", "detail-full-image d-none");
     illustrationWrapper.append(illustrationPlaceholder, spineHost, illustrationImage);
-    illustrationColumn.append(illustrationWrapper);
+    const live2dControls = createElement("div", "detail-live2d-controls d-none");
+    const live2dToggleButton = createElement(
+      "button",
+      "btn btn-sm btn-outline-secondary detail-live2d-toggle",
+      "Play Live2D",
+    );
+    live2dToggleButton.type = "button";
+    live2dControls.append(live2dToggleButton);
+    illustrationColumn.append(illustrationWrapper, live2dControls);
     topLayout.append(illustrationColumn);
 
     let illustrationRequestToken = 0;
     let activeSpinePreview = null;
+    let selectedSkin = null;
+    let live2dActive = false;
+    let live2dBusy = false;
 
     const clearSpinePreview = () => {
       if (activeSpinePreview && typeof activeSpinePreview.destroy === "function") {
@@ -722,7 +742,34 @@ export async function renderCharacterDetailPage({
       }
     };
 
-    const setIllustrationFromSkin = async (skin) => {
+    const updateLive2dControls = () => {
+      if (!canRenderSkinLive2D(selectedSkin)) {
+        live2dControls.classList.add("d-none");
+        live2dToggleButton.disabled = true;
+        live2dToggleButton.className = "btn btn-sm btn-outline-secondary detail-live2d-toggle";
+        live2dToggleButton.textContent = "Play Live2D";
+        return;
+      }
+
+      live2dControls.classList.remove("d-none");
+      if (live2dBusy) {
+        live2dToggleButton.disabled = true;
+        live2dToggleButton.className = "btn btn-sm btn-outline-secondary detail-live2d-toggle";
+        live2dToggleButton.textContent = "Loading Live2D...";
+        return;
+      }
+
+      live2dToggleButton.disabled = false;
+      if (live2dActive) {
+        live2dToggleButton.className = "btn btn-sm btn-secondary detail-live2d-toggle";
+        live2dToggleButton.textContent = "Show Illustration";
+      } else {
+        live2dToggleButton.className = "btn btn-sm btn-outline-secondary detail-live2d-toggle";
+        live2dToggleButton.textContent = "Play Live2D";
+      }
+    };
+
+    const renderStaticIllustration = async (skin) => {
       const token = ++illustrationRequestToken;
       clearSpinePreview();
       illustrationImage.removeAttribute("src");
@@ -735,24 +782,74 @@ export async function renderCharacterDetailPage({
         ? pickStandCandidatesFromSkin(skin)
         : pickStandCandidatesFromDetail(detail);
 
-      if (
-        skin &&
-        Number(skin.spineType) === 1 &&
-        Array.isArray(skin.spineAssetPairs) &&
-        skin.spineAssetPairs.length > 0
-      ) {
-        const mounted = await setSpineIllustration(skin, token);
-        if (mounted === null) return;
-        if (mounted) return;
-      }
-
       await setStaticIllustration(staticCandidates, label, token, false);
     };
+
+    const playLive2dIllustration = async (skin) => {
+      if (!canRenderSkinLive2D(skin)) return false;
+
+      const token = ++illustrationRequestToken;
+      clearSpinePreview();
+      illustrationImage.removeAttribute("src");
+      illustrationImage.classList.add("d-none");
+      illustrationPlaceholder.classList.remove("d-none");
+
+      const mounted = await setSpineIllustration(skin, token);
+      if (mounted === null) return false;
+      if (mounted) return true;
+
+      await setStaticIllustration(
+        pickStandCandidatesFromSkin(skin),
+        `${detail.localized.name} - ${skin.name || detail.localized.name}`,
+        token,
+        false,
+      );
+      return false;
+    };
+
+    const setIllustrationFromSkin = async (skin) => {
+      selectedSkin = skin || null;
+      live2dActive = false;
+      updateLive2dControls();
+      await renderStaticIllustration(selectedSkin);
+    };
+
+    live2dToggleButton.addEventListener("click", () => {
+      if (!canRenderSkinLive2D(selectedSkin) || live2dBusy) return;
+
+      void (async () => {
+        const skinSnapshot = selectedSkin;
+        if (!skinSnapshot) return;
+
+        live2dBusy = true;
+        updateLive2dControls();
+        try {
+          if (live2dActive) {
+            await renderStaticIllustration(skinSnapshot);
+            if (selectedSkin && Number(selectedSkin.id) === Number(skinSnapshot.id)) {
+              live2dActive = false;
+            }
+            return;
+          }
+
+          const mounted = await playLive2dIllustration(skinSnapshot);
+          if (selectedSkin && Number(selectedSkin.id) === Number(skinSnapshot.id)) {
+            live2dActive = mounted;
+          }
+        } finally {
+          live2dBusy = false;
+          updateLive2dControls();
+        }
+      })();
+    });
 
     stopActiveVoicePlayback = () => {
       voicePlayer.stop();
       illustrationRequestToken += 1;
       clearSpinePreview();
+      live2dActive = false;
+      live2dBusy = false;
+      updateLive2dControls();
       stopActiveVoicePlayback = null;
     };
 

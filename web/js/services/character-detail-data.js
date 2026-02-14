@@ -28,11 +28,11 @@ const SPINE_SKELETON_FILENAMES = [
   "spine_2.json",
 ];
 const EMOJI_LOCALE_PRIORITY = {
-  en: ["EN", "", "CHST", "CH", "KR", "JP"],
-  jp: ["JP", "", "EN", "CHST", "CH", "KR"],
-  kr: ["KR", "", "EN", "CHST", "CH", "JP"],
-  chs: ["CH", "CHST", "", "EN", "KR", "JP"],
-  chs_t: ["CHST", "CH", "", "EN", "KR", "JP"],
+  en: ["EN", "KR", "CHST", "CH", "", "JP"],
+  jp: ["JP", "EN", "KR", "CHST", "CH", ""],
+  kr: ["KR", "EN", "CHST", "CH", "", "JP"],
+  chs: ["CH", "CHST", "EN", "KR", "", "JP"],
+  chs_t: ["CHST", "CH", "EN", "KR", "", "JP"],
 };
 const EMOJI_FOLDER_BY_CODE = {
   CH: "CH",
