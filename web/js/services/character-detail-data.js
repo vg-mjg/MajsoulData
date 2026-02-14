@@ -365,31 +365,33 @@ function buildSpineAssetPairs(skinPath, resourceManifest, language) {
       if (!skeletonEntry || !skeletonEntry.prefix) continue;
 
       const basePath = skeletonPath.slice(0, -skeletonFileName.length);
-      const atlasPath = atlasCandidatesForSkeletonFile(skeletonFileName)
+      const atlasPaths = atlasCandidatesForSkeletonFile(skeletonFileName)
         .map((atlasFileName) => `${basePath}${atlasFileName}`)
-        .find((candidatePath) => {
+        .filter((candidatePath) => {
           const candidateEntry = resourceManifest[candidatePath];
           return candidateEntry && candidateEntry.prefix;
         });
+      if (atlasPaths.length === 0) continue;
 
-      if (!atlasPath) continue;
-      const atlasEntry = resourceManifest[atlasPath];
-      if (!atlasEntry || !atlasEntry.prefix) continue;
+      for (const atlasPath of atlasPaths) {
+        const atlasEntry = resourceManifest[atlasPath];
+        if (!atlasEntry || !atlasEntry.prefix) continue;
 
-      const key = `${skeletonEntry.prefix}|${skeletonPath}|${atlasEntry.prefix}|${atlasPath}`;
-      if (seen.has(key)) continue;
-      seen.add(key);
+        const key = `${skeletonEntry.prefix}|${skeletonPath}|${atlasEntry.prefix}|${atlasPath}`;
+        if (seen.has(key)) continue;
+        seen.add(key);
 
-      pairs.push({
-        skeleton: {
-          path: skeletonPath,
-          prefix: stringValue(skeletonEntry.prefix),
-        },
-        atlas: {
-          path: atlasPath,
-          prefix: stringValue(atlasEntry.prefix),
-        },
-      });
+        pairs.push({
+          skeleton: {
+            path: skeletonPath,
+            prefix: stringValue(skeletonEntry.prefix),
+          },
+          atlas: {
+            path: atlasPath,
+            prefix: stringValue(atlasEntry.prefix),
+          },
+        });
+      }
     }
   }
 

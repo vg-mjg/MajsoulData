@@ -689,6 +689,7 @@ export async function renderCharacterDetailPage({
     };
 
     const setSpineIllustration = async (skin, token) => {
+      spineHost.classList.remove("d-none");
       try {
         const preview = await mountCharacterSpinePreview({
           host: spineHost,
