@@ -11,10 +11,13 @@ const SPINE_PLAYER_STYLE_URLS = [
 ];
 
 const SPINE_PREMULTIPLIED_ALPHA = false;
+const SPINE_ATLAS_METADATA_TIMEOUT_MS = 2500;
+const SPINE_URL_PROBE_TIMEOUT_MS = 2500;
 
 let runtimePromise = null;
 const atlasPremultipliedAlphaCache = new Map();
 const spineUrlProbeCache = new Map();
+const atlasPageProbeCache = new Map();
 
 function hasSpinePlayerRuntime() {
   return Boolean(window.spine && window.spine.SpinePlayer);
@@ -192,20 +195,6 @@ function sourceOrigin(source) {
   }
 }
 
-function sortAttemptsByPreferredOrigin(attempts, preferredOrigin) {
-  const targetOrigin = String(preferredOrigin || "");
-  return (attempts || [])
-    .slice()
-    .sort((left, right) => {
-      const leftOrigin = sourceOrigin(left);
-      const rightOrigin = sourceOrigin(right);
-      const leftMatch = targetOrigin && leftOrigin === targetOrigin ? 1 : 0;
-      const rightMatch = targetOrigin && rightOrigin === targetOrigin ? 1 : 0;
-      if (leftMatch !== rightMatch) return rightMatch - leftMatch;
-      return 0;
-    });
-}
-
 function attemptPathBucket(attempt) {
   const path = String(attempt && attempt.skeletonPath ? attempt.skeletonPath : "").toLowerCase();
   if (path.startsWith("en/")) return "en";
@@ -254,6 +243,67 @@ function trimmedAttemptList(attempts) {
     .map((entry) => entry.attempt);
 }
 
+function attemptResourceVersion(attempt) {
+  try {
+    const url = new URL(String(attempt && attempt.skeletonUrl ? attempt.skeletonUrl : ""));
+    return String(url.searchParams.get("rv") || "");
+  } catch {
+    return "";
+  }
+}
+
+function attemptFormatName(attempt) {
+  const path = String(
+    (attempt && attempt.skeletonPath)
+      || (attempt && attempt.skeletonUrl)
+      || "",
+  ).toLowerCase();
+  if (path.endsWith(".skel.txt")) return "skel_txt";
+  if (path.endsWith(".skel")) return "skel";
+  if (path.endsWith(".json")) return "json";
+  return "";
+}
+
+function attemptVariantKey(attempt) {
+  const path = String(attempt && attempt.skeletonPath ? attempt.skeletonPath : "").toLowerCase();
+  const localizedMatch = path.match(/^(en_kr|en|jp|kr|chs_t)\//);
+  if (localizedMatch) return localizedMatch[1];
+
+  const langMatch = path.match(/^lang\/(base_q7|base|chs_t_q7|chs_t|chs_q7|chs)\//);
+  if (langMatch) return `lang/${langMatch[1]}`;
+
+  if (path.startsWith("extendres/")) return "base";
+  return "";
+}
+
+function sortAttemptsByPrimarySource(attempts, primarySource) {
+  const source = Array.isArray(attempts) ? attempts.slice() : [];
+  if (source.length <= 1 || !primarySource) return source;
+
+  const primaryOrigin = sourceOrigin(primarySource);
+  const primaryBucket = attemptPathBucket(primarySource);
+  const primaryVersion = attemptResourceVersion(primarySource);
+  const primaryFormat = attemptFormatName(primarySource);
+  const primaryVariant = attemptVariantKey(primarySource);
+
+  return source
+    .map((attempt, index) => {
+      let score = 0;
+      if (primaryOrigin && sourceOrigin(attempt) === primaryOrigin) score += 12;
+      if (primaryBucket && attemptPathBucket(attempt) === primaryBucket) score += 30;
+      if (primaryVersion && attemptResourceVersion(attempt) === primaryVersion) score += 60;
+      if (primaryFormat && attemptFormatName(attempt) === primaryFormat) score += 10;
+      if (primaryVariant && attemptVariantKey(attempt) === primaryVariant) score += 8;
+
+      return { attempt, index, score };
+    })
+    .sort((left, right) => {
+      if (left.score !== right.score) return right.score - left.score;
+      return left.index - right.index;
+    })
+    .map((entry) => entry.attempt);
+}
+
 function probeSpineUrl(url) {
   const key = String(url || "");
   if (!key) return Promise.resolve(false);
@@ -261,10 +311,77 @@ function probeSpineUrl(url) {
     return spineUrlProbeCache.get(key);
   }
 
-  const promise = fetch(key, { method: "HEAD", cache: "no-cache", mode: "cors" })
-    .then((response) => Boolean(response && response.ok))
-    .catch(() => false);
+  const promise = Promise.race([
+    fetch(key, { method: "HEAD", cache: "no-cache", mode: "cors" })
+      .then((response) => Boolean(response && response.ok))
+      .catch(() => false),
+    new Promise((resolve) => {
+      window.setTimeout(() => resolve(false), SPINE_URL_PROBE_TIMEOUT_MS);
+    }),
+  ]);
   spineUrlProbeCache.set(key, promise);
+  return promise;
+}
+
+function extractAtlasPageUrls(atlasUrl, atlasText) {
+  const text = String(atlasText || "");
+  if (!text) return [];
+
+  const lines = text.split(/\r?\n/).map((line) => String(line || "").trim());
+  const pages = [];
+  const seen = new Set();
+  const imagePattern = /\.(png|jpg|jpeg|webp|bmp)$/i;
+
+  for (const line of lines) {
+    if (!line || !imagePattern.test(line)) continue;
+    let urlText = "";
+    try {
+      urlText = new URL(line, atlasUrl).toString();
+    } catch {
+      continue;
+    }
+    if (!urlText || seen.has(urlText)) continue;
+    seen.add(urlText);
+    pages.push(urlText);
+  }
+
+  return pages;
+}
+
+async function probeAtlasTexturePages(atlasUrl) {
+  const key = String(atlasUrl || "");
+  if (!key) return true;
+  if (atlasPageProbeCache.has(key)) {
+    return atlasPageProbeCache.get(key);
+  }
+
+  const promise = (async () => {
+    try {
+      const response = await Promise.race([
+        fetch(key, { method: "GET", cache: "no-cache", mode: "cors" }),
+        new Promise((resolve) => {
+          window.setTimeout(() => resolve(null), SPINE_ATLAS_METADATA_TIMEOUT_MS);
+        }),
+      ]);
+      if (!response || typeof response.ok !== "boolean" || !response.ok) return false;
+
+      const atlasText = await Promise.race([
+        response.text(),
+        new Promise((resolve) => {
+          window.setTimeout(() => resolve(""), SPINE_ATLAS_METADATA_TIMEOUT_MS);
+        }),
+      ]);
+      const pages = extractAtlasPageUrls(key, atlasText);
+      if (pages.length === 0) return true;
+
+      const checks = await Promise.all(pages.map((url) => probeSpineUrl(url)));
+      return checks.every(Boolean);
+    } catch {
+      return false;
+    }
+  })();
+
+  atlasPageProbeCache.set(key, promise);
   return promise;
 }
 
@@ -274,7 +391,10 @@ async function probeSpineAttempt(attempt) {
     probeSpineUrl(attempt.skeletonUrl),
     probeSpineUrl(attempt.atlasUrl),
   ]);
-  return skeletonOk && atlasOk;
+  if (!skeletonOk || !atlasOk) return false;
+
+  const pagesOk = await probeAtlasTexturePages(attempt.atlasUrl);
+  return Boolean(pagesOk);
 }
 
 function resolveSpineSource(spineAssetPairs) {
@@ -326,7 +446,6 @@ function resolveSpineSource(spineAssetPairs) {
     : (byLayer["0"].length > 0 ? "0" : (byLayer["2"].length > 0 ? "2" : (byLayer.other.length > 0 ? "other" : "")));
   if (!primaryLayer) return null;
 
-  const preferredOrigin = sourceOrigin(byLayer[primaryLayer][0]);
   const layerOrder = ["0", "1", "2", "other"];
   const layers = [];
   for (const layer of layerOrder) {
@@ -334,7 +453,7 @@ function resolveSpineSource(spineAssetPairs) {
     if (attempts.length === 0) continue;
     layers.push({
       layer,
-      attempts: trimmedAttemptList(sortAttemptsByPreferredOrigin(attempts, preferredOrigin)),
+      attempts: trimmedAttemptList(attempts),
     });
   }
 
@@ -366,13 +485,27 @@ async function readAtlasPremultipliedAlpha(atlasUrl) {
   }
 
   try {
-    const response = await fetch(atlasUrl, { cache: "force-cache", mode: "cors" });
+    const response = await Promise.race([
+      fetch(atlasUrl, { cache: "force-cache", mode: "cors" }),
+      new Promise((resolve) => {
+        window.setTimeout(() => resolve(null), SPINE_ATLAS_METADATA_TIMEOUT_MS);
+      }),
+    ]);
+    if (!response || typeof response.ok !== "boolean") {
+      atlasPremultipliedAlphaCache.set(atlasUrl, SPINE_PREMULTIPLIED_ALPHA);
+      return SPINE_PREMULTIPLIED_ALPHA;
+    }
     if (!response.ok) {
       atlasPremultipliedAlphaCache.set(atlasUrl, SPINE_PREMULTIPLIED_ALPHA);
       return SPINE_PREMULTIPLIED_ALPHA;
     }
 
-    const text = await response.text();
+    const text = await Promise.race([
+      response.text(),
+      new Promise((resolve) => {
+        window.setTimeout(() => resolve(""), SPINE_ATLAS_METADATA_TIMEOUT_MS);
+      }),
+    ]);
     const top = String(text || "").split(/\r?\n/).slice(0, 32).join("\n");
     const match = top.match(/\bpma\s*:\s*(true|false)\b/i);
     if (!match) {
@@ -404,11 +537,12 @@ function createSpinePlayer(host, sourcePlan) {
 
   function createSinglePlayer(layerHost, attempts) {
     return new Promise((resolve, reject) => {
-      const queue = Array.isArray(attempts) ? attempts.slice() : [];
-      if (queue.length === 0) {
+      const sourceQueue = Array.isArray(attempts) ? attempts.slice() : [];
+      if (sourceQueue.length === 0) {
         reject(new Error("No spine layer attempts available."));
         return;
       }
+      const queue = [];
 
       let active = true;
       let currentPlayer = null;
@@ -510,7 +644,30 @@ function createSpinePlayer(host, sourcePlan) {
         }
       };
 
-      scheduleNext();
+      const initializeQueue = async () => {
+        const probed = await Promise.all(sourceQueue.map(async (entry, index) => ({
+          entry,
+          index,
+          reachable: await probeSpineAttempt(entry),
+        })));
+
+        probed.sort((left, right) => {
+          const leftReachable = left.reachable ? 1 : 0;
+          const rightReachable = right.reachable ? 1 : 0;
+          if (leftReachable !== rightReachable) return rightReachable - leftReachable;
+          return left.index - right.index;
+        });
+
+        for (const item of probed) {
+          queue.push(item.entry);
+        }
+
+        scheduleNext();
+      };
+
+      void initializeQueue().catch((error) => {
+        finalizeFailure(error);
+      });
     });
   }
 
@@ -543,10 +700,13 @@ function createSpinePlayer(host, sourcePlan) {
     }
 
     const loadedPlayers = [];
-    let settledCount = 0;
     let hasResolved = false;
-    let lastError = null;
     let destroyed = false;
+    let lastError = null;
+
+    const primaryLayer = String(sourcePlan && sourcePlan.primaryLayer ? sourcePlan.primaryLayer : "");
+    const primaryEntry = layerEntries.find((entry) => entry.layer === primaryLayer) || layerEntries[0];
+    const secondaryEntries = layerEntries.filter((entry) => entry !== primaryEntry);
 
     const disposePlayer = (player) => {
       if (!player || typeof player.dispose !== "function") return;
@@ -568,45 +728,70 @@ function createSpinePlayer(host, sourcePlan) {
       },
     };
 
-    const maybeReject = () => {
-      if (hasResolved || destroyed) return;
-      if (settledCount < layerEntries.length) return;
-      host.replaceChildren();
-      reject(lastError || new Error("Failed to load spine layers."));
+    const setupPlayerAnimation = (player, preferredAnimation = "") => {
+      const fallbackAnimation = pickAnimationName(player);
+      const animationName = preferredAnimation || fallbackAnimation;
+      if (!animationName) return "";
+      try {
+        player.setAnimation(animationName, true);
+        player.play();
+        return animationName;
+      } catch {
+        return "";
+      }
     };
 
-    for (const { layer, attempts, layerHost } of layerEntries) {
-      createSinglePlayer(layerHost, attempts)
-        .then((result) => ({ ...result, layer, layerHost }))
-        .then(({ player }) => {
-          settledCount += 1;
-          if (destroyed) {
-            disposePlayer(player);
-            return;
-          }
-
-          const animationName = pickAnimationName(player);
-          if (animationName) {
-            try {
-              player.setAnimation(animationName, true);
-              player.play();
-            } catch {
-              // ignore animation setup errors for this layer
+    const mountSecondaryLayers = (sharedAnimationName, primarySource) => {
+      for (const entry of secondaryEntries) {
+        const sortedAttempts = sortAttemptsByPrimarySource(entry.attempts, primarySource);
+        createSinglePlayer(entry.layerHost, sortedAttempts)
+          .then((result) => {
+            if (!result || !result.player) return;
+            if (destroyed) {
+              disposePlayer(result.player);
+              return;
             }
-          }
+            setupPlayerAnimation(result.player, sharedAnimationName);
+            loadedPlayers.push(result.player);
+          })
+          .catch(() => {
+            // Secondary layers are optional.
+          });
+      }
+    };
 
-          loadedPlayers.push(player);
+    const tryEntriesSequentially = async (entries) => {
+      let sharedAnimationName = "";
+      for (const entry of entries) {
+        try {
+          const result = await createSinglePlayer(entry.layerHost, entry.attempts);
+          if (!result || !result.player) continue;
+          if (destroyed) {
+            disposePlayer(result.player);
+            return false;
+          }
+          sharedAnimationName = setupPlayerAnimation(result.player, "");
+          loadedPlayers.push(result.player);
+          mountSecondaryLayers(sharedAnimationName, result.source || null);
           if (!hasResolved) {
             hasResolved = true;
             resolve(controller);
           }
-        })
-        .catch((error) => {
-          settledCount += 1;
+          return true;
+        } catch (error) {
           lastError = error instanceof Error ? error : new Error(String(error || "Failed to load spine layer."));
-          maybeReject();
-        });
-    }
+        }
+      }
+      return false;
+    };
+
+    void (async () => {
+      const prioritized = [primaryEntry, ...secondaryEntries];
+      const ok = await tryEntriesSequentially(prioritized);
+      if (ok || destroyed || hasResolved) return;
+      host.replaceChildren();
+      reject(lastError || new Error("Failed to load spine layers."));
+    })();
   });
 }
 

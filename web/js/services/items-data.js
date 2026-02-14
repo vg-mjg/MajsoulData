@@ -59,15 +59,24 @@ export async function loadItems(language) {
     return itemsCacheByLanguage.get(normalizedLanguage);
   }
 
-  const repository = await loadItemsRepository();
-  const currencyModels = (repository.currencies || [])
-    .map((entry) => makeItemModel(entry, "currency", repository, normalizedLanguage));
-  const itemModels = (repository.items || [])
-    .map((entry) => makeItemModel(entry, "item", repository, normalizedLanguage));
-  const titleModels = (repository.titleEntries || [])
-    .map((entry) => makeItemModel(entry, "item", repository, normalizedLanguage));
+  const promise = loadItemsRepository()
+    .then((repository) => {
+      const currencyModels = (repository.currencies || [])
+        .map((entry) => makeItemModel(entry, "currency", repository, normalizedLanguage));
+      const itemModels = (repository.items || [])
+        .map((entry) => makeItemModel(entry, "item", repository, normalizedLanguage));
+      const titleModels = (repository.titleEntries || [])
+        .map((entry) => makeItemModel(entry, "item", repository, normalizedLanguage));
 
-  const items = [...currencyModels, ...itemModels, ...titleModels].sort(compareItems);
-  itemsCacheByLanguage.set(normalizedLanguage, items);
-  return items;
+      return [...currencyModels, ...itemModels, ...titleModels].sort(compareItems);
+    })
+    .catch((error) => {
+      if (itemsCacheByLanguage.get(normalizedLanguage) === promise) {
+        itemsCacheByLanguage.delete(normalizedLanguage);
+      }
+      throw error;
+    });
+
+  itemsCacheByLanguage.set(normalizedLanguage, promise);
+  return promise;
 }

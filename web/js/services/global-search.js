@@ -79,6 +79,9 @@ function mapCharacterEntry(character, language) {
   const aliases = allNameVariants(character);
   const tokenSource = uniqueValues([title, ...aliases, String(id)]);
   const tokens = buildSearchTokens(tokenSource);
+  const titleNormalized = normalizeText(title);
+  const titleCompact = compactText(title);
+  const idText = String(id);
 
   return {
     key: `character:${id}`,
@@ -89,6 +92,9 @@ function mapCharacterEntry(character, language) {
     route: `#/characters/${id}`,
     imageCandidates: Array.isArray(character && character.imageCandidates) ? character.imageCandidates : [],
     tokens,
+    titleNormalized,
+    titleCompact,
+    idText,
   };
 }
 
@@ -99,6 +105,9 @@ function mapItemEntry(item, language) {
   const tokenSource = uniqueValues([title, ...aliases, String(id)]);
   const tokens = buildSearchTokens(tokenSource);
   const isCurrency = String(item && item.kind ? item.kind : "") === "currency";
+  const titleNormalized = normalizeText(title);
+  const titleCompact = compactText(title);
+  const idText = String(id);
 
   return {
     key: `item:${id}`,
@@ -109,6 +118,9 @@ function mapItemEntry(item, language) {
     route: `#/items/${id}`,
     imageCandidates: Array.isArray(item && item.imageCandidates) ? item.imageCandidates : [],
     tokens,
+    titleNormalized,
+    titleCompact,
+    idText,
   };
 }
 
@@ -119,6 +131,9 @@ function mapAchievementEntry(achievement) {
   const description = String((achievement && achievement.description) || "").trim();
   const tokenSource = uniqueValues([title, groupName, description, String(id)]);
   const tokens = buildSearchTokens(tokenSource);
+  const titleNormalized = normalizeText(title);
+  const titleCompact = compactText(title);
+  const idText = String(id);
 
   return {
     key: `achievement:${id}`,
@@ -129,6 +144,9 @@ function mapAchievementEntry(achievement) {
     route: "#/achievements",
     imageCandidates: [],
     tokens,
+    titleNormalized,
+    titleCompact,
+    idText,
   };
 }
 
@@ -138,6 +156,9 @@ function mapActivityEntry(activity) {
   const type = String((activity && activity.type) || "").trim();
   const tokenSource = uniqueValues([title, type, String(id)]);
   const tokens = buildSearchTokens(tokenSource);
+  const titleNormalized = normalizeText(title);
+  const titleCompact = compactText(title);
+  const idText = String(id);
 
   return {
     key: `activity:${id}`,
@@ -148,6 +169,9 @@ function mapActivityEntry(activity) {
     route: "#/activities",
     imageCandidates: Array.isArray(activity && activity.bannerCandidates) ? activity.bannerCandidates : [],
     tokens,
+    titleNormalized,
+    titleCompact,
+    idText,
   };
 }
 
@@ -182,9 +206,14 @@ async function loadSearchIndex(language) {
     return searchIndexCacheByLanguage.get(normalizedLanguage);
   }
 
-  const index = await buildSearchIndex(normalizedLanguage);
-  searchIndexCacheByLanguage.set(normalizedLanguage, index);
-  return index;
+  const promise = buildSearchIndex(normalizedLanguage).catch((error) => {
+    if (searchIndexCacheByLanguage.get(normalizedLanguage) === promise) {
+      searchIndexCacheByLanguage.delete(normalizedLanguage);
+    }
+    throw error;
+  });
+  searchIndexCacheByLanguage.set(normalizedLanguage, promise);
+  return promise;
 }
 
 function tokenScore(tokens, queryNormalized, queryCompact, titleNormalized, titleCompact, idText) {
@@ -250,17 +279,13 @@ export async function searchGlobalEntries(query, language, options = {}) {
   const matches = [];
 
   for (const entry of index) {
-    const titleNormalized = normalizeText(entry.title);
-    const titleCompact = compactText(entry.title);
-    const idText = String(Number(entry.id || 0));
-
     const score = tokenScore(
       entry.tokens || { exact: [], compact: [] },
       queryNormalized,
       queryCompact,
-      titleNormalized,
-      titleCompact,
-      idText,
+      String(entry.titleNormalized || ""),
+      String(entry.titleCompact || ""),
+      String(entry.idText || Number(entry.id || 0)),
     );
     if (score <= 0) continue;
     matches.push({ entry, score });

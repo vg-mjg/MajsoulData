@@ -19,7 +19,7 @@ const URLS = {
   itemDefinitionCharacter: new URL("../../data/ItemDefinitionCharacter.json", import.meta.url),
 };
 
-let cachedRepository = null;
+let cachedRepositoryPromise = null;
 
 function groupBy(items, keySelector) {
   const grouped = new Map();
@@ -129,27 +129,11 @@ function buildAudioBgmByUnlockItemId(audioBgmRows) {
 }
 
 export async function loadItemsRepository() {
-  if (cachedRepository) {
-    return cachedRepository;
+  if (cachedRepositoryPromise) {
+    return cachedRepositoryPromise;
   }
 
-  const [
-    resversion,
-    itemDefinitionItem,
-    itemDefinitionCurrency,
-    itemDefinitionTitle,
-    itemDefinitionLoadingImage,
-    audioBgm,
-    itemDefinitionItemPackage,
-    itemDefinitionSourceLimit,
-    exchangeExchange,
-    exchangeSearch,
-    exchangeFushiquan,
-    shopsGoods,
-    mallGoods,
-    composeCharaCompose,
-    itemDefinitionCharacter,
-  ] = await Promise.all([
+  cachedRepositoryPromise = Promise.all([
     fetchJson(URLS.resversion),
     fetchJson(URLS.itemDefinitionItem),
     fetchJson(URLS.itemDefinitionCurrency),
@@ -165,80 +149,102 @@ export async function loadItemsRepository() {
     fetchJson(URLS.mallGoods),
     fetchJson(URLS.composeCharaCompose),
     fetchJson(URLS.itemDefinitionCharacter),
-  ]);
+  ]).then(([
+    resversion,
+    itemDefinitionItem,
+    itemDefinitionCurrency,
+    itemDefinitionTitle,
+    itemDefinitionLoadingImage,
+    audioBgm,
+    itemDefinitionItemPackage,
+    itemDefinitionSourceLimit,
+    exchangeExchange,
+    exchangeSearch,
+    exchangeFushiquan,
+    shopsGoods,
+    mallGoods,
+    composeCharaCompose,
+    itemDefinitionCharacter,
+  ]) => {
 
-  const resourceManifest = resversion && resversion.res ? resversion.res : {};
+    const resourceManifest = resversion && resversion.res ? resversion.res : {};
 
-  const items = Array.isArray(itemDefinitionItem) ? itemDefinitionItem : [];
-  const currencies = Array.isArray(itemDefinitionCurrency) ? itemDefinitionCurrency : [];
-  const titleRows = Array.isArray(itemDefinitionTitle) ? itemDefinitionTitle : [];
-  const titleEntries = mapTitleEntries(titleRows);
-  const loadingImages = Array.isArray(itemDefinitionLoadingImage) ? itemDefinitionLoadingImage : [];
-  const audioBgmRows = Array.isArray(audioBgm) ? audioBgm : [];
-  const packageEntries = Array.isArray(itemDefinitionItemPackage) ? itemDefinitionItemPackage : [];
-  const sourceLimits = Array.isArray(itemDefinitionSourceLimit) ? itemDefinitionSourceLimit : [];
-  const exchangeBase = Array.isArray(exchangeExchange) ? exchangeExchange : [];
-  const exchangeSearchRows = Array.isArray(exchangeSearch) ? exchangeSearch : [];
-  const exchangeFushiquanRows = Array.isArray(exchangeFushiquan) ? exchangeFushiquan : [];
-  const shops = Array.isArray(shopsGoods) ? shopsGoods : [];
-  const mallRows = Array.isArray(mallGoods) ? mallGoods : [];
-  const composeRows = Array.isArray(composeCharaCompose) ? composeCharaCompose : [];
-  const characters = Array.isArray(itemDefinitionCharacter) ? itemDefinitionCharacter : [];
-  const itemEntries = [...currencies, ...items, ...titleEntries];
+    const items = Array.isArray(itemDefinitionItem) ? itemDefinitionItem : [];
+    const currencies = Array.isArray(itemDefinitionCurrency) ? itemDefinitionCurrency : [];
+    const titleRows = Array.isArray(itemDefinitionTitle) ? itemDefinitionTitle : [];
+    const titleEntries = mapTitleEntries(titleRows);
+    const loadingImages = Array.isArray(itemDefinitionLoadingImage) ? itemDefinitionLoadingImage : [];
+    const audioBgmRows = Array.isArray(audioBgm) ? audioBgm : [];
+    const packageEntries = Array.isArray(itemDefinitionItemPackage) ? itemDefinitionItemPackage : [];
+    const sourceLimits = Array.isArray(itemDefinitionSourceLimit) ? itemDefinitionSourceLimit : [];
+    const exchangeBase = Array.isArray(exchangeExchange) ? exchangeExchange : [];
+    const exchangeSearchRows = Array.isArray(exchangeSearch) ? exchangeSearch : [];
+    const exchangeFushiquanRows = Array.isArray(exchangeFushiquan) ? exchangeFushiquan : [];
+    const shops = Array.isArray(shopsGoods) ? shopsGoods : [];
+    const mallRows = Array.isArray(mallGoods) ? mallGoods : [];
+    const composeRows = Array.isArray(composeCharaCompose) ? composeCharaCompose : [];
+    const characters = Array.isArray(itemDefinitionCharacter) ? itemDefinitionCharacter : [];
+    const itemEntries = [...currencies, ...items, ...titleEntries];
 
-  const exchangeRows = [
-    ...exchangeBase.map((entry) => ({ ...entry, exchangeType: "exchange" })),
-    ...exchangeSearchRows.map((entry) => ({ ...entry, exchangeType: "search" })),
-    ...exchangeFushiquanRows.map((entry) => ({ ...entry, exchangeType: "fushiquan" })),
-  ];
+    const exchangeRows = [
+      ...exchangeBase.map((entry) => ({ ...entry, exchangeType: "exchange" })),
+      ...exchangeSearchRows.map((entry) => ({ ...entry, exchangeType: "search" })),
+      ...exchangeFushiquanRows.map((entry) => ({ ...entry, exchangeType: "fushiquan" })),
+    ];
 
-  const shopPriceEntries = parseShopPriceEntries(shops);
-  const characterMaterialEntries = parseCharacterMaterialEntries(characters);
-  const characterExchangeEntries = parseCharacterExchangeEntries(characters);
+    const shopPriceEntries = parseShopPriceEntries(shops);
+    const characterMaterialEntries = parseCharacterMaterialEntries(characters);
+    const characterExchangeEntries = parseCharacterExchangeEntries(characters);
 
-  const itemById = new Map([...items, ...titleEntries].map((item) => [numberValue(item.id), item]));
-  const currencyById = new Map(currencies.map((currency) => [numberValue(currency.id), currency]));
-  const entryById = new Map(itemEntries.map((entry) => [numberValue(entry.id), entry]));
-  const characterById = new Map(characters.map((character) => [numberValue(character.id), character]));
-  const audioBgmById = new Map(audioBgmRows.map((row) => [numberValue(row.id), row]));
+    const itemById = new Map([...items, ...titleEntries].map((item) => [numberValue(item.id), item]));
+    const currencyById = new Map(currencies.map((currency) => [numberValue(currency.id), currency]));
+    const entryById = new Map(itemEntries.map((entry) => [numberValue(entry.id), entry]));
+    const characterById = new Map(characters.map((character) => [numberValue(character.id), character]));
+    const audioBgmById = new Map(audioBgmRows.map((row) => [numberValue(row.id), row]));
+    const shopById = new Map(shops.map((shop) => [numberValue(shop.id), shop]));
 
-  cachedRepository = {
-    resourceManifest,
-    items,
-    currencies,
-    titleEntries,
-    loadingImages,
-    audioBgmRows,
-    itemEntries,
-    packageEntries,
-    sourceLimits,
-    exchangeRows,
-    shops,
-    mallRows,
-    composeRows,
-    characters,
-    shopPriceEntries,
-    characterMaterialEntries,
-    characterExchangeEntries,
-    itemById,
-    currencyById,
-    entryById,
-    characterById,
-    audioBgmById,
-    audioBgmByUnlockItemId: buildAudioBgmByUnlockItemId(audioBgmRows),
-    loadingImageByUnlockItemId: buildLoadingImageByUnlockItemId(loadingImages),
-    packageByItemId: groupBy(packageEntries, (entry) => numberValue(entry.id)),
-    packageByContentItemId: groupBy(packageEntries, (entry) => numberValue(entry.resId)),
-    sourceLimitsByItemId: groupBy(sourceLimits, (entry) => numberValue(entry.itemId)),
-    exchangeSpendByItemId: groupBy(exchangeRows, (entry) => numberValue(entry.sourceCurrency)),
-    exchangeReceiveByItemId: groupBy(exchangeRows, (entry) => numberValue(entry.targetCurrency)),
-    shopsByItemId: groupBy(shops, (entry) => numberValue(entry.itemId)),
-    shopPriceByItemId: groupBy(shopPriceEntries, (entry) => numberValue(entry.itemId)),
-    mallByResourceId: groupBy(mallRows, (entry) => numberValue(entry.resourceId)),
-    composeByItemId: groupBy(composeRows, (entry) => numberValue(entry.itemId)),
-    characterExchangeByItemId: groupBy(characterExchangeEntries, (entry) => numberValue(entry.itemId)),
-    characterMaterialByItemId: groupBy(characterMaterialEntries, (entry) => numberValue(entry.itemId)),
-  };
+    return {
+      resourceManifest,
+      items,
+      currencies,
+      titleEntries,
+      loadingImages,
+      audioBgmRows,
+      itemEntries,
+      packageEntries,
+      sourceLimits,
+      exchangeRows,
+      shops,
+      mallRows,
+      composeRows,
+      characters,
+      shopPriceEntries,
+      characterMaterialEntries,
+      characterExchangeEntries,
+      itemById,
+      currencyById,
+      entryById,
+      characterById,
+      audioBgmById,
+      shopById,
+      audioBgmByUnlockItemId: buildAudioBgmByUnlockItemId(audioBgmRows),
+      loadingImageByUnlockItemId: buildLoadingImageByUnlockItemId(loadingImages),
+      packageByItemId: groupBy(packageEntries, (entry) => numberValue(entry.id)),
+      packageByContentItemId: groupBy(packageEntries, (entry) => numberValue(entry.resId)),
+      sourceLimitsByItemId: groupBy(sourceLimits, (entry) => numberValue(entry.itemId)),
+      exchangeSpendByItemId: groupBy(exchangeRows, (entry) => numberValue(entry.sourceCurrency)),
+      exchangeReceiveByItemId: groupBy(exchangeRows, (entry) => numberValue(entry.targetCurrency)),
+      shopsByItemId: groupBy(shops, (entry) => numberValue(entry.itemId)),
+      shopPriceByItemId: groupBy(shopPriceEntries, (entry) => numberValue(entry.itemId)),
+      mallByResourceId: groupBy(mallRows, (entry) => numberValue(entry.resourceId)),
+      composeByItemId: groupBy(composeRows, (entry) => numberValue(entry.itemId)),
+      characterExchangeByItemId: groupBy(characterExchangeEntries, (entry) => numberValue(entry.itemId)),
+      characterMaterialByItemId: groupBy(characterMaterialEntries, (entry) => numberValue(entry.itemId)),
+    };
+  }).catch((error) => {
+    cachedRepositoryPromise = null;
+    throw error;
+  });
 
-  return cachedRepository;
+  return cachedRepositoryPromise;
 }

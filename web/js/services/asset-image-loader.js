@@ -1,8 +1,55 @@
-import { assetUrlCandidates, decryptBytes, isEncryptedUrl } from "../../utils.js";
+import {
+  DEFAULT_UI_LANGUAGE,
+  assetUrlCandidates,
+  decryptBytes,
+  isEncryptedUrl,
+  normalizeUiLanguage,
+} from "../../utils.js";
 
 const imageSourceCache = new Map();
 const createdObjectUrls = new Set();
 const directImageProbeCache = new Map();
+const UI_LANGUAGE_STORAGE_KEY = "mahjong-soul-data.language";
+let activeUiLanguage = null;
+
+export function setImageLoaderLanguage(language) {
+  activeUiLanguage = normalizeUiLanguage(language);
+}
+
+function currentUiLanguage() {
+  if (activeUiLanguage) {
+    return activeUiLanguage;
+  }
+  if (typeof window === "undefined") {
+    return DEFAULT_UI_LANGUAGE;
+  }
+  try {
+    return normalizeUiLanguage(window.localStorage.getItem(UI_LANGUAGE_STORAGE_KEY));
+  } catch {
+    return DEFAULT_UI_LANGUAGE;
+  }
+}
+
+function isJapaneseLocalizedPath(path) {
+  return /^jp\//i.test(String(path || "").trim());
+}
+
+function prioritizeCandidatesByLanguage(candidates, uiLanguage) {
+  const list = Array.isArray(candidates) ? candidates : [];
+  if (uiLanguage === "jp") {
+    return list;
+  }
+  const nonJapanese = [];
+  const japanese = [];
+  for (const candidate of list) {
+    if (candidate && isJapaneseLocalizedPath(candidate.path)) {
+      japanese.push(candidate);
+    } else {
+      nonJapanese.push(candidate);
+    }
+  }
+  return [...nonJapanese, ...japanese];
+}
 
 function mimeTypeFromPath(path) {
   const normalized = String(path || "").toLowerCase();
@@ -47,8 +94,8 @@ function probeDirectImageSource(url) {
   return promise;
 }
 
-async function resolveCandidateImageSource(path, prefix) {
-  for (const url of assetUrlCandidates(path, prefix)) {
+async function resolveCandidateImageSource(path, prefix, uiLanguage) {
+  for (const url of assetUrlCandidates(path, prefix, uiLanguage)) {
     const encrypted = isEncryptedUrl(url);
 
     try {
@@ -67,11 +114,14 @@ async function resolveCandidateImageSource(path, prefix) {
 }
 
 export async function loadCharacterImageSource(imageCandidates) {
-  for (const candidate of imageCandidates || []) {
-    const key = `${candidate.prefix}|${candidate.path}`;
+  const uiLanguage = currentUiLanguage();
+  const orderedCandidates = prioritizeCandidatesByLanguage(imageCandidates, uiLanguage);
+
+  for (const candidate of orderedCandidates) {
+    const key = `${uiLanguage}|${candidate.prefix}|${candidate.path}`;
 
     if (!imageSourceCache.has(key)) {
-      const promise = resolveCandidateImageSource(candidate.path, candidate.prefix).catch(() => null);
+      const promise = resolveCandidateImageSource(candidate.path, candidate.prefix, uiLanguage).catch(() => null);
       imageSourceCache.set(key, promise);
     }
 

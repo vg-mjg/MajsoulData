@@ -46,13 +46,21 @@ export async function loadCharacters(language = DEFAULT_UI_LANGUAGE) {
     return charactersCacheByLanguage.get(normalizedLanguage);
   }
 
-  const repository = await loadCharactersRepository();
-  const resourceManifest = repository.resourceManifest || {};
-  const skinPathById = new Map((repository.skins || []).map((skin) => [skin.id, skin.path]));
-  const characters = (repository.characters || [])
-    .map((character) => makeCharacterModel(character, skinPathById, resourceManifest, normalizedLanguage))
-    .sort((a, b) => a.id - b.id);
+  const promise = loadCharactersRepository()
+    .then((repository) => {
+      const resourceManifest = repository.resourceManifest || {};
+      const skinPathById = new Map((repository.skins || []).map((skin) => [skin.id, skin.path]));
+      return (repository.characters || [])
+        .map((character) => makeCharacterModel(character, skinPathById, resourceManifest, normalizedLanguage))
+        .sort((a, b) => a.id - b.id);
+    })
+    .catch((error) => {
+      if (charactersCacheByLanguage.get(normalizedLanguage) === promise) {
+        charactersCacheByLanguage.delete(normalizedLanguage);
+      }
+      throw error;
+    });
 
-  charactersCacheByLanguage.set(normalizedLanguage, characters);
-  return characters;
+  charactersCacheByLanguage.set(normalizedLanguage, promise);
+  return promise;
 }

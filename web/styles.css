@@ -1355,6 +1355,14 @@ body {
   position: relative;
 }
 
+.detail-live2d-controls {
+  margin-top: 0.5rem;
+}
+
+.detail-live2d-toggle {
+  min-width: 8.5rem;
+}
+
 .detail-spine-host {
   width: 100%;
   aspect-ratio: 3 / 4;

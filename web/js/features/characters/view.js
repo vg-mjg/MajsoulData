@@ -79,10 +79,18 @@ function createCharacterCard(character, language, onOpenDetail) {
   return card;
 }
 
-function countByFilter(characters) {
-  const counts = {};
+function buildFilterBuckets(characters) {
+  const buckets = new Map();
   for (const filter of FILTERS) {
-    counts[filter.id] = characters.filter((character) => filter.matches(character)).length;
+    buckets.set(filter.id, (characters || []).filter((character) => filter.matches(character)));
+  }
+  return buckets;
+}
+
+function countByBuckets(buckets) {
+  const counts = {};
+  for (const [id, entries] of buckets) {
+    counts[id] = Array.isArray(entries) ? entries.length : 0;
   }
   return counts;
 }
@@ -106,19 +114,18 @@ function createFilterButtons(activeFilterId, counts, onClick) {
   return container;
 }
 
-function renderFilteredGrid({ root, characters, language, filterId, onOpenDetail }) {
-  const selectedFilter = FILTERS.find((filter) => filter.id === filterId) || FILTERS[0];
-  const filteredCharacters = characters.filter((character) => selectedFilter.matches(character));
+function renderFilteredGrid({ root, filteredCharacters, language, onOpenDetail }) {
+  const entries = Array.isArray(filteredCharacters) ? filteredCharacters : [];
 
   root.innerHTML = "";
-  if (filteredCharacters.length === 0) {
+  if (entries.length === 0) {
     root.innerHTML = `<div class="empty-result">No characters in this filter.</div>`;
     return;
   }
 
   const grid = document.createElement("div");
   grid.className = "character-grid";
-  for (const character of filteredCharacters) {
+  for (const character of entries) {
     grid.append(createCharacterCard(character, language, onOpenDetail));
   }
   root.append(grid);
@@ -138,7 +145,8 @@ export async function renderCharactersPage({ viewRoot, getLanguage, onOpenDetail
 
     viewRoot.innerHTML = "";
     let activeFilterId = "all";
-    const filterCounts = countByFilter(characters);
+    const filterBuckets = buildFilterBuckets(characters);
+    const filterCounts = countByBuckets(filterBuckets);
 
     const filterRoot = document.createElement("div");
     const gridRoot = document.createElement("div");
@@ -153,9 +161,8 @@ export async function renderCharactersPage({ viewRoot, getLanguage, onOpenDetail
       );
       renderFilteredGrid({
         root: gridRoot,
-        characters,
+        filteredCharacters: filterBuckets.get(activeFilterId) || [],
         language,
-        filterId: activeFilterId,
         onOpenDetail,
       });
     };

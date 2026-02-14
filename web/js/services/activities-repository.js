@@ -99,7 +99,7 @@ const ACTIVITY_TABLE_FILES = [
   "ActivityVoteActivity.json",
 ];
 
-let cachedRepository = null;
+let cachedRepositoryPromise = null;
 
 function tableNameFromFile(fileName) {
   return String(fileName || "").replace(/\.json$/i, "");
@@ -153,11 +153,11 @@ function tableStats(rows) {
 }
 
 export async function loadActivitiesRepository() {
-  if (cachedRepository) {
-    return cachedRepository;
+  if (cachedRepositoryPromise) {
+    return cachedRepositoryPromise;
   }
 
-  const [resversion, itemDefinitionItem, itemDefinitionCurrency, itemDefinitionTitle, ...activityTables] = await Promise.all([
+  cachedRepositoryPromise = Promise.all([
     fetchJson(CORE_URLS.resversion),
     fetchJson(CORE_URLS.itemDefinitionItem),
     fetchJson(CORE_URLS.itemDefinitionCurrency),
@@ -172,89 +172,93 @@ export async function loadActivitiesRepository() {
         return [tableName, []];
       }
     }),
-  ]);
+  ]).then(([resversion, itemDefinitionItem, itemDefinitionCurrency, itemDefinitionTitle, ...activityTables]) => {
 
-  const resourceManifest = resversion && resversion.res ? resversion.res : {};
-  const items = normalizeRows(itemDefinitionItem);
-  const currencies = normalizeRows(itemDefinitionCurrency);
-  const titleRows = normalizeRows(itemDefinitionTitle);
-  const titleEntries = mapTitleEntries(titleRows);
-  const itemEntries = [...currencies, ...items, ...titleEntries];
-  const itemEntryById = mapByNumericField(itemEntries, "id");
+    const resourceManifest = resversion && resversion.res ? resversion.res : {};
+    const items = normalizeRows(itemDefinitionItem);
+    const currencies = normalizeRows(itemDefinitionCurrency);
+    const titleRows = normalizeRows(itemDefinitionTitle);
+    const titleEntries = mapTitleEntries(titleRows);
+    const itemEntries = [...currencies, ...items, ...titleEntries];
+    const itemEntryById = mapByNumericField(itemEntries, "id");
 
-  const tablesByName = new Map(activityTables.map(([name, rows]) => [name, normalizeRows(rows)]));
-  const activities = tablesByName.get("ActivityActivity") || [];
-  const activityById = mapByNumericField(activities, "id");
-  const banners = tablesByName.get("ActivityActivityBanner") || [];
-  const bannerByActivityId = mapByNumericField(banners, "id");
+    const tablesByName = new Map(activityTables.map(([name, rows]) => [name, normalizeRows(rows)]));
+    const activities = tablesByName.get("ActivityActivity") || [];
+    const activityById = mapByNumericField(activities, "id");
+    const banners = tablesByName.get("ActivityActivityBanner") || [];
+    const bannerByActivityId = mapByNumericField(banners, "id");
 
-  const activityRowsByTable = new Map();
-  for (const [tableName, rows] of tablesByName) {
-    if (tableName === "ActivityActivity") continue;
+    const activityRowsByTable = new Map();
+    for (const [tableName, rows] of tablesByName) {
+      if (tableName === "ActivityActivity") continue;
 
-    if (tableName === "ActivityActivityBanner") {
-      const grouped = new Map();
-      for (const row of rows) {
-        const activityId = numberValue(row && row.id);
-        if (activityId <= 0) continue;
-        grouped.set(activityId, [row]);
+      if (tableName === "ActivityActivityBanner") {
+        const grouped = new Map();
+        for (const row of rows) {
+          const activityId = numberValue(row && row.id);
+          if (activityId <= 0) continue;
+          grouped.set(activityId, [row]);
+        }
+        if (grouped.size > 0) {
+          activityRowsByTable.set(tableName, grouped);
+        }
+        continue;
       }
+
+      const grouped = groupRowsByNumericField(rows, "activityId");
       if (grouped.size > 0) {
         activityRowsByTable.set(tableName, grouped);
       }
-      continue;
     }
 
-    const grouped = groupRowsByNumericField(rows, "activityId");
-    if (grouped.size > 0) {
-      activityRowsByTable.set(tableName, grouped);
+    const tableStatsByName = new Map();
+    for (const [tableName, rows] of tablesByName) {
+      tableStatsByName.set(tableName, tableStats(rows));
     }
-  }
 
-  const tableStatsByName = new Map();
-  for (const [tableName, rows] of tablesByName) {
-    tableStatsByName.set(tableName, tableStats(rows));
-  }
+    const activityTypeCounts = new Map();
+    for (const row of activities) {
+      const type = stringValue(row && row.type).trim() || "unknown";
+      activityTypeCounts.set(type, numberValue(activityTypeCounts.get(type)) + 1);
+    }
 
-  const activityTypeCounts = new Map();
-  for (const row of activities) {
-    const type = stringValue(row && row.type).trim() || "unknown";
-    activityTypeCounts.set(type, numberValue(activityTypeCounts.get(type)) + 1);
-  }
+    const indexes = {
+      arenaRewardByGroupId: groupRowsByNumericField(tablesByName.get("ActivityArenaReward"), "groupId"),
+      arenaRewardDisplayByGroupId: groupRowsByNumericField(tablesByName.get("ActivityArenaRewardDisplay"), "groupId"),
+      mineRewardByGroupId: groupRowsByNumericField(tablesByName.get("ActivityMineReward"), "groupId"),
+      rankRewardById: mapByNumericField(tablesByName.get("ActivityRankReward"), "id"),
+      richmanMapByMapId: groupRowsByNumericField(tablesByName.get("ActivityRichmanMap"), "mapId"),
+      richmanRewardSeqById: groupRowsByNumericField(tablesByName.get("ActivityRichmanRewardSeq"), "id"),
+      randomTaskPoolByPoolId: groupRowsByNumericField(tablesByName.get("ActivityRandomTaskPool"), "poolId"),
+      storyEndingByStoryId: groupRowsByNumericField(tablesByName.get("ActivityStoryEnding"), "storyId"),
+      gachaPoolByPoolId: groupRowsByNumericField(tablesByName.get("ActivityGachaPool"), "poolId"),
+      gachaControlById: mapByNumericField(tablesByName.get("ActivityGachaControl"), "id"),
+      upgradeActivityRewardById: groupRowsByNumericField(tablesByName.get("ActivityUpgradeActivityReward"), "id"),
+      chooseGroupByChestId: groupRowsByNumericField(tablesByName.get("ActivityChooseGroup"), "chestId"),
+      chestUpByChestId: groupRowsByNumericField(tablesByName.get("ActivityChestUp"), "chestId"),
+      summerStoryByStoryId: groupRowsByNumericField(tablesByName.get("ActivitySummerStory"), "storyId"),
+      bingoCardByCardId: groupRowsByNumericField(tablesByName.get("ActivityBingoCard"), "cardId"),
+      bingoRewardByCardId: groupRowsByNumericField(tablesByName.get("ActivityBingoReward"), "cardId"),
+    };
 
-  const indexes = {
-    arenaRewardByGroupId: groupRowsByNumericField(tablesByName.get("ActivityArenaReward"), "groupId"),
-    arenaRewardDisplayByGroupId: groupRowsByNumericField(tablesByName.get("ActivityArenaRewardDisplay"), "groupId"),
-    mineRewardByGroupId: groupRowsByNumericField(tablesByName.get("ActivityMineReward"), "groupId"),
-    rankRewardById: mapByNumericField(tablesByName.get("ActivityRankReward"), "id"),
-    richmanMapByMapId: groupRowsByNumericField(tablesByName.get("ActivityRichmanMap"), "mapId"),
-    richmanRewardSeqById: groupRowsByNumericField(tablesByName.get("ActivityRichmanRewardSeq"), "id"),
-    randomTaskPoolByPoolId: groupRowsByNumericField(tablesByName.get("ActivityRandomTaskPool"), "poolId"),
-    storyEndingByStoryId: groupRowsByNumericField(tablesByName.get("ActivityStoryEnding"), "storyId"),
-    gachaPoolByPoolId: groupRowsByNumericField(tablesByName.get("ActivityGachaPool"), "poolId"),
-    gachaControlById: mapByNumericField(tablesByName.get("ActivityGachaControl"), "id"),
-    upgradeActivityRewardById: groupRowsByNumericField(tablesByName.get("ActivityUpgradeActivityReward"), "id"),
-    chooseGroupByChestId: groupRowsByNumericField(tablesByName.get("ActivityChooseGroup"), "chestId"),
-    chestUpByChestId: groupRowsByNumericField(tablesByName.get("ActivityChestUp"), "chestId"),
-    summerStoryByStoryId: groupRowsByNumericField(tablesByName.get("ActivitySummerStory"), "storyId"),
-    bingoCardByCardId: groupRowsByNumericField(tablesByName.get("ActivityBingoCard"), "cardId"),
-    bingoRewardByCardId: groupRowsByNumericField(tablesByName.get("ActivityBingoReward"), "cardId"),
-  };
+    return {
+      resourceManifest,
+      activities,
+      activityById,
+      banners,
+      bannerByActivityId,
+      tablesByName,
+      activityRowsByTable,
+      tableStatsByName,
+      activityTypeCounts,
+      itemEntries,
+      itemEntryById,
+      indexes,
+    };
+  }).catch((error) => {
+    cachedRepositoryPromise = null;
+    throw error;
+  });
 
-  cachedRepository = {
-    resourceManifest,
-    activities,
-    activityById,
-    banners,
-    bannerByActivityId,
-    tablesByName,
-    activityRowsByTable,
-    tableStatsByName,
-    activityTypeCounts,
-    itemEntries,
-    itemEntryById,
-    indexes,
-  };
-
-  return cachedRepository;
+  return cachedRepositoryPromise;
 }

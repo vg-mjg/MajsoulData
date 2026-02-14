@@ -1,8 +1,55 @@
-import { assetUrlCandidates, decryptBytes, isEncryptedUrl } from "../../utils.js";
+import {
+  DEFAULT_UI_LANGUAGE,
+  assetUrlCandidates,
+  decryptBytes,
+  isEncryptedUrl,
+  normalizeUiLanguage,
+} from "../../utils.js";
 
 const audioSourceCache = new Map();
 const createdObjectUrls = new Set();
 const directAudioProbeCache = new Map();
+const UI_LANGUAGE_STORAGE_KEY = "mahjong-soul-data.language";
+let activeUiLanguage = null;
+
+export function setAudioLoaderLanguage(language) {
+  activeUiLanguage = normalizeUiLanguage(language);
+}
+
+function currentUiLanguage() {
+  if (activeUiLanguage) {
+    return activeUiLanguage;
+  }
+  if (typeof window === "undefined") {
+    return DEFAULT_UI_LANGUAGE;
+  }
+  try {
+    return normalizeUiLanguage(window.localStorage.getItem(UI_LANGUAGE_STORAGE_KEY));
+  } catch {
+    return DEFAULT_UI_LANGUAGE;
+  }
+}
+
+function isJapaneseLocalizedPath(path) {
+  return /^jp\//i.test(String(path || "").trim());
+}
+
+function prioritizeCandidatesByLanguage(candidates, uiLanguage) {
+  const list = Array.isArray(candidates) ? candidates : [];
+  if (uiLanguage === "jp") {
+    return list;
+  }
+  const nonJapanese = [];
+  const japanese = [];
+  for (const candidate of list) {
+    if (candidate && isJapaneseLocalizedPath(candidate.path)) {
+      japanese.push(candidate);
+    } else {
+      nonJapanese.push(candidate);
+    }
+  }
+  return [...nonJapanese, ...japanese];
+}
 
 function mimeTypeFromPath(path) {
   const normalized = String(path || "").toLowerCase();
@@ -74,8 +121,8 @@ function probeDirectAudioSource(url) {
   return promise;
 }
 
-async function resolveCandidateAudioSource(path, prefix) {
-  for (const url of assetUrlCandidates(path, prefix)) {
+async function resolveCandidateAudioSource(path, prefix, uiLanguage) {
+  for (const url of assetUrlCandidates(path, prefix, uiLanguage)) {
     const encrypted = isEncryptedUrl(url);
 
     try {
@@ -94,11 +141,14 @@ async function resolveCandidateAudioSource(path, prefix) {
 }
 
 export async function loadAudioSource(audioCandidates) {
-  for (const candidate of audioCandidates || []) {
-    const key = `${candidate.prefix}|${candidate.path}`;
+  const uiLanguage = currentUiLanguage();
+  const orderedCandidates = prioritizeCandidatesByLanguage(audioCandidates, uiLanguage);
+
+  for (const candidate of orderedCandidates) {
+    const key = `${uiLanguage}|${candidate.prefix}|${candidate.path}`;
 
     if (!audioSourceCache.has(key)) {
-      const promise = resolveCandidateAudioSource(candidate.path, candidate.prefix).catch(() => null);
+      const promise = resolveCandidateAudioSource(candidate.path, candidate.prefix, uiLanguage).catch(() => null);
       audioSourceCache.set(key, promise);
     }
 

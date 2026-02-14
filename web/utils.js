@@ -30,11 +30,11 @@ const UI_LANGUAGE_PRIORITY = {
 };
 
 const UI_ASSET_PREFIX_PRIORITY = {
-  [LANGUAGE.EN]: ["en/", "", "chs_t/", "kr/", "en_kr/", "jp/"],
-  [LANGUAGE.JP]: ["jp/", "", "chs_t/", "en/", "kr/", "en_kr/"],
+  [LANGUAGE.EN]: ["en/", "kr/", "en_kr/", "chs_t/", "", "jp/"],
+  [LANGUAGE.JP]: ["jp/", "en/", "kr/", "en_kr/", "chs_t/", ""],
   [LANGUAGE.CHS]: ["", "chs_t/", "en/", "kr/", "en_kr/", "jp/"],
   [LANGUAGE.CHS_T]: ["chs_t/", "", "en/", "kr/", "en_kr/", "jp/"],
-  [LANGUAGE.KR]: ["kr/", "en_kr/", "en/", "", "chs_t/", "jp/"],
+  [LANGUAGE.KR]: ["kr/", "en_kr/", "en/", "chs_t/", "", "jp/"],
 };
 
 const LANGUAGE_FIELD_SUFFIX = {
