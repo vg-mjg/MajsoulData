@@ -12,8 +12,9 @@ const SPINE_PLAYER_STYLE_URLS = [
 
 const SPINE_PREMULTIPLIED_ALPHA = false;
 
-const blockedOrigins = new Set();
 let runtimePromise = null;
+const atlasPremultipliedAlphaCache = new Map();
+const spineUrlProbeCache = new Map();
 
 function hasSpinePlayerRuntime() {
   return Boolean(window.spine && window.spine.SpinePlayer);
@@ -156,29 +157,6 @@ function createUrlAttemptsForPair(pair) {
   return attempts;
 }
 
-async function probeAssetUrl(url) {
-  let origin = "";
-  try {
-    origin = new URL(url).origin;
-  } catch {
-    return false;
-  }
-
-  if (blockedOrigins.has(origin)) {
-    return false;
-  }
-
-  try {
-    const response = await fetch(url, { method: "HEAD", cache: "force-cache", mode: "cors" });
-    return Boolean(response && response.ok);
-  } catch (error) {
-    if (error instanceof TypeError) {
-      blockedOrigins.add(origin);
-    }
-    return false;
-  }
-}
-
 function spineLayerPriority(pair) {
   const skeletonPath = String(pair && pair.skeleton && pair.skeleton.path ? pair.skeleton.path : "");
   if (!skeletonPath) return 0;
@@ -214,7 +192,92 @@ function sourceOrigin(source) {
   }
 }
 
-async function resolveSpineSource(spineAssetPairs) {
+function sortAttemptsByPreferredOrigin(attempts, preferredOrigin) {
+  const targetOrigin = String(preferredOrigin || "");
+  return (attempts || [])
+    .slice()
+    .sort((left, right) => {
+      const leftOrigin = sourceOrigin(left);
+      const rightOrigin = sourceOrigin(right);
+      const leftMatch = targetOrigin && leftOrigin === targetOrigin ? 1 : 0;
+      const rightMatch = targetOrigin && rightOrigin === targetOrigin ? 1 : 0;
+      if (leftMatch !== rightMatch) return rightMatch - leftMatch;
+      return 0;
+    });
+}
+
+function attemptPathBucket(attempt) {
+  const path = String(attempt && attempt.skeletonPath ? attempt.skeletonPath : "").toLowerCase();
+  if (path.startsWith("en/")) return "en";
+  if (path.startsWith("jp/")) return "jp";
+  if (path.startsWith("kr/") || path.startsWith("en_kr/")) return "kr";
+  if (path.startsWith("chs_t/")) return "chs_t";
+  if (path.startsWith("lang/")) return "lang";
+  if (path.length > 0) return "base";
+  return "other";
+}
+
+function uiLangFromAttempt(attempt) {
+  try {
+    const url = new URL(String(attempt && attempt.skeletonUrl ? attempt.skeletonUrl : ""));
+    return String(url.searchParams.get("ui_lang") || "").toLowerCase();
+  } catch {
+    return "";
+  }
+}
+
+function bucketPriorityOrder(uiLanguage) {
+  if (uiLanguage === "jp") return ["jp", "en", "kr", "chs_t", "base", "lang", "other"];
+  if (uiLanguage === "kr") return ["kr", "jp", "en", "chs_t", "base", "lang", "other"];
+  if (uiLanguage === "chs_t" || uiLanguage === "chs") return ["chs_t", "jp", "en", "kr", "base", "lang", "other"];
+  return ["en", "jp", "kr", "chs_t", "base", "lang", "other"];
+}
+
+function trimmedAttemptList(attempts) {
+  const source = Array.isArray(attempts) ? attempts.slice() : [];
+  if (source.length <= 1) return source;
+
+  const uiLanguage = uiLangFromAttempt(source[0]);
+  const order = bucketPriorityOrder(uiLanguage);
+  const orderMap = new Map(order.map((bucket, index) => [bucket, index]));
+
+  return source
+    .map((attempt, index) => ({ attempt, index }))
+    .sort((left, right) => {
+      const leftBucket = attemptPathBucket(left.attempt);
+      const rightBucket = attemptPathBucket(right.attempt);
+      const leftRank = orderMap.has(leftBucket) ? orderMap.get(leftBucket) : order.length;
+      const rightRank = orderMap.has(rightBucket) ? orderMap.get(rightBucket) : order.length;
+      if (leftRank !== rightRank) return leftRank - rightRank;
+      return left.index - right.index;
+    })
+    .map((entry) => entry.attempt);
+}
+
+function probeSpineUrl(url) {
+  const key = String(url || "");
+  if (!key) return Promise.resolve(false);
+  if (spineUrlProbeCache.has(key)) {
+    return spineUrlProbeCache.get(key);
+  }
+
+  const promise = fetch(key, { method: "HEAD", cache: "no-cache", mode: "cors" })
+    .then((response) => Boolean(response && response.ok))
+    .catch(() => false);
+  spineUrlProbeCache.set(key, promise);
+  return promise;
+}
+
+async function probeSpineAttempt(attempt) {
+  if (!attempt || !attempt.skeletonUrl || !attempt.atlasUrl) return false;
+  const [skeletonOk, atlasOk] = await Promise.all([
+    probeSpineUrl(attempt.skeletonUrl),
+    probeSpineUrl(attempt.atlasUrl),
+  ]);
+  return skeletonOk && atlasOk;
+}
+
+function resolveSpineSource(spineAssetPairs) {
   const orderedPairs = (spineAssetPairs || [])
     .filter((pair) => pair && pair.skeleton && pair.atlas)
     .map((pair, index) => ({ pair, index, priority: spineLayerPriority(pair) }))
@@ -237,56 +300,48 @@ async function resolveSpineSource(spineAssetPairs) {
     if (!pair || !pair.skeleton || !pair.atlas) continue;
     const attempts = createUrlAttemptsForPair(pair);
     for (const attempt of attempts) {
-      const [skeletonOk, atlasOk] = await Promise.all([
-        probeAssetUrl(attempt.skeletonUrl),
-        probeAssetUrl(attempt.atlasUrl),
-      ]);
-      if (!skeletonOk || !atlasOk) continue;
-
       const key = `${attempt.skeletonUrl}|${attempt.atlasUrl}`;
       if (seenAttempts.has(key)) continue;
       seenAttempts.add(key);
 
       const bucket = byLayer[attempt.layer] || byLayer.other;
       bucket.push(attempt);
-
-      if (attempt.layer === "plain") {
-        return {
-          sources: [attempt],
-        };
-      }
     }
   }
 
   if (byLayer.plain.length > 0) {
-    return { sources: [byLayer.plain[0]] };
-  }
-
-  if (byLayer["1"].length > 0) {
-    const primary = byLayer["1"][0];
-    const preferredOrigin = sourceOrigin(primary);
-    const sameOrigin = (source) => sourceOrigin(source) === preferredOrigin;
-    const layer0 = byLayer["0"].find(sameOrigin) || byLayer["0"][0] || null;
-    const layer2 = byLayer["2"].find(sameOrigin) || byLayer["2"][0] || null;
-    const stacked = [layer0, primary, layer2].filter(Boolean);
     return {
-      sources: stacked.sort((left, right) => layerDrawOrder(left.layer) - layerDrawOrder(right.layer)),
+      primaryLayer: "plain",
+      layers: [
+        {
+          layer: "plain",
+          attempts: trimmedAttemptList(byLayer.plain),
+        },
+      ],
     };
   }
 
-  if (byLayer["0"].length > 0) {
-    return { sources: [byLayer["0"][0]] };
+  const primaryLayer = byLayer["1"].length > 0
+    ? "1"
+    : (byLayer["0"].length > 0 ? "0" : (byLayer["2"].length > 0 ? "2" : (byLayer.other.length > 0 ? "other" : "")));
+  if (!primaryLayer) return null;
+
+  const preferredOrigin = sourceOrigin(byLayer[primaryLayer][0]);
+  const layerOrder = ["0", "1", "2", "other"];
+  const layers = [];
+  for (const layer of layerOrder) {
+    const attempts = byLayer[layer] || [];
+    if (attempts.length === 0) continue;
+    layers.push({
+      layer,
+      attempts: trimmedAttemptList(sortAttemptsByPreferredOrigin(attempts, preferredOrigin)),
+    });
   }
 
-  if (byLayer["2"].length > 0) {
-    return { sources: [byLayer["2"][0]] };
-  }
+  if (layers.length === 0) return null;
+  layers.sort((left, right) => layerDrawOrder(left.layer) - layerDrawOrder(right.layer));
 
-  if (byLayer.other.length > 0) {
-    return { sources: [byLayer.other[0]] };
-  }
-
-  return null;
+  return { primaryLayer, layers };
 }
 
 function pickAnimationName(player) {
@@ -306,67 +361,102 @@ function pickAnimationName(player) {
 
 async function readAtlasPremultipliedAlpha(atlasUrl) {
   if (!atlasUrl) return SPINE_PREMULTIPLIED_ALPHA;
+  if (atlasPremultipliedAlphaCache.has(atlasUrl)) {
+    return atlasPremultipliedAlphaCache.get(atlasUrl);
+  }
 
   try {
     const response = await fetch(atlasUrl, { cache: "force-cache", mode: "cors" });
-    if (!response.ok) return SPINE_PREMULTIPLIED_ALPHA;
+    if (!response.ok) {
+      atlasPremultipliedAlphaCache.set(atlasUrl, SPINE_PREMULTIPLIED_ALPHA);
+      return SPINE_PREMULTIPLIED_ALPHA;
+    }
 
     const text = await response.text();
     const top = String(text || "").split(/\r?\n/).slice(0, 32).join("\n");
     const match = top.match(/\bpma\s*:\s*(true|false)\b/i);
-    if (!match) return SPINE_PREMULTIPLIED_ALPHA;
-    return String(match[1]).toLowerCase() === "true";
+    if (!match) {
+      atlasPremultipliedAlphaCache.set(atlasUrl, SPINE_PREMULTIPLIED_ALPHA);
+      return SPINE_PREMULTIPLIED_ALPHA;
+    }
+
+    const value = String(match[1]).toLowerCase() === "true";
+    atlasPremultipliedAlphaCache.set(atlasUrl, value);
+    return value;
   } catch {
+    atlasPremultipliedAlphaCache.set(atlasUrl, SPINE_PREMULTIPLIED_ALPHA);
     return SPINE_PREMULTIPLIED_ALPHA;
   }
 }
 
-function createSpinePlayer(host, source) {
+function createSpinePlayer(host, sourcePlan) {
   const runtime = window.spine;
   if (!runtime || !runtime.SpinePlayer) {
     return Promise.reject(new Error("Spine player runtime is unavailable."));
   }
 
-  const sourceEntries = Array.isArray(source && source.sources)
-    ? source.sources.filter(Boolean)
-    : (source ? [source] : []);
-  if (sourceEntries.length === 0) {
+  const layers = Array.isArray(sourcePlan && sourcePlan.layers)
+    ? sourcePlan.layers.filter((entry) => entry && Array.isArray(entry.attempts) && entry.attempts.length > 0)
+    : [];
+  if (layers.length === 0) {
     return Promise.reject(new Error("Spine source is empty."));
   }
 
-  function createSinglePlayer(layerHost, entry) {
+  function createSinglePlayer(layerHost, attempts) {
     return new Promise((resolve, reject) => {
-      let settled = false;
-      let player = null;
-      let timeoutId = 0;
+      const queue = Array.isArray(attempts) ? attempts.slice() : [];
+      if (queue.length === 0) {
+        reject(new Error("No spine layer attempts available."));
+        return;
+      }
 
-      const finalizeReject = (error) => {
-        if (settled) return;
-        settled = true;
-        if (timeoutId) {
-          window.clearTimeout(timeoutId);
-        }
-        if (player && typeof player.dispose === "function") {
+      let active = true;
+      let currentPlayer = null;
+      let lastError = null;
+      let attemptSerial = 0;
+
+      const cleanupCurrentPlayer = () => {
+        if (currentPlayer && typeof currentPlayer.dispose === "function") {
           try {
-            player.dispose();
+            currentPlayer.dispose();
           } catch {
             // ignore dispose errors
           }
         }
+        currentPlayer = null;
+      };
+
+      const finalizeFailure = (error) => {
+        if (!active) return;
+        active = false;
+        cleanupCurrentPlayer();
         layerHost.replaceChildren();
         reject(error instanceof Error ? error : new Error(String(error || "Failed to load spine layer.")));
       };
 
-      timeoutId = window.setTimeout(() => {
-        finalizeReject(new Error("Spine player load timeout."));
-      }, 20000);
+      const scheduleNext = () => {
+        queueMicrotask(() => {
+          void tryNext();
+        });
+      };
 
-      const startPlayer = async () => {
+      const tryNext = async () => {
+        if (!active) return;
+        cleanupCurrentPlayer();
+
+        const entry = queue.shift();
+        if (!entry) {
+          finalizeFailure(lastError || new Error("Failed to load spine layer."));
+          return;
+        }
+        attemptSerial += 1;
+        const currentAttemptSerial = attemptSerial;
+
         const premultipliedAlpha = await readAtlasPremultipliedAlpha(entry.atlasUrl);
-        if (settled) return;
+        if (!active || currentAttemptSerial !== attemptSerial) return;
 
         try {
-          player = new runtime.SpinePlayer(layerHost, {
+          currentPlayer = new runtime.SpinePlayer(layerHost, {
             skelUrl: entry.skeletonUrl,
             atlasUrl: entry.atlasUrl,
             alpha: true,
@@ -384,23 +474,43 @@ function createSpinePlayer(host, source) {
               padBottom: "4%",
             },
             success(loadedPlayer) {
-              if (settled) return;
-              settled = true;
-              if (timeoutId) {
-                window.clearTimeout(timeoutId);
+              if (currentAttemptSerial !== attemptSerial) {
+                if (loadedPlayer && typeof loadedPlayer.dispose === "function") {
+                  try {
+                    loadedPlayer.dispose();
+                  } catch {
+                    // ignore dispose errors
+                  }
+                }
+                return;
               }
-              resolve(loadedPlayer);
+              if (!active) {
+                if (loadedPlayer && typeof loadedPlayer.dispose === "function") {
+                  try {
+                    loadedPlayer.dispose();
+                  } catch {
+                    // ignore dispose errors
+                  }
+                }
+                return;
+              }
+
+              active = false;
+              resolve({ player: loadedPlayer, source: entry });
             },
             error(_player, message) {
-              finalizeReject(new Error(String(message || "Spine player failed to load skeleton.")));
+              if (!active || currentAttemptSerial !== attemptSerial) return;
+              lastError = new Error(String(message || "Spine player failed to load skeleton."));
+              scheduleNext();
             },
           });
         } catch (error) {
-          finalizeReject(error);
+          lastError = error instanceof Error ? error : new Error(String(error || "Failed to create spine player."));
+          scheduleNext();
         }
       };
 
-      void startPlayer();
+      scheduleNext();
     });
   }
 
@@ -409,93 +519,94 @@ function createSpinePlayer(host, source) {
     stackRoot.className = "detail-spine-stack";
     host.replaceChildren(stackRoot);
 
-    const orderedSources = sourceEntries
+    const layerEntries = layers
       .slice()
-      .sort((left, right) => layerDrawOrder(left.layer) - layerDrawOrder(right.layer));
-
-    const layerEntries = orderedSources.map((entry) => {
-      const layer = String(entry && entry.layer ? entry.layer : "other");
+      .sort((left, right) => layerDrawOrder(left.layer) - layerDrawOrder(right.layer))
+      .map((entry) => {
+        const layer = String(entry && entry.layer ? entry.layer : "other");
+        const attempts = Array.isArray(entry && entry.attempts) ? entry.attempts : [];
+        return { layer, attempts };
+      })
+      .filter((entry) => entry.attempts.length > 0)
+      .map((entry) => {
+      const layer = entry.layer;
       const layerHost = document.createElement("div");
       layerHost.className = `detail-spine-player detail-spine-layer detail-spine-layer-${layer}`;
       stackRoot.append(layerHost);
-      return { entry, layerHost };
+      return { layer, attempts: entry.attempts, layerHost };
     });
 
-    const loadPromises = layerEntries.map(({ entry, layerHost }) =>
-      createSinglePlayer(layerHost, entry).then((player) => ({ player, layerHost, entry })),
-    );
+    if (layerEntries.length === 0) {
+      host.replaceChildren();
+      reject(new Error("Spine source is empty."));
+      return;
+    }
 
-    void Promise.allSettled(loadPromises).then((results) => {
-      const fulfilled = results
-        .filter((result) => result.status === "fulfilled")
-        .map((result) => result.value);
-      if (fulfilled.length === 0) {
+    const loadedPlayers = [];
+    let settledCount = 0;
+    let hasResolved = false;
+    let lastError = null;
+    let destroyed = false;
+
+    const disposePlayer = (player) => {
+      if (!player || typeof player.dispose !== "function") return;
+      try {
+        player.dispose();
+      } catch {
+        // ignore dispose errors caused by detached nodes
+      }
+    };
+
+    const controller = {
+      destroy() {
+        if (destroyed) return;
+        destroyed = true;
+        for (const player of loadedPlayers) {
+          disposePlayer(player);
+        }
         host.replaceChildren();
-        const firstRejected = results.find((result) => result.status === "rejected");
-        reject(
-          firstRejected && firstRejected.reason
-            ? firstRejected.reason
-            : new Error("Failed to load spine layers."),
-        );
-        return;
-      }
+      },
+    };
 
-      const loadedPlayers = fulfilled.map((entry) => entry.player);
-      const animationSets = loadedPlayers.map((player) => new Set(
-        Array.isArray(player?.skeleton?.data?.animations)
-          ? player.skeleton.data.animations
-            .map((item) => String(item && item.name ? item.name : ""))
-            .filter((name) => name.length > 0)
-          : [],
-      ));
+    const maybeReject = () => {
+      if (hasResolved || destroyed) return;
+      if (settledCount < layerEntries.length) return;
+      host.replaceChildren();
+      reject(lastError || new Error("Failed to load spine layers."));
+    };
 
-      let sharedAnimationName = "";
-      const preferred = ["idle", "Idle", "wait", "stand", "greeting", "celebrate"];
-      for (const name of preferred) {
-        if (animationSets.every((set) => set.has(name))) {
-          sharedAnimationName = name;
-          break;
-        }
-      }
-      if (!sharedAnimationName && animationSets.length > 0) {
-        const firstNames = Array.from(animationSets[0]);
-        for (const name of firstNames) {
-          if (animationSets.every((set) => set.has(name))) {
-            sharedAnimationName = name;
-            break;
+    for (const { layer, attempts, layerHost } of layerEntries) {
+      createSinglePlayer(layerHost, attempts)
+        .then((result) => ({ ...result, layer, layerHost }))
+        .then(({ player }) => {
+          settledCount += 1;
+          if (destroyed) {
+            disposePlayer(player);
+            return;
           }
-        }
-      }
 
-      for (const player of loadedPlayers) {
-        const fallbackAnimationName = pickAnimationName(player);
-        const animationName = sharedAnimationName || fallbackAnimationName;
-        if (!animationName) continue;
-        try {
-          player.setAnimation(animationName, true);
-          player.play();
-        } catch {
-          // ignore animation setup errors for non-primary layers
-        }
-      }
-
-      let destroyed = false;
-      resolve({
-        destroy() {
-          if (destroyed) return;
-          destroyed = true;
-          for (const player of loadedPlayers) {
-            if (!player || typeof player.dispose !== "function") continue;
+          const animationName = pickAnimationName(player);
+          if (animationName) {
             try {
-              player.dispose();
+              player.setAnimation(animationName, true);
+              player.play();
             } catch {
-              // ignore dispose errors caused by detached nodes
+              // ignore animation setup errors for this layer
             }
           }
-          host.replaceChildren();
-        },
-      });
-    });
+
+          loadedPlayers.push(player);
+          if (!hasResolved) {
+            hasResolved = true;
+            resolve(controller);
+          }
+        })
+        .catch((error) => {
+          settledCount += 1;
+          lastError = error instanceof Error ? error : new Error(String(error || "Failed to load spine layer."));
+          maybeReject();
+        });
+    }
   });
 }
 
