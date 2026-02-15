@@ -1,0 +1,1 @@
+local a={"A","B","O","AB","Unknown","Unknown","No match"}return a

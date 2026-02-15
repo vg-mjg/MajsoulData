@@ -1,0 +1,1 @@
+local a={"운수대통 부적 (30일)"}return a

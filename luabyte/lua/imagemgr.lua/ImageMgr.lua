@@ -1,0 +1,1 @@
+ImageMgr={}function ImageMgr.SetTextureAsync(a,b,c,d)LuaTools.SetImageTextureAsync(a,b,d,c)end;function ImageMgr.SetRawImageTextureAsync(a,b,c,d)LuaTools.SetRawImageTextureAsync(a,b,d,c)end;return ImageMgr

@@ -1,0 +1,1 @@
+local a={"Achievement unlocked","Event Limited","Obtain from Summon"}return a

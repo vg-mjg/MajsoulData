@@ -1,0 +1,1 @@
+function math.Approximately(a,b)return math.abs(b-a)<math.max(1e-6*math.max(math.abs(a),math.abs(b)),1e-6)end;function math.DivMod(a,b)local c,d;c=math.floor(a/b)d=a-c*b;return c,d end

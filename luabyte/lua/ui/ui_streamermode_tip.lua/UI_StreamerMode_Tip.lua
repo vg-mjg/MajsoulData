@@ -1,0 +1,1 @@
+require"UI.UIBase"require"UI.UIBlock"UI_StreamerMode_Tip=UIBase:Inherit()function UI_StreamerMode_Tip:OnCreate()UI_StreamerMode_Tip.Inst=self;self.transform:GetComponent(typeof(UnityEngine.RectTransform)):SetPos(0,0)end;return UI_StreamerMode_Tip

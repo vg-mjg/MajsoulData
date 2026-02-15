@@ -1,0 +1,1 @@
+require"UI.UIBase"require"UI.UIBlock"UI_Tutorial_Mj=UIBase:Inherit()function UI_Tutorial_Mj:OnCreate()UI_Tutorial_Mj.Inst=self end;return UI_Tutorial_Mj

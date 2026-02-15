@@ -1,0 +1,1 @@
+UIAnimTool={}function UIAnimTool.SafeRotateCircularly(a,b,c)local d=UnityEngine.Time.time;local e=TimeMgr.LoopFrame(1,-1,function()local f=UnityEngine.Time.time;local g=f-d;d=f;local h=(c and 1 or-1)*g*b;a:Rotate(0,0,h)end)return e end;return UIAnimTool

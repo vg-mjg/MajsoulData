@@ -1,0 +1,1 @@
+require"UI.UIBase"require"UI.UIBlock"UI_AL=UIBase:Inherit()UI_AL.destroyOnClose=true;function UI_AL:OnCreate()end;function UI_AL:OnShow(a)self.transform.gameObject:SetActive(true)a()self.transform:Find('node'):GetComponent(typeof(anim_alpha)):Alpha_In()TimeMgr.Delay(1.3,function()UIMgr.Inst:CloseUIByInstance(self)end)end;return UI_AL

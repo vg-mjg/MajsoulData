@@ -1,0 +1,1 @@
+local a={}a[Vector3]=1;a[Quaternion]=2;a[Vector2]=3;a[Color]=4;a[Vector4]=5;a[Ray]=6;a[Bounds]=7;a[Touch]=8;a[LayerMask]=9;a[RaycastHit]=10;a[int64]=11;a[uint64]=12;local function b()local getmetatable=getmetatable;local a=a;return function(c)local d=getmetatable(c)if d==nil then return 0 end;return a[d]or 0 end end;function AddValueType(e,f)a[e]=f end;GetLuaValueType=b()

@@ -1,0 +1,1 @@
+local a={"Friends Room","Bronze Room","Silver Room","Gold Room","Jade Room","Melee Room","Throne Room"}return a

@@ -1,0 +1,1 @@
+local a={"New daily voice unlocked!\nNew match voice unlocked!","New daily voice unlocked!\nNew bonding voice unlocked!\nNew match voice unlocked!","New daily voice unlocked!\nNew bonding voice unlocked!","New Han-declaration voice unlocked!\nNew login voice unlocked!\nNew daily voice unlocked!\nNew bonding voice unlocked!"}return a
