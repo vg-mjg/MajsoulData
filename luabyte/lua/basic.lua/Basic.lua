@@ -1,0 +1,1 @@
+Basic={}function Basic.Enum(a)local b={}local c=0;for d,e in ipairs(a)do if type(e)=='string'then b[e]=c;b[c]=e elseif type(e)=='table'then for f,g in pairs(e)do assert(type(f)=='string')assert(type(g)=='number')c=g;b[f]=c;b[c]=f end end;c=c+1 end;return b end;return Basic

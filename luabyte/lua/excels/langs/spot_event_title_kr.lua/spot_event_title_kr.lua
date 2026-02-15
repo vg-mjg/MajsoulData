@@ -1,0 +1,1 @@
+local a={"","","","","","","","","오프닝","인터루드","피날레","신사와……토끼님?","Good morning, 미래 예지","같은 생각","Day 1 The Holy Mahjong War Begins","Day 2 Gunshots at Night","Day 3 Dance and Magic","Day 4 The Miracle of the Trinity","EP1","EP2","EP3","EP4","EP5"}return a

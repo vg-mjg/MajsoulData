@@ -1,0 +1,1 @@
+InfiniteListHelper={}function InfiniteListHelper.GetConfigTable()local a={}return a end;return InfiniteListHelper

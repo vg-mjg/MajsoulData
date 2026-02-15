@@ -1,0 +1,1 @@
+function math.clamp(a,b,c)return math.max(b,math.min(a,c))end;function math.distance(d,e)if not d or not e or#d~=#e then LogTool.Error("math","distance 方法参数异常！pointA: ",d,", pointB: ",e)return end;local f=0;for g=1,#d do local h=d[g]-e[g]f=f+h*h end;return math.sqrt(f)end

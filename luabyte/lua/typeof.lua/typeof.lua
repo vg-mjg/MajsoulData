@@ -1,0 +1,1 @@
+local type=type;local a={}local b=tolua.typeof;local c=tolua.findtype;function typeof(d)local e=type(d)local f=nil;if e=="table"then f=a[d]if f==nil then f=b(d)a[d]=f end elseif e=="string"then f=a[d]if f==nil then f=c(d)a[d]=f end else error(debug.traceback("attemp to call typeof on type "..e))end;return f end

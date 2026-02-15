@@ -1,0 +1,1 @@
+local a={"Fortune Charm (30d)"}return a

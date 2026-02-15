@@ -1,0 +1,1 @@
+local a={"A-Yuan","Ume","Chi Lin","默认男","默认女"}return a

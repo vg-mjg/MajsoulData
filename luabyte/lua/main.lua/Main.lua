@@ -1,0 +1,1 @@
+require("GameMgr")function Main()GameMgr:Init()end;function OnLevelWasLoaded(a)collectgarbage("collect")Time.timeSinceLevelLoad=0 end;function OnApplicationQuit()end

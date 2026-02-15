@@ -1,0 +1,1 @@
+require"UI.UIBase"require"UI.UIBlock"UI_CouponCharacter=UIBase:Inherit()function UI_CouponCharacter:OnCreate()UI_CouponCharacter.Inst=self end;return UI_CouponCharacter

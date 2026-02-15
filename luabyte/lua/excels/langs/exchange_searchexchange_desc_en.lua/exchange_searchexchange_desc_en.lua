@@ -1,0 +1,1 @@
+local a={"Collect a specific amount to summon."}return a

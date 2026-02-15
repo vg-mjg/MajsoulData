@@ -1,0 +1,1 @@
+local a={"Sakura","Midsummer","Autumn Chill","Winter Arrival","Daily Life","Spring Tea","Bamboo","Winding Stream Party","Undivided Wisdom","Secret Formation","Indulgence","Harmony","Future","Kan Kan Nyan Nyan","Mayo Yakisoba","Serene Sleigh Ride","1001 Nights","Basking in Light","Floating in Neonlights","Midnight Nursery Rhyme","Splendid Vistas","Majestic Elegance"}return a

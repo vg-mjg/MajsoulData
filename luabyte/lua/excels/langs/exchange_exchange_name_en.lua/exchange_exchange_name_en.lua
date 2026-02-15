@@ -1,0 +1,1 @@
+local a={"5,000 Coppers","30,000 Coppers","60,000 Coppers","300,000 Coppers","500,000 Coppers","1,000,000 Coppers"}return a

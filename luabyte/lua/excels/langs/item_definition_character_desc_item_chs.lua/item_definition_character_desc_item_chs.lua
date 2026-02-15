@@ -1,0 +1,1 @@
+local a={"来自轻之文库的轻库娘"}return a

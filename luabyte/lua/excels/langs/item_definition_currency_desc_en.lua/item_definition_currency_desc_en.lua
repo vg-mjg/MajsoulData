@@ -1,0 +1,1 @@
+local a={"Can be used to buy props.","An ordinary currency issued by the Mahjong Soul Temple. Can be used for a variety of purposes.","A currency used to purchase outfits"}return a

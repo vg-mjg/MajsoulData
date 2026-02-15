@@ -1,0 +1,1 @@
+require"UI.UIBase"require"UI.UIBlock"UI_BindPhoneJP=UIBase:Inherit()function UI_BindPhoneJP:OnCreate()UI_BindPhoneJP.Inst=self end;return UI_BindPhoneJP

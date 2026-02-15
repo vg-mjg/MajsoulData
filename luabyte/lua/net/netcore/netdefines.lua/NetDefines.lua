@@ -1,0 +1,1 @@
+ProtoHeaderType=Basic.Enum({'NULL','NOTIFY','REQUEST','RESPONSE'})RouteType=Basic.Enum({'None','Main','Standby','Detect'})DELAY_INF=1000;DELAY_BAD_THRESHOLD=1.0;DELAY_GOOD_THRESHOLD=0.3;ROUTE_KEY='routeID'

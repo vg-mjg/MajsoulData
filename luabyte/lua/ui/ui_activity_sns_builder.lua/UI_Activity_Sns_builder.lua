@@ -1,0 +1,1 @@
+require"UI.UI_Activity_Sns"require"UI.UI_Activity_Moments"function UIMgr:UI_Activity_Sns_Create(a)local b=LuaTools.LoadPrefab('prefab/ui_output/UI_Activity_Moments',a)if not b then return nil end;b.gameObject:SetActive(false)local c=UI_Activity_Moments:Create(b)local d=c:Inherit(UI_Activity_Sns)d:OnCreate()return d end

@@ -1,0 +1,1 @@
+local a={"Silver Chest","Gold Chest","Jade Chest","King’s Chest","Casual Chest"}return a
