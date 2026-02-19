@@ -1,1 +1,0 @@
-require"UI.UIBase"require"UI.UIBlock"UI_BindBank=UIBase:Inherit()function UI_BindBank:OnCreate()UI_BindBank.Inst=self end;return UI_BindBank

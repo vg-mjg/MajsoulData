@@ -1,1 +1,0 @@
-local a={"開運御守（30日）"}return a

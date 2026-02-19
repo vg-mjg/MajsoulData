@@ -1,1 +1,0 @@
-AmuletAction_UpgradeLevel={}function AmuletAction_UpgradeLevel.Play(a,b,c)LogTool.DebugDev("Amulet","AmuletAction_UpgradeLevel 升级关卡"..tostring(a))if Amulet_Tool.UIPageActiveSelf(UI_Amulet_BattleSelect)then UIMgr.Inst:CloseUIByClassName(UI_Amulet_BattleSelect.className)end;if c then c()end end;return AmuletAction_UpgradeLevel

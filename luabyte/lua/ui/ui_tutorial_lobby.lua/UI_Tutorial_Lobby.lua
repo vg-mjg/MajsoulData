@@ -1,1 +1,0 @@
-require"UI.UIBase"require"UI.UIBlock"UI_Tutorial_Lobby=UIBase:Inherit()function UI_Tutorial_Lobby:OnCreate()UI_Tutorial_Lobby.Inst=self end;return UI_Tutorial_Lobby

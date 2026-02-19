@@ -1,1 +1,0 @@
-local a={"輝石へ変換"}return a

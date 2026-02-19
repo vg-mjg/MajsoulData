@@ -1,1 +1,0 @@
-local a={"Prologue","Scene I","Scene II","Scene III","Scene IV","Epilogue","Welcome to Asaha High School Festival!","First Time Playing Mahjong","The Way of Outlaws","The Heart Pounding Beauty Pageant","Dream\'s End"}return a

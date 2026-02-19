@@ -1,1 +1,0 @@
-local setmetatable=setmetatable;local a={}setmetatable(a,a)a.__call=function(self,...)if nil==self.obj then return self.func(...)else return self.func(self.obj,...)end end;a.__eq=function(b,c)return b.func==c.func and b.obj==c.obj end;function slot(d,e)return setmetatable({func=d,obj=e},a)end

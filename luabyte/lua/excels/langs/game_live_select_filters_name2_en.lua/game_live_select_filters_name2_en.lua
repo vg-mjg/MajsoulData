@@ -1,1 +1,0 @@
-local a={"4-Player East","4-Player South","Best of One Game","3-Player East","3-Player South"}return a

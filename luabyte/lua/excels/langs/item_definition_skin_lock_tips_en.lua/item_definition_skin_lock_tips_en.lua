@@ -1,1 +1,0 @@
-local a={"Bond","Event Exclusive","Collab"}return a

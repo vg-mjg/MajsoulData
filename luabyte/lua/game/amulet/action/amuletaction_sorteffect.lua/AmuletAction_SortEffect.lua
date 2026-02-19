@@ -1,1 +1,0 @@
-AmuletAction_SortEffect={}function AmuletAction_SortEffect.Play(a,b,c)LogTool.DebugDev("Amulet","AmuletAction_SortEffect 护身符排序 "..tostring(a))Amulet_DesktopMgr.Inst:refreshData()Amulet_Effect_Trigger.TriggerEffects(a.effected_hooks,a,function()if c then c()end end)end;return AmuletAction_SortEffect

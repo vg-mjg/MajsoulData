@@ -1,1 +1,0 @@
-CONST={USE_PROTO_DATA=false,USE_PROTO_LANG=false,USE_EXCEL_TEST=2}local a=function()end;setmetatable(CONST,{__index=function(b,c)if c=="__const__"then return a end end,__metatable=false})

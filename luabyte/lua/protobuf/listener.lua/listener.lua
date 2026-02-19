@@ -1,1 +1,0 @@
-local setmetatable=setmetatable;module"protobuf.listener"local a={Modified=function()end}function NullMessageListener()return a end;local b={Modified=function(self)if self.dirty then return end;if self._parent_message then self._parent_message:_Modified()end end}b.__index=b;function Listener(c)local d={}d.__mode="v"d._parent_message=c;d.dirty=false;return setmetatable(d,b)end

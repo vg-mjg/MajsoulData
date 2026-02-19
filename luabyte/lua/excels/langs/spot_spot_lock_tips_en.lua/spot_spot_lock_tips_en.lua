@@ -1,1 +1,0 @@
-local a={"Unlock at Bond Lv1","Unlock at Bond Lv2","Unlock at Bond Lv3","Unlock at Bond Lv4","Unlock at Bond Lv5","Bond to unlock"}return a

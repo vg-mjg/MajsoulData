@@ -1,1 +1,0 @@
-local a={"Keikumusume possesses a quirky appearance as she is often seen wearing a witch hat."}return a

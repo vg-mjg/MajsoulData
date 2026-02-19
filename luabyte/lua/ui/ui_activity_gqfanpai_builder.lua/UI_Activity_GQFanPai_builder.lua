@@ -1,1 +1,0 @@
-require"UI.UI_Activity_GQFanPai"function UIMgr:UI_Activity_GQFanPai_Create(a)local b=LuaTools.LoadPrefab('prefab/ui_output/activity/UI_Activity_FlipTask',a)if not b then return nil end;b.gameObject:SetActive(false)local c=UI_Activity_GQFanPai:Create(b)c:OnCreate()local d=c:Inherit(UI_Activity_FlipTask)d:OnCreate()return d end

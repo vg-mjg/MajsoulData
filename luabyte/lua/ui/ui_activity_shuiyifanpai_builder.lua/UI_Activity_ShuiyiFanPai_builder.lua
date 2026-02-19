@@ -1,1 +1,0 @@
-require"UI.UI_Activity_ShuiyiFanPai"function UIMgr:UI_Activity_ShuiyiFanPai_Create(a)local b=LuaTools.LoadPrefab('ui/activity/lobby/digmine/prefab_output/UI_Activity_FlipTask2',a)if not b then return nil end;b.gameObject:SetActive(false)local c=UI_Activity_FlipTask2:Create(b)c:OnCreate()local d=c:Inherit(UI_Activity_ShuiyiFanPai)d:OnCreate()return d end

@@ -1,1 +1,0 @@
-local a={"お祈り","祈願"}return a

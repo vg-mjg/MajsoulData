@@ -1,1 +1,0 @@
-require("UI.UI_Activity_Exchange_Task")function UIMgr:UI_Activity_Exchange_Task_Create(a)local b=LuaTools.LoadPrefab('prefab/ui_output/activity/UI_Activity_Exchange_Task',a)if not b then return nil end;b.gameObject:SetActive(false)local c=UI_Activity_GameTask:Create(b)c:OnCreate()local d=c:Inherit(UI_Activity_Exchange_Task)d:OnCreate()return d end

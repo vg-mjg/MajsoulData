@@ -1,1 +1,0 @@
-local a={"Novice","Intermediate","Expert","Master","Saint","Celestial"}return a

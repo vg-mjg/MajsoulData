@@ -1,1 +1,0 @@
-local a={"程式設計、漫畫、話梅糖"}return a

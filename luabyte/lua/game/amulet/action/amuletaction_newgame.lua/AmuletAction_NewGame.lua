@@ -1,1 +1,0 @@
-AmuletAction_NewGame={}function AmuletAction_NewGame.Play(a,b,c)LogTool.DebugDev("Amulet","AmuletAction_NewGame 开始一局游戏 "..tostring(a))Amulet_Card_Controller.Inst:RefreshCards({})Amulet_Controller.EnterGame(false)Amulet_DesktopMgr.Inst:refreshData()end;return AmuletAction_NewGame

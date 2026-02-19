@@ -1,1 +1,0 @@
-require"UI.UIBase"UI_DesktopInfoChooseNet=UIBase:Inherit()function UI_DesktopInfoChooseNet:OnCreate()UI_DesktopInfoChooseNet.Inst=self;UI_DesktopInfo.Inst.network_delay.transform:SetParent(self.transform)end;function UI_DesktopInfoChooseNet:OnShow(a)self.transform.gameObject:SetActive(true)a()end;function UI_DesktopInfoChooseNet:Hide()self.transform.gameObject:SetActive(false)end
