@@ -1,1 +1,0 @@
-local a={"The Journey","Winning Streak","Collector","The Chosen One","Seasoned","Storyteller","Exemplar","Shrine Guest","All-embracing","Crowdedness","","Warrior of All Arts","Grand Gallery"}return a

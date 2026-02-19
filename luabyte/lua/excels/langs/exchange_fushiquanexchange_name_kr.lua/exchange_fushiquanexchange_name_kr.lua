@@ -1,1 +1,0 @@
-local a={"10 휘석"}return a

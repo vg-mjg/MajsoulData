@@ -1,1 +1,0 @@
-local a={"200 Summon Stones","1,800 Summon Stones"}return a

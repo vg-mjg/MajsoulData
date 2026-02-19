@@ -1,1 +1,0 @@
-local a={"For each summon: you can get 1 Faith, with a chance to draw an all-new character and decorations. \n\n Character drop rates: 5% \n Decoration drop rates: 15% \n Gift drop rates: 80% \n\n If summoned a duplicate character, will be converted into Wishing Stones. \n Duplicate decorations will be converted into Star Stones."}return a

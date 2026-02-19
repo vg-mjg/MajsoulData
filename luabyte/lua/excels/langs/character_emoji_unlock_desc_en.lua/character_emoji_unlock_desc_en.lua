@@ -1,1 +1,0 @@
-local a={"Bond","","Event","Sticker Shop","Unlock Outfit","Unlock Event"}return a

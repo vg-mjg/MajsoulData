@@ -1,1 +1,0 @@
-local a={"Programming, comics, plum candy"}return a

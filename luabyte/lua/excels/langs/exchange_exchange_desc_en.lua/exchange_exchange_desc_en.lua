@@ -1,1 +1,0 @@
-local a={"An ordinary currency issued by the Mahjong Soul Temple. Can be used for a variety of purposes."}return a

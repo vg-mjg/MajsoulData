@@ -1,1 +1,0 @@
-local a={"お祈りをするときに必要"}return a

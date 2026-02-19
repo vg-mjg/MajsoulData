@@ -1,1 +1,0 @@
-local a={"시즌 1"}return a

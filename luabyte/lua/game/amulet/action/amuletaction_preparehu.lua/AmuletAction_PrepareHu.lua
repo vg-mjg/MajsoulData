@@ -1,1 +1,0 @@
-AmuletAction_PrepareHu={}function AmuletAction_PrepareHu.Play(a,b,c)LogTool.DebugDev("Amulet","AmuletAction_PrepareHu 准备和牌 "..tostring(a))Amulet_Effect_Trigger.TriggerEffects(a.effected_hooks,a,function()if c then c()end end)end;return AmuletAction_PrepareHu

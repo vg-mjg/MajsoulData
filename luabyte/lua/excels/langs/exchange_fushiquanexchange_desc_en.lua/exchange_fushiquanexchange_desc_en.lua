@@ -1,1 +1,0 @@
-local a={"Can be used to buy props."}return a

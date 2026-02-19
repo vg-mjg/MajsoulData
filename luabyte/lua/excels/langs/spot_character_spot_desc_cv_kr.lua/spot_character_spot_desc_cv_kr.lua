@@ -1,1 +1,0 @@
-local a={"KENN"}return a

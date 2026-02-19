@@ -1,1 +1,0 @@
-local a={"Menzenchin Only","","Not Yaku","Not used in Ranked Match","-1 Han after making a call","-1 Han after making a call; Not used in Ranked Match","Dealer Only","Non-Dealer Only","Green Dragon is not Necessary","Menzenchin Only; Not used in Ranked Match"}return a

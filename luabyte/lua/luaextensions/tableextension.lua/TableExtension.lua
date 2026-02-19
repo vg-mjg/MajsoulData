@@ -1,1 +1,0 @@
-function table.swap(a,b,c)local d=a[b]a[b]=a[c]a[c]=d end;function table.clear(table)if not table then return end;for e,f in pairs(table)do table[e]=nil end end

@@ -1,1 +1,0 @@
-local a={"月勢御守（30日）"}return a

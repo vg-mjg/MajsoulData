@@ -1,1 +1,0 @@
-local a=require"protobuf.protobuf"local b=require("Protol.notify_lobby_pb")local c=require("Protol.cli_lobby_pb")local d=require("Protol.cli_game_pb")local e=require("Protol.cli_route_pb")local f=require("Protol.amulet_struct_pb")module('Protol.client_pb')

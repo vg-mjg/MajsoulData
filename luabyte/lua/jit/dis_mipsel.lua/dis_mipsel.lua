@@ -1,1 +1,0 @@
-local a=require((string.match(...,".*%.")or"").."dis_mips")return{create=a.create_el,disass=a.disass_el,regname=a.regname}

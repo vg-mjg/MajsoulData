@@ -1,1 +1,0 @@
-local a={"10輝玉"}return a

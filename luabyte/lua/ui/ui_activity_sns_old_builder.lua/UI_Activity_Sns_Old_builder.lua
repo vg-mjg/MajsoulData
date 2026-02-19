@@ -1,1 +1,0 @@
-require"UI.UI_Activity_Sns_Old"require"UI.UI_Activity_Moments_Old"require"UI.UI_Activity_Moments_Old_builder"function UIMgr:UI_Activity_Sns_Old_Create(a)local b=UIMgr.Inst:UI_Activity_Moments_Old_Create(a)local c=b:Inherit(UI_Activity_Sns_Old)c:OnCreate()return c end

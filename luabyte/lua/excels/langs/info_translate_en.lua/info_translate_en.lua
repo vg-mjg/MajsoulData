@@ -1,1 +1,0 @@
-local a={"Unknown error.","Validation failed.","Validation expired.","Not verified.","Match not found.","Data transmission error.","Repeated verification.","Match not started yet.","Match watching data transmission failure.","Match watching data synchronization error.","Match watching data error."}return a

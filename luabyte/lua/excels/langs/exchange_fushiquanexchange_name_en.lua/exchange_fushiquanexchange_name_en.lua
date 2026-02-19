@@ -1,1 +1,0 @@
-local a={"10Jade"}return a

@@ -1,1 +1,0 @@
-AmuletAction_RefreshShop={}function AmuletAction_RefreshShop.Play(a,b,c)LogTool.DebugDev("Amulet","AmuletAction_Gang 刷新商店 "..tostring(a))Amulet_DesktopMgr.Inst:refreshData()UI_Amulet_Shop.Inst:RefreshAll(Amulet_Data.shop,Amulet_Data.shop_buff_list)Amulet_Effect_Trigger.TriggerEffects(a.effected_hooks,a,function()if c then c()end end)end;return AmuletAction_RefreshShop
