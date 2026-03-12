@@ -3406,5 +3406,77 @@
         "priority": 40093,
         "unlockType": 1,
         "crossView": 0
+    },
+    {
+        "unlockParam": [
+            30557057,
+            0,
+            0,
+            0
+        ],
+        "id": 600151,
+        "nameChs": "双聖戦優勝",
+        "nameChsT": "双聖戦優勝",
+        "nameJp": "双聖戦優勝",
+        "nameEn": "双聖戦優勝",
+        "nameKr": "双聖戦優勝",
+        "descChs": "双聖戦優勝記念称号",
+        "descChsT": "双聖戦優勝記念称号",
+        "descJp": "双聖戦優勝記念称号",
+        "descEn": "双聖戦優勝記念称号",
+        "descKr": "双聖戦優勝記念称号",
+        "icon": "extendRes/title/25sszy.png",
+        "iconItem": "extendRes/title/25sszy_item.jpg",
+        "priority": 40094,
+        "unlockType": 1,
+        "crossView": 0
+    },
+    {
+        "unlockParam": [
+            30557058,
+            0,
+            0,
+            0
+        ],
+        "id": 600152,
+        "nameChs": "四象战冠军",
+        "nameChsT": "四象戰冠軍",
+        "nameJp": "四象・青龍",
+        "nameEn": "四象戰冠軍",
+        "nameKr": "四象戰冠軍",
+        "descChs": "赠予四象战冠军",
+        "descChsT": "贈予四象戰冠軍",
+        "descJp": "四象戦春の陣優勝称号",
+        "descEn": "贈予四象戰冠軍",
+        "descKr": "贈予四象戰冠軍",
+        "icon": "extendRes/title/24sxz1.png",
+        "iconItem": "extendRes/title/24sxz1_item.jpg",
+        "priority": 40095,
+        "unlockType": 1,
+        "crossView": 0
+    },
+    {
+        "unlockParam": [
+            30557059,
+            0,
+            0,
+            0
+        ],
+        "id": 600153,
+        "nameChs": "闘魂杯王者",
+        "nameChsT": "闘魂杯王者",
+        "nameJp": "闘魂杯王者",
+        "nameEn": "闘魂杯王者",
+        "nameKr": "闘魂杯王者",
+        "descChs": "「闘魂杯」優勝賞品",
+        "descChsT": "「闘魂杯」優勝賞品",
+        "descJp": "「闘魂杯」優勝賞品",
+        "descEn": "「闘魂杯」優勝賞品",
+        "descKr": "「闘魂杯」優勝賞品",
+        "icon": "extendRes/title/2301dhb.png",
+        "iconItem": "extendRes/title/2301dhb_item.jpg",
+        "priority": 40096,
+        "unlockType": 1,
+        "crossView": 0
     }
 ]
