@@ -613,6 +613,7 @@
     - [ReqCreateWechatNativeOrder](#lq-ReqCreateWechatNativeOrder)
     - [ReqCreateXsollaOrder](#lq-ReqCreateXsollaOrder)
     - [ReqCreateYostarOrder](#lq-ReqCreateYostarOrder)
+    - [ReqCreateYostarV4SDKOrder](#lq-ReqCreateYostarV4SDKOrder)
     - [ReqCurrentMatchInfo](#lq-ReqCurrentMatchInfo)
     - [ReqDMMPreLogin](#lq-ReqDMMPreLogin)
     - [ReqDeleteComment](#lq-ReqDeleteComment)
@@ -858,6 +859,7 @@
     - [ReqVerifySteamOrder](#lq-ReqVerifySteamOrder)
     - [ReqVoteActivity](#lq-ReqVoteActivity)
     - [ReqVoteGameEnd](#lq-ReqVoteGameEnd)
+    - [ReqYostarDeleteAccount](#lq-ReqYostarDeleteAccount)
     - [ResAccountActivityData](#lq-ResAccountActivityData)
     - [ResAccountActivityData.ActivityRichmanData](#lq-ResAccountActivityData-ActivityRichmanData)
     - [ResAccountActivityData.ActivitySNSData](#lq-ResAccountActivityData-ActivitySNSData)
@@ -946,6 +948,7 @@
     - [ResCreateWechatNativeOrder](#lq-ResCreateWechatNativeOrder)
     - [ResCreateXsollaOrder](#lq-ResCreateXsollaOrder)
     - [ResCreateYostarOrder](#lq-ResCreateYostarOrder)
+    - [ResCreateYostarV4SDKOrder](#lq-ResCreateYostarV4SDKOrder)
     - [ResCurrentMatchInfo](#lq-ResCurrentMatchInfo)
     - [ResCurrentMatchInfo.CurrentMatchInfo](#lq-ResCurrentMatchInfo-CurrentMatchInfo)
     - [ResDMMPreLogin](#lq-ResDMMPreLogin)
@@ -1186,6 +1189,7 @@
     - [ResVerificationIAPOrder](#lq-ResVerificationIAPOrder)
     - [ResVipReward](#lq-ResVipReward)
     - [ResVoteActivity](#lq-ResVoteActivity)
+    - [ResYostarDeleteAccount](#lq-ResYostarDeleteAccount)
     - [RewardPlusResult](#lq-RewardPlusResult)
     - [RewardPlusResult.Exchange](#lq-RewardPlusResult-Exchange)
     - [RewardSlot](#lq-RewardSlot)
@@ -12361,6 +12365,25 @@
 
 
 
+<a name="lq-ReqCreateYostarV4SDKOrder"></a>
+
+### ReqCreateYostarV4SDKOrder
+
+
+
+| Field | Type | Label | Description |
+| ----- | ---- | ----- | ----------- |
+| goods_id | [uint32](#uint32) |  |  |
+| client_type | [uint32](#uint32) |  |  |
+| account_id | [uint32](#uint32) |  |  |
+| order_type | [uint32](#uint32) |  |  |
+| client_version_string | [string](#string) |  |  |
+
+
+
+
+
+
 <a name="lq-ReqCurrentMatchInfo"></a>
 
 ### ReqCurrentMatchInfo
@@ -16301,6 +16324,21 @@
 
 
 
+<a name="lq-ReqYostarDeleteAccount"></a>
+
+### ReqYostarDeleteAccount
+
+
+
+| Field | Type | Label | Description |
+| ----- | ---- | ----- | ----------- |
+| server | [uint32](#uint32) |  |  |
+
+
+
+
+
+
 <a name="lq-ResAccountActivityData"></a>
 
 ### ResAccountActivityData
@@ -17796,6 +17834,24 @@
 | ----- | ---- | ----- | ----------- |
 | error | [Error](#lq-Error) |  |  |
 | order_id | [string](#string) |  |  |
+
+
+
+
+
+
+<a name="lq-ResCreateYostarV4SDKOrder"></a>
+
+### ResCreateYostarV4SDKOrder
+
+
+
+| Field | Type | Label | Description |
+| ----- | ---- | ----- | ----------- |
+| error | [Error](#lq-Error) |  |  |
+| order_id | [string](#string) |  |  |
+| notify_url | [string](#string) |  |  |
+| extra_data | [string](#string) |  |  |
 
 
 
@@ -21925,6 +21981,22 @@
 
 
 
+<a name="lq-ResYostarDeleteAccount"></a>
+
+### ResYostarDeleteAccount
+
+
+
+| Field | Type | Label | Description |
+| ----- | ---- | ----- | ----------- |
+| error | [Error](#lq-Error) |  |  |
+| notify_url | [string](#string) |  |  |
+
+
+
+
+
+
 <a name="lq-RewardPlusResult"></a>
 
 ### RewardPlusResult
@@ -23505,6 +23577,7 @@
 | verifyMyCardOrder | [ReqVerifyMyCardOrder](#lq-ReqVerifyMyCardOrder) | [ResCommon](#lq-ResCommon) |  |
 | verificationIAPOrder | [ReqVerificationIAPOrder](#lq-ReqVerificationIAPOrder) | [ResVerificationIAPOrder](#lq-ResVerificationIAPOrder) |  |
 | createYostarSDKOrder | [ReqCreateYostarOrder](#lq-ReqCreateYostarOrder) | [ResCreateYostarOrder](#lq-ResCreateYostarOrder) |  |
+| createYostarV4SDKOrder | [ReqCreateYostarV4SDKOrder](#lq-ReqCreateYostarV4SDKOrder) | [ResCreateYostarV4SDKOrder](#lq-ResCreateYostarV4SDKOrder) |  |
 | createBillingOrder | [ReqCreateBillingOrder](#lq-ReqCreateBillingOrder) | [ResCreateBillingOrder](#lq-ResCreateBillingOrder) |  |
 | solveGooglePlayOrder | [ReqSolveGooglePlayOrder](#lq-ReqSolveGooglePlayOrder) | [ResCommon](#lq-ResCommon) |  |
 | solveGooglePayOrderV3 | [ReqSolveGooglePlayOrderV3](#lq-ReqSolveGooglePlayOrderV3) | [ResCommon](#lq-ResCommon) |  |
@@ -23615,6 +23688,7 @@
 | fetchRecentFriend | [ReqCommon](#lq-ReqCommon) | [ResFetchrecentFriend](#lq-ResFetchrecentFriend) |  |
 | openGacha | [ReqOpenGacha](#lq-ReqOpenGacha) | [ResOpenGacha](#lq-ResOpenGacha) |  |
 | taskRequest | [ReqTaskRequest](#lq-ReqTaskRequest) | [ResCommon](#lq-ResCommon) |  |
+| yostarDeleteAccount | [ReqYostarDeleteAccount](#lq-ReqYostarDeleteAccount) | [ResYostarDeleteAccount](#lq-ResYostarDeleteAccount) |  |
 | simulationActivityTrain | [ReqSimulationActivityTrain](#lq-ReqSimulationActivityTrain) | [ResSimulationActivityTrain](#lq-ResSimulationActivityTrain) |  |
 | fetchSimulationGameRecord | [ReqFetchSimulationGameRecord](#lq-ReqFetchSimulationGameRecord) | [ResFetchSimulationGameRecord](#lq-ResFetchSimulationGameRecord) |  |
 | startSimulationActivityGame | [ReqStartSimulationActivityGame](#lq-ReqStartSimulationActivityGame) | [ResStartSimulationActivityGame](#lq-ResStartSimulationActivityGame) |  |

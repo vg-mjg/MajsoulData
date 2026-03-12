@@ -5293,7 +5293,7 @@
         "id": 231001,
         "nameChs": "万圣夜特别扭蛋",
         "nameChsT": "萬聖夜特別扭蛋",
-        "nameJp": "謎ガチャ\r\nVer.ハロウイン",
+        "nameJp": "謎ガチャ\nVer.ハロウイン",
         "nameEn": "Halloween Special Gacha",
         "nameKr": "핼러윈 특별 뽑기",
         "type": "gacha",
@@ -6963,7 +6963,7 @@
         "id": 240501,
         "nameChs": "闪耀星辰的纪念",
         "nameChsT": "閃耀星辰的紀念",
-        "nameJp": "輝くステージに\r\n轟け！",
+        "nameJp": "輝くステージに\n轟け！",
         "nameEn": "Memento of the Shining Stars",
         "nameKr": "반짝이는 별빛의 기억",
         "type": "game_task",
@@ -7083,7 +7083,7 @@
         "id": 240601,
         "nameChs": "海岛之夏",
         "nameChsT": "海島之夏",
-        "nameJp": "アイランド\r\n・サマー！",
+        "nameJp": "アイランド\n・サマー！",
         "nameEn": "Summer on Joy Island",
         "nameKr": "썸머 아일랜드",
         "type": "island",
@@ -11328,5 +11328,15 @@
         "nameKr": "",
         "type": "chest_replace_up",
         "needPopout": 0
+    },
+    {
+        "id": 260281,
+        "nameChs": "",
+        "nameChsT": "",
+        "nameJp": "",
+        "nameEn": "",
+        "nameKr": "",
+        "type": "daily_sign",
+        "needPopout": 1
     }
 ]

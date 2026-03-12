@@ -730,5 +730,47 @@
         "rewardId": 304006,
         "rewardCount": 1,
         "day": 6
+    },
+    {
+        "activityId": 260281,
+        "rewardId": 100002,
+        "rewardCount": 6666,
+        "day": 0
+    },
+    {
+        "activityId": 260281,
+        "rewardId": 100002,
+        "rewardCount": 8888,
+        "day": 1
+    },
+    {
+        "activityId": 260281,
+        "rewardId": 100002,
+        "rewardCount": 12888,
+        "day": 2
+    },
+    {
+        "activityId": 260281,
+        "rewardId": 100002,
+        "rewardCount": 16888,
+        "day": 3
+    },
+    {
+        "activityId": 260281,
+        "rewardId": 304005,
+        "rewardCount": 1,
+        "day": 4
+    },
+    {
+        "activityId": 260281,
+        "rewardId": 304005,
+        "rewardCount": 1,
+        "day": 5
+    },
+    {
+        "activityId": 260281,
+        "rewardId": 304006,
+        "rewardCount": 1,
+        "day": 6
     }
 ]
