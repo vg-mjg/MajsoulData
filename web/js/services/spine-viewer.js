@@ -255,8 +255,8 @@ function attemptResourceVersion(attempt) {
 function attemptFormatName(attempt) {
   const path = String(
     (attempt && attempt.skeletonPath)
-      || (attempt && attempt.skeletonUrl)
-      || "",
+    || (attempt && attempt.skeletonUrl)
+    || "",
   ).toLowerCase();
   if (path.endsWith(".skel.txt")) return "skel_txt";
   if (path.endsWith(".skel")) return "skel";
@@ -549,6 +549,10 @@ function createSpinePlayer(host, sourcePlan) {
       let lastError = null;
       let attemptSerial = 0;
 
+      let mouse = new spine.Vector3()
+      let last = new spine.Vector3()
+      let boundsSet = false
+
       const cleanupCurrentPlayer = () => {
         if (currentPlayer && typeof currentPlayer.dispose === "function") {
           try {
@@ -596,7 +600,8 @@ function createSpinePlayer(host, sourcePlan) {
             alpha: true,
             backgroundColor: "00000000",
             fullScreenBackgroundColor: "00000000",
-            showControls: false,
+            showControls: true,
+            interactive: false,
             showLoading: false,
             premultipliedAlpha,
             defaultMix: 0.12,
@@ -607,11 +612,26 @@ function createSpinePlayer(host, sourcePlan) {
               padTop: "6%",
               padBottom: "4%",
             },
-            success(loadedPlayer) {
+
+            update: (player, _) => {
+              if (!boundsSet) {
+                boundsSet = true
+                const bounds = player.skeleton.getBoundsRect()
+                player.config.viewport = { ...player.config.viewport, ...bounds }
+              }
+            },
+
+            error(_player, message) {
+              if (!active || currentAttemptSerial !== attemptSerial) return;
+              lastError = new Error(String(message || "Spine player failed to load skeleton."));
+              scheduleNext();
+            },
+
+            success(player) {
               if (currentAttemptSerial !== attemptSerial) {
-                if (loadedPlayer && typeof loadedPlayer.dispose === "function") {
+                if (player && typeof player.dispose === "function") {
                   try {
-                    loadedPlayer.dispose();
+                    player.dispose();
                   } catch {
                     // ignore dispose errors
                   }
@@ -619,9 +639,9 @@ function createSpinePlayer(host, sourcePlan) {
                 return;
               }
               if (!active) {
-                if (loadedPlayer && typeof loadedPlayer.dispose === "function") {
+                if (player && typeof player.dispose === "function") {
                   try {
-                    loadedPlayer.dispose();
+                    player.dispose();
                   } catch {
                     // ignore dispose errors
                   }
@@ -630,12 +650,46 @@ function createSpinePlayer(host, sourcePlan) {
               }
 
               active = false;
-              resolve({ player: loadedPlayer, source: entry });
-            },
-            error(_player, message) {
-              if (!active || currentAttemptSerial !== attemptSerial) return;
-              lastError = new Error(String(message || "Spine player failed to load skeleton."));
-              scheduleNext();
+              resolve({ player: player, source: entry });
+
+              boundsSet = false
+
+              const defaultAnimation = player.skeleton.data.animations.find(a => a.name == "idle") || player.skeleton.data.animations[0]
+              if (defaultAnimation) {
+                player.setAnimation(defaultAnimation.name)
+              }
+
+              new spine.Input(player.canvas).addListener({
+                down: (x, y) => {
+                  x /= player.skeleton.scaleX
+                  y /= player.skeleton.scaleY
+                  player.play()
+                  player.sceneRenderer.camera.screenToWorld(
+                    mouse.set(x, y, 0),
+                    player.canvas.clientWidth,
+                    player.canvas.clientHeight
+                  );
+                  last.setFrom(mouse);
+                },
+                dragged: (x, y) => {
+                  x /= player.skeleton.scaleX
+                  y /= player.skeleton.scaleY
+                  player.sceneRenderer.camera.screenToWorld(
+                    mouse.set(x, y, 0),
+                    player.canvas.clientWidth,
+                    player.canvas.clientHeight
+                  );
+                  player.skeleton.getRootBone().x += mouse.x - last.x;
+                  player.skeleton.getRootBone().y += mouse.y - last.y;
+                  last.setFrom(mouse);
+                },
+                up: () => { player.play() },
+                wheel: (delta, ev) => {
+                  let zoomAmount = delta > 0 ? 0.95 : 1.05
+                  player.skeleton.scaleX *= zoomAmount
+                  player.skeleton.scaleY *= zoomAmount
+                }
+              })
             },
           });
         } catch (error) {
@@ -686,12 +740,12 @@ function createSpinePlayer(host, sourcePlan) {
       })
       .filter((entry) => entry.attempts.length > 0)
       .map((entry) => {
-      const layer = entry.layer;
-      const layerHost = document.createElement("div");
-      layerHost.className = `detail-spine-player detail-spine-layer detail-spine-layer-${layer}`;
-      stackRoot.append(layerHost);
-      return { layer, attempts: entry.attempts, layerHost };
-    });
+        const layer = entry.layer;
+        const layerHost = document.createElement("div");
+        layerHost.className = `detail-spine-player detail-spine-layer detail-spine-layer-${layer}`;
+        stackRoot.append(layerHost);
+        return { layer, attempts: entry.attempts, layerHost };
+      });
 
     if (layerEntries.length === 0) {
       host.replaceChildren();

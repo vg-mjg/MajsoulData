@@ -1385,7 +1385,6 @@ body {
 .detail-spine-layer {
   position: absolute;
   inset: 0;
-  pointer-events: none;
 }
 
 .detail-spine-layer-0 {
@@ -2072,6 +2071,10 @@ body {
   font-size: 1.1rem;
   line-height: 1;
   cursor: pointer;
+}
+
+.spine-player-button-icon-spine-logo {
+  display: none
 }
 
 @media (max-width: 575.98px) {
