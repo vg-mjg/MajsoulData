@@ -1,10 +1,4 @@
-import {
-  DEFAULT_UI_LANGUAGE,
-  assetUrlCandidates,
-  decryptBytes,
-  isEncryptedUrl,
-  normalizeUiLanguage,
-} from "../../utils.js";
+import { DEFAULT_UI_LANGUAGE, assetUrlCandidates, normalizeUiLanguage } from "../../utils.js";
 
 const audioSourceCache = new Map();
 const createdObjectUrls = new Set();
@@ -66,8 +60,7 @@ async function fetchAudioSource(url, path) {
     return null;
   }
 
-  const rawBytes = new Uint8Array(await response.arrayBuffer());
-  const bytes = isEncryptedUrl(url) ? decryptBytes(rawBytes) : rawBytes;
+  const bytes = new Uint8Array(await response.arrayBuffer());
   const responseType = response.headers.get("content-type");
   const contentType = responseType && responseType.includes("/") ? responseType : mimeTypeFromPath(path);
   const blob = new Blob([bytes], { type: contentType });
@@ -123,12 +116,8 @@ function probeDirectAudioSource(url) {
 
 async function resolveCandidateAudioSource(path, prefix, uiLanguage) {
   for (const url of assetUrlCandidates(path, prefix, uiLanguage)) {
-    const encrypted = isEncryptedUrl(url);
-
     try {
-      const source = encrypted
-        ? await fetchAudioSource(url, path)
-        : await probeDirectAudioSource(url);
+      const source = await probeDirectAudioSource(url);
       if (source) {
         return source;
       }
