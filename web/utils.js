@@ -383,11 +383,6 @@ export function assetUrlCandidates(path, prefix, uiLanguage) {
   const cleanPath = String(path || "").replace(/^\/+/, "");
   return uniqueBases.map((base) => {
     const url = new URL(`${base}/${cleanPrefix}/${cleanPath}`);
-    // Split browser caches by selected UI language and resource prefix.
-    url.searchParams.set("ui_lang", normalizedUiLanguage);
-    if (cleanPrefix) {
-      url.searchParams.set("rv", cleanPrefix);
-    }
     return url.toString();
   });
 }
