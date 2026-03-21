@@ -1387,6 +1387,10 @@ body {
   inset: 0;
 }
 
+.detail-spine-layer-secondary {
+  pointer-events: none;
+}
+
 .detail-spine-layer-0 {
   z-index: 10;
 }
