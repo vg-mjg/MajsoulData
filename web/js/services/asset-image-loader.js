@@ -62,7 +62,7 @@ function mimeTypeFromPath(path) {
 }
 
 async function fetchImageSource(url, path) {
-  const response = await fetch(url, { cache: "no-cache", mode: "cors" });
+  const response = await fetch(url);
   if (!response.ok) {
     return null;
   }
