@@ -89,7 +89,7 @@ function pickSkinThumbCandidates(skin) {
 function canRenderSkinLive2D(skin) {
   return Boolean(
     skin &&
-    Number(skin.spineType) === 1 &&
+    Number(skin.spineType) > 0 &&
     Array.isArray(skin.spineAssetPairs) &&
     skin.spineAssetPairs.length > 0,
   );
@@ -170,7 +170,7 @@ function renderSkinSelector(body, detail, onSelectSkin) {
     const thumbPlaceholder = createElement("div", "detail-skin-thumb placeholder", makeInitials(skin.name));
     thumbWrap.append(thumbPlaceholder);
     hydrateImage(thumbPlaceholder, pickSkinThumbCandidates(skin), `${skin.name} thumbnail`, "detail-skin-thumb");
-    if (Number(skin.spineType) === 1) {
+    if (Number(skin.spineType) > 0) {
       thumbWrap.append(createElement("span", "detail-skin-tag", "Live2D"));
     }
     button.append(thumbWrap);
