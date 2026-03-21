@@ -582,21 +582,29 @@ function createSpinePlayer(host, sourcePlan) {
         if (!active) return;
         cleanupCurrentPlayer();
 
-        const entry = queue.shift();
-        if (!entry) {
+        const item = queue.shift();
+
+        if (!item) {
           finalizeFailure(lastError || new Error("Failed to load spine layer."));
           return;
         }
+
+        const reachable = await item.reachable();
+        if (!reachable) {
+          lastError = new Error("Failed to load spine resources.")
+          scheduleNext();
+        }
+
         attemptSerial += 1;
         const currentAttemptSerial = attemptSerial;
 
-        const premultipliedAlpha = await readAtlasPremultipliedAlpha(entry.atlasUrl);
+        const premultipliedAlpha = await readAtlasPremultipliedAlpha(item.entry.atlasUrl);
         if (!active || currentAttemptSerial !== attemptSerial) return;
 
         try {
           currentPlayer = new runtime.SpinePlayer(layerHost, {
-            skelUrl: entry.skeletonUrl,
-            atlasUrl: entry.atlasUrl,
+            skelUrl: item.entry.skeletonUrl,
+            atlasUrl: item.entry.atlasUrl,
             alpha: true,
             backgroundColor: "00000000",
             fullScreenBackgroundColor: "00000000",
@@ -650,7 +658,7 @@ function createSpinePlayer(host, sourcePlan) {
               }
 
               active = false;
-              resolve({ player: player, source: entry });
+              resolve({ player: player, source: item.entry });
 
               boundsSet = false
 
@@ -699,21 +707,13 @@ function createSpinePlayer(host, sourcePlan) {
       };
 
       const initializeQueue = async () => {
-        const probed = await Promise.all(sourceQueue.map(async (entry, index) => ({
-          entry,
-          index,
-          reachable: await probeSpineAttempt(entry),
-        })));
-
-        probed.sort((left, right) => {
-          const leftReachable = left.reachable ? 1 : 0;
-          const rightReachable = right.reachable ? 1 : 0;
-          if (leftReachable !== rightReachable) return rightReachable - leftReachable;
-          return left.index - right.index;
-        });
-
-        for (const item of probed) {
-          queue.push(item.entry);
+        for (const [index, entry] of sourceQueue.entries()) {
+          const result = {
+            entry,
+            index,
+            reachable: async () => probeSpineAttempt(entry),
+          }
+          queue.push(result);
         }
 
         scheduleNext();
