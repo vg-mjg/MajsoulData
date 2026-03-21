@@ -1,3 +1,5 @@
+const MIRROR_SERVER_URL = "https://files.riichi.moe/mjg/game%20resources%20and%20tools/Mahjong%20Soul/raw%20assets"
+
 const GAME_SERVER_URLS = {
   en: "https://mahjongsoul.game.yo-star.com",
   kr: "https://mahjongsoul.game.yo-star.com",
@@ -167,6 +169,10 @@ export function isEncryptedPath(pathname) {
 }
 
 export function isEncryptedUrl(url) {
+  if (url.startsWith(MIRROR_SERVER_URL)) {
+    return false
+  }
+
   try {
     const parsed = new URL(url);
     return isEncryptedPath(parsed.pathname);
@@ -364,6 +370,7 @@ export function assetUrlCandidates(path, prefix, uiLanguage) {
   const pathLanguage = languageOfResourcePath(path);
   const pathServerKey = serverForLanguage(pathLanguage);
   const orderedBases = [
+    MIRROR_SERVER_URL,
     GAME_SERVER_URLS[pathServerKey],
     GAME_SERVER_URLS[uiServerKey],
     GAME_SERVER_URLS.chs_t,
