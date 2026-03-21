@@ -535,7 +535,9 @@ function createSpinePlayer(host, sourcePlan) {
     return Promise.reject(new Error("Spine source is empty."));
   }
 
-  function createSinglePlayer(layerHost, attempts) {
+  const loadedPlayers = [];
+
+  function createSinglePlayer(layerHost, attempts, isPrimary) {
     return new Promise((resolve, reject) => {
       const sourceQueue = Array.isArray(attempts) ? attempts.slice() : [];
       if (sourceQueue.length === 0) {
@@ -608,7 +610,7 @@ function createSpinePlayer(host, sourcePlan) {
             alpha: true,
             backgroundColor: "00000000",
             fullScreenBackgroundColor: "00000000",
-            showControls: true,
+            showControls: isPrimary,
             interactive: false,
             showLoading: false,
             premultipliedAlpha,
@@ -657,47 +659,48 @@ function createSpinePlayer(host, sourcePlan) {
                 return;
               }
 
-              active = false;
-              resolve({ player: player, source: item.entry });
-
               boundsSet = false
 
-              const defaultAnimation = player.skeleton.data.animations.find(a => a.name == "idle") || player.skeleton.data.animations[0]
-              if (defaultAnimation) {
-                player.setAnimation(defaultAnimation.name)
+              if (isPrimary) {
+                new spine.Input(player.canvas).addListener({
+                  down: (x, y) => {
+                    x = x / player.skeleton.scaleX
+                    y = y / player.skeleton.scaleY
+                    player.sceneRenderer.camera.screenToWorld(
+                      mouse.set(x, y, 0),
+                      player.canvas.clientWidth,
+                      player.canvas.clientHeight
+                    );
+                    player.play()
+                    last.setFrom(mouse);
+                  },
+                  dragged: (x, y) => {
+                    x = x / player.skeleton.scaleX
+                    y = y / player.skeleton.scaleY
+                    player.sceneRenderer.camera.screenToWorld(
+                      mouse.set(x, y, 0),
+                      player.canvas.clientWidth,
+                      player.canvas.clientHeight
+                    );
+                    for (const p of loadedPlayers) {
+                      p.skeleton.getRootBone().x += mouse.x - last.x;
+                      p.skeleton.getRootBone().y += mouse.y - last.y;
+                    }
+                    last.setFrom(mouse);
+                  },
+                  up: () => { player.play() },
+                  wheel: (delta, _ev) => {
+                    let zoomAmount = delta > 0 ? 0.95 : 1.05
+                    for (const p of loadedPlayers) {
+                      p.skeleton.scaleX *= zoomAmount
+                      p.skeleton.scaleY *= zoomAmount
+                    }
+                  }
+                })
               }
 
-              new spine.Input(player.canvas).addListener({
-                down: (x, y) => {
-                  x /= player.skeleton.scaleX
-                  y /= player.skeleton.scaleY
-                  player.play()
-                  player.sceneRenderer.camera.screenToWorld(
-                    mouse.set(x, y, 0),
-                    player.canvas.clientWidth,
-                    player.canvas.clientHeight
-                  );
-                  last.setFrom(mouse);
-                },
-                dragged: (x, y) => {
-                  x /= player.skeleton.scaleX
-                  y /= player.skeleton.scaleY
-                  player.sceneRenderer.camera.screenToWorld(
-                    mouse.set(x, y, 0),
-                    player.canvas.clientWidth,
-                    player.canvas.clientHeight
-                  );
-                  player.skeleton.getRootBone().x += mouse.x - last.x;
-                  player.skeleton.getRootBone().y += mouse.y - last.y;
-                  last.setFrom(mouse);
-                },
-                up: () => { player.play() },
-                wheel: (delta, ev) => {
-                  let zoomAmount = delta > 0 ? 0.95 : 1.05
-                  player.skeleton.scaleX *= zoomAmount
-                  player.skeleton.scaleY *= zoomAmount
-                }
-              })
+              active = false;
+              resolve({ player: player, source: item.entry });
             },
           });
         } catch (error) {
@@ -753,7 +756,6 @@ function createSpinePlayer(host, sourcePlan) {
       return;
     }
 
-    const loadedPlayers = [];
     let hasResolved = false;
     let destroyed = false;
     let lastError = null;
@@ -798,7 +800,8 @@ function createSpinePlayer(host, sourcePlan) {
     const mountSecondaryLayers = (sharedAnimationName, primarySource) => {
       for (const entry of secondaryEntries) {
         const sortedAttempts = sortAttemptsByPrimarySource(entry.attempts, primarySource);
-        createSinglePlayer(entry.layerHost, sortedAttempts)
+        entry.layerHost.classList.add("detail-spine-layer-secondary")
+        createSinglePlayer(entry.layerHost, sortedAttempts, false)
           .then((result) => {
             if (!result || !result.player) return;
             if (destroyed) {
@@ -818,7 +821,7 @@ function createSpinePlayer(host, sourcePlan) {
       let sharedAnimationName = "";
       for (const entry of entries) {
         try {
-          const result = await createSinglePlayer(entry.layerHost, entry.attempts);
+          const result = await createSinglePlayer(entry.layerHost, entry.attempts, true);
           if (!result || !result.player) continue;
           if (destroyed) {
             disposePlayer(result.player);
