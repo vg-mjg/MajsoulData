@@ -312,7 +312,7 @@ function probeSpineUrl(url) {
   }
 
   const promise = Promise.race([
-    fetch(key, { method: "HEAD", cache: "no-cache", mode: "cors" })
+    fetch(key)
       .then((response) => Boolean(response && response.ok))
       .catch(() => false),
     new Promise((resolve) => {
@@ -358,7 +358,7 @@ async function probeAtlasTexturePages(atlasUrl) {
   const promise = (async () => {
     try {
       const response = await Promise.race([
-        fetch(key, { method: "GET", cache: "no-cache", mode: "cors" }),
+        fetch(key, { method: "GET" }),
         new Promise((resolve) => {
           window.setTimeout(() => resolve(null), SPINE_ATLAS_METADATA_TIMEOUT_MS);
         }),
