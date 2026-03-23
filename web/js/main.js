@@ -1,3 +1,4 @@
+import "./vendor/theme-switcher.js";
 import { createHashRouter } from "./core/router.js";
 import { fetchJson } from "./core/http.js";
 import { renderHomePage } from "./features/home/view.js";
