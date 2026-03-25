@@ -2,7 +2,7 @@ name: Data Update
 
 on:
   schedule:
-    - cron: "0 2-8 * * 1-5" # roughly when game updates happen
+    - cron: "0 0-8 * * 1-5" # roughly when game updates happen
   workflow_dispatch:
 
 permissions:
