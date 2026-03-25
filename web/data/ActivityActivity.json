@@ -5293,7 +5293,7 @@
         "id": 231001,
         "nameChs": "万圣夜特别扭蛋",
         "nameChsT": "萬聖夜特別扭蛋",
-        "nameJp": "謎ガチャ\nVer.ハロウイン",
+        "nameJp": "謎ガチャ\r\nVer.ハロウイン",
         "nameEn": "Halloween Special Gacha",
         "nameKr": "핼러윈 특별 뽑기",
         "type": "gacha",
@@ -6963,7 +6963,7 @@
         "id": 240501,
         "nameChs": "闪耀星辰的纪念",
         "nameChsT": "閃耀星辰的紀念",
-        "nameJp": "輝くステージに\n轟け！",
+        "nameJp": "輝くステージに\r\n轟け！",
         "nameEn": "Memento of the Shining Stars",
         "nameKr": "반짝이는 별빛의 기억",
         "type": "game_task",
@@ -7083,7 +7083,7 @@
         "id": 240601,
         "nameChs": "海岛之夏",
         "nameChsT": "海島之夏",
-        "nameJp": "アイランド\n・サマー！",
+        "nameJp": "アイランド\r\n・サマー！",
         "nameEn": "Summer on Joy Island",
         "nameKr": "썸머 아일랜드",
         "type": "island",
@@ -11338,5 +11338,115 @@
         "nameKr": "",
         "type": "daily_sign",
         "needPopout": 1
+    },
+    {
+        "id": 260301,
+        "nameChs": "花与暖夜",
+        "nameChsT": "花與暖夜",
+        "nameJp": "花の暖夜",
+        "nameEn": "Soft Night, Sweet Petals",
+        "nameKr": "꽃과 포근한 밤",
+        "type": "task",
+        "needPopout": 1
+    },
+    {
+        "id": 260302,
+        "nameChs": "独家报道时间",
+        "nameChsT": "獨家報導時間",
+        "nameJp": "独占インタビュー",
+        "nameEn": "Off-the-Record Exclusive",
+        "nameKr": "단독취재타임",
+        "type": "period_task",
+        "needPopout": 0
+    },
+    {
+        "id": 260310,
+        "nameChs": "",
+        "nameChsT": "",
+        "nameJp": "",
+        "nameEn": "",
+        "nameKr": "",
+        "type": "event_cross_time",
+        "needPopout": 0
+    },
+    {
+        "id": 260311,
+        "nameChs": "",
+        "nameChsT": "",
+        "nameJp": "",
+        "nameEn": "",
+        "nameKr": "",
+        "type": "shop",
+        "needPopout": 0
+    },
+    {
+        "id": 260312,
+        "nameChs": "",
+        "nameChsT": "",
+        "nameJp": "",
+        "nameEn": "",
+        "nameKr": "",
+        "type": "item",
+        "needPopout": 0
+    },
+    {
+        "id": 260320,
+        "nameChs": "",
+        "nameChsT": "",
+        "nameJp": "",
+        "nameEn": "",
+        "nameKr": "",
+        "type": "chest_up",
+        "needPopout": 0
+    },
+    {
+        "id": 260321,
+        "nameChs": "",
+        "nameChsT": "",
+        "nameJp": "",
+        "nameEn": "",
+        "nameKr": "",
+        "type": "chest_up",
+        "needPopout": 0
+    },
+    {
+        "id": 260322,
+        "nameChs": "",
+        "nameChsT": "",
+        "nameJp": "",
+        "nameEn": "",
+        "nameKr": "",
+        "type": "chest_up",
+        "needPopout": 0
+    },
+    {
+        "id": 260330,
+        "nameChs": "",
+        "nameChsT": "",
+        "nameJp": "",
+        "nameEn": "",
+        "nameKr": "",
+        "type": "chest_replace_up",
+        "needPopout": 0
+    },
+    {
+        "id": 260331,
+        "nameChs": "",
+        "nameChsT": "",
+        "nameJp": "",
+        "nameEn": "",
+        "nameKr": "",
+        "type": "chest_replace_up",
+        "needPopout": 0
+    },
+    {
+        "id": 260332,
+        "nameChs": "",
+        "nameChsT": "",
+        "nameJp": "",
+        "nameEn": "",
+        "nameKr": "",
+        "type": "chest_replace_up",
+        "needPopout": 0
     }
 ]

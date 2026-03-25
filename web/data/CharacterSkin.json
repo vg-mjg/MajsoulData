@@ -712,5 +712,22 @@
         "audioClick": "j_se_409203/click",
         "audioClick2": "",
         "celebrateDelay": 0
+    },
+    {
+        "effects": [
+            "zeniya_26wq_eff1",
+            "",
+            "zeniya_26wq_eff3",
+            ""
+        ],
+        "skinid": 400908,
+        "spineLayers": 2,
+        "audioCelebrate": "zny_se_400908/celebrate",
+        "audioCelebrateIdle": "",
+        "audioIdle": "",
+        "audioGreeting": "zny_se_400908/greeting",
+        "audioClick": "zny_se_400908/click",
+        "audioClick2": "",
+        "celebrateDelay": 0
     }
 ]

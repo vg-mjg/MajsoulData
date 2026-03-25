@@ -94,5 +94,9 @@
     {
         "activityId": 260204,
         "mailTemplateId": 137
+    },
+    {
+        "activityId": 260302,
+        "mailTemplateId": 138
     }
 ]

@@ -281,6 +281,20 @@
     },
     {
         "unlockItems": [
+            30740021,
+            0,
+            0
+        ],
+        "args": [
+            0
+        ],
+        "id": 30740021,
+        "imgPath": "extendRes/loading_cg/CG200019.jpg",
+        "thumbPath": "extendRes/loading_cg/CG200019_thumb.jpg",
+        "sort": 21
+    },
+    {
+        "unlockItems": [
             307401,
             0,
             0
@@ -1468,5 +1482,19 @@
         "imgPath": "extendRes/loading_cg/260203.jpg",
         "thumbPath": "extendRes/loading_cg/260203_thumb.jpg",
         "sort": 1085
+    },
+    {
+        "unlockItems": [
+            307486,
+            307286,
+            0
+        ],
+        "args": [
+            0
+        ],
+        "id": 260301,
+        "imgPath": "extendRes/loading_cg/260301.jpg",
+        "thumbPath": "extendRes/loading_cg/260301_thumb.jpg",
+        "sort": 1086
     }
 ]

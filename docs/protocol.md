@@ -242,6 +242,7 @@
     - [BadgeAchieveProgress](#lq-BadgeAchieveProgress)
     - [Bag](#lq-Bag)
     - [BagUpdate](#lq-BagUpdate)
+    - [BannerActivityData](#lq-BannerActivityData)
     - [BillShortcut](#lq-BillShortcut)
     - [BillingGoods](#lq-BillingGoods)
     - [BillingProduct](#lq-BillingProduct)
@@ -634,6 +635,7 @@
     - [ReqFetchActivityRank](#lq-ReqFetchActivityRank)
     - [ReqFetchAmuletActivityData](#lq-ReqFetchAmuletActivityData)
     - [ReqFetchAnnouncement](#lq-ReqFetchAnnouncement)
+    - [ReqFetchBannerActivityData](#lq-ReqFetchBannerActivityData)
     - [ReqFetchBingoActivityData](#lq-ReqFetchBingoActivityData)
     - [ReqFetchCommentContent](#lq-ReqFetchCommentContent)
     - [ReqFetchCommentList](#lq-ReqFetchCommentList)
@@ -982,6 +984,7 @@
     - [ResFetchActivityRank.ActivityRankItem](#lq-ResFetchActivityRank-ActivityRankItem)
     - [ResFetchAmuletActivityData](#lq-ResFetchAmuletActivityData)
     - [ResFetchAnnualReportInfo](#lq-ResFetchAnnualReportInfo)
+    - [ResFetchBannerActivityData](#lq-ResFetchBannerActivityData)
     - [ResFetchBingoActivityData](#lq-ResFetchBingoActivityData)
     - [ResFetchChallengeInfo](#lq-ResFetchChallengeInfo)
     - [ResFetchCommentContent](#lq-ResFetchCommentContent)
@@ -5677,6 +5680,31 @@
 
 
 
+<a name="lq-BannerActivityData"></a>
+
+### BannerActivityData
+
+
+
+| Field | Type | Label | Description |
+| ----- | ---- | ----- | ----------- |
+| activity_id | [uint32](#uint32) |  |  |
+| tag_img_url | [string](#string) |  |  |
+| banner_background_url | [string](#string) |  |  |
+| banner_button_url | [string](#string) |  |  |
+| tag_name | [string](#string) |  |  |
+| start_time | [uint32](#uint32) |  |  |
+| end_time | [uint32](#uint32) |  |  |
+| url | [string](#string) |  |  |
+| type | [uint32](#uint32) |  |  |
+| sort | [uint32](#uint32) |  |  |
+| need_popout | [uint32](#uint32) |  |  |
+
+
+
+
+
+
 <a name="lq-BillShortcut"></a>
 
 ### BillShortcut
@@ -6170,6 +6198,7 @@
 | tied_rank | [uint32](#uint32) |  |  |
 | match_start_time | [uint32](#uint32) |  |  |
 | match_end_time | [uint32](#uint32) |  |  |
+| open_rank_percent | [uint32](#uint32) |  |  |
 
 
 
@@ -6288,6 +6317,7 @@
 | point | [int32](#int32) |  |  |
 | game_ranks | [uint32](#uint32) | repeated |  |
 | total_game_count | [uint32](#uint32) |  |  |
+| rank_percent | [uint32](#uint32) |  |  |
 
 
 
@@ -12705,6 +12735,22 @@
 
 
 
+<a name="lq-ReqFetchBannerActivityData"></a>
+
+### ReqFetchBannerActivityData
+
+
+
+| Field | Type | Label | Description |
+| ----- | ---- | ----- | ----------- |
+| activity_id_list | [uint32](#uint32) | repeated |  |
+| lang | [string](#string) |  |  |
+
+
+
+
+
+
 <a name="lq-ReqFetchBingoActivityData"></a>
 
 ### ReqFetchBingoActivityData
@@ -18432,6 +18478,22 @@
 
 
 
+<a name="lq-ResFetchBannerActivityData"></a>
+
+### ResFetchBannerActivityData
+
+
+
+| Field | Type | Label | Description |
+| ----- | ---- | ----- | ----------- |
+| error | [Error](#lq-Error) |  |  |
+| activity_list | [BannerActivityData](#lq-BannerActivityData) | repeated |  |
+
+
+
+
+
+
 <a name="lq-ResFetchBingoActivityData"></a>
 
 ### ResFetchBingoActivityData
@@ -18583,6 +18645,7 @@
 | data | [ResFetchContestPlayerRank.ContestPlayerAccountData](#lq-ResFetchContestPlayerRank-ContestPlayerAccountData) |  |  |
 | team_name | [string](#string) |  |  |
 | modify_score | [int32](#int32) |  |  |
+| rank_percent | [uint32](#uint32) |  |  |
 
 
 
@@ -18602,6 +18665,8 @@
 | data | [ResFetchContestPlayerRank.ContestPlayerAccountData](#lq-ResFetchContestPlayerRank-ContestPlayerAccountData) |  |  |
 | team_name | [string](#string) |  |  |
 | modify_score | [int32](#int32) |  |  |
+| rank | [uint32](#uint32) |  |  |
+| rank_percent | [uint32](#uint32) |  |  |
 
 
 
@@ -18690,6 +18755,7 @@
 | name | [string](#string) |  |  |
 | data | [ResFetchContestTeamRank.ContestTeamData](#lq-ResFetchContestTeamRank-ContestTeamData) |  |  |
 | rank | [uint32](#uint32) |  |  |
+| rank_percent | [uint32](#uint32) |  |  |
 
 
 
@@ -23784,6 +23850,7 @@
 | snowballActivityFinishBattle | [ReqSnowballActivityFinishBattle](#lq-ReqSnowballActivityFinishBattle) | [ResSnowballActivityFinishBattle](#lq-ResSnowballActivityFinishBattle) |  |
 | snowballActivityUpgrade | [ReqSnowballActivityUpgrade](#lq-ReqSnowballActivityUpgrade) | [ResSnowballActivityUpgrade](#lq-ResSnowballActivityUpgrade) |  |
 | snowballActivityReceiveReward | [ReqSnowballActivityReceiveReward](#lq-ReqSnowballActivityReceiveReward) | [ResSnowballActivityReceiveReward](#lq-ResSnowballActivityReceiveReward) |  |
+| fetchBannerActivityData | [ReqFetchBannerActivityData](#lq-ReqFetchBannerActivityData) | [ResFetchBannerActivityData](#lq-ResFetchBannerActivityData) |  |
 | marathonActivityStartRace | [ReqMarathonActivityStartRace](#lq-ReqMarathonActivityStartRace) | [ResMarathonActivityStartRace](#lq-ResMarathonActivityStartRace) |  |
 | marathonActivityFinishRace | [ReqMarathonActivityFinishRace](#lq-ReqMarathonActivityFinishRace) | [ResMarathonActivityFinishRace](#lq-ResMarathonActivityFinishRace) |  |
 

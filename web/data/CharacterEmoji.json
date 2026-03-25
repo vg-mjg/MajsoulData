@@ -20758,5 +20758,53 @@
         "afterUnlockDescEn": "Joy Woven In",
         "afterUnlockDescKr": "함께하고픈 인연",
         "unlockType": 3
+    },
+    {
+        "unlockParam": [
+            400908,
+            0,
+            0,
+            0
+        ],
+        "charid": 200009,
+        "subId": 929,
+        "unlockDescChs": "服饰解锁",
+        "unlockDescChsT": "服飾解鎖",
+        "unlockDescJp": "着せ替え入手",
+        "unlockDescEn": "Unlock Outfit",
+        "unlockDescKr": "스킨 오픈",
+        "type": 1,
+        "view": "",
+        "audio": 0,
+        "afterUnlockDescChs": "共沐夜色",
+        "afterUnlockDescChsT": "共沐夜色",
+        "afterUnlockDescJp": "素敵な夜と共に",
+        "afterUnlockDescEn": "Sipping the Night",
+        "afterUnlockDescKr": "같이 머무는 밤",
+        "unlockType": 3
+    },
+    {
+        "unlockParam": [
+            403305,
+            0,
+            0,
+            0
+        ],
+        "charid": 200033,
+        "subId": 929,
+        "unlockDescChs": "服饰解锁",
+        "unlockDescChsT": "服飾解鎖",
+        "unlockDescJp": "着せ替え入手",
+        "unlockDescEn": "Unlock Outfit",
+        "unlockDescKr": "스킨 오픈",
+        "type": 1,
+        "view": "",
+        "audio": 0,
+        "afterUnlockDescChs": "共沐夜色",
+        "afterUnlockDescChsT": "共沐夜色",
+        "afterUnlockDescJp": "素敵な夜と共に",
+        "afterUnlockDescEn": "Sipping the Night",
+        "afterUnlockDescKr": "같이 머무는 밤",
+        "unlockType": 3
     }
 ]
