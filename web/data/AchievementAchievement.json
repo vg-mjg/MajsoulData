@@ -10736,6 +10736,28 @@
         "deprecated": 0
     },
     {
+        "id": 100495,
+        "nameChs": "小鸟游雏田的守护者",
+        "nameChsT": "小鳥遊雛田的守護者",
+        "nameJp": "小鳥遊雛田の守護者",
+        "nameEn": "Protector of Hinata Takanashi",
+        "nameKr": "타카나시 히나타의 수호자",
+        "descChs": "解锁小鸟游雏田传记中的所有结局",
+        "descChsT": "解鎖小鳥遊雛田傳記中的所有結局",
+        "descJp": "小鳥遊雛田の物語のエンディングをすべて解放する",
+        "descEn": "Unlock all endings in Hinata Takanashi's Story",
+        "descKr": "타카나시 히나타 스토리의 엔딩 모두 오픈.",
+        "rare": 1,
+        "locked": 0,
+        "groupId": 10,
+        "sort": 521,
+        "segmentId": 0,
+        "baseTask": 99183,
+        "reward": "30740021-1",
+        "hidden": 0,
+        "deprecated": 0
+    },
+    {
         "id": 800011,
         "nameChs": "四象-旗开得胜",
         "nameChsT": "四象-旗開得勝",

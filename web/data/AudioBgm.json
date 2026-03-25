@@ -127,7 +127,7 @@
     },
     {
         "id": 30600002,
-        "autoHide": 1,
+        "autoHide": 0,
         "nameChs": "闲暇炒面",
         "nameChsT": "閒暇炒麵",
         "nameJp": "リーヒマ -Piano Version-",
@@ -168,7 +168,7 @@
         "nameChsT": "竹取物語",
         "nameJp": "竹取の囁き",
         "nameEn": "Bamboo",
-        "nameKr": "타케토리모노가타리",
+        "nameKr": "죽림의 속삭임",
         "path": "music/game.mp3",
         "timeLength": 0,
         "type": "mj",

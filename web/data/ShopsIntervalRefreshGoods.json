@@ -442,5 +442,11 @@
         "goodsId": 9073,
         "interval": 6,
         "intervalType": 2
+    },
+    {
+        "groupId": 1001,
+        "goodsId": 9078,
+        "interval": 6,
+        "intervalType": 2
     }
 ]

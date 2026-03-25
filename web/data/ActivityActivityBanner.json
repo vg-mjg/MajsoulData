@@ -471,5 +471,27 @@
         "bannerLeftSelected": "",
         "bannerLeftIcon": "",
         "timeRemind": 0
+    },
+    {
+        "id": 260302,
+        "sort": 135,
+        "bannerType": 2,
+        "enterIcon": "",
+        "bannerBig": "myres2/activity_banner/26wenquan2_b.jpg",
+        "bannerLeft": "myres2/activity_banner/26wenquan2.png",
+        "bannerLeftSelected": "",
+        "bannerLeftIcon": "",
+        "timeRemind": 0
+    },
+    {
+        "id": 260301,
+        "sort": 136,
+        "bannerType": 2,
+        "enterIcon": "",
+        "bannerBig": "myres2/activity_banner/26wenquan_b.jpg",
+        "bannerLeft": "myres2/activity_banner/26wenquan1.png",
+        "bannerLeftSelected": "",
+        "bannerLeftIcon": "",
+        "timeRemind": 0
     }
 ]

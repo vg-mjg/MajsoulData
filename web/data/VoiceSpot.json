@@ -6216,6 +6216,244 @@
         "typeDesc": "疑惑"
     },
     {
+        "id": 1915,
+        "character": 200019,
+        "type": 15,
+        "path": "audio/sound/xiaoniaoyouchutian/spot/xiaoniaoyouchutian01",
+        "typeDesc": "惊讶1"
+    },
+    {
+        "id": 1916,
+        "character": 200019,
+        "type": 16,
+        "path": "audio/sound/xiaoniaoyouchutian/spot/xiaoniaoyouchutian02",
+        "typeDesc": "开心1"
+    },
+    {
+        "id": 1917,
+        "character": 200019,
+        "type": 17,
+        "path": "audio/sound/xiaoniaoyouchutian/spot/xiaoniaoyouchutian03",
+        "typeDesc": "道歉1"
+    },
+    {
+        "id": 1918,
+        "character": 200019,
+        "type": 18,
+        "path": "audio/sound/xiaoniaoyouchutian/spot/xiaoniaoyouchutian04",
+        "typeDesc": "转折1"
+    },
+    {
+        "id": 1919,
+        "character": 200019,
+        "type": 19,
+        "path": "audio/sound/xiaoniaoyouchutian/spot/xiaoniaoyouchutian05",
+        "typeDesc": "开心2"
+    },
+    {
+        "id": 1920,
+        "character": 200019,
+        "type": 20,
+        "path": "audio/sound/xiaoniaoyouchutian/spot/xiaoniaoyouchutian06",
+        "typeDesc": "打招呼1"
+    },
+    {
+        "id": 1921,
+        "character": 200019,
+        "type": 21,
+        "path": "audio/sound/xiaoniaoyouchutian/spot/xiaoniaoyouchutian07",
+        "typeDesc": "语气1"
+    },
+    {
+        "id": 1922,
+        "character": 200019,
+        "type": 22,
+        "path": "audio/sound/xiaoniaoyouchutian/spot/xiaoniaoyouchutian08",
+        "typeDesc": "道歉2"
+    },
+    {
+        "id": 1923,
+        "character": 200019,
+        "type": 23,
+        "path": "audio/sound/xiaoniaoyouchutian/spot/xiaoniaoyouchutian09",
+        "typeDesc": "转折2"
+    },
+    {
+        "id": 1924,
+        "character": 200019,
+        "type": 24,
+        "path": "audio/sound/xiaoniaoyouchutian/spot/xiaoniaoyouchutian10",
+        "typeDesc": "开心3"
+    },
+    {
+        "id": 1925,
+        "character": 200019,
+        "type": 25,
+        "path": "audio/sound/xiaoniaoyouchutian/spot/xiaoniaoyouchutian11",
+        "typeDesc": "转折3"
+    },
+    {
+        "id": 1926,
+        "character": 200019,
+        "type": 26,
+        "path": "audio/sound/xiaoniaoyouchutian/spot/xiaoniaoyouchutian12",
+        "typeDesc": "语气2"
+    },
+    {
+        "id": 1927,
+        "character": 200019,
+        "type": 27,
+        "path": "audio/sound/xiaoniaoyouchutian/spot/xiaoniaoyouchutian13",
+        "typeDesc": "语气3"
+    },
+    {
+        "id": 1928,
+        "character": 200019,
+        "type": 28,
+        "path": "audio/sound/xiaoniaoyouchutian/spot/xiaoniaoyouchutian14",
+        "typeDesc": "犹豫1"
+    },
+    {
+        "id": 1929,
+        "character": 200019,
+        "type": 29,
+        "path": "audio/sound/xiaoniaoyouchutian/spot/xiaoniaoyouchutian15",
+        "typeDesc": "犹豫2"
+    },
+    {
+        "id": 1930,
+        "character": 200019,
+        "type": 30,
+        "path": "audio/sound/xiaoniaoyouchutian/spot/xiaoniaoyouchutian16",
+        "typeDesc": "开心4"
+    },
+    {
+        "id": 1931,
+        "character": 200019,
+        "type": 31,
+        "path": "audio/sound/xiaoniaoyouchutian/spot/xiaoniaoyouchutian17",
+        "typeDesc": "开心5"
+    },
+    {
+        "id": 1932,
+        "character": 200019,
+        "type": 32,
+        "path": "audio/sound/xiaoniaoyouchutian/spot/xiaoniaoyouchutian18",
+        "typeDesc": "语气4"
+    },
+    {
+        "id": 1933,
+        "character": 200019,
+        "type": 33,
+        "path": "audio/sound/xiaoniaoyouchutian/spot/xiaoniaoyouchutian19",
+        "typeDesc": "打招呼2"
+    },
+    {
+        "id": 1934,
+        "character": 200019,
+        "type": 34,
+        "path": "audio/sound/xiaoniaoyouchutian/spot/xiaoniaoyouchutian20",
+        "typeDesc": "否定1"
+    },
+    {
+        "id": 1935,
+        "character": 200019,
+        "type": 35,
+        "path": "audio/sound/xiaoniaoyouchutian/spot/xiaoniaoyouchutian21",
+        "typeDesc": "疑惑1"
+    },
+    {
+        "id": 1936,
+        "character": 200019,
+        "type": 36,
+        "path": "audio/sound/xiaoniaoyouchutian/spot/xiaoniaoyouchutian22",
+        "typeDesc": "递进1"
+    },
+    {
+        "id": 1937,
+        "character": 200019,
+        "type": 37,
+        "path": "audio/sound/xiaoniaoyouchutian/spot/xiaoniaoyouchutian23",
+        "typeDesc": "递进2"
+    },
+    {
+        "id": 1938,
+        "character": 200019,
+        "type": 38,
+        "path": "audio/sound/xiaoniaoyouchutian/spot/xiaoniaoyouchutian24",
+        "typeDesc": "开心6"
+    },
+    {
+        "id": 1939,
+        "character": 200019,
+        "type": 39,
+        "path": "audio/sound/xiaoniaoyouchutian/spot/xiaoniaoyouchutian25",
+        "typeDesc": "惊讶2"
+    },
+    {
+        "id": 1940,
+        "character": 200019,
+        "type": 40,
+        "path": "audio/sound/xiaoniaoyouchutian/spot/xiaoniaoyouchutian26",
+        "typeDesc": "惊讶3"
+    },
+    {
+        "id": 1941,
+        "character": 200019,
+        "type": 41,
+        "path": "audio/sound/xiaoniaoyouchutian/spot/xiaoniaoyouchutian27",
+        "typeDesc": "否定2"
+    },
+    {
+        "id": 1942,
+        "character": 200019,
+        "type": 42,
+        "path": "audio/sound/xiaoniaoyouchutian/spot/xiaoniaoyouchutian28",
+        "typeDesc": "悲伤1"
+    },
+    {
+        "id": 1943,
+        "character": 200019,
+        "type": 43,
+        "path": "audio/sound/xiaoniaoyouchutian/spot/xiaoniaoyouchutian29",
+        "typeDesc": "悲伤2"
+    },
+    {
+        "id": 1944,
+        "character": 200019,
+        "type": 44,
+        "path": "audio/sound/xiaoniaoyouchutian/spot/xiaoniaoyouchutian30",
+        "typeDesc": "道歉3"
+    },
+    {
+        "id": 1945,
+        "character": 200019,
+        "type": 45,
+        "path": "audio/sound/xiaoniaoyouchutian/spot/xiaoniaoyouchutian31",
+        "typeDesc": "悲伤3"
+    },
+    {
+        "id": 1946,
+        "character": 200019,
+        "type": 46,
+        "path": "audio/sound/xiaoniaoyouchutian/spot/xiaoniaoyouchutian32",
+        "typeDesc": "语气5"
+    },
+    {
+        "id": 1947,
+        "character": 200019,
+        "type": 47,
+        "path": "audio/sound/xiaoniaoyouchutian/spot/xiaoniaoyouchutian33",
+        "typeDesc": "语气6"
+    },
+    {
+        "id": 1948,
+        "character": 200019,
+        "type": 48,
+        "path": "audio/sound/xiaoniaoyouchutian/spot/xiaoniaoyouchutian34",
+        "typeDesc": "开心7"
+    },
+    {
         "id": 2001,
         "character": 200020,
         "type": 1,

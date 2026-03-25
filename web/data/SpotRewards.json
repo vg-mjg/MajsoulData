@@ -1408,5 +1408,75 @@
         "contentEn": "Unlock the Ending - Next Chapter...",
         "contentKr": "End7. 예상치 못한 루트",
         "reward": "304006-1"
+    },
+    {
+        "id": 1900041,
+        "type": 1,
+        "contentChs": "解锁结局【疗养院的萌芽】",
+        "contentChsT": "解鎖結局【療養院的萌芽】",
+        "contentJp": "End1.療養所の芽生え",
+        "contentEn": "Unlock the Ending - A Sprouting Nursery",
+        "contentKr": "End1. 요양원의 새싹",
+        "reward": "302010-1"
+    },
+    {
+        "id": 1900042,
+        "type": 2,
+        "contentChs": "解锁结局【溢出的绿意】",
+        "contentChsT": "解鎖結局【溢出的綠意】",
+        "contentJp": "End2.溢れる緑",
+        "contentEn": "Unlock the Ending - Overflowing Greenery",
+        "contentKr": "End2. 넘실거리는 초록빛",
+        "reward": "100002-8000"
+    },
+    {
+        "id": 1900051,
+        "type": 1,
+        "contentChs": "解锁结局【你的季节】",
+        "contentChsT": "解鎖結局【你的季節】",
+        "contentJp": "End3.あなたの季節",
+        "contentEn": "Unlock the Ending - The Season of You",
+        "contentKr": "End3. 너의 계절",
+        "reward": "304005-1"
+    },
+    {
+        "id": 1900052,
+        "type": 2,
+        "contentChs": "解锁结局【摄影之魂，熊熊燃烧！】",
+        "contentChsT": "解鎖結局【攝影之魂，熊熊燃燒】",
+        "contentJp": "End4.燃やせ！ カメラマン魂",
+        "contentEn": "Unlock the Ending - A Burning Passion for Photography!",
+        "contentKr": "End4. 불타올라라, 사진가의 혼!",
+        "reward": "302011-1"
+    },
+    {
+        "id": 1900061,
+        "type": 1,
+        "contentChs": "解锁结局【雨过天晴之后】",
+        "contentChsT": "解鎖結局【雨過天晴之後】",
+        "contentJp": "End5.雨のち晴れ",
+        "contentEn": "Unlock the Ending - After the Rain",
+        "contentKr": "End5. 비 온 뒤 하늘은 맑음",
+        "reward": "302001-1"
+    },
+    {
+        "id": 1900062,
+        "type": 2,
+        "contentChs": "解锁结局【柔软的梦】",
+        "contentChsT": "解鎖結局【柔軟的夢】",
+        "contentJp": "End6.ふわふわの夢",
+        "contentEn": "Unlock the Ending - Soft Slumber",
+        "contentKr": "End6. 보드라운 꿈",
+        "reward": "304006-1"
+    },
+    {
+        "id": 1900063,
+        "type": 3,
+        "contentChs": "解锁结局【待填上的扉页】",
+        "contentChsT": "解鎖結局【待填上的扉頁】",
+        "contentJp": "End7.空白の表紙",
+        "contentEn": "Unlock the Ending - The Empty Cover",
+        "contentKr": "End7. 아직 채워지지 않은 페이지",
+        "reward": "100002-12000"
     }
 ]
