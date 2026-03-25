@@ -48,13 +48,29 @@
   color-scheme: light;
 }
 
+[data-lang="kr"] body {
+  font-family: "Noto Sans", "Noto Sans KR", "Noto Sans JP", "Noto Sans SC", "Noto Sans TC", system-ui, sans-serif;
+}
+
+[data-lang="jp"] body {
+  font-family: "Noto Sans", "Noto Sans JP", "Noto Sans KR", "Noto Sans SC", "Noto Sans TC", system-ui, sans-serif;
+}
+
+[data-lang="chs"] body {
+  font-family: "Noto Sans", "Noto Sans SC", "Noto Sans TC", "Noto Sans KR", "Noto Sans JP", system-ui, sans-serif;
+}
+
+[data-lang="chs_t"] body {
+  font-family: "Noto Sans", "Noto Sans TC", "Noto Sans SC", "Noto Sans KR", "Noto Sans JP", system-ui, sans-serif;
+}
+
 html,
 body {
   height: 100%;
 }
 
 body {
-  font-family: "Noto Sans", "Noto Sans KR", "Noto Sans JP", "Noto Sans SC", "Noto Sans TC", system-ui, sans-serif;
+  font-family: "Noto Sans", "Noto Sans SC", "Noto Sans TC", "Noto Sans JP", "Noto Sans KR", system-ui, sans-serif;
   min-height: 100vh;
   display: flex;
   flex-direction: column;
@@ -2137,10 +2153,10 @@ body {
 }
 
 .bi {
-    width: 1em;
-    height: 1em;
-    vertical-align: -.125em;
-    fill: currentcolor;
+  width: 1em;
+  height: 1em;
+  vertical-align: -.125em;
+  fill: currentcolor;
 }
 
 [data-bs-theme="dark"] .btn-outline-secondary {

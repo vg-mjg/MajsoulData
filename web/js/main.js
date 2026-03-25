@@ -383,6 +383,7 @@ function saveLanguage(language) {
 }
 
 function applyLanguage(language, { persist, rerender } = { persist: true, rerender: true }) {
+  document.documentElement.setAttribute("data-lang", language)
   const normalized = normalizeUiLanguage(language);
   const languageChanged = normalized !== currentLanguage;
   currentLanguage = normalized;
