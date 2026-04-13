@@ -13972,7 +13972,7 @@
       "prefix": "v0.11.14.w"
     },
     "sw.js": {
-      "prefix": "v0.11.241.w"
+      "prefix": "v0.11.242.w"
     },
     "audio/sound/xiangyuan/extra/scfan_jiangdui.mp3": {
       "prefix": "v0.10.1.w"
@@ -37912,7 +37912,7 @@
       "prefix": "v0.10.1.w"
     },
     "index.html": {
-      "prefix": "v0.11.241.w"
+      "prefix": "v0.11.242.w"
     },
     "chs_t/extendRes/items2/kuangdu_pai.jpg": {
       "prefix": "v0.10.1.w"
@@ -39709,7 +39709,7 @@
       "prefix": "v0.11.14.w"
     },
     "config.json": {
-      "prefix": "v0.11.241.w"
+      "prefix": "v0.11.242.w"
     },
     "audio/sound/xiaoyesiqiyu/fan_dora7.mp3": {
       "prefix": "v0.10.31.w"
@@ -41443,7 +41443,7 @@
       "prefix": "v0.10.1.w"
     },
     "code.js": {
-      "prefix": "v0.11.241.w"
+      "prefix": "v0.11.242.w"
     },
     "extendRes/emo/e200026/989.png": {
       "prefix": "v0.10.1.w"
@@ -56080,7 +56080,7 @@
       "prefix": "v0.11.205.w"
     },
     "alitrace.js": {
-      "prefix": "v0.11.241.w"
+      "prefix": "v0.11.242.w"
     },
     "en/extendRes/emo/e200055/4.png": {
       "prefix": "v0.10.89.w"
@@ -133057,13 +133057,13 @@
       "prefix": "v0.10.297.w"
     },
     "chs.json": {
-      "prefix": "v0.11.241.w"
+      "prefix": "v0.11.242.w"
     },
     "chs_t.json": {
-      "prefix": "v0.11.241.w"
+      "prefix": "v0.11.242.w"
     },
     "en.json": {
-      "prefix": "v0.11.241.w"
+      "prefix": "v0.11.242.w"
     },
     "font/notosansjapanese.css": {
       "prefix": "v0.10.306.w"
@@ -133075,10 +133075,10 @@
       "prefix": "v0.10.306.w"
     },
     "jp.json": {
-      "prefix": "v0.11.241.w"
+      "prefix": "v0.11.242.w"
     },
     "kr.json": {
-      "prefix": "v0.11.241.w"
+      "prefix": "v0.11.242.w"
     },
     "lang/base/extendRes/charactor/a37/bighead.png": {
       "prefix": "v0.10.306.w"
@@ -283081,46 +283081,46 @@
       "prefix": "v0.11.146.w"
     },
     "res/atlas/en/myres/activity_liandong_signup.atlas": {
-      "prefix": "v0.11.186.w"
+      "prefix": "v0.11.241.w"
     },
     "res/atlas/en/myres/activity_liandong_signup.png": {
-      "prefix": "v0.11.194.w"
+      "prefix": "v0.11.241.w"
     },
     "res/atlas/en/myres/activity_liandong_signup1.png": {
-      "prefix": "v0.11.194.w"
+      "prefix": "v0.11.241.w"
     },
     "res/atlas/en/myres/activity_liandong_signup2.png": {
-      "prefix": "v0.11.194.w"
+      "prefix": "v0.11.241.w"
     },
     "res/atlas/kr/myres/activity_liandong_signup.atlas": {
-      "prefix": "v0.11.186.w"
+      "prefix": "v0.11.241.w"
     },
     "res/atlas/kr/myres/activity_liandong_signup.png": {
-      "prefix": "v0.11.194.w"
+      "prefix": "v0.11.241.w"
     },
     "res/atlas/kr/myres/activity_liandong_signup1.png": {
-      "prefix": "v0.11.194.w"
+      "prefix": "v0.11.241.w"
     },
     "res/atlas/kr/myres/activity_liandong_signup2.png": {
-      "prefix": "v0.11.194.w"
+      "prefix": "v0.11.241.w"
     },
     "res/atlas_q7/en/myres/activity_liandong_signup.atlas": {
-      "prefix": "v0.11.186.w"
+      "prefix": "v0.11.241.w"
     },
     "res/atlas_q7/en/myres/activity_liandong_signup_0.png": {
-      "prefix": "v0.11.186.w"
+      "prefix": "v0.11.241.w"
     },
     "res/atlas_q7/en/myres/activity_liandong_signup_1.png": {
-      "prefix": "v0.11.186.w"
+      "prefix": "v0.11.241.w"
     },
     "res/atlas_q7/kr/myres/activity_liandong_signup.atlas": {
-      "prefix": "v0.11.186.w"
+      "prefix": "v0.11.241.w"
     },
     "res/atlas_q7/kr/myres/activity_liandong_signup_0.png": {
-      "prefix": "v0.11.186.w"
+      "prefix": "v0.11.241.w"
     },
     "res/atlas_q7/kr/myres/activity_liandong_signup_1.png": {
-      "prefix": "v0.11.186.w"
+      "prefix": "v0.11.241.w"
     },
     "scene/25hf_sign_btn_receive.lh": {
       "prefix": "v0.11.146.w"
@@ -283276,25 +283276,25 @@
       "prefix": "v0.11.146.w"
     },
     "res/atlas/jp/myres/activity_liandong_signup.atlas": {
-      "prefix": "v0.11.187.w"
+      "prefix": "v0.11.241.w"
     },
     "res/atlas/jp/myres/activity_liandong_signup.png": {
-      "prefix": "v0.11.194.w"
+      "prefix": "v0.11.241.w"
     },
     "res/atlas/jp/myres/activity_liandong_signup1.png": {
-      "prefix": "v0.11.194.w"
+      "prefix": "v0.11.241.w"
     },
     "res/atlas/jp/myres/activity_liandong_signup2.png": {
-      "prefix": "v0.11.194.w"
+      "prefix": "v0.11.241.w"
     },
     "res/atlas_q7/jp/myres/activity_liandong_signup.atlas": {
-      "prefix": "v0.11.186.w"
+      "prefix": "v0.11.241.w"
     },
     "res/atlas_q7/jp/myres/activity_liandong_signup_0.png": {
-      "prefix": "v0.11.186.w"
+      "prefix": "v0.11.241.w"
     },
     "res/atlas_q7/jp/myres/activity_liandong_signup_1.png": {
-      "prefix": "v0.11.187.w"
+      "prefix": "v0.11.241.w"
     },
     "audio/audio_event/2504beishui_big_fire.mp3": {
       "prefix": "v0.11.148.w"
@@ -348901,10 +348901,10 @@
       "prefix": "v0.11.186.w"
     },
     "res/atlas/en/myres/activity_liandong_signup3.png": {
-      "prefix": "v0.11.194.w"
+      "prefix": "v0.11.241.w"
     },
     "res/atlas/kr/myres/activity_liandong_signup3.png": {
-      "prefix": "v0.11.194.w"
+      "prefix": "v0.11.241.w"
     },
     "scene/25yh_sign_btn_receive.lh": {
       "prefix": "v0.11.186.w"
@@ -349018,7 +349018,7 @@
       "prefix": "v0.11.186.w"
     },
     "res/atlas/jp/myres/activity_liandong_signup3.png": {
-      "prefix": "v0.11.194.w"
+      "prefix": "v0.11.241.w"
     },
     "audio/audio_event/2510yh_activity_enter.mp3": {
       "prefix": "v0.11.188.w"
@@ -397924,6 +397924,246 @@
       "prefix": "v0.11.241.w"
     },
     "lang/scene_q7/Assets/MyAssets/effect/activity/2604_qd/texture/2604qd_033.png": {
+      "prefix": "v0.11.241.w"
+    },
+    "chs_t/myres/activity_liandong_signup/bg.png": {
+      "prefix": "v0.11.241.w"
+    },
+    "chs_t/myres2/activity_banner/26dj_signin_0.png": {
+      "prefix": "v0.11.241.w"
+    },
+    "en/myres2/activity_banner/26dj_signin_0.png": {
+      "prefix": "v0.11.241.w"
+    },
+    "kr/myres2/activity_banner/26dj_signin_0.png": {
+      "prefix": "v0.11.241.w"
+    },
+    "scene/26dj_sign_btn_receive.lh": {
+      "prefix": "v0.11.241.w"
+    },
+    "scene/26dj_sign_btn_shake.lh": {
+      "prefix": "v0.11.241.w"
+    },
+    "scene/26dj_sign_icon1_anim.lh": {
+      "prefix": "v0.11.241.w"
+    },
+    "scene/26dj_sign_icon2_anim.lh": {
+      "prefix": "v0.11.241.w"
+    },
+    "scene/26dj_sign_show.lh": {
+      "prefix": "v0.11.241.w"
+    },
+    "scene/Assets/MyAssets/effect/activity/2604_qd/anim/2604qd_glow.cani": {
+      "prefix": "v0.11.241.w"
+    },
+    "scene/Assets/MyAssets/effect/activity/2604_qd/anim/2604qd_sg.cani": {
+      "prefix": "v0.11.241.w"
+    },
+    "scene/Assets/MyAssets/effect/activity/2604_qd/anim/2604qd_show.cani": {
+      "prefix": "v0.11.241.w"
+    },
+    "scene/Assets/MyAssets/effect/activity/2604_qd/material/2604qd_001.lmat": {
+      "prefix": "v0.11.241.w"
+    },
+    "scene/Assets/MyAssets/effect/activity/2604_qd/material/2604qd_002.lmat": {
+      "prefix": "v0.11.241.w"
+    },
+    "scene/Assets/MyAssets/effect/activity/2604_qd/material/2604qd_003.lmat": {
+      "prefix": "v0.11.241.w"
+    },
+    "scene/Assets/MyAssets/effect/activity/2604_qd/material/2604qd_004.lmat": {
+      "prefix": "v0.11.241.w"
+    },
+    "scene/Assets/MyAssets/effect/activity/2604_qd/material/2604qd_005.lmat": {
+      "prefix": "v0.11.241.w"
+    },
+    "scene/Assets/MyAssets/effect/activity/2604_qd/material/2604qd_006.lmat": {
+      "prefix": "v0.11.241.w"
+    },
+    "scene/Assets/MyAssets/effect/activity/2604_qd/material/2604qd_007.lmat": {
+      "prefix": "v0.11.241.w"
+    },
+    "scene/Assets/MyAssets/effect/activity/2604_qd/material/2604qd_008.lmat": {
+      "prefix": "v0.11.241.w"
+    },
+    "scene/Assets/MyAssets/effect/activity/2604_qd/material/2604qd_009.lmat": {
+      "prefix": "v0.11.241.w"
+    },
+    "scene/Assets/MyAssets/effect/activity/2604_qd/material/2604qd_010.lmat": {
+      "prefix": "v0.11.241.w"
+    },
+    "scene/Assets/MyAssets/effect/activity/2604_qd/material/2604qd_011.lmat": {
+      "prefix": "v0.11.241.w"
+    },
+    "scene/Assets/MyAssets/effect/activity/2604_qd/material/2604qd_012.lmat": {
+      "prefix": "v0.11.241.w"
+    },
+    "scene/Assets/MyAssets/effect/activity/2604_qd/material/2604qd_013.lmat": {
+      "prefix": "v0.11.241.w"
+    },
+    "scene/Assets/MyAssets/effect/activity/2604_qd/material/2604qd_014.lmat": {
+      "prefix": "v0.11.241.w"
+    },
+    "scene/Assets/MyAssets/effect/activity/2604_qd/material/2604qd_015.lmat": {
+      "prefix": "v0.11.241.w"
+    },
+    "scene/Assets/MyAssets/effect/activity/2604_qd/material/2604qd_016.lmat": {
+      "prefix": "v0.11.241.w"
+    },
+    "scene/Assets/MyAssets/effect/activity/2604_qd/material/2604qd_017.lmat": {
+      "prefix": "v0.11.241.w"
+    },
+    "scene/Assets/MyAssets/effect/activity/2604_qd/material/2604qd_018.lmat": {
+      "prefix": "v0.11.241.w"
+    },
+    "scene/Assets/MyAssets/effect/activity/2604_qd/material/2604qd_019.lmat": {
+      "prefix": "v0.11.241.w"
+    },
+    "scene/Assets/MyAssets/effect/activity/2604_qd/material/2604qd_020.lmat": {
+      "prefix": "v0.11.241.w"
+    },
+    "scene/Assets/MyAssets/effect/activity/2604_qd/material/2604qd_021.lmat": {
+      "prefix": "v0.11.241.w"
+    },
+    "scene/Assets/MyAssets/effect/activity/2604_qd/material/2604qd_022.lmat": {
+      "prefix": "v0.11.241.w"
+    },
+    "scene/Assets/MyAssets/effect/activity/2604_qd/material/2604qd_023.lmat": {
+      "prefix": "v0.11.241.w"
+    },
+    "scene/Assets/MyAssets/effect/activity/2604_qd/material/2604qd_024.lmat": {
+      "prefix": "v0.11.241.w"
+    },
+    "scene/Assets/MyAssets/effect/activity/2604_qd/material/2604qd_025.lmat": {
+      "prefix": "v0.11.241.w"
+    },
+    "scene/Assets/MyAssets/effect/activity/2604_qd/material/2604qd_026.lmat": {
+      "prefix": "v0.11.241.w"
+    },
+    "scene/Assets/MyAssets/effect/activity/2604_qd/material/2604qd_027.lmat": {
+      "prefix": "v0.11.241.w"
+    },
+    "scene/Assets/MyAssets/effect/activity/2604_qd/material/2604qd_029.lmat": {
+      "prefix": "v0.11.241.w"
+    },
+    "scene/Assets/MyAssets/effect/activity/2604_qd/material/2604qd_030.lmat": {
+      "prefix": "v0.11.241.w"
+    },
+    "scene/Assets/MyAssets/effect/activity/2604_qd/material/2604qd_031.lmat": {
+      "prefix": "v0.11.241.w"
+    },
+    "scene/Assets/MyAssets/effect/activity/2604_qd/material/2604qd_032.lmat": {
+      "prefix": "v0.11.241.w"
+    },
+    "scene/Assets/MyAssets/effect/activity/2604_qd/material/2604qd_033.lmat": {
+      "prefix": "v0.11.241.w"
+    },
+    "scene/Assets/MyAssets/effect/activity/2604_qd/material/2604qd_034.lmat": {
+      "prefix": "v0.11.241.w"
+    },
+    "scene/Assets/MyAssets/effect/activity/2604_qd/material/2604qd_035.lmat": {
+      "prefix": "v0.11.241.w"
+    },
+    "scene/Assets/MyAssets/effect/activity/2604_qd/material/2604qd_038.lmat": {
+      "prefix": "v0.11.241.w"
+    },
+    "scene/Assets/MyAssets/effect/activity/2604_qd/texture/2604qd_001.png": {
+      "prefix": "v0.11.241.w"
+    },
+    "scene/Assets/MyAssets/effect/activity/2604_qd/texture/2604qd_002.png": {
+      "prefix": "v0.11.241.w"
+    },
+    "scene/Assets/MyAssets/effect/activity/2604_qd/texture/2604qd_003.png": {
+      "prefix": "v0.11.241.w"
+    },
+    "scene/Assets/MyAssets/effect/activity/2604_qd/texture/2604qd_004.png": {
+      "prefix": "v0.11.241.w"
+    },
+    "scene/Assets/MyAssets/effect/activity/2604_qd/texture/2604qd_005.png": {
+      "prefix": "v0.11.241.w"
+    },
+    "scene/Assets/MyAssets/effect/activity/2604_qd/texture/2604qd_006.png": {
+      "prefix": "v0.11.241.w"
+    },
+    "scene/Assets/MyAssets/effect/activity/2604_qd/texture/2604qd_007.png": {
+      "prefix": "v0.11.241.w"
+    },
+    "scene/Assets/MyAssets/effect/activity/2604_qd/texture/2604qd_008.png": {
+      "prefix": "v0.11.241.w"
+    },
+    "scene/Assets/MyAssets/effect/activity/2604_qd/texture/2604qd_009.png": {
+      "prefix": "v0.11.241.w"
+    },
+    "scene/Assets/MyAssets/effect/activity/2604_qd/texture/2604qd_010.png": {
+      "prefix": "v0.11.241.w"
+    },
+    "scene/Assets/MyAssets/effect/activity/2604_qd/texture/2604qd_011.png": {
+      "prefix": "v0.11.241.w"
+    },
+    "scene/Assets/MyAssets/effect/activity/2604_qd/texture/2604qd_012.png": {
+      "prefix": "v0.11.241.w"
+    },
+    "scene/Assets/MyAssets/effect/activity/2604_qd/texture/2604qd_013.png": {
+      "prefix": "v0.11.241.w"
+    },
+    "scene/Assets/MyAssets/effect/activity/2604_qd/texture/2604qd_014.png": {
+      "prefix": "v0.11.241.w"
+    },
+    "scene/Assets/MyAssets/effect/activity/2604_qd/texture/2604qd_015.png": {
+      "prefix": "v0.11.241.w"
+    },
+    "scene/Assets/MyAssets/effect/activity/2604_qd/texture/2604qd_016.png": {
+      "prefix": "v0.11.241.w"
+    },
+    "scene/Assets/MyAssets/effect/activity/2604_qd/texture/2604qd_017.png": {
+      "prefix": "v0.11.241.w"
+    },
+    "scene/Assets/MyAssets/effect/activity/2604_qd/texture/2604qd_018.png": {
+      "prefix": "v0.11.241.w"
+    },
+    "scene/Assets/MyAssets/effect/activity/2604_qd/texture/2604qd_019.png": {
+      "prefix": "v0.11.241.w"
+    },
+    "scene/Assets/MyAssets/effect/activity/2604_qd/texture/2604qd_020.png": {
+      "prefix": "v0.11.241.w"
+    },
+    "scene/Assets/MyAssets/effect/activity/2604_qd/texture/2604qd_021.png": {
+      "prefix": "v0.11.241.w"
+    },
+    "scene/Assets/MyAssets/effect/activity/2604_qd/texture/2604qd_022.png": {
+      "prefix": "v0.11.241.w"
+    },
+    "scene/Assets/MyAssets/effect/activity/2604_qd/texture/2604qd_023.png": {
+      "prefix": "v0.11.241.w"
+    },
+    "scene/Assets/MyAssets/effect/activity/2604_qd/texture/2604qd_024.png": {
+      "prefix": "v0.11.241.w"
+    },
+    "scene/Assets/MyAssets/effect/activity/2604_qd/texture/2604qd_025.png": {
+      "prefix": "v0.11.241.w"
+    },
+    "scene/Assets/MyAssets/effect/activity/2604_qd/texture/2604qd_026.png": {
+      "prefix": "v0.11.241.w"
+    },
+    "scene/Assets/MyAssets/effect/activity/2604_qd/texture/2604qd_028.png": {
+      "prefix": "v0.11.241.w"
+    },
+    "scene/Assets/MyAssets/effect/activity/2604_qd/texture/2604qd_029.png": {
+      "prefix": "v0.11.241.w"
+    },
+    "scene/Assets/MyAssets/effect/activity/2604_qd/texture/2604qd_030.png": {
+      "prefix": "v0.11.241.w"
+    },
+    "scene/Assets/MyAssets/effect/activity/2604_qd/texture/2604qd_031.png": {
+      "prefix": "v0.11.241.w"
+    },
+    "scene/Assets/MyAssets/effect/activity/2604_qd/texture/2604qd_032.png": {
+      "prefix": "v0.11.241.w"
+    },
+    "scene/Assets/MyAssets/effect/activity/2604_qd/texture/2604qd_033.png": {
+      "prefix": "v0.11.241.w"
+    },
+    "jp/myres2/activity_banner/26dj_signin_0.png": {
       "prefix": "v0.11.241.w"
     }
   }
