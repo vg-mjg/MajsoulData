@@ -493,5 +493,16 @@
         "bannerLeftSelected": "",
         "bannerLeftIcon": "",
         "timeRemind": 0
+    },
+    {
+        "id": 260391,
+        "sort": 137,
+        "bannerType": 2,
+        "enterIcon": "myres2/activity_banner/26dj_signin_0.png",
+        "bannerBig": "",
+        "bannerLeft": "",
+        "bannerLeftSelected": "",
+        "bannerLeftIcon": "",
+        "timeRemind": 0
     }
 ]

@@ -11448,5 +11448,15 @@
         "nameKr": "",
         "type": "chest_replace_up",
         "needPopout": 0
+    },
+    {
+        "id": 260391,
+        "nameChs": "",
+        "nameChsT": "",
+        "nameJp": "",
+        "nameEn": "",
+        "nameKr": "",
+        "type": "daily_sign",
+        "needPopout": 1
     }
 ]

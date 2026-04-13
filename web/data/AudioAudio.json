@@ -1824,6 +1824,18 @@
         "type": "event"
     },
     {
+        "id": 10389,
+        "path": "audio/audio_lobby/2604dj_signin_enter",
+        "timeLength": 0,
+        "type": "event"
+    },
+    {
+        "id": 10390,
+        "path": "audio/audio_lobby/2604dj_signin_claim",
+        "timeLength": 0,
+        "type": "event"
+    },
+    {
         "id": 305032,
         "path": "audio/audio_mj/effect_liqi_canying",
         "timeLength": 1314,
