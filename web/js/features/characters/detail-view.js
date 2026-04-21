@@ -793,7 +793,7 @@ export async function renderCharacterDetailPage({
       clearSpinePreview();
       illustrationImage.removeAttribute("src");
       illustrationImage.classList.add("d-none");
-      illustrationPlaceholder.classList.remove("d-none");
+      illustrationPlaceholder.classList.add("d-none");
 
       const mounted = await setSpineIllustration(skin, token);
       if (mounted === null) return false;
