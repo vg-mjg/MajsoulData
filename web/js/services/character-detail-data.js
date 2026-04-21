@@ -540,6 +540,7 @@ function mapSkinDetail(skin, language, repository) {
     previewFull: buildSkinAssetCandidates(skin.path, repository.resourceManifest, "full.png", language),
     previewWaitingRoom: buildSkinAssetCandidates(skin.path, repository.resourceManifest, "waitingroom.png", language),
     spineAssetPairs: buildSpineAssetPairs(skin.path, repository.resourceManifest, language),
+    spineResourceManifest: repository.resourceManifest,
     extra: extra
       ? {
           effects: Array.isArray(extra.effects) ? extra.effects.filter(Boolean) : [],

@@ -285,7 +285,7 @@ function probeSpineUrl(url) {
   return promise;
 }
 
-function extractAtlasPageUrls(atlasUrl, atlasText) {
+function extractAtlasPageUrls(atlasUrl, atlasText, atlasPath, resourceManifest) {
   const text = String(atlasText || "");
   if (!text) return [];
 
@@ -293,16 +293,34 @@ function extractAtlasPageUrls(atlasUrl, atlasText) {
   const pages = [];
   const seen = new Set();
   const imagePattern = /\.(png|jpg|jpeg|webp|bmp)$/i;
+  const atlasDirPath = atlasPath ? String(atlasPath).replace(/[^/]+$/, "") : null;
 
   for (const line of lines) {
     if (!line || !imagePattern.test(line)) continue;
+
     let urlText = "";
     try {
       urlText = new URL(line, atlasUrl).toString();
     } catch {
       continue;
     }
-    if (!urlText || seen.has(urlText)) continue;
+    if (!urlText) continue;
+
+    // When the manifest is available, look up each image's correct version prefix.
+    // Atlas files often reference PNGs that were last updated in an older version than
+    // the atlas itself, so resolving relative to atlasUrl yields the wrong prefix.
+    if (resourceManifest && atlasDirPath && !line.startsWith("/") && !line.includes("://")) {
+      const canonicalPath = atlasDirPath + line;
+      const entry = resourceManifest[canonicalPath];
+      if (entry && entry.prefix) {
+        const candidates = assetUrlCandidates(canonicalPath, entry.prefix);
+        if (candidates.length > 0) {
+          urlText = candidates[0];
+        }
+      }
+    }
+
+    if (seen.has(urlText)) continue;
     seen.add(urlText);
     pages.push(urlText);
   }
@@ -310,7 +328,7 @@ function extractAtlasPageUrls(atlasUrl, atlasText) {
   return pages;
 }
 
-async function probeAtlasTexturePages(atlasUrl) {
+async function probeAtlasTexturePages(atlasUrl, atlasPath, resourceManifest) {
   const key = String(atlasUrl || "");
   if (!key) return true;
   if (atlasPageProbeCache.has(key)) {
@@ -333,7 +351,7 @@ async function probeAtlasTexturePages(atlasUrl) {
           window.setTimeout(() => resolve(""), SPINE_ATLAS_METADATA_TIMEOUT_MS);
         }),
       ]);
-      const pages = extractAtlasPageUrls(key, atlasText);
+      const pages = extractAtlasPageUrls(key, atlasText, atlasPath, resourceManifest);
       if (pages.length === 0) return true;
 
       const checks = await Promise.all(pages.map((url) => probeSpineUrl(url)));
@@ -347,7 +365,7 @@ async function probeAtlasTexturePages(atlasUrl) {
   return promise;
 }
 
-async function probeSpineAttempt(attempt) {
+async function probeSpineAttempt(attempt, resourceManifest) {
   if (!attempt || !attempt.skeletonUrl || !attempt.atlasUrl) return false;
   const [skeletonOk, atlasOk] = await Promise.all([
     probeSpineUrl(attempt.skeletonUrl),
@@ -355,7 +373,7 @@ async function probeSpineAttempt(attempt) {
   ]);
   if (!skeletonOk || !atlasOk) return false;
 
-  const pagesOk = await probeAtlasTexturePages(attempt.atlasUrl);
+  const pagesOk = await probeAtlasTexturePages(attempt.atlasUrl, attempt.atlasPath, resourceManifest);
   return Boolean(pagesOk);
 }
 
@@ -457,7 +475,51 @@ async function readAtlasPremultipliedAlpha(atlasUrl) {
   }
 }
 
-async function resolveLayers(sourcePlan) {
+async function fetchAtlasFileAlias(atlasUrl, atlasPath, resourceManifest) {
+  if (!resourceManifest || !atlasPath) return null;
+  const atlasDirPath = String(atlasPath).replace(/[^/]+$/, "");
+  if (!atlasDirPath) return null;
+
+  try {
+    const response = await Promise.race([
+      fetch(atlasUrl, { cache: "force-cache", mode: "cors" }),
+      new Promise((resolve) => {
+        window.setTimeout(() => resolve(null), SPINE_ATLAS_METADATA_TIMEOUT_MS);
+      }),
+    ]);
+    if (!response || !response.ok) return null;
+
+    const atlasText = await Promise.race([
+      response.text(),
+      new Promise((resolve) => {
+        window.setTimeout(() => resolve(""), SPINE_ATLAS_METADATA_TIMEOUT_MS);
+      }),
+    ]);
+
+    const lines = String(atlasText || "").split(/\r?\n/).map((l) => String(l || "").trim());
+    const imagePattern = /\.(png|jpg|jpeg|webp|bmp)$/i;
+    const alias = Object.create(null);
+
+    for (const line of lines) {
+      if (!line || !imagePattern.test(line)) continue;
+      if (line.startsWith("/") || line.includes("://")) continue;
+      const canonicalPath = atlasDirPath + line;
+      const entry = resourceManifest[canonicalPath];
+      if (entry && entry.prefix) {
+        const candidates = assetUrlCandidates(canonicalPath, entry.prefix);
+        if (candidates.length > 0) {
+          alias[line] = candidates[0];
+        }
+      }
+    }
+
+    return Object.keys(alias).length > 0 ? alias : null;
+  } catch {
+    return null;
+  }
+}
+
+async function resolveLayers(sourcePlan, resourceManifest) {
   const resolved = [];
   const primarySource = sourcePlan.layers.find((l) => l.layer === sourcePlan.primaryLayer)?.attempts[0] ?? null;
 
@@ -467,10 +529,11 @@ async function resolveLayers(sourcePlan) {
       : layerEntry.attempts;
 
     for (const attempt of sortedAttempts) {
-      const ok = await probeSpineAttempt(attempt);
+      const ok = await probeSpineAttempt(attempt, resourceManifest);
       if (ok) {
         const pma = await readAtlasPremultipliedAlpha(attempt.atlasUrl);
-        resolved.push({ skeletonUrl: attempt.skeletonUrl, atlasUrl: attempt.atlasUrl, pma });
+        const fileAlias = await fetchAtlasFileAlias(attempt.atlasUrl, attempt.atlasPath, resourceManifest);
+        resolved.push({ skeletonUrl: attempt.skeletonUrl, atlasUrl: attempt.atlasUrl, pma, fileAlias });
         break;
       }
     }
@@ -479,7 +542,7 @@ async function resolveLayers(sourcePlan) {
   return resolved;
 }
 
-async function createWebGLSpineViewer(host, sourcePlan) {
+async function createWebGLSpineViewer(host, sourcePlan, resourceManifest) {
   const runtime = window.spine;
   if (!runtime || !runtime.SpineCanvas) throw new Error("Spine runtime unavailable.");
 
@@ -489,7 +552,7 @@ async function createWebGLSpineViewer(host, sourcePlan) {
   loadingEl.innerHTML = '<div class="spine-viewer-spinner"></div>';
   host.replaceChildren(loadingEl);
 
-  const resolvedLayers = await resolveLayers(sourcePlan);
+  const resolvedLayers = await resolveLayers(sourcePlan, resourceManifest);
   if (resolvedLayers.length === 0) throw new Error("No accessible spine layers found.");
 
   const premultipliedAlpha = resolvedLayers[0].pma;
@@ -679,7 +742,11 @@ async function createWebGLSpineViewer(host, sourcePlan) {
       loadAssets(sc) {
         for (const l of resolvedLayers) {
           sc.assetManager.loadBinary(l.skeletonUrl);
-          sc.assetManager.loadTextureAtlas(l.atlasUrl);
+          if (l.fileAlias) {
+            sc.assetManager.loadTextureAtlas(l.atlasUrl, null, null, l.fileAlias);
+          } else {
+            sc.assetManager.loadTextureAtlas(l.atlasUrl);
+          }
         }
       },
 
@@ -781,7 +848,7 @@ async function createWebGLSpineViewer(host, sourcePlan) {
   });
 }
 
-export async function mountCharacterSpinePreview({ host, spineAssetPairs }) {
+export async function mountCharacterSpinePreview({ host, spineAssetPairs, resourceManifest }) {
   if (!host || !Array.isArray(spineAssetPairs) || spineAssetPairs.length === 0) {
     return null;
   }
@@ -792,7 +859,7 @@ export async function mountCharacterSpinePreview({ host, spineAssetPairs }) {
     return null;
   }
 
-  const instance = await createWebGLSpineViewer(host, source);
+  const instance = await createWebGLSpineViewer(host, source, resourceManifest);
 
   let disconnectObserver = null;
   let destroyed = false;
