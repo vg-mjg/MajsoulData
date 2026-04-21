@@ -714,6 +714,7 @@ export async function renderCharacterDetailPage({
         const preview = await mountCharacterSpinePreview({
           host: spineHost,
           spineAssetPairs: Array.isArray(skin && skin.spineAssetPairs) ? skin.spineAssetPairs : [],
+          resourceManifest: skin && skin.spineResourceManifest ? skin.spineResourceManifest : null,
         });
 
         if (token !== illustrationRequestToken) {
