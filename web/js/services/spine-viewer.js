@@ -579,6 +579,7 @@ async function createWebGLSpineViewer(host, sourcePlan, resourceManifest) {
     <div class="spine-viewer-controls-row">
       <button class="spine-viewer-button spine-viewer-play-button">&#9646;&#9646;</button>
       <select class="spine-viewer-animation-select" disabled><option>Loading...</option></select>
+      <button class="spine-viewer-button spine-viewer-fullscreen-button" title="Toggle fullscreen">&#x26F6;</button>
     </div>
   `;
 
@@ -590,6 +591,18 @@ async function createWebGLSpineViewer(host, sourcePlan, resourceManifest) {
   const timelineFillEl = controlsEl.querySelector(".spine-viewer-timeline-fill");
   const btnPlay = controlsEl.querySelector(".spine-viewer-play-button");
   const animSelect = controlsEl.querySelector(".spine-viewer-animation-select");
+  const btnFullscreen = controlsEl.querySelector(".spine-viewer-fullscreen-button");
+
+  btnFullscreen.addEventListener("click", () => {
+    if (!document.fullscreenElement) {
+      wrapper.requestFullscreen();
+    } else {
+      document.exitFullscreen();
+    }
+  });
+  wrapper.addEventListener("fullscreenchange", () => {
+    btnFullscreen.classList.toggle("spine-viewer-button-active", !!document.fullscreenElement);
+  });
 
   return new Promise((resolve, reject) => {
     let playing = true;
