@@ -1,0 +1,362 @@
+[
+    {
+        "activityId": 260401,
+        "npcId": 1001,
+        "characterId": 1001,
+        "equipmentList": "70001111,70001401,70001533",
+        "accessibleDays": "0-2",
+        "npcName": 26041011
+    },
+    {
+        "activityId": 260401,
+        "npcId": 1002,
+        "characterId": 1001,
+        "equipmentList": "70001121,70001400,70001500",
+        "accessibleDays": "0-2",
+        "npcName": 26041011
+    },
+    {
+        "activityId": 260401,
+        "npcId": 1003,
+        "characterId": 1001,
+        "equipmentList": "70001131,70001438,70001517",
+        "accessibleDays": "0-2",
+        "npcName": 26041011
+    },
+    {
+        "activityId": 260401,
+        "npcId": 1004,
+        "characterId": 1002,
+        "equipmentList": "70001211,70001400,70001541",
+        "accessibleDays": "0-2",
+        "npcName": 26041012
+    },
+    {
+        "activityId": 260401,
+        "npcId": 1005,
+        "characterId": 1002,
+        "equipmentList": "70001221,70001401,70001500",
+        "accessibleDays": "0-2",
+        "npcName": 26041012
+    },
+    {
+        "activityId": 260401,
+        "npcId": 1006,
+        "characterId": 1002,
+        "equipmentList": "70001231,70001400,70001500",
+        "accessibleDays": "0-2",
+        "npcName": 26041012
+    },
+    {
+        "activityId": 260401,
+        "npcId": 1007,
+        "characterId": 1003,
+        "equipmentList": "70001311,70001400,70001517",
+        "accessibleDays": "0-2",
+        "npcName": 26041013
+    },
+    {
+        "activityId": 260401,
+        "npcId": 1008,
+        "characterId": 1003,
+        "equipmentList": "70001321,70001400,70001533",
+        "accessibleDays": "0-2",
+        "npcName": 26041013
+    },
+    {
+        "activityId": 260401,
+        "npcId": 1009,
+        "characterId": 1003,
+        "equipmentList": "70001331,70001400,70001541",
+        "accessibleDays": "0-2",
+        "npcName": 26041013
+    },
+    {
+        "activityId": 260401,
+        "npcId": 1010,
+        "characterId": 1001,
+        "equipmentList": "70001112,70001438,70001502",
+        "accessibleDays": "3-7",
+        "npcName": 26041021
+    },
+    {
+        "activityId": 260401,
+        "npcId": 1011,
+        "characterId": 1001,
+        "equipmentList": "70001122,70001433,70001501",
+        "accessibleDays": "3-7",
+        "npcName": 26041021
+    },
+    {
+        "activityId": 260401,
+        "npcId": 1012,
+        "characterId": 1001,
+        "equipmentList": "70001132,70001418,70001534",
+        "accessibleDays": "3-7",
+        "npcName": 26041021
+    },
+    {
+        "activityId": 260401,
+        "npcId": 1013,
+        "characterId": 1002,
+        "equipmentList": "70001212,70001434,70001534",
+        "accessibleDays": "3-7",
+        "npcName": 26041022
+    },
+    {
+        "activityId": 260401,
+        "npcId": 1014,
+        "characterId": 1002,
+        "equipmentList": "70001222,70001438,70001533",
+        "accessibleDays": "3-7",
+        "npcName": 26041022
+    },
+    {
+        "activityId": 260401,
+        "npcId": 1015,
+        "characterId": 1002,
+        "equipmentList": "70001232,70001417,70001518",
+        "accessibleDays": "3-7",
+        "npcName": 26041022
+    },
+    {
+        "activityId": 260401,
+        "npcId": 1016,
+        "characterId": 1003,
+        "equipmentList": "70001312,70001418,70001517",
+        "accessibleDays": "3-7",
+        "npcName": 26041023
+    },
+    {
+        "activityId": 260401,
+        "npcId": 1017,
+        "characterId": 1003,
+        "equipmentList": "70001322,70001433,70001502",
+        "accessibleDays": "3-7",
+        "npcName": 26041023
+    },
+    {
+        "activityId": 260401,
+        "npcId": 1018,
+        "characterId": 1003,
+        "equipmentList": "70001332,70001433,70001517",
+        "accessibleDays": "3-7",
+        "npcName": 26041023
+    },
+    {
+        "activityId": 260401,
+        "npcId": 1019,
+        "characterId": 1001,
+        "equipmentList": "70001113,70001440,70001506",
+        "accessibleDays": "8-10",
+        "npcName": 26041031
+    },
+    {
+        "activityId": 260401,
+        "npcId": 1020,
+        "characterId": 1001,
+        "equipmentList": "70001123,70001434,70001543",
+        "accessibleDays": "8-10",
+        "npcName": 26041031
+    },
+    {
+        "activityId": 260401,
+        "npcId": 1021,
+        "characterId": 1001,
+        "equipmentList": "70001133,70001434,70001546",
+        "accessibleDays": "8-10",
+        "npcName": 26041031
+    },
+    {
+        "activityId": 260401,
+        "npcId": 1022,
+        "characterId": 1002,
+        "equipmentList": "70001213,70001418,70001542",
+        "accessibleDays": "8-10",
+        "npcName": 26041032
+    },
+    {
+        "activityId": 260401,
+        "npcId": 1023,
+        "characterId": 1002,
+        "equipmentList": "70001223,70001435,70001502",
+        "accessibleDays": "8-10",
+        "npcName": 26041032
+    },
+    {
+        "activityId": 260401,
+        "npcId": 1024,
+        "characterId": 1002,
+        "equipmentList": "70001233,70001419,70001502",
+        "accessibleDays": "8-10",
+        "npcName": 26041032
+    },
+    {
+        "activityId": 260401,
+        "npcId": 1025,
+        "characterId": 1003,
+        "equipmentList": "70001313,70001434,70001519",
+        "accessibleDays": "8-10",
+        "npcName": 26041033
+    },
+    {
+        "activityId": 260401,
+        "npcId": 1026,
+        "characterId": 1003,
+        "equipmentList": "70001323,70001403,70001538",
+        "accessibleDays": "8-10",
+        "npcName": 26041033
+    },
+    {
+        "activityId": 260401,
+        "npcId": 1027,
+        "characterId": 1003,
+        "equipmentList": "70001333,70001439,70001502",
+        "accessibleDays": "8-10",
+        "npcName": 26041033
+    },
+    {
+        "activityId": 260401,
+        "npcId": 1028,
+        "characterId": 1001,
+        "equipmentList": "70001114,70001441,70001544",
+        "accessibleDays": "11-13",
+        "npcName": 26041041
+    },
+    {
+        "activityId": 260401,
+        "npcId": 1029,
+        "characterId": 1001,
+        "equipmentList": "70001124,70001406,70001520",
+        "accessibleDays": "11-13",
+        "npcName": 26041041
+    },
+    {
+        "activityId": 260401,
+        "npcId": 1030,
+        "characterId": 1001,
+        "equipmentList": "70001134,70001407,70001503",
+        "accessibleDays": "11-13",
+        "npcName": 26041041
+    },
+    {
+        "activityId": 260401,
+        "npcId": 1031,
+        "characterId": 1002,
+        "equipmentList": "70001214,70001423,70001523",
+        "accessibleDays": "11-13",
+        "npcName": 26041042
+    },
+    {
+        "activityId": 260401,
+        "npcId": 1032,
+        "characterId": 1002,
+        "equipmentList": "70001224,70001440,70001522",
+        "accessibleDays": "11-13",
+        "npcName": 26041042
+    },
+    {
+        "activityId": 260401,
+        "npcId": 1033,
+        "characterId": 1002,
+        "equipmentList": "70001234,70001440,70001536",
+        "accessibleDays": "11-13",
+        "npcName": 26041042
+    },
+    {
+        "activityId": 260401,
+        "npcId": 1034,
+        "characterId": 1003,
+        "equipmentList": "70001314,70001419,70001519",
+        "accessibleDays": "11-13",
+        "npcName": 26041043
+    },
+    {
+        "activityId": 260401,
+        "npcId": 1035,
+        "characterId": 1003,
+        "equipmentList": "70001324,70001419,70001520",
+        "accessibleDays": "11-13",
+        "npcName": 26041043
+    },
+    {
+        "activityId": 260401,
+        "npcId": 1036,
+        "characterId": 1003,
+        "equipmentList": "70001334,70001441,70001504",
+        "accessibleDays": "11-13",
+        "npcName": 26041043
+    },
+    {
+        "activityId": 260401,
+        "npcId": 1037,
+        "characterId": 1001,
+        "equipmentList": "70001115,70001405,70001540",
+        "accessibleDays": "14-20",
+        "npcName": 26041051
+    },
+    {
+        "activityId": 260401,
+        "npcId": 1038,
+        "characterId": 1001,
+        "equipmentList": "70001125,70001441,70001524",
+        "accessibleDays": "14-20",
+        "npcName": 26041051
+    },
+    {
+        "activityId": 260401,
+        "npcId": 1039,
+        "characterId": 1001,
+        "equipmentList": "70001135,70001405,70001546",
+        "accessibleDays": "14-20",
+        "npcName": 26041051
+    },
+    {
+        "activityId": 260401,
+        "npcId": 1040,
+        "characterId": 1002,
+        "equipmentList": "70001215,70001441,70001506",
+        "accessibleDays": "14-20",
+        "npcName": 26041052
+    },
+    {
+        "activityId": 260401,
+        "npcId": 1041,
+        "characterId": 1002,
+        "equipmentList": "70001225,70001422,70001547",
+        "accessibleDays": "14-20",
+        "npcName": 26041052
+    },
+    {
+        "activityId": 260401,
+        "npcId": 1042,
+        "characterId": 1002,
+        "equipmentList": "70001235,70001435,70001506",
+        "accessibleDays": "14-20",
+        "npcName": 26041052
+    },
+    {
+        "activityId": 260401,
+        "npcId": 1043,
+        "characterId": 1003,
+        "equipmentList": "70001315,70001437,70001521",
+        "accessibleDays": "14-20",
+        "npcName": 26041053
+    },
+    {
+        "activityId": 260401,
+        "npcId": 1044,
+        "characterId": 1003,
+        "equipmentList": "70001325,70001408,70001503",
+        "accessibleDays": "14-20",
+        "npcName": 26041053
+    },
+    {
+        "activityId": 260401,
+        "npcId": 1045,
+        "characterId": 1003,
+        "equipmentList": "70001335,70001404,70001508",
+        "accessibleDays": "14-20",
+        "npcName": 26041053
+    }
+]

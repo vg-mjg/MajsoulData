@@ -206,5 +206,18 @@
         "strName": "25101012",
         "strRule": "25101014",
         "setJushu": 1
+    },
+    {
+        "ruleImages": [
+            "myres2/room_rule/qiangduozhizhan1.png",
+            "myres2/room_rule/qiangduozhizhan2.png",
+            ""
+        ],
+        "id": 17,
+        "preRule": "qiangduozhizhan",
+        "sort": 17,
+        "strName": "26041083",
+        "strRule": "26041086",
+        "setJushu": 1
     }
 ]

@@ -1,0 +1,562 @@
+[
+    {
+        "id": 1001,
+        "itemId": 70001111,
+        "replaceId": 70001112
+    },
+    {
+        "id": 1001,
+        "itemId": 70001112,
+        "replaceId": 70001113
+    },
+    {
+        "id": 1001,
+        "itemId": 70001113,
+        "replaceId": 70001114
+    },
+    {
+        "id": 1001,
+        "itemId": 70001114,
+        "replaceId": 70001115
+    },
+    {
+        "id": 1001,
+        "itemId": 70001121,
+        "replaceId": 70001122
+    },
+    {
+        "id": 1001,
+        "itemId": 70001122,
+        "replaceId": 70001123
+    },
+    {
+        "id": 1001,
+        "itemId": 70001123,
+        "replaceId": 70001124
+    },
+    {
+        "id": 1001,
+        "itemId": 70001124,
+        "replaceId": 70001125
+    },
+    {
+        "id": 1001,
+        "itemId": 70001131,
+        "replaceId": 70001132
+    },
+    {
+        "id": 1001,
+        "itemId": 70001132,
+        "replaceId": 70001133
+    },
+    {
+        "id": 1001,
+        "itemId": 70001133,
+        "replaceId": 70001134
+    },
+    {
+        "id": 1001,
+        "itemId": 70001134,
+        "replaceId": 70001135
+    },
+    {
+        "id": 1001,
+        "itemId": 70001211,
+        "replaceId": 70001212
+    },
+    {
+        "id": 1001,
+        "itemId": 70001212,
+        "replaceId": 70001213
+    },
+    {
+        "id": 1001,
+        "itemId": 70001213,
+        "replaceId": 70001214
+    },
+    {
+        "id": 1001,
+        "itemId": 70001214,
+        "replaceId": 70001215
+    },
+    {
+        "id": 1001,
+        "itemId": 70001221,
+        "replaceId": 70001222
+    },
+    {
+        "id": 1001,
+        "itemId": 70001222,
+        "replaceId": 70001223
+    },
+    {
+        "id": 1001,
+        "itemId": 70001223,
+        "replaceId": 70001224
+    },
+    {
+        "id": 1001,
+        "itemId": 70001224,
+        "replaceId": 70001225
+    },
+    {
+        "id": 1001,
+        "itemId": 70001231,
+        "replaceId": 70001232
+    },
+    {
+        "id": 1001,
+        "itemId": 70001232,
+        "replaceId": 70001233
+    },
+    {
+        "id": 1001,
+        "itemId": 70001233,
+        "replaceId": 70001234
+    },
+    {
+        "id": 1001,
+        "itemId": 70001234,
+        "replaceId": 70001235
+    },
+    {
+        "id": 1001,
+        "itemId": 70001311,
+        "replaceId": 70001312
+    },
+    {
+        "id": 1001,
+        "itemId": 70001312,
+        "replaceId": 70001313
+    },
+    {
+        "id": 1001,
+        "itemId": 70001313,
+        "replaceId": 70001314
+    },
+    {
+        "id": 1001,
+        "itemId": 70001314,
+        "replaceId": 70001315
+    },
+    {
+        "id": 1001,
+        "itemId": 70001321,
+        "replaceId": 70001322
+    },
+    {
+        "id": 1001,
+        "itemId": 70001322,
+        "replaceId": 70001323
+    },
+    {
+        "id": 1001,
+        "itemId": 70001323,
+        "replaceId": 70001324
+    },
+    {
+        "id": 1001,
+        "itemId": 70001324,
+        "replaceId": 70001325
+    },
+    {
+        "id": 1001,
+        "itemId": 70001331,
+        "replaceId": 70001332
+    },
+    {
+        "id": 1001,
+        "itemId": 70001332,
+        "replaceId": 70001333
+    },
+    {
+        "id": 1001,
+        "itemId": 70001333,
+        "replaceId": 70001334
+    },
+    {
+        "id": 1001,
+        "itemId": 70001334,
+        "replaceId": 70001335
+    },
+    {
+        "id": 1001,
+        "itemId": 70001401,
+        "replaceId": 70001402
+    },
+    {
+        "id": 1001,
+        "itemId": 70001402,
+        "replaceId": 70001403
+    },
+    {
+        "id": 1001,
+        "itemId": 70001403,
+        "replaceId": 70001404
+    },
+    {
+        "id": 1001,
+        "itemId": 70001404,
+        "replaceId": 70001405
+    },
+    {
+        "id": 1001,
+        "itemId": 70001406,
+        "replaceId": 70001407
+    },
+    {
+        "id": 1001,
+        "itemId": 70001407,
+        "replaceId": 70001408
+    },
+    {
+        "id": 1001,
+        "itemId": 70001409,
+        "replaceId": 70001410
+    },
+    {
+        "id": 1001,
+        "itemId": 70001410,
+        "replaceId": 70001411
+    },
+    {
+        "id": 1001,
+        "itemId": 70001411,
+        "replaceId": 70001412
+    },
+    {
+        "id": 1001,
+        "itemId": 70001412,
+        "replaceId": 70001413
+    },
+    {
+        "id": 1001,
+        "itemId": 70001414,
+        "replaceId": 70001415
+    },
+    {
+        "id": 1001,
+        "itemId": 70001415,
+        "replaceId": 70001416
+    },
+    {
+        "id": 1001,
+        "itemId": 70001417,
+        "replaceId": 70001418
+    },
+    {
+        "id": 1001,
+        "itemId": 70001418,
+        "replaceId": 70001419
+    },
+    {
+        "id": 1001,
+        "itemId": 70001419,
+        "replaceId": 70001420
+    },
+    {
+        "id": 1001,
+        "itemId": 70001420,
+        "replaceId": 70001421
+    },
+    {
+        "id": 1001,
+        "itemId": 70001422,
+        "replaceId": 70001423
+    },
+    {
+        "id": 1001,
+        "itemId": 70001423,
+        "replaceId": 70001424
+    },
+    {
+        "id": 1001,
+        "itemId": 70001425,
+        "replaceId": 70001426
+    },
+    {
+        "id": 1001,
+        "itemId": 70001426,
+        "replaceId": 70001427
+    },
+    {
+        "id": 1001,
+        "itemId": 70001427,
+        "replaceId": 70001428
+    },
+    {
+        "id": 1001,
+        "itemId": 70001428,
+        "replaceId": 70001429
+    },
+    {
+        "id": 1001,
+        "itemId": 70001430,
+        "replaceId": 70001431
+    },
+    {
+        "id": 1001,
+        "itemId": 70001431,
+        "replaceId": 70001432
+    },
+    {
+        "id": 1001,
+        "itemId": 70001433,
+        "replaceId": 70001434
+    },
+    {
+        "id": 1001,
+        "itemId": 70001434,
+        "replaceId": 70001435
+    },
+    {
+        "id": 1001,
+        "itemId": 70001435,
+        "replaceId": 70001436
+    },
+    {
+        "id": 1001,
+        "itemId": 70001436,
+        "replaceId": 70001437
+    },
+    {
+        "id": 1001,
+        "itemId": 70001438,
+        "replaceId": 70001439
+    },
+    {
+        "id": 1001,
+        "itemId": 70001439,
+        "replaceId": 70001440
+    },
+    {
+        "id": 1001,
+        "itemId": 70001440,
+        "replaceId": 70001441
+    },
+    {
+        "id": 1001,
+        "itemId": 70001441,
+        "replaceId": 70001442
+    },
+    {
+        "id": 1001,
+        "itemId": 70001443,
+        "replaceId": 70001444
+    },
+    {
+        "id": 1001,
+        "itemId": 70001444,
+        "replaceId": 70001445
+    },
+    {
+        "id": 1001,
+        "itemId": 70001445,
+        "replaceId": 70001446
+    },
+    {
+        "id": 1001,
+        "itemId": 70001446,
+        "replaceId": 70001447
+    },
+    {
+        "id": 1001,
+        "itemId": 70001448,
+        "replaceId": 70001449
+    },
+    {
+        "id": 1001,
+        "itemId": 70001449,
+        "replaceId": 70001450
+    },
+    {
+        "id": 1001,
+        "itemId": 70001450,
+        "replaceId": 70001451
+    },
+    {
+        "id": 1001,
+        "itemId": 70001451,
+        "replaceId": 70001452
+    },
+    {
+        "id": 1001,
+        "itemId": 70001501,
+        "replaceId": 70001502
+    },
+    {
+        "id": 1001,
+        "itemId": 70001502,
+        "replaceId": 70001503
+    },
+    {
+        "id": 1001,
+        "itemId": 70001503,
+        "replaceId": 70001504
+    },
+    {
+        "id": 1001,
+        "itemId": 70001504,
+        "replaceId": 70001505
+    },
+    {
+        "id": 1001,
+        "itemId": 70001506,
+        "replaceId": 70001507
+    },
+    {
+        "id": 1001,
+        "itemId": 70001507,
+        "replaceId": 70001508
+    },
+    {
+        "id": 1001,
+        "itemId": 70001509,
+        "replaceId": 70001510
+    },
+    {
+        "id": 1001,
+        "itemId": 70001510,
+        "replaceId": 70001511
+    },
+    {
+        "id": 1001,
+        "itemId": 70001511,
+        "replaceId": 70001512
+    },
+    {
+        "id": 1001,
+        "itemId": 70001512,
+        "replaceId": 70001513
+    },
+    {
+        "id": 1001,
+        "itemId": 70001514,
+        "replaceId": 70001515
+    },
+    {
+        "id": 1001,
+        "itemId": 70001515,
+        "replaceId": 70001516
+    },
+    {
+        "id": 1001,
+        "itemId": 70001517,
+        "replaceId": 70001518
+    },
+    {
+        "id": 1001,
+        "itemId": 70001518,
+        "replaceId": 70001519
+    },
+    {
+        "id": 1001,
+        "itemId": 70001519,
+        "replaceId": 70001520
+    },
+    {
+        "id": 1001,
+        "itemId": 70001520,
+        "replaceId": 70001521
+    },
+    {
+        "id": 1001,
+        "itemId": 70001522,
+        "replaceId": 70001523
+    },
+    {
+        "id": 1001,
+        "itemId": 70001523,
+        "replaceId": 70001524
+    },
+    {
+        "id": 1001,
+        "itemId": 70001525,
+        "replaceId": 70001526
+    },
+    {
+        "id": 1001,
+        "itemId": 70001526,
+        "replaceId": 70001527
+    },
+    {
+        "id": 1001,
+        "itemId": 70001527,
+        "replaceId": 70001528
+    },
+    {
+        "id": 1001,
+        "itemId": 70001528,
+        "replaceId": 70001529
+    },
+    {
+        "id": 1001,
+        "itemId": 70001530,
+        "replaceId": 70001531
+    },
+    {
+        "id": 1001,
+        "itemId": 70001531,
+        "replaceId": 70001532
+    },
+    {
+        "id": 1001,
+        "itemId": 70001533,
+        "replaceId": 70001534
+    },
+    {
+        "id": 1001,
+        "itemId": 70001534,
+        "replaceId": 70001535
+    },
+    {
+        "id": 1001,
+        "itemId": 70001535,
+        "replaceId": 70001536
+    },
+    {
+        "id": 1001,
+        "itemId": 70001536,
+        "replaceId": 70001537
+    },
+    {
+        "id": 1001,
+        "itemId": 70001538,
+        "replaceId": 70001539
+    },
+    {
+        "id": 1001,
+        "itemId": 70001539,
+        "replaceId": 70001540
+    },
+    {
+        "id": 1001,
+        "itemId": 70001541,
+        "replaceId": 70001542
+    },
+    {
+        "id": 1001,
+        "itemId": 70001542,
+        "replaceId": 70001543
+    },
+    {
+        "id": 1001,
+        "itemId": 70001543,
+        "replaceId": 70001544
+    },
+    {
+        "id": 1001,
+        "itemId": 70001544,
+        "replaceId": 70001545
+    },
+    {
+        "id": 1001,
+        "itemId": 70001546,
+        "replaceId": 70001547
+    },
+    {
+        "id": 1001,
+        "itemId": 70001547,
+        "replaceId": 70001548
+    }
+]

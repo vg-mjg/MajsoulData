@@ -6241,6 +6241,96 @@
     },
     {
         "sargs": [
+            "1500",
+            "1",
+            "",
+            ""
+        ],
+        "id": 308052,
+        "resName": "ron_26dj",
+        "audioId": 308048,
+        "characterId": 0,
+        "oldEffectMark": 0,
+        "handVersion": 0,
+        "seatRelated": 0
+    },
+    {
+        "sargs": [
+            "heng",
+            "1",
+            "",
+            ""
+        ],
+        "id": 308053,
+        "resName": "effect_liqi_26dj",
+        "audioId": 308049,
+        "characterId": 0,
+        "oldEffectMark": 0,
+        "handVersion": 0,
+        "seatRelated": 1
+    },
+    {
+        "sargs": [
+            "",
+            "",
+            "",
+            ""
+        ],
+        "id": 308054,
+        "resName": "liqi_26dj",
+        "audioId": 0,
+        "characterId": 0,
+        "oldEffectMark": 0,
+        "handVersion": 0,
+        "seatRelated": 0
+    },
+    {
+        "sargs": [
+            "",
+            "",
+            "",
+            ""
+        ],
+        "id": 308055,
+        "resName": "tablecloth_26dj",
+        "audioId": 0,
+        "characterId": 0,
+        "oldEffectMark": 0,
+        "handVersion": 0,
+        "seatRelated": 0
+    },
+    {
+        "sargs": [
+            "",
+            "",
+            "",
+            ""
+        ],
+        "id": 308056,
+        "resName": "mjp_26dj",
+        "audioId": 0,
+        "characterId": 0,
+        "oldEffectMark": 0,
+        "handVersion": 0,
+        "seatRelated": 0
+    },
+    {
+        "sargs": [
+            "95",
+            "",
+            "",
+            ""
+        ],
+        "id": 308057,
+        "resName": "headframe_26dj",
+        "audioId": 0,
+        "characterId": 0,
+        "oldEffectMark": 0,
+        "handVersion": 0,
+        "seatRelated": 0
+    },
+    {
+        "sargs": [
             "",
             "",
             "",
@@ -6593,6 +6683,66 @@
         ],
         "id": 30990010,
         "resName": "hand_banbenchenma",
+        "audioId": 0,
+        "characterId": 0,
+        "oldEffectMark": 0,
+        "handVersion": 2,
+        "seatRelated": 0
+    },
+    {
+        "sargs": [
+            "",
+            "",
+            "",
+            ""
+        ],
+        "id": 30990011,
+        "resName": "hand_tongren",
+        "audioId": 0,
+        "characterId": 0,
+        "oldEffectMark": 0,
+        "handVersion": 2,
+        "seatRelated": 0
+    },
+    {
+        "sargs": [
+            "",
+            "",
+            "",
+            ""
+        ],
+        "id": 30990012,
+        "resName": "hand_yasina",
+        "audioId": 0,
+        "characterId": 0,
+        "oldEffectMark": 0,
+        "handVersion": 2,
+        "seatRelated": 0
+    },
+    {
+        "sargs": [
+            "",
+            "",
+            "",
+            ""
+        ],
+        "id": 30990013,
+        "resName": "hand_lifa",
+        "audioId": 0,
+        "characterId": 0,
+        "oldEffectMark": 0,
+        "handVersion": 2,
+        "seatRelated": 0
+    },
+    {
+        "sargs": [
+            "",
+            "",
+            "",
+            ""
+        ],
+        "id": 30990014,
+        "resName": "hand_shinai",
         "audioId": 0,
         "characterId": 0,
         "oldEffectMark": 0,

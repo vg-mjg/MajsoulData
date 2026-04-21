@@ -17,6 +17,7 @@
     - [AccountAchievementSnapshot.RewardedGroupSnapshot](#lq-AccountAchievementSnapshot-RewardedGroupSnapshot)
     - [AccountActiveState](#lq-AccountActiveState)
     - [AccountActivityUpdate](#lq-AccountActivityUpdate)
+    - [AccountActivityUpdate.ActivityBuffDataArrayDirty](#lq-AccountActivityUpdate-ActivityBuffDataArrayDirty)
     - [AccountCacheView](#lq-AccountCacheView)
     - [AccountCharacterSnapshot](#lq-AccountCharacterSnapshot)
     - [AccountCharacterSnapshot.HiddenCharacter](#lq-AccountCharacterSnapshot-HiddenCharacter)
@@ -100,6 +101,8 @@
     - [ActionPrototype](#lq-ActionPrototype)
     - [ActionRevealTile](#lq-ActionRevealTile)
     - [ActionSelectGap](#lq-ActionSelectGap)
+    - [ActionSubmit](#lq-ActionSubmit)
+    - [ActionTake](#lq-ActionTake)
     - [ActionUnveilTile](#lq-ActionUnveilTile)
     - [Activity](#lq-Activity)
     - [ActivityAccumulatedPointData](#lq-ActivityAccumulatedPointData)
@@ -138,6 +141,25 @@
     - [ActivityGachaUpdateData](#lq-ActivityGachaUpdateData)
     - [ActivityIdTimeRecord](#lq-ActivityIdTimeRecord)
     - [ActivityIslandData](#lq-ActivityIslandData)
+    - [ActivityMMOData](#lq-ActivityMMOData)
+    - [ActivityMMOData.ActivityMMOBagData](#lq-ActivityMMOData-ActivityMMOBagData)
+    - [ActivityMMOData.ActivityMMOBagData.ActivityMMORandomRecord](#lq-ActivityMMOData-ActivityMMOBagData-ActivityMMORandomRecord)
+    - [ActivityMMOData.ActivityMMOCharacterData](#lq-ActivityMMOData-ActivityMMOCharacterData)
+    - [ActivityMMOData.ActivityMMOMapData](#lq-ActivityMMOData-ActivityMMOMapData)
+    - [ActivityMMOData.ActivityMMOSupportData](#lq-ActivityMMOData-ActivityMMOSupportData)
+    - [ActivityMMOData.ActivityMMOTeamData](#lq-ActivityMMOData-ActivityMMOTeamData)
+    - [ActivityMMODataChanges](#lq-ActivityMMODataChanges)
+    - [ActivityMMODataChanges.ActivityMMOBagDataChanges](#lq-ActivityMMODataChanges-ActivityMMOBagDataChanges)
+    - [ActivityMMODataChanges.ActivityMMOCharacterDataChanges](#lq-ActivityMMODataChanges-ActivityMMOCharacterDataChanges)
+    - [ActivityMMODataChanges.ActivityMMOEquipmentsArrayDirty](#lq-ActivityMMODataChanges-ActivityMMOEquipmentsArrayDirty)
+    - [ActivityMMODataChanges.ActivityMMOMapDataChanges](#lq-ActivityMMODataChanges-ActivityMMOMapDataChanges)
+    - [ActivityMMODataChanges.ActivityMMOSupportDataChanges](#lq-ActivityMMODataChanges-ActivityMMOSupportDataChanges)
+    - [ActivityMMODataChanges.ActivityMMOTeamDataChanges](#lq-ActivityMMODataChanges-ActivityMMOTeamDataChanges)
+    - [ActivityMMODataChanges.ActivityMMOTeamMemberArrayDirty](#lq-ActivityMMODataChanges-ActivityMMOTeamMemberArrayDirty)
+    - [ActivityMMOEquipmentData](#lq-ActivityMMOEquipmentData)
+    - [ActivityMMOSupportRecord](#lq-ActivityMMOSupportRecord)
+    - [ActivityMMOSupportRecordDirty](#lq-ActivityMMOSupportRecordDirty)
+    - [ActivityMMOTeamMember](#lq-ActivityMMOTeamMember)
     - [ActivityMarathonCheckData](#lq-ActivityMarathonCheckData)
     - [ActivityMarathonData](#lq-ActivityMarathonData)
     - [ActivityMarathonData.MarathonRaceData](#lq-ActivityMarathonData-MarathonRaceData)
@@ -341,6 +363,7 @@
     - [ItemGainRecord](#lq-ItemGainRecord)
     - [ItemGainRecords](#lq-ItemGainRecords)
     - [LiQiSuccess](#lq-LiQiSuccess)
+    - [MMOActivityTeamCandidateData](#lq-MMOActivityTeamCandidateData)
     - [Mail](#lq-Mail)
     - [MaintainNotice](#lq-MaintainNotice)
     - [MarathonGameRecord](#lq-MarathonGameRecord)
@@ -507,6 +530,9 @@
     - [RecordRoundInfo](#lq-RecordRoundInfo)
     - [RecordSelectGap](#lq-RecordSelectGap)
     - [RecordSelectGap.TingPai](#lq-RecordSelectGap-TingPai)
+    - [RecordSubmit](#lq-RecordSubmit)
+    - [RecordTake](#lq-RecordTake)
+    - [RecordTake.TingPai](#lq-RecordTake-TingPai)
     - [RecordTingPaiInfo](#lq-RecordTingPaiInfo)
     - [RecordUnveilTile](#lq-RecordUnveilTile)
     - [ReqAccountInfo](#lq-ReqAccountInfo)
@@ -710,6 +736,17 @@
     - [ReqLogin](#lq-ReqLogin)
     - [ReqLoginBeat](#lq-ReqLoginBeat)
     - [ReqLogout](#lq-ReqLogout)
+    - [ReqMMOActivityDebugSetTeamCandidate](#lq-ReqMMOActivityDebugSetTeamCandidate)
+    - [ReqMMOActivityEquipFusion](#lq-ReqMMOActivityEquipFusion)
+    - [ReqMMOActivityFetchData](#lq-ReqMMOActivityFetchData)
+    - [ReqMMOActivityFinishBattle](#lq-ReqMMOActivityFinishBattle)
+    - [ReqMMOActivityReceiveSupportReward](#lq-ReqMMOActivityReceiveSupportReward)
+    - [ReqMMOActivitySetCharacter](#lq-ReqMMOActivitySetCharacter)
+    - [ReqMMOActivitySetEquip](#lq-ReqMMOActivitySetEquip)
+    - [ReqMMOActivitySetTeamMember](#lq-ReqMMOActivitySetTeamMember)
+    - [ReqMMOActivitySetTeamMember.MMOActivityTeamMember](#lq-ReqMMOActivitySetTeamMember-MMOActivityTeamMember)
+    - [ReqMMOActivityStartBattle](#lq-ReqMMOActivityStartBattle)
+    - [ReqMMOActivityUpdatehFriendList](#lq-ReqMMOActivityUpdatehFriendList)
     - [ReqMarathonActivityFinishRace](#lq-ReqMarathonActivityFinishRace)
     - [ReqMarathonActivityStartRace](#lq-ReqMarathonActivityStartRace)
     - [ReqModifyBirthday](#lq-ReqModifyBirthday)
@@ -793,6 +830,8 @@
     - [ReqSendGiftToCharacter](#lq-ReqSendGiftToCharacter)
     - [ReqSendGiftToCharacter.Gift](#lq-ReqSendGiftToCharacter-Gift)
     - [ReqSetAccountFavoriteHu](#lq-ReqSetAccountFavoriteHu)
+    - [ReqSetActivityBuff](#lq-ReqSetActivityBuff)
+    - [ReqSetActivityBuff.BuffInfo](#lq-ReqSetActivityBuff-BuffInfo)
     - [ReqSetFriendRoomRandomBotChar](#lq-ReqSetFriendRoomRandomBotChar)
     - [ReqSetHiddenCharacter](#lq-ReqSetHiddenCharacter)
     - [ReqSetLoadingImage](#lq-ReqSetLoadingImage)
@@ -1081,6 +1120,18 @@
     - [ResLikeSNS](#lq-ResLikeSNS)
     - [ResLogin](#lq-ResLogin)
     - [ResLogout](#lq-ResLogout)
+    - [ResMMOActivityDebugSetTeamCandidate](#lq-ResMMOActivityDebugSetTeamCandidate)
+    - [ResMMOActivityEquipFusion](#lq-ResMMOActivityEquipFusion)
+    - [ResMMOActivityFetchData](#lq-ResMMOActivityFetchData)
+    - [ResMMOActivityFinishBattle](#lq-ResMMOActivityFinishBattle)
+    - [ResMMOActivityReceiveSupportReward](#lq-ResMMOActivityReceiveSupportReward)
+    - [ResMMOActivitySetCharacter](#lq-ResMMOActivitySetCharacter)
+    - [ResMMOActivitySetEquip](#lq-ResMMOActivitySetEquip)
+    - [ResMMOActivitySetTeamMember](#lq-ResMMOActivitySetTeamMember)
+    - [ResMMOActivityStartBattle](#lq-ResMMOActivityStartBattle)
+    - [ResMMOActivityStartBattle.MMOActivityBattleAction](#lq-ResMMOActivityStartBattle-MMOActivityBattleAction)
+    - [ResMMOActivityStartBattle.MMOActivityBattleUnit](#lq-ResMMOActivityStartBattle-MMOActivityBattleUnit)
+    - [ResMMOActivityUpdatehFriendList](#lq-ResMMOActivityUpdatehFriendList)
     - [ResMailInfo](#lq-ResMailInfo)
     - [ResMarathonActivityFinishRace](#lq-ResMarathonActivityFinishRace)
     - [ResMarathonActivityStartRace](#lq-ResMarathonActivityStartRace)
@@ -1248,6 +1299,9 @@
     - [SnowballActivityBossAction.SnowballActivityBossMPConsumeInfo](#lq-SnowballActivityBossAction-SnowballActivityBossMPConsumeInfo)
     - [StringArrayDirty](#lq-StringArrayDirty)
     - [StringDirty](#lq-StringDirty)
+    - [SubmitGroup](#lq-SubmitGroup)
+    - [SubmitInfo](#lq-SubmitInfo)
+    - [TakeInfo](#lq-TakeInfo)
     - [TaskProgress](#lq-TaskProgress)
     - [TimeCounterData](#lq-TimeCounterData)
     - [TingPaiDiscardInfo](#lq-TingPaiDiscardInfo)
@@ -1543,6 +1597,24 @@
 | bingo_data | [ActivityBingoData](#lq-ActivityBingoData) | repeated |  |
 | snowball_data | [ActivitySnowballValueChanges](#lq-ActivitySnowballValueChanges) | repeated |  |
 | choose_group_up_data | [ActivityChooseGroupData](#lq-ActivityChooseGroupData) | repeated |  |
+| mmo_data | [ActivityMMODataChanges](#lq-ActivityMMODataChanges) | repeated |  |
+| activity_buff | [AccountActivityUpdate.ActivityBuffDataArrayDirty](#lq-AccountActivityUpdate-ActivityBuffDataArrayDirty) |  |  |
+
+
+
+
+
+
+<a name="lq-AccountActivityUpdate-ActivityBuffDataArrayDirty"></a>
+
+### AccountActivityUpdate.ActivityBuffDataArrayDirty
+
+
+
+| Field | Type | Label | Description |
+| ----- | ---- | ----- | ----------- |
+| dirty | [bool](#bool) |  |  |
+| value | [ActivityBuffData](#lq-ActivityBuffData) | repeated |  |
 
 
 
@@ -3090,6 +3162,39 @@
 
 
 
+<a name="lq-ActionSubmit"></a>
+
+### ActionSubmit
+
+
+
+| Field | Type | Label | Description |
+| ----- | ---- | ----- | ----------- |
+| submits | [SubmitInfo](#lq-SubmitInfo) | repeated |  |
+
+
+
+
+
+
+<a name="lq-ActionTake"></a>
+
+### ActionTake
+
+
+
+| Field | Type | Label | Description |
+| ----- | ---- | ----- | ----------- |
+| takes | [TakeInfo](#lq-TakeInfo) | repeated |  |
+| tingpais0 | [TingPaiDiscardInfo](#lq-TingPaiDiscardInfo) | repeated |  |
+| tingpais1 | [TingPaiInfo](#lq-TingPaiInfo) | repeated |  |
+| operation | [OptionalOperationList](#lq-OptionalOperationList) |  |  |
+
+
+
+
+
+
 <a name="lq-ActionUnveilTile"></a>
 
 ### ActionUnveilTile
@@ -3774,6 +3879,336 @@
 | zone | [uint32](#uint32) |  |  |
 | bags | [IslandBagData](#lq-IslandBagData) | repeated |  |
 | zones | [IslandZoneData](#lq-IslandZoneData) | repeated |  |
+
+
+
+
+
+
+<a name="lq-ActivityMMOData"></a>
+
+### ActivityMMOData
+
+
+
+| Field | Type | Label | Description |
+| ----- | ---- | ----- | ----------- |
+| activity_id | [uint32](#uint32) |  |  |
+| character | [ActivityMMOData.ActivityMMOCharacterData](#lq-ActivityMMOData-ActivityMMOCharacterData) |  |  |
+| team | [ActivityMMOData.ActivityMMOTeamData](#lq-ActivityMMOData-ActivityMMOTeamData) |  |  |
+| bag | [ActivityMMOData.ActivityMMOBagData](#lq-ActivityMMOData-ActivityMMOBagData) |  |  |
+| map | [ActivityMMOData.ActivityMMOMapData](#lq-ActivityMMOData-ActivityMMOMapData) |  |  |
+| support | [ActivityMMOData.ActivityMMOSupportData](#lq-ActivityMMOData-ActivityMMOSupportData) |  |  |
+
+
+
+
+
+
+<a name="lq-ActivityMMOData-ActivityMMOBagData"></a>
+
+### ActivityMMOData.ActivityMMOBagData
+
+
+
+| Field | Type | Label | Description |
+| ----- | ---- | ----- | ----------- |
+| equipments | [ActivityMMOEquipmentData](#lq-ActivityMMOEquipmentData) | repeated |  |
+| total_gain_count | [uint32](#uint32) |  |  |
+| total_fusion_count | [uint32](#uint32) |  |  |
+| random_record | [ActivityMMOData.ActivityMMOBagData.ActivityMMORandomRecord](#lq-ActivityMMOData-ActivityMMOBagData-ActivityMMORandomRecord) | repeated |  |
+
+
+
+
+
+
+<a name="lq-ActivityMMOData-ActivityMMOBagData-ActivityMMORandomRecord"></a>
+
+### ActivityMMOData.ActivityMMOBagData.ActivityMMORandomRecord
+
+
+
+| Field | Type | Label | Description |
+| ----- | ---- | ----- | ----------- |
+| rarity | [uint32](#uint32) |  |  |
+| count | [uint32](#uint32) |  |  |
+
+
+
+
+
+
+<a name="lq-ActivityMMOData-ActivityMMOCharacterData"></a>
+
+### ActivityMMOData.ActivityMMOCharacterData
+
+
+
+| Field | Type | Label | Description |
+| ----- | ---- | ----- | ----------- |
+| character_id | [uint32](#uint32) |  |  |
+| equipments | [uint32](#uint32) | repeated |  |
+
+
+
+
+
+
+<a name="lq-ActivityMMOData-ActivityMMOMapData"></a>
+
+### ActivityMMOData.ActivityMMOMapData
+
+
+
+| Field | Type | Label | Description |
+| ----- | ---- | ----- | ----------- |
+| level | [uint32](#uint32) |  |  |
+| random_seed | [uint32](#uint32) |  |  |
+| won | [uint32](#uint32) |  |  |
+| failed | [uint32](#uint32) |  |  |
+
+
+
+
+
+
+<a name="lq-ActivityMMOData-ActivityMMOSupportData"></a>
+
+### ActivityMMOData.ActivityMMOSupportData
+
+
+
+| Field | Type | Label | Description |
+| ----- | ---- | ----- | ----------- |
+| last_receive_time | [uint32](#uint32) |  |  |
+| most_supporter | [ActivityMMOSupportRecord](#lq-ActivityMMOSupportRecord) |  |  |
+| receive_support_count | [uint32](#uint32) |  |  |
+| support_record | [ActivityMMOSupportRecord](#lq-ActivityMMOSupportRecord) | repeated |  |
+
+
+
+
+
+
+<a name="lq-ActivityMMOData-ActivityMMOTeamData"></a>
+
+### ActivityMMOData.ActivityMMOTeamData
+
+
+
+| Field | Type | Label | Description |
+| ----- | ---- | ----- | ----------- |
+| members | [ActivityMMOTeamMember](#lq-ActivityMMOTeamMember) | repeated |  |
+| friend_list | [MMOActivityTeamCandidateData](#lq-MMOActivityTeamCandidateData) | repeated |  |
+| friend_list_expire | [uint32](#uint32) |  |  |
+| random_friends | [MMOActivityTeamCandidateData](#lq-MMOActivityTeamCandidateData) | repeated |  |
+| daily_update_time | [uint32](#uint32) |  |  |
+| npc_list | [MMOActivityTeamCandidateData](#lq-MMOActivityTeamCandidateData) | repeated |  |
+
+
+
+
+
+
+<a name="lq-ActivityMMODataChanges"></a>
+
+### ActivityMMODataChanges
+
+
+
+| Field | Type | Label | Description |
+| ----- | ---- | ----- | ----------- |
+| activity_id | [uint32](#uint32) |  |  |
+| character | [ActivityMMODataChanges.ActivityMMOCharacterDataChanges](#lq-ActivityMMODataChanges-ActivityMMOCharacterDataChanges) |  |  |
+| team | [ActivityMMODataChanges.ActivityMMOTeamDataChanges](#lq-ActivityMMODataChanges-ActivityMMOTeamDataChanges) |  |  |
+| bag | [ActivityMMODataChanges.ActivityMMOBagDataChanges](#lq-ActivityMMODataChanges-ActivityMMOBagDataChanges) |  |  |
+| map | [ActivityMMODataChanges.ActivityMMOMapDataChanges](#lq-ActivityMMODataChanges-ActivityMMOMapDataChanges) |  |  |
+| support | [ActivityMMODataChanges.ActivityMMOSupportDataChanges](#lq-ActivityMMODataChanges-ActivityMMOSupportDataChanges) |  |  |
+
+
+
+
+
+
+<a name="lq-ActivityMMODataChanges-ActivityMMOBagDataChanges"></a>
+
+### ActivityMMODataChanges.ActivityMMOBagDataChanges
+
+
+
+| Field | Type | Label | Description |
+| ----- | ---- | ----- | ----------- |
+| equipments | [ActivityMMODataChanges.ActivityMMOEquipmentsArrayDirty](#lq-ActivityMMODataChanges-ActivityMMOEquipmentsArrayDirty) |  |  |
+| total_gain_count | [UInt32Dirty](#lq-UInt32Dirty) |  |  |
+| total_fusion_count | [UInt32Dirty](#lq-UInt32Dirty) |  |  |
+
+
+
+
+
+
+<a name="lq-ActivityMMODataChanges-ActivityMMOCharacterDataChanges"></a>
+
+### ActivityMMODataChanges.ActivityMMOCharacterDataChanges
+
+
+
+| Field | Type | Label | Description |
+| ----- | ---- | ----- | ----------- |
+| character_id | [UInt32Dirty](#lq-UInt32Dirty) |  |  |
+| equipments | [UInt32ArrayDirty](#lq-UInt32ArrayDirty) |  |  |
+
+
+
+
+
+
+<a name="lq-ActivityMMODataChanges-ActivityMMOEquipmentsArrayDirty"></a>
+
+### ActivityMMODataChanges.ActivityMMOEquipmentsArrayDirty
+
+
+
+| Field | Type | Label | Description |
+| ----- | ---- | ----- | ----------- |
+| dirty | [bool](#bool) |  |  |
+| value | [ActivityMMOEquipmentData](#lq-ActivityMMOEquipmentData) | repeated |  |
+
+
+
+
+
+
+<a name="lq-ActivityMMODataChanges-ActivityMMOMapDataChanges"></a>
+
+### ActivityMMODataChanges.ActivityMMOMapDataChanges
+
+
+
+| Field | Type | Label | Description |
+| ----- | ---- | ----- | ----------- |
+| level | [UInt32Dirty](#lq-UInt32Dirty) |  |  |
+| random_seed | [UInt32Dirty](#lq-UInt32Dirty) |  |  |
+| won | [UInt32Dirty](#lq-UInt32Dirty) |  |  |
+| failed | [UInt32Dirty](#lq-UInt32Dirty) |  |  |
+
+
+
+
+
+
+<a name="lq-ActivityMMODataChanges-ActivityMMOSupportDataChanges"></a>
+
+### ActivityMMODataChanges.ActivityMMOSupportDataChanges
+
+
+
+| Field | Type | Label | Description |
+| ----- | ---- | ----- | ----------- |
+| last_receive_time | [UInt32Dirty](#lq-UInt32Dirty) |  |  |
+| most_supporter | [ActivityMMOSupportRecordDirty](#lq-ActivityMMOSupportRecordDirty) |  |  |
+| receive_support_count | [UInt32Dirty](#lq-UInt32Dirty) |  |  |
+
+
+
+
+
+
+<a name="lq-ActivityMMODataChanges-ActivityMMOTeamDataChanges"></a>
+
+### ActivityMMODataChanges.ActivityMMOTeamDataChanges
+
+
+
+| Field | Type | Label | Description |
+| ----- | ---- | ----- | ----------- |
+| members | [ActivityMMODataChanges.ActivityMMOTeamMemberArrayDirty](#lq-ActivityMMODataChanges-ActivityMMOTeamMemberArrayDirty) |  |  |
+
+
+
+
+
+
+<a name="lq-ActivityMMODataChanges-ActivityMMOTeamMemberArrayDirty"></a>
+
+### ActivityMMODataChanges.ActivityMMOTeamMemberArrayDirty
+
+
+
+| Field | Type | Label | Description |
+| ----- | ---- | ----- | ----------- |
+| dirty | [bool](#bool) |  |  |
+| value | [ActivityMMOTeamMember](#lq-ActivityMMOTeamMember) | repeated |  |
+
+
+
+
+
+
+<a name="lq-ActivityMMOEquipmentData"></a>
+
+### ActivityMMOEquipmentData
+
+
+
+| Field | Type | Label | Description |
+| ----- | ---- | ----- | ----------- |
+| id | [uint32](#uint32) |  |  |
+| stack | [uint32](#uint32) |  |  |
+
+
+
+
+
+
+<a name="lq-ActivityMMOSupportRecord"></a>
+
+### ActivityMMOSupportRecord
+
+
+
+| Field | Type | Label | Description |
+| ----- | ---- | ----- | ----------- |
+| id | [uint32](#uint32) |  |  |
+| count | [uint32](#uint32) |  |  |
+| type | [uint32](#uint32) |  |  |
+| character_id | [uint32](#uint32) |  |  |
+| equipments | [uint32](#uint32) | repeated |  |
+
+
+
+
+
+
+<a name="lq-ActivityMMOSupportRecordDirty"></a>
+
+### ActivityMMOSupportRecordDirty
+
+
+
+| Field | Type | Label | Description |
+| ----- | ---- | ----- | ----------- |
+| dirty | [bool](#bool) |  |  |
+| value | [ActivityMMOSupportRecord](#lq-ActivityMMOSupportRecord) |  |  |
+
+
+
+
+
+
+<a name="lq-ActivityMMOTeamMember"></a>
+
+### ActivityMMOTeamMember
+
+
+
+| Field | Type | Label | Description |
+| ----- | ---- | ----- | ----------- |
+| character_id | [uint32](#uint32) |  |  |
+| equipments | [uint32](#uint32) | repeated |  |
+| id | [uint32](#uint32) |  |  |
+| type | [uint32](#uint32) |  |  |
 
 
 
@@ -6337,6 +6772,8 @@
 | str_params | [string](#string) | repeated |  |
 | json_param | [string](#string) |  |  |
 | level | [uint32](#uint32) |  |  |
+| message | [string](#string) |  |  |
+| args | [string](#string) |  |  |
 
 
 
@@ -7635,6 +8072,23 @@
 | failed | [bool](#bool) |  |  |
 | liqi_type_beishuizhizhan | [uint32](#uint32) |  |  |
 | xia_ke_shang | [XiaKeShangInfo](#lq-XiaKeShangInfo) |  |  |
+
+
+
+
+
+
+<a name="lq-MMOActivityTeamCandidateData"></a>
+
+### MMOActivityTeamCandidateData
+
+
+
+| Field | Type | Label | Description |
+| ----- | ---- | ----- | ----------- |
+| character_id | [uint32](#uint32) |  |  |
+| equipments | [uint32](#uint32) | repeated |  |
+| id | [uint32](#uint32) |  |  |
 
 
 
@@ -10558,6 +11012,55 @@
 <a name="lq-RecordSelectGap-TingPai"></a>
 
 ### RecordSelectGap.TingPai
+
+
+
+| Field | Type | Label | Description |
+| ----- | ---- | ----- | ----------- |
+| seat | [uint32](#uint32) |  |  |
+| tingpais1 | [TingPaiInfo](#lq-TingPaiInfo) | repeated |  |
+
+
+
+
+
+
+<a name="lq-RecordSubmit"></a>
+
+### RecordSubmit
+
+
+
+| Field | Type | Label | Description |
+| ----- | ---- | ----- | ----------- |
+| submits | [SubmitInfo](#lq-SubmitInfo) | repeated |  |
+
+
+
+
+
+
+<a name="lq-RecordTake"></a>
+
+### RecordTake
+
+
+
+| Field | Type | Label | Description |
+| ----- | ---- | ----- | ----------- |
+| takes | [TakeInfo](#lq-TakeInfo) | repeated |  |
+| tingpais0 | [TingPaiDiscardInfo](#lq-TingPaiDiscardInfo) | repeated |  |
+| tingpai | [RecordTake.TingPai](#lq-RecordTake-TingPai) | repeated |  |
+| operation | [OptionalOperationList](#lq-OptionalOperationList) |  |  |
+
+
+
+
+
+
+<a name="lq-RecordTake-TingPai"></a>
+
+### RecordTake.TingPai
 
 
 
@@ -13932,6 +14435,181 @@
 
 
 
+<a name="lq-ReqMMOActivityDebugSetTeamCandidate"></a>
+
+### ReqMMOActivityDebugSetTeamCandidate
+
+
+
+| Field | Type | Label | Description |
+| ----- | ---- | ----- | ----------- |
+| activity_id | [uint32](#uint32) |  |  |
+| friend_list | [MMOActivityTeamCandidateData](#lq-MMOActivityTeamCandidateData) | repeated |  |
+| random_friends | [MMOActivityTeamCandidateData](#lq-MMOActivityTeamCandidateData) | repeated |  |
+| npc_list | [MMOActivityTeamCandidateData](#lq-MMOActivityTeamCandidateData) | repeated |  |
+
+
+
+
+
+
+<a name="lq-ReqMMOActivityEquipFusion"></a>
+
+### ReqMMOActivityEquipFusion
+
+
+
+| Field | Type | Label | Description |
+| ----- | ---- | ----- | ----------- |
+| activity_id | [uint32](#uint32) |  |  |
+| equip_list | [uint32](#uint32) | repeated |  |
+| target_type | [uint32](#uint32) |  |  |
+
+
+
+
+
+
+<a name="lq-ReqMMOActivityFetchData"></a>
+
+### ReqMMOActivityFetchData
+
+
+
+| Field | Type | Label | Description |
+| ----- | ---- | ----- | ----------- |
+| activity_id | [uint32](#uint32) |  |  |
+
+
+
+
+
+
+<a name="lq-ReqMMOActivityFinishBattle"></a>
+
+### ReqMMOActivityFinishBattle
+
+
+
+| Field | Type | Label | Description |
+| ----- | ---- | ----- | ----------- |
+| activity_id | [uint32](#uint32) |  |  |
+
+
+
+
+
+
+<a name="lq-ReqMMOActivityReceiveSupportReward"></a>
+
+### ReqMMOActivityReceiveSupportReward
+
+
+
+| Field | Type | Label | Description |
+| ----- | ---- | ----- | ----------- |
+| activity_id | [uint32](#uint32) |  |  |
+
+
+
+
+
+
+<a name="lq-ReqMMOActivitySetCharacter"></a>
+
+### ReqMMOActivitySetCharacter
+
+
+
+| Field | Type | Label | Description |
+| ----- | ---- | ----- | ----------- |
+| activity_id | [uint32](#uint32) |  |  |
+| character_id | [uint32](#uint32) |  |  |
+
+
+
+
+
+
+<a name="lq-ReqMMOActivitySetEquip"></a>
+
+### ReqMMOActivitySetEquip
+
+
+
+| Field | Type | Label | Description |
+| ----- | ---- | ----- | ----------- |
+| activity_id | [uint32](#uint32) |  |  |
+| equipments | [uint32](#uint32) | repeated |  |
+
+
+
+
+
+
+<a name="lq-ReqMMOActivitySetTeamMember"></a>
+
+### ReqMMOActivitySetTeamMember
+
+
+
+| Field | Type | Label | Description |
+| ----- | ---- | ----- | ----------- |
+| activity_id | [uint32](#uint32) |  |  |
+| members | [ReqMMOActivitySetTeamMember.MMOActivityTeamMember](#lq-ReqMMOActivitySetTeamMember-MMOActivityTeamMember) | repeated |  |
+
+
+
+
+
+
+<a name="lq-ReqMMOActivitySetTeamMember-MMOActivityTeamMember"></a>
+
+### ReqMMOActivitySetTeamMember.MMOActivityTeamMember
+
+
+
+| Field | Type | Label | Description |
+| ----- | ---- | ----- | ----------- |
+| character_id | [uint32](#uint32) |  |  |
+| id | [uint32](#uint32) |  |  |
+| type | [uint32](#uint32) |  |  |
+
+
+
+
+
+
+<a name="lq-ReqMMOActivityStartBattle"></a>
+
+### ReqMMOActivityStartBattle
+
+
+
+| Field | Type | Label | Description |
+| ----- | ---- | ----- | ----------- |
+| activity_id | [uint32](#uint32) |  |  |
+
+
+
+
+
+
+<a name="lq-ReqMMOActivityUpdatehFriendList"></a>
+
+### ReqMMOActivityUpdatehFriendList
+
+
+
+| Field | Type | Label | Description |
+| ----- | ---- | ----- | ----------- |
+| activity_id | [uint32](#uint32) |  |  |
+
+
+
+
+
+
 <a name="lq-ReqMarathonActivityFinishRace"></a>
 
 ### ReqMarathonActivityFinishRace
@@ -15270,6 +15948,38 @@
 
 
 
+<a name="lq-ReqSetActivityBuff"></a>
+
+### ReqSetActivityBuff
+
+
+
+| Field | Type | Label | Description |
+| ----- | ---- | ----- | ----------- |
+| buff_list | [ReqSetActivityBuff.BuffInfo](#lq-ReqSetActivityBuff-BuffInfo) | repeated |  |
+| activity_id | [uint32](#uint32) |  |  |
+
+
+
+
+
+
+<a name="lq-ReqSetActivityBuff-BuffInfo"></a>
+
+### ReqSetActivityBuff.BuffInfo
+
+
+
+| Field | Type | Label | Description |
+| ----- | ---- | ----- | ----------- |
+| buff_id | [uint32](#uint32) |  |  |
+| level | [uint32](#uint32) |  |  |
+
+
+
+
+
+
 <a name="lq-ReqSetFriendRoomRandomBotChar"></a>
 
 ### ReqSetFriendRoomRandomBotChar
@@ -16429,6 +17139,7 @@
 | snowball_data | [ActivitySnowballData](#lq-ActivitySnowballData) | repeated |  |
 | marathon_data | [ActivityMarathonData](#lq-ActivityMarathonData) | repeated |  |
 | choose_group_up_data | [ActivityChooseGroupData](#lq-ActivityChooseGroupData) | repeated |  |
+| mmo_data | [ActivityMMOData](#lq-ActivityMMOData) | repeated |  |
 
 
 
@@ -20174,6 +20885,215 @@
 
 
 
+<a name="lq-ResMMOActivityDebugSetTeamCandidate"></a>
+
+### ResMMOActivityDebugSetTeamCandidate
+
+
+
+| Field | Type | Label | Description |
+| ----- | ---- | ----- | ----------- |
+| error | [Error](#lq-Error) |  |  |
+| changes | [ActivityMMODataChanges](#lq-ActivityMMODataChanges) |  |  |
+
+
+
+
+
+
+<a name="lq-ResMMOActivityEquipFusion"></a>
+
+### ResMMOActivityEquipFusion
+
+
+
+| Field | Type | Label | Description |
+| ----- | ---- | ----- | ----------- |
+| error | [Error](#lq-Error) |  |  |
+| result | [uint32](#uint32) |  |  |
+| changes | [ActivityMMODataChanges](#lq-ActivityMMODataChanges) |  |  |
+
+
+
+
+
+
+<a name="lq-ResMMOActivityFetchData"></a>
+
+### ResMMOActivityFetchData
+
+
+
+| Field | Type | Label | Description |
+| ----- | ---- | ----- | ----------- |
+| error | [Error](#lq-Error) |  |  |
+| mmo_data | [ActivityMMOData](#lq-ActivityMMOData) |  |  |
+
+
+
+
+
+
+<a name="lq-ResMMOActivityFinishBattle"></a>
+
+### ResMMOActivityFinishBattle
+
+
+
+| Field | Type | Label | Description |
+| ----- | ---- | ----- | ----------- |
+| error | [Error](#lq-Error) |  |  |
+| changes | [ActivityMMODataChanges](#lq-ActivityMMODataChanges) |  |  |
+| rewards | [ExecuteReward](#lq-ExecuteReward) | repeated |  |
+
+
+
+
+
+
+<a name="lq-ResMMOActivityReceiveSupportReward"></a>
+
+### ResMMOActivityReceiveSupportReward
+
+
+
+| Field | Type | Label | Description |
+| ----- | ---- | ----- | ----------- |
+| error | [Error](#lq-Error) |  |  |
+| rewards | [ExecuteReward](#lq-ExecuteReward) | repeated |  |
+| changes | [ActivityMMODataChanges](#lq-ActivityMMODataChanges) |  |  |
+| support_count | [uint32](#uint32) |  |  |
+| total_support_count | [uint32](#uint32) |  |  |
+
+
+
+
+
+
+<a name="lq-ResMMOActivitySetCharacter"></a>
+
+### ResMMOActivitySetCharacter
+
+
+
+| Field | Type | Label | Description |
+| ----- | ---- | ----- | ----------- |
+| error | [Error](#lq-Error) |  |  |
+| changes | [ActivityMMODataChanges](#lq-ActivityMMODataChanges) |  |  |
+
+
+
+
+
+
+<a name="lq-ResMMOActivitySetEquip"></a>
+
+### ResMMOActivitySetEquip
+
+
+
+| Field | Type | Label | Description |
+| ----- | ---- | ----- | ----------- |
+| error | [Error](#lq-Error) |  |  |
+| changes | [ActivityMMODataChanges](#lq-ActivityMMODataChanges) |  |  |
+
+
+
+
+
+
+<a name="lq-ResMMOActivitySetTeamMember"></a>
+
+### ResMMOActivitySetTeamMember
+
+
+
+| Field | Type | Label | Description |
+| ----- | ---- | ----- | ----------- |
+| error | [Error](#lq-Error) |  |  |
+| changes | [ActivityMMODataChanges](#lq-ActivityMMODataChanges) |  |  |
+
+
+
+
+
+
+<a name="lq-ResMMOActivityStartBattle"></a>
+
+### ResMMOActivityStartBattle
+
+
+
+| Field | Type | Label | Description |
+| ----- | ---- | ----- | ----------- |
+| error | [Error](#lq-Error) |  |  |
+| actions | [ResMMOActivityStartBattle.MMOActivityBattleAction](#lq-ResMMOActivityStartBattle-MMOActivityBattleAction) | repeated |  |
+| units | [ResMMOActivityStartBattle.MMOActivityBattleUnit](#lq-ResMMOActivityStartBattle-MMOActivityBattleUnit) | repeated |  |
+| changes | [ActivityMMODataChanges](#lq-ActivityMMODataChanges) |  |  |
+| result | [uint32](#uint32) |  |  |
+
+
+
+
+
+
+<a name="lq-ResMMOActivityStartBattle-MMOActivityBattleAction"></a>
+
+### ResMMOActivityStartBattle.MMOActivityBattleAction
+
+
+
+| Field | Type | Label | Description |
+| ----- | ---- | ----- | ----------- |
+| type | [uint32](#uint32) |  |  |
+| target | [uint32](#uint32) |  |  |
+| from | [uint32](#uint32) |  |  |
+| value | [uint32](#uint32) |  |  |
+| tick | [uint32](#uint32) |  |  |
+| critical | [uint32](#uint32) |  |  |
+
+
+
+
+
+
+<a name="lq-ResMMOActivityStartBattle-MMOActivityBattleUnit"></a>
+
+### ResMMOActivityStartBattle.MMOActivityBattleUnit
+
+
+
+| Field | Type | Label | Description |
+| ----- | ---- | ----- | ----------- |
+| id | [uint32](#uint32) |  |  |
+| hp | [uint32](#uint32) |  |  |
+| equipments | [uint32](#uint32) | repeated |  |
+
+
+
+
+
+
+<a name="lq-ResMMOActivityUpdatehFriendList"></a>
+
+### ResMMOActivityUpdatehFriendList
+
+
+
+| Field | Type | Label | Description |
+| ----- | ---- | ----- | ----------- |
+| error | [Error](#lq-Error) |  |  |
+| friend_list | [MMOActivityTeamCandidateData](#lq-MMOActivityTeamCandidateData) | repeated |  |
+| random_friends | [MMOActivityTeamCandidateData](#lq-MMOActivityTeamCandidateData) | repeated |  |
+| npc_list | [MMOActivityTeamCandidateData](#lq-MMOActivityTeamCandidateData) | repeated |  |
+| expire_time | [uint32](#uint32) |  |  |
+| changes | [ActivityMMODataChanges](#lq-ActivityMMODataChanges) |  |  |
+
+
+
+
+
+
 <a name="lq-ResMailInfo"></a>
 
 ### ResMailInfo
@@ -23040,6 +23960,56 @@
 
 
 
+<a name="lq-SubmitGroup"></a>
+
+### SubmitGroup
+
+
+
+| Field | Type | Label | Description |
+| ----- | ---- | ----- | ----------- |
+| count | [uint32](#uint32) |  |  |
+| tiles | [string](#string) | repeated |  |
+
+
+
+
+
+
+<a name="lq-SubmitInfo"></a>
+
+### SubmitInfo
+
+
+
+| Field | Type | Label | Description |
+| ----- | ---- | ----- | ----------- |
+| submit_seat | [uint32](#uint32) |  |  |
+| groups | [SubmitGroup](#lq-SubmitGroup) | repeated |  |
+
+
+
+
+
+
+<a name="lq-TakeInfo"></a>
+
+### TakeInfo
+
+
+
+| Field | Type | Label | Description |
+| ----- | ---- | ----- | ----------- |
+| take_seat | [uint32](#uint32) |  |  |
+| from_seat | [uint32](#uint32) |  |  |
+| count | [uint32](#uint32) |  |  |
+| tiles | [string](#string) | repeated |  |
+
+
+
+
+
+
 <a name="lq-TaskProgress"></a>
 
 ### TaskProgress
@@ -23701,6 +24671,7 @@
 | refreshGameObserveAuth | [ReqRefreshGameObserveAuth](#lq-ReqRefreshGameObserveAuth) | [ResRefreshGameObserveAuth](#lq-ResRefreshGameObserveAuth) |  |
 | fetchActivityBuff | [ReqCommon](#lq-ReqCommon) | [ResActivityBuff](#lq-ResActivityBuff) |  |
 | upgradeActivityBuff | [ReqUpgradeActivityBuff](#lq-ReqUpgradeActivityBuff) | [ResActivityBuff](#lq-ResActivityBuff) |  |
+| setActivityBuff | [ReqSetActivityBuff](#lq-ReqSetActivityBuff) | [ResActivityBuff](#lq-ResActivityBuff) |  |
 | upgradeActivityLevel | [ReqUpgradeActivityLevel](#lq-ReqUpgradeActivityLevel) | [ResUpgradeActivityLevel](#lq-ResUpgradeActivityLevel) |  |
 | receiveUpgradeActivityReward | [ReqReceiveUpgradeActivityReward](#lq-ReqReceiveUpgradeActivityReward) | [ResReceiveUpgradeActivityReward](#lq-ResReceiveUpgradeActivityReward) |  |
 | upgradeChallenge | [ReqCommon](#lq-ReqCommon) | [ResUpgradeChallenge](#lq-ResUpgradeChallenge) |  |
@@ -23853,6 +24824,15 @@
 | fetchBannerActivityData | [ReqFetchBannerActivityData](#lq-ReqFetchBannerActivityData) | [ResFetchBannerActivityData](#lq-ResFetchBannerActivityData) |  |
 | marathonActivityStartRace | [ReqMarathonActivityStartRace](#lq-ReqMarathonActivityStartRace) | [ResMarathonActivityStartRace](#lq-ResMarathonActivityStartRace) |  |
 | marathonActivityFinishRace | [ReqMarathonActivityFinishRace](#lq-ReqMarathonActivityFinishRace) | [ResMarathonActivityFinishRace](#lq-ResMarathonActivityFinishRace) |  |
+| mmoActivityFetchData | [ReqMMOActivityFetchData](#lq-ReqMMOActivityFetchData) | [ResMMOActivityFetchData](#lq-ResMMOActivityFetchData) |  |
+| mmoActivityEquipFusion | [ReqMMOActivityEquipFusion](#lq-ReqMMOActivityEquipFusion) | [ResMMOActivityEquipFusion](#lq-ResMMOActivityEquipFusion) |  |
+| mmoActivitySetCharacter | [ReqMMOActivitySetCharacter](#lq-ReqMMOActivitySetCharacter) | [ResMMOActivitySetCharacter](#lq-ResMMOActivitySetCharacter) |  |
+| mmoActivitySetTeamMember | [ReqMMOActivitySetTeamMember](#lq-ReqMMOActivitySetTeamMember) | [ResMMOActivitySetTeamMember](#lq-ResMMOActivitySetTeamMember) |  |
+| mmoActivityStartBattle | [ReqMMOActivityStartBattle](#lq-ReqMMOActivityStartBattle) | [ResMMOActivityStartBattle](#lq-ResMMOActivityStartBattle) |  |
+| mmoActivityFinishBattle | [ReqMMOActivityFinishBattle](#lq-ReqMMOActivityFinishBattle) | [ResMMOActivityFinishBattle](#lq-ResMMOActivityFinishBattle) |  |
+| mmoActivitySetEquip | [ReqMMOActivitySetEquip](#lq-ReqMMOActivitySetEquip) | [ResMMOActivitySetEquip](#lq-ResMMOActivitySetEquip) |  |
+| mmoActivityUpdateFriendList | [ReqMMOActivityUpdatehFriendList](#lq-ReqMMOActivityUpdatehFriendList) | [ResMMOActivityUpdatehFriendList](#lq-ResMMOActivityUpdatehFriendList) |  |
+| mmoActivityReceiveSupportReward | [ReqMMOActivityReceiveSupportReward](#lq-ReqMMOActivityReceiveSupportReward) | [ResMMOActivityReceiveSupportReward](#lq-ResMMOActivityReceiveSupportReward) |  |
 
 
 <a name="lq-Route"></a>

@@ -76696,5 +76696,788 @@
         "jp": "お勤め完了！",
         "en": "Get It Done!",
         "kr": "임무를 시작했으면 반드시 끝내야지!"
+    },
+    {
+        "id": 26040001,
+        "type": "",
+        "chs": "剑士",
+        "chsT": "劍士",
+        "jp": "剣士",
+        "en": "Swordsman",
+        "kr": "검사"
+    },
+    {
+        "id": 26040002,
+        "type": "",
+        "chs": "战士",
+        "chsT": "戰士",
+        "jp": "戦士",
+        "en": "Warrior",
+        "kr": "전사"
+    },
+    {
+        "id": 26040003,
+        "type": "",
+        "chs": "法师",
+        "chsT": "法師",
+        "jp": "魔法使い",
+        "en": "Mage",
+        "kr": "마법사"
+    },
+    {
+        "id": 26040004,
+        "type": "",
+        "chs": "追求极致速度与技巧的挑战者。",
+        "chsT": "追求極致速度與技巧的挑戰者。",
+        "jp": "速度と技巧を追求するチャレンジャー",
+        "en": "Pursues ultimate speed and flawless technique.",
+        "kr": "최고의 속도와 기술을 추구하는 도전자."
+    },
+    {
+        "id": 26040005,
+        "type": "",
+        "chs": "拥有最厚重的装甲与不可撼动的意志。",
+        "chsT": "擁有最厚重的裝甲與不可撼動的意志。",
+        "jp": "揺るがない意志と重装甲を持つガーディアン",
+        "en": "Possesses the heaviest armor and an unshakeable will.",
+        "kr": "굳건한 의지를 지니고 두터운 중장갑을 두른 도전자."
+    },
+    {
+        "id": 26040006,
+        "type": "",
+        "chs": "兼顾魔法与治疗，既能赋予新生，亦能宣告终结。",
+        "chsT": "兼顧魔法與治療，既能賦予新生，亦能宣告終結。",
+        "jp": "魔法と治療を両方扱えるサポーター",
+        "en": "Commands both restorative magic and destructive spells, deciding who lives and who falls.",
+        "kr": "종말을 고하거나 새로운 생명을 불어넣을 수 있는 마법과 치유 능력을 겸비한 서포터."
+    },
+    {
+        "id": 26040007,
+        "type": "",
+        "chs": "每攻击3次后连击3次",
+        "chsT": "每攻擊3次後連擊3次",
+        "jp": "3回攻撃した後、次の攻撃が3連撃になる",
+        "en": "Triggers a 3-hit combo after every 3 attacks",
+        "kr": "3회 공격마다 3회 추가 공격"
+    },
+    {
+        "id": 26040008,
+        "type": "",
+        "chs": "每攻击3次后连击3次",
+        "chsT": "每攻擊3次後連擊3次",
+        "jp": "3回攻撃した後、次の攻撃が3連撃になる",
+        "en": "Triggers a 3-hit combo after every 3 attacks",
+        "kr": "3회 공격마다 3회 추가 공격"
+    },
+    {
+        "id": 26040009,
+        "type": "",
+        "chs": "每攻击3次后连击3次",
+        "chsT": "每攻擊3次後連擊3次",
+        "jp": "3回攻撃した後、次の攻撃が3連撃になる",
+        "en": "Triggers a 3-hit combo after every 3 attacks",
+        "kr": "3회 공격마다 3회 추가 공격"
+    },
+    {
+        "id": 26040010,
+        "type": "",
+        "chs": "每攻击2次后连击3次",
+        "chsT": "每攻擊2次後連擊3次",
+        "jp": "2回攻撃した後、次の攻撃が3連撃になる",
+        "en": "Triggers a 3-hit combo after every 2 attacks",
+        "kr": "2회 공격마다 3회 추가 공격"
+    },
+    {
+        "id": 26040011,
+        "type": "",
+        "chs": "每攻击2次后连击3次",
+        "chsT": "每攻擊2次後連擊3次",
+        "jp": "2回攻撃した後、次の攻撃が3連撃になる",
+        "en": "Triggers a 3-hit combo after every 2 attacks",
+        "kr": "2회 공격마다 3회 추가 공격"
+    },
+    {
+        "id": 26040021,
+        "type": "",
+        "chs": "全队血量：+{0}%[tag] → +{1}%[/tag]",
+        "chsT": "全隊血量：+{0}%[tag] → +{1}%[/tag]",
+        "jp": "全員の体力：+{0}%[tag] → +{1}%[/tag]",
+        "en": "Party HP:+{0}%[tag] → +{1}%[/tag]",
+        "kr": "파티 HP:+{0}%[tag] → +{1}%[/tag]"
+    },
+    {
+        "id": 26040022,
+        "type": "",
+        "chs": "全队攻击：+{0}%[tag] → +{1}%[/tag]",
+        "chsT": "全隊攻擊：+{0}%[tag] → +{1}%[/tag]",
+        "jp": "全員の攻撃力：+{0}%[tag] → +{1}%[/tag]",
+        "en": "Party ATK:+{0}%[tag] → +{1}%[/tag]",
+        "kr": "파티 공격력:+{0}%[tag] → +{1}%[/tag]"
+    },
+    {
+        "id": 26040023,
+        "type": "",
+        "chs": "全队暴击率：+{0}%[tag] → +{1}%[/tag]",
+        "chsT": "全隊暴擊率：+{0}%[tag] → +{1}%[/tag]",
+        "jp": "全員の会心率：+{0}%[tag] → +{1}%[/tag]",
+        "en": "Party CRIT Rate:+{0}%[tag] → +{1}%[/tag]",
+        "kr": "파티 치명타:+{0}%[tag] → +{1}%[/tag]"
+    },
+    {
+        "id": 26040024,
+        "type": "",
+        "chs": "战士血量：+{0}%[tag] → +{1}%[/tag]",
+        "chsT": "戰士血量：+{0}%[tag] → +{1}%[/tag]",
+        "jp": "戦士の体力：+{0}%[tag] → +{1}%[/tag]",
+        "en": "Warrior HP:+{0}%[tag] → +{1}%[/tag]",
+        "kr": "전사 HP:+{0}%[tag] → +{1}%[/tag]"
+    },
+    {
+        "id": 26040025,
+        "type": "",
+        "chs": "战士攻击：+{0}%[tag] → +{1}%[/tag]",
+        "chsT": "戰士攻擊：+{0}%[tag] → +{1}%[/tag]",
+        "jp": "戦士の攻撃力：+{0}%[tag] → +{1}%[/tag]",
+        "en": "Warrior ATK:+{0}%[tag] → +{1}%[/tag]",
+        "kr": "전사 공격력:+{0}%[tag] → +{1}%[/tag]"
+    },
+    {
+        "id": 26040026,
+        "type": "",
+        "chs": "战士暴击率：+{0}%[tag] → +{1}%[/tag]",
+        "chsT": "戰士暴擊率：+{0}%[tag] → +{1}%[/tag]",
+        "jp": "戦士の会心率：+{0}%[tag] → +{1}%[/tag]",
+        "en": "Warrior CRIT Rate:+{0}%[tag] → +{1}%[/tag]",
+        "kr": "전사 치명타:+{0}%[tag] → +{1}%[/tag]"
+    },
+    {
+        "id": 26040027,
+        "type": "",
+        "chs": "剑士血量：+{0}%[tag] → +{1}%[/tag]",
+        "chsT": "劍士血量：+{0}%[tag] → +{1}%[/tag]",
+        "jp": "剣士の体力：+{0}%[tag] → +{1}%[/tag]",
+        "en": "Swordsman HP:+{0}%[tag] → +{1}%[/tag]",
+        "kr": "검사 HP:+{0}%[tag] → +{1}%[/tag]"
+    },
+    {
+        "id": 26040028,
+        "type": "",
+        "chs": "剑士攻击：+{0}%[tag] → +{1}%[/tag]",
+        "chsT": "劍士攻擊：+{0}%[tag] → +{1}%[/tag]",
+        "jp": "剣士の攻撃力：+{0}%[tag] → +{1}%[/tag]",
+        "en": "Swordsman ATK:+{0}%[tag] → +{1}%[/tag]",
+        "kr": "검사 공격력:+{0}%[tag] → +{1}%[/tag]"
+    },
+    {
+        "id": 26040029,
+        "type": "",
+        "chs": "剑士暴击率：+{0}%[tag] → +{1}%[/tag]",
+        "chsT": "劍士暴擊率：+{0}%[tag] → +{1}%[/tag]",
+        "jp": "剣士の会心率：+{0}%[tag] → +{1}%[/tag]",
+        "en": "Swordsman CRIT Rate:+{0}%[tag] → +{1}%[/tag]",
+        "kr": "검사 치명타:+{0}%[tag] → +{1}%[/tag]"
+    },
+    {
+        "id": 26040030,
+        "type": "",
+        "chs": "法师血量：+{0}%[tag] → +{1}%[/tag]",
+        "chsT": "法師血量：+{0}%[tag] → +{1}%[/tag]",
+        "jp": "魔法使いの体力：+{0}%[tag] → +{1}%[/tag]",
+        "en": "Mage HP:+{0}%[tag] → +{1}%[/tag]",
+        "kr": "마법사 HP:+{0}%[tag] → +{1}%[/tag]"
+    },
+    {
+        "id": 26040031,
+        "type": "",
+        "chs": "法师攻击：+{0}%[tag] → +{1}%[/tag]",
+        "chsT": "法師攻擊：+{0}%[tag] → +{1}%[/tag]",
+        "jp": "魔法使いの攻撃力：+{0}%[tag] → +{1}%[/tag]",
+        "en": "Mage ATK:+{0}%[tag] → +{1}%[/tag]",
+        "kr": "마법사 공격력:+{0}%[tag] → +{1}%[/tag]"
+    },
+    {
+        "id": 26040032,
+        "type": "",
+        "chs": "法师暴击率：+{0}%[tag] → +{1}%[/tag]",
+        "chsT": "法師暴擊率：+{0}%[tag] → +{1}%[/tag]",
+        "jp": "魔法使いの会心率：+{0}%[tag] → +{1}%[/tag]",
+        "en": "Mage CRIT Rate:+{0}%[tag] → +{1}%[/tag]",
+        "kr": "마법사 치명타:+{0}%[tag] → +{1}%[/tag]"
+    },
+    {
+        "id": 26040033,
+        "type": "",
+        "chs": "魔法球&治疗法杖治疗量：+{0}%[tag] → +{1}%[/tag]",
+        "chsT": "魔法球&治療法杖治療量：+{0}%[tag] → +{1}%[/tag]",
+        "jp": "水晶玉＆杖の回復力：+{0}%[tag] → +{1}%[/tag]",
+        "en": "Magic Orb & Staff Healing:+{0}%[tag] → +{1}%[/tag]",
+        "kr": "마도구&지팡이 치유량:+{0}%[tag] → +{1}%[/tag]"
+    },
+    {
+        "id": 26040041,
+        "type": "",
+        "chs": "全队血量：[tag]+{0}%[/tag]",
+        "chsT": "全隊血量：[tag]+{0}%[/tag]",
+        "jp": "全員の体力：[tag]+{0}%[/tag]",
+        "en": "Party HP:[tag]+{0}%[/tag]",
+        "kr": "파티 HP:[tag]+{0}%[/tag]"
+    },
+    {
+        "id": 26040042,
+        "type": "",
+        "chs": "全队攻击：[tag]+{0}%[/tag]",
+        "chsT": "全隊攻擊：[tag]+{0}%[/tag]",
+        "jp": "全員の攻撃力：[tag]+{0}%[/tag]",
+        "en": "Party ATK:[tag]+{0}%[/tag]",
+        "kr": "파티 공격력:[tag]+{0}%[/tag]"
+    },
+    {
+        "id": 26040043,
+        "type": "",
+        "chs": "全队暴击率：[tag]+{0}%[/tag]",
+        "chsT": "全隊暴擊率：[tag]+{0}%[/tag]",
+        "jp": "全員の会心率：[tag]+{0}%[/tag]",
+        "en": "Party CRIT Rate:[tag]+{0}%[/tag]",
+        "kr": "파티 치명타:[tag]+{0}%[/tag]"
+    },
+    {
+        "id": 26040044,
+        "type": "",
+        "chs": "战士血量：[tag]+{0}%[/tag]",
+        "chsT": "戰士血量：[tag]+{0}%[/tag]",
+        "jp": "戦士の体力：[tag]+{0}%[/tag]",
+        "en": "Warrior HP:[tag]+{0}%[/tag]",
+        "kr": "전사 HP:[tag]+{0}%[/tag]"
+    },
+    {
+        "id": 26040045,
+        "type": "",
+        "chs": "战士攻击：[tag]+{0}%[/tag]",
+        "chsT": "戰士攻擊：[tag]+{0}%[/tag]",
+        "jp": "戦士の攻撃力：[tag]+{0}%[/tag]",
+        "en": "Warrior ATK:[tag]+{0}%[/tag]",
+        "kr": "전사 공격력:[tag]+{0}%[/tag]"
+    },
+    {
+        "id": 26040046,
+        "type": "",
+        "chs": "战士暴击率：[tag]+{0}%[/tag]",
+        "chsT": "戰士暴擊率：[tag]+{0}%[/tag]",
+        "jp": "戦士の会心率：[tag]+{0}%[/tag]",
+        "en": "Warrior CRIT Rate:[tag]+{0}%[/tag]",
+        "kr": "전사 치명타:[tag]+{0}%[/tag]"
+    },
+    {
+        "id": 26040047,
+        "type": "",
+        "chs": "剑士血量：[tag]+{0}%[/tag]",
+        "chsT": "劍士血量：[tag]+{0}%[/tag]",
+        "jp": "剣士の体力：[tag]+{0}%[/tag]",
+        "en": "Swordsman HP:[tag]+{0}%[/tag]",
+        "kr": "검사 HP:[tag]+{0}%[/tag]"
+    },
+    {
+        "id": 26040048,
+        "type": "",
+        "chs": "剑士攻击：[tag]+{0}%[/tag]",
+        "chsT": "劍士攻擊：[tag]+{0}%[/tag]",
+        "jp": "剣士の攻撃力：[tag]+{0}%[/tag]",
+        "en": "Swordsman ATK:[tag]+{0}%[/tag]",
+        "kr": "검사 공격력:[tag]+{0}%[/tag]"
+    },
+    {
+        "id": 26040049,
+        "type": "",
+        "chs": "剑士暴击率：[tag]+{0}%[/tag]",
+        "chsT": "劍士暴擊率：[tag]+{0}%[/tag]",
+        "jp": "剣士の会心率：[tag]+{0}%[/tag]",
+        "en": "Swordsman CRIT Rate:[tag]+{0}%[/tag]",
+        "kr": "검사 치명타:[tag]+{0}%[/tag]"
+    },
+    {
+        "id": 26040050,
+        "type": "",
+        "chs": "法师血量：[tag]+{0}%[/tag]",
+        "chsT": "法師血量：[tag]+{0}%[/tag]",
+        "jp": "魔法使いの体力：[tag]+{0}%[/tag]",
+        "en": "Mage HP:[tag]+{0}%[/tag]",
+        "kr": "마법사 HP:[tag]+{0}%[/tag]"
+    },
+    {
+        "id": 26040051,
+        "type": "",
+        "chs": "法师攻击：[tag]+{0}%[/tag]",
+        "chsT": "法師攻擊：[tag]+{0}%[/tag]",
+        "jp": "魔法使いの攻撃力：[tag]+{0}%[/tag]",
+        "en": "Mage ATK:[tag]+{0}%[/tag]",
+        "kr": "마법사 공격력:[tag]+{0}%[/tag]"
+    },
+    {
+        "id": 26040052,
+        "type": "",
+        "chs": "法师暴击率：[tag]+{0}%[/tag]",
+        "chsT": "法師暴擊率：[tag]+{0}%[/tag]",
+        "jp": "魔法使いの会心率：[tag]+{0}%[/tag]",
+        "en": "Mage CRIT Rate:[tag]+{0}%[/tag]",
+        "kr": "마법사 치명타:[tag]+{0}%[/tag]"
+    },
+    {
+        "id": 26040053,
+        "type": "",
+        "chs": "魔法球&治疗法杖治疗量：[tag]+{0}%[/tag]",
+        "chsT": "魔法球&治療法杖治療量：[tag]+{0}%[/tag]",
+        "jp": "水晶玉＆杖の回復力：[tag]+{0}%[/tag]",
+        "en": "Magic Orb & Staff Healing: [tag]+{0}%[/tag]",
+        "kr": "마도구&지팡이 치유량:[tag]+{0}%[/tag]"
+    },
+    {
+        "id": 26041011,
+        "type": "",
+        "chs": "拾荒者",
+        "chsT": "拾荒者",
+        "jp": "荒くれ者",
+        "en": "Scavenger",
+        "kr": "스케빈저"
+    },
+    {
+        "id": 26041012,
+        "type": "",
+        "chs": "码头搬运工",
+        "chsT": "碼頭搬運工",
+        "jp": "埠頭の番人",
+        "en": "Dock Worker",
+        "kr": "하역부"
+    },
+    {
+        "id": 26041013,
+        "type": "",
+        "chs": "药剂配给员",
+        "chsT": "藥劑配給員",
+        "jp": "薬剤師",
+        "en": "Apothecary Assistant",
+        "kr": "약제 보급원"
+    },
+    {
+        "id": 26041021,
+        "type": "",
+        "chs": "荒野猎人",
+        "chsT": "荒野獵人",
+        "jp": "荒野の狩人",
+        "en": "Wilderness Hunter",
+        "kr": "황야 사냥꾼"
+    },
+    {
+        "id": 26041022,
+        "type": "",
+        "chs": "大门守卫",
+        "chsT": "大門守衛",
+        "jp": "頼れる門番",
+        "en": "Gate Guard",
+        "kr": "경비병"
+    },
+    {
+        "id": 26041023,
+        "type": "",
+        "chs": "见习魔法师",
+        "chsT": "見習魔法師",
+        "jp": "見習い魔法使い",
+        "en": "Apprentice Mage",
+        "kr": "수습 마법사"
+    },
+    {
+        "id": 26041031,
+        "type": "",
+        "chs": "流浪剑客",
+        "chsT": "流浪劍客",
+        "jp": "流浪の剣士",
+        "en": "Wandering Blade",
+        "kr": "방랑 검객"
+    },
+    {
+        "id": 26041032,
+        "type": "",
+        "chs": "铁甲佣兵",
+        "chsT": "鐵甲傭兵",
+        "jp": "鉄鎧の傭兵",
+        "en": "Ironclad Mercenary",
+        "kr": "철갑 용병"
+    },
+    {
+        "id": 26041033,
+        "type": "",
+        "chs": "战地医疗师",
+        "chsT": "戰地醫療師",
+        "jp": "前線医療士",
+        "en": "Field Medic",
+        "kr": "전투 의무병"
+    },
+    {
+        "id": 26041041,
+        "type": "",
+        "chs": "剑术老师",
+        "chsT": "劍術老師",
+        "jp": "剣術の師範",
+        "en": "Swordmaster",
+        "kr": "검술 사범"
+    },
+    {
+        "id": 26041042,
+        "type": "",
+        "chs": "要塞指挥官",
+        "chsT": "要塞指揮官",
+        "jp": "要塞の長",
+        "en": "Fortress Commander",
+        "kr": "요새 사령관"
+    },
+    {
+        "id": 26041043,
+        "type": "",
+        "chs": "高阶炼金师",
+        "chsT": "高階煉金師",
+        "jp": "上級錬金術師",
+        "en": "High Alchemist",
+        "kr": "상급 연금술사"
+    },
+    {
+        "id": 26041051,
+        "type": "",
+        "chs": "幻影剑客",
+        "chsT": "幻影劍客",
+        "jp": "幻影の刺客",
+        "en": "Phantom Blade",
+        "kr": "환영 검객"
+    },
+    {
+        "id": 26041052,
+        "type": "",
+        "chs": "城镇守护者",
+        "chsT": "城鎮守護者",
+        "jp": "城塞の守護者",
+        "en": "Protector of the Realm",
+        "kr": "영지의 수호자"
+    },
+    {
+        "id": 26041053,
+        "type": "",
+        "chs": "秩序审判长",
+        "chsT": "秩序審判長",
+        "jp": "秩序の審判長",
+        "en": "Justiciar of Order",
+        "kr": "질서의 심판관"
+    },
+    {
+        "id": 26042001,
+        "type": "",
+        "chs": "01 异常的世界",
+        "chsT": "01 異常的世界",
+        "jp": "01 異常事態",
+        "en": "01 A Glitch in the World",
+        "kr": "01 이변"
+    },
+    {
+        "id": 26042002,
+        "type": "",
+        "chs": "02 异世的相遇",
+        "chsT": "02 異世的相遇",
+        "jp": "02 異世界での出会い",
+        "en": "02 An Otherworldly Encounter",
+        "kr": "02 이세계에서의 만남"
+    },
+    {
+        "id": 26042003,
+        "type": "",
+        "chs": "03 重整旗鼓",
+        "chsT": "03 重整旗鼓",
+        "jp": "03 立て直す",
+        "en": "03 Rallying",
+        "kr": "03 재정비"
+    },
+    {
+        "id": 26042004,
+        "type": "",
+        "chs": "04 决战之路",
+        "chsT": "04 決戰之路",
+        "jp": "04 決戦への道",
+        "en": "04 To the Final Showdown",
+        "kr": "04 결전으로 향하는 길"
+    },
+    {
+        "id": 26042005,
+        "type": "",
+        "chs": "05 决战于牌桌之上",
+        "chsT": "05 決戰於牌桌之上",
+        "jp": "05 卓上の決着",
+        "en": "05 Showdown at the Mahjong Table",
+        "kr": "05 작탁 위에서의 승부"
+    },
+    {
+        "id": 26042006,
+        "type": "",
+        "chs": "06 真相",
+        "chsT": "06 真相",
+        "jp": "06 真相",
+        "en": "06 The Truth",
+        "kr": "06 진상"
+    },
+    {
+        "id": 26042007,
+        "type": "",
+        "chs": "07 链接的未来",
+        "chsT": "07 連結的未來",
+        "jp": "07 リンクする未来",
+        "en": "07 Linked Future",
+        "kr": "07 이어지는 미래"
+    },
+    {
+        "id": 26043001,
+        "type": "",
+        "chs": "若在对局中获得[tag]1位[/tag]，对局后掉落装备数量[tag]+1[/tag]",
+        "chsT": "若在對局中獲得[tag]1位[/tag]，對局後掉落裝備數量[tag]+1[/tag]",
+        "jp": "対局で[tag]1位[/tag]を獲得した場合、装備ドロップ数[tag]+1[/tag]",
+        "en": "If you finish [tag]1st[/tag] in a match, equipment drops [tag]+1[/tag].",
+        "kr": "대국에서 [tag]1위[/tag] 달성 시, 대국 종료 후 장비 획득 수량 [tag]+1[/tag]"
+    },
+    {
+        "id": 26043002,
+        "type": "",
+        "chs": "有[tag]10%[/tag]概率，掉落的装备品质[tag]+1[/tag]",
+        "chsT": "有[tag]10%[/tag]概率，掉落的裝備品質[tag]+1[/tag]",
+        "jp": "[tag]10%[/tag]の確率で、ドロップする装備のレア度が[tag]+1[/tag]",
+        "en": "[tag]10%[/tag] chance for equipment drop rarity [tag]+1[/tag].",
+        "kr": "[tag]10%[/tag] 확률로 획득 장비 등급 [tag]+1[/tag]"
+    },
+    {
+        "id": 26043003,
+        "type": "",
+        "chs": "若在对局中[tag]和牌跳满及以上[/tag]，对局后掉落装备数量[tag]+1[/tag]",
+        "chsT": "若在對局中[tag]和牌跳滿及以上[/tag]，對局後掉落裝備數量[tag]+1[/tag]",
+        "jp": "対局で[tag]跳満以上[/tag]を和了した場合、装備ドロップ数[tag]+1[/tag]",
+        "en": "If you [tag]win with Haneman or higher[/tag] in a match, equipment drops [tag]+1[/tag].",
+        "kr": "대국에서 [tag]하네만 이상으로 화료[/tag] 시, 대국 종료 후 장비 획득 수량 [tag]+1[/tag]"
+    },
+    {
+        "id": 26043004,
+        "type": "",
+        "chs": "有[tag]30%[/tag]概率，掉落的装备数量[tag]+1[/tag]",
+        "chsT": "有[tag]30%[/tag]概率，掉落的裝備數量[tag]+1[/tag]",
+        "jp": "[tag]30%[/tag]の確率で、装備ドロップ数[tag]+1[/tag]",
+        "en": "[tag]30%[/tag] chance for equipment drops [tag]+1[/tag].",
+        "kr": "[tag]30%[/tag] 확률로 획득 장비 수량 [tag]+1[/tag]"
+    },
+    {
+        "id": 26043005,
+        "type": "",
+        "chs": "若在对局中获得[tag]1位[/tag]→[tag]2位及以上[/tag]，对局后掉落装备数量[tag]+1[/tag]",
+        "chsT": "若在對局中獲得[tag]1位[/tag]→[tag]2位及以上[/tag]，對局後掉落裝備數量[tag]+1[/tag]",
+        "jp": "対局で[tag]1位[/tag]→[tag]2位以上[/tag]を獲得した場合、装備ドロップ数[tag]+1[/tag]",
+        "en": "If you finish [tag]1st[/tag] → [tag]2nd or higher[/tag] in a match, equipment drops [tag]+1[/tag].",
+        "kr": "대국에서 [tag]1위[/tag]→[tag]2위 이상[/tag] 시, 대국 종료 후 장비 획득 수량 [tag]+1[/tag]"
+    },
+    {
+        "id": 26043006,
+        "type": "",
+        "chs": "有[tag]10%[/tag]→[tag]20%[/tag]概率，掉落的装备品质[tag]+1[/tag]",
+        "chsT": "有[tag]10%[/tag]→[tag]20%[/tag]概率，掉落的裝備品質[tag]+1[/tag]",
+        "jp": "[tag]10%[/tag]→[tag]20%[/tag]の確率で、ドロップする装備のレア度が[tag]+1[/tag]",
+        "en": "[tag]10%[/tag] → [tag]20%[/tag] chance for equipment drop rarity [tag]+1[/tag].",
+        "kr": "[tag]10%[/tag]→[tag]20%[/tag] 확률로 획득 장비 등급 [tag]+1[/tag]"
+    },
+    {
+        "id": 26043007,
+        "type": "",
+        "chs": "若在对局中[tag]和牌跳满及以上[/tag]→[tag]和牌满贯及以上[/tag]，对局后掉落装备数量[tag]+1[/tag]",
+        "chsT": "若在對局中[tag]和牌跳滿及以上[/tag]→[tag]滿貫及以上[/tag]，對局後掉落裝備數量[tag]+1[/tag]",
+        "jp": "対局で[tag]跳満以上[/tag]→[tag]満貫以上[/tag]を和了した場合、装備ドロップ数[tag]+1[/tag]",
+        "en": "If you [tag]win with Haneman or higher[/tag] → [tag]win with Mangan or higher[/tag] in a match, equipment drops [tag]+1[/tag].",
+        "kr": "대국에서 [tag]하네만 이상으로 화료[/tag]→[tag]만관 이상으로 화료[/tag] 시, 대국 종료 후 장비 획득 수량 [tag]+1[/tag]"
+    },
+    {
+        "id": 26043008,
+        "type": "",
+        "chs": "有[tag]30%[/tag]→[tag]60%[/tag]概率，掉落的装备数量[tag]+1[/tag]",
+        "chsT": "有[tag]30%[/tag]→[tag]60%[/tag]概率，掉落的裝備數量[tag]+1[/tag]",
+        "jp": "[tag]30%[/tag]→[tag]60%[/tag]の確率で、装備ドロップ数[tag]+1[/tag]",
+        "en": "[tag]30%[/tag] → [tag]60%[/tag] chance for equipment drops [tag]+1[/tag].",
+        "kr": "[tag]30%[/tag]→[tag]60%[/tag] 확률로 획득 장비 수량 [tag]+1[/tag]"
+    },
+    {
+        "id": 26043009,
+        "type": "",
+        "chs": "若在对局中获得[tag]2位及以上[/tag]→[tag]3位及以上[/tag]，对局后掉落装备数量[tag]+1[/tag]",
+        "chsT": "若在對局中獲得[tag]2位及以上[/tag]→[tag]3位及以上[/tag]，對局後掉落裝備數量[tag]+1[/tag]",
+        "jp": "対局で[tag]2位以上[/tag]→[tag]3位以上[/tag]を獲得した場合、装備ドロップ数[tag]+1[/tag]",
+        "en": "If you finish [tag]2nd or higher[/tag] → [tag]3rd or higher[/tag] in a match, equipment drops [tag]+1[/tag].",
+        "kr": "대국에서 [tag]2위 이상[/tag]→[tag]3위 이상[/tag] 시 , 대국 종료 후 장비 획득 수량 [tag]+1[/tag]"
+    },
+    {
+        "id": 26043010,
+        "type": "",
+        "chs": "保底掉落品质：[tag]绿[/tag]",
+        "chsT": "保底掉落品質：[tag]綠[/tag]",
+        "jp": "ドロップする装備の最低レア度：[tag]緑[/tag]",
+        "en": "Guaranteed drop rarity: [tag]Green+[/tag]",
+        "kr": "확정 획득 등급 : [tag]녹색[/tag]"
+    },
+    {
+        "id": 26043011,
+        "type": "",
+        "chs": "有[tag]20%[/tag]→[tag]30%[/tag]概率，掉落的装备品质[tag]+1[/tag]",
+        "chsT": "有[tag]20%[/tag]→[tag]30%[/tag]概率，掉落的裝備品質[tag]+1[/tag]",
+        "jp": "[tag]20%[/tag]→[tag]30%[/tag]の確率で、ドロップする装備のレア度が[tag]+1[/tag]",
+        "en": "[tag]20%[/tag] → [tag]30%[/tag] chance for equipment drop rarity [tag]+1[/tag].",
+        "kr": "[tag]20%[/tag]→[tag]30%[/tag] 확률로 획득 장비 등급 [tag]+1[/tag]"
+    },
+    {
+        "id": 26043012,
+        "type": "",
+        "chs": "若在对局中[tag]和牌满贯及以上[/tag]→[tag]和牌[/tag]，对局后掉落装备数量[tag]+1[/tag]",
+        "chsT": "若在對局中[tag]和牌滿貫及以上[/tag]→[tag]和牌[/tag]，對局後掉落裝備數量[tag]+1[/tag]",
+        "jp": "対局で[tag]満貫以上を和了[/tag]→[tag]和了[/tag]した場合、装備ドロップ数[tag]+1[/tag]",
+        "en": "If you [tag]win with Mangan or higher[/tag] → [tag]win a hand[/tag] in a match, equipment drops [tag]+1[/tag].",
+        "kr": "대국에서 [tag]만관 이상으로 화료[/tag]→[tag]화료[/tag] 시, 대국 종료 후 장비 획득 수량 [tag]+1[/tag]"
+    },
+    {
+        "id": 26043013,
+        "type": "",
+        "chs": "有[tag]60%[/tag]→[tag]90%[/tag]概率，掉落的装备数量[tag]+1[/tag]",
+        "chsT": "有[tag]60%[/tag]→[tag]90%[/tag]概率，掉落的裝備數量[tag]+1[/tag]",
+        "jp": "[tag]60%[/tag]→[tag]90%[/tag]の確率で、装備ドロップ数[tag]+1[/tag]",
+        "en": "[tag]60%[/tag] → [tag]90%[/tag] chance for equipment drops [tag]+1[/tag].",
+        "kr": "[tag]60%[/tag]→[tag]90%[/tag] 확률로 획득 장비 수량 [tag]+1[/tag]"
+    },
+    {
+        "id": 26043014,
+        "type": "",
+        "chs": "保底掉落品质：[tag]绿[/tag]→[tag]蓝[/tag]",
+        "chsT": "保底掉落品質：[tag]綠[/tag]→[tag]藍[/tag]",
+        "jp": "ドロップする装備の最低レア度：[tag]緑[/tag]→[tag]青[/tag]",
+        "en": "Guaranteed drop rarity: [tag]Green+[/tag] → [tag]Blue+[/tag]",
+        "kr": "확정 획득 등급 : [tag]녹색[/tag]→[tag]청색[/tag]"
+    },
+    {
+        "id": 26044001,
+        "type": "",
+        "chs": "○若在对局中获得[tag]1位[/tag]，对局后掉落装备数量[tag]+1[/tag]",
+        "chsT": "○若在對局中獲得[tag]1位[/tag]，對局後掉落裝備數量[tag]+1[/tag]",
+        "jp": "○対局で[tag]1位[/tag]を獲得した場合、装備ドロップ数[tag]+1[/tag]",
+        "en": "○If you finish [tag]1st[/tag] in a match, equipment drops [tag]+1[/tag].",
+        "kr": "○대국에서 [tag]1위[/tag] 달성 시, 대국 종료 후 장비 획득 수량 [tag]+1[/tag]"
+    },
+    {
+        "id": 26044002,
+        "type": "",
+        "chs": "○若在对局中获得[tag]1位[/tag]，对局后掉落装备数量[tag]+1[/tag]\r\n○有[tag]10%[/tag]概率，掉落的装备品质[tag]+1[/tag]",
+        "chsT": "○若在對局中獲得[tag]1位[/tag]，對局後掉落裝備數量[tag]+1[/tag]\r\n○有[tag]10%[/tag]概率，掉落的裝備品質[tag]+1[/tag]",
+        "jp": "○対局で[tag]1位[/tag]を獲得した場合、装備ドロップ数[tag]+1[/tag]\r\n○[tag]10%[/tag]の確率で、ドロップする装備のレア度が[tag]+1[/tag]",
+        "en": "○If you finish [tag]1st[/tag] in a match, equipment drops [tag]+1[/tag].\r\n○[tag]10%[/tag] chance for equipment drop rarity [tag]+1[/tag].",
+        "kr": "○대국에서 [tag]1위[/tag] 달성 시, 대국 종료 후 장비 획득 수량 [tag]+1[/tag]\r\n○[tag]10%[/tag] 확률로 획득 장비 등급 [tag]+1[/tag]"
+    },
+    {
+        "id": 26044003,
+        "type": "",
+        "chs": "○若在对局中获得[tag]1位[/tag]，对局后掉落装备数量[tag]+1[/tag]\r\n○有[tag]10%[/tag]概率，掉落的装备品质[tag]+1[/tag]\r\n○若在对局中[tag]和牌跳满及以上[/tag]，对局后掉落装备数量[tag]+1[/tag]",
+        "chsT": "○若在對局中獲得[tag]1位[/tag]，對局後掉落裝備數量[tag]+1[/tag]\r\n○有[tag]10%[/tag]概率，掉落的裝備品質[tag]+1[/tag]\r\n○若在對局中[tag]和牌跳滿及以上[/tag]，對局後掉落裝備數量[tag]+1[/tag]",
+        "jp": "○対局で[tag]1位[/tag]を獲得した場合、装備ドロップ数[tag]+1[/tag]\r\n○[tag]10%[/tag]の確率で、ドロップする装備のレア度が[tag]+1[/tag]\r\n○対局で[tag]跳満以上[/tag]を和了した場合、装備ドロップ数[tag]+1[/tag]",
+        "en": "○If you finish [tag]1st[/tag] in a match, equipment drops [tag]+1[/tag].\r\n○[tag]10%[/tag] chance for equipment drop rarity [tag]+1[/tag].\r\n○If you [tag]win with Haneman or higher[/tag] in a match, equipment drops [tag]+1[/tag].",
+        "kr": "○대국에서 [tag]1위[/tag] 달성 시, 대국 종료 후 장비 획득 수량 [tag]+1[/tag]\r\n○[tag]10%[/tag] 확률로 획득 장비 등급 [tag]+1[/tag]\r\n○대국에서 [tag]하네만 이상으로 화료[/tag] 시, 대국 종료 후 장비 획득 수량 [tag]+1[/tag]"
+    },
+    {
+        "id": 26044004,
+        "type": "",
+        "chs": "○若在对局中获得[tag]1位[/tag]，对局后掉落装备数量[tag]+1[/tag]\r\n○有[tag]10%[/tag]概率，掉落的装备品质[tag]+1[/tag]\r\n○若在对局中[tag]和牌跳满及以上[/tag]，对局后掉落装备数量[tag]+1[/tag]\r\n○有[tag]30%[/tag]概率，掉落的装备数量[tag]+1[/tag]",
+        "chsT": "○若在對局中獲得[tag]1位[/tag]，對局後掉落裝備數量[tag]+1[/tag]\r\n○有[tag]10%[/tag]概率，掉落的裝備品質[tag]+1[/tag]\r\n○若在對局中[tag]和牌跳滿及以上[/tag]，對局後掉落裝備數量[tag]+1[/tag]\r\n○有[tag]30%[/tag]概率，掉落的裝備數量[tag]+1[/tag]",
+        "jp": "○対局で[tag]1位[/tag]を獲得した場合、装備ドロップ数[tag]+1[/tag]\r\n○[tag]10%[/tag]の確率で、ドロップする装備のレア度が[tag]+1[/tag]\r\n○対局で[tag]跳満以上[/tag]を和了した場合、装備ドロップ数[tag]+1[/tag]\r\n○[tag]30%[/tag]の確率で、装備ドロップ数[tag]+1[/tag]",
+        "en": "○If you finish [tag]1st[/tag] in a match, equipment drops [tag]+1[/tag].\r\n○[tag]10%[/tag] chance for equipment drop rarity [tag]+1[/tag].\r\n○If you [tag]win with Haneman or higher[/tag] in a match, equipment drops [tag]+1[/tag].\r\n○[tag]30%[/tag] chance for equipment drops [tag]+1[/tag].",
+        "kr": "○대국에서 [tag]1위[/tag] 달성 시, 대국 종료 후 장비 획득 수량 [tag]+1[/tag]\r\n○[tag]10%[/tag] 확률로 획득 장비 등급 [tag]+1[/tag]\r\n○대국에서 [tag]하네만 이상으로 화료[/tag] 시, 대국 종료 후 장비 획득 수량 [tag]+1[/tag]\r\n○[tag]30%[/tag] 확률로 획득 장비 수량 [tag]+1[/tag]"
+    },
+    {
+        "id": 26044005,
+        "type": "",
+        "chs": "○若在对局中获得[tag]2位及以上[/tag]，对局后掉落装备数量[tag]+1[/tag]\r\n○有[tag]10%[/tag]概率，掉落的装备品质[tag]+1[/tag]\r\n○若在对局中[tag]和牌跳满及以上[/tag]，对局后掉落装备数量[tag]+1[/tag]\r\n○有[tag]30%[/tag]概率，掉落的装备数量[tag]+1[/tag]",
+        "chsT": "○若在對局中獲得[tag]2位及以上[/tag]，對局後掉落裝備數量[tag]+1[/tag]\r\n○有[tag]10%[/tag]概率，掉落的裝備品質[tag]+1[/tag]\r\n○若在對局中[tag]和牌跳滿及以上[/tag]，對局後掉落裝備數量[tag]+1[/tag]\r\n○有[tag]30%[/tag]概率，掉落的裝備數量[tag]+1[/tag]",
+        "jp": "○対局で[tag]2位以上[/tag]を獲得した場合、装備ドロップ数[tag]+1[/tag]\r\n○[tag]10%[/tag]の確率で、ドロップする装備のレア度が[tag]+1[/tag]\r\n○対局で[tag]跳満以上[/tag]を和了した場合、装備ドロップ数[tag]+1[/tag]\r\n○[tag]30%[/tag]の確率で、装備ドロップ数[tag]+1[/tag]",
+        "en": "○If you finish [tag]2nd or higher[/tag] in a match, equipment drops [tag]+1[/tag].\r\n○[tag]10%[/tag] chance for equipment drop rarity [tag]+1[/tag].\r\n○If you [tag]win with Haneman or higher[/tag] in a match, equipment drops [tag]+1[/tag].\r\n○[tag]30%[/tag] chance for equipment drops [tag]+1[/tag].",
+        "kr": "○대국에서 [tag]2위 이상 [/tag] 달성 시, 대국 종료 후 장비 획득 수량 [tag]+1[/tag]\r\n○[tag]10%[/tag] 확률로 획득 장비 등급 [tag]+1[/tag]\r\n○대국에서 [tag]하네만 이상으로 화료[/tag] 시, 대국 종료 후 장비 획득 수량 [tag]+1[/tag]\r\n○[tag]30%[/tag] 확률로 획득 장비 수량 [tag]+1[/tag]"
+    },
+    {
+        "id": 26044006,
+        "type": "",
+        "chs": "○若在对局中获得[tag]2位及以上[/tag]，对局后掉落装备数量[tag]+1[/tag]\r\n○有[tag]20%[/tag]概率，掉落的装备品质[tag]+1[/tag]\r\n○若在对局中[tag]和牌跳满及以上[/tag]，对局后掉落装备数量[tag]+1[/tag]\r\n○有[tag]30%[/tag]概率，掉落的装备数量[tag]+1[/tag]",
+        "chsT": "○若在對局中獲得[tag]2位及以上[/tag]，對局後掉落裝備數量[tag]+1[/tag]\r\n○有[tag]20%[/tag]概率，掉落的裝備品質[tag]+1[/tag]\r\n○若在對局中[tag]和牌跳滿及以上[/tag]，對局後掉落裝備數量[tag]+1[/tag]\r\n○有[tag]30%[/tag]概率，掉落的裝備數量[tag]+1[/tag]",
+        "jp": "○対局で[tag]2位以上[/tag]を獲得した場合、装備ドロップ数[tag]+1[/tag]\r\n○[tag]20%[/tag]の確率で、ドロップする装備のレア度が[tag]+1[/tag]\r\n○対局で[tag]跳満以上[/tag]を和了した場合、装備ドロップ数[tag]+1[/tag]\r\n○[tag]30%[/tag]の確率で、装備ドロップ数[tag]+1[/tag]",
+        "en": "○If you finish [tag]2nd or higher[/tag] in a match, equipment drops [tag]+1[/tag].\r\n○[tag]20%[/tag] chance for equipment drop rarity [tag]+1[/tag].\r\n○If you [tag]win with Haneman or higher[/tag] in a match, equipment drops [tag]+1[/tag].\r\n○[tag]30%[/tag] chance for equipment drops [tag]+1[/tag].",
+        "kr": "○대국에서 [tag]2위 이상 [/tag] 달성 시, 대국 종료 후 장비 획득 수량 [tag]+1[/tag]\r\n○[tag]20%[/tag] 확률로 획득 장비 등급 [tag]+1[/tag]\r\n○대국에서 [tag]하네만 이상으로 화료[/tag] 시, 대국 종료 후 장비 획득 수량 [tag]+1[/tag]\r\n○[tag]30%[/tag] 확률로 획득 장비 수량 [tag]+1[/tag]"
+    },
+    {
+        "id": 26044007,
+        "type": "",
+        "chs": "○若在对局中获得[tag]2位及以上[/tag]，对局后掉落装备数量[tag]+1[/tag]\r\n○有[tag]20%[/tag]概率，掉落的装备品质[tag]+1[/tag]\r\n○若在对局中[tag]和牌满贯及以上[/tag]，对局后掉落装备数量[tag]+1[/tag]\r\n○有[tag]30%[/tag]概率，掉落的装备数量[tag]+1[/tag]",
+        "chsT": "○若在對局中獲得[tag]2位及以上[/tag]，對局後掉落裝備數量[tag]+1[/tag]\r\n○有[tag]20%[/tag]概率，掉落的裝備品質[tag]+1[/tag]\r\n○若在對局中[tag]和牌滿貫及以上[/tag]，對局後掉落裝備數量[tag]+1[/tag]\r\n○有[tag]30%[/tag]概率，掉落的裝備數量[tag]+1[/tag]",
+        "jp": "○対局で[tag]2位以上[/tag]を獲得した場合、装備ドロップ数[tag]+1[/tag]\r\n○[tag]20%[/tag]の確率で、ドロップする装備のレア度が[tag]+1[/tag]\r\n○対局で[tag]満貫以上[/tag]を和了した場合、装備ドロップ数[tag]+1[/tag]\r\n○[tag]30%[/tag]の確率で、装備ドロップ数[tag]+1[/tag]",
+        "en": "○If you finish [tag]2nd or higher[/tag] in a match, equipment drops [tag]+1[/tag].\r\n○[tag]20%[/tag] chance for equipment drop rarity [tag]+1[/tag].\r\n○If you [tag]win with Mangan or higher[/tag] in a match, equipment drops [tag]+1[/tag].\r\n○[tag]30%[/tag] chance for equipment drops [tag]+1[/tag].",
+        "kr": "○대국에서 [tag]2위 이상 [/tag] 달성 시, 대국 종료 후 장비 획득 수량 [tag]+1[/tag]\r\n○[tag]20%[/tag] 확률로 획득 장비 등급 [tag]+1[/tag]\r\n○대국에서 [tag]만관 이상으로 화료[/tag] 시, 대국 종료 후 장비 획득 수량 [tag]+1[/tag]\r\n○[tag]30%[/tag] 확률로 획득 장비 수량 [tag]+1[/tag]"
+    },
+    {
+        "id": 26044008,
+        "type": "",
+        "chs": "○若在对局中获得[tag]2位及以上[/tag]，对局后掉落装备数量[tag]+1[/tag]\r\n○有[tag]20%[/tag]概率，掉落的装备品质[tag]+1[/tag]\r\n○若在对局中[tag]和牌满贯及以上[/tag]，对局后掉落装备数量[tag]+1[/tag]\r\n○有[tag]60%[/tag]概率，掉落的装备数量[tag]+1[/tag]",
+        "chsT": "○若在對局中獲得[tag]2位及以上[/tag]，對局後掉落裝備數量[tag]+1[/tag]\r\n○有[tag]20%[/tag]概率，掉落的裝備品質[tag]+1[/tag]\r\n○若在對局中[tag]和牌滿貫及以上[/tag]，對局後掉落裝備數量[tag]+1[/tag]\r\n○有[tag]60%[/tag]概率，掉落的裝備數量[tag]+1[/tag]",
+        "jp": "○対局で[tag]2位以上[/tag]を獲得した場合、装備ドロップ数[tag]+1[/tag]\r\n○[tag]20%[/tag]の確率で、ドロップする装備のレア度が[tag]+1[/tag]\r\n○対局で[tag]満貫以上[/tag]を和了した場合、装備ドロップ数[tag]+1[/tag]\r\n○[tag]60%[/tag]の確率で、装備ドロップ数[tag]+1[/tag]",
+        "en": "○If you finish [tag]2nd or higher[/tag] in a match, equipment drops [tag]+1[/tag].\r\n○[tag]20%[/tag] chance for equipment drop rarity [tag]+1[/tag].\r\n○If you [tag]win with Mangan or higher[/tag] in a match, equipment drops [tag]+1[/tag].\r\n○[tag]60%[/tag] chance for equipment drops [tag]+1[/tag].",
+        "kr": "○대국에서 [tag]2위 이상 [/tag] 달성 시, 대국 종료 후 장비 획득 수량 [tag]+1[/tag]\r\n○[tag]20%[/tag] 확률로 획득 장비 등급 [tag]+1[/tag]\r\n○대국에서 [tag]만관 이상으로 화료[/tag] 시, 대국 종료 후 장비 획득 수량 [tag]+1[/tag]\r\n○[tag]60%[/tag] 확률로 획득 장비 수량 [tag]+1[/tag]"
+    },
+    {
+        "id": 26044009,
+        "type": "",
+        "chs": "○若在对局中获得[tag]3位及以上[/tag]，对局后掉落装备数量[tag]+1[/tag]\r\n○有[tag]20%[/tag]概率，掉落的装备品质[tag]+1[/tag]\r\n○若在对局中[tag]和牌满贯及以上[/tag]，对局后掉落装备数量[tag]+1[/tag]\r\n○有[tag]60%[/tag]概率，掉落的装备数量[tag]+1[/tag]",
+        "chsT": "○若在對局中獲得[tag]3位及以上[/tag]，對局後掉落裝備數量[tag]+1[/tag]\r\n○有[tag]20%[/tag]概率，掉落的裝備品質[tag]+1[/tag]\r\n○若在對局中[tag]和牌滿貫及以上[/tag]，對局後掉落裝備數量[tag]+1[/tag]\r\n○有[tag]60%[/tag]概率，掉落的裝備數量[tag]+1[/tag]",
+        "jp": "○対局で[tag]3位以上[/tag]を獲得した場合、装備ドロップ数[tag]+1[/tag]\r\n○[tag]20%[/tag]の確率で、ドロップする装備のレア度が[tag]+1[/tag]\r\n○対局で[tag]満貫以上[/tag]を和了した場合、装備ドロップ数[tag]+1[/tag]\r\n○[tag]60%[/tag]の確率で、装備ドロップ数[tag]+1[/tag]",
+        "en": "○If you finish [tag]3rd or higher[/tag] in a match, equipment drops [tag]+1[/tag].\r\n○[tag]20%[/tag] chance for equipment drop rarity [tag]+1[/tag].\r\n○If you [tag]win with Mangan or higher[/tag] in a match, equipment drops [tag]+1[/tag].\r\n○[tag]60%[/tag] chance for equipment drops [tag]+1[/tag].",
+        "kr": "○대국에서 [tag]3위 이상 [/tag] 달성 시, 대국 종료 후 장비 획득 수량 [tag]+1[/tag]\r\n○[tag]20%[/tag] 확률로 획득 장비 등급 [tag]+1[/tag]\r\n○대국에서 [tag]만관 이상으로 화료[/tag] 시, 대국 종료 후 장비 획득 수량 [tag]+1[/tag]\r\n○[tag]60%[/tag] 확률로 획득 장비 수량 [tag]+1[/tag]"
+    },
+    {
+        "id": 26044010,
+        "type": "",
+        "chs": "○若在对局中获得[tag]3位及以上[/tag]，对局后掉落装备数量[tag]+1[/tag]\r\n○有[tag]20%[/tag]概率，掉落的装备品质[tag]+1[/tag]\r\n○若在对局中[tag]和牌满贯及以上[/tag]，对局后掉落装备数量[tag]+1[/tag]\r\n○有[tag]60%[/tag]概率，掉落的装备数量[tag]+1[/tag]\r\n○保底掉落品质：[tag]绿[/tag]",
+        "chsT": "○若在對局中獲得[tag]3位及以上[/tag]，對局後掉落裝備數量[tag]+1[/tag]\r\n○有[tag]20%[/tag]概率，掉落的裝備品質[tag]+1[/tag]\r\n○若在對局中[tag]和牌滿貫及以上[/tag]，對局後掉落裝備數量[tag]+1[/tag]\r\n○有[tag]60%[/tag]概率，掉落的裝備數量[tag]+1[/tag]\r\n○保底掉落品質：[tag]綠[/tag]",
+        "jp": "○対局で[tag]3位以上[/tag]を獲得した場合、装備ドロップ数[tag]+1[/tag]\r\n○[tag]20%[/tag]の確率で、ドロップする装備のレア度が[tag]+1[/tag]\r\n○対局で[tag]満貫以上[/tag]を和了した場合、装備ドロップ数[tag]+1[/tag]\r\n○[tag]60%[/tag]の確率で、装備ドロップ数[tag]+1[/tag]\r\n○ドロップする装備の最低レア度：[tag]緑[/tag]",
+        "en": "○If you finish [tag]3rd or higher[/tag] in a match, equipment drops [tag]+1[/tag].\r\n○[tag]20%[/tag] chance for equipment drop rarity [tag]+1[/tag].\r\n○If you [tag]win with Mangan or higher[/tag] in a match, equipment drops [tag]+1[/tag].\r\n○[tag]60%[/tag] chance for equipment drops [tag]+1[/tag].\r\n○Guaranteed drop rarity: [tag]Green+[/tag]",
+        "kr": "○대국에서 [tag]3위 이상 [/tag] 달성 시, 대국 종료 후 장비 획득 수량 [tag]+1[/tag]\r\n○[tag]20%[/tag] 확률로 획득 장비 등급 [tag]+1[/tag]\r\n○대국에서 [tag]만관 이상으로 화료[/tag] 시, 대국 종료 후 장비 획득 수량 [tag]+1[/tag]\r\n○[tag]60%[/tag] 확률로 획득 장비 수량 [tag]+1[/tag]\r\n○확정 획득 등급 : [tag]녹[/tag]"
+    },
+    {
+        "id": 26044011,
+        "type": "",
+        "chs": "○若在对局中获得[tag]3位及以上[/tag]，对局后掉落装备数量[tag]+1[/tag]\r\n○有[tag]30%[/tag]概率，掉落的装备品质[tag]+1[/tag]\r\n○若在对局中[tag]和牌满贯及以上[/tag]，对局后掉落装备数量[tag]+1[/tag]\r\n○有[tag]60%[/tag]概率，掉落的装备数量[tag]+1[/tag]\r\n○保底掉落品质：[tag]绿[/tag]",
+        "chsT": "○若在對局中獲得[tag]3位及以上[/tag]，對局後掉落裝備數量[tag]+1[/tag]\r\n○有[tag]30%[/tag]概率，掉落的裝備品質[tag]+1[/tag]\r\n○若在對局中[tag]和牌滿貫及以上[/tag]，對局後掉落裝備數量[tag]+1[/tag]\r\n○有[tag]60%[/tag]概率，掉落的裝備數量[tag]+1[/tag]\r\n○保底掉落品質：[tag]綠[/tag]",
+        "jp": "○対局で[tag]3位以上[/tag]を獲得した場合、装備ドロップ数[tag]+1[/tag]\r\n○[tag]30%[/tag]の確率で、ドロップする装備のレア度が[tag]+1[/tag]\r\n○対局で[tag]満貫以上[/tag]を和了した場合、装備ドロップ数[tag]+1[/tag]\r\n○[tag]60%[/tag]の確率で、装備ドロップ数[tag]+1[/tag]\r\n○ドロップする装備の最低レア度：[tag]緑[/tag]",
+        "en": "○If you finish [tag]3rd or higher[/tag] in a match, equipment drops [tag]+1[/tag].\r\n○[tag]30%[/tag] chance for equipment drop rarity [tag]+1[/tag].\r\n○If you [tag]win with Mangan or higher[/tag] in a match, equipment drops [tag]+1[/tag].\r\n○[tag]60%[/tag] chance for equipment drops [tag]+1[/tag].\r\n○Guaranteed drop rarity: [tag]Green+[/tag]",
+        "kr": "○대국에서 [tag]3위 이상 [/tag] 달성 시, 대국 종료 후 장비 획득 수량 [tag]+1[/tag]\r\n○[tag]30%[/tag] 확률로 획득 장비 등급 [tag]+1[/tag]\r\n○대국에서 [tag]만관 이상으로 화료[/tag] 시, 대국 종료 후 장비 획득 수량 [tag]+1[/tag]\r\n○[tag]60%[/tag] 확률로 획득 장비 수량 [tag]+1[/tag]\r\n○확정 획득 등급 : [tag]녹[/tag]"
+    },
+    {
+        "id": 26044012,
+        "type": "",
+        "chs": "○若在对局中获得[tag]3位及以上[/tag]，对局后掉落装备数量[tag]+1[/tag]\r\n○有[tag]30%[/tag]概率，掉落的装备品质[tag]+1[/tag]\r\n○若在对局中[tag]和牌[/tag]，对局后掉落装备数量[tag]+1[/tag]\r\n○有[tag]60%[/tag]概率，掉落的装备数量[tag]+1[/tag]\r\n○保底掉落品质：[tag]绿[/tag]",
+        "chsT": "○若在對局中獲得[tag]3位及以上[/tag]，對局後掉落裝備數量[tag]+1[/tag]\r\n○有[tag]30%[/tag]概率，掉落的裝備品質[tag]+1[/tag]\r\n○若在對局中[tag]和牌[/tag]，對局後掉落裝備數量[tag]+1[/tag]\r\n○有[tag]60%[/tag]概率，掉落的裝備數量[tag]+1[/tag]\r\n○保底掉落品質：[tag]綠[/tag]",
+        "jp": "○対局で[tag]3位以上[/tag]を獲得した場合、装備ドロップ数[tag]+1[/tag]\r\n○[tag]30%[/tag]の確率で、ドロップする装備のレア度が[tag]+1[/tag]\r\n○対局で[tag]和了[/tag]した場合、装備ドロップ数[tag]+1[/tag]\r\n○[tag]60%[/tag]の確率で、装備ドロップ数[tag]+1[/tag]\r\n○ドロップする装備の最低レア度：[tag]緑[/tag]",
+        "en": "○If you finish [tag]3rd or higher[/tag] in a match, equipment drops [tag]+1[/tag].\r\n○[tag]30%[/tag] chance for equipment drop rarity [tag]+1[/tag].\r\n○If you [tag]win a hand[/tag] in a match, equipment drops [tag]+1[/tag].\r\n○[tag]60%[/tag] chance for equipment drops [tag]+1[/tag].\r\n○Guaranteed drop rarity: [tag]Green+[/tag]",
+        "kr": "○대국에서 [tag]3위 이상 [/tag] 달성 시, 대국 종료 후 장비 획득 수량 [tag]+1[/tag]\r\n○[tag]30%[/tag] 확률로 획득 장비 등급 [tag]+1[/tag]\r\n○대국에서 [tag]화료[/tag] 시, 대국 종료 후 장비 획득 수량 [tag]+1[/tag]\r\n○[tag]60%[/tag] 확률로 획득 장비 수량 [tag]+1[/tag]\r\n○확정 획득 등급 : [tag]녹[/tag]"
+    },
+    {
+        "id": 26044013,
+        "type": "",
+        "chs": "○若在对局中获得[tag]3位及以上[/tag]，对局后掉落装备数量[tag]+1[/tag]\r\n○有[tag]30%[/tag]概率，掉落的装备品质[tag]+1[/tag]\r\n○若在对局中[tag]和牌[/tag]，对局后掉落装备数量[tag]+1[/tag]\r\n○有[tag]90%[/tag]概率，掉落的装备数量[tag]+1[/tag]\r\n○保底掉落品质：[tag]绿[/tag]",
+        "chsT": "○若在對局中獲得[tag]3位及以上[/tag]，對局後掉落裝備數量[tag]+1[/tag]\r\n○有[tag]30%[/tag]概率，掉落的裝備品質[tag]+1[/tag]\r\n○若在對局中[tag]和牌[/tag]，對局後掉落裝備數量[tag]+1[/tag]\r\n○有[tag]90%[/tag]概率，掉落的裝備數量[tag]+1[/tag]\r\n○保底掉落品質：[tag]綠[/tag]",
+        "jp": "○対局で[tag]3位以上[/tag]を獲得した場合、装備ドロップ数[tag]+1[/tag]\r\n○[tag]30%[/tag]の確率で、ドロップする装備のレア度が[tag]+1[/tag]\r\n○対局で[tag]和了[/tag]した場合、装備ドロップ数[tag]+1[/tag]\r\n○[tag]90%[/tag]の確率で、装備ドロップ数[tag]+1[/tag]\r\n○ドロップする装備の最低レア度：[tag]緑[/tag]",
+        "en": "○If you finish [tag]3rd or higher[/tag] in a match, equipment drops [tag]+1[/tag].\r\n○[tag]30%[/tag] chance for equipment drop rarity [tag]+1[/tag].\r\n○If you [tag]win a hand[/tag] in a match, equipment drops [tag]+1[/tag].\r\n○[tag]90%[/tag] chance for equipment drops [tag]+1[/tag].\r\n○Guaranteed drop rarity: [tag]Green+[/tag]",
+        "kr": "○대국에서 [tag]3위 이상 [/tag] 달성 시, 대국 종료 후 장비 획득 수량 [tag]+1[/tag]\r\n○[tag]30%[/tag] 확률로 획득 장비 등급 [tag]+1[/tag]\r\n○대국에서 [tag]화료[/tag] 시, 대국 종료 후 장비 획득 수량 [tag]+1[/tag]\r\n○[tag]90%[/tag] 확률로 획득 장비 수량 [tag]+1[/tag]\r\n○확정 획득 등급 : [tag]녹[/tag]"
+    },
+    {
+        "id": 26044014,
+        "type": "",
+        "chs": "○若在对局中获得[tag]3位及以上[/tag]，对局后掉落装备数量[tag]+1[/tag]\r\n○有[tag]30%[/tag]概率，掉落的装备品质[tag]+1[/tag]\r\n○若在对局中[tag]和牌[/tag]，对局后掉落装备数量[tag]+1[/tag]\r\n○有[tag]90%[/tag]概率，掉落的装备数量[tag]+1[/tag]\r\n○保底掉落品质：[tag]蓝[/tag]",
+        "chsT": "○若在對局中獲得[tag]3位及以上[/tag]，對局後掉落裝備數量[tag]+1[/tag]\r\n○有[tag]30%[/tag]概率，掉落的裝備品質[tag]+1[/tag]\r\n○若在對局中[tag]和牌[/tag]，對局後掉落裝備數量[tag]+1[/tag]\r\n○有[tag]90%[/tag]概率，掉落的裝備數量[tag]+1[/tag]\r\n○保底掉落品質：[tag]藍[/tag]",
+        "jp": "○対局で[tag]3位以上[/tag]を獲得した場合、装備ドロップ数[tag]+1[/tag]\r\n○[tag]30%[/tag]の確率で、ドロップする装備のレア度が[tag]+1[/tag]\r\n○対局で[tag]和了[/tag]した場合、装備ドロップ数[tag]+1[/tag]\r\n○[tag]90%[/tag]の確率で、装備ドロップ数[tag]+1[/tag]\r\n○ドロップする装備の最低レア度：[tag]青[/tag]",
+        "en": "○If you finish [tag]3rd or higher[/tag] in a match, equipment drops [tag]+1[/tag].\r\n○[tag]30%[/tag] chance for equipment drop rarity [tag]+1[/tag].\r\n○If you [tag]win a hand[/tag] in a match, equipment drops [tag]+1[/tag].\r\n○[tag]90%[/tag] chance for equipment drops [tag]+1[/tag].\r\n○Guaranteed drop rarity: [tag]Blue+[/tag]",
+        "kr": "○대국에서 [tag]3위 이상 [/tag] 달성 시, 대국 종료 후 장비 획득 수량 [tag]+1[/tag]\r\n○[tag]30%[/tag] 확률로 획득 장비 등급 [tag]+1[/tag]\r\n○대국에서 [tag]화료[/tag] 시, 대국 종료 후 장비 획득 수량 [tag]+1[/tag]\r\n○[tag]90%[/tag] 확률로 획득 장비 수량 [tag]+1[/tag]\r\n○확정 획득 등급 : [tag]청[/tag]"
     }
 ]

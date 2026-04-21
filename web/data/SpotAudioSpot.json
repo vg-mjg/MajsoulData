@@ -567,6 +567,139 @@
         "type": 0
     },
     {
+        "id": 182,
+        "path": "audio_lobby/dj_1",
+        "timeLength": 0,
+        "str": "VR进场",
+        "type": 0
+    },
+    {
+        "id": 183,
+        "path": "audio_lobby/dj_2",
+        "timeLength": 0,
+        "str": "VR离场",
+        "type": 0
+    },
+    {
+        "id": 184,
+        "path": "audio_lobby/dj_3",
+        "timeLength": 0,
+        "str": "崩解",
+        "type": 0
+    },
+    {
+        "id": 185,
+        "path": "audio_lobby/dj_4",
+        "timeLength": 0,
+        "str": "变身",
+        "type": 0
+    },
+    {
+        "id": 187,
+        "path": "audio_lobby/dj_5",
+        "timeLength": 0,
+        "str": "传送出现",
+        "type": 0
+    },
+    {
+        "id": 188,
+        "path": "audio_lobby/dj_6",
+        "timeLength": 0,
+        "str": "传送离开",
+        "type": 0
+    },
+    {
+        "id": 191,
+        "path": "audio_lobby/dj_7",
+        "timeLength": 0,
+        "str": "怪物吼叫1",
+        "type": 0
+    },
+    {
+        "id": 192,
+        "path": "audio_lobby/dj_8",
+        "timeLength": 0,
+        "str": "怪物吼叫2",
+        "type": 0
+    },
+    {
+        "id": 193,
+        "path": "audio_lobby/dj_9",
+        "timeLength": 0,
+        "str": "冷兵器挥舞",
+        "type": 0
+    },
+    {
+        "id": 194,
+        "path": "audio_lobby/dj_10",
+        "timeLength": 0,
+        "str": "魔法攻击",
+        "type": 0
+    },
+    {
+        "id": 195,
+        "path": "audio_lobby/dj_11",
+        "timeLength": 0,
+        "str": "劈砍",
+        "type": 0
+    },
+    {
+        "id": 196,
+        "path": "audio_lobby/dj_12",
+        "timeLength": 0,
+        "str": "气流聚集",
+        "type": 0
+    },
+    {
+        "id": 197,
+        "path": "audio_lobby/dj_13",
+        "timeLength": 0,
+        "str": "受击2",
+        "type": 0
+    },
+    {
+        "id": 198,
+        "path": "audio_lobby/dj_14",
+        "timeLength": 0,
+        "str": "受击",
+        "type": 0
+    },
+    {
+        "id": 200,
+        "path": "audio_lobby/dj_15",
+        "timeLength": 0,
+        "str": "烟雾",
+        "type": 0
+    },
+    {
+        "id": 201,
+        "path": "audio_lobby/dj_16",
+        "timeLength": 0,
+        "str": "抓痕",
+        "type": 0
+    },
+    {
+        "id": 202,
+        "path": "audio_lobby/dj_17",
+        "timeLength": 0,
+        "str": "子弹击中（单体）",
+        "type": 0
+    },
+    {
+        "id": 203,
+        "path": "audio_lobby/dj_18",
+        "timeLength": 0,
+        "str": "子弹击中（群体）",
+        "type": 0
+    },
+    {
+        "id": 204,
+        "path": "audio_lobby/dj_19",
+        "timeLength": 0,
+        "str": "子弹扫射",
+        "type": 0
+    },
+    {
         "id": 1001,
         "path": "spot/spot_se/yiliyase01",
         "timeLength": 0,
@@ -627,6 +760,20 @@
         "path": "audio_lobby/2602chunjie_fever",
         "timeLength": 0,
         "str": "神驰集愿2",
+        "type": 1
+    },
+    {
+        "id": 6008,
+        "path": "audio_lobby/2604dj_village_cut_bgm",
+        "timeLength": 0,
+        "str": "剑域誓约小镇bgm裁剪",
+        "type": 1
+    },
+    {
+        "id": 6009,
+        "path": "audio_lobby/2604dj_dungeon_bgm",
+        "timeLength": 0,
+        "str": "剑域誓约战斗bgm",
         "type": 1
     },
     {
@@ -760,6 +907,34 @@
         "path": "spot/spot_se/bubble19",
         "timeLength": 0,
         "str": "气泡-音符",
+        "type": 0
+    },
+    {
+        "id": 10020,
+        "path": "audio_lobby/bubble20",
+        "timeLength": 0,
+        "str": "气泡-睡觉",
+        "type": 0
+    },
+    {
+        "id": 10021,
+        "path": "audio_lobby/bubble21",
+        "timeLength": 0,
+        "str": "气泡-宕机",
+        "type": 0
+    },
+    {
+        "id": 10022,
+        "path": "audio_lobby/bubble22",
+        "timeLength": 0,
+        "str": "气泡-不爽",
+        "type": 0
+    },
+    {
+        "id": 10023,
+        "path": "audio_lobby/bubble23",
+        "timeLength": 0,
+        "str": "气泡-灯泡",
         "type": 0
     },
     {

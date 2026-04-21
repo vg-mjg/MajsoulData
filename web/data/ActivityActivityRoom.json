@@ -20,7 +20,8 @@
         "hunzhiyijiMode": 0,
         "wanxiangxiuluoMode": 0,
         "beishuizhizhanMode": 0,
-        "xiakeshangMode": 0
+        "xiakeshangMode": 0,
+        "qiangduozhizhanMode": 0
     },
     {
         "activityId": 1166,
@@ -43,7 +44,8 @@
         "hunzhiyijiMode": 0,
         "wanxiangxiuluoMode": 0,
         "beishuizhizhanMode": 0,
-        "xiakeshangMode": 0
+        "xiakeshangMode": 0,
+        "qiangduozhizhanMode": 0
     },
     {
         "activityId": 1190,
@@ -66,7 +68,8 @@
         "hunzhiyijiMode": 0,
         "wanxiangxiuluoMode": 0,
         "beishuizhizhanMode": 0,
-        "xiakeshangMode": 0
+        "xiakeshangMode": 0,
+        "qiangduozhizhanMode": 0
     },
     {
         "activityId": 1232,
@@ -89,7 +92,8 @@
         "hunzhiyijiMode": 0,
         "wanxiangxiuluoMode": 0,
         "beishuizhizhanMode": 0,
-        "xiakeshangMode": 0
+        "xiakeshangMode": 0,
+        "qiangduozhizhanMode": 0
     },
     {
         "activityId": 1233,
@@ -112,7 +116,8 @@
         "hunzhiyijiMode": 0,
         "wanxiangxiuluoMode": 0,
         "beishuizhizhanMode": 0,
-        "xiakeshangMode": 0
+        "xiakeshangMode": 0,
+        "qiangduozhizhanMode": 0
     },
     {
         "activityId": 1296,
@@ -135,7 +140,8 @@
         "hunzhiyijiMode": 0,
         "wanxiangxiuluoMode": 0,
         "beishuizhizhanMode": 0,
-        "xiakeshangMode": 0
+        "xiakeshangMode": 0,
+        "qiangduozhizhanMode": 0
     },
     {
         "activityId": 1297,
@@ -158,7 +164,8 @@
         "hunzhiyijiMode": 0,
         "wanxiangxiuluoMode": 0,
         "beishuizhizhanMode": 0,
-        "xiakeshangMode": 0
+        "xiakeshangMode": 0,
+        "qiangduozhizhanMode": 0
     },
     {
         "activityId": 220410,
@@ -181,7 +188,8 @@
         "hunzhiyijiMode": 0,
         "wanxiangxiuluoMode": 0,
         "beishuizhizhanMode": 0,
-        "xiakeshangMode": 0
+        "xiakeshangMode": 0,
+        "qiangduozhizhanMode": 0
     },
     {
         "activityId": 221107,
@@ -204,7 +212,8 @@
         "hunzhiyijiMode": 0,
         "wanxiangxiuluoMode": 0,
         "beishuizhizhanMode": 0,
-        "xiakeshangMode": 0
+        "xiakeshangMode": 0,
+        "qiangduozhizhanMode": 0
     },
     {
         "activityId": 230408,
@@ -227,7 +236,8 @@
         "hunzhiyijiMode": 0,
         "wanxiangxiuluoMode": 0,
         "beishuizhizhanMode": 0,
-        "xiakeshangMode": 0
+        "xiakeshangMode": 0,
+        "qiangduozhizhanMode": 0
     },
     {
         "activityId": 231123,
@@ -250,7 +260,8 @@
         "hunzhiyijiMode": 0,
         "wanxiangxiuluoMode": 0,
         "beishuizhizhanMode": 0,
-        "xiakeshangMode": 0
+        "xiakeshangMode": 0,
+        "qiangduozhizhanMode": 0
     },
     {
         "activityId": 240412,
@@ -273,7 +284,8 @@
         "hunzhiyijiMode": 1,
         "wanxiangxiuluoMode": 0,
         "beishuizhizhanMode": 0,
-        "xiakeshangMode": 0
+        "xiakeshangMode": 0,
+        "qiangduozhizhanMode": 0
     },
     {
         "activityId": 241141,
@@ -296,7 +308,8 @@
         "hunzhiyijiMode": 0,
         "wanxiangxiuluoMode": 1,
         "beishuizhizhanMode": 0,
-        "xiakeshangMode": 0
+        "xiakeshangMode": 0,
+        "qiangduozhizhanMode": 0
     },
     {
         "activityId": 250412,
@@ -319,7 +332,8 @@
         "hunzhiyijiMode": 0,
         "wanxiangxiuluoMode": 0,
         "beishuizhizhanMode": 1,
-        "xiakeshangMode": 0
+        "xiakeshangMode": 0,
+        "qiangduozhizhanMode": 0
     },
     {
         "activityId": 251050,
@@ -342,6 +356,31 @@
         "hunzhiyijiMode": 0,
         "wanxiangxiuluoMode": 0,
         "beishuizhizhanMode": 0,
-        "xiakeshangMode": 1
+        "xiakeshangMode": 1,
+        "qiangduozhizhanMode": 0
+    },
+    {
+        "activityId": 260451,
+        "sort": 17,
+        "strName": "26041083",
+        "strRule": "26041086",
+        "friendRoomId": 17,
+        "dora3Mode": 0,
+        "beginOpenMode": 0,
+        "muyuMode": 0,
+        "xuezhanMode": 0,
+        "huanzhangMode": 0,
+        "chuanmaMode": 0,
+        "jiuchaoMode": 0,
+        "revealDiscard": 0,
+        "fieldSpellMode": 0,
+        "zhanxingMode": 0,
+        "tianmingMode": 0,
+        "yongchangMode": 0,
+        "hunzhiyijiMode": 0,
+        "wanxiangxiuluoMode": 0,
+        "beishuizhizhanMode": 0,
+        "xiakeshangMode": 0,
+        "qiangduozhizhanMode": 1
     }
 ]

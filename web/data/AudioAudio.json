@@ -324,6 +324,12 @@
         "type": "lobby"
     },
     {
+        "id": 157,
+        "path": "audio/audio_lobby/gacha_banner_dj",
+        "timeLength": 0,
+        "type": "lobby"
+    },
+    {
         "id": 201,
         "path": "audio/audio_mj/beiman",
         "timeLength": 2098,
@@ -1836,6 +1842,54 @@
         "type": "event"
     },
     {
+        "id": 10391,
+        "path": "audio/audio_lobby/2604dj_village_bgm",
+        "timeLength": 0,
+        "type": "event"
+    },
+    {
+        "id": 10392,
+        "path": "audio/audio_lobby/2604dj_dungeon_bgm",
+        "timeLength": 0,
+        "type": "event"
+    },
+    {
+        "id": 10393,
+        "path": "audio/audio_lobby/2604dj_activity_enter",
+        "timeLength": 0,
+        "type": "event"
+    },
+    {
+        "id": 10394,
+        "path": "audio/audio_event/2404ba_success",
+        "timeLength": 0,
+        "type": "event"
+    },
+    {
+        "id": 10395,
+        "path": "audio/audio_event/2404ba_failure",
+        "timeLength": 0,
+        "type": "event"
+    },
+    {
+        "id": 10396,
+        "path": "audio/audio_lobby/2604dj_ui_open",
+        "timeLength": 0,
+        "type": "event"
+    },
+    {
+        "id": 10397,
+        "path": "audio/audio_lobby/2604dj_character_show",
+        "timeLength": 0,
+        "type": "event"
+    },
+    {
+        "id": 10398,
+        "path": "audio/audio_lobby/2604dj_crafting",
+        "timeLength": 0,
+        "type": "event"
+    },
+    {
         "id": 305032,
         "path": "audio/audio_mj/effect_liqi_canying",
         "timeLength": 1314,
@@ -2480,6 +2534,18 @@
     {
         "id": 308047,
         "path": "audio/audio_mj/effect_liqi_25yh",
+        "timeLength": 0,
+        "type": "effect"
+    },
+    {
+        "id": 308048,
+        "path": "audio/audio_mj/ron_26dj",
+        "timeLength": 0,
+        "type": "effect"
+    },
+    {
+        "id": 308049,
+        "path": "audio/audio_mj/effect_liqi_26dj",
         "timeLength": 0,
         "type": "effect"
     }

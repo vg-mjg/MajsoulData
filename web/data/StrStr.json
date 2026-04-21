@@ -35655,7 +35655,7 @@
         "chsT": "確認重置強化嗎？重置後，已使用的強化點數全部返還。",
         "jp": "強化をリセットすると、使われたねこ缶は返還されます。リセットしますか？",
         "en": "Confirm Reset? All used upgrade points will be returned.",
-        "kr": "정말 초기화 하시겠습니까? 초기화 후, 이미 사용한 강화 통조림은 전부 반환됩니다."
+        "kr": "정말 초기화 하시겠습니까? 초기화 후 모든 능력이 0레벨이 되며, 이미 사용한 특성 포인트는 전부 반환됩니다."
     },
     {
         "id": 25040090,
@@ -36803,20 +36803,20 @@
     {
         "id": 25081130,
         "type": "",
-        "chs": "特别活动 -青云之志：勇喵小队-\r\n活动时间：长期开放\r\n\r\n目标是更高，更快，更强！贯彻麻将的信念直上云霄！\r\n青云之志再度回归，和勇喵小队一起探寻密林结识伙伴，击败恶龙勇攀高峰吧！\r\n\r\n主要流程\r\n-每轮游戏以过关为目标，分为关卡阶段和商店阶段\r\n-在关卡阶段中，玩家将面对15个关卡，其中每3个关卡为boss关卡，有额外的限制条件\r\n-玩家需要在关卡阶段组建手牌并和牌以获得分数，达到目标分数后才可过关 \r\n-过关后将进入商店阶段，可用在关卡阶段中获得的星币购买商品或增强能力\r\n-突破15个关卡后，本轮游戏即胜利\r\n-胜利后可以选择挑战更多关卡\r\n\r\n关卡阶段\r\n-使用去除2-8万的108张牌进行游戏\r\n-每关开始时，玩家将获得13张手牌、36张待摸牌和1张宝牌指示牌，并从待摸牌中公开6张\r\n\r\n-摸牌前可以进行“换牌”\r\n--可以选择任意张手牌与牌库交换，但不会与待摸牌交换\r\n--每次换牌会消耗1次次数，初始换牌次数为3次\r\n\r\n-换牌完毕后，正式开始摸牌\r\n--按顺序依次从待摸牌中摸牌，其余摸牌、和牌与普通麻将规则无异\r\n--手牌满足和牌条件时可以和牌，将计算分数\r\n--不同于普通麻将规则，和牌后可以继续调整手牌来使牌达到更为理想的状态\r\n--本模式无立直规则\r\n\r\n-分数计算\r\n--和牌分数=手牌中所有牌的总分x番数\r\n--手牌分数按照每张牌的基础分值结算，可通过牌库查询基础分值\r\n--番数将依照普通麻将规则结算手牌役种\r\n--持有护身符时，可对分数和番数有额外影响\r\n--护身符会按照从左至右的顺序以此结算\r\n\r\n-过关结算\r\n--满足每关的过关分数条件即可过关，进入连续摸牌状态\r\n--在连续摸牌状态中，将直接公布剩余的待摸牌\r\n--待摸牌满足和牌条件时将直接结算分数，摸完为止\r\n--过关后将根据当前关卡难度发放星币奖励和护身符包奖励\r\n--若超过过关分数条件的2倍、3倍或5倍时，仍有额外星币奖励\r\n--具有关卡结束时效果的护身符，也会在过关结算时生效\r\n\r\n-失败条件\r\n--当玩家摸完最后一张待摸牌时无法获得足够的分数，则本轮游戏结束\r\n\r\n商店阶段\r\n-商店阶段中，玩家可出售自己的护身符，或是消耗星币来选择增强能力和购买护身符包\r\n-增强能力：提升本轮游戏的公开牌数、宝牌指示牌数和新增魂牌\r\n-购买护身符包：选择不同稀有度的护身符包，开启后可从3张中选择自己心仪的1张护身符，或是选择跳过\r\n-获得相同的护身符时，可将原有护身符升级为强化版，效果更为强力\r\n-获取护身符时，都有概率带有不同等级的印章\r\n--获取已有护身符时如果带有印章，则会覆盖之前的印章\r\n-护身符存在获取上限\r\n\r\n初始强化\r\n-完成本模式的活动任务后，可以获得强化点数\r\n-在主界面-能力强化中可以消耗强化点数进行初始强化 \r\n-初始强化包含：初始持有星币、商店卡包出售数量、商店卡包质量、商店刷新价格、护身符持有上限、初始换牌次数\r\n-初始强化可以随时重置，重置后将返还所有强化点数\r\n-每次强化后将在新一轮游戏时生效\r\n\r\n自选初始护身符\r\n-通过5-3关卡后，可解锁自选初始护身符功能\r\n-可在图鉴中选择品质为普通或稀有的护身符作为初始护身符\r\n-初始护身符仅可设置一张\r\n-自选初始护身符将在新一轮游戏时生效",
-        "chsT": "特別活動 - 青雲之志：勇喵小隊 -\r\n活動時間：長期開放\r\n\r\n目標是更高、更快、更強！貫徹麻將的信念直上雲霄！\r\n青雲之志再度回歸，和勇喵小隊一起探尋密林、結識伙伴，擊敗惡龍、勇攀高峰吧！\r\n\r\n主要流程\r\n-每輪遊戲以過關為目標，分為關卡階段和商店階段\r\n-在關卡階段中，玩家將面對15個關卡，其中每3個關卡為boss關卡，有額外的限制條件\r\n-玩家需要在關卡階段組建手牌並和牌以獲得分數，達到目標分數後才可過關 \r\n-過關後將進入商店階段，可用在關卡階段中獲得的星幣購買商品或增強能力\r\n-突破15個關卡後，本輪遊戲即勝利\r\n-勝利後可以選擇挑戰更多關卡\r\n\r\n關卡階段\r\n-使用去除2-8萬的108張牌進行遊戲\r\n-每關開始時，玩家將獲得13張手牌、36張待摸牌和1張寶牌指示牌，並從待摸牌中公開6張\r\n\r\n-摸牌前可以進行「換牌」\r\n--可以選擇任意張手牌與牌庫交換，但不會與待摸牌交換\r\n--每次換牌會消耗1次次數，初始換牌次數為3次\r\n\r\n-換牌完畢後，正式開始摸牌\r\n--按順序依次從待摸牌中摸牌，其餘摸牌、和牌與普通麻將規則無異\r\n--手牌滿足和牌條件時可以和牌，將計算分數\r\n--不同于普通麻將規則，和牌後可以繼續調整手牌來使牌達到更為理想的狀態\r\n--本模式無立直規則\r\n\r\n-分數計算\r\n--和牌分數=手牌中所有牌的總分x番數\r\n--手牌分數按照每張數位牌5分，字牌10分計算\r\n--番數將依照普通麻將規則結算手牌役種\r\n--持有護身符時，可對分數和番數有額外影響\r\n-- 護身符會按照從左至右的順序依次結算\r\n\r\n-過關結算\r\n--滿足每關的過關分數條件即可過關，進入連續摸牌狀態\r\n--在連續摸牌狀態中，將直接公佈剩餘的待摸牌\r\n--待摸牌滿足和牌條件時將直接結算分數，摸完為止\r\n--過關後將根據當前關卡難度發放星幣獎勵和護身符包獎勵\r\n--若超過過關分數條件的2倍、3倍或5倍時，仍有額外星幣獎勵\r\n--具有關卡結束時效果的護身符，也會在過關結算時生效\r\n\r\n-失敗條件\r\n--當玩家摸完最後一張待摸牌時無法獲得足夠的分數，則本輪遊戲結束\r\n\r\n商店階段\r\n-商店階段中，玩家可出售自己的護身符，或是消耗星幣來選擇增強能力和購買卡包\r\n-增強能力：提升本輪遊戲的公開牌數和寶牌指示牌數和新增魂牌\r\n-購買護身符包：選擇不同稀有度的護身符包，開啟後可從3張中選擇自己心儀的1張護身符，或是選擇跳過\r\n-獲得相同的護身符時，可將原有護身符升級為強化版，效果更為強力\r\n-獲取護身符時，都有概率帶有不同等級的印章。\r\n--獲取已有護身符時如果帶有印章，則會覆蓋之前的印章。\r\n-護身符存在獲取上限\r\n\r\n初始強化\r\n-完成本模式的活動任務後，可以獲得強化點數\r\n-在主介面-能力強化中可以消耗強化點數進行初始強化 \r\n-初始強化包含：初始持有星幣、商店卡包出售數量、商店卡包品質、商店刷新價格、護身符持有上限、初始換牌次數\r\n-初始強化可以隨時重置，重置後將返還所有強化點數\r\n-每次強化後將在新一輪遊戲時生效\r\n\r\n自選初始護身符\r\n-通過 5-3 關卡後，可解鎖自選初始護身符功能\r\n-可在圖鑑中選擇品質為普通或稀有的護身符作為初始護身符\r\n-初始護身符僅可設置一張\r\n-自選初始護身符將在新一輪遊戲時生效",
-        "jp": "青雲の志・勇にゃん伝説\r\nイベント期間：長期開催\r\n\r\nより高く、より早く、より強く！ 麻雀への思いは天をも貫く！\r\n「青雲の志」がさらにパワーアップして帰ってきた！\r\n勇にゃんの仲間と一緒にドラゴンに挑もう！\r\n\r\n\r\n「青雲の志」の流れ\r\n\r\n-1回の挑戦につき15ステージある。ステージとステージの間に道具屋にて強化やお守りの購入・売却ができる。\r\n--ステージごとに目標点数が設定されている。ボスステージではステージ効果も発生する。\r\n--ステージ15をクリアすると、さらなる挑戦が……？\r\n\r\n-ステージ開始前、手牌13枚、牌山36枚、ドラ表示牌1枚が配置される。\r\n--牌山の36枚中、初期状態では6枚が表にされた状態で置かれる。\r\n\r\n-ステージ開始時、手牌から、不要な牌を任意の枚数牌山の牌と入れ替えられる。\r\n--次にツモする牌とは入れ替えできない。\r\n--初期状態では、ステージ中に3回まで入れ替えを行える。\r\n\r\n-ステージ挑戦中は下記のルールに沿って、ステージクリアを目指して和了する。\r\n--立直はできない。\r\n--萬子の2～8は使用しない。\r\n--和了後は引き続きツモ・打牌を行い、手牌を違う形にできる。\r\n\r\n-点数計算について\r\n--和了点数＝手牌の総スコア×飜数\r\n--手牌のスコアは、和了時に手牌にある牌で計算される。各牌のスコアは「枚数確認」から確認できる。\r\n--お守りの効果によって、最終点数と飜数が変化する場合がある。\r\n--お守りの効果が同じタイミングで発動する場合、左から右への順番で発動する。\r\n--お守りの効果によって、「魂牌」を獲得することがある。和了時、手牌中の「魂牌」1枚ごとに1飜増える。\r\n\r\n-合計和了点数が目標点数に達成すると、ステージクリアとなる。\r\n--ステージクリア後、牌山が尽きるまでツモ切りが繰り返される。ツモ切り中も引き続き和了できる。\r\n--ステージクリア後、クリア報酬として「勝ち星」や「お守りパック」も入手できる。「勝ち星「お守りパック」の数およびレア度は、ステージの難易度によって変化する。\r\n--ステージクリア後、合計和了点数が目標点数の2、3、5倍を達成すると、それぞれボーナスの「勝ち星」を入手できる。\r\n--ステージクリア後に発動するタイプのお守りは、このタイミングで効果が発動する。\r\n\r\n-挑戦終了について\r\n--牌山から最後の牌をツモした時点で、合計和了点数が目標点数を達成できなかった場合、挑戦終了となる。\r\n\r\n-道具屋について\r\n--道具屋では「表牌の枚数」「入替回数」の強化や、お守りの購入・売却ができる。\r\n--所持中のお守りを売却すると、勝ち星を獲得できる。\r\n--勝ち星を消費し、魂牌を増やせる他、表牌枚数・ドラ表示牌枚数を強化できる。この強化は、挑戦終了後にリセットされる。\r\n--勝ち星を消費し、お守りパックを購入できる。\r\n--お守りパックからは、3枚のお守りが出現する。3枚から1枚を選んで入手できる。\r\n--既に所持しているお守りを入手すると、お守りの効果が強化される。\r\n--お守りを入手する際に、一定確率で特殊効果を持つ「スタンプ」が付くことがある。\r\n--既に所持しているスタンプ付きのお守りと同じお守りを、新たにスタンプ付きの状態で入手した場合、新しいスタンプのみが残る。\r\n--入手したことがあるお守りは、アルバムから詳細を確認できる。\r\n\r\n能力強化について\r\n-イベントクエストを達成すると、強化PTを入手できる。\r\n-能力強化ページでは、強化PTを消費し、6種類の強化を行うことができる。\r\n-能力強化をリセットすると、消費された強化PTが返還される。\r\n-能力強化後、次の挑戦から効果が反映される。\r\n\r\nお守り持ち込みについて\r\n-5-3ステージ初回クリアを達成すると、開始時に持ち込むお守りを設定できる機能が解放される。\r\n-持ち込むお守りに設定できるのは、アルバムに登録されたノーマルまたはレアのお守り1枚のみ。\r\n-持ち込むお守りを設定後、次の挑戦から効果が反映される。",
-        "en": "Special Event - Sky-High Ambition: The Nyavengers\r\nEvent Period: Available for a long time\r\n\r\nThe goal is higher, faster, stronger! Embrace the spirit of mahjong and soar to new heights!\r\nSky-High Ambition is back again! Join the Nyavengers on a thrilling adventure – gather new companions, slay the fearsome dragon, and conquer the summit.\r\n\r\nGame Process\r\n- The goal of the game is to clear the levels. There are two phases, the Level Phase and the Shop Phase.\r\n- In the Level Phase, you will face 15 levels, with every 3rd level being a boss level that has additional restrictions.\r\n- You need to assemble winning hands in the Level Phase to score PT; only by reaching the target PT can you clear the level.\r\n- After clearing a level, you enter the Shop Phase, where you can use Star Coins earned during the Level Phase to purchase items or upgrade abilities.\r\n- Achieving a full clear of all 15 levels is considered a victory.\r\n- Upon completing a full clear, you can choose to challenge Ex levels.\r\n\r\nLevel Phase\r\n- The game uses a 108-tile set, with the 2-8 Man tiles removed.\r\n- At the start of each level, you receive 13 hand tiles. There are 36 tiles in the Tile Wall and 1 Dora indicator, with 6 tiles opened in the Tile Wall.\r\n\r\n- Before drawing, you can exchange hand tiles:\r\n-- Hand tiles can be exchanged with the Tile Pool but not with the Tile Wall.\r\n-- Each exchange consumes 1 tile exchange count. You start with 3 at the beginning of the game round.\r\n\r\n- After you finish with tile exchanges, the drawing starts:\r\n-- You draw tiles in order from the Tile Wall. Drawing tiles and winning follow the standard mahjong rules.\r\n-- When your hand meets winning conditions, you can declare a win and calculate the winning PT.\r\n-- Unlike standard mahjong, after winning, you can continue adjusting your hand for an optimal state.\r\n-- There is no Riichi rule in this mode.\r\n\r\n- PT Calculation\r\n-- Winning PT = Total PT of all hand tiles x Han count\r\n-- The total PT of your hand tiles is calculated based on the basic PT of each tile (see the Tile Pool for details).\r\n-- Han is calculated based on standard mahjong's Yaku.\r\n-- Talismans can influence PT and Han.\r\n-- Talismans are resolved in order from left to right.\r\n\r\n- Level Completion\r\n-- Meeting the target PT for each level means you have cleared the level, and you enter the Continuous Draw Mode.\r\n-- In the Continuous Draw Mode, the remaining tiles in the Tile Wall are opened directly.\r\n-- If tiles in the Tile Wall meet winning conditions, the winning PT will be calculated immediately. The level ends when all tiles in the Tile Wall are drawn.\r\n-- Level clear rewards (Star Coins & talisman packs) are given based on the current level's difficulty.\r\n-- Extra Star Coins are awarded for reaching 2x, 3x, or 5x of the target PT.\r\n-- Talismans that trigger at the end of the level will take effect upon level completion.\r\n\r\n- About Failure\r\n-- The game ends if you haven't reached the target PT when the last tile is drawn.\r\n\r\nShop Phase\r\n- In the Shop Phase, you can sell your talismans or spend Star Coins to upgrade abilities and purchase talisman packs.\r\n- Ability Upgrade: Increase the number of opened tiles, Dora indicators, and added Soul tiles for the current game round.\r\n- Talisman Pack Purchase: There are talisman packs of different rarities. Open a pack to choose one of the three talismans presented, or skip.\r\n- Duplicate talismans can upgrade existing ones to Plus versions with stronger effects.\r\n- When acquiring a talisman, it has a chance to come with a random-tier Seal.\r\n-- If you obtain a duplicate talisman that has a Seal, its Seal will replace your old one.\r\n- Talismans have a possession limit.\r\n\r\nInitial Enhancements\r\n- Completing event missions grants enhancement points.\r\n- Use these points in the main event page - Enhancement for initial enhancements.\r\n- Initial enhancements include: initial Star Coins, the number of talisman packs in the shop, the rarity of talisman packs in the shop, shop refresh price, talisman possession limit, and initial tile exchanges.\r\n- Initial enhancements can be reset anytime, returning all the points.\r\n- Applied enhancements will take effect at the start of your next game.\r\n\r\nDefault Talisman\r\n- Unlock condition: Clear Level 5-3.\r\n- You may select one Normal or Rare talisman from your Collection to set as your default. The default talisman is guaranteed to appear in the initial talisman selection of the game.\r\n- You can only set one default talisman.\r\n-After setting, this takes effect at the start of your next game.",
-        "kr": "특별 이벤트 - 청운의 꿈: 용사냥냥 파티\r\n이벤트 기간: 장기 오픈\r\n\r\n목표는 더 높게! 더 빠르게! 더 강하게! 마작의 신념을 관통한 자, 하늘로 쭉쭉 오르리!\r\n청운의 꿈이 다시 돌아왔습니다. 용사냥냥 파티와 함께 모험을 떠나 새로운 동료를 사귀고, 사악한 악룡을 무찔러 봅시다.\r\n\r\n[기본 프로세스]\r\n- 게임의 각 라운드마다 스테이지 클리어 목표가 있으며, 스테이지와 상점으로 나뉩니다.\r\n- 스테이지에서 플레이어는 15개의 스테이지를 도전하게 되며, 그중 3개는 보스 스테이지로 별도 조건이 추가됩니다.\r\n- 플레이어는 스테이지에서 손패를 구성하고 화료하여 점수를 얻습니다. 목표 점수에 도달하면 스테이지를 통과합니다.\r\n- 스테이지 클리어 후 상점에 진입합니다. 스테이지에서 획득한 스타코인으로 상품을 구매하거나 능력을 강화할 수 있습니다.\r\n- 15개의 스테이지를 모두 클리어하면 해당 라운드에서 승리합니다.\r\n- 승리 후 더 많은 스테이지에 도전할 수 있습니다.\r\n\r\n[스테이지 규칙]\r\n- 2만~8만을 제외한 108개의 패로 진행합니다.\r\n- 스테이지 시작 시, 플레이어는 13장의 손패를 갖고, 36장의 쯔모 대기패와 1장의 도라 표시패가 있습니다. 쯔모 대기패 중 6장은 공개됩니다.\r\n- 쯔모 전 '패 교환'을 할 수 있습니다.\r\n- 손패 중 임의의 패를 선택하여 패 모음에서 교환할 수 있으며, 쯔모 대기패와는 교환되지 않습니다.\r\n- 패 교환 시 패 교환 횟수 1회를 사용하며, 처음 시작 시 교환 횟수는 3회입니다.\r\n- 패 교환이 끝난 뒤 정식으로 패를 쯔모합니다.\r\n- 순서대로 쯔모 대기패에서 패를 가져옵니다. 기타 쯔모 및 화료는 일반적인 마작 규칙과 같습니다.\r\n- 손패가 화료 조건을 만족하면 화료를 하고, 점수를 계산합니다.\r\n- 그러나 일반적인 마작과는 달리, 화료의 형태를 완성 한 후에도 손패를 조정하여 다른 형태의 역으로 만들 수 있습니다.\r\n- 해당 모드에는 리치 규칙이 없습니다.\r\n\r\n[점수 계산]\r\n- 화료 점수=손패의 모든 패의 총 점수 x 판수\r\n- 손패 점수는 각 패의 기본 점수로 계산됩니다. 패 창고에서 기본 점수를 확인할 수 있습니다.\r\n- 판수는 일반 마작 규칙의 역 계산법을 따릅니다.\r\n- 부적을 가지고 있으면, 해당 점수 및 판수에 추가 점수를 얻습니다.\r\n- 부적은 왼쪽부터 오른쪽 순서대로 계산됩니다.\r\n\r\n[스테이지 결산]\r\n- 각 스테이지 점수에 도달하면 즉시 클리어하고, 남은 패를 연속으로 쯔모합니다.\r\n- 연속 쯔모 상태에서 남은 쯔모 대기패를 곧바로 공개합니다.\r\n- 쯔모 대기패가 화료 조건에 만족하면 곧바로 점수를 결산하고 쯔모를 멈춥니다.\r\n- 스테이지 클리어 후 해당 스테이지의 난이도에 따라 스타코인과 부적팩 보상을 획득합니다.\r\n- 스테이지 점수가 조건 점수보다 2배, 3배 또는 5배가 많으면 추가 스타코인 보상을 획득합니다.\r\n- '스테이지 종료 시' 조건이 붙은 부적은 스테이지 결산 시 효과가 발생합니다.\r\n\r\n[실패 조건]\r\n- 플레이어가 마지막 쯔모패를 가져온 뒤에도 충분한 점수에 도달하지 못할 경우 그 라운드는 즉시 종료됩니다.\r\n\r\n[상점 단계]\r\n- 상점 단계에서 플레이어는 자신의 부적을 판매하거나 스타코인을 소모하여 능력을 증가시키거나 부적팩을 구매할 수 있습니다.\r\n- 능력 증가: 해당 라운드의 공개패 및 도라 표시패의 개수와 혼패 증가\r\n- 부적팩 구매: 서로 다른 등급의 부적팩을 선택하고, 오픈한 뒤 3장 중 마음에 드는 1장의 부적을 선택하거나 스킵합니다.\r\n- 동일한 부적을 획득하면 기존 부적을 강화 버전으로 업그레이드할 수 있고, 효과가 더욱 강해집니다.\r\n- 부적 획득 시 일정 확률로 랜덤 등급의 도장을 획득할 수 있습니다.\r\n- 이미 보유한 부적 획득 시 도장이 부여되어있다면, 이전의 도장을 덮어씁니다.\r\n- 부적 획득 개수는 한정되어 있습니다.\r\n\r\n[초기 강화]\r\n- 해당 이벤트 임무를 완성하면 강화 포인트를 획득할 수 있습니다.\r\n- [메인 화면] - [강화]에서 강화 포인트를 사용하여 초기 강화를 진행할 수 있습니다.\r\n- 초기 강화: 초기 스타코인 보유, 상점 패키지 판매 수량, 상점 패키지 퀄리티, 상점 새로고침 가격, 부적 보유 상한 수량, 초기 패 교환 횟수\r\n- 초기 강화는 초기화할 수 있으며, 초기화 시 강화 포인트는 반환됩니다.\r\n- 강화 후 새로운 라운드에서 그 효력이 발휘됩니다. \r\n\r\n[기본 부적 설정]\r\n- 스테이지 5-3 클리어 후, 기본 부적 설정 기능이 오픈됩니다.\r\n- 도감 중 보통 또는 희귀 등급의 부적을 선택하여 기본 부적으로 설정할 수 있습니다.\r\n- 기본 부적은 1장만 설정할 수 있습니다.\r\n- 기본 부적 설정 후, 새 게임을 시작해야 효과가 발생합니다."
+        "chs": "特别活动 -青云之志：勇喵小队-\r\n活动时间：2025年8月20日-2026年5月27日4:59\r\n\r\n目标是更高，更快，更强！贯彻麻将的信念直上云霄！\r\n青云之志再度回归，和勇喵小队一起探寻密林结识伙伴，击败恶龙勇攀高峰吧！\r\n\r\n主要流程\r\n-每轮游戏以过关为目标，分为关卡阶段和商店阶段\r\n-在关卡阶段中，玩家将面对15个关卡，其中每3个关卡为boss关卡，有额外的限制条件\r\n-玩家需要在关卡阶段组建手牌并和牌以获得分数，达到目标分数后才可过关 \r\n-过关后将进入商店阶段，可用在关卡阶段中获得的星币购买商品或增强能力\r\n-突破15个关卡后，本轮游戏即胜利\r\n-胜利后可以选择挑战更多关卡\r\n\r\n关卡阶段\r\n-使用去除2-8万的108张牌进行游戏\r\n-每关开始时，玩家将获得13张手牌、36张待摸牌和1张宝牌指示牌，并从待摸牌中公开6张\r\n\r\n-摸牌前可以进行“换牌”\r\n--可以选择任意张手牌与牌库交换，但不会与待摸牌交换\r\n--每次换牌会消耗1次次数，初始换牌次数为3次\r\n\r\n-换牌完毕后，正式开始摸牌\r\n--按顺序依次从待摸牌中摸牌，其余摸牌、和牌与普通麻将规则无异\r\n--手牌满足和牌条件时可以和牌，将计算分数\r\n--不同于普通麻将规则，和牌后可以继续调整手牌来使牌达到更为理想的状态\r\n--本模式无立直规则\r\n\r\n-分数计算\r\n--和牌分数=手牌中所有牌的总分x番数\r\n--手牌分数按照每张牌的基础分值结算，可通过牌库查询基础分值\r\n--番数将依照普通麻将规则结算手牌役种\r\n--持有护身符时，可对分数和番数有额外影响\r\n--护身符会按照从左至右的顺序以此结算\r\n\r\n-过关结算\r\n--满足每关的过关分数条件即可过关，进入连续摸牌状态\r\n--在连续摸牌状态中，将直接公布剩余的待摸牌\r\n--待摸牌满足和牌条件时将直接结算分数，摸完为止\r\n--过关后将根据当前关卡难度发放星币奖励和护身符包奖励\r\n--若超过过关分数条件的2倍、3倍或5倍时，仍有额外星币奖励\r\n--具有关卡结束时效果的护身符，也会在过关结算时生效\r\n\r\n-失败条件\r\n--当玩家摸完最后一张待摸牌时无法获得足够的分数，则本轮游戏结束\r\n\r\n商店阶段\r\n-商店阶段中，玩家可出售自己的护身符，或是消耗星币来选择增强能力和购买护身符包\r\n-增强能力：提升本轮游戏的公开牌数、宝牌指示牌数和新增魂牌\r\n-购买护身符包：选择不同稀有度的护身符包，开启后可从3张中选择自己心仪的1张护身符，或是选择跳过\r\n-获得相同的护身符时，可将原有护身符升级为强化版，效果更为强力\r\n-获取护身符时，都有概率带有不同等级的印章\r\n--获取已有护身符时如果带有印章，则会覆盖之前的印章\r\n-护身符存在获取上限\r\n\r\n初始强化\r\n-完成本模式的活动任务后，可以获得强化点数\r\n-在主界面-能力强化中可以消耗强化点数进行初始强化 \r\n-初始强化包含：初始持有星币、商店卡包出售数量、商店卡包质量、商店刷新价格、护身符持有上限、初始换牌次数\r\n-初始强化可以随时重置，重置后将返还所有强化点数\r\n-每次强化后将在新一轮游戏时生效\r\n\r\n自选初始护身符\r\n-通过5-3关卡后，可解锁自选初始护身符功能\r\n-可在图鉴中选择品质为普通或稀有的护身符作为初始护身符\r\n-初始护身符仅可设置一张\r\n-自选初始护身符将在新一轮游戏时生效",
+        "chsT": "特別活動 - 青雲之志：勇喵小隊 -\r\n活動時間：2025年8月20日-2026年5月27日4:59(UTC+8)\r\n\r\n目標是更高、更快、更強！貫徹麻將的信念直上雲霄！\r\n青雲之志再度回歸，和勇喵小隊一起探尋密林、結識伙伴，擊敗惡龍、勇攀高峰吧！\r\n\r\n主要流程\r\n-每輪遊戲以過關為目標，分為關卡階段和商店階段\r\n-在關卡階段中，玩家將面對15個關卡，其中每3個關卡為boss關卡，有額外的限制條件\r\n-玩家需要在關卡階段組建手牌並和牌以獲得分數，達到目標分數後才可過關 \r\n-過關後將進入商店階段，可用在關卡階段中獲得的星幣購買商品或增強能力\r\n-突破15個關卡後，本輪遊戲即勝利\r\n-勝利後可以選擇挑戰更多關卡\r\n\r\n關卡階段\r\n-使用去除2-8萬的108張牌進行遊戲\r\n-每關開始時，玩家將獲得13張手牌、36張待摸牌和1張寶牌指示牌，並從待摸牌中公開6張\r\n\r\n-摸牌前可以進行「換牌」\r\n--可以選擇任意張手牌與牌庫交換，但不會與待摸牌交換\r\n--每次換牌會消耗1次次數，初始換牌次數為3次\r\n\r\n-換牌完畢後，正式開始摸牌\r\n--按順序依次從待摸牌中摸牌，其餘摸牌、和牌與普通麻將規則無異\r\n--手牌滿足和牌條件時可以和牌，將計算分數\r\n--不同于普通麻將規則，和牌後可以繼續調整手牌來使牌達到更為理想的狀態\r\n--本模式無立直規則\r\n\r\n-分數計算\r\n--和牌分數=手牌中所有牌的總分x番數\r\n--手牌分數按照每張數位牌5分，字牌10分計算\r\n--番數將依照普通麻將規則結算手牌役種\r\n--持有護身符時，可對分數和番數有額外影響\r\n-- 護身符會按照從左至右的順序依次結算\r\n\r\n-過關結算\r\n--滿足每關的過關分數條件即可過關，進入連續摸牌狀態\r\n--在連續摸牌狀態中，將直接公佈剩餘的待摸牌\r\n--待摸牌滿足和牌條件時將直接結算分數，摸完為止\r\n--過關後將根據當前關卡難度發放星幣獎勵和護身符包獎勵\r\n--若超過過關分數條件的2倍、3倍或5倍時，仍有額外星幣獎勵\r\n--具有關卡結束時效果的護身符，也會在過關結算時生效\r\n\r\n-失敗條件\r\n--當玩家摸完最後一張待摸牌時無法獲得足夠的分數，則本輪遊戲結束\r\n\r\n商店階段\r\n-商店階段中，玩家可出售自己的護身符，或是消耗星幣來選擇增強能力和購買卡包\r\n-增強能力：提升本輪遊戲的公開牌數和寶牌指示牌數和新增魂牌\r\n-購買護身符包：選擇不同稀有度的護身符包，開啟後可從3張中選擇自己心儀的1張護身符，或是選擇跳過\r\n-獲得相同的護身符時，可將原有護身符升級為強化版，效果更為強力\r\n-獲取護身符時，都有概率帶有不同等級的印章。\r\n--獲取已有護身符時如果帶有印章，則會覆蓋之前的印章。\r\n-護身符存在獲取上限\r\n\r\n初始強化\r\n-完成本模式的活動任務後，可以獲得強化點數\r\n-在主介面-能力強化中可以消耗強化點數進行初始強化 \r\n-初始強化包含：初始持有星幣、商店卡包出售數量、商店卡包品質、商店刷新價格、護身符持有上限、初始換牌次數\r\n-初始強化可以隨時重置，重置後將返還所有強化點數\r\n-每次強化後將在新一輪遊戲時生效\r\n\r\n自選初始護身符\r\n-通過 5-3 關卡後，可解鎖自選初始護身符功能\r\n-可在圖鑑中選擇品質為普通或稀有的護身符作為初始護身符\r\n-初始護身符僅可設置一張\r\n-自選初始護身符將在新一輪遊戲時生效",
+        "jp": "青雲の志・勇にゃん伝説\r\nイベント期間：2025年8月20日(金) 〜 2026年5月27日(水) 5:59\r\n\r\nより高く、より早く、より強く！ 麻雀への思いは天をも貫く！\r\n「青雲の志」がさらにパワーアップして帰ってきた！\r\n勇にゃんの仲間と一緒にドラゴンに挑もう！\r\n\r\n\r\n「青雲の志」の流れ\r\n\r\n-1回の挑戦につき15ステージある。ステージとステージの間に道具屋にて強化やお守りの購入・売却ができる。\r\n--ステージごとに目標点数が設定されている。ボスステージではステージ効果も発生する。\r\n--ステージ15をクリアすると、さらなる挑戦が……？\r\n\r\n-ステージ開始前、手牌13枚、牌山36枚、ドラ表示牌1枚が配置される。\r\n--牌山の36枚中、初期状態では6枚が表にされた状態で置かれる。\r\n\r\n-ステージ開始時、手牌から、不要な牌を任意の枚数牌山の牌と入れ替えられる。\r\n--次にツモする牌とは入れ替えできない。\r\n--初期状態では、ステージ中に3回まで入れ替えを行える。\r\n\r\n-ステージ挑戦中は下記のルールに沿って、ステージクリアを目指して和了する。\r\n--立直はできない。\r\n--萬子の2～8は使用しない。\r\n--和了後は引き続きツモ・打牌を行い、手牌を違う形にできる。\r\n\r\n-点数計算について\r\n--和了点数＝手牌の総スコア×飜数\r\n--手牌のスコアは、和了時に手牌にある牌で計算される。各牌のスコアは「枚数確認」から確認できる。\r\n--お守りの効果によって、最終点数と飜数が変化する場合がある。\r\n--お守りの効果が同じタイミングで発動する場合、左から右への順番で発動する。\r\n--お守りの効果によって、「魂牌」を獲得することがある。和了時、手牌中の「魂牌」1枚ごとに1飜増える。\r\n\r\n-合計和了点数が目標点数に達成すると、ステージクリアとなる。\r\n--ステージクリア後、牌山が尽きるまでツモ切りが繰り返される。ツモ切り中も引き続き和了できる。\r\n--ステージクリア後、クリア報酬として「勝ち星」や「お守りパック」も入手できる。「勝ち星「お守りパック」の数およびレア度は、ステージの難易度によって変化する。\r\n--ステージクリア後、合計和了点数が目標点数の2、3、5倍を達成すると、それぞれボーナスの「勝ち星」を入手できる。\r\n--ステージクリア後に発動するタイプのお守りは、このタイミングで効果が発動する。\r\n\r\n-挑戦終了について\r\n--牌山から最後の牌をツモした時点で、合計和了点数が目標点数を達成できなかった場合、挑戦終了となる。\r\n\r\n-道具屋について\r\n--道具屋では「表牌の枚数」「入替回数」の強化や、お守りの購入・売却ができる。\r\n--所持中のお守りを売却すると、勝ち星を獲得できる。\r\n--勝ち星を消費し、魂牌を増やせる他、表牌枚数・ドラ表示牌枚数を強化できる。この強化は、挑戦終了後にリセットされる。\r\n--勝ち星を消費し、お守りパックを購入できる。\r\n--お守りパックからは、3枚のお守りが出現する。3枚から1枚を選んで入手できる。\r\n--既に所持しているお守りを入手すると、お守りの効果が強化される。\r\n--お守りを入手する際に、一定確率で特殊効果を持つ「スタンプ」が付くことがある。\r\n--既に所持しているスタンプ付きのお守りと同じお守りを、新たにスタンプ付きの状態で入手した場合、新しいスタンプのみが残る。\r\n--入手したことがあるお守りは、アルバムから詳細を確認できる。\r\n\r\n能力強化について\r\n-イベントクエストを達成すると、強化PTを入手できる。\r\n-能力強化ページでは、強化PTを消費し、6種類の強化を行うことができる。\r\n-能力強化をリセットすると、消費された強化PTが返還される。\r\n-能力強化後、次の挑戦から効果が反映される。\r\n\r\nお守り持ち込みについて\r\n-5-3ステージ初回クリアを達成すると、開始時に持ち込むお守りを設定できる機能が解放される。\r\n-持ち込むお守りに設定できるのは、アルバムに登録されたノーマルまたはレアのお守り1枚のみ。\r\n-持ち込むお守りを設定後、次の挑戦から効果が反映される。",
+        "en": "Special Event - Sky-High Ambition: The Nyavengers\r\nEvent Period: 8/19/2025 - 5/26/2026 1:59 P.M. (UTC-7)\r\n\r\nThe goal is higher, faster, stronger! Embrace the spirit of mahjong and soar to new heights!\r\nSky-High Ambition is back again! Join the Nyavengers on a thrilling adventure – gather new companions, slay the fearsome dragon, and conquer the summit.\r\n\r\nGame Process\r\n- The goal of the game is to clear the levels. There are two phases, the Level Phase and the Shop Phase.\r\n- In the Level Phase, you will face 15 levels, with every 3rd level being a boss level that has additional restrictions.\r\n- You need to assemble winning hands in the Level Phase to score PT; only by reaching the target PT can you clear the level.\r\n- After clearing a level, you enter the Shop Phase, where you can use Star Coins earned during the Level Phase to purchase items or upgrade abilities.\r\n- Achieving a full clear of all 15 levels is considered a victory.\r\n- Upon completing a full clear, you can choose to challenge Ex levels.\r\n\r\nLevel Phase\r\n- The game uses a 108-tile set, with the 2-8 Man tiles removed.\r\n- At the start of each level, you receive 13 hand tiles. There are 36 tiles in the Tile Wall and 1 Dora indicator, with 6 tiles opened in the Tile Wall.\r\n\r\n- Before drawing, you can exchange hand tiles:\r\n-- Hand tiles can be exchanged with the Tile Pool but not with the Tile Wall.\r\n-- Each exchange consumes 1 tile exchange count. You start with 3 at the beginning of the game round.\r\n\r\n- After you finish with tile exchanges, the drawing starts:\r\n-- You draw tiles in order from the Tile Wall. Drawing tiles and winning follow the standard mahjong rules.\r\n-- When your hand meets winning conditions, you can declare a win and calculate the winning PT.\r\n-- Unlike standard mahjong, after winning, you can continue adjusting your hand for an optimal state.\r\n-- There is no Riichi rule in this mode.\r\n\r\n- PT Calculation\r\n-- Winning PT = Total PT of all hand tiles x Han count\r\n-- The total PT of your hand tiles is calculated based on the basic PT of each tile (see the Tile Pool for details).\r\n-- Han is calculated based on standard mahjong's Yaku.\r\n-- Talismans can influence PT and Han.\r\n-- Talismans are resolved in order from left to right.\r\n\r\n- Level Completion\r\n-- Meeting the target PT for each level means you have cleared the level, and you enter the Continuous Draw Mode.\r\n-- In the Continuous Draw Mode, the remaining tiles in the Tile Wall are opened directly.\r\n-- If tiles in the Tile Wall meet winning conditions, the winning PT will be calculated immediately. The level ends when all tiles in the Tile Wall are drawn.\r\n-- Level clear rewards (Star Coins & talisman packs) are given based on the current level's difficulty.\r\n-- Extra Star Coins are awarded for reaching 2x, 3x, or 5x of the target PT.\r\n-- Talismans that trigger at the end of the level will take effect upon level completion.\r\n\r\n- About Failure\r\n-- The game ends if you haven't reached the target PT when the last tile is drawn.\r\n\r\nShop Phase\r\n- In the Shop Phase, you can sell your talismans or spend Star Coins to upgrade abilities and purchase talisman packs.\r\n- Ability Upgrade: Increase the number of opened tiles, Dora indicators, and added Soul tiles for the current game round.\r\n- Talisman Pack Purchase: There are talisman packs of different rarities. Open a pack to choose one of the three talismans presented, or skip.\r\n- Duplicate talismans can upgrade existing ones to Plus versions with stronger effects.\r\n- When acquiring a talisman, it has a chance to come with a random-tier Seal.\r\n-- If you obtain a duplicate talisman that has a Seal, its Seal will replace your old one.\r\n- Talismans have a possession limit.\r\n\r\nInitial Enhancements\r\n- Completing event missions grants enhancement points.\r\n- Use these points in the main event page - Enhancement for initial enhancements.\r\n- Initial enhancements include: initial Star Coins, the number of talisman packs in the shop, the rarity of talisman packs in the shop, shop refresh price, talisman possession limit, and initial tile exchanges.\r\n- Initial enhancements can be reset anytime, returning all the points.\r\n- Applied enhancements will take effect at the start of your next game.\r\n\r\nDefault Talisman\r\n- Unlock condition: Clear Level 5-3.\r\n- You may select one Normal or Rare talisman from your Collection to set as your default. The default talisman is guaranteed to appear in the initial talisman selection of the game.\r\n- You can only set one default talisman.\r\n-After setting, this takes effect at the start of your next game.",
+        "kr": "특별 이벤트 - 청운의 꿈: 용사냥냥 파티\r\n이벤트 기간: 2025년 8월 20일 점검 후 ~ 2026년 5월 27일 5:59 AM (GMT+9)\r\n\r\n목표는 더 높게! 더 빠르게! 더 강하게! 마작의 신념을 관통한 자, 하늘로 쭉쭉 오르리!\r\n청운의 꿈이 다시 돌아왔습니다. 용사냥냥 파티와 함께 모험을 떠나 새로운 동료를 사귀고, 사악한 악룡을 무찔러 봅시다.\r\n\r\n[기본 프로세스]\r\n- 게임의 각 라운드마다 스테이지 클리어 목표가 있으며, 스테이지와 상점으로 나뉩니다.\r\n- 스테이지에서 플레이어는 15개의 스테이지를 도전하게 되며, 그중 3개는 보스 스테이지로 별도 조건이 추가됩니다.\r\n- 플레이어는 스테이지에서 손패를 구성하고 화료하여 점수를 얻습니다. 목표 점수에 도달하면 스테이지를 통과합니다.\r\n- 스테이지 클리어 후 상점에 진입합니다. 스테이지에서 획득한 스타코인으로 상품을 구매하거나 능력을 강화할 수 있습니다.\r\n- 15개의 스테이지를 모두 클리어하면 해당 라운드에서 승리합니다.\r\n- 승리 후 더 많은 스테이지에 도전할 수 있습니다.\r\n\r\n[스테이지 규칙]\r\n- 2만~8만을 제외한 108개의 패로 진행합니다.\r\n- 스테이지 시작 시, 플레이어는 13장의 손패를 갖고, 36장의 쯔모 대기패와 1장의 도라 표시패가 있습니다. 쯔모 대기패 중 6장은 공개됩니다.\r\n- 쯔모 전 '패 교환'을 할 수 있습니다.\r\n- 손패 중 임의의 패를 선택하여 패 모음에서 교환할 수 있으며, 쯔모 대기패와는 교환되지 않습니다.\r\n- 패 교환 시 패 교환 횟수 1회를 사용하며, 처음 시작 시 교환 횟수는 3회입니다.\r\n- 패 교환이 끝난 뒤 정식으로 패를 쯔모합니다.\r\n- 순서대로 쯔모 대기패에서 패를 가져옵니다. 기타 쯔모 및 화료는 일반적인 마작 규칙과 같습니다.\r\n- 손패가 화료 조건을 만족하면 화료를 하고, 점수를 계산합니다.\r\n- 그러나 일반적인 마작과는 달리, 화료의 형태를 완성 한 후에도 손패를 조정하여 다른 형태의 역으로 만들 수 있습니다.\r\n- 해당 모드에는 리치 규칙이 없습니다.\r\n\r\n[점수 계산]\r\n- 화료 점수=손패의 모든 패의 총 점수 x 판수\r\n- 손패 점수는 각 패의 기본 점수로 계산됩니다. 패 창고에서 기본 점수를 확인할 수 있습니다.\r\n- 판수는 일반 마작 규칙의 역 계산법을 따릅니다.\r\n- 부적을 가지고 있으면, 해당 점수 및 판수에 추가 점수를 얻습니다.\r\n- 부적은 왼쪽부터 오른쪽 순서대로 계산됩니다.\r\n\r\n[스테이지 결산]\r\n- 각 스테이지 점수에 도달하면 즉시 클리어하고, 남은 패를 연속으로 쯔모합니다.\r\n- 연속 쯔모 상태에서 남은 쯔모 대기패를 곧바로 공개합니다.\r\n- 쯔모 대기패가 화료 조건에 만족하면 곧바로 점수를 결산하고 쯔모를 멈춥니다.\r\n- 스테이지 클리어 후 해당 스테이지의 난이도에 따라 스타코인과 부적팩 보상을 획득합니다.\r\n- 스테이지 점수가 조건 점수보다 2배, 3배 또는 5배가 많으면 추가 스타코인 보상을 획득합니다.\r\n- '스테이지 종료 시' 조건이 붙은 부적은 스테이지 결산 시 효과가 발생합니다.\r\n\r\n[실패 조건]\r\n- 플레이어가 마지막 쯔모패를 가져온 뒤에도 충분한 점수에 도달하지 못할 경우 그 라운드는 즉시 종료됩니다.\r\n\r\n[상점 단계]\r\n- 상점 단계에서 플레이어는 자신의 부적을 판매하거나 스타코인을 소모하여 능력을 증가시키거나 부적팩을 구매할 수 있습니다.\r\n- 능력 증가: 해당 라운드의 공개패 및 도라 표시패의 개수와 혼패 증가\r\n- 부적팩 구매: 서로 다른 등급의 부적팩을 선택하고, 오픈한 뒤 3장 중 마음에 드는 1장의 부적을 선택하거나 스킵합니다.\r\n- 동일한 부적을 획득하면 기존 부적을 강화 버전으로 업그레이드할 수 있고, 효과가 더욱 강해집니다.\r\n- 부적 획득 시 일정 확률로 랜덤 등급의 도장을 획득할 수 있습니다.\r\n- 이미 보유한 부적 획득 시 도장이 부여되어있다면, 이전의 도장을 덮어씁니다.\r\n- 부적 획득 개수는 한정되어 있습니다.\r\n\r\n[초기 강화]\r\n- 해당 이벤트 임무를 완성하면 강화 포인트를 획득할 수 있습니다.\r\n- [메인 화면] - [강화]에서 강화 포인트를 사용하여 초기 강화를 진행할 수 있습니다.\r\n- 초기 강화: 초기 스타코인 보유, 상점 패키지 판매 수량, 상점 패키지 퀄리티, 상점 새로고침 가격, 부적 보유 상한 수량, 초기 패 교환 횟수\r\n- 초기 강화는 초기화할 수 있으며, 초기화 시 강화 포인트는 반환됩니다.\r\n- 강화 후 새로운 라운드에서 그 효력이 발휘됩니다. \r\n\r\n[기본 부적 설정]\r\n- 스테이지 5-3 클리어 후, 기본 부적 설정 기능이 오픈됩니다.\r\n- 도감 중 보통 또는 희귀 등급의 부적을 선택하여 기본 부적으로 설정할 수 있습니다.\r\n- 기본 부적은 1장만 설정할 수 있습니다.\r\n- 기본 부적 설정 후, 새 게임을 시작해야 효과가 발생합니다."
     },
     {
         "id": 25081131,
         "type": "",
-        "chs": "长期开放",
-        "chsT": "長期開放",
-        "jp": "長期開催",
-        "en": "Available for a long time",
-        "kr": "장기 오픈"
+        "chs": "2025.8.20 - 2026.5.27 4:59",
+        "chsT": "2025.8.20 - 2026.5.27 4:59(UTC+8)",
+        "jp": "2025年8月20日(金) 〜 2026年5月27日(水) 5:59",
+        "en": "8/19/2025 - 5/26/2026 1:59 P.M. (UTC-7)",
+        "kr": "2025년 8월 20일 점검 후 ~ 2026년 5월 27일 5:59 AM (GMT+9)"
     },
     {
         "id": 25081132,
@@ -38524,7 +38524,7 @@
         "type": "",
         "chs": "取消",
         "chsT": "取消",
-        "jp": "取消",
+        "jp": "いいえ",
         "en": "Cancel",
         "kr": "취소"
     },
@@ -40831,5 +40831,2120 @@
         "jp": "上位{0}%",
         "en": "Top {0}%",
         "kr": "상위 {0}%"
+    },
+    {
+        "id": 26040001,
+        "type": "",
+        "chs": "见习木剑",
+        "chsT": "見習木劍",
+        "jp": "見習いの剣",
+        "en": "Wooden Sword",
+        "kr": "수련용 목검"
+    },
+    {
+        "id": 26040002,
+        "type": "",
+        "chs": "制式长剑",
+        "chsT": "制式長劍",
+        "jp": "制式長剣",
+        "en": "Common Sword",
+        "kr": "제식 장검"
+    },
+    {
+        "id": 26040003,
+        "type": "",
+        "chs": "勇者长剑",
+        "chsT": "勇者長劍",
+        "jp": "勇者の剣",
+        "en": "Hero's Sword",
+        "kr": "용사의 검"
+    },
+    {
+        "id": 26040004,
+        "type": "",
+        "chs": "裁决之剑",
+        "chsT": "裁決之劍",
+        "jp": "裁きの剣",
+        "en": "Arbiter's Sword",
+        "kr": "심판자의 검"
+    },
+    {
+        "id": 26040005,
+        "type": "",
+        "chs": "陨星长剑",
+        "chsT": "隕星長劍",
+        "jp": "隕石の剣",
+        "en": "Blade of Starfall",
+        "kr": "유성장검"
+    },
+    {
+        "id": 26040006,
+        "type": "",
+        "chs": "天穹之锋·圣芒",
+        "chsT": "天穹之鋒·聖芒",
+        "jp": "天穹の剣・ホーリーライト",
+        "en": "Skypiercer: Sacred Light",
+        "kr": "천공의 빛"
+    },
+    {
+        "id": 26040007,
+        "type": "",
+        "chs": "制式大剑",
+        "chsT": "制式大劍",
+        "jp": "制式大剣",
+        "en": "Common Greatsword",
+        "kr": "제식 대검"
+    },
+    {
+        "id": 26040008,
+        "type": "",
+        "chs": "守卫大剑",
+        "chsT": "守衛大劍",
+        "jp": "守護者の大剣",
+        "en": "Guardian Greatsword",
+        "kr": "수호의 대검"
+    },
+    {
+        "id": 26040009,
+        "type": "",
+        "chs": "剑灵大剑",
+        "chsT": "劍靈大劍",
+        "jp": "剣霊の大剣",
+        "en": "Soulforged Greatsword",
+        "kr": "검령의 대검"
+    },
+    {
+        "id": 26040010,
+        "type": "",
+        "chs": "修罗大剑",
+        "chsT": "修羅大劍",
+        "jp": "修羅の大剣",
+        "en": "Bloodfiend's Hunger",
+        "kr": "수라의 대검"
+    },
+    {
+        "id": 26040011,
+        "type": "",
+        "chs": "魔神之斩·镇狱",
+        "chsT": "魔神之斬·鎮獄",
+        "jp": "魔神の大剣・サイレントヘル",
+        "en": "Sunderer of the Abyss",
+        "kr": "심연의 파괴자"
+    },
+    {
+        "id": 26040012,
+        "type": "",
+        "chs": "制式刺剑",
+        "chsT": "制式刺劍",
+        "jp": "制式細剣",
+        "en": "Common Rapier",
+        "kr": "제식 세검"
+    },
+    {
+        "id": 26040013,
+        "type": "",
+        "chs": "先锋刺剑",
+        "chsT": "先鋒刺劍",
+        "jp": "先鋒の細剣",
+        "en": "Steel Rapier",
+        "kr": "선봉장의 세검"
+    },
+    {
+        "id": 26040014,
+        "type": "",
+        "chs": "旧英灵刺剑",
+        "chsT": "舊英靈刺劍",
+        "jp": "旧英霊の細剣",
+        "en": "Rapier of Ancient Oath",
+        "kr": "고대 영령의 세검"
+    },
+    {
+        "id": 26040015,
+        "type": "",
+        "chs": "血魂觉醒刺剑",
+        "chsT": "血魂覺醒刺劍",
+        "jp": "血と魂の細剣",
+        "en": "Soulsting",
+        "kr": "혈혼각성 세검"
+    },
+    {
+        "id": 26040016,
+        "type": "",
+        "chs": "永劫螺旋·深渊",
+        "chsT": "永劫螺旋·深淵",
+        "jp": "螺旋の細剣・エンドレスアビス",
+        "en": "Thorn of the Evernight",
+        "kr": "영원한 심연의 가시"
+    },
+    {
+        "id": 26040017,
+        "type": "",
+        "chs": "见习长矛",
+        "chsT": "見習長矛",
+        "jp": "見習いの槍",
+        "en": "Wooden Spear",
+        "kr": "수련용 장창"
+    },
+    {
+        "id": 26040018,
+        "type": "",
+        "chs": "制式长枪",
+        "chsT": "制式長槍",
+        "jp": "制式槍",
+        "en": "Common Spear",
+        "kr": "제식 장창"
+    },
+    {
+        "id": 26040019,
+        "type": "",
+        "chs": "固垒长枪",
+        "chsT": "固壘長槍",
+        "jp": "守護者の槍",
+        "en": "Adamant Spear",
+        "kr": "요새용 장창"
+    },
+    {
+        "id": 26040020,
+        "type": "",
+        "chs": "曙光长枪",
+        "chsT": "曙光長槍",
+        "jp": "太陽の槍",
+        "en": "Daybreak Spear",
+        "kr": "새벽빛 장창"
+    },
+    {
+        "id": 26040021,
+        "type": "",
+        "chs": "不朽长枪",
+        "chsT": "不朽長槍",
+        "jp": "不滅の槍",
+        "en": "Vow of the Vanguard",
+        "kr": "불멸의 장창"
+    },
+    {
+        "id": 26040022,
+        "type": "",
+        "chs": "圣骑孑遗·守界",
+        "chsT": "聖騎孑遺·守界",
+        "jp": "聖騎士の槍・ワールドガーディアン",
+        "en": "The Last Paladin's Oath",
+        "kr": "최후의 성기사의 서약"
+    },
+    {
+        "id": 26040023,
+        "type": "",
+        "chs": "制式双锤",
+        "chsT": "制式雙錘",
+        "jp": "制式双槌",
+        "en": "Common Hammers",
+        "kr": "제식 쌍망치"
+    },
+    {
+        "id": 26040024,
+        "type": "",
+        "chs": "陨铁双锤",
+        "chsT": "隕鐵雙錘",
+        "jp": "隕鉄の双槌",
+        "en": "Meteor Hammers",
+        "kr": "운철 쌍망치"
+    },
+    {
+        "id": 26040025,
+        "type": "",
+        "chs": "审判双锤",
+        "chsT": "審判雙錘",
+        "jp": "審判の双槌",
+        "en": "Hammers of Judgment",
+        "kr": "심판의 쌍망치"
+    },
+    {
+        "id": 26040026,
+        "type": "",
+        "chs": "圣战双锤",
+        "chsT": "聖戰雙錘",
+        "jp": "聖なる双槌",
+        "en": "Sanctified Warhammers",
+        "kr": "성전의 쌍망치"
+    },
+    {
+        "id": 26040027,
+        "type": "",
+        "chs": "天惩之锤·碎魂",
+        "chsT": "天懲之錘·碎魂",
+        "jp": "天罰の双槌・ソウルブレイカー",
+        "en": "Wrath of Heaven",
+        "kr": "천벌의 망치"
+    },
+    {
+        "id": 26040028,
+        "type": "",
+        "chs": "制式铁斧",
+        "chsT": "制式鐵斧",
+        "jp": "制式長斧",
+        "en": "Common Axe",
+        "kr": "제식 철도끼"
+    },
+    {
+        "id": 26040029,
+        "type": "",
+        "chs": "碎甲钢斧",
+        "chsT": "碎甲鋼斧",
+        "jp": "徹甲長斧",
+        "en": "Stonebreak Axe",
+        "kr": "쇄갑 강철도끼"
+    },
+    {
+        "id": 26040030,
+        "type": "",
+        "chs": "狂裂银斧",
+        "chsT": "狂裂銀斧",
+        "jp": "狂戦士の長斧",
+        "en": "Berserker's Axe",
+        "kr": "광폭의 은도끼"
+    },
+    {
+        "id": 26040031,
+        "type": "",
+        "chs": "灭魂神斧",
+        "chsT": "滅魂神斧",
+        "jp": "滅魂の長斧",
+        "en": "Soulbane",
+        "kr": "영혼 파괴의 도끼"
+    },
+    {
+        "id": 26040032,
+        "type": "",
+        "chs": "开世之斧·天骸",
+        "chsT": "開世之斧·天骸",
+        "jp": "開闢の長斧・ヘブンズレリック",
+        "en": "Doom of the Skies",
+        "kr": "세상을 여는 도끼"
+    },
+    {
+        "id": 26040033,
+        "type": "",
+        "chs": "初阶魔导书",
+        "chsT": "初階魔導書",
+        "jp": "見習いの魔導書",
+        "en": "Basic Spellbook",
+        "kr": "기초 마도서"
+    },
+    {
+        "id": 26040034,
+        "type": "",
+        "chs": "通用魔导书",
+        "chsT": "通用魔導書",
+        "jp": "制式魔導書",
+        "en": "Common Spellbook",
+        "kr": "평범한 마도서"
+    },
+    {
+        "id": 26040035,
+        "type": "",
+        "chs": "古国魔导书",
+        "chsT": "古國魔導書",
+        "jp": "古き国の魔導書",
+        "en": "Ancient Spellbook",
+        "kr": "고대국가의 마도서"
+    },
+    {
+        "id": 26040036,
+        "type": "",
+        "chs": "秘法魔导书",
+        "chsT": "祕法魔導書",
+        "jp": "秘法の魔導書",
+        "en": "Sage's Spellbook",
+        "kr": "신비한 마도서"
+    },
+    {
+        "id": 26040037,
+        "type": "",
+        "chs": "贤者魔导书",
+        "chsT": "賢者魔導書",
+        "jp": "賢者の魔導書",
+        "en": "Forbidden Grimoire",
+        "kr": "현자의 마도서"
+    },
+    {
+        "id": 26040038,
+        "type": "",
+        "chs": "全知之书·魂典",
+        "chsT": "全知之書·魂典",
+        "jp": "聖典の魔導書・オムニシャント",
+        "en": "Tome of Omniscience",
+        "kr": "전지전능의 서"
+    },
+    {
+        "id": 26040039,
+        "type": "",
+        "chs": "原初水晶球",
+        "chsT": "原初水晶球",
+        "jp": "原初の水晶玉",
+        "en": "Common Orb",
+        "kr": "평범한 수정구"
+    },
+    {
+        "id": 26040040,
+        "type": "",
+        "chs": "纯净水晶球",
+        "chsT": "純淨水晶球",
+        "jp": "純粋な水晶玉",
+        "en": "Orb of Purity",
+        "kr": "순수한 수정구"
+    },
+    {
+        "id": 26040041,
+        "type": "",
+        "chs": "占星水晶球",
+        "chsT": "占星水晶球",
+        "jp": "占星の水晶玉",
+        "en": "Astrologer's Orb",
+        "kr": "점성술사의 수정구"
+    },
+    {
+        "id": 26040042,
+        "type": "",
+        "chs": "奥法水晶球",
+        "chsT": "奧法水晶球",
+        "jp": "秘伝の水晶玉",
+        "en": "The Arcane Eye",
+        "kr": "비전의 수정구"
+    },
+    {
+        "id": 26040043,
+        "type": "",
+        "chs": "圣宇之晶·星核",
+        "chsT": "聖宇之晶·星核",
+        "jp": "天象の水晶玉・コスモスコア",
+        "en": "Core of the Sacred Stars",
+        "kr": "신성한 별의 정수"
+    },
+    {
+        "id": 26040044,
+        "type": "",
+        "chs": "自然疗愈幻杖",
+        "chsT": "自然療愈幻杖",
+        "jp": "自然と治癒の杖",
+        "en": "Common Staff",
+        "kr": "자연 치유의 지팡이"
+    },
+    {
+        "id": 26040045,
+        "type": "",
+        "chs": "元素生息幻杖",
+        "chsT": "元素生息幻杖",
+        "jp": "元素と生命の杖",
+        "en": "Staff of Sylvan Grace",
+        "kr": "생명 정령의 지팡이"
+    },
+    {
+        "id": 26040046,
+        "type": "",
+        "chs": "精灵祝福幻杖",
+        "chsT": "精靈祝福幻杖",
+        "jp": "精霊の祝福の杖",
+        "en": "Staff of Elven Blessing",
+        "kr": "정령이 축복이 깃든 지팡이"
+    },
+    {
+        "id": 26040047,
+        "type": "",
+        "chs": "古神之佑幻杖",
+        "chsT": "古神之佑幻杖",
+        "jp": "古き神の天佑の杖",
+        "en": "Favor of the Elder Gods",
+        "kr": "고대신의 가호가 깃든 지팡이"
+    },
+    {
+        "id": 26040048,
+        "type": "",
+        "chs": "涅槃之权·天命",
+        "chsT": "涅槃之權·天命",
+        "jp": "涅槃の杖・プロビデンス",
+        "en": "Will of Nirvana",
+        "kr": "니르바나의 의지"
+    },
+    {
+        "id": 26040049,
+        "type": "",
+        "chs": "见习头箍",
+        "chsT": "見習頭箍",
+        "jp": "見習いのヘアバンド",
+        "en": "Plain Headband",
+        "kr": "수련용 머리띠"
+    },
+    {
+        "id": 26040050,
+        "type": "",
+        "chs": "伪王的木冠",
+        "chsT": "偽王的木冠",
+        "jp": "偽王の冠",
+        "en": "Usurper's Wooden Crown",
+        "kr": "나무 왕관"
+    },
+    {
+        "id": 26040051,
+        "type": "",
+        "chs": "调停者银冠",
+        "chsT": "調停者銀冠",
+        "jp": "調停者の冠",
+        "en": "Mediator's Silver Crown",
+        "kr": "조정자의 왕관"
+    },
+    {
+        "id": 26040052,
+        "type": "",
+        "chs": "征服者宝冠",
+        "chsT": "征服者寶冠",
+        "jp": "征服者の冠",
+        "en": "Conqueror's Jeweled Crown",
+        "kr": "정복자의 왕관"
+    },
+    {
+        "id": 26040053,
+        "type": "",
+        "chs": "初王之金冠",
+        "chsT": "初王之金冠",
+        "jp": "原初の王の冠",
+        "en": "Crown of the First King",
+        "kr": "초대 왕의 왕관"
+    },
+    {
+        "id": 26040054,
+        "type": "",
+        "chs": "神域终征·皇冕",
+        "chsT": "神域終征·皇冕",
+        "jp": "神域の皇帝の冠",
+        "en": "Crown of Celestial Majesty",
+        "kr": "천상의 위엄이 깃든 왕관"
+    },
+    {
+        "id": 26040055,
+        "type": "",
+        "chs": "莱姆姆",
+        "chsT": "萊姆姆",
+        "jp": "ライムム",
+        "en": "Slimey",
+        "kr": "슬라임 모자"
+    },
+    {
+        "id": 26040056,
+        "type": "",
+        "chs": "绒哼哼",
+        "chsT": "絨哼哼",
+        "jp": "ボアボア",
+        "en": "Fluffsnuff",
+        "kr": "아기돼지 모자"
+    },
+    {
+        "id": 26040057,
+        "type": "",
+        "chs": "兽骨骨",
+        "chsT": "獸骨骨",
+        "jp": "ルトントン",
+        "en": "Beastie Bones",
+        "kr": "해골 모자"
+    },
+    {
+        "id": 26040058,
+        "type": "",
+        "chs": "布林林",
+        "chsT": "布林林",
+        "jp": "ブリンリン",
+        "en": "Lil' Gobbie",
+        "kr": "고블린 모자"
+    },
+    {
+        "id": 26040059,
+        "type": "",
+        "chs": "龙冰冰",
+        "chsT": "龍冰冰",
+        "jp": "ラゴンゴン",
+        "en": "Brrragon",
+        "kr": "빙룡 모자"
+    },
+    {
+        "id": 26040060,
+        "type": "",
+        "chs": "影之素面",
+        "chsT": "影之素面",
+        "jp": "影のマスク",
+        "en": "Mask of Shadows",
+        "kr": "그림자 가면"
+    },
+    {
+        "id": 26040061,
+        "type": "",
+        "chs": "礼仪之面",
+        "chsT": "禮儀之面",
+        "jp": "礼装のマスク",
+        "en": "Courtly Mask",
+        "kr": "예식장 가면"
+    },
+    {
+        "id": 26040062,
+        "type": "",
+        "chs": "贵者之面",
+        "chsT": "貴者之面",
+        "jp": "貴族のマスク",
+        "en": "Lordly Mask",
+        "kr": "귀족의 가면"
+    },
+    {
+        "id": 26040063,
+        "type": "",
+        "chs": "尊者之面",
+        "chsT": "尊者之面",
+        "jp": "尊者のマスク",
+        "en": "Venerable Mask",
+        "kr": "존엄한 가면"
+    },
+    {
+        "id": 26040064,
+        "type": "",
+        "chs": "圣权之面",
+        "chsT": "聖權之面",
+        "jp": "聖なるマスク",
+        "en": "Mask of Divine Dominion",
+        "kr": "신성한 권능이 깃든 가면"
+    },
+    {
+        "id": 26040065,
+        "type": "",
+        "chs": "旅者布衣",
+        "chsT": "旅者布衣",
+        "jp": "布の服",
+        "en": "Traveler's Tunic",
+        "kr": "여행용 튜닉"
+    },
+    {
+        "id": 26040066,
+        "type": "",
+        "chs": "占星布衣",
+        "chsT": "占星布衣",
+        "jp": "星占の服",
+        "en": "Starbound Tunic",
+        "kr": "점성술사의 천옷"
+    },
+    {
+        "id": 26040067,
+        "type": "",
+        "chs": "星旅之服",
+        "chsT": "星旅之服",
+        "jp": "星旅の服",
+        "en": "Astral Voyage",
+        "kr": "별여행자의 의복"
+    },
+    {
+        "id": 26040068,
+        "type": "",
+        "chs": "星灵赐服",
+        "chsT": "星靈賜服",
+        "jp": "星霊の服",
+        "en": "Veil of Stars",
+        "kr": "성령의 가호복"
+    },
+    {
+        "id": 26040069,
+        "type": "",
+        "chs": "星阶授服",
+        "chsT": "星階授服",
+        "jp": "星授の服",
+        "en": "Stellar Embrace",
+        "kr": "성계의 로브"
+    },
+    {
+        "id": 26040070,
+        "type": "",
+        "chs": "辉夜星神之袍",
+        "chsT": "輝夜星神之袍",
+        "jp": "輝く星々の服",
+        "en": "Luminous Eternity",
+        "kr": "빛나는 밤의 로브"
+    },
+    {
+        "id": 26040071,
+        "type": "",
+        "chs": "赤子布衣",
+        "chsT": "赤子布衣",
+        "jp": "赤士の服",
+        "en": "Youngblood Tunic",
+        "kr": "붉은 천옷"
+    },
+    {
+        "id": 26040072,
+        "type": "",
+        "chs": "赤征之服",
+        "chsT": "赤征之服",
+        "jp": "赤旅の服",
+        "en": "Vermilion Path",
+        "kr": "붉은 정열의 의복"
+    },
+    {
+        "id": 26040073,
+        "type": "",
+        "chs": "赤烈赐服",
+        "chsT": "赤烈賜服",
+        "jp": "赤霊の服",
+        "en": "Radiant Valor",
+        "kr": "불꽃이 담긴 의복"
+    },
+    {
+        "id": 26040074,
+        "type": "",
+        "chs": "赤勋授袍",
+        "chsT": "赤勛授袍",
+        "jp": "赤授の服",
+        "en": "Kindled Glory",
+        "kr": "타오르는 영광의 로브"
+    },
+    {
+        "id": 26040075,
+        "type": "",
+        "chs": "永恒赤魂之袍",
+        "chsT": "永恆赤魂之袍",
+        "jp": "不滅なる赤き魂の服",
+        "en": "Everflame Heart",
+        "kr": "영원한 붉은 영혼의 로브"
+    },
+    {
+        "id": 26040076,
+        "type": "",
+        "chs": "游梦布衣",
+        "chsT": "遊夢布衣",
+        "jp": "夢見の服",
+        "en": "Dreamwoven Tunic",
+        "kr": "유랑자의 천옷"
+    },
+    {
+        "id": 26040077,
+        "type": "",
+        "chs": "梦诅之服",
+        "chsT": "夢詛之服",
+        "jp": "夢呪の服",
+        "en": "Shadowed Slumber",
+        "kr": "꿈의 저주가 깃든 옷"
+    },
+    {
+        "id": 26040078,
+        "type": "",
+        "chs": "梦灵赐服",
+        "chsT": "夢靈賜服",
+        "jp": "夢霊の服",
+        "en": "Ethereal Trance",
+        "kr": "꿈의 정령이 하사한 옷"
+    },
+    {
+        "id": 26040079,
+        "type": "",
+        "chs": "梦界授袍",
+        "chsT": "夢界授袍",
+        "jp": "夢授の服",
+        "en": "Lucid Ascension",
+        "kr": "꿈의 로브"
+    },
+    {
+        "id": 26040080,
+        "type": "",
+        "chs": "幽廷梦主之袍",
+        "chsT": "幽廷夢主之袍",
+        "jp": "幽玄なる夢の主の服",
+        "en": "Eternal Reverie",
+        "kr": "영원한 몽환"
+    },
+    {
+        "id": 26040100,
+        "type": "",
+        "chs": "掉落效率升级",
+        "chsT": "掉落效率升級",
+        "jp": "ドロップ率アップ",
+        "en": "Drop Booster",
+        "kr": "아이템 부스트"
+    },
+    {
+        "id": 26040101,
+        "type": "",
+        "chs": "活动限定道具",
+        "chsT": "活動限定道具",
+        "jp": "「剣域の誓約」イベントアイテム",
+        "en": "Event-limited item.",
+        "kr": "기간 한정 아이템."
+    },
+    {
+        "id": 26040102,
+        "type": "",
+        "chs": "剑域誓约活动限定道具，能将你枯燥的装备刷取效率提升一级。可通过完成活动任务获得。",
+        "chsT": "劍域誓約活動限定道具，能將你枯燥的裝備刷取效率提升一級。可透過完成活動任務獲得。",
+        "jp": "「剣域の誓約」のイベントアイテム。イベントクエストから入手できる。ドロップ率のレベルが上がる。",
+        "en": "Increases your equipment drop rate by 1 level to ease the daily grind. (Oath of the Sword event item. Obtainable from event missions.)",
+        "kr": "검역의 서약 이벤트 한정 아이템. 반복되는 장비 획득의 효율을 한 단계 높여줍니다. 이벤트 임무를 통해 획득할 수 있습니다."
+    },
+    {
+        "id": 26041000,
+        "type": "",
+        "chs": "联动限定活动-剑域誓约\r\n活动时间：4月22日维护后-5月13日4:59\r\n\r\n链接已就绪，数据初始化已完成，浮空小镇的传送门悄然开启......\r\n收集牌局中散落的战利品，召集最默契的作战小队，并肩踏入这片誓约之地吧！\r\n\r\n活动期间完成活动任务，可以获得限定牌背、活动插画、寻觅卷轴等丰厚奖励！\r\n\r\n角色\r\n-可以在剑士一姬/战士元宵/法师柚中自由选择你的角色\r\n-角色可以在【角色配置】界面随时更换\r\n-每位角色都配有三种专属武器，其他角色无法装备哦\r\n-防具和饰品全角色都可以装备\r\n\r\n收集装备\r\n-完成段位场或强夺之战活动页面对局可以获得随机稀有度装备，初始掉落数量为3件\r\n-装备稀有度共五种：灰/绿/蓝/紫/橙，初始掉率分别为60%/33%/5%/1.7%/0.3%\r\n-完成每日任务可以提升掉落等级，详见任务界面【掉落效率up】列表\r\n-不需要的装备可以用来合成更高级的装备\r\n\r\n小队\r\n-你可以和其他玩家组成小队一起挑战副本！小队成员之间的挑战进度不共享\r\n-小队成员必须由不同角色组成\r\n-小队天赋可以作用于你的小队，完成活动任务可以获得小队天赋点\r\n-参与过活动的好友会出现在小队列表中\r\n-已在小队内的玩家状态不会更新，重新邀请加入队伍时，会更新好友状态\r\n-路人和NPC玩家于每日5:00刷新，且NPC的实力会在活动第4、9、12、15天时有所提升\r\n\r\n副本\r\n-挑战副本需要消耗面包。面包可以通过完成活动任务、进行任意段位场或强夺之战活动页面对局获得\r\n-战斗中，敌方攻击和我方治疗的优先级顺序为：战士＞剑士＞法师\r\n\r\n哥布林王的小贴士\r\n-仅凭一人很难击败我这样强大的对手\r\n-坚持完成活动任务，掉落等级提升后再通过对局刷取装备效率更高！",
+        "chsT": "聯動限定活動-劍域誓約\r\n活動時間：4月22日維護後-5月13日4:59(UTC+8)\r\n\r\n連結已就緒，數據初始化已完成，浮空小鎮的傳送門悄然開啟......\r\n蒐集牌局中散落的戰利品，召集最默契的作戰小隊，並肩踏入這片誓約之地吧！\r\n\r\n活動期間完成活動任務，可以獲得限定牌背、活動插畫、尋覓卷軸等豐厚獎勵！\r\n\r\n角色\r\n-可以在劍士一姬/戰士元宵/法師柚中自由選擇你的角色\r\n-角色可以在【角色配置】介面隨時更換\r\n-每位角色都配有三種專屬武器，其他角色無法裝備哦\r\n-防具和飾品全角色都可以裝備\r\n\r\n蒐集裝備\r\n-完成段位場或強奪之戰活動頁面對局可以獲得隨機稀有度裝備，初始掉落數量為3件\r\n-裝備稀有度共五種：灰/綠/藍/紫/橙，初始掉率分別為60%/33%/5%/1.7%/0.3%\r\n-完成每日任務可以提升掉落等級，詳見任務介面【掉落效率up】列表\r\n-不需要的裝備可以用來合成更高級的裝備\r\n\r\n小隊\r\n-你可以和其他玩家組成小隊一起挑戰副本！挑戰進度小隊成員之間的挑戰進度不共用\r\n-小隊成員必須由不同角色組成\r\n-小隊天賦可以作用於你的小隊，完成活動任務可以獲得小隊天賦點\r\n-參與過活動的好友會出現在小隊列表中\r\n-已在小隊內的玩家狀態不會更新，重新邀請加入隊伍時，會更新好友狀態\r\n-路人和NPC玩家於每日5:00刷新，且NPC的實力會在活動第4、9、12、15天時有所提升\r\n\r\n副本\r\n-挑戰副本需要消耗麵包。麵包可以透過完成活動任務、進行任意段位場或強奪之戰活動頁面對局獲得\r\n-戰鬥中，敵方攻擊和我方治療的優先順序順序為：戰士＞劍士＞法師\r\n\r\n哥布林王的小貼士\r\n-僅憑一人很難擊敗我這樣強大的對手\r\n-堅持完成活動任務，掉落等級提升後再透過對局刷取裝備效率更高！",
+        "jp": "剣域の誓約について\r\nイベント期間：4月22日(水) ～ 5月13日(水) 5:59\r\n\r\nデータ読み込み完了、ログイン準備OK！ いざ、誓約の地へ！\r\n装備品を集め、最強のキャラクターを育成して、ダンジョンを踏破せよ！\r\n\r\n期間中にイベント対局・段位戦に参加する、または「クエスト」を達成することで「クリーム付きパン」を入手できる。\r\n「クリーム付きパン」を消費し、ダンジョンに挑戦することで、「報酬」から限定麻雀牌、限定イラスト、祈願の巻物などの豪華報酬を獲得できる。\r\n\r\nキャラクター\r\n-「剣士の一姫・戦士の元宵・魔法使いのゆず」から一人を選んでイベントを進める。\r\n-選んだキャラクターは「キャラ配置」からいつでも変更可能。\r\n\r\n装備\r\n-イベント対局・段位戦に参加することで、ランダムで装備がドロップする。\r\n-装備の基本ドロップ数は1対局につき3つ。\r\n-装備のレア度は下から「灰・緑・青・紫・橙」の5段階。それぞれの基本ドロップ率は60%・33%・5%・1.7%・0.3%。\r\n-イベントクエストの「ドロップ率アップ」関連クエストを達成することで、高レア装備のドロップ率を上げることができる。\r\n-不要な装備は、「装備合成」で消費し、高レアの装備に合成できる。\r\n\r\nチーム\r\n-他プレイヤーやNPCのキャラクターをチームに編成することができる。同じキャラクターは一人まで。\r\n-イベントに参加している友人のキャラクターも編成できる。\r\n-編成した他プレイヤーのキャラクターの装備等は、一度外してから再編成すると最新の状態に更新される。\r\n-NPCのキャラクターは、毎日午前5時に更新される。また、NPCのキャラクターは、イベント開始から4、9、12、15日目に強化されます。\r\n-イベントクエストを達成すると、強化PTを獲得できる。「チーム強化」にて、チーム全体に影響する各種バフ効果を強化できる。\r\n\r\nダンジョン\r\n-ダンジョンに挑戦するためには「クリーム付きパン」を消費する必要がある。\r\n- 戦闘中、敵の攻撃および味方キャラの治療は、「戦士→剣士→魔法使い」の優先順位で対象を選ぶ。\r\n\r\n一姫からのTIPS\r\n-ひとりだけでは倒せない強敵でも、チームでなら勝てるかもにゃ！\r\n-「ドロップ率アップ」関連クエストを達成して、より良い装備を効率よく手に入れることが大事にゃ！",
+        "en": "Collab Limited Event - Oath of the Sword\r\nEvent Period: 4/21 - 5/12 1:59 P.M. (UTC-7)\r\n\r\nLink established. Data initialization complete. The portal to the floating island is now open...\r\nGather loot from your matches, form the ultimate party, and journey together to this land above the clouds!\r\n\r\nDuring the event, complete missions to claim fantastic rewards, including limited Tile Back, Event Illustration, and Summon Scrolls!\r\n\r\nClass\r\n- Each character represents a different class: Swordsman (Ichihime), Warrior (Yuan Xiao), and Mage (Yuzu).\r\n- You can change your class at any time from your character screen.\r\n- Each class has three exclusive weapon types that other classes cannot equip.\r\n- Armor and accessories can be equipped by any class.\r\n\r\nEquipment\r\n- Play matches in Ranked Match or the Vulture's Deal event mode to obtain equipment of varying rarities. The initial drop quantity is 3 pieces.\r\n- There are 5 rarities: Gray, Green, Blue, Purple, and Orange. Base drop rates are 60%, 33%, 5%, 1.7%, and 0.3%, respectively.\r\n- Complete daily missions to earn Drop Boosters and increase your drop level. You can check your current level by selecting \"Drop Rate UP\" on the Missions screen.\r\n- Unwanted gear can be crafted into higher-rarity equipment.\r\n\r\nParty\r\n- Team up with other players to raid the dungeon.\r\n- A party must consist of three different classes.\r\n- Party Talents strengthen your team. Earn Talent Points by completing event missions.\r\n- Friends who have participated in the event will appear in your party list.\r\n- The stats of players already in your party will not auto-update. Re-invite them to update their current stats.\r\n- Random players and NPCs refresh daily at 2:00 P.M. (UTC-7). NPC combat power will increase on Days 4, 9, 12, and 15 of the event.\r\n*Dungeon progress is individual and not shared with your party members.\r\n\r\nDungeon\r\n- Clearing floors in the dungeon costs Cream-Topped Bread. You can earn Bread by completing event missions and playing matches in Ranked Match or the Vulture's Deal event mode.\r\n- In combat, enemy attacks and party healing prioritize classes in this order: Warrior > Swordsman > Mage.\r\n\r\nGoblin King's Message\r\n- \"You'll never defeat a mighty foe like me all by yourself!\"\r\n- \"It's much more efficient to farm for gear after you've completed event missions and raised your drop level!\"",
+        "kr": "콜라보 한정 이벤트 - 검역의 서약\r\n이벤트 기간: 4월 22일 점검 후 ~ 5월 13일 05:59 AM (GMT+9)\r\n \r\n데이터 로딩 완료, 로그인 준비 완료. 부유성으로 향하는 포탈이 조용히 열렸습니다……\r\n대국 중에 전리품을 수집하고, 최고의 호흡을 자랑하는 파티를 구성하여, 함께 이 서약의 땅에 발을 내디뎌 보세요!\r\n \r\n이벤트 기간 동안 임무를 완료하면, 한정 마작패, 이벤트 일러스트, 기원의 두루마리 등 다양한 보상을 획득할 수 있습니다! \r\n \r\n[캐릭터]\r\n- 검사 이치히메/전사 유엔샤오/마법사 유즈 중 원하는 캐릭터를 자유롭게 선택할 수 있습니다.\r\n- 캐릭터는 '캐릭터 편성'에서 언제든지 변경할 수 있습니다.\r\n- 각 캐릭터는 3종의 전용 무기를 보유하고 있으며, 다른 캐릭터는 이 무기를 장착할 수 없습니다.\r\n- 방어구와 장신구는 모든 캐릭터가 장착할 수 있습니다.\r\n \r\n[장비 획득]\r\n- 등급전 또는 쟁탈전 이벤트 대국을 완료하면 무작위 등급의 장비를 획득할 수 있습니다. 초기 획득 장비 개수는 3개입니다.\r\n- 장비의 등급은 회색/녹색/청색/자색/주황색 5단계로 나뉘며, 각 장비의 기본 획득률은 60%/33%/5%/1.7%/0.3%입니다.\r\n- 매일 임무를 완료하면 획득 장비의 등급을 올릴 수 있으며, 자세한 내용은 임무 화면의 '획득 효율 UP' 목록을 확인해 주세요.\r\n- 필요 없는 장비는 합성하여 더 높은 등급의 장비로 만들 수 있습니다.\r\n \r\n[파티]\r\n- 다른 플레이어와 파티를 구성하여 던전에 진입할 수 있습니다! 던전의 진행도는 다른 플레이어와 공유되지 않습니다.\r\n- 파티원은 서로 다른 캐릭터로 구성돼야 합니다. \r\n- 특성은 파티원에 적용되며, 이벤트 임무를 완료하면 특성 포인트를 획득할 수 있습니다. \r\n- 이벤트에 참여한 적이 있는 친구는 파티 목록에 표시됩니다.\r\n- 이미 파티에 포함된 플레이어의 상태는 실시간으로 갱신되지 않으며, 다시 초대할 때 최신 친구 상태가 반영됩니다.\r\n- 행인 및 NPC 플레이어는 매일 아침 06:00 AM에 갱신됩니다. 또한, 이벤트 4, 9, 12, 15일 차에 NPC의 전투력은 상승합니다.\r\n \r\n[던전]\r\n- 던전에 진입하려면 크림빵이 필요합니다. 크림빵은 이벤트 임무, 등급전 혹은 쟁탈전 이벤트 대국을 완료하면 획득할 수 있습니다.\r\n- 전투 중, 적의 공격과 아군의 치유는 전사, 검사, 마법사 순서로 적용됩니다.\r\n \r\n[고블린왕의 조언]\r\n- 나처럼 강한 상대를 혼자서 쓰러뜨리는 것은 쉽지 않을 거다. \r\n- 이벤트 임무를 꾸준히 하여 획득 장비의 등급을 올린 뒤, 대국을 통해 장비를 획득하는 것이 효율적이지."
+    },
+    {
+        "id": 26041001,
+        "type": "",
+        "chs": "创建角色",
+        "chsT": "創建角色",
+        "jp": "キャラ作成",
+        "en": "Create Character",
+        "kr": "캐릭터 생성"
+    },
+    {
+        "id": 26041002,
+        "type": "",
+        "chs": "请选择心仪的角色，后续可以随时更换",
+        "chsT": "請選擇心儀的角色，後續可以隨時更換",
+        "jp": "任意のキャラクターを選んでください。後から変更できます。",
+        "en": "Select a character. You can switch at any time later.",
+        "kr": "원하시는 캐릭터를 선택해 주세요. 나중에 언제든지 변경할 수 있습니다."
+    },
+    {
+        "id": 26041003,
+        "type": "",
+        "chs": "更换角色",
+        "chsT": "更換角色",
+        "jp": "キャラ変更",
+        "en": "Switch Character",
+        "kr": "캐릭터 변경"
+    },
+    {
+        "id": 26041004,
+        "type": "",
+        "chs": "角色配置",
+        "chsT": "角色配置",
+        "jp": "キャラ配置",
+        "en": "Details",
+        "kr": "캐릭터 편성"
+    },
+    {
+        "id": 26041005,
+        "type": "",
+        "chs": "最佳拍档",
+        "chsT": "最佳拍檔",
+        "jp": "ベストコンビ",
+        "en": "Best Partner",
+        "kr": "베스트 파트너"
+    },
+    {
+        "id": 26041006,
+        "type": "",
+        "chs": "最新支援他人次数：",
+        "chsT": "最新支援他人次數：",
+        "jp": "最新支援回数：",
+        "en": "Recent Assists Provided:",
+        "kr": "최근 지원한 횟수:"
+    },
+    {
+        "id": 26041007,
+        "type": "",
+        "chs": "累计支援他人次数：",
+        "chsT": "累計支援他人次數：",
+        "jp": "累計支援回数：",
+        "en": "Total Assists Provided:",
+        "kr": "누적 지원한 횟수:"
+    },
+    {
+        "id": 26041008,
+        "type": "",
+        "chs": "累计收到的支援次数：",
+        "chsT": "累計收到的支援次數：",
+        "jp": "累計被支援回数：",
+        "en": "Total Assists Received:",
+        "kr": "누적 지원받은 횟수:"
+    },
+    {
+        "id": 26041009,
+        "type": "",
+        "chs": "支援奖励：",
+        "chsT": "支援獎勵：",
+        "jp": "支援報酬：",
+        "en": "Assist Reward:",
+        "kr": "지원보상:"
+    },
+    {
+        "id": 26041010,
+        "type": "",
+        "chs": "第{0}层",
+        "chsT": "第{0}層",
+        "jp": "第{0}階",
+        "en": "Floor {0}",
+        "kr": "제{0}층"
+    },
+    {
+        "id": 26041011,
+        "type": "",
+        "chs": "领取并关闭",
+        "chsT": "領取並關閉",
+        "jp": "受け取って閉じる",
+        "en": "Claim & Close",
+        "kr": "보상 획득 후 닫기"
+    },
+    {
+        "id": 26041012,
+        "type": "",
+        "chs": "全部领取",
+        "chsT": "全部領取",
+        "jp": "一括受取",
+        "en": "Claim All",
+        "kr": "전부 획득"
+    },
+    {
+        "id": 26041013,
+        "type": "",
+        "chs": "%",
+        "chsT": "%",
+        "jp": "%",
+        "en": "%",
+        "kr": "%"
+    },
+    {
+        "id": 26041014,
+        "type": "",
+        "chs": "战力",
+        "chsT": "戰力",
+        "jp": "戦闘力",
+        "en": "Power",
+        "kr": "전투력"
+    },
+    {
+        "id": 26041015,
+        "type": "",
+        "chs": "一键装备",
+        "chsT": "一鍵裝備",
+        "jp": "一括装備",
+        "en": "Quick Equip",
+        "kr": "일괄 장착"
+    },
+    {
+        "id": 26041016,
+        "type": "",
+        "chs": "装备",
+        "chsT": "裝備",
+        "jp": "装備",
+        "en": "Equipment",
+        "kr": "장비"
+    },
+    {
+        "id": 26041017,
+        "type": "",
+        "chs": "合成",
+        "chsT": "合成",
+        "jp": "合成",
+        "en": "Crafting",
+        "kr": "합성"
+    },
+    {
+        "id": 26041018,
+        "type": "",
+        "chs": "背包容量",
+        "chsT": "背包容量",
+        "jp": "空き容量",
+        "en": "Inventory Capacity",
+        "kr": "인벤토리 용량"
+    },
+    {
+        "id": 26041019,
+        "type": "",
+        "chs": "武器",
+        "chsT": "武器",
+        "jp": "武器",
+        "en": "Weapon",
+        "kr": "무기"
+    },
+    {
+        "id": 26041020,
+        "type": "",
+        "chs": "防具",
+        "chsT": "防具",
+        "jp": "防具",
+        "en": "Armor",
+        "kr": "방어구"
+    },
+    {
+        "id": 26041021,
+        "type": "",
+        "chs": "饰品",
+        "chsT": "飾品",
+        "jp": "アクセサリー",
+        "en": "Accessory",
+        "kr": "장신구"
+    },
+    {
+        "id": 26041022,
+        "type": "",
+        "chs": "装备中",
+        "chsT": "裝備中",
+        "jp": "装備中",
+        "en": "Equipped",
+        "kr": "착용 중"
+    },
+    {
+        "id": 26041023,
+        "type": "",
+        "chs": "全部",
+        "chsT": "全部",
+        "jp": "すべて",
+        "en": "All",
+        "kr": "전부"
+    },
+    {
+        "id": 26041024,
+        "type": "",
+        "chs": "战士",
+        "chsT": "戰士",
+        "jp": "戦士",
+        "en": "Warrior",
+        "kr": "전사"
+    },
+    {
+        "id": 26041025,
+        "type": "",
+        "chs": "剑士",
+        "chsT": "劍士",
+        "jp": "剣士",
+        "en": "Swordsman",
+        "kr": "검사"
+    },
+    {
+        "id": 26041026,
+        "type": "",
+        "chs": "法师",
+        "chsT": "法師",
+        "jp": "魔法使い",
+        "en": "Mage",
+        "kr": "마법사"
+    },
+    {
+        "id": 26041027,
+        "type": "",
+        "chs": "武器仅可装备在对应职业",
+        "chsT": "武器僅可裝備在對應職業",
+        "jp": "各ジョブに対応した武器のみ装備可能",
+        "en": "Weapons can only be equipped by their corresponding class.",
+        "kr": "해당 직업의 장비만 장착할 수 있습니다."
+    },
+    {
+        "id": 26041028,
+        "type": "",
+        "chs": "装备",
+        "chsT": "裝備",
+        "jp": "装備",
+        "en": "Equip",
+        "kr": "장착"
+    },
+    {
+        "id": 26041029,
+        "type": "",
+        "chs": "攻击",
+        "chsT": "攻擊",
+        "jp": "攻撃力",
+        "en": "ATK",
+        "kr": "공격력"
+    },
+    {
+        "id": 26041030,
+        "type": "",
+        "chs": "攻击",
+        "chsT": "攻擊",
+        "jp": "攻撃力",
+        "en": "ATK",
+        "kr": "공격력"
+    },
+    {
+        "id": 26041031,
+        "type": "",
+        "chs": "暴率",
+        "chsT": "暴率",
+        "jp": "会心率",
+        "en": "CRIT Rate",
+        "kr": "치명타"
+    },
+    {
+        "id": 26041032,
+        "type": "",
+        "chs": "暴伤",
+        "chsT": "暴傷",
+        "jp": "会心ダメージ",
+        "en": "CRIT DMG",
+        "kr": "치명피해"
+    },
+    {
+        "id": 26041033,
+        "type": "",
+        "chs": "暴伤",
+        "chsT": "暴傷",
+        "jp": "会心ダメージ",
+        "en": "CRIT DMG",
+        "kr": "치명피해"
+    },
+    {
+        "id": 26041034,
+        "type": "",
+        "chs": "血量",
+        "chsT": "血量",
+        "jp": "体力",
+        "en": "HP",
+        "kr": "HP"
+    },
+    {
+        "id": 26041035,
+        "type": "",
+        "chs": "血量",
+        "chsT": "血量",
+        "jp": "体力",
+        "en": "HP",
+        "kr": "HP"
+    },
+    {
+        "id": 26041036,
+        "type": "",
+        "chs": "治疗",
+        "chsT": "治療",
+        "jp": "回復力",
+        "en": "Healing",
+        "kr": "회복"
+    },
+    {
+        "id": 26041037,
+        "type": "",
+        "chs": "随机合成",
+        "chsT": "隨機合成",
+        "jp": "通常合成",
+        "en": "Random Craft",
+        "kr": "무작위 합성"
+    },
+    {
+        "id": 26041038,
+        "type": "",
+        "chs": "消耗素材合成一个更高一级稀有度的随机装备",
+        "chsT": "消耗素材合成一個更高一級稀有度的隨機裝備",
+        "jp": "素材を消費し、1つ上のレア度のランダムな装備を1つ生成する。",
+        "en": "Consume materials to craft a random piece of equipment of the next rarity.",
+        "kr": "장비를 사용하여 더 높은 등급의 장비를 무작위로 합성합니다."
+    },
+    {
+        "id": 26041039,
+        "type": "",
+        "chs": "指定合成",
+        "chsT": "指定合成",
+        "jp": "精密合成",
+        "en": "Targeted Craft",
+        "kr": "지정 합성"
+    },
+    {
+        "id": 26041040,
+        "type": "",
+        "chs": "消耗素材合成一个更高一级稀有度的指定装备",
+        "chsT": "消耗素材合成一個更高一級稀有度的指定裝備",
+        "jp": "素材を消費し、1つ上のレア度の指定したタイプの装備を1つ生成する。",
+        "en": "Consume materials to craft a specific piece of equipment of the next rarity.",
+        "kr": "장비를 사용하여 더 높은 등급의 장비를 지정 합성합니다."
+    },
+    {
+        "id": 26041041,
+        "type": "",
+        "chs": "请先选择想合成的装备类型",
+        "chsT": "請先選擇想合成的裝備類型",
+        "jp": "合成する装備タイプを選んでください。",
+        "en": "Please select an equipment type to craft first.",
+        "kr": "합성할 장비 유형을 먼저 선택해주세요."
+    },
+    {
+        "id": 26041042,
+        "type": "",
+        "chs": "当前没有更多可用于合成的装备",
+        "chsT": "當前沒有更多可用於合成的裝備",
+        "jp": "素材として使用できる装備がありません。",
+        "en": "No more equipment available for crafting.",
+        "kr": "합성에 사용할 수 있는 장비가 없습니다."
+    },
+    {
+        "id": 26041043,
+        "type": "",
+        "chs": "当前背包已满，请尽快清理背包，否则无法获得新的装备。",
+        "chsT": "當前背包已滿，請儘快清理背包，否則無法獲得新的裝備。",
+        "jp": "バックパックに空きがないため、新たな装備を獲得できません。",
+        "en": "Inventory is full. Please clear space to obtain new equipment.",
+        "kr": "현재 인벤토리가 가득 찼습니다. 먼저 가방을 정리해 주세요. 정리하지 않으면 새로운 장비를 획득할 수 없습니다."
+    },
+    {
+        "id": 26041044,
+        "type": "",
+        "chs": "确认",
+        "chsT": "確認",
+        "jp": "確定",
+        "en": "Confirm",
+        "kr": "확인"
+    },
+    {
+        "id": 26041045,
+        "type": "",
+        "chs": "您选择的消耗素材里有紫稀有度的装备，是否继续合成",
+        "chsT": "您選擇的消耗素材裡有紫稀有度的裝備，是否繼續合成",
+        "jp": "紫レアの装備が素材として使用されています。このまま続けますか？",
+        "en": "Purple rarity equipment is selected as material. Continue crafting?",
+        "kr": "선택한 장비 중에 '자색' 등급 장비가 포함되어 있습니다. 합성을 계속 하시겠습니까?"
+    },
+    {
+        "id": 26041046,
+        "type": "",
+        "chs": "装备类型选择",
+        "chsT": "裝備類型選擇",
+        "jp": "装備タイプ選択",
+        "en": "Select Equipment Type",
+        "kr": "장비 유형 선택"
+    },
+    {
+        "id": 26041047,
+        "type": "",
+        "chs": "战士-武器",
+        "chsT": "戰士-武器",
+        "jp": "武器・戦士",
+        "en": "Warrior - Weapon",
+        "kr": "전사-무기"
+    },
+    {
+        "id": 26041048,
+        "type": "",
+        "chs": "剑士-武器",
+        "chsT": "劍士-武器",
+        "jp": "武器・剣士",
+        "en": "Swordsman - Weapon",
+        "kr": "검사-무기"
+    },
+    {
+        "id": 26041049,
+        "type": "",
+        "chs": "法师-武器",
+        "chsT": "法師-武器",
+        "jp": "武器・魔法使い",
+        "en": "Mage - Weapon",
+        "kr": "마법사-무기"
+    },
+    {
+        "id": 26041050,
+        "type": "",
+        "chs": "防具",
+        "chsT": "防具",
+        "jp": "防具",
+        "en": "Armor",
+        "kr": "방어구"
+    },
+    {
+        "id": 26041051,
+        "type": "",
+        "chs": "饰品",
+        "chsT": "飾品",
+        "jp": "アクセサリー",
+        "en": "Accessory",
+        "kr": "장신구"
+    },
+    {
+        "id": 26041052,
+        "type": "",
+        "chs": "合成成功",
+        "chsT": "合成成功",
+        "jp": "合成成功",
+        "en": "Crafting Successful",
+        "kr": "합성성공"
+    },
+    {
+        "id": 26041053,
+        "type": "",
+        "chs": "点击空白处关闭",
+        "chsT": "點擊空白處關閉",
+        "jp": "タップして閉じる",
+        "en": "Tap anywhere to close",
+        "kr": "빈 곳을 클릭하여 닫기"
+    },
+    {
+        "id": 26041054,
+        "type": "",
+        "chs": "总战力",
+        "chsT": "總戰力",
+        "jp": "合計戦闘力",
+        "en": "Total Power",
+        "kr": "총 전투력"
+    },
+    {
+        "id": 26041055,
+        "type": "",
+        "chs": "队伍管理",
+        "chsT": "隊伍管理",
+        "jp": "チーム管理",
+        "en": "Party Management",
+        "kr": "파티 관리"
+    },
+    {
+        "id": 26041056,
+        "type": "",
+        "chs": "邀请你的好友一起冒险吧",
+        "chsT": "邀請你的好友一起冒險吧",
+        "jp": "冒険する仲間を誘いましょう",
+        "en": "Invite companions to join your adventure!",
+        "kr": "원하시는 동료를 선택하여 함께 모험을 떠나보세요."
+    },
+    {
+        "id": 26041057,
+        "type": "",
+        "chs": "你的职业已变更，需要重新穿戴装备、招募小队",
+        "chsT": "你的職業已變更，需要重新穿戴裝備、招募小隊",
+        "jp": "ジョブを変更しました。チームを再編成します。",
+        "en": "Your class has changed. You must re-equip your gear and recruit a new party.",
+        "kr": "직업이 변경되어 장비를 다시 장착해야 하며, 파티를 재편성해야 합니다."
+    },
+    {
+        "id": 26041058,
+        "type": "",
+        "chs": "当前职业",
+        "chsT": "當前職業",
+        "jp": "今のジョブ",
+        "en": "Current Class",
+        "kr": "현재 직업"
+    },
+    {
+        "id": 26041059,
+        "type": "",
+        "chs": "全部职业",
+        "chsT": "全部職業",
+        "jp": "全ジョブ",
+        "en": "All Classes",
+        "kr": "전체 직업"
+    },
+    {
+        "id": 26041060,
+        "type": "",
+        "chs": "NPC",
+        "chsT": "NPC",
+        "jp": "NPC",
+        "en": "NPC",
+        "kr": "NPC"
+    },
+    {
+        "id": 26041061,
+        "type": "",
+        "chs": "路人",
+        "chsT": "路人",
+        "jp": "他の雀士",
+        "en": "Guest",
+        "kr": "행인"
+    },
+    {
+        "id": 26041062,
+        "type": "",
+        "chs": "移出队伍",
+        "chsT": "移出隊伍",
+        "jp": "外す",
+        "en": "Remove",
+        "kr": "파티에서 제외"
+    },
+    {
+        "id": 26041063,
+        "type": "",
+        "chs": "选择队友",
+        "chsT": "選擇隊友",
+        "jp": "選ぶ",
+        "en": "Choose",
+        "kr": "파티원 선택"
+    },
+    {
+        "id": 26041064,
+        "type": "",
+        "chs": "职业不符",
+        "chsT": "職業不符",
+        "jp": "ジョブ不適合",
+        "en": "Class Mismatch",
+        "kr": "직업 불일치"
+    },
+    {
+        "id": 26041065,
+        "type": "",
+        "chs": "通关奖励",
+        "chsT": "通關獎勵",
+        "jp": "クリア報酬",
+        "en": "Clear Reward",
+        "kr": "클리어 보상"
+    },
+    {
+        "id": 26041066,
+        "type": "",
+        "chs": "小队天赋",
+        "chsT": "小隊天賦",
+        "jp": "チーム強化",
+        "en": "Party Talents",
+        "kr": "특성"
+    },
+    {
+        "id": 26041067,
+        "type": "",
+        "chs": "重置",
+        "chsT": "重置",
+        "jp": "リセット",
+        "en": "Reset",
+        "kr": "초기화"
+    },
+    {
+        "id": 26041068,
+        "type": "",
+        "chs": "全队",
+        "chsT": "全隊",
+        "jp": "全員",
+        "en": "Entire Party",
+        "kr": "전체 파티"
+    },
+    {
+        "id": 26041069,
+        "type": "",
+        "chs": "升级",
+        "chsT": "升級",
+        "jp": "強化",
+        "en": "Level Up",
+        "kr": "레벨 업"
+    },
+    {
+        "id": 26041070,
+        "type": "",
+        "chs": "MAX",
+        "chsT": "MAX",
+        "jp": "MAX",
+        "en": "MAX",
+        "kr": "MAX"
+    },
+    {
+        "id": 26041071,
+        "type": "",
+        "chs": "恭喜获得",
+        "chsT": "恭喜獲得",
+        "jp": "報酬獲得",
+        "en": "Obtained:",
+        "kr": "획득 완료"
+    },
+    {
+        "id": 26041072,
+        "type": "",
+        "chs": "下一层",
+        "chsT": "下一層",
+        "jp": "次の階層",
+        "en": "Next Floor",
+        "kr": "다음 층"
+    },
+    {
+        "id": 26041073,
+        "type": "",
+        "chs": "无操作{0}秒后自动挑战下一层",
+        "chsT": "無操作{0}秒後自動挑戰下一層",
+        "jp": "{0}秒後に次の階層に移動",
+        "en": "Auto-proceeding to next floor in {0}s...",
+        "kr": "{0}초 후 자동으로 다음 층에 도전합니다."
+    },
+    {
+        "id": 26041074,
+        "type": "",
+        "chs": "奶油面包不足",
+        "chsT": "夾心麵包不足",
+        "jp": "クリーム付きパン不足",
+        "en": "Insufficient Cream-Topped Bread",
+        "kr": "크림빵 부족"
+    },
+    {
+        "id": 26041075,
+        "type": "",
+        "chs": "可以尝试更新装备，或者募集更强的队伍",
+        "chsT": "可以嘗試更新裝備，或者募集更強的隊伍",
+        "jp": "装備および編成を強化してから挑戦しましょう。",
+        "en": "Try finding better equipment or recruiting a stronger party.",
+        "kr": "장비를 교체하거나, 더 강한 파티를 모집해 보세요."
+    },
+    {
+        "id": 26041076,
+        "type": "",
+        "chs": "前往队伍",
+        "chsT": "前往隊伍",
+        "jp": "チーム管理へ",
+        "en": "Go to Party",
+        "kr": "파티 관리로 가기"
+    },
+    {
+        "id": 26041077,
+        "type": "",
+        "chs": "前往装备",
+        "chsT": "前往裝備",
+        "jp": "装備管理へ",
+        "en": "Go to Equipment",
+        "kr": "인벤토리로 가기"
+    },
+    {
+        "id": 26041078,
+        "type": "",
+        "chs": "奖励",
+        "chsT": "獎勵",
+        "jp": "報酬",
+        "en": "Rewards",
+        "kr": "보상"
+    },
+    {
+        "id": 26041079,
+        "type": "",
+        "chs": "副本层数",
+        "chsT": "副本層數",
+        "jp": "階層数",
+        "en": "Floors Cleared",
+        "kr": "던전 층수"
+    },
+    {
+        "id": 26041080,
+        "type": "",
+        "chs": "获取装备",
+        "chsT": "獲取裝備",
+        "jp": "装備入手",
+        "en": "Equip. Obtained",
+        "kr": "장비 획득"
+    },
+    {
+        "id": 26041081,
+        "type": "",
+        "chs": "合成装备",
+        "chsT": "合成裝備",
+        "jp": "装備合成",
+        "en": "Equip. Crafted",
+        "kr": "장비 합성"
+    },
+    {
+        "id": 26041082,
+        "type": "",
+        "chs": "冒险故事",
+        "chsT": "冒險故事",
+        "jp": "物語閲覧",
+        "en": "Event Story",
+        "kr": "스토리"
+    },
+    {
+        "id": 26041083,
+        "type": "",
+        "chs": "强夺之战",
+        "chsT": "強奪之戰",
+        "jp": "強奪の戦",
+        "en": "Vulture's Deal",
+        "kr": "쟁탈전"
+    },
+    {
+        "id": 26041084,
+        "type": "",
+        "chs": "和牌之人在下一局变得更强！紧张刺激的四人东对局！\r\n参与段位场或强夺之战活动页面对局可以获得面包与装备，详见活动帮助",
+        "chsT": "和牌之人在下一局變得更強！緊張刺激的四人東對局！\r\n參與段位場或強奪之戰活動頁面對局可以獲得麵包與裝備，詳見活動説明",
+        "jp": "和了したプレイヤーは、次の局で他のプレイヤーから牌を強奪できる！\r\n情報アドバンテージをいかし、優勢を保ち続けよう！",
+        "en": "Win a hand and carry the momentum into the next!\r\nJump into this special 4-Player East mode to earn Cream-Topped Bread and powerful gear!",
+        "kr": "화료하고 다음 국에서 강화 효과를 얻어라! 짜릿한 긴장의 연속 4인 동풍전!\r\n등급전 또는 쟁탈전에 참여하면 크림빵과 장비를 획득할 수 있습니다. 자세한 내용은 이벤트 규칙을 참고하여 주시기 바랍니다."
+    },
+    {
+        "id": 26041085,
+        "type": "",
+        "chs": "特殊规则：强夺之战说明\r\n- 任意玩家和牌后，在下一局翻开宝牌指示牌后会额外增加强夺阶段\r\n- 强夺阶段中，上一局放铳或被自摸的玩家需要提供若干张手牌给和牌玩家。和牌玩家可以选择加入手牌，并选择手牌超出的部分返还给提供者 \r\n-- 上一局为荣和：放铳玩家随机提供3张手牌\r\n-- 上一局为自摸：每位被自摸玩家随机提供1张手牌\r\n-- 多家和时按照荣和情况每家独立结算\r\n- 强夺阶段中，提供的牌会公开展示，返还的牌则不会公开\r\n- 任意形式的流局后不会触发强夺阶段\r\n\r\n对局模式：强夺之战-四人东\r\n段位限制：无\r\n入场料：5000铜币\r\n兑换比例：1000点=100铜币\r\n场代：1000铜币\r\n不计算段位分\r\n一姬的礼物盒获取进度：1位+260，2位+130，3位+95，4位+60\r\n好感度获得：40",
+        "chsT": "特殊規則：強奪之戰說明\r\n- 任意玩家和牌後，在下一局翻開寶牌指示牌後會額外增加強奪階段\r\n- 強奪階段中，上一局放銃或被自摸的玩家需要提供若干張手牌給和牌玩家。和牌玩家可以選擇加入手牌，並選擇手牌超出的部分返還給提供者 \r\n-- 上一局為榮和：放銃玩家隨機提供3張手牌\r\n-- 上一局為自摸：每位被自摸玩家隨機提供1張手牌\r\n-- 多家和時按照榮和情況每家獨立結算\r\n- 強奪階段中，提供的牌會公開展示，返還的牌則不會公開\r\n- 任意形式的流局後不會觸發強奪階段\r\n\r\n對局模式：強奪之戰-四人東\r\n段位限制：無\r\n入場料：5000銅幣\r\n兌換比例：1000點=100銅幣\r\n場代：1000銅幣\r\n不計算段位分\r\n一姬的禮物盒獲取進度：1位+260，2位+130，3位+95，4位+60\r\n好感度獲得：40",
+        "jp": "特殊ルール「強奪の戦」について\r\n\r\n-任意のプレイヤーが和了した次の局では、ドラ表示牌が開けられた後に、「強奪フェーズ」が発生します。\r\n\r\n-「強奪フェーズ」では、前局で和了されたプレイヤーは、手牌から指定された枚数の牌を、ランダムで和了したプレイヤーに提供します。和了したプレイヤーは提供された牌と手牌から必要な牌を選び、不要な牌を返還します。\r\n--前の局がロン和了した場合、ロンされたプレイヤーは3枚の牌をランダムで提供します。\r\n--前の局がツモ和了した場合、ツモされた3名のプレイヤーは、1枚ずつ牌をランダムで提供します。\r\n--同時ロンの場合は、それぞれ独立した処理を行います。\r\n\r\n-「強奪フェーズ」では、提供された牌は全員に公開されますが、返還された牌は公開されません。\r\n\r\n-流局が発生した場合、次局の「強奪フェーズ」は発生しません。\r\n\r\n\r\n対局モード：強奪の戦-四人東\r\n段位制限：なし\r\n入場料：5000コイン\r\n交換レート：1000点=100コイン\r\n場代：1000コイン\r\n段位点数：影響なし\r\n一姫の宝箱解錠点数：1位+260，2位+130，3位+95，4位+60\r\n絆ポイント：+40\r\n精算点数がプラスの場合はコインを獲得し、マイナスの場合はコインを失います。",
+        "en": "Special Rules: Vulture's Deal\r\nAn extra \"Spoils\" phase occurs in the next round immediately after the Dora indicator is flipped.\r\nDuring this phase, the winner of the previous hand claims tiles from the losing players. The winner adds these tiles to their hand, then chooses the same number of tiles to return to the providers.\r\n- Claimed tiles are revealed face-up, while returned tiles remain hidden face-down.\r\n\r\n- On a Ron win: The player who dealt in provides 3 random tiles.\r\n- On a Tsumo win: Each of the other three players provides 1 random tile.\r\n(In the event of Multiple Ron, each winner's Spoils phase is settled independently.)\r\n\r\n*If a round ends in any type of Draw, the Spoils phase is skipped in the next round.\r\n\r\n\r\nMatch Mode: Vulture's Deal - 4-Player East\r\nRank Limit: None\r\nEntry Limit: 5,000 Coppers\r\nExchange Rate: 1,000 Points = 100 Coppers\r\nEntry Fee: 1,000 Coppers\r\nMatches played in this mode are not ranked.\r\nCasual Chest Progress: 1st +260, 2nd +130, 3rd +95, 4th +60\r\nBond Point Bonus: 40\r\n\r\nYou will earn Coppers for finishing a match with a positive score, but will lose Coppers if your final score is negative.",
+        "kr": "특수 규칙: 쟁탈전\r\n\r\n- 대국 중 한 플레이어가 화료하면, 다음 국에서 도라 표시패를 뒤집은 후 쟁탈 단계가 추가로 진행됩니다.\r\n- 쟁탈 단계 중, 이전 국에서 방총하거나 쯔모당한 플레이어는 화료한 플레이어에게 자신의 손패를 제공해야 합니다. 화료한 플레이어는 제공받은 손패 중 일부를 선택할 수 있으며, 나머지 패는 제공자에게 반환해야 합니다. \r\n-- 이전 국이 론 화료일 경우: 방총한 플레이어가 임의로 패 3장을 쟁탈합니다.\r\n-- 이전 국이 쯔모 화료일 경우: 쯔모 화료를 당한 모든 플레이어가 임의로 패 1장을 쟁탈합니다.\r\n-- 여러 플레이어가 화료한 경우, 상황에 맞춰 플레이어가 개별 정산됩니다.\r\n- 쟁탈 단계 중 쟁탈된 패는 모두 공개되며, 반환되는 패는 공개되지 않습니다.\r\n- 유국으로 종료된 경우에는 쟁탈 단계가 발생하지 않습니다.\r\n\r\n대국 모드: 쟁탈전 - 4인 동풍전\r\n등급 제한: 없음\r\n입장료: 5000코인\r\n교환비율: 1000점=100코인\r\n장대: 1000코인\r\n등급 점수는 결산하지 않음 \r\n이치히메 보물 상자 포인트: 1위 +260, 2위 +130, 3위 +95, 4위 +60\r\n인연 포인트 획득: 40"
+    },
+    {
+        "id": 26041086,
+        "type": "",
+        "chs": "特殊规则：强夺之战说明\r\n- 任意玩家和牌后，在下一局翻开宝牌指示牌后会额外增加强夺阶段\r\n- 强夺阶段中，上一局放铳或被自摸的玩家需要提供若干张手牌给和牌玩家。和牌玩家可以选择加入手牌，并选择手牌超出的部分返还给提供者 \r\n-- 上一局为荣和：每位放铳玩家随机提供3张手牌\r\n-- 上一局为自摸：每位被自摸玩家随机提供1张手牌\r\n-- 多家和时按照荣和情况每家独立结算\r\n- 强夺阶段中，提供的牌会公开展示，返还的牌则不会公开\r\n- 任意形式的流局后不会触发强夺阶段",
+        "chsT": "特殊規則：強奪之戰說明\r\n- 任意玩家和牌後，在下一局翻開寶牌指示牌後會額外增加強奪階段\r\n- 強奪階段中，上一局放銃或被自摸的玩家需要提供若干張手牌給和牌玩家。和牌玩家可以選擇加入手牌，並選擇手牌超出的部分返還給提供者 \r\n-- 上一局為榮和：每位放銃玩家隨機提供3張手牌\r\n-- 上一局為自摸：每位被自摸玩家隨機提供1張手牌\r\n-- 多家和時按照榮和情況每家獨立結算\r\n- 強奪階段中，提供的牌會公開展示，返還的牌則不會公開\r\n- 任意形式的流局後不會觸發強奪階段",
+        "jp": "特殊ルール「強奪の戦」について\r\n\r\n-任意のプレイヤーが和了した次の局では、ドラ表示牌が開けられた後に、「強奪フェーズ」が発生します。\r\n\r\n-「強奪フェーズ」では、前局で和了されたプレイヤーは、手牌から指定された枚数の牌を、ランダムで和了したプレイヤーに提供します。和了したプレイヤーは提供された牌と手牌から必要な牌を選び、不要な牌を返還します。\r\n--前局でロン和了した場合、ロンされたプレイヤーは、3枚の牌をランダムで提供します。\r\n--前局でツモ和了した場合、ツモされた3名のプレイヤーは、1枚ずつ牌をランダムで提供します。\r\n--同時ロンの場合は、それぞれ独立した処理を行います。\r\n\r\n-「強奪フェーズ」では、提供された牌は全員に公開されますが、返還された牌は公開されません。\r\n\r\n-流局が発生した場合、次局の「強奪フェーズ」は発生しません。",
+        "en": "Special Rules: Vulture's Deal\r\nAn extra \"Spoils\" phase occurs in the next round immediately after the Dora indicator is flipped.\r\nDuring this phase, the winner of the previous hand claims tiles from the losing players. The winner adds these tiles to their hand, then chooses the same number of tiles to return to the providers.\r\n- Claimed tiles are revealed face-up, while returned tiles remain hidden face-down.\r\n\r\n- On a Ron win: The player who dealt in provides 3 random tiles.\r\n- On a Tsumo win: Each of the other three players provides 1 random tile.\r\n(In the event of Multiple Ron, each winner's Spoils phase is settled independently.)\r\n\r\n*If a round ends in any type of Draw, the Spoils phase is skipped in the next round.",
+        "kr": "특수규칙: 쟁탈전\r\n- 대국 중 한 플레이어가 화료하면, 다음 국에서 도라 표시패를 뒤집은 후 쟁탈 단계가 추가로 진행됩니다.\r\n- 쟁탈 단계 중, 이전 국에서 방총하거나 쯔모당한 플레이어는 화료한 플레이어에게 자신의 손패를 제공해야 합니다. 화료한 플레이어는 제공받은 손패 중 일부를 선택할 수 있으며, 나머지 패는 제공자에게 반환해야 합니다. \r\n-- 이전 국이 론 화료일 경우: 방총한 플레이어가 임의로 패 3장을 쟁탈합니다.\r\n-- 이전 국이 쯔모 화료일 경우: 쯔모 화료를 당한 모든 플레이어가 임의로 패 1장을 쟁탈합니다.\r\n-- 여러 플레이어가 화료한 경우, 상황에 맞춰 플레이어가 개별 정산됩니다.\r\n- 쟁탈 단계 중 쟁탈된 패는 모두 공개되며, 반환되는 패는 공개되지 않습니다.\r\n- 유국으로 종료된 경우에는 쟁탈 단계가 발생하지 않습니다."
+    },
+    {
+        "id": 26041087,
+        "type": "",
+        "chs": "任务",
+        "chsT": "任務",
+        "jp": "クエスト",
+        "en": "Missions",
+        "kr": "임무"
+    },
+    {
+        "id": 26041088,
+        "type": "",
+        "chs": "每次完成段位场或强夺之战活动页面对局可以获得面包和装备",
+        "chsT": "每次完成段位場或強奪之戰活動頁面對局可以獲得麵包和裝備",
+        "jp": "段位戦またはイベント対局からクリーム付きパンと装備を入手できる。",
+        "en": "Play matches in Ranked Match or the Vulture's Deal event mode to earn Cream-Topped Bread and equipment.",
+        "kr": "등급전이나 쟁탈전 이벤트 대국을 완료하면 크림빵과 장비를 획득할 수 있습니다."
+    },
+    {
+        "id": 26041089,
+        "type": "",
+        "chs": "掉落效率UP",
+        "chsT": "掉落效率UP",
+        "jp": "ドロップ率アップ",
+        "en": "Drop Rate UP",
+        "kr": "획득효율 UP"
+    },
+    {
+        "id": 26041090,
+        "type": "",
+        "chs": "每日5:00解锁下一天任务",
+        "chsT": "每日5:00(UTC+8)解鎖下一天任務",
+        "jp": "毎朝6:00に次の日のクエストが解禁される",
+        "en": "New missions unlock daily at 2:00 P.M. (UTC-7)",
+        "kr": "매일 06:00 AM (GMT+9) 다음 날 임무가 오픈됩니다."
+    },
+    {
+        "id": 26041091,
+        "type": "",
+        "chs": "您在上次挑战中遗憾落败，再次挑战将不会改变结果，可以更换装备或队员后再来尝试哦。\r\n确认要再次挑战吗？",
+        "chsT": "您在上次挑戰中遺憾落敗，再次挑戰將不會改變結果，可以更換裝備或隊員後再來嘗試喔。\r\n確認要再次挑戰嗎？",
+        "jp": "前回の挑戦で敗北しています。同じ状態での再挑戦で結果が変わることはありません。装備またはチーム編成を変更してから再挑戦することをおすすめします。\r\nそのまま再挑戦しますか？",
+        "en": "You were defeated in the previous battle. The result is unlikely to change unless you adjust your party or equipment first.\r\nProceed anyway?",
+        "kr": "지난 도전에서 아쉽게 패배했습니다. 장비나 팀원을 교체한 후 다시 시도해 보세요. 다시 도전하시겠습니까?"
+    },
+    {
+        "id": 26041092,
+        "type": "",
+        "chs": "确认要更换职业吗？更换后所有装备会被卸下，小队成员需要重新招募",
+        "chsT": "確認要更換職業嗎？更換後所有裝備會被卸下，小隊成員需要重新招募",
+        "jp": "ジョブ変更を行うと、装備およびチームメンバーがすべて外れ、再編成する必要があります。ジョブを変更しますか？",
+        "en": "Are you sure you want to change class? All equipment will be removed, and you will need to recruit new party members.",
+        "kr": "직업을 변경하시겠습니까? 변경 시 모든 장비가 해제되며, 파티원을 다시 모집해야 합니다."
+    },
+    {
+        "id": 26041093,
+        "type": "",
+        "chs": "已入队",
+        "chsT": "已入隊",
+        "jp": "編成済み",
+        "en": "In Party",
+        "kr": "파티 편성 완료"
+    },
+    {
+        "id": 26041094,
+        "type": "",
+        "chs": "自动填充",
+        "chsT": "自動填充",
+        "jp": "自動編成",
+        "en": "Auto-Fill",
+        "kr": "자동 채우기"
+    },
+    {
+        "id": 26041095,
+        "type": "",
+        "chs": "是否退出副本，本轮战斗进度将被清空，面包将同步返还",
+        "chsT": "是否退出副本，本輪戰鬥進度將被清空，麵包將同步返還",
+        "jp": "ダンジョンから退出すると、今回の攻略進捗がリセットされ、消費されたクリーム付きパンも返還されます。退出しますか？",
+        "en": "Quit the dungeon? Current progress will be lost, and your Cream-Topped Bread will be refunded.",
+        "kr": "던전을 나가시겠습니까? 이번 전투는 초기화되며, 크림빵은 반환됩니다."
+    },
+    {
+        "id": 26041096,
+        "type": "",
+        "chs": "独当一面",
+        "chsT": "獨當一面",
+        "jp": "一騎当千",
+        "en": "Solo Adventurer",
+        "kr": "최고의 파트너"
+    },
+    {
+        "id": 26041097,
+        "type": "",
+        "chs": "您选择的消耗素材里有紫稀有度的装备，是否继续合成",
+        "chsT": "您選擇的消耗素材裡有紫稀有度的裝備，是否繼續合成",
+        "jp": "紫レアの装備が素材として使用されています。このまま続けますか？",
+        "en": "Purple rarity equipment is selected as material. Continue crafting?",
+        "kr": "선택한 장비 중에 '자색' 등급 장비가 포함되어 있습니다. 합성을 계속 하시겠습니까?"
+    },
+    {
+        "id": 26041098,
+        "type": "",
+        "chs": "当前通过层数",
+        "chsT": "當前通過層數",
+        "jp": "クリア済み階層数",
+        "en": "Current Floors Cleared",
+        "kr": "현재 통과 층수"
+    },
+    {
+        "id": 26041099,
+        "type": "",
+        "chs": "当前获取装备数",
+        "chsT": "當前獲取裝備數",
+        "jp": "装備入手数",
+        "en": "Current Equipment Obtained",
+        "kr": "현재 획득한 장비 수"
+    },
+    {
+        "id": 26041100,
+        "type": "",
+        "chs": "当前合成装备次数",
+        "chsT": "當前合成裝備次數",
+        "jp": "装備合成数",
+        "en": "Current Equipment Crafted",
+        "kr": "현재 합성한 장비 수"
+    },
+    {
+        "id": 26041101,
+        "type": "",
+        "chs": "更换队友",
+        "chsT": "更換隊友",
+        "jp": "メンバー変更",
+        "en": "Change Party Member",
+        "kr": "파티원 변경"
+    },
+    {
+        "id": 26041102,
+        "type": "",
+        "chs": "没什么攻击力，挂在床头可以辟邪",
+        "chsT": "沒什麼攻擊力，掛在床頭可以辟邪",
+        "jp": "攻撃力があまりなさそうな剣。",
+        "en": "It lacks attack power, but hanging it by your bed might ward off evil spirits.",
+        "kr": "공격력은 부족하지만, 침대 머리맡에 두면 액운을 쫓을 수 있다."
+    },
+    {
+        "id": 26041103,
+        "type": "",
+        "chs": "穿上后就有了启程的勇气",
+        "chsT": "穿上後就有了啟程的勇氣",
+        "jp": "旅に出るのにちょうどいい服。",
+        "en": "Wearing this gives you the courage to begin your journey.",
+        "kr": "착용하면 여정을 떠날 용기가 솟아난다."
+    },
+    {
+        "id": 26041104,
+        "type": "",
+        "chs": "没有任何功效的时尚单品",
+        "chsT": "沒有任何功效的時尚單品",
+        "jp": "何の特殊効果もない、ただのアクセサリー。",
+        "en": "A modest band of fabric with little practical value beyond appearance.",
+        "kr": "아무런 능력치가 없는 패션 아이템"
+    },
+    {
+        "id": 26041105,
+        "type": "",
+        "chs": "当前角色",
+        "chsT": "當前角色",
+        "jp": "使用中",
+        "en": "Current Character",
+        "kr": "현재 캐릭터"
+    },
+    {
+        "id": 26041106,
+        "type": "",
+        "chs": "背包已满",
+        "chsT": "背包已滿",
+        "jp": "空きなし",
+        "en": "Inventory full",
+        "kr": "인벤토리 초과"
+    },
+    {
+        "id": 26041107,
+        "type": "",
+        "chs": "当前已经是战力最高的搭配啦",
+        "chsT": "當前已經是戰力最高的搭配啦",
+        "jp": "既に最高戦力の装備編成です",
+        "en": "Current equipment combination provides the highest power.",
+        "kr": "현재 전투력이 가장 높은 조합입니다."
+    },
+    {
+        "id": 26041108,
+        "type": "",
+        "chs": "当前已经是战力最高的小队搭配啦",
+        "chsT": "當前已經是戰力最高的小隊搭配啦",
+        "jp": "既に最高戦力のチーム編成です",
+        "en": "Current party composition provides the highest power.",
+        "kr": "현재 전투력이 가장 높은 파티 조합입니다."
+    },
+    {
+        "id": 26041109,
+        "type": "",
+        "chs": "没有符合条件的装备",
+        "chsT": "沒有符合條件的裝備",
+        "jp": "検索条件に合うアイテムが見つかりませんでた",
+        "en": "No eligible equipment found.",
+        "kr": "조건에 일치하는 장비가 없습니다."
+    },
+    {
+        "id": 26041110,
+        "type": "",
+        "chs": "玩法介绍",
+        "chsT": "玩法介紹",
+        "jp": "チュートリアル",
+        "en": "Tutorial",
+        "kr": "규칙 설명"
+    },
+    {
+        "id": 26041111,
+        "type": "",
+        "chs": "你的队伍内有npc/路人，移除后可能消失在茫茫人海，确认要将其移出队伍吗？",
+        "chsT": "你的隊伍內有npc/路人，移除後可能消失在茫茫人海，確認要將其移出隊伍嗎？",
+        "jp": "編成済みのNPCキャラを外すと、再び出会えなくなる可能性があります。編成から外しますか？",
+        "en": "If you remove this NPC/guest from your party, you may not be able to encounter them again. Remove them anyway?",
+        "kr": "파티에 행인 및 NPC가 포함되어 있습니다. 파티에서 제외하면 다시 만나기 어려울 수 있습니다. 정말 파티에서 제외하시겠습니까?"
+    },
+    {
+        "id": 26042001,
+        "type": "",
+        "chs": "请选择3张牌返还",
+        "chsT": "請選擇3張牌返還",
+        "jp": "3枚の牌を選んで返還します。",
+        "en": "Please select 3 tiles to return",
+        "kr": "반환할 카드 3장을 선택해주세요."
+    },
+    {
+        "id": 26043001,
+        "type": "",
+        "chs": "第一天",
+        "chsT": "第一天",
+        "jp": "1日目",
+        "en": "Day 1",
+        "kr": "1일차"
+    },
+    {
+        "id": 26043002,
+        "type": "",
+        "chs": "第二天",
+        "chsT": "第二天",
+        "jp": "2日目",
+        "en": "Day 2",
+        "kr": "2일차"
+    },
+    {
+        "id": 26043003,
+        "type": "",
+        "chs": "第三天",
+        "chsT": "第三天",
+        "jp": "3日目",
+        "en": "Day 3",
+        "kr": "3일차"
+    },
+    {
+        "id": 26043004,
+        "type": "",
+        "chs": "第四天",
+        "chsT": "第四天",
+        "jp": "4日目",
+        "en": "Day 4",
+        "kr": "4일차"
+    },
+    {
+        "id": 26043005,
+        "type": "",
+        "chs": "第五天",
+        "chsT": "第五天",
+        "jp": "5日目",
+        "en": "Day 5",
+        "kr": "5일차"
+    },
+    {
+        "id": 26043006,
+        "type": "",
+        "chs": "第六天",
+        "chsT": "第六天",
+        "jp": "6日目",
+        "en": "Day 6",
+        "kr": "6일차"
+    },
+    {
+        "id": 26043007,
+        "type": "",
+        "chs": "第七天",
+        "chsT": "第七天",
+        "jp": "7日目",
+        "en": "Day 7",
+        "kr": "7일차"
+    },
+    {
+        "id": 26043008,
+        "type": "",
+        "chs": "第八天",
+        "chsT": "第八天",
+        "jp": "8日目",
+        "en": "Day 8",
+        "kr": "8일차"
+    },
+    {
+        "id": 26043009,
+        "type": "",
+        "chs": "第九天",
+        "chsT": "第九天",
+        "jp": "9日目",
+        "en": "Day 9",
+        "kr": "9일차"
+    },
+    {
+        "id": 26043010,
+        "type": "",
+        "chs": "第十天",
+        "chsT": "第十天",
+        "jp": "10日目",
+        "en": "Day 10",
+        "kr": "10일차"
+    },
+    {
+        "id": 26043011,
+        "type": "",
+        "chs": "第十一天",
+        "chsT": "第十一天",
+        "jp": "11日目",
+        "en": "Day 11",
+        "kr": "11일차"
+    },
+    {
+        "id": 26043012,
+        "type": "",
+        "chs": "第十二天",
+        "chsT": "第十二天",
+        "jp": "12日目",
+        "en": "Day 12",
+        "kr": "12일차"
+    },
+    {
+        "id": 26043013,
+        "type": "",
+        "chs": "第十三天",
+        "chsT": "第十三天",
+        "jp": "13日目",
+        "en": "Day 13",
+        "kr": "13일차"
+    },
+    {
+        "id": 26043014,
+        "type": "",
+        "chs": "第十四天",
+        "chsT": "第十四天",
+        "jp": "14日目",
+        "en": "Day 14",
+        "kr": "14일차"
+    },
+    {
+        "id": 26043015,
+        "type": "",
+        "chs": "卸下",
+        "chsT": "卸下",
+        "jp": "外す",
+        "en": "Unequip",
+        "kr": "해제"
+    },
+    {
+        "id": 26043016,
+        "type": "",
+        "chs": "Lv1:",
+        "chsT": "Lv1:",
+        "jp": "Lv1:",
+        "en": "Lv.1:",
+        "kr": "Lv1:"
+    },
+    {
+        "id": 26043017,
+        "type": "",
+        "chs": "Lv2:",
+        "chsT": "Lv2:",
+        "jp": "Lv2:",
+        "en": "Lv.2:",
+        "kr": "Lv2:"
+    },
+    {
+        "id": 26043018,
+        "type": "",
+        "chs": "Lv3:",
+        "chsT": "Lv3:",
+        "jp": "Lv3:",
+        "en": "Lv.3:",
+        "kr": "Lv3:"
+    },
+    {
+        "id": 26043019,
+        "type": "",
+        "chs": "Lv4:",
+        "chsT": "Lv4:",
+        "jp": "Lv4:",
+        "en": "Lv.4:",
+        "kr": "Lv4:"
+    },
+    {
+        "id": 26043020,
+        "type": "",
+        "chs": "Lv5:",
+        "chsT": "Lv5:",
+        "jp": "Lv5:",
+        "en": "Lv.5:",
+        "kr": "Lv5:"
+    },
+    {
+        "id": 26043021,
+        "type": "",
+        "chs": "Lv6:",
+        "chsT": "Lv6:",
+        "jp": "Lv6:",
+        "en": "Lv.6:",
+        "kr": "Lv6:"
+    },
+    {
+        "id": 26043022,
+        "type": "",
+        "chs": "Lv7:",
+        "chsT": "Lv7:",
+        "jp": "Lv7:",
+        "en": "Lv.7:",
+        "kr": "Lv7:"
+    },
+    {
+        "id": 26043023,
+        "type": "",
+        "chs": "Lv8:",
+        "chsT": "Lv8:",
+        "jp": "Lv8:",
+        "en": "Lv.8:",
+        "kr": "Lv8:"
+    },
+    {
+        "id": 26043024,
+        "type": "",
+        "chs": "Lv9:",
+        "chsT": "Lv9:",
+        "jp": "Lv9:",
+        "en": "Lv.9:",
+        "kr": "Lv9:"
+    },
+    {
+        "id": 26043025,
+        "type": "",
+        "chs": "Lv10:",
+        "chsT": "Lv10:",
+        "jp": "Lv10:",
+        "en": "Lv.10:",
+        "kr": "Lv10:"
+    },
+    {
+        "id": 26043026,
+        "type": "",
+        "chs": "Lv11:",
+        "chsT": "Lv11:",
+        "jp": "Lv11:",
+        "en": "Lv.11:",
+        "kr": "Lv11:"
+    },
+    {
+        "id": 26043027,
+        "type": "",
+        "chs": "Lv12:",
+        "chsT": "Lv12:",
+        "jp": "Lv12:",
+        "en": "Lv.12:",
+        "kr": "Lv12:"
+    },
+    {
+        "id": 26043028,
+        "type": "",
+        "chs": "Lv13:",
+        "chsT": "Lv13:",
+        "jp": "Lv13:",
+        "en": "Lv.13:",
+        "kr": "Lv13:"
+    },
+    {
+        "id": 26043029,
+        "type": "",
+        "chs": "Lv14:",
+        "chsT": "Lv14:",
+        "jp": "Lv14:",
+        "en": "Lv.14:",
+        "kr": "Lv14:"
+    },
+    {
+        "id": 26043030,
+        "type": "",
+        "chs": "{0}天后解锁下一天任务",
+        "chsT": "{0}天後解鎖下一天任務",
+        "jp": "{0}日後に次の日のクエストが解禁される",
+        "en": "New missions unlock in {0} days",
+        "kr": "{0}일 후 다음 날 임무가 오픈됩니다."
+    },
+    {
+        "id": 26043031,
+        "type": "",
+        "chs": "{0}小时后解锁下一天任务",
+        "chsT": "{0}小時後解鎖下一天任務",
+        "jp": "{0}時後に次の日のクエストが解禁される",
+        "en": "New missions unlock in {0} hours",
+        "kr": "{0}시간 후 다음 날 임무가 오픈됩니다."
+    },
+    {
+        "id": 26043032,
+        "type": "",
+        "chs": "{0}分钟后解锁下一天任务",
+        "chsT": "{0}分鐘後解鎖下一天任務",
+        "jp": "{0}分後に次の日のクエストが解禁される",
+        "en": "New missions unlock in {0} minutes",
+        "kr": "{0}분 후 다음 날 임무가 오픈됩니다."
+    },
+    {
+        "id": 26043033,
+        "type": "",
+        "chs": "阅读上一章节后解锁",
+        "chsT": "閱讀上一章節後解鎖",
+        "jp": "前のエピソードを閲覧後に解禁される",
+        "en": "Read the previous chapter to unlock",
+        "kr": "이전 화 열람 시 오픈"
+    },
+    {
+        "id": 26044001,
+        "type": "",
+        "chs": "账号已登入......一番市......断开连接喵......\r\n主人，原来这就是一番市最近正在流行中的[tag]全新多人在线角色扮演游戏[/tag]喵！",
+        "chsT": "帳號已登入......一番市......斷開連接喵......\r\n主人，原來這就是一番市最近正在流行中的[tag]全新多人線上角色扮演遊戲[/tag]喵！",
+        "jp": "アカウントログイン……一飜市から、リンクスタートにゃ！\r\nご主人、これが最近一飜市で流行ってる、[tag]最新鋭のMMORPG[/tag]にゃ！",
+        "en": "System login... One Han City... Connection lost, nyaa...\r\nMaster! So this is the new [tag]MMORPG[/tag] everyone's obsessed with, nyaa!",
+        "kr": "계정 로그인 성공…… 이한시…… 링크 스타트다냥…… 주인아, 이게 요즘 이한시에서 유행하는 최신 MMORPG다냥!"
+    },
+    {
+        "id": 26044002,
+        "type": "",
+        "chs": "这里是主人的信息栏喵，全身都是初始装备......\r\n不过是主人的话，未来一定可以称霸全一番市喵！",
+        "chsT": "這裡是主人的資訊欄喵，全身都是初始裝備......\r\n不過是主人的話，未來一定可以稱霸全一番市喵！",
+        "jp": "こっちはご主人のステータス欄にゃ。今は全部初期装備らしいにゃ。\r\nでもご主人なら、一飜市のトッププレイヤーになれると信じてるにゃ！",
+        "en": "Here's your character profile, nyaa. Hmm... still rocking starter gear...\r\nBut knowing you, Master, you'll be dominating One Han City before long, nyaa!",
+        "kr": "이건 주인의 정보창이다냥. 지금은 전부 기본 장비뿐이지만냥…… 그렇지만 주인이라면, 분명 이한시 최고의 플레이어가 될 수 있을 거다냥!"
+    },
+    {
+        "id": 26044003,
+        "type": "",
+        "chs": "刷装备是这种游戏的重中之重喵\r\n完成[tag]段位场[/tag]或者这里的[tag]强夺之战活动页面对局[/tag]，都可以获得随机稀有度[tag]装备[/tag]",
+        "chsT": "刷裝備是這種遊戲的重中之重喵\r\n完成[tag]段位場[/tag]或者這裡的[tag]強奪之戰活動頁面對局[/tag]，都可以獲得隨機稀有度[tag]裝備[/tag]",
+        "jp": "装備集めは、このゲームのもっとも大事な要素にゃ！\r\n[tag]段位戦の対局、またはイベント対局[/tag]に参加すると、\r\nランダムで装備を入手できるにゃ！",
+        "en": "There's plenty of gear to collect in this game, nyaa!\r\nYou can earn equipment of varying rarities by playing [tag]Ranked Match[/tag] or [tag]the Vulture's Deal event mode[/tag], nyaa!",
+        "kr": "장비를 얻는 건 게임에서 가장 중요한 요소다냥! [tag]등급전[/tag]이나 [tag]쟁탈전 이벤트 대국[/tag]을 완료하면, 무작위로 [tag]장비[/tag]를 얻을 수 있다냥!"
+    },
+    {
+        "id": 26044004,
+        "type": "",
+        "chs": "（怎么这里的游戏刷装备也和打麻将有关喵......）",
+        "chsT": "（怎麼這裡的遊戲刷裝備也和打麻將有關喵……）",
+        "jp": "（麻雀で装備集め……これもまた、一飜市らしいにゃ。）",
+        "en": "(Though why grinding in this game means playing mahjong too... that part's still a mystery, nyaa…)",
+        "kr": "(마작으로 장비 획득이냥…… 이것도 이한시답다냥……)"
+    },
+    {
+        "id": 26044005,
+        "type": "",
+        "chs": "这里是酒馆，我们可以在这里整备我们的团队\r\n目标是募集一番市[tag]最强小队[/tag]喵！",
+        "chsT": "這裡是酒館，我們可以在這裡整備我們的團隊\r\n目標是募集一番市[tag]最強小隊[/tag]喵！",
+        "jp": "ここは宿屋……チーム管理ができるにゃ！\r\nめざせ、一飜市最強チームにゃ！",
+        "en": "This is where we can [tag]manage our party[/tag].\r\nLet's build the strongest squad in all of One Han City, nyaa!",
+        "kr": "여기는 여관이다냥…… 여기서 파티를 정비할 수 있다냥. 중요한 건 이한시 최고의 파티를 만드는 거다냥!"
+    },
+    {
+        "id": 26044006,
+        "type": "",
+        "chs": "一切准备齐全就可以去挑战[tag]副本[/tag]了！\r\n不管这里有多少凶险狡诈的敌人，一姬都愿意成为主人的利剑喵！",
+        "chsT": "一切準備齊全就可以去挑戰[tag]副本[/tag]了！\r\n不管這裡有多少兇險狡詐的敵人，一姬都願意成為主人的利劍喵！",
+        "jp": "準備が整ったらダンジョンに挑戦にゃ！\r\nモンスターでもお化けでもなんでも来いにゃ！\r\n一姫がご主人を守るにゃー！",
+        "en": "Once we're geared up, it's time to [tag]raid the dungeon[/tag], nyaa!\r\nNo matter how dangerous the enemies get, Ichihime will be your sword, Master, nyaa!",
+        "kr": "준비 다 됐으면 던전을 공략하러 가자냥! 몬스터든 유령이든 뭐든 덤비라고 해라냥! 이치히메가 언제나 주인을 지켜주겠다냥!"
     }
 ]

@@ -1,0 +1,42 @@
+[
+    {
+        "supportCountRange": [
+            1,
+            10
+        ],
+        "activityId": 260401,
+        "reward": "30900102-2"
+    },
+    {
+        "supportCountRange": [
+            11,
+            20
+        ],
+        "activityId": 260401,
+        "reward": "30900102-4"
+    },
+    {
+        "supportCountRange": [
+            21,
+            30
+        ],
+        "activityId": 260401,
+        "reward": "30900102-6"
+    },
+    {
+        "supportCountRange": [
+            31,
+            40
+        ],
+        "activityId": 260401,
+        "reward": "30900102-8"
+    },
+    {
+        "supportCountRange": [
+            41,
+            0
+        ],
+        "activityId": 260401,
+        "reward": "30900102-10"
+    }
+]

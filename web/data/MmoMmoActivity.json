@@ -3,6 +3,10 @@
         "activityId": 260401,
         "equipmentBagMax": 999,
         "randomEquipmentCount": 4,
-        "appointEquipmentCount": 5
+        "appointEquipmentCount": 5,
+        "initialLevelId": 1,
+        "nextLevelTime": 5,
+        "tick": 30,
+        "totalTickRed": 300
     }
 ]
