@@ -1,0 +1,275 @@
+[
+    {
+        "activityId": 260404,
+        "buffId": 26040401,
+        "buffLevel": 1,
+        "weaponTypeId": "1000,1001,1002,1003,2000,2001,2002,2003,3000,3003,3002,3001",
+        "power": 100
+    },
+    {
+        "activityId": 260404,
+        "buffId": 26040401,
+        "buffLevel": 2,
+        "weaponTypeId": "1000,1001,1002,1003,2000,2001,2002,2003,3000,3003,3002,3001",
+        "power": 500
+    },
+    {
+        "activityId": 260404,
+        "buffId": 26040401,
+        "buffLevel": 3,
+        "weaponTypeId": "1000,1001,1002,1003,2000,2001,2002,2003,3000,3003,3002,3001",
+        "power": 2000
+    },
+    {
+        "activityId": 260404,
+        "buffId": 26040402,
+        "buffLevel": 1,
+        "weaponTypeId": "1000,1001,1002,1003,2000,2001,2002,2003,3000,3003,3002,3001",
+        "power": 100
+    },
+    {
+        "activityId": 260404,
+        "buffId": 26040402,
+        "buffLevel": 2,
+        "weaponTypeId": "1000,1001,1002,1003,2000,2001,2002,2003,3000,3003,3002,3001",
+        "power": 500
+    },
+    {
+        "activityId": 260404,
+        "buffId": 26040402,
+        "buffLevel": 3,
+        "weaponTypeId": "1000,1001,1002,1003,2000,2001,2002,2003,3000,3003,3002,3001",
+        "power": 2000
+    },
+    {
+        "activityId": 260404,
+        "buffId": 26040403,
+        "buffLevel": 1,
+        "weaponTypeId": "1000,1001,1002,1003,2000,2001,2002,2003,3000,3003,3002,3001",
+        "power": 100
+    },
+    {
+        "activityId": 260404,
+        "buffId": 26040403,
+        "buffLevel": 2,
+        "weaponTypeId": "1000,1001,1002,1003,2000,2001,2002,2003,3000,3003,3002,3001",
+        "power": 500
+    },
+    {
+        "activityId": 260404,
+        "buffId": 26040403,
+        "buffLevel": 3,
+        "weaponTypeId": "1000,1001,1002,1003,2000,2001,2002,2003,3000,3003,3002,3001",
+        "power": 2000
+    },
+    {
+        "activityId": 260404,
+        "buffId": 26040411,
+        "buffLevel": 1,
+        "weaponTypeId": "2000,2001,2002,2003",
+        "power": 100
+    },
+    {
+        "activityId": 260404,
+        "buffId": 26040411,
+        "buffLevel": 2,
+        "weaponTypeId": "2000,2001,2002,2003",
+        "power": 500
+    },
+    {
+        "activityId": 260404,
+        "buffId": 26040411,
+        "buffLevel": 3,
+        "weaponTypeId": "2000,2001,2002,2003",
+        "power": 2000
+    },
+    {
+        "activityId": 260404,
+        "buffId": 26040412,
+        "buffLevel": 1,
+        "weaponTypeId": "2000,2001,2002,2003",
+        "power": 100
+    },
+    {
+        "activityId": 260404,
+        "buffId": 26040412,
+        "buffLevel": 2,
+        "weaponTypeId": "2000,2001,2002,2003",
+        "power": 500
+    },
+    {
+        "activityId": 260404,
+        "buffId": 26040412,
+        "buffLevel": 3,
+        "weaponTypeId": "2000,2001,2002,2003",
+        "power": 2000
+    },
+    {
+        "activityId": 260404,
+        "buffId": 26040413,
+        "buffLevel": 1,
+        "weaponTypeId": "2000,2001,2002,2003",
+        "power": 100
+    },
+    {
+        "activityId": 260404,
+        "buffId": 26040413,
+        "buffLevel": 2,
+        "weaponTypeId": "2000,2001,2002,2003",
+        "power": 500
+    },
+    {
+        "activityId": 260404,
+        "buffId": 26040413,
+        "buffLevel": 3,
+        "weaponTypeId": "2000,2001,2002,2003",
+        "power": 2000
+    },
+    {
+        "activityId": 260404,
+        "buffId": 26040421,
+        "buffLevel": 1,
+        "weaponTypeId": "1000,1001,1002,1003",
+        "power": 100
+    },
+    {
+        "activityId": 260404,
+        "buffId": 26040421,
+        "buffLevel": 2,
+        "weaponTypeId": "1000,1001,1002,1003",
+        "power": 500
+    },
+    {
+        "activityId": 260404,
+        "buffId": 26040421,
+        "buffLevel": 3,
+        "weaponTypeId": "1000,1001,1002,1003",
+        "power": 2000
+    },
+    {
+        "activityId": 260404,
+        "buffId": 26040422,
+        "buffLevel": 1,
+        "weaponTypeId": "1000,1001,1002,1003",
+        "power": 100
+    },
+    {
+        "activityId": 260404,
+        "buffId": 26040422,
+        "buffLevel": 2,
+        "weaponTypeId": "1000,1001,1002,1003",
+        "power": 500
+    },
+    {
+        "activityId": 260404,
+        "buffId": 26040422,
+        "buffLevel": 3,
+        "weaponTypeId": "1000,1001,1002,1003",
+        "power": 2000
+    },
+    {
+        "activityId": 260404,
+        "buffId": 26040423,
+        "buffLevel": 1,
+        "weaponTypeId": "1000,1001,1002,1003",
+        "power": 100
+    },
+    {
+        "activityId": 260404,
+        "buffId": 26040423,
+        "buffLevel": 2,
+        "weaponTypeId": "1000,1001,1002,1003",
+        "power": 500
+    },
+    {
+        "activityId": 260404,
+        "buffId": 26040423,
+        "buffLevel": 3,
+        "weaponTypeId": "1000,1001,1002,1003",
+        "power": 2000
+    },
+    {
+        "activityId": 260404,
+        "buffId": 26040431,
+        "buffLevel": 1,
+        "weaponTypeId": "3000,3003,3002,3001",
+        "power": 100
+    },
+    {
+        "activityId": 260404,
+        "buffId": 26040431,
+        "buffLevel": 2,
+        "weaponTypeId": "3000,3003,3002,3001",
+        "power": 500
+    },
+    {
+        "activityId": 260404,
+        "buffId": 26040431,
+        "buffLevel": 3,
+        "weaponTypeId": "3000,3003,3002,3001",
+        "power": 2000
+    },
+    {
+        "activityId": 260404,
+        "buffId": 26040432,
+        "buffLevel": 1,
+        "weaponTypeId": "3000,3003,3002,3001",
+        "power": 100
+    },
+    {
+        "activityId": 260404,
+        "buffId": 26040432,
+        "buffLevel": 2,
+        "weaponTypeId": "3000,3003,3002,3001",
+        "power": 500
+    },
+    {
+        "activityId": 260404,
+        "buffId": 26040432,
+        "buffLevel": 3,
+        "weaponTypeId": "3000,3003,3002,3001",
+        "power": 2000
+    },
+    {
+        "activityId": 260404,
+        "buffId": 26040433,
+        "buffLevel": 1,
+        "weaponTypeId": "3000,3003,3002,3001",
+        "power": 100
+    },
+    {
+        "activityId": 260404,
+        "buffId": 26040433,
+        "buffLevel": 2,
+        "weaponTypeId": "3000,3003,3002,3001",
+        "power": 500
+    },
+    {
+        "activityId": 260404,
+        "buffId": 26040433,
+        "buffLevel": 3,
+        "weaponTypeId": "3000,3003,3002,3001",
+        "power": 2000
+    },
+    {
+        "activityId": 260404,
+        "buffId": 26040434,
+        "buffLevel": 1,
+        "weaponTypeId": "3003,3002",
+        "power": 100
+    },
+    {
+        "activityId": 260404,
+        "buffId": 26040434,
+        "buffLevel": 2,
+        "weaponTypeId": "3003,3002",
+        "power": 500
+    },
+    {
+        "activityId": 260404,
+        "buffId": 26040434,
+        "buffLevel": 3,
+        "weaponTypeId": "3003,3002",
+        "power": 2000
+    }
+]

@@ -8477,6 +8477,146 @@
         "typeDesc": "惊讶3"
     },
     {
+        "id": 1206,
+        "character": 200012,
+        "type": 20,
+        "path": "audio/sound/wangcilang/spot/wangcilang01",
+        "typeDesc": "语气1"
+    },
+    {
+        "id": 1207,
+        "character": 200012,
+        "type": 21,
+        "path": "audio/sound/wangcilang/spot/wangcilang02",
+        "typeDesc": "疑惑1"
+    },
+    {
+        "id": 1208,
+        "character": 200012,
+        "type": 22,
+        "path": "audio/sound/wangcilang/spot/wangcilang03",
+        "typeDesc": "自信1"
+    },
+    {
+        "id": 1209,
+        "character": 200012,
+        "type": 23,
+        "path": "audio/sound/wangcilang/spot/wangcilang04",
+        "typeDesc": "语气2"
+    },
+    {
+        "id": 1210,
+        "character": 200012,
+        "type": 24,
+        "path": "audio/sound/wangcilang/spot/wangcilang05",
+        "typeDesc": "语气3"
+    },
+    {
+        "id": 1211,
+        "character": 200012,
+        "type": 25,
+        "path": "audio/sound/wangcilang/spot/wangcilang06",
+        "typeDesc": "自信2"
+    },
+    {
+        "id": 1212,
+        "character": 200012,
+        "type": 26,
+        "path": "audio/sound/wangcilang/spot/wangcilang07",
+        "typeDesc": "悲伤1"
+    },
+    {
+        "id": 1213,
+        "character": 200012,
+        "type": 27,
+        "path": "audio/sound/wangcilang/spot/wangcilang08",
+        "typeDesc": "承接1"
+    },
+    {
+        "id": 1214,
+        "character": 200012,
+        "type": 28,
+        "path": "audio/sound/wangcilang/spot/wangcilang09",
+        "typeDesc": "疑惑2"
+    },
+    {
+        "id": 1215,
+        "character": 200012,
+        "type": 29,
+        "path": "audio/sound/wangcilang/spot/wangcilang10",
+        "typeDesc": "自信3"
+    },
+    {
+        "id": 1216,
+        "character": 200012,
+        "type": 30,
+        "path": "audio/sound/wangcilang/spot/wangcilang11",
+        "typeDesc": "自信4"
+    },
+    {
+        "id": 1217,
+        "character": 200012,
+        "type": 31,
+        "path": "audio/sound/wangcilang/spot/wangcilang12",
+        "typeDesc": "生气1"
+    },
+    {
+        "id": 1218,
+        "character": 200012,
+        "type": 32,
+        "path": "audio/sound/wangcilang/spot/wangcilang13",
+        "typeDesc": "自信5"
+    },
+    {
+        "id": 1219,
+        "character": 200012,
+        "type": 33,
+        "path": "audio/sound/wangcilang/spot/wangcilang14",
+        "typeDesc": "语气4"
+    },
+    {
+        "id": 1220,
+        "character": 200012,
+        "type": 34,
+        "path": "audio/sound/wangcilang/spot/wangcilang15",
+        "typeDesc": "语气5"
+    },
+    {
+        "id": 1221,
+        "character": 200012,
+        "type": 35,
+        "path": "audio/sound/wangcilang/spot/wangcilang16",
+        "typeDesc": "开心1"
+    },
+    {
+        "id": 1222,
+        "character": 200012,
+        "type": 36,
+        "path": "audio/sound/wangcilang/spot/wangcilang17",
+        "typeDesc": "开心2"
+    },
+    {
+        "id": 1223,
+        "character": 200012,
+        "type": 37,
+        "path": "audio/sound/wangcilang/spot/wangcilang18",
+        "typeDesc": "自信6"
+    },
+    {
+        "id": 1224,
+        "character": 200012,
+        "type": 38,
+        "path": "audio/sound/wangcilang/spot/wangcilang19",
+        "typeDesc": "承接2"
+    },
+    {
+        "id": 1225,
+        "character": 200012,
+        "type": 39,
+        "path": "audio/sound/wangcilang/spot/wangcilang20",
+        "typeDesc": "开心3"
+    },
+    {
         "id": 901,
         "character": 200009,
         "type": 15,
@@ -9504,5 +9644,880 @@
         "type": 14,
         "path": "audio/sound/jinwu/spot/jtm_knu_245",
         "typeDesc": "疑惑"
+    },
+    {
+        "id": 12201,
+        "character": 20000122,
+        "type": 1,
+        "path": "audio/sound/tongren/spot/jtm_sao_krt_232",
+        "typeDesc": "表示惊讶"
+    },
+    {
+        "id": 12202,
+        "character": 20000122,
+        "type": 2,
+        "path": "audio/sound/tongren/spot/jtm_sao_krt_233",
+        "typeDesc": "表示肯定"
+    },
+    {
+        "id": 12203,
+        "character": 20000122,
+        "type": 3,
+        "path": "audio/sound/tongren/spot/jtm_sao_krt_234",
+        "typeDesc": "表示否定"
+    },
+    {
+        "id": 12204,
+        "character": 20000122,
+        "type": 4,
+        "path": "audio/sound/tongren/spot/jtm_sao_krt_235",
+        "typeDesc": "打招呼"
+    },
+    {
+        "id": 12205,
+        "character": 20000122,
+        "type": 5,
+        "path": "audio/sound/tongren/spot/jtm_sao_krt_236",
+        "typeDesc": "告别"
+    },
+    {
+        "id": 12206,
+        "character": 20000122,
+        "type": 6,
+        "path": "audio/sound/tongren/spot/jtm_sao_krt_237",
+        "typeDesc": "承接"
+    },
+    {
+        "id": 12207,
+        "character": 20000122,
+        "type": 7,
+        "path": "audio/sound/tongren/spot/jtm_sao_krt_238",
+        "typeDesc": "叹气"
+    },
+    {
+        "id": 12208,
+        "character": 20000122,
+        "type": 8,
+        "path": "audio/sound/tongren/spot/jtm_sao_krt_239",
+        "typeDesc": "高兴"
+    },
+    {
+        "id": 12209,
+        "character": 20000122,
+        "type": 9,
+        "path": "audio/sound/tongren/spot/jtm_sao_krt_240",
+        "typeDesc": "生气"
+    },
+    {
+        "id": 12210,
+        "character": 20000122,
+        "type": 10,
+        "path": "audio/sound/tongren/spot/jtm_sao_krt_241",
+        "typeDesc": "递进"
+    },
+    {
+        "id": 12211,
+        "character": 20000122,
+        "type": 11,
+        "path": "audio/sound/tongren/spot/jtm_sao_krt_242",
+        "typeDesc": "转折"
+    },
+    {
+        "id": 12212,
+        "character": 20000122,
+        "type": 12,
+        "path": "audio/sound/tongren/spot/jtm_sao_krt_243",
+        "typeDesc": "疑惑"
+    },
+    {
+        "id": 12213,
+        "character": 20000122,
+        "type": 13,
+        "path": "audio/sound/tongren/spot/jtm_sao_krt_244",
+        "typeDesc": "ex1"
+    },
+    {
+        "id": 12214,
+        "character": 20000122,
+        "type": 14,
+        "path": "audio/sound/tongren/spot/jtm_sao_krt_245",
+        "typeDesc": "ex2"
+    },
+    {
+        "id": 12215,
+        "character": 20000122,
+        "type": 15,
+        "path": "audio/sound/tongren/spot/tongren01",
+        "typeDesc": "战斗1"
+    },
+    {
+        "id": 12216,
+        "character": 20000122,
+        "type": 16,
+        "path": "audio/sound/tongren/spot/tongren02",
+        "typeDesc": "战斗2"
+    },
+    {
+        "id": 12217,
+        "character": 20000122,
+        "type": 17,
+        "path": "audio/sound/tongren/spot/tongren03",
+        "typeDesc": "战斗3"
+    },
+    {
+        "id": 12218,
+        "character": 20000122,
+        "type": 18,
+        "path": "audio/sound/tongren/spot/tongren04",
+        "typeDesc": "战斗4"
+    },
+    {
+        "id": 12219,
+        "character": 20000122,
+        "type": 19,
+        "path": "audio/sound/tongren/spot/tongren05",
+        "typeDesc": "战斗5"
+    },
+    {
+        "id": 12220,
+        "character": 20000122,
+        "type": 20,
+        "path": "audio/sound/tongren/spot/tongren06",
+        "typeDesc": "语气1"
+    },
+    {
+        "id": 12221,
+        "character": 20000122,
+        "type": 21,
+        "path": "audio/sound/tongren/spot/tongren07",
+        "typeDesc": "语气2"
+    },
+    {
+        "id": 12222,
+        "character": 20000122,
+        "type": 22,
+        "path": "audio/sound/tongren/spot/tongren08",
+        "typeDesc": "语气3"
+    },
+    {
+        "id": 12223,
+        "character": 20000122,
+        "type": 23,
+        "path": "audio/sound/tongren/spot/tongren09",
+        "typeDesc": "语气4"
+    },
+    {
+        "id": 12224,
+        "character": 20000122,
+        "type": 24,
+        "path": "audio/sound/tongren/spot/tongren10",
+        "typeDesc": "语气5"
+    },
+    {
+        "id": 12225,
+        "character": 20000122,
+        "type": 25,
+        "path": "audio/sound/tongren/spot/tongren11",
+        "typeDesc": "战斗6"
+    },
+    {
+        "id": 12226,
+        "character": 20000122,
+        "type": 26,
+        "path": "audio/sound/tongren/spot/tongren12",
+        "typeDesc": "战斗7"
+    },
+    {
+        "id": 12227,
+        "character": 20000122,
+        "type": 27,
+        "path": "audio/sound/tongren/spot/tongren13",
+        "typeDesc": "语气6"
+    },
+    {
+        "id": 12228,
+        "character": 20000122,
+        "type": 28,
+        "path": "audio/sound/tongren/spot/tongren14",
+        "typeDesc": "转折1"
+    },
+    {
+        "id": 12229,
+        "character": 20000122,
+        "type": 29,
+        "path": "audio/sound/tongren/spot/tongren15",
+        "typeDesc": "语气7"
+    },
+    {
+        "id": 12230,
+        "character": 20000122,
+        "type": 30,
+        "path": "audio/sound/tongren/spot/tongren16",
+        "typeDesc": "高兴1"
+    },
+    {
+        "id": 12231,
+        "character": 20000122,
+        "type": 31,
+        "path": "audio/sound/tongren/spot/tongren17",
+        "typeDesc": "转折2"
+    },
+    {
+        "id": 12232,
+        "character": 20000122,
+        "type": 32,
+        "path": "audio/sound/tongren/spot/tongren18",
+        "typeDesc": "语气8"
+    },
+    {
+        "id": 12233,
+        "character": 20000122,
+        "type": 33,
+        "path": "audio/sound/tongren/spot/tongren19",
+        "typeDesc": "语气9"
+    },
+    {
+        "id": 12234,
+        "character": 20000122,
+        "type": 34,
+        "path": "audio/sound/tongren/spot/tongren20",
+        "typeDesc": "转折3"
+    },
+    {
+        "id": 12235,
+        "character": 20000122,
+        "type": 35,
+        "path": "audio/sound/tongren/spot/tongren21",
+        "typeDesc": "肯定1"
+    },
+    {
+        "id": 12236,
+        "character": 20000122,
+        "type": 36,
+        "path": "audio/sound/tongren/spot/tongren22",
+        "typeDesc": "转折4"
+    },
+    {
+        "id": 12237,
+        "character": 20000122,
+        "type": 37,
+        "path": "audio/sound/tongren/spot/tongren23",
+        "typeDesc": "疑惑1"
+    },
+    {
+        "id": 12238,
+        "character": 20000122,
+        "type": 38,
+        "path": "audio/sound/tongren/spot/tongren24",
+        "typeDesc": "语气10"
+    },
+    {
+        "id": 12239,
+        "character": 20000122,
+        "type": 39,
+        "path": "audio/sound/tongren/spot/tongren25",
+        "typeDesc": "肯定2"
+    },
+    {
+        "id": 12240,
+        "character": 20000122,
+        "type": 40,
+        "path": "audio/sound/tongren/spot/tongren26",
+        "typeDesc": "肯定3"
+    },
+    {
+        "id": 12241,
+        "character": 20000122,
+        "type": 41,
+        "path": "audio/sound/tongren/spot/tongren27",
+        "typeDesc": "递进1"
+    },
+    {
+        "id": 12242,
+        "character": 20000122,
+        "type": 42,
+        "path": "audio/sound/tongren/spot/tongren28",
+        "typeDesc": "语气11"
+    },
+    {
+        "id": 12243,
+        "character": 20000122,
+        "type": 43,
+        "path": "audio/sound/tongren/spot/tongren29",
+        "typeDesc": "高兴2"
+    },
+    {
+        "id": 12244,
+        "character": 20000122,
+        "type": 44,
+        "path": "audio/sound/tongren/spot/tongren30",
+        "typeDesc": "惊讶1"
+    },
+    {
+        "id": 12245,
+        "character": 20000122,
+        "type": 45,
+        "path": "audio/sound/tongren/spot/tongren31",
+        "typeDesc": "递进2"
+    },
+    {
+        "id": 12246,
+        "character": 20000122,
+        "type": 46,
+        "path": "audio/sound/tongren/spot/tongren32",
+        "typeDesc": "转折5"
+    },
+    {
+        "id": 12247,
+        "character": 20000122,
+        "type": 47,
+        "path": "audio/sound/tongren/spot/tongren33",
+        "typeDesc": "战斗8"
+    },
+    {
+        "id": 12248,
+        "character": 20000122,
+        "type": 48,
+        "path": "audio/sound/tongren/spot/tongren34",
+        "typeDesc": "悲伤1"
+    },
+    {
+        "id": 12249,
+        "character": 20000122,
+        "type": 49,
+        "path": "audio/sound/tongren/spot/tongren35",
+        "typeDesc": "疑惑2"
+    },
+    {
+        "id": 12250,
+        "character": 20000122,
+        "type": 50,
+        "path": "audio/sound/tongren/spot/tongren36",
+        "typeDesc": "战斗9"
+    },
+    {
+        "id": 12251,
+        "character": 20000122,
+        "type": 51,
+        "path": "audio/sound/tongren/spot/tongren37",
+        "typeDesc": "悲伤2"
+    },
+    {
+        "id": 12252,
+        "character": 20000122,
+        "type": 52,
+        "path": "audio/sound/tongren/spot/tongren38",
+        "typeDesc": "战斗10"
+    },
+    {
+        "id": 12253,
+        "character": 20000122,
+        "type": 53,
+        "path": "audio/sound/tongren/spot/tongren39",
+        "typeDesc": "战斗11"
+    },
+    {
+        "id": 12254,
+        "character": 20000122,
+        "type": 54,
+        "path": "audio/sound/tongren/spot/tongren40",
+        "typeDesc": "战斗12"
+    },
+    {
+        "id": 12255,
+        "character": 20000122,
+        "type": 55,
+        "path": "audio/sound/tongren/spot/tongren41",
+        "typeDesc": "转折6"
+    },
+    {
+        "id": 12256,
+        "character": 20000122,
+        "type": 56,
+        "path": "audio/sound/tongren/spot/tongren42",
+        "typeDesc": "转折7"
+    },
+    {
+        "id": 12257,
+        "character": 20000122,
+        "type": 57,
+        "path": "audio/sound/tongren/spot/tongren43",
+        "typeDesc": "语气12"
+    },
+    {
+        "id": 12301,
+        "character": 20000123,
+        "type": 1,
+        "path": "audio/sound/yasina/spot/jtm_sao_asn_232",
+        "typeDesc": "表示惊讶"
+    },
+    {
+        "id": 12302,
+        "character": 20000123,
+        "type": 2,
+        "path": "audio/sound/yasina/spot/jtm_sao_asn_233",
+        "typeDesc": "表示肯定"
+    },
+    {
+        "id": 12303,
+        "character": 20000123,
+        "type": 3,
+        "path": "audio/sound/yasina/spot/jtm_sao_asn_234",
+        "typeDesc": "表示否定"
+    },
+    {
+        "id": 12304,
+        "character": 20000123,
+        "type": 4,
+        "path": "audio/sound/yasina/spot/jtm_sao_asn_235",
+        "typeDesc": "打招呼"
+    },
+    {
+        "id": 12305,
+        "character": 20000123,
+        "type": 5,
+        "path": "audio/sound/yasina/spot/jtm_sao_asn_236",
+        "typeDesc": "告别"
+    },
+    {
+        "id": 12306,
+        "character": 20000123,
+        "type": 6,
+        "path": "audio/sound/yasina/spot/jtm_sao_asn_237",
+        "typeDesc": "承接"
+    },
+    {
+        "id": 12307,
+        "character": 20000123,
+        "type": 7,
+        "path": "audio/sound/yasina/spot/jtm_sao_asn_238",
+        "typeDesc": "叹气"
+    },
+    {
+        "id": 12308,
+        "character": 20000123,
+        "type": 8,
+        "path": "audio/sound/yasina/spot/jtm_sao_asn_239",
+        "typeDesc": "高兴"
+    },
+    {
+        "id": 12309,
+        "character": 20000123,
+        "type": 9,
+        "path": "audio/sound/yasina/spot/jtm_sao_asn_240",
+        "typeDesc": "生气"
+    },
+    {
+        "id": 12310,
+        "character": 20000123,
+        "type": 10,
+        "path": "audio/sound/yasina/spot/jtm_sao_asn_241",
+        "typeDesc": "递进"
+    },
+    {
+        "id": 12311,
+        "character": 20000123,
+        "type": 11,
+        "path": "audio/sound/yasina/spot/jtm_sao_asn_242",
+        "typeDesc": "转折"
+    },
+    {
+        "id": 12312,
+        "character": 20000123,
+        "type": 12,
+        "path": "audio/sound/yasina/spot/jtm_sao_asn_243",
+        "typeDesc": "疑惑"
+    },
+    {
+        "id": 12313,
+        "character": 20000123,
+        "type": 13,
+        "path": "audio/sound/yasina/spot/jtm_sao_asn_244",
+        "typeDesc": "ex1"
+    },
+    {
+        "id": 12314,
+        "character": 20000123,
+        "type": 14,
+        "path": "audio/sound/yasina/spot/jtm_sao_asn_245",
+        "typeDesc": "ex2"
+    },
+    {
+        "id": 12315,
+        "character": 20000123,
+        "type": 15,
+        "path": "audio/sound/yasina/spot/yasina01",
+        "typeDesc": "战斗1"
+    },
+    {
+        "id": 12316,
+        "character": 20000123,
+        "type": 16,
+        "path": "audio/sound/yasina/spot/yasina02",
+        "typeDesc": "战斗2"
+    },
+    {
+        "id": 12317,
+        "character": 20000123,
+        "type": 17,
+        "path": "audio/sound/yasina/spot/yasina03",
+        "typeDesc": "战斗3"
+    },
+    {
+        "id": 12318,
+        "character": 20000123,
+        "type": 18,
+        "path": "audio/sound/yasina/spot/yasina04",
+        "typeDesc": "转折1"
+    },
+    {
+        "id": 12319,
+        "character": 20000123,
+        "type": 19,
+        "path": "audio/sound/yasina/spot/yasina05",
+        "typeDesc": "递进1"
+    },
+    {
+        "id": 12320,
+        "character": 20000123,
+        "type": 20,
+        "path": "audio/sound/yasina/spot/yasina06",
+        "typeDesc": "递进2"
+    },
+    {
+        "id": 12321,
+        "character": 20000123,
+        "type": 21,
+        "path": "audio/sound/yasina/spot/yasina07",
+        "typeDesc": "递进3"
+    },
+    {
+        "id": 12322,
+        "character": 20000123,
+        "type": 22,
+        "path": "audio/sound/yasina/spot/yasina08",
+        "typeDesc": "语气1"
+    },
+    {
+        "id": 12323,
+        "character": 20000123,
+        "type": 23,
+        "path": "audio/sound/yasina/spot/yasina09",
+        "typeDesc": "战斗4"
+    },
+    {
+        "id": 12324,
+        "character": 20000123,
+        "type": 24,
+        "path": "audio/sound/yasina/spot/yasina10",
+        "typeDesc": "战斗5"
+    },
+    {
+        "id": 12325,
+        "character": 20000123,
+        "type": 25,
+        "path": "audio/sound/yasina/spot/yasina11",
+        "typeDesc": "语气2"
+    },
+    {
+        "id": 12326,
+        "character": 20000123,
+        "type": 26,
+        "path": "audio/sound/yasina/spot/yasina12",
+        "typeDesc": "战斗6"
+    },
+    {
+        "id": 12327,
+        "character": 20000123,
+        "type": 27,
+        "path": "audio/sound/yasina/spot/yasina13",
+        "typeDesc": "战斗7"
+    },
+    {
+        "id": 12328,
+        "character": 20000123,
+        "type": 28,
+        "path": "audio/sound/yasina/spot/yasina14",
+        "typeDesc": "高兴1"
+    },
+    {
+        "id": 12329,
+        "character": 20000123,
+        "type": 29,
+        "path": "audio/sound/yasina/spot/yasina15",
+        "typeDesc": "递进1"
+    },
+    {
+        "id": 12401,
+        "character": 20000124,
+        "type": 1,
+        "path": "audio/sound/lifa/spot/jtm_sao_rfa_232",
+        "typeDesc": "表示惊讶"
+    },
+    {
+        "id": 12402,
+        "character": 20000124,
+        "type": 2,
+        "path": "audio/sound/lifa/spot/jtm_sao_rfa_233",
+        "typeDesc": "表示肯定"
+    },
+    {
+        "id": 12403,
+        "character": 20000124,
+        "type": 3,
+        "path": "audio/sound/lifa/spot/jtm_sao_rfa_234",
+        "typeDesc": "表示否定"
+    },
+    {
+        "id": 12404,
+        "character": 20000124,
+        "type": 4,
+        "path": "audio/sound/lifa/spot/jtm_sao_rfa_235",
+        "typeDesc": "打招呼"
+    },
+    {
+        "id": 12405,
+        "character": 20000124,
+        "type": 5,
+        "path": "audio/sound/lifa/spot/jtm_sao_rfa_236",
+        "typeDesc": "告别"
+    },
+    {
+        "id": 12406,
+        "character": 20000124,
+        "type": 6,
+        "path": "audio/sound/lifa/spot/jtm_sao_rfa_237",
+        "typeDesc": "承接"
+    },
+    {
+        "id": 12407,
+        "character": 20000124,
+        "type": 7,
+        "path": "audio/sound/lifa/spot/jtm_sao_rfa_238",
+        "typeDesc": "叹气"
+    },
+    {
+        "id": 12408,
+        "character": 20000124,
+        "type": 8,
+        "path": "audio/sound/lifa/spot/jtm_sao_rfa_239",
+        "typeDesc": "高兴"
+    },
+    {
+        "id": 12409,
+        "character": 20000124,
+        "type": 9,
+        "path": "audio/sound/lifa/spot/jtm_sao_rfa_240",
+        "typeDesc": "生气"
+    },
+    {
+        "id": 12410,
+        "character": 20000124,
+        "type": 10,
+        "path": "audio/sound/lifa/spot/jtm_sao_rfa_241",
+        "typeDesc": "递进"
+    },
+    {
+        "id": 12411,
+        "character": 20000124,
+        "type": 11,
+        "path": "audio/sound/lifa/spot/jtm_sao_rfa_242",
+        "typeDesc": "转折"
+    },
+    {
+        "id": 12412,
+        "character": 20000124,
+        "type": 12,
+        "path": "audio/sound/lifa/spot/jtm_sao_rfa_243",
+        "typeDesc": "疑惑"
+    },
+    {
+        "id": 12413,
+        "character": 20000124,
+        "type": 13,
+        "path": "audio/sound/lifa/spot/jtm_sao_rfa_244",
+        "typeDesc": "ex1"
+    },
+    {
+        "id": 12414,
+        "character": 20000124,
+        "type": 14,
+        "path": "audio/sound/lifa/spot/jtm_sao_rfa_245",
+        "typeDesc": "ex2"
+    },
+    {
+        "id": 12415,
+        "character": 20000124,
+        "type": 15,
+        "path": "audio/sound/lifa/spot/lifa01",
+        "typeDesc": "战斗1"
+    },
+    {
+        "id": 12416,
+        "character": 20000124,
+        "type": 16,
+        "path": "audio/sound/lifa/spot/lifa02",
+        "typeDesc": "战斗2"
+    },
+    {
+        "id": 12417,
+        "character": 20000124,
+        "type": 17,
+        "path": "audio/sound/lifa/spot/lifa03",
+        "typeDesc": "惊讶1"
+    },
+    {
+        "id": 12418,
+        "character": 20000124,
+        "type": 18,
+        "path": "audio/sound/lifa/spot/lifa04",
+        "typeDesc": "战斗3"
+    },
+    {
+        "id": 12419,
+        "character": 20000124,
+        "type": 19,
+        "path": "audio/sound/lifa/spot/lifa05",
+        "typeDesc": "战斗4"
+    },
+    {
+        "id": 12501,
+        "character": 20000125,
+        "type": 1,
+        "path": "audio/sound/shinai/spot/jtm_sao_snn_232",
+        "typeDesc": "表示惊讶"
+    },
+    {
+        "id": 12502,
+        "character": 20000125,
+        "type": 2,
+        "path": "audio/sound/shinai/spot/jtm_sao_snn_233",
+        "typeDesc": "表示肯定"
+    },
+    {
+        "id": 12503,
+        "character": 20000125,
+        "type": 3,
+        "path": "audio/sound/shinai/spot/jtm_sao_snn_234",
+        "typeDesc": "表示否定"
+    },
+    {
+        "id": 12504,
+        "character": 20000125,
+        "type": 4,
+        "path": "audio/sound/shinai/spot/jtm_sao_snn_235",
+        "typeDesc": "打招呼"
+    },
+    {
+        "id": 12505,
+        "character": 20000125,
+        "type": 5,
+        "path": "audio/sound/shinai/spot/jtm_sao_snn_236",
+        "typeDesc": "告别"
+    },
+    {
+        "id": 12506,
+        "character": 20000125,
+        "type": 6,
+        "path": "audio/sound/shinai/spot/jtm_sao_snn_237",
+        "typeDesc": "承接"
+    },
+    {
+        "id": 12507,
+        "character": 20000125,
+        "type": 7,
+        "path": "audio/sound/shinai/spot/jtm_sao_snn_238",
+        "typeDesc": "叹气"
+    },
+    {
+        "id": 12508,
+        "character": 20000125,
+        "type": 8,
+        "path": "audio/sound/shinai/spot/jtm_sao_snn_239",
+        "typeDesc": "高兴"
+    },
+    {
+        "id": 12509,
+        "character": 20000125,
+        "type": 9,
+        "path": "audio/sound/shinai/spot/jtm_sao_snn_240",
+        "typeDesc": "生气"
+    },
+    {
+        "id": 12510,
+        "character": 20000125,
+        "type": 10,
+        "path": "audio/sound/shinai/spot/jtm_sao_snn_241",
+        "typeDesc": "递进"
+    },
+    {
+        "id": 12511,
+        "character": 20000125,
+        "type": 11,
+        "path": "audio/sound/shinai/spot/jtm_sao_snn_242",
+        "typeDesc": "转折"
+    },
+    {
+        "id": 12512,
+        "character": 20000125,
+        "type": 12,
+        "path": "audio/sound/shinai/spot/jtm_sao_snn_243",
+        "typeDesc": "疑惑"
+    },
+    {
+        "id": 12513,
+        "character": 20000125,
+        "type": 13,
+        "path": "audio/sound/shinai/spot/jtm_sao_snn_244",
+        "typeDesc": "ex1"
+    },
+    {
+        "id": 12514,
+        "character": 20000125,
+        "type": 14,
+        "path": "audio/sound/shinai/spot/jtm_sao_snn_245",
+        "typeDesc": "ex2"
+    },
+    {
+        "id": 12515,
+        "character": 20000125,
+        "type": 15,
+        "path": "audio/sound/shinai/spot/shinai01",
+        "typeDesc": "战斗1"
+    },
+    {
+        "id": 12516,
+        "character": 20000125,
+        "type": 16,
+        "path": "audio/sound/shinai/spot/shinai02",
+        "typeDesc": "战斗2"
+    },
+    {
+        "id": 12517,
+        "character": 20000125,
+        "type": 17,
+        "path": "audio/sound/shinai/spot/shinai03",
+        "typeDesc": "递进1"
+    },
+    {
+        "id": 12518,
+        "character": 20000125,
+        "type": 18,
+        "path": "audio/sound/shinai/spot/shinai04",
+        "typeDesc": "战斗3"
+    },
+    {
+        "id": 12519,
+        "character": 20000125,
+        "type": 19,
+        "path": "audio/sound/shinai/spot/shinai05",
+        "typeDesc": "语气1"
+    },
+    {
+        "id": 12520,
+        "character": 20000125,
+        "type": 20,
+        "path": "audio/sound/shinai/spot/shinai06",
+        "typeDesc": "语气2"
     }
 ]

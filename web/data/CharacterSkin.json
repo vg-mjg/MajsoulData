@@ -729,5 +729,73 @@
         "audioClick": "zny_se_400908/click",
         "audioClick2": "",
         "celebrateDelay": 0
+    },
+    {
+        "effects": [
+            "",
+            "tongren_1_eff_eff2",
+            "tongren_1_eff_eff3",
+            ""
+        ],
+        "skinid": 40012203,
+        "spineLayers": 3,
+        "audioCelebrate": "tr_se_40012203/celebrate",
+        "audioCelebrateIdle": "",
+        "audioIdle": "",
+        "audioGreeting": "tr_se_40012203/greeting",
+        "audioClick": "tr_se_40012203/click",
+        "audioClick2": "",
+        "celebrateDelay": 0
+    },
+    {
+        "effects": [
+            "yasina_1_eff_eff1",
+            "yasina_1_eff_eff2",
+            "",
+            ""
+        ],
+        "skinid": 40012303,
+        "spineLayers": 2,
+        "audioCelebrate": "ysn_se_40012303/celebrate",
+        "audioCelebrateIdle": "",
+        "audioIdle": "",
+        "audioGreeting": "ysn_se_40012303/greeting",
+        "audioClick": "ysn_se_40012303/click",
+        "audioClick2": "",
+        "celebrateDelay": 0
+    },
+    {
+        "effects": [
+            "lifa_1_eff_eff1",
+            "lifa_1_eff_eff2",
+            "",
+            ""
+        ],
+        "skinid": 40012403,
+        "spineLayers": 1,
+        "audioCelebrate": "lf_se_40012403/celebrate",
+        "audioCelebrateIdle": "",
+        "audioIdle": "",
+        "audioGreeting": "lf_se_40012403/greeting",
+        "audioClick": "lf_se_40012403/click",
+        "audioClick2": "",
+        "celebrateDelay": 0
+    },
+    {
+        "effects": [
+            "",
+            "shinai_1_eff_eff2",
+            "",
+            ""
+        ],
+        "skinid": 40012503,
+        "spineLayers": 3,
+        "audioCelebrate": "sn_se_40012503/celebrate",
+        "audioCelebrateIdle": "",
+        "audioIdle": "",
+        "audioGreeting": "sn_se_40012503/greeting",
+        "audioClick": "sn_se_40012503/click",
+        "audioClick2": "",
+        "celebrateDelay": 0
     }
 ]

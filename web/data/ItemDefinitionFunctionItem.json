@@ -2,6 +2,10 @@
     {
         "args": [
             1010,
+            0,
+            0,
+            0,
+            0,
             0
         ],
         "id": 700001,
@@ -15,6 +19,10 @@
     {
         "args": [
             2010,
+            0,
+            0,
+            0,
+            0,
             0
         ],
         "id": 700002,
@@ -28,6 +36,10 @@
     {
         "args": [
             3010,
+            0,
+            0,
+            0,
+            0,
             0
         ],
         "id": 700003,
@@ -41,6 +53,10 @@
     {
         "args": [
             5010,
+            0,
+            0,
+            0,
+            0,
             0
         ],
         "id": 700004,
@@ -54,6 +70,10 @@
     {
         "args": [
             240401,
+            0,
+            0,
+            0,
+            0,
             0
         ],
         "id": 70000001,
@@ -67,7 +87,11 @@
     {
         "args": [
             240601,
-            101
+            101,
+            0,
+            0,
+            0,
+            0
         ],
         "id": 70000002,
         "type": 3,
@@ -80,7 +104,11 @@
     {
         "args": [
             240601,
-            102
+            102,
+            0,
+            0,
+            0,
+            0
         ],
         "id": 70000003,
         "type": 3,
@@ -93,7 +121,11 @@
     {
         "args": [
             240601,
-            103
+            103,
+            0,
+            0,
+            0,
+            0
         ],
         "id": 70000004,
         "type": 3,
@@ -106,6 +138,10 @@
     {
         "args": [
             240601,
+            0,
+            0,
+            0,
+            0,
             0
         ],
         "id": 70000005,
@@ -119,7 +155,11 @@
     {
         "args": [
             240601,
-            1
+            1,
+            0,
+            0,
+            0,
+            0
         ],
         "id": 70000006,
         "type": 4,
@@ -132,7 +172,11 @@
     {
         "args": [
             240601,
-            2
+            2,
+            0,
+            0,
+            0,
+            0
         ],
         "id": 70000007,
         "type": 4,
@@ -145,7 +189,11 @@
     {
         "args": [
             240601,
-            3
+            3,
+            0,
+            0,
+            0,
+            0
         ],
         "id": 70000008,
         "type": 4,
@@ -158,7 +206,11 @@
     {
         "args": [
             240601,
-            4
+            4,
+            0,
+            0,
+            0,
+            0
         ],
         "id": 70000009,
         "type": 4,
@@ -171,6 +223,10 @@
     {
         "args": [
             250101,
+            0,
+            0,
+            0,
+            0,
             0
         ],
         "id": 70000010,
@@ -180,5 +236,3388 @@
         "desc": 4578,
         "icon": "extendRes/items2/25chunjie2.jpg",
         "iconTransparent": "extendRes/items2/25chunjie2_0.png"
+    },
+    {
+        "args": [
+            26040501,
+            1,
+            0,
+            0,
+            0,
+            0
+        ],
+        "id": 70000011,
+        "type": 8,
+        "name": 26040100,
+        "descFunc": 26040101,
+        "desc": 26040102,
+        "icon": "extendRes/items2/26dj3.jpg",
+        "iconTransparent": "extendRes/items2/26dj3_0.png"
+    },
+    {
+        "args": [
+            260401,
+            6000,
+            3300,
+            500,
+            170,
+            30
+        ],
+        "id": 70001000,
+        "type": 6,
+        "name": 0,
+        "descFunc": 0,
+        "desc": 0,
+        "icon": "extendRes/items2/icon_random_000.png",
+        "iconTransparent": "extendRes/items2/item_icon_random_000.png"
+    },
+    {
+        "args": [
+            260401,
+            0,
+            1,
+            0,
+            0,
+            0
+        ],
+        "id": 70001001,
+        "type": 5,
+        "name": 0,
+        "descFunc": 0,
+        "desc": 0,
+        "icon": "extendRes/items2/icon_random_001.png",
+        "iconTransparent": "extendRes/items2/item_icon_random_001.png"
+    },
+    {
+        "args": [
+            260401,
+            0,
+            2,
+            0,
+            0,
+            0
+        ],
+        "id": 70001002,
+        "type": 5,
+        "name": 0,
+        "descFunc": 0,
+        "desc": 0,
+        "icon": "extendRes/items2/icon_random_002.png",
+        "iconTransparent": "extendRes/items2/item_icon_random_002.png"
+    },
+    {
+        "args": [
+            260401,
+            0,
+            3,
+            0,
+            0,
+            0
+        ],
+        "id": 70001003,
+        "type": 5,
+        "name": 0,
+        "descFunc": 0,
+        "desc": 0,
+        "icon": "extendRes/items2/icon_random_003.png",
+        "iconTransparent": "extendRes/items2/item_icon_random_003.png"
+    },
+    {
+        "args": [
+            260401,
+            0,
+            4,
+            0,
+            0,
+            0
+        ],
+        "id": 70001004,
+        "type": 5,
+        "name": 0,
+        "descFunc": 0,
+        "desc": 0,
+        "icon": "extendRes/items2/icon_random_004.png",
+        "iconTransparent": "extendRes/items2/item_icon_random_004.png"
+    },
+    {
+        "args": [
+            260401,
+            0,
+            5,
+            0,
+            0,
+            0
+        ],
+        "id": 70001005,
+        "type": 5,
+        "name": 0,
+        "descFunc": 0,
+        "desc": 0,
+        "icon": "extendRes/items2/icon_random_005.png",
+        "iconTransparent": "extendRes/items2/item_icon_random_005.png"
+    },
+    {
+        "args": [
+            260401,
+            1,
+            1,
+            0,
+            0,
+            0
+        ],
+        "id": 70001011,
+        "type": 5,
+        "name": 0,
+        "descFunc": 0,
+        "desc": 0,
+        "icon": "extendRes/items2/icon_weapon_swordsman_empty_001.png",
+        "iconTransparent": "extendRes/items2/item_icon_weapon_swordsman_empty_001.png"
+    },
+    {
+        "args": [
+            260401,
+            2,
+            1,
+            0,
+            0,
+            0
+        ],
+        "id": 70001012,
+        "type": 5,
+        "name": 0,
+        "descFunc": 0,
+        "desc": 0,
+        "icon": "extendRes/items2/icon_weapon_warrior_empty_001.png",
+        "iconTransparent": "extendRes/items2/item_icon_weapon_warrior_empty_001.png"
+    },
+    {
+        "args": [
+            260401,
+            3,
+            1,
+            0,
+            0,
+            0
+        ],
+        "id": 70001013,
+        "type": 5,
+        "name": 0,
+        "descFunc": 0,
+        "desc": 0,
+        "icon": "extendRes/items2/icon_weapon_wizard_empty_001.png",
+        "iconTransparent": "extendRes/items2/item_icon_weapon_wizard_empty_001.png"
+    },
+    {
+        "args": [
+            260401,
+            4,
+            1,
+            0,
+            0,
+            0
+        ],
+        "id": 70001014,
+        "type": 5,
+        "name": 0,
+        "descFunc": 0,
+        "desc": 0,
+        "icon": "extendRes/items2/icon_hat_empty_001.png",
+        "iconTransparent": "extendRes/items2/item_icon_hat_empty_001.png"
+    },
+    {
+        "args": [
+            260401,
+            5,
+            1,
+            0,
+            0,
+            0
+        ],
+        "id": 70001015,
+        "type": 5,
+        "name": 0,
+        "descFunc": 0,
+        "desc": 0,
+        "icon": "extendRes/items2/icon_armor_empty_001.png",
+        "iconTransparent": "extendRes/items2/item_icon_armor_empty_001.png"
+    },
+    {
+        "args": [
+            260401,
+            1,
+            2,
+            0,
+            0,
+            0
+        ],
+        "id": 70001021,
+        "type": 5,
+        "name": 0,
+        "descFunc": 0,
+        "desc": 0,
+        "icon": "extendRes/items2/icon_weapon_swordsman_empty_002.png",
+        "iconTransparent": "extendRes/items2/item_icon_weapon_swordsman_empty_002.png"
+    },
+    {
+        "args": [
+            260401,
+            2,
+            2,
+            0,
+            0,
+            0
+        ],
+        "id": 70001022,
+        "type": 5,
+        "name": 0,
+        "descFunc": 0,
+        "desc": 0,
+        "icon": "extendRes/items2/icon_weapon_warrior_empty_002.png",
+        "iconTransparent": "extendRes/items2/item_icon_weapon_warrior_empty_002.png"
+    },
+    {
+        "args": [
+            260401,
+            3,
+            2,
+            0,
+            0,
+            0
+        ],
+        "id": 70001023,
+        "type": 5,
+        "name": 0,
+        "descFunc": 0,
+        "desc": 0,
+        "icon": "extendRes/items2/icon_weapon_wizard_empty_002.png",
+        "iconTransparent": "extendRes/items2/item_icon_weapon_wizard_empty_002.png"
+    },
+    {
+        "args": [
+            260401,
+            4,
+            2,
+            0,
+            0,
+            0
+        ],
+        "id": 70001024,
+        "type": 5,
+        "name": 0,
+        "descFunc": 0,
+        "desc": 0,
+        "icon": "extendRes/items2/icon_hat_empty_002.png",
+        "iconTransparent": "extendRes/items2/item_icon_hat_empty_002.png"
+    },
+    {
+        "args": [
+            260401,
+            5,
+            2,
+            0,
+            0,
+            0
+        ],
+        "id": 70001025,
+        "type": 5,
+        "name": 0,
+        "descFunc": 0,
+        "desc": 0,
+        "icon": "extendRes/items2/icon_armor_empty_002.png",
+        "iconTransparent": "extendRes/items2/item_icon_armor_empty_002.png"
+    },
+    {
+        "args": [
+            260401,
+            1,
+            3,
+            0,
+            0,
+            0
+        ],
+        "id": 70001031,
+        "type": 5,
+        "name": 0,
+        "descFunc": 0,
+        "desc": 0,
+        "icon": "extendRes/items2/icon_weapon_swordsman_empty_003.png",
+        "iconTransparent": "extendRes/items2/item_icon_weapon_swordsman_empty_003.png"
+    },
+    {
+        "args": [
+            260401,
+            2,
+            3,
+            0,
+            0,
+            0
+        ],
+        "id": 70001032,
+        "type": 5,
+        "name": 0,
+        "descFunc": 0,
+        "desc": 0,
+        "icon": "extendRes/items2/icon_weapon_warrior_empty_003.png",
+        "iconTransparent": "extendRes/items2/item_icon_weapon_warrior_empty_003.png"
+    },
+    {
+        "args": [
+            260401,
+            3,
+            3,
+            0,
+            0,
+            0
+        ],
+        "id": 70001033,
+        "type": 5,
+        "name": 0,
+        "descFunc": 0,
+        "desc": 0,
+        "icon": "extendRes/items2/icon_weapon_wizard_empty_003.png",
+        "iconTransparent": "extendRes/items2/item_icon_weapon_wizard_empty_003.png"
+    },
+    {
+        "args": [
+            260401,
+            4,
+            3,
+            0,
+            0,
+            0
+        ],
+        "id": 70001034,
+        "type": 5,
+        "name": 0,
+        "descFunc": 0,
+        "desc": 0,
+        "icon": "extendRes/items2/icon_hat_empty_003.png",
+        "iconTransparent": "extendRes/items2/item_icon_hat_empty_003.png"
+    },
+    {
+        "args": [
+            260401,
+            5,
+            3,
+            0,
+            0,
+            0
+        ],
+        "id": 70001035,
+        "type": 5,
+        "name": 0,
+        "descFunc": 0,
+        "desc": 0,
+        "icon": "extendRes/items2/icon_armor_empty_003.png",
+        "iconTransparent": "extendRes/items2/item_icon_armor_empty_003.png"
+    },
+    {
+        "args": [
+            260401,
+            1,
+            4,
+            0,
+            0,
+            0
+        ],
+        "id": 70001041,
+        "type": 5,
+        "name": 0,
+        "descFunc": 0,
+        "desc": 0,
+        "icon": "extendRes/items2/icon_weapon_swordsman_empty_004.png",
+        "iconTransparent": "extendRes/items2/item_icon_weapon_swordsman_empty_004.png"
+    },
+    {
+        "args": [
+            260401,
+            2,
+            4,
+            0,
+            0,
+            0
+        ],
+        "id": 70001042,
+        "type": 5,
+        "name": 0,
+        "descFunc": 0,
+        "desc": 0,
+        "icon": "extendRes/items2/icon_weapon_warrior_empty_004.png",
+        "iconTransparent": "extendRes/items2/item_icon_weapon_warrior_empty_004.png"
+    },
+    {
+        "args": [
+            260401,
+            3,
+            4,
+            0,
+            0,
+            0
+        ],
+        "id": 70001043,
+        "type": 5,
+        "name": 0,
+        "descFunc": 0,
+        "desc": 0,
+        "icon": "extendRes/items2/icon_weapon_wizard_empty_004.png",
+        "iconTransparent": "extendRes/items2/item_icon_weapon_wizard_empty_004.png"
+    },
+    {
+        "args": [
+            260401,
+            4,
+            4,
+            0,
+            0,
+            0
+        ],
+        "id": 70001044,
+        "type": 5,
+        "name": 0,
+        "descFunc": 0,
+        "desc": 0,
+        "icon": "extendRes/items2/icon_hat_empty_004.png",
+        "iconTransparent": "extendRes/items2/item_icon_hat_empty_004.png"
+    },
+    {
+        "args": [
+            260401,
+            5,
+            4,
+            0,
+            0,
+            0
+        ],
+        "id": 70001045,
+        "type": 5,
+        "name": 0,
+        "descFunc": 0,
+        "desc": 0,
+        "icon": "extendRes/items2/icon_armor_empty_004.png",
+        "iconTransparent": "extendRes/items2/item_icon_armor_empty_004.png"
+    },
+    {
+        "args": [
+            260401,
+            1,
+            5,
+            0,
+            0,
+            0
+        ],
+        "id": 70001051,
+        "type": 5,
+        "name": 0,
+        "descFunc": 0,
+        "desc": 0,
+        "icon": "extendRes/items2/icon_weapon_swordsman_empty_005.png",
+        "iconTransparent": "extendRes/items2/item_icon_weapon_swordsman_empty_005.png"
+    },
+    {
+        "args": [
+            260401,
+            2,
+            5,
+            0,
+            0,
+            0
+        ],
+        "id": 70001052,
+        "type": 5,
+        "name": 0,
+        "descFunc": 0,
+        "desc": 0,
+        "icon": "extendRes/items2/icon_weapon_warrior_empty_005.png",
+        "iconTransparent": "extendRes/items2/item_icon_weapon_warrior_empty_005.png"
+    },
+    {
+        "args": [
+            260401,
+            3,
+            5,
+            0,
+            0,
+            0
+        ],
+        "id": 70001053,
+        "type": 5,
+        "name": 0,
+        "descFunc": 0,
+        "desc": 0,
+        "icon": "extendRes/items2/icon_weapon_wizard_empty_005.png",
+        "iconTransparent": "extendRes/items2/item_icon_weapon_wizard_empty_005.png"
+    },
+    {
+        "args": [
+            260401,
+            4,
+            5,
+            0,
+            0,
+            0
+        ],
+        "id": 70001054,
+        "type": 5,
+        "name": 0,
+        "descFunc": 0,
+        "desc": 0,
+        "icon": "extendRes/items2/icon_hat_empty_005.png",
+        "iconTransparent": "extendRes/items2/item_icon_hat_empty_005.png"
+    },
+    {
+        "args": [
+            260401,
+            5,
+            5,
+            0,
+            0,
+            0
+        ],
+        "id": 70001055,
+        "type": 5,
+        "name": 0,
+        "descFunc": 0,
+        "desc": 0,
+        "icon": "extendRes/items2/icon_armor_empty_005.png",
+        "iconTransparent": "extendRes/items2/item_icon_armor_empty_005.png"
+    },
+    {
+        "args": [
+            260401,
+            0,
+            0,
+            0,
+            0,
+            0
+        ],
+        "id": 70001100,
+        "type": 7,
+        "name": 26040001,
+        "descFunc": 0,
+        "desc": 0,
+        "icon": "extendRes/items2/icon_weapon_swordsman_00100.png",
+        "iconTransparent": "extendRes/items2/item_icon_weapon_swordsman_00100.png"
+    },
+    {
+        "args": [
+            260401,
+            0,
+            0,
+            0,
+            0,
+            0
+        ],
+        "id": 70001111,
+        "type": 7,
+        "name": 26040002,
+        "descFunc": 0,
+        "desc": 0,
+        "icon": "extendRes/items2/icon_weapon_swordsman_00301.png",
+        "iconTransparent": "extendRes/items2/item_icon_weapon_swordsman_00301.png"
+    },
+    {
+        "args": [
+            260401,
+            0,
+            0,
+            0,
+            0,
+            0
+        ],
+        "id": 70001112,
+        "type": 7,
+        "name": 26040003,
+        "descFunc": 0,
+        "desc": 0,
+        "icon": "extendRes/items2/icon_weapon_swordsman_00302.png",
+        "iconTransparent": "extendRes/items2/item_icon_weapon_swordsman_00302.png"
+    },
+    {
+        "args": [
+            260401,
+            0,
+            0,
+            0,
+            0,
+            0
+        ],
+        "id": 70001113,
+        "type": 7,
+        "name": 26040004,
+        "descFunc": 0,
+        "desc": 0,
+        "icon": "extendRes/items2/icon_weapon_swordsman_00303.png",
+        "iconTransparent": "extendRes/items2/item_icon_weapon_swordsman_00303.png"
+    },
+    {
+        "args": [
+            260401,
+            0,
+            0,
+            0,
+            0,
+            0
+        ],
+        "id": 70001114,
+        "type": 7,
+        "name": 26040005,
+        "descFunc": 0,
+        "desc": 0,
+        "icon": "extendRes/items2/icon_weapon_swordsman_00304.png",
+        "iconTransparent": "extendRes/items2/item_icon_weapon_swordsman_00304.png"
+    },
+    {
+        "args": [
+            260401,
+            0,
+            0,
+            0,
+            0,
+            0
+        ],
+        "id": 70001115,
+        "type": 7,
+        "name": 26040006,
+        "descFunc": 0,
+        "desc": 0,
+        "icon": "extendRes/items2/icon_weapon_swordsman_00305.png",
+        "iconTransparent": "extendRes/items2/item_icon_weapon_swordsman_00305.png"
+    },
+    {
+        "args": [
+            260401,
+            0,
+            0,
+            0,
+            0,
+            0
+        ],
+        "id": 70001121,
+        "type": 7,
+        "name": 26040007,
+        "descFunc": 0,
+        "desc": 0,
+        "icon": "extendRes/items2/icon_weapon_swordsman_00201.png",
+        "iconTransparent": "extendRes/items2/item_icon_weapon_swordsman_00201.png"
+    },
+    {
+        "args": [
+            260401,
+            0,
+            0,
+            0,
+            0,
+            0
+        ],
+        "id": 70001122,
+        "type": 7,
+        "name": 26040008,
+        "descFunc": 0,
+        "desc": 0,
+        "icon": "extendRes/items2/icon_weapon_swordsman_00202.png",
+        "iconTransparent": "extendRes/items2/item_icon_weapon_swordsman_00202.png"
+    },
+    {
+        "args": [
+            260401,
+            0,
+            0,
+            0,
+            0,
+            0
+        ],
+        "id": 70001123,
+        "type": 7,
+        "name": 26040009,
+        "descFunc": 0,
+        "desc": 0,
+        "icon": "extendRes/items2/icon_weapon_swordsman_00203.png",
+        "iconTransparent": "extendRes/items2/item_icon_weapon_swordsman_00203.png"
+    },
+    {
+        "args": [
+            260401,
+            0,
+            0,
+            0,
+            0,
+            0
+        ],
+        "id": 70001124,
+        "type": 7,
+        "name": 26040010,
+        "descFunc": 0,
+        "desc": 0,
+        "icon": "extendRes/items2/icon_weapon_swordsman_00204.png",
+        "iconTransparent": "extendRes/items2/item_icon_weapon_swordsman_00204.png"
+    },
+    {
+        "args": [
+            260401,
+            0,
+            0,
+            0,
+            0,
+            0
+        ],
+        "id": 70001125,
+        "type": 7,
+        "name": 26040011,
+        "descFunc": 0,
+        "desc": 0,
+        "icon": "extendRes/items2/icon_weapon_swordsman_00205.png",
+        "iconTransparent": "extendRes/items2/item_icon_weapon_swordsman_00205.png"
+    },
+    {
+        "args": [
+            260401,
+            0,
+            0,
+            0,
+            0,
+            0
+        ],
+        "id": 70001131,
+        "type": 7,
+        "name": 26040012,
+        "descFunc": 0,
+        "desc": 0,
+        "icon": "extendRes/items2/icon_weapon_swordsman_00401.png",
+        "iconTransparent": "extendRes/items2/item_icon_weapon_swordsman_00401.png"
+    },
+    {
+        "args": [
+            260401,
+            0,
+            0,
+            0,
+            0,
+            0
+        ],
+        "id": 70001132,
+        "type": 7,
+        "name": 26040013,
+        "descFunc": 0,
+        "desc": 0,
+        "icon": "extendRes/items2/icon_weapon_swordsman_00402.png",
+        "iconTransparent": "extendRes/items2/item_icon_weapon_swordsman_00402.png"
+    },
+    {
+        "args": [
+            260401,
+            0,
+            0,
+            0,
+            0,
+            0
+        ],
+        "id": 70001133,
+        "type": 7,
+        "name": 26040014,
+        "descFunc": 0,
+        "desc": 0,
+        "icon": "extendRes/items2/icon_weapon_swordsman_00403.png",
+        "iconTransparent": "extendRes/items2/item_icon_weapon_swordsman_00403.png"
+    },
+    {
+        "args": [
+            260401,
+            0,
+            0,
+            0,
+            0,
+            0
+        ],
+        "id": 70001134,
+        "type": 7,
+        "name": 26040015,
+        "descFunc": 0,
+        "desc": 0,
+        "icon": "extendRes/items2/icon_weapon_swordsman_00404.png",
+        "iconTransparent": "extendRes/items2/item_icon_weapon_swordsman_00404.png"
+    },
+    {
+        "args": [
+            260401,
+            0,
+            0,
+            0,
+            0,
+            0
+        ],
+        "id": 70001135,
+        "type": 7,
+        "name": 26040016,
+        "descFunc": 0,
+        "desc": 0,
+        "icon": "extendRes/items2/icon_weapon_swordsman_00405.png",
+        "iconTransparent": "extendRes/items2/item_icon_weapon_swordsman_00405.png"
+    },
+    {
+        "args": [
+            260401,
+            0,
+            0,
+            0,
+            0,
+            0
+        ],
+        "id": 70001200,
+        "type": 7,
+        "name": 26040017,
+        "descFunc": 0,
+        "desc": 0,
+        "icon": "extendRes/items2/icon_weapon_warrior_00100.png",
+        "iconTransparent": "extendRes/items2/item_icon_weapon_warrior_00100.png"
+    },
+    {
+        "args": [
+            260401,
+            0,
+            0,
+            0,
+            0,
+            0
+        ],
+        "id": 70001211,
+        "type": 7,
+        "name": 26040018,
+        "descFunc": 0,
+        "desc": 0,
+        "icon": "extendRes/items2/icon_weapon_warrior_00401.png",
+        "iconTransparent": "extendRes/items2/item_icon_weapon_warrior_00401.png"
+    },
+    {
+        "args": [
+            260401,
+            0,
+            0,
+            0,
+            0,
+            0
+        ],
+        "id": 70001212,
+        "type": 7,
+        "name": 26040019,
+        "descFunc": 0,
+        "desc": 0,
+        "icon": "extendRes/items2/icon_weapon_warrior_00402.png",
+        "iconTransparent": "extendRes/items2/item_icon_weapon_warrior_00402.png"
+    },
+    {
+        "args": [
+            260401,
+            0,
+            0,
+            0,
+            0,
+            0
+        ],
+        "id": 70001213,
+        "type": 7,
+        "name": 26040020,
+        "descFunc": 0,
+        "desc": 0,
+        "icon": "extendRes/items2/icon_weapon_warrior_00403.png",
+        "iconTransparent": "extendRes/items2/item_icon_weapon_warrior_00403.png"
+    },
+    {
+        "args": [
+            260401,
+            0,
+            0,
+            0,
+            0,
+            0
+        ],
+        "id": 70001214,
+        "type": 7,
+        "name": 26040021,
+        "descFunc": 0,
+        "desc": 0,
+        "icon": "extendRes/items2/icon_weapon_warrior_00404.png",
+        "iconTransparent": "extendRes/items2/item_icon_weapon_warrior_00404.png"
+    },
+    {
+        "args": [
+            260401,
+            0,
+            0,
+            0,
+            0,
+            0
+        ],
+        "id": 70001215,
+        "type": 7,
+        "name": 26040022,
+        "descFunc": 0,
+        "desc": 0,
+        "icon": "extendRes/items2/icon_weapon_warrior_00405.png",
+        "iconTransparent": "extendRes/items2/item_icon_weapon_warrior_00405.png"
+    },
+    {
+        "args": [
+            260401,
+            0,
+            0,
+            0,
+            0,
+            0
+        ],
+        "id": 70001221,
+        "type": 7,
+        "name": 26040023,
+        "descFunc": 0,
+        "desc": 0,
+        "icon": "extendRes/items2/icon_weapon_warrior_00301.png",
+        "iconTransparent": "extendRes/items2/item_icon_weapon_warrior_00301.png"
+    },
+    {
+        "args": [
+            260401,
+            0,
+            0,
+            0,
+            0,
+            0
+        ],
+        "id": 70001222,
+        "type": 7,
+        "name": 26040024,
+        "descFunc": 0,
+        "desc": 0,
+        "icon": "extendRes/items2/icon_weapon_warrior_00302.png",
+        "iconTransparent": "extendRes/items2/item_icon_weapon_warrior_00302.png"
+    },
+    {
+        "args": [
+            260401,
+            0,
+            0,
+            0,
+            0,
+            0
+        ],
+        "id": 70001223,
+        "type": 7,
+        "name": 26040025,
+        "descFunc": 0,
+        "desc": 0,
+        "icon": "extendRes/items2/icon_weapon_warrior_00303.png",
+        "iconTransparent": "extendRes/items2/item_icon_weapon_warrior_00303.png"
+    },
+    {
+        "args": [
+            260401,
+            0,
+            0,
+            0,
+            0,
+            0
+        ],
+        "id": 70001224,
+        "type": 7,
+        "name": 26040026,
+        "descFunc": 0,
+        "desc": 0,
+        "icon": "extendRes/items2/icon_weapon_warrior_00304.png",
+        "iconTransparent": "extendRes/items2/item_icon_weapon_warrior_00304.png"
+    },
+    {
+        "args": [
+            260401,
+            0,
+            0,
+            0,
+            0,
+            0
+        ],
+        "id": 70001225,
+        "type": 7,
+        "name": 26040027,
+        "descFunc": 0,
+        "desc": 0,
+        "icon": "extendRes/items2/icon_weapon_warrior_00305.png",
+        "iconTransparent": "extendRes/items2/item_icon_weapon_warrior_00305.png"
+    },
+    {
+        "args": [
+            260401,
+            0,
+            0,
+            0,
+            0,
+            0
+        ],
+        "id": 70001231,
+        "type": 7,
+        "name": 26040028,
+        "descFunc": 0,
+        "desc": 0,
+        "icon": "extendRes/items2/icon_weapon_warrior_00201.png",
+        "iconTransparent": "extendRes/items2/item_icon_weapon_warrior_00201.png"
+    },
+    {
+        "args": [
+            260401,
+            0,
+            0,
+            0,
+            0,
+            0
+        ],
+        "id": 70001232,
+        "type": 7,
+        "name": 26040029,
+        "descFunc": 0,
+        "desc": 0,
+        "icon": "extendRes/items2/icon_weapon_warrior_00202.png",
+        "iconTransparent": "extendRes/items2/item_icon_weapon_warrior_00202.png"
+    },
+    {
+        "args": [
+            260401,
+            0,
+            0,
+            0,
+            0,
+            0
+        ],
+        "id": 70001233,
+        "type": 7,
+        "name": 26040030,
+        "descFunc": 0,
+        "desc": 0,
+        "icon": "extendRes/items2/icon_weapon_warrior_00203.png",
+        "iconTransparent": "extendRes/items2/item_icon_weapon_warrior_00203.png"
+    },
+    {
+        "args": [
+            260401,
+            0,
+            0,
+            0,
+            0,
+            0
+        ],
+        "id": 70001234,
+        "type": 7,
+        "name": 26040031,
+        "descFunc": 0,
+        "desc": 0,
+        "icon": "extendRes/items2/icon_weapon_warrior_00204.png",
+        "iconTransparent": "extendRes/items2/item_icon_weapon_warrior_00204.png"
+    },
+    {
+        "args": [
+            260401,
+            0,
+            0,
+            0,
+            0,
+            0
+        ],
+        "id": 70001235,
+        "type": 7,
+        "name": 26040032,
+        "descFunc": 0,
+        "desc": 0,
+        "icon": "extendRes/items2/icon_weapon_warrior_00205.png",
+        "iconTransparent": "extendRes/items2/item_icon_weapon_warrior_00205.png"
+    },
+    {
+        "args": [
+            260401,
+            0,
+            0,
+            0,
+            0,
+            0
+        ],
+        "id": 70001300,
+        "type": 7,
+        "name": 26040033,
+        "descFunc": 0,
+        "desc": 0,
+        "icon": "extendRes/items2/icon_weapon_wizard_00100.png",
+        "iconTransparent": "extendRes/items2/item_icon_weapon_wizard_00100.png"
+    },
+    {
+        "args": [
+            260401,
+            0,
+            0,
+            0,
+            0,
+            0
+        ],
+        "id": 70001311,
+        "type": 7,
+        "name": 26040034,
+        "descFunc": 0,
+        "desc": 0,
+        "icon": "extendRes/items2/icon_weapon_wizard_00401.png",
+        "iconTransparent": "extendRes/items2/item_icon_weapon_wizard_00401.png"
+    },
+    {
+        "args": [
+            260401,
+            0,
+            0,
+            0,
+            0,
+            0
+        ],
+        "id": 70001312,
+        "type": 7,
+        "name": 26040035,
+        "descFunc": 0,
+        "desc": 0,
+        "icon": "extendRes/items2/icon_weapon_wizard_00402.png",
+        "iconTransparent": "extendRes/items2/item_icon_weapon_wizard_00402.png"
+    },
+    {
+        "args": [
+            260401,
+            0,
+            0,
+            0,
+            0,
+            0
+        ],
+        "id": 70001313,
+        "type": 7,
+        "name": 26040036,
+        "descFunc": 0,
+        "desc": 0,
+        "icon": "extendRes/items2/icon_weapon_wizard_00403.png",
+        "iconTransparent": "extendRes/items2/item_icon_weapon_wizard_00403.png"
+    },
+    {
+        "args": [
+            260401,
+            0,
+            0,
+            0,
+            0,
+            0
+        ],
+        "id": 70001314,
+        "type": 7,
+        "name": 26040037,
+        "descFunc": 0,
+        "desc": 0,
+        "icon": "extendRes/items2/icon_weapon_wizard_00404.png",
+        "iconTransparent": "extendRes/items2/item_icon_weapon_wizard_00404.png"
+    },
+    {
+        "args": [
+            260401,
+            0,
+            0,
+            0,
+            0,
+            0
+        ],
+        "id": 70001315,
+        "type": 7,
+        "name": 26040038,
+        "descFunc": 0,
+        "desc": 0,
+        "icon": "extendRes/items2/icon_weapon_wizard_00405.png",
+        "iconTransparent": "extendRes/items2/item_icon_weapon_wizard_00405.png"
+    },
+    {
+        "args": [
+            260401,
+            0,
+            0,
+            0,
+            0,
+            0
+        ],
+        "id": 70001321,
+        "type": 7,
+        "name": 26040039,
+        "descFunc": 0,
+        "desc": 0,
+        "icon": "extendRes/items2/icon_weapon_wizard_00201.png",
+        "iconTransparent": "extendRes/items2/item_icon_weapon_wizard_00201.png"
+    },
+    {
+        "args": [
+            260401,
+            0,
+            0,
+            0,
+            0,
+            0
+        ],
+        "id": 70001322,
+        "type": 7,
+        "name": 26040040,
+        "descFunc": 0,
+        "desc": 0,
+        "icon": "extendRes/items2/icon_weapon_wizard_00202.png",
+        "iconTransparent": "extendRes/items2/item_icon_weapon_wizard_00202.png"
+    },
+    {
+        "args": [
+            260401,
+            0,
+            0,
+            0,
+            0,
+            0
+        ],
+        "id": 70001323,
+        "type": 7,
+        "name": 26040041,
+        "descFunc": 0,
+        "desc": 0,
+        "icon": "extendRes/items2/icon_weapon_wizard_00203.png",
+        "iconTransparent": "extendRes/items2/item_icon_weapon_wizard_00203.png"
+    },
+    {
+        "args": [
+            260401,
+            0,
+            0,
+            0,
+            0,
+            0
+        ],
+        "id": 70001324,
+        "type": 7,
+        "name": 26040042,
+        "descFunc": 0,
+        "desc": 0,
+        "icon": "extendRes/items2/icon_weapon_wizard_00204.png",
+        "iconTransparent": "extendRes/items2/item_icon_weapon_wizard_00204.png"
+    },
+    {
+        "args": [
+            260401,
+            0,
+            0,
+            0,
+            0,
+            0
+        ],
+        "id": 70001325,
+        "type": 7,
+        "name": 26040043,
+        "descFunc": 0,
+        "desc": 0,
+        "icon": "extendRes/items2/icon_weapon_wizard_00205.png",
+        "iconTransparent": "extendRes/items2/item_icon_weapon_wizard_00205.png"
+    },
+    {
+        "args": [
+            260401,
+            0,
+            0,
+            0,
+            0,
+            0
+        ],
+        "id": 70001331,
+        "type": 7,
+        "name": 26040044,
+        "descFunc": 0,
+        "desc": 0,
+        "icon": "extendRes/items2/icon_weapon_wizard_00301.png",
+        "iconTransparent": "extendRes/items2/item_icon_weapon_wizard_00301.png"
+    },
+    {
+        "args": [
+            260401,
+            0,
+            0,
+            0,
+            0,
+            0
+        ],
+        "id": 70001332,
+        "type": 7,
+        "name": 26040045,
+        "descFunc": 0,
+        "desc": 0,
+        "icon": "extendRes/items2/icon_weapon_wizard_00302.png",
+        "iconTransparent": "extendRes/items2/item_icon_weapon_wizard_00302.png"
+    },
+    {
+        "args": [
+            260401,
+            0,
+            0,
+            0,
+            0,
+            0
+        ],
+        "id": 70001333,
+        "type": 7,
+        "name": 26040046,
+        "descFunc": 0,
+        "desc": 0,
+        "icon": "extendRes/items2/icon_weapon_wizard_00303.png",
+        "iconTransparent": "extendRes/items2/item_icon_weapon_wizard_00303.png"
+    },
+    {
+        "args": [
+            260401,
+            0,
+            0,
+            0,
+            0,
+            0
+        ],
+        "id": 70001334,
+        "type": 7,
+        "name": 26040047,
+        "descFunc": 0,
+        "desc": 0,
+        "icon": "extendRes/items2/icon_weapon_wizard_00304.png",
+        "iconTransparent": "extendRes/items2/item_icon_weapon_wizard_00304.png"
+    },
+    {
+        "args": [
+            260401,
+            0,
+            0,
+            0,
+            0,
+            0
+        ],
+        "id": 70001335,
+        "type": 7,
+        "name": 26040048,
+        "descFunc": 0,
+        "desc": 0,
+        "icon": "extendRes/items2/icon_weapon_wizard_00305.png",
+        "iconTransparent": "extendRes/items2/item_icon_weapon_wizard_00305.png"
+    },
+    {
+        "args": [
+            260401,
+            0,
+            0,
+            0,
+            0,
+            0
+        ],
+        "id": 70001400,
+        "type": 7,
+        "name": 26040049,
+        "descFunc": 0,
+        "desc": 0,
+        "icon": "extendRes/items2/icon_hat_00100.png",
+        "iconTransparent": "extendRes/items2/item_icon_hat_00100.png"
+    },
+    {
+        "args": [
+            260401,
+            0,
+            0,
+            0,
+            0,
+            0
+        ],
+        "id": 70001401,
+        "type": 7,
+        "name": 26040050,
+        "descFunc": 0,
+        "desc": 0,
+        "icon": "extendRes/items2/icon_hat_00201.png",
+        "iconTransparent": "extendRes/items2/item_icon_hat_00201.png"
+    },
+    {
+        "args": [
+            260401,
+            0,
+            0,
+            0,
+            0,
+            0
+        ],
+        "id": 70001402,
+        "type": 7,
+        "name": 26040051,
+        "descFunc": 0,
+        "desc": 0,
+        "icon": "extendRes/items2/icon_hat_00202.png",
+        "iconTransparent": "extendRes/items2/item_icon_hat_00202.png"
+    },
+    {
+        "args": [
+            260401,
+            0,
+            0,
+            0,
+            0,
+            0
+        ],
+        "id": 70001403,
+        "type": 7,
+        "name": 26040052,
+        "descFunc": 0,
+        "desc": 0,
+        "icon": "extendRes/items2/icon_hat_00203.png",
+        "iconTransparent": "extendRes/items2/item_icon_hat_00203.png"
+    },
+    {
+        "args": [
+            260401,
+            0,
+            0,
+            0,
+            0,
+            0
+        ],
+        "id": 70001404,
+        "type": 7,
+        "name": 26040053,
+        "descFunc": 0,
+        "desc": 0,
+        "icon": "extendRes/items2/icon_hat_00204.png",
+        "iconTransparent": "extendRes/items2/item_icon_hat_00204.png"
+    },
+    {
+        "args": [
+            260401,
+            0,
+            0,
+            0,
+            0,
+            0
+        ],
+        "id": 70001405,
+        "type": 7,
+        "name": 26040054,
+        "descFunc": 0,
+        "desc": 0,
+        "icon": "extendRes/items2/icon_hat_00205.png",
+        "iconTransparent": "extendRes/items2/item_icon_hat_00205.png"
+    },
+    {
+        "args": [
+            260401,
+            0,
+            0,
+            0,
+            0,
+            0
+        ],
+        "id": 70001406,
+        "type": 7,
+        "name": 26040052,
+        "descFunc": 0,
+        "desc": 0,
+        "icon": "extendRes/items2/icon_hat_00203.png",
+        "iconTransparent": "extendRes/items2/item_icon_hat_00203.png"
+    },
+    {
+        "args": [
+            260401,
+            0,
+            0,
+            0,
+            0,
+            0
+        ],
+        "id": 70001407,
+        "type": 7,
+        "name": 26040053,
+        "descFunc": 0,
+        "desc": 0,
+        "icon": "extendRes/items2/icon_hat_00204.png",
+        "iconTransparent": "extendRes/items2/item_icon_hat_00204.png"
+    },
+    {
+        "args": [
+            260401,
+            0,
+            0,
+            0,
+            0,
+            0
+        ],
+        "id": 70001408,
+        "type": 7,
+        "name": 26040054,
+        "descFunc": 0,
+        "desc": 0,
+        "icon": "extendRes/items2/icon_hat_00205.png",
+        "iconTransparent": "extendRes/items2/item_icon_hat_00205.png"
+    },
+    {
+        "args": [
+            260401,
+            0,
+            0,
+            0,
+            0,
+            0
+        ],
+        "id": 70001409,
+        "type": 7,
+        "name": 26040050,
+        "descFunc": 0,
+        "desc": 0,
+        "icon": "extendRes/items2/icon_hat_00201.png",
+        "iconTransparent": "extendRes/items2/item_icon_hat_00201.png"
+    },
+    {
+        "args": [
+            260401,
+            0,
+            0,
+            0,
+            0,
+            0
+        ],
+        "id": 70001410,
+        "type": 7,
+        "name": 26040051,
+        "descFunc": 0,
+        "desc": 0,
+        "icon": "extendRes/items2/icon_hat_00202.png",
+        "iconTransparent": "extendRes/items2/item_icon_hat_00202.png"
+    },
+    {
+        "args": [
+            260401,
+            0,
+            0,
+            0,
+            0,
+            0
+        ],
+        "id": 70001411,
+        "type": 7,
+        "name": 26040052,
+        "descFunc": 0,
+        "desc": 0,
+        "icon": "extendRes/items2/icon_hat_00203.png",
+        "iconTransparent": "extendRes/items2/item_icon_hat_00203.png"
+    },
+    {
+        "args": [
+            260401,
+            0,
+            0,
+            0,
+            0,
+            0
+        ],
+        "id": 70001412,
+        "type": 7,
+        "name": 26040053,
+        "descFunc": 0,
+        "desc": 0,
+        "icon": "extendRes/items2/icon_hat_00204.png",
+        "iconTransparent": "extendRes/items2/item_icon_hat_00204.png"
+    },
+    {
+        "args": [
+            260401,
+            0,
+            0,
+            0,
+            0,
+            0
+        ],
+        "id": 70001413,
+        "type": 7,
+        "name": 26040054,
+        "descFunc": 0,
+        "desc": 0,
+        "icon": "extendRes/items2/icon_hat_00205.png",
+        "iconTransparent": "extendRes/items2/item_icon_hat_00205.png"
+    },
+    {
+        "args": [
+            260401,
+            0,
+            0,
+            0,
+            0,
+            0
+        ],
+        "id": 70001414,
+        "type": 7,
+        "name": 26040052,
+        "descFunc": 0,
+        "desc": 0,
+        "icon": "extendRes/items2/icon_hat_00203.png",
+        "iconTransparent": "extendRes/items2/item_icon_hat_00203.png"
+    },
+    {
+        "args": [
+            260401,
+            0,
+            0,
+            0,
+            0,
+            0
+        ],
+        "id": 70001415,
+        "type": 7,
+        "name": 26040053,
+        "descFunc": 0,
+        "desc": 0,
+        "icon": "extendRes/items2/icon_hat_00204.png",
+        "iconTransparent": "extendRes/items2/item_icon_hat_00204.png"
+    },
+    {
+        "args": [
+            260401,
+            0,
+            0,
+            0,
+            0,
+            0
+        ],
+        "id": 70001416,
+        "type": 7,
+        "name": 26040054,
+        "descFunc": 0,
+        "desc": 0,
+        "icon": "extendRes/items2/icon_hat_00205.png",
+        "iconTransparent": "extendRes/items2/item_icon_hat_00205.png"
+    },
+    {
+        "args": [
+            260401,
+            0,
+            0,
+            0,
+            0,
+            0
+        ],
+        "id": 70001417,
+        "type": 7,
+        "name": 26040055,
+        "descFunc": 0,
+        "desc": 0,
+        "icon": "extendRes/items2/icon_hat_00401.png",
+        "iconTransparent": "extendRes/items2/item_icon_hat_00401.png"
+    },
+    {
+        "args": [
+            260401,
+            0,
+            0,
+            0,
+            0,
+            0
+        ],
+        "id": 70001418,
+        "type": 7,
+        "name": 26040056,
+        "descFunc": 0,
+        "desc": 0,
+        "icon": "extendRes/items2/icon_hat_00402.png",
+        "iconTransparent": "extendRes/items2/item_icon_hat_00402.png"
+    },
+    {
+        "args": [
+            260401,
+            0,
+            0,
+            0,
+            0,
+            0
+        ],
+        "id": 70001419,
+        "type": 7,
+        "name": 26040057,
+        "descFunc": 0,
+        "desc": 0,
+        "icon": "extendRes/items2/icon_hat_00403.png",
+        "iconTransparent": "extendRes/items2/item_icon_hat_00403.png"
+    },
+    {
+        "args": [
+            260401,
+            0,
+            0,
+            0,
+            0,
+            0
+        ],
+        "id": 70001420,
+        "type": 7,
+        "name": 26040058,
+        "descFunc": 0,
+        "desc": 0,
+        "icon": "extendRes/items2/icon_hat_00404.png",
+        "iconTransparent": "extendRes/items2/item_icon_hat_00404.png"
+    },
+    {
+        "args": [
+            260401,
+            0,
+            0,
+            0,
+            0,
+            0
+        ],
+        "id": 70001421,
+        "type": 7,
+        "name": 26040059,
+        "descFunc": 0,
+        "desc": 0,
+        "icon": "extendRes/items2/icon_hat_00405.png",
+        "iconTransparent": "extendRes/items2/item_icon_hat_00405.png"
+    },
+    {
+        "args": [
+            260401,
+            0,
+            0,
+            0,
+            0,
+            0
+        ],
+        "id": 70001422,
+        "type": 7,
+        "name": 26040057,
+        "descFunc": 0,
+        "desc": 0,
+        "icon": "extendRes/items2/icon_hat_00403.png",
+        "iconTransparent": "extendRes/items2/item_icon_hat_00403.png"
+    },
+    {
+        "args": [
+            260401,
+            0,
+            0,
+            0,
+            0,
+            0
+        ],
+        "id": 70001423,
+        "type": 7,
+        "name": 26040058,
+        "descFunc": 0,
+        "desc": 0,
+        "icon": "extendRes/items2/icon_hat_00404.png",
+        "iconTransparent": "extendRes/items2/item_icon_hat_00404.png"
+    },
+    {
+        "args": [
+            260401,
+            0,
+            0,
+            0,
+            0,
+            0
+        ],
+        "id": 70001424,
+        "type": 7,
+        "name": 26040059,
+        "descFunc": 0,
+        "desc": 0,
+        "icon": "extendRes/items2/icon_hat_00405.png",
+        "iconTransparent": "extendRes/items2/item_icon_hat_00405.png"
+    },
+    {
+        "args": [
+            260401,
+            0,
+            0,
+            0,
+            0,
+            0
+        ],
+        "id": 70001425,
+        "type": 7,
+        "name": 26040055,
+        "descFunc": 0,
+        "desc": 0,
+        "icon": "extendRes/items2/icon_hat_00401.png",
+        "iconTransparent": "extendRes/items2/item_icon_hat_00401.png"
+    },
+    {
+        "args": [
+            260401,
+            0,
+            0,
+            0,
+            0,
+            0
+        ],
+        "id": 70001426,
+        "type": 7,
+        "name": 26040056,
+        "descFunc": 0,
+        "desc": 0,
+        "icon": "extendRes/items2/icon_hat_00402.png",
+        "iconTransparent": "extendRes/items2/item_icon_hat_00402.png"
+    },
+    {
+        "args": [
+            260401,
+            0,
+            0,
+            0,
+            0,
+            0
+        ],
+        "id": 70001427,
+        "type": 7,
+        "name": 26040057,
+        "descFunc": 0,
+        "desc": 0,
+        "icon": "extendRes/items2/icon_hat_00403.png",
+        "iconTransparent": "extendRes/items2/item_icon_hat_00403.png"
+    },
+    {
+        "args": [
+            260401,
+            0,
+            0,
+            0,
+            0,
+            0
+        ],
+        "id": 70001428,
+        "type": 7,
+        "name": 26040058,
+        "descFunc": 0,
+        "desc": 0,
+        "icon": "extendRes/items2/icon_hat_00404.png",
+        "iconTransparent": "extendRes/items2/item_icon_hat_00404.png"
+    },
+    {
+        "args": [
+            260401,
+            0,
+            0,
+            0,
+            0,
+            0
+        ],
+        "id": 70001429,
+        "type": 7,
+        "name": 26040059,
+        "descFunc": 0,
+        "desc": 0,
+        "icon": "extendRes/items2/icon_hat_00405.png",
+        "iconTransparent": "extendRes/items2/item_icon_hat_00405.png"
+    },
+    {
+        "args": [
+            260401,
+            0,
+            0,
+            0,
+            0,
+            0
+        ],
+        "id": 70001430,
+        "type": 7,
+        "name": 26040057,
+        "descFunc": 0,
+        "desc": 0,
+        "icon": "extendRes/items2/icon_hat_00403.png",
+        "iconTransparent": "extendRes/items2/item_icon_hat_00403.png"
+    },
+    {
+        "args": [
+            260401,
+            0,
+            0,
+            0,
+            0,
+            0
+        ],
+        "id": 70001431,
+        "type": 7,
+        "name": 26040058,
+        "descFunc": 0,
+        "desc": 0,
+        "icon": "extendRes/items2/icon_hat_00404.png",
+        "iconTransparent": "extendRes/items2/item_icon_hat_00404.png"
+    },
+    {
+        "args": [
+            260401,
+            0,
+            0,
+            0,
+            0,
+            0
+        ],
+        "id": 70001432,
+        "type": 7,
+        "name": 26040059,
+        "descFunc": 0,
+        "desc": 0,
+        "icon": "extendRes/items2/icon_hat_00405.png",
+        "iconTransparent": "extendRes/items2/item_icon_hat_00405.png"
+    },
+    {
+        "args": [
+            260401,
+            0,
+            0,
+            0,
+            0,
+            0
+        ],
+        "id": 70001433,
+        "type": 7,
+        "name": 26040060,
+        "descFunc": 0,
+        "desc": 0,
+        "icon": "extendRes/items2/icon_hat_00301.png",
+        "iconTransparent": "extendRes/items2/item_icon_hat_00301.png"
+    },
+    {
+        "args": [
+            260401,
+            0,
+            0,
+            0,
+            0,
+            0
+        ],
+        "id": 70001434,
+        "type": 7,
+        "name": 26040061,
+        "descFunc": 0,
+        "desc": 0,
+        "icon": "extendRes/items2/icon_hat_00302.png",
+        "iconTransparent": "extendRes/items2/item_icon_hat_00302.png"
+    },
+    {
+        "args": [
+            260401,
+            0,
+            0,
+            0,
+            0,
+            0
+        ],
+        "id": 70001435,
+        "type": 7,
+        "name": 26040062,
+        "descFunc": 0,
+        "desc": 0,
+        "icon": "extendRes/items2/icon_hat_00303.png",
+        "iconTransparent": "extendRes/items2/item_icon_hat_00303.png"
+    },
+    {
+        "args": [
+            260401,
+            0,
+            0,
+            0,
+            0,
+            0
+        ],
+        "id": 70001436,
+        "type": 7,
+        "name": 26040063,
+        "descFunc": 0,
+        "desc": 0,
+        "icon": "extendRes/items2/icon_hat_00304.png",
+        "iconTransparent": "extendRes/items2/item_icon_hat_00304.png"
+    },
+    {
+        "args": [
+            260401,
+            0,
+            0,
+            0,
+            0,
+            0
+        ],
+        "id": 70001437,
+        "type": 7,
+        "name": 26040064,
+        "descFunc": 0,
+        "desc": 0,
+        "icon": "extendRes/items2/icon_hat_00305.png",
+        "iconTransparent": "extendRes/items2/item_icon_hat_00305.png"
+    },
+    {
+        "args": [
+            260401,
+            0,
+            0,
+            0,
+            0,
+            0
+        ],
+        "id": 70001438,
+        "type": 7,
+        "name": 26040060,
+        "descFunc": 0,
+        "desc": 0,
+        "icon": "extendRes/items2/icon_hat_00301.png",
+        "iconTransparent": "extendRes/items2/item_icon_hat_00301.png"
+    },
+    {
+        "args": [
+            260401,
+            0,
+            0,
+            0,
+            0,
+            0
+        ],
+        "id": 70001439,
+        "type": 7,
+        "name": 26040061,
+        "descFunc": 0,
+        "desc": 0,
+        "icon": "extendRes/items2/icon_hat_00302.png",
+        "iconTransparent": "extendRes/items2/item_icon_hat_00302.png"
+    },
+    {
+        "args": [
+            260401,
+            0,
+            0,
+            0,
+            0,
+            0
+        ],
+        "id": 70001440,
+        "type": 7,
+        "name": 26040062,
+        "descFunc": 0,
+        "desc": 0,
+        "icon": "extendRes/items2/icon_hat_00303.png",
+        "iconTransparent": "extendRes/items2/item_icon_hat_00303.png"
+    },
+    {
+        "args": [
+            260401,
+            0,
+            0,
+            0,
+            0,
+            0
+        ],
+        "id": 70001441,
+        "type": 7,
+        "name": 26040063,
+        "descFunc": 0,
+        "desc": 0,
+        "icon": "extendRes/items2/icon_hat_00304.png",
+        "iconTransparent": "extendRes/items2/item_icon_hat_00304.png"
+    },
+    {
+        "args": [
+            260401,
+            0,
+            0,
+            0,
+            0,
+            0
+        ],
+        "id": 70001442,
+        "type": 7,
+        "name": 26040064,
+        "descFunc": 0,
+        "desc": 0,
+        "icon": "extendRes/items2/icon_hat_00305.png",
+        "iconTransparent": "extendRes/items2/item_icon_hat_00305.png"
+    },
+    {
+        "args": [
+            260401,
+            0,
+            0,
+            0,
+            0,
+            0
+        ],
+        "id": 70001443,
+        "type": 7,
+        "name": 26040060,
+        "descFunc": 0,
+        "desc": 0,
+        "icon": "extendRes/items2/icon_hat_00301.png",
+        "iconTransparent": "extendRes/items2/item_icon_hat_00301.png"
+    },
+    {
+        "args": [
+            260401,
+            0,
+            0,
+            0,
+            0,
+            0
+        ],
+        "id": 70001444,
+        "type": 7,
+        "name": 26040061,
+        "descFunc": 0,
+        "desc": 0,
+        "icon": "extendRes/items2/icon_hat_00302.png",
+        "iconTransparent": "extendRes/items2/item_icon_hat_00302.png"
+    },
+    {
+        "args": [
+            260401,
+            0,
+            0,
+            0,
+            0,
+            0
+        ],
+        "id": 70001445,
+        "type": 7,
+        "name": 26040062,
+        "descFunc": 0,
+        "desc": 0,
+        "icon": "extendRes/items2/icon_hat_00303.png",
+        "iconTransparent": "extendRes/items2/item_icon_hat_00303.png"
+    },
+    {
+        "args": [
+            260401,
+            0,
+            0,
+            0,
+            0,
+            0
+        ],
+        "id": 70001446,
+        "type": 7,
+        "name": 26040063,
+        "descFunc": 0,
+        "desc": 0,
+        "icon": "extendRes/items2/icon_hat_00304.png",
+        "iconTransparent": "extendRes/items2/item_icon_hat_00304.png"
+    },
+    {
+        "args": [
+            260401,
+            0,
+            0,
+            0,
+            0,
+            0
+        ],
+        "id": 70001447,
+        "type": 7,
+        "name": 26040064,
+        "descFunc": 0,
+        "desc": 0,
+        "icon": "extendRes/items2/icon_hat_00305.png",
+        "iconTransparent": "extendRes/items2/item_icon_hat_00305.png"
+    },
+    {
+        "args": [
+            260401,
+            0,
+            0,
+            0,
+            0,
+            0
+        ],
+        "id": 70001448,
+        "type": 7,
+        "name": 26040060,
+        "descFunc": 0,
+        "desc": 0,
+        "icon": "extendRes/items2/icon_hat_00301.png",
+        "iconTransparent": "extendRes/items2/item_icon_hat_00301.png"
+    },
+    {
+        "args": [
+            260401,
+            0,
+            0,
+            0,
+            0,
+            0
+        ],
+        "id": 70001449,
+        "type": 7,
+        "name": 26040061,
+        "descFunc": 0,
+        "desc": 0,
+        "icon": "extendRes/items2/icon_hat_00302.png",
+        "iconTransparent": "extendRes/items2/item_icon_hat_00302.png"
+    },
+    {
+        "args": [
+            260401,
+            0,
+            0,
+            0,
+            0,
+            0
+        ],
+        "id": 70001450,
+        "type": 7,
+        "name": 26040062,
+        "descFunc": 0,
+        "desc": 0,
+        "icon": "extendRes/items2/icon_hat_00303.png",
+        "iconTransparent": "extendRes/items2/item_icon_hat_00303.png"
+    },
+    {
+        "args": [
+            260401,
+            0,
+            0,
+            0,
+            0,
+            0
+        ],
+        "id": 70001451,
+        "type": 7,
+        "name": 26040063,
+        "descFunc": 0,
+        "desc": 0,
+        "icon": "extendRes/items2/icon_hat_00304.png",
+        "iconTransparent": "extendRes/items2/item_icon_hat_00304.png"
+    },
+    {
+        "args": [
+            260401,
+            0,
+            0,
+            0,
+            0,
+            0
+        ],
+        "id": 70001452,
+        "type": 7,
+        "name": 26040064,
+        "descFunc": 0,
+        "desc": 0,
+        "icon": "extendRes/items2/icon_hat_00305.png",
+        "iconTransparent": "extendRes/items2/item_icon_hat_00305.png"
+    },
+    {
+        "args": [
+            260401,
+            0,
+            0,
+            0,
+            0,
+            0
+        ],
+        "id": 70001500,
+        "type": 7,
+        "name": 26040065,
+        "descFunc": 0,
+        "desc": 0,
+        "icon": "extendRes/items2/icon_armor_00100.png",
+        "iconTransparent": "extendRes/items2/item_icon_armor_00100.png"
+    },
+    {
+        "args": [
+            260401,
+            0,
+            0,
+            0,
+            0,
+            0
+        ],
+        "id": 70001501,
+        "type": 7,
+        "name": 26040066,
+        "descFunc": 0,
+        "desc": 0,
+        "icon": "extendRes/items2/icon_armor_00201.png",
+        "iconTransparent": "extendRes/items2/item_icon_armor_00201.png"
+    },
+    {
+        "args": [
+            260401,
+            0,
+            0,
+            0,
+            0,
+            0
+        ],
+        "id": 70001502,
+        "type": 7,
+        "name": 26040067,
+        "descFunc": 0,
+        "desc": 0,
+        "icon": "extendRes/items2/icon_armor_00202.png",
+        "iconTransparent": "extendRes/items2/item_icon_armor_00202.png"
+    },
+    {
+        "args": [
+            260401,
+            0,
+            0,
+            0,
+            0,
+            0
+        ],
+        "id": 70001503,
+        "type": 7,
+        "name": 26040068,
+        "descFunc": 0,
+        "desc": 0,
+        "icon": "extendRes/items2/icon_armor_00203.png",
+        "iconTransparent": "extendRes/items2/item_icon_armor_00203.png"
+    },
+    {
+        "args": [
+            260401,
+            0,
+            0,
+            0,
+            0,
+            0
+        ],
+        "id": 70001504,
+        "type": 7,
+        "name": 26040069,
+        "descFunc": 0,
+        "desc": 0,
+        "icon": "extendRes/items2/icon_armor_00204.png",
+        "iconTransparent": "extendRes/items2/item_icon_armor_00204.png"
+    },
+    {
+        "args": [
+            260401,
+            0,
+            0,
+            0,
+            0,
+            0
+        ],
+        "id": 70001505,
+        "type": 7,
+        "name": 26040070,
+        "descFunc": 0,
+        "desc": 0,
+        "icon": "extendRes/items2/icon_armor_00205.png",
+        "iconTransparent": "extendRes/items2/item_icon_armor_00205.png"
+    },
+    {
+        "args": [
+            260401,
+            0,
+            0,
+            0,
+            0,
+            0
+        ],
+        "id": 70001506,
+        "type": 7,
+        "name": 26040068,
+        "descFunc": 0,
+        "desc": 0,
+        "icon": "extendRes/items2/icon_armor_00203.png",
+        "iconTransparent": "extendRes/items2/item_icon_armor_00203.png"
+    },
+    {
+        "args": [
+            260401,
+            0,
+            0,
+            0,
+            0,
+            0
+        ],
+        "id": 70001507,
+        "type": 7,
+        "name": 26040069,
+        "descFunc": 0,
+        "desc": 0,
+        "icon": "extendRes/items2/icon_armor_00204.png",
+        "iconTransparent": "extendRes/items2/item_icon_armor_00204.png"
+    },
+    {
+        "args": [
+            260401,
+            0,
+            0,
+            0,
+            0,
+            0
+        ],
+        "id": 70001508,
+        "type": 7,
+        "name": 26040070,
+        "descFunc": 0,
+        "desc": 0,
+        "icon": "extendRes/items2/icon_armor_00205.png",
+        "iconTransparent": "extendRes/items2/item_icon_armor_00205.png"
+    },
+    {
+        "args": [
+            260401,
+            0,
+            0,
+            0,
+            0,
+            0
+        ],
+        "id": 70001509,
+        "type": 7,
+        "name": 26040066,
+        "descFunc": 0,
+        "desc": 0,
+        "icon": "extendRes/items2/icon_armor_00201.png",
+        "iconTransparent": "extendRes/items2/item_icon_armor_00201.png"
+    },
+    {
+        "args": [
+            260401,
+            0,
+            0,
+            0,
+            0,
+            0
+        ],
+        "id": 70001510,
+        "type": 7,
+        "name": 26040067,
+        "descFunc": 0,
+        "desc": 0,
+        "icon": "extendRes/items2/icon_armor_00202.png",
+        "iconTransparent": "extendRes/items2/item_icon_armor_00202.png"
+    },
+    {
+        "args": [
+            260401,
+            0,
+            0,
+            0,
+            0,
+            0
+        ],
+        "id": 70001511,
+        "type": 7,
+        "name": 26040068,
+        "descFunc": 0,
+        "desc": 0,
+        "icon": "extendRes/items2/icon_armor_00203.png",
+        "iconTransparent": "extendRes/items2/item_icon_armor_00203.png"
+    },
+    {
+        "args": [
+            260401,
+            0,
+            0,
+            0,
+            0,
+            0
+        ],
+        "id": 70001512,
+        "type": 7,
+        "name": 26040069,
+        "descFunc": 0,
+        "desc": 0,
+        "icon": "extendRes/items2/icon_armor_00204.png",
+        "iconTransparent": "extendRes/items2/item_icon_armor_00204.png"
+    },
+    {
+        "args": [
+            260401,
+            0,
+            0,
+            0,
+            0,
+            0
+        ],
+        "id": 70001513,
+        "type": 7,
+        "name": 26040070,
+        "descFunc": 0,
+        "desc": 0,
+        "icon": "extendRes/items2/icon_armor_00205.png",
+        "iconTransparent": "extendRes/items2/item_icon_armor_00205.png"
+    },
+    {
+        "args": [
+            260401,
+            0,
+            0,
+            0,
+            0,
+            0
+        ],
+        "id": 70001514,
+        "type": 7,
+        "name": 26040068,
+        "descFunc": 0,
+        "desc": 0,
+        "icon": "extendRes/items2/icon_armor_00203.png",
+        "iconTransparent": "extendRes/items2/item_icon_armor_00203.png"
+    },
+    {
+        "args": [
+            260401,
+            0,
+            0,
+            0,
+            0,
+            0
+        ],
+        "id": 70001515,
+        "type": 7,
+        "name": 26040069,
+        "descFunc": 0,
+        "desc": 0,
+        "icon": "extendRes/items2/icon_armor_00204.png",
+        "iconTransparent": "extendRes/items2/item_icon_armor_00204.png"
+    },
+    {
+        "args": [
+            260401,
+            0,
+            0,
+            0,
+            0,
+            0
+        ],
+        "id": 70001516,
+        "type": 7,
+        "name": 26040070,
+        "descFunc": 0,
+        "desc": 0,
+        "icon": "extendRes/items2/icon_armor_00205.png",
+        "iconTransparent": "extendRes/items2/item_icon_armor_00205.png"
+    },
+    {
+        "args": [
+            260401,
+            0,
+            0,
+            0,
+            0,
+            0
+        ],
+        "id": 70001517,
+        "type": 7,
+        "name": 26040071,
+        "descFunc": 0,
+        "desc": 0,
+        "icon": "extendRes/items2/icon_armor_00301.png",
+        "iconTransparent": "extendRes/items2/item_icon_armor_00301.png"
+    },
+    {
+        "args": [
+            260401,
+            0,
+            0,
+            0,
+            0,
+            0
+        ],
+        "id": 70001518,
+        "type": 7,
+        "name": 26040072,
+        "descFunc": 0,
+        "desc": 0,
+        "icon": "extendRes/items2/icon_armor_00302.png",
+        "iconTransparent": "extendRes/items2/item_icon_armor_00302.png"
+    },
+    {
+        "args": [
+            260401,
+            0,
+            0,
+            0,
+            0,
+            0
+        ],
+        "id": 70001519,
+        "type": 7,
+        "name": 26040073,
+        "descFunc": 0,
+        "desc": 0,
+        "icon": "extendRes/items2/icon_armor_00303.png",
+        "iconTransparent": "extendRes/items2/item_icon_armor_00303.png"
+    },
+    {
+        "args": [
+            260401,
+            0,
+            0,
+            0,
+            0,
+            0
+        ],
+        "id": 70001520,
+        "type": 7,
+        "name": 26040074,
+        "descFunc": 0,
+        "desc": 0,
+        "icon": "extendRes/items2/icon_armor_00304.png",
+        "iconTransparent": "extendRes/items2/item_icon_armor_00304.png"
+    },
+    {
+        "args": [
+            260401,
+            0,
+            0,
+            0,
+            0,
+            0
+        ],
+        "id": 70001521,
+        "type": 7,
+        "name": 26040075,
+        "descFunc": 0,
+        "desc": 0,
+        "icon": "extendRes/items2/icon_armor_00305.png",
+        "iconTransparent": "extendRes/items2/item_icon_armor_00305.png"
+    },
+    {
+        "args": [
+            260401,
+            0,
+            0,
+            0,
+            0,
+            0
+        ],
+        "id": 70001522,
+        "type": 7,
+        "name": 26040073,
+        "descFunc": 0,
+        "desc": 0,
+        "icon": "extendRes/items2/icon_armor_00303.png",
+        "iconTransparent": "extendRes/items2/item_icon_armor_00303.png"
+    },
+    {
+        "args": [
+            260401,
+            0,
+            0,
+            0,
+            0,
+            0
+        ],
+        "id": 70001523,
+        "type": 7,
+        "name": 26040074,
+        "descFunc": 0,
+        "desc": 0,
+        "icon": "extendRes/items2/icon_armor_00304.png",
+        "iconTransparent": "extendRes/items2/item_icon_armor_00304.png"
+    },
+    {
+        "args": [
+            260401,
+            0,
+            0,
+            0,
+            0,
+            0
+        ],
+        "id": 70001524,
+        "type": 7,
+        "name": 26040075,
+        "descFunc": 0,
+        "desc": 0,
+        "icon": "extendRes/items2/icon_armor_00305.png",
+        "iconTransparent": "extendRes/items2/item_icon_armor_00305.png"
+    },
+    {
+        "args": [
+            260401,
+            0,
+            0,
+            0,
+            0,
+            0
+        ],
+        "id": 70001525,
+        "type": 7,
+        "name": 26040071,
+        "descFunc": 0,
+        "desc": 0,
+        "icon": "extendRes/items2/icon_armor_00301.png",
+        "iconTransparent": "extendRes/items2/item_icon_armor_00301.png"
+    },
+    {
+        "args": [
+            260401,
+            0,
+            0,
+            0,
+            0,
+            0
+        ],
+        "id": 70001526,
+        "type": 7,
+        "name": 26040072,
+        "descFunc": 0,
+        "desc": 0,
+        "icon": "extendRes/items2/icon_armor_00302.png",
+        "iconTransparent": "extendRes/items2/item_icon_armor_00302.png"
+    },
+    {
+        "args": [
+            260401,
+            0,
+            0,
+            0,
+            0,
+            0
+        ],
+        "id": 70001527,
+        "type": 7,
+        "name": 26040073,
+        "descFunc": 0,
+        "desc": 0,
+        "icon": "extendRes/items2/icon_armor_00303.png",
+        "iconTransparent": "extendRes/items2/item_icon_armor_00303.png"
+    },
+    {
+        "args": [
+            260401,
+            0,
+            0,
+            0,
+            0,
+            0
+        ],
+        "id": 70001528,
+        "type": 7,
+        "name": 26040074,
+        "descFunc": 0,
+        "desc": 0,
+        "icon": "extendRes/items2/icon_armor_00304.png",
+        "iconTransparent": "extendRes/items2/item_icon_armor_00304.png"
+    },
+    {
+        "args": [
+            260401,
+            0,
+            0,
+            0,
+            0,
+            0
+        ],
+        "id": 70001529,
+        "type": 7,
+        "name": 26040075,
+        "descFunc": 0,
+        "desc": 0,
+        "icon": "extendRes/items2/icon_armor_00305.png",
+        "iconTransparent": "extendRes/items2/item_icon_armor_00305.png"
+    },
+    {
+        "args": [
+            260401,
+            0,
+            0,
+            0,
+            0,
+            0
+        ],
+        "id": 70001530,
+        "type": 7,
+        "name": 26040073,
+        "descFunc": 0,
+        "desc": 0,
+        "icon": "extendRes/items2/icon_armor_00303.png",
+        "iconTransparent": "extendRes/items2/item_icon_armor_00303.png"
+    },
+    {
+        "args": [
+            260401,
+            0,
+            0,
+            0,
+            0,
+            0
+        ],
+        "id": 70001531,
+        "type": 7,
+        "name": 26040074,
+        "descFunc": 0,
+        "desc": 0,
+        "icon": "extendRes/items2/icon_armor_00304.png",
+        "iconTransparent": "extendRes/items2/item_icon_armor_00304.png"
+    },
+    {
+        "args": [
+            260401,
+            0,
+            0,
+            0,
+            0,
+            0
+        ],
+        "id": 70001532,
+        "type": 7,
+        "name": 26040075,
+        "descFunc": 0,
+        "desc": 0,
+        "icon": "extendRes/items2/icon_armor_00305.png",
+        "iconTransparent": "extendRes/items2/item_icon_armor_00305.png"
+    },
+    {
+        "args": [
+            260401,
+            0,
+            0,
+            0,
+            0,
+            0
+        ],
+        "id": 70001533,
+        "type": 7,
+        "name": 26040076,
+        "descFunc": 0,
+        "desc": 0,
+        "icon": "extendRes/items2/icon_armor_00401.png",
+        "iconTransparent": "extendRes/items2/item_icon_armor_00401.png"
+    },
+    {
+        "args": [
+            260401,
+            0,
+            0,
+            0,
+            0,
+            0
+        ],
+        "id": 70001534,
+        "type": 7,
+        "name": 26040077,
+        "descFunc": 0,
+        "desc": 0,
+        "icon": "extendRes/items2/icon_armor_00402.png",
+        "iconTransparent": "extendRes/items2/item_icon_armor_00402.png"
+    },
+    {
+        "args": [
+            260401,
+            0,
+            0,
+            0,
+            0,
+            0
+        ],
+        "id": 70001535,
+        "type": 7,
+        "name": 26040078,
+        "descFunc": 0,
+        "desc": 0,
+        "icon": "extendRes/items2/icon_armor_00403.png",
+        "iconTransparent": "extendRes/items2/item_icon_armor_00403.png"
+    },
+    {
+        "args": [
+            260401,
+            0,
+            0,
+            0,
+            0,
+            0
+        ],
+        "id": 70001536,
+        "type": 7,
+        "name": 26040079,
+        "descFunc": 0,
+        "desc": 0,
+        "icon": "extendRes/items2/icon_armor_00404.png",
+        "iconTransparent": "extendRes/items2/item_icon_armor_00404.png"
+    },
+    {
+        "args": [
+            260401,
+            0,
+            0,
+            0,
+            0,
+            0
+        ],
+        "id": 70001537,
+        "type": 7,
+        "name": 26040080,
+        "descFunc": 0,
+        "desc": 0,
+        "icon": "extendRes/items2/icon_armor_00405.png",
+        "iconTransparent": "extendRes/items2/item_icon_armor_00405.png"
+    },
+    {
+        "args": [
+            260401,
+            0,
+            0,
+            0,
+            0,
+            0
+        ],
+        "id": 70001538,
+        "type": 7,
+        "name": 26040078,
+        "descFunc": 0,
+        "desc": 0,
+        "icon": "extendRes/items2/icon_armor_00403.png",
+        "iconTransparent": "extendRes/items2/item_icon_armor_00403.png"
+    },
+    {
+        "args": [
+            260401,
+            0,
+            0,
+            0,
+            0,
+            0
+        ],
+        "id": 70001539,
+        "type": 7,
+        "name": 26040079,
+        "descFunc": 0,
+        "desc": 0,
+        "icon": "extendRes/items2/icon_armor_00404.png",
+        "iconTransparent": "extendRes/items2/item_icon_armor_00404.png"
+    },
+    {
+        "args": [
+            260401,
+            0,
+            0,
+            0,
+            0,
+            0
+        ],
+        "id": 70001540,
+        "type": 7,
+        "name": 26040080,
+        "descFunc": 0,
+        "desc": 0,
+        "icon": "extendRes/items2/icon_armor_00405.png",
+        "iconTransparent": "extendRes/items2/item_icon_armor_00405.png"
+    },
+    {
+        "args": [
+            260401,
+            0,
+            0,
+            0,
+            0,
+            0
+        ],
+        "id": 70001541,
+        "type": 7,
+        "name": 26040076,
+        "descFunc": 0,
+        "desc": 0,
+        "icon": "extendRes/items2/icon_armor_00401.png",
+        "iconTransparent": "extendRes/items2/item_icon_armor_00401.png"
+    },
+    {
+        "args": [
+            260401,
+            0,
+            0,
+            0,
+            0,
+            0
+        ],
+        "id": 70001542,
+        "type": 7,
+        "name": 26040077,
+        "descFunc": 0,
+        "desc": 0,
+        "icon": "extendRes/items2/icon_armor_00402.png",
+        "iconTransparent": "extendRes/items2/item_icon_armor_00402.png"
+    },
+    {
+        "args": [
+            260401,
+            0,
+            0,
+            0,
+            0,
+            0
+        ],
+        "id": 70001543,
+        "type": 7,
+        "name": 26040078,
+        "descFunc": 0,
+        "desc": 0,
+        "icon": "extendRes/items2/icon_armor_00403.png",
+        "iconTransparent": "extendRes/items2/item_icon_armor_00403.png"
+    },
+    {
+        "args": [
+            260401,
+            0,
+            0,
+            0,
+            0,
+            0
+        ],
+        "id": 70001544,
+        "type": 7,
+        "name": 26040079,
+        "descFunc": 0,
+        "desc": 0,
+        "icon": "extendRes/items2/icon_armor_00404.png",
+        "iconTransparent": "extendRes/items2/item_icon_armor_00404.png"
+    },
+    {
+        "args": [
+            260401,
+            0,
+            0,
+            0,
+            0,
+            0
+        ],
+        "id": 70001545,
+        "type": 7,
+        "name": 26040080,
+        "descFunc": 0,
+        "desc": 0,
+        "icon": "extendRes/items2/icon_armor_00405.png",
+        "iconTransparent": "extendRes/items2/item_icon_armor_00405.png"
+    },
+    {
+        "args": [
+            260401,
+            0,
+            0,
+            0,
+            0,
+            0
+        ],
+        "id": 70001546,
+        "type": 7,
+        "name": 26040078,
+        "descFunc": 0,
+        "desc": 0,
+        "icon": "extendRes/items2/icon_armor_00403.png",
+        "iconTransparent": "extendRes/items2/item_icon_armor_00403.png"
+    },
+    {
+        "args": [
+            260401,
+            0,
+            0,
+            0,
+            0,
+            0
+        ],
+        "id": 70001547,
+        "type": 7,
+        "name": 26040079,
+        "descFunc": 0,
+        "desc": 0,
+        "icon": "extendRes/items2/icon_armor_00404.png",
+        "iconTransparent": "extendRes/items2/item_icon_armor_00404.png"
+    },
+    {
+        "args": [
+            260401,
+            0,
+            0,
+            0,
+            0,
+            0
+        ],
+        "id": 70001548,
+        "type": 7,
+        "name": 26040080,
+        "descFunc": 0,
+        "desc": 0,
+        "icon": "extendRes/items2/icon_armor_00405.png",
+        "iconTransparent": "extendRes/items2/item_icon_armor_00405.png"
+    },
+    {
+        "args": [
+            260401,
+            0,
+            0,
+            0,
+            0,
+            0
+        ],
+        "id": 70001600,
+        "type": 7,
+        "name": 0,
+        "descFunc": 0,
+        "desc": 0,
+        "icon": "",
+        "iconTransparent": ""
+    },
+    {
+        "args": [
+            260401,
+            0,
+            0,
+            0,
+            0,
+            0
+        ],
+        "id": 70001601,
+        "type": 7,
+        "name": 0,
+        "descFunc": 0,
+        "desc": 0,
+        "icon": "",
+        "iconTransparent": ""
+    },
+    {
+        "args": [
+            260401,
+            0,
+            0,
+            0,
+            0,
+            0
+        ],
+        "id": 70001602,
+        "type": 7,
+        "name": 0,
+        "descFunc": 0,
+        "desc": 0,
+        "icon": "",
+        "iconTransparent": ""
+    },
+    {
+        "args": [
+            260401,
+            0,
+            0,
+            0,
+            0,
+            0
+        ],
+        "id": 70001603,
+        "type": 7,
+        "name": 0,
+        "descFunc": 0,
+        "desc": 0,
+        "icon": "",
+        "iconTransparent": ""
+    },
+    {
+        "args": [
+            260401,
+            0,
+            0,
+            0,
+            0,
+            0
+        ],
+        "id": 70001604,
+        "type": 7,
+        "name": 0,
+        "descFunc": 0,
+        "desc": 0,
+        "icon": "",
+        "iconTransparent": ""
+    },
+    {
+        "args": [
+            260401,
+            0,
+            0,
+            0,
+            0,
+            0
+        ],
+        "id": 70001605,
+        "type": 7,
+        "name": 0,
+        "descFunc": 0,
+        "desc": 0,
+        "icon": "",
+        "iconTransparent": ""
+    },
+    {
+        "args": [
+            260401,
+            0,
+            0,
+            0,
+            0,
+            0
+        ],
+        "id": 70001606,
+        "type": 7,
+        "name": 0,
+        "descFunc": 0,
+        "desc": 0,
+        "icon": "",
+        "iconTransparent": ""
+    },
+    {
+        "args": [
+            260401,
+            0,
+            0,
+            0,
+            0,
+            0
+        ],
+        "id": 70001607,
+        "type": 7,
+        "name": 0,
+        "descFunc": 0,
+        "desc": 0,
+        "icon": "",
+        "iconTransparent": ""
+    },
+    {
+        "args": [
+            260401,
+            0,
+            0,
+            0,
+            0,
+            0
+        ],
+        "id": 70001608,
+        "type": 7,
+        "name": 0,
+        "descFunc": 0,
+        "desc": 0,
+        "icon": "",
+        "iconTransparent": ""
+    },
+    {
+        "args": [
+            260401,
+            0,
+            0,
+            0,
+            0,
+            0
+        ],
+        "id": 70001609,
+        "type": 7,
+        "name": 0,
+        "descFunc": 0,
+        "desc": 0,
+        "icon": "",
+        "iconTransparent": ""
+    },
+    {
+        "args": [
+            260401,
+            0,
+            0,
+            0,
+            0,
+            0
+        ],
+        "id": 70001610,
+        "type": 7,
+        "name": 0,
+        "descFunc": 0,
+        "desc": 0,
+        "icon": "",
+        "iconTransparent": ""
+    },
+    {
+        "args": [
+            260401,
+            0,
+            0,
+            0,
+            0,
+            0
+        ],
+        "id": 70001611,
+        "type": 7,
+        "name": 0,
+        "descFunc": 0,
+        "desc": 0,
+        "icon": "",
+        "iconTransparent": ""
+    },
+    {
+        "args": [
+            260401,
+            0,
+            0,
+            0,
+            0,
+            0
+        ],
+        "id": 70001612,
+        "type": 7,
+        "name": 0,
+        "descFunc": 0,
+        "desc": 0,
+        "icon": "",
+        "iconTransparent": ""
+    },
+    {
+        "args": [
+            260401,
+            0,
+            0,
+            0,
+            0,
+            0
+        ],
+        "id": 70001613,
+        "type": 7,
+        "name": 0,
+        "descFunc": 0,
+        "desc": 0,
+        "icon": "",
+        "iconTransparent": ""
+    },
+    {
+        "args": [
+            260401,
+            0,
+            0,
+            0,
+            0,
+            0
+        ],
+        "id": 70001614,
+        "type": 7,
+        "name": 0,
+        "descFunc": 0,
+        "desc": 0,
+        "icon": "",
+        "iconTransparent": ""
+    },
+    {
+        "args": [
+            260401,
+            0,
+            0,
+            0,
+            0,
+            0
+        ],
+        "id": 70001615,
+        "type": 7,
+        "name": 0,
+        "descFunc": 0,
+        "desc": 0,
+        "icon": "",
+        "iconTransparent": ""
+    },
+    {
+        "args": [
+            260401,
+            0,
+            0,
+            0,
+            0,
+            0
+        ],
+        "id": 70001616,
+        "type": 7,
+        "name": 0,
+        "descFunc": 0,
+        "desc": 0,
+        "icon": "",
+        "iconTransparent": ""
     }
 ]

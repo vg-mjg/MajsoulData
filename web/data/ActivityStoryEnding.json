@@ -348,5 +348,75 @@
         "unlockEnding": "",
         "unlockConsume": "",
         "reward": ""
+    },
+    {
+        "storyId": 2604071,
+        "endingId": 26040711,
+        "unlockDay": 0,
+        "unlockItem": "",
+        "unlockStory": "",
+        "unlockEnding": "",
+        "unlockConsume": "",
+        "reward": ""
+    },
+    {
+        "storyId": 2604072,
+        "endingId": 26040721,
+        "unlockDay": 0,
+        "unlockItem": "",
+        "unlockStory": "",
+        "unlockEnding": "",
+        "unlockConsume": "",
+        "reward": ""
+    },
+    {
+        "storyId": 2604073,
+        "endingId": 26040731,
+        "unlockDay": 0,
+        "unlockItem": "",
+        "unlockStory": "",
+        "unlockEnding": "",
+        "unlockConsume": "",
+        "reward": ""
+    },
+    {
+        "storyId": 2604074,
+        "endingId": 26040741,
+        "unlockDay": 0,
+        "unlockItem": "",
+        "unlockStory": "",
+        "unlockEnding": "",
+        "unlockConsume": "",
+        "reward": ""
+    },
+    {
+        "storyId": 2604075,
+        "endingId": 26040751,
+        "unlockDay": 0,
+        "unlockItem": "",
+        "unlockStory": "",
+        "unlockEnding": "",
+        "unlockConsume": "",
+        "reward": ""
+    },
+    {
+        "storyId": 2604076,
+        "endingId": 26040761,
+        "unlockDay": 0,
+        "unlockItem": "",
+        "unlockStory": "",
+        "unlockEnding": "",
+        "unlockConsume": "",
+        "reward": ""
+    },
+    {
+        "storyId": 2604077,
+        "endingId": 26040771,
+        "unlockDay": 0,
+        "unlockItem": "",
+        "unlockStory": "",
+        "unlockEnding": "",
+        "unlockConsume": "",
+        "reward": ""
     }
 ]
