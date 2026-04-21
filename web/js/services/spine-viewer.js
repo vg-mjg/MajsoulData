@@ -1,13 +1,8 @@
 import { assetUrlCandidates } from "../../utils.js";
 
-const SPINE_PLAYER_SCRIPT_URLS = [
+const SPINE_SCRIPT_URLS = [
   "https://cdn.jsdelivr.net/npm/@esotericsoftware/spine-player@4.2.102/dist/iife/spine-player.min.js",
   "https://unpkg.com/@esotericsoftware/spine-player@4.2.102/dist/iife/spine-player.min.js",
-];
-
-const SPINE_PLAYER_STYLE_URLS = [
-  "https://cdn.jsdelivr.net/npm/@esotericsoftware/spine-player@4.2.102/dist/spine-player.min.css",
-  "https://unpkg.com/@esotericsoftware/spine-player@4.2.102/dist/spine-player.min.css",
 ];
 
 const SPINE_PREMULTIPLIED_ALPHA = false;
@@ -19,16 +14,12 @@ const atlasPremultipliedAlphaCache = new Map();
 const spineUrlProbeCache = new Map();
 const atlasPageProbeCache = new Map();
 
-function hasSpinePlayerRuntime() {
-  return Boolean(window.spine && window.spine.SpinePlayer);
+function hasSpineRuntime() {
+  return Boolean(window.spine && window.spine.SpineCanvas);
 }
 
 function hasScriptTag(source) {
   return Array.from(document.querySelectorAll("script")).some((script) => script.src === source);
-}
-
-function hasStylesheetTag(source) {
-  return Array.from(document.querySelectorAll("link[rel='stylesheet']")).some((link) => link.href === source);
 }
 
 function loadScript(source) {
@@ -47,22 +38,6 @@ function loadScript(source) {
   });
 }
 
-function loadStylesheet(source) {
-  if (hasStylesheetTag(source)) {
-    return Promise.resolve();
-  }
-
-  return new Promise((resolve, reject) => {
-    const link = document.createElement("link");
-    link.rel = "stylesheet";
-    link.href = source;
-    link.crossOrigin = "anonymous";
-    link.addEventListener("load", () => resolve());
-    link.addEventListener("error", () => reject(new Error(`Failed to load stylesheet: ${source}`)));
-    document.head.append(link);
-  });
-}
-
 async function loadFirstAvailable(loader, sources) {
   let lastError = null;
   for (const source of sources || []) {
@@ -78,18 +53,17 @@ async function loadFirstAvailable(loader, sources) {
   throw new Error("No source configured.");
 }
 
-async function ensureSpinePlayerRuntime() {
-  if (hasSpinePlayerRuntime()) {
+async function ensureSpineRuntime() {
+  if (hasSpineRuntime()) {
     return window.spine;
   }
 
   if (!runtimePromise) {
     runtimePromise = (async () => {
-      await loadFirstAvailable(loadStylesheet, SPINE_PLAYER_STYLE_URLS);
-      await loadFirstAvailable(loadScript, SPINE_PLAYER_SCRIPT_URLS);
+      await loadFirstAvailable(loadScript, SPINE_SCRIPT_URLS);
 
-      if (!hasSpinePlayerRuntime()) {
-        throw new Error("Spine player runtime is unavailable after script load.");
+      if (!hasSpineRuntime()) {
+        throw new Error("Spine runtime is unavailable after script load.");
       }
 
       return window.spine;
@@ -124,13 +98,7 @@ function createUrlAttemptsForPair(pair) {
     const key = `${skeletonUrl}|${atlasUrl}`;
     if (seen.has(key)) continue;
     seen.add(key);
-    attempts.push({
-      skeletonUrl,
-      atlasUrl,
-      layer,
-      skeletonPath,
-      atlasPath,
-    });
+    attempts.push({ skeletonUrl, atlasUrl, layer, skeletonPath, atlasPath });
   }
 
   for (const skeletonUrl of skeletonUrls) {
@@ -147,13 +115,7 @@ function createUrlAttemptsForPair(pair) {
       const key = `${skeletonUrl}|${atlasUrl}`;
       if (seen.has(key)) continue;
       seen.add(key);
-      attempts.push({
-        skeletonUrl,
-        atlasUrl,
-        layer,
-        skeletonPath,
-        atlasPath,
-      });
+      attempts.push({ skeletonUrl, atlasUrl, layer, skeletonPath, atlasPath });
     }
   }
 
@@ -432,12 +394,7 @@ function resolveSpineSource(spineAssetPairs) {
   if (byLayer.plain.length > 0) {
     return {
       primaryLayer: "plain",
-      layers: [
-        {
-          layer: "plain",
-          attempts: trimmedAttemptList(byLayer.plain),
-        },
-      ],
+      layers: [{ layer: "plain", attempts: trimmedAttemptList(byLayer.plain) }],
     };
   }
 
@@ -451,31 +408,13 @@ function resolveSpineSource(spineAssetPairs) {
   for (const layer of layerOrder) {
     const attempts = byLayer[layer] || [];
     if (attempts.length === 0) continue;
-    layers.push({
-      layer,
-      attempts: trimmedAttemptList(attempts),
-    });
+    layers.push({ layer, attempts: trimmedAttemptList(attempts) });
   }
 
   if (layers.length === 0) return null;
   layers.sort((left, right) => layerDrawOrder(left.layer) - layerDrawOrder(right.layer));
 
   return { primaryLayer, layers };
-}
-
-function pickAnimationName(player) {
-  const animationNames = Array.isArray(player?.skeleton?.data?.animations)
-    ? player.skeleton.data.animations
-      .map((entry) => String(entry && entry.name ? entry.name : ""))
-      .filter((name) => name.length > 0)
-    : [];
-  if (animationNames.length === 0) return "";
-
-  const preferred = ["idle", "Idle", "wait", "stand", "greeting", "celebrate"];
-  for (const name of preferred) {
-    if (animationNames.includes(name)) return name;
-  }
-  return animationNames[0];
 }
 
 async function readAtlasPremultipliedAlpha(atlasUrl) {
@@ -491,11 +430,7 @@ async function readAtlasPremultipliedAlpha(atlasUrl) {
         window.setTimeout(() => resolve(null), SPINE_ATLAS_METADATA_TIMEOUT_MS);
       }),
     ]);
-    if (!response || typeof response.ok !== "boolean") {
-      atlasPremultipliedAlphaCache.set(atlasUrl, SPINE_PREMULTIPLIED_ALPHA);
-      return SPINE_PREMULTIPLIED_ALPHA;
-    }
-    if (!response.ok) {
+    if (!response || typeof response.ok !== "boolean" || !response.ok) {
       atlasPremultipliedAlphaCache.set(atlasUrl, SPINE_PREMULTIPLIED_ALPHA);
       return SPINE_PREMULTIPLIED_ALPHA;
     }
@@ -522,366 +457,327 @@ async function readAtlasPremultipliedAlpha(atlasUrl) {
   }
 }
 
-function createSpinePlayer(host, sourcePlan) {
-  const runtime = window.spine;
-  if (!runtime || !runtime.SpinePlayer) {
-    return Promise.reject(new Error("Spine player runtime is unavailable."));
-  }
+async function resolveLayers(sourcePlan) {
+  const resolved = [];
+  const primarySource = sourcePlan.layers.find((l) => l.layer === sourcePlan.primaryLayer)?.attempts[0] ?? null;
 
-  const layers = Array.isArray(sourcePlan && sourcePlan.layers)
-    ? sourcePlan.layers.filter((entry) => entry && Array.isArray(entry.attempts) && entry.attempts.length > 0)
-    : [];
-  if (layers.length === 0) {
-    return Promise.reject(new Error("Spine source is empty."));
-  }
+  for (const layerEntry of sourcePlan.layers) {
+    const sortedAttempts = primarySource && layerEntry.layer !== sourcePlan.primaryLayer
+      ? sortAttemptsByPrimarySource(layerEntry.attempts, primarySource)
+      : layerEntry.attempts;
 
-  const loadedPlayers = [];
-
-  function createSinglePlayer(layerHost, attempts, isPrimary) {
-    return new Promise((resolve, reject) => {
-      const sourceQueue = Array.isArray(attempts) ? attempts.slice() : [];
-      if (sourceQueue.length === 0) {
-        reject(new Error("No spine layer attempts available."));
-        return;
+    for (const attempt of sortedAttempts) {
+      const ok = await probeSpineAttempt(attempt);
+      if (ok) {
+        const pma = await readAtlasPremultipliedAlpha(attempt.atlasUrl);
+        resolved.push({ skeletonUrl: attempt.skeletonUrl, atlasUrl: attempt.atlasUrl, pma });
+        break;
       }
-      const queue = [];
-
-      let active = true;
-      let currentPlayer = null;
-      let lastError = null;
-      let attemptSerial = 0;
-
-      let mouse = new spine.Vector3()
-      let last = new spine.Vector3()
-      let boundsSet = false
-
-      const cleanupCurrentPlayer = () => {
-        if (currentPlayer && typeof currentPlayer.dispose === "function") {
-          try {
-            currentPlayer.dispose();
-          } catch {
-            // ignore dispose errors
-          }
-        }
-        currentPlayer = null;
-      };
-
-      const finalizeFailure = (error) => {
-        if (!active) return;
-        active = false;
-        cleanupCurrentPlayer();
-        layerHost.replaceChildren();
-        reject(error instanceof Error ? error : new Error(String(error || "Failed to load spine layer.")));
-      };
-
-      const scheduleNext = () => {
-        queueMicrotask(() => {
-          void tryNext();
-        });
-      };
-
-      const tryNext = async () => {
-        if (!active) return;
-        cleanupCurrentPlayer();
-
-        const item = queue.shift();
-
-        if (!item) {
-          finalizeFailure(lastError || new Error("Failed to load spine layer."));
-          return;
-        }
-
-        const reachable = await item.reachable();
-        if (!reachable) {
-          lastError = new Error("Failed to load spine resources.")
-          scheduleNext();
-        }
-
-        attemptSerial += 1;
-        const currentAttemptSerial = attemptSerial;
-
-        const premultipliedAlpha = await readAtlasPremultipliedAlpha(item.entry.atlasUrl);
-        if (!active || currentAttemptSerial !== attemptSerial) return;
-
-        try {
-          currentPlayer = new runtime.SpinePlayer(layerHost, {
-            skelUrl: item.entry.skeletonUrl,
-            atlasUrl: item.entry.atlasUrl,
-            alpha: true,
-            backgroundColor: "00000000",
-            fullScreenBackgroundColor: "00000000",
-            showControls: isPrimary,
-            interactive: false,
-            showLoading: false,
-            premultipliedAlpha,
-            defaultMix: 0.12,
-            viewport: {
-              transitionTime: 0.1,
-              padLeft: "8%",
-              padRight: "8%",
-              padTop: "6%",
-              padBottom: "4%",
-            },
-
-            update: (player, _) => {
-              if (!boundsSet) {
-                boundsSet = true
-                const bounds = player.skeleton.getBoundsRect()
-                player.config.viewport = { ...player.config.viewport, ...bounds }
-              }
-            },
-
-            error(_player, message) {
-              if (!active || currentAttemptSerial !== attemptSerial) return;
-              lastError = new Error(String(message || "Spine player failed to load skeleton."));
-              scheduleNext();
-            },
-
-            success(player) {
-              if (currentAttemptSerial !== attemptSerial) {
-                if (player && typeof player.dispose === "function") {
-                  try {
-                    player.dispose();
-                  } catch {
-                    // ignore dispose errors
-                  }
-                }
-                return;
-              }
-              if (!active) {
-                if (player && typeof player.dispose === "function") {
-                  try {
-                    player.dispose();
-                  } catch {
-                    // ignore dispose errors
-                  }
-                }
-                return;
-              }
-
-              boundsSet = false
-
-              if (isPrimary) {
-                new spine.Input(player.canvas).addListener({
-                  down: (x, y) => {
-                    x = x / player.skeleton.scaleX
-                    y = y / player.skeleton.scaleY
-                    player.sceneRenderer.camera.screenToWorld(
-                      mouse.set(x, y, 0),
-                      player.canvas.clientWidth,
-                      player.canvas.clientHeight
-                    );
-                    player.play()
-                    last.setFrom(mouse);
-                  },
-                  dragged: (x, y) => {
-                    x = x / player.skeleton.scaleX
-                    y = y / player.skeleton.scaleY
-                    player.sceneRenderer.camera.screenToWorld(
-                      mouse.set(x, y, 0),
-                      player.canvas.clientWidth,
-                      player.canvas.clientHeight
-                    );
-                    for (const p of loadedPlayers) {
-                      p.skeleton.getRootBone().x += mouse.x - last.x;
-                      p.skeleton.getRootBone().y += mouse.y - last.y;
-                    }
-                    last.setFrom(mouse);
-                  },
-                  up: () => { player.play() },
-                  wheel: (delta, _ev) => {
-                    let zoomAmount = delta > 0 ? 0.95 : 1.05
-                    for (const p of loadedPlayers) {
-                      p.skeleton.scaleX *= zoomAmount
-                      p.skeleton.scaleY *= zoomAmount
-                    }
-                  }
-                })
-              }
-
-              active = false;
-              resolve({ player: player, source: item.entry });
-            },
-          });
-        } catch (error) {
-          lastError = error instanceof Error ? error : new Error(String(error || "Failed to create spine player."));
-          scheduleNext();
-        }
-      };
-
-      const initializeQueue = async () => {
-        for (const [index, entry] of sourceQueue.entries()) {
-          const result = {
-            entry,
-            index,
-            reachable: async () => probeSpineAttempt(entry),
-          }
-          queue.push(result);
-        }
-
-        scheduleNext();
-      };
-
-      void initializeQueue().catch((error) => {
-        finalizeFailure(error);
-      });
-    });
+    }
   }
+
+  return resolved;
+}
+
+async function createWebGLSpineViewer(host, sourcePlan) {
+  const runtime = window.spine;
+  if (!runtime || !runtime.SpineCanvas) throw new Error("Spine runtime unavailable.");
+
+  // Show loading state while probing URLs
+  const loadingEl = document.createElement("div");
+  loadingEl.className = "spine-viewer-loading";
+  loadingEl.innerHTML = '<div class="spine-viewer-spinner"></div>';
+  host.replaceChildren(loadingEl);
+
+  const resolvedLayers = await resolveLayers(sourcePlan);
+  if (resolvedLayers.length === 0) throw new Error("No accessible spine layers found.");
+
+  const premultipliedAlpha = resolvedLayers[0].pma;
+
+  // Build viewer DOM
+  const wrapper = document.createElement("div");
+  wrapper.className = "spine-viewer-wrapper";
+
+  const canvasContainer = document.createElement("div");
+  canvasContainer.className = "spine-viewer-canvas-container";
+
+  const canvas = document.createElement("canvas");
+
+  const loadingOverlay = document.createElement("div");
+  loadingOverlay.className = "spine-viewer-loading-overlay";
+  loadingOverlay.innerHTML = '<div class="spine-viewer-spinner"></div>';
+
+  const controlsEl = document.createElement("div");
+  controlsEl.className = "spine-viewer-controls";
+  controlsEl.innerHTML = `
+    <div class="spine-viewer-timeline">
+      <div class="spine-viewer-timeline-fill"></div>
+    </div>
+    <div class="spine-viewer-controls-row">
+      <button class="spine-viewer-button spine-viewer-play-button">&#9646;&#9646;</button>
+      <select class="spine-viewer-animation-select" disabled><option>Loading...</option></select>
+    </div>
+  `;
+
+  canvasContainer.append(canvas, loadingOverlay);
+  wrapper.append(canvasContainer, controlsEl);
+  host.replaceChildren(wrapper);
+
+  const timelineEl = controlsEl.querySelector(".spine-viewer-timeline");
+  const timelineFillEl = controlsEl.querySelector(".spine-viewer-timeline-fill");
+  const btnPlay = controlsEl.querySelector(".spine-viewer-play-button");
+  const animSelect = controlsEl.querySelector(".spine-viewer-animation-select");
 
   return new Promise((resolve, reject) => {
-    const stackRoot = document.createElement("div");
-    stackRoot.className = "detail-spine-stack";
-    host.replaceChildren(stackRoot);
-
-    const layerEntries = layers
-      .slice()
-      .sort((left, right) => layerDrawOrder(left.layer) - layerDrawOrder(right.layer))
-      .map((entry) => {
-        const layer = String(entry && entry.layer ? entry.layer : "other");
-        const attempts = Array.isArray(entry && entry.attempts) ? entry.attempts : [];
-        return { layer, attempts };
-      })
-      .filter((entry) => entry.attempts.length > 0)
-      .map((entry) => {
-        const layer = entry.layer;
-        const layerHost = document.createElement("div");
-        layerHost.className = `detail-spine-player detail-spine-layer detail-spine-layer-${layer}`;
-        stackRoot.append(layerHost);
-        return { layer, attempts: entry.attempts, layerHost };
-      });
-
-    if (layerEntries.length === 0) {
-      host.replaceChildren();
-      reject(new Error("Spine source is empty."));
-      return;
-    }
-
-    let hasResolved = false;
-    let destroyed = false;
-    let lastError = null;
-
-    const primaryLayer = String(sourcePlan && sourcePlan.primaryLayer ? sourcePlan.primaryLayer : "");
-    const primaryEntry = layerEntries.find((entry) => entry.layer === primaryLayer) || layerEntries[0];
-    const secondaryEntries = layerEntries.filter((entry) => entry !== primaryEntry);
-
-    const disposePlayer = (player) => {
-      if (!player || typeof player.dispose !== "function") return;
-      try {
-        player.dispose();
-      } catch {
-        // ignore dispose errors caused by detached nodes
-      }
-    };
+    let playing = true;
+    let layers = [];
+    let playTime = 0;
+    let initialCamX = 0, initialCamY = 0, initialCamZoom = 1;
+    let spineCanvasInstance = null;
 
     const controller = {
       destroy() {
-        if (destroyed) return;
-        destroyed = true;
-        for (const player of loadedPlayers) {
-          disposePlayer(player);
+        if (spineCanvasInstance) {
+          spineCanvasInstance.dispose();
+          spineCanvasInstance = null;
         }
         host.replaceChildren();
       },
     };
 
-    const setupPlayerAnimation = (player, preferredAnimation = "") => {
-      const fallbackAnimation = pickAnimationName(player);
-      const animationName = preferredAnimation || fallbackAnimation;
-      if (!animationName) return "";
-      try {
-        player.setAnimation(animationName, true);
-        player.play();
-        return animationName;
-      } catch {
-        return "";
+    function setAnimation(name) {
+      for (const layer of layers) {
+        try { layer.state.setAnimation(0, name, true); } catch (_) { }
       }
-    };
-
-    const mountSecondaryLayers = (sharedAnimationName, primarySource) => {
-      for (const entry of secondaryEntries) {
-        const sortedAttempts = sortAttemptsByPrimarySource(entry.attempts, primarySource);
-        entry.layerHost.classList.add("detail-spine-layer-secondary")
-        createSinglePlayer(entry.layerHost, sortedAttempts, false)
-          .then((result) => {
-            if (!result || !result.player) return;
-            if (destroyed) {
-              disposePlayer(result.player);
-              return;
-            }
-            setupPlayerAnimation(result.player, sharedAnimationName);
-            loadedPlayers.push(result.player);
-          })
-          .catch(() => {
-            // Secondary layers are optional.
-          });
-      }
-    };
-
-    const tryEntriesSequentially = async (entries) => {
-      let sharedAnimationName = "";
-      for (const entry of entries) {
-        try {
-          const result = await createSinglePlayer(entry.layerHost, entry.attempts, true);
-          if (!result || !result.player) continue;
-          if (destroyed) {
-            disposePlayer(result.player);
-            return false;
-          }
-          sharedAnimationName = setupPlayerAnimation(result.player, "");
-          loadedPlayers.push(result.player);
-          mountSecondaryLayers(sharedAnimationName, result.source || null);
-          if (!hasResolved) {
-            hasResolved = true;
-            resolve(controller);
-          }
-          return true;
-        } catch (error) {
-          lastError = error instanceof Error ? error : new Error(String(error || "Failed to load spine layer."));
-        }
-      }
-      return false;
-    };
-
-    void (async () => {
-      const prioritized = [primaryEntry, ...secondaryEntries];
-      const ok = await tryEntriesSequentially(prioritized);
-      if (ok || destroyed || hasResolved) return;
-      host.replaceChildren();
-      reject(lastError || new Error("Failed to load spine layers."));
-    })();
-  });
-}
-
-function mountWithAutoCleanup(host, source) {
-  return createSpinePlayer(host, source).then((instance) => {
-    let disconnectObserver = null;
-    let destroyed = false;
-
-    const destroy = () => {
-      if (destroyed) return;
-      destroyed = true;
-      if (disconnectObserver) {
-        disconnectObserver.disconnect();
-        disconnectObserver = null;
-      }
-      if (instance && typeof instance.destroy === "function") {
-        instance.destroy();
-      }
-    };
-
-    if (typeof MutationObserver === "function" && document.body) {
-      disconnectObserver = new MutationObserver(() => {
-        if (!host.isConnected) {
-          destroy();
-        }
-      });
-      disconnectObserver.observe(document.body, {
-        childList: true,
-        subtree: true,
-      });
     }
 
-    return { destroy };
+    function getAnimDuration() {
+      return layers[0]?.state.getCurrent(0)?.animation?.duration ?? 0;
+    }
+
+    function seekToFraction(fraction) {
+      const duration = getAnimDuration();
+      if (!duration) return;
+      fraction = Math.max(0, Math.min(1, fraction));
+      const targetTime = fraction * duration;
+      const name = animSelect.value;
+      for (const layer of layers) {
+        layer.state.setAnimation(0, name, true);
+        layer.state.update(targetTime);
+        layer.state.apply(layer.skeleton);
+        layer.skeleton.updateWorldTransform(runtime.Physics.update);
+      }
+      playTime = targetTime;
+    }
+
+    function resetCamera(cam) {
+      cam.position.set(initialCamX, initialCamY, 0);
+      cam.zoom = initialCamZoom;
+      cam.update();
+    }
+
+    function setupTimeline() {
+      let scrubbing = false;
+      function scrubAt(clientX) {
+        seekToFraction((clientX - timelineEl.getBoundingClientRect().left) / timelineEl.clientWidth);
+      }
+      timelineEl.addEventListener("mousedown", (e) => { scrubbing = true; scrubAt(e.clientX); });
+      window.addEventListener("mousemove", (e) => { if (scrubbing) scrubAt(e.clientX); });
+      window.addEventListener("mouseup", () => { scrubbing = false; });
+      timelineEl.addEventListener("touchstart", (e) => { e.preventDefault(); scrubbing = true; scrubAt(e.touches[0].clientX); }, { passive: false });
+      window.addEventListener("touchmove", (e) => { if (scrubbing) scrubAt(e.touches[0].clientX); });
+      window.addEventListener("touchend", () => { scrubbing = false; });
+    }
+
+    function setupCameraControls(el, cam) {
+      const ZOOM_FACTOR = 1.1;
+      let dragging = false;
+      let dragStartX = 0, dragStartY = 0, dragStartCamX = 0, dragStartCamY = 0, pinchDist = 0;
+
+      function zoomAt(screenX, screenY, factor) {
+        const w = el.clientWidth, h = el.clientHeight;
+        const before = cam.screenToWorld(new runtime.Vector3(screenX, screenY), w, h);
+        cam.zoom /= factor;
+        cam.update();
+        const after = cam.screenToWorld(new runtime.Vector3(screenX, screenY), w, h);
+        cam.position.add(before.sub(after));
+        cam.update();
+      }
+
+      el.addEventListener("wheel", (e) => {
+        e.preventDefault();
+        const factor = e.deltaY < 0 ? ZOOM_FACTOR : 1 / ZOOM_FACTOR;
+        const rect = el.getBoundingClientRect();
+        zoomAt(e.clientX - rect.left, e.clientY - rect.top, factor);
+      }, { passive: false });
+
+      el.addEventListener("mousedown", (e) => {
+        if (e.button !== 0) return;
+        dragging = true;
+        dragStartX = e.clientX; dragStartY = e.clientY;
+        dragStartCamX = cam.position.x; dragStartCamY = cam.position.y;
+        el.style.cursor = "grabbing";
+      });
+      window.addEventListener("mousemove", (e) => {
+        if (!dragging) return;
+        const w = el.clientWidth, h = el.clientHeight;
+        const origin = cam.screenToWorld(new runtime.Vector3(0, 0), w, h);
+        const delta = cam.screenToWorld(
+          new runtime.Vector3(e.clientX - dragStartX, e.clientY - dragStartY), w, h,
+        ).sub(origin);
+        cam.position.set(dragStartCamX - delta.x, dragStartCamY - delta.y, 0);
+        cam.update();
+      });
+      window.addEventListener("mouseup", () => {
+        dragging = false;
+        el.style.cursor = "";
+      });
+
+      el.addEventListener("touchstart", (e) => {
+        e.preventDefault();
+        if (e.touches.length === 1) {
+          dragging = true;
+          dragStartX = e.touches[0].clientX; dragStartY = e.touches[0].clientY;
+          dragStartCamX = cam.position.x; dragStartCamY = cam.position.y;
+        } else if (e.touches.length === 2) {
+          dragging = false;
+          pinchDist = Math.hypot(
+            e.touches[0].clientX - e.touches[1].clientX,
+            e.touches[0].clientY - e.touches[1].clientY,
+          );
+        }
+      }, { passive: false });
+
+      el.addEventListener("touchmove", (e) => {
+        e.preventDefault();
+        const rect = el.getBoundingClientRect();
+        if (dragging && e.touches.length === 1) {
+          const w = el.clientWidth, h = el.clientHeight;
+          const origin = cam.screenToWorld(new runtime.Vector3(0, 0), w, h);
+          const delta = cam.screenToWorld(
+            new runtime.Vector3(e.touches[0].clientX - dragStartX, e.touches[0].clientY - dragStartY), w, h,
+          ).sub(origin);
+          cam.position.set(dragStartCamX - delta.x, dragStartCamY - delta.y, 0);
+          cam.update();
+        } else if (e.touches.length === 2) {
+          const dist = Math.hypot(
+            e.touches[0].clientX - e.touches[1].clientX,
+            e.touches[0].clientY - e.touches[1].clientY,
+          );
+          const mx = (e.touches[0].clientX + e.touches[1].clientX) / 2 - rect.left;
+          const my = (e.touches[0].clientY + e.touches[1].clientY) / 2 - rect.top;
+          zoomAt(mx, my, dist / pinchDist);
+          pinchDist = dist;
+        }
+      }, { passive: false });
+
+      el.addEventListener("touchend", (e) => { if (e.touches.length < 1) dragging = false; });
+      el.addEventListener("dblclick", () => resetCamera(cam));
+    }
+
+    const app = {
+      loadAssets(sc) {
+        for (const l of resolvedLayers) {
+          sc.assetManager.loadBinary(l.skeletonUrl);
+          sc.assetManager.loadTextureAtlas(l.atlasUrl);
+        }
+      },
+
+      initialize(sc) {
+        for (const l of resolvedLayers) {
+          const atlas = sc.assetManager.require(l.atlasUrl);
+          const loader = new runtime.AtlasAttachmentLoader(atlas);
+          const binary = new runtime.SkeletonBinary(loader);
+          const skelData = binary.readSkeletonData(sc.assetManager.require(l.skeletonUrl));
+          const skeleton = new runtime.Skeleton(skelData);
+          skeleton.setToSetupPose();
+          skeleton.updateWorldTransform(runtime.Physics.update);
+          const stateData = new runtime.AnimationStateData(skelData);
+          stateData.defaultMix = 0.2;
+          const state = new runtime.AnimationState(stateData);
+          layers.push({ skeleton, state });
+        }
+
+        const anims = layers[0].skeleton.data.animations;
+        animSelect.innerHTML = "";
+        for (const anim of anims) {
+          const opt = document.createElement("option");
+          opt.value = anim.name;
+          opt.textContent = anim.name;
+          animSelect.appendChild(opt);
+        }
+        animSelect.disabled = false;
+
+        const animNames = anims.map((a) => String(a?.name || "")).filter(Boolean);
+        const preferred = ["idle", "Idle", "wait", "stand", "greeting", "celebrate"];
+        const defaultAnim = preferred.find((n) => animNames.includes(n)) || animNames[0] || "";
+        if (defaultAnim) {
+          animSelect.value = defaultAnim;
+          setAnimation(defaultAnim);
+        }
+
+        animSelect.addEventListener("change", (e) => { setAnimation(e.target.value); playTime = 0; });
+
+        btnPlay.addEventListener("click", () => {
+          playing = !playing;
+          btnPlay.innerHTML = playing ? "&#9646;&#9646;" : "&#9654;";
+        });
+
+        const skel = layers[0].skeleton;
+        const offset = new runtime.Vector2();
+        const size = new runtime.Vector2();
+        skel.getBounds(offset, size, []);
+        const cam = sc.renderer.camera;
+        initialCamX = offset.x + size.x / 2;
+        initialCamY = offset.y + size.y / 2;
+        initialCamZoom = (size.y / sc.htmlCanvas.clientHeight) / 0.8;
+        resetCamera(cam);
+
+        setupCameraControls(sc.htmlCanvas, cam);
+        setupTimeline();
+
+        loadingOverlay.style.display = "none";
+        resolve(controller);
+      },
+
+      update(sc, delta) {
+        if (!playing) return;
+        for (const layer of layers) {
+          layer.state.update(delta);
+          layer.state.apply(layer.skeleton);
+          layer.skeleton.updateWorldTransform(runtime.Physics.update);
+        }
+        const duration = getAnimDuration();
+        if (duration > 0) {
+          playTime += delta;
+          if (playTime >= duration) playTime -= duration;
+        }
+      },
+
+      render(sc) {
+        const duration = getAnimDuration();
+        if (duration > 0)
+          timelineFillEl.style.width = `${playTime / duration * 100}%`;
+        sc.renderer.resize(runtime.ResizeMode.Expand);
+        sc.clear(0, 0, 0, 0);
+        sc.renderer.begin();
+        for (const layer of layers)
+          sc.renderer.drawSkeleton(layer.skeleton, premultipliedAlpha);
+        sc.renderer.end();
+      },
+
+      error(_sc, errors) {
+        loadingOverlay.className = "spine-viewer-loading-overlay spine-viewer-error";
+        loadingOverlay.innerHTML = `<strong class="spine-viewer-error-title">Load error</strong><pre class="spine-viewer-error-detail">${Object.values(errors).join("\n")}</pre>`;
+        reject(new Error(Object.values(errors).join("; ")));
+      },
+    };
+
+    spineCanvasInstance = new runtime.SpineCanvas(canvas, {
+      pathPrefix: "",
+      app,
+      webglConfig: { alpha: true },
+    });
   });
 }
 
@@ -890,11 +786,33 @@ export async function mountCharacterSpinePreview({ host, spineAssetPairs }) {
     return null;
   }
 
-  await ensureSpinePlayerRuntime();
-  const source = await resolveSpineSource(spineAssetPairs);
+  await ensureSpineRuntime();
+  const source = resolveSpineSource(spineAssetPairs);
   if (!source) {
     return null;
   }
 
-  return mountWithAutoCleanup(host, source);
+  const instance = await createWebGLSpineViewer(host, source);
+
+  let disconnectObserver = null;
+  let destroyed = false;
+
+  const destroy = () => {
+    if (destroyed) return;
+    destroyed = true;
+    if (disconnectObserver) {
+      disconnectObserver.disconnect();
+      disconnectObserver = null;
+    }
+    instance.destroy();
+  };
+
+  if (typeof MutationObserver === "function" && document.body) {
+    disconnectObserver = new MutationObserver(() => {
+      if (!host.isConnected) destroy();
+    });
+    disconnectObserver.observe(document.body, { childList: true, subtree: true });
+  }
+
+  return { destroy };
 }
