@@ -1,13 +1,14 @@
-import { characterDisplayName, localizedAssetPrefixes, localizedFieldValue } from "../../utils.js";
+import { characterDisplayName, localizedAssetPrefixes } from "../../utils.js";
 import {
   assetCandidatesFromPaths,
   expandLocalizedAssetPaths,
   itemIconCandidates,
+  loadingSpriteDisplayName,
   localizedDescriptionFromEntry,
   localizedNameFromEntry,
   numberValue,
   parseItemAmountPairs,
-  stringValue,
+  stringValue
 } from "./item-utils.js";
 import { loadItemsRepository } from "./items-repository.js";
 
@@ -184,6 +185,7 @@ function mapCharacterMaterialRows(rows, repository, language) {
 }
 
 function kindOfEntry(itemId, repository) {
+  if (repository.loadingSpriteById.has(itemId)) return "loading_sprite";
   if (repository.currencyById.has(itemId)) return "currency";
   if (repository.itemById.has(itemId)) return "item";
   return "";
@@ -496,6 +498,34 @@ function itemAudioPreview(entry, itemId, language, repository) {
   return null;
 }
 
+function buildLoadingSpriteDetail(sprite, repository) {
+  const name = loadingSpriteDisplayName(sprite.filename);
+  const imageCandidates = assetCandidatesFromPaths([sprite.path], repository.resourceManifest);
+  const description = "Loading sprite";
+
+  const detail = {
+    id: 0,
+    kind: "loading_sprite",
+    localized: {
+      name,
+      description: description,
+    },
+    names: { en: name, jp: name, chs: name, chs_t: name, kr: name },
+    descriptions: { en: description, jp: description, chs: description, chs_t: description, kr: description },
+    profile: {
+      sort: sprite.sort,
+      category: 9,
+      type: sprite.type,
+    },
+    assets: {
+      icon: imageCandidates,
+      loadingOriginalImage: imageCandidates,
+    },
+  };
+
+  return detail;
+}
+
 export async function loadItemDetail(itemId, language) {
   const normalizedItemId = numberValue(itemId);
   const cacheKey = `${normalizedItemId}:${language}`;
@@ -504,8 +534,21 @@ export async function loadItemDetail(itemId, language) {
   }
 
   const repository = await loadItemsRepository();
-  const entry = repository.entryById.get(normalizedItemId);
   const kind = kindOfEntry(normalizedItemId, repository);
+
+  if (kind === "loading_sprite") {
+    const cacheKey = `${normalizedItemId}:${language}`;
+    if (detailCache.has(cacheKey)) {
+      return detailCache.get(cacheKey);
+    }
+    const sprite = repository.loadingSpriteById.get(normalizedItemId);
+    if (!sprite) return null;
+    const detail = buildLoadingSpriteDetail(sprite, repository);
+    detailCache.set(cacheKey, detail);
+    return detail;
+  }
+
+  const entry = repository.entryById.get(normalizedItemId);
 
   if (!entry || !kind) {
     return null;
@@ -556,12 +599,12 @@ export async function loadItemDetail(itemId, language) {
     },
     audio: audioPreview
       ? {
-          kind: audioPreview.kind,
-          sectionTitle: audioPreview.sectionTitle,
-          trackName: audioPreview.trackName,
-          subtitle: audioPreview.subtitle,
-          path: audioPreview.path,
-        }
+        kind: audioPreview.kind,
+        sectionTitle: audioPreview.sectionTitle,
+        trackName: audioPreview.trackName,
+        subtitle: audioPreview.subtitle,
+        path: audioPreview.path,
+      }
       : null,
     names: localizedNames(entry),
     descriptions: localizedDescriptions(entry),

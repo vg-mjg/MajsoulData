@@ -7,6 +7,7 @@ import { loadItems } from "../../services/items-data.js";
 const BASE_FILTERS = [
   { id: "all", label: "All", matches: () => true },
   { id: "currency", label: "Currencies", matches: (item) => item.kind === "currency" },
+  { id: "loading-sprites", label: "Loading Sprites", matches: (item) => item.kind === "loading_sprite" },
   { id: "sellable", label: "Sellable", matches: (item) => item.canSell > 0 },
   {
     id: "exchange",

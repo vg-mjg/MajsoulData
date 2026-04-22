@@ -1,8 +1,46 @@
-import { itemIconCandidates, numberValue } from "./item-utils.js";
+import { itemIconCandidates, loadingSpriteDisplayName, numberValue, stringValue } from "./item-utils.js";
 import { loadItemsRepository } from "./items-repository.js";
 import { normalizeUiLanguage } from "../../utils.js";
 
 const itemsCacheByLanguage = new Map();
+
+const EMPTY_USAGE_COUNTS = {
+  packageContents: 0,
+  packageContainers: 0,
+  exchangeSpend: 0,
+  exchangeReceive: 0,
+  shopListings: 0,
+  shopPricing: 0,
+  mallResources: 0,
+  sourceLimits: 0,
+  composeUsage: 0,
+  characterExchangeUsage: 0,
+  characterMaterialUsage: 0,
+};
+
+function makeLoadingSpriteModel(sprite, index) {
+  const id = -(index + 1);
+  const name = loadingSpriteDisplayName(sprite.filename);
+  return {
+    id,
+    kind: "loading_sprite",
+    sort: sprite.sort,
+    category: 9,
+    type: sprite.type,
+    func: "",
+    canSell: 0,
+    isUnique: 0,
+    maxStack: 0,
+    nameEn: name,
+    nameJp: name,
+    nameChs: name,
+    nameChsT: name,
+    nameKr: name,
+    isTitleDefinition: false,
+    imageCandidates: [{ path: sprite.path, prefix: stringValue(sprite.prefix) }],
+    usageCounts: EMPTY_USAGE_COUNTS,
+  };
+}
 
 function makeUsageCounts(repository, itemId) {
   return {
@@ -67,8 +105,10 @@ export async function loadItems(language) {
         .map((entry) => makeItemModel(entry, "item", repository, normalizedLanguage));
       const titleModels = (repository.titleEntries || [])
         .map((entry) => makeItemModel(entry, "item", repository, normalizedLanguage));
+      const loadingSpriteModels = (repository.loadingSprites || [])
+        .map((sprite) => makeLoadingSpriteModel(sprite));
 
-      return [...currencyModels, ...itemModels, ...titleModels].sort(compareItems);
+      return [...currencyModels, ...itemModels, ...titleModels, ...loadingSpriteModels].sort(compareItems);
     })
     .catch((error) => {
       if (itemsCacheByLanguage.get(normalizedLanguage) === promise) {

@@ -103,7 +103,7 @@ function setRouteDocumentTitle(route, routeState) {
     document.title = buildPageTitle(["Character Detail", "Characters"]);
     return;
   }
-  if (resolvedRoute === "items" && detailId > 0) {
+  if (resolvedRoute === "items" && detailId !== 0) {
     document.title = buildPageTitle(["Item Detail", "Items"]);
     return;
   }
@@ -164,7 +164,7 @@ const routeConfig = {
   items: {
     render: async (routeState) => {
       const detailId = Number(routeState.params && routeState.params.id ? routeState.params.id : 0);
-      if (detailId > 0) {
+      if (detailId !== 0) {
         return renderItemDetailPage({
           ...dom,
           getLanguage,

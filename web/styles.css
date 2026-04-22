@@ -1048,10 +1048,25 @@ body {
   padding: 0.85rem;
 }
 
+.loading-sprite-original-section {
+  width: fit-content;
+  max-width: 100%;
+  margin-inline: auto;
+}
+
+.loading-sprite-original-section .item-detail-original-body {
+  display: flex;
+  justify-content: center;
+}
+
+.loading-sprite-original-section .item-detail-original-image,
+.loading-sprite-original-section .item-detail-original-image.placeholder {
+  width: auto;
+}
+
 .item-detail-original-image,
 .item-detail-original-image.placeholder {
   display: block;
-  width: 100%;
   max-width: 100%;
   height: auto;
   border-radius: 0.75rem;
