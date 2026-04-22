@@ -141,7 +141,7 @@ export async function renderItemDetailPage({
               : (Array.isArray(detail.assets.titleOriginalImage) ? detail.assets.titleOriginalImage : [])))));
 
     if (originalImageCandidates.length > 0) {
-      const originalSection = createElement("section", "card border-0 shadow-sm item-detail-original-section");
+      const originalSection = createElement("section", "card border-0 shadow-sm item-detail-original-section" + (detail.kind === "loading_sprite" ? " loading-sprite-original-section" : ""));
       const originalBody = createElement("div", "card-body item-detail-original-body");
       const originalPlaceholder = createElement(
         "div",

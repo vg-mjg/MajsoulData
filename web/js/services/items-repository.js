@@ -1,3 +1,4 @@
+import { compareVersion, parseVersion } from "../../utils.js";
 import { fetchJson } from "../core/http.js";
 import { numberValue, parseItemAmountPairs, stringValue } from "./item-utils.js";
 
@@ -128,6 +129,59 @@ function buildAudioBgmByUnlockItemId(audioBgmRows) {
   return mapping;
 }
 
+const LOADING_SPRITE_CATEGORY_ORDER = { desktop: 0, left: 1, mid: 2, right: 3 };
+const LOADING_SPRITE_PATH_PATTERN = /loading_3que1\/(.+\.png)$/;
+const LOADING_SPRITE_UNDERSCORE_PATTERN = /^([a-z]+)_(\d+)\.png$/;
+
+function buildLoadingSprites(resourceManifest) {
+  const byNormId = new Map();
+
+  for (const manifestPath of Object.keys(resourceManifest)) {
+    const match = manifestPath.match(LOADING_SPRITE_PATH_PATTERN);
+    if (!match) continue;
+
+    const rawFilename = match[1];
+    const normFilename = rawFilename.replace(LOADING_SPRITE_UNDERSCORE_PATTERN, "$1$2.png");
+    const entry = resourceManifest[manifestPath];
+    if (!entry || !entry.prefix) continue;
+
+    if (!byNormId.has(normFilename)) {
+      byNormId.set(normFilename, { path: manifestPath, prefix: entry.prefix });
+    } else {
+      const current = byNormId.get(normFilename);
+      try {
+        const currentVersion = parseVersion(current.prefix);
+        const newVersion = parseVersion(entry.prefix);
+        if (compareVersion(newVersion, currentVersion) > 0) {
+          byNormId.set(normFilename, { path: manifestPath, prefix: entry.prefix });
+        }
+      } catch { }
+    }
+  }
+
+  const sprites = [];
+  for (const [filename, { path, prefix }] of byNormId) {
+    const categoryMatch = filename.match(/^(desktop|left|mid|right|duanwu)/);
+    const category = categoryMatch ? categoryMatch[1] : "other";
+    const type = LOADING_SPRITE_CATEGORY_ORDER[category] !== undefined
+      ? LOADING_SPRITE_CATEGORY_ORDER[category]
+      : 99;
+    const positionMatch = filename.match(/^([a-z]+)(\d+)\.png$/);
+    const position = positionMatch ? numberValue(positionMatch[2]) : 0;
+
+    sprites.push({
+      filename,
+      path,
+      prefix,
+      category,
+      type,
+      sort: type * 1000 + position,
+    });
+  }
+
+  return sprites.sort((a, b) => a.sort - b.sort);
+}
+
 export async function loadItemsRepository() {
   if (cachedRepositoryPromise) {
     return cachedRepositoryPromise;
@@ -168,6 +222,8 @@ export async function loadItemsRepository() {
   ]) => {
 
     const resourceManifest = resversion && resversion.res ? resversion.res : {};
+    const loadingSprites = buildLoadingSprites(resourceManifest);
+    const loadingSpriteById = new Map(loadingSprites.map((sprite, index) => [-(index + 1), sprite]));
 
     const items = Array.isArray(itemDefinitionItem) ? itemDefinitionItem : [];
     const currencies = Array.isArray(itemDefinitionCurrency) ? itemDefinitionCurrency : [];
@@ -205,6 +261,8 @@ export async function loadItemsRepository() {
 
     return {
       resourceManifest,
+      loadingSprites,
+      loadingSpriteById,
       items,
       currencies,
       titleEntries,

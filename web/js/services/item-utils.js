@@ -112,3 +112,27 @@ export function localizedDescriptionFromEntry(entry, language) {
 
   return "";
 }
+
+const LOADING_SPRITE_NAME_PREFIX = "Loading: "
+
+const LOADING_SPRITE_CATEGORY_LABELS = {
+  desktop: "Desktop",
+  left: "Left",
+  mid: "Mid",
+  right: "Right"
+};
+
+export function loadingSpriteDisplayName(filename) {
+  const positionMatch = filename.match(/^([a-z]+)(\d+)\.png$/);
+  if (positionMatch) {
+    const category = LOADING_SPRITE_CATEGORY_LABELS[positionMatch[1]] || positionMatch[1];
+    return `${LOADING_SPRITE_NAME_PREFIX} ${category} ${positionMatch[2]}`;
+  }
+  const categoryMatch = filename.match(/^([a-z]+)\.png$/);
+  if (categoryMatch) {
+    const category = LOADING_SPRITE_CATEGORY_LABELS[categoryMatch[1]] || categoryMatch[1];
+    return `${LOADING_SPRITE_NAME_PREFIX} ${category}`;
+  }
+  const filenameWithoutExt = filename.replace(/\.png$/, "");
+  return `${LOADING_SPRITE_NAME_PREFIX} ${filenameWithoutExt}`;
+}
