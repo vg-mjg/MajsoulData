@@ -106,7 +106,7 @@ export async function loadItems(language) {
       const titleModels = (repository.titleEntries || [])
         .map((entry) => makeItemModel(entry, "item", repository, normalizedLanguage));
       const loadingSpriteModels = (repository.loadingSprites || [])
-        .map((sprite) => makeLoadingSpriteModel(sprite));
+        .map((sprite, index) => makeLoadingSpriteModel(sprite, index));
 
       return [...currencyModels, ...itemModels, ...titleModels, ...loadingSpriteModels].sort(compareItems);
     })
