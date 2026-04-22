@@ -95,6 +95,35 @@ function buildLoadingImageByUnlockItemId(loadingImages) {
   return mapping;
 }
 
+function deduplicateLoadingScreens(items) {
+  const byIcon = new Map();
+  for (const item of items || []) {
+    if (Number(item.category) !== 8) continue;
+    const icon = stringValue(item.icon);
+    if (!icon) continue;
+    const existing = byIcon.get(icon);
+    if (!existing) {
+      byIcon.set(icon, item);
+      continue;
+    }
+    const existingExpiry = stringValue(existing.itemExpire);
+    const itemExpiry = stringValue(item.itemExpire);
+    if (!itemExpiry && existingExpiry) {
+      byIcon.set(icon, item);
+    }
+  }
+  return byIcon;
+}
+
+function filterItems(rawItems) {
+  const loadingScreenMap = deduplicateLoadingScreens(rawItems);
+  return rawItems.filter((item) => {
+    if (Number(item.category) !== 8) return true;
+    const icon = stringValue(item.icon);
+    return !icon || loadingScreenMap.get(icon) === item;
+  });
+}
+
 function mapTitleEntries(titleRows) {
   return (titleRows || []).map((row) => ({
     ...row,
@@ -225,7 +254,7 @@ export async function loadItemsRepository() {
     const loadingSprites = buildLoadingSprites(resourceManifest);
     const loadingSpriteById = new Map(loadingSprites.map((sprite, index) => [-(index + 1), sprite]));
 
-    const items = Array.isArray(itemDefinitionItem) ? itemDefinitionItem : [];
+    const items = filterItems(Array.isArray(itemDefinitionItem) ? itemDefinitionItem : []);
     const currencies = Array.isArray(itemDefinitionCurrency) ? itemDefinitionCurrency : [];
     const titleRows = Array.isArray(itemDefinitionTitle) ? itemDefinitionTitle : [];
     const titleEntries = mapTitleEntries(titleRows);
