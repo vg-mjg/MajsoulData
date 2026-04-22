@@ -21112,11 +21112,11 @@
         "type": 1,
         "view": "",
         "audio": 0,
-        "afterUnlockDescChs": "tbd",
-        "afterUnlockDescChsT": "tbd",
-        "afterUnlockDescJp": "tbd",
-        "afterUnlockDescEn": "tbd",
-        "afterUnlockDescKr": "tbd",
+        "afterUnlockDescChs": "绀碧之界",
+        "afterUnlockDescChsT": "紺碧之界",
+        "afterUnlockDescJp": "紺碧の境界",
+        "afterUnlockDescEn": "Azure Expanse",
+        "afterUnlockDescKr": "짙푸른 경계",
         "unlockType": 3
     },
     {
@@ -21136,11 +21136,11 @@
         "type": 1,
         "view": "",
         "audio": 0,
-        "afterUnlockDescChs": "tbd",
-        "afterUnlockDescChsT": "tbd",
-        "afterUnlockDescJp": "tbd",
-        "afterUnlockDescEn": "tbd",
-        "afterUnlockDescKr": "tbd",
+        "afterUnlockDescChs": "绀碧之界",
+        "afterUnlockDescChsT": "紺碧之界",
+        "afterUnlockDescJp": "紺碧の境界",
+        "afterUnlockDescEn": "Azure Expanse",
+        "afterUnlockDescKr": "짙푸른 경계",
         "unlockType": 3
     },
     {
@@ -21160,11 +21160,11 @@
         "type": 1,
         "view": "",
         "audio": 0,
-        "afterUnlockDescChs": "tbd",
-        "afterUnlockDescChsT": "tbd",
-        "afterUnlockDescJp": "tbd",
-        "afterUnlockDescEn": "tbd",
-        "afterUnlockDescKr": "tbd",
+        "afterUnlockDescChs": "绀碧之界",
+        "afterUnlockDescChsT": "紺碧之界",
+        "afterUnlockDescJp": "紺碧の境界",
+        "afterUnlockDescEn": "Azure Expanse",
+        "afterUnlockDescKr": "짙푸른 경계",
         "unlockType": 3
     },
     {
@@ -21184,11 +21184,11 @@
         "type": 1,
         "view": "",
         "audio": 0,
-        "afterUnlockDescChs": "tbd",
-        "afterUnlockDescChsT": "tbd",
-        "afterUnlockDescJp": "tbd",
-        "afterUnlockDescEn": "tbd",
-        "afterUnlockDescKr": "tbd",
+        "afterUnlockDescChs": "绀碧之界",
+        "afterUnlockDescChsT": "紺碧之界",
+        "afterUnlockDescJp": "紺碧の境界",
+        "afterUnlockDescEn": "Azure Expanse",
+        "afterUnlockDescKr": "짙푸른 경계",
         "unlockType": 3
     }
 ]
