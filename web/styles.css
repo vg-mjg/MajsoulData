@@ -1787,6 +1787,26 @@ body {
   color: var(--text-body);
 }
 
+.detail-voice-volume {
+  display: flex;
+  align-items: center;
+  gap: 0.6rem;
+  margin-bottom: 1rem;
+}
+
+.detail-voice-volume-label {
+  font-size: 0.8rem;
+  color: var(--text-secondary);
+  white-space: nowrap;
+  margin: 0;
+}
+
+.detail-voice-volume-slider {
+  flex: 1;
+  max-width: 180px;
+  accent-color: var(--bs-secondary);
+}
+
 .detail-content-switch {
   display: flex;
   flex-wrap: wrap;

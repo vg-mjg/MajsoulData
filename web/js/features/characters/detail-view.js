@@ -233,8 +233,29 @@ function renderStampGrid(body, stamps) {
   body.append(grid);
 }
 
+const VOLUME_STORAGE_KEY = "mahjong-soul-data.voice-volume";
+
+function readSavedVolume() {
+  try {
+    const raw = window.localStorage.getItem(VOLUME_STORAGE_KEY);
+    const parsed = Number(raw);
+    return Number.isFinite(parsed) ? Math.min(1, Math.max(0, parsed)) : 1;
+  } catch {
+    return 1;
+  }
+}
+
+function saveVolume(value) {
+  try {
+    window.localStorage.setItem(VOLUME_STORAGE_KEY, String(value));
+  } catch {
+    // no-op
+  }
+}
+
 function createVoicePlaybackController() {
   const audio = new Audio();
+  audio.volume = readSavedVolume();
   let activeButton = null;
   let activeKey = "";
 
@@ -314,6 +335,14 @@ function createVoicePlaybackController() {
       audio.pause();
       clearActive();
     },
+    getVolume() {
+      return audio.volume;
+    },
+    setVolume(value) {
+      const clamped = Math.min(1, Math.max(0, Number(value) || 0));
+      audio.volume = clamped;
+      saveVolume(clamped);
+    },
   };
 }
 
@@ -377,7 +406,32 @@ function renderVoiceSubsection(body, titleText, entries, player, mode = "voice")
   body.append(list);
 }
 
+function createVolumeControl(player) {
+  const wrap = createElement("div", "detail-voice-volume");
+  const label = createElement("label", "detail-voice-volume-label", "Volume");
+  const sliderId = `voice-volume-${Math.random().toString(36).slice(2)}`;
+  label.htmlFor = sliderId;
+
+  const slider = document.createElement("input");
+  slider.type = "range";
+  slider.id = sliderId;
+  slider.className = "detail-voice-volume-slider";
+  slider.min = "0";
+  slider.max = "1";
+  slider.step = "0.05";
+  slider.value = String(player.getVolume());
+
+  slider.addEventListener("input", () => {
+    player.setVolume(slider.value);
+  });
+
+  wrap.append(label, slider);
+  return wrap;
+}
+
 function renderCombinedVoiceSection(body, voices, spotVoices, player) {
+  body.append(createVolumeControl(player));
+
   const voiceEntries = Array.isArray(voices) ? voices : [];
   const spotEntries = Array.isArray(spotVoices) ? spotVoices : [];
   const lobbyVoices = voiceEntries.filter((voice) => isLobbyVoice(voice));
