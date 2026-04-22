@@ -129,7 +129,7 @@ function renderAchievementsList(root, achievements, onOpenItemDetail) {
   root.append(grid);
 }
 
-export async function renderAchievementsPage({ viewRoot, getLanguage, onOpenItemDetail }) {
+export async function renderAchievementsPage({ viewRoot, getLanguage, onOpenItemDetail, routeState, onParamChange }) {
   viewRoot.innerHTML = `<div class="empty-result">Loading achievements...</div>`;
 
   try {
@@ -154,7 +154,8 @@ export async function renderAchievementsPage({ viewRoot, getLanguage, onOpenItem
 
     viewRoot.innerHTML = "";
 
-    let groupFilterId = 0;
+    const initialTab = routeState && routeState.params && routeState.params.tab ? Number(routeState.params.tab) : 0;
+    let groupFilterId = Number.isFinite(initialTab) ? initialTab : 0;
 
     const groupFilterRoot = document.createElement("div");
     const listRoot = document.createElement("div");
@@ -168,18 +169,19 @@ export async function renderAchievementsPage({ viewRoot, getLanguage, onOpenItem
         );
       }
 
-      const filtered = baseAchievements.filter((achievement) => (
-        groupFilterId === 0 ? true : achievement.groupId === groupFilterId
-      ));
-
       if (groupFilterId !== 0 && !countsByGroupId.has(groupFilterId)) {
         groupFilterId = 0;
       }
+
+      const filtered = baseAchievements.filter((achievement) => (
+        groupFilterId === 0 ? true : achievement.groupId === groupFilterId
+      ));
 
       groupFilterRoot.replaceChildren(
         createGroupButtons(activeGroups, groupFilterId, countsByGroupId, (nextGroupId) => {
           if (nextGroupId === groupFilterId) return;
           groupFilterId = nextGroupId;
+          if (typeof onParamChange === "function") onParamChange({ tab: groupFilterId });
           render();
         }),
       );

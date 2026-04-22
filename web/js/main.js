@@ -57,8 +57,20 @@ const ROUTE_SECTION_TITLE = {
   catchat: "CatChat",
 };
 
+function replaceRouteParams(params) {
+  const rawHash = window.location.hash;
+  const cleaned = rawHash.startsWith("#") ? rawHash.slice(1) : rawHash;
+  const pathname = cleaned.startsWith("/") ? cleaned.slice(1) : cleaned;
+  const [pathWithoutQuery = ""] = pathname.split("?");
+  const entries = Object.entries(params).filter(([, v]) => v !== undefined && v !== null && String(v) !== "");
+  const newHash = entries.length > 0
+    ? `#/${pathWithoutQuery}?${entries.map(([k, v]) => `${encodeURIComponent(k)}=${encodeURIComponent(v)}`).join("&")}`
+    : `#/${pathWithoutQuery}`;
+  history.replaceState(null, "", newHash);
+}
+
 function goToCharacters() {
-  window.location.hash = "#/characters";
+  history.back();
 }
 
 function goToCharacterDetail(characterId) {
@@ -66,7 +78,7 @@ function goToCharacterDetail(characterId) {
 }
 
 function goToItems() {
-  window.location.hash = "#/items";
+  history.back();
 }
 
 function goToItemDetail(itemId) {
@@ -113,20 +125,26 @@ const routeConfig = {
           characterId: detailId,
           goToCharacters,
           onOpenItemDetail: goToItemDetail,
+          routeState,
+          onParamChange: replaceRouteParams,
         });
       }
       return renderCharactersPage({
         ...dom,
         getLanguage,
         onOpenDetail: goToCharacterDetail,
+        routeState,
+        onParamChange: replaceRouteParams,
       });
     },
   },
   achievements: {
-    render: async () => renderAchievementsPage({
+    render: async (routeState) => renderAchievementsPage({
       ...dom,
       getLanguage,
       onOpenItemDetail: goToItemDetail,
+      routeState,
+      onParamChange: replaceRouteParams,
     }),
   },
   activities: {
@@ -136,9 +154,11 @@ const routeConfig = {
     }),
   },
   catchat: {
-    render: async () => renderCatChatPage({
+    render: async (routeState) => renderCatChatPage({
       ...dom,
       getLanguage,
+      routeState,
+      onParamChange: replaceRouteParams,
     }),
   },
   items: {
@@ -156,6 +176,8 @@ const routeConfig = {
         ...dom,
         getLanguage,
         onOpenDetail: goToItemDetail,
+        routeState,
+        onParamChange: replaceRouteParams,
       });
     },
   },

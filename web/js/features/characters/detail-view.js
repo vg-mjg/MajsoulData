@@ -145,7 +145,7 @@ function renderContractItems(body, contractItems, onOpenItemDetail) {
   body.append(grid);
 }
 
-function renderSkinSelector(body, detail, onSelectSkin) {
+function renderSkinSelector(body, detail, preferredSkinId, onSelectSkin, onUserSelectSkin) {
   const skins = Array.isArray(detail.skins) ? detail.skins : [];
   if (skins.length === 0) {
     body.append(createElement("p", "text-secondary small mb-0", "No skins."));
@@ -155,7 +155,11 @@ function renderSkinSelector(body, detail, onSelectSkin) {
   const grid = createElement("div", "detail-skin-grid");
   const buttons = [];
 
-  const activeSkinId = Number(detail.profile.initSkin || skins[0].id || 0);
+  const defaultSkinId = Number(detail.profile.initSkin || skins[0].id || 0);
+  const resolvedSkinId = preferredSkinId && skins.some((s) => Number(s.id) === preferredSkinId)
+    ? preferredSkinId
+    : defaultSkinId;
+  const activeSkinId = resolvedSkinId;
   const initialSkin = skins.find((skin) => Number(skin.id) === activeSkinId) || skins[0];
 
   for (const skin of skins) {
@@ -183,6 +187,7 @@ function renderSkinSelector(body, detail, onSelectSkin) {
         target.classList.toggle("active", target === button);
       }
       onSelectSkin(skin);
+      if (typeof onUserSelectSkin === "function") onUserSelectSkin(skin);
     });
 
     buttons.push(button);
@@ -614,6 +619,8 @@ export async function renderCharacterDetailPage({
   characterId,
   goToCharacters,
   onOpenItemDetail,
+  routeState,
+  onParamChange,
 }) {
   if (typeof stopActiveVoicePlayback === "function") {
     stopActiveVoicePlayback();
@@ -879,13 +886,25 @@ export async function renderCharacterDetailPage({
       { label: "CV", value: detail.localized.cv },
       { label: "Hobby", value: detail.localized.hobby },
     ]);
+    const preferredSkinId = routeState && routeState.params && routeState.params.skin
+      ? Number(routeState.params.skin) || 0
+      : 0;
+
     const skinsTitle = createElement("h6", "detail-section-title detail-skins-title", "Skins");
     profileSection.body.append(skinsTitle);
     const skinDescription = createElement("p", "detail-skin-description detail-preline", "No skin description.");
-    renderSkinSelector(profileSection.body, detail, (skin) => {
-      void setIllustrationFromSkin(skin);
-      skinDescription.textContent = skinDescriptionText(skin);
-    });
+    renderSkinSelector(
+      profileSection.body,
+      detail,
+      preferredSkinId,
+      (skin) => {
+        void setIllustrationFromSkin(skin);
+        skinDescription.textContent = skinDescriptionText(skin);
+      },
+      (skin) => {
+        if (typeof onParamChange === "function") onParamChange({ skin: skin.id });
+      },
+    );
     profileSection.body.append(skinDescription);
     const stampsTitle = createElement("h6", "detail-section-title detail-stamps-title", "Stamps");
     profileSection.body.append(stampsTitle);

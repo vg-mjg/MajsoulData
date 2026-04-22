@@ -249,7 +249,7 @@ function renderFilteredGrid({ root, filteredItems, language, onOpenDetail }) {
   root.append(grid);
 }
 
-export async function renderItemsPage({ viewRoot, getLanguage, onOpenDetail }) {
+export async function renderItemsPage({ viewRoot, getLanguage, onOpenDetail, routeState, onParamChange }) {
   viewRoot.innerHTML = `<div class="empty-result">Loading items...</div>`;
 
   try {
@@ -262,11 +262,12 @@ export async function renderItemsPage({ viewRoot, getLanguage, onOpenDetail }) {
     }
 
     viewRoot.innerHTML = "";
-    let activeFilterId = "all";
     const filters = buildFilters(items);
     const filterBuckets = buildFilterBuckets(items, filters);
     const filterCounts = countByBuckets(filterBuckets);
     const sortedFilters = sortFiltersByCount(filters, filterCounts);
+    const initialTab = routeState && routeState.params && routeState.params.tab ? routeState.params.tab : "all";
+    let activeFilterId = filterBuckets.has(initialTab) ? initialTab : "all";
 
     const filterRoot = document.createElement("div");
     const gridRoot = document.createElement("div");
@@ -276,6 +277,7 @@ export async function renderItemsPage({ viewRoot, getLanguage, onOpenDetail }) {
         createFilterButtons(sortedFilters, activeFilterId, filterCounts, (nextFilterId) => {
           if (nextFilterId === activeFilterId) return;
           activeFilterId = nextFilterId;
+          if (typeof onParamChange === "function") onParamChange({ tab: activeFilterId });
           render();
         }),
       );

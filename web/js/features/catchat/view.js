@@ -313,7 +313,7 @@ function createFilterButtons(activities, activeId, onChange) {
   return wrap;
 }
 
-export async function renderCatChatPage({ viewRoot, getLanguage }) {
+export async function renderCatChatPage({ viewRoot, getLanguage, routeState, onParamChange }) {
   viewRoot.innerHTML = `<div class="empty-result">Loading CatChat...</div>`;
 
   try {
@@ -327,7 +327,9 @@ export async function renderCatChatPage({ viewRoot, getLanguage }) {
     }
 
     viewRoot.innerHTML = "";
-    let activeActivityId = activities[0].id;
+    const initialTab = routeState && routeState.params && routeState.params.tab ? Number(routeState.params.tab) : null;
+    const initialActivity = initialTab !== null ? activities.find((a) => a.id === initialTab) : null;
+    let activeActivityId = initialActivity ? initialActivity.id : activities[0].id;
 
     const filterRoot = document.createElement("div");
     const contentRoot = document.createElement("div");
@@ -337,6 +339,7 @@ export async function renderCatChatPage({ viewRoot, getLanguage }) {
         createFilterButtons(activities, activeActivityId, (nextId) => {
           if (nextId === activeActivityId) return;
           activeActivityId = nextId;
+          if (typeof onParamChange === "function") onParamChange({ tab: activeActivityId });
           render();
         }),
       );
