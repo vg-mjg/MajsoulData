@@ -1,15 +1,30 @@
+function parseQueryParams(queryString) {
+  const params = {};
+  if (!queryString) return params;
+  for (const part of queryString.split("&")) {
+    const eqIdx = part.indexOf("=");
+    if (eqIdx > 0) {
+      params[decodeURIComponent(part.slice(0, eqIdx))] = decodeURIComponent(part.slice(eqIdx + 1));
+    } else if (part) {
+      params[decodeURIComponent(part)] = "";
+    }
+  }
+  return params;
+}
+
 function normalizeRoute(hash, fallbackRoute) {
   const rawHash = String(hash || "").trim();
   const cleaned = rawHash.startsWith("#") ? rawHash.slice(1) : rawHash;
   const pathname = cleaned.startsWith("/") ? cleaned.slice(1) : cleaned;
-  const [pathWithoutQuery = ""] = pathname.split("?");
+  const [pathWithoutQuery = "", queryString = ""] = pathname.split("?");
   const segments = pathWithoutQuery.split("/").map((segment) => segment.trim()).filter(Boolean);
+  const queryParams = parseQueryParams(queryString);
 
   if (segments.length === 0) {
     return {
       route: fallbackRoute,
       segments: [fallbackRoute],
-      params: {},
+      params: queryParams,
       hash: rawHash,
     };
   }
@@ -19,6 +34,7 @@ function normalizeRoute(hash, fallbackRoute) {
     segments,
     params: {
       id: segments.length > 1 ? segments[1] : undefined,
+      ...queryParams,
     },
     hash: rawHash,
   };

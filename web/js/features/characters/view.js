@@ -131,7 +131,7 @@ function renderFilteredGrid({ root, filteredCharacters, language, onOpenDetail }
   root.append(grid);
 }
 
-export async function renderCharactersPage({ viewRoot, getLanguage, onOpenDetail }) {
+export async function renderCharactersPage({ viewRoot, getLanguage, onOpenDetail, routeState, onParamChange }) {
   viewRoot.innerHTML = `<div class="empty-result">Loading characters...</div>`;
 
   try {
@@ -144,9 +144,10 @@ export async function renderCharactersPage({ viewRoot, getLanguage, onOpenDetail
     }
 
     viewRoot.innerHTML = "";
-    let activeFilterId = "all";
     const filterBuckets = buildFilterBuckets(characters);
     const filterCounts = countByBuckets(filterBuckets);
+    const initialTab = routeState && routeState.params && routeState.params.tab ? routeState.params.tab : "all";
+    let activeFilterId = filterBuckets.has(initialTab) ? initialTab : "all";
 
     const filterRoot = document.createElement("div");
     const gridRoot = document.createElement("div");
@@ -156,6 +157,7 @@ export async function renderCharactersPage({ viewRoot, getLanguage, onOpenDetail
         createFilterButtons(activeFilterId, filterCounts, (nextFilterId) => {
           if (nextFilterId === activeFilterId) return;
           activeFilterId = nextFilterId;
+          if (typeof onParamChange === "function") onParamChange({ tab: activeFilterId });
           render();
         }),
       );
