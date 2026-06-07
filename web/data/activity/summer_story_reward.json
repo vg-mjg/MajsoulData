@@ -1,0 +1,52 @@
+[
+  [
+    {
+      "activity_id": 240811,
+      "period_task_id": 24081201,
+      "building_icon": "1",
+      "click_notice": 3077
+    },
+    {
+      "activity_id": 240811,
+      "period_task_id": 24081202,
+      "building_icon": "1",
+      "click_notice": 3078
+    },
+    {
+      "activity_id": 240811,
+      "period_task_id": 24081203,
+      "building_icon": "4",
+      "click_notice": 3079
+    },
+    {
+      "activity_id": 240811,
+      "period_task_id": 24081204,
+      "building_icon": "4",
+      "click_notice": 3080
+    },
+    {
+      "activity_id": 240811,
+      "period_task_id": 24081205,
+      "building_icon": "3",
+      "click_notice": 3081
+    },
+    {
+      "activity_id": 240811,
+      "period_task_id": 24081206,
+      "building_icon": "3",
+      "click_notice": 3082
+    },
+    {
+      "activity_id": 240811,
+      "period_task_id": 24081207,
+      "building_icon": "2",
+      "click_notice": 3083
+    },
+    {
+      "activity_id": 240811,
+      "period_task_id": 24081208,
+      "building_icon": "2",
+      "click_notice": 3084
+    }
+  ]
+]

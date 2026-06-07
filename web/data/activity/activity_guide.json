@@ -1,0 +1,154 @@
+[
+  {
+    "guide_id": 24081101,
+    "activity_id": 240811,
+    "guide_location": 1,
+    "char_id": 200095,
+    "char_str_id": 0,
+    "content_str_id": 3055
+  },
+  {
+    "guide_id": 24081102,
+    "activity_id": 240811,
+    "guide_location": 1,
+    "char_id": 200095,
+    "char_str_id": 0,
+    "content_str_id": 3056
+  },
+  {
+    "guide_id": 24081103,
+    "activity_id": 240811,
+    "guide_location": 1,
+    "char_id": 200095,
+    "char_str_id": 0,
+    "content_str_id": 3057
+  },
+  {
+    "guide_id": 24081104,
+    "activity_id": 240811,
+    "guide_location": 0,
+    "char_id": 0,
+    "char_str_id": 0,
+    "content_str_id": 3058
+  },
+  {
+    "guide_id": 24081105,
+    "activity_id": 240811,
+    "guide_location": 1,
+    "char_id": 200095,
+    "char_str_id": 0,
+    "content_str_id": 3059
+  },
+  {
+    "guide_id": 24081106,
+    "activity_id": 240811,
+    "guide_location": 0,
+    "char_id": 0,
+    "char_str_id": 0,
+    "content_str_id": 3060
+  },
+  {
+    "guide_id": 24081107,
+    "activity_id": 240811,
+    "guide_location": 1,
+    "char_id": 200095,
+    "char_str_id": 0,
+    "content_str_id": 3061
+  },
+  {
+    "guide_id": 24081108,
+    "activity_id": 240811,
+    "guide_location": 1,
+    "char_id": 200095,
+    "char_str_id": 0,
+    "content_str_id": 3062
+  },
+  {
+    "guide_id": 24081109,
+    "activity_id": 240811,
+    "guide_location": 0,
+    "char_id": 0,
+    "char_str_id": 0,
+    "content_str_id": 3063
+  },
+  {
+    "guide_id": 24081110,
+    "activity_id": 240811,
+    "guide_location": 1,
+    "char_id": 200095,
+    "char_str_id": 0,
+    "content_str_id": 3064
+  },
+  {
+    "guide_id": 24081111,
+    "activity_id": 240811,
+    "guide_location": 1,
+    "char_id": 200095,
+    "char_str_id": 0,
+    "content_str_id": 3065
+  },
+  {
+    "guide_id": 24081112,
+    "activity_id": 240811,
+    "guide_location": 0,
+    "char_id": 0,
+    "char_str_id": 0,
+    "content_str_id": 3066
+  },
+  {
+    "guide_id": 24081113,
+    "activity_id": 240811,
+    "guide_location": 1,
+    "char_id": 200095,
+    "char_str_id": 0,
+    "content_str_id": 3067
+  },
+  {
+    "guide_id": 24081114,
+    "activity_id": 240811,
+    "guide_location": 1,
+    "char_id": 200095,
+    "char_str_id": 0,
+    "content_str_id": 3068
+  },
+  {
+    "guide_id": 24081115,
+    "activity_id": 240811,
+    "guide_location": 0,
+    "char_id": 0,
+    "char_str_id": 0,
+    "content_str_id": 3069
+  },
+  {
+    "guide_id": 24081116,
+    "activity_id": 240811,
+    "guide_location": 1,
+    "char_id": 200095,
+    "char_str_id": 0,
+    "content_str_id": 3070
+  },
+  {
+    "guide_id": 24081117,
+    "activity_id": 240811,
+    "guide_location": 0,
+    "char_id": 0,
+    "char_str_id": 0,
+    "content_str_id": 3071
+  },
+  {
+    "guide_id": 24081118,
+    "activity_id": 240811,
+    "guide_location": 1,
+    "char_id": 200095,
+    "char_str_id": 0,
+    "content_str_id": 3072
+  },
+  {
+    "guide_id": 24081119,
+    "activity_id": 240811,
+    "guide_location": 1,
+    "char_id": 200095,
+    "char_str_id": 0,
+    "content_str_id": 3073
+  }
+]

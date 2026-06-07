@@ -1,0 +1,23 @@
+[
+  {
+    "activity_id": 240101,
+    "worker_item_id": 30900013,
+    "round_consume": "30900015-1",
+    "random_building": "300100,300200,300300",
+    "food_item_id": 30900007,
+    "trip_consume": 3,
+    "trip_cold_down": 43200,
+    "trip_round": 3,
+    "trip_reward": [
+      "30900012-1",
+      "30900011-1",
+      "30900010-1"
+    ],
+    "stage_require": [
+      "30900014-0",
+      "30900014-40",
+      "30900014-70",
+      "30900014-100"
+    ]
+  }
+]

@@ -1,0 +1,29 @@
+[
+  [
+    {
+      "id": 700001,
+      "good_id": 5001,
+      "good_count": 1
+    },
+    {
+      "id": 700001,
+      "good_id": 5002,
+      "good_count": 1
+    },
+    {
+      "id": 700001,
+      "good_id": 5003,
+      "good_count": 1
+    },
+    {
+      "id": 700001,
+      "good_id": 5004,
+      "good_count": 1
+    },
+    {
+      "id": 700001,
+      "good_id": 2201,
+      "good_count": 1
+    }
+  ]
+]

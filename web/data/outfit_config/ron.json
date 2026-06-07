@@ -1,0 +1,57 @@
+[
+  {
+    "id": 300001,
+    "is_fullscreen": 0,
+    "queue_change_delay": 0
+  },
+  {
+    "id": 305215,
+    "is_fullscreen": 1,
+    "queue_change_delay": 0
+  },
+  {
+    "id": 305217,
+    "is_fullscreen": 1,
+    "queue_change_delay": 0
+  },
+  {
+    "id": 305219,
+    "is_fullscreen": 1,
+    "queue_change_delay": 0
+  },
+  {
+    "id": 305223,
+    "is_fullscreen": 1,
+    "queue_change_delay": 0
+  },
+  {
+    "id": 308011,
+    "is_fullscreen": 1,
+    "queue_change_delay": 0
+  },
+  {
+    "id": 308026,
+    "is_fullscreen": 1,
+    "queue_change_delay": 0
+  },
+  {
+    "id": 308041,
+    "is_fullscreen": 1,
+    "queue_change_delay": 0
+  },
+  {
+    "id": 30520006,
+    "is_fullscreen": 1,
+    "queue_change_delay": 0
+  },
+  {
+    "id": 30520007,
+    "is_fullscreen": 1,
+    "queue_change_delay": 2500
+  },
+  {
+    "id": 30520009,
+    "is_fullscreen": 1,
+    "queue_change_delay": 1860
+  }
+]

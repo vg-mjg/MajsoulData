@@ -1,0 +1,66 @@
+[
+  [
+    {
+      "activity_id": 231201,
+      "point_item_id": 30900006,
+      "point_item_count": 0,
+      "workbench_count": 8
+    },
+    {
+      "activity_id": 231201,
+      "point_item_id": 30900006,
+      "point_item_count": 400,
+      "workbench_count": 10
+    },
+    {
+      "activity_id": 231201,
+      "point_item_id": 30900006,
+      "point_item_count": 800,
+      "workbench_count": 12
+    },
+    {
+      "activity_id": 231201,
+      "point_item_id": 30900006,
+      "point_item_count": 1300,
+      "workbench_count": 16
+    },
+    {
+      "activity_id": 231201,
+      "point_item_id": 30900006,
+      "point_item_count": 2300,
+      "workbench_count": 24
+    }
+  ],
+  [
+    {
+      "activity_id": 250601,
+      "point_item_id": 30900091,
+      "point_item_count": 0,
+      "workbench_count": 8
+    },
+    {
+      "activity_id": 250601,
+      "point_item_id": 30900091,
+      "point_item_count": 400,
+      "workbench_count": 10
+    },
+    {
+      "activity_id": 250601,
+      "point_item_id": 30900091,
+      "point_item_count": 800,
+      "workbench_count": 12
+    },
+    {
+      "activity_id": 250601,
+      "point_item_id": 30900091,
+      "point_item_count": 1300,
+      "workbench_count": 16
+    },
+    {
+      "activity_id": 250601,
+      "point_item_id": 30900091,
+      "point_item_count": 2300,
+      "workbench_count": 24
+    }
+  ]
+]

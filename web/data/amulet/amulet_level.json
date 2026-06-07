@@ -1,0 +1,1228 @@
+[
+  [
+    {
+      "activity_id": 260511,
+      "level": 11001,
+      "node_id": 19001,
+      "next_level": 11002
+    },
+    {
+      "activity_id": 260511,
+      "level": 11002,
+      "node_id": 19002,
+      "next_level": 11003
+    },
+    {
+      "activity_id": 260511,
+      "level": 11003,
+      "node_id": 19003,
+      "next_level": 11004
+    },
+    {
+      "activity_id": 260511,
+      "level": 11004,
+      "node_id": 19004,
+      "next_level": 11005
+    },
+    {
+      "activity_id": 260511,
+      "level": 11005,
+      "node_id": 19005,
+      "next_level": 12001
+    },
+    {
+      "activity_id": 260511,
+      "level": 12001,
+      "node_id": 19101,
+      "next_level": 12002
+    },
+    {
+      "activity_id": 260511,
+      "level": 12002,
+      "node_id": 19102,
+      "next_level": 12003
+    },
+    {
+      "activity_id": 260511,
+      "level": 12003,
+      "node_id": 19103,
+      "next_level": 12004
+    },
+    {
+      "activity_id": 260511,
+      "level": 12004,
+      "node_id": 19104,
+      "next_level": 12005
+    },
+    {
+      "activity_id": 260511,
+      "level": 12005,
+      "node_id": 19105,
+      "next_level": 12006
+    },
+    {
+      "activity_id": 260511,
+      "level": 12006,
+      "node_id": 19106,
+      "next_level": 12007
+    },
+    {
+      "activity_id": 260511,
+      "level": 12007,
+      "node_id": 19107,
+      "next_level": 12008
+    },
+    {
+      "activity_id": 260511,
+      "level": 12008,
+      "node_id": 19108,
+      "next_level": 12009
+    },
+    {
+      "activity_id": 260511,
+      "level": 12009,
+      "node_id": 19109,
+      "next_level": 12010
+    },
+    {
+      "activity_id": 260511,
+      "level": 12010,
+      "node_id": 19110,
+      "next_level": 12011
+    },
+    {
+      "activity_id": 260511,
+      "level": 12011,
+      "node_id": 19111,
+      "next_level": 12012
+    },
+    {
+      "activity_id": 260511,
+      "level": 12012,
+      "node_id": 19112,
+      "next_level": 12013
+    },
+    {
+      "activity_id": 260511,
+      "level": 12013,
+      "node_id": 19113,
+      "next_level": 12014
+    },
+    {
+      "activity_id": 260511,
+      "level": 12014,
+      "node_id": 19114,
+      "next_level": 12015
+    },
+    {
+      "activity_id": 260511,
+      "level": 12015,
+      "node_id": 19115,
+      "next_level": 12016
+    },
+    {
+      "activity_id": 260511,
+      "level": 12016,
+      "node_id": 19116,
+      "next_level": 12017
+    },
+    {
+      "activity_id": 260511,
+      "level": 12017,
+      "node_id": 19117,
+      "next_level": 12018
+    },
+    {
+      "activity_id": 260511,
+      "level": 12018,
+      "node_id": 19118,
+      "next_level": 12019
+    },
+    {
+      "activity_id": 260511,
+      "level": 12019,
+      "node_id": 19119,
+      "next_level": 12020
+    },
+    {
+      "activity_id": 260511,
+      "level": 12020,
+      "node_id": 19120,
+      "next_level": 12021
+    },
+    {
+      "activity_id": 260511,
+      "level": 12021,
+      "node_id": 19121,
+      "next_level": 12022
+    },
+    {
+      "activity_id": 260511,
+      "level": 12022,
+      "node_id": 19122,
+      "next_level": 12023
+    },
+    {
+      "activity_id": 260511,
+      "level": 12023,
+      "node_id": 19123,
+      "next_level": 12024
+    },
+    {
+      "activity_id": 260511,
+      "level": 12024,
+      "node_id": 19124,
+      "next_level": 12025
+    },
+    {
+      "activity_id": 260511,
+      "level": 12025,
+      "node_id": 19125,
+      "next_level": 12026
+    },
+    {
+      "activity_id": 260511,
+      "level": 12026,
+      "node_id": 19126,
+      "next_level": 12027
+    },
+    {
+      "activity_id": 260511,
+      "level": 12027,
+      "node_id": 19127,
+      "next_level": 12028
+    },
+    {
+      "activity_id": 260511,
+      "level": 12028,
+      "node_id": 19128,
+      "next_level": 12029
+    },
+    {
+      "activity_id": 260511,
+      "level": 12029,
+      "node_id": 19129,
+      "next_level": 12030
+    },
+    {
+      "activity_id": 260511,
+      "level": 12030,
+      "node_id": 19130,
+      "next_level": 12031
+    },
+    {
+      "activity_id": 260511,
+      "level": 12031,
+      "node_id": 19131,
+      "next_level": 12032
+    },
+    {
+      "activity_id": 260511,
+      "level": 12032,
+      "node_id": 19132,
+      "next_level": 12033
+    },
+    {
+      "activity_id": 260511,
+      "level": 12033,
+      "node_id": 19133,
+      "next_level": 12034
+    },
+    {
+      "activity_id": 260511,
+      "level": 12034,
+      "node_id": 19134,
+      "next_level": 12035
+    },
+    {
+      "activity_id": 260511,
+      "level": 12035,
+      "node_id": 19135,
+      "next_level": 12036
+    },
+    {
+      "activity_id": 260511,
+      "level": 12036,
+      "node_id": 19136,
+      "next_level": 12037
+    },
+    {
+      "activity_id": 260511,
+      "level": 12037,
+      "node_id": 19137,
+      "next_level": 12038
+    },
+    {
+      "activity_id": 260511,
+      "level": 12038,
+      "node_id": 19138,
+      "next_level": 12039
+    },
+    {
+      "activity_id": 260511,
+      "level": 12039,
+      "node_id": 19139,
+      "next_level": 12040
+    },
+    {
+      "activity_id": 260511,
+      "level": 12040,
+      "node_id": 19140,
+      "next_level": 12041
+    },
+    {
+      "activity_id": 260511,
+      "level": 12041,
+      "node_id": 19141,
+      "next_level": 12042
+    },
+    {
+      "activity_id": 260511,
+      "level": 12042,
+      "node_id": 19142,
+      "next_level": 12043
+    },
+    {
+      "activity_id": 260511,
+      "level": 12043,
+      "node_id": 19143,
+      "next_level": 12044
+    },
+    {
+      "activity_id": 260511,
+      "level": 12044,
+      "node_id": 19144,
+      "next_level": 12045
+    },
+    {
+      "activity_id": 260511,
+      "level": 12045,
+      "node_id": 19145,
+      "next_level": 12046
+    },
+    {
+      "activity_id": 260511,
+      "level": 12046,
+      "node_id": 19146,
+      "next_level": 12047
+    },
+    {
+      "activity_id": 260511,
+      "level": 12047,
+      "node_id": 19147,
+      "next_level": 12048
+    },
+    {
+      "activity_id": 260511,
+      "level": 12048,
+      "node_id": 19148,
+      "next_level": 12049
+    },
+    {
+      "activity_id": 260511,
+      "level": 12049,
+      "node_id": 19149,
+      "next_level": 12050
+    },
+    {
+      "activity_id": 260511,
+      "level": 12050,
+      "node_id": 19150,
+      "next_level": 12051
+    },
+    {
+      "activity_id": 260511,
+      "level": 12051,
+      "node_id": 19151,
+      "next_level": 12052
+    },
+    {
+      "activity_id": 260511,
+      "level": 12052,
+      "node_id": 19152,
+      "next_level": 12053
+    },
+    {
+      "activity_id": 260511,
+      "level": 12053,
+      "node_id": 19153,
+      "next_level": 12054
+    },
+    {
+      "activity_id": 260511,
+      "level": 12054,
+      "node_id": 19154,
+      "next_level": 12055
+    },
+    {
+      "activity_id": 260511,
+      "level": 12055,
+      "node_id": 19155,
+      "next_level": 12056
+    },
+    {
+      "activity_id": 260511,
+      "level": 12056,
+      "node_id": 19156,
+      "next_level": 12057
+    },
+    {
+      "activity_id": 260511,
+      "level": 12057,
+      "node_id": 19157,
+      "next_level": 12058
+    },
+    {
+      "activity_id": 260511,
+      "level": 12058,
+      "node_id": 19158,
+      "next_level": 12059
+    },
+    {
+      "activity_id": 260511,
+      "level": 12059,
+      "node_id": 19159,
+      "next_level": 12060
+    },
+    {
+      "activity_id": 260511,
+      "level": 12060,
+      "node_id": 19160,
+      "next_level": 12061
+    },
+    {
+      "activity_id": 260511,
+      "level": 12061,
+      "node_id": 19161,
+      "next_level": 12062
+    },
+    {
+      "activity_id": 260511,
+      "level": 12062,
+      "node_id": 19162,
+      "next_level": 12063
+    },
+    {
+      "activity_id": 260511,
+      "level": 12063,
+      "node_id": 19163,
+      "next_level": 12064
+    },
+    {
+      "activity_id": 260511,
+      "level": 12064,
+      "node_id": 19164,
+      "next_level": 12065
+    },
+    {
+      "activity_id": 260511,
+      "level": 12065,
+      "node_id": 19165,
+      "next_level": 12066
+    },
+    {
+      "activity_id": 260511,
+      "level": 12066,
+      "node_id": 19166,
+      "next_level": 12067
+    },
+    {
+      "activity_id": 260511,
+      "level": 12067,
+      "node_id": 19167,
+      "next_level": 12068
+    },
+    {
+      "activity_id": 260511,
+      "level": 12068,
+      "node_id": 19168,
+      "next_level": 12069
+    },
+    {
+      "activity_id": 260511,
+      "level": 12069,
+      "node_id": 19169,
+      "next_level": 12070
+    },
+    {
+      "activity_id": 260511,
+      "level": 12070,
+      "node_id": 19170,
+      "next_level": 12071
+    },
+    {
+      "activity_id": 260511,
+      "level": 12071,
+      "node_id": 19171,
+      "next_level": 12072
+    },
+    {
+      "activity_id": 260511,
+      "level": 12072,
+      "node_id": 19172,
+      "next_level": 12073
+    },
+    {
+      "activity_id": 260511,
+      "level": 12073,
+      "node_id": 19173,
+      "next_level": 12074
+    },
+    {
+      "activity_id": 260511,
+      "level": 12074,
+      "node_id": 19174,
+      "next_level": 12075
+    },
+    {
+      "activity_id": 260511,
+      "level": 12075,
+      "node_id": 19175,
+      "next_level": 12076
+    },
+    {
+      "activity_id": 260511,
+      "level": 12076,
+      "node_id": 19176,
+      "next_level": 12077
+    },
+    {
+      "activity_id": 260511,
+      "level": 12077,
+      "node_id": 19177,
+      "next_level": 12078
+    },
+    {
+      "activity_id": 260511,
+      "level": 12078,
+      "node_id": 19178,
+      "next_level": 12079
+    },
+    {
+      "activity_id": 260511,
+      "level": 12079,
+      "node_id": 19179,
+      "next_level": 12080
+    },
+    {
+      "activity_id": 260511,
+      "level": 12080,
+      "node_id": 19180,
+      "next_level": 12081
+    },
+    {
+      "activity_id": 260511,
+      "level": 12081,
+      "node_id": 19181,
+      "next_level": 12082
+    },
+    {
+      "activity_id": 260511,
+      "level": 12082,
+      "node_id": 19182,
+      "next_level": 12083
+    },
+    {
+      "activity_id": 260511,
+      "level": 12083,
+      "node_id": 19183,
+      "next_level": 12084
+    },
+    {
+      "activity_id": 260511,
+      "level": 12084,
+      "node_id": 19184,
+      "next_level": 12085
+    },
+    {
+      "activity_id": 260511,
+      "level": 12085,
+      "node_id": 19185,
+      "next_level": 12086
+    },
+    {
+      "activity_id": 260511,
+      "level": 12086,
+      "node_id": 19186,
+      "next_level": 12087
+    },
+    {
+      "activity_id": 260511,
+      "level": 12087,
+      "node_id": 19187,
+      "next_level": 12088
+    },
+    {
+      "activity_id": 260511,
+      "level": 12088,
+      "node_id": 19188,
+      "next_level": 12089
+    },
+    {
+      "activity_id": 260511,
+      "level": 12089,
+      "node_id": 19189,
+      "next_level": 12090
+    },
+    {
+      "activity_id": 260511,
+      "level": 12090,
+      "node_id": 19190,
+      "next_level": 12091
+    },
+    {
+      "activity_id": 260511,
+      "level": 12091,
+      "node_id": 19191,
+      "next_level": 12092
+    },
+    {
+      "activity_id": 260511,
+      "level": 12092,
+      "node_id": 19192,
+      "next_level": 12093
+    },
+    {
+      "activity_id": 260511,
+      "level": 12093,
+      "node_id": 19193,
+      "next_level": 12094
+    },
+    {
+      "activity_id": 260511,
+      "level": 12094,
+      "node_id": 19194,
+      "next_level": 12095
+    },
+    {
+      "activity_id": 260511,
+      "level": 12095,
+      "node_id": 19195,
+      "next_level": 12096
+    },
+    {
+      "activity_id": 260511,
+      "level": 12096,
+      "node_id": 19196,
+      "next_level": 12097
+    },
+    {
+      "activity_id": 260511,
+      "level": 12097,
+      "node_id": 19197,
+      "next_level": 12098
+    },
+    {
+      "activity_id": 260511,
+      "level": 12098,
+      "node_id": 19198,
+      "next_level": 12099
+    },
+    {
+      "activity_id": 260511,
+      "level": 12099,
+      "node_id": 19199,
+      "next_level": 12100
+    },
+    {
+      "activity_id": 260511,
+      "level": 12100,
+      "node_id": 19200,
+      "next_level": 12101
+    },
+    {
+      "activity_id": 260511,
+      "level": 12101,
+      "node_id": 19201,
+      "next_level": 12102
+    },
+    {
+      "activity_id": 260511,
+      "level": 12102,
+      "node_id": 19202,
+      "next_level": 12103
+    },
+    {
+      "activity_id": 260511,
+      "level": 12103,
+      "node_id": 19203,
+      "next_level": 12104
+    },
+    {
+      "activity_id": 260511,
+      "level": 12104,
+      "node_id": 19204,
+      "next_level": 12105
+    },
+    {
+      "activity_id": 260511,
+      "level": 12105,
+      "node_id": 19205,
+      "next_level": 12106
+    },
+    {
+      "activity_id": 260511,
+      "level": 12106,
+      "node_id": 19206,
+      "next_level": 12107
+    },
+    {
+      "activity_id": 260511,
+      "level": 12107,
+      "node_id": 19207,
+      "next_level": 12108
+    },
+    {
+      "activity_id": 260511,
+      "level": 12108,
+      "node_id": 19208,
+      "next_level": 12109
+    },
+    {
+      "activity_id": 260511,
+      "level": 12109,
+      "node_id": 19209,
+      "next_level": 12110
+    },
+    {
+      "activity_id": 260511,
+      "level": 12110,
+      "node_id": 19210,
+      "next_level": 12111
+    },
+    {
+      "activity_id": 260511,
+      "level": 12111,
+      "node_id": 19211,
+      "next_level": 12112
+    },
+    {
+      "activity_id": 260511,
+      "level": 12112,
+      "node_id": 19212,
+      "next_level": 12113
+    },
+    {
+      "activity_id": 260511,
+      "level": 12113,
+      "node_id": 19213,
+      "next_level": 12114
+    },
+    {
+      "activity_id": 260511,
+      "level": 12114,
+      "node_id": 19214,
+      "next_level": 12115
+    },
+    {
+      "activity_id": 260511,
+      "level": 12115,
+      "node_id": 19215,
+      "next_level": 12116
+    },
+    {
+      "activity_id": 260511,
+      "level": 12116,
+      "node_id": 19216,
+      "next_level": 12117
+    },
+    {
+      "activity_id": 260511,
+      "level": 12117,
+      "node_id": 19217,
+      "next_level": 12118
+    },
+    {
+      "activity_id": 260511,
+      "level": 12118,
+      "node_id": 19218,
+      "next_level": 12119
+    },
+    {
+      "activity_id": 260511,
+      "level": 12119,
+      "node_id": 19219,
+      "next_level": 12120
+    },
+    {
+      "activity_id": 260511,
+      "level": 12120,
+      "node_id": 19220,
+      "next_level": 12121
+    },
+    {
+      "activity_id": 260511,
+      "level": 12121,
+      "node_id": 19221,
+      "next_level": 12122
+    },
+    {
+      "activity_id": 260511,
+      "level": 12122,
+      "node_id": 19222,
+      "next_level": 12123
+    },
+    {
+      "activity_id": 260511,
+      "level": 12123,
+      "node_id": 19223,
+      "next_level": 12124
+    },
+    {
+      "activity_id": 260511,
+      "level": 12124,
+      "node_id": 19224,
+      "next_level": 12125
+    },
+    {
+      "activity_id": 260511,
+      "level": 12125,
+      "node_id": 19225,
+      "next_level": 12126
+    },
+    {
+      "activity_id": 260511,
+      "level": 12126,
+      "node_id": 19226,
+      "next_level": 12127
+    },
+    {
+      "activity_id": 260511,
+      "level": 12127,
+      "node_id": 19227,
+      "next_level": 12128
+    },
+    {
+      "activity_id": 260511,
+      "level": 12128,
+      "node_id": 19228,
+      "next_level": 12129
+    },
+    {
+      "activity_id": 260511,
+      "level": 12129,
+      "node_id": 19229,
+      "next_level": 12130
+    },
+    {
+      "activity_id": 260511,
+      "level": 12130,
+      "node_id": 19230,
+      "next_level": 12131
+    },
+    {
+      "activity_id": 260511,
+      "level": 12131,
+      "node_id": 19231,
+      "next_level": 12132
+    },
+    {
+      "activity_id": 260511,
+      "level": 12132,
+      "node_id": 19232,
+      "next_level": 12133
+    },
+    {
+      "activity_id": 260511,
+      "level": 12133,
+      "node_id": 19233,
+      "next_level": 12134
+    },
+    {
+      "activity_id": 260511,
+      "level": 12134,
+      "node_id": 19234,
+      "next_level": 12135
+    },
+    {
+      "activity_id": 260511,
+      "level": 12135,
+      "node_id": 19235,
+      "next_level": 12136
+    },
+    {
+      "activity_id": 260511,
+      "level": 12136,
+      "node_id": 19236,
+      "next_level": 12137
+    },
+    {
+      "activity_id": 260511,
+      "level": 12137,
+      "node_id": 19237,
+      "next_level": 12138
+    },
+    {
+      "activity_id": 260511,
+      "level": 12138,
+      "node_id": 19238,
+      "next_level": 12139
+    },
+    {
+      "activity_id": 260511,
+      "level": 12139,
+      "node_id": 19239,
+      "next_level": 12140
+    },
+    {
+      "activity_id": 260511,
+      "level": 12140,
+      "node_id": 19240,
+      "next_level": 12141
+    },
+    {
+      "activity_id": 260511,
+      "level": 12141,
+      "node_id": 19241,
+      "next_level": 12142
+    },
+    {
+      "activity_id": 260511,
+      "level": 12142,
+      "node_id": 19242,
+      "next_level": 12143
+    },
+    {
+      "activity_id": 260511,
+      "level": 12143,
+      "node_id": 19243,
+      "next_level": 12144
+    },
+    {
+      "activity_id": 260511,
+      "level": 12144,
+      "node_id": 19244,
+      "next_level": 12145
+    },
+    {
+      "activity_id": 260511,
+      "level": 12145,
+      "node_id": 19245,
+      "next_level": 12146
+    },
+    {
+      "activity_id": 260511,
+      "level": 12146,
+      "node_id": 19246,
+      "next_level": 12147
+    },
+    {
+      "activity_id": 260511,
+      "level": 12147,
+      "node_id": 19247,
+      "next_level": 12148
+    },
+    {
+      "activity_id": 260511,
+      "level": 12148,
+      "node_id": 19248,
+      "next_level": 12149
+    },
+    {
+      "activity_id": 260511,
+      "level": 12149,
+      "node_id": 19249,
+      "next_level": 12150
+    },
+    {
+      "activity_id": 260511,
+      "level": 12150,
+      "node_id": 19250,
+      "next_level": 12151
+    },
+    {
+      "activity_id": 260511,
+      "level": 12151,
+      "node_id": 19251,
+      "next_level": 12152
+    },
+    {
+      "activity_id": 260511,
+      "level": 12152,
+      "node_id": 19252,
+      "next_level": 12153
+    },
+    {
+      "activity_id": 260511,
+      "level": 12153,
+      "node_id": 19253,
+      "next_level": 12154
+    },
+    {
+      "activity_id": 260511,
+      "level": 12154,
+      "node_id": 19254,
+      "next_level": 12155
+    },
+    {
+      "activity_id": 260511,
+      "level": 12155,
+      "node_id": 19255,
+      "next_level": 12156
+    },
+    {
+      "activity_id": 260511,
+      "level": 12156,
+      "node_id": 19256,
+      "next_level": 12157
+    },
+    {
+      "activity_id": 260511,
+      "level": 12157,
+      "node_id": 19257,
+      "next_level": 12158
+    },
+    {
+      "activity_id": 260511,
+      "level": 12158,
+      "node_id": 19258,
+      "next_level": 12159
+    },
+    {
+      "activity_id": 260511,
+      "level": 12159,
+      "node_id": 19259,
+      "next_level": 12160
+    },
+    {
+      "activity_id": 260511,
+      "level": 12160,
+      "node_id": 19260,
+      "next_level": 12161
+    },
+    {
+      "activity_id": 260511,
+      "level": 12161,
+      "node_id": 19261,
+      "next_level": 12162
+    },
+    {
+      "activity_id": 260511,
+      "level": 12162,
+      "node_id": 19262,
+      "next_level": 12163
+    },
+    {
+      "activity_id": 260511,
+      "level": 12163,
+      "node_id": 19263,
+      "next_level": 12164
+    },
+    {
+      "activity_id": 260511,
+      "level": 12164,
+      "node_id": 19264,
+      "next_level": 12165
+    },
+    {
+      "activity_id": 260511,
+      "level": 12165,
+      "node_id": 19265,
+      "next_level": 12166
+    },
+    {
+      "activity_id": 260511,
+      "level": 12166,
+      "node_id": 19266,
+      "next_level": 12167
+    },
+    {
+      "activity_id": 260511,
+      "level": 12167,
+      "node_id": 19267,
+      "next_level": 12168
+    },
+    {
+      "activity_id": 260511,
+      "level": 12168,
+      "node_id": 19268,
+      "next_level": 12169
+    },
+    {
+      "activity_id": 260511,
+      "level": 12169,
+      "node_id": 19269,
+      "next_level": 12170
+    },
+    {
+      "activity_id": 260511,
+      "level": 12170,
+      "node_id": 19270,
+      "next_level": 12171
+    },
+    {
+      "activity_id": 260511,
+      "level": 12171,
+      "node_id": 19271,
+      "next_level": 12172
+    },
+    {
+      "activity_id": 260511,
+      "level": 12172,
+      "node_id": 19272,
+      "next_level": 12173
+    },
+    {
+      "activity_id": 260511,
+      "level": 12173,
+      "node_id": 19273,
+      "next_level": 12174
+    },
+    {
+      "activity_id": 260511,
+      "level": 12174,
+      "node_id": 19274,
+      "next_level": 12175
+    },
+    {
+      "activity_id": 260511,
+      "level": 12175,
+      "node_id": 19275,
+      "next_level": 12176
+    },
+    {
+      "activity_id": 260511,
+      "level": 12176,
+      "node_id": 19276,
+      "next_level": 12177
+    },
+    {
+      "activity_id": 260511,
+      "level": 12177,
+      "node_id": 19277,
+      "next_level": 12178
+    },
+    {
+      "activity_id": 260511,
+      "level": 12178,
+      "node_id": 19278,
+      "next_level": 12179
+    },
+    {
+      "activity_id": 260511,
+      "level": 12179,
+      "node_id": 19279,
+      "next_level": 12180
+    },
+    {
+      "activity_id": 260511,
+      "level": 12180,
+      "node_id": 19280,
+      "next_level": 12181
+    },
+    {
+      "activity_id": 260511,
+      "level": 12181,
+      "node_id": 19281,
+      "next_level": 12182
+    },
+    {
+      "activity_id": 260511,
+      "level": 12182,
+      "node_id": 19282,
+      "next_level": 12183
+    },
+    {
+      "activity_id": 260511,
+      "level": 12183,
+      "node_id": 19283,
+      "next_level": 12184
+    },
+    {
+      "activity_id": 260511,
+      "level": 12184,
+      "node_id": 19284,
+      "next_level": 12185
+    },
+    {
+      "activity_id": 260511,
+      "level": 12185,
+      "node_id": 19285,
+      "next_level": 12186
+    },
+    {
+      "activity_id": 260511,
+      "level": 12186,
+      "node_id": 19286,
+      "next_level": 12187
+    },
+    {
+      "activity_id": 260511,
+      "level": 12187,
+      "node_id": 19287,
+      "next_level": 12188
+    },
+    {
+      "activity_id": 260511,
+      "level": 12188,
+      "node_id": 19288,
+      "next_level": 12189
+    },
+    {
+      "activity_id": 260511,
+      "level": 12189,
+      "node_id": 19289,
+      "next_level": 12190
+    },
+    {
+      "activity_id": 260511,
+      "level": 12190,
+      "node_id": 19290,
+      "next_level": 12191
+    },
+    {
+      "activity_id": 260511,
+      "level": 12191,
+      "node_id": 19291,
+      "next_level": 12192
+    },
+    {
+      "activity_id": 260511,
+      "level": 12192,
+      "node_id": 19292,
+      "next_level": 12193
+    },
+    {
+      "activity_id": 260511,
+      "level": 12193,
+      "node_id": 19293,
+      "next_level": 12194
+    },
+    {
+      "activity_id": 260511,
+      "level": 12194,
+      "node_id": 19294,
+      "next_level": 12195
+    },
+    {
+      "activity_id": 260511,
+      "level": 12195,
+      "node_id": 19295,
+      "next_level": 12196
+    },
+    {
+      "activity_id": 260511,
+      "level": 12196,
+      "node_id": 19296,
+      "next_level": 12197
+    },
+    {
+      "activity_id": 260511,
+      "level": 12197,
+      "node_id": 19297,
+      "next_level": 12198
+    },
+    {
+      "activity_id": 260511,
+      "level": 12198,
+      "node_id": 19298,
+      "next_level": 12199
+    },
+    {
+      "activity_id": 260511,
+      "level": 12199,
+      "node_id": 19299,
+      "next_level": 0
+    }
+  ]
+]

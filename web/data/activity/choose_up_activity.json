@@ -1,0 +1,70 @@
+[
+  {
+    "activity_id": 250125,
+    "replace_id": 1001,
+    "base_chest_id": [
+      1004,
+      1005,
+      1006,
+      1007
+    ],
+    "ban_list": {},
+    "choose_type": "chara",
+    "sort": 100,
+    "title_str_id": 5018,
+    "str_id": "5110",
+    "chara_str_id": 5203,
+    "item_str_id": 5207,
+    "img": "chest_2",
+    "title_img": "extendRes/treasurehead/zx.png",
+    "title_img_2": "",
+    "typeset": 4,
+    "enter_animation": "",
+    "special_effect_front": "",
+    "special_effect_back": "",
+    "special_audio": 0,
+    "up_items_type": 1,
+    "up_items": [
+      30580015,
+      30570009,
+      30560007,
+      30505005,
+      30550022
+    ]
+  },
+  {
+    "activity_id": 260215,
+    "replace_id": 1002,
+    "base_chest_id": [
+      1004,
+      1005,
+      1006,
+      1007
+    ],
+    "ban_list": [
+      20000119,
+      20000120
+    ],
+    "choose_type": "chara",
+    "sort": 100,
+    "title_str_id": 5018,
+    "str_id": "5110",
+    "chara_str_id": 5203,
+    "item_str_id": 5206,
+    "img": "chest_2",
+    "title_img": "extendRes/treasurehead/zx.png",
+    "title_img_2": "",
+    "typeset": 4,
+    "enter_animation": "",
+    "special_effect_front": "",
+    "special_effect_back": "",
+    "special_audio": 0,
+    "up_items_type": 1,
+    "up_items": [
+      30520012,
+      30530012,
+      30580027,
+      30570017
+    ]
+  }
+]

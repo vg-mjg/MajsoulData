@@ -1,0 +1,24 @@
+[
+  {
+    "activity_id": 250401,
+    "player_chara_id": 200001,
+    "event_group_id": 25040101,
+    "train_result_fail": 180,
+    "train_result_normal": 270,
+    "train_result_great": 540,
+    "train_cap": 10000,
+    "find_ting_adj": 5,
+    "shunweima_2": 5,
+    "shunweima_3": -5,
+    "shunweima_4": -15,
+    "match_event_cd": 10,
+    "show_arrow_buff": "12001,12002,12004,12005,12014",
+    "add_sub_buff": "12003,12033,12013",
+    "attribute_add_buff": "12032",
+    "arrow_amount_12001": 100,
+    "arrow_amount_12002": 100,
+    "arrow_amount_12004": 100,
+    "arrow_amount_12005": 100,
+    "arrow_amount_12014": 100
+  }
+]

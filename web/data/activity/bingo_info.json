@@ -1,0 +1,39 @@
+[
+  [
+    {
+      "activity_id": 251190,
+      "card_id": 100001,
+      "unlock_day": 0
+    },
+    {
+      "activity_id": 251190,
+      "card_id": 100002,
+      "unlock_day": 1
+    },
+    {
+      "activity_id": 251190,
+      "card_id": 100003,
+      "unlock_day": 2
+    },
+    {
+      "activity_id": 251190,
+      "card_id": 100004,
+      "unlock_day": 3
+    },
+    {
+      "activity_id": 251190,
+      "card_id": 100005,
+      "unlock_day": 4
+    },
+    {
+      "activity_id": 251190,
+      "card_id": 100006,
+      "unlock_day": 5
+    },
+    {
+      "activity_id": 251190,
+      "card_id": 100007,
+      "unlock_day": 6
+    }
+  ]
+]

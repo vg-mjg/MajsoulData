@@ -1,0 +1,74 @@
+[
+  {
+    "attack_level_id": 2512011,
+    "snowball_count": 0,
+    "mp_buff": 0,
+    "cd_buff": 0
+  },
+  {
+    "attack_level_id": 2512012,
+    "snowball_count": 1,
+    "mp_buff": 1,
+    "cd_buff": 0
+  },
+  {
+    "attack_level_id": 2512013,
+    "snowball_count": 2,
+    "mp_buff": 1,
+    "cd_buff": 30
+  },
+  {
+    "attack_level_id": 2512014,
+    "snowball_count": 2,
+    "mp_buff": 2,
+    "cd_buff": 60
+  },
+  {
+    "attack_level_id": 2512021,
+    "snowball_count": 0,
+    "mp_buff": 0,
+    "cd_buff": 0
+  },
+  {
+    "attack_level_id": 2512022,
+    "snowball_count": 1,
+    "mp_buff": 1,
+    "cd_buff": 0
+  },
+  {
+    "attack_level_id": 2512023,
+    "snowball_count": 2,
+    "mp_buff": 1,
+    "cd_buff": 30
+  },
+  {
+    "attack_level_id": 2512024,
+    "snowball_count": 2,
+    "mp_buff": 2,
+    "cd_buff": 60
+  },
+  {
+    "attack_level_id": 2512031,
+    "snowball_count": 0,
+    "mp_buff": 0,
+    "cd_buff": 0
+  },
+  {
+    "attack_level_id": 2512032,
+    "snowball_count": 1,
+    "mp_buff": 1,
+    "cd_buff": 0
+  },
+  {
+    "attack_level_id": 2512033,
+    "snowball_count": 2,
+    "mp_buff": 1,
+    "cd_buff": 30
+  },
+  {
+    "attack_level_id": 2512034,
+    "snowball_count": 2,
+    "mp_buff": 2,
+    "cd_buff": 60
+  }
+]

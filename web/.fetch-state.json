@@ -1,0 +1,25 @@
+{
+  "regions": {
+    "en": {
+      "resource_version": "0.16.191",
+      "bundle_hash": "1fa292a5434acf0e2a773dbd7b363cd7f5348dcc",
+      "manifest_generated_at": "2026-06-06T22:45:23Z"
+    },
+    "cn": {
+      "resource_version": "0.16.230",
+      "bundle_hash": "726c5c44a5794ebf06c7509d129fbda666ae4880",
+      "manifest_generated_at": "2026-06-06T18:47:30Z"
+    },
+    "jp": {
+      "resource_version": "0.16.191",
+      "bundle_hash": "363eb1e2347fc93ce384243a6739bd7e6c8f866f",
+      "manifest_generated_at": "2026-06-06T18:03:48Z"
+    },
+    "kr": {
+      "resource_version": "0.16.191",
+      "bundle_hash": "9d95a0ddab157b26750f8f52ed3800672f1d969b",
+      "manifest_generated_at": "2026-06-06T18:08:02Z"
+    }
+  },
+  "audio_count": 18679
+}

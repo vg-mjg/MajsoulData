@@ -1,0 +1,14 @@
+[
+  {
+    "id": 1,
+    "name": "试炼之道",
+    "ticket_id": 300005,
+    "currency_id": 100002,
+    "currency_count": 10000,
+    "mode": 0,
+    "mode1": 0,
+    "mode2": 0,
+    "init_point": 10000,
+    "back_point": 20000
+  }
+]

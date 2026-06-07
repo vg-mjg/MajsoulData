@@ -1,0 +1,83 @@
+[
+  {
+    "id": 1,
+    "deprecated": 0,
+    "min_value": 19,
+    "max_value": 29,
+    "desc": 26055411,
+    "type": 1,
+    "args": [
+      975,
+      0
+    ]
+  },
+  {
+    "id": 2,
+    "deprecated": 1,
+    "min_value": 24,
+    "max_value": 29,
+    "desc": 26055413,
+    "type": 2,
+    "args": {}
+  },
+  {
+    "id": 3,
+    "deprecated": 0,
+    "min_value": 29,
+    "max_value": 39,
+    "desc": 26055412,
+    "type": 1,
+    "args": [
+      975,
+      1
+    ]
+  },
+  {
+    "id": 4,
+    "deprecated": 0,
+    "min_value": 39,
+    "max_value": 49,
+    "desc": 26055414,
+    "type": 1,
+    "args": [
+      976,
+      0
+    ]
+  },
+  {
+    "id": 5,
+    "deprecated": 0,
+    "min_value": 49,
+    "max_value": 54,
+    "desc": 26055415,
+    "type": 1,
+    "args": [
+      979,
+      0
+    ]
+  },
+  {
+    "id": 6,
+    "deprecated": 0,
+    "min_value": 54,
+    "max_value": 59,
+    "desc": 26055416,
+    "type": 1,
+    "args": [
+      976,
+      1
+    ]
+  },
+  {
+    "id": 7,
+    "deprecated": 0,
+    "min_value": 59,
+    "max_value": 999,
+    "desc": 26055417,
+    "type": 1,
+    "args": [
+      979,
+      1
+    ]
+  }
+]

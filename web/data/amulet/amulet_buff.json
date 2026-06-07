@@ -1,0 +1,698 @@
+[
+  {
+    "id": 901,
+    "type": 1,
+    "deprecated": 0,
+    "common_weight": 50,
+    "ex_weight": 100,
+    "can_stack": 1,
+    "desc": 5550,
+    "invalid_type": 0,
+    "args": [
+      3
+    ]
+  },
+  {
+    "id": 902,
+    "type": 1,
+    "deprecated": 0,
+    "common_weight": 50,
+    "ex_weight": 100,
+    "can_stack": 1,
+    "desc": 5551,
+    "invalid_type": 0,
+    "args": [
+      -5
+    ]
+  },
+  {
+    "id": 903,
+    "type": 1,
+    "deprecated": 0,
+    "common_weight": 0,
+    "ex_weight": 100,
+    "can_stack": 1,
+    "desc": 5552,
+    "invalid_type": 0,
+    "args": [
+      3
+    ]
+  },
+  {
+    "id": 904,
+    "type": 1,
+    "deprecated": 0,
+    "common_weight": 100,
+    "ex_weight": 0,
+    "can_stack": 1,
+    "desc": 5553,
+    "invalid_type": 1,
+    "args": {}
+  },
+  {
+    "id": 905,
+    "type": 1,
+    "deprecated": 0,
+    "common_weight": 100,
+    "ex_weight": 100,
+    "can_stack": 1,
+    "desc": 5554,
+    "invalid_type": 2,
+    "args": {}
+  },
+  {
+    "id": 906,
+    "type": 1,
+    "deprecated": 0,
+    "common_weight": 100,
+    "ex_weight": 100,
+    "can_stack": 1,
+    "desc": 5555,
+    "invalid_type": 3,
+    "args": {}
+  },
+  {
+    "id": 907,
+    "type": 1,
+    "deprecated": 0,
+    "common_weight": 100,
+    "ex_weight": 0,
+    "can_stack": 1,
+    "desc": 5556,
+    "invalid_type": 0,
+    "args": [
+      2,
+      -1
+    ]
+  },
+  {
+    "id": 908,
+    "type": 1,
+    "deprecated": 0,
+    "common_weight": 100,
+    "ex_weight": 100,
+    "can_stack": 1,
+    "desc": 5557,
+    "invalid_type": 0,
+    "args": [
+      1
+    ]
+  },
+  {
+    "id": 909,
+    "type": 1,
+    "deprecated": 0,
+    "common_weight": 0,
+    "ex_weight": 100,
+    "can_stack": 1,
+    "desc": 5558,
+    "invalid_type": 0,
+    "args": [
+      1
+    ]
+  },
+  {
+    "id": 910,
+    "type": 1,
+    "deprecated": 0,
+    "common_weight": 100,
+    "ex_weight": 100,
+    "can_stack": 1,
+    "desc": 5559,
+    "invalid_type": 0,
+    "args": [
+      3
+    ]
+  },
+  {
+    "id": 911,
+    "type": 1,
+    "deprecated": 0,
+    "common_weight": 0,
+    "ex_weight": 0,
+    "can_stack": 1,
+    "desc": 5560,
+    "invalid_type": 0,
+    "args": [
+      1
+    ]
+  },
+  {
+    "id": 912,
+    "type": 1,
+    "deprecated": 0,
+    "common_weight": 50,
+    "ex_weight": 100,
+    "can_stack": 1,
+    "desc": 5561,
+    "invalid_type": 0,
+    "args": [
+      3
+    ]
+  },
+  {
+    "id": 913,
+    "type": 1,
+    "deprecated": 0,
+    "common_weight": 50,
+    "ex_weight": 100,
+    "can_stack": 1,
+    "desc": 5562,
+    "invalid_type": 0,
+    "args": [
+      3
+    ]
+  },
+  {
+    "id": 914,
+    "type": 1,
+    "deprecated": 0,
+    "common_weight": 0,
+    "ex_weight": 100,
+    "can_stack": 1,
+    "desc": 5563,
+    "invalid_type": 0,
+    "args": [
+      1
+    ]
+  },
+  {
+    "id": 915,
+    "type": 1,
+    "deprecated": 0,
+    "common_weight": 0,
+    "ex_weight": 100,
+    "can_stack": 1,
+    "desc": 5564,
+    "invalid_type": 0,
+    "args": {}
+  },
+  {
+    "id": 916,
+    "type": 1,
+    "deprecated": 0,
+    "common_weight": 0,
+    "ex_weight": 100,
+    "can_stack": 1,
+    "desc": 5565,
+    "invalid_type": 0,
+    "args": [
+      3
+    ]
+  },
+  {
+    "id": 917,
+    "type": 1,
+    "deprecated": 0,
+    "common_weight": 100,
+    "ex_weight": 100,
+    "can_stack": 1,
+    "desc": 5566,
+    "invalid_type": 0,
+    "args": [
+      5
+    ]
+  },
+  {
+    "id": 918,
+    "type": 1,
+    "deprecated": 0,
+    "common_weight": 100,
+    "ex_weight": 100,
+    "can_stack": 1,
+    "desc": 5567,
+    "invalid_type": 0,
+    "args": {}
+  },
+  {
+    "id": 919,
+    "type": 1,
+    "deprecated": 0,
+    "common_weight": 100,
+    "ex_weight": 100,
+    "can_stack": 1,
+    "desc": 5568,
+    "invalid_type": 0,
+    "args": {}
+  },
+  {
+    "id": 920,
+    "type": 1,
+    "deprecated": 0,
+    "common_weight": 100,
+    "ex_weight": 100,
+    "can_stack": 1,
+    "desc": 5569,
+    "invalid_type": 0,
+    "args": {}
+  },
+  {
+    "id": 921,
+    "type": 1,
+    "deprecated": 0,
+    "common_weight": 100,
+    "ex_weight": 100,
+    "can_stack": 1,
+    "desc": 5570,
+    "invalid_type": 0,
+    "args": [
+      20
+    ]
+  },
+  {
+    "id": 922,
+    "type": 1,
+    "deprecated": 0,
+    "common_weight": 100,
+    "ex_weight": 100,
+    "can_stack": 1,
+    "desc": 5571,
+    "invalid_type": 0,
+    "args": [
+      1
+    ]
+  },
+  {
+    "id": 923,
+    "type": 1,
+    "deprecated": 0,
+    "common_weight": 100,
+    "ex_weight": 100,
+    "can_stack": 1,
+    "desc": 5572,
+    "invalid_type": 0,
+    "args": {}
+  },
+  {
+    "id": 924,
+    "type": 1,
+    "deprecated": 0,
+    "common_weight": 100,
+    "ex_weight": 100,
+    "can_stack": 1,
+    "desc": 5573,
+    "invalid_type": 0,
+    "args": {}
+  },
+  {
+    "id": 925,
+    "type": 1,
+    "deprecated": 0,
+    "common_weight": 100,
+    "ex_weight": 100,
+    "can_stack": 1,
+    "desc": 5574,
+    "invalid_type": 0,
+    "args": {}
+  },
+  {
+    "id": 926,
+    "type": 1,
+    "deprecated": 0,
+    "common_weight": 100,
+    "ex_weight": 100,
+    "can_stack": 1,
+    "desc": 5575,
+    "invalid_type": 0,
+    "args": [
+      50
+    ]
+  },
+  {
+    "id": 927,
+    "type": 1,
+    "deprecated": 0,
+    "common_weight": 0,
+    "ex_weight": 0,
+    "can_stack": 0,
+    "desc": 5576,
+    "invalid_type": 0,
+    "args": [
+      50
+    ]
+  },
+  {
+    "id": 928,
+    "type": 1,
+    "deprecated": 0,
+    "common_weight": 0,
+    "ex_weight": 0,
+    "can_stack": 0,
+    "desc": 5577,
+    "invalid_type": 0,
+    "args": [
+      200
+    ]
+  },
+  {
+    "id": 8001,
+    "type": 2,
+    "deprecated": 1,
+    "common_weight": 0,
+    "ex_weight": 0,
+    "can_stack": 0,
+    "desc": 0,
+    "invalid_type": 0,
+    "args": {}
+  },
+  {
+    "id": 8002,
+    "type": 2,
+    "deprecated": 0,
+    "common_weight": 0,
+    "ex_weight": 0,
+    "can_stack": 0,
+    "desc": 0,
+    "invalid_type": 0,
+    "args": {}
+  },
+  {
+    "id": 8003,
+    "type": 2,
+    "deprecated": 0,
+    "common_weight": 0,
+    "ex_weight": 0,
+    "can_stack": 0,
+    "desc": 0,
+    "invalid_type": 0,
+    "args": {}
+  },
+  {
+    "id": 8004,
+    "type": 2,
+    "deprecated": 0,
+    "common_weight": 0,
+    "ex_weight": 0,
+    "can_stack": 0,
+    "desc": 0,
+    "invalid_type": 0,
+    "args": {}
+  },
+  {
+    "id": 9010,
+    "type": 3,
+    "deprecated": 0,
+    "common_weight": 0,
+    "ex_weight": 0,
+    "can_stack": 0,
+    "desc": 0,
+    "invalid_type": 0,
+    "args": [
+      0
+    ]
+  },
+  {
+    "id": 9011,
+    "type": 3,
+    "deprecated": 0,
+    "common_weight": 0,
+    "ex_weight": 0,
+    "can_stack": 0,
+    "desc": 0,
+    "invalid_type": 0,
+    "args": [
+      5
+    ]
+  },
+  {
+    "id": 9012,
+    "type": 3,
+    "deprecated": 0,
+    "common_weight": 0,
+    "ex_weight": 0,
+    "can_stack": 0,
+    "desc": 0,
+    "invalid_type": 0,
+    "args": [
+      10
+    ]
+  },
+  {
+    "id": 9013,
+    "type": 3,
+    "deprecated": 0,
+    "common_weight": 0,
+    "ex_weight": 0,
+    "can_stack": 0,
+    "desc": 0,
+    "invalid_type": 0,
+    "args": [
+      15
+    ]
+  },
+  {
+    "id": 9020,
+    "type": 3,
+    "deprecated": 0,
+    "common_weight": 0,
+    "ex_weight": 0,
+    "can_stack": 0,
+    "desc": 0,
+    "invalid_type": 0,
+    "args": [
+      0
+    ]
+  },
+  {
+    "id": 9021,
+    "type": 3,
+    "deprecated": 0,
+    "common_weight": 0,
+    "ex_weight": 0,
+    "can_stack": 0,
+    "desc": 0,
+    "invalid_type": 0,
+    "args": [
+      1
+    ]
+  },
+  {
+    "id": 9022,
+    "type": 3,
+    "deprecated": 0,
+    "common_weight": 0,
+    "ex_weight": 0,
+    "can_stack": 0,
+    "desc": 0,
+    "invalid_type": 0,
+    "args": [
+      2
+    ]
+  },
+  {
+    "id": 9023,
+    "type": 3,
+    "deprecated": 0,
+    "common_weight": 0,
+    "ex_weight": 0,
+    "can_stack": 0,
+    "desc": 0,
+    "invalid_type": 0,
+    "args": [
+      3
+    ]
+  },
+  {
+    "id": 9030,
+    "type": 3,
+    "deprecated": 0,
+    "common_weight": 0,
+    "ex_weight": 0,
+    "can_stack": 0,
+    "desc": 0,
+    "invalid_type": 0,
+    "args": [
+      80,
+      19,
+      1
+    ]
+  },
+  {
+    "id": 9031,
+    "type": 3,
+    "deprecated": 0,
+    "common_weight": 0,
+    "ex_weight": 0,
+    "can_stack": 0,
+    "desc": 0,
+    "invalid_type": 0,
+    "args": [
+      75,
+      22,
+      3
+    ]
+  },
+  {
+    "id": 9032,
+    "type": 3,
+    "deprecated": 0,
+    "common_weight": 0,
+    "ex_weight": 0,
+    "can_stack": 0,
+    "desc": 0,
+    "invalid_type": 0,
+    "args": [
+      70,
+      25,
+      5
+    ]
+  },
+  {
+    "id": 9033,
+    "type": 3,
+    "deprecated": 0,
+    "common_weight": 0,
+    "ex_weight": 0,
+    "can_stack": 0,
+    "desc": 0,
+    "invalid_type": 0,
+    "args": [
+      65,
+      27,
+      8
+    ]
+  },
+  {
+    "id": 9040,
+    "type": 3,
+    "deprecated": 0,
+    "common_weight": 0,
+    "ex_weight": 0,
+    "can_stack": 0,
+    "desc": 0,
+    "invalid_type": 0,
+    "args": [
+      5
+    ]
+  },
+  {
+    "id": 9041,
+    "type": 3,
+    "deprecated": 0,
+    "common_weight": 0,
+    "ex_weight": 0,
+    "can_stack": 0,
+    "desc": 0,
+    "invalid_type": 0,
+    "args": [
+      3
+    ]
+  },
+  {
+    "id": 9042,
+    "type": 3,
+    "deprecated": 0,
+    "common_weight": 0,
+    "ex_weight": 0,
+    "can_stack": 0,
+    "desc": 0,
+    "invalid_type": 0,
+    "args": [
+      2
+    ]
+  },
+  {
+    "id": 9043,
+    "type": 3,
+    "deprecated": 0,
+    "common_weight": 0,
+    "ex_weight": 0,
+    "can_stack": 0,
+    "desc": 0,
+    "invalid_type": 0,
+    "args": [
+      1
+    ]
+  },
+  {
+    "id": 9050,
+    "type": 3,
+    "deprecated": 0,
+    "common_weight": 0,
+    "ex_weight": 0,
+    "can_stack": 0,
+    "desc": 0,
+    "invalid_type": 0,
+    "args": [
+      0
+    ]
+  },
+  {
+    "id": 9051,
+    "type": 3,
+    "deprecated": 0,
+    "common_weight": 0,
+    "ex_weight": 0,
+    "can_stack": 0,
+    "desc": 0,
+    "invalid_type": 0,
+    "args": [
+      1
+    ]
+  },
+  {
+    "id": 9052,
+    "type": 3,
+    "deprecated": 0,
+    "common_weight": 0,
+    "ex_weight": 0,
+    "can_stack": 0,
+    "desc": 0,
+    "invalid_type": 0,
+    "args": [
+      2
+    ]
+  },
+  {
+    "id": 9053,
+    "type": 3,
+    "deprecated": 0,
+    "common_weight": 0,
+    "ex_weight": 0,
+    "can_stack": 0,
+    "desc": 0,
+    "invalid_type": 0,
+    "args": [
+      3
+    ]
+  },
+  {
+    "id": 9060,
+    "type": 3,
+    "deprecated": 0,
+    "common_weight": 0,
+    "ex_weight": 0,
+    "can_stack": 0,
+    "desc": 0,
+    "invalid_type": 0,
+    "args": [
+      0
+    ]
+  },
+  {
+    "id": 9061,
+    "type": 3,
+    "deprecated": 0,
+    "common_weight": 0,
+    "ex_weight": 0,
+    "can_stack": 0,
+    "desc": 0,
+    "invalid_type": 0,
+    "args": [
+      1
+    ]
+  },
+  {
+    "id": 9062,
+    "type": 3,
+    "deprecated": 0,
+    "common_weight": 0,
+    "ex_weight": 0,
+    "can_stack": 0,
+    "desc": 0,
+    "invalid_type": 0,
+    "args": [
+      2
+    ]
+  }
+]

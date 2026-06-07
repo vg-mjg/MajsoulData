@@ -1,0 +1,32 @@
+[
+  {
+    "activity_id": 240301,
+    "follower_amount": 1145,
+    "daily_follower_plus": 1,
+    "intro_text": 2230,
+    "text_max_amount": 100,
+    "text_create_timer": "800-1800",
+    "text_create_weight": "1-20,2-5,3-70,4-5",
+    "rolltext_speed": 3600,
+    "gift_weight": "30900017-50,30900018-30,30900019-15,30900020-5",
+    "rolltext_gift_time": "30900017-5,30900018-10,30900019-20,30900020-30",
+    "key_item_id": 30900016,
+    "face_time_block": "3800-5600",
+    "face_weight": "0-55,1-15,2-15,3-15"
+  },
+  {
+    "activity_id": 260101,
+    "follower_amount": 1145,
+    "daily_follower_plus": 1,
+    "intro_text": 26010001,
+    "text_max_amount": 100,
+    "text_create_timer": "800-1800",
+    "text_create_weight": "1-20,2-5,3-70,4-5",
+    "rolltext_speed": 3600,
+    "gift_weight": "30900017-50,30900018-30,30900019-15,30900020-5",
+    "rolltext_gift_time": "30900017-5,30900018-10,30900019-20,30900020-30",
+    "key_item_id": 30900016,
+    "face_time_block": "3800-5600",
+    "face_weight": "0-55,1-15,2-15,3-15"
+  }
+]

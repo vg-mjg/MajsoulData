@@ -1,0 +1,92 @@
+[
+  {
+    "id": 810001,
+    "base_task": 800001,
+    "deprecated": 0
+  },
+  {
+    "id": 810002,
+    "base_task": 800002,
+    "deprecated": 0
+  },
+  {
+    "id": 810003,
+    "base_task": 800003,
+    "deprecated": 0
+  },
+  {
+    "id": 810004,
+    "base_task": 800004,
+    "deprecated": 0
+  },
+  {
+    "id": 810005,
+    "base_task": 800005,
+    "deprecated": 0
+  },
+  {
+    "id": 810006,
+    "base_task": 800006,
+    "deprecated": 0
+  },
+  {
+    "id": 810011,
+    "base_task": 800007,
+    "deprecated": 0
+  },
+  {
+    "id": 810012,
+    "base_task": 800008,
+    "deprecated": 0
+  },
+  {
+    "id": 810013,
+    "base_task": 800009,
+    "deprecated": 0
+  },
+  {
+    "id": 810014,
+    "base_task": 800010,
+    "deprecated": 0
+  },
+  {
+    "id": 810015,
+    "base_task": 800011,
+    "deprecated": 0
+  },
+  {
+    "id": 810016,
+    "base_task": 800012,
+    "deprecated": 0
+  },
+  {
+    "id": 810021,
+    "base_task": 800013,
+    "deprecated": 0
+  },
+  {
+    "id": 810022,
+    "base_task": 800014,
+    "deprecated": 0
+  },
+  {
+    "id": 810023,
+    "base_task": 800015,
+    "deprecated": 0
+  },
+  {
+    "id": 810024,
+    "base_task": 800016,
+    "deprecated": 0
+  },
+  {
+    "id": 810025,
+    "base_task": 800017,
+    "deprecated": 0
+  },
+  {
+    "id": 810026,
+    "base_task": 800018,
+    "deprecated": 0
+  }
+]

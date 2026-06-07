@@ -1,0 +1,8533 @@
+[
+  [
+    {
+      "selection_id": 100101,
+      "selection_result_id": 1001011,
+      "selection_result_type": 1,
+      "initial_weight": 28,
+      "luk": 0,
+      "tec": 0,
+      "ins": 600,
+      "int": 0,
+      "res": 0,
+      "effect": 0,
+      "buff": {}
+    },
+    {
+      "selection_id": 100101,
+      "selection_result_id": 1001012,
+      "selection_result_type": 2,
+      "initial_weight": 72,
+      "luk": 0,
+      "tec": 0,
+      "ins": 100,
+      "int": 0,
+      "res": 0,
+      "effect": 0,
+      "buff": {}
+    }
+  ],
+  [
+    {
+      "selection_id": 100102,
+      "selection_result_id": 1001021,
+      "selection_result_type": 1,
+      "initial_weight": 20,
+      "luk": 0,
+      "tec": 0,
+      "ins": 0,
+      "int": 0,
+      "res": 400,
+      "effect": 0,
+      "buff": {}
+    },
+    {
+      "selection_id": 100102,
+      "selection_result_id": 1001022,
+      "selection_result_type": 2,
+      "initial_weight": 80,
+      "luk": 0,
+      "tec": 0,
+      "ins": 0,
+      "int": 0,
+      "res": 200,
+      "effect": 0,
+      "buff": {}
+    }
+  ],
+  [
+    {
+      "selection_id": 100103,
+      "selection_result_id": 1001031,
+      "selection_result_type": 1,
+      "initial_weight": 100,
+      "luk": 400,
+      "tec": 0,
+      "ins": 0,
+      "int": 0,
+      "res": 0,
+      "effect": 0,
+      "buff": {}
+    }
+  ],
+  [
+    {
+      "selection_id": 100104,
+      "selection_result_id": 1001041,
+      "selection_result_type": 1,
+      "initial_weight": 100,
+      "luk": 0,
+      "tec": 600,
+      "ins": -200,
+      "int": 0,
+      "res": 0,
+      "effect": 0,
+      "buff": {}
+    }
+  ],
+  [
+    {
+      "selection_id": 100201,
+      "selection_result_id": 1002011,
+      "selection_result_type": 1,
+      "initial_weight": 100,
+      "luk": 200,
+      "tec": 0,
+      "ins": 0,
+      "int": 0,
+      "res": 0,
+      "effect": 0,
+      "buff": {}
+    }
+  ],
+  [
+    {
+      "selection_id": 100202,
+      "selection_result_id": 1002021,
+      "selection_result_type": 1,
+      "initial_weight": 100,
+      "luk": 0,
+      "tec": 0,
+      "ins": 400,
+      "int": 0,
+      "res": 0,
+      "effect": 0,
+      "buff": {}
+    }
+  ],
+  [
+    {
+      "selection_id": 100203,
+      "selection_result_id": 1002031,
+      "selection_result_type": 1,
+      "initial_weight": 28,
+      "luk": 0,
+      "tec": 0,
+      "ins": 0,
+      "int": 0,
+      "res": 0,
+      "effect": 9001,
+      "buff": {}
+    },
+    {
+      "selection_id": 100203,
+      "selection_result_id": 1002032,
+      "selection_result_type": 2,
+      "initial_weight": 72,
+      "luk": 0,
+      "tec": 0,
+      "ins": 0,
+      "int": 200,
+      "res": 0,
+      "effect": 0,
+      "buff": {}
+    }
+  ],
+  [
+    {
+      "selection_id": 100204,
+      "selection_result_id": 1002041,
+      "selection_result_type": 1,
+      "initial_weight": 100,
+      "luk": 300,
+      "tec": 0,
+      "ins": 0,
+      "int": 200,
+      "res": 0,
+      "effect": 0,
+      "buff": {}
+    }
+  ],
+  [
+    {
+      "selection_id": 100301,
+      "selection_result_id": 1003011,
+      "selection_result_type": 1,
+      "initial_weight": 12,
+      "luk": 0,
+      "tec": 0,
+      "ins": 500,
+      "int": 0,
+      "res": 0,
+      "effect": 0,
+      "buff": {}
+    },
+    {
+      "selection_id": 100301,
+      "selection_result_id": 1003012,
+      "selection_result_type": 2,
+      "initial_weight": 88,
+      "luk": 0,
+      "tec": 0,
+      "ins": 200,
+      "int": 0,
+      "res": 0,
+      "effect": 0,
+      "buff": {}
+    }
+  ],
+  [
+    {
+      "selection_id": 100302,
+      "selection_result_id": 1003021,
+      "selection_result_type": 1,
+      "initial_weight": 20,
+      "luk": 0,
+      "tec": 0,
+      "ins": 0,
+      "int": 400,
+      "res": 0,
+      "effect": 0,
+      "buff": {}
+    },
+    {
+      "selection_id": 100302,
+      "selection_result_id": 1003022,
+      "selection_result_type": 2,
+      "initial_weight": 80,
+      "luk": 0,
+      "tec": 0,
+      "ins": 0,
+      "int": 200,
+      "res": 0,
+      "effect": 0,
+      "buff": {}
+    }
+  ],
+  [
+    {
+      "selection_id": 100303,
+      "selection_result_id": 1003031,
+      "selection_result_type": 1,
+      "initial_weight": 100,
+      "luk": 0,
+      "tec": 500,
+      "ins": 0,
+      "int": 0,
+      "res": 0,
+      "effect": 0,
+      "buff": {}
+    }
+  ],
+  [
+    {
+      "selection_id": 100304,
+      "selection_result_id": 1003041,
+      "selection_result_type": 1,
+      "initial_weight": 100,
+      "luk": 500,
+      "tec": 0,
+      "ins": 0,
+      "int": 0,
+      "res": 0,
+      "effect": 0,
+      "buff": {}
+    }
+  ],
+  [
+    {
+      "selection_id": 100401,
+      "selection_result_id": 1004011,
+      "selection_result_type": 1,
+      "initial_weight": 100,
+      "luk": 0,
+      "tec": 0,
+      "ins": 0,
+      "int": 200,
+      "res": 300,
+      "effect": 0,
+      "buff": {}
+    }
+  ],
+  [
+    {
+      "selection_id": 100402,
+      "selection_result_id": 1004021,
+      "selection_result_type": 1,
+      "initial_weight": 100,
+      "luk": 0,
+      "tec": 0,
+      "ins": 300,
+      "int": 0,
+      "res": 0,
+      "effect": 0,
+      "buff": {}
+    }
+  ],
+  [
+    {
+      "selection_id": 100403,
+      "selection_result_id": 1004031,
+      "selection_result_type": 1,
+      "initial_weight": 20,
+      "luk": 0,
+      "tec": 1000,
+      "ins": 0,
+      "int": 0,
+      "res": 0,
+      "effect": 0,
+      "buff": {}
+    },
+    {
+      "selection_id": 100403,
+      "selection_result_id": 1004032,
+      "selection_result_type": 2,
+      "initial_weight": 80,
+      "luk": 0,
+      "tec": 100,
+      "ins": 0,
+      "int": 0,
+      "res": 0,
+      "effect": 0,
+      "buff": {}
+    }
+  ],
+  [
+    {
+      "selection_id": 100404,
+      "selection_result_id": 1004041,
+      "selection_result_type": 1,
+      "initial_weight": 100,
+      "luk": 0,
+      "tec": 0,
+      "ins": 200,
+      "int": 0,
+      "res": 300,
+      "effect": 0,
+      "buff": {}
+    }
+  ],
+  [
+    {
+      "selection_id": 100501,
+      "selection_result_id": 1005011,
+      "selection_result_type": 1,
+      "initial_weight": 100,
+      "luk": 0,
+      "tec": 0,
+      "ins": 300,
+      "int": 0,
+      "res": 200,
+      "effect": 0,
+      "buff": {}
+    }
+  ],
+  [
+    {
+      "selection_id": 100502,
+      "selection_result_id": 1005021,
+      "selection_result_type": 1,
+      "initial_weight": 20,
+      "luk": 0,
+      "tec": 400,
+      "ins": 0,
+      "int": 0,
+      "res": 0,
+      "effect": 0,
+      "buff": {}
+    },
+    {
+      "selection_id": 100502,
+      "selection_result_id": 1005022,
+      "selection_result_type": 2,
+      "initial_weight": 80,
+      "luk": 0,
+      "tec": 200,
+      "ins": 0,
+      "int": 0,
+      "res": 0,
+      "effect": 0,
+      "buff": {}
+    }
+  ],
+  [
+    {
+      "selection_id": 100503,
+      "selection_result_id": 1005031,
+      "selection_result_type": 1,
+      "initial_weight": 28,
+      "luk": 0,
+      "tec": 0,
+      "ins": 0,
+      "int": 0,
+      "res": 0,
+      "effect": 9013,
+      "buff": {}
+    },
+    {
+      "selection_id": 100503,
+      "selection_result_id": 1005032,
+      "selection_result_type": 2,
+      "initial_weight": 72,
+      "luk": 0,
+      "tec": 100,
+      "ins": 0,
+      "int": 0,
+      "res": 0,
+      "effect": 0,
+      "buff": {}
+    }
+  ],
+  [
+    {
+      "selection_id": 100504,
+      "selection_result_id": 1005041,
+      "selection_result_type": 1,
+      "initial_weight": 100,
+      "luk": 0,
+      "tec": 200,
+      "ins": 300,
+      "int": 0,
+      "res": 0,
+      "effect": 0,
+      "buff": {}
+    }
+  ],
+  [
+    {
+      "selection_id": 100505,
+      "selection_result_id": 1005051,
+      "selection_result_type": 1,
+      "initial_weight": 100,
+      "luk": 0,
+      "tec": 0,
+      "ins": 0,
+      "int": 0,
+      "res": 500,
+      "effect": 0,
+      "buff": {}
+    }
+  ],
+  [
+    {
+      "selection_id": 100601,
+      "selection_result_id": 1006011,
+      "selection_result_type": 1,
+      "initial_weight": 28,
+      "luk": 0,
+      "tec": 0,
+      "ins": 400,
+      "int": 0,
+      "res": 0,
+      "effect": 0,
+      "buff": {}
+    },
+    {
+      "selection_id": 100601,
+      "selection_result_id": 1006012,
+      "selection_result_type": 2,
+      "initial_weight": 72,
+      "luk": 0,
+      "tec": 0,
+      "ins": 200,
+      "int": 0,
+      "res": 0,
+      "effect": 0,
+      "buff": {}
+    }
+  ],
+  [
+    {
+      "selection_id": 100602,
+      "selection_result_id": 1006021,
+      "selection_result_type": 1,
+      "initial_weight": 20,
+      "luk": 400,
+      "tec": 0,
+      "ins": 0,
+      "int": 0,
+      "res": 0,
+      "effect": 0,
+      "buff": {}
+    },
+    {
+      "selection_id": 100602,
+      "selection_result_id": 1006022,
+      "selection_result_type": 2,
+      "initial_weight": 80,
+      "luk": 200,
+      "tec": 0,
+      "ins": 0,
+      "int": 0,
+      "res": 0,
+      "effect": 0,
+      "buff": {}
+    }
+  ],
+  [
+    {
+      "selection_id": 100603,
+      "selection_result_id": 1006031,
+      "selection_result_type": 1,
+      "initial_weight": 100,
+      "luk": 300,
+      "tec": 0,
+      "ins": 200,
+      "int": 0,
+      "res": 0,
+      "effect": 0,
+      "buff": {}
+    }
+  ],
+  [
+    {
+      "selection_id": 100604,
+      "selection_result_id": 1006041,
+      "selection_result_type": 1,
+      "initial_weight": 100,
+      "luk": 0,
+      "tec": 200,
+      "ins": 0,
+      "int": 0,
+      "res": 300,
+      "effect": 0,
+      "buff": {}
+    }
+  ],
+  [
+    {
+      "selection_id": 100701,
+      "selection_result_id": 1007011,
+      "selection_result_type": 1,
+      "initial_weight": 12,
+      "luk": 0,
+      "tec": 0,
+      "ins": 0,
+      "int": 0,
+      "res": 1000,
+      "effect": 0,
+      "buff": {}
+    },
+    {
+      "selection_id": 100701,
+      "selection_result_id": 1007012,
+      "selection_result_type": 2,
+      "initial_weight": 88,
+      "luk": 0,
+      "tec": 0,
+      "ins": -700,
+      "int": 0,
+      "res": 1000,
+      "effect": 0,
+      "buff": {}
+    }
+  ],
+  [
+    {
+      "selection_id": 100702,
+      "selection_result_id": 1007021,
+      "selection_result_type": 1,
+      "initial_weight": 20,
+      "luk": 0,
+      "tec": 700,
+      "ins": 0,
+      "int": 0,
+      "res": 0,
+      "effect": 0,
+      "buff": {}
+    },
+    {
+      "selection_id": 100702,
+      "selection_result_id": 1007022,
+      "selection_result_type": 2,
+      "initial_weight": 80,
+      "luk": 0,
+      "tec": 700,
+      "ins": 0,
+      "int": 0,
+      "res": -400,
+      "effect": 0,
+      "buff": {}
+    }
+  ],
+  [
+    {
+      "selection_id": 100703,
+      "selection_result_id": 1007031,
+      "selection_result_type": 1,
+      "initial_weight": 100,
+      "luk": 300,
+      "tec": 0,
+      "ins": 0,
+      "int": 0,
+      "res": 0,
+      "effect": 0,
+      "buff": {}
+    }
+  ],
+  [
+    {
+      "selection_id": 100704,
+      "selection_result_id": 1007041,
+      "selection_result_type": 1,
+      "initial_weight": 100,
+      "luk": 0,
+      "tec": 200,
+      "ins": 0,
+      "int": 0,
+      "res": 300,
+      "effect": 0,
+      "buff": {}
+    }
+  ],
+  [
+    {
+      "selection_id": 100705,
+      "selection_result_id": 1007051,
+      "selection_result_type": 1,
+      "initial_weight": 100,
+      "luk": 0,
+      "tec": 0,
+      "ins": 200,
+      "int": 300,
+      "res": 0,
+      "effect": 0,
+      "buff": {}
+    }
+  ],
+  [
+    {
+      "selection_id": 100801,
+      "selection_result_id": 1008011,
+      "selection_result_type": 1,
+      "initial_weight": 20,
+      "luk": 0,
+      "tec": 0,
+      "ins": -200,
+      "int": 800,
+      "res": 0,
+      "effect": 0,
+      "buff": {}
+    },
+    {
+      "selection_id": 100801,
+      "selection_result_id": 1008012,
+      "selection_result_type": 2,
+      "initial_weight": 80,
+      "luk": 0,
+      "tec": 0,
+      "ins": -200,
+      "int": 400,
+      "res": 0,
+      "effect": 0,
+      "buff": {}
+    }
+  ],
+  [
+    {
+      "selection_id": 100802,
+      "selection_result_id": 1008021,
+      "selection_result_type": 1,
+      "initial_weight": 100,
+      "luk": 0,
+      "tec": 0,
+      "ins": 500,
+      "int": 0,
+      "res": 0,
+      "effect": 0,
+      "buff": {}
+    }
+  ],
+  [
+    {
+      "selection_id": 100803,
+      "selection_result_id": 1008031,
+      "selection_result_type": 1,
+      "initial_weight": 20,
+      "luk": 0,
+      "tec": 400,
+      "ins": 0,
+      "int": 0,
+      "res": 0,
+      "effect": 0,
+      "buff": {}
+    },
+    {
+      "selection_id": 100803,
+      "selection_result_id": 1008032,
+      "selection_result_type": 2,
+      "initial_weight": 80,
+      "luk": 0,
+      "tec": 200,
+      "ins": 0,
+      "int": 0,
+      "res": 0,
+      "effect": 0,
+      "buff": {}
+    }
+  ],
+  [
+    {
+      "selection_id": 100804,
+      "selection_result_id": 1008041,
+      "selection_result_type": 1,
+      "initial_weight": 100,
+      "luk": 0,
+      "tec": 500,
+      "ins": 0,
+      "int": 0,
+      "res": 0,
+      "effect": 0,
+      "buff": {}
+    }
+  ],
+  [
+    {
+      "selection_id": 100901,
+      "selection_result_id": 1009011,
+      "selection_result_type": 1,
+      "initial_weight": 20,
+      "luk": 0,
+      "tec": 0,
+      "ins": 0,
+      "int": 0,
+      "res": 500,
+      "effect": 0,
+      "buff": {}
+    },
+    {
+      "selection_id": 100901,
+      "selection_result_id": 1009012,
+      "selection_result_type": 2,
+      "initial_weight": 80,
+      "luk": 0,
+      "tec": 0,
+      "ins": 0,
+      "int": 0,
+      "res": 200,
+      "effect": 0,
+      "buff": {}
+    }
+  ],
+  [
+    {
+      "selection_id": 100902,
+      "selection_result_id": 1009021,
+      "selection_result_type": 1,
+      "initial_weight": 28,
+      "luk": 0,
+      "tec": 0,
+      "ins": 0,
+      "int": 600,
+      "res": -100,
+      "effect": 0,
+      "buff": {}
+    },
+    {
+      "selection_id": 100902,
+      "selection_result_id": 1009022,
+      "selection_result_type": 2,
+      "initial_weight": 72,
+      "luk": 0,
+      "tec": 0,
+      "ins": 0,
+      "int": 300,
+      "res": -100,
+      "effect": 0,
+      "buff": {}
+    }
+  ],
+  [
+    {
+      "selection_id": 100903,
+      "selection_result_id": 1009031,
+      "selection_result_type": 1,
+      "initial_weight": 100,
+      "luk": 0,
+      "tec": 0,
+      "ins": 0,
+      "int": 0,
+      "res": 500,
+      "effect": 0,
+      "buff": {}
+    }
+  ],
+  [
+    {
+      "selection_id": 100904,
+      "selection_result_id": 1009041,
+      "selection_result_type": 1,
+      "initial_weight": 100,
+      "luk": 500,
+      "tec": 0,
+      "ins": 0,
+      "int": 0,
+      "res": 0,
+      "effect": 0,
+      "buff": {}
+    }
+  ],
+  [
+    {
+      "selection_id": 100905,
+      "selection_result_id": 1009051,
+      "selection_result_type": 1,
+      "initial_weight": 100,
+      "luk": 0,
+      "tec": 500,
+      "ins": 0,
+      "int": 0,
+      "res": 0,
+      "effect": 0,
+      "buff": {}
+    }
+  ],
+  [
+    {
+      "selection_id": 101001,
+      "selection_result_id": 1010011,
+      "selection_result_type": 1,
+      "initial_weight": 20,
+      "luk": 0,
+      "tec": 0,
+      "ins": 400,
+      "int": 0,
+      "res": 0,
+      "effect": 0,
+      "buff": {}
+    },
+    {
+      "selection_id": 101001,
+      "selection_result_id": 1010012,
+      "selection_result_type": 2,
+      "initial_weight": 80,
+      "luk": 0,
+      "tec": 0,
+      "ins": 200,
+      "int": 0,
+      "res": 0,
+      "effect": 0,
+      "buff": {}
+    }
+  ],
+  [
+    {
+      "selection_id": 101002,
+      "selection_result_id": 1010021,
+      "selection_result_type": 1,
+      "initial_weight": 20,
+      "luk": 0,
+      "tec": 0,
+      "ins": 0,
+      "int": 400,
+      "res": 0,
+      "effect": 0,
+      "buff": {}
+    },
+    {
+      "selection_id": 101002,
+      "selection_result_id": 1010022,
+      "selection_result_type": 2,
+      "initial_weight": 80,
+      "luk": 0,
+      "tec": 0,
+      "ins": 0,
+      "int": 400,
+      "res": -200,
+      "effect": 0,
+      "buff": {}
+    }
+  ],
+  [
+    {
+      "selection_id": 101003,
+      "selection_result_id": 1010031,
+      "selection_result_type": 1,
+      "initial_weight": 100,
+      "luk": 0,
+      "tec": 500,
+      "ins": 0,
+      "int": 0,
+      "res": 0,
+      "effect": 0,
+      "buff": {}
+    }
+  ],
+  [
+    {
+      "selection_id": 101004,
+      "selection_result_id": 1010041,
+      "selection_result_type": 1,
+      "initial_weight": 100,
+      "luk": 500,
+      "tec": 0,
+      "ins": 0,
+      "int": 0,
+      "res": 0,
+      "effect": 0,
+      "buff": {}
+    }
+  ],
+  [
+    {
+      "selection_id": 101101,
+      "selection_result_id": 1011011,
+      "selection_result_type": 1,
+      "initial_weight": 20,
+      "luk": 0,
+      "tec": 400,
+      "ins": 0,
+      "int": 0,
+      "res": 0,
+      "effect": 0,
+      "buff": {}
+    },
+    {
+      "selection_id": 101101,
+      "selection_result_id": 1011012,
+      "selection_result_type": 2,
+      "initial_weight": 80,
+      "luk": 0,
+      "tec": 200,
+      "ins": 0,
+      "int": 0,
+      "res": 0,
+      "effect": 0,
+      "buff": {}
+    }
+  ],
+  [
+    {
+      "selection_id": 101102,
+      "selection_result_id": 1011021,
+      "selection_result_type": 1,
+      "initial_weight": 28,
+      "luk": 0,
+      "tec": 0,
+      "ins": 0,
+      "int": 0,
+      "res": 0,
+      "effect": 9017,
+      "buff": {}
+    },
+    {
+      "selection_id": 101102,
+      "selection_result_id": 1011022,
+      "selection_result_type": 2,
+      "initial_weight": 72,
+      "luk": 100,
+      "tec": 0,
+      "ins": 0,
+      "int": 0,
+      "res": 0,
+      "effect": 0,
+      "buff": {}
+    }
+  ],
+  [
+    {
+      "selection_id": 101103,
+      "selection_result_id": 1011031,
+      "selection_result_type": 1,
+      "initial_weight": 100,
+      "luk": 0,
+      "tec": 300,
+      "ins": 0,
+      "int": 0,
+      "res": 200,
+      "effect": 0,
+      "buff": {}
+    }
+  ],
+  [
+    {
+      "selection_id": 101104,
+      "selection_result_id": 1011041,
+      "selection_result_type": 1,
+      "initial_weight": 100,
+      "luk": 300,
+      "tec": 0,
+      "ins": 0,
+      "int": 200,
+      "res": 0,
+      "effect": 0,
+      "buff": {}
+    }
+  ],
+  [
+    {
+      "selection_id": 101201,
+      "selection_result_id": 1012011,
+      "selection_result_type": 1,
+      "initial_weight": 28,
+      "luk": 0,
+      "tec": 0,
+      "ins": 0,
+      "int": 400,
+      "res": 0,
+      "effect": 0,
+      "buff": {}
+    },
+    {
+      "selection_id": 101201,
+      "selection_result_id": 1012012,
+      "selection_result_type": 2,
+      "initial_weight": 72,
+      "luk": 0,
+      "tec": 0,
+      "ins": 0,
+      "int": 200,
+      "res": 0,
+      "effect": 0,
+      "buff": {}
+    }
+  ],
+  [
+    {
+      "selection_id": 101202,
+      "selection_result_id": 1012021,
+      "selection_result_type": 1,
+      "initial_weight": 28,
+      "luk": 0,
+      "tec": 400,
+      "ins": 0,
+      "int": 0,
+      "res": 0,
+      "effect": 0,
+      "buff": {}
+    },
+    {
+      "selection_id": 101202,
+      "selection_result_id": 1012022,
+      "selection_result_type": 2,
+      "initial_weight": 72,
+      "luk": 0,
+      "tec": 200,
+      "ins": 0,
+      "int": 0,
+      "res": 0,
+      "effect": 0,
+      "buff": {}
+    }
+  ],
+  [
+    {
+      "selection_id": 101203,
+      "selection_result_id": 1012031,
+      "selection_result_type": 1,
+      "initial_weight": 28,
+      "luk": 0,
+      "tec": 0,
+      "ins": 0,
+      "int": 0,
+      "res": 400,
+      "effect": 0,
+      "buff": {}
+    },
+    {
+      "selection_id": 101203,
+      "selection_result_id": 1012032,
+      "selection_result_type": 2,
+      "initial_weight": 72,
+      "luk": 0,
+      "tec": 0,
+      "ins": 0,
+      "int": 0,
+      "res": 200,
+      "effect": 0,
+      "buff": {}
+    }
+  ],
+  [
+    {
+      "selection_id": 101204,
+      "selection_result_id": 1012041,
+      "selection_result_type": 1,
+      "initial_weight": 100,
+      "luk": 0,
+      "tec": 0,
+      "ins": 0,
+      "int": 500,
+      "res": 0,
+      "effect": 0,
+      "buff": {}
+    }
+  ],
+  [
+    {
+      "selection_id": 101205,
+      "selection_result_id": 1012051,
+      "selection_result_type": 1,
+      "initial_weight": 100,
+      "luk": 0,
+      "tec": 0,
+      "ins": 0,
+      "int": 0,
+      "res": 500,
+      "effect": 0,
+      "buff": {}
+    }
+  ],
+  [
+    {
+      "selection_id": 101301,
+      "selection_result_id": 1013011,
+      "selection_result_type": 1,
+      "initial_weight": 28,
+      "luk": 0,
+      "tec": -200,
+      "ins": 0,
+      "int": 600,
+      "res": 0,
+      "effect": 0,
+      "buff": {}
+    },
+    {
+      "selection_id": 101301,
+      "selection_result_id": 1013012,
+      "selection_result_type": 2,
+      "initial_weight": 72,
+      "luk": 0,
+      "tec": -200,
+      "ins": 0,
+      "int": 400,
+      "res": 0,
+      "effect": 0,
+      "buff": {}
+    }
+  ],
+  [
+    {
+      "selection_id": 101302,
+      "selection_result_id": 1013021,
+      "selection_result_type": 1,
+      "initial_weight": 28,
+      "luk": 0,
+      "tec": 0,
+      "ins": 0,
+      "int": 0,
+      "res": 0,
+      "effect": 9013,
+      "buff": {}
+    },
+    {
+      "selection_id": 101302,
+      "selection_result_id": 1013022,
+      "selection_result_type": 2,
+      "initial_weight": 72,
+      "luk": 0,
+      "tec": 100,
+      "ins": 0,
+      "int": 0,
+      "res": 0,
+      "effect": 0,
+      "buff": {}
+    }
+  ],
+  [
+    {
+      "selection_id": 101304,
+      "selection_result_id": 1013041,
+      "selection_result_type": 1,
+      "initial_weight": 100,
+      "luk": 0,
+      "tec": -200,
+      "ins": 0,
+      "int": 0,
+      "res": 1000,
+      "effect": 0,
+      "buff": {}
+    }
+  ],
+  [
+    {
+      "selection_id": 101305,
+      "selection_result_id": 1013051,
+      "selection_result_type": 1,
+      "initial_weight": 100,
+      "luk": 500,
+      "tec": 0,
+      "ins": 0,
+      "int": 0,
+      "res": 0,
+      "effect": 0,
+      "buff": {}
+    }
+  ],
+  [
+    {
+      "selection_id": 101401,
+      "selection_result_id": 1014011,
+      "selection_result_type": 1,
+      "initial_weight": 12,
+      "luk": 0,
+      "tec": 0,
+      "ins": 400,
+      "int": 0,
+      "res": 0,
+      "effect": 0,
+      "buff": {}
+    },
+    {
+      "selection_id": 101401,
+      "selection_result_id": 1014012,
+      "selection_result_type": 2,
+      "initial_weight": 88,
+      "luk": 0,
+      "tec": 0,
+      "ins": 200,
+      "int": 0,
+      "res": 0,
+      "effect": 0,
+      "buff": {}
+    }
+  ],
+  [
+    {
+      "selection_id": 101402,
+      "selection_result_id": 1014021,
+      "selection_result_type": 1,
+      "initial_weight": 12,
+      "luk": 0,
+      "tec": 400,
+      "ins": 0,
+      "int": 0,
+      "res": 0,
+      "effect": 0,
+      "buff": {}
+    },
+    {
+      "selection_id": 101402,
+      "selection_result_id": 1014022,
+      "selection_result_type": 2,
+      "initial_weight": 88,
+      "luk": 0,
+      "tec": 200,
+      "ins": 0,
+      "int": 0,
+      "res": 0,
+      "effect": 0,
+      "buff": {}
+    }
+  ],
+  [
+    {
+      "selection_id": 101403,
+      "selection_result_id": 1014031,
+      "selection_result_type": 1,
+      "initial_weight": 100,
+      "luk": 0,
+      "tec": 300,
+      "ins": 200,
+      "int": 0,
+      "res": 0,
+      "effect": 0,
+      "buff": {}
+    }
+  ],
+  [
+    {
+      "selection_id": 101404,
+      "selection_result_id": 1014041,
+      "selection_result_type": 1,
+      "initial_weight": 100,
+      "luk": 0,
+      "tec": 0,
+      "ins": 0,
+      "int": 0,
+      "res": 500,
+      "effect": 0,
+      "buff": {}
+    }
+  ],
+  [
+    {
+      "selection_id": 101405,
+      "selection_result_id": 1014051,
+      "selection_result_type": 1,
+      "initial_weight": 100,
+      "luk": 500,
+      "tec": 0,
+      "ins": 0,
+      "int": 0,
+      "res": 0,
+      "effect": 0,
+      "buff": {}
+    }
+  ],
+  [
+    {
+      "selection_id": 101501,
+      "selection_result_id": 1015011,
+      "selection_result_type": 1,
+      "initial_weight": 28,
+      "luk": 0,
+      "tec": 300,
+      "ins": 0,
+      "int": 100,
+      "res": 0,
+      "effect": 0,
+      "buff": {}
+    },
+    {
+      "selection_id": 101501,
+      "selection_result_id": 1015012,
+      "selection_result_type": 2,
+      "initial_weight": 72,
+      "luk": 0,
+      "tec": 200,
+      "ins": 0,
+      "int": 0,
+      "res": 0,
+      "effect": 0,
+      "buff": {}
+    }
+  ],
+  [
+    {
+      "selection_id": 101502,
+      "selection_result_id": 1015021,
+      "selection_result_type": 1,
+      "initial_weight": 28,
+      "luk": 0,
+      "tec": 0,
+      "ins": 0,
+      "int": 0,
+      "res": 0,
+      "effect": 9007,
+      "buff": {}
+    },
+    {
+      "selection_id": 101502,
+      "selection_result_id": 1015022,
+      "selection_result_type": 2,
+      "initial_weight": 72,
+      "luk": 0,
+      "tec": 0,
+      "ins": 100,
+      "int": 0,
+      "res": 0,
+      "effect": 0,
+      "buff": {}
+    }
+  ],
+  [
+    {
+      "selection_id": 101503,
+      "selection_result_id": 1015031,
+      "selection_result_type": 1,
+      "initial_weight": 28,
+      "luk": 0,
+      "tec": 0,
+      "ins": 400,
+      "int": 0,
+      "res": 0,
+      "effect": 0,
+      "buff": {}
+    },
+    {
+      "selection_id": 101503,
+      "selection_result_id": 1015032,
+      "selection_result_type": 2,
+      "initial_weight": 72,
+      "luk": 0,
+      "tec": 0,
+      "ins": 200,
+      "int": 0,
+      "res": 0,
+      "effect": 0,
+      "buff": {}
+    }
+  ],
+  [
+    {
+      "selection_id": 101504,
+      "selection_result_id": 1015041,
+      "selection_result_type": 1,
+      "initial_weight": 100,
+      "luk": 0,
+      "tec": 0,
+      "ins": 300,
+      "int": 0,
+      "res": 200,
+      "effect": 0,
+      "buff": {}
+    }
+  ],
+  [
+    {
+      "selection_id": 101505,
+      "selection_result_id": 1015051,
+      "selection_result_type": 1,
+      "initial_weight": 100,
+      "luk": 0,
+      "tec": 1000,
+      "ins": 0,
+      "int": 0,
+      "res": 0,
+      "effect": 0,
+      "buff": {}
+    }
+  ],
+  [
+    {
+      "selection_id": 101601,
+      "selection_result_id": 1016011,
+      "selection_result_type": 1,
+      "initial_weight": 20,
+      "luk": 0,
+      "tec": 0,
+      "ins": 400,
+      "int": 0,
+      "res": 0,
+      "effect": 0,
+      "buff": {}
+    },
+    {
+      "selection_id": 101601,
+      "selection_result_id": 1016012,
+      "selection_result_type": 2,
+      "initial_weight": 80,
+      "luk": 0,
+      "tec": 0,
+      "ins": 200,
+      "int": 0,
+      "res": 0,
+      "effect": 0,
+      "buff": {}
+    }
+  ],
+  [
+    {
+      "selection_id": 101602,
+      "selection_result_id": 1016021,
+      "selection_result_type": 1,
+      "initial_weight": 100,
+      "luk": 0,
+      "tec": -500,
+      "ins": 0,
+      "int": 0,
+      "res": 0,
+      "effect": 9012,
+      "buff": {}
+    }
+  ],
+  [
+    {
+      "selection_id": 101603,
+      "selection_result_id": 1016031,
+      "selection_result_type": 1,
+      "initial_weight": 28,
+      "luk": 0,
+      "tec": 0,
+      "ins": -200,
+      "int": 800,
+      "res": 0,
+      "effect": 0,
+      "buff": {}
+    },
+    {
+      "selection_id": 101603,
+      "selection_result_id": 1016032,
+      "selection_result_type": 2,
+      "initial_weight": 72,
+      "luk": 0,
+      "tec": 0,
+      "ins": -200,
+      "int": 300,
+      "res": 0,
+      "effect": 0,
+      "buff": {}
+    }
+  ],
+  [
+    {
+      "selection_id": 101604,
+      "selection_result_id": 1016041,
+      "selection_result_type": 1,
+      "initial_weight": 100,
+      "luk": 0,
+      "tec": 300,
+      "ins": 0,
+      "int": 0,
+      "res": 200,
+      "effect": 0,
+      "buff": {}
+    }
+  ],
+  [
+    {
+      "selection_id": 101605,
+      "selection_result_id": 1016051,
+      "selection_result_type": 1,
+      "initial_weight": 100,
+      "luk": 500,
+      "tec": 0,
+      "ins": 0,
+      "int": 0,
+      "res": 0,
+      "effect": 0,
+      "buff": {}
+    }
+  ],
+  [
+    {
+      "selection_id": 101701,
+      "selection_result_id": 1017011,
+      "selection_result_type": 1,
+      "initial_weight": 100,
+      "luk": -500,
+      "tec": 0,
+      "ins": 0,
+      "int": 0,
+      "res": 0,
+      "effect": 9016,
+      "buff": {}
+    }
+  ],
+  [
+    {
+      "selection_id": 101702,
+      "selection_result_id": 1017021,
+      "selection_result_type": 1,
+      "initial_weight": 100,
+      "luk": 0,
+      "tec": 0,
+      "ins": 500,
+      "int": 0,
+      "res": 0,
+      "effect": 0,
+      "buff": {}
+    }
+  ],
+  [
+    {
+      "selection_id": 101703,
+      "selection_result_id": 1017031,
+      "selection_result_type": 1,
+      "initial_weight": 28,
+      "luk": 0,
+      "tec": 0,
+      "ins": 0,
+      "int": 400,
+      "res": 0,
+      "effect": 0,
+      "buff": {}
+    },
+    {
+      "selection_id": 101703,
+      "selection_result_id": 1017032,
+      "selection_result_type": 2,
+      "initial_weight": 72,
+      "luk": 0,
+      "tec": 0,
+      "ins": 0,
+      "int": 200,
+      "res": 0,
+      "effect": 0,
+      "buff": {}
+    }
+  ],
+  [
+    {
+      "selection_id": 101704,
+      "selection_result_id": 1017041,
+      "selection_result_type": 1,
+      "initial_weight": 100,
+      "luk": 0,
+      "tec": 0,
+      "ins": 0,
+      "int": 0,
+      "res": 600,
+      "effect": 0,
+      "buff": {}
+    }
+  ],
+  [
+    {
+      "selection_id": 101705,
+      "selection_result_id": 1017051,
+      "selection_result_type": 1,
+      "initial_weight": 100,
+      "luk": 300,
+      "tec": 0,
+      "ins": 0,
+      "int": 0,
+      "res": 200,
+      "effect": 0,
+      "buff": {}
+    }
+  ],
+  [
+    {
+      "selection_id": 101801,
+      "selection_result_id": 1018011,
+      "selection_result_type": 1,
+      "initial_weight": 100,
+      "luk": 0,
+      "tec": 0,
+      "ins": 0,
+      "int": 0,
+      "res": 0,
+      "effect": 9014,
+      "buff": {}
+    }
+  ],
+  [
+    {
+      "selection_id": 101802,
+      "selection_result_id": 1018021,
+      "selection_result_type": 1,
+      "initial_weight": 28,
+      "luk": 0,
+      "tec": 0,
+      "ins": 0,
+      "int": 400,
+      "res": 0,
+      "effect": 0,
+      "buff": {}
+    },
+    {
+      "selection_id": 101802,
+      "selection_result_id": 1018022,
+      "selection_result_type": 2,
+      "initial_weight": 72,
+      "luk": 0,
+      "tec": 0,
+      "ins": 0,
+      "int": 200,
+      "res": 0,
+      "effect": 0,
+      "buff": {}
+    }
+  ],
+  [
+    {
+      "selection_id": 101803,
+      "selection_result_id": 1018031,
+      "selection_result_type": 1,
+      "initial_weight": 100,
+      "luk": 0,
+      "tec": 0,
+      "ins": 100,
+      "int": 0,
+      "res": 500,
+      "effect": 0,
+      "buff": {}
+    }
+  ],
+  [
+    {
+      "selection_id": 101804,
+      "selection_result_id": 1018041,
+      "selection_result_type": 1,
+      "initial_weight": 100,
+      "luk": 0,
+      "tec": 0,
+      "ins": 500,
+      "int": 0,
+      "res": 100,
+      "effect": 0,
+      "buff": {}
+    }
+  ],
+  [
+    {
+      "selection_id": 101901,
+      "selection_result_id": 1019011,
+      "selection_result_type": 1,
+      "initial_weight": 20,
+      "luk": 0,
+      "tec": 0,
+      "ins": 400,
+      "int": 0,
+      "res": 0,
+      "effect": 0,
+      "buff": {}
+    },
+    {
+      "selection_id": 101901,
+      "selection_result_id": 1019012,
+      "selection_result_type": 2,
+      "initial_weight": 80,
+      "luk": 0,
+      "tec": 0,
+      "ins": 200,
+      "int": 0,
+      "res": 0,
+      "effect": 0,
+      "buff": {}
+    }
+  ],
+  [
+    {
+      "selection_id": 101902,
+      "selection_result_id": 1019021,
+      "selection_result_type": 1,
+      "initial_weight": 100,
+      "luk": 0,
+      "tec": 200,
+      "ins": 300,
+      "int": 0,
+      "res": 0,
+      "effect": 0,
+      "buff": {}
+    }
+  ],
+  [
+    {
+      "selection_id": 101903,
+      "selection_result_id": 1019031,
+      "selection_result_type": 1,
+      "initial_weight": 28,
+      "luk": 600,
+      "tec": 0,
+      "ins": 0,
+      "int": 0,
+      "res": 0,
+      "effect": 0,
+      "buff": {}
+    },
+    {
+      "selection_id": 101903,
+      "selection_result_id": 1019032,
+      "selection_result_type": 2,
+      "initial_weight": 72,
+      "luk": 100,
+      "tec": 0,
+      "ins": 0,
+      "int": 0,
+      "res": 0,
+      "effect": 0,
+      "buff": {}
+    }
+  ],
+  [
+    {
+      "selection_id": 101904,
+      "selection_result_id": 1019041,
+      "selection_result_type": 1,
+      "initial_weight": 100,
+      "luk": 200,
+      "tec": 0,
+      "ins": 0,
+      "int": 0,
+      "res": 300,
+      "effect": 0,
+      "buff": {}
+    }
+  ],
+  [
+    {
+      "selection_id": 101905,
+      "selection_result_id": 1019051,
+      "selection_result_type": 1,
+      "initial_weight": 100,
+      "luk": 0,
+      "tec": 500,
+      "ins": 0,
+      "int": 0,
+      "res": 0,
+      "effect": 0,
+      "buff": {}
+    }
+  ],
+  [
+    {
+      "selection_id": 102001,
+      "selection_result_id": 1020011,
+      "selection_result_type": 1,
+      "initial_weight": 28,
+      "luk": 0,
+      "tec": 0,
+      "ins": 0,
+      "int": 0,
+      "res": 0,
+      "effect": 9005,
+      "buff": {}
+    },
+    {
+      "selection_id": 102001,
+      "selection_result_id": 1020012,
+      "selection_result_type": 2,
+      "initial_weight": 72,
+      "luk": 0,
+      "tec": 0,
+      "ins": 100,
+      "int": 0,
+      "res": 0,
+      "effect": 0,
+      "buff": {}
+    }
+  ],
+  [
+    {
+      "selection_id": 102002,
+      "selection_result_id": 1020021,
+      "selection_result_type": 1,
+      "initial_weight": 100,
+      "luk": 800,
+      "tec": 0,
+      "ins": 0,
+      "int": 0,
+      "res": 0,
+      "effect": 0,
+      "buff": {}
+    }
+  ],
+  [
+    {
+      "selection_id": 102003,
+      "selection_result_id": 1020031,
+      "selection_result_type": 1,
+      "initial_weight": 20,
+      "luk": 0,
+      "tec": 0,
+      "ins": 0,
+      "int": 0,
+      "res": 400,
+      "effect": 0,
+      "buff": {}
+    },
+    {
+      "selection_id": 102003,
+      "selection_result_id": 1020032,
+      "selection_result_type": 2,
+      "initial_weight": 80,
+      "luk": 0,
+      "tec": 0,
+      "ins": 0,
+      "int": 0,
+      "res": 200,
+      "effect": 0,
+      "buff": {}
+    }
+  ],
+  [
+    {
+      "selection_id": 102004,
+      "selection_result_id": 1020041,
+      "selection_result_type": 1,
+      "initial_weight": 100,
+      "luk": -300,
+      "tec": 0,
+      "ins": 0,
+      "int": 0,
+      "res": 1000,
+      "effect": 0,
+      "buff": {}
+    }
+  ],
+  [
+    {
+      "selection_id": 102005,
+      "selection_result_id": 1020051,
+      "selection_result_type": 1,
+      "initial_weight": 100,
+      "luk": 0,
+      "tec": 0,
+      "ins": 600,
+      "int": 0,
+      "res": 0,
+      "effect": 0,
+      "buff": {}
+    }
+  ],
+  [
+    {
+      "selection_id": 102101,
+      "selection_result_id": 1021011,
+      "selection_result_type": 1,
+      "initial_weight": 100,
+      "luk": 0,
+      "tec": 0,
+      "ins": 0,
+      "int": 0,
+      "res": 0,
+      "effect": 9005,
+      "buff": {}
+    }
+  ],
+  [
+    {
+      "selection_id": 102102,
+      "selection_result_id": 1021021,
+      "selection_result_type": 1,
+      "initial_weight": 100,
+      "luk": 0,
+      "tec": 0,
+      "ins": 600,
+      "int": 0,
+      "res": 0,
+      "effect": 0,
+      "buff": {}
+    }
+  ],
+  [
+    {
+      "selection_id": 102103,
+      "selection_result_id": 1021031,
+      "selection_result_type": 1,
+      "initial_weight": 28,
+      "luk": 0,
+      "tec": 0,
+      "ins": 0,
+      "int": 500,
+      "res": 0,
+      "effect": 0,
+      "buff": {}
+    },
+    {
+      "selection_id": 102103,
+      "selection_result_id": 1021032,
+      "selection_result_type": 2,
+      "initial_weight": 72,
+      "luk": 0,
+      "tec": 0,
+      "ins": 0,
+      "int": 200,
+      "res": 0,
+      "effect": 0,
+      "buff": {}
+    }
+  ],
+  [
+    {
+      "selection_id": 102104,
+      "selection_result_id": 1021041,
+      "selection_result_type": 1,
+      "initial_weight": 100,
+      "luk": 0,
+      "tec": 0,
+      "ins": -200,
+      "int": 0,
+      "res": 1000,
+      "effect": 0,
+      "buff": {}
+    }
+  ],
+  [
+    {
+      "selection_id": 102201,
+      "selection_result_id": 1022011,
+      "selection_result_type": 1,
+      "initial_weight": 20,
+      "luk": 0,
+      "tec": 0,
+      "ins": 0,
+      "int": 400,
+      "res": 0,
+      "effect": 0,
+      "buff": {}
+    },
+    {
+      "selection_id": 102201,
+      "selection_result_id": 1022012,
+      "selection_result_type": 2,
+      "initial_weight": 80,
+      "luk": 0,
+      "tec": 0,
+      "ins": 0,
+      "int": 200,
+      "res": 0,
+      "effect": 0,
+      "buff": {}
+    }
+  ],
+  [
+    {
+      "selection_id": 102202,
+      "selection_result_id": 1022021,
+      "selection_result_type": 1,
+      "initial_weight": 12,
+      "luk": 0,
+      "tec": 0,
+      "ins": 600,
+      "int": 0,
+      "res": 0,
+      "effect": 0,
+      "buff": {}
+    },
+    {
+      "selection_id": 102202,
+      "selection_result_id": 1022022,
+      "selection_result_type": 2,
+      "initial_weight": 88,
+      "luk": 0,
+      "tec": 0,
+      "ins": 300,
+      "int": 0,
+      "res": -100,
+      "effect": 0,
+      "buff": {}
+    }
+  ],
+  [
+    {
+      "selection_id": 102203,
+      "selection_result_id": 1022031,
+      "selection_result_type": 1,
+      "initial_weight": 100,
+      "luk": 500,
+      "tec": 0,
+      "ins": 0,
+      "int": 0,
+      "res": 0,
+      "effect": 0,
+      "buff": {}
+    }
+  ],
+  [
+    {
+      "selection_id": 102204,
+      "selection_result_id": 1022041,
+      "selection_result_type": 1,
+      "initial_weight": 100,
+      "luk": 0,
+      "tec": 500,
+      "ins": 0,
+      "int": 0,
+      "res": 0,
+      "effect": 0,
+      "buff": {}
+    }
+  ],
+  [
+    {
+      "selection_id": 102301,
+      "selection_result_id": 1023011,
+      "selection_result_type": 1,
+      "initial_weight": 100,
+      "luk": 0,
+      "tec": 0,
+      "ins": -400,
+      "int": 0,
+      "res": 0,
+      "effect": 9012,
+      "buff": {}
+    }
+  ],
+  [
+    {
+      "selection_id": 102302,
+      "selection_result_id": 1023021,
+      "selection_result_type": 1,
+      "initial_weight": 28,
+      "luk": 0,
+      "tec": 0,
+      "ins": 0,
+      "int": 0,
+      "res": 0,
+      "effect": 9008,
+      "buff": {}
+    },
+    {
+      "selection_id": 102302,
+      "selection_result_id": 1023022,
+      "selection_result_type": 2,
+      "initial_weight": 72,
+      "luk": 0,
+      "tec": 200,
+      "ins": 0,
+      "int": 0,
+      "res": 0,
+      "effect": 0,
+      "buff": {}
+    }
+  ],
+  [
+    {
+      "selection_id": 102303,
+      "selection_result_id": 1023031,
+      "selection_result_type": 1,
+      "initial_weight": 100,
+      "luk": 0,
+      "tec": 0,
+      "ins": 0,
+      "int": 300,
+      "res": 0,
+      "effect": 0,
+      "buff": {}
+    }
+  ],
+  [
+    {
+      "selection_id": 102304,
+      "selection_result_id": 1023041,
+      "selection_result_type": 1,
+      "initial_weight": 100,
+      "luk": 200,
+      "tec": 0,
+      "ins": 300,
+      "int": 0,
+      "res": 0,
+      "effect": 0,
+      "buff": {}
+    }
+  ],
+  [
+    {
+      "selection_id": 102305,
+      "selection_result_id": 1023051,
+      "selection_result_type": 1,
+      "initial_weight": 100,
+      "luk": 0,
+      "tec": 500,
+      "ins": 0,
+      "int": 0,
+      "res": 0,
+      "effect": 0,
+      "buff": {}
+    }
+  ],
+  [
+    {
+      "selection_id": 102401,
+      "selection_result_id": 1024011,
+      "selection_result_type": 1,
+      "initial_weight": 28,
+      "luk": 0,
+      "tec": 0,
+      "ins": 400,
+      "int": 0,
+      "res": 0,
+      "effect": 0,
+      "buff": {}
+    },
+    {
+      "selection_id": 102401,
+      "selection_result_id": 1024012,
+      "selection_result_type": 2,
+      "initial_weight": 72,
+      "luk": 0,
+      "tec": 0,
+      "ins": 200,
+      "int": 0,
+      "res": 0,
+      "effect": 0,
+      "buff": {}
+    }
+  ],
+  [
+    {
+      "selection_id": 102402,
+      "selection_result_id": 1024021,
+      "selection_result_type": 1,
+      "initial_weight": 100,
+      "luk": -300,
+      "tec": 0,
+      "ins": 0,
+      "int": 1000,
+      "res": 0,
+      "effect": 0,
+      "buff": {}
+    }
+  ],
+  [
+    {
+      "selection_id": 102403,
+      "selection_result_id": 1024031,
+      "selection_result_type": 1,
+      "initial_weight": 28,
+      "luk": 0,
+      "tec": 0,
+      "ins": 600,
+      "int": 0,
+      "res": 0,
+      "effect": 0,
+      "buff": {}
+    },
+    {
+      "selection_id": 102403,
+      "selection_result_id": 1024032,
+      "selection_result_type": 2,
+      "initial_weight": 72,
+      "luk": 0,
+      "tec": 0,
+      "ins": 100,
+      "int": 0,
+      "res": 0,
+      "effect": 0,
+      "buff": {}
+    }
+  ],
+  [
+    {
+      "selection_id": 102404,
+      "selection_result_id": 1024041,
+      "selection_result_type": 1,
+      "initial_weight": 100,
+      "luk": 0,
+      "tec": 0,
+      "ins": -200,
+      "int": 600,
+      "res": 0,
+      "effect": 0,
+      "buff": {}
+    }
+  ],
+  [
+    {
+      "selection_id": 102405,
+      "selection_result_id": 1024051,
+      "selection_result_type": 1,
+      "initial_weight": 100,
+      "luk": 0,
+      "tec": 0,
+      "ins": 500,
+      "int": 0,
+      "res": 0,
+      "effect": 0,
+      "buff": {}
+    }
+  ],
+  [
+    {
+      "selection_id": 102501,
+      "selection_result_id": 1025011,
+      "selection_result_type": 1,
+      "initial_weight": 28,
+      "luk": 400,
+      "tec": 0,
+      "ins": 0,
+      "int": 0,
+      "res": 0,
+      "effect": 0,
+      "buff": {}
+    },
+    {
+      "selection_id": 102501,
+      "selection_result_id": 1025012,
+      "selection_result_type": 2,
+      "initial_weight": 72,
+      "luk": 200,
+      "tec": 0,
+      "ins": 0,
+      "int": 0,
+      "res": 0,
+      "effect": 0,
+      "buff": {}
+    }
+  ],
+  [
+    {
+      "selection_id": 102502,
+      "selection_result_id": 1025021,
+      "selection_result_type": 1,
+      "initial_weight": 28,
+      "luk": 0,
+      "tec": 0,
+      "ins": 0,
+      "int": 0,
+      "res": 0,
+      "effect": 9010,
+      "buff": {}
+    },
+    {
+      "selection_id": 102502,
+      "selection_result_id": 1025022,
+      "selection_result_type": 2,
+      "initial_weight": 72,
+      "luk": 0,
+      "tec": 0,
+      "ins": 0,
+      "int": 0,
+      "res": 100,
+      "effect": 0,
+      "buff": {}
+    }
+  ],
+  [
+    {
+      "selection_id": 102503,
+      "selection_result_id": 1025031,
+      "selection_result_type": 1,
+      "initial_weight": 28,
+      "luk": 0,
+      "tec": 0,
+      "ins": 0,
+      "int": 0,
+      "res": 0,
+      "effect": 9001,
+      "buff": {}
+    },
+    {
+      "selection_id": 102503,
+      "selection_result_id": 1025032,
+      "selection_result_type": 2,
+      "initial_weight": 72,
+      "luk": -100,
+      "tec": 0,
+      "ins": 0,
+      "int": 0,
+      "res": 0,
+      "effect": 0,
+      "buff": {}
+    }
+  ],
+  [
+    {
+      "selection_id": 102504,
+      "selection_result_id": 1025041,
+      "selection_result_type": 1,
+      "initial_weight": 100,
+      "luk": 300,
+      "tec": 0,
+      "ins": 200,
+      "int": 0,
+      "res": 0,
+      "effect": 0,
+      "buff": {}
+    }
+  ],
+  [
+    {
+      "selection_id": 102505,
+      "selection_result_id": 1025051,
+      "selection_result_type": 1,
+      "initial_weight": 100,
+      "luk": 0,
+      "tec": 800,
+      "ins": -200,
+      "int": 0,
+      "res": 0,
+      "effect": 0,
+      "buff": {}
+    }
+  ],
+  [
+    {
+      "selection_id": 102601,
+      "selection_result_id": 1026011,
+      "selection_result_type": 1,
+      "initial_weight": 28,
+      "luk": 0,
+      "tec": 0,
+      "ins": 400,
+      "int": 0,
+      "res": 0,
+      "effect": 0,
+      "buff": {}
+    },
+    {
+      "selection_id": 102601,
+      "selection_result_id": 1026012,
+      "selection_result_type": 2,
+      "initial_weight": 72,
+      "luk": 0,
+      "tec": 0,
+      "ins": 200,
+      "int": 0,
+      "res": 0,
+      "effect": 0,
+      "buff": {}
+    }
+  ],
+  [
+    {
+      "selection_id": 102602,
+      "selection_result_id": 1026021,
+      "selection_result_type": 1,
+      "initial_weight": 28,
+      "luk": 0,
+      "tec": 0,
+      "ins": 0,
+      "int": 0,
+      "res": 0,
+      "effect": 9004,
+      "buff": {}
+    },
+    {
+      "selection_id": 102602,
+      "selection_result_id": 1026022,
+      "selection_result_type": 2,
+      "initial_weight": 72,
+      "luk": 0,
+      "tec": -100,
+      "ins": 0,
+      "int": 0,
+      "res": 0,
+      "effect": 0,
+      "buff": {}
+    }
+  ],
+  [
+    {
+      "selection_id": 102603,
+      "selection_result_id": 1026031,
+      "selection_result_type": 1,
+      "initial_weight": 100,
+      "luk": 0,
+      "tec": 0,
+      "ins": 0,
+      "int": 500,
+      "res": 0,
+      "effect": 0,
+      "buff": {}
+    }
+  ],
+  [
+    {
+      "selection_id": 102604,
+      "selection_result_id": 1026041,
+      "selection_result_type": 1,
+      "initial_weight": 100,
+      "luk": 0,
+      "tec": 0,
+      "ins": 500,
+      "int": 0,
+      "res": 0,
+      "effect": 0,
+      "buff": {}
+    }
+  ],
+  [
+    {
+      "selection_id": 102701,
+      "selection_result_id": 1027011,
+      "selection_result_type": 1,
+      "initial_weight": 28,
+      "luk": 0,
+      "tec": 0,
+      "ins": 0,
+      "int": 0,
+      "res": 0,
+      "effect": 9001,
+      "buff": {}
+    },
+    {
+      "selection_id": 102701,
+      "selection_result_id": 1027012,
+      "selection_result_type": 2,
+      "initial_weight": 72,
+      "luk": 100,
+      "tec": 0,
+      "ins": 0,
+      "int": 0,
+      "res": 0,
+      "effect": 0,
+      "buff": {}
+    }
+  ],
+  [
+    {
+      "selection_id": 102702,
+      "selection_result_id": 1027021,
+      "selection_result_type": 1,
+      "initial_weight": 28,
+      "luk": 0,
+      "tec": 0,
+      "ins": 0,
+      "int": 0,
+      "res": 0,
+      "effect": 9009,
+      "buff": {}
+    },
+    {
+      "selection_id": 102702,
+      "selection_result_id": 1027022,
+      "selection_result_type": 2,
+      "initial_weight": 72,
+      "luk": 0,
+      "tec": 0,
+      "ins": 0,
+      "int": 100,
+      "res": 0,
+      "effect": 0,
+      "buff": {}
+    }
+  ],
+  [
+    {
+      "selection_id": 102703,
+      "selection_result_id": 1027031,
+      "selection_result_type": 1,
+      "initial_weight": 28,
+      "luk": 0,
+      "tec": 0,
+      "ins": 400,
+      "int": 0,
+      "res": 0,
+      "effect": 0,
+      "buff": {}
+    },
+    {
+      "selection_id": 102703,
+      "selection_result_id": 1027032,
+      "selection_result_type": 2,
+      "initial_weight": 72,
+      "luk": 0,
+      "tec": 0,
+      "ins": 400,
+      "int": -200,
+      "res": 0,
+      "effect": 0,
+      "buff": {}
+    }
+  ],
+  [
+    {
+      "selection_id": 102704,
+      "selection_result_id": 1027041,
+      "selection_result_type": 1,
+      "initial_weight": 100,
+      "luk": 0,
+      "tec": 0,
+      "ins": 0,
+      "int": 0,
+      "res": 500,
+      "effect": 0,
+      "buff": {}
+    }
+  ],
+  [
+    {
+      "selection_id": 102801,
+      "selection_result_id": 1028011,
+      "selection_result_type": 1,
+      "initial_weight": 20,
+      "luk": 400,
+      "tec": 200,
+      "ins": 0,
+      "int": 0,
+      "res": 0,
+      "effect": 0,
+      "buff": {}
+    },
+    {
+      "selection_id": 102801,
+      "selection_result_id": 1028012,
+      "selection_result_type": 2,
+      "initial_weight": 80,
+      "luk": 100,
+      "tec": 100,
+      "ins": 0,
+      "int": 0,
+      "res": 0,
+      "effect": 0,
+      "buff": {}
+    }
+  ],
+  [
+    {
+      "selection_id": 102802,
+      "selection_result_id": 1028021,
+      "selection_result_type": 1,
+      "initial_weight": 28,
+      "luk": 0,
+      "tec": 0,
+      "ins": 0,
+      "int": 0,
+      "res": 0,
+      "effect": 9003,
+      "buff": {}
+    },
+    {
+      "selection_id": 102802,
+      "selection_result_id": 1028022,
+      "selection_result_type": 2,
+      "initial_weight": 72,
+      "luk": 0,
+      "tec": 0,
+      "ins": 0,
+      "int": 100,
+      "res": 0,
+      "effect": 0,
+      "buff": {}
+    }
+  ],
+  [
+    {
+      "selection_id": 102804,
+      "selection_result_id": 1028041,
+      "selection_result_type": 1,
+      "initial_weight": 100,
+      "luk": 0,
+      "tec": 500,
+      "ins": 0,
+      "int": 0,
+      "res": 0,
+      "effect": 0,
+      "buff": {}
+    }
+  ],
+  [
+    {
+      "selection_id": 102901,
+      "selection_result_id": 1029011,
+      "selection_result_type": 1,
+      "initial_weight": 28,
+      "luk": 0,
+      "tec": 400,
+      "ins": 0,
+      "int": 0,
+      "res": 0,
+      "effect": 0,
+      "buff": {}
+    },
+    {
+      "selection_id": 102901,
+      "selection_result_id": 1029012,
+      "selection_result_type": 2,
+      "initial_weight": 72,
+      "luk": 0,
+      "tec": 200,
+      "ins": 0,
+      "int": 0,
+      "res": 0,
+      "effect": 0,
+      "buff": {}
+    }
+  ],
+  [
+    {
+      "selection_id": 102902,
+      "selection_result_id": 1029021,
+      "selection_result_type": 1,
+      "initial_weight": 28,
+      "luk": 0,
+      "tec": 0,
+      "ins": 0,
+      "int": 0,
+      "res": 0,
+      "effect": 9010,
+      "buff": {}
+    },
+    {
+      "selection_id": 102902,
+      "selection_result_id": 1029022,
+      "selection_result_type": 2,
+      "initial_weight": 72,
+      "luk": 0,
+      "tec": 100,
+      "ins": 0,
+      "int": 0,
+      "res": 0,
+      "effect": 0,
+      "buff": {}
+    }
+  ],
+  [
+    {
+      "selection_id": 102904,
+      "selection_result_id": 1029041,
+      "selection_result_type": 1,
+      "initial_weight": 100,
+      "luk": 0,
+      "tec": 500,
+      "ins": 0,
+      "int": 0,
+      "res": 0,
+      "effect": 0,
+      "buff": {}
+    }
+  ],
+  [
+    {
+      "selection_id": 102905,
+      "selection_result_id": 1029051,
+      "selection_result_type": 1,
+      "initial_weight": 100,
+      "luk": 0,
+      "tec": 0,
+      "ins": 0,
+      "int": -300,
+      "res": 1000,
+      "effect": 0,
+      "buff": {}
+    }
+  ],
+  [
+    {
+      "selection_id": 103001,
+      "selection_result_id": 1030011,
+      "selection_result_type": 1,
+      "initial_weight": 28,
+      "luk": 0,
+      "tec": 0,
+      "ins": 0,
+      "int": 0,
+      "res": 800,
+      "effect": 0,
+      "buff": {}
+    },
+    {
+      "selection_id": 103001,
+      "selection_result_id": 1030012,
+      "selection_result_type": 2,
+      "initial_weight": 72,
+      "luk": 0,
+      "tec": 0,
+      "ins": 0,
+      "int": 0,
+      "res": 100,
+      "effect": 0,
+      "buff": {}
+    }
+  ],
+  [
+    {
+      "selection_id": 103002,
+      "selection_result_id": 1030021,
+      "selection_result_type": 1,
+      "initial_weight": 100,
+      "luk": 0,
+      "tec": 0,
+      "ins": 300,
+      "int": 0,
+      "res": 0,
+      "effect": 0,
+      "buff": {}
+    }
+  ],
+  [
+    {
+      "selection_id": 103003,
+      "selection_result_id": 1030031,
+      "selection_result_type": 1,
+      "initial_weight": 100,
+      "luk": 0,
+      "tec": -300,
+      "ins": 0,
+      "int": 0,
+      "res": 1000,
+      "effect": 0,
+      "buff": {}
+    }
+  ],
+  [
+    {
+      "selection_id": 103004,
+      "selection_result_id": 1030041,
+      "selection_result_type": 1,
+      "initial_weight": 100,
+      "luk": 0,
+      "tec": 0,
+      "ins": 300,
+      "int": 200,
+      "res": 0,
+      "effect": 0,
+      "buff": {}
+    }
+  ],
+  [
+    {
+      "selection_id": 103005,
+      "selection_result_id": 1030051,
+      "selection_result_type": 1,
+      "initial_weight": 100,
+      "luk": 600,
+      "tec": 0,
+      "ins": 0,
+      "int": 0,
+      "res": 0,
+      "effect": 0,
+      "buff": {}
+    }
+  ],
+  [
+    {
+      "selection_id": 103101,
+      "selection_result_id": 1031011,
+      "selection_result_type": 1,
+      "initial_weight": 28,
+      "luk": 0,
+      "tec": 0,
+      "ins": 0,
+      "int": 0,
+      "res": 0,
+      "effect": 9008,
+      "buff": {}
+    },
+    {
+      "selection_id": 103101,
+      "selection_result_id": 1031012,
+      "selection_result_type": 2,
+      "initial_weight": 72,
+      "luk": 0,
+      "tec": 0,
+      "ins": 0,
+      "int": 0,
+      "res": 100,
+      "effect": 0,
+      "buff": {}
+    }
+  ],
+  [
+    {
+      "selection_id": 103102,
+      "selection_result_id": 1031021,
+      "selection_result_type": 1,
+      "initial_weight": 20,
+      "luk": 0,
+      "tec": 0,
+      "ins": 0,
+      "int": 400,
+      "res": 0,
+      "effect": 0,
+      "buff": {}
+    },
+    {
+      "selection_id": 103102,
+      "selection_result_id": 1031022,
+      "selection_result_type": 2,
+      "initial_weight": 80,
+      "luk": 0,
+      "tec": 0,
+      "ins": 0,
+      "int": 200,
+      "res": 0,
+      "effect": 0,
+      "buff": {}
+    }
+  ],
+  [
+    {
+      "selection_id": 103103,
+      "selection_result_id": 1031031,
+      "selection_result_type": 1,
+      "initial_weight": 100,
+      "luk": 0,
+      "tec": 0,
+      "ins": 500,
+      "int": 0,
+      "res": 0,
+      "effect": 0,
+      "buff": {}
+    }
+  ],
+  [
+    {
+      "selection_id": 103104,
+      "selection_result_id": 1031041,
+      "selection_result_type": 1,
+      "initial_weight": 100,
+      "luk": 0,
+      "tec": 300,
+      "ins": 0,
+      "int": 0,
+      "res": 200,
+      "effect": 0,
+      "buff": {}
+    }
+  ],
+  [
+    {
+      "selection_id": 103105,
+      "selection_result_id": 1031051,
+      "selection_result_type": 1,
+      "initial_weight": 100,
+      "luk": 0,
+      "tec": 0,
+      "ins": 0,
+      "int": 300,
+      "res": 200,
+      "effect": 0,
+      "buff": {}
+    }
+  ],
+  [
+    {
+      "selection_id": 103201,
+      "selection_result_id": 1032011,
+      "selection_result_type": 1,
+      "initial_weight": 12,
+      "luk": 0,
+      "tec": 0,
+      "ins": 0,
+      "int": 0,
+      "res": 400,
+      "effect": 0,
+      "buff": {}
+    },
+    {
+      "selection_id": 103201,
+      "selection_result_id": 1032012,
+      "selection_result_type": 2,
+      "initial_weight": 88,
+      "luk": 0,
+      "tec": 0,
+      "ins": 0,
+      "int": 0,
+      "res": 200,
+      "effect": 0,
+      "buff": {}
+    }
+  ],
+  [
+    {
+      "selection_id": 103202,
+      "selection_result_id": 1032021,
+      "selection_result_type": 1,
+      "initial_weight": 12,
+      "luk": 0,
+      "tec": 0,
+      "ins": 400,
+      "int": 0,
+      "res": 0,
+      "effect": 0,
+      "buff": {}
+    },
+    {
+      "selection_id": 103202,
+      "selection_result_id": 1032022,
+      "selection_result_type": 2,
+      "initial_weight": 88,
+      "luk": 0,
+      "tec": 0,
+      "ins": 300,
+      "int": -100,
+      "res": 0,
+      "effect": 0,
+      "buff": {}
+    }
+  ],
+  [
+    {
+      "selection_id": 103203,
+      "selection_result_id": 1032031,
+      "selection_result_type": 1,
+      "initial_weight": 100,
+      "luk": 0,
+      "tec": 0,
+      "ins": 500,
+      "int": 0,
+      "res": 0,
+      "effect": 0,
+      "buff": {}
+    }
+  ],
+  [
+    {
+      "selection_id": 103204,
+      "selection_result_id": 1032041,
+      "selection_result_type": 1,
+      "initial_weight": 100,
+      "luk": 0,
+      "tec": 300,
+      "ins": 0,
+      "int": 0,
+      "res": 200,
+      "effect": 0,
+      "buff": {}
+    }
+  ],
+  [
+    {
+      "selection_id": 103205,
+      "selection_result_id": 1032051,
+      "selection_result_type": 1,
+      "initial_weight": 100,
+      "luk": 300,
+      "tec": 0,
+      "ins": 200,
+      "int": 0,
+      "res": 0,
+      "effect": 0,
+      "buff": {}
+    }
+  ],
+  [
+    {
+      "selection_id": 103301,
+      "selection_result_id": 1033011,
+      "selection_result_type": 1,
+      "initial_weight": 20,
+      "luk": 0,
+      "tec": 0,
+      "ins": 0,
+      "int": 0,
+      "res": 500,
+      "effect": 0,
+      "buff": {}
+    },
+    {
+      "selection_id": 103301,
+      "selection_result_id": 1033012,
+      "selection_result_type": 2,
+      "initial_weight": 80,
+      "luk": 0,
+      "tec": 0,
+      "ins": 0,
+      "int": 0,
+      "res": 200,
+      "effect": 0,
+      "buff": {}
+    }
+  ],
+  [
+    {
+      "selection_id": 103302,
+      "selection_result_id": 1033021,
+      "selection_result_type": 1,
+      "initial_weight": 100,
+      "luk": 0,
+      "tec": 0,
+      "ins": -200,
+      "int": 600,
+      "res": 0,
+      "effect": 0,
+      "buff": {}
+    }
+  ],
+  [
+    {
+      "selection_id": 103303,
+      "selection_result_id": 1033031,
+      "selection_result_type": 1,
+      "initial_weight": 100,
+      "luk": 500,
+      "tec": 0,
+      "ins": 0,
+      "int": 0,
+      "res": -200,
+      "effect": 0,
+      "buff": {}
+    }
+  ],
+  [
+    {
+      "selection_id": 103304,
+      "selection_result_id": 1033041,
+      "selection_result_type": 1,
+      "initial_weight": 100,
+      "luk": 0,
+      "tec": 0,
+      "ins": -300,
+      "int": 0,
+      "res": 1000,
+      "effect": 0,
+      "buff": {}
+    }
+  ],
+  [
+    {
+      "selection_id": 103305,
+      "selection_result_id": 1033051,
+      "selection_result_type": 1,
+      "initial_weight": 100,
+      "luk": 600,
+      "tec": 0,
+      "ins": 0,
+      "int": 0,
+      "res": 0,
+      "effect": 0,
+      "buff": {}
+    }
+  ],
+  [
+    {
+      "selection_id": 103401,
+      "selection_result_id": 1034011,
+      "selection_result_type": 1,
+      "initial_weight": 20,
+      "luk": 500,
+      "tec": 0,
+      "ins": 0,
+      "int": 0,
+      "res": 0,
+      "effect": 0,
+      "buff": {}
+    },
+    {
+      "selection_id": 103401,
+      "selection_result_id": 1034012,
+      "selection_result_type": 2,
+      "initial_weight": 80,
+      "luk": 200,
+      "tec": 0,
+      "ins": 0,
+      "int": 0,
+      "res": 0,
+      "effect": 0,
+      "buff": {}
+    }
+  ],
+  [
+    {
+      "selection_id": 103402,
+      "selection_result_id": 1034021,
+      "selection_result_type": 1,
+      "initial_weight": 100,
+      "luk": 0,
+      "tec": 0,
+      "ins": 0,
+      "int": -200,
+      "res": 500,
+      "effect": 0,
+      "buff": {}
+    }
+  ],
+  [
+    {
+      "selection_id": 103404,
+      "selection_result_id": 1034041,
+      "selection_result_type": 1,
+      "initial_weight": 100,
+      "luk": 0,
+      "tec": 1000,
+      "ins": 0,
+      "int": -400,
+      "res": 0,
+      "effect": 0,
+      "buff": {}
+    }
+  ],
+  [
+    {
+      "selection_id": 103405,
+      "selection_result_id": 1034051,
+      "selection_result_type": 1,
+      "initial_weight": 100,
+      "luk": 0,
+      "tec": 0,
+      "ins": -200,
+      "int": 0,
+      "res": 800,
+      "effect": 0,
+      "buff": {}
+    }
+  ],
+  [
+    {
+      "selection_id": 103501,
+      "selection_result_id": 1035011,
+      "selection_result_type": 1,
+      "initial_weight": 100,
+      "luk": -200,
+      "tec": 0,
+      "ins": 0,
+      "int": 500,
+      "res": 0,
+      "effect": 0,
+      "buff": {}
+    }
+  ],
+  [
+    {
+      "selection_id": 103502,
+      "selection_result_id": 1035021,
+      "selection_result_type": 1,
+      "initial_weight": 100,
+      "luk": 0,
+      "tec": 900,
+      "ins": -300,
+      "int": 0,
+      "res": 0,
+      "effect": 0,
+      "buff": {}
+    }
+  ],
+  [
+    {
+      "selection_id": 103503,
+      "selection_result_id": 1035031,
+      "selection_result_type": 1,
+      "initial_weight": 12,
+      "luk": 0,
+      "tec": 300,
+      "ins": 0,
+      "int": 300,
+      "res": 0,
+      "effect": 0,
+      "buff": {}
+    },
+    {
+      "selection_id": 103503,
+      "selection_result_id": 1035032,
+      "selection_result_type": 2,
+      "initial_weight": 88,
+      "luk": 0,
+      "tec": 100,
+      "ins": 0,
+      "int": 100,
+      "res": 0,
+      "effect": 0,
+      "buff": {}
+    }
+  ],
+  [
+    {
+      "selection_id": 103504,
+      "selection_result_id": 1035041,
+      "selection_result_type": 1,
+      "initial_weight": 100,
+      "luk": 0,
+      "tec": 400,
+      "ins": 0,
+      "int": 0,
+      "res": 200,
+      "effect": 0,
+      "buff": {}
+    }
+  ],
+  [
+    {
+      "selection_id": 103601,
+      "selection_result_id": 1036011,
+      "selection_result_type": 1,
+      "initial_weight": 100,
+      "luk": 0,
+      "tec": 0,
+      "ins": 0,
+      "int": 200,
+      "res": 0,
+      "effect": 0,
+      "buff": {}
+    }
+  ],
+  [
+    {
+      "selection_id": 103602,
+      "selection_result_id": 1036021,
+      "selection_result_type": 1,
+      "initial_weight": 20,
+      "luk": 0,
+      "tec": 0,
+      "ins": 0,
+      "int": 500,
+      "res": 0,
+      "effect": 0,
+      "buff": {}
+    },
+    {
+      "selection_id": 103602,
+      "selection_result_id": 1036022,
+      "selection_result_type": 2,
+      "initial_weight": 80,
+      "luk": 0,
+      "tec": 0,
+      "ins": 0,
+      "int": 100,
+      "res": 0,
+      "effect": 0,
+      "buff": {}
+    }
+  ],
+  [
+    {
+      "selection_id": 103603,
+      "selection_result_id": 1036031,
+      "selection_result_type": 1,
+      "initial_weight": 100,
+      "luk": 0,
+      "tec": 0,
+      "ins": 0,
+      "int": 0,
+      "res": -500,
+      "effect": 9017,
+      "buff": {}
+    }
+  ],
+  [
+    {
+      "selection_id": 103604,
+      "selection_result_id": 1036041,
+      "selection_result_type": 1,
+      "initial_weight": 100,
+      "luk": 500,
+      "tec": 0,
+      "ins": 0,
+      "int": 0,
+      "res": 0,
+      "effect": 0,
+      "buff": {}
+    }
+  ],
+  [
+    {
+      "selection_id": 103701,
+      "selection_result_id": 1037011,
+      "selection_result_type": 1,
+      "initial_weight": 20,
+      "luk": 0,
+      "tec": 0,
+      "ins": 0,
+      "int": 400,
+      "res": 0,
+      "effect": 0,
+      "buff": {}
+    },
+    {
+      "selection_id": 103701,
+      "selection_result_id": 1037012,
+      "selection_result_type": 2,
+      "initial_weight": 80,
+      "luk": -100,
+      "tec": 0,
+      "ins": 0,
+      "int": 300,
+      "res": 0,
+      "effect": 0,
+      "buff": {}
+    }
+  ],
+  [
+    {
+      "selection_id": 103702,
+      "selection_result_id": 1037021,
+      "selection_result_type": 1,
+      "initial_weight": 100,
+      "luk": 300,
+      "tec": 0,
+      "ins": 0,
+      "int": 200,
+      "res": 0,
+      "effect": 0,
+      "buff": {}
+    }
+  ],
+  [
+    {
+      "selection_id": 103703,
+      "selection_result_id": 1037031,
+      "selection_result_type": 1,
+      "initial_weight": 20,
+      "luk": 0,
+      "tec": 0,
+      "ins": 400,
+      "int": 0,
+      "res": 0,
+      "effect": 0,
+      "buff": {}
+    },
+    {
+      "selection_id": 103703,
+      "selection_result_id": 1037032,
+      "selection_result_type": 2,
+      "initial_weight": 80,
+      "luk": 0,
+      "tec": 0,
+      "ins": 200,
+      "int": 0,
+      "res": 0,
+      "effect": 0,
+      "buff": {}
+    }
+  ],
+  [
+    {
+      "selection_id": 103704,
+      "selection_result_id": 1037041,
+      "selection_result_type": 1,
+      "initial_weight": 100,
+      "luk": 500,
+      "tec": 0,
+      "ins": 0,
+      "int": 0,
+      "res": 0,
+      "effect": 0,
+      "buff": {}
+    }
+  ],
+  [
+    {
+      "selection_id": 103705,
+      "selection_result_id": 1037051,
+      "selection_result_type": 1,
+      "initial_weight": 100,
+      "luk": 500,
+      "tec": 0,
+      "ins": 0,
+      "int": 0,
+      "res": 0,
+      "effect": 0,
+      "buff": {}
+    }
+  ],
+  [
+    {
+      "selection_id": 103801,
+      "selection_result_id": 1038011,
+      "selection_result_type": 1,
+      "initial_weight": 20,
+      "luk": 400,
+      "tec": 0,
+      "ins": 0,
+      "int": 0,
+      "res": 0,
+      "effect": 0,
+      "buff": {}
+    },
+    {
+      "selection_id": 103801,
+      "selection_result_id": 1038012,
+      "selection_result_type": 2,
+      "initial_weight": 80,
+      "luk": 200,
+      "tec": 0,
+      "ins": 0,
+      "int": 0,
+      "res": 0,
+      "effect": 0,
+      "buff": {}
+    }
+  ],
+  [
+    {
+      "selection_id": 103802,
+      "selection_result_id": 1038021,
+      "selection_result_type": 1,
+      "initial_weight": 28,
+      "luk": 0,
+      "tec": 0,
+      "ins": 0,
+      "int": 400,
+      "res": 0,
+      "effect": 0,
+      "buff": {}
+    },
+    {
+      "selection_id": 103802,
+      "selection_result_id": 1038022,
+      "selection_result_type": 2,
+      "initial_weight": 72,
+      "luk": 0,
+      "tec": 0,
+      "ins": 0,
+      "int": 200,
+      "res": 0,
+      "effect": 0,
+      "buff": {}
+    }
+  ],
+  [
+    {
+      "selection_id": 103803,
+      "selection_result_id": 1038031,
+      "selection_result_type": 1,
+      "initial_weight": 100,
+      "luk": 0,
+      "tec": 0,
+      "ins": 0,
+      "int": 500,
+      "res": 0,
+      "effect": 0,
+      "buff": {}
+    }
+  ],
+  [
+    {
+      "selection_id": 103804,
+      "selection_result_id": 1038041,
+      "selection_result_type": 1,
+      "initial_weight": 100,
+      "luk": 0,
+      "tec": 0,
+      "ins": 0,
+      "int": 0,
+      "res": 500,
+      "effect": 0,
+      "buff": {}
+    }
+  ],
+  [
+    {
+      "selection_id": 103901,
+      "selection_result_id": 1039011,
+      "selection_result_type": 1,
+      "initial_weight": 28,
+      "luk": 0,
+      "tec": -200,
+      "ins": 600,
+      "int": 0,
+      "res": 0,
+      "effect": 0,
+      "buff": {}
+    },
+    {
+      "selection_id": 103901,
+      "selection_result_id": 1039012,
+      "selection_result_type": 2,
+      "initial_weight": 72,
+      "luk": 0,
+      "tec": -200,
+      "ins": 400,
+      "int": 0,
+      "res": 0,
+      "effect": 0,
+      "buff": {}
+    }
+  ],
+  [
+    {
+      "selection_id": 103902,
+      "selection_result_id": 1039021,
+      "selection_result_type": 1,
+      "initial_weight": 100,
+      "luk": 0,
+      "tec": 400,
+      "ins": 0,
+      "int": 200,
+      "res": 0,
+      "effect": 0,
+      "buff": {}
+    }
+  ],
+  [
+    {
+      "selection_id": 103903,
+      "selection_result_id": 1039031,
+      "selection_result_type": 1,
+      "initial_weight": 28,
+      "luk": 0,
+      "tec": 0,
+      "ins": 0,
+      "int": 400,
+      "res": 0,
+      "effect": 0,
+      "buff": {}
+    },
+    {
+      "selection_id": 103903,
+      "selection_result_id": 1039032,
+      "selection_result_type": 2,
+      "initial_weight": 72,
+      "luk": 0,
+      "tec": 0,
+      "ins": 0,
+      "int": 200,
+      "res": 0,
+      "effect": 0,
+      "buff": {}
+    }
+  ],
+  [
+    {
+      "selection_id": 103904,
+      "selection_result_id": 1039041,
+      "selection_result_type": 1,
+      "initial_weight": 100,
+      "luk": 300,
+      "tec": 0,
+      "ins": 0,
+      "int": 0,
+      "res": 200,
+      "effect": 0,
+      "buff": {}
+    }
+  ],
+  [
+    {
+      "selection_id": 103905,
+      "selection_result_id": 1039051,
+      "selection_result_type": 1,
+      "initial_weight": 100,
+      "luk": 0,
+      "tec": 300,
+      "ins": 0,
+      "int": 0,
+      "res": 200,
+      "effect": 0,
+      "buff": {}
+    }
+  ],
+  [
+    {
+      "selection_id": 104001,
+      "selection_result_id": 1040011,
+      "selection_result_type": 1,
+      "initial_weight": 100,
+      "luk": 0,
+      "tec": 0,
+      "ins": 0,
+      "int": 300,
+      "res": 0,
+      "effect": 0,
+      "buff": {}
+    }
+  ],
+  [
+    {
+      "selection_id": 104002,
+      "selection_result_id": 1040021,
+      "selection_result_type": 1,
+      "initial_weight": 20,
+      "luk": 0,
+      "tec": 0,
+      "ins": 600,
+      "int": 0,
+      "res": 0,
+      "effect": 0,
+      "buff": {}
+    },
+    {
+      "selection_id": 104002,
+      "selection_result_id": 1040022,
+      "selection_result_type": 2,
+      "initial_weight": 80,
+      "luk": 0,
+      "tec": 0,
+      "ins": 200,
+      "int": 0,
+      "res": 0,
+      "effect": 0,
+      "buff": {}
+    }
+  ],
+  [
+    {
+      "selection_id": 104003,
+      "selection_result_id": 1040031,
+      "selection_result_type": 1,
+      "initial_weight": 100,
+      "luk": 0,
+      "tec": 0,
+      "ins": 500,
+      "int": 0,
+      "res": 0,
+      "effect": 0,
+      "buff": {}
+    }
+  ],
+  [
+    {
+      "selection_id": 104004,
+      "selection_result_id": 1040041,
+      "selection_result_type": 1,
+      "initial_weight": 100,
+      "luk": 0,
+      "tec": 600,
+      "ins": 0,
+      "int": 0,
+      "res": 0,
+      "effect": 0,
+      "buff": {}
+    }
+  ],
+  [
+    {
+      "selection_id": 104005,
+      "selection_result_id": 1040051,
+      "selection_result_type": 1,
+      "initial_weight": 100,
+      "luk": 600,
+      "tec": 0,
+      "ins": 0,
+      "int": 0,
+      "res": 0,
+      "effect": 0,
+      "buff": {}
+    }
+  ],
+  [
+    {
+      "selection_id": 104101,
+      "selection_result_id": 1041011,
+      "selection_result_type": 1,
+      "initial_weight": 100,
+      "luk": 0,
+      "tec": 0,
+      "ins": -100,
+      "int": 400,
+      "res": 0,
+      "effect": 0,
+      "buff": {}
+    }
+  ],
+  [
+    {
+      "selection_id": 104102,
+      "selection_result_id": 1041021,
+      "selection_result_type": 1,
+      "initial_weight": 100,
+      "luk": 0,
+      "tec": 0,
+      "ins": 400,
+      "int": -100,
+      "res": 0,
+      "effect": 0,
+      "buff": {}
+    }
+  ],
+  [
+    {
+      "selection_id": 104103,
+      "selection_result_id": 1041031,
+      "selection_result_type": 1,
+      "initial_weight": 100,
+      "luk": 500,
+      "tec": 0,
+      "ins": 0,
+      "int": 0,
+      "res": 0,
+      "effect": 0,
+      "buff": {}
+    }
+  ],
+  [
+    {
+      "selection_id": 104104,
+      "selection_result_id": 1041041,
+      "selection_result_type": 1,
+      "initial_weight": 100,
+      "luk": 0,
+      "tec": 0,
+      "ins": 0,
+      "int": 0,
+      "res": 500,
+      "effect": 0,
+      "buff": {}
+    }
+  ],
+  [
+    {
+      "selection_id": 104105,
+      "selection_result_id": 1041051,
+      "selection_result_type": 1,
+      "initial_weight": 100,
+      "luk": 0,
+      "tec": 0,
+      "ins": 200,
+      "int": 300,
+      "res": 0,
+      "effect": 0,
+      "buff": {}
+    }
+  ],
+  [
+    {
+      "selection_id": 104201,
+      "selection_result_id": 1042011,
+      "selection_result_type": 1,
+      "initial_weight": 28,
+      "luk": 0,
+      "tec": 0,
+      "ins": 0,
+      "int": 400,
+      "res": 0,
+      "effect": 0,
+      "buff": {}
+    },
+    {
+      "selection_id": 104201,
+      "selection_result_id": 1042012,
+      "selection_result_type": 2,
+      "initial_weight": 72,
+      "luk": 0,
+      "tec": 0,
+      "ins": 0,
+      "int": 200,
+      "res": 0,
+      "effect": 0,
+      "buff": {}
+    }
+  ],
+  [
+    {
+      "selection_id": 104202,
+      "selection_result_id": 1042021,
+      "selection_result_type": 1,
+      "initial_weight": 28,
+      "luk": 0,
+      "tec": 0,
+      "ins": 0,
+      "int": 700,
+      "res": 0,
+      "effect": 0,
+      "buff": {}
+    },
+    {
+      "selection_id": 104202,
+      "selection_result_id": 1042022,
+      "selection_result_type": 2,
+      "initial_weight": 72,
+      "luk": 0,
+      "tec": 0,
+      "ins": 0,
+      "int": 100,
+      "res": 0,
+      "effect": 0,
+      "buff": {}
+    }
+  ],
+  [
+    {
+      "selection_id": 104203,
+      "selection_result_id": 1042031,
+      "selection_result_type": 1,
+      "initial_weight": 28,
+      "luk": 0,
+      "tec": 0,
+      "ins": 0,
+      "int": 0,
+      "res": 0,
+      "effect": 9009,
+      "buff": {}
+    },
+    {
+      "selection_id": 104203,
+      "selection_result_id": 1042032,
+      "selection_result_type": 2,
+      "initial_weight": 72,
+      "luk": 0,
+      "tec": 0,
+      "ins": 100,
+      "int": 0,
+      "res": 0,
+      "effect": 0,
+      "buff": {}
+    }
+  ],
+  [
+    {
+      "selection_id": 104204,
+      "selection_result_id": 1042041,
+      "selection_result_type": 1,
+      "initial_weight": 100,
+      "luk": 500,
+      "tec": 0,
+      "ins": 0,
+      "int": 0,
+      "res": 0,
+      "effect": 0,
+      "buff": {}
+    }
+  ],
+  [
+    {
+      "selection_id": 104205,
+      "selection_result_id": 1042051,
+      "selection_result_type": 1,
+      "initial_weight": 100,
+      "luk": 0,
+      "tec": 500,
+      "ins": 0,
+      "int": 0,
+      "res": 0,
+      "effect": 0,
+      "buff": {}
+    }
+  ],
+  [
+    {
+      "selection_id": 104301,
+      "selection_result_id": 1043011,
+      "selection_result_type": 1,
+      "initial_weight": 20,
+      "luk": 0,
+      "tec": 800,
+      "ins": -300,
+      "int": 0,
+      "res": 0,
+      "effect": 0,
+      "buff": {}
+    },
+    {
+      "selection_id": 104301,
+      "selection_result_id": 1043012,
+      "selection_result_type": 2,
+      "initial_weight": 80,
+      "luk": 0,
+      "tec": 500,
+      "ins": -300,
+      "int": 0,
+      "res": 0,
+      "effect": 0,
+      "buff": {}
+    }
+  ],
+  [
+    {
+      "selection_id": 104302,
+      "selection_result_id": 1043021,
+      "selection_result_type": 1,
+      "initial_weight": 20,
+      "luk": 0,
+      "tec": 0,
+      "ins": 400,
+      "int": 0,
+      "res": 0,
+      "effect": 0,
+      "buff": {}
+    },
+    {
+      "selection_id": 104302,
+      "selection_result_id": 1043022,
+      "selection_result_type": 2,
+      "initial_weight": 80,
+      "luk": 0,
+      "tec": 0,
+      "ins": 200,
+      "int": 0,
+      "res": 0,
+      "effect": 0,
+      "buff": {}
+    }
+  ],
+  [
+    {
+      "selection_id": 104303,
+      "selection_result_id": 1043031,
+      "selection_result_type": 1,
+      "initial_weight": 100,
+      "luk": 0,
+      "tec": 0,
+      "ins": 200,
+      "int": 300,
+      "res": 0,
+      "effect": 0,
+      "buff": {}
+    }
+  ],
+  [
+    {
+      "selection_id": 104304,
+      "selection_result_id": 1043041,
+      "selection_result_type": 1,
+      "initial_weight": 100,
+      "luk": 0,
+      "tec": 500,
+      "ins": 0,
+      "int": 0,
+      "res": 0,
+      "effect": 0,
+      "buff": {}
+    }
+  ],
+  [
+    {
+      "selection_id": 104305,
+      "selection_result_id": 1043051,
+      "selection_result_type": 1,
+      "initial_weight": 100,
+      "luk": 0,
+      "tec": 0,
+      "ins": 0,
+      "int": 0,
+      "res": 500,
+      "effect": 0,
+      "buff": {}
+    }
+  ],
+  [
+    {
+      "selection_id": 104401,
+      "selection_result_id": 1044011,
+      "selection_result_type": 1,
+      "initial_weight": 28,
+      "luk": 0,
+      "tec": 0,
+      "ins": 0,
+      "int": 0,
+      "res": 0,
+      "effect": 9002,
+      "buff": [
+        10440111
+      ]
+    },
+    {
+      "selection_id": 104401,
+      "selection_result_id": 1044012,
+      "selection_result_type": 2,
+      "initial_weight": 72,
+      "luk": 0,
+      "tec": 0,
+      "ins": 0,
+      "int": 0,
+      "res": 0,
+      "effect": 0,
+      "buff": [
+        10440121
+      ]
+    }
+  ],
+  [
+    {
+      "selection_id": 104402,
+      "selection_result_id": 1044021,
+      "selection_result_type": 1,
+      "initial_weight": 20,
+      "luk": 0,
+      "tec": 0,
+      "ins": 0,
+      "int": 0,
+      "res": 0,
+      "effect": 0,
+      "buff": [
+        10440211
+      ]
+    },
+    {
+      "selection_id": 104402,
+      "selection_result_id": 1044022,
+      "selection_result_type": 2,
+      "initial_weight": 80,
+      "luk": 0,
+      "tec": 0,
+      "ins": 0,
+      "int": 0,
+      "res": 0,
+      "effect": 0,
+      "buff": [
+        10440221
+      ]
+    }
+  ],
+  [
+    {
+      "selection_id": 104404,
+      "selection_result_id": 1044041,
+      "selection_result_type": 1,
+      "initial_weight": 100,
+      "luk": 0,
+      "tec": 0,
+      "ins": 0,
+      "int": 0,
+      "res": 0,
+      "effect": 0,
+      "buff": [
+        10440411
+      ]
+    }
+  ],
+  [
+    {
+      "selection_id": 104501,
+      "selection_result_id": 1045011,
+      "selection_result_type": 1,
+      "initial_weight": 100,
+      "luk": 0,
+      "tec": 0,
+      "ins": 0,
+      "int": 0,
+      "res": 0,
+      "effect": 0,
+      "buff": [
+        10450111,
+        10450112
+      ]
+    }
+  ],
+  [
+    {
+      "selection_id": 104502,
+      "selection_result_id": 1045021,
+      "selection_result_type": 1,
+      "initial_weight": 100,
+      "luk": 0,
+      "tec": 0,
+      "ins": 0,
+      "int": 0,
+      "res": 0,
+      "effect": 0,
+      "buff": [
+        10450211,
+        10450212
+      ]
+    }
+  ],
+  [
+    {
+      "selection_id": 104503,
+      "selection_result_id": 1045031,
+      "selection_result_type": 1,
+      "initial_weight": 100,
+      "luk": 0,
+      "tec": 0,
+      "ins": 0,
+      "int": 0,
+      "res": 0,
+      "effect": 0,
+      "buff": [
+        10450311
+      ]
+    }
+  ],
+  [
+    {
+      "selection_id": 104504,
+      "selection_result_id": 1045041,
+      "selection_result_type": 1,
+      "initial_weight": 100,
+      "luk": 0,
+      "tec": 0,
+      "ins": 0,
+      "int": 0,
+      "res": 0,
+      "effect": 0,
+      "buff": [
+        10450411,
+        10450412,
+        10450413
+      ]
+    }
+  ],
+  [
+    {
+      "selection_id": 104601,
+      "selection_result_id": 1046011,
+      "selection_result_type": 1,
+      "initial_weight": 100,
+      "luk": 0,
+      "tec": 0,
+      "ins": 0,
+      "int": 0,
+      "res": 0,
+      "effect": 0,
+      "buff": [
+        10460111,
+        10460112
+      ]
+    }
+  ],
+  [
+    {
+      "selection_id": 104602,
+      "selection_result_id": 1046021,
+      "selection_result_type": 1,
+      "initial_weight": 100,
+      "luk": 0,
+      "tec": 0,
+      "ins": 0,
+      "int": 0,
+      "res": 0,
+      "effect": 0,
+      "buff": [
+        10460211,
+        10460212
+      ]
+    }
+  ],
+  [
+    {
+      "selection_id": 104603,
+      "selection_result_id": 1046031,
+      "selection_result_type": 1,
+      "initial_weight": 100,
+      "luk": 0,
+      "tec": 0,
+      "ins": 0,
+      "int": 0,
+      "res": 0,
+      "effect": 0,
+      "buff": [
+        10460311,
+        10460312
+      ]
+    }
+  ],
+  [
+    {
+      "selection_id": 104604,
+      "selection_result_id": 1046041,
+      "selection_result_type": 1,
+      "initial_weight": 100,
+      "luk": 0,
+      "tec": 0,
+      "ins": 0,
+      "int": 0,
+      "res": 0,
+      "effect": 0,
+      "buff": [
+        10460411,
+        10460412,
+        10460413
+      ]
+    }
+  ],
+  [
+    {
+      "selection_id": 104701,
+      "selection_result_id": 1047011,
+      "selection_result_type": 1,
+      "initial_weight": 100,
+      "luk": 0,
+      "tec": 0,
+      "ins": 0,
+      "int": 0,
+      "res": 0,
+      "effect": 0,
+      "buff": [
+        10470111,
+        10470112
+      ]
+    }
+  ],
+  [
+    {
+      "selection_id": 104702,
+      "selection_result_id": 1047021,
+      "selection_result_type": 1,
+      "initial_weight": 100,
+      "luk": 0,
+      "tec": 0,
+      "ins": 0,
+      "int": 0,
+      "res": 0,
+      "effect": 0,
+      "buff": [
+        10470211
+      ]
+    }
+  ],
+  [
+    {
+      "selection_id": 104703,
+      "selection_result_id": 1047031,
+      "selection_result_type": 1,
+      "initial_weight": 100,
+      "luk": 0,
+      "tec": 0,
+      "ins": 0,
+      "int": 0,
+      "res": 0,
+      "effect": 0,
+      "buff": [
+        10470311,
+        10470312
+      ]
+    }
+  ],
+  [
+    {
+      "selection_id": 104801,
+      "selection_result_id": 1048011,
+      "selection_result_type": 1,
+      "initial_weight": 100,
+      "luk": 0,
+      "tec": 0,
+      "ins": 0,
+      "int": 0,
+      "res": 0,
+      "effect": 0,
+      "buff": [
+        10480111,
+        10480112
+      ]
+    }
+  ],
+  [
+    {
+      "selection_id": 104802,
+      "selection_result_id": 1048021,
+      "selection_result_type": 1,
+      "initial_weight": 100,
+      "luk": 0,
+      "tec": 0,
+      "ins": 0,
+      "int": 0,
+      "res": 0,
+      "effect": 0,
+      "buff": [
+        10480211,
+        10480212
+      ]
+    }
+  ],
+  [
+    {
+      "selection_id": 104804,
+      "selection_result_id": 1048041,
+      "selection_result_type": 1,
+      "initial_weight": 100,
+      "luk": 0,
+      "tec": 0,
+      "ins": 0,
+      "int": 0,
+      "res": 0,
+      "effect": 0,
+      "buff": [
+        10480411,
+        10480412,
+        10480413
+      ]
+    }
+  ],
+  [
+    {
+      "selection_id": 104901,
+      "selection_result_id": 1049011,
+      "selection_result_type": 1,
+      "initial_weight": 100,
+      "luk": 0,
+      "tec": 0,
+      "ins": 0,
+      "int": 0,
+      "res": 0,
+      "effect": 0,
+      "buff": [
+        10490111,
+        10490112
+      ]
+    }
+  ],
+  [
+    {
+      "selection_id": 104902,
+      "selection_result_id": 1049021,
+      "selection_result_type": 1,
+      "initial_weight": 100,
+      "luk": 0,
+      "tec": 0,
+      "ins": 0,
+      "int": 0,
+      "res": 0,
+      "effect": 0,
+      "buff": [
+        10490211,
+        10490212,
+        10490213
+      ]
+    }
+  ],
+  [
+    {
+      "selection_id": 104904,
+      "selection_result_id": 1049041,
+      "selection_result_type": 1,
+      "initial_weight": 100,
+      "luk": 0,
+      "tec": 0,
+      "ins": 0,
+      "int": 0,
+      "res": 0,
+      "effect": 0,
+      "buff": [
+        10490411,
+        10490412,
+        10490413
+      ]
+    }
+  ],
+  [
+    {
+      "selection_id": 105001,
+      "selection_result_id": 1050011,
+      "selection_result_type": 1,
+      "initial_weight": 100,
+      "luk": 0,
+      "tec": 0,
+      "ins": 0,
+      "int": 0,
+      "res": 0,
+      "effect": 0,
+      "buff": [
+        10500111,
+        10500112
+      ]
+    }
+  ],
+  [
+    {
+      "selection_id": 105003,
+      "selection_result_id": 1050031,
+      "selection_result_type": 1,
+      "initial_weight": 28,
+      "luk": 0,
+      "tec": 0,
+      "ins": 0,
+      "int": 0,
+      "res": 0,
+      "effect": 0,
+      "buff": [
+        10500311
+      ]
+    },
+    {
+      "selection_id": 105003,
+      "selection_result_id": 1050032,
+      "selection_result_type": 2,
+      "initial_weight": 72,
+      "luk": 0,
+      "tec": 0,
+      "ins": 0,
+      "int": 0,
+      "res": 0,
+      "effect": 0,
+      "buff": [
+        10500321
+      ]
+    }
+  ],
+  [
+    {
+      "selection_id": 105004,
+      "selection_result_id": 1050041,
+      "selection_result_type": 1,
+      "initial_weight": 100,
+      "luk": 0,
+      "tec": 0,
+      "ins": 0,
+      "int": 0,
+      "res": 0,
+      "effect": 9020,
+      "buff": [
+        10500411
+      ]
+    }
+  ],
+  [
+    {
+      "selection_id": 105005,
+      "selection_result_id": 1050051,
+      "selection_result_type": 1,
+      "initial_weight": 100,
+      "luk": 0,
+      "tec": 0,
+      "ins": 0,
+      "int": 0,
+      "res": 0,
+      "effect": 0,
+      "buff": [
+        10500511,
+        10500512
+      ]
+    }
+  ],
+  [
+    {
+      "selection_id": 105101,
+      "selection_result_id": 1051011,
+      "selection_result_type": 1,
+      "initial_weight": 100,
+      "luk": 0,
+      "tec": 0,
+      "ins": 0,
+      "int": 0,
+      "res": 0,
+      "effect": 0,
+      "buff": [
+        10510111,
+        10510112
+      ]
+    }
+  ],
+  [
+    {
+      "selection_id": 105102,
+      "selection_result_id": 1051021,
+      "selection_result_type": 1,
+      "initial_weight": 20,
+      "luk": 0,
+      "tec": 0,
+      "ins": 0,
+      "int": 0,
+      "res": 0,
+      "effect": 0,
+      "buff": [
+        10510211,
+        10510212,
+        10510213
+      ]
+    },
+    {
+      "selection_id": 105102,
+      "selection_result_id": 1051022,
+      "selection_result_type": 2,
+      "initial_weight": 80,
+      "luk": 0,
+      "tec": 0,
+      "ins": 0,
+      "int": 0,
+      "res": 0,
+      "effect": 0,
+      "buff": [
+        10510221,
+        10510222,
+        10510223
+      ]
+    }
+  ],
+  [
+    {
+      "selection_id": 105103,
+      "selection_result_id": 1051031,
+      "selection_result_type": 1,
+      "initial_weight": 28,
+      "luk": 0,
+      "tec": 0,
+      "ins": 0,
+      "int": 0,
+      "res": 0,
+      "effect": 9011,
+      "buff": [
+        10510311,
+        10510312
+      ]
+    },
+    {
+      "selection_id": 105103,
+      "selection_result_id": 1051032,
+      "selection_result_type": 2,
+      "initial_weight": 72,
+      "luk": 0,
+      "tec": 0,
+      "ins": 0,
+      "int": 0,
+      "res": 0,
+      "effect": 0,
+      "buff": [
+        10510321
+      ]
+    }
+  ],
+  [
+    {
+      "selection_id": 105104,
+      "selection_result_id": 1051041,
+      "selection_result_type": 1,
+      "initial_weight": 100,
+      "luk": 0,
+      "tec": 0,
+      "ins": 0,
+      "int": 0,
+      "res": 0,
+      "effect": 0,
+      "buff": [
+        10510411,
+        10510412
+      ]
+    }
+  ],
+  [
+    {
+      "selection_id": 105201,
+      "selection_result_id": 1052011,
+      "selection_result_type": 1,
+      "initial_weight": 28,
+      "luk": 0,
+      "tec": 0,
+      "ins": 0,
+      "int": 0,
+      "res": 0,
+      "effect": 9006,
+      "buff": [
+        10520111
+      ]
+    },
+    {
+      "selection_id": 105201,
+      "selection_result_id": 1052012,
+      "selection_result_type": 2,
+      "initial_weight": 72,
+      "luk": 0,
+      "tec": 0,
+      "ins": 0,
+      "int": 0,
+      "res": 0,
+      "effect": 0,
+      "buff": [
+        10520121
+      ]
+    }
+  ],
+  [
+    {
+      "selection_id": 105202,
+      "selection_result_id": 1052021,
+      "selection_result_type": 1,
+      "initial_weight": 28,
+      "luk": 0,
+      "tec": 0,
+      "ins": 0,
+      "int": 0,
+      "res": 0,
+      "effect": 0,
+      "buff": [
+        10520211,
+        10520212
+      ]
+    },
+    {
+      "selection_id": 105202,
+      "selection_result_id": 1052022,
+      "selection_result_type": 2,
+      "initial_weight": 72,
+      "luk": 0,
+      "tec": 0,
+      "ins": 0,
+      "int": 0,
+      "res": 0,
+      "effect": 0,
+      "buff": [
+        10520221,
+        10520222
+      ]
+    }
+  ],
+  [
+    {
+      "selection_id": 105203,
+      "selection_result_id": 1052031,
+      "selection_result_type": 1,
+      "initial_weight": 100,
+      "luk": 0,
+      "tec": 0,
+      "ins": 0,
+      "int": 0,
+      "res": 0,
+      "effect": 0,
+      "buff": [
+        10520311,
+        10520312
+      ]
+    }
+  ],
+  [
+    {
+      "selection_id": 105301,
+      "selection_result_id": 1053011,
+      "selection_result_type": 1,
+      "initial_weight": 20,
+      "luk": 0,
+      "tec": 0,
+      "ins": 0,
+      "int": 0,
+      "res": 0,
+      "effect": 0,
+      "buff": [
+        10530111
+      ]
+    },
+    {
+      "selection_id": 105301,
+      "selection_result_id": 1053012,
+      "selection_result_type": 2,
+      "initial_weight": 80,
+      "luk": 0,
+      "tec": 0,
+      "ins": 0,
+      "int": 0,
+      "res": 0,
+      "effect": 0,
+      "buff": [
+        10530121
+      ]
+    }
+  ],
+  [
+    {
+      "selection_id": 105302,
+      "selection_result_id": 1053021,
+      "selection_result_type": 1,
+      "initial_weight": 28,
+      "luk": 0,
+      "tec": 0,
+      "ins": 0,
+      "int": 0,
+      "res": 0,
+      "effect": 0,
+      "buff": [
+        10530211
+      ]
+    },
+    {
+      "selection_id": 105302,
+      "selection_result_id": 1053022,
+      "selection_result_type": 2,
+      "initial_weight": 72,
+      "luk": 0,
+      "tec": 0,
+      "ins": 0,
+      "int": 0,
+      "res": 0,
+      "effect": 0,
+      "buff": [
+        10530221
+      ]
+    }
+  ],
+  [
+    {
+      "selection_id": 105304,
+      "selection_result_id": 1053041,
+      "selection_result_type": 1,
+      "initial_weight": 100,
+      "luk": 0,
+      "tec": 0,
+      "ins": 0,
+      "int": 0,
+      "res": 0,
+      "effect": 0,
+      "buff": [
+        10530411
+      ]
+    }
+  ],
+  [
+    {
+      "selection_id": 105401,
+      "selection_result_id": 1054011,
+      "selection_result_type": 1,
+      "initial_weight": 28,
+      "luk": 0,
+      "tec": 0,
+      "ins": 0,
+      "int": 0,
+      "res": 0,
+      "effect": 0,
+      "buff": [
+        10540111
+      ]
+    },
+    {
+      "selection_id": 105401,
+      "selection_result_id": 1054012,
+      "selection_result_type": 2,
+      "initial_weight": 72,
+      "luk": 0,
+      "tec": 0,
+      "ins": 0,
+      "int": 0,
+      "res": 0,
+      "effect": 0,
+      "buff": [
+        10540121
+      ]
+    }
+  ],
+  [
+    {
+      "selection_id": 105402,
+      "selection_result_id": 1054021,
+      "selection_result_type": 1,
+      "initial_weight": 28,
+      "luk": 0,
+      "tec": 0,
+      "ins": 0,
+      "int": 0,
+      "res": 0,
+      "effect": 0,
+      "buff": [
+        10540211
+      ]
+    },
+    {
+      "selection_id": 105402,
+      "selection_result_id": 1054022,
+      "selection_result_type": 2,
+      "initial_weight": 72,
+      "luk": 0,
+      "tec": 0,
+      "ins": 0,
+      "int": 0,
+      "res": 0,
+      "effect": 0,
+      "buff": [
+        10540221
+      ]
+    }
+  ],
+  [
+    {
+      "selection_id": 105403,
+      "selection_result_id": 1054031,
+      "selection_result_type": 1,
+      "initial_weight": 28,
+      "luk": 0,
+      "tec": 0,
+      "ins": 0,
+      "int": 0,
+      "res": 0,
+      "effect": 9015,
+      "buff": [
+        10540311
+      ]
+    },
+    {
+      "selection_id": 105403,
+      "selection_result_id": 1054032,
+      "selection_result_type": 2,
+      "initial_weight": 72,
+      "luk": 0,
+      "tec": 0,
+      "ins": 0,
+      "int": 0,
+      "res": 0,
+      "effect": 0,
+      "buff": [
+        10540321
+      ]
+    }
+  ],
+  [
+    {
+      "selection_id": 105501,
+      "selection_result_id": 1055011,
+      "selection_result_type": 1,
+      "initial_weight": 100,
+      "luk": 0,
+      "tec": 0,
+      "ins": 0,
+      "int": 0,
+      "res": 0,
+      "effect": 0,
+      "buff": [
+        10550111
+      ]
+    }
+  ],
+  [
+    {
+      "selection_id": 105502,
+      "selection_result_id": 1055021,
+      "selection_result_type": 1,
+      "initial_weight": 100,
+      "luk": 0,
+      "tec": 0,
+      "ins": 0,
+      "int": 0,
+      "res": 0,
+      "effect": 0,
+      "buff": [
+        10550211,
+        10550212
+      ]
+    }
+  ],
+  [
+    {
+      "selection_id": 105504,
+      "selection_result_id": 1055041,
+      "selection_result_type": 1,
+      "initial_weight": 100,
+      "luk": 0,
+      "tec": 0,
+      "ins": 0,
+      "int": 0,
+      "res": 0,
+      "effect": 0,
+      "buff": [
+        10550411,
+        10550412
+      ]
+    }
+  ],
+  [
+    {
+      "selection_id": 105601,
+      "selection_result_id": 1056011,
+      "selection_result_type": 1,
+      "initial_weight": 28,
+      "luk": 0,
+      "tec": 0,
+      "ins": 0,
+      "int": 0,
+      "res": 0,
+      "effect": 9019,
+      "buff": [
+        10560111
+      ]
+    },
+    {
+      "selection_id": 105601,
+      "selection_result_id": 1056012,
+      "selection_result_type": 2,
+      "initial_weight": 72,
+      "luk": 0,
+      "tec": 0,
+      "ins": 0,
+      "int": 0,
+      "res": 0,
+      "effect": 0,
+      "buff": [
+        10560121
+      ]
+    }
+  ],
+  [
+    {
+      "selection_id": 105602,
+      "selection_result_id": 1056021,
+      "selection_result_type": 1,
+      "initial_weight": 28,
+      "luk": 0,
+      "tec": 0,
+      "ins": 0,
+      "int": 0,
+      "res": 0,
+      "effect": 0,
+      "buff": [
+        10560211
+      ]
+    },
+    {
+      "selection_id": 105602,
+      "selection_result_id": 1056022,
+      "selection_result_type": 2,
+      "initial_weight": 72,
+      "luk": 0,
+      "tec": 0,
+      "ins": 0,
+      "int": 0,
+      "res": 0,
+      "effect": 0,
+      "buff": [
+        10560221
+      ]
+    }
+  ],
+  [
+    {
+      "selection_id": 105604,
+      "selection_result_id": 1056041,
+      "selection_result_type": 1,
+      "initial_weight": 100,
+      "luk": 0,
+      "tec": 0,
+      "ins": 0,
+      "int": 0,
+      "res": 0,
+      "effect": 0,
+      "buff": [
+        10560411,
+        10560412
+      ]
+    }
+  ],
+  [
+    {
+      "selection_id": 105701,
+      "selection_result_id": 1057011,
+      "selection_result_type": 1,
+      "initial_weight": 28,
+      "luk": 0,
+      "tec": 0,
+      "ins": 0,
+      "int": 0,
+      "res": 0,
+      "effect": 0,
+      "buff": [
+        10570111
+      ]
+    },
+    {
+      "selection_id": 105701,
+      "selection_result_id": 1057012,
+      "selection_result_type": 2,
+      "initial_weight": 72,
+      "luk": 0,
+      "tec": 0,
+      "ins": 0,
+      "int": 0,
+      "res": 0,
+      "effect": 0,
+      "buff": [
+        10570121,
+        10570122
+      ]
+    }
+  ],
+  [
+    {
+      "selection_id": 105702,
+      "selection_result_id": 1057021,
+      "selection_result_type": 1,
+      "initial_weight": 100,
+      "luk": 0,
+      "tec": 0,
+      "ins": 0,
+      "int": 0,
+      "res": 0,
+      "effect": 0,
+      "buff": [
+        10570211
+      ]
+    }
+  ],
+  [
+    {
+      "selection_id": 105704,
+      "selection_result_id": 1057041,
+      "selection_result_type": 1,
+      "initial_weight": 100,
+      "luk": 0,
+      "tec": 0,
+      "ins": 0,
+      "int": 0,
+      "res": 0,
+      "effect": 0,
+      "buff": [
+        10570411,
+        10570412
+      ]
+    }
+  ],
+  [
+    {
+      "selection_id": 105801,
+      "selection_result_id": 1058011,
+      "selection_result_type": 1,
+      "initial_weight": 20,
+      "luk": 0,
+      "tec": 0,
+      "ins": 0,
+      "int": 0,
+      "res": 0,
+      "effect": 0,
+      "buff": [
+        10580111
+      ]
+    },
+    {
+      "selection_id": 105801,
+      "selection_result_id": 1058012,
+      "selection_result_type": 2,
+      "initial_weight": 80,
+      "luk": 0,
+      "tec": 0,
+      "ins": 0,
+      "int": 0,
+      "res": 0,
+      "effect": 0,
+      "buff": [
+        10580121
+      ]
+    }
+  ],
+  [
+    {
+      "selection_id": 105802,
+      "selection_result_id": 1058021,
+      "selection_result_type": 1,
+      "initial_weight": 100,
+      "luk": 0,
+      "tec": 0,
+      "ins": 0,
+      "int": 0,
+      "res": 0,
+      "effect": 0,
+      "buff": [
+        10580211
+      ]
+    }
+  ],
+  [
+    {
+      "selection_id": 105804,
+      "selection_result_id": 1058041,
+      "selection_result_type": 1,
+      "initial_weight": 100,
+      "luk": 0,
+      "tec": 0,
+      "ins": 0,
+      "int": 0,
+      "res": 0,
+      "effect": 0,
+      "buff": [
+        10580411
+      ]
+    }
+  ],
+  [
+    {
+      "selection_id": 105901,
+      "selection_result_id": 1059011,
+      "selection_result_type": 1,
+      "initial_weight": 100,
+      "luk": 0,
+      "tec": 0,
+      "ins": 0,
+      "int": 0,
+      "res": 0,
+      "effect": 0,
+      "buff": [
+        10590111,
+        10590112
+      ]
+    }
+  ],
+  [
+    {
+      "selection_id": 105902,
+      "selection_result_id": 1059021,
+      "selection_result_type": 1,
+      "initial_weight": 100,
+      "luk": 0,
+      "tec": 0,
+      "ins": 0,
+      "int": 0,
+      "res": 0,
+      "effect": 0,
+      "buff": [
+        10590211,
+        10590212
+      ]
+    }
+  ],
+  [
+    {
+      "selection_id": 105903,
+      "selection_result_id": 1059031,
+      "selection_result_type": 1,
+      "initial_weight": 28,
+      "luk": 0,
+      "tec": 0,
+      "ins": 0,
+      "int": 0,
+      "res": 0,
+      "effect": 9017,
+      "buff": [
+        10590311
+      ]
+    },
+    {
+      "selection_id": 105903,
+      "selection_result_id": 1059032,
+      "selection_result_type": 2,
+      "initial_weight": 72,
+      "luk": 0,
+      "tec": 0,
+      "ins": 0,
+      "int": 0,
+      "res": 0,
+      "effect": 0,
+      "buff": [
+        10590321
+      ]
+    }
+  ],
+  [
+    {
+      "selection_id": 105904,
+      "selection_result_id": 1059041,
+      "selection_result_type": 1,
+      "initial_weight": 100,
+      "luk": 0,
+      "tec": 0,
+      "ins": 0,
+      "int": 0,
+      "res": 0,
+      "effect": 0,
+      "buff": [
+        10590411
+      ]
+    }
+  ],
+  [
+    {
+      "selection_id": 106001,
+      "selection_result_id": 1060011,
+      "selection_result_type": 1,
+      "initial_weight": 20,
+      "luk": 0,
+      "tec": 0,
+      "ins": 0,
+      "int": 0,
+      "res": 0,
+      "effect": 0,
+      "buff": [
+        10600111
+      ]
+    },
+    {
+      "selection_id": 106001,
+      "selection_result_id": 1060012,
+      "selection_result_type": 2,
+      "initial_weight": 80,
+      "luk": 0,
+      "tec": 0,
+      "ins": 0,
+      "int": 0,
+      "res": 0,
+      "effect": 0,
+      "buff": [
+        10600121
+      ]
+    }
+  ],
+  [
+    {
+      "selection_id": 106002,
+      "selection_result_id": 1060021,
+      "selection_result_type": 1,
+      "initial_weight": 20,
+      "luk": 0,
+      "tec": 0,
+      "ins": 0,
+      "int": 0,
+      "res": 0,
+      "effect": 0,
+      "buff": [
+        10600211
+      ]
+    },
+    {
+      "selection_id": 106002,
+      "selection_result_id": 1060022,
+      "selection_result_type": 2,
+      "initial_weight": 80,
+      "luk": 0,
+      "tec": 0,
+      "ins": 0,
+      "int": 0,
+      "res": 0,
+      "effect": 0,
+      "buff": [
+        10600221
+      ]
+    }
+  ],
+  [
+    {
+      "selection_id": 106101,
+      "selection_result_id": 1061011,
+      "selection_result_type": 1,
+      "initial_weight": 28,
+      "luk": 0,
+      "tec": 0,
+      "ins": 0,
+      "int": 0,
+      "res": 0,
+      "effect": 0,
+      "buff": [
+        10610111
+      ]
+    },
+    {
+      "selection_id": 106101,
+      "selection_result_id": 1061012,
+      "selection_result_type": 2,
+      "initial_weight": 72,
+      "luk": 0,
+      "tec": 0,
+      "ins": 0,
+      "int": 0,
+      "res": 0,
+      "effect": 0,
+      "buff": [
+        10610121
+      ]
+    }
+  ],
+  [
+    {
+      "selection_id": 106102,
+      "selection_result_id": 1061021,
+      "selection_result_type": 1,
+      "initial_weight": 100,
+      "luk": 0,
+      "tec": 0,
+      "ins": 0,
+      "int": 0,
+      "res": 0,
+      "effect": 0,
+      "buff": [
+        10610211
+      ]
+    }
+  ],
+  [
+    {
+      "selection_id": 106103,
+      "selection_result_id": 1061031,
+      "selection_result_type": 1,
+      "initial_weight": 28,
+      "luk": 0,
+      "tec": 0,
+      "ins": 0,
+      "int": 0,
+      "res": 0,
+      "effect": 9018,
+      "buff": [
+        10610311,
+        10610312
+      ]
+    },
+    {
+      "selection_id": 106103,
+      "selection_result_id": 1061032,
+      "selection_result_type": 2,
+      "initial_weight": 72,
+      "luk": 0,
+      "tec": 0,
+      "ins": 0,
+      "int": 0,
+      "res": 0,
+      "effect": 0,
+      "buff": [
+        10610321
+      ]
+    }
+  ],
+  [
+    {
+      "selection_id": 106104,
+      "selection_result_id": 1061041,
+      "selection_result_type": 1,
+      "initial_weight": 100,
+      "luk": 0,
+      "tec": 0,
+      "ins": 0,
+      "int": 0,
+      "res": 0,
+      "effect": 0,
+      "buff": [
+        10610411,
+        10610412
+      ]
+    }
+  ],
+  [
+    {
+      "selection_id": 106201,
+      "selection_result_id": 1062011,
+      "selection_result_type": 1,
+      "initial_weight": 20,
+      "luk": 0,
+      "tec": 0,
+      "ins": 0,
+      "int": 0,
+      "res": 0,
+      "effect": 0,
+      "buff": [
+        10620111
+      ]
+    },
+    {
+      "selection_id": 106201,
+      "selection_result_id": 1062012,
+      "selection_result_type": 2,
+      "initial_weight": 80,
+      "luk": 0,
+      "tec": 0,
+      "ins": 0,
+      "int": 0,
+      "res": 0,
+      "effect": 0,
+      "buff": [
+        10620121,
+        10620122
+      ]
+    }
+  ],
+  [
+    {
+      "selection_id": 106202,
+      "selection_result_id": 1062021,
+      "selection_result_type": 1,
+      "initial_weight": 12,
+      "luk": 0,
+      "tec": 0,
+      "ins": 0,
+      "int": 0,
+      "res": 0,
+      "effect": 0,
+      "buff": [
+        10620211
+      ]
+    },
+    {
+      "selection_id": 106202,
+      "selection_result_id": 1062022,
+      "selection_result_type": 2,
+      "initial_weight": 88,
+      "luk": 0,
+      "tec": 0,
+      "ins": 0,
+      "int": 0,
+      "res": 0,
+      "effect": 0,
+      "buff": [
+        10620221,
+        10620222
+      ]
+    }
+  ],
+  [
+    {
+      "selection_id": 106203,
+      "selection_result_id": 1062031,
+      "selection_result_type": 1,
+      "initial_weight": 100,
+      "luk": 0,
+      "tec": 0,
+      "ins": 0,
+      "int": 0,
+      "res": 0,
+      "effect": 0,
+      "buff": [
+        10620311
+      ]
+    }
+  ],
+  [
+    {
+      "selection_id": 106301,
+      "selection_result_id": 1063011,
+      "selection_result_type": 1,
+      "initial_weight": 20,
+      "luk": 0,
+      "tec": 0,
+      "ins": 0,
+      "int": 0,
+      "res": 0,
+      "effect": 0,
+      "buff": [
+        10630111
+      ]
+    },
+    {
+      "selection_id": 106301,
+      "selection_result_id": 1063012,
+      "selection_result_type": 2,
+      "initial_weight": 80,
+      "luk": 0,
+      "tec": 0,
+      "ins": 0,
+      "int": 0,
+      "res": 0,
+      "effect": 0,
+      "buff": [
+        10630121
+      ]
+    }
+  ],
+  [
+    {
+      "selection_id": 106302,
+      "selection_result_id": 1063021,
+      "selection_result_type": 1,
+      "initial_weight": 20,
+      "luk": 0,
+      "tec": 0,
+      "ins": 0,
+      "int": 0,
+      "res": 0,
+      "effect": 0,
+      "buff": [
+        10630211
+      ]
+    },
+    {
+      "selection_id": 106302,
+      "selection_result_id": 1063022,
+      "selection_result_type": 2,
+      "initial_weight": 80,
+      "luk": 0,
+      "tec": 0,
+      "ins": 0,
+      "int": 0,
+      "res": 0,
+      "effect": 0,
+      "buff": [
+        10630221
+      ]
+    }
+  ],
+  [
+    {
+      "selection_id": 106304,
+      "selection_result_id": 1063041,
+      "selection_result_type": 1,
+      "initial_weight": 100,
+      "luk": 0,
+      "tec": 0,
+      "ins": 0,
+      "int": 0,
+      "res": 0,
+      "effect": 0,
+      "buff": [
+        10630411,
+        10630412
+      ]
+    }
+  ],
+  [
+    {
+      "selection_id": 106401,
+      "selection_result_id": 1064011,
+      "selection_result_type": 1,
+      "initial_weight": 20,
+      "luk": 0,
+      "tec": 0,
+      "ins": 0,
+      "int": 0,
+      "res": 0,
+      "effect": 0,
+      "buff": [
+        10640111
+      ]
+    },
+    {
+      "selection_id": 106401,
+      "selection_result_id": 1064012,
+      "selection_result_type": 2,
+      "initial_weight": 80,
+      "luk": 0,
+      "tec": 0,
+      "ins": 0,
+      "int": 0,
+      "res": 0,
+      "effect": 0,
+      "buff": [
+        10640121
+      ]
+    }
+  ],
+  [
+    {
+      "selection_id": 106402,
+      "selection_result_id": 1064021,
+      "selection_result_type": 1,
+      "initial_weight": 20,
+      "luk": 0,
+      "tec": 0,
+      "ins": 0,
+      "int": 0,
+      "res": 0,
+      "effect": 0,
+      "buff": [
+        10640211
+      ]
+    },
+    {
+      "selection_id": 106402,
+      "selection_result_id": 1064022,
+      "selection_result_type": 2,
+      "initial_weight": 80,
+      "luk": 0,
+      "tec": 0,
+      "ins": 0,
+      "int": 0,
+      "res": 0,
+      "effect": 0,
+      "buff": [
+        10640221
+      ]
+    }
+  ],
+  [
+    {
+      "selection_id": 106404,
+      "selection_result_id": 1064041,
+      "selection_result_type": 1,
+      "initial_weight": 100,
+      "luk": 0,
+      "tec": 0,
+      "ins": 0,
+      "int": 0,
+      "res": 0,
+      "effect": 0,
+      "buff": [
+        10640411
+      ]
+    }
+  ],
+  [
+    {
+      "selection_id": 106501,
+      "selection_result_id": 1065011,
+      "selection_result_type": 1,
+      "initial_weight": 28,
+      "luk": 0,
+      "tec": 0,
+      "ins": 0,
+      "int": 0,
+      "res": 0,
+      "effect": 0,
+      "buff": [
+        10650111,
+        10650112
+      ]
+    },
+    {
+      "selection_id": 106501,
+      "selection_result_id": 1065012,
+      "selection_result_type": 2,
+      "initial_weight": 72,
+      "luk": 0,
+      "tec": 0,
+      "ins": 0,
+      "int": 0,
+      "res": 0,
+      "effect": 0,
+      "buff": [
+        10650121,
+        10650122
+      ]
+    }
+  ],
+  [
+    {
+      "selection_id": 106502,
+      "selection_result_id": 1065021,
+      "selection_result_type": 1,
+      "initial_weight": 28,
+      "luk": 0,
+      "tec": 0,
+      "ins": 0,
+      "int": 0,
+      "res": 0,
+      "effect": 0,
+      "buff": [
+        10650211,
+        10650212
+      ]
+    },
+    {
+      "selection_id": 106502,
+      "selection_result_id": 1065022,
+      "selection_result_type": 2,
+      "initial_weight": 72,
+      "luk": 0,
+      "tec": 0,
+      "ins": 0,
+      "int": 0,
+      "res": 0,
+      "effect": 0,
+      "buff": [
+        10650221,
+        10650222
+      ]
+    }
+  ],
+  [
+    {
+      "selection_id": 106504,
+      "selection_result_id": 1065041,
+      "selection_result_type": 1,
+      "initial_weight": 100,
+      "luk": 0,
+      "tec": 0,
+      "ins": 0,
+      "int": 0,
+      "res": 0,
+      "effect": 0,
+      "buff": [
+        10650411
+      ]
+    }
+  ],
+  [
+    {
+      "selection_id": 106601,
+      "selection_result_id": 1066011,
+      "selection_result_type": 1,
+      "initial_weight": 12,
+      "luk": 0,
+      "tec": 0,
+      "ins": 0,
+      "int": 0,
+      "res": 0,
+      "effect": 0,
+      "buff": [
+        10660111,
+        10660112
+      ]
+    },
+    {
+      "selection_id": 106601,
+      "selection_result_id": 1066012,
+      "selection_result_type": 2,
+      "initial_weight": 88,
+      "luk": 0,
+      "tec": 0,
+      "ins": 0,
+      "int": 0,
+      "res": 0,
+      "effect": 0,
+      "buff": [
+        10660121,
+        10660122
+      ]
+    }
+  ],
+  [
+    {
+      "selection_id": 106602,
+      "selection_result_id": 1066021,
+      "selection_result_type": 1,
+      "initial_weight": 20,
+      "luk": 0,
+      "tec": 0,
+      "ins": 0,
+      "int": 0,
+      "res": 0,
+      "effect": 0,
+      "buff": [
+        10660211,
+        10660212
+      ]
+    },
+    {
+      "selection_id": 106602,
+      "selection_result_id": 1066022,
+      "selection_result_type": 2,
+      "initial_weight": 80,
+      "luk": 0,
+      "tec": 0,
+      "ins": 0,
+      "int": 0,
+      "res": 0,
+      "effect": 0,
+      "buff": [
+        10660221,
+        10660222
+      ]
+    }
+  ],
+  [
+    {
+      "selection_id": 106603,
+      "selection_result_id": 1066031,
+      "selection_result_type": 1,
+      "initial_weight": 100,
+      "luk": 0,
+      "tec": 0,
+      "ins": 0,
+      "int": 0,
+      "res": 0,
+      "effect": 0,
+      "buff": [
+        10660311
+      ]
+    }
+  ],
+  [
+    {
+      "selection_id": 106604,
+      "selection_result_id": 1066041,
+      "selection_result_type": 1,
+      "initial_weight": 100,
+      "luk": 0,
+      "tec": 0,
+      "ins": 0,
+      "int": 0,
+      "res": 0,
+      "effect": 0,
+      "buff": [
+        10660411,
+        10660412
+      ]
+    }
+  ],
+  [
+    {
+      "selection_id": 106701,
+      "selection_result_id": 1067011,
+      "selection_result_type": 1,
+      "initial_weight": 100,
+      "luk": 0,
+      "tec": 0,
+      "ins": 0,
+      "int": 0,
+      "res": 0,
+      "effect": 0,
+      "buff": [
+        10670111,
+        10670112
+      ]
+    }
+  ],
+  [
+    {
+      "selection_id": 106702,
+      "selection_result_id": 1067021,
+      "selection_result_type": 1,
+      "initial_weight": 28,
+      "luk": 0,
+      "tec": 0,
+      "ins": 0,
+      "int": 0,
+      "res": 0,
+      "effect": 0,
+      "buff": [
+        10670211
+      ]
+    },
+    {
+      "selection_id": 106702,
+      "selection_result_id": 1067022,
+      "selection_result_type": 2,
+      "initial_weight": 72,
+      "luk": 0,
+      "tec": 0,
+      "ins": 0,
+      "int": 0,
+      "res": 0,
+      "effect": 0,
+      "buff": [
+        10670221
+      ]
+    }
+  ],
+  [
+    {
+      "selection_id": 106703,
+      "selection_result_id": 1067031,
+      "selection_result_type": 1,
+      "initial_weight": 28,
+      "luk": 0,
+      "tec": 0,
+      "ins": 0,
+      "int": 0,
+      "res": 0,
+      "effect": 0,
+      "buff": [
+        10670311,
+        10670312
+      ]
+    },
+    {
+      "selection_id": 106703,
+      "selection_result_id": 1067032,
+      "selection_result_type": 2,
+      "initial_weight": 72,
+      "luk": 0,
+      "tec": 0,
+      "ins": 0,
+      "int": 0,
+      "res": 0,
+      "effect": 0,
+      "buff": [
+        10670321
+      ]
+    }
+  ],
+  [
+    {
+      "selection_id": 106801,
+      "selection_result_id": 1068011,
+      "selection_result_type": 1,
+      "initial_weight": 20,
+      "luk": 0,
+      "tec": 0,
+      "ins": 0,
+      "int": 0,
+      "res": 0,
+      "effect": 0,
+      "buff": [
+        10680111,
+        10680112
+      ]
+    },
+    {
+      "selection_id": 106801,
+      "selection_result_id": 1068012,
+      "selection_result_type": 2,
+      "initial_weight": 80,
+      "luk": 0,
+      "tec": 0,
+      "ins": 0,
+      "int": 0,
+      "res": 0,
+      "effect": 0,
+      "buff": [
+        10680121,
+        10680122
+      ]
+    }
+  ],
+  [
+    {
+      "selection_id": 106802,
+      "selection_result_id": 1068021,
+      "selection_result_type": 1,
+      "initial_weight": 20,
+      "luk": 0,
+      "tec": 0,
+      "ins": 0,
+      "int": 0,
+      "res": 0,
+      "effect": 0,
+      "buff": [
+        10680211,
+        10680212
+      ]
+    },
+    {
+      "selection_id": 106802,
+      "selection_result_id": 1068022,
+      "selection_result_type": 2,
+      "initial_weight": 80,
+      "luk": 0,
+      "tec": 0,
+      "ins": 0,
+      "int": 0,
+      "res": 0,
+      "effect": 0,
+      "buff": [
+        10680221,
+        10680222
+      ]
+    }
+  ],
+  [
+    {
+      "selection_id": 106803,
+      "selection_result_id": 1068031,
+      "selection_result_type": 1,
+      "initial_weight": 100,
+      "luk": 0,
+      "tec": 0,
+      "ins": 0,
+      "int": 0,
+      "res": 0,
+      "effect": 0,
+      "buff": [
+        10680311,
+        10680312
+      ]
+    }
+  ],
+  [
+    {
+      "selection_id": 106901,
+      "selection_result_id": 1069011,
+      "selection_result_type": 1,
+      "initial_weight": 20,
+      "luk": 0,
+      "tec": 0,
+      "ins": 0,
+      "int": 0,
+      "res": 0,
+      "effect": 0,
+      "buff": [
+        10690111,
+        10690112
+      ]
+    },
+    {
+      "selection_id": 106901,
+      "selection_result_id": 1069012,
+      "selection_result_type": 2,
+      "initial_weight": 80,
+      "luk": 0,
+      "tec": 0,
+      "ins": 0,
+      "int": 0,
+      "res": 0,
+      "effect": 0,
+      "buff": [
+        10690121,
+        10690122
+      ]
+    }
+  ],
+  [
+    {
+      "selection_id": 106902,
+      "selection_result_id": 1069021,
+      "selection_result_type": 1,
+      "initial_weight": 20,
+      "luk": 0,
+      "tec": 0,
+      "ins": 0,
+      "int": 0,
+      "res": 0,
+      "effect": 0,
+      "buff": [
+        10690211,
+        10690212
+      ]
+    },
+    {
+      "selection_id": 106902,
+      "selection_result_id": 1069022,
+      "selection_result_type": 2,
+      "initial_weight": 80,
+      "luk": 0,
+      "tec": 0,
+      "ins": 0,
+      "int": 0,
+      "res": 0,
+      "effect": 0,
+      "buff": [
+        10690221
+      ]
+    }
+  ],
+  [
+    {
+      "selection_id": 106904,
+      "selection_result_id": 1069041,
+      "selection_result_type": 1,
+      "initial_weight": 100,
+      "luk": 0,
+      "tec": 0,
+      "ins": 0,
+      "int": 0,
+      "res": 0,
+      "effect": 0,
+      "buff": [
+        10690411,
+        10690412
+      ]
+    }
+  ],
+  [
+    {
+      "selection_id": 107001,
+      "selection_result_id": 1070011,
+      "selection_result_type": 1,
+      "initial_weight": 20,
+      "luk": 0,
+      "tec": 0,
+      "ins": 0,
+      "int": 0,
+      "res": 0,
+      "effect": 0,
+      "buff": [
+        10700111,
+        10700112,
+        10700113
+      ]
+    },
+    {
+      "selection_id": 107001,
+      "selection_result_id": 1070012,
+      "selection_result_type": 2,
+      "initial_weight": 80,
+      "luk": 0,
+      "tec": 0,
+      "ins": 0,
+      "int": 0,
+      "res": 0,
+      "effect": 0,
+      "buff": [
+        10700121,
+        10700122
+      ]
+    }
+  ],
+  [
+    {
+      "selection_id": 107002,
+      "selection_result_id": 1070021,
+      "selection_result_type": 1,
+      "initial_weight": 100,
+      "luk": 0,
+      "tec": 0,
+      "ins": 0,
+      "int": 0,
+      "res": 0,
+      "effect": 0,
+      "buff": [
+        10700211,
+        10700212,
+        10700213
+      ]
+    }
+  ],
+  [
+    {
+      "selection_id": 107003,
+      "selection_result_id": 1070031,
+      "selection_result_type": 1,
+      "initial_weight": 28,
+      "luk": 0,
+      "tec": 0,
+      "ins": 0,
+      "int": 0,
+      "res": 0,
+      "effect": 0,
+      "buff": [
+        10700311
+      ]
+    },
+    {
+      "selection_id": 107003,
+      "selection_result_id": 1070032,
+      "selection_result_type": 2,
+      "initial_weight": 72,
+      "luk": 0,
+      "tec": 0,
+      "ins": 0,
+      "int": 0,
+      "res": 0,
+      "effect": 0,
+      "buff": [
+        10700321,
+        10700322
+      ]
+    }
+  ],
+  [
+    {
+      "selection_id": 107101,
+      "selection_result_id": 1071011,
+      "selection_result_type": 1,
+      "initial_weight": 12,
+      "luk": 0,
+      "tec": 0,
+      "ins": 0,
+      "int": 0,
+      "res": 0,
+      "effect": 0,
+      "buff": [
+        10710111
+      ]
+    },
+    {
+      "selection_id": 107101,
+      "selection_result_id": 1071012,
+      "selection_result_type": 2,
+      "initial_weight": 88,
+      "luk": 0,
+      "tec": 0,
+      "ins": 0,
+      "int": 0,
+      "res": 0,
+      "effect": 0,
+      "buff": [
+        10710121,
+        10710122
+      ]
+    }
+  ],
+  [
+    {
+      "selection_id": 107102,
+      "selection_result_id": 1071021,
+      "selection_result_type": 1,
+      "initial_weight": 100,
+      "luk": 0,
+      "tec": 0,
+      "ins": 0,
+      "int": 0,
+      "res": 0,
+      "effect": 0,
+      "buff": [
+        10710211
+      ]
+    }
+  ],
+  [
+    {
+      "selection_id": 107103,
+      "selection_result_id": 1071031,
+      "selection_result_type": 1,
+      "initial_weight": 20,
+      "luk": 0,
+      "tec": 0,
+      "ins": 0,
+      "int": 0,
+      "res": 0,
+      "effect": 0,
+      "buff": [
+        10710311,
+        10710312
+      ]
+    },
+    {
+      "selection_id": 107103,
+      "selection_result_id": 1071032,
+      "selection_result_type": 2,
+      "initial_weight": 80,
+      "luk": 0,
+      "tec": 0,
+      "ins": 0,
+      "int": 0,
+      "res": 0,
+      "effect": 0,
+      "buff": [
+        10710321
+      ]
+    }
+  ],
+  [
+    {
+      "selection_id": 107201,
+      "selection_result_id": 1072011,
+      "selection_result_type": 1,
+      "initial_weight": 20,
+      "luk": 0,
+      "tec": 0,
+      "ins": 0,
+      "int": 0,
+      "res": 0,
+      "effect": 0,
+      "buff": [
+        10720111
+      ]
+    },
+    {
+      "selection_id": 107201,
+      "selection_result_id": 1072012,
+      "selection_result_type": 2,
+      "initial_weight": 80,
+      "luk": 0,
+      "tec": 0,
+      "ins": 0,
+      "int": 0,
+      "res": 0,
+      "effect": 0,
+      "buff": [
+        10720121
+      ]
+    }
+  ],
+  [
+    {
+      "selection_id": 107202,
+      "selection_result_id": 1072021,
+      "selection_result_type": 1,
+      "initial_weight": 20,
+      "luk": 0,
+      "tec": 0,
+      "ins": 0,
+      "int": 0,
+      "res": 0,
+      "effect": 0,
+      "buff": [
+        10720211,
+        10720212
+      ]
+    },
+    {
+      "selection_id": 107202,
+      "selection_result_id": 1072022,
+      "selection_result_type": 2,
+      "initial_weight": 80,
+      "luk": 0,
+      "tec": 0,
+      "ins": 0,
+      "int": 0,
+      "res": 0,
+      "effect": 0,
+      "buff": [
+        10720221
+      ]
+    }
+  ],
+  [
+    {
+      "selection_id": 107203,
+      "selection_result_id": 1072031,
+      "selection_result_type": 1,
+      "initial_weight": 100,
+      "luk": 0,
+      "tec": 0,
+      "ins": 0,
+      "int": 0,
+      "res": 0,
+      "effect": 0,
+      "buff": [
+        10720311,
+        10720312
+      ]
+    }
+  ],
+  [
+    {
+      "selection_id": 107301,
+      "selection_result_id": 1073011,
+      "selection_result_type": 1,
+      "initial_weight": 20,
+      "luk": 0,
+      "tec": 0,
+      "ins": 0,
+      "int": 0,
+      "res": 0,
+      "effect": 0,
+      "buff": [
+        10730111
+      ]
+    },
+    {
+      "selection_id": 107301,
+      "selection_result_id": 1073012,
+      "selection_result_type": 2,
+      "initial_weight": 80,
+      "luk": 0,
+      "tec": 0,
+      "ins": 0,
+      "int": 0,
+      "res": 0,
+      "effect": 0,
+      "buff": [
+        10730121
+      ]
+    }
+  ],
+  [
+    {
+      "selection_id": 107302,
+      "selection_result_id": 1073021,
+      "selection_result_type": 1,
+      "initial_weight": 20,
+      "luk": 0,
+      "tec": 0,
+      "ins": 0,
+      "int": 0,
+      "res": 0,
+      "effect": 0,
+      "buff": [
+        10730211,
+        10730212
+      ]
+    },
+    {
+      "selection_id": 107302,
+      "selection_result_id": 1073022,
+      "selection_result_type": 2,
+      "initial_weight": 80,
+      "luk": 0,
+      "tec": 0,
+      "ins": 0,
+      "int": 0,
+      "res": 0,
+      "effect": 0,
+      "buff": [
+        10730221,
+        10730222
+      ]
+    }
+  ],
+  [
+    {
+      "selection_id": 107303,
+      "selection_result_id": 1073031,
+      "selection_result_type": 1,
+      "initial_weight": 100,
+      "luk": 0,
+      "tec": 0,
+      "ins": 0,
+      "int": 0,
+      "res": 0,
+      "effect": 0,
+      "buff": [
+        10730311,
+        10730312
+      ]
+    }
+  ],
+  [
+    {
+      "selection_id": 107401,
+      "selection_result_id": 1074011,
+      "selection_result_type": 1,
+      "initial_weight": 12,
+      "luk": 0,
+      "tec": 0,
+      "ins": 0,
+      "int": 0,
+      "res": 0,
+      "effect": 0,
+      "buff": [
+        10740111
+      ]
+    },
+    {
+      "selection_id": 107401,
+      "selection_result_id": 1074012,
+      "selection_result_type": 2,
+      "initial_weight": 88,
+      "luk": 0,
+      "tec": 0,
+      "ins": 0,
+      "int": 0,
+      "res": 0,
+      "effect": 0,
+      "buff": [
+        10740121,
+        10740122
+      ]
+    }
+  ],
+  [
+    {
+      "selection_id": 107402,
+      "selection_result_id": 1074021,
+      "selection_result_type": 1,
+      "initial_weight": 100,
+      "luk": 0,
+      "tec": 0,
+      "ins": 0,
+      "int": 0,
+      "res": 0,
+      "effect": 0,
+      "buff": [
+        10740211
+      ]
+    }
+  ],
+  [
+    {
+      "selection_id": 107403,
+      "selection_result_id": 1074031,
+      "selection_result_type": 1,
+      "initial_weight": 20,
+      "luk": 0,
+      "tec": 0,
+      "ins": 0,
+      "int": 0,
+      "res": 0,
+      "effect": 0,
+      "buff": [
+        10740311,
+        10740312
+      ]
+    },
+    {
+      "selection_id": 107403,
+      "selection_result_id": 1074032,
+      "selection_result_type": 2,
+      "initial_weight": 80,
+      "luk": 0,
+      "tec": 0,
+      "ins": 0,
+      "int": 0,
+      "res": 0,
+      "effect": 0,
+      "buff": [
+        10740321,
+        10740322
+      ]
+    }
+  ],
+  [
+    {
+      "selection_id": 107501,
+      "selection_result_id": 1075011,
+      "selection_result_type": 1,
+      "initial_weight": 28,
+      "luk": 0,
+      "tec": 0,
+      "ins": 0,
+      "int": 0,
+      "res": 0,
+      "effect": 0,
+      "buff": [
+        10750111
+      ]
+    },
+    {
+      "selection_id": 107501,
+      "selection_result_id": 1075012,
+      "selection_result_type": 2,
+      "initial_weight": 72,
+      "luk": 0,
+      "tec": 0,
+      "ins": 0,
+      "int": 0,
+      "res": 0,
+      "effect": 0,
+      "buff": [
+        10750121
+      ]
+    }
+  ],
+  [
+    {
+      "selection_id": 107502,
+      "selection_result_id": 1075021,
+      "selection_result_type": 1,
+      "initial_weight": 12,
+      "luk": 0,
+      "tec": 0,
+      "ins": 0,
+      "int": 0,
+      "res": 0,
+      "effect": 0,
+      "buff": [
+        10750211,
+        10750212,
+        10750213
+      ]
+    },
+    {
+      "selection_id": 107502,
+      "selection_result_id": 1075022,
+      "selection_result_type": 2,
+      "initial_weight": 88,
+      "luk": 0,
+      "tec": 0,
+      "ins": 0,
+      "int": 0,
+      "res": 0,
+      "effect": 0,
+      "buff": [
+        10750221,
+        10750222,
+        10750223
+      ]
+    }
+  ],
+  [
+    {
+      "selection_id": 107504,
+      "selection_result_id": 1075041,
+      "selection_result_type": 1,
+      "initial_weight": 100,
+      "luk": 0,
+      "tec": 0,
+      "ins": 0,
+      "int": 0,
+      "res": 0,
+      "effect": 0,
+      "buff": [
+        10750411,
+        10750412,
+        10750413
+      ]
+    }
+  ],
+  [
+    {
+      "selection_id": 107601,
+      "selection_result_id": 1076011,
+      "selection_result_type": 1,
+      "initial_weight": 100,
+      "luk": 0,
+      "tec": 0,
+      "ins": 0,
+      "int": 0,
+      "res": 0,
+      "effect": 0,
+      "buff": [
+        10760111
+      ]
+    }
+  ],
+  [
+    {
+      "selection_id": 107602,
+      "selection_result_id": 1076021,
+      "selection_result_type": 1,
+      "initial_weight": 28,
+      "luk": 0,
+      "tec": 0,
+      "ins": 0,
+      "int": 0,
+      "res": 0,
+      "effect": 0,
+      "buff": [
+        10760211
+      ]
+    },
+    {
+      "selection_id": 107602,
+      "selection_result_id": 1076022,
+      "selection_result_type": 2,
+      "initial_weight": 72,
+      "luk": 0,
+      "tec": 0,
+      "ins": 0,
+      "int": 0,
+      "res": 0,
+      "effect": 0,
+      "buff": [
+        10760221
+      ]
+    }
+  ],
+  [
+    {
+      "selection_id": 107603,
+      "selection_result_id": 1076031,
+      "selection_result_type": 1,
+      "initial_weight": 20,
+      "luk": 0,
+      "tec": 0,
+      "ins": 0,
+      "int": 0,
+      "res": 0,
+      "effect": 0,
+      "buff": [
+        10760311
+      ]
+    },
+    {
+      "selection_id": 107603,
+      "selection_result_id": 1076032,
+      "selection_result_type": 2,
+      "initial_weight": 80,
+      "luk": 0,
+      "tec": 0,
+      "ins": 0,
+      "int": 0,
+      "res": 0,
+      "effect": 0,
+      "buff": [
+        10760321
+      ]
+    }
+  ],
+  [
+    {
+      "selection_id": 107701,
+      "selection_result_id": 1077011,
+      "selection_result_type": 1,
+      "initial_weight": 100,
+      "luk": 0,
+      "tec": 0,
+      "ins": 0,
+      "int": 0,
+      "res": 0,
+      "effect": 0,
+      "buff": [
+        10770111
+      ]
+    }
+  ],
+  [
+    {
+      "selection_id": 107702,
+      "selection_result_id": 1077021,
+      "selection_result_type": 1,
+      "initial_weight": 100,
+      "luk": 0,
+      "tec": 0,
+      "ins": 0,
+      "int": 300,
+      "res": 0,
+      "effect": 0,
+      "buff": [
+        10770211
+      ]
+    }
+  ],
+  [
+    {
+      "selection_id": 107704,
+      "selection_result_id": 1077041,
+      "selection_result_type": 1,
+      "initial_weight": 100,
+      "luk": 0,
+      "tec": 0,
+      "ins": 0,
+      "int": 0,
+      "res": 500,
+      "effect": 0,
+      "buff": [
+        10770411
+      ]
+    }
+  ],
+  [
+    {
+      "selection_id": 107801,
+      "selection_result_id": 1078011,
+      "selection_result_type": 1,
+      "initial_weight": 100,
+      "luk": 0,
+      "tec": 0,
+      "ins": 0,
+      "int": 0,
+      "res": 0,
+      "effect": 0,
+      "buff": [
+        10780111
+      ]
+    }
+  ],
+  [
+    {
+      "selection_id": 107802,
+      "selection_result_id": 1078021,
+      "selection_result_type": 1,
+      "initial_weight": 100,
+      "luk": 0,
+      "tec": 0,
+      "ins": 0,
+      "int": 0,
+      "res": 0,
+      "effect": 0,
+      "buff": [
+        10780211,
+        10780212
+      ]
+    }
+  ],
+  [
+    {
+      "selection_id": 107803,
+      "selection_result_id": 1078031,
+      "selection_result_type": 1,
+      "initial_weight": 100,
+      "luk": 0,
+      "tec": 0,
+      "ins": 0,
+      "int": 0,
+      "res": 0,
+      "effect": 0,
+      "buff": [
+        10780311
+      ]
+    }
+  ],
+  [
+    {
+      "selection_id": 107901,
+      "selection_result_id": 1079011,
+      "selection_result_type": 1,
+      "initial_weight": 12,
+      "luk": 0,
+      "tec": 0,
+      "ins": 0,
+      "int": 0,
+      "res": 0,
+      "effect": 0,
+      "buff": [
+        10790111
+      ]
+    },
+    {
+      "selection_id": 107901,
+      "selection_result_id": 1079012,
+      "selection_result_type": 2,
+      "initial_weight": 88,
+      "luk": 0,
+      "tec": 0,
+      "ins": 0,
+      "int": 0,
+      "res": 0,
+      "effect": 0,
+      "buff": [
+        10790121
+      ]
+    }
+  ],
+  [
+    {
+      "selection_id": 107902,
+      "selection_result_id": 1079021,
+      "selection_result_type": 1,
+      "initial_weight": 100,
+      "luk": 0,
+      "tec": 0,
+      "ins": 0,
+      "int": 0,
+      "res": 0,
+      "effect": 0,
+      "buff": [
+        10790211
+      ]
+    }
+  ],
+  [
+    {
+      "selection_id": 107903,
+      "selection_result_id": 1079031,
+      "selection_result_type": 1,
+      "initial_weight": 12,
+      "luk": 0,
+      "tec": 0,
+      "ins": 0,
+      "int": 0,
+      "res": 0,
+      "effect": 0,
+      "buff": [
+        10790311
+      ]
+    },
+    {
+      "selection_id": 107903,
+      "selection_result_id": 1079032,
+      "selection_result_type": 2,
+      "initial_weight": 88,
+      "luk": 0,
+      "tec": 0,
+      "ins": 0,
+      "int": 0,
+      "res": 0,
+      "effect": 0,
+      "buff": [
+        10790321
+      ]
+    }
+  ],
+  [
+    {
+      "selection_id": 108001,
+      "selection_result_id": 1080011,
+      "selection_result_type": 1,
+      "initial_weight": 20,
+      "luk": 0,
+      "tec": 0,
+      "ins": 0,
+      "int": 0,
+      "res": 0,
+      "effect": 0,
+      "buff": [
+        10800111,
+        10800112
+      ]
+    },
+    {
+      "selection_id": 108001,
+      "selection_result_id": 1080012,
+      "selection_result_type": 2,
+      "initial_weight": 80,
+      "luk": 0,
+      "tec": 0,
+      "ins": 0,
+      "int": 0,
+      "res": 0,
+      "effect": 0,
+      "buff": [
+        10800121,
+        10800122
+      ]
+    }
+  ],
+  [
+    {
+      "selection_id": 108002,
+      "selection_result_id": 1080021,
+      "selection_result_type": 1,
+      "initial_weight": 28,
+      "luk": 0,
+      "tec": 0,
+      "ins": 0,
+      "int": 0,
+      "res": 0,
+      "effect": 0,
+      "buff": [
+        10800211
+      ]
+    },
+    {
+      "selection_id": 108002,
+      "selection_result_id": 1080022,
+      "selection_result_type": 2,
+      "initial_weight": 72,
+      "luk": 0,
+      "tec": 0,
+      "ins": 0,
+      "int": 0,
+      "res": 0,
+      "effect": 0,
+      "buff": [
+        10800221
+      ]
+    }
+  ],
+  [
+    {
+      "selection_id": 108003,
+      "selection_result_id": 1080031,
+      "selection_result_type": 1,
+      "initial_weight": 100,
+      "luk": 0,
+      "tec": 0,
+      "ins": 0,
+      "int": 0,
+      "res": 0,
+      "effect": 0,
+      "buff": [
+        10800311,
+        10800312
+      ]
+    }
+  ],
+  [
+    {
+      "selection_id": 108004,
+      "selection_result_id": 1080041,
+      "selection_result_type": 1,
+      "initial_weight": 100,
+      "luk": 0,
+      "tec": 0,
+      "ins": 0,
+      "int": 0,
+      "res": 0,
+      "effect": 0,
+      "buff": [
+        10800411,
+        10800412
+      ]
+    }
+  ],
+  [
+    {
+      "selection_id": 108101,
+      "selection_result_id": 1081011,
+      "selection_result_type": 1,
+      "initial_weight": 12,
+      "luk": 0,
+      "tec": 0,
+      "ins": 0,
+      "int": 0,
+      "res": 0,
+      "effect": 0,
+      "buff": [
+        10810111
+      ]
+    },
+    {
+      "selection_id": 108101,
+      "selection_result_id": 1081012,
+      "selection_result_type": 2,
+      "initial_weight": 88,
+      "luk": 0,
+      "tec": 0,
+      "ins": 0,
+      "int": 0,
+      "res": 0,
+      "effect": 0,
+      "buff": [
+        10810121
+      ]
+    }
+  ],
+  [
+    {
+      "selection_id": 108102,
+      "selection_result_id": 1081021,
+      "selection_result_type": 1,
+      "initial_weight": 100,
+      "luk": 0,
+      "tec": 0,
+      "ins": 0,
+      "int": 0,
+      "res": 0,
+      "effect": 0,
+      "buff": [
+        10810211
+      ]
+    }
+  ],
+  [
+    {
+      "selection_id": 108103,
+      "selection_result_id": 1081031,
+      "selection_result_type": 1,
+      "initial_weight": 20,
+      "luk": 0,
+      "tec": 0,
+      "ins": 0,
+      "int": 0,
+      "res": 0,
+      "effect": 0,
+      "buff": [
+        10810311,
+        10810312
+      ]
+    },
+    {
+      "selection_id": 108103,
+      "selection_result_id": 1081032,
+      "selection_result_type": 2,
+      "initial_weight": 80,
+      "luk": 0,
+      "tec": 0,
+      "ins": 0,
+      "int": 0,
+      "res": 0,
+      "effect": 0,
+      "buff": [
+        10810321,
+        10810322
+      ]
+    }
+  ],
+  [
+    {
+      "selection_id": 108104,
+      "selection_result_id": 1081041,
+      "selection_result_type": 1,
+      "initial_weight": 100,
+      "luk": 0,
+      "tec": 0,
+      "ins": 0,
+      "int": 0,
+      "res": 0,
+      "effect": 0,
+      "buff": [
+        10810411,
+        10810412
+      ]
+    }
+  ],
+  [
+    {
+      "selection_id": 108201,
+      "selection_result_id": 1082011,
+      "selection_result_type": 1,
+      "initial_weight": 20,
+      "luk": 0,
+      "tec": 0,
+      "ins": 0,
+      "int": 0,
+      "res": 0,
+      "effect": 0,
+      "buff": [
+        10820111,
+        10820112
+      ]
+    },
+    {
+      "selection_id": 108201,
+      "selection_result_id": 1082012,
+      "selection_result_type": 2,
+      "initial_weight": 80,
+      "luk": 0,
+      "tec": 0,
+      "ins": 0,
+      "int": 0,
+      "res": 0,
+      "effect": 0,
+      "buff": [
+        10820121,
+        10820122
+      ]
+    }
+  ],
+  [
+    {
+      "selection_id": 108202,
+      "selection_result_id": 1082021,
+      "selection_result_type": 1,
+      "initial_weight": 100,
+      "luk": 0,
+      "tec": 0,
+      "ins": 0,
+      "int": 0,
+      "res": 0,
+      "effect": 0,
+      "buff": [
+        10820211
+      ]
+    }
+  ],
+  [
+    {
+      "selection_id": 108203,
+      "selection_result_id": 1082031,
+      "selection_result_type": 1,
+      "initial_weight": 28,
+      "luk": 0,
+      "tec": 0,
+      "ins": 0,
+      "int": 0,
+      "res": 0,
+      "effect": 0,
+      "buff": [
+        10820311
+      ]
+    },
+    {
+      "selection_id": 108203,
+      "selection_result_id": 1082032,
+      "selection_result_type": 2,
+      "initial_weight": 72,
+      "luk": 0,
+      "tec": 0,
+      "ins": 0,
+      "int": 0,
+      "res": 0,
+      "effect": 0,
+      "buff": [
+        10820321
+      ]
+    }
+  ],
+  [
+    {
+      "selection_id": 108301,
+      "selection_result_id": 1083011,
+      "selection_result_type": 1,
+      "initial_weight": 100,
+      "luk": 0,
+      "tec": 0,
+      "ins": 0,
+      "int": 0,
+      "res": 0,
+      "effect": 0,
+      "buff": [
+        10830111,
+        10830112
+      ]
+    }
+  ],
+  [
+    {
+      "selection_id": 108302,
+      "selection_result_id": 1083021,
+      "selection_result_type": 1,
+      "initial_weight": 28,
+      "luk": 0,
+      "tec": 0,
+      "ins": 0,
+      "int": 0,
+      "res": 0,
+      "effect": 0,
+      "buff": [
+        10830211,
+        10830212
+      ]
+    },
+    {
+      "selection_id": 108302,
+      "selection_result_id": 1083022,
+      "selection_result_type": 2,
+      "initial_weight": 72,
+      "luk": 0,
+      "tec": 0,
+      "ins": 0,
+      "int": 0,
+      "res": 0,
+      "effect": 0,
+      "buff": [
+        10830221,
+        10830222
+      ]
+    }
+  ],
+  [
+    {
+      "selection_id": 108303,
+      "selection_result_id": 1083031,
+      "selection_result_type": 1,
+      "initial_weight": 20,
+      "luk": 0,
+      "tec": 0,
+      "ins": 0,
+      "int": 0,
+      "res": 0,
+      "effect": 0,
+      "buff": [
+        10830311
+      ]
+    },
+    {
+      "selection_id": 108303,
+      "selection_result_id": 1083032,
+      "selection_result_type": 2,
+      "initial_weight": 80,
+      "luk": 0,
+      "tec": 0,
+      "ins": 0,
+      "int": 0,
+      "res": 0,
+      "effect": 0,
+      "buff": [
+        10830321
+      ]
+    }
+  ],
+  [
+    {
+      "selection_id": 108401,
+      "selection_result_id": 1084011,
+      "selection_result_type": 1,
+      "initial_weight": 100,
+      "luk": 0,
+      "tec": 0,
+      "ins": 0,
+      "int": 0,
+      "res": 0,
+      "effect": 0,
+      "buff": [
+        10840111
+      ]
+    }
+  ],
+  [
+    {
+      "selection_id": 108402,
+      "selection_result_id": 1084021,
+      "selection_result_type": 1,
+      "initial_weight": 20,
+      "luk": 0,
+      "tec": 0,
+      "ins": 0,
+      "int": 0,
+      "res": 0,
+      "effect": 0,
+      "buff": [
+        10840211,
+        10840212
+      ]
+    },
+    {
+      "selection_id": 108402,
+      "selection_result_id": 1084022,
+      "selection_result_type": 2,
+      "initial_weight": 80,
+      "luk": 0,
+      "tec": 0,
+      "ins": 0,
+      "int": 0,
+      "res": 0,
+      "effect": 0,
+      "buff": [
+        10840221
+      ]
+    }
+  ],
+  [
+    {
+      "selection_id": 108403,
+      "selection_result_id": 1084031,
+      "selection_result_type": 1,
+      "initial_weight": 12,
+      "luk": 0,
+      "tec": 0,
+      "ins": 0,
+      "int": 0,
+      "res": 0,
+      "effect": 0,
+      "buff": [
+        10840311
+      ]
+    },
+    {
+      "selection_id": 108403,
+      "selection_result_id": 1084032,
+      "selection_result_type": 2,
+      "initial_weight": 88,
+      "luk": 0,
+      "tec": 0,
+      "ins": 0,
+      "int": 0,
+      "res": 0,
+      "effect": 0,
+      "buff": [
+        10840321,
+        10840322
+      ]
+    }
+  ],
+  [
+    {
+      "selection_id": 108501,
+      "selection_result_id": 1085011,
+      "selection_result_type": 1,
+      "initial_weight": 20,
+      "luk": 0,
+      "tec": 0,
+      "ins": 0,
+      "int": 0,
+      "res": 0,
+      "effect": 0,
+      "buff": [
+        10850111
+      ]
+    },
+    {
+      "selection_id": 108501,
+      "selection_result_id": 1085012,
+      "selection_result_type": 2,
+      "initial_weight": 80,
+      "luk": 0,
+      "tec": 0,
+      "ins": 0,
+      "int": 0,
+      "res": 0,
+      "effect": 0,
+      "buff": [
+        10850121,
+        10850122
+      ]
+    }
+  ],
+  [
+    {
+      "selection_id": 108502,
+      "selection_result_id": 1085021,
+      "selection_result_type": 1,
+      "initial_weight": 100,
+      "luk": 0,
+      "tec": 0,
+      "ins": 0,
+      "int": 0,
+      "res": 0,
+      "effect": 0,
+      "buff": [
+        10850211
+      ]
+    }
+  ],
+  [
+    {
+      "selection_id": 108503,
+      "selection_result_id": 1085031,
+      "selection_result_type": 1,
+      "initial_weight": 28,
+      "luk": 0,
+      "tec": 0,
+      "ins": 0,
+      "int": 0,
+      "res": 0,
+      "effect": 0,
+      "buff": [
+        10850311,
+        10850312
+      ]
+    },
+    {
+      "selection_id": 108503,
+      "selection_result_id": 1085032,
+      "selection_result_type": 2,
+      "initial_weight": 72,
+      "luk": 0,
+      "tec": 0,
+      "ins": 0,
+      "int": 0,
+      "res": 0,
+      "effect": 0,
+      "buff": [
+        10850321,
+        10850322
+      ]
+    }
+  ],
+  [
+    {
+      "selection_id": 108601,
+      "selection_result_id": 1086011,
+      "selection_result_type": 1,
+      "initial_weight": 20,
+      "luk": 0,
+      "tec": 0,
+      "ins": 0,
+      "int": 0,
+      "res": 0,
+      "effect": 0,
+      "buff": [
+        10860111,
+        10860112
+      ]
+    },
+    {
+      "selection_id": 108601,
+      "selection_result_id": 1086012,
+      "selection_result_type": 2,
+      "initial_weight": 80,
+      "luk": 0,
+      "tec": 0,
+      "ins": 0,
+      "int": 0,
+      "res": 0,
+      "effect": 0,
+      "buff": [
+        10860121,
+        10860122
+      ]
+    }
+  ],
+  [
+    {
+      "selection_id": 108602,
+      "selection_result_id": 1086021,
+      "selection_result_type": 1,
+      "initial_weight": 20,
+      "luk": 0,
+      "tec": 0,
+      "ins": 0,
+      "int": 0,
+      "res": 0,
+      "effect": 0,
+      "buff": [
+        10860211,
+        10860212
+      ]
+    },
+    {
+      "selection_id": 108602,
+      "selection_result_id": 1086022,
+      "selection_result_type": 2,
+      "initial_weight": 80,
+      "luk": 0,
+      "tec": 0,
+      "ins": 0,
+      "int": 0,
+      "res": 0,
+      "effect": 0,
+      "buff": [
+        10860221,
+        10860222
+      ]
+    }
+  ],
+  [
+    {
+      "selection_id": 108604,
+      "selection_result_id": 1086041,
+      "selection_result_type": 1,
+      "initial_weight": 100,
+      "luk": 0,
+      "tec": 0,
+      "ins": 0,
+      "int": 0,
+      "res": 0,
+      "effect": 0,
+      "buff": [
+        10860411
+      ]
+    }
+  ],
+  [
+    {
+      "selection_id": 108701,
+      "selection_result_id": 1087011,
+      "selection_result_type": 1,
+      "initial_weight": 28,
+      "luk": 0,
+      "tec": 0,
+      "ins": 0,
+      "int": 0,
+      "res": 0,
+      "effect": 0,
+      "buff": [
+        10870111
+      ]
+    },
+    {
+      "selection_id": 108701,
+      "selection_result_id": 1087012,
+      "selection_result_type": 2,
+      "initial_weight": 72,
+      "luk": 0,
+      "tec": 0,
+      "ins": 0,
+      "int": 0,
+      "res": 0,
+      "effect": 0,
+      "buff": [
+        10870121
+      ]
+    }
+  ],
+  [
+    {
+      "selection_id": 108702,
+      "selection_result_id": 1087021,
+      "selection_result_type": 1,
+      "initial_weight": 20,
+      "luk": 0,
+      "tec": 0,
+      "ins": 0,
+      "int": 0,
+      "res": 0,
+      "effect": 0,
+      "buff": [
+        10870211
+      ]
+    },
+    {
+      "selection_id": 108702,
+      "selection_result_id": 1087022,
+      "selection_result_type": 2,
+      "initial_weight": 80,
+      "luk": 0,
+      "tec": 0,
+      "ins": 0,
+      "int": 0,
+      "res": 0,
+      "effect": 0,
+      "buff": [
+        10870221,
+        10870222
+      ]
+    }
+  ],
+  [
+    {
+      "selection_id": 108704,
+      "selection_result_id": 1087041,
+      "selection_result_type": 1,
+      "initial_weight": 100,
+      "luk": 0,
+      "tec": 0,
+      "ins": 0,
+      "int": 0,
+      "res": 0,
+      "effect": 0,
+      "buff": [
+        10870411
+      ]
+    }
+  ],
+  [
+    {
+      "selection_id": 108801,
+      "selection_result_id": 1088011,
+      "selection_result_type": 1,
+      "initial_weight": 20,
+      "luk": 0,
+      "tec": 0,
+      "ins": 0,
+      "int": 0,
+      "res": 0,
+      "effect": 0,
+      "buff": [
+        10880111,
+        10880112
+      ]
+    },
+    {
+      "selection_id": 108801,
+      "selection_result_id": 1088012,
+      "selection_result_type": 2,
+      "initial_weight": 80,
+      "luk": 0,
+      "tec": 0,
+      "ins": 0,
+      "int": 0,
+      "res": 0,
+      "effect": 0,
+      "buff": [
+        10880121
+      ]
+    }
+  ],
+  [
+    {
+      "selection_id": 108802,
+      "selection_result_id": 1088021,
+      "selection_result_type": 1,
+      "initial_weight": 20,
+      "luk": 0,
+      "tec": 0,
+      "ins": 0,
+      "int": 0,
+      "res": 0,
+      "effect": 0,
+      "buff": [
+        10880211
+      ]
+    },
+    {
+      "selection_id": 108802,
+      "selection_result_id": 1088022,
+      "selection_result_type": 2,
+      "initial_weight": 80,
+      "luk": 0,
+      "tec": 0,
+      "ins": 0,
+      "int": 0,
+      "res": 0,
+      "effect": 0,
+      "buff": [
+        10880221
+      ]
+    }
+  ],
+  [
+    {
+      "selection_id": 108803,
+      "selection_result_id": 1088031,
+      "selection_result_type": 1,
+      "initial_weight": 100,
+      "luk": 0,
+      "tec": 0,
+      "ins": 0,
+      "int": 0,
+      "res": 0,
+      "effect": 0,
+      "buff": [
+        10880311,
+        10880312
+      ]
+    }
+  ],
+  [
+    {
+      "selection_id": 108804,
+      "selection_result_id": 1088041,
+      "selection_result_type": 1,
+      "initial_weight": 100,
+      "luk": 0,
+      "tec": 0,
+      "ins": 0,
+      "int": 0,
+      "res": 0,
+      "effect": 0,
+      "buff": [
+        10880411
+      ]
+    }
+  ],
+  [
+    {
+      "selection_id": 108901,
+      "selection_result_id": 1089011,
+      "selection_result_type": 1,
+      "initial_weight": 28,
+      "luk": 0,
+      "tec": 0,
+      "ins": 0,
+      "int": 0,
+      "res": 0,
+      "effect": 0,
+      "buff": [
+        10890111
+      ]
+    },
+    {
+      "selection_id": 108901,
+      "selection_result_id": 1089012,
+      "selection_result_type": 2,
+      "initial_weight": 72,
+      "luk": 0,
+      "tec": 0,
+      "ins": 0,
+      "int": 0,
+      "res": 0,
+      "effect": 0,
+      "buff": [
+        10890121
+      ]
+    }
+  ],
+  [
+    {
+      "selection_id": 108902,
+      "selection_result_id": 1089021,
+      "selection_result_type": 1,
+      "initial_weight": 12,
+      "luk": 0,
+      "tec": 0,
+      "ins": 0,
+      "int": 0,
+      "res": 0,
+      "effect": 0,
+      "buff": [
+        10890211
+      ]
+    },
+    {
+      "selection_id": 108902,
+      "selection_result_id": 1089022,
+      "selection_result_type": 2,
+      "initial_weight": 88,
+      "luk": 0,
+      "tec": 0,
+      "ins": 0,
+      "int": 0,
+      "res": 0,
+      "effect": 0,
+      "buff": [
+        10890221
+      ]
+    }
+  ],
+  [
+    {
+      "selection_id": 108903,
+      "selection_result_id": 1089031,
+      "selection_result_type": 1,
+      "initial_weight": 100,
+      "luk": 0,
+      "tec": 0,
+      "ins": 0,
+      "int": 0,
+      "res": 0,
+      "effect": 0,
+      "buff": [
+        10890311
+      ]
+    }
+  ],
+  [
+    {
+      "selection_id": 108904,
+      "selection_result_id": 1089041,
+      "selection_result_type": 1,
+      "initial_weight": 100,
+      "luk": 0,
+      "tec": 0,
+      "ins": 0,
+      "int": 0,
+      "res": 0,
+      "effect": 0,
+      "buff": [
+        10890411,
+        10890412
+      ]
+    }
+  ],
+  [
+    {
+      "selection_id": 109001,
+      "selection_result_id": 1090011,
+      "selection_result_type": 1,
+      "initial_weight": 28,
+      "luk": 0,
+      "tec": 0,
+      "ins": 0,
+      "int": 0,
+      "res": 0,
+      "effect": 0,
+      "buff": [
+        10900111
+      ]
+    },
+    {
+      "selection_id": 109001,
+      "selection_result_id": 1090012,
+      "selection_result_type": 2,
+      "initial_weight": 72,
+      "luk": 0,
+      "tec": 0,
+      "ins": 0,
+      "int": 0,
+      "res": 0,
+      "effect": 0,
+      "buff": [
+        10900121
+      ]
+    }
+  ],
+  [
+    {
+      "selection_id": 109002,
+      "selection_result_id": 1090021,
+      "selection_result_type": 1,
+      "initial_weight": 20,
+      "luk": 0,
+      "tec": 0,
+      "ins": 0,
+      "int": 0,
+      "res": 0,
+      "effect": 0,
+      "buff": [
+        10900211
+      ]
+    },
+    {
+      "selection_id": 109002,
+      "selection_result_id": 1090022,
+      "selection_result_type": 2,
+      "initial_weight": 80,
+      "luk": 0,
+      "tec": 0,
+      "ins": 0,
+      "int": 0,
+      "res": 0,
+      "effect": 0,
+      "buff": [
+        10900221
+      ]
+    }
+  ],
+  [
+    {
+      "selection_id": 109003,
+      "selection_result_id": 1090031,
+      "selection_result_type": 1,
+      "initial_weight": 100,
+      "luk": 0,
+      "tec": 0,
+      "ins": 0,
+      "int": 0,
+      "res": 0,
+      "effect": 0,
+      "buff": [
+        10900311
+      ]
+    }
+  ],
+  [
+    {
+      "selection_id": 109004,
+      "selection_result_id": 1090041,
+      "selection_result_type": 1,
+      "initial_weight": 100,
+      "luk": 0,
+      "tec": 0,
+      "ins": 0,
+      "int": 0,
+      "res": 0,
+      "effect": 0,
+      "buff": [
+        10900411
+      ]
+    }
+  ],
+  [
+    {
+      "selection_id": 109101,
+      "selection_result_id": 1091011,
+      "selection_result_type": 1,
+      "initial_weight": 100,
+      "luk": 0,
+      "tec": 0,
+      "ins": 0,
+      "int": 0,
+      "res": 0,
+      "effect": 0,
+      "buff": [
+        10910111
+      ]
+    }
+  ],
+  [
+    {
+      "selection_id": 109102,
+      "selection_result_id": 1091021,
+      "selection_result_type": 1,
+      "initial_weight": 20,
+      "luk": 0,
+      "tec": 0,
+      "ins": 0,
+      "int": 0,
+      "res": 0,
+      "effect": 0,
+      "buff": [
+        10910211
+      ]
+    },
+    {
+      "selection_id": 109102,
+      "selection_result_id": 1091022,
+      "selection_result_type": 2,
+      "initial_weight": 80,
+      "luk": 0,
+      "tec": 0,
+      "ins": 0,
+      "int": 0,
+      "res": 0,
+      "effect": 0,
+      "buff": [
+        10910221,
+        10910222
+      ]
+    }
+  ],
+  [
+    {
+      "selection_id": 109104,
+      "selection_result_id": 1091041,
+      "selection_result_type": 1,
+      "initial_weight": 100,
+      "luk": 0,
+      "tec": 0,
+      "ins": 0,
+      "int": 0,
+      "res": 0,
+      "effect": 0,
+      "buff": [
+        10910411,
+        10910412
+      ]
+    }
+  ],
+  [
+    {
+      "selection_id": 109201,
+      "selection_result_id": 1092011,
+      "selection_result_type": 1,
+      "initial_weight": 12,
+      "luk": 0,
+      "tec": 0,
+      "ins": 0,
+      "int": 0,
+      "res": 0,
+      "effect": 0,
+      "buff": [
+        10920111
+      ]
+    },
+    {
+      "selection_id": 109201,
+      "selection_result_id": 1092012,
+      "selection_result_type": 2,
+      "initial_weight": 88,
+      "luk": 0,
+      "tec": 0,
+      "ins": 0,
+      "int": 0,
+      "res": 0,
+      "effect": 0,
+      "buff": [
+        10920121
+      ]
+    }
+  ],
+  [
+    {
+      "selection_id": 109202,
+      "selection_result_id": 1092021,
+      "selection_result_type": 1,
+      "initial_weight": 100,
+      "luk": 0,
+      "tec": 0,
+      "ins": 0,
+      "int": 0,
+      "res": 0,
+      "effect": 0,
+      "buff": [
+        10920211
+      ]
+    }
+  ],
+  [
+    {
+      "selection_id": 109203,
+      "selection_result_id": 1092031,
+      "selection_result_type": 1,
+      "initial_weight": 20,
+      "luk": 0,
+      "tec": 0,
+      "ins": 0,
+      "int": 0,
+      "res": 0,
+      "effect": 0,
+      "buff": [
+        10920311,
+        10920312
+      ]
+    },
+    {
+      "selection_id": 109203,
+      "selection_result_id": 1092032,
+      "selection_result_type": 2,
+      "initial_weight": 80,
+      "luk": 0,
+      "tec": 0,
+      "ins": 0,
+      "int": 0,
+      "res": 0,
+      "effect": 0,
+      "buff": [
+        10920321,
+        10920322
+      ]
+    }
+  ],
+  [
+    {
+      "selection_id": 109204,
+      "selection_result_id": 1092041,
+      "selection_result_type": 1,
+      "initial_weight": 100,
+      "luk": 0,
+      "tec": 0,
+      "ins": 0,
+      "int": 0,
+      "res": 0,
+      "effect": 0,
+      "buff": [
+        10920411
+      ]
+    }
+  ],
+  [
+    {
+      "selection_id": 109301,
+      "selection_result_id": 1093011,
+      "selection_result_type": 1,
+      "initial_weight": 100,
+      "luk": 0,
+      "tec": 0,
+      "ins": 0,
+      "int": 0,
+      "res": 0,
+      "effect": 0,
+      "buff": [
+        10930111
+      ]
+    }
+  ],
+  [
+    {
+      "selection_id": 109302,
+      "selection_result_id": 1093021,
+      "selection_result_type": 1,
+      "initial_weight": 12,
+      "luk": 0,
+      "tec": 0,
+      "ins": 0,
+      "int": 0,
+      "res": 0,
+      "effect": 0,
+      "buff": [
+        10930211
+      ]
+    },
+    {
+      "selection_id": 109302,
+      "selection_result_id": 1093022,
+      "selection_result_type": 2,
+      "initial_weight": 88,
+      "luk": 0,
+      "tec": 0,
+      "ins": 0,
+      "int": 0,
+      "res": 0,
+      "effect": 0,
+      "buff": [
+        10930221,
+        10930222
+      ]
+    }
+  ],
+  [
+    {
+      "selection_id": 109304,
+      "selection_result_id": 1093041,
+      "selection_result_type": 1,
+      "initial_weight": 100,
+      "luk": 0,
+      "tec": 0,
+      "ins": 0,
+      "int": 0,
+      "res": 0,
+      "effect": 0,
+      "buff": [
+        10930411,
+        10930412
+      ]
+    }
+  ],
+  [
+    {
+      "selection_id": 109401,
+      "selection_result_id": 1094011,
+      "selection_result_type": 1,
+      "initial_weight": 20,
+      "luk": 0,
+      "tec": 0,
+      "ins": 0,
+      "int": 0,
+      "res": 0,
+      "effect": 0,
+      "buff": [
+        10940111,
+        10940112
+      ]
+    },
+    {
+      "selection_id": 109401,
+      "selection_result_id": 1094012,
+      "selection_result_type": 2,
+      "initial_weight": 80,
+      "luk": 0,
+      "tec": 0,
+      "ins": 0,
+      "int": 0,
+      "res": 0,
+      "effect": 0,
+      "buff": [
+        10940121,
+        10940122
+      ]
+    }
+  ],
+  [
+    {
+      "selection_id": 109402,
+      "selection_result_id": 1094021,
+      "selection_result_type": 1,
+      "initial_weight": 20,
+      "luk": 0,
+      "tec": 0,
+      "ins": 0,
+      "int": 0,
+      "res": 0,
+      "effect": 0,
+      "buff": [
+        10940211,
+        10940212
+      ]
+    },
+    {
+      "selection_id": 109402,
+      "selection_result_id": 1094022,
+      "selection_result_type": 2,
+      "initial_weight": 80,
+      "luk": 0,
+      "tec": 0,
+      "ins": 0,
+      "int": 0,
+      "res": 0,
+      "effect": 0,
+      "buff": [
+        10940221
+      ]
+    }
+  ],
+  [
+    {
+      "selection_id": 109403,
+      "selection_result_id": 1094031,
+      "selection_result_type": 1,
+      "initial_weight": 100,
+      "luk": 0,
+      "tec": 0,
+      "ins": 0,
+      "int": 0,
+      "res": 0,
+      "effect": 0,
+      "buff": [
+        10940311,
+        10940312
+      ]
+    }
+  ],
+  [
+    {
+      "selection_id": 109501,
+      "selection_result_id": 1095011,
+      "selection_result_type": 1,
+      "initial_weight": 20,
+      "luk": 0,
+      "tec": 0,
+      "ins": 0,
+      "int": 0,
+      "res": 0,
+      "effect": 0,
+      "buff": [
+        10950111,
+        10950112
+      ]
+    },
+    {
+      "selection_id": 109501,
+      "selection_result_id": 1095012,
+      "selection_result_type": 2,
+      "initial_weight": 80,
+      "luk": 0,
+      "tec": 0,
+      "ins": 0,
+      "int": 0,
+      "res": 0,
+      "effect": 0,
+      "buff": [
+        10950121
+      ]
+    }
+  ],
+  [
+    {
+      "selection_id": 109502,
+      "selection_result_id": 1095021,
+      "selection_result_type": 1,
+      "initial_weight": 28,
+      "luk": 0,
+      "tec": 0,
+      "ins": 0,
+      "int": 0,
+      "res": 0,
+      "effect": 0,
+      "buff": [
+        10950211,
+        10950212
+      ]
+    },
+    {
+      "selection_id": 109502,
+      "selection_result_id": 1095022,
+      "selection_result_type": 2,
+      "initial_weight": 72,
+      "luk": 0,
+      "tec": 0,
+      "ins": 0,
+      "int": 0,
+      "res": 0,
+      "effect": 0,
+      "buff": [
+        10950221
+      ]
+    }
+  ],
+  [
+    {
+      "selection_id": 109504,
+      "selection_result_id": 1095041,
+      "selection_result_type": 1,
+      "initial_weight": 100,
+      "luk": 0,
+      "tec": 0,
+      "ins": 0,
+      "int": 0,
+      "res": 0,
+      "effect": 0,
+      "buff": [
+        10950411
+      ]
+    }
+  ],
+  [
+    {
+      "selection_id": 109601,
+      "selection_result_id": 1096011,
+      "selection_result_type": 1,
+      "initial_weight": 20,
+      "luk": 0,
+      "tec": 0,
+      "ins": 0,
+      "int": 0,
+      "res": 0,
+      "effect": 0,
+      "buff": [
+        10960111
+      ]
+    },
+    {
+      "selection_id": 109601,
+      "selection_result_id": 1096012,
+      "selection_result_type": 2,
+      "initial_weight": 80,
+      "luk": 0,
+      "tec": 0,
+      "ins": 0,
+      "int": 0,
+      "res": 0,
+      "effect": 0,
+      "buff": [
+        10960121
+      ]
+    }
+  ],
+  [
+    {
+      "selection_id": 109602,
+      "selection_result_id": 1096021,
+      "selection_result_type": 1,
+      "initial_weight": 20,
+      "luk": 0,
+      "tec": 0,
+      "ins": 0,
+      "int": 0,
+      "res": 0,
+      "effect": 0,
+      "buff": [
+        10960211
+      ]
+    },
+    {
+      "selection_id": 109602,
+      "selection_result_id": 1096022,
+      "selection_result_type": 2,
+      "initial_weight": 80,
+      "luk": 0,
+      "tec": 0,
+      "ins": 0,
+      "int": 0,
+      "res": 0,
+      "effect": 0,
+      "buff": [
+        10960221
+      ]
+    }
+  ],
+  [
+    {
+      "selection_id": 109701,
+      "selection_result_id": 1097011,
+      "selection_result_type": 1,
+      "initial_weight": 20,
+      "luk": 0,
+      "tec": 0,
+      "ins": 0,
+      "int": 0,
+      "res": 0,
+      "effect": 0,
+      "buff": [
+        10970111
+      ]
+    },
+    {
+      "selection_id": 109701,
+      "selection_result_id": 1097012,
+      "selection_result_type": 2,
+      "initial_weight": 80,
+      "luk": 0,
+      "tec": 0,
+      "ins": 0,
+      "int": 0,
+      "res": 0,
+      "effect": 0,
+      "buff": [
+        10970121
+      ]
+    }
+  ],
+  [
+    {
+      "selection_id": 109702,
+      "selection_result_id": 1097021,
+      "selection_result_type": 1,
+      "initial_weight": 12,
+      "luk": 0,
+      "tec": 0,
+      "ins": 0,
+      "int": 0,
+      "res": 0,
+      "effect": 0,
+      "buff": [
+        10970211
+      ]
+    },
+    {
+      "selection_id": 109702,
+      "selection_result_id": 1097022,
+      "selection_result_type": 2,
+      "initial_weight": 88,
+      "luk": 0,
+      "tec": 0,
+      "ins": 0,
+      "int": 0,
+      "res": 0,
+      "effect": 0,
+      "buff": [
+        10970221
+      ]
+    }
+  ],
+  [
+    {
+      "selection_id": 109704,
+      "selection_result_id": 1097041,
+      "selection_result_type": 1,
+      "initial_weight": 100,
+      "luk": 0,
+      "tec": 0,
+      "ins": 0,
+      "int": 0,
+      "res": 0,
+      "effect": 0,
+      "buff": [
+        10970411
+      ]
+    }
+  ],
+  [
+    {
+      "selection_id": 109801,
+      "selection_result_id": 1098011,
+      "selection_result_type": 1,
+      "initial_weight": 20,
+      "luk": 0,
+      "tec": 0,
+      "ins": 0,
+      "int": 0,
+      "res": 0,
+      "effect": 0,
+      "buff": [
+        10980111
+      ]
+    },
+    {
+      "selection_id": 109801,
+      "selection_result_id": 1098012,
+      "selection_result_type": 2,
+      "initial_weight": 80,
+      "luk": 0,
+      "tec": 0,
+      "ins": 0,
+      "int": 0,
+      "res": 0,
+      "effect": 0,
+      "buff": [
+        10980121
+      ]
+    }
+  ],
+  [
+    {
+      "selection_id": 109802,
+      "selection_result_id": 1098021,
+      "selection_result_type": 1,
+      "initial_weight": 12,
+      "luk": 0,
+      "tec": 0,
+      "ins": 0,
+      "int": 0,
+      "res": 0,
+      "effect": 0,
+      "buff": [
+        10980211
+      ]
+    },
+    {
+      "selection_id": 109802,
+      "selection_result_id": 1098022,
+      "selection_result_type": 2,
+      "initial_weight": 88,
+      "luk": 0,
+      "tec": 0,
+      "ins": 0,
+      "int": 0,
+      "res": 0,
+      "effect": 0,
+      "buff": [
+        10980221
+      ]
+    }
+  ],
+  [
+    {
+      "selection_id": 109804,
+      "selection_result_id": 1098041,
+      "selection_result_type": 1,
+      "initial_weight": 100,
+      "luk": 0,
+      "tec": 0,
+      "ins": 0,
+      "int": 0,
+      "res": 0,
+      "effect": 0,
+      "buff": [
+        10980411
+      ]
+    }
+  ],
+  [
+    {
+      "selection_id": 109901,
+      "selection_result_id": 1099011,
+      "selection_result_type": 1,
+      "initial_weight": 12,
+      "luk": 0,
+      "tec": 0,
+      "ins": 0,
+      "int": 0,
+      "res": 0,
+      "effect": 0,
+      "buff": [
+        10990111
+      ]
+    },
+    {
+      "selection_id": 109901,
+      "selection_result_id": 1099012,
+      "selection_result_type": 2,
+      "initial_weight": 88,
+      "luk": 0,
+      "tec": 0,
+      "ins": 0,
+      "int": 0,
+      "res": 0,
+      "effect": 0,
+      "buff": [
+        10990121
+      ]
+    }
+  ],
+  [
+    {
+      "selection_id": 109902,
+      "selection_result_id": 1099021,
+      "selection_result_type": 1,
+      "initial_weight": 28,
+      "luk": 0,
+      "tec": 0,
+      "ins": 0,
+      "int": 0,
+      "res": 0,
+      "effect": 0,
+      "buff": [
+        10990211,
+        10990212
+      ]
+    },
+    {
+      "selection_id": 109902,
+      "selection_result_id": 1099022,
+      "selection_result_type": 2,
+      "initial_weight": 72,
+      "luk": 0,
+      "tec": 0,
+      "ins": 0,
+      "int": 0,
+      "res": 0,
+      "effect": 0,
+      "buff": [
+        10990221,
+        10990222
+      ]
+    }
+  ],
+  [
+    {
+      "selection_id": 109904,
+      "selection_result_id": 1099041,
+      "selection_result_type": 1,
+      "initial_weight": 100,
+      "luk": 0,
+      "tec": 0,
+      "ins": 0,
+      "int": 0,
+      "res": 0,
+      "effect": 0,
+      "buff": [
+        10990411,
+        10990412
+      ]
+    }
+  ],
+  [
+    {
+      "selection_id": 110001,
+      "selection_result_id": 1100011,
+      "selection_result_type": 1,
+      "initial_weight": 20,
+      "luk": 0,
+      "tec": 0,
+      "ins": 0,
+      "int": 0,
+      "res": 0,
+      "effect": 0,
+      "buff": [
+        11000111,
+        11000112
+      ]
+    },
+    {
+      "selection_id": 110001,
+      "selection_result_id": 1100012,
+      "selection_result_type": 2,
+      "initial_weight": 80,
+      "luk": 0,
+      "tec": 0,
+      "ins": 0,
+      "int": 0,
+      "res": 0,
+      "effect": 0,
+      "buff": [
+        11000121,
+        11000122
+      ]
+    }
+  ],
+  [
+    {
+      "selection_id": 110002,
+      "selection_result_id": 1100021,
+      "selection_result_type": 1,
+      "initial_weight": 20,
+      "luk": 0,
+      "tec": 0,
+      "ins": 0,
+      "int": 0,
+      "res": 0,
+      "effect": 0,
+      "buff": [
+        11000211,
+        11000212
+      ]
+    },
+    {
+      "selection_id": 110002,
+      "selection_result_id": 1100022,
+      "selection_result_type": 2,
+      "initial_weight": 80,
+      "luk": 0,
+      "tec": 0,
+      "ins": 0,
+      "int": 0,
+      "res": 0,
+      "effect": 0,
+      "buff": [
+        11000221,
+        11000222
+      ]
+    }
+  ],
+  [
+    {
+      "selection_id": 110004,
+      "selection_result_id": 1100041,
+      "selection_result_type": 1,
+      "initial_weight": 100,
+      "luk": 0,
+      "tec": 0,
+      "ins": 0,
+      "int": 0,
+      "res": 0,
+      "effect": 0,
+      "buff": [
+        11000411
+      ]
+    }
+  ]
+]

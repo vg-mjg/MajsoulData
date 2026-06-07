@@ -1,0 +1,16 @@
+[
+  {
+    "id": 251001,
+    "character_pool_id": 1001,
+    "quest_pool_id": 2001,
+    "refresh_market_price": "30900095-3",
+    "market_count": 4,
+    "character_charging_price": "30900095-1",
+    "great_success_effect_ceo": 50,
+    "great_success_ceo": 150,
+    "init_character_id": [
+      10001,
+      10002
+    ]
+  }
+]

@@ -1,0 +1,62 @@
+[
+  {
+    "activity_id": 260224,
+    "group_id": 2001,
+    "base_chest_id": [
+      1016,
+      1017
+    ],
+    "choose_type": "chara",
+    "type": 1,
+    "sort": 5,
+    "title_str_id": 5029,
+    "str_id": "5113",
+    "chara_str_id": 5203,
+    "item_str_id": 5206,
+    "img": "chest_0",
+    "title_img": "extendRes/treasurehead/xczx_yh.png",
+    "title_img_2": "",
+    "typeset": 5,
+    "enter_animation": "",
+    "special_effect_front": "",
+    "special_effect_back": "",
+    "special_audio": 0,
+    "up_items_type": 1,
+    "up_items": [
+      30520012,
+      30530012,
+      30580027,
+      30570017
+    ]
+  },
+  {
+    "activity_id": 260225,
+    "group_id": 2002,
+    "base_chest_id": [
+      1018,
+      1019
+    ],
+    "choose_type": "chara",
+    "type": 2,
+    "sort": 4,
+    "title_str_id": 5030,
+    "str_id": "5113",
+    "chara_str_id": 5203,
+    "item_str_id": 5206,
+    "img": "chest_1",
+    "title_img": "extendRes/treasurehead/xczx_zl.png",
+    "title_img_2": "",
+    "typeset": 5,
+    "enter_animation": "",
+    "special_effect_front": "",
+    "special_effect_back": "",
+    "special_audio": 0,
+    "up_items_type": 1,
+    "up_items": [
+      30520012,
+      30530012,
+      30580027,
+      30570017
+    ]
+  }
+]

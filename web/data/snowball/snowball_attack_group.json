@@ -1,0 +1,60 @@
+[
+  [
+    {
+      "group_id": 251201,
+      "track": 0,
+      "flight_time": 30,
+      "atk": 1,
+      "mp_consume": 5,
+      "cd": 90,
+      "snowball_name_str": 25120119
+    },
+    {
+      "group_id": 251201,
+      "track": 1,
+      "flight_time": 36,
+      "atk": 2,
+      "mp_consume": 8,
+      "cd": 150,
+      "snowball_name_str": 25120120
+    },
+    {
+      "group_id": 251201,
+      "track": 2,
+      "flight_time": 45,
+      "atk": 3,
+      "mp_consume": 11,
+      "cd": 210,
+      "snowball_name_str": 25120121
+    }
+  ],
+  [
+    {
+      "group_id": 251202,
+      "track": 0,
+      "flight_time": 30,
+      "atk": 1,
+      "mp_consume": 5,
+      "cd": 90,
+      "snowball_name_str": 25120119
+    },
+    {
+      "group_id": 251202,
+      "track": 1,
+      "flight_time": 36,
+      "atk": 2,
+      "mp_consume": 8,
+      "cd": 150,
+      "snowball_name_str": 25120120
+    },
+    {
+      "group_id": 251202,
+      "track": 2,
+      "flight_time": 45,
+      "atk": 3,
+      "mp_consume": 11,
+      "cd": 210,
+      "snowball_name_str": 25120121
+    }
+  ]
+]

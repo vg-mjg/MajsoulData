@@ -1,0 +1,202 @@
+[
+  {
+    "effect_id": 9001,
+    "luk": 600,
+    "tec": 0,
+    "ins": 0,
+    "int": -100,
+    "res": 0,
+    "effect_title": 25040001,
+    "effect_desc": 25041001
+  },
+  {
+    "effect_id": 9002,
+    "luk": 300,
+    "tec": 0,
+    "ins": 0,
+    "int": 0,
+    "res": 0,
+    "effect_title": 25040002,
+    "effect_desc": 25041002
+  },
+  {
+    "effect_id": 9003,
+    "luk": 0,
+    "tec": -100,
+    "ins": 0,
+    "int": 700,
+    "res": 0,
+    "effect_title": 25040003,
+    "effect_desc": 25041003
+  },
+  {
+    "effect_id": 9004,
+    "luk": 0,
+    "tec": 0,
+    "ins": 0,
+    "int": 0,
+    "res": 300,
+    "effect_title": 25040004,
+    "effect_desc": 25041004
+  },
+  {
+    "effect_id": 9005,
+    "luk": 0,
+    "tec": 0,
+    "ins": 800,
+    "int": 0,
+    "res": 0,
+    "effect_title": 25040005,
+    "effect_desc": 25041005
+  },
+  {
+    "effect_id": 9006,
+    "luk": 0,
+    "tec": 0,
+    "ins": 0,
+    "int": 200,
+    "res": 0,
+    "effect_title": 25040006,
+    "effect_desc": 25041006
+  },
+  {
+    "effect_id": 9007,
+    "luk": 0,
+    "tec": 0,
+    "ins": 400,
+    "int": 0,
+    "res": 0,
+    "effect_title": 25040007,
+    "effect_desc": 25041007
+  },
+  {
+    "effect_id": 9008,
+    "luk": 0,
+    "tec": 0,
+    "ins": 0,
+    "int": 0,
+    "res": 600,
+    "effect_title": 25040008,
+    "effect_desc": 25041008
+  },
+  {
+    "effect_id": 9009,
+    "luk": 500,
+    "tec": 0,
+    "ins": 0,
+    "int": 0,
+    "res": 0,
+    "effect_title": 25040009,
+    "effect_desc": 25041009
+  },
+  {
+    "effect_id": 9010,
+    "luk": 0,
+    "tec": 700,
+    "ins": 0,
+    "int": 0,
+    "res": 0,
+    "effect_title": 25040010,
+    "effect_desc": 25041010
+  },
+  {
+    "effect_id": 9011,
+    "luk": 0,
+    "tec": 0,
+    "ins": 0,
+    "int": 0,
+    "res": 500,
+    "effect_title": 25040011,
+    "effect_desc": 25041011
+  },
+  {
+    "effect_id": 9012,
+    "luk": 0,
+    "tec": 0,
+    "ins": -300,
+    "int": 1000,
+    "res": 0,
+    "effect_title": 25040012,
+    "effect_desc": 25041012
+  },
+  {
+    "effect_id": 9013,
+    "luk": 0,
+    "tec": 0,
+    "ins": 0,
+    "int": 400,
+    "res": 0,
+    "effect_title": 25040013,
+    "effect_desc": 25041013
+  },
+  {
+    "effect_id": 9014,
+    "luk": -100,
+    "tec": 0,
+    "ins": 0,
+    "int": 0,
+    "res": 500,
+    "effect_title": 25040014,
+    "effect_desc": 25041014
+  },
+  {
+    "effect_id": 9015,
+    "luk": 0,
+    "tec": 500,
+    "ins": 0,
+    "int": 0,
+    "res": 0,
+    "effect_title": 25040015,
+    "effect_desc": 25041015
+  },
+  {
+    "effect_id": 9016,
+    "luk": 0,
+    "tec": 0,
+    "ins": 400,
+    "int": 0,
+    "res": 0,
+    "effect_title": 25040016,
+    "effect_desc": 25041016
+  },
+  {
+    "effect_id": 9017,
+    "luk": 0,
+    "tec": 0,
+    "ins": 400,
+    "int": 0,
+    "res": 0,
+    "effect_title": 25040017,
+    "effect_desc": 25041017
+  },
+  {
+    "effect_id": 9018,
+    "luk": 0,
+    "tec": 1000,
+    "ins": -100,
+    "int": 0,
+    "res": 0,
+    "effect_title": 25040018,
+    "effect_desc": 25041018
+  },
+  {
+    "effect_id": 9019,
+    "luk": 500,
+    "tec": 0,
+    "ins": 0,
+    "int": 0,
+    "res": -100,
+    "effect_title": 25040019,
+    "effect_desc": 25041019
+  },
+  {
+    "effect_id": 9020,
+    "luk": 0,
+    "tec": 600,
+    "ins": 0,
+    "int": 0,
+    "res": 0,
+    "effect_title": 25040020,
+    "effect_desc": 25041020
+  }
+]

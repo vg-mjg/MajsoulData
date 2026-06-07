@@ -1,0 +1,1407 @@
+[
+  [
+    {
+      "pool_id": 106501,
+      "task_id": 10650101,
+      "activity_id": 1065,
+      "base_task_id": 20001,
+      "reward_id": 309022,
+      "reward_count": 3,
+      "weight": 100,
+      "hidden_reward": "",
+      "limit_id": 0
+    },
+    {
+      "pool_id": 106501,
+      "task_id": 10650102,
+      "activity_id": 1065,
+      "base_task_id": 20129,
+      "reward_id": 309022,
+      "reward_count": 3,
+      "weight": 100,
+      "hidden_reward": "",
+      "limit_id": 0
+    }
+  ],
+  [
+    {
+      "pool_id": 106502,
+      "task_id": 10650201,
+      "activity_id": 1065,
+      "base_task_id": 20002,
+      "reward_id": 309022,
+      "reward_count": 3,
+      "weight": 100,
+      "hidden_reward": "",
+      "limit_id": 0
+    },
+    {
+      "pool_id": 106502,
+      "task_id": 10650202,
+      "activity_id": 1065,
+      "base_task_id": 20130,
+      "reward_id": 309022,
+      "reward_count": 3,
+      "weight": 100,
+      "hidden_reward": "",
+      "limit_id": 0
+    }
+  ],
+  [
+    {
+      "pool_id": 106503,
+      "task_id": 10650301,
+      "activity_id": 1065,
+      "base_task_id": 20003,
+      "reward_id": 309022,
+      "reward_count": 3,
+      "weight": 100,
+      "hidden_reward": "",
+      "limit_id": 0
+    },
+    {
+      "pool_id": 106503,
+      "task_id": 10650302,
+      "activity_id": 1065,
+      "base_task_id": 20131,
+      "reward_id": 309022,
+      "reward_count": 3,
+      "weight": 100,
+      "hidden_reward": "",
+      "limit_id": 0
+    }
+  ],
+  [
+    {
+      "pool_id": 107401,
+      "task_id": 10740101,
+      "activity_id": 1074,
+      "base_task_id": 20001,
+      "reward_id": 309022,
+      "reward_count": 3,
+      "weight": 100,
+      "hidden_reward": "",
+      "limit_id": 0
+    },
+    {
+      "pool_id": 107401,
+      "task_id": 10740102,
+      "activity_id": 1074,
+      "base_task_id": 20129,
+      "reward_id": 309022,
+      "reward_count": 3,
+      "weight": 100,
+      "hidden_reward": "",
+      "limit_id": 0
+    }
+  ],
+  [
+    {
+      "pool_id": 107402,
+      "task_id": 10740201,
+      "activity_id": 1074,
+      "base_task_id": 20002,
+      "reward_id": 309022,
+      "reward_count": 3,
+      "weight": 100,
+      "hidden_reward": "",
+      "limit_id": 0
+    },
+    {
+      "pool_id": 107402,
+      "task_id": 10740202,
+      "activity_id": 1074,
+      "base_task_id": 20130,
+      "reward_id": 309022,
+      "reward_count": 3,
+      "weight": 100,
+      "hidden_reward": "",
+      "limit_id": 0
+    }
+  ],
+  [
+    {
+      "pool_id": 107403,
+      "task_id": 10740301,
+      "activity_id": 1074,
+      "base_task_id": 20003,
+      "reward_id": 309022,
+      "reward_count": 3,
+      "weight": 100,
+      "hidden_reward": "",
+      "limit_id": 0
+    },
+    {
+      "pool_id": 107403,
+      "task_id": 10740302,
+      "activity_id": 1074,
+      "base_task_id": 20131,
+      "reward_id": 309022,
+      "reward_count": 3,
+      "weight": 100,
+      "hidden_reward": "",
+      "limit_id": 0
+    }
+  ],
+  [
+    {
+      "pool_id": 109501,
+      "task_id": 10950101,
+      "activity_id": 1095,
+      "base_task_id": 20001,
+      "reward_id": 309022,
+      "reward_count": 3,
+      "weight": 100,
+      "hidden_reward": "",
+      "limit_id": 0
+    },
+    {
+      "pool_id": 109501,
+      "task_id": 10950102,
+      "activity_id": 1095,
+      "base_task_id": 20002,
+      "reward_id": 309022,
+      "reward_count": 3,
+      "weight": 100,
+      "hidden_reward": "",
+      "limit_id": 0
+    },
+    {
+      "pool_id": 109501,
+      "task_id": 10950103,
+      "activity_id": 1095,
+      "base_task_id": 20003,
+      "reward_id": 309022,
+      "reward_count": 3,
+      "weight": 100,
+      "hidden_reward": "",
+      "limit_id": 0
+    }
+  ],
+  [
+    {
+      "pool_id": 109502,
+      "task_id": 10950201,
+      "activity_id": 1095,
+      "base_task_id": 20129,
+      "reward_id": 309022,
+      "reward_count": 3,
+      "weight": 100,
+      "hidden_reward": "",
+      "limit_id": 0
+    },
+    {
+      "pool_id": 109502,
+      "task_id": 10950202,
+      "activity_id": 1095,
+      "base_task_id": 20130,
+      "reward_id": 309022,
+      "reward_count": 3,
+      "weight": 100,
+      "hidden_reward": "",
+      "limit_id": 0
+    },
+    {
+      "pool_id": 109502,
+      "task_id": 10950203,
+      "activity_id": 1095,
+      "base_task_id": 20131,
+      "reward_id": 309022,
+      "reward_count": 3,
+      "weight": 100,
+      "hidden_reward": "",
+      "limit_id": 0
+    }
+  ],
+  [
+    {
+      "pool_id": 109503,
+      "task_id": 10950302,
+      "activity_id": 1095,
+      "base_task_id": 20028,
+      "reward_id": 309022,
+      "reward_count": 5,
+      "weight": 100,
+      "hidden_reward": "",
+      "limit_id": 0
+    },
+    {
+      "pool_id": 109503,
+      "task_id": 10950303,
+      "activity_id": 1095,
+      "base_task_id": 20029,
+      "reward_id": 309022,
+      "reward_count": 5,
+      "weight": 100,
+      "hidden_reward": "",
+      "limit_id": 0
+    },
+    {
+      "pool_id": 109503,
+      "task_id": 10950304,
+      "activity_id": 1095,
+      "base_task_id": 20009,
+      "reward_id": 309022,
+      "reward_count": 5,
+      "weight": 100,
+      "hidden_reward": "",
+      "limit_id": 0
+    },
+    {
+      "pool_id": 109503,
+      "task_id": 10950301,
+      "activity_id": 1095,
+      "base_task_id": 20133,
+      "reward_id": 309022,
+      "reward_count": 5,
+      "weight": 0,
+      "hidden_reward": "",
+      "limit_id": 0
+    }
+  ],
+  [
+    {
+      "pool_id": 119301,
+      "task_id": 11930101,
+      "activity_id": 1193,
+      "base_task_id": 20001,
+      "reward_id": 309037,
+      "reward_count": 1,
+      "weight": 100,
+      "hidden_reward": "",
+      "limit_id": 0
+    },
+    {
+      "pool_id": 119301,
+      "task_id": 11930102,
+      "activity_id": 1193,
+      "base_task_id": 20002,
+      "reward_id": 309037,
+      "reward_count": 1,
+      "weight": 100,
+      "hidden_reward": "",
+      "limit_id": 0
+    },
+    {
+      "pool_id": 119301,
+      "task_id": 11930103,
+      "activity_id": 1193,
+      "base_task_id": 20003,
+      "reward_id": 309037,
+      "reward_count": 1,
+      "weight": 100,
+      "hidden_reward": "",
+      "limit_id": 0
+    }
+  ],
+  [
+    {
+      "pool_id": 119302,
+      "task_id": 11930201,
+      "activity_id": 1193,
+      "base_task_id": 20129,
+      "reward_id": 309037,
+      "reward_count": 2,
+      "weight": 100,
+      "hidden_reward": "",
+      "limit_id": 0
+    },
+    {
+      "pool_id": 119302,
+      "task_id": 11930202,
+      "activity_id": 1193,
+      "base_task_id": 20130,
+      "reward_id": 309037,
+      "reward_count": 2,
+      "weight": 100,
+      "hidden_reward": "",
+      "limit_id": 0
+    },
+    {
+      "pool_id": 119302,
+      "task_id": 11930203,
+      "activity_id": 1193,
+      "base_task_id": 20131,
+      "reward_id": 309037,
+      "reward_count": 2,
+      "weight": 100,
+      "hidden_reward": "",
+      "limit_id": 0
+    }
+  ],
+  [
+    {
+      "pool_id": 119303,
+      "task_id": 11930302,
+      "activity_id": 1193,
+      "base_task_id": 20028,
+      "reward_id": 309037,
+      "reward_count": 3,
+      "weight": 100,
+      "hidden_reward": "",
+      "limit_id": 0
+    },
+    {
+      "pool_id": 119303,
+      "task_id": 11930303,
+      "activity_id": 1193,
+      "base_task_id": 20029,
+      "reward_id": 309037,
+      "reward_count": 3,
+      "weight": 100,
+      "hidden_reward": "",
+      "limit_id": 0
+    },
+    {
+      "pool_id": 119303,
+      "task_id": 11930304,
+      "activity_id": 1193,
+      "base_task_id": 20009,
+      "reward_id": 309037,
+      "reward_count": 3,
+      "weight": 100,
+      "hidden_reward": "",
+      "limit_id": 0
+    }
+  ],
+  [
+    {
+      "pool_id": 124701,
+      "task_id": 12470101,
+      "activity_id": 1247,
+      "base_task_id": 20001,
+      "reward_id": 309022,
+      "reward_count": 3,
+      "weight": 100,
+      "hidden_reward": "",
+      "limit_id": 0
+    },
+    {
+      "pool_id": 124701,
+      "task_id": 12470102,
+      "activity_id": 1247,
+      "base_task_id": 20002,
+      "reward_id": 309022,
+      "reward_count": 3,
+      "weight": 100,
+      "hidden_reward": "",
+      "limit_id": 0
+    },
+    {
+      "pool_id": 124701,
+      "task_id": 12470103,
+      "activity_id": 1247,
+      "base_task_id": 20003,
+      "reward_id": 309022,
+      "reward_count": 3,
+      "weight": 100,
+      "hidden_reward": "",
+      "limit_id": 0
+    }
+  ],
+  [
+    {
+      "pool_id": 124702,
+      "task_id": 12470201,
+      "activity_id": 1247,
+      "base_task_id": 20129,
+      "reward_id": 309022,
+      "reward_count": 3,
+      "weight": 100,
+      "hidden_reward": "",
+      "limit_id": 0
+    },
+    {
+      "pool_id": 124702,
+      "task_id": 12470202,
+      "activity_id": 1247,
+      "base_task_id": 20130,
+      "reward_id": 309022,
+      "reward_count": 3,
+      "weight": 100,
+      "hidden_reward": "",
+      "limit_id": 0
+    },
+    {
+      "pool_id": 124702,
+      "task_id": 12470203,
+      "activity_id": 1247,
+      "base_task_id": 20131,
+      "reward_id": 309022,
+      "reward_count": 3,
+      "weight": 100,
+      "hidden_reward": "",
+      "limit_id": 0
+    }
+  ],
+  [
+    {
+      "pool_id": 124703,
+      "task_id": 12470301,
+      "activity_id": 1247,
+      "base_task_id": 20028,
+      "reward_id": 309022,
+      "reward_count": 5,
+      "weight": 100,
+      "hidden_reward": "",
+      "limit_id": 0
+    },
+    {
+      "pool_id": 124703,
+      "task_id": 12470302,
+      "activity_id": 1247,
+      "base_task_id": 20029,
+      "reward_id": 309022,
+      "reward_count": 5,
+      "weight": 100,
+      "hidden_reward": "",
+      "limit_id": 0
+    },
+    {
+      "pool_id": 124703,
+      "task_id": 12470303,
+      "activity_id": 1247,
+      "base_task_id": 20513,
+      "reward_id": 309022,
+      "reward_count": 5,
+      "weight": 100,
+      "hidden_reward": "",
+      "limit_id": 0
+    }
+  ],
+  [
+    {
+      "pool_id": 130001,
+      "task_id": 13000101,
+      "activity_id": 1300,
+      "base_task_id": 20001,
+      "reward_id": 309037,
+      "reward_count": 2,
+      "weight": 100,
+      "hidden_reward": "309036-1",
+      "limit_id": 10011
+    },
+    {
+      "pool_id": 130001,
+      "task_id": 13000102,
+      "activity_id": 1300,
+      "base_task_id": 20002,
+      "reward_id": 309037,
+      "reward_count": 2,
+      "weight": 100,
+      "hidden_reward": "309036-1",
+      "limit_id": 10011
+    },
+    {
+      "pool_id": 130001,
+      "task_id": 13000103,
+      "activity_id": 1300,
+      "base_task_id": 20003,
+      "reward_id": 309037,
+      "reward_count": 2,
+      "weight": 100,
+      "hidden_reward": "309036-1",
+      "limit_id": 10011
+    }
+  ],
+  [
+    {
+      "pool_id": 130002,
+      "task_id": 13000201,
+      "activity_id": 1300,
+      "base_task_id": 20129,
+      "reward_id": 309037,
+      "reward_count": 2,
+      "weight": 100,
+      "hidden_reward": "309036-1",
+      "limit_id": 10011
+    },
+    {
+      "pool_id": 130002,
+      "task_id": 13000202,
+      "activity_id": 1300,
+      "base_task_id": 20130,
+      "reward_id": 309037,
+      "reward_count": 2,
+      "weight": 100,
+      "hidden_reward": "309036-1",
+      "limit_id": 10011
+    },
+    {
+      "pool_id": 130002,
+      "task_id": 13000203,
+      "activity_id": 1300,
+      "base_task_id": 20131,
+      "reward_id": 309037,
+      "reward_count": 2,
+      "weight": 100,
+      "hidden_reward": "309036-1",
+      "limit_id": 10011
+    }
+  ],
+  [
+    {
+      "pool_id": 130003,
+      "task_id": 13000301,
+      "activity_id": 1300,
+      "base_task_id": 20028,
+      "reward_id": 309037,
+      "reward_count": 3,
+      "weight": 100,
+      "hidden_reward": "309036-1",
+      "limit_id": 10011
+    },
+    {
+      "pool_id": 130003,
+      "task_id": 13000302,
+      "activity_id": 1300,
+      "base_task_id": 20029,
+      "reward_id": 309037,
+      "reward_count": 3,
+      "weight": 100,
+      "hidden_reward": "309036-1",
+      "limit_id": 10011
+    },
+    {
+      "pool_id": 130003,
+      "task_id": 13000303,
+      "activity_id": 1300,
+      "base_task_id": 20513,
+      "reward_id": 309037,
+      "reward_count": 3,
+      "weight": 100,
+      "hidden_reward": "309036-1",
+      "limit_id": 10011
+    }
+  ],
+  [
+    {
+      "pool_id": 2210011,
+      "task_id": 22100111,
+      "activity_id": 221001,
+      "base_task_id": 20001,
+      "reward_id": 309037,
+      "reward_count": 2,
+      "weight": 100,
+      "hidden_reward": "309036-1",
+      "limit_id": 10011
+    },
+    {
+      "pool_id": 2210011,
+      "task_id": 22100112,
+      "activity_id": 221001,
+      "base_task_id": 20002,
+      "reward_id": 309037,
+      "reward_count": 2,
+      "weight": 100,
+      "hidden_reward": "309036-1",
+      "limit_id": 10011
+    },
+    {
+      "pool_id": 2210011,
+      "task_id": 22100113,
+      "activity_id": 221001,
+      "base_task_id": 20003,
+      "reward_id": 309037,
+      "reward_count": 2,
+      "weight": 100,
+      "hidden_reward": "309036-1",
+      "limit_id": 10011
+    }
+  ],
+  [
+    {
+      "pool_id": 2210012,
+      "task_id": 22100121,
+      "activity_id": 221001,
+      "base_task_id": 20129,
+      "reward_id": 309037,
+      "reward_count": 2,
+      "weight": 100,
+      "hidden_reward": "309036-1",
+      "limit_id": 10011
+    },
+    {
+      "pool_id": 2210012,
+      "task_id": 22100122,
+      "activity_id": 221001,
+      "base_task_id": 20130,
+      "reward_id": 309037,
+      "reward_count": 2,
+      "weight": 100,
+      "hidden_reward": "309036-1",
+      "limit_id": 10011
+    },
+    {
+      "pool_id": 2210012,
+      "task_id": 22100123,
+      "activity_id": 221001,
+      "base_task_id": 20131,
+      "reward_id": 309037,
+      "reward_count": 2,
+      "weight": 100,
+      "hidden_reward": "309036-1",
+      "limit_id": 10011
+    }
+  ],
+  [
+    {
+      "pool_id": 2210013,
+      "task_id": 22100131,
+      "activity_id": 221001,
+      "base_task_id": 20028,
+      "reward_id": 309037,
+      "reward_count": 3,
+      "weight": 100,
+      "hidden_reward": "309036-1",
+      "limit_id": 10011
+    },
+    {
+      "pool_id": 2210013,
+      "task_id": 22100132,
+      "activity_id": 221001,
+      "base_task_id": 20029,
+      "reward_id": 309037,
+      "reward_count": 3,
+      "weight": 100,
+      "hidden_reward": "309036-1",
+      "limit_id": 10011
+    },
+    {
+      "pool_id": 2210013,
+      "task_id": 22100133,
+      "activity_id": 221001,
+      "base_task_id": 20513,
+      "reward_id": 309037,
+      "reward_count": 3,
+      "weight": 100,
+      "hidden_reward": "309036-1",
+      "limit_id": 10011
+    }
+  ],
+  [
+    {
+      "pool_id": 2303021,
+      "task_id": 23030211,
+      "activity_id": 230302,
+      "base_task_id": 20001,
+      "reward_id": 309072,
+      "reward_count": 3,
+      "weight": 100,
+      "hidden_reward": "",
+      "limit_id": 0
+    },
+    {
+      "pool_id": 2303021,
+      "task_id": 23030212,
+      "activity_id": 230302,
+      "base_task_id": 20002,
+      "reward_id": 309072,
+      "reward_count": 3,
+      "weight": 100,
+      "hidden_reward": "",
+      "limit_id": 0
+    },
+    {
+      "pool_id": 2303021,
+      "task_id": 23030213,
+      "activity_id": 230302,
+      "base_task_id": 20003,
+      "reward_id": 309072,
+      "reward_count": 3,
+      "weight": 100,
+      "hidden_reward": "",
+      "limit_id": 0
+    }
+  ],
+  [
+    {
+      "pool_id": 2303022,
+      "task_id": 23030221,
+      "activity_id": 230302,
+      "base_task_id": 20129,
+      "reward_id": 309072,
+      "reward_count": 3,
+      "weight": 100,
+      "hidden_reward": "",
+      "limit_id": 0
+    },
+    {
+      "pool_id": 2303022,
+      "task_id": 23030222,
+      "activity_id": 230302,
+      "base_task_id": 20130,
+      "reward_id": 309072,
+      "reward_count": 3,
+      "weight": 100,
+      "hidden_reward": "",
+      "limit_id": 0
+    },
+    {
+      "pool_id": 2303022,
+      "task_id": 23030223,
+      "activity_id": 230302,
+      "base_task_id": 20131,
+      "reward_id": 309072,
+      "reward_count": 3,
+      "weight": 100,
+      "hidden_reward": "",
+      "limit_id": 0
+    }
+  ],
+  [
+    {
+      "pool_id": 2303023,
+      "task_id": 23030231,
+      "activity_id": 230302,
+      "base_task_id": 20028,
+      "reward_id": 309072,
+      "reward_count": 4,
+      "weight": 100,
+      "hidden_reward": "",
+      "limit_id": 0
+    },
+    {
+      "pool_id": 2303023,
+      "task_id": 23030232,
+      "activity_id": 230302,
+      "base_task_id": 20029,
+      "reward_id": 309072,
+      "reward_count": 4,
+      "weight": 100,
+      "hidden_reward": "",
+      "limit_id": 0
+    },
+    {
+      "pool_id": 2303023,
+      "task_id": 23030233,
+      "activity_id": 230302,
+      "base_task_id": 20513,
+      "reward_id": 309072,
+      "reward_count": 4,
+      "weight": 100,
+      "hidden_reward": "",
+      "limit_id": 0
+    }
+  ],
+  [
+    {
+      "pool_id": 2305011,
+      "task_id": 23050111,
+      "activity_id": 230501,
+      "base_task_id": 20002,
+      "reward_id": 309037,
+      "reward_count": 2,
+      "weight": 100,
+      "hidden_reward": "309036-1",
+      "limit_id": 10012
+    }
+  ],
+  [
+    {
+      "pool_id": 2305012,
+      "task_id": 23050121,
+      "activity_id": 230501,
+      "base_task_id": 20001,
+      "reward_id": 309037,
+      "reward_count": 2,
+      "weight": 100,
+      "hidden_reward": "309036-1",
+      "limit_id": 10012
+    }
+  ],
+  [
+    {
+      "pool_id": 2305013,
+      "task_id": 23050131,
+      "activity_id": 230501,
+      "base_task_id": 20131,
+      "reward_id": 309037,
+      "reward_count": 3,
+      "weight": 100,
+      "hidden_reward": "309036-1",
+      "limit_id": 10012
+    },
+    {
+      "pool_id": 2305013,
+      "task_id": 23050132,
+      "activity_id": 230501,
+      "base_task_id": 20003,
+      "reward_id": 309037,
+      "reward_count": 3,
+      "weight": 100,
+      "hidden_reward": "309036-1",
+      "limit_id": 10012
+    },
+    {
+      "pool_id": 2305013,
+      "task_id": 23050133,
+      "activity_id": 230501,
+      "base_task_id": 21804,
+      "reward_id": 309037,
+      "reward_count": 3,
+      "weight": 100,
+      "hidden_reward": "309036-1",
+      "limit_id": 10012
+    }
+  ],
+  [
+    {
+      "pool_id": 2310021,
+      "task_id": 23100211,
+      "activity_id": 231002,
+      "base_task_id": 20001,
+      "reward_id": 309072,
+      "reward_count": 3,
+      "weight": 100,
+      "hidden_reward": "",
+      "limit_id": 0
+    },
+    {
+      "pool_id": 2310021,
+      "task_id": 23100212,
+      "activity_id": 231002,
+      "base_task_id": 20002,
+      "reward_id": 309072,
+      "reward_count": 3,
+      "weight": 100,
+      "hidden_reward": "",
+      "limit_id": 0
+    },
+    {
+      "pool_id": 2310021,
+      "task_id": 23100213,
+      "activity_id": 231002,
+      "base_task_id": 20003,
+      "reward_id": 309072,
+      "reward_count": 3,
+      "weight": 100,
+      "hidden_reward": "",
+      "limit_id": 0
+    }
+  ],
+  [
+    {
+      "pool_id": 2310022,
+      "task_id": 23100221,
+      "activity_id": 231002,
+      "base_task_id": 20129,
+      "reward_id": 309072,
+      "reward_count": 3,
+      "weight": 100,
+      "hidden_reward": "",
+      "limit_id": 0
+    },
+    {
+      "pool_id": 2310022,
+      "task_id": 23100222,
+      "activity_id": 231002,
+      "base_task_id": 20514,
+      "reward_id": 309072,
+      "reward_count": 3,
+      "weight": 100,
+      "hidden_reward": "",
+      "limit_id": 0
+    },
+    {
+      "pool_id": 2310022,
+      "task_id": 23100223,
+      "activity_id": 231002,
+      "base_task_id": 20131,
+      "reward_id": 309072,
+      "reward_count": 3,
+      "weight": 100,
+      "hidden_reward": "",
+      "limit_id": 0
+    }
+  ],
+  [
+    {
+      "pool_id": 2310023,
+      "task_id": 23100231,
+      "activity_id": 231002,
+      "base_task_id": 20511,
+      "reward_id": 309072,
+      "reward_count": 4,
+      "weight": 100,
+      "hidden_reward": "",
+      "limit_id": 0
+    },
+    {
+      "pool_id": 2310023,
+      "task_id": 23100232,
+      "activity_id": 231002,
+      "base_task_id": 20515,
+      "reward_id": 309072,
+      "reward_count": 4,
+      "weight": 100,
+      "hidden_reward": "",
+      "limit_id": 0
+    },
+    {
+      "pool_id": 2310023,
+      "task_id": 23100233,
+      "activity_id": 231002,
+      "base_task_id": 21804,
+      "reward_id": 309072,
+      "reward_count": 4,
+      "weight": 100,
+      "hidden_reward": "",
+      "limit_id": 0
+    }
+  ],
+  [
+    {
+      "pool_id": 2402011,
+      "task_id": 24020111,
+      "activity_id": 240201,
+      "base_task_id": 20002,
+      "reward_id": 309037,
+      "reward_count": 2,
+      "weight": 100,
+      "hidden_reward": "",
+      "limit_id": 0
+    },
+    {
+      "pool_id": 2402011,
+      "task_id": 24020112,
+      "activity_id": 240201,
+      "base_task_id": 20003,
+      "reward_id": 309037,
+      "reward_count": 2,
+      "weight": 100,
+      "hidden_reward": "",
+      "limit_id": 0
+    }
+  ],
+  [
+    {
+      "pool_id": 2402012,
+      "task_id": 24020121,
+      "activity_id": 240201,
+      "base_task_id": 20001,
+      "reward_id": 309037,
+      "reward_count": 2,
+      "weight": 100,
+      "hidden_reward": "",
+      "limit_id": 0
+    },
+    {
+      "pool_id": 2402012,
+      "task_id": 24020122,
+      "activity_id": 240201,
+      "base_task_id": 20131,
+      "reward_id": 309037,
+      "reward_count": 2,
+      "weight": 100,
+      "hidden_reward": "",
+      "limit_id": 0
+    }
+  ],
+  [
+    {
+      "pool_id": 2402013,
+      "task_id": 24020131,
+      "activity_id": 240201,
+      "base_task_id": 20510,
+      "reward_id": 309037,
+      "reward_count": 3,
+      "weight": 100,
+      "hidden_reward": "",
+      "limit_id": 0
+    },
+    {
+      "pool_id": 2402013,
+      "task_id": 24020132,
+      "activity_id": 240201,
+      "base_task_id": 20515,
+      "reward_id": 309037,
+      "reward_count": 3,
+      "weight": 100,
+      "hidden_reward": "",
+      "limit_id": 0
+    },
+    {
+      "pool_id": 2402013,
+      "task_id": 24020133,
+      "activity_id": 240201,
+      "base_task_id": 21804,
+      "reward_id": 309037,
+      "reward_count": 3,
+      "weight": 100,
+      "hidden_reward": "",
+      "limit_id": 0
+    }
+  ],
+  [
+    {
+      "pool_id": 2409021,
+      "task_id": 24090211,
+      "activity_id": 240902,
+      "base_task_id": 22070,
+      "reward_id": 30900077,
+      "reward_count": 3,
+      "weight": 100,
+      "hidden_reward": "",
+      "limit_id": 0
+    }
+  ],
+  [
+    {
+      "pool_id": 2409022,
+      "task_id": 24090221,
+      "activity_id": 240902,
+      "base_task_id": 22071,
+      "reward_id": 30900077,
+      "reward_count": 3,
+      "weight": 100,
+      "hidden_reward": "",
+      "limit_id": 0
+    }
+  ],
+  [
+    {
+      "pool_id": 2409023,
+      "task_id": 24090231,
+      "activity_id": 240902,
+      "base_task_id": 20002,
+      "reward_id": 30900077,
+      "reward_count": 4,
+      "weight": 100,
+      "hidden_reward": "",
+      "limit_id": 0
+    },
+    {
+      "pool_id": 2409023,
+      "task_id": 24090232,
+      "activity_id": 240902,
+      "base_task_id": 20003,
+      "reward_id": 30900077,
+      "reward_count": 4,
+      "weight": 100,
+      "hidden_reward": "",
+      "limit_id": 0
+    },
+    {
+      "pool_id": 2409023,
+      "task_id": 24090233,
+      "activity_id": 240902,
+      "base_task_id": 22072,
+      "reward_id": 30900077,
+      "reward_count": 4,
+      "weight": 100,
+      "hidden_reward": "",
+      "limit_id": 0
+    }
+  ],
+  [
+    {
+      "pool_id": 2410011,
+      "task_id": 24100111,
+      "activity_id": 241001,
+      "base_task_id": 22070,
+      "reward_id": 309037,
+      "reward_count": 2,
+      "weight": 100,
+      "hidden_reward": "",
+      "limit_id": 0
+    }
+  ],
+  [
+    {
+      "pool_id": 2410012,
+      "task_id": 24100121,
+      "activity_id": 241001,
+      "base_task_id": 20002,
+      "reward_id": 309037,
+      "reward_count": 2,
+      "weight": 100,
+      "hidden_reward": "",
+      "limit_id": 0
+    },
+    {
+      "pool_id": 2410012,
+      "task_id": 24100122,
+      "activity_id": 241001,
+      "base_task_id": 20131,
+      "reward_id": 309037,
+      "reward_count": 2,
+      "weight": 100,
+      "hidden_reward": "",
+      "limit_id": 0
+    },
+    {
+      "pool_id": 2410012,
+      "task_id": 24100123,
+      "activity_id": 241001,
+      "base_task_id": 20001,
+      "reward_id": 309037,
+      "reward_count": 2,
+      "weight": 100,
+      "hidden_reward": "",
+      "limit_id": 0
+    }
+  ],
+  [
+    {
+      "pool_id": 2410013,
+      "task_id": 24100131,
+      "activity_id": 241001,
+      "base_task_id": 22584,
+      "reward_id": 309037,
+      "reward_count": 3,
+      "weight": 100,
+      "hidden_reward": "",
+      "limit_id": 0
+    },
+    {
+      "pool_id": 2410013,
+      "task_id": 24100132,
+      "activity_id": 241001,
+      "base_task_id": 20515,
+      "reward_id": 309037,
+      "reward_count": 3,
+      "weight": 100,
+      "hidden_reward": "",
+      "limit_id": 0
+    },
+    {
+      "pool_id": 2410013,
+      "task_id": 24100133,
+      "activity_id": 241001,
+      "base_task_id": 21804,
+      "reward_id": 309037,
+      "reward_count": 3,
+      "weight": 100,
+      "hidden_reward": "",
+      "limit_id": 0
+    }
+  ],
+  [
+    {
+      "pool_id": 2412021,
+      "task_id": 24120211,
+      "activity_id": 241202,
+      "base_task_id": 22070,
+      "reward_id": 309022,
+      "reward_count": 3,
+      "weight": 100,
+      "hidden_reward": "",
+      "limit_id": 0
+    }
+  ],
+  [
+    {
+      "pool_id": 2412022,
+      "task_id": 24120221,
+      "activity_id": 241202,
+      "base_task_id": 20001,
+      "reward_id": 309022,
+      "reward_count": 3,
+      "weight": 100,
+      "hidden_reward": "",
+      "limit_id": 0
+    },
+    {
+      "pool_id": 2412022,
+      "task_id": 24120222,
+      "activity_id": 241202,
+      "base_task_id": 22499,
+      "reward_id": 309022,
+      "reward_count": 3,
+      "weight": 100,
+      "hidden_reward": "",
+      "limit_id": 0
+    },
+    {
+      "pool_id": 2412022,
+      "task_id": 24120223,
+      "activity_id": 241202,
+      "base_task_id": 21804,
+      "reward_id": 309022,
+      "reward_count": 3,
+      "weight": 100,
+      "hidden_reward": "",
+      "limit_id": 0
+    }
+  ],
+  [
+    {
+      "pool_id": 2412023,
+      "task_id": 24120231,
+      "activity_id": 241202,
+      "base_task_id": 20002,
+      "reward_id": 309022,
+      "reward_count": 5,
+      "weight": 100,
+      "hidden_reward": "",
+      "limit_id": 0
+    },
+    {
+      "pool_id": 2412023,
+      "task_id": 24120232,
+      "activity_id": 241202,
+      "base_task_id": 21500,
+      "reward_id": 309022,
+      "reward_count": 5,
+      "weight": 100,
+      "hidden_reward": "",
+      "limit_id": 0
+    },
+    {
+      "pool_id": 2412023,
+      "task_id": 24120233,
+      "activity_id": 241202,
+      "base_task_id": 20515,
+      "reward_id": 309022,
+      "reward_count": 5,
+      "weight": 100,
+      "hidden_reward": "",
+      "limit_id": 0
+    }
+  ],
+  [
+    {
+      "pool_id": 2505021,
+      "task_id": 25050211,
+      "activity_id": 250502,
+      "base_task_id": 22070,
+      "reward_id": 309072,
+      "reward_count": 3,
+      "weight": 100,
+      "hidden_reward": "",
+      "limit_id": 0
+    }
+  ],
+  [
+    {
+      "pool_id": 2505022,
+      "task_id": 25050221,
+      "activity_id": 250502,
+      "base_task_id": 22071,
+      "reward_id": 309072,
+      "reward_count": 3,
+      "weight": 100,
+      "hidden_reward": "",
+      "limit_id": 0
+    }
+  ],
+  [
+    {
+      "pool_id": 2505023,
+      "task_id": 25050231,
+      "activity_id": 250502,
+      "base_task_id": 20002,
+      "reward_id": 309072,
+      "reward_count": 4,
+      "weight": 100,
+      "hidden_reward": "",
+      "limit_id": 0
+    },
+    {
+      "pool_id": 2505023,
+      "task_id": 25050232,
+      "activity_id": 250502,
+      "base_task_id": 20003,
+      "reward_id": 309072,
+      "reward_count": 4,
+      "weight": 100,
+      "hidden_reward": "",
+      "limit_id": 0
+    },
+    {
+      "pool_id": 2505023,
+      "task_id": 25050233,
+      "activity_id": 250502,
+      "base_task_id": 22072,
+      "reward_id": 309072,
+      "reward_count": 4,
+      "weight": 100,
+      "hidden_reward": "",
+      "limit_id": 0
+    }
+  ],
+  [
+    {
+      "pool_id": 2507011,
+      "task_id": 25070111,
+      "activity_id": 250701,
+      "base_task_id": 22070,
+      "reward_id": 309037,
+      "reward_count": 2,
+      "weight": 100,
+      "hidden_reward": "",
+      "limit_id": 0
+    }
+  ],
+  [
+    {
+      "pool_id": 2507012,
+      "task_id": 25070121,
+      "activity_id": 250701,
+      "base_task_id": 20002,
+      "reward_id": 309037,
+      "reward_count": 2,
+      "weight": 100,
+      "hidden_reward": "",
+      "limit_id": 0
+    },
+    {
+      "pool_id": 2507012,
+      "task_id": 25070122,
+      "activity_id": 250701,
+      "base_task_id": 20131,
+      "reward_id": 309037,
+      "reward_count": 2,
+      "weight": 100,
+      "hidden_reward": "",
+      "limit_id": 0
+    },
+    {
+      "pool_id": 2507012,
+      "task_id": 25070123,
+      "activity_id": 250701,
+      "base_task_id": 20001,
+      "reward_id": 309037,
+      "reward_count": 2,
+      "weight": 100,
+      "hidden_reward": "",
+      "limit_id": 0
+    }
+  ],
+  [
+    {
+      "pool_id": 2507013,
+      "task_id": 25070131,
+      "activity_id": 250701,
+      "base_task_id": 22584,
+      "reward_id": 309037,
+      "reward_count": 3,
+      "weight": 100,
+      "hidden_reward": "",
+      "limit_id": 0
+    },
+    {
+      "pool_id": 2507013,
+      "task_id": 25070132,
+      "activity_id": 250701,
+      "base_task_id": 20515,
+      "reward_id": 309037,
+      "reward_count": 3,
+      "weight": 100,
+      "hidden_reward": "",
+      "limit_id": 0
+    },
+    {
+      "pool_id": 2507013,
+      "task_id": 25070133,
+      "activity_id": 250701,
+      "base_task_id": 21804,
+      "reward_id": 309037,
+      "reward_count": 3,
+      "weight": 100,
+      "hidden_reward": "",
+      "limit_id": 0
+    }
+  ]
+]

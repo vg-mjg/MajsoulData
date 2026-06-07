@@ -1,0 +1,10 @@
+[
+  {
+    "key": "account_friendship_bar_length",
+    "int_value": 1000
+  },
+  {
+    "key": "account_friendship_bar_reward_id",
+    "int_value": 303991
+  }
+]

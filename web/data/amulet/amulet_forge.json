@@ -1,0 +1,58 @@
+[
+  [
+    {
+      "activity_id": 260511,
+      "type": 1,
+      "rarity": 5,
+      "price": 0
+    },
+    {
+      "activity_id": 260511,
+      "type": 1,
+      "rarity": 4,
+      "price": 5
+    },
+    {
+      "activity_id": 260511,
+      "type": 1,
+      "rarity": 3,
+      "price": 15
+    },
+    {
+      "activity_id": 260511,
+      "type": 1,
+      "rarity": 2,
+      "price": 25
+    },
+    {
+      "activity_id": 260511,
+      "type": 1,
+      "rarity": 1,
+      "price": 35
+    },
+    {
+      "activity_id": 260511,
+      "type": 2,
+      "rarity": 0,
+      "price": 1
+    },
+    {
+      "activity_id": 260511,
+      "type": 2,
+      "rarity": 1,
+      "price": 6
+    },
+    {
+      "activity_id": 260511,
+      "type": 2,
+      "rarity": 2,
+      "price": 12
+    },
+    {
+      "activity_id": 260511,
+      "type": 2,
+      "rarity": 3,
+      "price": 12
+    }
+  ]
+]

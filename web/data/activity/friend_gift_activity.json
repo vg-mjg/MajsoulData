@@ -1,0 +1,12 @@
+[
+  {
+    "activity_id": 230102,
+    "friend_send_limit": 3,
+    "friend_send_consume": 0,
+    "friend_recv_limit": 3,
+    "extra_gift": 1,
+    "gift_item_id": [
+      309069
+    ]
+  }
+]

@@ -1,0 +1,3962 @@
+[
+  [
+    {
+      "event_id": 1001,
+      "selection_id": 100101,
+      "selection_desc": 25044001,
+      "type": 1,
+      "check": [
+        "tec"
+      ],
+      "args": {}
+    },
+    {
+      "event_id": 1001,
+      "selection_id": 100102,
+      "selection_desc": 25045001,
+      "type": 1,
+      "check": [
+        "tec"
+      ],
+      "args": {}
+    },
+    {
+      "event_id": 1001,
+      "selection_id": 100103,
+      "selection_desc": 25046001,
+      "type": 2,
+      "check": {},
+      "args": [
+        9001
+      ]
+    },
+    {
+      "event_id": 1001,
+      "selection_id": 100104,
+      "selection_desc": 25047001,
+      "type": 2,
+      "check": {},
+      "args": [
+        9015
+      ]
+    }
+  ],
+  [
+    {
+      "event_id": 1002,
+      "selection_id": 100201,
+      "selection_desc": 25044002,
+      "type": 1,
+      "check": [
+        "ins"
+      ],
+      "args": {}
+    },
+    {
+      "event_id": 1002,
+      "selection_id": 100202,
+      "selection_desc": 25045002,
+      "type": 2,
+      "check": {},
+      "args": [
+        9020
+      ]
+    },
+    {
+      "event_id": 1002,
+      "selection_id": 100203,
+      "selection_desc": 25046002,
+      "type": 3,
+      "check": [
+        "ins"
+      ],
+      "args": [
+        9001
+      ]
+    },
+    {
+      "event_id": 1002,
+      "selection_id": 100204,
+      "selection_desc": 25047002,
+      "type": 2,
+      "check": {},
+      "args": [
+        9007
+      ]
+    }
+  ],
+  [
+    {
+      "event_id": 1003,
+      "selection_id": 100301,
+      "selection_desc": 25044003,
+      "type": 1,
+      "check": [
+        "res"
+      ],
+      "args": {}
+    },
+    {
+      "event_id": 1003,
+      "selection_id": 100302,
+      "selection_desc": 25045003,
+      "type": 1,
+      "check": [
+        "res"
+      ],
+      "args": {}
+    },
+    {
+      "event_id": 1003,
+      "selection_id": 100303,
+      "selection_desc": 25046003,
+      "type": 2,
+      "check": {},
+      "args": [
+        9006
+      ]
+    },
+    {
+      "event_id": 1003,
+      "selection_id": 100304,
+      "selection_desc": 25047003,
+      "type": 2,
+      "check": {},
+      "args": [
+        9009
+      ]
+    }
+  ],
+  [
+    {
+      "event_id": 1004,
+      "selection_id": 100401,
+      "selection_desc": 25044004,
+      "type": 2,
+      "check": {},
+      "args": [
+        9003
+      ]
+    },
+    {
+      "event_id": 1004,
+      "selection_id": 100402,
+      "selection_desc": 25045004,
+      "type": 1,
+      "check": [
+        "int"
+      ],
+      "args": {}
+    },
+    {
+      "event_id": 1004,
+      "selection_id": 100403,
+      "selection_desc": 25046004,
+      "type": 1,
+      "check": [
+        "int"
+      ],
+      "args": {}
+    },
+    {
+      "event_id": 1004,
+      "selection_id": 100404,
+      "selection_desc": 25047004,
+      "type": 2,
+      "check": [
+        "int"
+      ],
+      "args": [
+        9017
+      ]
+    }
+  ],
+  [
+    {
+      "event_id": 1005,
+      "selection_id": 100501,
+      "selection_desc": 25044005,
+      "type": 2,
+      "check": [
+        "res"
+      ],
+      "args": [
+        9016
+      ]
+    },
+    {
+      "event_id": 1005,
+      "selection_id": 100502,
+      "selection_desc": 25045005,
+      "type": 1,
+      "check": [
+        "res"
+      ],
+      "args": {}
+    },
+    {
+      "event_id": 1005,
+      "selection_id": 100503,
+      "selection_desc": 25046005,
+      "type": 3,
+      "check": [
+        "res"
+      ],
+      "args": [
+        9013
+      ]
+    },
+    {
+      "event_id": 1005,
+      "selection_id": 100504,
+      "selection_desc": 25047005,
+      "type": 2,
+      "check": [
+        "res"
+      ],
+      "args": [
+        9018
+      ]
+    },
+    {
+      "event_id": 1005,
+      "selection_id": 100505,
+      "selection_desc": 25048005,
+      "type": 2,
+      "check": [
+        "res"
+      ],
+      "args": [
+        9011
+      ]
+    }
+  ],
+  [
+    {
+      "event_id": 1006,
+      "selection_id": 100601,
+      "selection_desc": 25044006,
+      "type": 1,
+      "check": [
+        "luk"
+      ],
+      "args": {}
+    },
+    {
+      "event_id": 1006,
+      "selection_id": 100602,
+      "selection_desc": 25045006,
+      "type": 1,
+      "check": [
+        "luk"
+      ],
+      "args": {}
+    },
+    {
+      "event_id": 1006,
+      "selection_id": 100603,
+      "selection_desc": 25046006,
+      "type": 2,
+      "check": {},
+      "args": [
+        9009
+      ]
+    },
+    {
+      "event_id": 1006,
+      "selection_id": 100604,
+      "selection_desc": 25047006,
+      "type": 2,
+      "check": {},
+      "args": [
+        9003
+      ]
+    }
+  ],
+  [
+    {
+      "event_id": 1007,
+      "selection_id": 100701,
+      "selection_desc": 25044007,
+      "type": 1,
+      "check": [
+        "int"
+      ],
+      "args": {}
+    },
+    {
+      "event_id": 1007,
+      "selection_id": 100702,
+      "selection_desc": 25045007,
+      "type": 1,
+      "check": [
+        "int"
+      ],
+      "args": {}
+    },
+    {
+      "event_id": 1007,
+      "selection_id": 100703,
+      "selection_desc": 25046007,
+      "type": 1,
+      "check": {},
+      "args": {}
+    },
+    {
+      "event_id": 1007,
+      "selection_id": 100704,
+      "selection_desc": 25047007,
+      "type": 2,
+      "check": {},
+      "args": [
+        9011
+      ]
+    },
+    {
+      "event_id": 1007,
+      "selection_id": 100705,
+      "selection_desc": 25048007,
+      "type": 2,
+      "check": {},
+      "args": [
+        9007
+      ]
+    }
+  ],
+  [
+    {
+      "event_id": 1008,
+      "selection_id": 100801,
+      "selection_desc": 25044008,
+      "type": 1,
+      "check": [
+        "luk"
+      ],
+      "args": {}
+    },
+    {
+      "event_id": 1008,
+      "selection_id": 100802,
+      "selection_desc": 25045008,
+      "type": 2,
+      "check": {},
+      "args": [
+        9016
+      ]
+    },
+    {
+      "event_id": 1008,
+      "selection_id": 100803,
+      "selection_desc": 25046008,
+      "type": 1,
+      "check": [
+        "tec"
+      ],
+      "args": {}
+    },
+    {
+      "event_id": 1008,
+      "selection_id": 100804,
+      "selection_desc": 25047008,
+      "type": 2,
+      "check": {},
+      "args": [
+        9010
+      ]
+    }
+  ],
+  [
+    {
+      "event_id": 1009,
+      "selection_id": 100901,
+      "selection_desc": 25044009,
+      "type": 1,
+      "check": [
+        "res"
+      ],
+      "args": {}
+    },
+    {
+      "event_id": 1009,
+      "selection_id": 100902,
+      "selection_desc": 25045009,
+      "type": 1,
+      "check": [
+        "res"
+      ],
+      "args": {}
+    },
+    {
+      "event_id": 1009,
+      "selection_id": 100903,
+      "selection_desc": 25046009,
+      "type": 2,
+      "check": {},
+      "args": [
+        9014
+      ]
+    },
+    {
+      "event_id": 1009,
+      "selection_id": 100904,
+      "selection_desc": 25047009,
+      "type": 2,
+      "check": {},
+      "args": [
+        9017
+      ]
+    },
+    {
+      "event_id": 1009,
+      "selection_id": 100905,
+      "selection_desc": 25048009,
+      "type": 2,
+      "check": {},
+      "args": [
+        9010
+      ]
+    }
+  ],
+  [
+    {
+      "event_id": 1010,
+      "selection_id": 101001,
+      "selection_desc": 25044010,
+      "type": 1,
+      "check": [
+        "ins"
+      ],
+      "args": {}
+    },
+    {
+      "event_id": 1010,
+      "selection_id": 101002,
+      "selection_desc": 25045010,
+      "type": 1,
+      "check": [
+        "int"
+      ],
+      "args": {}
+    },
+    {
+      "event_id": 1010,
+      "selection_id": 101003,
+      "selection_desc": 25046010,
+      "type": 2,
+      "check": {},
+      "args": [
+        9008
+      ]
+    },
+    {
+      "event_id": 1010,
+      "selection_id": 101004,
+      "selection_desc": 25047010,
+      "type": 2,
+      "check": {},
+      "args": [
+        9006
+      ]
+    }
+  ],
+  [
+    {
+      "event_id": 1011,
+      "selection_id": 101101,
+      "selection_desc": 25044011,
+      "type": 1,
+      "check": [
+        "res"
+      ],
+      "args": {}
+    },
+    {
+      "event_id": 1011,
+      "selection_id": 101102,
+      "selection_desc": 25045011,
+      "type": 3,
+      "check": [
+        "int"
+      ],
+      "args": [
+        9017
+      ]
+    },
+    {
+      "event_id": 1011,
+      "selection_id": 101103,
+      "selection_desc": 25046011,
+      "type": 2,
+      "check": {},
+      "args": [
+        9004
+      ]
+    },
+    {
+      "event_id": 1011,
+      "selection_id": 101104,
+      "selection_desc": 25047011,
+      "type": 2,
+      "check": {},
+      "args": [
+        9006
+      ]
+    }
+  ],
+  [
+    {
+      "event_id": 1012,
+      "selection_id": 101201,
+      "selection_desc": 25044012,
+      "type": 1,
+      "check": [
+        "int"
+      ],
+      "args": {}
+    },
+    {
+      "event_id": 1012,
+      "selection_id": 101202,
+      "selection_desc": 25045012,
+      "type": 1,
+      "check": [
+        "ins"
+      ],
+      "args": {}
+    },
+    {
+      "event_id": 1012,
+      "selection_id": 101203,
+      "selection_desc": 25046012,
+      "type": 1,
+      "check": [
+        "res"
+      ],
+      "args": {}
+    },
+    {
+      "event_id": 1012,
+      "selection_id": 101204,
+      "selection_desc": 25047012,
+      "type": 2,
+      "check": {},
+      "args": [
+        9004
+      ]
+    },
+    {
+      "event_id": 1012,
+      "selection_id": 101205,
+      "selection_desc": 25048012,
+      "type": 2,
+      "check": {},
+      "args": [
+        9016
+      ]
+    }
+  ],
+  [
+    {
+      "event_id": 1013,
+      "selection_id": 101301,
+      "selection_desc": 25044013,
+      "type": 1,
+      "check": [
+        "int"
+      ],
+      "args": {}
+    },
+    {
+      "event_id": 1013,
+      "selection_id": 101302,
+      "selection_desc": 25045013,
+      "type": 3,
+      "check": [
+        "int"
+      ],
+      "args": [
+        9013
+      ]
+    },
+    {
+      "event_id": 1013,
+      "selection_id": 101304,
+      "selection_desc": 25047013,
+      "type": 2,
+      "check": {},
+      "args": [
+        9012
+      ]
+    },
+    {
+      "event_id": 1013,
+      "selection_id": 101305,
+      "selection_desc": 25048013,
+      "type": 2,
+      "check": {},
+      "args": [
+        9001
+      ]
+    }
+  ],
+  [
+    {
+      "event_id": 1014,
+      "selection_id": 101401,
+      "selection_desc": 25044014,
+      "type": 1,
+      "check": [
+        "res"
+      ],
+      "args": {}
+    },
+    {
+      "event_id": 1014,
+      "selection_id": 101402,
+      "selection_desc": 25045014,
+      "type": 1,
+      "check": [
+        "ins"
+      ],
+      "args": {}
+    },
+    {
+      "event_id": 1014,
+      "selection_id": 101403,
+      "selection_desc": 25046014,
+      "type": 2,
+      "check": {},
+      "args": [
+        9014
+      ]
+    },
+    {
+      "event_id": 1014,
+      "selection_id": 101404,
+      "selection_desc": 25047014,
+      "type": 2,
+      "check": {},
+      "args": [
+        9008
+      ]
+    },
+    {
+      "event_id": 1014,
+      "selection_id": 101405,
+      "selection_desc": 25048014,
+      "type": 2,
+      "check": {},
+      "args": [
+        9006
+      ]
+    }
+  ],
+  [
+    {
+      "event_id": 1015,
+      "selection_id": 101501,
+      "selection_desc": 25044015,
+      "type": 1,
+      "check": [
+        "int"
+      ],
+      "args": {}
+    },
+    {
+      "event_id": 1015,
+      "selection_id": 101502,
+      "selection_desc": 25045015,
+      "type": 3,
+      "check": [
+        "ins"
+      ],
+      "args": [
+        9007
+      ]
+    },
+    {
+      "event_id": 1015,
+      "selection_id": 101503,
+      "selection_desc": 25046015,
+      "type": 1,
+      "check": [
+        "res"
+      ],
+      "args": {}
+    },
+    {
+      "event_id": 1015,
+      "selection_id": 101504,
+      "selection_desc": 25047015,
+      "type": 2,
+      "check": {},
+      "args": [
+        9005
+      ]
+    },
+    {
+      "event_id": 1015,
+      "selection_id": 101505,
+      "selection_desc": 25048015,
+      "type": 2,
+      "check": {},
+      "args": [
+        9018
+      ]
+    }
+  ],
+  [
+    {
+      "event_id": 1016,
+      "selection_id": 101601,
+      "selection_desc": 25044016,
+      "type": 1,
+      "check": [
+        "int"
+      ],
+      "args": {}
+    },
+    {
+      "event_id": 1016,
+      "selection_id": 101602,
+      "selection_desc": 25045016,
+      "type": 3,
+      "check": {},
+      "args": [
+        9012
+      ]
+    },
+    {
+      "event_id": 1016,
+      "selection_id": 101603,
+      "selection_desc": 25046016,
+      "type": 1,
+      "check": {},
+      "args": {}
+    },
+    {
+      "event_id": 1016,
+      "selection_id": 101604,
+      "selection_desc": 25047016,
+      "type": 2,
+      "check": {},
+      "args": [
+        9010
+      ]
+    },
+    {
+      "event_id": 1016,
+      "selection_id": 101605,
+      "selection_desc": 25048016,
+      "type": 2,
+      "check": {},
+      "args": [
+        9017
+      ]
+    }
+  ],
+  [
+    {
+      "event_id": 1017,
+      "selection_id": 101701,
+      "selection_desc": 25044017,
+      "type": 3,
+      "check": {},
+      "args": [
+        9016
+      ]
+    },
+    {
+      "event_id": 1017,
+      "selection_id": 101702,
+      "selection_desc": 25045017,
+      "type": 2,
+      "check": {},
+      "args": [
+        9015
+      ]
+    },
+    {
+      "event_id": 1017,
+      "selection_id": 101703,
+      "selection_desc": 25046017,
+      "type": 1,
+      "check": {},
+      "args": {}
+    },
+    {
+      "event_id": 1017,
+      "selection_id": 101704,
+      "selection_desc": 25047017,
+      "type": 2,
+      "check": {},
+      "args": [
+        9016
+      ]
+    },
+    {
+      "event_id": 1017,
+      "selection_id": 101705,
+      "selection_desc": 25048017,
+      "type": 2,
+      "check": {},
+      "args": [
+        9014
+      ]
+    }
+  ],
+  [
+    {
+      "event_id": 1018,
+      "selection_id": 101801,
+      "selection_desc": 25044018,
+      "type": 3,
+      "check": {},
+      "args": [
+        9014
+      ]
+    },
+    {
+      "event_id": 1018,
+      "selection_id": 101802,
+      "selection_desc": 25045018,
+      "type": 1,
+      "check": [
+        "int"
+      ],
+      "args": {}
+    },
+    {
+      "event_id": 1018,
+      "selection_id": 101803,
+      "selection_desc": 25046018,
+      "type": 2,
+      "check": {},
+      "args": [
+        9006
+      ]
+    },
+    {
+      "event_id": 1018,
+      "selection_id": 101804,
+      "selection_desc": 25047018,
+      "type": 2,
+      "check": {},
+      "args": [
+        9007
+      ]
+    }
+  ],
+  [
+    {
+      "event_id": 1019,
+      "selection_id": 101901,
+      "selection_desc": 25044019,
+      "type": 1,
+      "check": [
+        "int"
+      ],
+      "args": {}
+    },
+    {
+      "event_id": 1019,
+      "selection_id": 101902,
+      "selection_desc": 25045019,
+      "type": 2,
+      "check": {},
+      "args": [
+        9005
+      ]
+    },
+    {
+      "event_id": 1019,
+      "selection_id": 101903,
+      "selection_desc": 25046019,
+      "type": 1,
+      "check": [
+        "ins"
+      ],
+      "args": {}
+    },
+    {
+      "event_id": 1019,
+      "selection_id": 101904,
+      "selection_desc": 25047019,
+      "type": 2,
+      "check": {},
+      "args": [
+        9018
+      ]
+    },
+    {
+      "event_id": 1019,
+      "selection_id": 101905,
+      "selection_desc": 25048019,
+      "type": 2,
+      "check": {},
+      "args": [
+        9010
+      ]
+    }
+  ],
+  [
+    {
+      "event_id": 1020,
+      "selection_id": 102001,
+      "selection_desc": 25044020,
+      "type": 3,
+      "check": [
+        "ins"
+      ],
+      "args": [
+        9005
+      ]
+    },
+    {
+      "event_id": 1020,
+      "selection_id": 102002,
+      "selection_desc": 25045020,
+      "type": 2,
+      "check": {},
+      "args": [
+        9001
+      ]
+    },
+    {
+      "event_id": 1020,
+      "selection_id": 102003,
+      "selection_desc": 25046020,
+      "type": 1,
+      "check": [
+        "res"
+      ],
+      "args": {}
+    },
+    {
+      "event_id": 1020,
+      "selection_id": 102004,
+      "selection_desc": 25047020,
+      "type": 2,
+      "check": {},
+      "args": [
+        9011
+      ]
+    },
+    {
+      "event_id": 1020,
+      "selection_id": 102005,
+      "selection_desc": 25048020,
+      "type": 2,
+      "check": {},
+      "args": [
+        9007
+      ]
+    }
+  ],
+  [
+    {
+      "event_id": 1021,
+      "selection_id": 102101,
+      "selection_desc": 25044021,
+      "type": 3,
+      "check": {},
+      "args": [
+        9005
+      ]
+    },
+    {
+      "event_id": 1021,
+      "selection_id": 102102,
+      "selection_desc": 25045021,
+      "type": 2,
+      "check": {},
+      "args": [
+        9019
+      ]
+    },
+    {
+      "event_id": 1021,
+      "selection_id": 102103,
+      "selection_desc": 25046021,
+      "type": 1,
+      "check": [
+        "ins"
+      ],
+      "args": {}
+    },
+    {
+      "event_id": 1021,
+      "selection_id": 102104,
+      "selection_desc": 25047021,
+      "type": 2,
+      "check": {},
+      "args": [
+        9012
+      ]
+    }
+  ],
+  [
+    {
+      "event_id": 1022,
+      "selection_id": 102201,
+      "selection_desc": 25044022,
+      "type": 1,
+      "check": [
+        "ins"
+      ],
+      "args": {}
+    },
+    {
+      "event_id": 1022,
+      "selection_id": 102202,
+      "selection_desc": 25045022,
+      "type": 1,
+      "check": [
+        "res"
+      ],
+      "args": {}
+    },
+    {
+      "event_id": 1022,
+      "selection_id": 102203,
+      "selection_desc": 25046022,
+      "type": 2,
+      "check": {},
+      "args": [
+        9001
+      ]
+    },
+    {
+      "event_id": 1022,
+      "selection_id": 102204,
+      "selection_desc": 25047022,
+      "type": 2,
+      "check": {},
+      "args": [
+        9017
+      ]
+    }
+  ],
+  [
+    {
+      "event_id": 1023,
+      "selection_id": 102301,
+      "selection_desc": 25044023,
+      "type": 3,
+      "check": {},
+      "args": [
+        9012
+      ]
+    },
+    {
+      "event_id": 1023,
+      "selection_id": 102302,
+      "selection_desc": 25045023,
+      "type": 3,
+      "check": [
+        "ins"
+      ],
+      "args": [
+        9008
+      ]
+    },
+    {
+      "event_id": 1023,
+      "selection_id": 102303,
+      "selection_desc": 25046023,
+      "type": 1,
+      "check": {},
+      "args": {}
+    },
+    {
+      "event_id": 1023,
+      "selection_id": 102304,
+      "selection_desc": 25047023,
+      "type": 2,
+      "check": {},
+      "args": [
+        9003
+      ]
+    },
+    {
+      "event_id": 1023,
+      "selection_id": 102305,
+      "selection_desc": 25048023,
+      "type": 2,
+      "check": {},
+      "args": [
+        9010
+      ]
+    }
+  ],
+  [
+    {
+      "event_id": 1024,
+      "selection_id": 102401,
+      "selection_desc": 25044024,
+      "type": 1,
+      "check": [
+        "ins"
+      ],
+      "args": {}
+    },
+    {
+      "event_id": 1024,
+      "selection_id": 102402,
+      "selection_desc": 25045024,
+      "type": 2,
+      "check": {},
+      "args": [
+        9013
+      ]
+    },
+    {
+      "event_id": 1024,
+      "selection_id": 102403,
+      "selection_desc": 25046024,
+      "type": 1,
+      "check": [
+        "luk"
+      ],
+      "args": {}
+    },
+    {
+      "event_id": 1024,
+      "selection_id": 102404,
+      "selection_desc": 25047024,
+      "type": 2,
+      "check": {},
+      "args": [
+        9012
+      ]
+    },
+    {
+      "event_id": 1024,
+      "selection_id": 102405,
+      "selection_desc": 25048024,
+      "type": 2,
+      "check": {},
+      "args": [
+        9007
+      ]
+    }
+  ],
+  [
+    {
+      "event_id": 1025,
+      "selection_id": 102501,
+      "selection_desc": 25044025,
+      "type": 1,
+      "check": [
+        "ins"
+      ],
+      "args": {}
+    },
+    {
+      "event_id": 1025,
+      "selection_id": 102502,
+      "selection_desc": 25045025,
+      "type": 3,
+      "check": [
+        "res"
+      ],
+      "args": [
+        9010
+      ]
+    },
+    {
+      "event_id": 1025,
+      "selection_id": 102503,
+      "selection_desc": 25046025,
+      "type": 3,
+      "check": [
+        "luk"
+      ],
+      "args": [
+        9001
+      ]
+    },
+    {
+      "event_id": 1025,
+      "selection_id": 102504,
+      "selection_desc": 25047025,
+      "type": 2,
+      "check": {},
+      "args": [
+        9003
+      ]
+    },
+    {
+      "event_id": 1025,
+      "selection_id": 102505,
+      "selection_desc": 25048025,
+      "type": 2,
+      "check": {},
+      "args": [
+        9015
+      ]
+    }
+  ],
+  [
+    {
+      "event_id": 1026,
+      "selection_id": 102601,
+      "selection_desc": 25044026,
+      "type": 1,
+      "check": [
+        "luk"
+      ],
+      "args": {}
+    },
+    {
+      "event_id": 1026,
+      "selection_id": 102602,
+      "selection_desc": 25045026,
+      "type": 3,
+      "check": [
+        "ins"
+      ],
+      "args": [
+        9004
+      ]
+    },
+    {
+      "event_id": 1026,
+      "selection_id": 102603,
+      "selection_desc": 25046026,
+      "type": 2,
+      "check": {},
+      "args": [
+        9009
+      ]
+    },
+    {
+      "event_id": 1026,
+      "selection_id": 102604,
+      "selection_desc": 25047026,
+      "type": 2,
+      "check": {},
+      "args": [
+        9019
+      ]
+    }
+  ],
+  [
+    {
+      "event_id": 1027,
+      "selection_id": 102701,
+      "selection_desc": 25044027,
+      "type": 3,
+      "check": [
+        "luk"
+      ],
+      "args": [
+        9001
+      ]
+    },
+    {
+      "event_id": 1027,
+      "selection_id": 102702,
+      "selection_desc": 25045027,
+      "type": 3,
+      "check": [
+        "int"
+      ],
+      "args": [
+        9009
+      ]
+    },
+    {
+      "event_id": 1027,
+      "selection_id": 102703,
+      "selection_desc": 25046027,
+      "type": 1,
+      "check": [
+        "tec"
+      ],
+      "args": {}
+    },
+    {
+      "event_id": 1027,
+      "selection_id": 102704,
+      "selection_desc": 25047027,
+      "type": 2,
+      "check": {},
+      "args": [
+        9002
+      ]
+    }
+  ],
+  [
+    {
+      "event_id": 1028,
+      "selection_id": 102801,
+      "selection_desc": 25044028,
+      "type": 1,
+      "check": [
+        "luk"
+      ],
+      "args": {}
+    },
+    {
+      "event_id": 1028,
+      "selection_id": 102802,
+      "selection_desc": 25045028,
+      "type": 3,
+      "check": [
+        "tec"
+      ],
+      "args": [
+        9003
+      ]
+    },
+    {
+      "event_id": 1028,
+      "selection_id": 102804,
+      "selection_desc": 25047028,
+      "type": 2,
+      "check": {},
+      "args": [
+        9020
+      ]
+    }
+  ],
+  [
+    {
+      "event_id": 1029,
+      "selection_id": 102901,
+      "selection_desc": 25044029,
+      "type": 1,
+      "check": [
+        "luk"
+      ],
+      "args": {}
+    },
+    {
+      "event_id": 1029,
+      "selection_id": 102902,
+      "selection_desc": 25045029,
+      "type": 3,
+      "check": [
+        "tec"
+      ],
+      "args": [
+        9010
+      ]
+    },
+    {
+      "event_id": 1029,
+      "selection_id": 102904,
+      "selection_desc": 25047029,
+      "type": 2,
+      "check": {},
+      "args": [
+        9020
+      ]
+    },
+    {
+      "event_id": 1029,
+      "selection_id": 102905,
+      "selection_desc": 25048029,
+      "type": 2,
+      "check": {},
+      "args": [
+        9011
+      ]
+    }
+  ],
+  [
+    {
+      "event_id": 1030,
+      "selection_id": 103001,
+      "selection_desc": 25044030,
+      "type": 1,
+      "check": [
+        "ins"
+      ],
+      "args": {}
+    },
+    {
+      "event_id": 1030,
+      "selection_id": 103002,
+      "selection_desc": 25045030,
+      "type": 1,
+      "check": {},
+      "args": {}
+    },
+    {
+      "event_id": 1030,
+      "selection_id": 103003,
+      "selection_desc": 25046030,
+      "type": 2,
+      "check": {},
+      "args": [
+        9005
+      ]
+    },
+    {
+      "event_id": 1030,
+      "selection_id": 103004,
+      "selection_desc": 25047030,
+      "type": 2,
+      "check": {},
+      "args": [
+        9007
+      ]
+    },
+    {
+      "event_id": 1030,
+      "selection_id": 103005,
+      "selection_desc": 25048030,
+      "type": 2,
+      "check": {},
+      "args": [
+        9016
+      ]
+    }
+  ],
+  [
+    {
+      "event_id": 1031,
+      "selection_id": 103101,
+      "selection_desc": 25044031,
+      "type": 3,
+      "check": [
+        "res"
+      ],
+      "args": [
+        9008
+      ]
+    },
+    {
+      "event_id": 1031,
+      "selection_id": 103102,
+      "selection_desc": 25045031,
+      "type": 1,
+      "check": [
+        "int"
+      ],
+      "args": {}
+    },
+    {
+      "event_id": 1031,
+      "selection_id": 103103,
+      "selection_desc": 25046031,
+      "type": 2,
+      "check": {},
+      "args": [
+        9016
+      ]
+    },
+    {
+      "event_id": 1031,
+      "selection_id": 103104,
+      "selection_desc": 25047031,
+      "type": 2,
+      "check": {},
+      "args": [
+        9014
+      ]
+    },
+    {
+      "event_id": 1031,
+      "selection_id": 103105,
+      "selection_desc": 25048031,
+      "type": 2,
+      "check": {},
+      "args": [
+        9007
+      ]
+    }
+  ],
+  [
+    {
+      "event_id": 1032,
+      "selection_id": 103201,
+      "selection_desc": 25044032,
+      "type": 1,
+      "check": [
+        "res"
+      ],
+      "args": {}
+    },
+    {
+      "event_id": 1032,
+      "selection_id": 103202,
+      "selection_desc": 25045032,
+      "type": 1,
+      "check": [
+        "tec"
+      ],
+      "args": {}
+    },
+    {
+      "event_id": 1032,
+      "selection_id": 103203,
+      "selection_desc": 25046032,
+      "type": 2,
+      "check": {},
+      "args": [
+        9013
+      ]
+    },
+    {
+      "event_id": 1032,
+      "selection_id": 103204,
+      "selection_desc": 25047032,
+      "type": 2,
+      "check": {},
+      "args": [
+        9010
+      ]
+    },
+    {
+      "event_id": 1032,
+      "selection_id": 103205,
+      "selection_desc": 25048032,
+      "type": 2,
+      "check": {},
+      "args": [
+        9004
+      ]
+    }
+  ],
+  [
+    {
+      "event_id": 1033,
+      "selection_id": 103301,
+      "selection_desc": 25044033,
+      "type": 1,
+      "check": [
+        "tec"
+      ],
+      "args": {}
+    },
+    {
+      "event_id": 1033,
+      "selection_id": 103302,
+      "selection_desc": 25045033,
+      "type": 2,
+      "check": {},
+      "args": [
+        9012
+      ]
+    },
+    {
+      "event_id": 1033,
+      "selection_id": 103303,
+      "selection_desc": 25046033,
+      "type": 1,
+      "check": {},
+      "args": {}
+    },
+    {
+      "event_id": 1033,
+      "selection_id": 103304,
+      "selection_desc": 25047033,
+      "type": 2,
+      "check": {},
+      "args": [
+        9013
+      ]
+    },
+    {
+      "event_id": 1033,
+      "selection_id": 103305,
+      "selection_desc": 25048033,
+      "type": 2,
+      "check": {},
+      "args": [
+        9002
+      ]
+    }
+  ],
+  [
+    {
+      "event_id": 1034,
+      "selection_id": 103401,
+      "selection_desc": 25044034,
+      "type": 1,
+      "check": [
+        "tec"
+      ],
+      "args": {}
+    },
+    {
+      "event_id": 1034,
+      "selection_id": 103402,
+      "selection_desc": 25045034,
+      "type": 1,
+      "check": {},
+      "args": {}
+    },
+    {
+      "event_id": 1034,
+      "selection_id": 103404,
+      "selection_desc": 25047034,
+      "type": 2,
+      "check": {},
+      "args": [
+        9019
+      ]
+    },
+    {
+      "event_id": 1034,
+      "selection_id": 103405,
+      "selection_desc": 25048034,
+      "type": 2,
+      "check": {},
+      "args": [
+        9004
+      ]
+    }
+  ],
+  [
+    {
+      "event_id": 1035,
+      "selection_id": 103501,
+      "selection_desc": 25044035,
+      "type": 1,
+      "check": {},
+      "args": {}
+    },
+    {
+      "event_id": 1035,
+      "selection_id": 103502,
+      "selection_desc": 25045035,
+      "type": 2,
+      "check": {},
+      "args": [
+        9013
+      ]
+    },
+    {
+      "event_id": 1035,
+      "selection_id": 103503,
+      "selection_desc": 25046035,
+      "type": 1,
+      "check": [
+        "tec"
+      ],
+      "args": {}
+    },
+    {
+      "event_id": 1035,
+      "selection_id": 103504,
+      "selection_desc": 25047035,
+      "type": 2,
+      "check": {},
+      "args": [
+        9004
+      ]
+    }
+  ],
+  [
+    {
+      "event_id": 1036,
+      "selection_id": 103601,
+      "selection_desc": 25044036,
+      "type": 1,
+      "check": {},
+      "args": {}
+    },
+    {
+      "event_id": 1036,
+      "selection_id": 103602,
+      "selection_desc": 25045036,
+      "type": 1,
+      "check": [
+        "res"
+      ],
+      "args": {}
+    },
+    {
+      "event_id": 1036,
+      "selection_id": 103603,
+      "selection_desc": 25046036,
+      "type": 3,
+      "check": {},
+      "args": [
+        9017
+      ]
+    },
+    {
+      "event_id": 1036,
+      "selection_id": 103604,
+      "selection_desc": 25047036,
+      "type": 2,
+      "check": {},
+      "args": [
+        9002
+      ]
+    }
+  ],
+  [
+    {
+      "event_id": 1037,
+      "selection_id": 103701,
+      "selection_desc": 25044037,
+      "type": 1,
+      "check": [
+        "res"
+      ],
+      "args": {}
+    },
+    {
+      "event_id": 1037,
+      "selection_id": 103702,
+      "selection_desc": 25045037,
+      "type": 2,
+      "check": {},
+      "args": [
+        9014
+      ]
+    },
+    {
+      "event_id": 1037,
+      "selection_id": 103703,
+      "selection_desc": 25046037,
+      "type": 1,
+      "check": [
+        "luk"
+      ],
+      "args": {}
+    },
+    {
+      "event_id": 1037,
+      "selection_id": 103704,
+      "selection_desc": 25047037,
+      "type": 2,
+      "check": {},
+      "args": [
+        9002
+      ]
+    },
+    {
+      "event_id": 1037,
+      "selection_id": 103705,
+      "selection_desc": 25048037,
+      "type": 2,
+      "check": {},
+      "args": [
+        9001
+      ]
+    }
+  ],
+  [
+    {
+      "event_id": 1038,
+      "selection_id": 103801,
+      "selection_desc": 25044038,
+      "type": 1,
+      "check": [
+        "luk"
+      ],
+      "args": {}
+    },
+    {
+      "event_id": 1038,
+      "selection_id": 103802,
+      "selection_desc": 25045038,
+      "type": 1,
+      "check": [
+        "int"
+      ],
+      "args": {}
+    },
+    {
+      "event_id": 1038,
+      "selection_id": 103803,
+      "selection_desc": 25046038,
+      "type": 2,
+      "check": [
+        "ins"
+      ],
+      "args": [
+        9019
+      ]
+    },
+    {
+      "event_id": 1038,
+      "selection_id": 103804,
+      "selection_desc": 25047038,
+      "type": 2,
+      "check": {},
+      "args": [
+        9003
+      ]
+    }
+  ],
+  [
+    {
+      "event_id": 1039,
+      "selection_id": 103901,
+      "selection_desc": 25044039,
+      "type": 1,
+      "check": [
+        "int"
+      ],
+      "args": {}
+    },
+    {
+      "event_id": 1039,
+      "selection_id": 103902,
+      "selection_desc": 25045039,
+      "type": 2,
+      "check": {},
+      "args": [
+        9013
+      ]
+    },
+    {
+      "event_id": 1039,
+      "selection_id": 103903,
+      "selection_desc": 25046039,
+      "type": 1,
+      "check": [
+        "ins"
+      ],
+      "args": {}
+    },
+    {
+      "event_id": 1039,
+      "selection_id": 103904,
+      "selection_desc": 25047039,
+      "type": 2,
+      "check": {},
+      "args": [
+        9017
+      ]
+    },
+    {
+      "event_id": 1039,
+      "selection_id": 103905,
+      "selection_desc": 25048039,
+      "type": 2,
+      "check": {},
+      "args": [
+        9008
+      ]
+    }
+  ],
+  [
+    {
+      "event_id": 1040,
+      "selection_id": 104001,
+      "selection_desc": 25044040,
+      "type": 1,
+      "check": {},
+      "args": {}
+    },
+    {
+      "event_id": 1040,
+      "selection_id": 104002,
+      "selection_desc": 25045040,
+      "type": 1,
+      "check": [
+        "ins"
+      ],
+      "args": {}
+    },
+    {
+      "event_id": 1040,
+      "selection_id": 104003,
+      "selection_desc": 25046040,
+      "type": 2,
+      "check": {},
+      "args": [
+        9005
+      ]
+    },
+    {
+      "event_id": 1040,
+      "selection_id": 104004,
+      "selection_desc": 25047040,
+      "type": 2,
+      "check": {},
+      "args": [
+        9017
+      ]
+    },
+    {
+      "event_id": 1040,
+      "selection_id": 104005,
+      "selection_desc": 25048040,
+      "type": 2,
+      "check": {},
+      "args": [
+        9009
+      ]
+    }
+  ],
+  [
+    {
+      "event_id": 1041,
+      "selection_id": 104101,
+      "selection_desc": 25044041,
+      "type": 1,
+      "check": {},
+      "args": {}
+    },
+    {
+      "event_id": 1041,
+      "selection_id": 104102,
+      "selection_desc": 25045041,
+      "type": 1,
+      "check": {},
+      "args": {}
+    },
+    {
+      "event_id": 1041,
+      "selection_id": 104103,
+      "selection_desc": 25046041,
+      "type": 2,
+      "check": {},
+      "args": [
+        9006
+      ]
+    },
+    {
+      "event_id": 1041,
+      "selection_id": 104104,
+      "selection_desc": 25047041,
+      "type": 2,
+      "check": {},
+      "args": [
+        9007
+      ]
+    },
+    {
+      "event_id": 1041,
+      "selection_id": 104105,
+      "selection_desc": 25048041,
+      "type": 2,
+      "check": {},
+      "args": [
+        9009
+      ]
+    }
+  ],
+  [
+    {
+      "event_id": 1042,
+      "selection_id": 104201,
+      "selection_desc": 25044042,
+      "type": 1,
+      "check": [
+        "int"
+      ],
+      "args": {}
+    },
+    {
+      "event_id": 1042,
+      "selection_id": 104202,
+      "selection_desc": 25045042,
+      "type": 1,
+      "check": [
+        "ins"
+      ],
+      "args": {}
+    },
+    {
+      "event_id": 1042,
+      "selection_id": 104203,
+      "selection_desc": 25046042,
+      "type": 3,
+      "check": [
+        "luk"
+      ],
+      "args": [
+        9009
+      ]
+    },
+    {
+      "event_id": 1042,
+      "selection_id": 104204,
+      "selection_desc": 25047042,
+      "type": 2,
+      "check": {},
+      "args": [
+        9001
+      ]
+    },
+    {
+      "event_id": 1042,
+      "selection_id": 104205,
+      "selection_desc": 25048042,
+      "type": 2,
+      "check": {},
+      "args": [
+        9010
+      ]
+    }
+  ],
+  [
+    {
+      "event_id": 1043,
+      "selection_id": 104301,
+      "selection_desc": 25044043,
+      "type": 1,
+      "check": [
+        "luk"
+      ],
+      "args": {}
+    },
+    {
+      "event_id": 1043,
+      "selection_id": 104302,
+      "selection_desc": 25045043,
+      "type": 1,
+      "check": [
+        "ins"
+      ],
+      "args": {}
+    },
+    {
+      "event_id": 1043,
+      "selection_id": 104303,
+      "selection_desc": 25046043,
+      "type": 2,
+      "check": {},
+      "args": [
+        9009
+      ]
+    },
+    {
+      "event_id": 1043,
+      "selection_id": 104304,
+      "selection_desc": 25047043,
+      "type": 2,
+      "check": {},
+      "args": [
+        9019
+      ]
+    },
+    {
+      "event_id": 1043,
+      "selection_id": 104305,
+      "selection_desc": 25048043,
+      "type": 2,
+      "check": {},
+      "args": [
+        9004
+      ]
+    }
+  ],
+  [
+    {
+      "event_id": 1044,
+      "selection_id": 104401,
+      "selection_desc": 25044044,
+      "type": 3,
+      "check": [
+        "int"
+      ],
+      "args": [
+        9002
+      ]
+    },
+    {
+      "event_id": 1044,
+      "selection_id": 104402,
+      "selection_desc": 25045044,
+      "type": 1,
+      "check": [
+        "ins"
+      ],
+      "args": {}
+    },
+    {
+      "event_id": 1044,
+      "selection_id": 104404,
+      "selection_desc": 25047044,
+      "type": 2,
+      "check": {},
+      "args": [
+        9020
+      ]
+    }
+  ],
+  [
+    {
+      "event_id": 1045,
+      "selection_id": 104501,
+      "selection_desc": 25044045,
+      "type": 2,
+      "check": {},
+      "args": [
+        9017
+      ]
+    },
+    {
+      "event_id": 1045,
+      "selection_id": 104502,
+      "selection_desc": 25045045,
+      "type": 1,
+      "check": {},
+      "args": {}
+    },
+    {
+      "event_id": 1045,
+      "selection_id": 104503,
+      "selection_desc": 25046045,
+      "type": 1,
+      "check": {},
+      "args": {}
+    },
+    {
+      "event_id": 1045,
+      "selection_id": 104504,
+      "selection_desc": 25047045,
+      "type": 2,
+      "check": {},
+      "args": [
+        9004
+      ]
+    }
+  ],
+  [
+    {
+      "event_id": 1046,
+      "selection_id": 104601,
+      "selection_desc": 25044046,
+      "type": 1,
+      "check": {},
+      "args": {}
+    },
+    {
+      "event_id": 1046,
+      "selection_id": 104602,
+      "selection_desc": 25045046,
+      "type": 1,
+      "check": {},
+      "args": {}
+    },
+    {
+      "event_id": 1046,
+      "selection_id": 104603,
+      "selection_desc": 25046046,
+      "type": 2,
+      "check": {},
+      "args": [
+        9014
+      ]
+    },
+    {
+      "event_id": 1046,
+      "selection_id": 104604,
+      "selection_desc": 25047046,
+      "type": 2,
+      "check": {},
+      "args": [
+        9011
+      ]
+    }
+  ],
+  [
+    {
+      "event_id": 1047,
+      "selection_id": 104701,
+      "selection_desc": 25044047,
+      "type": 1,
+      "check": {},
+      "args": {}
+    },
+    {
+      "event_id": 1047,
+      "selection_id": 104702,
+      "selection_desc": 25045047,
+      "type": 1,
+      "check": {},
+      "args": {}
+    },
+    {
+      "event_id": 1047,
+      "selection_id": 104703,
+      "selection_desc": 25046047,
+      "type": 2,
+      "check": {},
+      "args": [
+        9016
+      ]
+    }
+  ],
+  [
+    {
+      "event_id": 1048,
+      "selection_id": 104801,
+      "selection_desc": 25044048,
+      "type": 1,
+      "check": {},
+      "args": {}
+    },
+    {
+      "event_id": 1048,
+      "selection_id": 104802,
+      "selection_desc": 25045048,
+      "type": 1,
+      "check": {},
+      "args": {}
+    },
+    {
+      "event_id": 1048,
+      "selection_id": 104804,
+      "selection_desc": 25047048,
+      "type": 2,
+      "check": {},
+      "args": [
+        9012
+      ]
+    }
+  ],
+  [
+    {
+      "event_id": 1049,
+      "selection_id": 104901,
+      "selection_desc": 25044049,
+      "type": 1,
+      "check": {},
+      "args": {}
+    },
+    {
+      "event_id": 1049,
+      "selection_id": 104902,
+      "selection_desc": 25045049,
+      "type": 1,
+      "check": {},
+      "args": {}
+    },
+    {
+      "event_id": 1049,
+      "selection_id": 104904,
+      "selection_desc": 25047049,
+      "type": 2,
+      "check": {},
+      "args": [
+        9007
+      ]
+    }
+  ],
+  [
+    {
+      "event_id": 1050,
+      "selection_id": 105001,
+      "selection_desc": 25044050,
+      "type": 1,
+      "check": {},
+      "args": {}
+    },
+    {
+      "event_id": 1050,
+      "selection_id": 105003,
+      "selection_desc": 25046050,
+      "type": 1,
+      "check": [
+        "ins"
+      ],
+      "args": {}
+    },
+    {
+      "event_id": 1050,
+      "selection_id": 105004,
+      "selection_desc": 25047050,
+      "type": 3,
+      "check": {},
+      "args": [
+        9020
+      ]
+    },
+    {
+      "event_id": 1050,
+      "selection_id": 105005,
+      "selection_desc": 25048050,
+      "type": 2,
+      "check": {},
+      "args": [
+        9010
+      ]
+    }
+  ],
+  [
+    {
+      "event_id": 1051,
+      "selection_id": 105101,
+      "selection_desc": 25044051,
+      "type": 2,
+      "check": {},
+      "args": [
+        9014
+      ]
+    },
+    {
+      "event_id": 1051,
+      "selection_id": 105102,
+      "selection_desc": 25045051,
+      "type": 1,
+      "check": [
+        "int"
+      ],
+      "args": {}
+    },
+    {
+      "event_id": 1051,
+      "selection_id": 105103,
+      "selection_desc": 25046051,
+      "type": 3,
+      "check": [
+        "res"
+      ],
+      "args": [
+        9011
+      ]
+    },
+    {
+      "event_id": 1051,
+      "selection_id": 105104,
+      "selection_desc": 25047051,
+      "type": 2,
+      "check": {},
+      "args": [
+        9003
+      ]
+    }
+  ],
+  [
+    {
+      "event_id": 1052,
+      "selection_id": 105201,
+      "selection_desc": 25044052,
+      "type": 3,
+      "check": [
+        "ins"
+      ],
+      "args": [
+        9006
+      ]
+    },
+    {
+      "event_id": 1052,
+      "selection_id": 105202,
+      "selection_desc": 25045052,
+      "type": 1,
+      "check": [
+        "tec"
+      ],
+      "args": {}
+    },
+    {
+      "event_id": 1052,
+      "selection_id": 105203,
+      "selection_desc": 25046052,
+      "type": 2,
+      "check": {},
+      "args": [
+        9017
+      ]
+    }
+  ],
+  [
+    {
+      "event_id": 1053,
+      "selection_id": 105301,
+      "selection_desc": 25044053,
+      "type": 1,
+      "check": [
+        "ins"
+      ],
+      "args": {}
+    },
+    {
+      "event_id": 1053,
+      "selection_id": 105302,
+      "selection_desc": 25045053,
+      "type": 1,
+      "check": [
+        "ins"
+      ],
+      "args": {}
+    },
+    {
+      "event_id": 1053,
+      "selection_id": 105304,
+      "selection_desc": 25047053,
+      "type": 2,
+      "check": [
+        "ins"
+      ],
+      "args": [
+        9011
+      ]
+    }
+  ],
+  [
+    {
+      "event_id": 1054,
+      "selection_id": 105401,
+      "selection_desc": 25044054,
+      "type": 1,
+      "check": [
+        "luk"
+      ],
+      "args": {}
+    },
+    {
+      "event_id": 1054,
+      "selection_id": 105402,
+      "selection_desc": 25045054,
+      "type": 1,
+      "check": [
+        "res"
+      ],
+      "args": {}
+    },
+    {
+      "event_id": 1054,
+      "selection_id": 105403,
+      "selection_desc": 25046054,
+      "type": 3,
+      "check": [
+        "ins"
+      ],
+      "args": [
+        9015
+      ]
+    }
+  ],
+  [
+    {
+      "event_id": 1055,
+      "selection_id": 105501,
+      "selection_desc": 25044055,
+      "type": 1,
+      "check": [
+        "luk"
+      ],
+      "args": {}
+    },
+    {
+      "event_id": 1055,
+      "selection_id": 105502,
+      "selection_desc": 25045055,
+      "type": 1,
+      "check": [
+        "tec"
+      ],
+      "args": {}
+    },
+    {
+      "event_id": 1055,
+      "selection_id": 105504,
+      "selection_desc": 25047055,
+      "type": 2,
+      "check": {},
+      "args": [
+        9008
+      ]
+    }
+  ],
+  [
+    {
+      "event_id": 1056,
+      "selection_id": 105601,
+      "selection_desc": 25044056,
+      "type": 3,
+      "check": [
+        "int"
+      ],
+      "args": [
+        9019
+      ]
+    },
+    {
+      "event_id": 1056,
+      "selection_id": 105602,
+      "selection_desc": 25045056,
+      "type": 1,
+      "check": [
+        "ins"
+      ],
+      "args": {}
+    },
+    {
+      "event_id": 1056,
+      "selection_id": 105604,
+      "selection_desc": 25047056,
+      "type": 2,
+      "check": {},
+      "args": [
+        9018
+      ]
+    }
+  ],
+  [
+    {
+      "event_id": 1057,
+      "selection_id": 105701,
+      "selection_desc": 25044057,
+      "type": 1,
+      "check": [
+        "int"
+      ],
+      "args": {}
+    },
+    {
+      "event_id": 1057,
+      "selection_id": 105702,
+      "selection_desc": 25045057,
+      "type": 1,
+      "check": {},
+      "args": {}
+    },
+    {
+      "event_id": 1057,
+      "selection_id": 105704,
+      "selection_desc": 25047057,
+      "type": 2,
+      "check": {},
+      "args": [
+        9002
+      ]
+    }
+  ],
+  [
+    {
+      "event_id": 1058,
+      "selection_id": 105801,
+      "selection_desc": 25044058,
+      "type": 1,
+      "check": [
+        "tec"
+      ],
+      "args": {}
+    },
+    {
+      "event_id": 1058,
+      "selection_id": 105802,
+      "selection_desc": 25045058,
+      "type": 1,
+      "check": {},
+      "args": {}
+    },
+    {
+      "event_id": 1058,
+      "selection_id": 105804,
+      "selection_desc": 25047058,
+      "type": 2,
+      "check": [
+        "res"
+      ],
+      "args": [
+        9011
+      ]
+    }
+  ],
+  [
+    {
+      "event_id": 1059,
+      "selection_id": 105901,
+      "selection_desc": 25044059,
+      "type": 1,
+      "check": {},
+      "args": {}
+    },
+    {
+      "event_id": 1059,
+      "selection_id": 105902,
+      "selection_desc": 25045059,
+      "type": 1,
+      "check": {},
+      "args": {}
+    },
+    {
+      "event_id": 1059,
+      "selection_id": 105903,
+      "selection_desc": 25046059,
+      "type": 3,
+      "check": [
+        "int"
+      ],
+      "args": [
+        9017
+      ]
+    },
+    {
+      "event_id": 1059,
+      "selection_id": 105904,
+      "selection_desc": 25047059,
+      "type": 2,
+      "check": {},
+      "args": [
+        9002
+      ]
+    }
+  ],
+  [
+    {
+      "event_id": 1060,
+      "selection_id": 106001,
+      "selection_desc": 25044060,
+      "type": 1,
+      "check": [
+        "tec"
+      ],
+      "args": {}
+    },
+    {
+      "event_id": 1060,
+      "selection_id": 106002,
+      "selection_desc": 25045060,
+      "type": 1,
+      "check": [
+        "res"
+      ],
+      "args": {}
+    }
+  ],
+  [
+    {
+      "event_id": 1061,
+      "selection_id": 106101,
+      "selection_desc": 25044061,
+      "type": 1,
+      "check": [
+        "res"
+      ],
+      "args": {}
+    },
+    {
+      "event_id": 1061,
+      "selection_id": 106102,
+      "selection_desc": 25045061,
+      "type": 2,
+      "check": {},
+      "args": [
+        9006
+      ]
+    },
+    {
+      "event_id": 1061,
+      "selection_id": 106103,
+      "selection_desc": 25046061,
+      "type": 3,
+      "check": [
+        "int"
+      ],
+      "args": [
+        9018
+      ]
+    },
+    {
+      "event_id": 1061,
+      "selection_id": 106104,
+      "selection_desc": 25047061,
+      "type": 2,
+      "check": {},
+      "args": [
+        9004
+      ]
+    }
+  ],
+  [
+    {
+      "event_id": 1062,
+      "selection_id": 106201,
+      "selection_desc": 25044062,
+      "type": 1,
+      "check": [
+        "ins"
+      ],
+      "args": {}
+    },
+    {
+      "event_id": 1062,
+      "selection_id": 106202,
+      "selection_desc": 25045062,
+      "type": 1,
+      "check": [
+        "luk"
+      ],
+      "args": {}
+    },
+    {
+      "event_id": 1062,
+      "selection_id": 106203,
+      "selection_desc": 25046062,
+      "type": 2,
+      "check": [
+        "tec"
+      ],
+      "args": [
+        9013
+      ]
+    }
+  ],
+  [
+    {
+      "event_id": 1063,
+      "selection_id": 106301,
+      "selection_desc": 25044063,
+      "type": 1,
+      "check": [
+        "luk"
+      ],
+      "args": {}
+    },
+    {
+      "event_id": 1063,
+      "selection_id": 106302,
+      "selection_desc": 25045063,
+      "type": 1,
+      "check": [
+        "res"
+      ],
+      "args": {}
+    },
+    {
+      "event_id": 1063,
+      "selection_id": 106304,
+      "selection_desc": 25047063,
+      "type": 2,
+      "check": {},
+      "args": [
+        9001
+      ]
+    }
+  ],
+  [
+    {
+      "event_id": 1064,
+      "selection_id": 106401,
+      "selection_desc": 25044064,
+      "type": 1,
+      "check": [
+        "luk"
+      ],
+      "args": {}
+    },
+    {
+      "event_id": 1064,
+      "selection_id": 106402,
+      "selection_desc": 25045064,
+      "type": 1,
+      "check": [
+        "luk"
+      ],
+      "args": {}
+    },
+    {
+      "event_id": 1064,
+      "selection_id": 106404,
+      "selection_desc": 25047064,
+      "type": 2,
+      "check": {},
+      "args": [
+        9016
+      ]
+    }
+  ],
+  [
+    {
+      "event_id": 1065,
+      "selection_id": 106501,
+      "selection_desc": 25044065,
+      "type": 1,
+      "check": [
+        "res"
+      ],
+      "args": {}
+    },
+    {
+      "event_id": 1065,
+      "selection_id": 106502,
+      "selection_desc": 25045065,
+      "type": 1,
+      "check": [
+        "int"
+      ],
+      "args": {}
+    },
+    {
+      "event_id": 1065,
+      "selection_id": 106504,
+      "selection_desc": 25047065,
+      "type": 2,
+      "check": {},
+      "args": [
+        9004
+      ]
+    }
+  ],
+  [
+    {
+      "event_id": 1066,
+      "selection_id": 106601,
+      "selection_desc": 25044066,
+      "type": 1,
+      "check": [
+        "res"
+      ],
+      "args": {}
+    },
+    {
+      "event_id": 1066,
+      "selection_id": 106602,
+      "selection_desc": 25045066,
+      "type": 1,
+      "check": [
+        "tec"
+      ],
+      "args": {}
+    },
+    {
+      "event_id": 1066,
+      "selection_id": 106603,
+      "selection_desc": 25046066,
+      "type": 2,
+      "check": {},
+      "args": [
+        9019
+      ]
+    },
+    {
+      "event_id": 1066,
+      "selection_id": 106604,
+      "selection_desc": 25047066,
+      "type": 2,
+      "check": [
+        "int"
+      ],
+      "args": [
+        9013
+      ]
+    }
+  ],
+  [
+    {
+      "event_id": 1067,
+      "selection_id": 106701,
+      "selection_desc": 25044067,
+      "type": 2,
+      "check": {},
+      "args": [
+        9002
+      ]
+    },
+    {
+      "event_id": 1067,
+      "selection_id": 106702,
+      "selection_desc": 25045067,
+      "type": 1,
+      "check": [
+        "ins"
+      ],
+      "args": {}
+    },
+    {
+      "event_id": 1067,
+      "selection_id": 106703,
+      "selection_desc": 25046067,
+      "type": 1,
+      "check": [
+        "int"
+      ],
+      "args": {}
+    }
+  ],
+  [
+    {
+      "event_id": 1068,
+      "selection_id": 106801,
+      "selection_desc": 25044068,
+      "type": 1,
+      "check": [
+        "res"
+      ],
+      "args": {}
+    },
+    {
+      "event_id": 1068,
+      "selection_id": 106802,
+      "selection_desc": 25045068,
+      "type": 1,
+      "check": [
+        "ins"
+      ],
+      "args": {}
+    },
+    {
+      "event_id": 1068,
+      "selection_id": 106803,
+      "selection_desc": 25046068,
+      "type": 2,
+      "check": {},
+      "args": [
+        9002
+      ]
+    }
+  ],
+  [
+    {
+      "event_id": 1069,
+      "selection_id": 106901,
+      "selection_desc": 25044069,
+      "type": 1,
+      "check": [
+        "tec"
+      ],
+      "args": {}
+    },
+    {
+      "event_id": 1069,
+      "selection_id": 106902,
+      "selection_desc": 25045069,
+      "type": 1,
+      "check": [
+        "res"
+      ],
+      "args": {}
+    },
+    {
+      "event_id": 1069,
+      "selection_id": 106904,
+      "selection_desc": 25047069,
+      "type": 2,
+      "check": {},
+      "args": [
+        9004
+      ]
+    }
+  ],
+  [
+    {
+      "event_id": 1070,
+      "selection_id": 107001,
+      "selection_desc": 25044070,
+      "type": 1,
+      "check": [
+        "res"
+      ],
+      "args": {}
+    },
+    {
+      "event_id": 1070,
+      "selection_id": 107002,
+      "selection_desc": 25045070,
+      "type": 2,
+      "check": {},
+      "args": [
+        9015
+      ]
+    },
+    {
+      "event_id": 1070,
+      "selection_id": 107003,
+      "selection_desc": 25046070,
+      "type": 1,
+      "check": [
+        "int"
+      ],
+      "args": {}
+    }
+  ],
+  [
+    {
+      "event_id": 1071,
+      "selection_id": 107101,
+      "selection_desc": 25044071,
+      "type": 1,
+      "check": [
+        "res"
+      ],
+      "args": {}
+    },
+    {
+      "event_id": 1071,
+      "selection_id": 107102,
+      "selection_desc": 25045071,
+      "type": 2,
+      "check": {},
+      "args": [
+        9005
+      ]
+    },
+    {
+      "event_id": 1071,
+      "selection_id": 107103,
+      "selection_desc": 25046071,
+      "type": 1,
+      "check": [
+        "tec"
+      ],
+      "args": {}
+    }
+  ],
+  [
+    {
+      "event_id": 1072,
+      "selection_id": 107201,
+      "selection_desc": 25044072,
+      "type": 1,
+      "check": [
+        "ins"
+      ],
+      "args": {}
+    },
+    {
+      "event_id": 1072,
+      "selection_id": 107202,
+      "selection_desc": 25045072,
+      "type": 1,
+      "check": [
+        "luk"
+      ],
+      "args": {}
+    },
+    {
+      "event_id": 1072,
+      "selection_id": 107203,
+      "selection_desc": 25046072,
+      "type": 2,
+      "check": {},
+      "args": [
+        9014
+      ]
+    }
+  ],
+  [
+    {
+      "event_id": 1073,
+      "selection_id": 107301,
+      "selection_desc": 25044073,
+      "type": 1,
+      "check": [
+        "ins"
+      ],
+      "args": {}
+    },
+    {
+      "event_id": 1073,
+      "selection_id": 107302,
+      "selection_desc": 25045073,
+      "type": 1,
+      "check": [
+        "luk"
+      ],
+      "args": {}
+    },
+    {
+      "event_id": 1073,
+      "selection_id": 107303,
+      "selection_desc": 25046073,
+      "type": 2,
+      "check": {},
+      "args": [
+        9003
+      ]
+    }
+  ],
+  [
+    {
+      "event_id": 1074,
+      "selection_id": 107401,
+      "selection_desc": 25044074,
+      "type": 1,
+      "check": [
+        "tec"
+      ],
+      "args": {}
+    },
+    {
+      "event_id": 1074,
+      "selection_id": 107402,
+      "selection_desc": 25045074,
+      "type": 2,
+      "check": {},
+      "args": [
+        9011
+      ]
+    },
+    {
+      "event_id": 1074,
+      "selection_id": 107403,
+      "selection_desc": 25046074,
+      "type": 1,
+      "check": [
+        "res"
+      ],
+      "args": {}
+    }
+  ],
+  [
+    {
+      "event_id": 1075,
+      "selection_id": 107501,
+      "selection_desc": 25044075,
+      "type": 1,
+      "check": [
+        "ins"
+      ],
+      "args": {}
+    },
+    {
+      "event_id": 1075,
+      "selection_id": 107502,
+      "selection_desc": 25045075,
+      "type": 1,
+      "check": [
+        "res"
+      ],
+      "args": {}
+    },
+    {
+      "event_id": 1075,
+      "selection_id": 107504,
+      "selection_desc": 25047075,
+      "type": 2,
+      "check": {},
+      "args": [
+        9006
+      ]
+    }
+  ],
+  [
+    {
+      "event_id": 1076,
+      "selection_id": 107601,
+      "selection_desc": 25044076,
+      "type": 2,
+      "check": {},
+      "args": [
+        9002
+      ]
+    },
+    {
+      "event_id": 1076,
+      "selection_id": 107602,
+      "selection_desc": 25045076,
+      "type": 1,
+      "check": [
+        "luk"
+      ],
+      "args": {}
+    },
+    {
+      "event_id": 1076,
+      "selection_id": 107603,
+      "selection_desc": 25046076,
+      "type": 1,
+      "check": [
+        "tec"
+      ],
+      "args": {}
+    }
+  ],
+  [
+    {
+      "event_id": 1077,
+      "selection_id": 107701,
+      "selection_desc": 25044077,
+      "type": 1,
+      "check": {},
+      "args": {}
+    },
+    {
+      "event_id": 1077,
+      "selection_id": 107702,
+      "selection_desc": 25045077,
+      "type": 1,
+      "check": {},
+      "args": {}
+    },
+    {
+      "event_id": 1077,
+      "selection_id": 107704,
+      "selection_desc": 25047077,
+      "type": 2,
+      "check": {},
+      "args": [
+        9004
+      ]
+    }
+  ],
+  [
+    {
+      "event_id": 1078,
+      "selection_id": 107801,
+      "selection_desc": 25044078,
+      "type": 2,
+      "check": {},
+      "args": [
+        9018
+      ]
+    },
+    {
+      "event_id": 1078,
+      "selection_id": 107802,
+      "selection_desc": 25045078,
+      "type": 1,
+      "check": {},
+      "args": {}
+    },
+    {
+      "event_id": 1078,
+      "selection_id": 107803,
+      "selection_desc": 25046078,
+      "type": 1,
+      "check": {},
+      "args": {}
+    }
+  ],
+  [
+    {
+      "event_id": 1079,
+      "selection_id": 107901,
+      "selection_desc": 25044079,
+      "type": 1,
+      "check": [
+        "res"
+      ],
+      "args": {}
+    },
+    {
+      "event_id": 1079,
+      "selection_id": 107902,
+      "selection_desc": 25045079,
+      "type": 2,
+      "check": {},
+      "args": [
+        9004
+      ]
+    },
+    {
+      "event_id": 1079,
+      "selection_id": 107903,
+      "selection_desc": 25046079,
+      "type": 1,
+      "check": [
+        "ins"
+      ],
+      "args": {}
+    }
+  ],
+  [
+    {
+      "event_id": 1080,
+      "selection_id": 108001,
+      "selection_desc": 25044080,
+      "type": 1,
+      "check": [
+        "ins"
+      ],
+      "args": {}
+    },
+    {
+      "event_id": 1080,
+      "selection_id": 108002,
+      "selection_desc": 25045080,
+      "type": 1,
+      "check": [
+        "luk"
+      ],
+      "args": {}
+    },
+    {
+      "event_id": 1080,
+      "selection_id": 108003,
+      "selection_desc": 25046080,
+      "type": 2,
+      "check": {},
+      "args": [
+        9013
+      ]
+    },
+    {
+      "event_id": 1080,
+      "selection_id": 108004,
+      "selection_desc": 25047080,
+      "type": 2,
+      "check": {},
+      "args": [
+        9006
+      ]
+    }
+  ],
+  [
+    {
+      "event_id": 1081,
+      "selection_id": 108101,
+      "selection_desc": 25044081,
+      "type": 1,
+      "check": [
+        "res"
+      ],
+      "args": {}
+    },
+    {
+      "event_id": 1081,
+      "selection_id": 108102,
+      "selection_desc": 25045081,
+      "type": 2,
+      "check": {},
+      "args": [
+        9006
+      ]
+    },
+    {
+      "event_id": 1081,
+      "selection_id": 108103,
+      "selection_desc": 25046081,
+      "type": 1,
+      "check": [
+        "int"
+      ],
+      "args": {}
+    },
+    {
+      "event_id": 1081,
+      "selection_id": 108104,
+      "selection_desc": 25047081,
+      "type": 2,
+      "check": {},
+      "args": [
+        9017
+      ]
+    }
+  ],
+  [
+    {
+      "event_id": 1082,
+      "selection_id": 108201,
+      "selection_desc": 25044082,
+      "type": 1,
+      "check": [
+        "ins"
+      ],
+      "args": {}
+    },
+    {
+      "event_id": 1082,
+      "selection_id": 108202,
+      "selection_desc": 25045082,
+      "type": 2,
+      "check": {},
+      "args": [
+        9003
+      ]
+    },
+    {
+      "event_id": 1082,
+      "selection_id": 108203,
+      "selection_desc": 25046082,
+      "type": 1,
+      "check": [
+        "luk"
+      ],
+      "args": {}
+    }
+  ],
+  [
+    {
+      "event_id": 1083,
+      "selection_id": 108301,
+      "selection_desc": 25044083,
+      "type": 2,
+      "check": {},
+      "args": [
+        9020
+      ]
+    },
+    {
+      "event_id": 1083,
+      "selection_id": 108302,
+      "selection_desc": 25045083,
+      "type": 1,
+      "check": [
+        "res"
+      ],
+      "args": {}
+    },
+    {
+      "event_id": 1083,
+      "selection_id": 108303,
+      "selection_desc": 25046083,
+      "type": 1,
+      "check": [
+        "ins"
+      ],
+      "args": {}
+    }
+  ],
+  [
+    {
+      "event_id": 1084,
+      "selection_id": 108401,
+      "selection_desc": 25044084,
+      "type": 2,
+      "check": {},
+      "args": [
+        9003
+      ]
+    },
+    {
+      "event_id": 1084,
+      "selection_id": 108402,
+      "selection_desc": 25045084,
+      "type": 1,
+      "check": [
+        "res"
+      ],
+      "args": {}
+    },
+    {
+      "event_id": 1084,
+      "selection_id": 108403,
+      "selection_desc": 25046084,
+      "type": 1,
+      "check": [
+        "tec"
+      ],
+      "args": {}
+    }
+  ],
+  [
+    {
+      "event_id": 1085,
+      "selection_id": 108501,
+      "selection_desc": 25044085,
+      "type": 1,
+      "check": [
+        "ins"
+      ],
+      "args": {}
+    },
+    {
+      "event_id": 1085,
+      "selection_id": 108502,
+      "selection_desc": 25045085,
+      "type": 2,
+      "check": {},
+      "args": [
+        9002
+      ]
+    },
+    {
+      "event_id": 1085,
+      "selection_id": 108503,
+      "selection_desc": 25046085,
+      "type": 1,
+      "check": [
+        "int"
+      ],
+      "args": {}
+    }
+  ],
+  [
+    {
+      "event_id": 1086,
+      "selection_id": 108601,
+      "selection_desc": 25044086,
+      "type": 1,
+      "check": [
+        "ins"
+      ],
+      "args": {}
+    },
+    {
+      "event_id": 1086,
+      "selection_id": 108602,
+      "selection_desc": 25045086,
+      "type": 1,
+      "check": [
+        "luk"
+      ],
+      "args": {}
+    },
+    {
+      "event_id": 1086,
+      "selection_id": 108604,
+      "selection_desc": 25047086,
+      "type": 2,
+      "check": {},
+      "args": [
+        9006
+      ]
+    }
+  ],
+  [
+    {
+      "event_id": 1087,
+      "selection_id": 108701,
+      "selection_desc": 25044087,
+      "type": 1,
+      "check": [
+        "res"
+      ],
+      "args": {}
+    },
+    {
+      "event_id": 1087,
+      "selection_id": 108702,
+      "selection_desc": 25045087,
+      "type": 1,
+      "check": [
+        "int"
+      ],
+      "args": {}
+    },
+    {
+      "event_id": 1087,
+      "selection_id": 108704,
+      "selection_desc": 25047087,
+      "type": 2,
+      "check": {},
+      "args": [
+        9007
+      ]
+    }
+  ],
+  [
+    {
+      "event_id": 1088,
+      "selection_id": 108801,
+      "selection_desc": 25044088,
+      "type": 1,
+      "check": [
+        "luk"
+      ],
+      "args": {}
+    },
+    {
+      "event_id": 1088,
+      "selection_id": 108802,
+      "selection_desc": 25045088,
+      "type": 1,
+      "check": [
+        "res"
+      ],
+      "args": {}
+    },
+    {
+      "event_id": 1088,
+      "selection_id": 108803,
+      "selection_desc": 25046088,
+      "type": 2,
+      "check": {},
+      "args": [
+        9008
+      ]
+    },
+    {
+      "event_id": 1088,
+      "selection_id": 108804,
+      "selection_desc": 25047088,
+      "type": 2,
+      "check": {},
+      "args": [
+        9004
+      ]
+    }
+  ],
+  [
+    {
+      "event_id": 1089,
+      "selection_id": 108901,
+      "selection_desc": 25044089,
+      "type": 1,
+      "check": [
+        "ins"
+      ],
+      "args": {}
+    },
+    {
+      "event_id": 1089,
+      "selection_id": 108902,
+      "selection_desc": 25045089,
+      "type": 1,
+      "check": [
+        "tec"
+      ],
+      "args": {}
+    },
+    {
+      "event_id": 1089,
+      "selection_id": 108903,
+      "selection_desc": 25046089,
+      "type": 2,
+      "check": {},
+      "args": [
+        9018
+      ]
+    },
+    {
+      "event_id": 1089,
+      "selection_id": 108904,
+      "selection_desc": 25047089,
+      "type": 2,
+      "check": {},
+      "args": [
+        9014
+      ]
+    }
+  ],
+  [
+    {
+      "event_id": 1090,
+      "selection_id": 109001,
+      "selection_desc": 25044090,
+      "type": 1,
+      "check": [
+        "int"
+      ],
+      "args": {}
+    },
+    {
+      "event_id": 1090,
+      "selection_id": 109002,
+      "selection_desc": 25045090,
+      "type": 1,
+      "check": [
+        "int"
+      ],
+      "args": {}
+    },
+    {
+      "event_id": 1090,
+      "selection_id": 109003,
+      "selection_desc": 25046090,
+      "type": 2,
+      "check": {},
+      "args": [
+        9009
+      ]
+    },
+    {
+      "event_id": 1090,
+      "selection_id": 109004,
+      "selection_desc": 25047090,
+      "type": 2,
+      "check": {},
+      "args": [
+        9011
+      ]
+    }
+  ],
+  [
+    {
+      "event_id": 1091,
+      "selection_id": 109101,
+      "selection_desc": 25044091,
+      "type": 1,
+      "check": {},
+      "args": {}
+    },
+    {
+      "event_id": 1091,
+      "selection_id": 109102,
+      "selection_desc": 25045091,
+      "type": 1,
+      "check": [
+        "ins"
+      ],
+      "args": {}
+    },
+    {
+      "event_id": 1091,
+      "selection_id": 109104,
+      "selection_desc": 25047091,
+      "type": 2,
+      "check": {},
+      "args": [
+        9010
+      ]
+    }
+  ],
+  [
+    {
+      "event_id": 1092,
+      "selection_id": 109201,
+      "selection_desc": 25044092,
+      "type": 1,
+      "check": [
+        "res"
+      ],
+      "args": {}
+    },
+    {
+      "event_id": 1092,
+      "selection_id": 109202,
+      "selection_desc": 25045092,
+      "type": 2,
+      "check": {},
+      "args": [
+        9006
+      ]
+    },
+    {
+      "event_id": 1092,
+      "selection_id": 109203,
+      "selection_desc": 25046092,
+      "type": 1,
+      "check": [
+        "res"
+      ],
+      "args": {}
+    },
+    {
+      "event_id": 1092,
+      "selection_id": 109204,
+      "selection_desc": 25047092,
+      "type": 2,
+      "check": [
+        "tec"
+      ],
+      "args": [
+        9011
+      ]
+    }
+  ],
+  [
+    {
+      "event_id": 1093,
+      "selection_id": 109301,
+      "selection_desc": 25044093,
+      "type": 1,
+      "check": {},
+      "args": {}
+    },
+    {
+      "event_id": 1093,
+      "selection_id": 109302,
+      "selection_desc": 25045093,
+      "type": 1,
+      "check": [
+        "luk"
+      ],
+      "args": {}
+    },
+    {
+      "event_id": 1093,
+      "selection_id": 109304,
+      "selection_desc": 25047093,
+      "type": 2,
+      "check": {},
+      "args": [
+        9002
+      ]
+    }
+  ],
+  [
+    {
+      "event_id": 1094,
+      "selection_id": 109401,
+      "selection_desc": 25044094,
+      "type": 1,
+      "check": [
+        "res"
+      ],
+      "args": {}
+    },
+    {
+      "event_id": 1094,
+      "selection_id": 109402,
+      "selection_desc": 25045094,
+      "type": 1,
+      "check": [
+        "int"
+      ],
+      "args": {}
+    },
+    {
+      "event_id": 1094,
+      "selection_id": 109403,
+      "selection_desc": 25046094,
+      "type": 2,
+      "check": {},
+      "args": [
+        9018
+      ]
+    }
+  ],
+  [
+    {
+      "event_id": 1095,
+      "selection_id": 109501,
+      "selection_desc": 25044095,
+      "type": 1,
+      "check": [
+        "res"
+      ],
+      "args": {}
+    },
+    {
+      "event_id": 1095,
+      "selection_id": 109502,
+      "selection_desc": 25045095,
+      "type": 1,
+      "check": [
+        "int"
+      ],
+      "args": {}
+    },
+    {
+      "event_id": 1095,
+      "selection_id": 109504,
+      "selection_desc": 25047095,
+      "type": 2,
+      "check": {},
+      "args": [
+        9013
+      ]
+    }
+  ],
+  [
+    {
+      "event_id": 1096,
+      "selection_id": 109601,
+      "selection_desc": 25044096,
+      "type": 1,
+      "check": [
+        "res"
+      ],
+      "args": {}
+    },
+    {
+      "event_id": 1096,
+      "selection_id": 109602,
+      "selection_desc": 25045096,
+      "type": 1,
+      "check": [
+        "luk"
+      ],
+      "args": {}
+    }
+  ],
+  [
+    {
+      "event_id": 1097,
+      "selection_id": 109701,
+      "selection_desc": 25044097,
+      "type": 1,
+      "check": [
+        "ins"
+      ],
+      "args": {}
+    },
+    {
+      "event_id": 1097,
+      "selection_id": 109702,
+      "selection_desc": 25045097,
+      "type": 1,
+      "check": [
+        "tec"
+      ],
+      "args": {}
+    },
+    {
+      "event_id": 1097,
+      "selection_id": 109704,
+      "selection_desc": 25047097,
+      "type": 2,
+      "check": {},
+      "args": [
+        9011
+      ]
+    }
+  ],
+  [
+    {
+      "event_id": 1098,
+      "selection_id": 109801,
+      "selection_desc": 25044098,
+      "type": 1,
+      "check": [
+        "int"
+      ],
+      "args": {}
+    },
+    {
+      "event_id": 1098,
+      "selection_id": 109802,
+      "selection_desc": 25045098,
+      "type": 1,
+      "check": [
+        "res"
+      ],
+      "args": {}
+    },
+    {
+      "event_id": 1098,
+      "selection_id": 109804,
+      "selection_desc": 25047098,
+      "type": 2,
+      "check": {},
+      "args": [
+        9018
+      ]
+    }
+  ],
+  [
+    {
+      "event_id": 1099,
+      "selection_id": 109901,
+      "selection_desc": 25044099,
+      "type": 1,
+      "check": [
+        "ins"
+      ],
+      "args": {}
+    },
+    {
+      "event_id": 1099,
+      "selection_id": 109902,
+      "selection_desc": 25045099,
+      "type": 1,
+      "check": [
+        "tec"
+      ],
+      "args": {}
+    },
+    {
+      "event_id": 1099,
+      "selection_id": 109904,
+      "selection_desc": 25047099,
+      "type": 2,
+      "check": {},
+      "args": [
+        9011
+      ]
+    }
+  ],
+  [
+    {
+      "event_id": 1100,
+      "selection_id": 110001,
+      "selection_desc": 25044100,
+      "type": 1,
+      "check": [
+        "res"
+      ],
+      "args": {}
+    },
+    {
+      "event_id": 1100,
+      "selection_id": 110002,
+      "selection_desc": 25045100,
+      "type": 1,
+      "check": [
+        "tec"
+      ],
+      "args": {}
+    },
+    {
+      "event_id": 1100,
+      "selection_id": 110004,
+      "selection_desc": 25047100,
+      "type": 2,
+      "check": {},
+      "args": [
+        9019
+      ]
+    }
+  ]
+]

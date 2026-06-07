@@ -1,0 +1,1402 @@
+[
+  [
+    {
+      "event_group_id": 25040101,
+      "event_id": 1001,
+      "event_title": 25042001,
+      "event_desc": 25043001,
+      "type": 10,
+      "cd_round": 5,
+      "trigger_rate": 1,
+      "trigger_sort": 0,
+      "trigger": [
+        9006001
+      ]
+    },
+    {
+      "event_group_id": 25040101,
+      "event_id": 1002,
+      "event_title": 25042002,
+      "event_desc": 25043002,
+      "type": 10,
+      "cd_round": 5,
+      "trigger_rate": 1,
+      "trigger_sort": 0,
+      "trigger": [
+        9006002,
+        9001002
+      ]
+    },
+    {
+      "event_group_id": 25040101,
+      "event_id": 1003,
+      "event_title": 25042003,
+      "event_desc": 25043003,
+      "type": 10,
+      "cd_round": 5,
+      "trigger_rate": 1,
+      "trigger_sort": 0,
+      "trigger": [
+        9006003
+      ]
+    },
+    {
+      "event_group_id": 25040101,
+      "event_id": 1004,
+      "event_title": 25042004,
+      "event_desc": 25043004,
+      "type": 10,
+      "cd_round": 5,
+      "trigger_rate": 1,
+      "trigger_sort": 0,
+      "trigger": [
+        9006004
+      ]
+    },
+    {
+      "event_group_id": 25040101,
+      "event_id": 1005,
+      "event_title": 25042005,
+      "event_desc": 25043005,
+      "type": 10,
+      "cd_round": 5,
+      "trigger_rate": 1,
+      "trigger_sort": 0,
+      "trigger": [
+        9006005
+      ]
+    },
+    {
+      "event_group_id": 25040101,
+      "event_id": 1006,
+      "event_title": 25042006,
+      "event_desc": 25043006,
+      "type": 10,
+      "cd_round": 5,
+      "trigger_rate": 1,
+      "trigger_sort": 0,
+      "trigger": [
+        9006006
+      ]
+    },
+    {
+      "event_group_id": 25040101,
+      "event_id": 1007,
+      "event_title": 25042007,
+      "event_desc": 25043007,
+      "type": 10,
+      "cd_round": 5,
+      "trigger_rate": 1,
+      "trigger_sort": 0,
+      "trigger": [
+        9006007
+      ]
+    },
+    {
+      "event_group_id": 25040101,
+      "event_id": 1008,
+      "event_title": 25042008,
+      "event_desc": 25043008,
+      "type": 10,
+      "cd_round": 5,
+      "trigger_rate": 1,
+      "trigger_sort": 0,
+      "trigger": [
+        9006008
+      ]
+    },
+    {
+      "event_group_id": 25040101,
+      "event_id": 1009,
+      "event_title": 25042009,
+      "event_desc": 25043009,
+      "type": 10,
+      "cd_round": 5,
+      "trigger_rate": 1,
+      "trigger_sort": 0,
+      "trigger": [
+        9006009
+      ]
+    },
+    {
+      "event_group_id": 25040101,
+      "event_id": 1010,
+      "event_title": 25042010,
+      "event_desc": 25043010,
+      "type": 10,
+      "cd_round": 5,
+      "trigger_rate": 1,
+      "trigger_sort": 0,
+      "trigger": [
+        9006010
+      ]
+    },
+    {
+      "event_group_id": 25040101,
+      "event_id": 1011,
+      "event_title": 25042011,
+      "event_desc": 25043011,
+      "type": 10,
+      "cd_round": 5,
+      "trigger_rate": 1,
+      "trigger_sort": 0,
+      "trigger": [
+        9006011
+      ]
+    },
+    {
+      "event_group_id": 25040101,
+      "event_id": 1012,
+      "event_title": 25042012,
+      "event_desc": 25043012,
+      "type": 10,
+      "cd_round": 5,
+      "trigger_rate": 1,
+      "trigger_sort": 0,
+      "trigger": [
+        9006012
+      ]
+    },
+    {
+      "event_group_id": 25040101,
+      "event_id": 1013,
+      "event_title": 25042013,
+      "event_desc": 25043013,
+      "type": 10,
+      "cd_round": 5,
+      "trigger_rate": 1,
+      "trigger_sort": 0,
+      "trigger": [
+        9006013,
+        9001013
+      ]
+    },
+    {
+      "event_group_id": 25040101,
+      "event_id": 1014,
+      "event_title": 25042014,
+      "event_desc": 25043014,
+      "type": 10,
+      "cd_round": 5,
+      "trigger_rate": 1,
+      "trigger_sort": 0,
+      "trigger": [
+        9006014
+      ]
+    },
+    {
+      "event_group_id": 25040101,
+      "event_id": 1015,
+      "event_title": 25042015,
+      "event_desc": 25043015,
+      "type": 10,
+      "cd_round": 5,
+      "trigger_rate": 1,
+      "trigger_sort": 0,
+      "trigger": [
+        9006015
+      ]
+    },
+    {
+      "event_group_id": 25040101,
+      "event_id": 1016,
+      "event_title": 25042016,
+      "event_desc": 25043016,
+      "type": 10,
+      "cd_round": 5,
+      "trigger_rate": 1,
+      "trigger_sort": 0,
+      "trigger": [
+        9006016
+      ]
+    },
+    {
+      "event_group_id": 25040101,
+      "event_id": 1017,
+      "event_title": 25042017,
+      "event_desc": 25043017,
+      "type": 10,
+      "cd_round": 5,
+      "trigger_rate": 1,
+      "trigger_sort": 0,
+      "trigger": [
+        9006017
+      ]
+    },
+    {
+      "event_group_id": 25040101,
+      "event_id": 1018,
+      "event_title": 25042018,
+      "event_desc": 25043018,
+      "type": 10,
+      "cd_round": 5,
+      "trigger_rate": 1,
+      "trigger_sort": 0,
+      "trigger": [
+        9006018
+      ]
+    },
+    {
+      "event_group_id": 25040101,
+      "event_id": 1019,
+      "event_title": 25042019,
+      "event_desc": 25043019,
+      "type": 10,
+      "cd_round": 5,
+      "trigger_rate": 1,
+      "trigger_sort": 0,
+      "trigger": [
+        9006019
+      ]
+    },
+    {
+      "event_group_id": 25040101,
+      "event_id": 1020,
+      "event_title": 25042020,
+      "event_desc": 25043020,
+      "type": 10,
+      "cd_round": 5,
+      "trigger_rate": 1,
+      "trigger_sort": 0,
+      "trigger": [
+        9006020
+      ]
+    },
+    {
+      "event_group_id": 25040101,
+      "event_id": 1021,
+      "event_title": 25042021,
+      "event_desc": 25043021,
+      "type": 10,
+      "cd_round": 5,
+      "trigger_rate": 1,
+      "trigger_sort": 0,
+      "trigger": [
+        9006021
+      ]
+    },
+    {
+      "event_group_id": 25040101,
+      "event_id": 1022,
+      "event_title": 25042022,
+      "event_desc": 25043022,
+      "type": 10,
+      "cd_round": 5,
+      "trigger_rate": 1,
+      "trigger_sort": 0,
+      "trigger": [
+        9006022
+      ]
+    },
+    {
+      "event_group_id": 25040101,
+      "event_id": 1023,
+      "event_title": 25042023,
+      "event_desc": 25043023,
+      "type": 10,
+      "cd_round": 5,
+      "trigger_rate": 1,
+      "trigger_sort": 0,
+      "trigger": [
+        9006023
+      ]
+    },
+    {
+      "event_group_id": 25040101,
+      "event_id": 1024,
+      "event_title": 25042024,
+      "event_desc": 25043024,
+      "type": 10,
+      "cd_round": 5,
+      "trigger_rate": 1,
+      "trigger_sort": 0,
+      "trigger": [
+        9006024
+      ]
+    },
+    {
+      "event_group_id": 25040101,
+      "event_id": 1025,
+      "event_title": 25042025,
+      "event_desc": 25043025,
+      "type": 10,
+      "cd_round": 5,
+      "trigger_rate": 1,
+      "trigger_sort": 0,
+      "trigger": [
+        9006025
+      ]
+    },
+    {
+      "event_group_id": 25040101,
+      "event_id": 1026,
+      "event_title": 25042026,
+      "event_desc": 25043026,
+      "type": 10,
+      "cd_round": 5,
+      "trigger_rate": 1,
+      "trigger_sort": 0,
+      "trigger": [
+        9006026
+      ]
+    },
+    {
+      "event_group_id": 25040101,
+      "event_id": 1027,
+      "event_title": 25042027,
+      "event_desc": 25043027,
+      "type": 10,
+      "cd_round": 5,
+      "trigger_rate": 1,
+      "trigger_sort": 0,
+      "trigger": [
+        9006027
+      ]
+    },
+    {
+      "event_group_id": 25040101,
+      "event_id": 1028,
+      "event_title": 25042028,
+      "event_desc": 25043028,
+      "type": 10,
+      "cd_round": 5,
+      "trigger_rate": 1,
+      "trigger_sort": 0,
+      "trigger": [
+        9006028
+      ]
+    },
+    {
+      "event_group_id": 25040101,
+      "event_id": 1029,
+      "event_title": 25042029,
+      "event_desc": 25043029,
+      "type": 10,
+      "cd_round": 5,
+      "trigger_rate": 1,
+      "trigger_sort": 0,
+      "trigger": [
+        9006029
+      ]
+    },
+    {
+      "event_group_id": 25040101,
+      "event_id": 1030,
+      "event_title": 25042030,
+      "event_desc": 25043030,
+      "type": 10,
+      "cd_round": 5,
+      "trigger_rate": 1,
+      "trigger_sort": 0,
+      "trigger": [
+        9006030
+      ]
+    },
+    {
+      "event_group_id": 25040101,
+      "event_id": 1031,
+      "event_title": 25042031,
+      "event_desc": 25043031,
+      "type": 10,
+      "cd_round": 5,
+      "trigger_rate": 1,
+      "trigger_sort": 0,
+      "trigger": [
+        9006031
+      ]
+    },
+    {
+      "event_group_id": 25040101,
+      "event_id": 1032,
+      "event_title": 25042032,
+      "event_desc": 25043032,
+      "type": 10,
+      "cd_round": 5,
+      "trigger_rate": 1,
+      "trigger_sort": 0,
+      "trigger": [
+        9006032
+      ]
+    },
+    {
+      "event_group_id": 25040101,
+      "event_id": 1033,
+      "event_title": 25042033,
+      "event_desc": 25043033,
+      "type": 10,
+      "cd_round": 5,
+      "trigger_rate": 1,
+      "trigger_sort": 0,
+      "trigger": [
+        9006033
+      ]
+    },
+    {
+      "event_group_id": 25040101,
+      "event_id": 1034,
+      "event_title": 25042034,
+      "event_desc": 25043034,
+      "type": 10,
+      "cd_round": 5,
+      "trigger_rate": 1,
+      "trigger_sort": 0,
+      "trigger": [
+        9006034
+      ]
+    },
+    {
+      "event_group_id": 25040101,
+      "event_id": 1035,
+      "event_title": 25042035,
+      "event_desc": 25043035,
+      "type": 10,
+      "cd_round": 5,
+      "trigger_rate": 1,
+      "trigger_sort": 0,
+      "trigger": [
+        9006035
+      ]
+    },
+    {
+      "event_group_id": 25040101,
+      "event_id": 1036,
+      "event_title": 25042036,
+      "event_desc": 25043036,
+      "type": 10,
+      "cd_round": 5,
+      "trigger_rate": 1,
+      "trigger_sort": 0,
+      "trigger": [
+        9006036
+      ]
+    },
+    {
+      "event_group_id": 25040101,
+      "event_id": 1037,
+      "event_title": 25042037,
+      "event_desc": 25043037,
+      "type": 10,
+      "cd_round": 5,
+      "trigger_rate": 1,
+      "trigger_sort": 0,
+      "trigger": [
+        9006037
+      ]
+    },
+    {
+      "event_group_id": 25040101,
+      "event_id": 1038,
+      "event_title": 25042038,
+      "event_desc": 25043038,
+      "type": 10,
+      "cd_round": 5,
+      "trigger_rate": 1,
+      "trigger_sort": 0,
+      "trigger": [
+        9006038
+      ]
+    },
+    {
+      "event_group_id": 25040101,
+      "event_id": 1039,
+      "event_title": 25042039,
+      "event_desc": 25043039,
+      "type": 10,
+      "cd_round": 5,
+      "trigger_rate": 1,
+      "trigger_sort": 0,
+      "trigger": [
+        9006039
+      ]
+    },
+    {
+      "event_group_id": 25040101,
+      "event_id": 1040,
+      "event_title": 25042040,
+      "event_desc": 25043040,
+      "type": 10,
+      "cd_round": 5,
+      "trigger_rate": 1,
+      "trigger_sort": 0,
+      "trigger": [
+        9006040
+      ]
+    },
+    {
+      "event_group_id": 25040101,
+      "event_id": 1041,
+      "event_title": 25042041,
+      "event_desc": 25043041,
+      "type": 10,
+      "cd_round": 5,
+      "trigger_rate": 1,
+      "trigger_sort": 0,
+      "trigger": [
+        9006041
+      ]
+    },
+    {
+      "event_group_id": 25040101,
+      "event_id": 1042,
+      "event_title": 25042042,
+      "event_desc": 25043042,
+      "type": 10,
+      "cd_round": 5,
+      "trigger_rate": 1,
+      "trigger_sort": 0,
+      "trigger": [
+        9006042
+      ]
+    },
+    {
+      "event_group_id": 25040101,
+      "event_id": 1043,
+      "event_title": 25042043,
+      "event_desc": 25043043,
+      "type": 10,
+      "cd_round": 5,
+      "trigger_rate": 1,
+      "trigger_sort": 0,
+      "trigger": [
+        9006043
+      ]
+    },
+    {
+      "event_group_id": 25040101,
+      "event_id": 1044,
+      "event_title": 25042044,
+      "event_desc": 25043044,
+      "type": 22,
+      "cd_round": 5,
+      "trigger_rate": 30,
+      "trigger_sort": 0,
+      "trigger": [
+        9006044,
+        9102044
+      ]
+    },
+    {
+      "event_group_id": 25040101,
+      "event_id": 1045,
+      "event_title": 25042045,
+      "event_desc": 25043045,
+      "type": 20,
+      "cd_round": 5,
+      "trigger_rate": 100,
+      "trigger_sort": 999,
+      "trigger": [
+        9006045,
+        9103045,
+        9104045,
+        9105045,
+        9106045
+      ]
+    },
+    {
+      "event_group_id": 25040101,
+      "event_id": 1046,
+      "event_title": 25042046,
+      "event_desc": 25043046,
+      "type": 20,
+      "cd_round": 5,
+      "trigger_rate": 100,
+      "trigger_sort": 999,
+      "trigger": [
+        9006046,
+        9105046,
+        9106046,
+        9107046
+      ]
+    },
+    {
+      "event_group_id": 25040101,
+      "event_id": 1047,
+      "event_title": 25042047,
+      "event_desc": 25043047,
+      "type": 21,
+      "cd_round": 10,
+      "trigger_rate": 80,
+      "trigger_sort": 998,
+      "trigger": [
+        9006047,
+        9103047,
+        9111047,
+        9112047
+      ]
+    },
+    {
+      "event_group_id": 25040101,
+      "event_id": 1048,
+      "event_title": 25042048,
+      "event_desc": 25043048,
+      "type": 21,
+      "cd_round": 5,
+      "trigger_rate": 100,
+      "trigger_sort": 999,
+      "trigger": [
+        9006048,
+        9102048,
+        9111048,
+        9112048
+      ]
+    },
+    {
+      "event_group_id": 25040101,
+      "event_id": 1049,
+      "event_title": 25042049,
+      "event_desc": 25043049,
+      "type": 22,
+      "cd_round": 5,
+      "trigger_rate": 50,
+      "trigger_sort": 0,
+      "trigger": [
+        9006049,
+        9102049,
+        9111049,
+        9117049
+      ]
+    },
+    {
+      "event_group_id": 25040101,
+      "event_id": 1050,
+      "event_title": 25042050,
+      "event_desc": 25043050,
+      "type": 22,
+      "cd_round": 5,
+      "trigger_rate": 60,
+      "trigger_sort": 0,
+      "trigger": [
+        9006050,
+        9102050,
+        9111050,
+        9115050,
+        9117050,
+        9121050
+      ]
+    },
+    {
+      "event_group_id": 25040101,
+      "event_id": 1051,
+      "event_title": 25042051,
+      "event_desc": 25043051,
+      "type": 31,
+      "cd_round": 5,
+      "trigger_rate": 100,
+      "trigger_sort": 999,
+      "trigger": [
+        9006051,
+        9118051
+      ]
+    },
+    {
+      "event_group_id": 25040101,
+      "event_id": 1052,
+      "event_title": 25042052,
+      "event_desc": 25043052,
+      "type": 23,
+      "cd_round": 10,
+      "trigger_rate": 50,
+      "trigger_sort": 0,
+      "trigger": [
+        9006052,
+        9114052
+      ]
+    },
+    {
+      "event_group_id": 25040101,
+      "event_id": 1054,
+      "event_title": 25042054,
+      "event_desc": 25043054,
+      "type": 24,
+      "cd_round": 5,
+      "trigger_rate": 100,
+      "trigger_sort": 999,
+      "trigger": [
+        9006054,
+        9124054
+      ]
+    },
+    {
+      "event_group_id": 25040101,
+      "event_id": 1055,
+      "event_title": 25042055,
+      "event_desc": 25043055,
+      "type": 25,
+      "cd_round": 15,
+      "trigger_rate": 2,
+      "trigger_sort": 0,
+      "trigger": [
+        9006055,
+        9103055,
+        9002055
+      ]
+    },
+    {
+      "event_group_id": 25040101,
+      "event_id": 1056,
+      "event_title": 25042056,
+      "event_desc": 25043056,
+      "type": 25,
+      "cd_round": 10,
+      "trigger_rate": 3,
+      "trigger_sort": 0,
+      "trigger": [
+        9006056
+      ]
+    },
+    {
+      "event_group_id": 25040101,
+      "event_id": 1057,
+      "event_title": 25042057,
+      "event_desc": 25043057,
+      "type": 26,
+      "cd_round": 10,
+      "trigger_rate": 1,
+      "trigger_sort": 0,
+      "trigger": [
+        9006057,
+        9113057,
+        9002057
+      ]
+    },
+    {
+      "event_group_id": 25040101,
+      "event_id": 1058,
+      "event_title": 25042058,
+      "event_desc": 25043058,
+      "type": 26,
+      "cd_round": 15,
+      "trigger_rate": 1,
+      "trigger_sort": 0,
+      "trigger": [
+        9006058,
+        9113058
+      ]
+    },
+    {
+      "event_group_id": 25040101,
+      "event_id": 1059,
+      "event_title": 25042059,
+      "event_desc": 25043059,
+      "type": 20,
+      "cd_round": 5,
+      "trigger_rate": 30,
+      "trigger_sort": 0,
+      "trigger": [
+        9006059,
+        9103059
+      ]
+    },
+    {
+      "event_group_id": 25040101,
+      "event_id": 1060,
+      "event_title": 25042060,
+      "event_desc": 25043060,
+      "type": 21,
+      "cd_round": 10,
+      "trigger_rate": 10,
+      "trigger_sort": 0,
+      "trigger": [
+        9006060,
+        9104060,
+        9127060
+      ]
+    },
+    {
+      "event_group_id": 25040101,
+      "event_id": 1061,
+      "event_title": 25042061,
+      "event_desc": 25043061,
+      "type": 20,
+      "cd_round": 5,
+      "trigger_rate": 90,
+      "trigger_sort": 998,
+      "trigger": [
+        9006061,
+        9104061
+      ]
+    },
+    {
+      "event_group_id": 25040101,
+      "event_id": 1062,
+      "event_title": 25042062,
+      "event_desc": 25043062,
+      "type": 21,
+      "cd_round": 5,
+      "trigger_rate": 30,
+      "trigger_sort": 0,
+      "trigger": [
+        9006062,
+        9102062,
+        9126062
+      ]
+    },
+    {
+      "event_group_id": 25040101,
+      "event_id": 1063,
+      "event_title": 25042063,
+      "event_desc": 25043063,
+      "type": 21,
+      "cd_round": 5,
+      "trigger_rate": 10,
+      "trigger_sort": 0,
+      "trigger": [
+        9006063,
+        9127063
+      ]
+    },
+    {
+      "event_group_id": 25040101,
+      "event_id": 1064,
+      "event_title": 25042064,
+      "event_desc": 25043064,
+      "type": 21,
+      "cd_round": 5,
+      "trigger_rate": 10,
+      "trigger_sort": 0,
+      "trigger": [
+        9006064,
+        9127064
+      ]
+    },
+    {
+      "event_group_id": 25040101,
+      "event_id": 1065,
+      "event_title": 25042065,
+      "event_desc": 25043065,
+      "type": 21,
+      "cd_round": 5,
+      "trigger_rate": 20,
+      "trigger_sort": 0,
+      "trigger": [
+        9006065,
+        9112065
+      ]
+    },
+    {
+      "event_group_id": 25040101,
+      "event_id": 1066,
+      "event_title": 25042066,
+      "event_desc": 25043066,
+      "type": 21,
+      "cd_round": 20,
+      "trigger_rate": 1,
+      "trigger_sort": 0,
+      "trigger": [
+        9006066,
+        9002066
+      ]
+    },
+    {
+      "event_group_id": 25040101,
+      "event_id": 1067,
+      "event_title": 25042067,
+      "event_desc": 25043067,
+      "type": 22,
+      "cd_round": 5,
+      "trigger_rate": 50,
+      "trigger_sort": 0,
+      "trigger": [
+        9006067,
+        9102067,
+        9117067
+      ]
+    },
+    {
+      "event_group_id": 25040101,
+      "event_id": 1068,
+      "event_title": 25042068,
+      "event_desc": 25043068,
+      "type": 22,
+      "cd_round": 5,
+      "trigger_rate": 100,
+      "trigger_sort": 999,
+      "trigger": [
+        9006068,
+        9104068,
+        9106068,
+        9112068
+      ]
+    },
+    {
+      "event_group_id": 25040101,
+      "event_id": 1069,
+      "event_title": 25042069,
+      "event_desc": 25043069,
+      "type": 22,
+      "cd_round": 5,
+      "trigger_rate": 60,
+      "trigger_sort": 0,
+      "trigger": [
+        9006069,
+        9111069,
+        9112069
+      ]
+    },
+    {
+      "event_group_id": 25040101,
+      "event_id": 1070,
+      "event_title": 25042070,
+      "event_desc": 25043070,
+      "type": 21,
+      "cd_round": 10,
+      "trigger_rate": 60,
+      "trigger_sort": 0,
+      "trigger": [
+        9006070,
+        9112070,
+        9117070
+      ]
+    },
+    {
+      "event_group_id": 25040101,
+      "event_id": 1071,
+      "event_title": 25042071,
+      "event_desc": 25043071,
+      "type": 29,
+      "cd_round": 5,
+      "trigger_rate": 80,
+      "trigger_sort": 999,
+      "trigger": [
+        9006071,
+        9113071,
+        9115071
+      ]
+    },
+    {
+      "event_group_id": 25040101,
+      "event_id": 1072,
+      "event_title": 25042072,
+      "event_desc": 25043072,
+      "type": 23,
+      "cd_round": 5,
+      "trigger_rate": 100,
+      "trigger_sort": 999,
+      "trigger": [
+        9006072,
+        9119072
+      ]
+    },
+    {
+      "event_group_id": 25040101,
+      "event_id": 1073,
+      "event_title": 25042073,
+      "event_desc": 25043073,
+      "type": 29,
+      "cd_round": 5,
+      "trigger_rate": 80,
+      "trigger_sort": 999,
+      "trigger": [
+        9006073,
+        9113073,
+        9115073
+      ]
+    },
+    {
+      "event_group_id": 25040101,
+      "event_id": 1074,
+      "event_title": 25042074,
+      "event_desc": 25043074,
+      "type": 23,
+      "cd_round": 10,
+      "trigger_rate": 30,
+      "trigger_sort": 0,
+      "trigger": [
+        9006074
+      ]
+    },
+    {
+      "event_group_id": 25040101,
+      "event_id": 1075,
+      "event_title": 25042075,
+      "event_desc": 25043075,
+      "type": 29,
+      "cd_round": 5,
+      "trigger_rate": 100,
+      "trigger_sort": 999,
+      "trigger": [
+        9006075,
+        9104075,
+        9113075,
+        9115075,
+        9117075
+      ]
+    },
+    {
+      "event_group_id": 25040101,
+      "event_id": 1076,
+      "event_title": 25042076,
+      "event_desc": 25043076,
+      "type": 23,
+      "cd_round": 5,
+      "trigger_rate": 70,
+      "trigger_sort": 0,
+      "trigger": [
+        9006076,
+        9112076
+      ]
+    },
+    {
+      "event_group_id": 25040101,
+      "event_id": 1077,
+      "event_title": 25042077,
+      "event_desc": 25043077,
+      "type": 21,
+      "cd_round": 5,
+      "trigger_rate": 80,
+      "trigger_sort": 0,
+      "trigger": [
+        9006077,
+        9102077,
+        9106077
+      ]
+    },
+    {
+      "event_group_id": 25040101,
+      "event_id": 1078,
+      "event_title": 25042078,
+      "event_desc": 25043078,
+      "type": 24,
+      "cd_round": 10,
+      "trigger_rate": 70,
+      "trigger_sort": 0,
+      "trigger": [
+        9006078
+      ]
+    },
+    {
+      "event_group_id": 25040101,
+      "event_id": 1079,
+      "event_title": 25042079,
+      "event_desc": 25043079,
+      "type": 24,
+      "cd_round": 5,
+      "trigger_rate": 30,
+      "trigger_sort": 0,
+      "trigger": [
+        9006079
+      ]
+    },
+    {
+      "event_group_id": 25040101,
+      "event_id": 1080,
+      "event_title": 25042080,
+      "event_desc": 25043080,
+      "type": 25,
+      "cd_round": 5,
+      "trigger_rate": 100,
+      "trigger_sort": 999,
+      "trigger": [
+        9006080,
+        9103080,
+        9112080
+      ]
+    },
+    {
+      "event_group_id": 25040101,
+      "event_id": 1081,
+      "event_title": 25042081,
+      "event_desc": 25043081,
+      "type": 25,
+      "cd_round": 15,
+      "trigger_rate": 30,
+      "trigger_sort": 0,
+      "trigger": [
+        9006081,
+        9102081
+      ]
+    },
+    {
+      "event_group_id": 25040101,
+      "event_id": 1082,
+      "event_title": 25042082,
+      "event_desc": 25043082,
+      "type": 25,
+      "cd_round": 10,
+      "trigger_rate": 100,
+      "trigger_sort": 999,
+      "trigger": [
+        9006082,
+        9105082
+      ]
+    },
+    {
+      "event_group_id": 25040101,
+      "event_id": 1083,
+      "event_title": 25042083,
+      "event_desc": 25043083,
+      "type": 25,
+      "cd_round": 5,
+      "trigger_rate": 70,
+      "trigger_sort": 0,
+      "trigger": [
+        9006083,
+        9113083,
+        9115083
+      ]
+    },
+    {
+      "event_group_id": 25040101,
+      "event_id": 1084,
+      "event_title": 25042084,
+      "event_desc": 25043084,
+      "type": 25,
+      "cd_round": 10,
+      "trigger_rate": 100,
+      "trigger_sort": 999,
+      "trigger": [
+        9006084,
+        9112084
+      ]
+    },
+    {
+      "event_group_id": 25040101,
+      "event_id": 1085,
+      "event_title": 25042085,
+      "event_desc": 25043085,
+      "type": 26,
+      "cd_round": 15,
+      "trigger_rate": 2,
+      "trigger_sort": 0,
+      "trigger": [
+        9006085,
+        9103085
+      ]
+    },
+    {
+      "event_group_id": 25040101,
+      "event_id": 1086,
+      "event_title": 25042086,
+      "event_desc": 25043086,
+      "type": 23,
+      "cd_round": 10,
+      "trigger_rate": 60,
+      "trigger_sort": 0,
+      "trigger": [
+        9006086,
+        9102086
+      ]
+    },
+    {
+      "event_group_id": 25040101,
+      "event_id": 1087,
+      "event_title": 25042087,
+      "event_desc": 25043087,
+      "type": 21,
+      "cd_round": 10,
+      "trigger_rate": 10,
+      "trigger_sort": 0,
+      "trigger": [
+        9006087,
+        9126087
+      ]
+    },
+    {
+      "event_group_id": 25040101,
+      "event_id": 1088,
+      "event_title": 25042088,
+      "event_desc": 25043088,
+      "type": 26,
+      "cd_round": 5,
+      "trigger_rate": 20,
+      "trigger_sort": 0,
+      "trigger": [
+        9006088,
+        9113088
+      ]
+    },
+    {
+      "event_group_id": 25040101,
+      "event_id": 1089,
+      "event_title": 25042089,
+      "event_desc": 25043089,
+      "type": 29,
+      "cd_round": 5,
+      "trigger_rate": 100,
+      "trigger_sort": 999,
+      "trigger": [
+        9006089,
+        9102089,
+        9115089
+      ]
+    },
+    {
+      "event_group_id": 25040101,
+      "event_id": 1090,
+      "event_title": 25042090,
+      "event_desc": 25043090,
+      "type": 28,
+      "cd_round": 10,
+      "trigger_rate": 20,
+      "trigger_sort": 0,
+      "trigger": [
+        9006090
+      ]
+    },
+    {
+      "event_group_id": 25040101,
+      "event_id": 1091,
+      "event_title": 25042091,
+      "event_desc": 25043091,
+      "type": 25,
+      "cd_round": 5,
+      "trigger_rate": 80,
+      "trigger_sort": 998,
+      "trigger": [
+        9006091,
+        9117091
+      ]
+    },
+    {
+      "event_group_id": 25040101,
+      "event_id": 1092,
+      "event_title": 25042092,
+      "event_desc": 25043092,
+      "type": 25,
+      "cd_round": 10,
+      "trigger_rate": 80,
+      "trigger_sort": 998,
+      "trigger": [
+        9006092,
+        9106092,
+        9119092
+      ]
+    },
+    {
+      "event_group_id": 25040101,
+      "event_id": 1093,
+      "event_title": 25042093,
+      "event_desc": 25043093,
+      "type": 25,
+      "cd_round": 5,
+      "trigger_rate": 100,
+      "trigger_sort": 999,
+      "trigger": [
+        9006093,
+        9105093,
+        9107093,
+        9112093
+      ]
+    },
+    {
+      "event_group_id": 25040101,
+      "event_id": 1094,
+      "event_title": 25042094,
+      "event_desc": 25043094,
+      "type": 22,
+      "cd_round": 5,
+      "trigger_rate": 60,
+      "trigger_sort": 0,
+      "trigger": [
+        9006094,
+        9102094,
+        9117094
+      ]
+    },
+    {
+      "event_group_id": 25040101,
+      "event_id": 1095,
+      "event_title": 25042095,
+      "event_desc": 25043095,
+      "type": 26,
+      "cd_round": 15,
+      "trigger_rate": 2,
+      "trigger_sort": 0,
+      "trigger": [
+        9006095,
+        9117095,
+        9002095
+      ]
+    },
+    {
+      "event_group_id": 25040101,
+      "event_id": 1096,
+      "event_title": 25042096,
+      "event_desc": 25043096,
+      "type": 20,
+      "cd_round": 5,
+      "trigger_rate": 100,
+      "trigger_sort": 999,
+      "trigger": [
+        9006096,
+        9103096,
+        9107096
+      ]
+    },
+    {
+      "event_group_id": 25040101,
+      "event_id": 1097,
+      "event_title": 25042097,
+      "event_desc": 25043097,
+      "type": 20,
+      "cd_round": 10,
+      "trigger_rate": 8,
+      "trigger_sort": 0,
+      "trigger": [
+        9006097
+      ]
+    },
+    {
+      "event_group_id": 25040101,
+      "event_id": 1098,
+      "event_title": 25042098,
+      "event_desc": 25043098,
+      "type": 21,
+      "cd_round": 5,
+      "trigger_rate": 50,
+      "trigger_sort": 0,
+      "trigger": [
+        9006098,
+        9102098,
+        9115098,
+        9116098
+      ]
+    },
+    {
+      "event_group_id": 25040101,
+      "event_id": 1099,
+      "event_title": 25042099,
+      "event_desc": 25043099,
+      "type": 26,
+      "cd_round": 15,
+      "trigger_rate": 2,
+      "trigger_sort": 0,
+      "trigger": [
+        9006099,
+        9117099,
+        9112099
+      ]
+    },
+    {
+      "event_group_id": 25040101,
+      "event_id": 1100,
+      "event_title": 25042100,
+      "event_desc": 25043100,
+      "type": 20,
+      "cd_round": 5,
+      "trigger_rate": 100,
+      "trigger_sort": 999,
+      "trigger": [
+        9006100,
+        9105100,
+        9107100
+      ]
+    }
+  ],
+  [
+    {
+      "event_group_id": 25040153,
+      "event_id": 1053,
+      "event_title": 25042053,
+      "event_desc": 25043053,
+      "type": 24,
+      "cd_round": 5,
+      "trigger_rate": 40,
+      "trigger_sort": 998,
+      "trigger": [
+        9006053,
+        9106053
+      ]
+    }
+  ]
+]

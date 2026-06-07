@@ -1,0 +1,23 @@
+[
+  {
+    "activity_id": 1135,
+    "filter_id": 1001,
+    "reward_mail_template": 107,
+    "max_point_limit_day": 4,
+    "should_rank": 1
+  },
+  {
+    "activity_id": 221201,
+    "filter_id": 221201,
+    "reward_mail_template": 110,
+    "max_point_limit_day": 0,
+    "should_rank": 0
+  },
+  {
+    "activity_id": 231151,
+    "filter_id": 231151,
+    "reward_mail_template": 0,
+    "max_point_limit_day": 0,
+    "should_rank": 0
+  }
+]

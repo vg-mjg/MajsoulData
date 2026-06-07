@@ -1,0 +1,23 @@
+[
+  {
+    "activity_id": 251201,
+    "monster_group": 2512001,
+    "player_attack_group": 251201,
+    "monster_attack_group": 251202,
+    "hp": 5,
+    "mp": 15,
+    "player_luk": 10,
+    "critical_hit": 2,
+    "mp_recover": 30,
+    "tick": 30,
+    "player_id": "player_001",
+    "skill_item": 30900097,
+    "attack_interval": 5,
+    "player_attack_delay": 4,
+    "player_height": 325,
+    "audio_enter": "ui/activity/extend/snowball/main/audio/2512dongri_player_enter",
+    "audio_hit": "ui/activity/extend/snowball/main/audio/2512dongri_player_hit",
+    "audio_win": "ui/activity/extend/snowball/main/audio/2512dongri_player_win",
+    "audio_die": "ui/activity/extend/snowball/main/audio/2512dongri_player_die"
+  }
+]

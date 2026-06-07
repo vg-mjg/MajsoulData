@@ -1,0 +1,12 @@
+[
+  {
+    "activity_id": 260401,
+    "equipment_bag_max": 999,
+    "random_equipment_count": 4,
+    "appoint_equipment_count": 5,
+    "initial_level_id": 1,
+    "next_level_time": 5,
+    "tick": 30,
+    "total_tick_red": 300
+  }
+]

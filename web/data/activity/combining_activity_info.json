@@ -1,0 +1,42 @@
+[
+  {
+    "activity_id": 231201,
+    "craft_bin": [
+      23120101,
+      23120102
+    ],
+    "craft_bin_price": [
+      "30900005-10",
+      "30900005-10"
+    ],
+    "craft_bin_unlock": [
+      0,
+      300
+    ],
+    "point_item": 30900006,
+    "bonus_daily_limit": 10,
+    "multi_order_rate": 0,
+    "one_coin_num": 0,
+    "coin_num_max": 0
+  },
+  {
+    "activity_id": 250601,
+    "craft_bin": [
+      25060101,
+      25060102
+    ],
+    "craft_bin_price": [
+      "30900090-10",
+      "30900090-10"
+    ],
+    "craft_bin_unlock": [
+      0,
+      300
+    ],
+    "point_item": 30900091,
+    "bonus_daily_limit": 10,
+    "multi_order_rate": 120,
+    "one_coin_num": 5,
+    "coin_num_max": 20
+  }
+]

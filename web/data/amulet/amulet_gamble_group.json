@@ -1,0 +1,72 @@
+[
+  [
+    {
+      "id": 5201,
+      "selection_id": 50201,
+      "category": 1,
+      "count": 6
+    },
+    {
+      "id": 5201,
+      "selection_id": 50201,
+      "category": 2,
+      "count": 0
+    }
+  ],
+  [
+    {
+      "id": 5202,
+      "selection_id": 50201,
+      "category": 1,
+      "count": 5
+    },
+    {
+      "id": 5202,
+      "selection_id": 50201,
+      "category": 2,
+      "count": 1
+    }
+  ],
+  [
+    {
+      "id": 5203,
+      "selection_id": 50202,
+      "category": 1,
+      "count": 4
+    },
+    {
+      "id": 5203,
+      "selection_id": 50202,
+      "category": 2,
+      "count": 2
+    }
+  ],
+  [
+    {
+      "id": 5204,
+      "selection_id": 50202,
+      "category": 1,
+      "count": 3
+    },
+    {
+      "id": 5204,
+      "selection_id": 50202,
+      "category": 2,
+      "count": 3
+    }
+  ],
+  [
+    {
+      "id": 5205,
+      "selection_id": 50203,
+      "category": 1,
+      "count": 2
+    },
+    {
+      "id": 5205,
+      "selection_id": 50203,
+      "category": 2,
+      "count": 4
+    }
+  ]
+]

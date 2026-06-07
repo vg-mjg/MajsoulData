@@ -1,0 +1,43 @@
+[
+  [
+    {
+      "activity_id": 240601,
+      "bag_id": 101,
+      "bag_name": 0,
+      "bag_desc": 0,
+      "bag_icon_locked": "",
+      "bag_icon_unlocked": "",
+      "matrix": "5,1,1,1,1,1,1,0,0,0,1,1,0,0,0,1,1,0,0,0,1,1,1,1,1,1",
+      "max_matrix": "5,1,0,1,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,1",
+      "unlock_consume": "30900029-20",
+      "initial": 1,
+      "unlock_task_id": 0
+    },
+    {
+      "activity_id": 240601,
+      "bag_id": 102,
+      "bag_name": 4350,
+      "bag_desc": 4351,
+      "bag_icon_locked": "backpack_pop_up_window_huiyeji.png",
+      "bag_icon_unlocked": "new_backpack_unlock_huiyeji.png",
+      "matrix": "5,1,1,1,1,1,1,0,1,0,1,1,0,0,0,1,1,0,0,0,1,1,1,1,1,1",
+      "max_matrix": "5,0,0,1,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0",
+      "unlock_consume": "30900029-30",
+      "initial": 0,
+      "unlock_task_id": 24060701
+    },
+    {
+      "activity_id": 240601,
+      "bag_id": 103,
+      "bag_name": 4352,
+      "bag_desc": 4353,
+      "bag_icon_locked": "backpack_pop_up_window_wangjiro.png",
+      "bag_icon_unlocked": "new_backpack_unlock_wangjiro.png",
+      "matrix": "5,1,1,1,1,1,1,0,0,0,1,1,0,0,0,1,1,0,0,0,1,1,1,1,1,1",
+      "max_matrix": "5,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0",
+      "unlock_consume": "30900029-50",
+      "initial": 0,
+      "unlock_task_id": 24060702
+    }
+  ]
+]

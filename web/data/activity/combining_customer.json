@@ -1,0 +1,524 @@
+[
+  {
+    "customer_id": 1001,
+    "activity_id": 250601,
+    "order_type": 1,
+    "customer_location": 1,
+    "customer_skin": "left_0",
+    "customer_loading": 1,
+    "complete_sound": "audio/sound/mingzhiyingshu/activity/gift_short"
+  },
+  {
+    "customer_id": 1002,
+    "activity_id": 250601,
+    "order_type": 1,
+    "customer_location": 1,
+    "customer_skin": "left_1",
+    "customer_loading": 1,
+    "complete_sound": "audio/sound/kawei/activity/gift_short"
+  },
+  {
+    "customer_id": 1003,
+    "activity_id": 250601,
+    "order_type": 1,
+    "customer_location": 1,
+    "customer_skin": "left_2",
+    "customer_loading": 1,
+    "complete_sound": "audio/sound/qianzhi/activity/gift_short"
+  },
+  {
+    "customer_id": 1004,
+    "activity_id": 250601,
+    "order_type": 1,
+    "customer_location": 1,
+    "customer_skin": "left_3",
+    "customer_loading": 1,
+    "complete_sound": "audio/sound/xiangyuanwu/lobby/lobby_gift"
+  },
+  {
+    "customer_id": 1005,
+    "activity_id": 250601,
+    "order_type": 1,
+    "customer_location": 1,
+    "customer_skin": "left_4",
+    "customer_loading": 1,
+    "complete_sound": "audio/sound/bamuwei/activity/gift_short"
+  },
+  {
+    "customer_id": 1006,
+    "activity_id": 250601,
+    "order_type": 1,
+    "customer_location": 1,
+    "customer_skin": "left_5",
+    "customer_loading": 1,
+    "complete_sound": "audio/sound/lianggongxingshu/spot/jtm_anj_240"
+  },
+  {
+    "customer_id": 1007,
+    "activity_id": 250601,
+    "order_type": 1,
+    "customer_location": 1,
+    "customer_skin": "left_6",
+    "customer_loading": 1,
+    "complete_sound": "audio/sound/xiaoniaoyouchutian/activity/gift_short"
+  },
+  {
+    "customer_id": 1008,
+    "activity_id": 250601,
+    "order_type": 1,
+    "customer_location": 1,
+    "customer_skin": "left_7",
+    "customer_loading": 1,
+    "complete_sound": "audio/sound/yuesefu/activity/gift_short"
+  },
+  {
+    "customer_id": 1009,
+    "activity_id": 250601,
+    "order_type": 1,
+    "customer_location": 1,
+    "customer_skin": "left_8",
+    "customer_loading": 1,
+    "complete_sound": "audio/sound/huiyeji/spot/jtm_kgy_240"
+  },
+  {
+    "customer_id": 1010,
+    "activity_id": 250601,
+    "order_type": 1,
+    "customer_location": 1,
+    "customer_skin": "left_9",
+    "customer_loading": 1,
+    "complete_sound": "audio/sound/qihailinai/activity/gift_short"
+  },
+  {
+    "customer_id": 1011,
+    "activity_id": 250601,
+    "order_type": 1,
+    "customer_location": 1,
+    "customer_skin": "left_10",
+    "customer_loading": 1,
+    "complete_sound": "audio/sound/laien/spot/jtm_rya_234"
+  },
+  {
+    "customer_id": 1012,
+    "activity_id": 250601,
+    "order_type": 1,
+    "customer_location": 1,
+    "customer_skin": "left_11",
+    "customer_loading": 1,
+    "complete_sound": "audio/sound/xiyuansiyiyu/activity/gift_short"
+  },
+  {
+    "customer_id": 1013,
+    "activity_id": 250601,
+    "order_type": 1,
+    "customer_location": 1,
+    "customer_skin": "left_12",
+    "customer_loading": 1,
+    "complete_sound": "audio/sound/xiaoyesiqiyu/activity/gift_short"
+  },
+  {
+    "customer_id": 1014,
+    "activity_id": 250601,
+    "order_type": 1,
+    "customer_location": 1,
+    "customer_skin": "left_13",
+    "customer_loading": 1,
+    "complete_sound": "audio/sound/qingluan/lobby/lobby_gift"
+  },
+  {
+    "customer_id": 1015,
+    "activity_id": 250601,
+    "order_type": 1,
+    "customer_location": 1,
+    "customer_skin": "left_14",
+    "customer_loading": 1,
+    "complete_sound": "audio/sound/weilai/spot/jtm_mri_231"
+  },
+  {
+    "customer_id": 1016,
+    "activity_id": 250601,
+    "order_type": 1,
+    "customer_location": 1,
+    "customer_skin": "left_15",
+    "customer_loading": 1,
+    "complete_sound": "audio/sound/ling/spot/jtm_rin_231"
+  },
+  {
+    "customer_id": 1017,
+    "activity_id": 250601,
+    "order_type": 1,
+    "customer_location": 1,
+    "customer_skin": "left_16",
+    "customer_loading": 1,
+    "complete_sound": "audio/sound/ailisha/activity/gift_short"
+  },
+  {
+    "customer_id": 1018,
+    "activity_id": 250601,
+    "order_type": 1,
+    "customer_location": 1,
+    "customer_skin": "left_17",
+    "customer_loading": 1,
+    "complete_sound": "audio/sound/siqiqiansuili/activity/gift_short"
+  },
+  {
+    "customer_id": 1019,
+    "activity_id": 250601,
+    "order_type": 1,
+    "customer_location": 2,
+    "customer_skin": "mid_0",
+    "customer_loading": 1,
+    "complete_sound": "audio/sound/fuzi/lobby/lobby_gift"
+  },
+  {
+    "customer_id": 1020,
+    "activity_id": 250601,
+    "order_type": 1,
+    "customer_location": 2,
+    "customer_skin": "mid_1",
+    "customer_loading": 1,
+    "complete_sound": "audio/sound/jiutiao/activity/gift_short"
+  },
+  {
+    "customer_id": 1021,
+    "activity_id": 250601,
+    "order_type": 1,
+    "customer_location": 2,
+    "customer_skin": "mid_2",
+    "customer_loading": 1,
+    "complete_sound": "audio/sound/wangcilang/lobby/lobby_gift_favor"
+  },
+  {
+    "customer_id": 1022,
+    "activity_id": 250601,
+    "order_type": 1,
+    "customer_location": 2,
+    "customer_skin": "mid_3",
+    "customer_loading": 1,
+    "complete_sound": "audio/sound/yiji/activity/gift_short"
+  },
+  {
+    "customer_id": 1023,
+    "activity_id": 250601,
+    "order_type": 1,
+    "customer_location": 2,
+    "customer_skin": "mid_4",
+    "customer_loading": 1,
+    "complete_sound": "audio/sound/yizhilaikong/lobby/lobby_gift"
+  },
+  {
+    "customer_id": 1024,
+    "activity_id": 250601,
+    "order_type": 1,
+    "customer_location": 2,
+    "customer_skin": "mid_5",
+    "customer_loading": 1,
+    "complete_sound": "audio/sound/chutao/activity/gift_short"
+  },
+  {
+    "customer_id": 1025,
+    "activity_id": 250601,
+    "order_type": 1,
+    "customer_location": 2,
+    "customer_skin": "mid_6",
+    "customer_loading": 1,
+    "complete_sound": "audio/sound/beijianshahezi/activity/gift_short"
+  },
+  {
+    "customer_id": 1026,
+    "activity_id": 250601,
+    "order_type": 1,
+    "customer_location": 2,
+    "customer_skin": "mid_7",
+    "customer_loading": 1,
+    "complete_sound": "audio/sound/baishinainai/lobby/lobby_gift"
+  },
+  {
+    "customer_id": 1027,
+    "activity_id": 250601,
+    "order_type": 1,
+    "customer_location": 2,
+    "customer_skin": "mid_8",
+    "customer_loading": 1,
+    "complete_sound": "audio/sound/shiyuanduihai/spot/jtm_usm_233"
+  },
+  {
+    "customer_id": 1028,
+    "activity_id": 250601,
+    "order_type": 1,
+    "customer_location": 2,
+    "customer_skin": "mid_9",
+    "customer_loading": 1,
+    "complete_sound": "audio/sound/tengbenqiluo/activity/gift_short"
+  },
+  {
+    "customer_id": 1029,
+    "activity_id": 250601,
+    "order_type": 1,
+    "customer_location": 2,
+    "customer_skin": "mid_10",
+    "customer_loading": 1,
+    "complete_sound": "audio/sound/a37/activity/gift_short"
+  },
+  {
+    "customer_id": 1030,
+    "activity_id": 250601,
+    "order_type": 1,
+    "customer_location": 2,
+    "customer_skin": "mid_11",
+    "customer_loading": 1,
+    "complete_sound": "audio/sound/senchuanlingzi/activity/gift_short"
+  },
+  {
+    "customer_id": 1031,
+    "activity_id": 250601,
+    "order_type": 1,
+    "customer_location": 2,
+    "customer_skin": "mid_12",
+    "customer_loading": 1,
+    "complete_sound": "audio/sound/jichuanxiang/activity/gift_short"
+  },
+  {
+    "customer_id": 1032,
+    "activity_id": 250601,
+    "order_type": 1,
+    "customer_location": 2,
+    "customer_skin": "mid_13",
+    "customer_loading": 1,
+    "complete_sound": "audio/sound/xiamier/activity/gift_short"
+  },
+  {
+    "customer_id": 1033,
+    "activity_id": 250601,
+    "order_type": 1,
+    "customer_location": 2,
+    "customer_skin": "mid_14",
+    "customer_loading": 1,
+    "complete_sound": "audio/sound/you/spot/jtm_yuz_231"
+  },
+  {
+    "customer_id": 1034,
+    "activity_id": 250601,
+    "order_type": 1,
+    "customer_location": 2,
+    "customer_skin": "mid_15",
+    "customer_loading": 1,
+    "complete_sound": "audio/sound/zekesi/spot/jtm_zks_239"
+  },
+  {
+    "customer_id": 1035,
+    "activity_id": 250601,
+    "order_type": 1,
+    "customer_location": 2,
+    "customer_skin": "mid_16",
+    "customer_loading": 1,
+    "complete_sound": "audio/sound/nanfenghua/spot/jtm_fuk_230"
+  },
+  {
+    "customer_id": 1036,
+    "activity_id": 250601,
+    "order_type": 1,
+    "customer_location": 3,
+    "customer_skin": "right_0",
+    "customer_loading": 1,
+    "complete_sound": "audio/sound/jianai/lobby/lobby_gift_favor"
+  },
+  {
+    "customer_id": 1037,
+    "activity_id": 250601,
+    "order_type": 1,
+    "customer_location": 3,
+    "customer_skin": "right_1",
+    "customer_loading": 1,
+    "complete_sound": "audio/sound/erjietang/spot/jtm_2_mik_086"
+  },
+  {
+    "customer_id": 1038,
+    "activity_id": 250601,
+    "order_type": 1,
+    "customer_location": 3,
+    "customer_skin": "right_2",
+    "customer_loading": 1,
+    "complete_sound": "audio/sound/sigongxiasheng/lobby/lobby_gift_favor"
+  },
+  {
+    "customer_id": 1039,
+    "activity_id": 250601,
+    "order_type": 1,
+    "customer_location": 3,
+    "customer_skin": "right_3",
+    "customer_loading": 1,
+    "complete_sound": "audio/sound/shala/activity/gift_short"
+  },
+  {
+    "customer_id": 1040,
+    "activity_id": 250601,
+    "order_type": 1,
+    "customer_location": 3,
+    "customer_skin": "right_4",
+    "customer_loading": 1,
+    "complete_sound": "audio/sound/zeniya/activity/gift_short"
+  },
+  {
+    "customer_id": 1041,
+    "activity_id": 250601,
+    "order_type": 1,
+    "customer_location": 3,
+    "customer_skin": "right_5",
+    "customer_loading": 1,
+    "complete_sound": "audio/sound/aiyin/activity/gift_short"
+  },
+  {
+    "customer_id": 1042,
+    "activity_id": 250601,
+    "order_type": 1,
+    "customer_location": 3,
+    "customer_skin": "right_6",
+    "customer_loading": 1,
+    "complete_sound": "audio/sound/zhaitengzhi/spot/jtm_osm_232"
+  },
+  {
+    "customer_id": 1043,
+    "activity_id": 250601,
+    "order_type": 1,
+    "customer_location": 3,
+    "customer_skin": "right_7",
+    "customer_loading": 1,
+    "complete_sound": "audio/sound/erzhigonghua/activity/gift_short"
+  },
+  {
+    "customer_id": 1044,
+    "activity_id": 250601,
+    "order_type": 1,
+    "customer_location": 3,
+    "customer_skin": "right_8",
+    "customer_loading": 1,
+    "complete_sound": "audio/sound/wushilanyangcai/activity/gift_short"
+  },
+  {
+    "customer_id": 1045,
+    "activity_id": 250601,
+    "order_type": 1,
+    "customer_location": 3,
+    "customer_skin": "right_9",
+    "customer_loading": 1,
+    "complete_sound": "audio/sound/ruyuelian/spot/jtm_ren_233"
+  },
+  {
+    "customer_id": 1046,
+    "activity_id": 250601,
+    "order_type": 1,
+    "customer_location": 3,
+    "customer_skin": "right_10",
+    "customer_loading": 1,
+    "complete_sound": "audio/sound/yuejianshan/activity/gift_short"
+  },
+  {
+    "customer_id": 1047,
+    "activity_id": 250601,
+    "order_type": 1,
+    "customer_location": 3,
+    "customer_skin": "right_11",
+    "customer_loading": 1,
+    "complete_sound": "audio/sound/qixi/spot/jtm_qix_238"
+  },
+  {
+    "customer_id": 1048,
+    "activity_id": 250601,
+    "order_type": 1,
+    "customer_location": 3,
+    "customer_skin": "right_12",
+    "customer_loading": 1,
+    "complete_sound": "audio/sound/fuji/spot/jtm_fuj_234"
+  },
+  {
+    "customer_id": 1049,
+    "activity_id": 250601,
+    "order_type": 1,
+    "customer_location": 3,
+    "customer_skin": "right_13",
+    "customer_loading": 1,
+    "complete_sound": "audio/sound/longchuanxiayan/activity/gift_short"
+  },
+  {
+    "customer_id": 1050,
+    "activity_id": 250601,
+    "order_type": 1,
+    "customer_location": 3,
+    "customer_skin": "right_14",
+    "customer_loading": 1,
+    "complete_sound": "audio/sound/beiyuanlili/spot/jtm_lil_238"
+  },
+  {
+    "customer_id": 1051,
+    "activity_id": 250601,
+    "order_type": 1,
+    "customer_location": 3,
+    "customer_skin": "right_15",
+    "customer_loading": 1,
+    "complete_sound": "audio/sound/sigongdongshi/spot/jtm_fym_236"
+  },
+  {
+    "customer_id": 1052,
+    "activity_id": 250601,
+    "order_type": 1,
+    "customer_location": 3,
+    "customer_skin": "right_16",
+    "customer_loading": 1,
+    "complete_sound": "audio/sound/ruyuecaiyin/spot/jtm_ayn_239"
+  },
+  {
+    "customer_id": 1053,
+    "activity_id": 250601,
+    "order_type": 1,
+    "customer_location": 3,
+    "customer_skin": "right_17",
+    "customer_loading": 1,
+    "complete_sound": "audio/sound/lanxing/spot/jtm_rns_239"
+  },
+  {
+    "customer_id": 1054,
+    "activity_id": 250601,
+    "order_type": 1,
+    "customer_location": 3,
+    "customer_skin": "right_18",
+    "customer_loading": 1,
+    "complete_sound": "audio/sound/dongchengxuanyin/spot/jtm_krn_238"
+  },
+  {
+    "customer_id": 1055,
+    "activity_id": 250601,
+    "order_type": 2,
+    "customer_location": 1,
+    "customer_skin": "2506_left_100",
+    "customer_loading": 0,
+    "complete_sound": "audio/sound/you/activity/qiululu1"
+  },
+  {
+    "customer_id": 1056,
+    "activity_id": 250601,
+    "order_type": 2,
+    "customer_location": 2,
+    "customer_skin": "2506_mid_100",
+    "customer_loading": 0,
+    "complete_sound": "audio/sound/you/activity/qiululu2"
+  },
+  {
+    "customer_id": 1057,
+    "activity_id": 250601,
+    "order_type": 2,
+    "customer_location": 3,
+    "customer_skin": "2506_right_100",
+    "customer_loading": 0,
+    "complete_sound": "audio/sound/you/activity/qiululu3"
+  },
+  {
+    "customer_id": 1058,
+    "activity_id": 250601,
+    "order_type": 2,
+    "customer_location": 2,
+    "customer_skin": "2506_mid_101",
+    "customer_loading": 0,
+    "complete_sound": "audio/sound/nianshou2025/activity/gift_short"
+  }
+]

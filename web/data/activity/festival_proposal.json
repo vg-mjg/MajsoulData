@@ -1,0 +1,762 @@
+[
+  [
+    {
+      "activity_id": 240401,
+      "proposal_id": 10001,
+      "unlock_level": 0,
+      "ending_group": [
+        1000101,
+        1000102
+      ],
+      "client_name": 2502,
+      "client_icon": "deco/emo/activity/2.png",
+      "proposal_text": 2503,
+      "option_text_a": 2504,
+      "option_text_b": 2505
+    },
+    {
+      "activity_id": 240401,
+      "proposal_id": 10002,
+      "unlock_level": 0,
+      "ending_group": [
+        1000201,
+        1000202
+      ],
+      "client_name": 2506,
+      "client_icon": "deco/emo/activity/3.png",
+      "proposal_text": 2507,
+      "option_text_a": 2508,
+      "option_text_b": 2509
+    },
+    {
+      "activity_id": 240401,
+      "proposal_id": 10003,
+      "unlock_level": 0,
+      "ending_group": [
+        1000301,
+        1000302
+      ],
+      "client_name": 2510,
+      "client_icon": "deco/emo/activity/7.png",
+      "proposal_text": 2511,
+      "option_text_a": 2512,
+      "option_text_b": 2513
+    },
+    {
+      "activity_id": 240401,
+      "proposal_id": 10004,
+      "unlock_level": 0,
+      "ending_group": [
+        1000401,
+        1000402
+      ],
+      "client_name": 2514,
+      "client_icon": "deco/emo/activity/1.png",
+      "proposal_text": 2515,
+      "option_text_a": 2516,
+      "option_text_b": 2517
+    },
+    {
+      "activity_id": 240401,
+      "proposal_id": 10005,
+      "unlock_level": 0,
+      "ending_group": [
+        1000501,
+        1000502
+      ],
+      "client_name": 2518,
+      "client_icon": "deco/emo/activity/7.png",
+      "proposal_text": 2519,
+      "option_text_a": 2520,
+      "option_text_b": 2521
+    },
+    {
+      "activity_id": 240401,
+      "proposal_id": 10006,
+      "unlock_level": 0,
+      "ending_group": [
+        1000601,
+        1000602
+      ],
+      "client_name": 2522,
+      "client_icon": "deco/emo/activity/2.png",
+      "proposal_text": 2523,
+      "option_text_a": 2524,
+      "option_text_b": 2525
+    },
+    {
+      "activity_id": 240401,
+      "proposal_id": 10007,
+      "unlock_level": 0,
+      "ending_group": [
+        1000701,
+        1000702
+      ],
+      "client_name": 2526,
+      "client_icon": "deco/emo/activity/4.png",
+      "proposal_text": 2527,
+      "option_text_a": 2528,
+      "option_text_b": 2529
+    },
+    {
+      "activity_id": 240401,
+      "proposal_id": 10008,
+      "unlock_level": 0,
+      "ending_group": [
+        1000801,
+        1000802
+      ],
+      "client_name": 2530,
+      "client_icon": "deco/emo/activity/1.png",
+      "proposal_text": 2531,
+      "option_text_a": 2532,
+      "option_text_b": 2533
+    },
+    {
+      "activity_id": 240401,
+      "proposal_id": 10009,
+      "unlock_level": 0,
+      "ending_group": [
+        1000901,
+        1000902
+      ],
+      "client_name": 2534,
+      "client_icon": "deco/emo/activity/2.png",
+      "proposal_text": 2535,
+      "option_text_a": 2536,
+      "option_text_b": 2537
+    },
+    {
+      "activity_id": 240401,
+      "proposal_id": 10010,
+      "unlock_level": 0,
+      "ending_group": [
+        1001001,
+        1001002
+      ],
+      "client_name": 2538,
+      "client_icon": "deco/emo/activity/5.png",
+      "proposal_text": 2539,
+      "option_text_a": 2540,
+      "option_text_b": 2541
+    },
+    {
+      "activity_id": 240401,
+      "proposal_id": 10011,
+      "unlock_level": 0,
+      "ending_group": [
+        1001101,
+        1001102
+      ],
+      "client_name": 2542,
+      "client_icon": "deco/emo/activity/3.png",
+      "proposal_text": 2543,
+      "option_text_a": 2544,
+      "option_text_b": 2545
+    },
+    {
+      "activity_id": 240401,
+      "proposal_id": 10012,
+      "unlock_level": 0,
+      "ending_group": [
+        1001201,
+        1001202
+      ],
+      "client_name": 2546,
+      "client_icon": "deco/emo/activity/7.png",
+      "proposal_text": 2547,
+      "option_text_a": 2548,
+      "option_text_b": 2549
+    },
+    {
+      "activity_id": 240401,
+      "proposal_id": 10013,
+      "unlock_level": 0,
+      "ending_group": [
+        1001301,
+        1001302
+      ],
+      "client_name": 2550,
+      "client_icon": "deco/emo/activity/6.png",
+      "proposal_text": 2551,
+      "option_text_a": 2552,
+      "option_text_b": 2553
+    },
+    {
+      "activity_id": 240401,
+      "proposal_id": 10014,
+      "unlock_level": 0,
+      "ending_group": [
+        1001401,
+        1001402
+      ],
+      "client_name": 2554,
+      "client_icon": "deco/emo/activity/3.png",
+      "proposal_text": 2555,
+      "option_text_a": 2556,
+      "option_text_b": 2557
+    },
+    {
+      "activity_id": 240401,
+      "proposal_id": 10015,
+      "unlock_level": 0,
+      "ending_group": [
+        1001501,
+        1001502
+      ],
+      "client_name": 2558,
+      "client_icon": "deco/emo/activity/8.png",
+      "proposal_text": 2559,
+      "option_text_a": 2560,
+      "option_text_b": 2561
+    },
+    {
+      "activity_id": 240401,
+      "proposal_id": 10016,
+      "unlock_level": 0,
+      "ending_group": [
+        1001601,
+        1001602
+      ],
+      "client_name": 2562,
+      "client_icon": "deco/emo/activity/5.png",
+      "proposal_text": 2563,
+      "option_text_a": 2564,
+      "option_text_b": 2565
+    },
+    {
+      "activity_id": 240401,
+      "proposal_id": 10017,
+      "unlock_level": 0,
+      "ending_group": [
+        1001701,
+        1001702
+      ],
+      "client_name": 2566,
+      "client_icon": "deco/emo/activity/1.png",
+      "proposal_text": 2567,
+      "option_text_a": 2568,
+      "option_text_b": 2569
+    },
+    {
+      "activity_id": 240401,
+      "proposal_id": 10018,
+      "unlock_level": 0,
+      "ending_group": [
+        1001801,
+        1001802
+      ],
+      "client_name": 2570,
+      "client_icon": "deco/emo/activity/8.png",
+      "proposal_text": 2571,
+      "option_text_a": 2572,
+      "option_text_b": 2573
+    },
+    {
+      "activity_id": 240401,
+      "proposal_id": 10019,
+      "unlock_level": 0,
+      "ending_group": [
+        1001901,
+        1001902
+      ],
+      "client_name": 2574,
+      "client_icon": "deco/emo/activity/6.png",
+      "proposal_text": 2575,
+      "option_text_a": 2576,
+      "option_text_b": 2577
+    },
+    {
+      "activity_id": 240401,
+      "proposal_id": 10020,
+      "unlock_level": 0,
+      "ending_group": [
+        1002001,
+        1002002
+      ],
+      "client_name": 2578,
+      "client_icon": "deco/emo/activity/7.png",
+      "proposal_text": 2579,
+      "option_text_a": 2580,
+      "option_text_b": 2581
+    },
+    {
+      "activity_id": 240401,
+      "proposal_id": 10021,
+      "unlock_level": 0,
+      "ending_group": [
+        1002101,
+        1002102
+      ],
+      "client_name": 2582,
+      "client_icon": "deco/emo/activity/4.png",
+      "proposal_text": 2583,
+      "option_text_a": 2584,
+      "option_text_b": 2585
+    },
+    {
+      "activity_id": 240401,
+      "proposal_id": 10022,
+      "unlock_level": 0,
+      "ending_group": [
+        1002201,
+        1002202
+      ],
+      "client_name": 2586,
+      "client_icon": "deco/emo/activity/5.png",
+      "proposal_text": 2587,
+      "option_text_a": 2588,
+      "option_text_b": 2589
+    },
+    {
+      "activity_id": 240401,
+      "proposal_id": 10023,
+      "unlock_level": 0,
+      "ending_group": [
+        1002301,
+        1002302
+      ],
+      "client_name": 2590,
+      "client_icon": "deco/emo/activity/1.png",
+      "proposal_text": 2591,
+      "option_text_a": 2592,
+      "option_text_b": 2593
+    },
+    {
+      "activity_id": 240401,
+      "proposal_id": 10024,
+      "unlock_level": 0,
+      "ending_group": [
+        1002401,
+        1002402
+      ],
+      "client_name": 2594,
+      "client_icon": "deco/emo/activity/7.png",
+      "proposal_text": 2595,
+      "option_text_a": 2596,
+      "option_text_b": 2597
+    },
+    {
+      "activity_id": 240401,
+      "proposal_id": 10025,
+      "unlock_level": 0,
+      "ending_group": [
+        1002501,
+        1002502
+      ],
+      "client_name": 2598,
+      "client_icon": "deco/emo/activity/1.png",
+      "proposal_text": 2599,
+      "option_text_a": 2600,
+      "option_text_b": 2601
+    },
+    {
+      "activity_id": 240401,
+      "proposal_id": 10026,
+      "unlock_level": 0,
+      "ending_group": [
+        1002601,
+        1002602
+      ],
+      "client_name": 2602,
+      "client_icon": "deco/emo/activity/2.png",
+      "proposal_text": 2603,
+      "option_text_a": 2604,
+      "option_text_b": 2605
+    },
+    {
+      "activity_id": 240401,
+      "proposal_id": 10027,
+      "unlock_level": 0,
+      "ending_group": [
+        1002701,
+        1002702
+      ],
+      "client_name": 2606,
+      "client_icon": "deco/emo/activity/8.png",
+      "proposal_text": 2607,
+      "option_text_a": 2608,
+      "option_text_b": 2609
+    },
+    {
+      "activity_id": 240401,
+      "proposal_id": 10028,
+      "unlock_level": 0,
+      "ending_group": [
+        1002801,
+        1002802
+      ],
+      "client_name": 2610,
+      "client_icon": "deco/emo/activity/2.png",
+      "proposal_text": 2611,
+      "option_text_a": 2612,
+      "option_text_b": 2613
+    },
+    {
+      "activity_id": 240401,
+      "proposal_id": 10029,
+      "unlock_level": 0,
+      "ending_group": [
+        1002901,
+        1002902
+      ],
+      "client_name": 2614,
+      "client_icon": "deco/emo/activity/2.png",
+      "proposal_text": 2615,
+      "option_text_a": 2616,
+      "option_text_b": 2617
+    }
+  ],
+  [
+    {
+      "activity_id": 250101,
+      "proposal_id": 20001,
+      "unlock_level": 0,
+      "ending_group": [
+        2000101,
+        2000102
+      ],
+      "client_name": 3290,
+      "client_icon": "deco/emo/activity/9.png",
+      "proposal_text": 3291,
+      "option_text_a": 3292,
+      "option_text_b": 3293
+    },
+    {
+      "activity_id": 250101,
+      "proposal_id": 20002,
+      "unlock_level": 0,
+      "ending_group": [
+        2000201,
+        2000202
+      ],
+      "client_name": 3294,
+      "client_icon": "deco/emo/activity/9.png",
+      "proposal_text": 3295,
+      "option_text_a": 3296,
+      "option_text_b": 3297
+    },
+    {
+      "activity_id": 250101,
+      "proposal_id": 20003,
+      "unlock_level": 0,
+      "ending_group": [
+        2000301,
+        2000302
+      ],
+      "client_name": 3298,
+      "client_icon": "deco/emo/activity/9.png",
+      "proposal_text": 3299,
+      "option_text_a": 3300,
+      "option_text_b": 3301
+    },
+    {
+      "activity_id": 250101,
+      "proposal_id": 20004,
+      "unlock_level": 0,
+      "ending_group": [
+        2000401,
+        2000402
+      ],
+      "client_name": 3302,
+      "client_icon": "deco/emo/activity/9.png",
+      "proposal_text": 3303,
+      "option_text_a": 3304,
+      "option_text_b": 3305
+    },
+    {
+      "activity_id": 250101,
+      "proposal_id": 20005,
+      "unlock_level": 0,
+      "ending_group": [
+        2000501,
+        2000502
+      ],
+      "client_name": 3306,
+      "client_icon": "deco/emo/activity/9.png",
+      "proposal_text": 3307,
+      "option_text_a": 3308,
+      "option_text_b": 3309
+    },
+    {
+      "activity_id": 250101,
+      "proposal_id": 20006,
+      "unlock_level": 0,
+      "ending_group": [
+        2000601,
+        2000602
+      ],
+      "client_name": 3310,
+      "client_icon": "deco/emo/activity/9.png",
+      "proposal_text": 3311,
+      "option_text_a": 3312,
+      "option_text_b": 3313
+    },
+    {
+      "activity_id": 250101,
+      "proposal_id": 20007,
+      "unlock_level": 0,
+      "ending_group": [
+        2000701,
+        2000702
+      ],
+      "client_name": 3314,
+      "client_icon": "deco/emo/activity/9.png",
+      "proposal_text": 3315,
+      "option_text_a": 3316,
+      "option_text_b": 3317
+    },
+    {
+      "activity_id": 250101,
+      "proposal_id": 20008,
+      "unlock_level": 0,
+      "ending_group": [
+        2000801,
+        2000802
+      ],
+      "client_name": 3318,
+      "client_icon": "deco/emo/activity/9.png",
+      "proposal_text": 3319,
+      "option_text_a": 3320,
+      "option_text_b": 3321
+    },
+    {
+      "activity_id": 250101,
+      "proposal_id": 20009,
+      "unlock_level": 0,
+      "ending_group": [
+        2000901,
+        2000902
+      ],
+      "client_name": 3322,
+      "client_icon": "deco/emo/activity/9.png",
+      "proposal_text": 3323,
+      "option_text_a": 3324,
+      "option_text_b": 3325
+    },
+    {
+      "activity_id": 250101,
+      "proposal_id": 20010,
+      "unlock_level": 0,
+      "ending_group": [
+        2001001,
+        2001002
+      ],
+      "client_name": 3326,
+      "client_icon": "deco/emo/activity/9.png",
+      "proposal_text": 3327,
+      "option_text_a": 3328,
+      "option_text_b": 3329
+    },
+    {
+      "activity_id": 250101,
+      "proposal_id": 20011,
+      "unlock_level": 0,
+      "ending_group": [
+        2001101,
+        2001102
+      ],
+      "client_name": 3330,
+      "client_icon": "deco/emo/activity/9.png",
+      "proposal_text": 3331,
+      "option_text_a": 3332,
+      "option_text_b": 3333
+    },
+    {
+      "activity_id": 250101,
+      "proposal_id": 20012,
+      "unlock_level": 0,
+      "ending_group": [
+        2001201,
+        2001202
+      ],
+      "client_name": 3334,
+      "client_icon": "deco/emo/activity/9.png",
+      "proposal_text": 3335,
+      "option_text_a": 3336,
+      "option_text_b": 3337
+    },
+    {
+      "activity_id": 250101,
+      "proposal_id": 20013,
+      "unlock_level": 0,
+      "ending_group": [
+        2001301,
+        2001302
+      ],
+      "client_name": 3338,
+      "client_icon": "deco/emo/activity/9.png",
+      "proposal_text": 3339,
+      "option_text_a": 3340,
+      "option_text_b": 3341
+    },
+    {
+      "activity_id": 250101,
+      "proposal_id": 20014,
+      "unlock_level": 0,
+      "ending_group": [
+        2001401,
+        2001402
+      ],
+      "client_name": 3342,
+      "client_icon": "deco/emo/activity/9.png",
+      "proposal_text": 3343,
+      "option_text_a": 3344,
+      "option_text_b": 3345
+    },
+    {
+      "activity_id": 250101,
+      "proposal_id": 20015,
+      "unlock_level": 0,
+      "ending_group": [
+        2001501,
+        2001502
+      ],
+      "client_name": 3346,
+      "client_icon": "deco/emo/activity/9.png",
+      "proposal_text": 3347,
+      "option_text_a": 3348,
+      "option_text_b": 3349
+    },
+    {
+      "activity_id": 250101,
+      "proposal_id": 20016,
+      "unlock_level": 0,
+      "ending_group": [
+        2001601,
+        2001602
+      ],
+      "client_name": 3350,
+      "client_icon": "deco/emo/activity/9.png",
+      "proposal_text": 3351,
+      "option_text_a": 3352,
+      "option_text_b": 3353
+    },
+    {
+      "activity_id": 250101,
+      "proposal_id": 20017,
+      "unlock_level": 0,
+      "ending_group": [
+        2001701,
+        2001702
+      ],
+      "client_name": 3354,
+      "client_icon": "deco/emo/activity/9.png",
+      "proposal_text": 3355,
+      "option_text_a": 3356,
+      "option_text_b": 3357
+    },
+    {
+      "activity_id": 250101,
+      "proposal_id": 20018,
+      "unlock_level": 0,
+      "ending_group": [
+        2001801,
+        2001802
+      ],
+      "client_name": 3358,
+      "client_icon": "deco/emo/activity/9.png",
+      "proposal_text": 3359,
+      "option_text_a": 3360,
+      "option_text_b": 3361
+    },
+    {
+      "activity_id": 250101,
+      "proposal_id": 20019,
+      "unlock_level": 0,
+      "ending_group": [
+        2001901,
+        2001902
+      ],
+      "client_name": 3362,
+      "client_icon": "deco/emo/activity/9.png",
+      "proposal_text": 3363,
+      "option_text_a": 3364,
+      "option_text_b": 3365
+    },
+    {
+      "activity_id": 250101,
+      "proposal_id": 20020,
+      "unlock_level": 0,
+      "ending_group": [
+        2002001,
+        2002002
+      ],
+      "client_name": 3366,
+      "client_icon": "deco/emo/activity/9.png",
+      "proposal_text": 3367,
+      "option_text_a": 3368,
+      "option_text_b": 3369
+    },
+    {
+      "activity_id": 250101,
+      "proposal_id": 20021,
+      "unlock_level": 0,
+      "ending_group": [
+        2002101,
+        2002102
+      ],
+      "client_name": 3370,
+      "client_icon": "deco/emo/activity/9.png",
+      "proposal_text": 3371,
+      "option_text_a": 3372,
+      "option_text_b": 3373
+    },
+    {
+      "activity_id": 250101,
+      "proposal_id": 20022,
+      "unlock_level": 0,
+      "ending_group": [
+        2002201,
+        2002202
+      ],
+      "client_name": 3374,
+      "client_icon": "deco/emo/activity/9.png",
+      "proposal_text": 3375,
+      "option_text_a": 3376,
+      "option_text_b": 3377
+    },
+    {
+      "activity_id": 250101,
+      "proposal_id": 20023,
+      "unlock_level": 0,
+      "ending_group": [
+        2002301,
+        2002302
+      ],
+      "client_name": 3378,
+      "client_icon": "deco/emo/activity/9.png",
+      "proposal_text": 3379,
+      "option_text_a": 3380,
+      "option_text_b": 3381
+    },
+    {
+      "activity_id": 250101,
+      "proposal_id": 20024,
+      "unlock_level": 0,
+      "ending_group": [
+        2002401,
+        2002402
+      ],
+      "client_name": 3382,
+      "client_icon": "deco/emo/activity/9.png",
+      "proposal_text": 3383,
+      "option_text_a": 3384,
+      "option_text_b": 3385
+    },
+    {
+      "activity_id": 250101,
+      "proposal_id": 20025,
+      "unlock_level": 0,
+      "ending_group": [
+        2002501,
+        2002502
+      ],
+      "client_name": 3386,
+      "client_icon": "deco/emo/activity/9.png",
+      "proposal_text": 3387,
+      "option_text_a": 3388,
+      "option_text_b": 3389
+    }
+  ]
+]

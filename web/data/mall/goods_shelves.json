@@ -1,0 +1,1106 @@
+[
+  [
+    {
+      "id": "shelves_001",
+      "goods_id": 1010,
+      "currency_code": "CNY",
+      "currency_price": 30000,
+      "price": "CNY 30",
+      "is_monthcard": 1
+    },
+    {
+      "id": "shelves_001",
+      "goods_id": 1001,
+      "currency_code": "CNY",
+      "currency_price": 12000,
+      "price": "CNY 12",
+      "is_monthcard": 0
+    },
+    {
+      "id": "shelves_001",
+      "goods_id": 1002,
+      "currency_code": "CNY",
+      "currency_price": 30000,
+      "price": "CNY 30",
+      "is_monthcard": 0
+    },
+    {
+      "id": "shelves_001",
+      "goods_id": 1003,
+      "currency_code": "CNY",
+      "currency_price": 60000,
+      "price": "CNY 60",
+      "is_monthcard": 0
+    },
+    {
+      "id": "shelves_001",
+      "goods_id": 1004,
+      "currency_code": "CNY",
+      "currency_price": 98000,
+      "price": "CNY 98",
+      "is_monthcard": 0
+    },
+    {
+      "id": "shelves_001",
+      "goods_id": 1005,
+      "currency_code": "CNY",
+      "currency_price": 128000,
+      "price": "CNY 128",
+      "is_monthcard": 0
+    },
+    {
+      "id": "shelves_001",
+      "goods_id": 1006,
+      "currency_code": "CNY",
+      "currency_price": 198000,
+      "price": "CNY 198",
+      "is_monthcard": 0
+    },
+    {
+      "id": "shelves_001",
+      "goods_id": 1007,
+      "currency_code": "CNY",
+      "currency_price": 328000,
+      "price": "CNY 328",
+      "is_monthcard": 0
+    },
+    {
+      "id": "shelves_001",
+      "goods_id": 1008,
+      "currency_code": "CNY",
+      "currency_price": 648000,
+      "price": "CNY 648",
+      "is_monthcard": 0
+    },
+    {
+      "id": "shelves_001",
+      "goods_id": 1101,
+      "currency_code": "CNY",
+      "currency_price": 12000,
+      "price": "CNY 12",
+      "is_monthcard": 0
+    },
+    {
+      "id": "shelves_001",
+      "goods_id": 1102,
+      "currency_code": "CNY",
+      "currency_price": 30000,
+      "price": "CNY 30",
+      "is_monthcard": 0
+    },
+    {
+      "id": "shelves_001",
+      "goods_id": 1103,
+      "currency_code": "CNY",
+      "currency_price": 60000,
+      "price": "CNY 60",
+      "is_monthcard": 0
+    },
+    {
+      "id": "shelves_001",
+      "goods_id": 1104,
+      "currency_code": "CNY",
+      "currency_price": 98000,
+      "price": "CNY 98",
+      "is_monthcard": 0
+    },
+    {
+      "id": "shelves_001",
+      "goods_id": 1105,
+      "currency_code": "CNY",
+      "currency_price": 128000,
+      "price": "CNY 128",
+      "is_monthcard": 0
+    },
+    {
+      "id": "shelves_001",
+      "goods_id": 1106,
+      "currency_code": "CNY",
+      "currency_price": 198000,
+      "price": "CNY 198",
+      "is_monthcard": 0
+    },
+    {
+      "id": "shelves_001",
+      "goods_id": 1107,
+      "currency_code": "CNY",
+      "currency_price": 328000,
+      "price": "CNY 328",
+      "is_monthcard": 0
+    },
+    {
+      "id": "shelves_001",
+      "goods_id": 1108,
+      "currency_code": "CNY",
+      "currency_price": 648000,
+      "price": "CNY 648",
+      "is_monthcard": 0
+    }
+  ],
+  [
+    {
+      "id": "shelves_002",
+      "goods_id": 2010,
+      "currency_code": "JPY",
+      "currency_price": 650000,
+      "price": "JPY 650",
+      "is_monthcard": 1
+    },
+    {
+      "id": "shelves_002",
+      "goods_id": 2001,
+      "currency_code": "JPY",
+      "currency_price": 160000,
+      "price": "JPY 160",
+      "is_monthcard": 0
+    },
+    {
+      "id": "shelves_002",
+      "goods_id": 2002,
+      "currency_code": "JPY",
+      "currency_price": 650000,
+      "price": "JPY 650",
+      "is_monthcard": 0
+    },
+    {
+      "id": "shelves_002",
+      "goods_id": 2003,
+      "currency_code": "JPY",
+      "currency_price": 1000000,
+      "price": "JPY 1000",
+      "is_monthcard": 0
+    },
+    {
+      "id": "shelves_002",
+      "goods_id": 2004,
+      "currency_code": "JPY",
+      "currency_price": 1800000,
+      "price": "JPY 1800",
+      "is_monthcard": 0
+    },
+    {
+      "id": "shelves_002",
+      "goods_id": 2005,
+      "currency_code": "JPY",
+      "currency_price": 2400000,
+      "price": "JPY 2400",
+      "is_monthcard": 0
+    },
+    {
+      "id": "shelves_002",
+      "goods_id": 2006,
+      "currency_code": "JPY",
+      "currency_price": 3800000,
+      "price": "JPY 3800",
+      "is_monthcard": 0
+    },
+    {
+      "id": "shelves_002",
+      "goods_id": 2007,
+      "currency_code": "JPY",
+      "currency_price": 4900000,
+      "price": "JPY 4900",
+      "is_monthcard": 0
+    },
+    {
+      "id": "shelves_002",
+      "goods_id": 2008,
+      "currency_code": "JPY",
+      "currency_price": 10000000,
+      "price": "JPY 10000",
+      "is_monthcard": 0
+    },
+    {
+      "id": "shelves_002",
+      "goods_id": 2101,
+      "currency_code": "JPY",
+      "currency_price": 160000,
+      "price": "JPY 160",
+      "is_monthcard": 0
+    },
+    {
+      "id": "shelves_002",
+      "goods_id": 2102,
+      "currency_code": "JPY",
+      "currency_price": 650000,
+      "price": "JPY 650",
+      "is_monthcard": 0
+    },
+    {
+      "id": "shelves_002",
+      "goods_id": 2103,
+      "currency_code": "JPY",
+      "currency_price": 1000000,
+      "price": "JPY 1000",
+      "is_monthcard": 0
+    },
+    {
+      "id": "shelves_002",
+      "goods_id": 2104,
+      "currency_code": "JPY",
+      "currency_price": 1800000,
+      "price": "JPY 1800",
+      "is_monthcard": 0
+    },
+    {
+      "id": "shelves_002",
+      "goods_id": 2105,
+      "currency_code": "JPY",
+      "currency_price": 2400000,
+      "price": "JPY 2400",
+      "is_monthcard": 0
+    },
+    {
+      "id": "shelves_002",
+      "goods_id": 2106,
+      "currency_code": "JPY",
+      "currency_price": 3800000,
+      "price": "JPY 3800",
+      "is_monthcard": 0
+    },
+    {
+      "id": "shelves_002",
+      "goods_id": 2107,
+      "currency_code": "JPY",
+      "currency_price": 4900000,
+      "price": "JPY 4900",
+      "is_monthcard": 0
+    },
+    {
+      "id": "shelves_002",
+      "goods_id": 2108,
+      "currency_code": "JPY",
+      "currency_price": 10000000,
+      "price": "JPY 10000",
+      "is_monthcard": 0
+    }
+  ],
+  [
+    {
+      "id": "shelves_003",
+      "goods_id": 3010,
+      "currency_code": "USD",
+      "currency_price": 4990,
+      "price": "USD 4.99",
+      "is_monthcard": 1
+    },
+    {
+      "id": "shelves_003",
+      "goods_id": 3001,
+      "currency_code": "USD",
+      "currency_price": 990,
+      "price": "USD 0.99",
+      "is_monthcard": 0
+    },
+    {
+      "id": "shelves_003",
+      "goods_id": 3002,
+      "currency_code": "USD",
+      "currency_price": 4990,
+      "price": "USD 4.99",
+      "is_monthcard": 0
+    },
+    {
+      "id": "shelves_003",
+      "goods_id": 3003,
+      "currency_code": "USD",
+      "currency_price": 7990,
+      "price": "USD 7.99",
+      "is_monthcard": 0
+    },
+    {
+      "id": "shelves_003",
+      "goods_id": 3004,
+      "currency_code": "USD",
+      "currency_price": 14990,
+      "price": "USD 14.99",
+      "is_monthcard": 0
+    },
+    {
+      "id": "shelves_003",
+      "goods_id": 3005,
+      "currency_code": "USD",
+      "currency_price": 19990,
+      "price": "USD 19.99",
+      "is_monthcard": 0
+    },
+    {
+      "id": "shelves_003",
+      "goods_id": 3006,
+      "currency_code": "USD",
+      "currency_price": 29990,
+      "price": "USD 29.99",
+      "is_monthcard": 0
+    },
+    {
+      "id": "shelves_003",
+      "goods_id": 3007,
+      "currency_code": "USD",
+      "currency_price": 39990,
+      "price": "USD 39.99",
+      "is_monthcard": 0
+    },
+    {
+      "id": "shelves_003",
+      "goods_id": 3008,
+      "currency_code": "USD",
+      "currency_price": 79990,
+      "price": "USD 79.99",
+      "is_monthcard": 0
+    },
+    {
+      "id": "shelves_003",
+      "goods_id": 3101,
+      "currency_code": "USD",
+      "currency_price": 990,
+      "price": "USD 0.99",
+      "is_monthcard": 0
+    },
+    {
+      "id": "shelves_003",
+      "goods_id": 3102,
+      "currency_code": "USD",
+      "currency_price": 4990,
+      "price": "USD 4.99",
+      "is_monthcard": 0
+    },
+    {
+      "id": "shelves_003",
+      "goods_id": 3103,
+      "currency_code": "USD",
+      "currency_price": 7990,
+      "price": "USD 7.99",
+      "is_monthcard": 0
+    },
+    {
+      "id": "shelves_003",
+      "goods_id": 3104,
+      "currency_code": "USD",
+      "currency_price": 14990,
+      "price": "USD 14.99",
+      "is_monthcard": 0
+    },
+    {
+      "id": "shelves_003",
+      "goods_id": 3105,
+      "currency_code": "USD",
+      "currency_price": 19990,
+      "price": "USD 19.99",
+      "is_monthcard": 0
+    },
+    {
+      "id": "shelves_003",
+      "goods_id": 3106,
+      "currency_code": "USD",
+      "currency_price": 29990,
+      "price": "USD 29.99",
+      "is_monthcard": 0
+    },
+    {
+      "id": "shelves_003",
+      "goods_id": 3107,
+      "currency_code": "USD",
+      "currency_price": 39990,
+      "price": "USD 39.99",
+      "is_monthcard": 0
+    },
+    {
+      "id": "shelves_003",
+      "goods_id": 3108,
+      "currency_code": "USD",
+      "currency_price": 79990,
+      "price": "USD 79.99",
+      "is_monthcard": 0
+    }
+  ],
+  [
+    {
+      "id": "shelves_004",
+      "goods_id": 1010,
+      "currency_code": "NTD",
+      "currency_price": 170000,
+      "price": "NTD 170",
+      "is_monthcard": 1
+    },
+    {
+      "id": "shelves_004",
+      "goods_id": 4001,
+      "currency_code": "NTD",
+      "currency_price": 33000,
+      "price": "NTD 33",
+      "is_monthcard": 0
+    },
+    {
+      "id": "shelves_004",
+      "goods_id": 4002,
+      "currency_code": "NTD",
+      "currency_price": 170000,
+      "price": "NTD 170",
+      "is_monthcard": 0
+    },
+    {
+      "id": "shelves_004",
+      "goods_id": 4003,
+      "currency_code": "NTD",
+      "currency_price": 330000,
+      "price": "NTD 330",
+      "is_monthcard": 0
+    },
+    {
+      "id": "shelves_004",
+      "goods_id": 4004,
+      "currency_code": "NTD",
+      "currency_price": 590000,
+      "price": "NTD 590",
+      "is_monthcard": 0
+    },
+    {
+      "id": "shelves_004",
+      "goods_id": 4005,
+      "currency_code": "NTD",
+      "currency_price": 990000,
+      "price": "NTD 990",
+      "is_monthcard": 0
+    },
+    {
+      "id": "shelves_004",
+      "goods_id": 4006,
+      "currency_code": "NTD",
+      "currency_price": 1320000,
+      "price": "NTD 1320",
+      "is_monthcard": 0
+    },
+    {
+      "id": "shelves_004",
+      "goods_id": 4007,
+      "currency_code": "NTD",
+      "currency_price": 1690000,
+      "price": "NTD 1690",
+      "is_monthcard": 0
+    },
+    {
+      "id": "shelves_004",
+      "goods_id": 4008,
+      "currency_code": "NTD",
+      "currency_price": 2990000,
+      "price": "NTD 2990",
+      "is_monthcard": 0
+    },
+    {
+      "id": "shelves_004",
+      "goods_id": 4101,
+      "currency_code": "NTD",
+      "currency_price": 33000,
+      "price": "NTD 33",
+      "is_monthcard": 0
+    },
+    {
+      "id": "shelves_004",
+      "goods_id": 4102,
+      "currency_code": "NTD",
+      "currency_price": 170000,
+      "price": "NTD 170",
+      "is_monthcard": 0
+    },
+    {
+      "id": "shelves_004",
+      "goods_id": 4103,
+      "currency_code": "NTD",
+      "currency_price": 330000,
+      "price": "NTD 330",
+      "is_monthcard": 0
+    },
+    {
+      "id": "shelves_004",
+      "goods_id": 4104,
+      "currency_code": "NTD",
+      "currency_price": 590000,
+      "price": "NTD 590",
+      "is_monthcard": 0
+    },
+    {
+      "id": "shelves_004",
+      "goods_id": 4105,
+      "currency_code": "NTD",
+      "currency_price": 990000,
+      "price": "NTD 990",
+      "is_monthcard": 0
+    },
+    {
+      "id": "shelves_004",
+      "goods_id": 4106,
+      "currency_code": "NTD",
+      "currency_price": 1320000,
+      "price": "NTD 1320",
+      "is_monthcard": 0
+    },
+    {
+      "id": "shelves_004",
+      "goods_id": 4107,
+      "currency_code": "NTD",
+      "currency_price": 1690000,
+      "price": "NTD 1690",
+      "is_monthcard": 0
+    },
+    {
+      "id": "shelves_004",
+      "goods_id": 4108,
+      "currency_code": "NTD",
+      "currency_price": 2990000,
+      "price": "NTD 2990",
+      "is_monthcard": 0
+    }
+  ],
+  [
+    {
+      "id": "shelves_005",
+      "goods_id": 2010,
+      "currency_code": "JPY",
+      "currency_price": 650000,
+      "price": "650 ポイント",
+      "is_monthcard": 1
+    },
+    {
+      "id": "shelves_005",
+      "goods_id": 2001,
+      "currency_code": "JPY",
+      "currency_price": 160000,
+      "price": "160 ポイント",
+      "is_monthcard": 0
+    },
+    {
+      "id": "shelves_005",
+      "goods_id": 2002,
+      "currency_code": "JPY",
+      "currency_price": 650000,
+      "price": "650 ポイント",
+      "is_monthcard": 0
+    },
+    {
+      "id": "shelves_005",
+      "goods_id": 2003,
+      "currency_code": "JPY",
+      "currency_price": 1000000,
+      "price": "1000 ポイント",
+      "is_monthcard": 0
+    },
+    {
+      "id": "shelves_005",
+      "goods_id": 2004,
+      "currency_code": "JPY",
+      "currency_price": 1800000,
+      "price": "1800 ポイント",
+      "is_monthcard": 0
+    },
+    {
+      "id": "shelves_005",
+      "goods_id": 2005,
+      "currency_code": "JPY",
+      "currency_price": 2400000,
+      "price": "2400 ポイント",
+      "is_monthcard": 0
+    },
+    {
+      "id": "shelves_005",
+      "goods_id": 2006,
+      "currency_code": "JPY",
+      "currency_price": 3800000,
+      "price": "3800 ポイント",
+      "is_monthcard": 0
+    },
+    {
+      "id": "shelves_005",
+      "goods_id": 2007,
+      "currency_code": "JPY",
+      "currency_price": 4900000,
+      "price": "4900 ポイント",
+      "is_monthcard": 0
+    },
+    {
+      "id": "shelves_005",
+      "goods_id": 2008,
+      "currency_code": "JPY",
+      "currency_price": 10000000,
+      "price": "10000 ポイント",
+      "is_monthcard": 0
+    },
+    {
+      "id": "shelves_005",
+      "goods_id": 2101,
+      "currency_code": "JPY",
+      "currency_price": 160000,
+      "price": "160 ポイント",
+      "is_monthcard": 0
+    },
+    {
+      "id": "shelves_005",
+      "goods_id": 2102,
+      "currency_code": "JPY",
+      "currency_price": 650000,
+      "price": "650 ポイント",
+      "is_monthcard": 0
+    },
+    {
+      "id": "shelves_005",
+      "goods_id": 2103,
+      "currency_code": "JPY",
+      "currency_price": 1000000,
+      "price": "1000 ポイント",
+      "is_monthcard": 0
+    },
+    {
+      "id": "shelves_005",
+      "goods_id": 2104,
+      "currency_code": "JPY",
+      "currency_price": 1800000,
+      "price": "1800 ポイント",
+      "is_monthcard": 0
+    },
+    {
+      "id": "shelves_005",
+      "goods_id": 2105,
+      "currency_code": "JPY",
+      "currency_price": 2400000,
+      "price": "2400 ポイント",
+      "is_monthcard": 0
+    },
+    {
+      "id": "shelves_005",
+      "goods_id": 2106,
+      "currency_code": "JPY",
+      "currency_price": 3800000,
+      "price": "3800 ポイント",
+      "is_monthcard": 0
+    },
+    {
+      "id": "shelves_005",
+      "goods_id": 2107,
+      "currency_code": "JPY",
+      "currency_price": 4900000,
+      "price": "4900 ポイント",
+      "is_monthcard": 0
+    },
+    {
+      "id": "shelves_005",
+      "goods_id": 2108,
+      "currency_code": "JPY",
+      "currency_price": 10000000,
+      "price": "10000 ポイント",
+      "is_monthcard": 0
+    }
+  ],
+  [
+    {
+      "id": "shelves_006",
+      "goods_id": 1010,
+      "currency_code": "USD",
+      "currency_price": 5500,
+      "price": "USD 5.50",
+      "is_monthcard": 1
+    },
+    {
+      "id": "shelves_006",
+      "goods_id": 4001,
+      "currency_code": "USD",
+      "currency_price": 1100,
+      "price": "USD 1.10",
+      "is_monthcard": 0
+    },
+    {
+      "id": "shelves_006",
+      "goods_id": 4002,
+      "currency_code": "USD",
+      "currency_price": 5500,
+      "price": "USD 5.50",
+      "is_monthcard": 0
+    },
+    {
+      "id": "shelves_006",
+      "goods_id": 4003,
+      "currency_code": "USD",
+      "currency_price": 10500,
+      "price": "USD 10.50",
+      "is_monthcard": 0
+    },
+    {
+      "id": "shelves_006",
+      "goods_id": 4004,
+      "currency_code": "USD",
+      "currency_price": 18990,
+      "price": "USD 18.99",
+      "is_monthcard": 0
+    },
+    {
+      "id": "shelves_006",
+      "goods_id": 4005,
+      "currency_code": "USD",
+      "currency_price": 32990,
+      "price": "USD 32.99",
+      "is_monthcard": 0
+    },
+    {
+      "id": "shelves_006",
+      "goods_id": 4006,
+      "currency_code": "USD",
+      "currency_price": 43990,
+      "price": "USD 43.99",
+      "is_monthcard": 0
+    },
+    {
+      "id": "shelves_006",
+      "goods_id": 4007,
+      "currency_code": "USD",
+      "currency_price": 56990,
+      "price": "USD 56.99",
+      "is_monthcard": 0
+    },
+    {
+      "id": "shelves_006",
+      "goods_id": 4008,
+      "currency_code": "USD",
+      "currency_price": 99990,
+      "price": "USD 99.99",
+      "is_monthcard": 0
+    },
+    {
+      "id": "shelves_006",
+      "goods_id": 4101,
+      "currency_code": "USD",
+      "currency_price": 1100,
+      "price": "USD 1.10",
+      "is_monthcard": 0
+    },
+    {
+      "id": "shelves_006",
+      "goods_id": 4102,
+      "currency_code": "USD",
+      "currency_price": 5500,
+      "price": "USD 5.50",
+      "is_monthcard": 0
+    },
+    {
+      "id": "shelves_006",
+      "goods_id": 4103,
+      "currency_code": "USD",
+      "currency_price": 10500,
+      "price": "USD 10.50",
+      "is_monthcard": 0
+    },
+    {
+      "id": "shelves_006",
+      "goods_id": 4104,
+      "currency_code": "USD",
+      "currency_price": 18990,
+      "price": "USD 18.99",
+      "is_monthcard": 0
+    },
+    {
+      "id": "shelves_006",
+      "goods_id": 4105,
+      "currency_code": "USD",
+      "currency_price": 32990,
+      "price": "USD 32.99",
+      "is_monthcard": 0
+    },
+    {
+      "id": "shelves_006",
+      "goods_id": 4106,
+      "currency_code": "USD",
+      "currency_price": 43990,
+      "price": "USD 43.99",
+      "is_monthcard": 0
+    },
+    {
+      "id": "shelves_006",
+      "goods_id": 4107,
+      "currency_code": "USD",
+      "currency_price": 56990,
+      "price": "USD 56.99",
+      "is_monthcard": 0
+    },
+    {
+      "id": "shelves_006",
+      "goods_id": 4108,
+      "currency_code": "USD",
+      "currency_price": 99990,
+      "price": "USD 99.99",
+      "is_monthcard": 0
+    }
+  ],
+  [
+    {
+      "id": "shelves_007",
+      "goods_id": 5010,
+      "currency_code": "KPW",
+      "currency_price": 7500000,
+      "price": "₩7,500",
+      "is_monthcard": 1
+    },
+    {
+      "id": "shelves_007",
+      "goods_id": 5001,
+      "currency_code": "KPW",
+      "currency_price": 1500000,
+      "price": "₩1,500",
+      "is_monthcard": 0
+    },
+    {
+      "id": "shelves_007",
+      "goods_id": 5002,
+      "currency_code": "KPW",
+      "currency_price": 7500000,
+      "price": "₩7,500",
+      "is_monthcard": 0
+    },
+    {
+      "id": "shelves_007",
+      "goods_id": 5003,
+      "currency_code": "KPW",
+      "currency_price": 12000000,
+      "price": "₩12,000",
+      "is_monthcard": 0
+    },
+    {
+      "id": "shelves_007",
+      "goods_id": 5004,
+      "currency_code": "KPW",
+      "currency_price": 23000000,
+      "price": "₩23,000",
+      "is_monthcard": 0
+    },
+    {
+      "id": "shelves_007",
+      "goods_id": 5005,
+      "currency_code": "KPW",
+      "currency_price": 30000000,
+      "price": "₩30,000",
+      "is_monthcard": 0
+    },
+    {
+      "id": "shelves_007",
+      "goods_id": 5006,
+      "currency_code": "KPW",
+      "currency_price": 45000000,
+      "price": "₩45,000",
+      "is_monthcard": 0
+    },
+    {
+      "id": "shelves_007",
+      "goods_id": 5007,
+      "currency_code": "KPW",
+      "currency_price": 60000000,
+      "price": "₩60,000",
+      "is_monthcard": 0
+    },
+    {
+      "id": "shelves_007",
+      "goods_id": 5008,
+      "currency_code": "KPW",
+      "currency_price": 119000000,
+      "price": "₩119,000",
+      "is_monthcard": 0
+    },
+    {
+      "id": "shelves_007",
+      "goods_id": 5101,
+      "currency_code": "KPW",
+      "currency_price": 1500000,
+      "price": "₩1,500",
+      "is_monthcard": 0
+    },
+    {
+      "id": "shelves_007",
+      "goods_id": 5102,
+      "currency_code": "KPW",
+      "currency_price": 7500000,
+      "price": "₩7,500",
+      "is_monthcard": 0
+    },
+    {
+      "id": "shelves_007",
+      "goods_id": 5103,
+      "currency_code": "KPW",
+      "currency_price": 12000000,
+      "price": "₩12,000",
+      "is_monthcard": 0
+    },
+    {
+      "id": "shelves_007",
+      "goods_id": 5104,
+      "currency_code": "KPW",
+      "currency_price": 23000000,
+      "price": "₩23,000",
+      "is_monthcard": 0
+    },
+    {
+      "id": "shelves_007",
+      "goods_id": 5105,
+      "currency_code": "KPW",
+      "currency_price": 30000000,
+      "price": "₩30,000",
+      "is_monthcard": 0
+    },
+    {
+      "id": "shelves_007",
+      "goods_id": 5106,
+      "currency_code": "KPW",
+      "currency_price": 45000000,
+      "price": "₩45,000",
+      "is_monthcard": 0
+    },
+    {
+      "id": "shelves_007",
+      "goods_id": 5107,
+      "currency_code": "KPW",
+      "currency_price": 60000000,
+      "price": "₩60,000",
+      "is_monthcard": 0
+    },
+    {
+      "id": "shelves_007",
+      "goods_id": 5108,
+      "currency_code": "KPW",
+      "currency_price": 119000000,
+      "price": "₩119,000",
+      "is_monthcard": 0
+    }
+  ],
+  [
+    {
+      "id": "shelves_008",
+      "goods_id": 1010,
+      "currency_code": "HKD",
+      "currency_price": 43000,
+      "price": "HKD 43",
+      "is_monthcard": 1
+    },
+    {
+      "id": "shelves_008",
+      "goods_id": 4001,
+      "currency_code": "HKD",
+      "currency_price": 8000,
+      "price": "HKD 8",
+      "is_monthcard": 0
+    },
+    {
+      "id": "shelves_008",
+      "goods_id": 4002,
+      "currency_code": "HKD",
+      "currency_price": 43000,
+      "price": "HKD 43",
+      "is_monthcard": 0
+    },
+    {
+      "id": "shelves_008",
+      "goods_id": 4003,
+      "currency_code": "HKD",
+      "currency_price": 82000,
+      "price": "HKD 82",
+      "is_monthcard": 0
+    },
+    {
+      "id": "shelves_008",
+      "goods_id": 4004,
+      "currency_code": "HKD",
+      "currency_price": 150000,
+      "price": "HKD 150",
+      "is_monthcard": 0
+    },
+    {
+      "id": "shelves_008",
+      "goods_id": 4005,
+      "currency_code": "HKD",
+      "currency_price": 260000,
+      "price": "HKD 260",
+      "is_monthcard": 0
+    },
+    {
+      "id": "shelves_008",
+      "goods_id": 4006,
+      "currency_code": "HKD",
+      "currency_price": 340000,
+      "price": "HKD 340",
+      "is_monthcard": 0
+    },
+    {
+      "id": "shelves_008",
+      "goods_id": 4007,
+      "currency_code": "HKD",
+      "currency_price": 450000,
+      "price": "HKD 450",
+      "is_monthcard": 0
+    },
+    {
+      "id": "shelves_008",
+      "goods_id": 4008,
+      "currency_code": "HKD",
+      "currency_price": 780000,
+      "price": "HKD 780",
+      "is_monthcard": 0
+    },
+    {
+      "id": "shelves_008",
+      "goods_id": 4101,
+      "currency_code": "HKD",
+      "currency_price": 8000,
+      "price": "HKD 8",
+      "is_monthcard": 0
+    },
+    {
+      "id": "shelves_008",
+      "goods_id": 4102,
+      "currency_code": "HKD",
+      "currency_price": 43000,
+      "price": "HKD 43",
+      "is_monthcard": 0
+    },
+    {
+      "id": "shelves_008",
+      "goods_id": 4103,
+      "currency_code": "HKD",
+      "currency_price": 82000,
+      "price": "HKD 82",
+      "is_monthcard": 0
+    },
+    {
+      "id": "shelves_008",
+      "goods_id": 4104,
+      "currency_code": "HKD",
+      "currency_price": 150000,
+      "price": "HKD 150",
+      "is_monthcard": 0
+    },
+    {
+      "id": "shelves_008",
+      "goods_id": 4105,
+      "currency_code": "HKD",
+      "currency_price": 260000,
+      "price": "HKD 260",
+      "is_monthcard": 0
+    },
+    {
+      "id": "shelves_008",
+      "goods_id": 4106,
+      "currency_code": "HKD",
+      "currency_price": 340000,
+      "price": "HKD 340",
+      "is_monthcard": 0
+    },
+    {
+      "id": "shelves_008",
+      "goods_id": 4107,
+      "currency_code": "HKD",
+      "currency_price": 450000,
+      "price": "HKD 450",
+      "is_monthcard": 0
+    },
+    {
+      "id": "shelves_008",
+      "goods_id": 4108,
+      "currency_code": "HKD",
+      "currency_price": 780000,
+      "price": "HKD 780",
+      "is_monthcard": 0
+    }
+  ]
+]

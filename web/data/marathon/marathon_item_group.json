@@ -1,0 +1,33 @@
+[
+  [
+    {
+      "group_id": 4001,
+      "type": 1,
+      "weight": 30
+    },
+    {
+      "group_id": 4001,
+      "type": 2,
+      "weight": 70
+    }
+  ],
+  [
+    {
+      "group_id": 4002,
+      "type": 1,
+      "weight": 15
+    },
+    {
+      "group_id": 4002,
+      "type": 2,
+      "weight": 85
+    }
+  ],
+  [
+    {
+      "group_id": 4003,
+      "type": 2,
+      "weight": 100
+    }
+  ]
+]

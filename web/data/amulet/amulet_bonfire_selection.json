@@ -1,0 +1,110 @@
+[
+  [
+    {
+      "activity_id": 260511,
+      "selection_id": 1,
+      "random": 1,
+      "type": 1,
+      "selection_name": 26055511,
+      "selection_desc": 26055501,
+      "selection_image": "gamble_selection_003",
+      "args": [
+        40
+      ]
+    },
+    {
+      "activity_id": 260511,
+      "selection_id": 2,
+      "random": 1,
+      "type": 2,
+      "selection_name": 26055512,
+      "selection_desc": 26055502,
+      "selection_image": "gamble_selection_009",
+      "args": [
+        6
+      ]
+    },
+    {
+      "activity_id": 260511,
+      "selection_id": 3,
+      "random": 2,
+      "type": 3,
+      "selection_name": 26055513,
+      "selection_desc": 26055503,
+      "selection_image": "gamble_selection_007",
+      "args": {}
+    },
+    {
+      "activity_id": 260511,
+      "selection_id": 4,
+      "random": 2,
+      "type": 4,
+      "selection_name": 26055514,
+      "selection_desc": 26055504,
+      "selection_image": "gamble_selection_002",
+      "args": [
+        15
+      ]
+    },
+    {
+      "activity_id": 260511,
+      "selection_id": 5,
+      "random": 2,
+      "type": 5,
+      "selection_name": 26055515,
+      "selection_desc": 26055505,
+      "selection_image": "gamble_selection_001",
+      "args": [
+        974
+      ]
+    },
+    {
+      "activity_id": 260511,
+      "selection_id": 6,
+      "random": 2,
+      "type": 5,
+      "selection_name": 26055515,
+      "selection_desc": 26055505,
+      "selection_image": "gamble_selection_001",
+      "args": [
+        975
+      ]
+    },
+    {
+      "activity_id": 260511,
+      "selection_id": 7,
+      "random": 2,
+      "type": 5,
+      "selection_name": 26055515,
+      "selection_desc": 26055505,
+      "selection_image": "gamble_selection_001",
+      "args": [
+        976
+      ]
+    },
+    {
+      "activity_id": 260511,
+      "selection_id": 8,
+      "random": 2,
+      "type": 6,
+      "selection_name": 26055516,
+      "selection_desc": 26055506,
+      "selection_image": "gamble_selection_001",
+      "args": [
+        972
+      ]
+    },
+    {
+      "activity_id": 260511,
+      "selection_id": 9,
+      "random": 2,
+      "type": 7,
+      "selection_name": 26055517,
+      "selection_desc": 26055507,
+      "selection_image": "gamble_selection_005",
+      "args": [
+        973
+      ]
+    }
+  ]
+]

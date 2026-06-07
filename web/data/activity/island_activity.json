@@ -1,0 +1,10 @@
+[
+  {
+    "activity_id": 240601,
+    "food_id": 30900028,
+    "currency_id": 30900029,
+    "food_consume": 1,
+    "sell_discount": 100,
+    "guide_bottle_price": 12
+  }
+]
