@@ -1,23 +1,23 @@
-import { compareVersion, parseVersion } from "../../utils.js";
 import { fetchJson } from "../core/http.js";
+import { rowsOf } from "../../utils.js";
+import { loadResources } from "./resources.js";
 import { numberValue, parseItemAmountPairs, stringValue } from "./item-utils.js";
 
 const URLS = {
-  resversion: new URL("../../resversion.json", import.meta.url),
-  itemDefinitionItem: new URL("../../data/ItemDefinitionItem.json", import.meta.url),
-  itemDefinitionCurrency: new URL("../../data/ItemDefinitionCurrency.json", import.meta.url),
-  itemDefinitionTitle: new URL("../../data/ItemDefinitionTitle.json", import.meta.url),
-  itemDefinitionLoadingImage: new URL("../../data/ItemDefinitionLoadingImage.json", import.meta.url),
-  audioBgm: new URL("../../data/AudioBgm.json", import.meta.url),
-  itemDefinitionItemPackage: new URL("../../data/ItemDefinitionItemPackage.json", import.meta.url),
-  itemDefinitionSourceLimit: new URL("../../data/ItemDefinitionSourceLimit.json", import.meta.url),
-  exchangeExchange: new URL("../../data/ExchangeExchange.json", import.meta.url),
-  exchangeSearch: new URL("../../data/ExchangeSearchexchange.json", import.meta.url),
-  exchangeFushiquan: new URL("../../data/ExchangeFushiquanexchange.json", import.meta.url),
-  shopsGoods: new URL("../../data/ShopsGoods.json", import.meta.url),
-  mallGoods: new URL("../../data/MallGoods.json", import.meta.url),
-  composeCharaCompose: new URL("../../data/ComposeCharacompose.json", import.meta.url),
-  itemDefinitionCharacter: new URL("../../data/ItemDefinitionCharacter.json", import.meta.url),
+  itemDefinitionItem: new URL("../../data/item_definition/item.json", import.meta.url),
+  itemDefinitionCurrency: new URL("../../data/item_definition/currency.json", import.meta.url),
+  itemDefinitionTitle: new URL("../../data/item_definition/title.json", import.meta.url),
+  itemDefinitionLoadingImage: new URL("../../data/item_definition/loading_image.json", import.meta.url),
+  audioBgm: new URL("../../data/audio/bgm.json", import.meta.url),
+  itemDefinitionItemPackage: new URL("../../data/item_definition/item_package.json", import.meta.url),
+  itemDefinitionSourceLimit: new URL("../../data/item_definition/source_limit.json", import.meta.url),
+  exchangeExchange: new URL("../../data/exchange/exchange.json", import.meta.url),
+  exchangeSearch: new URL("../../data/exchange/searchexchange.json", import.meta.url),
+  exchangeFushiquan: new URL("../../data/exchange/fushiquanexchange.json", import.meta.url),
+  shopsGoods: new URL("../../data/shops/goods.json", import.meta.url),
+  mallGoods: new URL("../../data/mall/goods.json", import.meta.url),
+  composeCharaCompose: new URL("../../data/compose/characompose.json", import.meta.url),
+  itemDefinitionCharacter: new URL("../../data/item_definition/character.json", import.meta.url),
 };
 
 let cachedRepositoryPromise = null;
@@ -56,17 +56,12 @@ function parseCharacterMaterialEntries(characters) {
     const characterId = numberValue(character.id);
     if (characterId <= 0) continue;
 
-    const rawMaterial = stringValue(character.star_5Material);
+    const rawMaterial = stringValue(character.star_5_material);
     if (!rawMaterial) continue;
 
     const materials = parseItemAmountPairs(rawMaterial);
     for (const material of materials) {
-      entries.push({
-        characterId,
-        itemId: material.itemId,
-        count: material.count,
-        raw: rawMaterial,
-      });
+      entries.push({ characterId, itemId: material.itemId, count: material.count, raw: rawMaterial });
     }
   }
   return entries;
@@ -76,8 +71,8 @@ function parseCharacterExchangeEntries(characters) {
   return (characters || [])
     .map((character) => ({
       characterId: numberValue(character.id),
-      itemId: numberValue(character.exchangeItemId),
-      count: numberValue(character.exchangeItemNum),
+      itemId: numberValue(character.exchange_item_id),
+      count: numberValue(character.exchange_item_num),
     }))
     .filter((entry) => entry.characterId > 0 && entry.itemId > 0 && entry.count > 0);
 }
@@ -85,7 +80,7 @@ function parseCharacterExchangeEntries(characters) {
 function buildLoadingImageByUnlockItemId(loadingImages) {
   const mapping = new Map();
   for (const row of loadingImages || []) {
-    const unlockItems = Array.isArray(row.unlockItems) ? row.unlockItems : [];
+    const unlockItems = Array.isArray(row.unlock_items) ? row.unlock_items : [];
     for (const unlockItem of unlockItems) {
       const itemId = numberValue(unlockItem);
       if (itemId <= 0 || mapping.has(itemId)) continue;
@@ -106,8 +101,8 @@ function deduplicateLoadingScreens(items) {
       byIcon.set(icon, item);
       continue;
     }
-    const existingExpiry = stringValue(existing.itemExpire);
-    const itemExpiry = stringValue(item.itemExpire);
+    const existingExpiry = stringValue(existing.item_expire);
+    const itemExpiry = stringValue(item.item_expire);
     if (!itemExpiry && existingExpiry) {
       byIcon.set(icon, item);
     }
@@ -130,85 +125,32 @@ function mapTitleEntries(titleRows) {
     category: 7,
     type: 0,
     sort: numberValue(row.priority),
-    maxStack: 1,
-    isUnique: 1,
-    canSell: 0,
+    max_stack: 1,
+    is_unique: 1,
+    can_sell: 0,
     func: "",
     access: "",
     accessinfo: 0,
-    itemExpire: "",
-    regionLimit: 0,
-    crossView: numberValue(row.crossView),
-    databaseCache: 0,
+    item_expire: "",
+    region_limit: 0,
+    cross_view: numberValue(row.cross_view),
+    database_cache: 0,
     sourceType: "title",
-    iconOriginal: stringValue(row.icon),
-    iconItem: stringValue(row.iconItem || row.icon),
+    icon_original: stringValue(row.icon),
+    icon_item: stringValue(row.icon_item || row.icon),
     // Keep title icon field as item-style icon for list rendering compatibility.
-    icon: stringValue(row.iconItem || row.icon),
+    icon: stringValue(row.icon_item || row.icon),
   }));
 }
 
 function buildAudioBgmByUnlockItemId(audioBgmRows) {
   const mapping = new Map();
   for (const row of audioBgmRows || []) {
-    const itemId = numberValue(row.unlockItem);
+    const itemId = numberValue(row.unlock_item);
     if (itemId <= 0 || mapping.has(itemId)) continue;
     mapping.set(itemId, row);
   }
   return mapping;
-}
-
-const LOADING_SPRITE_CATEGORY_ORDER = { desktop: 0, left: 1, mid: 2, right: 3 };
-const LOADING_SPRITE_PATH_PATTERN = /loading_3que1\/(.+\.png)$/;
-const LOADING_SPRITE_UNDERSCORE_PATTERN = /^([a-z]+)_(\d+)\.png$/;
-
-function buildLoadingSprites(resourceManifest) {
-  const byNormId = new Map();
-
-  for (const manifestPath of Object.keys(resourceManifest)) {
-    const match = manifestPath.match(LOADING_SPRITE_PATH_PATTERN);
-    if (!match) continue;
-
-    const rawFilename = match[1];
-    const normFilename = rawFilename.replace(LOADING_SPRITE_UNDERSCORE_PATTERN, "$1$2.png");
-    const entry = resourceManifest[manifestPath];
-    if (!entry || !entry.prefix) continue;
-
-    if (!byNormId.has(normFilename)) {
-      byNormId.set(normFilename, { path: manifestPath, prefix: entry.prefix });
-    } else {
-      const current = byNormId.get(normFilename);
-      try {
-        const currentVersion = parseVersion(current.prefix);
-        const newVersion = parseVersion(entry.prefix);
-        if (compareVersion(newVersion, currentVersion) > 0) {
-          byNormId.set(normFilename, { path: manifestPath, prefix: entry.prefix });
-        }
-      } catch { }
-    }
-  }
-
-  const sprites = [];
-  for (const [filename, { path, prefix }] of byNormId) {
-    const categoryMatch = filename.match(/^(desktop|left|mid|right|duanwu)/);
-    const category = categoryMatch ? categoryMatch[1] : "other";
-    const type = LOADING_SPRITE_CATEGORY_ORDER[category] !== undefined
-      ? LOADING_SPRITE_CATEGORY_ORDER[category]
-      : 99;
-    const positionMatch = filename.match(/^([a-z]+)(\d+)\.png$/);
-    const position = positionMatch ? numberValue(positionMatch[2]) : 0;
-
-    sprites.push({
-      filename,
-      path,
-      prefix,
-      category,
-      type,
-      sort: type * 1000 + position,
-    });
-  }
-
-  return sprites.sort((a, b) => a.sort - b.sort);
 }
 
 export async function loadItemsRepository() {
@@ -217,7 +159,7 @@ export async function loadItemsRepository() {
   }
 
   cachedRepositoryPromise = Promise.all([
-    fetchJson(URLS.resversion),
+    loadResources(),
     fetchJson(URLS.itemDefinitionItem),
     fetchJson(URLS.itemDefinitionCurrency),
     fetchJson(URLS.itemDefinitionTitle),
@@ -233,7 +175,7 @@ export async function loadItemsRepository() {
     fetchJson(URLS.composeCharaCompose),
     fetchJson(URLS.itemDefinitionCharacter),
   ]).then(([
-    resversion,
+    resources,
     itemDefinitionItem,
     itemDefinitionCurrency,
     itemDefinitionTitle,
@@ -250,25 +192,21 @@ export async function loadItemsRepository() {
     itemDefinitionCharacter,
   ]) => {
 
-    const resourceManifest = resversion && resversion.res ? resversion.res : {};
-    const loadingSprites = buildLoadingSprites(resourceManifest);
-    const loadingSpriteById = new Map(loadingSprites.map((sprite, index) => [-(index + 1), sprite]));
-
-    const items = filterItems(Array.isArray(itemDefinitionItem) ? itemDefinitionItem : []);
-    const currencies = Array.isArray(itemDefinitionCurrency) ? itemDefinitionCurrency : [];
-    const titleRows = Array.isArray(itemDefinitionTitle) ? itemDefinitionTitle : [];
+    const items = filterItems(rowsOf(itemDefinitionItem));
+    const currencies = rowsOf(itemDefinitionCurrency);
+    const titleRows = rowsOf(itemDefinitionTitle);
     const titleEntries = mapTitleEntries(titleRows);
-    const loadingImages = Array.isArray(itemDefinitionLoadingImage) ? itemDefinitionLoadingImage : [];
-    const audioBgmRows = Array.isArray(audioBgm) ? audioBgm : [];
-    const packageEntries = Array.isArray(itemDefinitionItemPackage) ? itemDefinitionItemPackage : [];
-    const sourceLimits = Array.isArray(itemDefinitionSourceLimit) ? itemDefinitionSourceLimit : [];
-    const exchangeBase = Array.isArray(exchangeExchange) ? exchangeExchange : [];
-    const exchangeSearchRows = Array.isArray(exchangeSearch) ? exchangeSearch : [];
-    const exchangeFushiquanRows = Array.isArray(exchangeFushiquan) ? exchangeFushiquan : [];
-    const shops = Array.isArray(shopsGoods) ? shopsGoods : [];
-    const mallRows = Array.isArray(mallGoods) ? mallGoods : [];
-    const composeRows = Array.isArray(composeCharaCompose) ? composeCharaCompose : [];
-    const characters = Array.isArray(itemDefinitionCharacter) ? itemDefinitionCharacter : [];
+    const loadingImages = rowsOf(itemDefinitionLoadingImage);
+    const audioBgmRows = rowsOf(audioBgm);
+    const packageEntries = rowsOf(itemDefinitionItemPackage);
+    const sourceLimits = rowsOf(itemDefinitionSourceLimit);
+    const exchangeBase = rowsOf(exchangeExchange);
+    const exchangeSearchRows = rowsOf(exchangeSearch);
+    const exchangeFushiquanRows = rowsOf(exchangeFushiquan);
+    const shops = rowsOf(shopsGoods);
+    const mallRows = rowsOf(mallGoods);
+    const composeRows = rowsOf(composeCharaCompose);
+    const characters = rowsOf(itemDefinitionCharacter);
     const itemEntries = [...currencies, ...items, ...titleEntries];
 
     const exchangeRows = [
@@ -289,9 +227,9 @@ export async function loadItemsRepository() {
     const shopById = new Map(shops.map((shop) => [numberValue(shop.id), shop]));
 
     return {
-      resourceManifest,
-      loadingSprites,
-      loadingSpriteById,
+      resources,
+      loadingSprites: [],
+      loadingSpriteById: new Map(),
       items,
       currencies,
       titleEntries,
@@ -317,14 +255,14 @@ export async function loadItemsRepository() {
       audioBgmByUnlockItemId: buildAudioBgmByUnlockItemId(audioBgmRows),
       loadingImageByUnlockItemId: buildLoadingImageByUnlockItemId(loadingImages),
       packageByItemId: groupBy(packageEntries, (entry) => numberValue(entry.id)),
-      packageByContentItemId: groupBy(packageEntries, (entry) => numberValue(entry.resId)),
-      sourceLimitsByItemId: groupBy(sourceLimits, (entry) => numberValue(entry.itemId)),
-      exchangeSpendByItemId: groupBy(exchangeRows, (entry) => numberValue(entry.sourceCurrency)),
-      exchangeReceiveByItemId: groupBy(exchangeRows, (entry) => numberValue(entry.targetCurrency)),
-      shopsByItemId: groupBy(shops, (entry) => numberValue(entry.itemId)),
+      packageByContentItemId: groupBy(packageEntries, (entry) => numberValue(entry.res_id)),
+      sourceLimitsByItemId: groupBy(sourceLimits, (entry) => numberValue(entry.item_id)),
+      exchangeSpendByItemId: groupBy(exchangeRows, (entry) => numberValue(entry.source_currency)),
+      exchangeReceiveByItemId: groupBy(exchangeRows, (entry) => numberValue(entry.target_currency)),
+      shopsByItemId: groupBy(shops, (entry) => numberValue(entry.item_id)),
       shopPriceByItemId: groupBy(shopPriceEntries, (entry) => numberValue(entry.itemId)),
-      mallByResourceId: groupBy(mallRows, (entry) => numberValue(entry.resourceId)),
-      composeByItemId: groupBy(composeRows, (entry) => numberValue(entry.itemId)),
+      mallByResourceId: groupBy(mallRows, (entry) => numberValue(entry.resource_id)),
+      composeByItemId: groupBy(composeRows, (entry) => numberValue(entry.item_id)),
       characterExchangeByItemId: groupBy(characterExchangeEntries, (entry) => numberValue(entry.itemId)),
       characterMaterialByItemId: groupBy(characterMaterialEntries, (entry) => numberValue(entry.itemId)),
     };

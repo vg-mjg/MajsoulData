@@ -1,22 +1,23 @@
 import { fetchJson } from "../core/http.js";
+import { rowsOf } from "../../utils.js";
+import { loadResources } from "./resources.js";
 
 const URLS = {
-  resversion: new URL("../../resversion.json", import.meta.url),
-  itemDefinitionCharacter: new URL("../../data/ItemDefinitionCharacter.json", import.meta.url),
-  itemDefinitionSkin: new URL("../../data/ItemDefinitionSkin.json", import.meta.url),
-  itemDefinitionItem: new URL("../../data/ItemDefinitionItem.json", import.meta.url),
-  itemDefinitionCurrency: new URL("../../data/ItemDefinitionCurrency.json", import.meta.url),
-  levelDefinitionCharacter: new URL("../../data/LevelDefinitionCharacter.json", import.meta.url),
-  composeCharacompose: new URL("../../data/ComposeCharacompose.json", import.meta.url),
-  characterSkin: new URL("../../data/CharacterSkin.json", import.meta.url),
-  characterEmoji: new URL("../../data/CharacterEmoji.json", import.meta.url),
-  characterCutin: new URL("../../data/CharacterCutin.json", import.meta.url),
-  spotCharacterSpot: new URL("../../data/SpotCharacterSpot.json", import.meta.url),
-  spotSkinSpot: new URL("../../data/SpotSkinSpot.json", import.meta.url),
-  spotSpot: new URL("../../data/SpotSpot.json", import.meta.url),
-  spotRewards: new URL("../../data/SpotRewards.json", import.meta.url),
-  voiceSound: new URL("../../data/VoiceSound.json", import.meta.url),
-  voiceSpot: new URL("../../data/VoiceSpot.json", import.meta.url),
+  itemDefinitionCharacter: new URL("../../data/item_definition/character.json", import.meta.url),
+  itemDefinitionSkin: new URL("../../data/item_definition/skin.json", import.meta.url),
+  itemDefinitionItem: new URL("../../data/item_definition/item.json", import.meta.url),
+  itemDefinitionCurrency: new URL("../../data/item_definition/currency.json", import.meta.url),
+  levelDefinitionCharacter: new URL("../../data/level_definition/character.json", import.meta.url),
+  composeCharacompose: new URL("../../data/compose/characompose.json", import.meta.url),
+  characterSkin: new URL("../../data/character/skin.json", import.meta.url),
+  characterEmoji: new URL("../../data/character/emoji.json", import.meta.url),
+  characterCutin: new URL("../../data/character/cutin.json", import.meta.url),
+  spotCharacterSpot: new URL("../../data/spot/character_spot.json", import.meta.url),
+  spotSkinSpot: new URL("../../data/spot/skin_spot.json", import.meta.url),
+  spotSpot: new URL("../../data/spot/spot.json", import.meta.url),
+  spotRewards: new URL("../../data/spot/rewards.json", import.meta.url),
+  voiceSound: new URL("../../data/voice/sound.json", import.meta.url),
+  voiceSpot: new URL("../../data/voice/spot.json", import.meta.url),
 };
 
 let cachedRepositoryPromise = null;
@@ -39,7 +40,7 @@ export async function loadCharactersRepository() {
   }
 
   cachedRepositoryPromise = Promise.all([
-    fetchJson(URLS.resversion),
+    loadResources(),
     fetchJson(URLS.itemDefinitionCharacter),
     fetchJson(URLS.itemDefinitionSkin),
     fetchJson(URLS.itemDefinitionItem),
@@ -56,7 +57,7 @@ export async function loadCharactersRepository() {
     fetchJson(URLS.voiceSound),
     fetchJson(URLS.voiceSpot),
   ]).then(([
-    resversion,
+    resources,
     itemDefinitionCharacter,
     itemDefinitionSkin,
     itemDefinitionItem,
@@ -74,22 +75,21 @@ export async function loadCharactersRepository() {
     voiceSpot,
   ]) => {
 
-    const resourceManifest = resversion && resversion.res ? resversion.res : {};
-    const characters = Array.isArray(itemDefinitionCharacter) ? itemDefinitionCharacter : [];
-    const skins = Array.isArray(itemDefinitionSkin) ? itemDefinitionSkin : [];
-    const items = Array.isArray(itemDefinitionItem) ? itemDefinitionItem : [];
-    const currencies = Array.isArray(itemDefinitionCurrency) ? itemDefinitionCurrency : [];
-    const characterLevels = Array.isArray(levelDefinitionCharacter) ? levelDefinitionCharacter : [];
-    const composeEntries = Array.isArray(composeCharacompose) ? composeCharacompose : [];
-    const skinExtras = Array.isArray(characterSkin) ? characterSkin : [];
-    const emojis = Array.isArray(characterEmoji) ? characterEmoji : [];
-    const cutins = Array.isArray(characterCutin) ? characterCutin : [];
-    const spotCharacters = Array.isArray(spotCharacterSpot) ? spotCharacterSpot : [];
-    const spotSkins = Array.isArray(spotSkinSpot) ? spotSkinSpot : [];
-    const spotStories = Array.isArray(spotSpot) ? spotSpot : [];
-    const spotRewardEntries = Array.isArray(spotRewards) ? spotRewards : [];
-    const voiceLines = Array.isArray(voiceSound) ? voiceSound : [];
-    const spotVoices = Array.isArray(voiceSpot) ? voiceSpot : [];
+    const characters = rowsOf(itemDefinitionCharacter);
+    const skins = rowsOf(itemDefinitionSkin);
+    const items = rowsOf(itemDefinitionItem);
+    const currencies = rowsOf(itemDefinitionCurrency);
+    const characterLevels = rowsOf(levelDefinitionCharacter);
+    const composeEntries = rowsOf(composeCharacompose);
+    const skinExtras = rowsOf(characterSkin);
+    const emojis = rowsOf(characterEmoji);
+    const cutins = rowsOf(characterCutin);
+    const spotCharacters = rowsOf(spotCharacterSpot);
+    const spotSkins = rowsOf(spotSkinSpot);
+    const spotStories = rowsOf(spotSpot);
+    const spotRewardEntries = rowsOf(spotRewards);
+    const voiceLines = rowsOf(voiceSound);
+    const spotVoices = rowsOf(voiceSpot);
     const itemEntries = [...currencies, ...items];
 
     const characterById = new Map(characters.map((character) => [Number(character.id || 0), character]));
@@ -98,19 +98,19 @@ export async function loadCharactersRepository() {
     const itemById = new Map(itemEntries.map((entry) => [Number(entry.id || 0), entry]));
     const spotRewardById = new Map(spotRewardEntries.map((entry) => [Number(entry.id || 0), entry]));
 
-    const skinsByCharacterId = groupBy(skins, (skin) => Number(skin.characterId || 0));
-    const characterLevelsByCharacterId = groupBy(characterLevels, (entry) => Number(entry.characterId || 0));
-    const composeByCharacterId = groupBy(composeEntries, (entry) => Number(entry.charaId || 0));
+    const skinsByCharacterId = groupBy(skins, (skin) => Number(skin.character_id || 0));
+    const characterLevelsByCharacterId = groupBy(characterLevels, (entry) => Number(entry.character_id || 0));
+    const composeByCharacterId = groupBy(composeEntries, (entry) => Number(entry.chara_id || 0));
     const skinExtraBySkinId = new Map(skinExtras.map((entry) => [Number(entry.skinid || 0), entry]));
     const emojisByCharacterId = groupBy(emojis, (entry) => Number(entry.charid || 0));
     const cutinBySkinId = groupBy(cutins, (entry) => Number(entry.skinid || 0));
-    const spotSkinsByCharacterId = groupBy(spotSkins, (entry) => Number(entry.characterId || 0));
+    const spotSkinsByCharacterId = groupBy(spotSkins, (entry) => Number(entry.character_id || 0));
     const spotStoriesByCharacterId = groupBy(spotStories, (entry) => Number(entry.id || 0));
     const voiceLinesBySoundId = groupBy(voiceLines, (entry) => Number(entry.id || 0));
     const spotVoicesByCharacterId = groupBy(spotVoices, (entry) => Number(entry.character || 0));
 
     return {
-      resourceManifest,
+      resources,
       characters,
       spotCharacters,
       skins,

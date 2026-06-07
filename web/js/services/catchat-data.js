@@ -1,23 +1,16 @@
-import { characterBigheadCandidatePaths, characterDisplayName, normalizeUiLanguage } from "../../utils.js";
+import { characterDisplayName, normalizeUiLanguage, rowsOf } from "../../utils.js";
 import { fetchJson } from "../core/http.js";
-import {
-  assetCandidatesFromPaths,
-  expandLocalizedAssetPaths,
-  itemIconCandidates,
-  localizedNameFromEntry,
-  numberValue,
-  stringValue,
-} from "./item-utils.js";
+import { itemIconCandidates, localizedNameFromEntry, numberValue, stringValue } from "./item-utils.js";
+import { imageCandidates, loadResources } from "./resources.js";
 
 const URLS = {
-  resversion: new URL("../../resversion.json", import.meta.url),
-  snsRows: new URL("../../data/ActivitySnsActivity.json", import.meta.url),
-  activityRows: new URL("../../data/ActivityActivity.json", import.meta.url),
-  strEventRows: new URL("../../data/StrEvent.json", import.meta.url),
-  characters: new URL("../../data/ItemDefinitionCharacter.json", import.meta.url),
-  skins: new URL("../../data/ItemDefinitionSkin.json", import.meta.url),
-  items: new URL("../../data/ItemDefinitionItem.json", import.meta.url),
-  currencies: new URL("../../data/ItemDefinitionCurrency.json", import.meta.url),
+  snsRows: new URL("../../data/activity/sns_activity.json", import.meta.url),
+  activityRows: new URL("../../data/activity/activity.json", import.meta.url),
+  strEventRows: new URL("../../data/str/event.json", import.meta.url),
+  characters: new URL("../../data/item_definition/character.json", import.meta.url),
+  skins: new URL("../../data/item_definition/skin.json", import.meta.url),
+  items: new URL("../../data/item_definition/item.json", import.meta.url),
+  currencies: new URL("../../data/item_definition/currency.json", import.meta.url),
 };
 
 const dataCacheByLanguage = new Map();
@@ -37,20 +30,19 @@ function truncateText(text, maxLength = 80) {
 function localizedStrValue(strEntry, language) {
   const normalizedLanguage = normalizeUiLanguage(language);
   const order = normalizedLanguage === "jp"
-    ? ["jp", "en", "chsT", "chs", "kr"]
+    ? ["jp", "en", "chs_t", "chs", "kr"]
     : normalizedLanguage === "kr"
-      ? ["kr", "en", "jp", "chsT", "chs"]
+      ? ["kr", "en", "jp", "chs_t", "chs"]
       : normalizedLanguage === "chs"
-        ? ["chs", "chsT", "en", "jp", "kr"]
+        ? ["chs", "chs_t", "en", "jp", "kr"]
         : normalizedLanguage === "chs_t"
-          ? ["chsT", "chs", "en", "jp", "kr"]
-          : ["en", "jp", "chsT", "chs", "kr"];
+          ? ["chs_t", "chs", "en", "jp", "kr"]
+          : ["en", "jp", "chs_t", "chs", "kr"];
 
   for (const key of order) {
     const value = stringValue(strEntry && strEntry[key]).trim();
     if (value) return value;
   }
-
   return "";
 }
 
@@ -62,33 +54,13 @@ function normalizeCatChatText(rawText) {
   return normalized.trim();
 }
 
-function pathCandidates(rawPath, language) {
-  const normalizedPath = stringValue(rawPath).trim().replace(/^\/+/, "");
-  if (!normalizedPath) return [];
-
-  const paths = new Set(expandLocalizedAssetPaths(normalizedPath, language));
-  if (!normalizedPath.startsWith("lang/")) {
-    paths.add(`lang/base/${normalizedPath}`);
-    paths.add(`lang/base_q7/${normalizedPath}`);
-    paths.add(`lang/chs/${normalizedPath}`);
-    paths.add(`lang/chs_q7/${normalizedPath}`);
-    paths.add(`lang/chs_t/${normalizedPath}`);
-    paths.add(`lang/chs_t_q7/${normalizedPath}`);
-  }
-  return Array.from(paths);
-}
-
 function resolveCharacterAvatarCandidates(repository, characterId, language) {
   const character = repository.characterById.get(numberValue(characterId));
   if (!character) return [];
-
-  const initSkinId = numberValue(character.initSkin);
-  const initSkin = repository.skinById.get(initSkinId);
-  const skinPath = stringValue(initSkin && initSkin.path);
+  const initSkin = repository.skinById.get(numberValue(character.init_skin));
+  const skinPath = stringValue(initSkin && initSkin.path).replace(/\/+$/, "");
   if (!skinPath) return [];
-
-  const paths = characterBigheadCandidatePaths(skinPath, language);
-  return assetCandidatesFromPaths(paths, repository.resourceManifest);
+  return imageCandidates(repository.resources, `${skinPath}/bighead`, language);
 }
 
 function resolveItemDescriptor(repository, itemId, count, language) {
@@ -104,22 +76,15 @@ function resolveItemDescriptor(repository, itemId, count, language) {
     : normalizedId > 0
       ? `#${normalizedId}`
       : "";
-  const iconCandidates = itemEntry
-    ? itemIconCandidates(itemEntry, repository.resourceManifest, language)
-    : [];
+  const iconCandidates = itemEntry ? itemIconCandidates(itemEntry, repository.resources, language) : [];
 
-  return {
-    id: normalizedId,
-    count: normalizedCount,
-    name: itemName,
-    iconCandidates,
-  };
+  return { id: normalizedId, count: normalizedCount, name: itemName, iconCandidates };
 }
 
 function resolveAuthorDisplay(row, repository, language) {
-  const charId = numberValue(row.charId);
-  const charStrId = numberValue(row.charStrId);
-  const choiceId = numberValue(row.choiceId);
+  const charId = numberValue(row.char_id);
+  const charStrId = numberValue(row.char_str_id);
+  const choiceId = numberValue(row.choice_id);
 
   if (charId > 0) {
     const character = repository.characterById.get(charId);
@@ -133,36 +98,24 @@ function resolveAuthorDisplay(row, repository, language) {
   if (charStrId > 0) {
     const strEntry = repository.strById.get(charStrId);
     const localized = localizedStrValue(strEntry, language);
-    return {
-      name: localized || `#${charStrId}`,
-      kind: "named",
-      avatarCandidates: [],
-    };
+    return { name: localized || `#${charStrId}`, kind: "named", avatarCandidates: [] };
   }
 
   if (choiceId > 0) {
-    return {
-      name: "Player",
-      kind: "player",
-      avatarCandidates: [],
-    };
+    return { name: "Player", kind: "player", avatarCandidates: [] };
   }
 
-  return {
-    name: "System",
-    kind: "system",
-    avatarCandidates: [],
-  };
+  return { name: "System", kind: "system", avatarCandidates: [] };
 }
 
 function resolveReplyDisplay(row, repository, language) {
-  const replyCharId = numberValue(row.replyCharId);
+  const replyCharId = numberValue(row.reply_char_id);
   if (replyCharId > 0) {
     const character = repository.characterById.get(replyCharId);
     return character ? characterDisplayName(character, language) : `#${replyCharId}`;
   }
 
-  const replyCharStrId = numberValue(row.replyCharStrId);
+  const replyCharStrId = numberValue(row.reply_char_str_id);
   if (replyCharStrId > 0) {
     const strEntry = repository.strById.get(replyCharStrId);
     return localizedStrValue(strEntry, language) || `#${replyCharStrId}`;
@@ -173,43 +126,49 @@ function resolveReplyDisplay(row, repository, language) {
 
 function entryKind(row) {
   const type = numberValue(row.type);
-  const choiceId = numberValue(row.choiceId);
-  const parentId = numberValue(row.parentId);
+  const choiceId = numberValue(row.choice_id);
+  const parentId = numberValue(row.parent_id);
   if (type === 1) return "system";
   if (choiceId > 0) return "choice";
   if (parentId <= 0) return "post";
   return "comment";
 }
 
+function imagePathCandidates(repository, path, language) {
+  const normalized = stringValue(path).trim().replace(/^\/+/, "");
+  if (!normalized) return [];
+  return imageCandidates(repository.resources, normalized, language);
+}
+
 function mapRow(row, repository, language) {
-  const contentStrId = numberValue(row.contentStrId);
+  const contentStrId = numberValue(row.content_str_id);
   const contentStr = repository.strById.get(contentStrId);
   const contentText = normalizeCatChatText(localizedStrValue(contentStr, language));
   const author = resolveAuthorDisplay(row, repository, language);
   const replyToName = resolveReplyDisplay(row, repository, language);
-  const imagePaths = safeArray(row.contentImage)
+  const imagePaths = safeArray(row.content_image)
     .map((path) => stringValue(path).trim().replace(/^\/+/, ""))
     .filter(Boolean);
   const images = imagePaths.map((path) => ({
     path,
-    candidates: assetCandidatesFromPaths(pathCandidates(path, language), repository.resourceManifest),
+    candidates: imagePathCandidates(repository, path, language),
   }));
-  const contentHeadPath = stringValue(row.contentHead).trim().replace(/^\/+/, "");
+  const contentHeadPath = stringValue(row.content_head).trim().replace(/^\/+/, "");
   const contentHeadCandidates = contentHeadPath
-    ? assetCandidatesFromPaths(pathCandidates(contentHeadPath, language), repository.resourceManifest)
+    ? imagePathCandidates(repository, contentHeadPath, language)
     : [];
 
   return {
     id: numberValue(row.id),
-    activityId: numberValue(row.activityId),
-    parentId: numberValue(row.parentId),
-    choiceId: numberValue(row.choiceId),
+    activityId: numberValue(row.activity_id),
+    parentId: numberValue(row.parent_id),
+    choiceId: numberValue(row.choice_id),
     type: numberValue(row.type),
     kind: entryKind(row),
     isPrivate: numberValue(row.pm) > 0,
     isDisabled: numberValue(row.disable) > 0,
     likes: numberValue(row.like),
-    unlockTime: stringValue(row.unlockTime).trim(),
+    unlockTime: stringValue(row.unlock_time).trim(),
     contentStrId,
     text: contentText || "-",
     authorName: author.name,
@@ -219,12 +178,7 @@ function mapRow(row, repository, language) {
     images,
     contentHeadPath,
     contentHeadCandidates,
-    unlock: resolveItemDescriptor(
-      repository,
-      numberValue(row.unlockItemId),
-      numberValue(row.unlockItemCount),
-      language,
-    ),
+    unlock: resolveItemDescriptor(repository, numberValue(row.unlock_item_id), numberValue(row.unlock_item_count), language),
   };
 }
 
@@ -266,23 +220,13 @@ function scenarioCover(entries) {
   for (const entry of entries) {
     const firstImage = entry.images[0];
     if (firstImage) {
-      return {
-        path: firstImage.path,
-        candidates: firstImage.candidates,
-      };
+      return { path: firstImage.path, candidates: firstImage.candidates };
     }
     if (entry.contentHeadPath) {
-      return {
-        path: entry.contentHeadPath,
-        candidates: entry.contentHeadCandidates,
-      };
+      return { path: entry.contentHeadPath, candidates: entry.contentHeadCandidates };
     }
   }
-
-  return {
-    path: "",
-    candidates: [],
-  };
+  return { path: "", candidates: [] };
 }
 
 function summarizeScenario(activityId, visibleEntries, hiddenEntriesCount) {
@@ -295,9 +239,7 @@ function summarizeScenario(activityId, visibleEntries, hiddenEntriesCount) {
   const firstPost = visibleEntries.find((entry) => entry.kind === "post" && entry.text && entry.text !== "-");
   const preview = firstPost ? truncateText(firstPost.text.replace(/\n+/g, " "), 92) : "";
   const unlockItemIds = Array.from(new Set(
-    visibleEntries
-      .map((entry) => numberValue(entry.unlock && entry.unlock.id))
-      .filter((value) => value > 0),
+    visibleEntries.map((entry) => numberValue(entry.unlock && entry.unlock.id)).filter((value) => value > 0),
   )).sort((a, b) => a - b);
   const unlockMaxCount = visibleEntries.reduce((maxCount, entry) => {
     const count = numberValue(entry.unlock && entry.unlock.count);
@@ -331,13 +273,7 @@ function buildActivityModel(activityId, allRows, repository, language) {
   const summary = summarizeScenario(activityId, visibleEntries, hiddenEntriesCount);
   const cover = scenarioCover(visibleEntries);
 
-  return {
-    id: activityId,
-    summary,
-    cover,
-    threads,
-    entries: visibleEntries,
-  };
+  return { id: activityId, summary, cover, threads, entries: visibleEntries };
 }
 
 async function loadRepository() {
@@ -346,7 +282,7 @@ async function loadRepository() {
   }
 
   cachedRepositoryPromise = Promise.all([
-    fetchJson(URLS.resversion),
+    loadResources(),
     fetchJson(URLS.snsRows),
     fetchJson(URLS.activityRows),
     fetchJson(URLS.strEventRows),
@@ -355,7 +291,7 @@ async function loadRepository() {
     fetchJson(URLS.items),
     fetchJson(URLS.currencies),
   ]).then(([
-    resversion,
+    resources,
     snsRows,
     activityRows,
     strEventRows,
@@ -364,17 +300,16 @@ async function loadRepository() {
     items,
     currencies,
   ]) => {
-    const resourceManifest = resversion && resversion.res ? resversion.res : {};
-    const activityById = new Map(safeArray(activityRows).map((row) => [numberValue(row.id), row]));
-    const strById = new Map(safeArray(strEventRows).map((row) => [numberValue(row.id), row]));
-    const characterById = new Map(safeArray(characters).map((row) => [numberValue(row.id), row]));
-    const skinById = new Map(safeArray(skins).map((row) => [numberValue(row.id), row]));
-    const itemEntries = [...safeArray(currencies), ...safeArray(items)];
+    const activityById = new Map(rowsOf(activityRows).map((row) => [numberValue(row.id), row]));
+    const strById = new Map(rowsOf(strEventRows).map((row) => [numberValue(row.id), row]));
+    const characterById = new Map(rowsOf(characters).map((row) => [numberValue(row.id), row]));
+    const skinById = new Map(rowsOf(skins).map((row) => [numberValue(row.id), row]));
+    const itemEntries = [...rowsOf(currencies), ...rowsOf(items)];
     const itemById = new Map(itemEntries.map((row) => [numberValue(row.id), row]));
 
     const rowsByActivityId = new Map();
-    for (const row of safeArray(snsRows)) {
-      const activityId = numberValue(row.activityId);
+    for (const row of rowsOf(snsRows)) {
+      const activityId = numberValue(row.activity_id);
       if (activityId <= 0) continue;
       if (!rowsByActivityId.has(activityId)) {
         rowsByActivityId.set(activityId, []);
@@ -382,15 +317,10 @@ async function loadRepository() {
       rowsByActivityId.get(activityId).push(row);
     }
 
-    return {
-      resourceManifest,
-      activityById,
-      strById,
-      characterById,
-      skinById,
-      itemById,
-      rowsByActivityId,
-    };
+    return { resources, activityById, strById, characterById, skinById, itemById, rowsByActivityId };
+  }).catch((error) => {
+    cachedRepositoryPromise = null;
+    throw error;
   });
 
   return cachedRepositoryPromise;

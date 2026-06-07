@@ -126,14 +126,14 @@ function buildFilters(items) {
 function localizedName(item, language) {
   const normalized = normalizeUiLanguage(language);
   const order = normalized === "jp"
-    ? ["nameJp", "nameEn", "nameChsT", "nameChs", "nameKr"]
+    ? ["name_jp", "name_en", "name_chs_t", "name_chs", "name_kr"]
     : normalized === "kr"
-      ? ["nameKr", "nameEn", "nameJp", "nameChsT", "nameChs"]
+      ? ["name_kr", "name_en", "name_jp", "name_chs_t", "name_chs"]
       : normalized === "chs"
-        ? ["nameChs", "nameChsT", "nameEn", "nameJp", "nameKr"]
+        ? ["name_chs", "name_chs_t", "name_en", "name_jp", "name_kr"]
         : normalized === "chs_t"
-          ? ["nameChsT", "nameChs", "nameEn", "nameJp", "nameKr"]
-          : ["nameEn", "nameJp", "nameChsT", "nameChs", "nameKr"];
+          ? ["name_chs_t", "name_chs", "name_en", "name_jp", "name_kr"]
+          : ["name_en", "name_jp", "name_chs_t", "name_chs", "name_kr"];
 
   for (const key of order) {
     const value = String(item[key] || "").trim();

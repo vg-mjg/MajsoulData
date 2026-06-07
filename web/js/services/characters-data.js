@@ -1,40 +1,20 @@
-import {
-  DEFAULT_UI_LANGUAGE,
-  characterBigheadCandidatePaths,
-  normalizeUiLanguage,
-} from "../../utils.js";
+import { DEFAULT_UI_LANGUAGE, normalizeUiLanguage } from "../../utils.js";
+import { imageCandidates } from "./resources.js";
 import { loadCharactersRepository } from "./characters-repository.js";
 
-function resolveCharacterBigheadCandidates(character, skinPathById, resourceManifest, language = DEFAULT_UI_LANGUAGE) {
-  const skinPath = skinPathById.get(character.initSkin);
-  if (!skinPath) return [];
-
-  const candidates = [];
-
-  for (const path of characterBigheadCandidatePaths(skinPath, language)) {
-    const entry = resourceManifest[path];
-    if (!entry || !entry.prefix) continue;
-    candidates.push({
-      path,
-      prefix: String(entry.prefix),
-    });
-  }
-
-  return candidates;
-}
-
-function makeCharacterModel(character, skinPathById, resourceManifest, language = DEFAULT_UI_LANGUAGE) {
-  const imageCandidates = resolveCharacterBigheadCandidates(character, skinPathById, resourceManifest, language);
+function makeCharacterModel(character, skinPathById, resources, language = DEFAULT_UI_LANGUAGE) {
+  const skinPath = skinPathById.get(Number(character.init_skin));
+  const candidates = skinPath ? imageCandidates(resources, `${skinPath}/bighead`, language) : [];
   return {
     id: character.id,
-    nameEn: character.nameEn,
-    nameJp: character.nameJp,
-    nameChs: character.nameChs,
-    nameChsT: character.nameChsT,
-    nameKr: character.nameKr,
+    name_en: character.name_en,
+    name_jp: character.name_jp,
+    name_chs: character.name_chs,
+    name_chs_t: character.name_chs_t,
+    name_kr: character.name_kr,
     limited: Number(character.limited || 0),
     collaboration: Number(character.collaboration || 0),
-    imageCandidates,
+    imageCandidates: candidates,
   };
 }
 
@@ -48,10 +28,10 @@ export async function loadCharacters(language = DEFAULT_UI_LANGUAGE) {
 
   const promise = loadCharactersRepository()
     .then((repository) => {
-      const resourceManifest = repository.resourceManifest || {};
-      const skinPathById = new Map((repository.skins || []).map((skin) => [skin.id, skin.path]));
+      const resources = repository.resources || {};
+      const skinPathById = new Map((repository.skins || []).map((skin) => [Number(skin.id), skin.path]));
       return (repository.characters || [])
-        .map((character) => makeCharacterModel(character, skinPathById, resourceManifest, normalizedLanguage))
+        .map((character) => makeCharacterModel(character, skinPathById, resources, normalizedLanguage))
         .sort((a, b) => a.id - b.id);
     })
     .catch((error) => {

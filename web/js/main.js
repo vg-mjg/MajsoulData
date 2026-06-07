@@ -9,7 +9,7 @@ import { renderItemDetailPage } from "./features/items/detail-view.js";
 import { renderAchievementsPage } from "./features/achievements/view.js";
 import { renderActivitiesPage } from "./features/activities/view.js";
 import { renderCatChatPage } from "./features/catchat/view.js";
-import { DEFAULT_UI_LANGUAGE, makeInitials, normalizeUiLanguage } from "../utils.js";
+import { DEFAULT_UI_LANGUAGE, makeInitials, normalizeUiLanguage, regionForLanguage } from "../utils.js";
 import {
   clearImageSourceCache,
   loadCharacterImageSource,
@@ -416,6 +416,7 @@ function applyLanguage(language, { persist, rerender } = { persist: true, rerend
     clearLazyHydrationQueue();
     clearImageSourceCache();
     clearAudioSourceCache();
+    void renderVersionLabel();
   }
 
   if (dom.languageSelect && dom.languageSelect.value !== normalized) {
@@ -448,8 +449,11 @@ async function renderVersionLabel() {
   try {
     const versionJsonUrl = new URL("../version.json", import.meta.url);
     const versionInfo = await fetchJson(versionJsonUrl);
-    const version = versionInfo && versionInfo.version ? String(versionInfo.version) : "-";
-    dom.gameVersion.textContent = version;
+    const region = regionForLanguage(currentLanguage);
+    const entry = (versionInfo && (versionInfo[region] || versionInfo.en)) || null;
+    const product = entry && entry.product_version ? String(entry.product_version) : "-";
+    const resource = entry && entry.resource_version ? String(entry.resource_version) : "";
+    dom.gameVersion.textContent = resource ? `${product} (${resource})` : product;
   } catch (error) {
     console.error(error);
     dom.gameVersion.textContent = "-";

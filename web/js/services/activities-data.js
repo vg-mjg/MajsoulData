@@ -1,13 +1,12 @@
 import { localizedFieldValue, normalizeUiLanguage } from "../../utils.js";
 import {
-  assetCandidatesFromPaths,
-  expandLocalizedAssetPaths,
   itemIconCandidates,
   localizedNameFromEntry,
   numberValue,
   parseItemAmountPairs,
   stringValue,
 } from "./item-utils.js";
+import { imageCandidates } from "./resources.js";
 import { loadActivitiesRepository } from "./activities-repository.js";
 
 const overviewCacheByLanguage = new Map();
@@ -16,46 +15,46 @@ const detailCacheByLanguageAndId = new Map();
 const STRING_PAIR_ITEM_FIELDS = [
   { field: "reward", kind: "reward" },
   { field: "consume", kind: "cost" },
-  { field: "itemList", kind: "reward" },
-  { field: "spRewards", kind: "reward" },
-  { field: "unlockSpotItem", kind: "unlock" },
-  { field: "unlockItem", kind: "unlock" },
-  { field: "unlockConsume", kind: "cost" },
-  { field: "finishReward", kind: "reward" },
-  { field: "allFinishReward", kind: "reward" },
-  { field: "costItem", kind: "cost" },
-  { field: "hiddenReward", kind: "reward" },
-  { field: "consumeItem", kind: "cost" },
-  { field: "tripReward", kind: "reward" },
-  { field: "roundConsume", kind: "cost" },
-  { field: "produceItem", kind: "reward" },
-  { field: "upgradeItem", kind: "cost" },
-  { field: "upgradeReward", kind: "reward" },
+  { field: "item_list", kind: "reward" },
+  { field: "sp_rewards", kind: "reward" },
+  { field: "unlock_spot_item", kind: "unlock" },
+  { field: "unlock_item", kind: "unlock" },
+  { field: "unlock_consume", kind: "cost" },
+  { field: "finish_reward", kind: "reward" },
+  { field: "all_finish_reward", kind: "reward" },
+  { field: "cost_item", kind: "cost" },
+  { field: "hidden_reward", kind: "reward" },
+  { field: "consume_item", kind: "cost" },
+  { field: "trip_reward", kind: "reward" },
+  { field: "round_consume", kind: "cost" },
+  { field: "produce_item", kind: "reward" },
+  { field: "upgrade_item", kind: "cost" },
+  { field: "upgrade_reward", kind: "reward" },
 ];
 
 const ITEM_ID_COUNT_FIELDS = [
-  { idField: "rewardId", countField: "rewardCount", kind: "reward" },
-  { idField: "consumeId", countField: "consumeCount", kind: "cost" },
-  { idField: "itemLimitId", countField: "itemLimitCount", kind: "unlock" },
-  { idField: "pointItemId", countField: "pointItemCount", kind: "reward" },
-  { idField: "unlockItemId", countField: "unlockItemCount", kind: "unlock" },
-  { idField: "ticketItemId", countField: "ticketPrice", kind: "cost" },
+  { idField: "reward_id", countField: "reward_count", kind: "reward" },
+  { idField: "consume_id", countField: "consume_count", kind: "cost" },
+  { idField: "item_limit_id", countField: "item_limit_count", kind: "unlock" },
+  { idField: "point_item_id", countField: "point_item_count", kind: "reward" },
+  { idField: "unlock_item_id", countField: "unlock_item_count", kind: "unlock" },
+  { idField: "ticket_item_id", countField: "ticket_price", kind: "cost" },
 ];
 
 const SINGLE_ITEM_ID_FIELDS = [
-  { field: "keyItemId", kind: "unlock" },
-  { field: "staminaItemId", kind: "cost" },
-  { field: "specialItemId", kind: "unlock" },
-  { field: "consumeItemId", kind: "cost" },
-  { field: "workerItemId", kind: "unlock" },
-  { field: "pointItem", kind: "reward" },
-  { field: "voteItem", kind: "reward" },
+  { field: "key_item_id", kind: "unlock" },
+  { field: "stamina_item_id", kind: "cost" },
+  { field: "special_item_id", kind: "unlock" },
+  { field: "consume_item_id", kind: "cost" },
+  { field: "worker_item_id", kind: "unlock" },
+  { field: "point_item", kind: "reward" },
+  { field: "vote_item", kind: "reward" },
 ];
 
 const ITEM_ID_LIST_FIELDS = [
-  { field: "foodItemId", kind: "cost" },
-  { field: "giftItemId", kind: "reward" },
-  { field: "upItems", kind: "reward" },
+  { field: "food_item_id", kind: "cost" },
+  { field: "gift_item_id", kind: "reward" },
+  { field: "up_items", kind: "reward" },
 ];
 
 function safeArray(data) {
@@ -64,28 +63,6 @@ function safeArray(data) {
 
 function tableNameLabel(tableName) {
   return String(tableName || "").replace(/^Activity/, "Activity ");
-}
-
-function bannerPathCandidates(rawPath, language) {
-  const normalizedPath = stringValue(rawPath).trim().replace(/^\/+/, "");
-  if (!normalizedPath) return [];
-
-  const paths = new Set();
-  for (const path of expandLocalizedAssetPaths(normalizedPath, language)) {
-    paths.add(path);
-  }
-  paths.add(normalizedPath);
-
-  if (!normalizedPath.startsWith("lang/")) {
-    paths.add(`lang/base/${normalizedPath}`);
-    paths.add(`lang/base_q7/${normalizedPath}`);
-    paths.add(`lang/chs/${normalizedPath}`);
-    paths.add(`lang/chs_q7/${normalizedPath}`);
-    paths.add(`lang/chs_t/${normalizedPath}`);
-    paths.add(`lang/chs_t_q7/${normalizedPath}`);
-  }
-
-  return Array.from(paths);
 }
 
 function bannerPathLabel(rawPath) {
@@ -101,10 +78,10 @@ function activityDisplayName(activity, banner, language) {
   if (localized) return localized;
 
   const fallbackFromBanner = [
-    bannerPathLabel(banner && banner.enterIcon),
-    bannerPathLabel(banner && banner.bannerBig),
-    bannerPathLabel(banner && banner.bannerLeft),
-    bannerPathLabel(banner && banner.bannerLeftIcon),
+    bannerPathLabel(banner && banner.enter_icon),
+    bannerPathLabel(banner && banner.banner_big),
+    bannerPathLabel(banner && banner.banner_left),
+    bannerPathLabel(banner && banner.banner_left_icon),
   ].find((value) => value.length > 0);
   if (fallbackFromBanner) return fallbackFromBanner;
 
@@ -116,25 +93,19 @@ function activityBannerCandidates(activity, banner, repository, language) {
   if (!bannerEntry) return [];
 
   const rawPaths = [
-    bannerEntry.bannerBig,
-    bannerEntry.bannerLeft,
-    bannerEntry.enterIcon,
-    bannerEntry.bannerLeftIcon,
+    bannerEntry.banner_big,
+    bannerEntry.banner_left,
+    bannerEntry.enter_icon,
+    bannerEntry.banner_left_icon,
   ]
     .map((value) => stringValue(value).trim())
     .filter(Boolean);
 
-  const candidatePaths = [];
-  const seen = new Set();
   for (const rawPath of rawPaths) {
-    for (const path of bannerPathCandidates(rawPath, language)) {
-      if (seen.has(path)) continue;
-      seen.add(path);
-      candidatePaths.push(path);
-    }
+    const candidates = imageCandidates(repository.resources, rawPath, language);
+    if (candidates.length > 0) return candidates;
   }
-
-  return assetCandidatesFromPaths(candidatePaths, repository.resourceManifest);
+  return [];
 }
 
 function collectDirectTableLinks(repository, activityId) {
@@ -180,11 +151,11 @@ function collectDerivedTableLinks(repository, directLinks) {
   }
 
   for (const row of directRowsByTable.get("ActivityArenaActivity") || []) {
-    const rewardGroup = numberValue(row.rewardGroup);
+    const rewardGroup = numberValue(row.reward_group);
     if (rewardGroup > 0) {
       addDerived("ActivityArenaReward", `groupId=${rewardGroup}`, repository.indexes.arenaRewardByGroupId.get(rewardGroup));
     }
-    const displayGroup = numberValue(row.arenaRewardDisplayGroup);
+    const displayGroup = numberValue(row.arena_reward_display_group);
     if (displayGroup > 0) {
       addDerived(
         "ActivityArenaRewardDisplay",
@@ -195,14 +166,14 @@ function collectDerivedTableLinks(repository, directLinks) {
   }
 
   for (const row of directRowsByTable.get("ActivityMineActivity") || []) {
-    const rewardGroup = numberValue(row.rewardGroup);
+    const rewardGroup = numberValue(row.reward_group);
     if (rewardGroup > 0) {
       addDerived("ActivityMineReward", `groupId=${rewardGroup}`, repository.indexes.mineRewardByGroupId.get(rewardGroup));
     }
   }
 
   for (const row of directRowsByTable.get("ActivityRank") || []) {
-    const rewardId = numberValue(row.rankRewardId);
+    const rewardId = numberValue(row.rank_reward_id);
     const rewardRow = repository.indexes.rankRewardById.get(rewardId);
     if (rewardRow) {
       addDerived("ActivityRankReward", `id=${rewardId}`, [rewardRow]);
@@ -210,19 +181,19 @@ function collectDerivedTableLinks(repository, directLinks) {
   }
 
   for (const row of directRowsByTable.get("ActivityRandomTaskInfo") || []) {
-    const poolId = numberValue(row.poolId);
+    const poolId = numberValue(row.pool_id);
     if (poolId > 0) {
       addDerived("ActivityRandomTaskPool", `poolId=${poolId}`, repository.indexes.randomTaskPoolByPoolId.get(poolId));
     }
   }
 
   for (const row of directRowsByTable.get("ActivityRichmanInfo") || []) {
-    const mapId = numberValue(row.mapId);
+    const mapId = numberValue(row.map_id);
     if (mapId > 0) {
       addDerived("ActivityRichmanMap", `mapId=${mapId}`, repository.indexes.richmanMapByMapId.get(mapId));
     }
 
-    const rewardSeqId = numberValue(row.finishRewardSeq);
+    const rewardSeqId = numberValue(row.finish_reward_seq);
     if (rewardSeqId > 0) {
       addDerived(
         "ActivityRichmanRewardSeq",
@@ -233,12 +204,12 @@ function collectDerivedTableLinks(repository, directLinks) {
   }
 
   for (const row of directRowsByTable.get("ActivityGachaActivityInfo") || []) {
-    const poolId = numberValue(row.gachaPool);
+    const poolId = numberValue(row.gacha_pool);
     if (poolId > 0) {
       addDerived("ActivityGachaPool", `poolId=${poolId}`, repository.indexes.gachaPoolByPoolId.get(poolId));
     }
 
-    const controlId = numberValue(row.gachaControl);
+    const controlId = numberValue(row.gacha_control);
     const controlRow = repository.indexes.gachaControlById.get(controlId);
     if (controlRow) {
       addDerived("ActivityGachaControl", `id=${controlId}`, [controlRow]);
@@ -246,7 +217,7 @@ function collectDerivedTableLinks(repository, directLinks) {
   }
 
   for (const row of directRowsByTable.get("ActivityStoryActivity") || []) {
-    const storyId = numberValue(row.storyId);
+    const storyId = numberValue(row.story_id);
     if (storyId > 0) {
       addDerived("ActivityStoryEnding", `storyId=${storyId}`, repository.indexes.storyEndingByStoryId.get(storyId));
       addDerived("ActivitySummerStory", `storyId=${storyId}`, repository.indexes.summerStoryByStoryId.get(storyId));
@@ -254,7 +225,7 @@ function collectDerivedTableLinks(repository, directLinks) {
   }
 
   for (const row of directRowsByTable.get("ActivityUpgradeActivity") || []) {
-    const rewardIds = safeArray(row.rewardId).map((value) => numberValue(value)).filter((value) => value > 0);
+    const rewardIds = safeArray(row.reward_id).map((value) => numberValue(value)).filter((value) => value > 0);
     for (const rewardId of rewardIds) {
       addDerived(
         "ActivityUpgradeActivityReward",
@@ -266,7 +237,7 @@ function collectDerivedTableLinks(repository, directLinks) {
 
   for (const tableName of ["ActivityChooseUpActivity", "ActivityChooseGroupUpActivity"]) {
     for (const row of directRowsByTable.get(tableName) || []) {
-      const chestId = numberValue(row.baseChestId);
+      const chestId = numberValue(row.base_chest_id);
       if (chestId <= 0) continue;
       addDerived("ActivityChooseGroup", `chestId=${chestId}`, repository.indexes.chooseGroupByChestId.get(chestId));
       addDerived("ActivityChestUp", `chestId=${chestId}`, repository.indexes.chestUpByChestId.get(chestId));
@@ -274,7 +245,7 @@ function collectDerivedTableLinks(repository, directLinks) {
   }
 
   for (const row of directRowsByTable.get("ActivityBingoInfo") || []) {
-    const cardId = numberValue(row.cardId);
+    const cardId = numberValue(row.card_id);
     if (cardId <= 0) continue;
     addDerived("ActivityBingoCard", `cardId=${cardId}`, repository.indexes.bingoCardByCardId.get(cardId));
     addDerived("ActivityBingoReward", `cardId=${cardId}`, repository.indexes.bingoRewardByCardId.get(cardId));
@@ -338,7 +309,7 @@ function resolveItemRecord(repository, language, itemId) {
     ? localizedNameFromEntry(entry, language, normalizedItemId)
     : `#${normalizedItemId}`;
   const imageCandidates = entry
-    ? itemIconCandidates(entry, repository.resourceManifest, language)
+    ? itemIconCandidates(entry, repository.resources, language)
     : [];
 
   return {
@@ -475,10 +446,10 @@ function activityOverviewModel(activity, repository, language) {
   const linkedRowCount = directLinks.reduce((sum, link) => sum + link.rows.length, 0);
   const hasLocalizedName = localizedFieldValue(activity, "name", language).length > 0;
   const primaryBannerPath = [
-    stringValue(banner && banner.bannerBig).trim(),
-    stringValue(banner && banner.bannerLeft).trim(),
-    stringValue(banner && banner.enterIcon).trim(),
-    stringValue(banner && banner.bannerLeftIcon).trim(),
+    stringValue(banner && banner.banner_big).trim(),
+    stringValue(banner && banner.banner_left).trim(),
+    stringValue(banner && banner.enter_icon).trim(),
+    stringValue(banner && banner.banner_left_icon).trim(),
   ].find(Boolean) || "";
   const bannerCandidates = activityBannerCandidates(activity, banner, repository, language);
   const hasBannerVisual = primaryBannerPath.length > 0;
@@ -487,15 +458,15 @@ function activityOverviewModel(activity, repository, language) {
   return {
     id: activityId,
     type,
-    needPopout: numberValue(activity && activity.needPopout),
+    needPopout: numberValue(activity && activity.need_popout),
     name: activityDisplayName(activity, banner, language),
     hasLocalizedName,
     hasBannerVisual,
     isMeaningful,
     bannerPath: primaryBannerPath,
-    bannerType: numberValue(banner && banner.bannerType),
+    bannerType: numberValue(banner && banner.banner_type),
     bannerSort: numberValue(banner && banner.sort),
-    timeRemind: numberValue(banner && banner.timeRemind),
+    timeRemind: numberValue(banner && banner.time_remind),
     bannerCandidates,
     linkedTableCount: directLinks.length,
     linkedRowCount,
@@ -551,19 +522,19 @@ function activityDetailModel(activityId, repository, language) {
   return {
     id: activityId,
     type: stringValue(activity.type).trim() || "unknown",
-    needPopout: numberValue(activity.needPopout),
+    needPopout: numberValue(activity.need_popout),
     name: activityDisplayName(activity, banner, language),
     banner: banner
       ? {
           id: numberValue(banner.id),
           sort: numberValue(banner.sort),
-          bannerType: numberValue(banner.bannerType),
-          timeRemind: numberValue(banner.timeRemind),
-          enterIcon: stringValue(banner.enterIcon),
-          bannerBig: stringValue(banner.bannerBig),
-          bannerLeft: stringValue(banner.bannerLeft),
-          bannerLeftSelected: stringValue(banner.bannerLeftSelected),
-          bannerLeftIcon: stringValue(banner.bannerLeftIcon),
+          bannerType: numberValue(banner.banner_type),
+          timeRemind: numberValue(banner.time_remind),
+          enterIcon: stringValue(banner.enter_icon),
+          bannerBig: stringValue(banner.banner_big),
+          bannerLeft: stringValue(banner.banner_left),
+          bannerLeftSelected: stringValue(banner.banner_left_selected),
+          bannerLeftIcon: stringValue(banner.banner_left_icon),
           candidates: activityBannerCandidates(activity, banner, repository, language),
         }
       : null,

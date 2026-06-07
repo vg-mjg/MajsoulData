@@ -1,24 +1,23 @@
 import { localizedFieldValue, normalizeUiLanguage } from "../../utils.js";
 import {
-  assetCandidatesFromPaths,
-  expandLocalizedAssetPaths,
   itemIconCandidates,
   localizedNameFromEntry,
   numberValue,
   parseItemAmountPairs,
   stringValue,
 } from "./item-utils.js";
+import { imageCandidates } from "./resources.js";
 import { loadAchievementsRepository } from "./achievements-repository.js";
 
 const detailCache = new Map();
 
 function stringFieldOrder(language) {
   const normalized = normalizeUiLanguage(language);
-  if (normalized === "jp") return ["jp", "en", "chsT", "chs", "kr"];
-  if (normalized === "kr") return ["kr", "en", "jp", "chsT", "chs"];
-  if (normalized === "chs") return ["chs", "chsT", "en", "jp", "kr"];
-  if (normalized === "chs_t") return ["chsT", "chs", "en", "jp", "kr"];
-  return ["en", "jp", "chsT", "chs", "kr"];
+  if (normalized === "jp") return ["jp", "en", "chs_t", "chs", "kr"];
+  if (normalized === "kr") return ["kr", "en", "jp", "chs_t", "chs"];
+  if (normalized === "chs") return ["chs", "chs_t", "en", "jp", "kr"];
+  if (normalized === "chs_t") return ["chs_t", "chs", "en", "jp", "kr"];
+  return ["en", "jp", "chs_t", "chs", "kr"];
 }
 
 function localizedStrValue(strEntry, language) {
@@ -88,15 +87,15 @@ function resolveRewardItem(repository, itemId, count, language) {
   const name = entry
     ? localizedNameFromEntry(entry, language, normalizedItemId)
     : `#${normalizedItemId}`;
-  const imageCandidates = entry
-    ? itemIconCandidates(entry, repository.resourceManifest, language)
+  const imageCands = entry
+    ? itemIconCandidates(entry, repository.resources, language)
     : [];
 
   return {
     id: normalizedItemId,
     count: normalizedCount,
     name,
-    imageCandidates,
+    imageCandidates: imageCands,
     summary: `${name} x${normalizedCount}`,
   };
 }
@@ -114,23 +113,16 @@ function mapRewards(rawReward, repository, language) {
 function badgeImageCandidates(imgFile, repository, language) {
   const imageName = stringValue(imgFile).trim();
   if (!imageName) return [];
-
-  const paths = [
-    ...expandLocalizedAssetPaths(`myres2/badge/${imageName}`, language),
-    `lang/base/myres2/badge/${imageName}`,
-    `lang/base_q7/myres2/badge/${imageName}`,
-  ];
-
-  return assetCandidatesFromPaths(paths, repository.resourceManifest);
+  return imageCandidates(repository.resources, `myres2/badge/${imageName}`, language);
 }
 
 function mapAchievement(entry, repository, language) {
   const id = numberValue(entry.id);
-  const groupId = numberValue(entry.groupId);
+  const groupId = numberValue(entry.group_id);
   const group = repository.achievementGroupById.get(groupId) || null;
   const localizedName = localizedFieldValue(entry, "name", language) || `#${id}`;
   const localizedDescription = localizedFieldValue(entry, "desc", language);
-  const task = mapTask(entry.baseTask, repository, language);
+  const task = mapTask(entry.base_task, repository, language);
   const reward = mapRewards(entry.reward, repository, language);
 
   return {
@@ -144,8 +136,8 @@ function mapAchievement(entry, repository, language) {
     hidden: numberValue(entry.hidden),
     deprecated: numberValue(entry.deprecated),
     sort: numberValue(entry.sort),
-    segmentId: numberValue(entry.segmentId),
-    baseTaskId: numberValue(entry.baseTask),
+    segmentId: numberValue(entry.segment_id),
+    baseTaskId: numberValue(entry.base_task),
     task,
     rewardRaw: stringValue(entry.reward),
     rewards: reward.items,
@@ -180,17 +172,17 @@ function mapAchievementGroup(entry, repository, language, achievementsByGroupId)
 }
 
 function mapBadgeGroup(entry, repository, language) {
-  const badgeIds = Array.isArray(entry.badgeId)
-    ? entry.badgeId.map((value) => numberValue(value)).filter((value) => value > 0)
+  const badgeIds = Array.isArray(entry.badge_id)
+    ? entry.badge_id.map((value) => numberValue(value)).filter((value) => value > 0)
     : [];
   const nameStr = repository.stringById.get(numberValue(entry.name));
   const descStr = repository.stringById.get(numberValue(entry.desc));
   const badges = badgeIds.map((badgeId) => {
     const badge = repository.badgeById.get(badgeId) || null;
-    const task = badge ? mapTask(badge.baseTask, repository, language) : mapTask(0, repository, language);
+    const task = badge ? mapTask(badge.base_task, repository, language) : mapTask(0, repository, language);
     return {
       id: badgeId,
-      baseTaskId: badge ? numberValue(badge.baseTask) : 0,
+      baseTaskId: badge ? numberValue(badge.base_task) : 0,
       task,
     };
   });

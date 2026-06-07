@@ -89,9 +89,8 @@ function pickSkinThumbCandidates(skin) {
 function canRenderSkinLive2D(skin) {
   return Boolean(
     skin &&
-    Number(skin.spineType) > 0 &&
-    Array.isArray(skin.spineAssetPairs) &&
-    skin.spineAssetPairs.length > 0,
+    Array.isArray(skin.spineLayers) &&
+    skin.spineLayers.length > 0,
   );
 }
 
@@ -774,8 +773,7 @@ export async function renderCharacterDetailPage({
       try {
         const preview = await mountCharacterSpinePreview({
           host: spineHost,
-          spineAssetPairs: Array.isArray(skin && skin.spineAssetPairs) ? skin.spineAssetPairs : [],
-          resourceManifest: skin && skin.spineResourceManifest ? skin.spineResourceManifest : null,
+          layers: Array.isArray(skin && skin.spineLayers) ? skin.spineLayers : [],
         });
 
         if (token !== illustrationRequestToken) {

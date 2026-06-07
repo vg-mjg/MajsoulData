@@ -33,11 +33,11 @@ function uniqueValues(values) {
 
 function allNameVariants(entry) {
   return uniqueValues([
-    entry && entry.nameEn,
-    entry && entry.nameJp,
-    entry && entry.nameChs,
-    entry && entry.nameChsT,
-    entry && entry.nameKr,
+    entry && entry.name_en,
+    entry && entry.name_jp,
+    entry && entry.name_chs,
+    entry && entry.name_chs_t,
+    entry && entry.name_kr,
   ]);
 }
 

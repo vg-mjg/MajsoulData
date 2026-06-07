@@ -1,17 +1,18 @@
 import { fetchJson } from "../core/http.js";
+import { rowsOf } from "../../utils.js";
+import { loadResources } from "./resources.js";
 import { numberValue, stringValue } from "./item-utils.js";
 
 const URLS = {
-  resversion: new URL("../../resversion.json", import.meta.url),
-  achievementAchievement: new URL("../../data/AchievementAchievement.json", import.meta.url),
-  achievementAchievementGroup: new URL("../../data/AchievementAchievementGroup.json", import.meta.url),
-  achievementBadge: new URL("../../data/AchievementBadge.json", import.meta.url),
-  achievementBadgeGroup: new URL("../../data/AchievementBadgeGroup.json", import.meta.url),
-  eventsBaseTask: new URL("../../data/EventsBaseTask.json", import.meta.url),
-  strStr: new URL("../../data/StrStr.json", import.meta.url),
-  itemDefinitionItem: new URL("../../data/ItemDefinitionItem.json", import.meta.url),
-  itemDefinitionCurrency: new URL("../../data/ItemDefinitionCurrency.json", import.meta.url),
-  itemDefinitionTitle: new URL("../../data/ItemDefinitionTitle.json", import.meta.url),
+  achievementAchievement: new URL("../../data/achievement/achievement.json", import.meta.url),
+  achievementAchievementGroup: new URL("../../data/achievement/achievement_group.json", import.meta.url),
+  achievementBadge: new URL("../../data/achievement/badge.json", import.meta.url),
+  achievementBadgeGroup: new URL("../../data/achievement/badge_group.json", import.meta.url),
+  eventsBaseTask: new URL("../../data/events/base_task.json", import.meta.url),
+  strStr: new URL("../../data/str/str.json", import.meta.url),
+  itemDefinitionItem: new URL("../../data/item_definition/item.json", import.meta.url),
+  itemDefinitionCurrency: new URL("../../data/item_definition/currency.json", import.meta.url),
+  itemDefinitionTitle: new URL("../../data/item_definition/title.json", import.meta.url),
 };
 
 let cachedRepositoryPromise = null;
@@ -20,9 +21,9 @@ function mapTitleEntries(titleRows) {
   return (titleRows || []).map((row) => ({
     ...row,
     sourceType: "title",
-    iconOriginal: stringValue(row.icon),
-    iconItem: stringValue(row.iconItem || row.icon),
-    icon: stringValue(row.iconItem || row.icon),
+    icon_original: stringValue(row.icon),
+    icon_item: stringValue(row.icon_item || row.icon),
+    icon: stringValue(row.icon_item || row.icon),
   }));
 }
 
@@ -44,7 +45,7 @@ export async function loadAchievementsRepository() {
   }
 
   cachedRepositoryPromise = Promise.all([
-    fetchJson(URLS.resversion),
+    loadResources(),
     fetchJson(URLS.achievementAchievement),
     fetchJson(URLS.achievementAchievementGroup),
     fetchJson(URLS.achievementBadge),
@@ -55,7 +56,7 @@ export async function loadAchievementsRepository() {
     fetchJson(URLS.itemDefinitionCurrency),
     fetchJson(URLS.itemDefinitionTitle),
   ]).then(([
-    resversion,
+    resources,
     achievementAchievement,
     achievementAchievementGroup,
     achievementBadge,
@@ -67,16 +68,15 @@ export async function loadAchievementsRepository() {
     itemDefinitionTitle,
   ]) => {
 
-    const resourceManifest = resversion && resversion.res ? resversion.res : {};
-    const achievements = Array.isArray(achievementAchievement) ? achievementAchievement : [];
-    const achievementGroups = Array.isArray(achievementAchievementGroup) ? achievementAchievementGroup : [];
-    const badges = Array.isArray(achievementBadge) ? achievementBadge : [];
-    const badgeGroups = Array.isArray(achievementBadgeGroup) ? achievementBadgeGroup : [];
-    const baseTasks = Array.isArray(eventsBaseTask) ? eventsBaseTask : [];
-    const strings = Array.isArray(strStr) ? strStr : [];
-    const items = Array.isArray(itemDefinitionItem) ? itemDefinitionItem : [];
-    const currencies = Array.isArray(itemDefinitionCurrency) ? itemDefinitionCurrency : [];
-    const titles = Array.isArray(itemDefinitionTitle) ? itemDefinitionTitle : [];
+    const achievements = rowsOf(achievementAchievement);
+    const achievementGroups = rowsOf(achievementAchievementGroup);
+    const badges = rowsOf(achievementBadge);
+    const badgeGroups = rowsOf(achievementBadgeGroup);
+    const baseTasks = rowsOf(eventsBaseTask);
+    const strings = rowsOf(strStr);
+    const items = rowsOf(itemDefinitionItem);
+    const currencies = rowsOf(itemDefinitionCurrency);
+    const titles = rowsOf(itemDefinitionTitle);
     const titleEntries = mapTitleEntries(titles);
     const itemEntries = [...currencies, ...items, ...titleEntries];
 
@@ -88,7 +88,7 @@ export async function loadAchievementsRepository() {
     const itemEntryById = new Map(itemEntries.map((entry) => [numberValue(entry.id), entry]));
 
     return {
-      resourceManifest,
+      resources,
       achievements,
       achievementGroups,
       badges,
@@ -106,7 +106,7 @@ export async function loadAchievementsRepository() {
       baseTaskById,
       stringById,
       itemEntryById,
-      achievementsByGroupId: groupBy(achievements, (entry) => numberValue(entry.groupId)),
+      achievementsByGroupId: groupBy(achievements, (entry) => numberValue(entry.group_id)),
     };
   }).catch((error) => {
     cachedRepositoryPromise = null;

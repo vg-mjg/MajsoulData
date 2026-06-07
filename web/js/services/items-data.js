@@ -1,4 +1,4 @@
-import { itemIconCandidates, loadingSpriteDisplayName, numberValue, stringValue } from "./item-utils.js";
+import { itemIconCandidates, numberValue } from "./item-utils.js";
 import { loadItemsRepository } from "./items-repository.js";
 import { normalizeUiLanguage } from "../../utils.js";
 
@@ -17,30 +17,6 @@ const EMPTY_USAGE_COUNTS = {
   characterExchangeUsage: 0,
   characterMaterialUsage: 0,
 };
-
-function makeLoadingSpriteModel(sprite, index) {
-  const id = -(index + 1);
-  const name = loadingSpriteDisplayName(sprite.filename);
-  return {
-    id,
-    kind: "loading_sprite",
-    sort: sprite.sort,
-    category: 9,
-    type: sprite.type,
-    func: "",
-    canSell: 0,
-    isUnique: 0,
-    maxStack: 0,
-    nameEn: name,
-    nameJp: name,
-    nameChs: name,
-    nameChsT: name,
-    nameKr: name,
-    isTitleDefinition: false,
-    imageCandidates: [{ path: sprite.path, prefix: stringValue(sprite.prefix) }],
-    usageCounts: EMPTY_USAGE_COUNTS,
-  };
-}
 
 function makeUsageCounts(repository, itemId) {
   return {
@@ -68,16 +44,16 @@ function makeItemModel(entry, kind, repository, language) {
     category: numberValue(entry.category),
     type: numberValue(entry.type),
     func: String(entry.func || "").trim(),
-    canSell: numberValue(entry.canSell),
-    isUnique: numberValue(entry.isUnique),
-    maxStack: numberValue(entry.maxStack),
-    nameEn: String(entry.nameEn || ""),
-    nameJp: String(entry.nameJp || ""),
-    nameChs: String(entry.nameChs || ""),
-    nameChsT: String(entry.nameChsT || ""),
-    nameKr: String(entry.nameKr || ""),
+    canSell: numberValue(entry.can_sell),
+    isUnique: numberValue(entry.is_unique),
+    maxStack: numberValue(entry.max_stack),
+    name_en: String(entry.name_en || ""),
+    name_jp: String(entry.name_jp || ""),
+    name_chs: String(entry.name_chs || ""),
+    name_chs_t: String(entry.name_chs_t || ""),
+    name_kr: String(entry.name_kr || ""),
     isTitleDefinition: sourceType === "title",
-    imageCandidates: itemIconCandidates(entry, repository.resourceManifest, language),
+    imageCandidates: itemIconCandidates(entry, repository.resources, language),
     usageCounts: makeUsageCounts(repository, itemId),
   };
 }
@@ -105,10 +81,8 @@ export async function loadItems(language) {
         .map((entry) => makeItemModel(entry, "item", repository, normalizedLanguage));
       const titleModels = (repository.titleEntries || [])
         .map((entry) => makeItemModel(entry, "item", repository, normalizedLanguage));
-      const loadingSpriteModels = (repository.loadingSprites || [])
-        .map((sprite, index) => makeLoadingSpriteModel(sprite, index));
 
-      return [...currencyModels, ...itemModels, ...titleModels, ...loadingSpriteModels].sort(compareItems);
+      return [...currencyModels, ...itemModels, ...titleModels].sort(compareItems);
     })
     .catch((error) => {
       if (itemsCacheByLanguage.get(normalizedLanguage) === promise) {

@@ -1,5 +1,30 @@
 {
-  "version": "0.11.252.w",
-  "force_version": "0.10.0.w",
-  "code": "v0.11.252.w/code.js"
+  "en": {
+    "product_version": "4.0.7",
+    "resource_version": "0.16.191",
+    "lua_version": "0.11.603",
+    "issuer": "en",
+    "generated_at": "2026-06-06T17:35:51Z"
+  },
+  "cn": {
+    "product_version": "4.0.44",
+    "resource_version": "0.16.230",
+    "lua_version": "0.11.603",
+    "issuer": "chs_t",
+    "generated_at": "2026-06-06T18:47:30Z"
+  },
+  "jp": {
+    "product_version": "4.0.9",
+    "resource_version": "0.16.191",
+    "lua_version": "0.11.603",
+    "issuer": "jp",
+    "generated_at": "2026-06-06T18:03:48Z"
+  },
+  "kr": {
+    "product_version": "4.0.8",
+    "resource_version": "0.16.191",
+    "lua_version": "0.11.603",
+    "issuer": "kr",
+    "generated_at": "2026-06-06T18:08:02Z"
+  }
 }

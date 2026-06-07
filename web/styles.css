@@ -801,7 +801,7 @@ body {
 
 #gameVersion {
   display: inline-block;
-  max-width: 6.25rem;
+  max-width: 9.5rem;
   overflow: hidden;
   text-overflow: ellipsis;
   white-space: nowrap;

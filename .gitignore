@@ -1,15 +1,6 @@
 # Node.js dependencies
 node_modules/
 
-# Downloaded files (regenerated daily) - excluded from repo but committed by GitHub Actions
-liqi.json
-config.proto
-lqc.lqbin
-liqi.proto
-parsed.proto
-version.txt
-data/
-
 # OS generated files
 .DS_Store
 .DS_Store?
