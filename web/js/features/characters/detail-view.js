@@ -233,14 +233,16 @@ function renderStampGrid(body, stamps) {
 }
 
 const VOLUME_STORAGE_KEY = "mahjong-soul-data.voice-volume";
+const DEFAULT_VOICE_VOLUME = 0.7;
 
 function readSavedVolume() {
   try {
     const raw = window.localStorage.getItem(VOLUME_STORAGE_KEY);
+    if (raw === null) return DEFAULT_VOICE_VOLUME;
     const parsed = Number(raw);
-    return Number.isFinite(parsed) ? Math.min(1, Math.max(0, parsed)) : 1;
+    return Number.isFinite(parsed) ? Math.min(1, Math.max(0, parsed)) : DEFAULT_VOICE_VOLUME;
   } catch {
-    return 1;
+    return DEFAULT_VOICE_VOLUME;
   }
 }
 
