@@ -30,6 +30,42 @@ const ROOT = __dirname;
 const WEB_DIR = path.join(ROOT, 'web');
 const DATA_DIR = path.join(WEB_DIR, 'data');
 const STATE_FILE = path.join(WEB_DIR, '.fetch-state.json');
+const METADATA_TABLE_SELECTION_VERSION = 1;
+
+const REQUIRED_METADATA_TABLES = new Set([
+  'achievement/achievement',
+  'achievement/achievement_group',
+  'achievement/badge',
+  'achievement/badge_group',
+  'audio/bgm',
+  'character/cutin',
+  'character/emoji',
+  'character/skin',
+  'compose/characompose',
+  'events/base_task',
+  'exchange/exchange',
+  'exchange/fushiquanexchange',
+  'exchange/searchexchange',
+  'item_definition/character',
+  'item_definition/currency',
+  'item_definition/item',
+  'item_definition/item_package',
+  'item_definition/loading_image',
+  'item_definition/skin',
+  'item_definition/source_limit',
+  'item_definition/title',
+  'level_definition/character',
+  'mall/goods',
+  'shops/goods',
+  'spot/character_spot',
+  'spot/rewards',
+  'spot/skin_spot',
+  'spot/spot',
+  'str/event',
+  'str/str',
+  'voice/sound',
+  'voice/spot',
+]);
 
 // Mirror regions. `cn` carries the issuer `chs_t`; the web app maps both the
 // `chs` and `chs_t` UI languages onto it. `en` is the complete base; the others
@@ -113,6 +149,91 @@ async function writeJsonStable(filePath, value) {
 async function writeJsonVerbatim(filePath, value) {
   await fsp.mkdir(path.dirname(filePath), { recursive: true });
   await fsp.writeFile(filePath, JSON.stringify(value, null, 2) + '\n');
+}
+
+function metadataKey(entry) {
+  return `${entry.TableName}/${entry.SheetName}`;
+}
+
+function selectMetadataIndex(index) {
+  const seen = new Set();
+  const selected = [];
+
+  for (const entry of index) {
+    if (!entry || !entry.TableName || !entry.SheetName) continue;
+    const key = metadataKey(entry);
+    if (seen.has(key)) continue;
+    if (entry.TableName === 'activity' || REQUIRED_METADATA_TABLES.has(key)) {
+      seen.add(key);
+      selected.push(entry);
+    }
+  }
+
+  const missing = Array.from(REQUIRED_METADATA_TABLES)
+    .filter((key) => !seen.has(key))
+    .sort();
+  if (missing.length > 0) {
+    throw new Error(`Required metadata tables missing from source index: ${missing.join(', ')}`);
+  }
+
+  return selected;
+}
+
+async function listJsonFiles(dir) {
+  const out = [];
+  const entries = await fsp.readdir(dir, { withFileTypes: true }).catch((error) => {
+    if (error && error.code === 'ENOENT') return [];
+    throw error;
+  });
+
+  for (const entry of entries) {
+    const fullPath = path.join(dir, entry.name);
+    if (entry.isDirectory()) {
+      out.push(...await listJsonFiles(fullPath));
+    } else if (entry.isFile() && entry.name.endsWith('.json')) {
+      out.push(fullPath);
+    }
+  }
+
+  return out;
+}
+
+async function removeEmptyDirs(dir) {
+  const entries = await fsp.readdir(dir, { withFileTypes: true }).catch((error) => {
+    if (error && error.code === 'ENOENT') return [];
+    throw error;
+  });
+
+  for (const entry of entries) {
+    if (entry.isDirectory()) await removeEmptyDirs(path.join(dir, entry.name));
+  }
+
+  if (dir !== DATA_DIR) {
+    const remaining = await fsp.readdir(dir).catch((error) => {
+      if (error && error.code === 'ENOENT') return [];
+      throw error;
+    });
+    if (remaining.length === 0) await fsp.rmdir(dir);
+  }
+}
+
+async function pruneUnselectedDataTables(selectedIndex) {
+  const keep = new Set([
+    'index.json',
+    ...selectedIndex.map((entry) => `${metadataKey(entry)}.json`),
+  ]);
+  const files = await listJsonFiles(DATA_DIR);
+  let removed = 0;
+
+  for (const filePath of files) {
+    const rel = path.relative(DATA_DIR, filePath).replace(/\\/g, '/');
+    if (keep.has(rel)) continue;
+    await fsp.unlink(filePath);
+    removed += 1;
+  }
+
+  await removeEmptyDirs(DATA_DIR);
+  return removed;
 }
 
 function stripExt(p) {
@@ -431,6 +552,11 @@ async function main() {
     };
   }
   newState.audio_count = Array.isArray(audioManifest) ? audioManifest.length : 0;
+  newState.metadata_tables = {
+    selection_version: METADATA_TABLE_SELECTION_VERSION,
+    include_activity: true,
+    required: Array.from(REQUIRED_METADATA_TABLES).sort(),
+  };
 
   const oldState = await fsp.readFile(STATE_FILE, 'utf8').then(JSON.parse).catch(() => null);
   const resourcesExist = fs.existsSync(path.join(WEB_DIR, 'resources.json'));
@@ -439,9 +565,10 @@ async function main() {
     return;
   }
 
-  //  Download metadata tables
-  const index = await readJson('metadata/index.json');
-  console.log(`Downloading ${index.length} data tables...`);
+  // Download the metadata tables consumed by the app.
+  const sourceIndex = await readJson('metadata/index.json');
+  const index = selectMetadataIndex(sourceIndex);
+  console.log(`Downloading ${index.length} of ${sourceIndex.length} data tables...`);
   const tablesByName = new Map();
   await mapLimit(index, 16, async (entry) => {
     const rel = `metadata/tables/${entry.TableName}/${entry.SheetName}.json`;
@@ -450,7 +577,8 @@ async function main() {
     await writeJsonVerbatim(path.join(DATA_DIR, `${entry.TableName}/${entry.SheetName}.json`), data);
   });
   await writeJsonVerbatim(path.join(DATA_DIR, 'index.json'), index);
-  console.log('Data tables written.');
+  const prunedDataTables = await pruneUnselectedDataTables(index);
+  console.log(`Data tables written; pruned ${prunedDataTables} stale tables.`);
 
   // Build asset indexes
   const assetIndex = buildAssetIndex(manifestsByRegion);

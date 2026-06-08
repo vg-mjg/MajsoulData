@@ -3,23 +3,61 @@
     "en": {
       "resource_version": "0.16.191",
       "bundle_hash": "1fa292a5434acf0e2a773dbd7b363cd7f5348dcc",
-      "manifest_generated_at": "2026-06-06T22:45:23Z"
+      "manifest_generated_at": "2026-06-06T22:58:36Z"
     },
     "cn": {
       "resource_version": "0.16.230",
       "bundle_hash": "726c5c44a5794ebf06c7509d129fbda666ae4880",
-      "manifest_generated_at": "2026-06-06T18:47:30Z"
+      "manifest_generated_at": "2026-06-06T23:00:55Z"
     },
     "jp": {
       "resource_version": "0.16.191",
       "bundle_hash": "363eb1e2347fc93ce384243a6739bd7e6c8f866f",
-      "manifest_generated_at": "2026-06-06T18:03:48Z"
+      "manifest_generated_at": "2026-06-06T22:59:38Z"
     },
     "kr": {
       "resource_version": "0.16.191",
       "bundle_hash": "9d95a0ddab157b26750f8f52ed3800672f1d969b",
-      "manifest_generated_at": "2026-06-06T18:08:02Z"
+      "manifest_generated_at": "2026-06-06T23:01:57Z"
     }
   },
-  "audio_count": 18679
+  "audio_count": 18679,
+  "metadata_tables": {
+    "selection_version": 1,
+    "include_activity": true,
+    "required": [
+      "achievement/achievement",
+      "achievement/achievement_group",
+      "achievement/badge",
+      "achievement/badge_group",
+      "audio/bgm",
+      "character/cutin",
+      "character/emoji",
+      "character/skin",
+      "compose/characompose",
+      "events/base_task",
+      "exchange/exchange",
+      "exchange/fushiquanexchange",
+      "exchange/searchexchange",
+      "item_definition/character",
+      "item_definition/currency",
+      "item_definition/item",
+      "item_definition/item_package",
+      "item_definition/loading_image",
+      "item_definition/skin",
+      "item_definition/source_limit",
+      "item_definition/title",
+      "level_definition/character",
+      "mall/goods",
+      "shops/goods",
+      "spot/character_spot",
+      "spot/rewards",
+      "spot/skin_spot",
+      "spot/spot",
+      "str/event",
+      "str/str",
+      "voice/sound",
+      "voice/spot"
+    ]
+  }
 }
