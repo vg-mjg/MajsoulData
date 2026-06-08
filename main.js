@@ -44,6 +44,7 @@ const REGION_KEYS = REGIONS.map((r) => r.key);
 
 const SPRITE_VARIANTS = ['bighead', 'smallhead', 'full', 'half', 'waitingroom'];
 const SKELETON_EXTS = ['.skel.txt', '.skel', '.json'];
+const IMAGE_EXTS = ['.png', '.jpg', '.jpeg', '.webp'];
 
 const isHttp = /^https?:/i.test(SOURCE);
 
@@ -201,6 +202,43 @@ function resolveRecord(index, ref) {
   return best;
 }
 
+function isImagePath(p) {
+  const lower = String(p || '').toLowerCase();
+  return IMAGE_EXTS.some((ext) => lower.endsWith(ext));
+}
+
+// CatChat table paths refer to logical image names while the extracted mirror
+// inserts locale/common subdirectories and may convert jpg sources to png. Keep
+// this resolver image-only and require a strong directory match so short numeric
+// filenames do not bind to unrelated assets with the same basename.
+function resolveImageRecordStrict(index, ref, minFuzzyScore = 400) {
+  const r = normalizeRef(ref);
+  if (!r) return null;
+
+  const exact = index.exact.get(r);
+  if (exact && isImagePath(exact.path)) return exact;
+
+  const noext = index.noext.get(stripExt(r));
+  if (noext && isImagePath(noext.path)) return noext;
+
+  const candidates = index.byBase.get(stripExt(baseName(r)).toLowerCase());
+  if (!candidates || candidates.length === 0) return null;
+
+  const refDir = dirName(r);
+  let best = null;
+  let bestScore = -1;
+  for (const rec of candidates) {
+    if (!isImagePath(rec.path)) continue;
+    const score = scoreCandidate(dirName(rec.path), refDir);
+    if (score > bestScore || (score === bestScore && best && rec.path.length < best.path.length)) {
+      best = rec;
+      bestScore = score;
+    }
+  }
+
+  return best && bestScore >= minFuzzyScore ? best : null;
+}
+
 // The common mirror prefix is stored once as `resources.base`
 // entries hold only the path relative to it to keep the file small.
 const RESOURCE_BASE = `${MIRROR}/extracted/`;
@@ -223,6 +261,12 @@ function recordToValue(rec) {
 function resolveImages(images, index, ref, key) {
   if (images[key] !== undefined) return;
   const rec = resolveRecord(index, ref);
+  if (rec) images[key] = recordToValue(rec);
+}
+
+function resolveStrictImages(images, index, ref, key) {
+  if (images[key] !== undefined) return;
+  const rec = resolveImageRecordStrict(index, ref);
   if (rec) images[key] = recordToValue(rec);
 }
 
@@ -416,6 +460,18 @@ async function main() {
       const ref = normalizeRef(row[field]);
       if (ref) resolveImages(resources.images, assetIndex, ref, ref);
     }
+  }
+
+  // CatChat post images and custom heads (key: the table's logical path).
+  for (const row of rowsOf(table('activity/sns_activity'))) {
+    const contentImages = Array.isArray(row.content_image) ? row.content_image : [];
+    for (const imageRef of contentImages) {
+      const ref = normalizeRef(imageRef);
+      if (ref) resolveStrictImages(resources.images, assetIndex, ref, ref);
+    }
+
+    const headRef = normalizeRef(row.content_head);
+    if (headRef) resolveStrictImages(resources.images, assetIndex, headRef, headRef);
   }
 
   // Spine (key: skinid)
