@@ -24191,6 +24191,711 @@
     "ui/activity/extend/26dj/main/pic_scattered/26dj2_0.png": "MyAssets/ui/activity/extend/26dj/main/pic_scattered/common/26dj2_0.png",
     "ui/activity/extend/26wenquan/main/pic_scattered/26wenquan1.jpg": "MyAssets/ui/activity/extend/26wenquan/main/pic_scattered/common/26wenquan1.png",
     "ui/activity/extend/26wenquan/main/pic_scattered/26wenquan2.jpg": "MyAssets/ui/activity/extend/26wenquan/main/pic_scattered/common/26wenquan2.png",
+    "ui/activity/extend/catchat/main/pic_scattered/210901.jpg": {
+      "jp": "https://files.riichi.moe/mjg/game%20resources%20and%20tools/Mahjong%20Soul/raw%20assets/v0.10.89.w/jp/myres/sns/210901.jpg"
+    },
+    "ui/activity/extend/catchat/main/pic_scattered/210902.jpg": {
+      "jp": "https://files.riichi.moe/mjg/game%20resources%20and%20tools/Mahjong%20Soul/raw%20assets/v0.10.89.w/jp/myres/sns/210902.jpg"
+    },
+    "ui/activity/extend/catchat/main/pic_scattered/210903.jpg": {
+      "jp": "https://files.riichi.moe/mjg/game%20resources%20and%20tools/Mahjong%20Soul/raw%20assets/v0.10.89.w/jp/myres/sns/210903.jpg"
+    },
+    "ui/activity/extend/catchat/main/pic_scattered/210904.jpg": {
+      "jp": "https://files.riichi.moe/mjg/game%20resources%20and%20tools/Mahjong%20Soul/raw%20assets/v0.10.89.w/jp/myres/sns/210904.jpg"
+    },
+    "ui/activity/extend/catchat/main/pic_scattered/210905.jpg": {
+      "jp": "https://files.riichi.moe/mjg/game%20resources%20and%20tools/Mahjong%20Soul/raw%20assets/v0.10.89.w/jp/myres/sns/210905.jpg"
+    },
+    "ui/activity/extend/catchat/main/pic_scattered/211101.jpg": {
+      "jp": "https://files.riichi.moe/mjg/game%20resources%20and%20tools/Mahjong%20Soul/raw%20assets/v0.10.89.w/jp/myres/sns/211101.jpg"
+    },
+    "ui/activity/extend/catchat/main/pic_scattered/211102.jpg": {
+      "jp": "https://files.riichi.moe/mjg/game%20resources%20and%20tools/Mahjong%20Soul/raw%20assets/v0.10.89.w/jp/myres/sns/211102.jpg"
+    },
+    "ui/activity/extend/catchat/main/pic_scattered/211103.png": {
+      "jp": "https://files.riichi.moe/mjg/game%20resources%20and%20tools/Mahjong%20Soul/raw%20assets/v0.10.89.w/jp/myres/sns/211103.png"
+    },
+    "ui/activity/extend/catchat/main/pic_scattered/211104.jpg": {
+      "jp": "https://files.riichi.moe/mjg/game%20resources%20and%20tools/Mahjong%20Soul/raw%20assets/v0.10.89.w/jp/myres/sns/211104.jpg"
+    },
+    "ui/activity/extend/catchat/main/pic_scattered/211106.jpg": {
+      "jp": "https://files.riichi.moe/mjg/game%20resources%20and%20tools/Mahjong%20Soul/raw%20assets/v0.10.89.w/jp/myres/sns/211106.jpg"
+    },
+    "ui/activity/extend/catchat/main/pic_scattered/211108.jpg": {
+      "jp": "https://files.riichi.moe/mjg/game%20resources%20and%20tools/Mahjong%20Soul/raw%20assets/v0.10.89.w/jp/myres/sns/211108.jpg"
+    },
+    "ui/activity/extend/catchat/main/pic_scattered/22090201.jpg": {
+      "cn": "https://files.riichi.moe/mjg/game%20resources%20and%20tools/Mahjong%20Soul/raw%20assets/v0.10.150.w/chs_t/myres/sns/22090201.jpg",
+      "en": "https://files.riichi.moe/mjg/game%20resources%20and%20tools/Mahjong%20Soul/raw%20assets/v0.10.150.w/en/myres/sns/22090201.jpg",
+      "jp": "https://files.riichi.moe/mjg/game%20resources%20and%20tools/Mahjong%20Soul/raw%20assets/v0.10.150.w/jp/myres/sns/22090201.jpg",
+      "kr": "https://files.riichi.moe/mjg/game%20resources%20and%20tools/Mahjong%20Soul/raw%20assets/v0.10.150.w/kr/myres/sns/22090201.jpg"
+    },
+    "ui/activity/extend/catchat/main/pic_scattered/22090202.jpg": {
+      "cn": "https://files.riichi.moe/mjg/game%20resources%20and%20tools/Mahjong%20Soul/raw%20assets/v0.10.150.w/chs_t/myres/sns/22090202.jpg",
+      "en": "https://files.riichi.moe/mjg/game%20resources%20and%20tools/Mahjong%20Soul/raw%20assets/v0.10.150.w/en/myres/sns/22090202.jpg",
+      "jp": "https://files.riichi.moe/mjg/game%20resources%20and%20tools/Mahjong%20Soul/raw%20assets/v0.10.150.w/jp/myres/sns/22090202.jpg",
+      "kr": "https://files.riichi.moe/mjg/game%20resources%20and%20tools/Mahjong%20Soul/raw%20assets/v0.10.150.w/kr/myres/sns/22090202.jpg"
+    },
+    "ui/activity/extend/catchat/main/pic_scattered/22090203.jpg": {
+      "cn": "https://files.riichi.moe/mjg/game%20resources%20and%20tools/Mahjong%20Soul/raw%20assets/v0.10.150.w/chs_t/myres/sns/22090203.jpg",
+      "en": "https://files.riichi.moe/mjg/game%20resources%20and%20tools/Mahjong%20Soul/raw%20assets/v0.10.150.w/en/myres/sns/22090203.jpg",
+      "jp": "https://files.riichi.moe/mjg/game%20resources%20and%20tools/Mahjong%20Soul/raw%20assets/v0.10.150.w/jp/myres/sns/22090203.jpg",
+      "kr": "https://files.riichi.moe/mjg/game%20resources%20and%20tools/Mahjong%20Soul/raw%20assets/v0.10.150.w/kr/myres/sns/22090203.jpg"
+    },
+    "ui/activity/extend/catchat/main/pic_scattered/22090204.jpg": {
+      "cn": "https://files.riichi.moe/mjg/game%20resources%20and%20tools/Mahjong%20Soul/raw%20assets/v0.10.150.w/chs_t/myres/sns/22090204.jpg",
+      "en": "https://files.riichi.moe/mjg/game%20resources%20and%20tools/Mahjong%20Soul/raw%20assets/v0.10.150.w/en/myres/sns/22090204.jpg",
+      "jp": "https://files.riichi.moe/mjg/game%20resources%20and%20tools/Mahjong%20Soul/raw%20assets/v0.10.150.w/jp/myres/sns/22090204.jpg",
+      "kr": "https://files.riichi.moe/mjg/game%20resources%20and%20tools/Mahjong%20Soul/raw%20assets/v0.10.150.w/kr/myres/sns/22090204.jpg"
+    },
+    "ui/activity/extend/catchat/main/pic_scattered/22090205.jpg": {
+      "cn": "https://files.riichi.moe/mjg/game%20resources%20and%20tools/Mahjong%20Soul/raw%20assets/v0.10.150.w/chs_t/myres/sns/22090205.jpg",
+      "en": "https://files.riichi.moe/mjg/game%20resources%20and%20tools/Mahjong%20Soul/raw%20assets/v0.10.150.w/en/myres/sns/22090205.jpg",
+      "jp": "https://files.riichi.moe/mjg/game%20resources%20and%20tools/Mahjong%20Soul/raw%20assets/v0.10.150.w/jp/myres/sns/22090205.jpg",
+      "kr": "https://files.riichi.moe/mjg/game%20resources%20and%20tools/Mahjong%20Soul/raw%20assets/v0.10.150.w/kr/myres/sns/22090205.jpg"
+    },
+    "ui/activity/extend/catchat/main/pic_scattered/22090206.jpg": {
+      "cn": "https://files.riichi.moe/mjg/game%20resources%20and%20tools/Mahjong%20Soul/raw%20assets/v0.10.150.w/chs_t/myres/sns/22090206.jpg",
+      "en": "https://files.riichi.moe/mjg/game%20resources%20and%20tools/Mahjong%20Soul/raw%20assets/v0.10.150.w/en/myres/sns/22090206.jpg",
+      "jp": "https://files.riichi.moe/mjg/game%20resources%20and%20tools/Mahjong%20Soul/raw%20assets/v0.10.150.w/jp/myres/sns/22090206.jpg",
+      "kr": "https://files.riichi.moe/mjg/game%20resources%20and%20tools/Mahjong%20Soul/raw%20assets/v0.10.150.w/kr/myres/sns/22090206.jpg"
+    },
+    "ui/activity/extend/catchat/main/pic_scattered/22090207.jpg": {
+      "cn": "https://files.riichi.moe/mjg/game%20resources%20and%20tools/Mahjong%20Soul/raw%20assets/v0.10.150.w/chs_t/myres/sns/22090207.jpg",
+      "en": "https://files.riichi.moe/mjg/game%20resources%20and%20tools/Mahjong%20Soul/raw%20assets/v0.10.150.w/en/myres/sns/22090207.jpg",
+      "jp": "https://files.riichi.moe/mjg/game%20resources%20and%20tools/Mahjong%20Soul/raw%20assets/v0.10.150.w/jp/myres/sns/22090207.jpg",
+      "kr": "https://files.riichi.moe/mjg/game%20resources%20and%20tools/Mahjong%20Soul/raw%20assets/v0.10.150.w/kr/myres/sns/22090207.jpg"
+    },
+    "ui/activity/extend/catchat/main/pic_scattered/22100702.jpg": {
+      "cn": "https://files.riichi.moe/mjg/game%20resources%20and%20tools/Mahjong%20Soul/raw%20assets/v0.10.167.w/chs_t/myres/sns/22100702.jpg",
+      "en": "https://files.riichi.moe/mjg/game%20resources%20and%20tools/Mahjong%20Soul/raw%20assets/v0.10.167.w/en/myres/sns/22100702.jpg",
+      "jp": "https://files.riichi.moe/mjg/game%20resources%20and%20tools/Mahjong%20Soul/raw%20assets/v0.10.167.w/jp/myres/sns/22100702.jpg",
+      "kr": "https://files.riichi.moe/mjg/game%20resources%20and%20tools/Mahjong%20Soul/raw%20assets/v0.10.167.w/kr/myres/sns/22100702.jpg"
+    },
+    "ui/activity/extend/catchat/main/pic_scattered/22100703.png": {
+      "cn": "https://files.riichi.moe/mjg/game%20resources%20and%20tools/Mahjong%20Soul/raw%20assets/v0.10.167.w/chs_t/myres/sns/22100703.png",
+      "en": "https://files.riichi.moe/mjg/game%20resources%20and%20tools/Mahjong%20Soul/raw%20assets/v0.10.167.w/en/myres/sns/22100703.png",
+      "jp": "https://files.riichi.moe/mjg/game%20resources%20and%20tools/Mahjong%20Soul/raw%20assets/v0.10.167.w/jp/myres/sns/22100703.png",
+      "kr": "https://files.riichi.moe/mjg/game%20resources%20and%20tools/Mahjong%20Soul/raw%20assets/v0.10.167.w/kr/myres/sns/22100703.png"
+    },
+    "ui/activity/extend/catchat/main/pic_scattered/22100704.png": {
+      "cn": "https://files.riichi.moe/mjg/game%20resources%20and%20tools/Mahjong%20Soul/raw%20assets/v0.10.167.w/chs_t/myres/sns/22100704.png",
+      "en": "https://files.riichi.moe/mjg/game%20resources%20and%20tools/Mahjong%20Soul/raw%20assets/v0.10.167.w/en/myres/sns/22100704.png",
+      "jp": "https://files.riichi.moe/mjg/game%20resources%20and%20tools/Mahjong%20Soul/raw%20assets/v0.10.167.w/jp/myres/sns/22100704.png",
+      "kr": "https://files.riichi.moe/mjg/game%20resources%20and%20tools/Mahjong%20Soul/raw%20assets/v0.10.167.w/kr/myres/sns/22100704.png"
+    },
+    "ui/activity/extend/catchat/main/pic_scattered/22100705.png": {
+      "cn": "https://files.riichi.moe/mjg/game%20resources%20and%20tools/Mahjong%20Soul/raw%20assets/v0.10.167.w/chs_t/myres/sns/22100705.png",
+      "en": "https://files.riichi.moe/mjg/game%20resources%20and%20tools/Mahjong%20Soul/raw%20assets/v0.10.167.w/en/myres/sns/22100705.png",
+      "jp": "https://files.riichi.moe/mjg/game%20resources%20and%20tools/Mahjong%20Soul/raw%20assets/v0.10.167.w/jp/myres/sns/22100705.png",
+      "kr": "https://files.riichi.moe/mjg/game%20resources%20and%20tools/Mahjong%20Soul/raw%20assets/v0.10.167.w/kr/myres/sns/22100705.png"
+    },
+    "ui/activity/extend/catchat/main/pic_scattered/22100709.png": {
+      "cn": "https://files.riichi.moe/mjg/game%20resources%20and%20tools/Mahjong%20Soul/raw%20assets/v0.10.167.w/chs_t/myres/sns/22100709.png",
+      "en": "https://files.riichi.moe/mjg/game%20resources%20and%20tools/Mahjong%20Soul/raw%20assets/v0.10.167.w/en/myres/sns/22100709.png",
+      "jp": "https://files.riichi.moe/mjg/game%20resources%20and%20tools/Mahjong%20Soul/raw%20assets/v0.10.167.w/jp/myres/sns/22100709.png",
+      "kr": "https://files.riichi.moe/mjg/game%20resources%20and%20tools/Mahjong%20Soul/raw%20assets/v0.10.167.w/kr/myres/sns/22100709.png"
+    },
+    "ui/activity/extend/catchat/main/pic_scattered/22111401.png": {
+      "cn": "https://files.riichi.moe/mjg/game%20resources%20and%20tools/Mahjong%20Soul/raw%20assets/v0.10.177.w/chs_t/myres/sns/22111401.png",
+      "en": "https://files.riichi.moe/mjg/game%20resources%20and%20tools/Mahjong%20Soul/raw%20assets/v0.10.177.w/en/myres/sns/22111401.png",
+      "jp": "https://files.riichi.moe/mjg/game%20resources%20and%20tools/Mahjong%20Soul/raw%20assets/v0.10.177.w/jp/myres/sns/22111401.png",
+      "kr": "https://files.riichi.moe/mjg/game%20resources%20and%20tools/Mahjong%20Soul/raw%20assets/v0.10.177.w/kr/myres/sns/22111401.png"
+    },
+    "ui/activity/extend/catchat/main/pic_scattered/22111402.png": {
+      "cn": "https://files.riichi.moe/mjg/game%20resources%20and%20tools/Mahjong%20Soul/raw%20assets/v0.10.177.w/chs_t/myres/sns/22111402.png",
+      "en": "https://files.riichi.moe/mjg/game%20resources%20and%20tools/Mahjong%20Soul/raw%20assets/v0.10.177.w/en/myres/sns/22111402.png",
+      "jp": "https://files.riichi.moe/mjg/game%20resources%20and%20tools/Mahjong%20Soul/raw%20assets/v0.10.177.w/jp/myres/sns/22111402.png",
+      "kr": "https://files.riichi.moe/mjg/game%20resources%20and%20tools/Mahjong%20Soul/raw%20assets/v0.10.177.w/kr/myres/sns/22111402.png"
+    },
+    "ui/activity/extend/catchat/main/pic_scattered/22111403.png": {
+      "cn": "https://files.riichi.moe/mjg/game%20resources%20and%20tools/Mahjong%20Soul/raw%20assets/v0.10.177.w/chs_t/myres/sns/22111403.png",
+      "en": "https://files.riichi.moe/mjg/game%20resources%20and%20tools/Mahjong%20Soul/raw%20assets/v0.10.177.w/en/myres/sns/22111403.png",
+      "jp": "https://files.riichi.moe/mjg/game%20resources%20and%20tools/Mahjong%20Soul/raw%20assets/v0.10.177.w/jp/myres/sns/22111403.png",
+      "kr": "https://files.riichi.moe/mjg/game%20resources%20and%20tools/Mahjong%20Soul/raw%20assets/v0.10.177.w/kr/myres/sns/22111403.png"
+    },
+    "ui/activity/extend/catchat/main/pic_scattered/22111404.png": {
+      "cn": "https://files.riichi.moe/mjg/game%20resources%20and%20tools/Mahjong%20Soul/raw%20assets/v0.10.177.w/chs_t/myres/sns/22111404.png",
+      "en": "https://files.riichi.moe/mjg/game%20resources%20and%20tools/Mahjong%20Soul/raw%20assets/v0.10.177.w/en/myres/sns/22111404.png",
+      "jp": "https://files.riichi.moe/mjg/game%20resources%20and%20tools/Mahjong%20Soul/raw%20assets/v0.10.177.w/jp/myres/sns/22111404.png",
+      "kr": "https://files.riichi.moe/mjg/game%20resources%20and%20tools/Mahjong%20Soul/raw%20assets/v0.10.177.w/kr/myres/sns/22111404.png"
+    },
+    "ui/activity/extend/catchat/main/pic_scattered/23050801.jpg": {
+      "cn": "https://files.riichi.moe/mjg/game%20resources%20and%20tools/Mahjong%20Soul/raw%20assets/v0.10.228.w/chs_t/myres/sns/23050801.jpg",
+      "en": "https://files.riichi.moe/mjg/game%20resources%20and%20tools/Mahjong%20Soul/raw%20assets/v0.10.228.w/en/myres/sns/23050801.jpg",
+      "jp": "https://files.riichi.moe/mjg/game%20resources%20and%20tools/Mahjong%20Soul/raw%20assets/v0.10.228.w/jp/myres/sns/23050801.jpg",
+      "kr": "https://files.riichi.moe/mjg/game%20resources%20and%20tools/Mahjong%20Soul/raw%20assets/v0.10.228.w/kr/myres/sns/23050801.jpg"
+    },
+    "ui/activity/extend/catchat/main/pic_scattered/23050802.jpg": {
+      "cn": "https://files.riichi.moe/mjg/game%20resources%20and%20tools/Mahjong%20Soul/raw%20assets/v0.10.228.w/chs_t/myres/sns/23050802.jpg",
+      "en": "https://files.riichi.moe/mjg/game%20resources%20and%20tools/Mahjong%20Soul/raw%20assets/v0.10.228.w/en/myres/sns/23050802.jpg",
+      "jp": "https://files.riichi.moe/mjg/game%20resources%20and%20tools/Mahjong%20Soul/raw%20assets/v0.10.228.w/jp/myres/sns/23050802.jpg",
+      "kr": "https://files.riichi.moe/mjg/game%20resources%20and%20tools/Mahjong%20Soul/raw%20assets/v0.10.228.w/kr/myres/sns/23050802.jpg"
+    },
+    "ui/activity/extend/catchat/main/pic_scattered/23050803.jpg": {
+      "cn": "https://files.riichi.moe/mjg/game%20resources%20and%20tools/Mahjong%20Soul/raw%20assets/v0.10.228.w/chs_t/myres/sns/23050803.jpg",
+      "en": "https://files.riichi.moe/mjg/game%20resources%20and%20tools/Mahjong%20Soul/raw%20assets/v0.10.228.w/en/myres/sns/23050803.jpg",
+      "jp": "https://files.riichi.moe/mjg/game%20resources%20and%20tools/Mahjong%20Soul/raw%20assets/v0.10.228.w/jp/myres/sns/23050803.jpg",
+      "kr": "https://files.riichi.moe/mjg/game%20resources%20and%20tools/Mahjong%20Soul/raw%20assets/v0.10.228.w/kr/myres/sns/23050803.jpg"
+    },
+    "ui/activity/extend/catchat/main/pic_scattered/23050804.jpg": {
+      "cn": "https://files.riichi.moe/mjg/game%20resources%20and%20tools/Mahjong%20Soul/raw%20assets/v0.10.228.w/chs_t/myres/sns/23050804.jpg",
+      "en": "https://files.riichi.moe/mjg/game%20resources%20and%20tools/Mahjong%20Soul/raw%20assets/v0.10.228.w/en/myres/sns/23050804.jpg",
+      "jp": "https://files.riichi.moe/mjg/game%20resources%20and%20tools/Mahjong%20Soul/raw%20assets/v0.10.228.w/jp/myres/sns/23050804.jpg",
+      "kr": "https://files.riichi.moe/mjg/game%20resources%20and%20tools/Mahjong%20Soul/raw%20assets/v0.10.228.w/kr/myres/sns/23050804.jpg"
+    },
+    "ui/activity/extend/catchat/main/pic_scattered/23050805.jpg": {
+      "cn": "https://files.riichi.moe/mjg/game%20resources%20and%20tools/Mahjong%20Soul/raw%20assets/v0.10.228.w/chs_t/myres/sns/23050805.jpg",
+      "en": "https://files.riichi.moe/mjg/game%20resources%20and%20tools/Mahjong%20Soul/raw%20assets/v0.10.228.w/en/myres/sns/23050805.jpg",
+      "jp": "https://files.riichi.moe/mjg/game%20resources%20and%20tools/Mahjong%20Soul/raw%20assets/v0.10.228.w/jp/myres/sns/23050805.jpg",
+      "kr": "https://files.riichi.moe/mjg/game%20resources%20and%20tools/Mahjong%20Soul/raw%20assets/v0.10.228.w/kr/myres/sns/23050805.jpg"
+    },
+    "ui/activity/extend/catchat/main/pic_scattered/23050806.jpg": {
+      "cn": "https://files.riichi.moe/mjg/game%20resources%20and%20tools/Mahjong%20Soul/raw%20assets/v0.10.228.w/chs_t/myres/sns/23050806.jpg",
+      "en": "https://files.riichi.moe/mjg/game%20resources%20and%20tools/Mahjong%20Soul/raw%20assets/v0.10.228.w/en/myres/sns/23050806.jpg",
+      "jp": "https://files.riichi.moe/mjg/game%20resources%20and%20tools/Mahjong%20Soul/raw%20assets/v0.10.228.w/jp/myres/sns/23050806.jpg",
+      "kr": "https://files.riichi.moe/mjg/game%20resources%20and%20tools/Mahjong%20Soul/raw%20assets/v0.10.228.w/kr/myres/sns/23050806.jpg"
+    },
+    "ui/activity/extend/catchat/main/pic_scattered/23050807.jpg": {
+      "cn": "https://files.riichi.moe/mjg/game%20resources%20and%20tools/Mahjong%20Soul/raw%20assets/v0.10.228.w/chs_t/myres/sns/23050807.jpg",
+      "en": "https://files.riichi.moe/mjg/game%20resources%20and%20tools/Mahjong%20Soul/raw%20assets/v0.10.228.w/en/myres/sns/23050807.jpg",
+      "jp": "https://files.riichi.moe/mjg/game%20resources%20and%20tools/Mahjong%20Soul/raw%20assets/v0.10.228.w/jp/myres/sns/23050807.jpg",
+      "kr": "https://files.riichi.moe/mjg/game%20resources%20and%20tools/Mahjong%20Soul/raw%20assets/v0.10.228.w/kr/myres/sns/23050807.jpg"
+    },
+    "ui/activity/extend/catchat/main/pic_scattered/23050808.jpg": {
+      "cn": "https://files.riichi.moe/mjg/game%20resources%20and%20tools/Mahjong%20Soul/raw%20assets/v0.10.228.w/chs_t/myres/sns/23050808.jpg",
+      "en": "https://files.riichi.moe/mjg/game%20resources%20and%20tools/Mahjong%20Soul/raw%20assets/v0.10.228.w/en/myres/sns/23050808.jpg",
+      "jp": "https://files.riichi.moe/mjg/game%20resources%20and%20tools/Mahjong%20Soul/raw%20assets/v0.10.228.w/jp/myres/sns/23050808.jpg",
+      "kr": "https://files.riichi.moe/mjg/game%20resources%20and%20tools/Mahjong%20Soul/raw%20assets/v0.10.228.w/kr/myres/sns/23050808.jpg"
+    },
+    "ui/activity/extend/catchat/main/pic_scattered/23050809.jpg": {
+      "cn": "https://files.riichi.moe/mjg/game%20resources%20and%20tools/Mahjong%20Soul/raw%20assets/v0.10.228.w/chs_t/myres/sns/23050809.jpg",
+      "en": "https://files.riichi.moe/mjg/game%20resources%20and%20tools/Mahjong%20Soul/raw%20assets/v0.10.228.w/en/myres/sns/23050809.jpg",
+      "jp": "https://files.riichi.moe/mjg/game%20resources%20and%20tools/Mahjong%20Soul/raw%20assets/v0.10.228.w/jp/myres/sns/23050809.jpg",
+      "kr": "https://files.riichi.moe/mjg/game%20resources%20and%20tools/Mahjong%20Soul/raw%20assets/v0.10.228.w/kr/myres/sns/23050809.jpg"
+    },
+    "ui/activity/extend/catchat/main/pic_scattered/23050811.jpg": {
+      "cn": "https://files.riichi.moe/mjg/game%20resources%20and%20tools/Mahjong%20Soul/raw%20assets/v0.10.228.w/chs_t/myres/sns/23050811.jpg",
+      "en": "https://files.riichi.moe/mjg/game%20resources%20and%20tools/Mahjong%20Soul/raw%20assets/v0.10.228.w/en/myres/sns/23050811.jpg",
+      "jp": "https://files.riichi.moe/mjg/game%20resources%20and%20tools/Mahjong%20Soul/raw%20assets/v0.10.228.w/jp/myres/sns/23050811.jpg",
+      "kr": "https://files.riichi.moe/mjg/game%20resources%20and%20tools/Mahjong%20Soul/raw%20assets/v0.10.228.w/kr/myres/sns/23050811.jpg"
+    },
+    "ui/activity/extend/catchat/main/pic_scattered/23050812.png": {
+      "cn": "https://files.riichi.moe/mjg/game%20resources%20and%20tools/Mahjong%20Soul/raw%20assets/v0.10.228.w/chs_t/myres/sns/23050812.png",
+      "en": "https://files.riichi.moe/mjg/game%20resources%20and%20tools/Mahjong%20Soul/raw%20assets/v0.10.228.w/en/myres/sns/23050812.png",
+      "jp": "https://files.riichi.moe/mjg/game%20resources%20and%20tools/Mahjong%20Soul/raw%20assets/v0.10.228.w/jp/myres/sns/23050812.png",
+      "kr": "https://files.riichi.moe/mjg/game%20resources%20and%20tools/Mahjong%20Soul/raw%20assets/v0.10.228.w/kr/myres/sns/23050812.png"
+    },
+    "ui/activity/extend/catchat/main/pic_scattered/23050813.jpg": {
+      "cn": "https://files.riichi.moe/mjg/game%20resources%20and%20tools/Mahjong%20Soul/raw%20assets/v0.10.228.w/chs_t/myres/sns/23050813.jpg",
+      "en": "https://files.riichi.moe/mjg/game%20resources%20and%20tools/Mahjong%20Soul/raw%20assets/v0.10.228.w/en/myres/sns/23050813.jpg",
+      "jp": "https://files.riichi.moe/mjg/game%20resources%20and%20tools/Mahjong%20Soul/raw%20assets/v0.10.228.w/jp/myres/sns/23050813.jpg",
+      "kr": "https://files.riichi.moe/mjg/game%20resources%20and%20tools/Mahjong%20Soul/raw%20assets/v0.10.228.w/kr/myres/sns/23050813.jpg"
+    },
+    "ui/activity/extend/catchat/main/pic_scattered/23050814.jpg": {
+      "cn": "https://files.riichi.moe/mjg/game%20resources%20and%20tools/Mahjong%20Soul/raw%20assets/v0.10.228.w/chs_t/myres/sns/23050814.jpg",
+      "en": "https://files.riichi.moe/mjg/game%20resources%20and%20tools/Mahjong%20Soul/raw%20assets/v0.10.228.w/en/myres/sns/23050814.jpg",
+      "jp": "https://files.riichi.moe/mjg/game%20resources%20and%20tools/Mahjong%20Soul/raw%20assets/v0.10.228.w/jp/myres/sns/23050814.jpg",
+      "kr": "https://files.riichi.moe/mjg/game%20resources%20and%20tools/Mahjong%20Soul/raw%20assets/v0.10.228.w/kr/myres/sns/23050814.jpg"
+    },
+    "ui/activity/extend/catchat/main/pic_scattered/23050815.jpg": {
+      "cn": "https://files.riichi.moe/mjg/game%20resources%20and%20tools/Mahjong%20Soul/raw%20assets/v0.10.228.w/chs_t/myres/sns/23050815.jpg",
+      "en": "https://files.riichi.moe/mjg/game%20resources%20and%20tools/Mahjong%20Soul/raw%20assets/v0.10.228.w/en/myres/sns/23050815.jpg",
+      "jp": "https://files.riichi.moe/mjg/game%20resources%20and%20tools/Mahjong%20Soul/raw%20assets/v0.10.228.w/jp/myres/sns/23050815.jpg",
+      "kr": "https://files.riichi.moe/mjg/game%20resources%20and%20tools/Mahjong%20Soul/raw%20assets/v0.10.228.w/kr/myres/sns/23050815.jpg"
+    },
+    "ui/activity/extend/catchat/main/pic_scattered/23050816.jpg": {
+      "cn": "https://files.riichi.moe/mjg/game%20resources%20and%20tools/Mahjong%20Soul/raw%20assets/v0.10.228.w/chs_t/myres/sns/23050816.jpg",
+      "en": "https://files.riichi.moe/mjg/game%20resources%20and%20tools/Mahjong%20Soul/raw%20assets/v0.10.228.w/en/myres/sns/23050816.jpg",
+      "jp": "https://files.riichi.moe/mjg/game%20resources%20and%20tools/Mahjong%20Soul/raw%20assets/v0.10.228.w/jp/myres/sns/23050816.jpg",
+      "kr": "https://files.riichi.moe/mjg/game%20resources%20and%20tools/Mahjong%20Soul/raw%20assets/v0.10.228.w/kr/myres/sns/23050816.jpg"
+    },
+    "ui/activity/extend/catchat/main/pic_scattered/23050817.jpg": {
+      "cn": "https://files.riichi.moe/mjg/game%20resources%20and%20tools/Mahjong%20Soul/raw%20assets/v0.10.228.w/chs_t/myres/sns/23050817.jpg",
+      "en": "https://files.riichi.moe/mjg/game%20resources%20and%20tools/Mahjong%20Soul/raw%20assets/v0.10.228.w/en/myres/sns/23050817.jpg",
+      "jp": "https://files.riichi.moe/mjg/game%20resources%20and%20tools/Mahjong%20Soul/raw%20assets/v0.10.228.w/jp/myres/sns/23050817.jpg",
+      "kr": "https://files.riichi.moe/mjg/game%20resources%20and%20tools/Mahjong%20Soul/raw%20assets/v0.10.228.w/kr/myres/sns/23050817.jpg"
+    },
+    "ui/activity/extend/catchat/main/pic_scattered/230701.jpg": {
+      "cn": "https://files.riichi.moe/mjg/game%20resources%20and%20tools/Mahjong%20Soul/raw%20assets/v0.10.251.w/chs_t/myres/sns/230701.jpg",
+      "en": "https://files.riichi.moe/mjg/game%20resources%20and%20tools/Mahjong%20Soul/raw%20assets/v0.10.251.w/en/myres/sns/230701.jpg",
+      "jp": "https://files.riichi.moe/mjg/game%20resources%20and%20tools/Mahjong%20Soul/raw%20assets/v0.10.251.w/jp/myres/sns/230701.jpg",
+      "kr": "https://files.riichi.moe/mjg/game%20resources%20and%20tools/Mahjong%20Soul/raw%20assets/v0.10.251.w/kr/myres/sns/230701.jpg"
+    },
+    "ui/activity/extend/catchat/main/pic_scattered/230702.jpg": {
+      "cn": "https://files.riichi.moe/mjg/game%20resources%20and%20tools/Mahjong%20Soul/raw%20assets/v0.10.251.w/chs_t/myres/sns/230702.jpg",
+      "en": "https://files.riichi.moe/mjg/game%20resources%20and%20tools/Mahjong%20Soul/raw%20assets/v0.10.251.w/en/myres/sns/230702.jpg",
+      "jp": "https://files.riichi.moe/mjg/game%20resources%20and%20tools/Mahjong%20Soul/raw%20assets/v0.10.251.w/jp/myres/sns/230702.jpg",
+      "kr": "https://files.riichi.moe/mjg/game%20resources%20and%20tools/Mahjong%20Soul/raw%20assets/v0.10.251.w/kr/myres/sns/230702.jpg"
+    },
+    "ui/activity/extend/catchat/main/pic_scattered/230703.jpg": {
+      "cn": "https://files.riichi.moe/mjg/game%20resources%20and%20tools/Mahjong%20Soul/raw%20assets/v0.10.251.w/chs_t/myres/sns/230703.jpg",
+      "en": "https://files.riichi.moe/mjg/game%20resources%20and%20tools/Mahjong%20Soul/raw%20assets/v0.10.251.w/en/myres/sns/230703.jpg",
+      "jp": "https://files.riichi.moe/mjg/game%20resources%20and%20tools/Mahjong%20Soul/raw%20assets/v0.10.251.w/jp/myres/sns/230703.jpg",
+      "kr": "https://files.riichi.moe/mjg/game%20resources%20and%20tools/Mahjong%20Soul/raw%20assets/v0.10.251.w/kr/myres/sns/230703.jpg"
+    },
+    "ui/activity/extend/catchat/main/pic_scattered/230704.jpg": {
+      "cn": "https://files.riichi.moe/mjg/game%20resources%20and%20tools/Mahjong%20Soul/raw%20assets/v0.10.251.w/chs_t/myres/sns/230704.jpg",
+      "en": "https://files.riichi.moe/mjg/game%20resources%20and%20tools/Mahjong%20Soul/raw%20assets/v0.10.251.w/en/myres/sns/230704.jpg",
+      "jp": "https://files.riichi.moe/mjg/game%20resources%20and%20tools/Mahjong%20Soul/raw%20assets/v0.10.251.w/jp/myres/sns/230704.jpg",
+      "kr": "https://files.riichi.moe/mjg/game%20resources%20and%20tools/Mahjong%20Soul/raw%20assets/v0.10.251.w/kr/myres/sns/230704.jpg"
+    },
+    "ui/activity/extend/catchat/main/pic_scattered/230705.jpg": {
+      "cn": "https://files.riichi.moe/mjg/game%20resources%20and%20tools/Mahjong%20Soul/raw%20assets/v0.10.251.w/chs_t/myres/sns/230705.jpg",
+      "en": "https://files.riichi.moe/mjg/game%20resources%20and%20tools/Mahjong%20Soul/raw%20assets/v0.10.251.w/en/myres/sns/230705.jpg",
+      "jp": "https://files.riichi.moe/mjg/game%20resources%20and%20tools/Mahjong%20Soul/raw%20assets/v0.10.251.w/jp/myres/sns/230705.jpg",
+      "kr": "https://files.riichi.moe/mjg/game%20resources%20and%20tools/Mahjong%20Soul/raw%20assets/v0.10.251.w/kr/myres/sns/230705.jpg"
+    },
+    "ui/activity/extend/catchat/main/pic_scattered/230707.jpg": {
+      "cn": "https://files.riichi.moe/mjg/game%20resources%20and%20tools/Mahjong%20Soul/raw%20assets/v0.10.251.w/chs_t/myres/sns/230707.jpg",
+      "en": "https://files.riichi.moe/mjg/game%20resources%20and%20tools/Mahjong%20Soul/raw%20assets/v0.10.251.w/en/myres/sns/230707.jpg",
+      "jp": "https://files.riichi.moe/mjg/game%20resources%20and%20tools/Mahjong%20Soul/raw%20assets/v0.10.251.w/jp/myres/sns/230707.jpg",
+      "kr": "https://files.riichi.moe/mjg/game%20resources%20and%20tools/Mahjong%20Soul/raw%20assets/v0.10.251.w/kr/myres/sns/230707.jpg"
+    },
+    "ui/activity/extend/catchat/main/pic_scattered/2307081.jpg": {
+      "cn": "https://files.riichi.moe/mjg/game%20resources%20and%20tools/Mahjong%20Soul/raw%20assets/v0.10.251.w/chs_t/myres/sns/2307081.jpg",
+      "en": "https://files.riichi.moe/mjg/game%20resources%20and%20tools/Mahjong%20Soul/raw%20assets/v0.10.251.w/en/myres/sns/2307081.jpg",
+      "jp": "https://files.riichi.moe/mjg/game%20resources%20and%20tools/Mahjong%20Soul/raw%20assets/v0.10.251.w/jp/myres/sns/2307081.jpg",
+      "kr": "https://files.riichi.moe/mjg/game%20resources%20and%20tools/Mahjong%20Soul/raw%20assets/v0.10.251.w/kr/myres/sns/2307081.jpg"
+    },
+    "ui/activity/extend/catchat/main/pic_scattered/2307082.jpg": {
+      "cn": "https://files.riichi.moe/mjg/game%20resources%20and%20tools/Mahjong%20Soul/raw%20assets/v0.10.251.w/chs_t/myres/sns/2307082.jpg",
+      "en": "https://files.riichi.moe/mjg/game%20resources%20and%20tools/Mahjong%20Soul/raw%20assets/v0.10.251.w/en/myres/sns/2307082.jpg",
+      "jp": "https://files.riichi.moe/mjg/game%20resources%20and%20tools/Mahjong%20Soul/raw%20assets/v0.10.251.w/jp/myres/sns/2307082.jpg",
+      "kr": "https://files.riichi.moe/mjg/game%20resources%20and%20tools/Mahjong%20Soul/raw%20assets/v0.10.251.w/kr/myres/sns/2307082.jpg"
+    },
+    "ui/activity/extend/catchat/main/pic_scattered/230709.jpg": {
+      "cn": "https://files.riichi.moe/mjg/game%20resources%20and%20tools/Mahjong%20Soul/raw%20assets/v0.10.251.w/chs_t/myres/sns/230709.jpg",
+      "en": "https://files.riichi.moe/mjg/game%20resources%20and%20tools/Mahjong%20Soul/raw%20assets/v0.10.251.w/en/myres/sns/230709.jpg",
+      "jp": "https://files.riichi.moe/mjg/game%20resources%20and%20tools/Mahjong%20Soul/raw%20assets/v0.10.251.w/jp/myres/sns/230709.jpg",
+      "kr": "https://files.riichi.moe/mjg/game%20resources%20and%20tools/Mahjong%20Soul/raw%20assets/v0.10.251.w/kr/myres/sns/230709.jpg"
+    },
+    "ui/activity/extend/catchat/main/pic_scattered/230710.jpg": {
+      "cn": "https://files.riichi.moe/mjg/game%20resources%20and%20tools/Mahjong%20Soul/raw%20assets/v0.10.251.w/chs_t/myres/sns/230710.jpg",
+      "en": "https://files.riichi.moe/mjg/game%20resources%20and%20tools/Mahjong%20Soul/raw%20assets/v0.10.251.w/en/myres/sns/230710.jpg",
+      "jp": "https://files.riichi.moe/mjg/game%20resources%20and%20tools/Mahjong%20Soul/raw%20assets/v0.10.251.w/jp/myres/sns/230710.jpg",
+      "kr": "https://files.riichi.moe/mjg/game%20resources%20and%20tools/Mahjong%20Soul/raw%20assets/v0.10.251.w/kr/myres/sns/230710.jpg"
+    },
+    "ui/activity/extend/catchat/main/pic_scattered/230711.jpg": {
+      "cn": "https://files.riichi.moe/mjg/game%20resources%20and%20tools/Mahjong%20Soul/raw%20assets/v0.10.251.w/chs_t/myres/sns/230711.jpg",
+      "en": "https://files.riichi.moe/mjg/game%20resources%20and%20tools/Mahjong%20Soul/raw%20assets/v0.10.251.w/en/myres/sns/230711.jpg",
+      "jp": "https://files.riichi.moe/mjg/game%20resources%20and%20tools/Mahjong%20Soul/raw%20assets/v0.10.251.w/jp/myres/sns/230711.jpg",
+      "kr": "https://files.riichi.moe/mjg/game%20resources%20and%20tools/Mahjong%20Soul/raw%20assets/v0.10.251.w/kr/myres/sns/230711.jpg"
+    },
+    "ui/activity/extend/catchat/main/pic_scattered/2307121.jpg": {
+      "cn": "https://files.riichi.moe/mjg/game%20resources%20and%20tools/Mahjong%20Soul/raw%20assets/v0.10.251.w/chs_t/myres/sns/2307121.jpg",
+      "en": "https://files.riichi.moe/mjg/game%20resources%20and%20tools/Mahjong%20Soul/raw%20assets/v0.10.251.w/en/myres/sns/2307121.jpg",
+      "jp": "https://files.riichi.moe/mjg/game%20resources%20and%20tools/Mahjong%20Soul/raw%20assets/v0.10.251.w/jp/myres/sns/2307121.jpg",
+      "kr": "https://files.riichi.moe/mjg/game%20resources%20and%20tools/Mahjong%20Soul/raw%20assets/v0.10.251.w/kr/myres/sns/2307121.jpg"
+    },
+    "ui/activity/extend/catchat/main/pic_scattered/2307122.jpg": {
+      "cn": "https://files.riichi.moe/mjg/game%20resources%20and%20tools/Mahjong%20Soul/raw%20assets/v0.10.251.w/chs_t/myres/sns/2307122.jpg",
+      "en": "https://files.riichi.moe/mjg/game%20resources%20and%20tools/Mahjong%20Soul/raw%20assets/v0.10.251.w/en/myres/sns/2307122.jpg",
+      "jp": "https://files.riichi.moe/mjg/game%20resources%20and%20tools/Mahjong%20Soul/raw%20assets/v0.10.251.w/jp/myres/sns/2307122.jpg",
+      "kr": "https://files.riichi.moe/mjg/game%20resources%20and%20tools/Mahjong%20Soul/raw%20assets/v0.10.251.w/kr/myres/sns/2307122.jpg"
+    },
+    "ui/activity/extend/catchat/main/pic_scattered/230713.jpg": {
+      "cn": "https://files.riichi.moe/mjg/game%20resources%20and%20tools/Mahjong%20Soul/raw%20assets/v0.10.251.w/chs_t/myres/sns/230713.jpg",
+      "en": "https://files.riichi.moe/mjg/game%20resources%20and%20tools/Mahjong%20Soul/raw%20assets/v0.10.251.w/en/myres/sns/230713.jpg",
+      "jp": "https://files.riichi.moe/mjg/game%20resources%20and%20tools/Mahjong%20Soul/raw%20assets/v0.10.251.w/jp/myres/sns/230713.jpg",
+      "kr": "https://files.riichi.moe/mjg/game%20resources%20and%20tools/Mahjong%20Soul/raw%20assets/v0.10.251.w/kr/myres/sns/230713.jpg"
+    },
+    "ui/activity/extend/catchat/main/pic_scattered/230715.jpg": {
+      "cn": "https://files.riichi.moe/mjg/game%20resources%20and%20tools/Mahjong%20Soul/raw%20assets/v0.10.251.w/chs_t/myres/sns/230715.jpg",
+      "en": "https://files.riichi.moe/mjg/game%20resources%20and%20tools/Mahjong%20Soul/raw%20assets/v0.10.251.w/en/myres/sns/230715.jpg",
+      "jp": "https://files.riichi.moe/mjg/game%20resources%20and%20tools/Mahjong%20Soul/raw%20assets/v0.10.251.w/jp/myres/sns/230715.jpg",
+      "kr": "https://files.riichi.moe/mjg/game%20resources%20and%20tools/Mahjong%20Soul/raw%20assets/v0.10.251.w/kr/myres/sns/230715.jpg"
+    },
+    "ui/activity/extend/catchat/main/pic_scattered/230716.jpg": {
+      "cn": "https://files.riichi.moe/mjg/game%20resources%20and%20tools/Mahjong%20Soul/raw%20assets/v0.10.251.w/chs_t/myres/sns/230716.jpg",
+      "en": "https://files.riichi.moe/mjg/game%20resources%20and%20tools/Mahjong%20Soul/raw%20assets/v0.10.251.w/en/myres/sns/230716.jpg",
+      "jp": "https://files.riichi.moe/mjg/game%20resources%20and%20tools/Mahjong%20Soul/raw%20assets/v0.10.251.w/jp/myres/sns/230716.jpg",
+      "kr": "https://files.riichi.moe/mjg/game%20resources%20and%20tools/Mahjong%20Soul/raw%20assets/v0.10.251.w/kr/myres/sns/230716.jpg"
+    },
+    "ui/activity/extend/catchat/main/pic_scattered/230717.jpg": {
+      "cn": "https://files.riichi.moe/mjg/game%20resources%20and%20tools/Mahjong%20Soul/raw%20assets/v0.10.251.w/chs_t/myres/sns/230717.jpg",
+      "en": "https://files.riichi.moe/mjg/game%20resources%20and%20tools/Mahjong%20Soul/raw%20assets/v0.10.251.w/en/myres/sns/230717.jpg",
+      "jp": "https://files.riichi.moe/mjg/game%20resources%20and%20tools/Mahjong%20Soul/raw%20assets/v0.10.251.w/jp/myres/sns/230717.jpg",
+      "kr": "https://files.riichi.moe/mjg/game%20resources%20and%20tools/Mahjong%20Soul/raw%20assets/v0.10.251.w/kr/myres/sns/230717.jpg"
+    },
+    "ui/activity/extend/catchat/main/pic_scattered/230718.jpg": {
+      "cn": "https://files.riichi.moe/mjg/game%20resources%20and%20tools/Mahjong%20Soul/raw%20assets/v0.10.251.w/chs_t/myres/sns/230718.jpg",
+      "en": "https://files.riichi.moe/mjg/game%20resources%20and%20tools/Mahjong%20Soul/raw%20assets/v0.10.251.w/en/myres/sns/230718.jpg",
+      "jp": "https://files.riichi.moe/mjg/game%20resources%20and%20tools/Mahjong%20Soul/raw%20assets/v0.10.251.w/jp/myres/sns/230718.jpg",
+      "kr": "https://files.riichi.moe/mjg/game%20resources%20and%20tools/Mahjong%20Soul/raw%20assets/v0.10.251.w/kr/myres/sns/230718.jpg"
+    },
+    "ui/activity/extend/catchat/main/pic_scattered/230720.jpg": {
+      "cn": "https://files.riichi.moe/mjg/game%20resources%20and%20tools/Mahjong%20Soul/raw%20assets/v0.10.251.w/chs_t/myres/sns/230720.jpg",
+      "en": "https://files.riichi.moe/mjg/game%20resources%20and%20tools/Mahjong%20Soul/raw%20assets/v0.10.251.w/en/myres/sns/230720.jpg",
+      "jp": "https://files.riichi.moe/mjg/game%20resources%20and%20tools/Mahjong%20Soul/raw%20assets/v0.10.251.w/jp/myres/sns/230720.jpg",
+      "kr": "https://files.riichi.moe/mjg/game%20resources%20and%20tools/Mahjong%20Soul/raw%20assets/v0.10.251.w/kr/myres/sns/230720.jpg"
+    },
+    "ui/activity/extend/catchat/main/pic_scattered/231001.jpg": {
+      "cn": "https://files.riichi.moe/mjg/game%20resources%20and%20tools/Mahjong%20Soul/raw%20assets/v0.10.287.w/chs_t/myres/sns/231001.jpg",
+      "en": "https://files.riichi.moe/mjg/game%20resources%20and%20tools/Mahjong%20Soul/raw%20assets/v0.10.287.w/en/myres/sns/231001.jpg",
+      "jp": "https://files.riichi.moe/mjg/game%20resources%20and%20tools/Mahjong%20Soul/raw%20assets/v0.10.287.w/jp/myres/sns/231001.jpg",
+      "kr": "https://files.riichi.moe/mjg/game%20resources%20and%20tools/Mahjong%20Soul/raw%20assets/v0.10.287.w/kr/myres/sns/231001.jpg"
+    },
+    "ui/activity/extend/catchat/main/pic_scattered/231002.jpg": {
+      "cn": "https://files.riichi.moe/mjg/game%20resources%20and%20tools/Mahjong%20Soul/raw%20assets/v0.10.287.w/chs_t/myres/sns/231002.jpg",
+      "en": "https://files.riichi.moe/mjg/game%20resources%20and%20tools/Mahjong%20Soul/raw%20assets/v0.10.287.w/en/myres/sns/231002.jpg",
+      "jp": "https://files.riichi.moe/mjg/game%20resources%20and%20tools/Mahjong%20Soul/raw%20assets/v0.10.287.w/jp/myres/sns/231002.jpg",
+      "kr": "https://files.riichi.moe/mjg/game%20resources%20and%20tools/Mahjong%20Soul/raw%20assets/v0.10.287.w/kr/myres/sns/231002.jpg"
+    },
+    "ui/activity/extend/catchat/main/pic_scattered/231003.jpg": {
+      "cn": "https://files.riichi.moe/mjg/game%20resources%20and%20tools/Mahjong%20Soul/raw%20assets/v0.10.287.w/chs_t/myres/sns/231003.jpg",
+      "en": "https://files.riichi.moe/mjg/game%20resources%20and%20tools/Mahjong%20Soul/raw%20assets/v0.10.287.w/en/myres/sns/231003.jpg",
+      "jp": "https://files.riichi.moe/mjg/game%20resources%20and%20tools/Mahjong%20Soul/raw%20assets/v0.10.287.w/jp/myres/sns/231003.jpg",
+      "kr": "https://files.riichi.moe/mjg/game%20resources%20and%20tools/Mahjong%20Soul/raw%20assets/v0.10.287.w/kr/myres/sns/231003.jpg"
+    },
+    "ui/activity/extend/catchat/main/pic_scattered/231004.jpg": {
+      "cn": "https://files.riichi.moe/mjg/game%20resources%20and%20tools/Mahjong%20Soul/raw%20assets/v0.10.287.w/chs_t/myres/sns/231004.jpg",
+      "en": "https://files.riichi.moe/mjg/game%20resources%20and%20tools/Mahjong%20Soul/raw%20assets/v0.10.287.w/en/myres/sns/231004.jpg",
+      "jp": "https://files.riichi.moe/mjg/game%20resources%20and%20tools/Mahjong%20Soul/raw%20assets/v0.10.287.w/jp/myres/sns/231004.jpg",
+      "kr": "https://files.riichi.moe/mjg/game%20resources%20and%20tools/Mahjong%20Soul/raw%20assets/v0.10.287.w/kr/myres/sns/231004.jpg"
+    },
+    "ui/activity/extend/catchat/main/pic_scattered/231005.jpg": {
+      "cn": "https://files.riichi.moe/mjg/game%20resources%20and%20tools/Mahjong%20Soul/raw%20assets/v0.10.287.w/chs_t/myres/sns/231005.jpg",
+      "en": "https://files.riichi.moe/mjg/game%20resources%20and%20tools/Mahjong%20Soul/raw%20assets/v0.10.287.w/en/myres/sns/231005.jpg",
+      "jp": "https://files.riichi.moe/mjg/game%20resources%20and%20tools/Mahjong%20Soul/raw%20assets/v0.10.287.w/jp/myres/sns/231005.jpg",
+      "kr": "https://files.riichi.moe/mjg/game%20resources%20and%20tools/Mahjong%20Soul/raw%20assets/v0.10.287.w/kr/myres/sns/231005.jpg"
+    },
+    "ui/activity/extend/catchat/main/pic_scattered/231006.jpg": {
+      "cn": "https://files.riichi.moe/mjg/game%20resources%20and%20tools/Mahjong%20Soul/raw%20assets/v0.10.287.w/chs_t/myres/sns/231006.jpg",
+      "en": "https://files.riichi.moe/mjg/game%20resources%20and%20tools/Mahjong%20Soul/raw%20assets/v0.10.287.w/en/myres/sns/231006.jpg",
+      "jp": "https://files.riichi.moe/mjg/game%20resources%20and%20tools/Mahjong%20Soul/raw%20assets/v0.10.287.w/jp/myres/sns/231006.jpg",
+      "kr": "https://files.riichi.moe/mjg/game%20resources%20and%20tools/Mahjong%20Soul/raw%20assets/v0.10.287.w/kr/myres/sns/231006.jpg"
+    },
+    "ui/activity/extend/catchat/main/pic_scattered/231007.jpg": {
+      "cn": "https://files.riichi.moe/mjg/game%20resources%20and%20tools/Mahjong%20Soul/raw%20assets/v0.10.287.w/chs_t/myres/sns/231007.jpg",
+      "en": "https://files.riichi.moe/mjg/game%20resources%20and%20tools/Mahjong%20Soul/raw%20assets/v0.10.287.w/en/myres/sns/231007.jpg",
+      "jp": "https://files.riichi.moe/mjg/game%20resources%20and%20tools/Mahjong%20Soul/raw%20assets/v0.10.287.w/jp/myres/sns/231007.jpg",
+      "kr": "https://files.riichi.moe/mjg/game%20resources%20and%20tools/Mahjong%20Soul/raw%20assets/v0.10.287.w/kr/myres/sns/231007.jpg"
+    },
+    "ui/activity/extend/catchat/main/pic_scattered/231008.jpg": {
+      "cn": "https://files.riichi.moe/mjg/game%20resources%20and%20tools/Mahjong%20Soul/raw%20assets/v0.10.287.w/chs_t/myres/sns/231008.jpg",
+      "en": "https://files.riichi.moe/mjg/game%20resources%20and%20tools/Mahjong%20Soul/raw%20assets/v0.10.287.w/en/myres/sns/231008.jpg",
+      "jp": "https://files.riichi.moe/mjg/game%20resources%20and%20tools/Mahjong%20Soul/raw%20assets/v0.10.287.w/jp/myres/sns/231008.jpg",
+      "kr": "https://files.riichi.moe/mjg/game%20resources%20and%20tools/Mahjong%20Soul/raw%20assets/v0.10.287.w/kr/myres/sns/231008.jpg"
+    },
+    "ui/activity/extend/catchat/main/pic_scattered/231009.jpg": {
+      "cn": "https://files.riichi.moe/mjg/game%20resources%20and%20tools/Mahjong%20Soul/raw%20assets/v0.10.287.w/chs_t/myres/sns/231009.jpg",
+      "en": "https://files.riichi.moe/mjg/game%20resources%20and%20tools/Mahjong%20Soul/raw%20assets/v0.10.287.w/en/myres/sns/231009.jpg",
+      "jp": "https://files.riichi.moe/mjg/game%20resources%20and%20tools/Mahjong%20Soul/raw%20assets/v0.10.287.w/jp/myres/sns/231009.jpg",
+      "kr": "https://files.riichi.moe/mjg/game%20resources%20and%20tools/Mahjong%20Soul/raw%20assets/v0.10.287.w/kr/myres/sns/231009.jpg"
+    },
+    "ui/activity/extend/catchat/main/pic_scattered/231010.jpg": {
+      "cn": "https://files.riichi.moe/mjg/game%20resources%20and%20tools/Mahjong%20Soul/raw%20assets/v0.10.287.w/chs_t/myres/sns/231010.jpg",
+      "en": "https://files.riichi.moe/mjg/game%20resources%20and%20tools/Mahjong%20Soul/raw%20assets/v0.10.287.w/en/myres/sns/231010.jpg",
+      "jp": "https://files.riichi.moe/mjg/game%20resources%20and%20tools/Mahjong%20Soul/raw%20assets/v0.10.287.w/jp/myres/sns/231010.jpg",
+      "kr": "https://files.riichi.moe/mjg/game%20resources%20and%20tools/Mahjong%20Soul/raw%20assets/v0.10.287.w/kr/myres/sns/231010.jpg"
+    },
+    "ui/activity/extend/catchat/main/pic_scattered/231011.jpg": {
+      "cn": "https://files.riichi.moe/mjg/game%20resources%20and%20tools/Mahjong%20Soul/raw%20assets/v0.10.287.w/chs_t/myres/sns/231011.jpg",
+      "en": "https://files.riichi.moe/mjg/game%20resources%20and%20tools/Mahjong%20Soul/raw%20assets/v0.10.287.w/en/myres/sns/231011.jpg",
+      "jp": "https://files.riichi.moe/mjg/game%20resources%20and%20tools/Mahjong%20Soul/raw%20assets/v0.10.287.w/jp/myres/sns/231011.jpg",
+      "kr": "https://files.riichi.moe/mjg/game%20resources%20and%20tools/Mahjong%20Soul/raw%20assets/v0.10.287.w/kr/myres/sns/231011.jpg"
+    },
+    "ui/activity/extend/catchat/main/pic_scattered/231012.jpg": {
+      "cn": "https://files.riichi.moe/mjg/game%20resources%20and%20tools/Mahjong%20Soul/raw%20assets/v0.10.287.w/chs_t/myres/sns/231012.jpg",
+      "en": "https://files.riichi.moe/mjg/game%20resources%20and%20tools/Mahjong%20Soul/raw%20assets/v0.10.287.w/en/myres/sns/231012.jpg",
+      "jp": "https://files.riichi.moe/mjg/game%20resources%20and%20tools/Mahjong%20Soul/raw%20assets/v0.10.287.w/jp/myres/sns/231012.jpg",
+      "kr": "https://files.riichi.moe/mjg/game%20resources%20and%20tools/Mahjong%20Soul/raw%20assets/v0.10.287.w/kr/myres/sns/231012.jpg"
+    },
+    "ui/activity/extend/catchat/main/pic_scattered/231013.jpg": {
+      "cn": "https://files.riichi.moe/mjg/game%20resources%20and%20tools/Mahjong%20Soul/raw%20assets/v0.10.287.w/chs_t/myres/sns/231013.jpg",
+      "en": "https://files.riichi.moe/mjg/game%20resources%20and%20tools/Mahjong%20Soul/raw%20assets/v0.10.287.w/en/myres/sns/231013.jpg",
+      "jp": "https://files.riichi.moe/mjg/game%20resources%20and%20tools/Mahjong%20Soul/raw%20assets/v0.10.287.w/jp/myres/sns/231013.jpg",
+      "kr": "https://files.riichi.moe/mjg/game%20resources%20and%20tools/Mahjong%20Soul/raw%20assets/v0.10.287.w/kr/myres/sns/231013.jpg"
+    },
+    "ui/activity/extend/catchat/main/pic_scattered/231014.jpg": {
+      "cn": "https://files.riichi.moe/mjg/game%20resources%20and%20tools/Mahjong%20Soul/raw%20assets/v0.10.287.w/chs_t/myres/sns/231014.jpg",
+      "en": "https://files.riichi.moe/mjg/game%20resources%20and%20tools/Mahjong%20Soul/raw%20assets/v0.10.287.w/en/myres/sns/231014.jpg",
+      "jp": "https://files.riichi.moe/mjg/game%20resources%20and%20tools/Mahjong%20Soul/raw%20assets/v0.10.287.w/jp/myres/sns/231014.jpg",
+      "kr": "https://files.riichi.moe/mjg/game%20resources%20and%20tools/Mahjong%20Soul/raw%20assets/v0.10.287.w/kr/myres/sns/231014.jpg"
+    },
+    "ui/activity/extend/catchat/main/pic_scattered/231015.jpg": {
+      "cn": "https://files.riichi.moe/mjg/game%20resources%20and%20tools/Mahjong%20Soul/raw%20assets/v0.10.287.w/chs_t/myres/sns/231015.jpg",
+      "en": "https://files.riichi.moe/mjg/game%20resources%20and%20tools/Mahjong%20Soul/raw%20assets/v0.10.287.w/en/myres/sns/231015.jpg",
+      "jp": "https://files.riichi.moe/mjg/game%20resources%20and%20tools/Mahjong%20Soul/raw%20assets/v0.10.287.w/jp/myres/sns/231015.jpg",
+      "kr": "https://files.riichi.moe/mjg/game%20resources%20and%20tools/Mahjong%20Soul/raw%20assets/v0.10.287.w/kr/myres/sns/231015.jpg"
+    },
+    "ui/activity/extend/catchat/main/pic_scattered/231016.jpg": {
+      "cn": "https://files.riichi.moe/mjg/game%20resources%20and%20tools/Mahjong%20Soul/raw%20assets/v0.10.287.w/chs_t/myres/sns/231016.jpg",
+      "en": "https://files.riichi.moe/mjg/game%20resources%20and%20tools/Mahjong%20Soul/raw%20assets/v0.10.287.w/en/myres/sns/231016.jpg",
+      "jp": "https://files.riichi.moe/mjg/game%20resources%20and%20tools/Mahjong%20Soul/raw%20assets/v0.10.287.w/jp/myres/sns/231016.jpg",
+      "kr": "https://files.riichi.moe/mjg/game%20resources%20and%20tools/Mahjong%20Soul/raw%20assets/v0.10.287.w/kr/myres/sns/231016.jpg"
+    },
+    "ui/activity/extend/catchat/main/pic_scattered/231201.jpg": {
+      "cn": "https://files.riichi.moe/mjg/game%20resources%20and%20tools/Mahjong%20Soul/raw%20assets/v0.11.1.w/chs_t/myres/sns/231201.jpg",
+      "en": "https://files.riichi.moe/mjg/game%20resources%20and%20tools/Mahjong%20Soul/raw%20assets/v0.11.1.w/en/myres/sns/231201.jpg",
+      "jp": "https://files.riichi.moe/mjg/game%20resources%20and%20tools/Mahjong%20Soul/raw%20assets/v0.11.1.w/jp/myres/sns/231201.jpg",
+      "kr": "https://files.riichi.moe/mjg/game%20resources%20and%20tools/Mahjong%20Soul/raw%20assets/v0.11.1.w/kr/myres/sns/231201.jpg"
+    },
+    "ui/activity/extend/catchat/main/pic_scattered/231202.jpg": {
+      "cn": "https://files.riichi.moe/mjg/game%20resources%20and%20tools/Mahjong%20Soul/raw%20assets/v0.11.1.w/chs_t/myres/sns/231202.jpg",
+      "en": "https://files.riichi.moe/mjg/game%20resources%20and%20tools/Mahjong%20Soul/raw%20assets/v0.11.1.w/en/myres/sns/231202.jpg",
+      "jp": "https://files.riichi.moe/mjg/game%20resources%20and%20tools/Mahjong%20Soul/raw%20assets/v0.11.1.w/jp/myres/sns/231202.jpg",
+      "kr": "https://files.riichi.moe/mjg/game%20resources%20and%20tools/Mahjong%20Soul/raw%20assets/v0.11.1.w/kr/myres/sns/231202.jpg"
+    },
+    "ui/activity/extend/catchat/main/pic_scattered/231203.jpg": {
+      "cn": "https://files.riichi.moe/mjg/game%20resources%20and%20tools/Mahjong%20Soul/raw%20assets/v0.11.1.w/chs_t/myres/sns/231203.jpg",
+      "en": "https://files.riichi.moe/mjg/game%20resources%20and%20tools/Mahjong%20Soul/raw%20assets/v0.11.1.w/en/myres/sns/231203.jpg",
+      "jp": "https://files.riichi.moe/mjg/game%20resources%20and%20tools/Mahjong%20Soul/raw%20assets/v0.11.1.w/jp/myres/sns/231203.jpg",
+      "kr": "https://files.riichi.moe/mjg/game%20resources%20and%20tools/Mahjong%20Soul/raw%20assets/v0.11.1.w/kr/myres/sns/231203.jpg"
+    },
+    "ui/activity/extend/catchat/main/pic_scattered/231204.jpg": {
+      "cn": "https://files.riichi.moe/mjg/game%20resources%20and%20tools/Mahjong%20Soul/raw%20assets/v0.11.1.w/chs_t/myres/sns/231204.jpg",
+      "en": "https://files.riichi.moe/mjg/game%20resources%20and%20tools/Mahjong%20Soul/raw%20assets/v0.11.1.w/en/myres/sns/231204.jpg",
+      "jp": "https://files.riichi.moe/mjg/game%20resources%20and%20tools/Mahjong%20Soul/raw%20assets/v0.11.1.w/jp/myres/sns/231204.jpg",
+      "kr": "https://files.riichi.moe/mjg/game%20resources%20and%20tools/Mahjong%20Soul/raw%20assets/v0.11.1.w/kr/myres/sns/231204.jpg"
+    },
+    "ui/activity/extend/catchat/main/pic_scattered/231205.jpg": {
+      "cn": "https://files.riichi.moe/mjg/game%20resources%20and%20tools/Mahjong%20Soul/raw%20assets/v0.11.1.w/chs_t/myres/sns/231205.jpg",
+      "en": "https://files.riichi.moe/mjg/game%20resources%20and%20tools/Mahjong%20Soul/raw%20assets/v0.11.1.w/en/myres/sns/231205.jpg",
+      "jp": "https://files.riichi.moe/mjg/game%20resources%20and%20tools/Mahjong%20Soul/raw%20assets/v0.11.1.w/jp/myres/sns/231205.jpg",
+      "kr": "https://files.riichi.moe/mjg/game%20resources%20and%20tools/Mahjong%20Soul/raw%20assets/v0.11.1.w/kr/myres/sns/231205.jpg"
+    },
+    "ui/activity/extend/catchat/main/pic_scattered/231206.jpg": {
+      "cn": "https://files.riichi.moe/mjg/game%20resources%20and%20tools/Mahjong%20Soul/raw%20assets/v0.11.1.w/chs_t/myres/sns/231206.jpg",
+      "en": "https://files.riichi.moe/mjg/game%20resources%20and%20tools/Mahjong%20Soul/raw%20assets/v0.11.1.w/en/myres/sns/231206.jpg",
+      "jp": "https://files.riichi.moe/mjg/game%20resources%20and%20tools/Mahjong%20Soul/raw%20assets/v0.11.1.w/jp/myres/sns/231206.jpg",
+      "kr": "https://files.riichi.moe/mjg/game%20resources%20and%20tools/Mahjong%20Soul/raw%20assets/v0.11.1.w/kr/myres/sns/231206.jpg"
+    },
+    "ui/activity/extend/catchat/main/pic_scattered/231207.jpg": {
+      "cn": "https://files.riichi.moe/mjg/game%20resources%20and%20tools/Mahjong%20Soul/raw%20assets/v0.11.1.w/chs_t/myres/sns/231207.jpg",
+      "en": "https://files.riichi.moe/mjg/game%20resources%20and%20tools/Mahjong%20Soul/raw%20assets/v0.11.1.w/en/myres/sns/231207.jpg",
+      "jp": "https://files.riichi.moe/mjg/game%20resources%20and%20tools/Mahjong%20Soul/raw%20assets/v0.11.1.w/jp/myres/sns/231207.jpg",
+      "kr": "https://files.riichi.moe/mjg/game%20resources%20and%20tools/Mahjong%20Soul/raw%20assets/v0.11.1.w/kr/myres/sns/231207.jpg"
+    },
+    "ui/activity/extend/catchat/main/pic_scattered/231208.jpg": {
+      "cn": "https://files.riichi.moe/mjg/game%20resources%20and%20tools/Mahjong%20Soul/raw%20assets/v0.11.1.w/chs_t/myres/sns/231208.jpg",
+      "en": "https://files.riichi.moe/mjg/game%20resources%20and%20tools/Mahjong%20Soul/raw%20assets/v0.11.1.w/en/myres/sns/231208.jpg",
+      "jp": "https://files.riichi.moe/mjg/game%20resources%20and%20tools/Mahjong%20Soul/raw%20assets/v0.11.1.w/jp/myres/sns/231208.jpg",
+      "kr": "https://files.riichi.moe/mjg/game%20resources%20and%20tools/Mahjong%20Soul/raw%20assets/v0.11.1.w/kr/myres/sns/231208.jpg"
+    },
+    "ui/activity/extend/catchat/main/pic_scattered/231209.jpg": {
+      "cn": "https://files.riichi.moe/mjg/game%20resources%20and%20tools/Mahjong%20Soul/raw%20assets/v0.11.1.w/chs_t/myres/sns/231209.jpg",
+      "en": "https://files.riichi.moe/mjg/game%20resources%20and%20tools/Mahjong%20Soul/raw%20assets/v0.11.1.w/en/myres/sns/231209.jpg",
+      "jp": "https://files.riichi.moe/mjg/game%20resources%20and%20tools/Mahjong%20Soul/raw%20assets/v0.11.1.w/jp/myres/sns/231209.jpg",
+      "kr": "https://files.riichi.moe/mjg/game%20resources%20and%20tools/Mahjong%20Soul/raw%20assets/v0.11.1.w/kr/myres/sns/231209.jpg"
+    },
+    "ui/activity/extend/catchat/main/pic_scattered/231210.jpg": {
+      "cn": "https://files.riichi.moe/mjg/game%20resources%20and%20tools/Mahjong%20Soul/raw%20assets/v0.11.1.w/chs_t/myres/sns/231210.jpg",
+      "en": "https://files.riichi.moe/mjg/game%20resources%20and%20tools/Mahjong%20Soul/raw%20assets/v0.11.1.w/en/myres/sns/231210.jpg",
+      "jp": "https://files.riichi.moe/mjg/game%20resources%20and%20tools/Mahjong%20Soul/raw%20assets/v0.11.1.w/jp/myres/sns/231210.jpg",
+      "kr": "https://files.riichi.moe/mjg/game%20resources%20and%20tools/Mahjong%20Soul/raw%20assets/v0.11.1.w/kr/myres/sns/231210.jpg"
+    },
+    "ui/activity/extend/catchat/main/pic_scattered/231211.jpg": {
+      "cn": "https://files.riichi.moe/mjg/game%20resources%20and%20tools/Mahjong%20Soul/raw%20assets/v0.11.1.w/chs_t/myres/sns/231211.jpg",
+      "en": "https://files.riichi.moe/mjg/game%20resources%20and%20tools/Mahjong%20Soul/raw%20assets/v0.11.1.w/en/myres/sns/231211.jpg",
+      "jp": "https://files.riichi.moe/mjg/game%20resources%20and%20tools/Mahjong%20Soul/raw%20assets/v0.11.1.w/jp/myres/sns/231211.jpg",
+      "kr": "https://files.riichi.moe/mjg/game%20resources%20and%20tools/Mahjong%20Soul/raw%20assets/v0.11.1.w/kr/myres/sns/231211.jpg"
+    },
+    "ui/activity/extend/catchat/main/pic_scattered/231212.jpg": {
+      "cn": "https://files.riichi.moe/mjg/game%20resources%20and%20tools/Mahjong%20Soul/raw%20assets/v0.11.1.w/chs_t/myres/sns/231212.jpg",
+      "en": "https://files.riichi.moe/mjg/game%20resources%20and%20tools/Mahjong%20Soul/raw%20assets/v0.11.1.w/en/myres/sns/231212.jpg",
+      "jp": "https://files.riichi.moe/mjg/game%20resources%20and%20tools/Mahjong%20Soul/raw%20assets/v0.11.1.w/jp/myres/sns/231212.jpg",
+      "kr": "https://files.riichi.moe/mjg/game%20resources%20and%20tools/Mahjong%20Soul/raw%20assets/v0.11.1.w/kr/myres/sns/231212.jpg"
+    },
+    "ui/activity/extend/catchat/main/pic_scattered/231213.jpg": {
+      "cn": "https://files.riichi.moe/mjg/game%20resources%20and%20tools/Mahjong%20Soul/raw%20assets/v0.11.1.w/chs_t/myres/sns/231213.jpg",
+      "en": "https://files.riichi.moe/mjg/game%20resources%20and%20tools/Mahjong%20Soul/raw%20assets/v0.11.1.w/en/myres/sns/231213.jpg",
+      "jp": "https://files.riichi.moe/mjg/game%20resources%20and%20tools/Mahjong%20Soul/raw%20assets/v0.11.1.w/jp/myres/sns/231213.jpg",
+      "kr": "https://files.riichi.moe/mjg/game%20resources%20and%20tools/Mahjong%20Soul/raw%20assets/v0.11.1.w/kr/myres/sns/231213.jpg"
+    },
+    "ui/activity/extend/catchat/main/pic_scattered/231214.jpg": {
+      "cn": "https://files.riichi.moe/mjg/game%20resources%20and%20tools/Mahjong%20Soul/raw%20assets/v0.11.1.w/chs_t/myres/sns/231214.jpg",
+      "en": "https://files.riichi.moe/mjg/game%20resources%20and%20tools/Mahjong%20Soul/raw%20assets/v0.11.1.w/en/myres/sns/231214.jpg",
+      "jp": "https://files.riichi.moe/mjg/game%20resources%20and%20tools/Mahjong%20Soul/raw%20assets/v0.11.1.w/jp/myres/sns/231214.jpg",
+      "kr": "https://files.riichi.moe/mjg/game%20resources%20and%20tools/Mahjong%20Soul/raw%20assets/v0.11.1.w/kr/myres/sns/231214.jpg"
+    },
+    "ui/activity/extend/catchat/main/pic_scattered/231215.jpg": {
+      "cn": "https://files.riichi.moe/mjg/game%20resources%20and%20tools/Mahjong%20Soul/raw%20assets/v0.11.1.w/chs_t/myres/sns/231215.jpg",
+      "en": "https://files.riichi.moe/mjg/game%20resources%20and%20tools/Mahjong%20Soul/raw%20assets/v0.11.1.w/en/myres/sns/231215.jpg",
+      "jp": "https://files.riichi.moe/mjg/game%20resources%20and%20tools/Mahjong%20Soul/raw%20assets/v0.11.1.w/jp/myres/sns/231215.jpg",
+      "kr": "https://files.riichi.moe/mjg/game%20resources%20and%20tools/Mahjong%20Soul/raw%20assets/v0.11.1.w/kr/myres/sns/231215.jpg"
+    },
+    "ui/activity/extend/catchat/main/pic_scattered/231216.jpg": {
+      "cn": "https://files.riichi.moe/mjg/game%20resources%20and%20tools/Mahjong%20Soul/raw%20assets/v0.11.1.w/chs_t/myres/sns/231216.jpg",
+      "en": "https://files.riichi.moe/mjg/game%20resources%20and%20tools/Mahjong%20Soul/raw%20assets/v0.11.1.w/en/myres/sns/231216.jpg",
+      "jp": "https://files.riichi.moe/mjg/game%20resources%20and%20tools/Mahjong%20Soul/raw%20assets/v0.11.1.w/jp/myres/sns/231216.jpg",
+      "kr": "https://files.riichi.moe/mjg/game%20resources%20and%20tools/Mahjong%20Soul/raw%20assets/v0.11.1.w/kr/myres/sns/231216.jpg"
+    },
+    "ui/activity/extend/catchat/main/pic_scattered/240601.jpg": {
+      "cn": "https://files.riichi.moe/mjg/game%20resources%20and%20tools/Mahjong%20Soul/raw%20assets/v0.11.48.w/chs_t/myres/sns/240601.jpg",
+      "en": "https://files.riichi.moe/mjg/game%20resources%20and%20tools/Mahjong%20Soul/raw%20assets/v0.11.48.w/en/myres/sns/240601.jpg",
+      "jp": "https://files.riichi.moe/mjg/game%20resources%20and%20tools/Mahjong%20Soul/raw%20assets/v0.11.48.w/jp/myres/sns/240601.jpg",
+      "kr": "https://files.riichi.moe/mjg/game%20resources%20and%20tools/Mahjong%20Soul/raw%20assets/v0.11.48.w/kr/myres/sns/240601.jpg"
+    },
+    "ui/activity/extend/catchat/main/pic_scattered/240602.jpg": {
+      "cn": "https://files.riichi.moe/mjg/game%20resources%20and%20tools/Mahjong%20Soul/raw%20assets/v0.11.48.w/chs_t/myres/sns/240602.jpg",
+      "en": "https://files.riichi.moe/mjg/game%20resources%20and%20tools/Mahjong%20Soul/raw%20assets/v0.11.48.w/en/myres/sns/240602.jpg",
+      "jp": "https://files.riichi.moe/mjg/game%20resources%20and%20tools/Mahjong%20Soul/raw%20assets/v0.11.48.w/jp/myres/sns/240602.jpg",
+      "kr": "https://files.riichi.moe/mjg/game%20resources%20and%20tools/Mahjong%20Soul/raw%20assets/v0.11.48.w/kr/myres/sns/240602.jpg"
+    },
+    "ui/activity/extend/catchat/main/pic_scattered/240603.jpg": {
+      "cn": "https://files.riichi.moe/mjg/game%20resources%20and%20tools/Mahjong%20Soul/raw%20assets/v0.11.48.w/chs_t/myres/sns/240603.jpg",
+      "en": "https://files.riichi.moe/mjg/game%20resources%20and%20tools/Mahjong%20Soul/raw%20assets/v0.11.48.w/en/myres/sns/240603.jpg",
+      "jp": "https://files.riichi.moe/mjg/game%20resources%20and%20tools/Mahjong%20Soul/raw%20assets/v0.11.48.w/jp/myres/sns/240603.jpg",
+      "kr": "https://files.riichi.moe/mjg/game%20resources%20and%20tools/Mahjong%20Soul/raw%20assets/v0.11.48.w/kr/myres/sns/240603.jpg"
+    },
+    "ui/activity/extend/catchat/main/pic_scattered/240604.jpg": {
+      "cn": "https://files.riichi.moe/mjg/game%20resources%20and%20tools/Mahjong%20Soul/raw%20assets/v0.11.48.w/chs_t/myres/sns/240604.jpg",
+      "en": "https://files.riichi.moe/mjg/game%20resources%20and%20tools/Mahjong%20Soul/raw%20assets/v0.11.48.w/en/myres/sns/240604.jpg",
+      "jp": "https://files.riichi.moe/mjg/game%20resources%20and%20tools/Mahjong%20Soul/raw%20assets/v0.11.48.w/jp/myres/sns/240604.jpg",
+      "kr": "https://files.riichi.moe/mjg/game%20resources%20and%20tools/Mahjong%20Soul/raw%20assets/v0.11.48.w/kr/myres/sns/240604.jpg"
+    },
+    "ui/activity/extend/catchat/main/pic_scattered/240605.jpg": {
+      "cn": "https://files.riichi.moe/mjg/game%20resources%20and%20tools/Mahjong%20Soul/raw%20assets/v0.11.48.w/chs_t/myres/sns/240605.jpg",
+      "en": "https://files.riichi.moe/mjg/game%20resources%20and%20tools/Mahjong%20Soul/raw%20assets/v0.11.48.w/en/myres/sns/240605.jpg",
+      "jp": "https://files.riichi.moe/mjg/game%20resources%20and%20tools/Mahjong%20Soul/raw%20assets/v0.11.48.w/jp/myres/sns/240605.jpg",
+      "kr": "https://files.riichi.moe/mjg/game%20resources%20and%20tools/Mahjong%20Soul/raw%20assets/v0.11.48.w/kr/myres/sns/240605.jpg"
+    },
+    "ui/activity/extend/catchat/main/pic_scattered/240606.jpg": {
+      "cn": "https://files.riichi.moe/mjg/game%20resources%20and%20tools/Mahjong%20Soul/raw%20assets/v0.11.48.w/chs_t/myres/sns/240606.jpg",
+      "en": "https://files.riichi.moe/mjg/game%20resources%20and%20tools/Mahjong%20Soul/raw%20assets/v0.11.48.w/en/myres/sns/240606.jpg",
+      "jp": "https://files.riichi.moe/mjg/game%20resources%20and%20tools/Mahjong%20Soul/raw%20assets/v0.11.48.w/jp/myres/sns/240606.jpg",
+      "kr": "https://files.riichi.moe/mjg/game%20resources%20and%20tools/Mahjong%20Soul/raw%20assets/v0.11.48.w/kr/myres/sns/240606.jpg"
+    },
+    "ui/activity/extend/catchat/main/pic_scattered/240607.jpg": {
+      "cn": "https://files.riichi.moe/mjg/game%20resources%20and%20tools/Mahjong%20Soul/raw%20assets/v0.11.48.w/chs_t/myres/sns/240607.jpg",
+      "en": "https://files.riichi.moe/mjg/game%20resources%20and%20tools/Mahjong%20Soul/raw%20assets/v0.11.48.w/en/myres/sns/240607.jpg",
+      "jp": "https://files.riichi.moe/mjg/game%20resources%20and%20tools/Mahjong%20Soul/raw%20assets/v0.11.48.w/jp/myres/sns/240607.jpg",
+      "kr": "https://files.riichi.moe/mjg/game%20resources%20and%20tools/Mahjong%20Soul/raw%20assets/v0.11.48.w/kr/myres/sns/240607.jpg"
+    },
+    "ui/activity/extend/catchat/main/pic_scattered/240608.jpg": {
+      "cn": "https://files.riichi.moe/mjg/game%20resources%20and%20tools/Mahjong%20Soul/raw%20assets/v0.11.48.w/chs_t/myres/sns/240608.jpg",
+      "en": "https://files.riichi.moe/mjg/game%20resources%20and%20tools/Mahjong%20Soul/raw%20assets/v0.11.48.w/en/myres/sns/240608.jpg",
+      "jp": "https://files.riichi.moe/mjg/game%20resources%20and%20tools/Mahjong%20Soul/raw%20assets/v0.11.48.w/jp/myres/sns/240608.jpg",
+      "kr": "https://files.riichi.moe/mjg/game%20resources%20and%20tools/Mahjong%20Soul/raw%20assets/v0.11.48.w/kr/myres/sns/240608.jpg"
+    },
+    "ui/activity/extend/catchat/main/pic_scattered/240609.jpg": {
+      "cn": "https://files.riichi.moe/mjg/game%20resources%20and%20tools/Mahjong%20Soul/raw%20assets/v0.11.48.w/chs_t/myres/sns/240609.jpg",
+      "en": "https://files.riichi.moe/mjg/game%20resources%20and%20tools/Mahjong%20Soul/raw%20assets/v0.11.48.w/en/myres/sns/240609.jpg",
+      "jp": "https://files.riichi.moe/mjg/game%20resources%20and%20tools/Mahjong%20Soul/raw%20assets/v0.11.48.w/jp/myres/sns/240609.jpg",
+      "kr": "https://files.riichi.moe/mjg/game%20resources%20and%20tools/Mahjong%20Soul/raw%20assets/v0.11.48.w/kr/myres/sns/240609.jpg"
+    },
+    "ui/activity/extend/catchat/main/pic_scattered/240612.jpg": {
+      "cn": "https://files.riichi.moe/mjg/game%20resources%20and%20tools/Mahjong%20Soul/raw%20assets/v0.11.48.w/chs_t/myres/sns/240612.jpg",
+      "en": "https://files.riichi.moe/mjg/game%20resources%20and%20tools/Mahjong%20Soul/raw%20assets/v0.11.48.w/en/myres/sns/240612.jpg",
+      "jp": "https://files.riichi.moe/mjg/game%20resources%20and%20tools/Mahjong%20Soul/raw%20assets/v0.11.48.w/jp/myres/sns/240612.jpg",
+      "kr": "https://files.riichi.moe/mjg/game%20resources%20and%20tools/Mahjong%20Soul/raw%20assets/v0.11.48.w/kr/myres/sns/240612.jpg"
+    },
+    "ui/activity/extend/catchat/main/pic_scattered/250801.jpg": {
+      "cn": "https://files.riichi.moe/mjg/game%20resources%20and%20tools/Mahjong%20Soul/raw%20assets/v0.11.172.w/chs_t/myres/sns/250801.jpg",
+      "en": "https://files.riichi.moe/mjg/game%20resources%20and%20tools/Mahjong%20Soul/raw%20assets/v0.11.172.w/en/myres/sns/250801.jpg",
+      "jp": "https://files.riichi.moe/mjg/game%20resources%20and%20tools/Mahjong%20Soul/raw%20assets/v0.11.172.w/jp/myres/sns/250801.jpg",
+      "kr": "https://files.riichi.moe/mjg/game%20resources%20and%20tools/Mahjong%20Soul/raw%20assets/v0.11.172.w/kr/myres/sns/250801.jpg"
+    },
+    "ui/activity/extend/catchat/main/pic_scattered/250802.jpg": {
+      "cn": "https://files.riichi.moe/mjg/game%20resources%20and%20tools/Mahjong%20Soul/raw%20assets/v0.11.172.w/chs_t/myres/sns/250802.jpg",
+      "en": "https://files.riichi.moe/mjg/game%20resources%20and%20tools/Mahjong%20Soul/raw%20assets/v0.11.172.w/en/myres/sns/250802.jpg",
+      "jp": "https://files.riichi.moe/mjg/game%20resources%20and%20tools/Mahjong%20Soul/raw%20assets/v0.11.172.w/jp/myres/sns/250802.jpg",
+      "kr": "https://files.riichi.moe/mjg/game%20resources%20and%20tools/Mahjong%20Soul/raw%20assets/v0.11.172.w/kr/myres/sns/250802.jpg"
+    },
+    "ui/activity/extend/catchat/main/pic_scattered/250803.png": {
+      "cn": "https://files.riichi.moe/mjg/game%20resources%20and%20tools/Mahjong%20Soul/raw%20assets/v0.11.172.w/chs_t/myres/sns/250803.png",
+      "en": "https://files.riichi.moe/mjg/game%20resources%20and%20tools/Mahjong%20Soul/raw%20assets/v0.11.172.w/en/myres/sns/250803.png",
+      "jp": "https://files.riichi.moe/mjg/game%20resources%20and%20tools/Mahjong%20Soul/raw%20assets/v0.11.172.w/jp/myres/sns/250803.png",
+      "kr": "https://files.riichi.moe/mjg/game%20resources%20and%20tools/Mahjong%20Soul/raw%20assets/v0.11.172.w/kr/myres/sns/250803.png"
+    },
+    "ui/activity/extend/catchat/main/pic_scattered/250804.jpg": {
+      "cn": "https://files.riichi.moe/mjg/game%20resources%20and%20tools/Mahjong%20Soul/raw%20assets/v0.11.172.w/chs_t/myres/sns/250804.jpg",
+      "en": "https://files.riichi.moe/mjg/game%20resources%20and%20tools/Mahjong%20Soul/raw%20assets/v0.11.172.w/en/myres/sns/250804.jpg",
+      "jp": "https://files.riichi.moe/mjg/game%20resources%20and%20tools/Mahjong%20Soul/raw%20assets/v0.11.172.w/jp/myres/sns/250804.jpg",
+      "kr": "https://files.riichi.moe/mjg/game%20resources%20and%20tools/Mahjong%20Soul/raw%20assets/v0.11.172.w/kr/myres/sns/250804.jpg"
+    },
+    "ui/activity/extend/catchat/main/pic_scattered/250805.jpg": {
+      "cn": "https://files.riichi.moe/mjg/game%20resources%20and%20tools/Mahjong%20Soul/raw%20assets/v0.11.172.w/chs_t/myres/sns/250805.jpg",
+      "en": "https://files.riichi.moe/mjg/game%20resources%20and%20tools/Mahjong%20Soul/raw%20assets/v0.11.172.w/en/myres/sns/250805.jpg",
+      "jp": "https://files.riichi.moe/mjg/game%20resources%20and%20tools/Mahjong%20Soul/raw%20assets/v0.11.172.w/jp/myres/sns/250805.jpg",
+      "kr": "https://files.riichi.moe/mjg/game%20resources%20and%20tools/Mahjong%20Soul/raw%20assets/v0.11.172.w/kr/myres/sns/250805.jpg"
+    },
+    "ui/activity/extend/catchat/main/pic_scattered/250806.jpg": {
+      "cn": "https://files.riichi.moe/mjg/game%20resources%20and%20tools/Mahjong%20Soul/raw%20assets/v0.11.172.w/chs_t/myres/sns/250806.jpg",
+      "en": "https://files.riichi.moe/mjg/game%20resources%20and%20tools/Mahjong%20Soul/raw%20assets/v0.11.172.w/en/myres/sns/250806.jpg",
+      "jp": "https://files.riichi.moe/mjg/game%20resources%20and%20tools/Mahjong%20Soul/raw%20assets/v0.11.172.w/jp/myres/sns/250806.jpg",
+      "kr": "https://files.riichi.moe/mjg/game%20resources%20and%20tools/Mahjong%20Soul/raw%20assets/v0.11.172.w/kr/myres/sns/250806.jpg"
+    },
+    "ui/activity/extend/catchat/main/pic_scattered/250807.jpg": {
+      "cn": "https://files.riichi.moe/mjg/game%20resources%20and%20tools/Mahjong%20Soul/raw%20assets/v0.11.172.w/chs_t/myres/sns/250807.jpg",
+      "en": "https://files.riichi.moe/mjg/game%20resources%20and%20tools/Mahjong%20Soul/raw%20assets/v0.11.172.w/en/myres/sns/250807.jpg",
+      "jp": "https://files.riichi.moe/mjg/game%20resources%20and%20tools/Mahjong%20Soul/raw%20assets/v0.11.172.w/jp/myres/sns/250807.jpg",
+      "kr": "https://files.riichi.moe/mjg/game%20resources%20and%20tools/Mahjong%20Soul/raw%20assets/v0.11.172.w/kr/myres/sns/250807.jpg"
+    },
+    "ui/activity/extend/catchat/main/pic_scattered/250808.jpg": {
+      "cn": "https://files.riichi.moe/mjg/game%20resources%20and%20tools/Mahjong%20Soul/raw%20assets/v0.11.172.w/chs_t/myres/sns/250808.jpg",
+      "en": "https://files.riichi.moe/mjg/game%20resources%20and%20tools/Mahjong%20Soul/raw%20assets/v0.11.172.w/en/myres/sns/250808.jpg",
+      "jp": "https://files.riichi.moe/mjg/game%20resources%20and%20tools/Mahjong%20Soul/raw%20assets/v0.11.172.w/jp/myres/sns/250808.jpg",
+      "kr": "https://files.riichi.moe/mjg/game%20resources%20and%20tools/Mahjong%20Soul/raw%20assets/v0.11.172.w/kr/myres/sns/250808.jpg"
+    },
+    "ui/activity/extend/catchat/main/pic_scattered/250809.jpg": {
+      "cn": "https://files.riichi.moe/mjg/game%20resources%20and%20tools/Mahjong%20Soul/raw%20assets/v0.11.172.w/chs_t/myres/sns/250809.jpg",
+      "en": "https://files.riichi.moe/mjg/game%20resources%20and%20tools/Mahjong%20Soul/raw%20assets/v0.11.172.w/en/myres/sns/250809.jpg",
+      "jp": "https://files.riichi.moe/mjg/game%20resources%20and%20tools/Mahjong%20Soul/raw%20assets/v0.11.172.w/jp/myres/sns/250809.jpg",
+      "kr": "https://files.riichi.moe/mjg/game%20resources%20and%20tools/Mahjong%20Soul/raw%20assets/v0.11.172.w/kr/myres/sns/250809.jpg"
+    },
+    "ui/activity/extend/catchat/main/pic_scattered/250810.jpg": {
+      "cn": "https://files.riichi.moe/mjg/game%20resources%20and%20tools/Mahjong%20Soul/raw%20assets/v0.11.172.w/chs_t/myres/sns/250810.jpg",
+      "en": "https://files.riichi.moe/mjg/game%20resources%20and%20tools/Mahjong%20Soul/raw%20assets/v0.11.172.w/en/myres/sns/250810.jpg",
+      "jp": "https://files.riichi.moe/mjg/game%20resources%20and%20tools/Mahjong%20Soul/raw%20assets/v0.11.172.w/jp/myres/sns/250810.jpg",
+      "kr": "https://files.riichi.moe/mjg/game%20resources%20and%20tools/Mahjong%20Soul/raw%20assets/v0.11.172.w/kr/myres/sns/250810.jpg"
+    },
+    "ui/activity/extend/catchat/main/pic_scattered/250811.jpg": {
+      "cn": "https://files.riichi.moe/mjg/game%20resources%20and%20tools/Mahjong%20Soul/raw%20assets/v0.11.172.w/chs_t/myres/sns/250811.jpg",
+      "en": "https://files.riichi.moe/mjg/game%20resources%20and%20tools/Mahjong%20Soul/raw%20assets/v0.11.172.w/en/myres/sns/250811.jpg",
+      "jp": "https://files.riichi.moe/mjg/game%20resources%20and%20tools/Mahjong%20Soul/raw%20assets/v0.11.172.w/jp/myres/sns/250811.jpg",
+      "kr": "https://files.riichi.moe/mjg/game%20resources%20and%20tools/Mahjong%20Soul/raw%20assets/v0.11.172.w/kr/myres/sns/250811.jpg"
+    },
+    "ui/activity/extend/catchat/main/pic_scattered/250812.jpg": {
+      "cn": "https://files.riichi.moe/mjg/game%20resources%20and%20tools/Mahjong%20Soul/raw%20assets/v0.11.172.w/chs_t/myres/sns/250812.jpg",
+      "en": "https://files.riichi.moe/mjg/game%20resources%20and%20tools/Mahjong%20Soul/raw%20assets/v0.11.172.w/en/myres/sns/250812.jpg",
+      "jp": "https://files.riichi.moe/mjg/game%20resources%20and%20tools/Mahjong%20Soul/raw%20assets/v0.11.172.w/jp/myres/sns/250812.jpg",
+      "kr": "https://files.riichi.moe/mjg/game%20resources%20and%20tools/Mahjong%20Soul/raw%20assets/v0.11.172.w/kr/myres/sns/250812.jpg"
+    },
+    "ui/activity/extend/catchat/main/pic_scattered/250813.jpg": {
+      "cn": "https://files.riichi.moe/mjg/game%20resources%20and%20tools/Mahjong%20Soul/raw%20assets/v0.11.172.w/chs_t/myres/sns/250813.jpg",
+      "en": "https://files.riichi.moe/mjg/game%20resources%20and%20tools/Mahjong%20Soul/raw%20assets/v0.11.172.w/en/myres/sns/250813.jpg",
+      "jp": "https://files.riichi.moe/mjg/game%20resources%20and%20tools/Mahjong%20Soul/raw%20assets/v0.11.172.w/jp/myres/sns/250813.jpg",
+      "kr": "https://files.riichi.moe/mjg/game%20resources%20and%20tools/Mahjong%20Soul/raw%20assets/v0.11.172.w/kr/myres/sns/250813.jpg"
+    },
+    "ui/activity/extend/catchat/main/pic_scattered/250814.jpg": {
+      "cn": "https://files.riichi.moe/mjg/game%20resources%20and%20tools/Mahjong%20Soul/raw%20assets/v0.11.172.w/chs_t/myres/sns/250814.jpg",
+      "en": "https://files.riichi.moe/mjg/game%20resources%20and%20tools/Mahjong%20Soul/raw%20assets/v0.11.172.w/en/myres/sns/250814.jpg",
+      "jp": "https://files.riichi.moe/mjg/game%20resources%20and%20tools/Mahjong%20Soul/raw%20assets/v0.11.172.w/jp/myres/sns/250814.jpg",
+      "kr": "https://files.riichi.moe/mjg/game%20resources%20and%20tools/Mahjong%20Soul/raw%20assets/v0.11.172.w/kr/myres/sns/250814.jpg"
+    },
+    "ui/activity/extend/catchat/main/pic_scattered/250815.png": {
+      "cn": "https://files.riichi.moe/mjg/game%20resources%20and%20tools/Mahjong%20Soul/raw%20assets/v0.11.172.w/chs_t/myres/sns/250815.png",
+      "en": "https://files.riichi.moe/mjg/game%20resources%20and%20tools/Mahjong%20Soul/raw%20assets/v0.11.172.w/en/myres/sns/250815.png",
+      "jp": "https://files.riichi.moe/mjg/game%20resources%20and%20tools/Mahjong%20Soul/raw%20assets/v0.11.172.w/jp/myres/sns/250815.png",
+      "kr": "https://files.riichi.moe/mjg/game%20resources%20and%20tools/Mahjong%20Soul/raw%20assets/v0.11.172.w/kr/myres/sns/250815.png"
+    },
+    "ui/activity/extend/catchat/main/pic_scattered/250816.png": {
+      "cn": "https://files.riichi.moe/mjg/game%20resources%20and%20tools/Mahjong%20Soul/raw%20assets/v0.11.172.w/chs_t/myres/sns/250816.png",
+      "en": "https://files.riichi.moe/mjg/game%20resources%20and%20tools/Mahjong%20Soul/raw%20assets/v0.11.172.w/en/myres/sns/250816.png",
+      "jp": "https://files.riichi.moe/mjg/game%20resources%20and%20tools/Mahjong%20Soul/raw%20assets/v0.11.172.w/jp/myres/sns/250816.png",
+      "kr": "https://files.riichi.moe/mjg/game%20resources%20and%20tools/Mahjong%20Soul/raw%20assets/v0.11.172.w/kr/myres/sns/250816.png"
+    },
+    "ui/activity/extend/catchat/main/pic_scattered/250817.jpg": {
+      "cn": "https://files.riichi.moe/mjg/game%20resources%20and%20tools/Mahjong%20Soul/raw%20assets/v0.11.172.w/chs_t/myres/sns/250817.jpg",
+      "en": "https://files.riichi.moe/mjg/game%20resources%20and%20tools/Mahjong%20Soul/raw%20assets/v0.11.172.w/en/myres/sns/250817.jpg",
+      "jp": "https://files.riichi.moe/mjg/game%20resources%20and%20tools/Mahjong%20Soul/raw%20assets/v0.11.172.w/jp/myres/sns/250817.jpg",
+      "kr": "https://files.riichi.moe/mjg/game%20resources%20and%20tools/Mahjong%20Soul/raw%20assets/v0.11.172.w/kr/myres/sns/250817.jpg"
+    },
+    "ui/activity/extend/catchat/main/pic_scattered/250818.png": {
+      "cn": "https://files.riichi.moe/mjg/game%20resources%20and%20tools/Mahjong%20Soul/raw%20assets/v0.11.172.w/chs_t/myres/sns/250818.png",
+      "en": "https://files.riichi.moe/mjg/game%20resources%20and%20tools/Mahjong%20Soul/raw%20assets/v0.11.172.w/en/myres/sns/250818.png",
+      "jp": "https://files.riichi.moe/mjg/game%20resources%20and%20tools/Mahjong%20Soul/raw%20assets/v0.11.172.w/jp/myres/sns/250818.png",
+      "kr": "https://files.riichi.moe/mjg/game%20resources%20and%20tools/Mahjong%20Soul/raw%20assets/v0.11.172.w/kr/myres/sns/250818.png"
+    },
+    "ui/activity/extend/catchat/main/pic_scattered/250819.jpg": {
+      "cn": "https://files.riichi.moe/mjg/game%20resources%20and%20tools/Mahjong%20Soul/raw%20assets/v0.11.172.w/chs_t/myres/sns/250819.jpg",
+      "en": "https://files.riichi.moe/mjg/game%20resources%20and%20tools/Mahjong%20Soul/raw%20assets/v0.11.172.w/en/myres/sns/250819.jpg",
+      "jp": "https://files.riichi.moe/mjg/game%20resources%20and%20tools/Mahjong%20Soul/raw%20assets/v0.11.172.w/jp/myres/sns/250819.jpg",
+      "kr": "https://files.riichi.moe/mjg/game%20resources%20and%20tools/Mahjong%20Soul/raw%20assets/v0.11.172.w/kr/myres/sns/250819.jpg"
+    },
     "ui/activity/extend/catchat/main/pic_scattered/2512001.png": "MyAssets/ui/activity/extend/catchat/main/pic_scattered/common/2512001.png",
     "ui/activity/extend/catchat/main/pic_scattered/2512002.png": "MyAssets/ui/activity/extend/catchat/main/pic_scattered/common/2512002.png",
     "ui/activity/extend/catchat/main/pic_scattered/251201.jpg": "MyAssets/ui/activity/extend/catchat/main/pic_scattered/common/251201.png",

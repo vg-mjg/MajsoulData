@@ -19,6 +19,7 @@ export async function loadResources() {
 // Entries store paths relative to `resources.base` (the common mirror prefix)
 // prepend it to recover the full URL
 function fullUrl(resources, relative) {
+  if (/^https?:\/\//i.test(String(relative || ""))) return relative;
   return relative ? `${resources.base || ""}${relative}` : "";
 }
 

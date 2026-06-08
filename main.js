@@ -45,6 +45,25 @@ const REGION_KEYS = REGIONS.map((r) => r.key);
 const SPRITE_VARIANTS = ['bighead', 'smallhead', 'full', 'half', 'waitingroom'];
 const SKELETON_EXTS = ['.skel.txt', '.skel', '.json'];
 const IMAGE_EXTS = ['.png', '.jpg', '.jpeg', '.webp'];
+const LEGACY_RAW_ASSETS_BASE = 'https://files.riichi.moe/mjg/game%20resources%20and%20tools/Mahjong%20Soul/raw%20assets';
+const LEGACY_CATCHAT_VERSIONS_BY_ACTIVITY = {
+  1244: { jp: 'v0.10.89.w' },
+  220902: 'v0.10.150.w',
+  221007: 'v0.10.167.w',
+  221114: 'v0.10.177.w',
+  230508: 'v0.10.228.w',
+  230707: 'v0.10.251.w',
+  231022: 'v0.10.287.w',
+  231221: 'v0.11.1.w',
+  240613: 'v0.11.48.w',
+  250860: 'v0.11.172.w',
+};
+const LEGACY_RAW_ASSET_PATH_BY_REGION = {
+  en: 'en',
+  cn: 'chs_t',
+  jp: 'jp',
+  kr: 'kr',
+};
 
 const isHttp = /^https?:/i.test(SOURCE);
 
@@ -270,6 +289,45 @@ function resolveStrictImages(images, index, ref, key) {
   if (rec) images[key] = recordToValue(rec);
 }
 
+function legacyCatChatVersionMap(activityId) {
+  const versions = LEGACY_CATCHAT_VERSIONS_BY_ACTIVITY[Number(activityId) || 0];
+  if (!versions) return null;
+  if (typeof versions === 'string') {
+    return Object.fromEntries(REGION_KEYS.map((key) => [key, versions]));
+  }
+  return versions;
+}
+
+function legacyCatChatImageValue(activityId, ref) {
+  const filename = baseName(normalizeRef(ref));
+  if (!filename || !isImagePath(filename)) return null;
+  const versions = legacyCatChatVersionMap(activityId);
+  if (!versions) return null;
+
+  const value = {};
+  for (const region of REGION_KEYS) {
+    const version = versions[region];
+    const rawRegion = LEGACY_RAW_ASSET_PATH_BY_REGION[region];
+    if (!version || !rawRegion) continue;
+    value[region] = `${LEGACY_RAW_ASSETS_BASE}/${version}/${rawRegion}/myres/sns/${filename}`;
+  }
+
+  if (Object.keys(value).length === 0) return null;
+  if (REGION_KEYS.every((region) => value[region] === value.en)) return value.en;
+  return value;
+}
+
+function resolveCatChatImage(images, index, activityId, ref, key) {
+  if (images[key] !== undefined) return;
+  const rec = resolveImageRecordStrict(index, ref);
+  if (rec) {
+    images[key] = recordToValue(rec);
+    return;
+  }
+  const legacyValue = legacyCatChatImageValue(activityId, ref);
+  if (legacyValue) images[key] = legacyValue;
+}
+
 function buildEmojiDirIndex(index) {
   // emoDir (e.g. "deco/emo/e20000100") -> Map<basename, record>
   const dirs = new Map();
@@ -464,14 +522,15 @@ async function main() {
 
   // CatChat post images and custom heads (key: the table's logical path).
   for (const row of rowsOf(table('activity/sns_activity'))) {
+    const activityId = row.activity_id;
     const contentImages = Array.isArray(row.content_image) ? row.content_image : [];
     for (const imageRef of contentImages) {
       const ref = normalizeRef(imageRef);
-      if (ref) resolveStrictImages(resources.images, assetIndex, ref, ref);
+      if (ref) resolveCatChatImage(resources.images, assetIndex, activityId, ref, ref);
     }
 
     const headRef = normalizeRef(row.content_head);
-    if (headRef) resolveStrictImages(resources.images, assetIndex, headRef, headRef);
+    if (headRef) resolveCatChatImage(resources.images, assetIndex, activityId, headRef, headRef);
   }
 
   // Spine (key: skinid)
