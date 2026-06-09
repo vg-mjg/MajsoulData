@@ -11788,5 +11788,15 @@
     "name_kr": "",
     "type": "daily_sign",
     "need_popout": 1
+  },
+  {
+    "id": 260691,
+    "name_chs": "",
+    "name_chs_t": "",
+    "name_jp": "",
+    "name_en": "",
+    "name_kr": "",
+    "type": "daily_sign",
+    "need_popout": 1
   }
 ]

@@ -902,5 +902,37 @@
       "reward_count": 1,
       "day": 6
     }
+  ],
+  [
+    {
+      "activity_id": 260691,
+      "reward_id": 100002,
+      "reward_count": 16888,
+      "day": 0
+    },
+    {
+      "activity_id": 260691,
+      "reward_id": 100002,
+      "reward_count": 28888,
+      "day": 1
+    },
+    {
+      "activity_id": 260691,
+      "reward_id": 303994,
+      "reward_count": 1,
+      "day": 2
+    },
+    {
+      "activity_id": 260691,
+      "reward_id": 303994,
+      "reward_count": 2,
+      "day": 3
+    },
+    {
+      "activity_id": 260691,
+      "reward_id": 304006,
+      "reward_count": 1,
+      "day": 4
+    }
   ]
 ]

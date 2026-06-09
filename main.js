@@ -32,7 +32,7 @@ const ROOT = __dirname;
 const WEB_DIR = path.join(ROOT, "web");
 const DATA_DIR = path.join(WEB_DIR, "data");
 const STATE_FILE = path.join(WEB_DIR, ".fetch-state.json");
-const METADATA_TABLE_SELECTION_VERSION = 1;
+const METADATA_TABLE_SELECTION_VERSION = 2;
 
 const REQUIRED_METADATA_TABLES = new Set([
   "achievement/achievement",
@@ -144,6 +144,9 @@ function isMissingOptionalRead(error) {
     return true;
   }
   if (/-> 404\b/.test(message)) {
+    return true;
+  }
+  if (/-> (401|403)\b/.test(message)) {
     return true;
   }
   return false;
@@ -496,25 +499,285 @@ function isAudioPath(p) {
   return /\.(mp3|ogg|wav|m4a)$/i.test(String(p || ""));
 }
 
-function tableclothOriginalRefs(row) {
+function tableclothInfoFromRow(row) {
   if (numberValue(row && row.category) !== 5) {
-    return [];
+    return null;
   }
   if (numberValue(row && row.type) !== 6) {
-    return [];
+    return null;
   }
 
   const icon = normalizeRef(row && row.icon);
   const match = icon.match(/^(deco\/tablecloth\/[^/]+)\/pic\/[^/]+\.[^.]+$/i);
   if (!match) {
-    return [];
+    return null;
   }
 
   const base = match[1];
-  return [
-    `${base}/3d/texture/Table_Dif.png`,
-    `${base}/preview/preview.png`,
-  ];
+  return {
+    base,
+    folder: baseName(base).toLowerCase(),
+  };
+}
+
+function addTableclothMetadataToken(index, rawName) {
+  const name = String(rawName || "").trim().toLowerCase();
+  const match = name.match(/^(tablecloth|mjp)_([a-z0-9_]+)$/i);
+  if (!match) {
+    return;
+  }
+  index.names.add(name);
+  index.suffixes.add(match[2].toLowerCase());
+}
+
+function scanTableclothMetadataTokens(value, index) {
+  if (value === null || value === undefined) {
+    return;
+  }
+
+  if (typeof value === "string") {
+    const re = /\b(?:tablecloth|mjp)_[a-z0-9_]+/gi;
+    for (const match of value.matchAll(re)) {
+      addTableclothMetadataToken(index, match[0]);
+    }
+    return;
+  }
+
+  if (Array.isArray(value)) {
+    for (const item of value) {
+      scanTableclothMetadataTokens(item, index);
+    }
+    return;
+  }
+
+  if (typeof value === "object") {
+    for (const nested of Object.values(value)) {
+      scanTableclothMetadataTokens(nested, index);
+    }
+  }
+}
+
+function buildTableclothMetadataIndex(tablesByName) {
+  const index = {
+    names: new Set(),
+    suffixes: new Set(),
+  };
+  for (const data of tablesByName.values()) {
+    scanTableclothMetadataTokens(data, index);
+  }
+  return index;
+}
+
+function editDistance(left, right) {
+  const a = String(left || "");
+  const b = String(right || "");
+  if (a === b) {
+    return 0;
+  }
+  if (!a) {
+    return b.length;
+  }
+  if (!b) {
+    return a.length;
+  }
+
+  let previous = Array.from({ length: b.length + 1 }, (_, index) => index);
+  for (let i = 0; i < a.length; i += 1) {
+    const current = [i + 1];
+    for (let j = 0; j < b.length; j += 1) {
+      const cost = a[i] === b[j] ? 0 : 1;
+      current[j + 1] = Math.min(
+        current[j] + 1,
+        previous[j + 1] + 1,
+        previous[j] + cost,
+      );
+    }
+    previous = current;
+  }
+  return previous[b.length];
+}
+
+function numericRuns(value) {
+  return String(value || "").match(/\d+/g) || [];
+}
+
+function tableclothSuffix(name) {
+  const match = String(name || "")
+    .toLowerCase()
+    .match(/^tablecloth_([a-z0-9_]+)$/);
+  return match ? match[1] : "";
+}
+
+function hasMatchingNumericRuns(left, right) {
+  const a = numericRuns(left);
+  const b = numericRuns(right);
+  return (
+    a.length > 0 &&
+    a.length === b.length &&
+    a.every((value, index) => value === b[index])
+  );
+}
+
+function addTableclothAssetRecord(index, folder, kind, rec) {
+  let entry = index.folders.get(folder);
+  if (!entry) {
+    entry = {
+      full: [],
+      preview: [],
+    };
+    index.folders.set(folder, entry);
+  }
+  entry[kind].push(rec);
+}
+
+function buildTableclothAssetIndex(assetIndex, metadataIndex) {
+  const index = {
+    folders: new Map(),
+    metadata: metadataIndex,
+  };
+
+  for (const rec of assetIndex.exact.values()) {
+    if (!isImagePath(rec.path)) {
+      continue;
+    }
+
+    const fullMatch = rec.path.match(
+      /^deco\/tablecloth\/([^/]+)\/3d\/texture\/Table_Dif\.[^.]+$/i,
+    );
+    if (fullMatch) {
+      addTableclothAssetRecord(index, fullMatch[1].toLowerCase(), "full", rec);
+      continue;
+    }
+
+    const previewMatch = rec.path.match(
+      /^deco\/tablecloth\/([^/]+)\/preview\/(?:[^/]+\/)?preview\.[^.]+$/i,
+    );
+    if (previewMatch) {
+      addTableclothAssetRecord(
+        index,
+        previewMatch[1].toLowerCase(),
+        "preview",
+        rec,
+      );
+    }
+  }
+
+  return index;
+}
+
+function tableclothRecordScore(rec, kind) {
+  const p = rec.path.toLowerCase();
+  let score = 0;
+  if (p.endsWith(".png")) {
+    score += 20;
+  }
+  if (kind === "preview" && p.includes("/preview/common/")) {
+    score += 100;
+  }
+  if (kind === "preview" && p.includes("/preview/en/")) {
+    score += 80;
+  }
+  if (rec.regions.has("en")) {
+    score += 10;
+  }
+  return score;
+}
+
+function bestTableclothRecord(records, kind) {
+  let best = null;
+  let bestScore = -1;
+  for (const rec of records || []) {
+    const score = tableclothRecordScore(rec, kind);
+    if (
+      score > bestScore ||
+      (score === bestScore && best && rec.path.length < best.path.length)
+    ) {
+      best = rec;
+      bestScore = score;
+    }
+  }
+  return best;
+}
+
+function tableclothFolderEntry(index, folder) {
+  return index.folders.get(String(folder || "").toLowerCase()) || null;
+}
+
+function tableclothFolderHasKind(index, folder, kind) {
+  const entry = tableclothFolderEntry(index, folder);
+  return !!(entry && entry[kind] && entry[kind].length > 0);
+}
+
+function isMetadataDerivedTableclothFolder(metadataIndex, folder) {
+  const normalized = String(folder || "").toLowerCase();
+  const suffix = tableclothSuffix(normalized);
+  return (
+    metadataIndex.names.has(normalized) ||
+    (suffix && metadataIndex.suffixes.has(suffix))
+  );
+}
+
+function derivedTableclothFolder(index, canonicalFolder, kind) {
+  const canonical = String(canonicalFolder || "").toLowerCase();
+  if (tableclothFolderHasKind(index, canonical, kind)) {
+    return canonical;
+  }
+
+  const canonicalSuffix = tableclothSuffix(canonical);
+  if (!canonicalSuffix) {
+    return "";
+  }
+
+  const candidates = [];
+  for (const [folder, entry] of index.folders) {
+    if (!entry[kind] || entry[kind].length === 0) {
+      continue;
+    }
+    if (!isMetadataDerivedTableclothFolder(index.metadata, folder)) {
+      continue;
+    }
+
+    const suffix = tableclothSuffix(folder);
+    if (!suffix || !hasMatchingNumericRuns(canonicalSuffix, suffix)) {
+      continue;
+    }
+
+    const distance = editDistance(canonicalSuffix, suffix);
+    if (distance <= 1) {
+      candidates.push({ folder, distance });
+    }
+  }
+
+  candidates.sort((a, b) => a.distance - b.distance || a.folder.localeCompare(b.folder));
+  return candidates.length === 1 ? candidates[0].folder : "";
+}
+
+function resolveTableclothOriginalImages(images, tableclothIndex, row) {
+  const info = tableclothInfoFromRow(row);
+  if (!info) {
+    return;
+  }
+
+  const fullKey = `${info.base}/3d/texture/Table_Dif.png`;
+  const previewKey = `${info.base}/preview/preview.png`;
+
+  if (images[fullKey] === undefined) {
+    const fullFolder = derivedTableclothFolder(tableclothIndex, info.folder, "full");
+    const fullEntry = tableclothFolderEntry(tableclothIndex, fullFolder);
+    const fullRecord = fullEntry ? bestTableclothRecord(fullEntry.full, "full") : null;
+    if (fullRecord) {
+      images[fullKey] = recordToValue(fullRecord);
+    }
+  }
+
+  if (images[previewKey] === undefined) {
+    const previewFolder = derivedTableclothFolder(tableclothIndex, info.folder, "preview");
+    const previewEntry = tableclothFolderEntry(tableclothIndex, previewFolder);
+    const previewRecord = previewEntry ? bestTableclothRecord(previewEntry.preview, "preview") : null;
+    if (previewRecord) {
+      images[previewKey] = recordToValue(previewRecord);
+    }
+  }
 }
 
 function firstAudioPathFromSargs(sargs) {
@@ -1073,6 +1336,35 @@ function resolveActivityBannerImage(
   }
 }
 
+function isLegacyRawAssetString(value) {
+  return String(value || "").startsWith(LEGACY_RAW_ASSETS_BASE);
+}
+
+function isLegacyRawAssetValue(value) {
+  if (typeof value === "string") {
+    return isLegacyRawAssetString(value);
+  }
+  if (value && typeof value === "object") {
+    return Object.values(value).some(isLegacyRawAssetString);
+  }
+  return false;
+}
+
+function preserveExistingLegacyRawImages(resources, existingResources) {
+  const existingImages =
+    existingResources &&
+    existingResources.images &&
+    typeof existingResources.images === "object"
+      ? existingResources.images
+      : {};
+
+  for (const [key, value] of Object.entries(existingImages)) {
+    if (resources.images[key] === undefined && isLegacyRawAssetValue(value)) {
+      resources.images[key] = value;
+    }
+  }
+}
+
 function buildEmojiDirIndex(index) {
   // emoDir (e.g. "deco/emo/e20000100") -> Map<basename, record>
   const dirs = new Map();
@@ -1229,7 +1521,20 @@ async function main() {
     .readFile(STATE_FILE, "utf8")
     .then(JSON.parse)
     .catch(() => null);
+  if (
+    !legacyResversionManifest.relPath &&
+    oldState &&
+    oldState.legacy_resversion
+  ) {
+    newState.legacy_resversion = oldState.legacy_resversion;
+  }
   const resourcesExist = fs.existsSync(path.join(WEB_DIR, "resources.json"));
+  const existingResources = resourcesExist
+    ? await fsp
+        .readFile(path.join(WEB_DIR, "resources.json"), "utf8")
+        .then(JSON.parse)
+        .catch(() => null)
+    : null;
   if (
     !FORCE &&
     resourcesExist &&
@@ -1261,11 +1566,33 @@ async function main() {
   const prunedDataTables = await pruneUnselectedDataTables(index);
   console.log(`Data tables written; pruned ${prunedDataTables} stale tables.`);
 
+  const allTablesByName = new Map(tablesByName);
+  const selectedKeys = new Set(index.map(metadataKey));
+  const unselectedIndex = sourceIndex.filter(
+    (entry) => entry && !selectedKeys.has(metadataKey(entry)),
+  );
+  console.log(
+    `Scanning ${sourceIndex.length} data tables for derived asset names...`,
+  );
+  await mapLimit(unselectedIndex, 16, async (entry) => {
+    const rel = `metadata/tables/${entry.TableName}/${entry.SheetName}.json`;
+    const data = await readJson(rel);
+    allTablesByName.set(`${entry.TableName}/${entry.SheetName}`, data);
+  });
+
   // Build asset indexes
   const assetIndex = buildAssetIndex(manifestsByRegion);
+  const tableclothMetadataIndex = buildTableclothMetadataIndex(allTablesByName);
+  const tableclothAssetIndex = buildTableclothAssetIndex(
+    assetIndex,
+    tableclothMetadataIndex,
+  );
   const emojiDirIndex = buildEmojiDirIndex(assetIndex);
   const spineSkinIndex = buildSpineSkinIndex(assetIndex);
   console.log(`Indexed ${assetIndex.exact.size} unique asset paths.`);
+  console.log(
+    `Indexed ${tableclothAssetIndex.folders.size} tablecloth asset folders.`,
+  );
   console.log(
     `Indexed ${Object.keys(legacyActivityBannerVersionsByFile).length} legacy activity banner versions.`,
   );
@@ -1314,9 +1641,7 @@ async function main() {
           resolveImages(resources.images, assetIndex, ref, ref);
         }
       }
-      for (const ref of tableclothOriginalRefs(row)) {
-        resolveImages(resources.images, assetIndex, ref, ref);
-      }
+      resolveTableclothOriginalImages(resources.images, tableclothAssetIndex, row);
     }
   }
 
@@ -1455,6 +1780,7 @@ async function main() {
   }
 
   // Write outputs
+  preserveExistingLegacyRawImages(resources, existingResources);
   await writeJsonStable(path.join(WEB_DIR, "resources.json"), resources);
 
   const version = {};
