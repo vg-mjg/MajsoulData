@@ -1,6 +1,8 @@
 import { characterDisplayName } from "../../utils.js";
 import {
   itemIconCandidates,
+  loadingSpriteDisplayName,
+  loadingSpriteImageCandidates,
   localizedDescriptionFromEntry,
   localizedNameFromEntry,
   numberValue,
@@ -170,6 +172,7 @@ function mapCharacterMaterialRows(rows, repository, language) {
 }
 
 function kindOfEntry(itemId, repository) {
+  if (repository.loadingSpriteById.has(itemId)) return "loading_sprite";
   if (repository.currencyById.has(itemId)) return "currency";
   if (repository.itemById.has(itemId)) return "item";
   return "";
@@ -297,6 +300,87 @@ function itemAudioPreview(entry, itemId, language, repository) {
   return null;
 }
 
+function buildLoadingSpriteDetail(sprite, repository, language) {
+  const name = loadingSpriteDisplayName(sprite.filename);
+  const candidates = loadingSpriteImageCandidates(sprite, repository.resources, language);
+  const description = "Loading sprite";
+
+  return {
+    id: numberValue(sprite.id),
+    kind: "loading_sprite",
+    localized: { name, description },
+    audio: null,
+    names: { en: name, jp: name, chs: name, chs_t: name, kr: name },
+    descriptions: { en: description, jp: description, chs: description, chs_t: description, kr: description },
+    profile: {
+      sort: numberValue(sprite.sort),
+      category: 9,
+      type: numberValue(sprite.type),
+      func: "",
+      maxStack: 1,
+      isUnique: 1,
+      canSell: 0,
+      sellRewardId: 0,
+      sellRewardCount: 0,
+      sellRewardName: "-",
+      access: "",
+      accessInfo: 0,
+      itemExpire: "",
+      regionLimit: 0,
+      crossView: 0,
+      databaseCache: 0,
+    },
+    assets: {
+      icon: candidates,
+      loadingOriginalImage: candidates,
+      portraitFrameOriginalImage: [],
+      tableclothOriginalImage: [],
+      backgroundOriginalImage: [],
+      tileFaceOriginalImage: [],
+      titleOriginalImage: [],
+      musicAudio: [],
+    },
+    packageContents: [],
+    packageContainers: [],
+    exchangeSpend: [],
+    exchangeReceive: [],
+    shopListings: [],
+    shopPricing: [],
+    mallListings: [],
+    sourceLimits: [],
+    composeUsage: [],
+    characterExchangeUsage: [],
+    characterMaterialUsage: [],
+    raw: {
+      itemScalars: [
+        { key: "resource_key", value: stringValue(sprite.key) },
+        { key: "slot", value: stringValue(sprite.category) },
+        { key: "index", value: stringValue(sprite.index) },
+      ],
+    },
+    counts: {
+      packageContents: 0,
+      packageContainers: 0,
+      exchangeSpend: 0,
+      exchangeReceive: 0,
+      shopListings: 0,
+      shopPricing: 0,
+      mallListings: 0,
+      sourceLimits: 0,
+      composeUsage: 0,
+      characterExchangeUsage: 0,
+      characterMaterialUsage: 0,
+      loadingOriginalImage: candidates.length,
+      portraitFrameOriginalImage: 0,
+      tableclothOriginalImage: 0,
+      backgroundOriginalImage: 0,
+      tileFaceOriginalImage: 0,
+      titleOriginalImage: 0,
+      musicAudio: 0,
+    },
+  };
+}
+
 export async function loadItemDetail(itemId, language) {
   const normalizedItemId = numberValue(itemId);
   const cacheKey = `${normalizedItemId}:${language}`;
@@ -306,6 +390,15 @@ export async function loadItemDetail(itemId, language) {
 
   const repository = await loadItemsRepository();
   const kind = kindOfEntry(normalizedItemId, repository);
+
+  if (kind === "loading_sprite") {
+    const sprite = repository.loadingSpriteById.get(normalizedItemId);
+    if (!sprite) return null;
+    const detail = buildLoadingSpriteDetail(sprite, repository, language);
+    detailCache.set(cacheKey, detail);
+    return detail;
+  }
+
   const entry = repository.entryById.get(normalizedItemId);
 
   if (!entry || !kind) {

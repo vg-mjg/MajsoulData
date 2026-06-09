@@ -108,6 +108,8 @@ const TABLECLOTH_FULL_RE =
   /^deco\/tablecloth\/([^/]+)\/3d\/texture\/Table_Dif\.[^.]+$/i;
 const TABLECLOTH_PREVIEW_RE =
   /^deco\/tablecloth\/([^/]+)\/preview\/(?:[^/]+\/)?preview\.[^.]+$/i;
+const LOADING_SPRITE_RE =
+  /^extendRes\/loading\/common\/(?:table|left|mid|right)_\d+\.png$/i;
 const LEGACY_RAW_ASSETS_BASE =
   "https://files.riichi.moe/mjg/game%20resources%20and%20tools/Mahjong%20Soul/raw%20assets";
 const LEGACY_RESVERSION_MANIFEST_PATHS = [
@@ -1112,6 +1114,16 @@ function resolveImages(images, index, ref, key) {
   }
 }
 
+function resolveLoadingSpriteImages(images, index) {
+  for (const rec of index.exact.values()) {
+    const key = rec.path;
+    if (!LOADING_SPRITE_RE.test(key) || images[key] !== undefined) {
+      continue;
+    }
+    images[key] = recordToValue(rec);
+  }
+}
+
 function compressRegionValue(value) {
   const keys = Object.keys(value || {});
   if (keys.length === 0) {
@@ -1660,6 +1672,9 @@ async function main() {
       }
     }
   }
+
+  // Default loading sprites (key: "extendRes/loading/common/<slot>_<index>.png").
+  resolveLoadingSpriteImages(resources.images, assetIndex);
 
   // Emoji (key: "<character.emo>/<sub_id>")
   const characters = rowsOf(table("item_definition/character"));

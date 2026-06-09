@@ -55,17 +55,17 @@ export function localizedDescriptionFromEntry(entry, language) {
   return "";
 }
 
-const LOADING_SPRITE_NAME_PREFIX = "Loading: ";
+const LOADING_SPRITE_NAME_PREFIX = "Loading:";
 
 const LOADING_SPRITE_CATEGORY_LABELS = {
-  desktop: "Desktop",
+  table: "Table",
   left: "Left",
   mid: "Mid",
   right: "Right",
 };
 
 export function loadingSpriteDisplayName(filename) {
-  const positionMatch = filename.match(/^([a-z]+)(\d+)\.png$/);
+  const positionMatch = filename.match(/^([a-z]+)_?(\d+)\.png$/);
   if (positionMatch) {
     const category = LOADING_SPRITE_CATEGORY_LABELS[positionMatch[1]] || positionMatch[1];
     return `${LOADING_SPRITE_NAME_PREFIX} ${category} ${positionMatch[2]}`;
@@ -77,4 +77,9 @@ export function loadingSpriteDisplayName(filename) {
   }
   const filenameWithoutExt = filename.replace(/\.png$/, "");
   return `${LOADING_SPRITE_NAME_PREFIX} ${filenameWithoutExt}`;
+}
+
+export function loadingSpriteImageCandidates(sprite, resources, language) {
+  if (!sprite || !resources) return [];
+  return imageCandidates(resources, stringValue(sprite.key).trim(), language);
 }

@@ -1,4 +1,9 @@
-import { itemIconCandidates, numberValue } from "./item-utils.js";
+import {
+  itemIconCandidates,
+  loadingSpriteDisplayName,
+  loadingSpriteImageCandidates,
+  numberValue,
+} from "./item-utils.js";
 import { loadItemsRepository } from "./items-repository.js";
 import { normalizeUiLanguage } from "../../utils.js";
 
@@ -17,6 +22,31 @@ const EMPTY_USAGE_COUNTS = {
   characterExchangeUsage: 0,
   characterMaterialUsage: 0,
 };
+
+const ITEM_KIND_ORDER = { currency: 0, item: 1, loading_sprite: 2 };
+
+function makeLoadingSpriteModel(sprite, repository, language) {
+  const name = loadingSpriteDisplayName(sprite.filename);
+  return {
+    id: numberValue(sprite.id),
+    kind: "loading_sprite",
+    sort: numberValue(sprite.sort),
+    category: 9,
+    type: numberValue(sprite.type),
+    func: "",
+    canSell: 0,
+    isUnique: 1,
+    maxStack: 1,
+    name_en: name,
+    name_jp: name,
+    name_chs: name,
+    name_chs_t: name,
+    name_kr: name,
+    isTitleDefinition: false,
+    imageCandidates: loadingSpriteImageCandidates(sprite, repository.resources, language),
+    usageCounts: EMPTY_USAGE_COUNTS,
+  };
+}
 
 function makeUsageCounts(repository, itemId) {
   return {
@@ -60,8 +90,7 @@ function makeItemModel(entry, kind, repository, language) {
 
 function compareItems(a, b) {
   if (a.kind !== b.kind) {
-    if (a.kind === "currency") return -1;
-    if (b.kind === "currency") return 1;
+    return (ITEM_KIND_ORDER[a.kind] ?? 99) - (ITEM_KIND_ORDER[b.kind] ?? 99);
   }
   if (a.sort !== b.sort) return a.sort - b.sort;
   return a.id - b.id;
@@ -81,8 +110,10 @@ export async function loadItems(language) {
         .map((entry) => makeItemModel(entry, "item", repository, normalizedLanguage));
       const titleModels = (repository.titleEntries || [])
         .map((entry) => makeItemModel(entry, "item", repository, normalizedLanguage));
+      const loadingSpriteModels = (repository.loadingSprites || [])
+        .map((sprite) => makeLoadingSpriteModel(sprite, repository, normalizedLanguage));
 
-      return [...currencyModels, ...itemModels, ...titleModels].sort(compareItems);
+      return [...currencyModels, ...itemModels, ...titleModels, ...loadingSpriteModels].sort(compareItems);
     })
     .catch((error) => {
       if (itemsCacheByLanguage.get(normalizedLanguage) === promise) {

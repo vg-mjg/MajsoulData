@@ -153,6 +153,40 @@ function buildAudioBgmByUnlockItemId(audioBgmRows) {
   return mapping;
 }
 
+const LOADING_SPRITE_CATEGORY_ORDER = { table: 0, left: 1, mid: 2, right: 3 };
+const LOADING_SPRITE_ID_BASE = { table: -1000, left: -2000, mid: -3000, right: -4000 };
+const LOADING_SPRITE_KEY_PATTERN =
+  /^extendRes\/loading\/common\/(table|left|mid|right)_(\d+)\.png$/;
+
+function buildLoadingSprites(resources) {
+  const images = resources && resources.images && typeof resources.images === "object"
+    ? resources.images
+    : {};
+  const sprites = [];
+
+  for (const key of Object.keys(images)) {
+    const match = key.match(LOADING_SPRITE_KEY_PATTERN);
+    if (!match) continue;
+
+    const category = match[1];
+    const index = numberValue(match[2]);
+    const order = LOADING_SPRITE_CATEGORY_ORDER[category];
+    const idBase = LOADING_SPRITE_ID_BASE[category];
+
+    sprites.push({
+      id: idBase - index - 1,
+      key,
+      filename: `${category}_${index}.png`,
+      category,
+      index,
+      type: order,
+      sort: order * 1000 + index,
+    });
+  }
+
+  return sprites.sort((a, b) => a.sort - b.sort || a.id - b.id);
+}
+
 export async function loadItemsRepository() {
   if (cachedRepositoryPromise) {
     return cachedRepositoryPromise;
@@ -192,6 +226,8 @@ export async function loadItemsRepository() {
     itemDefinitionCharacter,
   ]) => {
 
+    const loadingSprites = buildLoadingSprites(resources);
+    const loadingSpriteById = new Map(loadingSprites.map((sprite) => [sprite.id, sprite]));
     const items = filterItems(rowsOf(itemDefinitionItem));
     const currencies = rowsOf(itemDefinitionCurrency);
     const titleRows = rowsOf(itemDefinitionTitle);
@@ -228,8 +264,8 @@ export async function loadItemsRepository() {
 
     return {
       resources,
-      loadingSprites: [],
-      loadingSpriteById: new Map(),
+      loadingSprites,
+      loadingSpriteById,
       items,
       currencies,
       titleEntries,
