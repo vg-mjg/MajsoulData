@@ -205,6 +205,17 @@ function loadingOriginalCandidates(entry, itemId, repository, language) {
   return itemIconCandidates(entry, repository.resources, language);
 }
 
+function titleOriginalCandidates(entry, repository, language) {
+  if (stringValue(entry && entry.sourceType) !== "title") {
+    return [];
+  }
+  const iconOriginal = stringValue(entry.icon_original).trim();
+  if (!iconOriginal) {
+    return [];
+  }
+  return imageCandidates(repository.resources, iconOriginal, language);
+}
+
 function firstAudioPathFromSargs(sargs) {
   const values = Array.isArray(sargs) ? sargs : [sargs];
   for (const value of values) {
@@ -289,6 +300,7 @@ export async function loadItemDetail(itemId, language) {
   const loadingOriginalImage = numberValue(entry.category) === 8
     ? loadingOriginalCandidates(entry, normalizedItemId, repository, language)
     : [];
+  const titleOriginalImage = titleOriginalCandidates(entry, repository, language);
   const audioPreview = itemAudioPreview(entry, normalizedItemId, language, repository);
   const musicAudio = audioPreview ? firstAudioCandidates(repository.resources, audioKeysFor(audioPreview.path)) : [];
 
@@ -335,7 +347,7 @@ export async function loadItemDetail(itemId, language) {
       tableclothOriginalImage: [],
       backgroundOriginalImage: [],
       tileFaceOriginalImage: [],
-      titleOriginalImage: [],
+      titleOriginalImage,
       musicAudio,
     },
     packageContents,
@@ -369,7 +381,7 @@ export async function loadItemDetail(itemId, language) {
       tableclothOriginalImage: 0,
       backgroundOriginalImage: 0,
       tileFaceOriginalImage: 0,
-      titleOriginalImage: 0,
+      titleOriginalImage: titleOriginalImage.length,
       musicAudio: musicAudio.length,
     },
   };

@@ -18681,7 +18681,7 @@
     "ui/spot/audio/youzaiyouzai.mp3": "MyAssets/ui/spot/audio/youzaiyouzai.mp3"
   },
   "base": "https://files.riichi.moe/mjg/game%20resources%20and%20tools/Mahjong%20Soul/unity_raw/extracted/",
-  "generated_at": "2026-06-06T22:58:36Z",
+  "generated_at": "2026-06-06T17:35:51Z",
   "images": {
     "-": "MyAssets/ui/activity/extend/amulet/extend/num_rank_light/pic/common/-.png",
     "deco/bgm/pic/datingbgm.jpg": "MyAssets/deco/bgm/pic/common/datingbgm.png",
@@ -23760,47 +23760,140 @@
     "deco/tablecloth/tablecloth_saki/pic/tablecloth_saki.jpg": "MyAssets/deco/tablecloth/tablecloth_saki/pic/common/tablecloth_saki.png",
     "deco/tablecloth/tablecloth_violet/pic/tablecloth_violet.jpg": "MyAssets/deco/tablecloth/tablecloth_violet/pic/common/tablecloth_violet.png",
     "deco/tablecloth/tablecloth_yly/pic/tablecloth_yly.jpg": "MyAssets/deco/tablecloth/tablecloth_yly/pic/common/tablecloth_yly.png",
+    "deco/title/12dora/pic/12dora.png": {
+      "cn": "MyAssets/deco/title/12dora/pic/chs_t/12dora.png",
+      "en": "MyAssets/deco/title/12dora/pic/en_en/12dora.png",
+      "kr": "MyAssets/deco/title/12dora/pic/kr/12dora.png"
+    },
+    "deco/title/12dora/pic/12dora_item.jpg": {
+      "cn": "MyAssets/deco/title/12dora/pic/chs_t/12dora_item.png",
+      "en": "MyAssets/deco/title/12dora/pic/en_en/12dora_item.png",
+      "kr": "MyAssets/deco/title/12dora/pic/kr/12dora_item.png"
+    },
+    "deco/title/1jdq/pic/1jdq.png": {
+      "cn": "MyAssets/deco/title/1jdq/pic/chs_t/1jdq.png",
+      "en": "MyAssets/deco/title/1jdq/pic/en_en/1jdq.png",
+      "jp": "MyAssets/deco/title/1jdq/pic/jp/1jdq.png",
+      "kr": "MyAssets/deco/title/1jdq/pic/kr/1jdq.png"
+    },
+    "deco/title/1jdq/pic/1jdq_item.jpg": {
+      "cn": "MyAssets/deco/title/1jdq/pic/chs_t/1jdq_item.png",
+      "en": "MyAssets/deco/title/1jdq/pic/en_en/1jdq_item.png",
+      "jp": "MyAssets/deco/title/1jdq/pic/jp/1jdq_item.png",
+      "kr": "MyAssets/deco/title/1jdq/pic/kr/1jdq_item.png"
+    },
+    "deco/title/2208joketsu/pic/2208joketsu.png": {
+      "jp": "MyAssets/deco/title/2208joketsu/pic/jp/2208joketsu.png"
+    },
     "deco/title/2208joketsu/pic/2208joketsu_item.jpg": {
       "jp": "MyAssets/deco/title/2208joketsu/pic/jp/2208joketsu_item.png"
+    },
+    "deco/title/2208kazoku/pic/2208kazoku.png": {
+      "jp": "MyAssets/deco/title/2208kazoku/pic/jp/2208kazoku.png"
     },
     "deco/title/2208kazoku/pic/2208kazoku_item.jpg": {
       "jp": "MyAssets/deco/title/2208kazoku/pic/jp/2208kazoku_item.png"
     },
+    "deco/title/22huolongguo/pic/22huolongguo.png": {
+      "cn": "MyAssets/deco/title/22huolongguo/pic/chs_t/22huolongguo.png",
+      "en": "MyAssets/deco/title/22huolongguo/pic/en_chs_t/22huolongguo.png"
+    },
     "deco/title/22huolongguo/pic/22huolongguo_item.jpg": {
       "cn": "MyAssets/deco/title/22huolongguo/pic/chs/22huolongguo_item.png"
+    },
+    "deco/title/2301dhb/pic/2301dhb.png": {
+      "jp": "MyAssets/deco/title/2301dhb/pic/jp/2301dhb.png"
     },
     "deco/title/2301dhb/pic/2301dhb_item.jpg": {
       "jp": "MyAssets/deco/title/2301dhb/pic/jp/2301dhb_item.png"
     },
+    "deco/title/2301hfz/pic/2301hfz.png": {
+      "jp": "MyAssets/deco/title/2301hfz/pic/jp/2301hfz.png"
+    },
     "deco/title/2301hfz/pic/2301hfz_item.jpg": {
       "jp": "MyAssets/deco/title/2301hfz/pic/jp/2301hfz_item.png"
+    },
+    "deco/title/2301nw/pic/2301nw.png": {
+      "jp": "MyAssets/deco/title/2301nw/pic/jp/2301nw.png"
     },
     "deco/title/2301nw/pic/2301nw_item.jpg": {
       "jp": "MyAssets/deco/title/2301nw/pic/jp/2301nw_item.png"
     },
+    "deco/title/2304rmls1/pic/2304rmls1.png": {
+      "cn": "MyAssets/deco/title/2304rmls1/pic/chs_t/2304rmls1.png",
+      "en": "MyAssets/deco/title/2304rmls1/pic/en_chs_t/2304rmls1.png"
+    },
     "deco/title/2304rmls1/pic/2304rmls1_item.jpg": {
       "cn": "MyAssets/deco/title/2304rmls1/pic/chs/2304rmls1_item.png"
+    },
+    "deco/title/2306is/pic/2306is.png": {
+      "jp": "MyAssets/deco/title/2306is/pic/jp/2306is.png"
     },
     "deco/title/2306is/pic/2306is_item.jpg": {
       "jp": "MyAssets/deco/title/2306is/pic/jp/2306is_item.png"
     },
+    "deco/title/2306iw/pic/2306iw.png": {
+      "jp": "MyAssets/deco/title/2306iw/pic/jp/2306iw.png"
+    },
     "deco/title/2306iw/pic/2306iw_item.jpg": {
       "jp": "MyAssets/deco/title/2306iw/pic/jp/2306iw_item.png"
+    },
+    "deco/title/2307_2434/pic/2307_2434.png": {
+      "jp": "MyAssets/deco/title/2307_2434/pic/jp/2307_2434.png"
     },
     "deco/title/2307_2434/pic/2307_2434_item.jpg": {
       "jp": "MyAssets/deco/title/2307_2434/pic/jp/2307_2434_item.png"
     },
+    "deco/title/2308event/pic/2308event.png": {
+      "cn": "MyAssets/deco/title/2308event/pic/chs_t/2308event.png",
+      "en": "MyAssets/deco/title/2308event/pic/en_en/2308event.png",
+      "jp": "MyAssets/deco/title/2308event/pic/jp/2308event.png",
+      "kr": "MyAssets/deco/title/2308event/pic/kr/2308event.png"
+    },
+    "deco/title/2308event/pic/2308event_item.jpg": {
+      "cn": "MyAssets/deco/title/2308event/pic/chs_t/2308event_item.png",
+      "en": "MyAssets/deco/title/2308event/pic/en_en/2308event_item.png",
+      "jp": "MyAssets/deco/title/2308event/pic/jp/2308event_item.png",
+      "kr": "MyAssets/deco/title/2308event/pic/kr/2308event_item.png"
+    },
+    "deco/title/2309_nanashi/pic/2309_nanashi.png": {
+      "jp": "MyAssets/deco/title/2309_nanashi/pic/jp/2309_nanashi.png"
+    },
     "deco/title/2309_nanashi/pic/2309_nanashi_item.jpg": {
       "jp": "MyAssets/deco/title/2309_nanashi/pic/jp/2309_nanashi_item.png"
+    },
+    "deco/title/2312nvjie/pic/2312nvjie.png": {
+      "jp": "MyAssets/deco/title/2312nvjie/pic/jp/2312nvjie.png"
     },
     "deco/title/2312nvjie/pic/2312nvjie_item.jpg": {
       "jp": "MyAssets/deco/title/2312nvjie/pic/jp/2312nvjie_item.png"
     },
+    "deco/title/24012434/pic/24012434.png": {
+      "jp": "MyAssets/deco/title/24012434/pic/jp/24012434.png"
+    },
     "deco/title/24012434/pic/24012434_item.jpg": {
       "jp": "MyAssets/deco/title/24012434/pic/jp/24012434_item.png"
     },
+    "deco/title/2409qilinzhan/pic/2409qilinzhan.png": {
+      "cn": "MyAssets/deco/title/2409qilinzhan/pic/chs_t/2409qilinzhan.png",
+      "en": "MyAssets/deco/title/2409qilinzhan/pic/en_en/2409qilinzhan.png",
+      "jp": "MyAssets/deco/title/2409qilinzhan/pic/jp/2409qilinzhan.png",
+      "kr": "MyAssets/deco/title/2409qilinzhan/pic/kr/2409qilinzhan.png"
+    },
+    "deco/title/2409qilinzhan/pic/2409qilinzhan_item.jpg": {
+      "cn": "MyAssets/deco/title/2409qilinzhan/pic/chs_t/2409qilinzhan_item.png",
+      "en": "MyAssets/deco/title/2409qilinzhan/pic/en_en/2409qilinzhan_item.png",
+      "jp": "MyAssets/deco/title/2409qilinzhan/pic/jp/2409qilinzhan_item.png",
+      "kr": "MyAssets/deco/title/2409qilinzhan/pic/kr/2409qilinzhan_item.png"
+    },
+    "deco/title/24342021champion/pic/24342021champion.png": {
+      "jp": "MyAssets/deco/title/24342021champion/pic/jp/24342021champion.png"
+    },
     "deco/title/24342021champion/pic/24342021champion_item.jpg": {
       "jp": "MyAssets/deco/title/24342021champion/pic/jp/24342021champion_item.png"
+    },
+    "deco/title/24342022/pic/24342022.png": {
+      "jp": "MyAssets/deco/title/24342022/pic/jp/24342022.png"
     },
     "deco/title/24342022/pic/24342022_item.jpg": {
       "jp": "MyAssets/deco/title/24342022/pic/jp/24342022_item.png"
@@ -23808,122 +23901,752 @@
     "deco/title/2434chudai/pic/2434chudai.png": {
       "jp": "MyAssets/deco/title/2434chudai/pic/jp/2434chudai.png"
     },
+    "deco/title/2434chudai/pic/2434chudai_item.jpg": {
+      "jp": "MyAssets/deco/title/2434chudai/pic/jp/2434chudai_item.png"
+    },
+    "deco/title/24matsutake/pic/24matsutake.png": {
+      "jp": "MyAssets/deco/title/24matsutake/pic/jp/24matsutake.png"
+    },
     "deco/title/24matsutake/pic/24matsutake_item.jpg": {
       "jp": "MyAssets/deco/title/24matsutake/pic/jp/24matsutake_item.png"
+    },
+    "deco/title/24qyzz/pic/24qyzz.png": {
+      "cn": "MyAssets/deco/title/24qyzz/pic/chs_t/24qyzz.png",
+      "en": "MyAssets/deco/title/24qyzz/pic/en_en/24qyzz.png",
+      "jp": "MyAssets/deco/title/24qyzz/pic/jp/24qyzz.png",
+      "kr": "MyAssets/deco/title/24qyzz/pic/kr/24qyzz.png"
+    },
+    "deco/title/24qyzz/pic/24qyzz_item.jpg": {
+      "cn": "MyAssets/deco/title/24qyzz/pic/chs_t/24qyzz_item.png",
+      "en": "MyAssets/deco/title/24qyzz/pic/en_en/24qyzz_item.png",
+      "jp": "MyAssets/deco/title/24qyzz/pic/jp/24qyzz_item.png",
+      "kr": "MyAssets/deco/title/24qyzz/pic/kr/24qyzz_item.png"
+    },
+    "deco/title/24shenshebei/pic/24shenshebei.png": {
+      "cn": "MyAssets/deco/title/24shenshebei/pic/chs_t/24shenshebei.png",
+      "en": "MyAssets/deco/title/24shenshebei/pic/en_chs_t/24shenshebei.png"
     },
     "deco/title/24shenshebei/pic/24shenshebei_item.jpg": {
       "cn": "MyAssets/deco/title/24shenshebei/pic/chs/24shenshebei_item.png"
     },
+    "deco/title/24sszy/pic/24sszy.png": {
+      "jp": "MyAssets/deco/title/24sszy/pic/jp/24sszy.png"
+    },
     "deco/title/24sszy/pic/24sszy_item.jpg": {
       "jp": "MyAssets/deco/title/24sszy/pic/jp/24sszy_item.png"
+    },
+    "deco/title/24sxz1/pic/24sxz1.png": {
+      "cn": "MyAssets/deco/title/24sxz1/pic/chs_t/24sxz1.png",
+      "en": "MyAssets/deco/title/24sxz1/pic/en_chs_t/24sxz1.png",
+      "jp": "MyAssets/deco/title/24sxz1/pic/jp/24sxz1.png"
     },
     "deco/title/24sxz1/pic/24sxz1_item.jpg": {
       "jp": "MyAssets/deco/title/24sxz1/pic/jp/24sxz1_item.png"
     },
+    "deco/title/24sxz2/pic/24sxz2.png": {
+      "cn": "MyAssets/deco/title/24sxz2/pic/chs_t/24sxz2.png",
+      "en": "MyAssets/deco/title/24sxz2/pic/en_chs_t/24sxz2.png",
+      "jp": "MyAssets/deco/title/24sxz2/pic/jp/24sxz2.png"
+    },
     "deco/title/24sxz2/pic/24sxz2_item.jpg": {
       "jp": "MyAssets/deco/title/24sxz2/pic/jp/24sxz2_item.png"
+    },
+    "deco/title/24sxz3/pic/24sxz3.png": {
+      "cn": "MyAssets/deco/title/24sxz3/pic/chs_t/24sxz3.png",
+      "en": "MyAssets/deco/title/24sxz3/pic/en_chs_t/24sxz3.png",
+      "jp": "MyAssets/deco/title/24sxz3/pic/jp/24sxz3.png"
     },
     "deco/title/24sxz3/pic/24sxz3_item.jpg": {
       "jp": "MyAssets/deco/title/24sxz3/pic/jp/24sxz3_item.png"
     },
+    "deco/title/24sxz4/pic/24sxz4.png": {
+      "cn": "MyAssets/deco/title/24sxz4/pic/chs_t/24sxz4.png",
+      "en": "MyAssets/deco/title/24sxz4/pic/en_chs_t/24sxz4.png",
+      "jp": "MyAssets/deco/title/24sxz4/pic/jp/24sxz4.png"
+    },
     "deco/title/24sxz4/pic/24sxz4_item.jpg": {
       "jp": "MyAssets/deco/title/24sxz4/pic/jp/24sxz4_item.png"
+    },
+    "deco/title/24zgws/pic/24zgws.png": {
+      "jp": "MyAssets/deco/title/24zgws/pic/jp/24zgws.png"
     },
     "deco/title/24zgws/pic/24zgws_item.jpg": {
       "jp": "MyAssets/deco/title/24zgws/pic/jp/24zgws_item.png"
     },
+    "deco/title/2509qilinzhan/pic/2509qilinzhan.png": {
+      "cn": "MyAssets/deco/title/2509qilinzhan/pic/chs_t/2509qilinzhan.png",
+      "en": "MyAssets/deco/title/2509qilinzhan/pic/en_en/2509qilinzhan.png",
+      "kr": "MyAssets/deco/title/2509qilinzhan/pic/kr/2509qilinzhan.png"
+    },
     "deco/title/2509qilinzhan/pic/2509qilinzhan_item.jpg": {
       "kr": "MyAssets/deco/title/2509qilinzhan/pic/kr/2509qilinzhan_item.png"
+    },
+    "deco/title/25bl1/pic/25bl1.png": {
+      "cn": "MyAssets/deco/title/25bl1/pic/chs_t/25bl1.png",
+      "en": "MyAssets/deco/title/25bl1/pic/en_chs_t/25bl1.png"
     },
     "deco/title/25bl1/pic/25bl1_item.jpg": {
       "cn": "MyAssets/deco/title/25bl1/pic/chs/25bl1_item.png"
     },
+    "deco/title/25bl2/pic/25bl2.png": {
+      "cn": "MyAssets/deco/title/25bl2/pic/chs_t/25bl2.png",
+      "en": "MyAssets/deco/title/25bl2/pic/en_chs_t/25bl2.png"
+    },
     "deco/title/25bl2/pic/25bl2_item.jpg": {
       "cn": "MyAssets/deco/title/25bl2/pic/chs/25bl2_item.png"
+    },
+    "deco/title/25caihong1/pic/25caihong1.png": {
+      "jp": "MyAssets/deco/title/25caihong1/pic/jp/25caihong1.png"
     },
     "deco/title/25caihong1/pic/25caihong1_item.jpg": {
       "jp": "MyAssets/deco/title/25caihong1/pic/jp/25caihong1_item.png"
     },
+    "deco/title/25catfoodbowl/pic/25catfoodbowl.png": {
+      "cn": "MyAssets/deco/title/25catfoodbowl/pic/chs_t/25catfoodbowl.png",
+      "en": "MyAssets/deco/title/25catfoodbowl/pic/en_en/25catfoodbowl.png",
+      "kr": "MyAssets/deco/title/25catfoodbowl/pic/kr/25catfoodbowl.png"
+    },
     "deco/title/25catfoodbowl/pic/25catfoodbowl_item.jpg": {
       "kr": "MyAssets/deco/title/25catfoodbowl/pic/kr/25catfoodbowl_item.png"
+    },
+    "deco/title/25haoyun/pic/25haoyun.png": {
+      "jp": "MyAssets/deco/title/25haoyun/pic/jp/25haoyun.png"
     },
     "deco/title/25haoyun/pic/25haoyun_item.jpg": {
       "jp": "MyAssets/deco/title/25haoyun/pic/jp/25haoyun_item.png"
     },
+    "deco/title/25huntianbazhe/pic/25huntianbazhe.png": {
+      "jp": "MyAssets/deco/title/25huntianbazhe/pic/jp/25huntianbazhe.png"
+    },
     "deco/title/25huntianbazhe/pic/25huntianbazhe_item.jpg": {
       "jp": "MyAssets/deco/title/25huntianbazhe/pic/jp/25huntianbazhe_item.png"
+    },
+    "deco/title/25jingubei/pic/25jingubei.png": {
+      "cn": "MyAssets/deco/title/25jingubei/pic/chs_t/25jingubei.png",
+      "en": "MyAssets/deco/title/25jingubei/pic/en_chs_t/25jingubei.png"
     },
     "deco/title/25jingubei/pic/25jingubei_item.jpg": {
       "cn": "MyAssets/deco/title/25jingubei/pic/chs/25jingubei_item.png"
     },
+    "deco/title/25mjqnw1/pic/25mjqnw1.png": {
+      "cn": "MyAssets/deco/title/25mjqnw1/pic/chs_t/25mjqnw1.png",
+      "en": "MyAssets/deco/title/25mjqnw1/pic/en_chs_t/25mjqnw1.png"
+    },
     "deco/title/25mjqnw1/pic/25mjqnw1_item.jpg": {
       "cn": "MyAssets/deco/title/25mjqnw1/pic/chs/25mjqnw1_item.png"
+    },
+    "deco/title/25mkc/pic/25mkc.png": {
+      "cn": "MyAssets/deco/title/25mkc/pic/chs_t/25mkc.png",
+      "en": "MyAssets/deco/title/25mkc/pic/en_en/25mkc.png",
+      "kr": "MyAssets/deco/title/25mkc/pic/kr/25mkc.png"
     },
     "deco/title/25mkc/pic/25mkc_item.jpg": {
       "kr": "MyAssets/deco/title/25mkc/pic/kr/25mkc_item.png"
     },
+    "deco/title/25njsj/pic/25njsj.png": {
+      "jp": "MyAssets/deco/title/25njsj/pic/jp/25njsj.png"
+    },
     "deco/title/25njsj/pic/25njsj_item.jpg": {
       "jp": "MyAssets/deco/title/25njsj/pic/jp/25njsj_item.png"
+    },
+    "deco/title/25qyzz/pic/25qyzz.png": {
+      "cn": "MyAssets/deco/title/25qyzz/pic/chs_t/25qyzz.png",
+      "en": "MyAssets/deco/title/25qyzz/pic/en_en/25qyzz.png",
+      "jp": "MyAssets/deco/title/25qyzz/pic/jp/25qyzz.png",
+      "kr": "MyAssets/deco/title/25qyzz/pic/kr/25qyzz.png"
+    },
+    "deco/title/25qyzz/pic/25qyzz_item.jpg": {
+      "cn": "MyAssets/deco/title/25qyzz/pic/chs_t/25qyzz_item.png",
+      "en": "MyAssets/deco/title/25qyzz/pic/en_en/25qyzz_item.png",
+      "jp": "MyAssets/deco/title/25qyzz/pic/jp/25qyzz_item.png",
+      "kr": "MyAssets/deco/title/25qyzz/pic/kr/25qyzz_item.png"
+    },
+    "deco/title/25shenshebei/pic/25shenshebei.png": {
+      "cn": "MyAssets/deco/title/25shenshebei/pic/chs_t/25shenshebei.png",
+      "en": "MyAssets/deco/title/25shenshebei/pic/en_chs_t/25shenshebei.png"
     },
     "deco/title/25shenshebei/pic/25shenshebei_item.jpg": {
       "cn": "MyAssets/deco/title/25shenshebei/pic/chs/25shenshebei_item.png"
     },
+    "deco/title/25sirius/pic/25sirius.png": {
+      "jp": "MyAssets/deco/title/25sirius/pic/jp/25sirius.png"
+    },
     "deco/title/25sirius/pic/25sirius_item.jpg": {
       "jp": "MyAssets/deco/title/25sirius/pic/jp/25sirius_item.png"
+    },
+    "deco/title/25sszy/pic/25sszy.png": {
+      "jp": "MyAssets/deco/title/25sszy/pic/jp/25sszy.png"
     },
     "deco/title/25sszy/pic/25sszy_item.jpg": {
       "jp": "MyAssets/deco/title/25sszy/pic/jp/25sszy_item.png"
     },
+    "deco/title/25vspo/pic/25vspo.png": {
+      "jp": "MyAssets/deco/title/25vspo/pic/jp/25vspo.png"
+    },
     "deco/title/25vspo/pic/25vspo_item.jpg": {
       "jp": "MyAssets/deco/title/25vspo/pic/jp/25vspo_item.png"
+    },
+    "deco/title/25zhuluzhan/pic/25zhuluzhan.png": {
+      "cn": "MyAssets/deco/title/25zhuluzhan/pic/chs_t/25zhuluzhan.png",
+      "en": "MyAssets/deco/title/25zhuluzhan/pic/en_chs_t/25zhuluzhan.png"
     },
     "deco/title/25zhuluzhan/pic/25zhuluzhan_item.jpg": {
       "cn": "MyAssets/deco/title/25zhuluzhan/pic/chs/25zhuluzhan_item.png"
     },
+    "deco/title/26bls3/pic/26bls3.png": {
+      "cn": "MyAssets/deco/title/26bls3/pic/chs_t/26bls3.png",
+      "en": "MyAssets/deco/title/26bls3/pic/en_chs_t/26bls3.png"
+    },
     "deco/title/26bls3/pic/26bls3_item.jpg": {
       "cn": "MyAssets/deco/title/26bls3/pic/chs/26bls3_item.png"
+    },
+    "deco/title/26mkc/pic/26mkc.png": {
+      "en": "MyAssets/deco/title/26mkc/pic/en_en/26mkc.png",
+      "kr": "MyAssets/deco/title/26mkc/pic/kr/26mkc.png"
     },
     "deco/title/26mkc/pic/26mkc_item.jpg": {
       "kr": "MyAssets/deco/title/26mkc/pic/kr/26mkc_item.png"
     },
+    "deco/title/26mplxlzw/pic/26mplxlzw.png": {
+      "cn": "MyAssets/deco/title/26mplxlzw/pic/chs_t/26mplxlzw.png",
+      "en": "MyAssets/deco/title/26mplxlzw/pic/en_chs_t/26mplxlzw.png"
+    },
     "deco/title/26mplxlzw/pic/26mplxlzw_item.jpg": {
       "cn": "MyAssets/deco/title/26mplxlzw/pic/chs/26mplxlzw_item.png"
+    },
+    "deco/title/26njsj/pic/26njsj.png": {
+      "jp": "MyAssets/deco/title/26njsj/pic/jp/26njsj.png"
     },
     "deco/title/26njsj/pic/26njsj_item.jpg": {
       "jp": "MyAssets/deco/title/26njsj/pic/jp/26njsj_item.png"
     },
+    "deco/title/820/pic/820.png": {
+      "cn": "MyAssets/deco/title/820/pic/chs_t/820.png",
+      "en": "MyAssets/deco/title/820/pic/en_chs_t/820.png"
+    },
+    "deco/title/820/pic/820_item.jpg": {
+      "cn": "MyAssets/deco/title/820/pic/chs_t/820_item.png",
+      "en": "MyAssets/deco/title/820/pic/en_chs_t/820_item.png"
+    },
+    "deco/title/achievementgroup1/pic/achievementgroup1.png": {
+      "cn": "MyAssets/deco/title/achievementgroup1/pic/chs_t/achievementgroup1.png",
+      "en": "MyAssets/deco/title/achievementgroup1/pic/en_en/achievementgroup1.png",
+      "jp": "MyAssets/deco/title/achievementgroup1/pic/jp/achievementgroup1.png",
+      "kr": "MyAssets/deco/title/achievementgroup1/pic/kr/achievementgroup1.png"
+    },
+    "deco/title/achievementgroup1/pic/achievementgroup1_item.jpg": {
+      "cn": "MyAssets/deco/title/achievementgroup1/pic/chs_t/achievementgroup1_item.png",
+      "en": "MyAssets/deco/title/achievementgroup1/pic/en_en/achievementgroup1_item.png",
+      "jp": "MyAssets/deco/title/achievementgroup1/pic/jp/achievementgroup1_item.png",
+      "kr": "MyAssets/deco/title/achievementgroup1/pic/kr/achievementgroup1_item.png"
+    },
+    "deco/title/achievementgroup10/pic/achievementgroup10.png": {
+      "cn": "MyAssets/deco/title/achievementgroup10/pic/chs_t/achievementgroup10.png",
+      "en": "MyAssets/deco/title/achievementgroup10/pic/en_en/achievementgroup10.png",
+      "jp": "MyAssets/deco/title/achievementgroup10/pic/jp/achievementgroup10.png",
+      "kr": "MyAssets/deco/title/achievementgroup10/pic/kr/achievementgroup10.png"
+    },
+    "deco/title/achievementgroup10/pic/achievementgroup10_item.jpg": {
+      "cn": "MyAssets/deco/title/achievementgroup10/pic/chs_t/achievementgroup10_item.png",
+      "en": "MyAssets/deco/title/achievementgroup10/pic/en_en/achievementgroup10_item.png",
+      "jp": "MyAssets/deco/title/achievementgroup10/pic/jp/achievementgroup10_item.png",
+      "kr": "MyAssets/deco/title/achievementgroup10/pic/kr/achievementgroup10_item.png"
+    },
+    "deco/title/achievementgroup13/pic/achievementgroup13.png": {
+      "cn": "MyAssets/deco/title/achievementgroup13/pic/chs_t/achievementgroup13.png",
+      "en": "MyAssets/deco/title/achievementgroup13/pic/en_en/achievementgroup13.png",
+      "jp": "MyAssets/deco/title/achievementgroup13/pic/jp/achievementgroup13.png",
+      "kr": "MyAssets/deco/title/achievementgroup13/pic/kr/achievementgroup13.png"
+    },
+    "deco/title/achievementgroup13/pic/achievementgroup13_item.jpg": {
+      "cn": "MyAssets/deco/title/achievementgroup13/pic/chs_t/achievementgroup13_item.png",
+      "en": "MyAssets/deco/title/achievementgroup13/pic/en_en/achievementgroup13_item.png",
+      "jp": "MyAssets/deco/title/achievementgroup13/pic/jp/achievementgroup13_item.png",
+      "kr": "MyAssets/deco/title/achievementgroup13/pic/kr/achievementgroup13_item.png"
+    },
+    "deco/title/achievementgroup14/pic/achievementgroup14.png": {
+      "cn": "MyAssets/deco/title/achievementgroup14/pic/chs_t/achievementgroup14.png",
+      "en": "MyAssets/deco/title/achievementgroup14/pic/en_en/achievementgroup14.png",
+      "jp": "MyAssets/deco/title/achievementgroup14/pic/jp/achievementgroup14.png",
+      "kr": "MyAssets/deco/title/achievementgroup14/pic/kr/achievementgroup14.png"
+    },
+    "deco/title/achievementgroup14/pic/achievementgroup14_item.jpg": {
+      "cn": "MyAssets/deco/title/achievementgroup14/pic/chs_t/achievementgroup14_item.png",
+      "en": "MyAssets/deco/title/achievementgroup14/pic/en_en/achievementgroup14_item.png",
+      "jp": "MyAssets/deco/title/achievementgroup14/pic/jp/achievementgroup14_item.png",
+      "kr": "MyAssets/deco/title/achievementgroup14/pic/kr/achievementgroup14_item.png"
+    },
+    "deco/title/achievementgroup2/pic/achievementgroup2.png": {
+      "cn": "MyAssets/deco/title/achievementgroup2/pic/chs_t/achievementgroup2.png",
+      "en": "MyAssets/deco/title/achievementgroup2/pic/en_en/achievementgroup2.png",
+      "jp": "MyAssets/deco/title/achievementgroup2/pic/jp/achievementgroup2.png",
+      "kr": "MyAssets/deco/title/achievementgroup2/pic/kr/achievementgroup2.png"
+    },
+    "deco/title/achievementgroup2/pic/achievementgroup2_item.jpg": {
+      "cn": "MyAssets/deco/title/achievementgroup2/pic/chs_t/achievementgroup2_item.png",
+      "en": "MyAssets/deco/title/achievementgroup2/pic/en_en/achievementgroup2_item.png",
+      "jp": "MyAssets/deco/title/achievementgroup2/pic/jp/achievementgroup2_item.png",
+      "kr": "MyAssets/deco/title/achievementgroup2/pic/kr/achievementgroup2_item.png"
+    },
+    "deco/title/achievementgroup3/pic/achievementgroup3.png": {
+      "cn": "MyAssets/deco/title/achievementgroup3/pic/chs_t/achievementgroup3.png",
+      "en": "MyAssets/deco/title/achievementgroup3/pic/en_en/achievementgroup3.png",
+      "jp": "MyAssets/deco/title/achievementgroup3/pic/jp/achievementgroup3.png",
+      "kr": "MyAssets/deco/title/achievementgroup3/pic/kr/achievementgroup3.png"
+    },
+    "deco/title/achievementgroup3/pic/achievementgroup3_item.jpg": {
+      "cn": "MyAssets/deco/title/achievementgroup3/pic/chs_t/achievementgroup3_item.png",
+      "en": "MyAssets/deco/title/achievementgroup3/pic/en_en/achievementgroup3_item.png",
+      "jp": "MyAssets/deco/title/achievementgroup3/pic/jp/achievementgroup3_item.png",
+      "kr": "MyAssets/deco/title/achievementgroup3/pic/kr/achievementgroup3_item.png"
+    },
+    "deco/title/achievementgroup4/pic/achievementgroup4.png": {
+      "cn": "MyAssets/deco/title/achievementgroup4/pic/chs_t/achievementgroup4.png",
+      "en": "MyAssets/deco/title/achievementgroup4/pic/en_en/achievementgroup4.png",
+      "jp": "MyAssets/deco/title/achievementgroup4/pic/jp/achievementgroup4.png",
+      "kr": "MyAssets/deco/title/achievementgroup4/pic/kr/achievementgroup4.png"
+    },
+    "deco/title/achievementgroup4/pic/achievementgroup4_item.jpg": {
+      "cn": "MyAssets/deco/title/achievementgroup4/pic/chs_t/achievementgroup4_item.png",
+      "en": "MyAssets/deco/title/achievementgroup4/pic/en_en/achievementgroup4_item.png",
+      "jp": "MyAssets/deco/title/achievementgroup4/pic/jp/achievementgroup4_item.png",
+      "kr": "MyAssets/deco/title/achievementgroup4/pic/kr/achievementgroup4_item.png"
+    },
+    "deco/title/achievementgroup5/pic/achievementgroup5.png": {
+      "cn": "MyAssets/deco/title/achievementgroup5/pic/chs_t/achievementgroup5.png",
+      "en": "MyAssets/deco/title/achievementgroup5/pic/en_en/achievementgroup5.png",
+      "jp": "MyAssets/deco/title/achievementgroup5/pic/jp/achievementgroup5.png",
+      "kr": "MyAssets/deco/title/achievementgroup5/pic/kr/achievementgroup5.png"
+    },
+    "deco/title/achievementgroup5/pic/achievementgroup5_item.jpg": {
+      "cn": "MyAssets/deco/title/achievementgroup5/pic/chs_t/achievementgroup5_item.png",
+      "en": "MyAssets/deco/title/achievementgroup5/pic/en_en/achievementgroup5_item.png",
+      "jp": "MyAssets/deco/title/achievementgroup5/pic/jp/achievementgroup5_item.png",
+      "kr": "MyAssets/deco/title/achievementgroup5/pic/kr/achievementgroup5_item.png"
+    },
+    "deco/title/achievementgroup6/pic/achievementgroup6.png": {
+      "cn": "MyAssets/deco/title/achievementgroup6/pic/chs_t/achievementgroup6.png",
+      "en": "MyAssets/deco/title/achievementgroup6/pic/en_en/achievementgroup6.png",
+      "jp": "MyAssets/deco/title/achievementgroup6/pic/jp/achievementgroup6.png",
+      "kr": "MyAssets/deco/title/achievementgroup6/pic/kr/achievementgroup6.png"
+    },
+    "deco/title/achievementgroup6/pic/achievementgroup6_item.jpg": {
+      "cn": "MyAssets/deco/title/achievementgroup6/pic/chs_t/achievementgroup6_item.png",
+      "en": "MyAssets/deco/title/achievementgroup6/pic/en_en/achievementgroup6_item.png",
+      "jp": "MyAssets/deco/title/achievementgroup6/pic/jp/achievementgroup6_item.png",
+      "kr": "MyAssets/deco/title/achievementgroup6/pic/kr/achievementgroup6_item.png"
+    },
+    "deco/title/achievementgroup7/pic/achievementgroup7.png": {
+      "cn": "MyAssets/deco/title/achievementgroup7/pic/chs_t/achievementgroup7.png",
+      "en": "MyAssets/deco/title/achievementgroup7/pic/en_en/achievementgroup7.png",
+      "jp": "MyAssets/deco/title/achievementgroup7/pic/jp/achievementgroup7.png",
+      "kr": "MyAssets/deco/title/achievementgroup7/pic/kr/achievementgroup7.png"
+    },
+    "deco/title/achievementgroup7/pic/achievementgroup7_item.jpg": {
+      "cn": "MyAssets/deco/title/achievementgroup7/pic/chs_t/achievementgroup7_item.png",
+      "en": "MyAssets/deco/title/achievementgroup7/pic/en_en/achievementgroup7_item.png",
+      "jp": "MyAssets/deco/title/achievementgroup7/pic/jp/achievementgroup7_item.png",
+      "kr": "MyAssets/deco/title/achievementgroup7/pic/kr/achievementgroup7_item.png"
+    },
+    "deco/title/achievementgroup8/pic/achievementgroup8.png": {
+      "cn": "MyAssets/deco/title/achievementgroup8/pic/chs_t/achievementgroup8.png",
+      "en": "MyAssets/deco/title/achievementgroup8/pic/en_en/achievementgroup8.png",
+      "jp": "MyAssets/deco/title/achievementgroup8/pic/jp/achievementgroup8.png",
+      "kr": "MyAssets/deco/title/achievementgroup8/pic/kr/achievementgroup8.png"
+    },
+    "deco/title/achievementgroup8/pic/achievementgroup8_item.jpg": {
+      "cn": "MyAssets/deco/title/achievementgroup8/pic/chs_t/achievementgroup8_item.png",
+      "en": "MyAssets/deco/title/achievementgroup8/pic/en_en/achievementgroup8_item.png",
+      "jp": "MyAssets/deco/title/achievementgroup8/pic/jp/achievementgroup8_item.png",
+      "kr": "MyAssets/deco/title/achievementgroup8/pic/kr/achievementgroup8_item.png"
+    },
+    "deco/title/achievementgroup9/pic/achievementgroup9.png": {
+      "cn": "MyAssets/deco/title/achievementgroup9/pic/chs_t/achievementgroup9.png",
+      "en": "MyAssets/deco/title/achievementgroup9/pic/en_en/achievementgroup9.png",
+      "jp": "MyAssets/deco/title/achievementgroup9/pic/jp/achievementgroup9.png",
+      "kr": "MyAssets/deco/title/achievementgroup9/pic/kr/achievementgroup9.png"
+    },
+    "deco/title/achievementgroup9/pic/achievementgroup9_item.jpg": {
+      "cn": "MyAssets/deco/title/achievementgroup9/pic/chs_t/achievementgroup9_item.png",
+      "en": "MyAssets/deco/title/achievementgroup9/pic/en_en/achievementgroup9_item.png",
+      "jp": "MyAssets/deco/title/achievementgroup9/pic/jp/achievementgroup9_item.png",
+      "kr": "MyAssets/deco/title/achievementgroup9/pic/kr/achievementgroup9_item.png"
+    },
+    "deco/title/asaki/pic/asaki.png": {
+      "cn": "MyAssets/deco/title/asaki/pic/chs_t/asaki.png",
+      "en": "MyAssets/deco/title/asaki/pic/en_chs_t/asaki.png"
+    },
+    "deco/title/asaki/pic/asaki_item.jpg": {
+      "cn": "MyAssets/deco/title/asaki/pic/chs_t/asaki_item.png",
+      "en": "MyAssets/deco/title/asaki/pic/en_chs_t/asaki_item.png"
+    },
+    "deco/title/bleagues1/pic/bleagues1.png": {
+      "cn": "MyAssets/deco/title/bleagues1/pic/chs_t/bleagues1.png",
+      "en": "MyAssets/deco/title/bleagues1/pic/en_chs_t/bleagues1.png"
+    },
     "deco/title/bleagues1/pic/bleagues1_item.jpg": {
       "cn": "MyAssets/deco/title/bleagues1/pic/chs/bleagues1_item.png"
+    },
+    "deco/title/douyuchampion/pic/douyuchampion.png": {
+      "cn": "MyAssets/deco/title/douyuchampion/pic/chs_t/douyuchampion.png",
+      "en": "MyAssets/deco/title/douyuchampion/pic/en_chs_t/douyuchampion.png"
     },
     "deco/title/douyuchampion/pic/douyuchampion_item.jpg": {
       "cn": "MyAssets/deco/title/douyuchampion/pic/chs/douyuchampion_item.png"
     },
+    "deco/title/douyuchampion2/pic/douyuchampion2.png": {
+      "cn": "MyAssets/deco/title/douyuchampion2/pic/chs_t/douyuchampion2.png",
+      "en": "MyAssets/deco/title/douyuchampion2/pic/en_chs_t/douyuchampion2.png"
+    },
     "deco/title/douyuchampion2/pic/douyuchampion2_item.jpg": {
       "cn": "MyAssets/deco/title/douyuchampion2/pic/chs/douyuchampion2_item.png"
+    },
+    "deco/title/douyuguishen/pic/douyuguishen.png": {
+      "cn": "MyAssets/deco/title/douyuguishen/pic/chs_t/douyuguishen.png",
+      "en": "MyAssets/deco/title/douyuguishen/pic/en_chs_t/douyuguishen.png"
     },
     "deco/title/douyuguishen/pic/douyuguishen_item.jpg": {
       "cn": "MyAssets/deco/title/douyuguishen/pic/chs/douyuguishen_item.png"
     },
+    "deco/title/gai/pic/gai.png": {
+      "cn": "MyAssets/deco/title/gai/pic/chs_t/gai.png",
+      "en": "MyAssets/deco/title/gai/pic/en_en/gai.png",
+      "jp": "MyAssets/deco/title/gai/pic/jp/gai.png",
+      "kr": "MyAssets/deco/title/gai/pic/kr/gai.png"
+    },
+    "deco/title/ganjunwudi/pic/ganjunwudi.png": {
+      "cn": "MyAssets/deco/title/ganjunwudi/pic/chs_t/ganjunwudi.png",
+      "en": "MyAssets/deco/title/ganjunwudi/pic/en_chs_t/ganjunwudi.png"
+    },
+    "deco/title/ganjunwudi/pic/ganjunwudi_item.jpg": {
+      "cn": "MyAssets/deco/title/ganjunwudi/pic/chs_t/ganjunwudi_item.png",
+      "en": "MyAssets/deco/title/ganjunwudi/pic/en_chs_t/ganjunwudi_item.png"
+    },
+    "deco/title/hanagroup/pic/hanagroup.png": {
+      "jp": "MyAssets/deco/title/hanagroup/pic/jp/hanagroup.png"
+    },
     "deco/title/hanagroup/pic/hanagroup_item.jpg": {
       "jp": "MyAssets/deco/title/hanagroup/pic/jp/hanagroup_item.png"
+    },
+    "deco/title/hlg/pic/hlg.png": {
+      "cn": "MyAssets/deco/title/hlg/pic/chs_t/hlg.png",
+      "en": "MyAssets/deco/title/hlg/pic/en_chs_t/hlg.png"
+    },
+    "deco/title/hlg/pic/hlg_item.jpg": {
+      "cn": "MyAssets/deco/title/hlg/pic/chs_t/hlg_item.png",
+      "en": "MyAssets/deco/title/hlg/pic/en_chs_t/hlg_item.png"
+    },
+    "deco/title/hunzhichaoyuezhe/pic/hunzhichaoyuezhe.png": {
+      "cn": "MyAssets/deco/title/hunzhichaoyuezhe/pic/chs_t/hunzhichaoyuezhe.png",
+      "en": "MyAssets/deco/title/hunzhichaoyuezhe/pic/en_en/hunzhichaoyuezhe.png",
+      "jp": "MyAssets/deco/title/hunzhichaoyuezhe/pic/jp/hunzhichaoyuezhe.png",
+      "kr": "MyAssets/deco/title/hunzhichaoyuezhe/pic/kr/hunzhichaoyuezhe.png"
+    },
+    "deco/title/hunzhidizaozhe1/pic/hunzhidizaozhe1.png": {
+      "cn": "MyAssets/deco/title/hunzhidizaozhe1/pic/chs_t/hunzhidizaozhe1.png",
+      "en": "MyAssets/deco/title/hunzhidizaozhe1/pic/en_en/hunzhidizaozhe1.png",
+      "jp": "MyAssets/deco/title/hunzhidizaozhe1/pic/jp/hunzhidizaozhe1.png",
+      "kr": "MyAssets/deco/title/hunzhidizaozhe1/pic/kr/hunzhidizaozhe1.png"
+    },
+    "deco/title/hunzhidizaozhe2/pic/hunzhidizaozhe2.png": {
+      "cn": "MyAssets/deco/title/hunzhidizaozhe2/pic/chs_t/hunzhidizaozhe2.png",
+      "en": "MyAssets/deco/title/hunzhidizaozhe2/pic/en_en/hunzhidizaozhe2.png",
+      "jp": "MyAssets/deco/title/hunzhidizaozhe2/pic/jp/hunzhidizaozhe2.png",
+      "kr": "MyAssets/deco/title/hunzhidizaozhe2/pic/kr/hunzhidizaozhe2.png"
+    },
+    "deco/title/hunzhidizaozhe3/pic/hunzhidizaozhe3.png": {
+      "cn": "MyAssets/deco/title/hunzhidizaozhe3/pic/chs_t/hunzhidizaozhe3.png",
+      "en": "MyAssets/deco/title/hunzhidizaozhe3/pic/en_en/hunzhidizaozhe3.png",
+      "jp": "MyAssets/deco/title/hunzhidizaozhe3/pic/jp/hunzhidizaozhe3.png",
+      "kr": "MyAssets/deco/title/hunzhidizaozhe3/pic/kr/hunzhidizaozhe3.png"
+    },
+    "deco/title/hunzhiqidizhe1/pic/hunzhiqidizhe1.png": {
+      "cn": "MyAssets/deco/title/hunzhiqidizhe1/pic/chs_t/hunzhiqidizhe1.png",
+      "en": "MyAssets/deco/title/hunzhiqidizhe1/pic/en_en/hunzhiqidizhe1.png",
+      "jp": "MyAssets/deco/title/hunzhiqidizhe1/pic/jp/hunzhiqidizhe1.png",
+      "kr": "MyAssets/deco/title/hunzhiqidizhe1/pic/kr/hunzhiqidizhe1.png"
+    },
+    "deco/title/hunzhiqidizhe2/pic/hunzhiqidizhe2.png": {
+      "cn": "MyAssets/deco/title/hunzhiqidizhe2/pic/chs_t/hunzhiqidizhe2.png",
+      "en": "MyAssets/deco/title/hunzhiqidizhe2/pic/en_en/hunzhiqidizhe2.png",
+      "jp": "MyAssets/deco/title/hunzhiqidizhe2/pic/jp/hunzhiqidizhe2.png",
+      "kr": "MyAssets/deco/title/hunzhiqidizhe2/pic/kr/hunzhiqidizhe2.png"
+    },
+    "deco/title/hunzhiqidizhe3/pic/hunzhiqidizhe3.png": {
+      "cn": "MyAssets/deco/title/hunzhiqidizhe3/pic/chs_t/hunzhiqidizhe3.png",
+      "en": "MyAssets/deco/title/hunzhiqidizhe3/pic/en_en/hunzhiqidizhe3.png",
+      "jp": "MyAssets/deco/title/hunzhiqidizhe3/pic/jp/hunzhiqidizhe3.png",
+      "kr": "MyAssets/deco/title/hunzhiqidizhe3/pic/kr/hunzhiqidizhe3.png"
+    },
+    "deco/title/hunzhiqiyuezhe1/pic/hunzhiqiyuezhe1.png": {
+      "cn": "MyAssets/deco/title/hunzhiqiyuezhe1/pic/chs_t/hunzhiqiyuezhe1.png",
+      "en": "MyAssets/deco/title/hunzhiqiyuezhe1/pic/en_en/hunzhiqiyuezhe1.png",
+      "jp": "MyAssets/deco/title/hunzhiqiyuezhe1/pic/jp/hunzhiqiyuezhe1.png",
+      "kr": "MyAssets/deco/title/hunzhiqiyuezhe1/pic/kr/hunzhiqiyuezhe1.png"
+    },
+    "deco/title/hunzhiqiyuezhe2/pic/hunzhiqiyuezhe2.png": {
+      "cn": "MyAssets/deco/title/hunzhiqiyuezhe2/pic/chs_t/hunzhiqiyuezhe2.png",
+      "en": "MyAssets/deco/title/hunzhiqiyuezhe2/pic/en_en/hunzhiqiyuezhe2.png",
+      "jp": "MyAssets/deco/title/hunzhiqiyuezhe2/pic/jp/hunzhiqiyuezhe2.png",
+      "kr": "MyAssets/deco/title/hunzhiqiyuezhe2/pic/kr/hunzhiqiyuezhe2.png"
+    },
+    "deco/title/hunzhiqiyuezhe3/pic/hunzhiqiyuezhe3.png": {
+      "cn": "MyAssets/deco/title/hunzhiqiyuezhe3/pic/chs_t/hunzhiqiyuezhe3.png",
+      "en": "MyAssets/deco/title/hunzhiqiyuezhe3/pic/en_en/hunzhiqiyuezhe3.png",
+      "jp": "MyAssets/deco/title/hunzhiqiyuezhe3/pic/jp/hunzhiqiyuezhe3.png",
+      "kr": "MyAssets/deco/title/hunzhiqiyuezhe3/pic/kr/hunzhiqiyuezhe3.png"
+    },
+    "deco/title/interhigh/pic/interhigh.png": {
+      "jp": "MyAssets/deco/title/interhigh/pic/jp/interhigh.png"
     },
     "deco/title/interhigh/pic/interhigh_item.jpg": {
       "jp": "MyAssets/deco/title/interhigh/pic/jp/interhigh_item.png"
     },
+    "deco/title/japan_g/pic/japan_g.png": {
+      "jp": "MyAssets/deco/title/japan_g/pic/jp/japan_g.png"
+    },
+    "deco/title/japan_g/pic/japan_g_item.jpg": {
+      "jp": "MyAssets/deco/title/japan_g/pic/jp/japan_g_item.png"
+    },
+    "deco/title/kirin/pic/kirin.png": {
+      "cn": "MyAssets/deco/title/kirin/pic/chs_t/kirin.png",
+      "en": "MyAssets/deco/title/kirin/pic/en_en/kirin.png",
+      "jp": "MyAssets/deco/title/kirin/pic/jp/kirin.png"
+    },
+    "deco/title/kirin/pic/kirin_item.jpg": {
+      "cn": "MyAssets/deco/title/kirin/pic/chs_t/kirin_item.png",
+      "en": "MyAssets/deco/title/kirin/pic/en_en/kirin_item.png",
+      "jp": "MyAssets/deco/title/kirin/pic/jp/kirin_item.png"
+    },
+    "deco/title/kirin2022/pic/kirin2022.png": {
+      "cn": "MyAssets/deco/title/kirin2022/pic/chs_t/kirin2022.png",
+      "en": "MyAssets/deco/title/kirin2022/pic/en_chs_t/kirin2022.png",
+      "jp": "MyAssets/deco/title/kirin2022/pic/jp/kirin2022.png"
+    },
+    "deco/title/kirin2022/pic/kirin2022_item.jpg": {
+      "cn": "MyAssets/deco/title/kirin2022/pic/chs_t/kirin2022_item.png",
+      "en": "MyAssets/deco/title/kirin2022/pic/en_chs_t/kirin2022_item.png",
+      "jp": "MyAssets/deco/title/kirin2022/pic/jp/kirin2022_item.png"
+    },
+    "deco/title/kirin2022cn/pic/kirin2022cn.png": {
+      "cn": "MyAssets/deco/title/kirin2022cn/pic/chs_t/kirin2022cn.png",
+      "en": "MyAssets/deco/title/kirin2022cn/pic/en_chs_t/kirin2022cn.png"
+    },
+    "deco/title/kirin2022cn/pic/kirin2022cn_item.jpg": {
+      "cn": "MyAssets/deco/title/kirin2022cn/pic/chs_t/kirin2022cn_item.png",
+      "en": "MyAssets/deco/title/kirin2022cn/pic/en_chs_t/kirin2022cn_item.png"
+    },
+    "deco/title/kirin2023cn/pic/kirin2023cn.png": {
+      "cn": "MyAssets/deco/title/kirin2023cn/pic/chs_t/kirin2023cn.png",
+      "en": "MyAssets/deco/title/kirin2023cn/pic/en_chs_t/kirin2023cn.png"
+    },
+    "deco/title/kirin2023cn/pic/kirin2023cn_item.jpg": {
+      "cn": "MyAssets/deco/title/kirin2023cn/pic/chs_t/kirin2023cn_item.png",
+      "en": "MyAssets/deco/title/kirin2023cn/pic/en_chs_t/kirin2023cn_item.png"
+    },
+    "deco/title/kirin2023jp/pic/kirin2023jp.png": "MyAssets/deco/title/kirin2023jp/pic/common/kirin2023jp.png",
+    "deco/title/kirin2023jp/pic/kirin2023jp_item.jpg": "MyAssets/deco/title/kirin2023jp/pic/common/kirin2023jp_item.png",
+    "deco/title/kirin2024cn/pic/kirin2024cn.png": {
+      "cn": "MyAssets/deco/title/kirin2024cn/pic/chs_t/kirin2024cn.png",
+      "en": "MyAssets/deco/title/kirin2024cn/pic/en_chs_t/kirin2024cn.png"
+    },
+    "deco/title/kirin2024cn/pic/kirin2024cn_item.jpg": {
+      "cn": "MyAssets/deco/title/kirin2024cn/pic/chs_t/kirin2024cn_item.png",
+      "en": "MyAssets/deco/title/kirin2024cn/pic/en_chs_t/kirin2024cn_item.png"
+    },
+    "deco/title/kirin2024jp/pic/kirin2024jp.png": {
+      "jp": "MyAssets/deco/title/kirin2024jp/pic/jp/kirin2024jp.png"
+    },
+    "deco/title/kirin2024jp/pic/kirin2024jp_item.jpg": {
+      "jp": "MyAssets/deco/title/kirin2024jp/pic/jp/kirin2024jp_item.png"
+    },
+    "deco/title/kirin2025cn/pic/kirin2025cn.png": {
+      "cn": "MyAssets/deco/title/kirin2025cn/pic/chs_t/kirin2025cn.png",
+      "en": "MyAssets/deco/title/kirin2025cn/pic/en_chs_t/kirin2025cn.png"
+    },
+    "deco/title/kirin2025cn/pic/kirin2025cn_item.jpg": {
+      "cn": "MyAssets/deco/title/kirin2025cn/pic/chs_t/kirin2025cn_item.png",
+      "en": "MyAssets/deco/title/kirin2025cn/pic/en_chs_t/kirin2025cn_item.png"
+    },
+    "deco/title/kirin2025jp/pic/kirin2025jp.png": {
+      "jp": "MyAssets/deco/title/kirin2025jp/pic/jp/kirin2025jp.png"
+    },
+    "deco/title/kirin2025jp/pic/kirin2025jp_item.jpg": {
+      "jp": "MyAssets/deco/title/kirin2025jp/pic/jp/kirin2025jp_item.png"
+    },
+    "deco/title/kirin2026/pic/kirin2026.png": {
+      "cn": "MyAssets/deco/title/kirin2026/pic/chs_t/kirin2026.png",
+      "en": "MyAssets/deco/title/kirin2026/pic/en_chs_t/kirin2026.png",
+      "jp": "MyAssets/deco/title/kirin2026/pic/jp/kirin2026.png"
+    },
+    "deco/title/kirin2026/pic/kirin2026_item.jpg": {
+      "cn": "MyAssets/deco/title/kirin2026/pic/chs_t/kirin2026_item.png",
+      "en": "MyAssets/deco/title/kirin2026/pic/en_chs_t/kirin2026_item.png",
+      "jp": "MyAssets/deco/title/kirin2026/pic/jp/kirin2026_item.png"
+    },
+    "deco/title/kirins1en/pic/kirins1en.png": {
+      "cn": "MyAssets/deco/title/kirins1en/pic/chs_t/kirins1en.png",
+      "en": "MyAssets/deco/title/kirins1en/pic/en_en/kirins1en.png",
+      "kr": "MyAssets/deco/title/kirins1en/pic/kr/kirins1en.png"
+    },
+    "deco/title/kirins1en/pic/kirins1en_item.jpg": {
+      "cn": "MyAssets/deco/title/kirins1en/pic/chs_t/kirins1en_item.png",
+      "en": "MyAssets/deco/title/kirins1en/pic/en_en/kirins1en_item.png",
+      "kr": "MyAssets/deco/title/kirins1en/pic/kr/kirins1en_item.png"
+    },
+    "deco/title/maolianggongyingshang/pic/maolianggongyingshang.png": {
+      "cn": "MyAssets/deco/title/maolianggongyingshang/pic/chs_t/maolianggongyingshang.png",
+      "en": "MyAssets/deco/title/maolianggongyingshang/pic/en_en/maolianggongyingshang.png",
+      "jp": "MyAssets/deco/title/maolianggongyingshang/pic/jp/maolianggongyingshang.png",
+      "kr": "MyAssets/deco/title/maolianggongyingshang/pic/kr/maolianggongyingshang.png"
+    },
+    "deco/title/meiconbi/pic/meiconbi.png": {
+      "jp": "MyAssets/deco/title/meiconbi/pic/jp/meiconbi.png"
+    },
     "deco/title/meiconbi/pic/meiconbi_item.jpg": {
       "jp": "MyAssets/deco/title/meiconbi/pic/jp/meiconbi_item.png"
+    },
+    "deco/title/miaoguodahufa/pic/miaoguodahufa.jpg": {
+      "cn": "MyAssets/deco/title/miaoguodahufa/pic/chs_t/miaoguodahufa.png",
+      "en": "MyAssets/deco/title/miaoguodahufa/pic/en_en/miaoguodahufa.png",
+      "jp": "MyAssets/deco/title/miaoguodahufa/pic/jp/miaoguodahufa.png",
+      "kr": "MyAssets/deco/title/miaoguodahufa/pic/kr/miaoguodahufa.png"
+    },
+    "deco/title/miaoguodahufa/pic/miaoguodahufa.png": {
+      "cn": "MyAssets/deco/title/miaoguodahufa/pic/chs_t/miaoguodahufa.png",
+      "en": "MyAssets/deco/title/miaoguodahufa/pic/en_en/miaoguodahufa.png",
+      "jp": "MyAssets/deco/title/miaoguodahufa/pic/jp/miaoguodahufa.png",
+      "kr": "MyAssets/deco/title/miaoguodahufa/pic/kr/miaoguodahufa.png"
+    },
+    "deco/title/miaoguodajiangjun/pic/miaoguodajiangjun.png": {
+      "cn": "MyAssets/deco/title/miaoguodajiangjun/pic/chs_t/miaoguodajiangjun.png",
+      "en": "MyAssets/deco/title/miaoguodajiangjun/pic/en_en/miaoguodajiangjun.png",
+      "jp": "MyAssets/deco/title/miaoguodajiangjun/pic/jp/miaoguodajiangjun.png",
+      "kr": "MyAssets/deco/title/miaoguodajiangjun/pic/kr/miaoguodajiangjun.png"
+    },
+    "deco/title/miaoguozhizun/pic/miaoguozhizun.png": {
+      "cn": "MyAssets/deco/title/miaoguozhizun/pic/chs_t/miaoguozhizun.png",
+      "en": "MyAssets/deco/title/miaoguozhizun/pic/en_en/miaoguozhizun.png",
+      "jp": "MyAssets/deco/title/miaoguozhizun/pic/jp/miaoguozhizun.png",
+      "kr": "MyAssets/deco/title/miaoguozhizun/pic/kr/miaoguozhizun.png"
+    },
+    "deco/title/nazokonbi/pic/nazokonbi.png": {
+      "jp": "MyAssets/deco/title/nazokonbi/pic/jp/nazokonbi.png"
     },
     "deco/title/nazokonbi/pic/nazokonbi_item.jpg": {
       "jp": "MyAssets/deco/title/nazokonbi/pic/jp/nazokonbi_item.png"
     },
+    "deco/title/notitle/pic/notitle.png": {
+      "cn": "MyAssets/deco/title/notitle/pic/chs_t/notitle.png",
+      "en": "MyAssets/deco/title/notitle/pic/en_en/notitle.png",
+      "jp": "MyAssets/deco/title/notitle/pic/jp/notitle.png",
+      "kr": "MyAssets/deco/title/notitle/pic/kr/notitle.png"
+    },
+    "deco/title/squat/pic/squat.png": {
+      "jp": "MyAssets/deco/title/squat/pic/jp/squat.png"
+    },
     "deco/title/squat/pic/squat_item.jpg": {
       "jp": "MyAssets/deco/title/squat/pic/jp/squat_item.png"
+    },
+    "deco/title/ssz_l/pic/ssz_l.png": {
+      "cn": "MyAssets/deco/title/ssz_l/pic/chs_t/ssz_l.png",
+      "en": "MyAssets/deco/title/ssz_l/pic/en_chs_t/ssz_l.png"
     },
     "deco/title/ssz_l/pic/ssz_l_item.jpg": {
       "cn": "MyAssets/deco/title/ssz_l/pic/chs/ssz_l_item.png"
     },
+    "deco/title/tianyuanbeidou/pic/tianyuanbeidou.png": {
+      "cn": "MyAssets/deco/title/tianyuanbeidou/pic/chs_t/tianyuanbeidou.png",
+      "en": "MyAssets/deco/title/tianyuanbeidou/pic/en_en/tianyuanbeidou.png",
+      "jp": "MyAssets/deco/title/tianyuanbeidou/pic/jp/tianyuanbeidou.png",
+      "kr": "MyAssets/deco/title/tianyuanbeidou/pic/kr/tianyuanbeidou.png"
+    },
     "deco/title/tianyuanbeidou/pic/tianyuanbeidou_item.jpg": {
       "jp": "MyAssets/deco/title/tianyuanbeidou/pic/jp/tianyuanbeidou_item.png"
+    },
+    "deco/title/trial/pic/trial.png": {
+      "cn": "MyAssets/deco/title/trial/pic/chs_t/trial.png",
+      "en": "MyAssets/deco/title/trial/pic/en_en/trial.png",
+      "jp": "MyAssets/deco/title/trial/pic/jp/trial.png",
+      "kr": "MyAssets/deco/title/trial/pic/kr/trial.png"
+    },
+    "deco/title/trial/pic/trial_item.jpg": {
+      "cn": "MyAssets/deco/title/trial/pic/chs_t/trial_item.png",
+      "en": "MyAssets/deco/title/trial/pic/en_en/trial_item.png",
+      "jp": "MyAssets/deco/title/trial/pic/jp/trial_item.png",
+      "kr": "MyAssets/deco/title/trial/pic/kr/trial_item.png"
+    },
+    "deco/title/wanxianggengxin/pic/wanxianggengxin.png": {
+      "cn": "MyAssets/deco/title/wanxianggengxin/pic/chs_t/wanxianggengxin.png",
+      "en": "MyAssets/deco/title/wanxianggengxin/pic/en_chs_t/wanxianggengxin.png"
+    },
+    "deco/title/wanxianggengxin/pic/wanxianggengxin_item.jpg": {
+      "cn": "MyAssets/deco/title/wanxianggengxin/pic/chs_t/wanxianggengxin_item.png",
+      "en": "MyAssets/deco/title/wanxianggengxin/pic/en_chs_t/wanxianggengxin_item.png"
+    },
+    "deco/title/xysr/pic/xysr.png": {
+      "cn": "MyAssets/deco/title/xysr/pic/chs_t/xysr.png",
+      "en": "MyAssets/deco/title/xysr/pic/en_chs_t/xysr.png"
+    },
+    "deco/title/xysr/pic/xysr_item.jpg": {
+      "cn": "MyAssets/deco/title/xysr/pic/chs_t/xysr_item.png",
+      "en": "MyAssets/deco/title/xysr/pic/en_chs_t/xysr_item.png"
+    },
+    "deco/title/yinghuozhiguang/pic/yinghuozhiguang.png": {
+      "cn": "MyAssets/deco/title/yinghuozhiguang/pic/chs_t/yinghuozhiguang.png",
+      "en": "MyAssets/deco/title/yinghuozhiguang/pic/en_en/yinghuozhiguang.png",
+      "jp": "MyAssets/deco/title/yinghuozhiguang/pic/jp/yinghuozhiguang.png",
+      "kr": "MyAssets/deco/title/yinghuozhiguang/pic/kr/yinghuozhiguang.png"
+    },
+    "deco/title/yuanchuzhihuo/pic/yuanchuzhihuo.png": {
+      "cn": "MyAssets/deco/title/yuanchuzhihuo/pic/chs_t/yuanchuzhihuo.png",
+      "en": "MyAssets/deco/title/yuanchuzhihuo/pic/en_en/yuanchuzhihuo.png",
+      "jp": "MyAssets/deco/title/yuanchuzhihuo/pic/jp/yuanchuzhihuo.png",
+      "kr": "MyAssets/deco/title/yuanchuzhihuo/pic/kr/yuanchuzhihuo.png"
+    },
+    "deco/title/zuichuhuntian/pic/zuichuhuntian.png": {
+      "cn": "MyAssets/deco/title/zuichuhuntian/pic/chs_t/zuichuhuntian.png",
+      "en": "MyAssets/deco/title/zuichuhuntian/pic/en_en/zuichuhuntian.png",
+      "jp": "MyAssets/deco/title/zuichuhuntian/pic/jp/zuichuhuntian.png",
+      "kr": "MyAssets/deco/title/zuichuhuntian/pic/kr/zuichuhuntian.png"
+    },
+    "deco/title/zuichuhuntian3/pic/zuichuhuntian3.png": {
+      "cn": "MyAssets/deco/title/zuichuhuntian3/pic/chs_t/zuichuhuntian3.png",
+      "en": "MyAssets/deco/title/zuichuhuntian3/pic/en_en/zuichuhuntian3.png",
+      "jp": "MyAssets/deco/title/zuichuhuntian3/pic/jp/zuichuhuntian3.png",
+      "kr": "MyAssets/deco/title/zuichuhuntian3/pic/kr/zuichuhuntian3.png"
+    },
+    "deco/title/zuichuhuntian3/pic/zuichuhuntian3_item.jpg": {
+      "cn": "MyAssets/deco/title/zuichuhuntian3/pic/chs_t/zuichuhuntian3_item.png",
+      "en": "MyAssets/deco/title/zuichuhuntian3/pic/en_en/zuichuhuntian3_item.png",
+      "jp": "MyAssets/deco/title/zuichuhuntian3/pic/jp/zuichuhuntian3_item.png",
+      "kr": "MyAssets/deco/title/zuichuhuntian3/pic/kr/zuichuhuntian3_item.png"
+    },
+    "deco/title/zuichuquesheng/pic/zuichuquesheng.png": {
+      "cn": "MyAssets/deco/title/zuichuquesheng/pic/chs_t/zuichuquesheng.png",
+      "en": "MyAssets/deco/title/zuichuquesheng/pic/en_en/zuichuquesheng.png",
+      "jp": "MyAssets/deco/title/zuichuquesheng/pic/jp/zuichuquesheng.png",
+      "kr": "MyAssets/deco/title/zuichuquesheng/pic/kr/zuichuquesheng.png"
+    },
+    "deco/title/zuichuquesheng3/pic/zuichuquesheng3.png": {
+      "cn": "MyAssets/deco/title/zuichuquesheng3/pic/chs_t/zuichuquesheng3.png",
+      "en": "MyAssets/deco/title/zuichuquesheng3/pic/en_en/zuichuquesheng3.png",
+      "jp": "MyAssets/deco/title/zuichuquesheng3/pic/jp/zuichuquesheng3.png",
+      "kr": "MyAssets/deco/title/zuichuquesheng3/pic/kr/zuichuquesheng3.png"
+    },
+    "deco/title/zuichuquesheng3/pic/zuichuquesheng3_item.jpg": {
+      "cn": "MyAssets/deco/title/zuichuquesheng3/pic/chs_t/zuichuquesheng3_item.png",
+      "en": "MyAssets/deco/title/zuichuquesheng3/pic/en_en/zuichuquesheng3_item.png",
+      "jp": "MyAssets/deco/title/zuichuquesheng3/pic/jp/zuichuquesheng3_item.png",
+      "kr": "MyAssets/deco/title/zuichuquesheng3/pic/kr/zuichuquesheng3_item.png"
+    },
+    "deco/title/zuocangshayejia/pic/zuocangshayejia.png": {
+      "cn": "MyAssets/deco/title/zuocangshayejia/pic/chs_t/zuocangshayejia.png",
+      "en": "MyAssets/deco/title/zuocangshayejia/pic/en_chs_t/zuocangshayejia.png"
+    },
+    "deco/title/zuocangshayejia/pic/zuocangshayejia_item.jpg": {
+      "cn": "MyAssets/deco/title/zuocangshayejia/pic/chs_t/zuocangshayejia_item.png",
+      "en": "MyAssets/deco/title/zuocangshayejia/pic/en_chs_t/zuocangshayejia_item.png"
     },
     "extendRes/items/10coupon.jpg": "MyAssets/extendRes/items/common/10coupon.png",
     "extendRes/items/10coupon_0.png": "MyAssets/extendRes/items/common/10coupon_0.png",
@@ -24928,47 +25651,498 @@
     "ui/activity/extend/snowball/main/pic_scattered/25dongri_0.png": "MyAssets/ui/activity/extend/snowball/main/pic_scattered/common/25dongri_0.png",
     "ui/activity/extend/voteskin/main/pic_scattered/22toupiao.jpg": "MyAssets/ui/activity/extend/voteskin/main/pic_scattered/common/22toupiao.png",
     "ui/activity/extend/voteskin/main/pic_scattered/22toupiao_0.png": "MyAssets/ui/activity/extend/voteskin/main/pic_scattered/common/22toupiao_0.png",
-    "ui/activity/lobby/banner_lobby/pic/25chunjie1_0.png": "MyAssets/extendRes/items/common/25chunjie1_0.png",
-    "ui/activity/lobby/banner_lobby/pic/25chunjie2_0.png": "MyAssets/extendRes/items/common/25chunjie2_0.png",
-    "ui/activity/lobby/banner_lobby/pic/25dongri_0.png": "MyAssets/ui/activity/extend/snowball/main/pic_scattered/common/25dongri_0.png",
-    "ui/activity/lobby/banner_lobby/pic/25yh_0.png": "MyAssets/ui/activity/extend/2510questcrew/main/pic/common/25yh_0.png",
+    "ui/activity/lobby/banner_lobby/pic/24imas1_0.png": {
+      "cn": "https://files.riichi.moe/mjg/game%20resources%20and%20tools/Mahjong%20Soul/raw%20assets/v0.11.104.w/chs_t/myres2/activity_banner/24imas1_0.png",
+      "en": "https://files.riichi.moe/mjg/game%20resources%20and%20tools/Mahjong%20Soul/raw%20assets/v0.11.104.w/en/myres2/activity_banner/24imas1_0.png",
+      "jp": "https://files.riichi.moe/mjg/game%20resources%20and%20tools/Mahjong%20Soul/raw%20assets/v0.11.106.w/jp/myres2/activity_banner/24imas1_0.png",
+      "kr": "https://files.riichi.moe/mjg/game%20resources%20and%20tools/Mahjong%20Soul/raw%20assets/v0.11.104.w/kr/myres2/activity_banner/24imas1_0.png"
+    },
+    "ui/activity/lobby/banner_lobby/pic/24imas_signin_0.png": {
+      "cn": "https://files.riichi.moe/mjg/game%20resources%20and%20tools/Mahjong%20Soul/raw%20assets/v0.11.101.w/chs_t/myres2/activity_banner/24imas_signin_0.png",
+      "en": "https://files.riichi.moe/mjg/game%20resources%20and%20tools/Mahjong%20Soul/raw%20assets/v0.11.101.w/en/myres2/activity_banner/24imas_signin_0.png",
+      "jp": "https://files.riichi.moe/mjg/game%20resources%20and%20tools/Mahjong%20Soul/raw%20assets/v0.11.101.w/jp/myres2/activity_banner/24imas_signin_0.png",
+      "kr": "https://files.riichi.moe/mjg/game%20resources%20and%20tools/Mahjong%20Soul/raw%20assets/v0.11.101.w/kr/myres2/activity_banner/24imas_signin_0.png"
+    },
+    "ui/activity/lobby/banner_lobby/pic/24sanliou1_0.png": {
+      "cn": "https://files.riichi.moe/mjg/game%20resources%20and%20tools/Mahjong%20Soul/raw%20assets/v0.11.78.w/chs_t/myres2/activity_banner/24sanliou1_0.png",
+      "en": "https://files.riichi.moe/mjg/game%20resources%20and%20tools/Mahjong%20Soul/raw%20assets/v0.11.78.w/en/myres2/activity_banner/24sanliou1_0.png",
+      "jp": "https://files.riichi.moe/mjg/game%20resources%20and%20tools/Mahjong%20Soul/raw%20assets/v0.11.78.w/jp/myres2/activity_banner/24sanliou1_0.png",
+      "kr": "https://files.riichi.moe/mjg/game%20resources%20and%20tools/Mahjong%20Soul/raw%20assets/v0.11.78.w/kr/myres2/activity_banner/24sanliou1_0.png"
+    },
+    "ui/activity/lobby/banner_lobby/pic/24summer1_0.png": {
+      "cn": "https://files.riichi.moe/mjg/game%20resources%20and%20tools/Mahjong%20Soul/raw%20assets/v0.11.64.w/chs_t/myres2/activity_banner/24summer1_0.png",
+      "en": "https://files.riichi.moe/mjg/game%20resources%20and%20tools/Mahjong%20Soul/raw%20assets/v0.11.64.w/en/myres2/activity_banner/24summer1_0.png",
+      "jp": "https://files.riichi.moe/mjg/game%20resources%20and%20tools/Mahjong%20Soul/raw%20assets/v0.11.64.w/jp/myres2/activity_banner/24summer1_0.png",
+      "kr": "https://files.riichi.moe/mjg/game%20resources%20and%20tools/Mahjong%20Soul/raw%20assets/v0.11.64.w/kr/myres2/activity_banner/24summer1_0.png"
+    },
+    "ui/activity/lobby/banner_lobby/pic/24winter1_0.png": {
+      "cn": "https://files.riichi.moe/mjg/game%20resources%20and%20tools/Mahjong%20Soul/raw%20assets/v0.11.110.w/chs_t/myres2/activity_banner/24winter1_0.png",
+      "en": "https://files.riichi.moe/mjg/game%20resources%20and%20tools/Mahjong%20Soul/raw%20assets/v0.11.110.w/en/myres2/activity_banner/24winter1_0.png",
+      "jp": "https://files.riichi.moe/mjg/game%20resources%20and%20tools/Mahjong%20Soul/raw%20assets/v0.11.110.w/jp/myres2/activity_banner/24winter1_0.png",
+      "kr": "https://files.riichi.moe/mjg/game%20resources%20and%20tools/Mahjong%20Soul/raw%20assets/v0.11.110.w/kr/myres2/activity_banner/24winter1_0.png"
+    },
+    "ui/activity/lobby/banner_lobby/pic/25balei_0.png": {
+      "cn": "https://files.riichi.moe/mjg/game%20resources%20and%20tools/Mahjong%20Soul/raw%20assets/v0.11.155.w/chs_t/myres2/activity_banner/25balei_0.png",
+      "en": "https://files.riichi.moe/mjg/game%20resources%20and%20tools/Mahjong%20Soul/raw%20assets/v0.11.155.w/en/myres2/activity_banner/25balei_0.png",
+      "jp": "https://files.riichi.moe/mjg/game%20resources%20and%20tools/Mahjong%20Soul/raw%20assets/v0.11.155.w/jp/myres2/activity_banner/25balei_0.png",
+      "kr": "https://files.riichi.moe/mjg/game%20resources%20and%20tools/Mahjong%20Soul/raw%20assets/v0.11.155.w/kr/myres2/activity_banner/25balei_0.png"
+    },
+    "ui/activity/lobby/banner_lobby/pic/25chunjie1_0.png": {
+      "cn": "https://files.riichi.moe/mjg/game%20resources%20and%20tools/Mahjong%20Soul/raw%20assets/v0.11.120.w/chs_t/myres2/activity_banner/25chunjie1_0.png",
+      "en": "https://files.riichi.moe/mjg/game%20resources%20and%20tools/Mahjong%20Soul/raw%20assets/v0.11.120.w/en/myres2/activity_banner/25chunjie1_0.png",
+      "jp": "https://files.riichi.moe/mjg/game%20resources%20and%20tools/Mahjong%20Soul/raw%20assets/v0.11.120.w/jp/myres2/activity_banner/25chunjie1_0.png",
+      "kr": "https://files.riichi.moe/mjg/game%20resources%20and%20tools/Mahjong%20Soul/raw%20assets/v0.11.120.w/kr/myres2/activity_banner/25chunjie1_0.png"
+    },
+    "ui/activity/lobby/banner_lobby/pic/25chunjie2_0.png": {
+      "cn": "https://files.riichi.moe/mjg/game%20resources%20and%20tools/Mahjong%20Soul/raw%20assets/v0.11.120.w/chs_t/myres2/activity_banner/25chunjie2_0.png",
+      "en": "https://files.riichi.moe/mjg/game%20resources%20and%20tools/Mahjong%20Soul/raw%20assets/v0.11.120.w/en/myres2/activity_banner/25chunjie2_0.png",
+      "jp": "https://files.riichi.moe/mjg/game%20resources%20and%20tools/Mahjong%20Soul/raw%20assets/v0.11.120.w/jp/myres2/activity_banner/25chunjie2_0.png",
+      "kr": "https://files.riichi.moe/mjg/game%20resources%20and%20tools/Mahjong%20Soul/raw%20assets/v0.11.120.w/kr/myres2/activity_banner/25chunjie2_0.png"
+    },
+    "ui/activity/lobby/banner_lobby/pic/25dongri_0.png": {
+      "cn": "https://files.riichi.moe/mjg/game%20resources%20and%20tools/Mahjong%20Soul/raw%20assets/v0.11.205.w/chs_t/myres2/activity_banner/25dongri_0.png",
+      "en": "https://files.riichi.moe/mjg/game%20resources%20and%20tools/Mahjong%20Soul/raw%20assets/v0.11.205.w/en/myres2/activity_banner/25dongri_0.png",
+      "jp": "https://files.riichi.moe/mjg/game%20resources%20and%20tools/Mahjong%20Soul/raw%20assets/v0.11.205.w/jp/myres2/activity_banner/25dongri_0.png",
+      "kr": "https://files.riichi.moe/mjg/game%20resources%20and%20tools/Mahjong%20Soul/raw%20assets/v0.11.205.w/kr/myres2/activity_banner/25dongri_0.png"
+    },
+    "ui/activity/lobby/banner_lobby/pic/25fate_signin_0.png": {
+      "cn": "https://files.riichi.moe/mjg/game%20resources%20and%20tools/Mahjong%20Soul/raw%20assets/v0.11.146.w/chs_t/myres2/activity_banner/25fate_signin_0.png",
+      "en": "https://files.riichi.moe/mjg/game%20resources%20and%20tools/Mahjong%20Soul/raw%20assets/v0.11.146.w/en/myres2/activity_banner/25fate_signin_0.png",
+      "jp": "https://files.riichi.moe/mjg/game%20resources%20and%20tools/Mahjong%20Soul/raw%20assets/v0.11.146.w/jp/myres2/activity_banner/25fate_signin_0.png",
+      "kr": "https://files.riichi.moe/mjg/game%20resources%20and%20tools/Mahjong%20Soul/raw%20assets/v0.11.146.w/kr/myres2/activity_banner/25fate_signin_0.png"
+    },
+    "ui/activity/lobby/banner_lobby/pic/25hf_0.png": {
+      "cn": "https://files.riichi.moe/mjg/game%20resources%20and%20tools/Mahjong%20Soul/raw%20assets/v0.11.148.w/chs_t/myres2/activity_banner/25hf_0.png",
+      "en": "https://files.riichi.moe/mjg/game%20resources%20and%20tools/Mahjong%20Soul/raw%20assets/v0.11.148.w/en/myres2/activity_banner/25hf_0.png",
+      "jp": "https://files.riichi.moe/mjg/game%20resources%20and%20tools/Mahjong%20Soul/raw%20assets/v0.11.148.w/jp/myres2/activity_banner/25hf_0.png",
+      "kr": "https://files.riichi.moe/mjg/game%20resources%20and%20tools/Mahjong%20Soul/raw%20assets/v0.11.148.w/kr/myres2/activity_banner/25hf_0.png"
+    },
+    "ui/activity/lobby/banner_lobby/pic/25summer1_0.png": {
+      "cn": "https://files.riichi.moe/mjg/game%20resources%20and%20tools/Mahjong%20Soul/raw%20assets/v0.11.172.w/chs_t/myres2/activity_banner/25summer1_0.png",
+      "en": "https://files.riichi.moe/mjg/game%20resources%20and%20tools/Mahjong%20Soul/raw%20assets/v0.11.172.w/en/myres2/activity_banner/25summer1_0.png",
+      "jp": "https://files.riichi.moe/mjg/game%20resources%20and%20tools/Mahjong%20Soul/raw%20assets/v0.11.172.w/jp/myres2/activity_banner/25summer1_0.png",
+      "kr": "https://files.riichi.moe/mjg/game%20resources%20and%20tools/Mahjong%20Soul/raw%20assets/v0.11.172.w/kr/myres2/activity_banner/25summer1_0.png"
+    },
+    "ui/activity/lobby/banner_lobby/pic/25summer2_0.png": {
+      "cn": "https://files.riichi.moe/mjg/game%20resources%20and%20tools/Mahjong%20Soul/raw%20assets/v0.11.172.w/chs_t/myres2/activity_banner/25summer2_0.png",
+      "en": "https://files.riichi.moe/mjg/game%20resources%20and%20tools/Mahjong%20Soul/raw%20assets/v0.11.172.w/en/myres2/activity_banner/25summer2_0.png",
+      "jp": "https://files.riichi.moe/mjg/game%20resources%20and%20tools/Mahjong%20Soul/raw%20assets/v0.11.172.w/jp/myres2/activity_banner/25summer2_0.png",
+      "kr": "https://files.riichi.moe/mjg/game%20resources%20and%20tools/Mahjong%20Soul/raw%20assets/v0.11.172.w/kr/myres2/activity_banner/25summer2_0.png"
+    },
+    "ui/activity/lobby/banner_lobby/pic/25toupiao_0.png": {
+      "cn": "https://files.riichi.moe/mjg/game%20resources%20and%20tools/Mahjong%20Soul/raw%20assets/v0.11.182.w/chs_t/myres2/activity_banner/25toupiao_0.png",
+      "en": "https://files.riichi.moe/mjg/game%20resources%20and%20tools/Mahjong%20Soul/raw%20assets/v0.11.182.w/en/myres2/activity_banner/25toupiao_0.png",
+      "jp": "https://files.riichi.moe/mjg/game%20resources%20and%20tools/Mahjong%20Soul/raw%20assets/v0.11.182.w/jp/myres2/activity_banner/25toupiao_0.png",
+      "kr": "https://files.riichi.moe/mjg/game%20resources%20and%20tools/Mahjong%20Soul/raw%20assets/v0.11.182.w/kr/myres2/activity_banner/25toupiao_0.png"
+    },
+    "ui/activity/lobby/banner_lobby/pic/25xila_0.png": {
+      "cn": "https://files.riichi.moe/mjg/game%20resources%20and%20tools/Mahjong%20Soul/raw%20assets/v0.11.159.w/chs_t/myres2/activity_banner/25xila_0.png",
+      "en": "https://files.riichi.moe/mjg/game%20resources%20and%20tools/Mahjong%20Soul/raw%20assets/v0.11.159.w/en/myres2/activity_banner/25xila_0.png",
+      "jp": "https://files.riichi.moe/mjg/game%20resources%20and%20tools/Mahjong%20Soul/raw%20assets/v0.11.159.w/jp/myres2/activity_banner/25xila_0.png",
+      "kr": "https://files.riichi.moe/mjg/game%20resources%20and%20tools/Mahjong%20Soul/raw%20assets/v0.11.159.w/kr/myres2/activity_banner/25xila_0.png"
+    },
+    "ui/activity/lobby/banner_lobby/pic/25yh_0.png": {
+      "cn": "https://files.riichi.moe/mjg/game%20resources%20and%20tools/Mahjong%20Soul/raw%20assets/v0.11.188.w/chs_t/myres2/activity_banner/25yh_0.png",
+      "en": "https://files.riichi.moe/mjg/game%20resources%20and%20tools/Mahjong%20Soul/raw%20assets/v0.11.188.w/en/myres2/activity_banner/25yh_0.png",
+      "jp": "https://files.riichi.moe/mjg/game%20resources%20and%20tools/Mahjong%20Soul/raw%20assets/v0.11.188.w/jp/myres2/activity_banner/25yh_0.png",
+      "kr": "https://files.riichi.moe/mjg/game%20resources%20and%20tools/Mahjong%20Soul/raw%20assets/v0.11.188.w/kr/myres2/activity_banner/25yh_0.png"
+    },
+    "ui/activity/lobby/banner_lobby/pic/25yh_signin_0.png": {
+      "cn": "https://files.riichi.moe/mjg/game%20resources%20and%20tools/Mahjong%20Soul/raw%20assets/v0.11.186.w/chs_t/myres2/activity_banner/25yh_signin_0.png",
+      "en": "https://files.riichi.moe/mjg/game%20resources%20and%20tools/Mahjong%20Soul/raw%20assets/v0.11.186.w/en/myres2/activity_banner/25yh_signin_0.png",
+      "jp": "https://files.riichi.moe/mjg/game%20resources%20and%20tools/Mahjong%20Soul/raw%20assets/v0.11.186.w/jp/myres2/activity_banner/25yh_signin_0.png",
+      "kr": "https://files.riichi.moe/mjg/game%20resources%20and%20tools/Mahjong%20Soul/raw%20assets/v0.11.186.w/kr/myres2/activity_banner/25yh_signin_0.png"
+    },
+    "ui/activity/lobby/banner_lobby/pic/25yuehui_0.png": {
+      "cn": "https://files.riichi.moe/mjg/game%20resources%20and%20tools/Mahjong%20Soul/raw%20assets/v0.11.194.w/chs_t/myres2/activity_banner/25yuehui_0.png",
+      "en": "https://files.riichi.moe/mjg/game%20resources%20and%20tools/Mahjong%20Soul/raw%20assets/v0.11.194.w/en/myres2/activity_banner/25yuehui_0.png",
+      "jp": "https://files.riichi.moe/mjg/game%20resources%20and%20tools/Mahjong%20Soul/raw%20assets/v0.11.194.w/jp/myres2/activity_banner/25yuehui_0.png",
+      "kr": "https://files.riichi.moe/mjg/game%20resources%20and%20tools/Mahjong%20Soul/raw%20assets/v0.11.194.w/kr/myres2/activity_banner/25yuehui_0.png"
+    },
+    "ui/activity/lobby/banner_lobby/pic/26chunjie_0.png": {
+      "cn": "https://files.riichi.moe/mjg/game%20resources%20and%20tools/Mahjong%20Soul/raw%20assets/v0.11.217.w/chs_t/myres2/activity_banner/26chunjie_0.png",
+      "en": "https://files.riichi.moe/mjg/game%20resources%20and%20tools/Mahjong%20Soul/raw%20assets/v0.11.217.w/en/myres2/activity_banner/26chunjie_0.png",
+      "jp": "https://files.riichi.moe/mjg/game%20resources%20and%20tools/Mahjong%20Soul/raw%20assets/v0.11.217.w/jp/myres2/activity_banner/26chunjie_0.png",
+      "kr": "https://files.riichi.moe/mjg/game%20resources%20and%20tools/Mahjong%20Soul/raw%20assets/v0.11.217.w/kr/myres2/activity_banner/26chunjie_0.png"
+    },
+    "ui/activity/lobby/banner_lobby/pic/26dj_0.png": {
+      "cn": "https://files.riichi.moe/mjg/game%20resources%20and%20tools/Mahjong%20Soul/raw%20assets/v0.11.243.w/chs_t/myres2/activity_banner/26dj_0.png",
+      "en": "https://files.riichi.moe/mjg/game%20resources%20and%20tools/Mahjong%20Soul/raw%20assets/v0.11.243.w/en/myres2/activity_banner/26dj_0.png",
+      "jp": "https://files.riichi.moe/mjg/game%20resources%20and%20tools/Mahjong%20Soul/raw%20assets/v0.11.243.w/jp/myres2/activity_banner/26dj_0.png",
+      "kr": "https://files.riichi.moe/mjg/game%20resources%20and%20tools/Mahjong%20Soul/raw%20assets/v0.11.243.w/kr/myres2/activity_banner/26dj_0.png"
+    },
+    "ui/activity/lobby/banner_lobby/pic/26dj_signin_0.png": {
+      "cn": "https://files.riichi.moe/mjg/game%20resources%20and%20tools/Mahjong%20Soul/raw%20assets/v0.11.241.w/chs_t/myres2/activity_banner/26dj_signin_0.png",
+      "en": "https://files.riichi.moe/mjg/game%20resources%20and%20tools/Mahjong%20Soul/raw%20assets/v0.11.241.w/en/myres2/activity_banner/26dj_signin_0.png",
+      "jp": "https://files.riichi.moe/mjg/game%20resources%20and%20tools/Mahjong%20Soul/raw%20assets/v0.11.241.w/jp/myres2/activity_banner/26dj_signin_0.png",
+      "kr": "https://files.riichi.moe/mjg/game%20resources%20and%20tools/Mahjong%20Soul/raw%20assets/v0.11.241.w/kr/myres2/activity_banner/26dj_signin_0.png"
+    },
     "ui/activity/lobby/banner_lobby/pic/26lifu_0.png": "MyAssets/ui/activity/lobby/banner_lobby/pic/common/26lifu_0.png",
     "ui/activity/lobby/banner_lobby/pic/26qingyun_0.png": {
       "jp": "MyAssets/ui/activity/lobby/banner_lobby/pic/jp/26qingyun_0.png"
     },
-    "ui/activity/lobby/banner_tab/pic/24summer1.png": "MyAssets/extendRes/items/common/24summer1.png",
+    "ui/activity/lobby/banner_tab/pic/24imas1.png": {
+      "cn": "https://files.riichi.moe/mjg/game%20resources%20and%20tools/Mahjong%20Soul/raw%20assets/v0.11.104.w/chs_t/myres2/activity_banner/24imas1.png",
+      "en": "https://files.riichi.moe/mjg/game%20resources%20and%20tools/Mahjong%20Soul/raw%20assets/v0.11.104.w/en/myres2/activity_banner/24imas1.png",
+      "jp": "https://files.riichi.moe/mjg/game%20resources%20and%20tools/Mahjong%20Soul/raw%20assets/v0.11.104.w/jp/myres2/activity_banner/24imas1.png",
+      "kr": "https://files.riichi.moe/mjg/game%20resources%20and%20tools/Mahjong%20Soul/raw%20assets/v0.11.104.w/kr/myres2/activity_banner/24imas1.png"
+    },
+    "ui/activity/lobby/banner_tab/pic/24sanliou1.png": {
+      "cn": "https://files.riichi.moe/mjg/game%20resources%20and%20tools/Mahjong%20Soul/raw%20assets/v0.11.78.w/chs_t/myres2/activity_banner/24sanliou1.png",
+      "en": "https://files.riichi.moe/mjg/game%20resources%20and%20tools/Mahjong%20Soul/raw%20assets/v0.11.78.w/en/myres2/activity_banner/24sanliou1.png",
+      "jp": "https://files.riichi.moe/mjg/game%20resources%20and%20tools/Mahjong%20Soul/raw%20assets/v0.11.78.w/jp/myres2/activity_banner/24sanliou1.png",
+      "kr": "https://files.riichi.moe/mjg/game%20resources%20and%20tools/Mahjong%20Soul/raw%20assets/v0.11.78.w/kr/myres2/activity_banner/24sanliou1.png"
+    },
+    "ui/activity/lobby/banner_tab/pic/24summer1.png": {
+      "cn": "https://files.riichi.moe/mjg/game%20resources%20and%20tools/Mahjong%20Soul/raw%20assets/v0.11.64.w/chs_t/myres2/activity_banner/24summer1.png",
+      "en": "https://files.riichi.moe/mjg/game%20resources%20and%20tools/Mahjong%20Soul/raw%20assets/v0.11.64.w/en/myres2/activity_banner/24summer1.png",
+      "jp": "https://files.riichi.moe/mjg/game%20resources%20and%20tools/Mahjong%20Soul/raw%20assets/v0.11.64.w/jp/myres2/activity_banner/24summer1.png",
+      "kr": "https://files.riichi.moe/mjg/game%20resources%20and%20tools/Mahjong%20Soul/raw%20assets/v0.11.64.w/kr/myres2/activity_banner/24summer1.png"
+    },
+    "ui/activity/lobby/banner_tab/pic/24summer2.png": {
+      "cn": "https://files.riichi.moe/mjg/game%20resources%20and%20tools/Mahjong%20Soul/raw%20assets/v0.11.64.w/chs_t/myres2/activity_banner/24summer2.png",
+      "en": "https://files.riichi.moe/mjg/game%20resources%20and%20tools/Mahjong%20Soul/raw%20assets/v0.11.64.w/en/myres2/activity_banner/24summer2.png",
+      "jp": "https://files.riichi.moe/mjg/game%20resources%20and%20tools/Mahjong%20Soul/raw%20assets/v0.11.64.w/jp/myres2/activity_banner/24summer2.png",
+      "kr": "https://files.riichi.moe/mjg/game%20resources%20and%20tools/Mahjong%20Soul/raw%20assets/v0.11.64.w/kr/myres2/activity_banner/24summer2.png"
+    },
+    "ui/activity/lobby/banner_tab/pic/24wansheng1.png": {
+      "cn": "https://files.riichi.moe/mjg/game%20resources%20and%20tools/Mahjong%20Soul/raw%20assets/v0.11.86.w/chs_t/myres2/activity_banner/24wansheng1.png",
+      "en": "https://files.riichi.moe/mjg/game%20resources%20and%20tools/Mahjong%20Soul/raw%20assets/v0.11.86.w/en/myres2/activity_banner/24wansheng1.png",
+      "jp": "https://files.riichi.moe/mjg/game%20resources%20and%20tools/Mahjong%20Soul/raw%20assets/v0.11.86.w/jp/myres2/activity_banner/24wansheng1.png",
+      "kr": "https://files.riichi.moe/mjg/game%20resources%20and%20tools/Mahjong%20Soul/raw%20assets/v0.11.86.w/kr/myres2/activity_banner/24wansheng1.png"
+    },
+    "ui/activity/lobby/banner_tab/pic/24wansheng2.png": {
+      "cn": "https://files.riichi.moe/mjg/game%20resources%20and%20tools/Mahjong%20Soul/raw%20assets/v0.11.86.w/chs_t/myres2/activity_banner/24wansheng2.png",
+      "en": "https://files.riichi.moe/mjg/game%20resources%20and%20tools/Mahjong%20Soul/raw%20assets/v0.11.86.w/en/myres2/activity_banner/24wansheng2.png",
+      "jp": "https://files.riichi.moe/mjg/game%20resources%20and%20tools/Mahjong%20Soul/raw%20assets/v0.11.86.w/jp/myres2/activity_banner/24wansheng2.png",
+      "kr": "https://files.riichi.moe/mjg/game%20resources%20and%20tools/Mahjong%20Soul/raw%20assets/v0.11.86.w/kr/myres2/activity_banner/24wansheng2.png"
+    },
     "ui/activity/lobby/banner_tab/pic/24wenjuan1.png": "MyAssets/ui/activity/lobby/banner_tab/pic/common/24wenjuan1.png",
     "ui/activity/lobby/banner_tab/pic/24wenjuan2.png": "MyAssets/ui/activity/lobby/banner_tab/pic/common/24wenjuan2.png",
     "ui/activity/lobby/banner_tab/pic/24wenjuan3.png": {
       "cn": "MyAssets/ui/activity/lobby/banner_tab/pic/chs/24wenjuan3.png"
     },
-    "ui/activity/lobby/banner_tab/pic/25chunjie1.png": "MyAssets/extendRes/items/common/25chunjie1.png",
-    "ui/activity/lobby/banner_tab/pic/25chunjie2.png": "MyAssets/extendRes/items/common/25chunjie2.png",
-    "ui/activity/lobby/banner_tab/pic/25dongri.png": "MyAssets/ui/activity/extend/snowball/main/pic_scattered/common/25dongri.png",
-    "ui/activity/lobby/banner_tab/pic/25lifu1.png": "MyAssets/extendRes/items/common/25lifu1.png",
-    "ui/activity/lobby/banner_tab/pic/25lifu2.png": "MyAssets/extendRes/items/common/25lifu2.png",
+    "ui/activity/lobby/banner_tab/pic/24winter1.png": {
+      "cn": "https://files.riichi.moe/mjg/game%20resources%20and%20tools/Mahjong%20Soul/raw%20assets/v0.11.110.w/chs_t/myres2/activity_banner/24winter1.png",
+      "en": "https://files.riichi.moe/mjg/game%20resources%20and%20tools/Mahjong%20Soul/raw%20assets/v0.11.110.w/en/myres2/activity_banner/24winter1.png",
+      "jp": "https://files.riichi.moe/mjg/game%20resources%20and%20tools/Mahjong%20Soul/raw%20assets/v0.11.110.w/jp/myres2/activity_banner/24winter1.png",
+      "kr": "https://files.riichi.moe/mjg/game%20resources%20and%20tools/Mahjong%20Soul/raw%20assets/v0.11.110.w/kr/myres2/activity_banner/24winter1.png"
+    },
+    "ui/activity/lobby/banner_tab/pic/24zhongqiu1.png": {
+      "cn": "https://files.riichi.moe/mjg/game%20resources%20and%20tools/Mahjong%20Soul/raw%20assets/v0.11.76.w/chs_t/myres2/activity_banner/24zhongqiu1.png",
+      "en": "https://files.riichi.moe/mjg/game%20resources%20and%20tools/Mahjong%20Soul/raw%20assets/v0.11.76.w/en/myres2/activity_banner/24zhongqiu1.png",
+      "jp": "https://files.riichi.moe/mjg/game%20resources%20and%20tools/Mahjong%20Soul/raw%20assets/v0.11.76.w/jp/myres2/activity_banner/24zhongqiu1.png",
+      "kr": "https://files.riichi.moe/mjg/game%20resources%20and%20tools/Mahjong%20Soul/raw%20assets/v0.11.76.w/kr/myres2/activity_banner/24zhongqiu1.png"
+    },
+    "ui/activity/lobby/banner_tab/pic/25balei.png": {
+      "cn": "https://files.riichi.moe/mjg/game%20resources%20and%20tools/Mahjong%20Soul/raw%20assets/v0.11.155.w/chs_t/myres2/activity_banner/25balei.png",
+      "en": "https://files.riichi.moe/mjg/game%20resources%20and%20tools/Mahjong%20Soul/raw%20assets/v0.11.155.w/en/myres2/activity_banner/25balei.png",
+      "jp": "https://files.riichi.moe/mjg/game%20resources%20and%20tools/Mahjong%20Soul/raw%20assets/v0.11.155.w/jp/myres2/activity_banner/25balei.png",
+      "kr": "https://files.riichi.moe/mjg/game%20resources%20and%20tools/Mahjong%20Soul/raw%20assets/v0.11.155.w/kr/myres2/activity_banner/25balei.png"
+    },
+    "ui/activity/lobby/banner_tab/pic/25balei_b.jpg": {
+      "cn": "https://files.riichi.moe/mjg/game%20resources%20and%20tools/Mahjong%20Soul/raw%20assets/v0.11.155.w/chs_t/myres2/activity_banner/25balei_b.jpg",
+      "en": "https://files.riichi.moe/mjg/game%20resources%20and%20tools/Mahjong%20Soul/raw%20assets/v0.11.155.w/en/myres2/activity_banner/25balei_b.jpg",
+      "jp": "https://files.riichi.moe/mjg/game%20resources%20and%20tools/Mahjong%20Soul/raw%20assets/v0.11.159.w/jp/myres2/activity_banner/25balei_b.jpg",
+      "kr": "https://files.riichi.moe/mjg/game%20resources%20and%20tools/Mahjong%20Soul/raw%20assets/v0.11.159.w/kr/myres2/activity_banner/25balei_b.jpg"
+    },
+    "ui/activity/lobby/banner_tab/pic/25bingo.png": {
+      "cn": "https://files.riichi.moe/mjg/game%20resources%20and%20tools/Mahjong%20Soul/raw%20assets/v0.11.201.w/chs_t/myres2/activity_banner/25bingo.png",
+      "en": "https://files.riichi.moe/mjg/game%20resources%20and%20tools/Mahjong%20Soul/raw%20assets/v0.11.201.w/en/myres2/activity_banner/25bingo.png",
+      "jp": "https://files.riichi.moe/mjg/game%20resources%20and%20tools/Mahjong%20Soul/raw%20assets/v0.11.201.w/jp/myres2/activity_banner/25bingo.png",
+      "kr": "https://files.riichi.moe/mjg/game%20resources%20and%20tools/Mahjong%20Soul/raw%20assets/v0.11.201.w/kr/myres2/activity_banner/25bingo.png"
+    },
+    "ui/activity/lobby/banner_tab/pic/25chunjie1.png": {
+      "cn": "https://files.riichi.moe/mjg/game%20resources%20and%20tools/Mahjong%20Soul/raw%20assets/v0.11.120.w/chs_t/myres2/activity_banner/25chunjie1.png",
+      "en": "https://files.riichi.moe/mjg/game%20resources%20and%20tools/Mahjong%20Soul/raw%20assets/v0.11.120.w/en/myres2/activity_banner/25chunjie1.png",
+      "jp": "https://files.riichi.moe/mjg/game%20resources%20and%20tools/Mahjong%20Soul/raw%20assets/v0.11.120.w/jp/myres2/activity_banner/25chunjie1.png",
+      "kr": "https://files.riichi.moe/mjg/game%20resources%20and%20tools/Mahjong%20Soul/raw%20assets/v0.11.120.w/kr/myres2/activity_banner/25chunjie1.png"
+    },
+    "ui/activity/lobby/banner_tab/pic/25chunjie2.png": {
+      "cn": "https://files.riichi.moe/mjg/game%20resources%20and%20tools/Mahjong%20Soul/raw%20assets/v0.11.120.w/chs_t/myres2/activity_banner/25chunjie2.png",
+      "en": "https://files.riichi.moe/mjg/game%20resources%20and%20tools/Mahjong%20Soul/raw%20assets/v0.11.120.w/en/myres2/activity_banner/25chunjie2.png",
+      "jp": "https://files.riichi.moe/mjg/game%20resources%20and%20tools/Mahjong%20Soul/raw%20assets/v0.11.120.w/jp/myres2/activity_banner/25chunjie2.png",
+      "kr": "https://files.riichi.moe/mjg/game%20resources%20and%20tools/Mahjong%20Soul/raw%20assets/v0.11.120.w/kr/myres2/activity_banner/25chunjie2.png"
+    },
+    "ui/activity/lobby/banner_tab/pic/25chunjie2_b.jpg": {
+      "cn": "https://files.riichi.moe/mjg/game%20resources%20and%20tools/Mahjong%20Soul/raw%20assets/v0.11.140.w/chs_t/myres2/activity_banner/25chunjie2_b.jpg",
+      "en": "https://files.riichi.moe/mjg/game%20resources%20and%20tools/Mahjong%20Soul/raw%20assets/v0.11.140.w/en/myres2/activity_banner/25chunjie2_b.jpg",
+      "jp": "https://files.riichi.moe/mjg/game%20resources%20and%20tools/Mahjong%20Soul/raw%20assets/v0.11.140.w/jp/myres2/activity_banner/25chunjie2_b.jpg",
+      "kr": "https://files.riichi.moe/mjg/game%20resources%20and%20tools/Mahjong%20Soul/raw%20assets/v0.11.140.w/kr/myres2/activity_banner/25chunjie2_b.jpg"
+    },
+    "ui/activity/lobby/banner_tab/pic/25dongri.png": {
+      "cn": "https://files.riichi.moe/mjg/game%20resources%20and%20tools/Mahjong%20Soul/raw%20assets/v0.11.205.w/chs_t/myres2/activity_banner/25dongri.png",
+      "en": "https://files.riichi.moe/mjg/game%20resources%20and%20tools/Mahjong%20Soul/raw%20assets/v0.11.205.w/en/myres2/activity_banner/25dongri.png",
+      "jp": "https://files.riichi.moe/mjg/game%20resources%20and%20tools/Mahjong%20Soul/raw%20assets/v0.11.205.w/jp/myres2/activity_banner/25dongri.png",
+      "kr": "https://files.riichi.moe/mjg/game%20resources%20and%20tools/Mahjong%20Soul/raw%20assets/v0.11.205.w/kr/myres2/activity_banner/25dongri.png"
+    },
+    "ui/activity/lobby/banner_tab/pic/25dongri_b.jpg": {
+      "cn": "https://files.riichi.moe/mjg/game%20resources%20and%20tools/Mahjong%20Soul/raw%20assets/v0.11.205.w/chs_t/myres2/activity_banner/25dongri_b.jpg",
+      "en": "https://files.riichi.moe/mjg/game%20resources%20and%20tools/Mahjong%20Soul/raw%20assets/v0.11.205.w/en/myres2/activity_banner/25dongri_b.jpg",
+      "jp": "https://files.riichi.moe/mjg/game%20resources%20and%20tools/Mahjong%20Soul/raw%20assets/v0.11.205.w/jp/myres2/activity_banner/25dongri_b.jpg",
+      "kr": "https://files.riichi.moe/mjg/game%20resources%20and%20tools/Mahjong%20Soul/raw%20assets/v0.11.205.w/kr/myres2/activity_banner/25dongri_b.jpg"
+    },
+    "ui/activity/lobby/banner_tab/pic/25fanpai.png": {
+      "cn": "https://files.riichi.moe/mjg/game%20resources%20and%20tools/Mahjong%20Soul/raw%20assets/v0.11.167.w/chs_t/myres2/activity_banner/25fanpai.png",
+      "en": "https://files.riichi.moe/mjg/game%20resources%20and%20tools/Mahjong%20Soul/raw%20assets/v0.11.167.w/en/myres2/activity_banner/25fanpai.png",
+      "jp": "https://files.riichi.moe/mjg/game%20resources%20and%20tools/Mahjong%20Soul/raw%20assets/v0.11.167.w/jp/myres2/activity_banner/25fanpai.png",
+      "kr": "https://files.riichi.moe/mjg/game%20resources%20and%20tools/Mahjong%20Soul/raw%20assets/v0.11.167.w/kr/myres2/activity_banner/25fanpai.png"
+    },
+    "ui/activity/lobby/banner_tab/pic/25fanpai_b.jpg": {
+      "cn": "https://files.riichi.moe/mjg/game%20resources%20and%20tools/Mahjong%20Soul/raw%20assets/v0.11.167.w/chs_t/myres2/activity_banner/25fanpai_b.jpg",
+      "en": "https://files.riichi.moe/mjg/game%20resources%20and%20tools/Mahjong%20Soul/raw%20assets/v0.11.167.w/en/myres2/activity_banner/25fanpai_b.jpg",
+      "jp": "https://files.riichi.moe/mjg/game%20resources%20and%20tools/Mahjong%20Soul/raw%20assets/v0.11.167.w/jp/myres2/activity_banner/25fanpai_b.jpg",
+      "kr": "https://files.riichi.moe/mjg/game%20resources%20and%20tools/Mahjong%20Soul/raw%20assets/v0.11.167.w/kr/myres2/activity_banner/25fanpai_b.jpg"
+    },
+    "ui/activity/lobby/banner_tab/pic/25hf.png": {
+      "cn": "https://files.riichi.moe/mjg/game%20resources%20and%20tools/Mahjong%20Soul/raw%20assets/v0.11.148.w/chs_t/myres2/activity_banner/25hf.png",
+      "en": "https://files.riichi.moe/mjg/game%20resources%20and%20tools/Mahjong%20Soul/raw%20assets/v0.11.148.w/en/myres2/activity_banner/25hf.png",
+      "jp": "https://files.riichi.moe/mjg/game%20resources%20and%20tools/Mahjong%20Soul/raw%20assets/v0.11.148.w/jp/myres2/activity_banner/25hf.png",
+      "kr": "https://files.riichi.moe/mjg/game%20resources%20and%20tools/Mahjong%20Soul/raw%20assets/v0.11.148.w/kr/myres2/activity_banner/25hf.png"
+    },
+    "ui/activity/lobby/banner_tab/pic/25hf_b.jpg": {
+      "cn": "https://files.riichi.moe/mjg/game%20resources%20and%20tools/Mahjong%20Soul/raw%20assets/v0.11.148.w/chs_t/myres2/activity_banner/25hf_b.jpg",
+      "en": "https://files.riichi.moe/mjg/game%20resources%20and%20tools/Mahjong%20Soul/raw%20assets/v0.11.148.w/en/myres2/activity_banner/25hf_b.jpg",
+      "jp": "https://files.riichi.moe/mjg/game%20resources%20and%20tools/Mahjong%20Soul/raw%20assets/v0.11.148.w/jp/myres2/activity_banner/25hf_b.jpg",
+      "kr": "https://files.riichi.moe/mjg/game%20resources%20and%20tools/Mahjong%20Soul/raw%20assets/v0.11.148.w/kr/myres2/activity_banner/25hf_b.jpg"
+    },
+    "ui/activity/lobby/banner_tab/pic/25jk1.png": {
+      "cn": "https://files.riichi.moe/mjg/game%20resources%20and%20tools/Mahjong%20Soul/raw%20assets/v0.11.165.w/chs_t/myres2/activity_banner/25jk1.png",
+      "en": "https://files.riichi.moe/mjg/game%20resources%20and%20tools/Mahjong%20Soul/raw%20assets/v0.11.165.w/en/myres2/activity_banner/25jk1.png",
+      "jp": "https://files.riichi.moe/mjg/game%20resources%20and%20tools/Mahjong%20Soul/raw%20assets/v0.11.165.w/jp/myres2/activity_banner/25jk1.png",
+      "kr": "https://files.riichi.moe/mjg/game%20resources%20and%20tools/Mahjong%20Soul/raw%20assets/v0.11.165.w/kr/myres2/activity_banner/25jk1.png"
+    },
+    "ui/activity/lobby/banner_tab/pic/25jk1_b.jpg": {
+      "cn": "https://files.riichi.moe/mjg/game%20resources%20and%20tools/Mahjong%20Soul/raw%20assets/v0.11.165.w/chs_t/myres2/activity_banner/25jk1_b.jpg",
+      "en": "https://files.riichi.moe/mjg/game%20resources%20and%20tools/Mahjong%20Soul/raw%20assets/v0.11.165.w/en/myres2/activity_banner/25jk1_b.jpg",
+      "jp": "https://files.riichi.moe/mjg/game%20resources%20and%20tools/Mahjong%20Soul/raw%20assets/v0.11.165.w/jp/myres2/activity_banner/25jk1_b.jpg",
+      "kr": "https://files.riichi.moe/mjg/game%20resources%20and%20tools/Mahjong%20Soul/raw%20assets/v0.11.165.w/kr/myres2/activity_banner/25jk1_b.jpg"
+    },
+    "ui/activity/lobby/banner_tab/pic/25jk2.png": {
+      "cn": "https://files.riichi.moe/mjg/game%20resources%20and%20tools/Mahjong%20Soul/raw%20assets/v0.11.165.w/chs_t/myres2/activity_banner/25jk2.png",
+      "en": "https://files.riichi.moe/mjg/game%20resources%20and%20tools/Mahjong%20Soul/raw%20assets/v0.11.165.w/en/myres2/activity_banner/25jk2.png",
+      "jp": "https://files.riichi.moe/mjg/game%20resources%20and%20tools/Mahjong%20Soul/raw%20assets/v0.11.165.w/jp/myres2/activity_banner/25jk2.png",
+      "kr": "https://files.riichi.moe/mjg/game%20resources%20and%20tools/Mahjong%20Soul/raw%20assets/v0.11.165.w/kr/myres2/activity_banner/25jk2.png"
+    },
+    "ui/activity/lobby/banner_tab/pic/25jk2_b.jpg": {
+      "cn": "https://files.riichi.moe/mjg/game%20resources%20and%20tools/Mahjong%20Soul/raw%20assets/v0.11.165.w/chs_t/myres2/activity_banner/25jk2_b.jpg",
+      "en": "https://files.riichi.moe/mjg/game%20resources%20and%20tools/Mahjong%20Soul/raw%20assets/v0.11.165.w/en/myres2/activity_banner/25jk2_b.jpg",
+      "jp": "https://files.riichi.moe/mjg/game%20resources%20and%20tools/Mahjong%20Soul/raw%20assets/v0.11.165.w/jp/myres2/activity_banner/25jk2_b.jpg",
+      "kr": "https://files.riichi.moe/mjg/game%20resources%20and%20tools/Mahjong%20Soul/raw%20assets/v0.11.165.w/kr/myres2/activity_banner/25jk2_b.jpg"
+    },
+    "ui/activity/lobby/banner_tab/pic/25lifu1.png": {
+      "cn": "https://files.riichi.moe/mjg/game%20resources%20and%20tools/Mahjong%20Soul/raw%20assets/v0.11.131.w/chs_t/myres2/activity_banner/25lifu1.png",
+      "en": "https://files.riichi.moe/mjg/game%20resources%20and%20tools/Mahjong%20Soul/raw%20assets/v0.11.131.w/en/myres2/activity_banner/25lifu1.png",
+      "jp": "https://files.riichi.moe/mjg/game%20resources%20and%20tools/Mahjong%20Soul/raw%20assets/v0.11.131.w/jp/myres2/activity_banner/25lifu1.png",
+      "kr": "https://files.riichi.moe/mjg/game%20resources%20and%20tools/Mahjong%20Soul/raw%20assets/v0.11.131.w/kr/myres2/activity_banner/25lifu1.png"
+    },
+    "ui/activity/lobby/banner_tab/pic/25lifu1_b.jpg": {
+      "cn": "https://files.riichi.moe/mjg/game%20resources%20and%20tools/Mahjong%20Soul/raw%20assets/v0.11.131.w/chs_t/myres2/activity_banner/25lifu1_b.jpg",
+      "en": "https://files.riichi.moe/mjg/game%20resources%20and%20tools/Mahjong%20Soul/raw%20assets/v0.11.131.w/en/myres2/activity_banner/25lifu1_b.jpg",
+      "jp": "https://files.riichi.moe/mjg/game%20resources%20and%20tools/Mahjong%20Soul/raw%20assets/v0.11.131.w/jp/myres2/activity_banner/25lifu1_b.jpg",
+      "kr": "https://files.riichi.moe/mjg/game%20resources%20and%20tools/Mahjong%20Soul/raw%20assets/v0.11.131.w/kr/myres2/activity_banner/25lifu1_b.jpg"
+    },
+    "ui/activity/lobby/banner_tab/pic/25lifu2.png": {
+      "cn": "https://files.riichi.moe/mjg/game%20resources%20and%20tools/Mahjong%20Soul/raw%20assets/v0.11.131.w/chs_t/myres2/activity_banner/25lifu2.png",
+      "en": "https://files.riichi.moe/mjg/game%20resources%20and%20tools/Mahjong%20Soul/raw%20assets/v0.11.131.w/en/myres2/activity_banner/25lifu2.png",
+      "jp": "https://files.riichi.moe/mjg/game%20resources%20and%20tools/Mahjong%20Soul/raw%20assets/v0.11.131.w/jp/myres2/activity_banner/25lifu2.png",
+      "kr": "https://files.riichi.moe/mjg/game%20resources%20and%20tools/Mahjong%20Soul/raw%20assets/v0.11.131.w/kr/myres2/activity_banner/25lifu2.png"
+    },
+    "ui/activity/lobby/banner_tab/pic/25lifu2_b.jpg": {
+      "cn": "https://files.riichi.moe/mjg/game%20resources%20and%20tools/Mahjong%20Soul/raw%20assets/v0.11.131.w/chs_t/myres2/activity_banner/25lifu2_b.jpg",
+      "en": "https://files.riichi.moe/mjg/game%20resources%20and%20tools/Mahjong%20Soul/raw%20assets/v0.11.131.w/en/myres2/activity_banner/25lifu2_b.jpg",
+      "jp": "https://files.riichi.moe/mjg/game%20resources%20and%20tools/Mahjong%20Soul/raw%20assets/v0.11.131.w/jp/myres2/activity_banner/25lifu2_b.jpg",
+      "kr": "https://files.riichi.moe/mjg/game%20resources%20and%20tools/Mahjong%20Soul/raw%20assets/v0.11.131.w/kr/myres2/activity_banner/25lifu2_b.jpg"
+    },
     "ui/activity/lobby/banner_tab/pic/25lunhuan.png": "MyAssets/ui/activity/lobby/banner_tab/pic/common/25lunhuan.png",
     "ui/activity/lobby/banner_tab/pic/25lunhuan_b.jpg": "MyAssets/ui/activity/lobby/banner_tab/pic/common/25lunhuan_b.png",
-    "ui/activity/lobby/banner_tab/pic/25wenquan1.png": "MyAssets/extendRes/items/common/25wenquan1.png",
+    "ui/activity/lobby/banner_tab/pic/25summer1.png": {
+      "cn": "https://files.riichi.moe/mjg/game%20resources%20and%20tools/Mahjong%20Soul/raw%20assets/v0.11.172.w/chs_t/myres2/activity_banner/25summer1.png",
+      "en": "https://files.riichi.moe/mjg/game%20resources%20and%20tools/Mahjong%20Soul/raw%20assets/v0.11.172.w/en/myres2/activity_banner/25summer1.png",
+      "jp": "https://files.riichi.moe/mjg/game%20resources%20and%20tools/Mahjong%20Soul/raw%20assets/v0.11.172.w/jp/myres2/activity_banner/25summer1.png",
+      "kr": "https://files.riichi.moe/mjg/game%20resources%20and%20tools/Mahjong%20Soul/raw%20assets/v0.11.172.w/kr/myres2/activity_banner/25summer1.png"
+    },
+    "ui/activity/lobby/banner_tab/pic/25summer1_b.jpg": {
+      "cn": "https://files.riichi.moe/mjg/game%20resources%20and%20tools/Mahjong%20Soul/raw%20assets/v0.11.172.w/chs_t/myres2/activity_banner/25summer1_b.jpg",
+      "en": "https://files.riichi.moe/mjg/game%20resources%20and%20tools/Mahjong%20Soul/raw%20assets/v0.11.172.w/en/myres2/activity_banner/25summer1_b.jpg",
+      "jp": "https://files.riichi.moe/mjg/game%20resources%20and%20tools/Mahjong%20Soul/raw%20assets/v0.11.172.w/jp/myres2/activity_banner/25summer1_b.jpg",
+      "kr": "https://files.riichi.moe/mjg/game%20resources%20and%20tools/Mahjong%20Soul/raw%20assets/v0.11.172.w/kr/myres2/activity_banner/25summer1_b.jpg"
+    },
+    "ui/activity/lobby/banner_tab/pic/25summer2.png": {
+      "cn": "https://files.riichi.moe/mjg/game%20resources%20and%20tools/Mahjong%20Soul/raw%20assets/v0.11.172.w/chs_t/myres2/activity_banner/25summer2.png",
+      "en": "https://files.riichi.moe/mjg/game%20resources%20and%20tools/Mahjong%20Soul/raw%20assets/v0.11.172.w/en/myres2/activity_banner/25summer2.png",
+      "jp": "https://files.riichi.moe/mjg/game%20resources%20and%20tools/Mahjong%20Soul/raw%20assets/v0.11.172.w/jp/myres2/activity_banner/25summer2.png",
+      "kr": "https://files.riichi.moe/mjg/game%20resources%20and%20tools/Mahjong%20Soul/raw%20assets/v0.11.172.w/kr/myres2/activity_banner/25summer2.png"
+    },
+    "ui/activity/lobby/banner_tab/pic/25summer2_b.jpg": {
+      "cn": "https://files.riichi.moe/mjg/game%20resources%20and%20tools/Mahjong%20Soul/raw%20assets/v0.11.172.w/chs_t/myres2/activity_banner/25summer2_b.jpg",
+      "en": "https://files.riichi.moe/mjg/game%20resources%20and%20tools/Mahjong%20Soul/raw%20assets/v0.11.172.w/en/myres2/activity_banner/25summer2_b.jpg",
+      "jp": "https://files.riichi.moe/mjg/game%20resources%20and%20tools/Mahjong%20Soul/raw%20assets/v0.11.172.w/jp/myres2/activity_banner/25summer2_b.jpg",
+      "kr": "https://files.riichi.moe/mjg/game%20resources%20and%20tools/Mahjong%20Soul/raw%20assets/v0.11.172.w/kr/myres2/activity_banner/25summer2_b.jpg"
+    },
+    "ui/activity/lobby/banner_tab/pic/25toupiao.png": {
+      "cn": "https://files.riichi.moe/mjg/game%20resources%20and%20tools/Mahjong%20Soul/raw%20assets/v0.11.172.w/chs_t/myres2/activity_banner/25toupiao.png",
+      "en": "https://files.riichi.moe/mjg/game%20resources%20and%20tools/Mahjong%20Soul/raw%20assets/v0.11.172.w/en/myres2/activity_banner/25toupiao.png",
+      "jp": "https://files.riichi.moe/mjg/game%20resources%20and%20tools/Mahjong%20Soul/raw%20assets/v0.11.172.w/jp/myres2/activity_banner/25toupiao.png",
+      "kr": "https://files.riichi.moe/mjg/game%20resources%20and%20tools/Mahjong%20Soul/raw%20assets/v0.11.172.w/kr/myres2/activity_banner/25toupiao.png"
+    },
+    "ui/activity/lobby/banner_tab/pic/25toupiao_b.jpg": {
+      "cn": "https://files.riichi.moe/mjg/game%20resources%20and%20tools/Mahjong%20Soul/raw%20assets/v0.11.182.w/chs_t/myres2/activity_banner/25toupiao_b.jpg",
+      "en": "https://files.riichi.moe/mjg/game%20resources%20and%20tools/Mahjong%20Soul/raw%20assets/v0.11.182.w/en/myres2/activity_banner/25toupiao_b.jpg",
+      "jp": "https://files.riichi.moe/mjg/game%20resources%20and%20tools/Mahjong%20Soul/raw%20assets/v0.11.182.w/jp/myres2/activity_banner/25toupiao_b.jpg",
+      "kr": "https://files.riichi.moe/mjg/game%20resources%20and%20tools/Mahjong%20Soul/raw%20assets/v0.11.182.w/kr/myres2/activity_banner/25toupiao_b.jpg"
+    },
+    "ui/activity/lobby/banner_tab/pic/25wenquan1.png": {
+      "cn": "https://files.riichi.moe/mjg/game%20resources%20and%20tools/Mahjong%20Soul/raw%20assets/v0.11.140.w/chs_t/myres2/activity_banner/25wenquan1.png",
+      "en": "https://files.riichi.moe/mjg/game%20resources%20and%20tools/Mahjong%20Soul/raw%20assets/v0.11.140.w/en/myres2/activity_banner/25wenquan1.png",
+      "jp": "https://files.riichi.moe/mjg/game%20resources%20and%20tools/Mahjong%20Soul/raw%20assets/v0.11.140.w/jp/myres2/activity_banner/25wenquan1.png",
+      "kr": "https://files.riichi.moe/mjg/game%20resources%20and%20tools/Mahjong%20Soul/raw%20assets/v0.11.140.w/kr/myres2/activity_banner/25wenquan1.png"
+    },
     "ui/activity/lobby/banner_tab/pic/25wenquan1_b.jpg": {
-      "jp": "MyAssets/ui/activity/lobby/exchange/pic/jp/25wenquan1_b.png"
+      "cn": "https://files.riichi.moe/mjg/game%20resources%20and%20tools/Mahjong%20Soul/raw%20assets/v0.11.140.w/chs_t/myres2/activity_banner/25wenquan1_b.jpg",
+      "en": "https://files.riichi.moe/mjg/game%20resources%20and%20tools/Mahjong%20Soul/raw%20assets/v0.11.140.w/en/myres2/activity_banner/25wenquan1_b.jpg",
+      "jp": "https://files.riichi.moe/mjg/game%20resources%20and%20tools/Mahjong%20Soul/raw%20assets/v0.11.140.w/jp/myres2/activity_banner/25wenquan1_b.jpg",
+      "kr": "https://files.riichi.moe/mjg/game%20resources%20and%20tools/Mahjong%20Soul/raw%20assets/v0.11.140.w/kr/myres2/activity_banner/25wenquan1_b.jpg"
     },
-    "ui/activity/lobby/banner_tab/pic/25wenquan2.png": "MyAssets/extendRes/items/common/25wenquan2.png",
+    "ui/activity/lobby/banner_tab/pic/25wenquan2.png": {
+      "cn": "https://files.riichi.moe/mjg/game%20resources%20and%20tools/Mahjong%20Soul/raw%20assets/v0.11.140.w/chs_t/myres2/activity_banner/25wenquan2.png",
+      "en": "https://files.riichi.moe/mjg/game%20resources%20and%20tools/Mahjong%20Soul/raw%20assets/v0.11.140.w/en/myres2/activity_banner/25wenquan2.png",
+      "jp": "https://files.riichi.moe/mjg/game%20resources%20and%20tools/Mahjong%20Soul/raw%20assets/v0.11.140.w/jp/myres2/activity_banner/25wenquan2.png",
+      "kr": "https://files.riichi.moe/mjg/game%20resources%20and%20tools/Mahjong%20Soul/raw%20assets/v0.11.140.w/kr/myres2/activity_banner/25wenquan2.png"
+    },
     "ui/activity/lobby/banner_tab/pic/25wenquan2_b.jpg": {
-      "jp": "MyAssets/ui/activity/lobby/exchange/pic/jp/25wenquan2_b.png"
+      "cn": "https://files.riichi.moe/mjg/game%20resources%20and%20tools/Mahjong%20Soul/raw%20assets/v0.11.140.w/chs_t/myres2/activity_banner/25wenquan2_b.jpg",
+      "en": "https://files.riichi.moe/mjg/game%20resources%20and%20tools/Mahjong%20Soul/raw%20assets/v0.11.140.w/en/myres2/activity_banner/25wenquan2_b.jpg",
+      "jp": "https://files.riichi.moe/mjg/game%20resources%20and%20tools/Mahjong%20Soul/raw%20assets/v0.11.140.w/jp/myres2/activity_banner/25wenquan2_b.jpg",
+      "kr": "https://files.riichi.moe/mjg/game%20resources%20and%20tools/Mahjong%20Soul/raw%20assets/v0.11.140.w/kr/myres2/activity_banner/25wenquan2_b.jpg"
     },
-    "ui/activity/lobby/banner_tab/pic/25wuxia1.png": "MyAssets/extendRes/items/common/25wuxia1.png",
-    "ui/activity/lobby/banner_tab/pic/25wuxia2.png": "MyAssets/extendRes/items/common/25wuxia2.png",
-    "ui/activity/lobby/banner_tab/pic/25yh.png": "MyAssets/ui/activity/extend/2510questcrew/main/pic/common/25yh.png",
-    "ui/activity/lobby/banner_tab/pic/25yuehui.png": "MyAssets/ui/activity/extend/2509wuxia/main/pic_scattered/common/25yuehui.png",
+    "ui/activity/lobby/banner_tab/pic/25wuxia1.png": {
+      "cn": "https://files.riichi.moe/mjg/game%20resources%20and%20tools/Mahjong%20Soul/raw%20assets/v0.11.184.w/chs_t/myres2/activity_banner/25wuxia1.png",
+      "en": "https://files.riichi.moe/mjg/game%20resources%20and%20tools/Mahjong%20Soul/raw%20assets/v0.11.184.w/en/myres2/activity_banner/25wuxia1.png",
+      "jp": "https://files.riichi.moe/mjg/game%20resources%20and%20tools/Mahjong%20Soul/raw%20assets/v0.11.184.w/jp/myres2/activity_banner/25wuxia1.png",
+      "kr": "https://files.riichi.moe/mjg/game%20resources%20and%20tools/Mahjong%20Soul/raw%20assets/v0.11.184.w/kr/myres2/activity_banner/25wuxia1.png"
+    },
+    "ui/activity/lobby/banner_tab/pic/25wuxia1_b.jpg": {
+      "cn": "https://files.riichi.moe/mjg/game%20resources%20and%20tools/Mahjong%20Soul/raw%20assets/v0.11.184.w/chs_t/myres2/activity_banner/25wuxia1_b.jpg",
+      "en": "https://files.riichi.moe/mjg/game%20resources%20and%20tools/Mahjong%20Soul/raw%20assets/v0.11.184.w/en/myres2/activity_banner/25wuxia1_b.jpg",
+      "jp": "https://files.riichi.moe/mjg/game%20resources%20and%20tools/Mahjong%20Soul/raw%20assets/v0.11.184.w/jp/myres2/activity_banner/25wuxia1_b.jpg",
+      "kr": "https://files.riichi.moe/mjg/game%20resources%20and%20tools/Mahjong%20Soul/raw%20assets/v0.11.184.w/kr/myres2/activity_banner/25wuxia1_b.jpg"
+    },
+    "ui/activity/lobby/banner_tab/pic/25wuxia2.png": {
+      "cn": "https://files.riichi.moe/mjg/game%20resources%20and%20tools/Mahjong%20Soul/raw%20assets/v0.11.184.w/chs_t/myres2/activity_banner/25wuxia2.png",
+      "en": "https://files.riichi.moe/mjg/game%20resources%20and%20tools/Mahjong%20Soul/raw%20assets/v0.11.184.w/en/myres2/activity_banner/25wuxia2.png",
+      "jp": "https://files.riichi.moe/mjg/game%20resources%20and%20tools/Mahjong%20Soul/raw%20assets/v0.11.184.w/jp/myres2/activity_banner/25wuxia2.png",
+      "kr": "https://files.riichi.moe/mjg/game%20resources%20and%20tools/Mahjong%20Soul/raw%20assets/v0.11.184.w/kr/myres2/activity_banner/25wuxia2.png"
+    },
+    "ui/activity/lobby/banner_tab/pic/25wuxia2_b.jpg": {
+      "cn": "https://files.riichi.moe/mjg/game%20resources%20and%20tools/Mahjong%20Soul/raw%20assets/v0.11.184.w/chs_t/myres2/activity_banner/25wuxia2_b.jpg",
+      "en": "https://files.riichi.moe/mjg/game%20resources%20and%20tools/Mahjong%20Soul/raw%20assets/v0.11.184.w/en/myres2/activity_banner/25wuxia2_b.jpg",
+      "jp": "https://files.riichi.moe/mjg/game%20resources%20and%20tools/Mahjong%20Soul/raw%20assets/v0.11.184.w/jp/myres2/activity_banner/25wuxia2_b.jpg",
+      "kr": "https://files.riichi.moe/mjg/game%20resources%20and%20tools/Mahjong%20Soul/raw%20assets/v0.11.184.w/kr/myres2/activity_banner/25wuxia2_b.jpg"
+    },
+    "ui/activity/lobby/banner_tab/pic/25xila.png": {
+      "cn": "https://files.riichi.moe/mjg/game%20resources%20and%20tools/Mahjong%20Soul/raw%20assets/v0.11.159.w/chs_t/myres2/activity_banner/25xila.png",
+      "en": "https://files.riichi.moe/mjg/game%20resources%20and%20tools/Mahjong%20Soul/raw%20assets/v0.11.159.w/en/myres2/activity_banner/25xila.png",
+      "jp": "https://files.riichi.moe/mjg/game%20resources%20and%20tools/Mahjong%20Soul/raw%20assets/v0.11.159.w/jp/myres2/activity_banner/25xila.png",
+      "kr": "https://files.riichi.moe/mjg/game%20resources%20and%20tools/Mahjong%20Soul/raw%20assets/v0.11.159.w/kr/myres2/activity_banner/25xila.png"
+    },
+    "ui/activity/lobby/banner_tab/pic/25xila_b.jpg": {
+      "cn": "https://files.riichi.moe/mjg/game%20resources%20and%20tools/Mahjong%20Soul/raw%20assets/v0.11.159.w/chs_t/myres2/activity_banner/25xila_b.jpg",
+      "en": "https://files.riichi.moe/mjg/game%20resources%20and%20tools/Mahjong%20Soul/raw%20assets/v0.11.159.w/en/myres2/activity_banner/25xila_b.jpg",
+      "jp": "https://files.riichi.moe/mjg/game%20resources%20and%20tools/Mahjong%20Soul/raw%20assets/v0.11.159.w/jp/myres2/activity_banner/25xila_b.jpg",
+      "kr": "https://files.riichi.moe/mjg/game%20resources%20and%20tools/Mahjong%20Soul/raw%20assets/v0.11.159.w/kr/myres2/activity_banner/25xila_b.jpg"
+    },
+    "ui/activity/lobby/banner_tab/pic/25yh.png": {
+      "cn": "https://files.riichi.moe/mjg/game%20resources%20and%20tools/Mahjong%20Soul/raw%20assets/v0.11.188.w/chs_t/myres2/activity_banner/25yh.png",
+      "en": "https://files.riichi.moe/mjg/game%20resources%20and%20tools/Mahjong%20Soul/raw%20assets/v0.11.188.w/en/myres2/activity_banner/25yh.png",
+      "jp": "https://files.riichi.moe/mjg/game%20resources%20and%20tools/Mahjong%20Soul/raw%20assets/v0.11.188.w/jp/myres2/activity_banner/25yh.png",
+      "kr": "https://files.riichi.moe/mjg/game%20resources%20and%20tools/Mahjong%20Soul/raw%20assets/v0.11.188.w/kr/myres2/activity_banner/25yh.png"
+    },
+    "ui/activity/lobby/banner_tab/pic/25yh_b.jpg": {
+      "cn": "https://files.riichi.moe/mjg/game%20resources%20and%20tools/Mahjong%20Soul/raw%20assets/v0.11.188.w/chs_t/myres2/activity_banner/25yh_b.jpg",
+      "en": "https://files.riichi.moe/mjg/game%20resources%20and%20tools/Mahjong%20Soul/raw%20assets/v0.11.188.w/en/myres2/activity_banner/25yh_b.jpg",
+      "jp": "https://files.riichi.moe/mjg/game%20resources%20and%20tools/Mahjong%20Soul/raw%20assets/v0.11.188.w/jp/myres2/activity_banner/25yh_b.jpg",
+      "kr": "https://files.riichi.moe/mjg/game%20resources%20and%20tools/Mahjong%20Soul/raw%20assets/v0.11.188.w/kr/myres2/activity_banner/25yh_b.jpg"
+    },
+    "ui/activity/lobby/banner_tab/pic/25yuehui.png": {
+      "cn": "https://files.riichi.moe/mjg/game%20resources%20and%20tools/Mahjong%20Soul/raw%20assets/v0.11.194.w/chs_t/myres2/activity_banner/25yuehui.png",
+      "en": "https://files.riichi.moe/mjg/game%20resources%20and%20tools/Mahjong%20Soul/raw%20assets/v0.11.194.w/en/myres2/activity_banner/25yuehui.png",
+      "jp": "https://files.riichi.moe/mjg/game%20resources%20and%20tools/Mahjong%20Soul/raw%20assets/v0.11.194.w/jp/myres2/activity_banner/25yuehui.png",
+      "kr": "https://files.riichi.moe/mjg/game%20resources%20and%20tools/Mahjong%20Soul/raw%20assets/v0.11.194.w/kr/myres2/activity_banner/25yuehui.png"
+    },
+    "ui/activity/lobby/banner_tab/pic/25yuehui_b.jpg": {
+      "cn": "https://files.riichi.moe/mjg/game%20resources%20and%20tools/Mahjong%20Soul/raw%20assets/v0.11.194.w/chs_t/myres2/activity_banner/25yuehui_b.jpg",
+      "en": "https://files.riichi.moe/mjg/game%20resources%20and%20tools/Mahjong%20Soul/raw%20assets/v0.11.194.w/en/myres2/activity_banner/25yuehui_b.jpg",
+      "jp": "https://files.riichi.moe/mjg/game%20resources%20and%20tools/Mahjong%20Soul/raw%20assets/v0.11.194.w/jp/myres2/activity_banner/25yuehui_b.jpg",
+      "kr": "https://files.riichi.moe/mjg/game%20resources%20and%20tools/Mahjong%20Soul/raw%20assets/v0.11.194.w/kr/myres2/activity_banner/25yuehui_b.jpg"
+    },
+    "ui/activity/lobby/banner_tab/pic/26chunjie.png": {
+      "cn": "https://files.riichi.moe/mjg/game%20resources%20and%20tools/Mahjong%20Soul/raw%20assets/v0.11.217.w/chs_t/myres2/activity_banner/26chunjie.png",
+      "en": "https://files.riichi.moe/mjg/game%20resources%20and%20tools/Mahjong%20Soul/raw%20assets/v0.11.217.w/en/myres2/activity_banner/26chunjie.png",
+      "jp": "https://files.riichi.moe/mjg/game%20resources%20and%20tools/Mahjong%20Soul/raw%20assets/v0.11.217.w/jp/myres2/activity_banner/26chunjie.png",
+      "kr": "https://files.riichi.moe/mjg/game%20resources%20and%20tools/Mahjong%20Soul/raw%20assets/v0.11.217.w/kr/myres2/activity_banner/26chunjie.png"
+    },
+    "ui/activity/lobby/banner_tab/pic/26chunjie_b.jpg": {
+      "cn": "https://files.riichi.moe/mjg/game%20resources%20and%20tools/Mahjong%20Soul/raw%20assets/v0.11.217.w/chs_t/myres2/activity_banner/26chunjie_b.jpg",
+      "en": "https://files.riichi.moe/mjg/game%20resources%20and%20tools/Mahjong%20Soul/raw%20assets/v0.11.217.w/en/myres2/activity_banner/26chunjie_b.jpg",
+      "jp": "https://files.riichi.moe/mjg/game%20resources%20and%20tools/Mahjong%20Soul/raw%20assets/v0.11.217.w/jp/myres2/activity_banner/26chunjie_b.jpg",
+      "kr": "https://files.riichi.moe/mjg/game%20resources%20and%20tools/Mahjong%20Soul/raw%20assets/v0.11.217.w/kr/myres2/activity_banner/26chunjie_b.jpg"
+    },
+    "ui/activity/lobby/banner_tab/pic/26dj.png": {
+      "cn": "https://files.riichi.moe/mjg/game%20resources%20and%20tools/Mahjong%20Soul/raw%20assets/v0.11.243.w/chs_t/myres2/activity_banner/26dj.png",
+      "en": "https://files.riichi.moe/mjg/game%20resources%20and%20tools/Mahjong%20Soul/raw%20assets/v0.11.243.w/en/myres2/activity_banner/26dj.png",
+      "jp": "https://files.riichi.moe/mjg/game%20resources%20and%20tools/Mahjong%20Soul/raw%20assets/v0.11.243.w/jp/myres2/activity_banner/26dj.png",
+      "kr": "https://files.riichi.moe/mjg/game%20resources%20and%20tools/Mahjong%20Soul/raw%20assets/v0.11.243.w/kr/myres2/activity_banner/26dj.png"
+    },
+    "ui/activity/lobby/banner_tab/pic/26dj_b.jpg": {
+      "cn": "https://files.riichi.moe/mjg/game%20resources%20and%20tools/Mahjong%20Soul/raw%20assets/v0.11.243.w/chs_t/myres2/activity_banner/26dj_b.jpg",
+      "en": "https://files.riichi.moe/mjg/game%20resources%20and%20tools/Mahjong%20Soul/raw%20assets/v0.11.243.w/en/myres2/activity_banner/26dj_b.jpg",
+      "jp": "https://files.riichi.moe/mjg/game%20resources%20and%20tools/Mahjong%20Soul/raw%20assets/v0.11.243.w/jp/myres2/activity_banner/26dj_b.jpg",
+      "kr": "https://files.riichi.moe/mjg/game%20resources%20and%20tools/Mahjong%20Soul/raw%20assets/v0.11.243.w/kr/myres2/activity_banner/26dj_b.jpg"
+    },
+    "ui/activity/lobby/banner_tab/pic/26fanpai.png": {
+      "cn": "https://files.riichi.moe/mjg/game%20resources%20and%20tools/Mahjong%20Soul/raw%20assets/v0.11.216.w/chs_t/myres2/activity_banner/26fanpai.png",
+      "en": "https://files.riichi.moe/mjg/game%20resources%20and%20tools/Mahjong%20Soul/raw%20assets/v0.11.216.w/en/myres2/activity_banner/26fanpai.png",
+      "jp": "https://files.riichi.moe/mjg/game%20resources%20and%20tools/Mahjong%20Soul/raw%20assets/v0.11.216.w/jp/myres2/activity_banner/26fanpai.png",
+      "kr": "https://files.riichi.moe/mjg/game%20resources%20and%20tools/Mahjong%20Soul/raw%20assets/v0.11.216.w/kr/myres2/activity_banner/26fanpai.png"
+    },
+    "ui/activity/lobby/banner_tab/pic/26fanpai_b.jpg": {
+      "cn": "https://files.riichi.moe/mjg/game%20resources%20and%20tools/Mahjong%20Soul/raw%20assets/v0.11.216.w/chs_t/myres2/activity_banner/26fanpai_b.jpg",
+      "en": "https://files.riichi.moe/mjg/game%20resources%20and%20tools/Mahjong%20Soul/raw%20assets/v0.11.216.w/en/myres2/activity_banner/26fanpai_b.jpg",
+      "jp": "https://files.riichi.moe/mjg/game%20resources%20and%20tools/Mahjong%20Soul/raw%20assets/v0.11.216.w/jp/myres2/activity_banner/26fanpai_b.jpg",
+      "kr": "https://files.riichi.moe/mjg/game%20resources%20and%20tools/Mahjong%20Soul/raw%20assets/v0.11.216.w/kr/myres2/activity_banner/26fanpai_b.jpg"
+    },
+    "ui/activity/lobby/banner_tab/pic/26lifu.png": {
+      "cn": "https://files.riichi.moe/mjg/game%20resources%20and%20tools/Mahjong%20Soul/raw%20assets/v0.11.212.w/chs_t/myres2/activity_banner/26lifu.png",
+      "en": "https://files.riichi.moe/mjg/game%20resources%20and%20tools/Mahjong%20Soul/raw%20assets/v0.11.212.w/en/myres2/activity_banner/26lifu.png",
+      "jp": "https://files.riichi.moe/mjg/game%20resources%20and%20tools/Mahjong%20Soul/raw%20assets/v0.11.212.w/jp/myres2/activity_banner/26lifu.png",
+      "kr": "https://files.riichi.moe/mjg/game%20resources%20and%20tools/Mahjong%20Soul/raw%20assets/v0.11.212.w/kr/myres2/activity_banner/26lifu.png"
+    },
+    "ui/activity/lobby/banner_tab/pic/26lifu_b.jpg": {
+      "cn": "https://files.riichi.moe/mjg/game%20resources%20and%20tools/Mahjong%20Soul/raw%20assets/v0.11.212.w/chs_t/myres2/activity_banner/26lifu_b.jpg",
+      "en": "https://files.riichi.moe/mjg/game%20resources%20and%20tools/Mahjong%20Soul/raw%20assets/v0.11.212.w/en/myres2/activity_banner/26lifu_b.jpg",
+      "jp": "https://files.riichi.moe/mjg/game%20resources%20and%20tools/Mahjong%20Soul/raw%20assets/v0.11.212.w/jp/myres2/activity_banner/26lifu_b.jpg",
+      "kr": "https://files.riichi.moe/mjg/game%20resources%20and%20tools/Mahjong%20Soul/raw%20assets/v0.11.212.w/kr/myres2/activity_banner/26lifu_b.jpg"
+    },
     "ui/activity/lobby/banner_tab/pic/26qingyun.png": "MyAssets/ui/activity/lobby/banner_tab/pic/common/26qingyun.png",
     "ui/activity/lobby/banner_tab/pic/26qingyun_b.jpg": {
       "jp": "MyAssets/ui/activity/lobby/banner_tab/pic/jp/26qingyun_b.png"
     },
-    "ui/activity/lobby/banner_tab/pic/26wenquan1.png": "MyAssets/ui/activity/extend/26wenquan/main/pic_scattered/common/26wenquan1.png",
+    "ui/activity/lobby/banner_tab/pic/26wenquan1.png": {
+      "cn": "https://files.riichi.moe/mjg/game%20resources%20and%20tools/Mahjong%20Soul/raw%20assets/v0.11.235.w/chs_t/myres2/activity_banner/26wenquan1.png",
+      "en": "https://files.riichi.moe/mjg/game%20resources%20and%20tools/Mahjong%20Soul/raw%20assets/v0.11.235.w/en/myres2/activity_banner/26wenquan1.png",
+      "jp": "https://files.riichi.moe/mjg/game%20resources%20and%20tools/Mahjong%20Soul/raw%20assets/v0.11.235.w/jp/myres2/activity_banner/26wenquan1.png",
+      "kr": "https://files.riichi.moe/mjg/game%20resources%20and%20tools/Mahjong%20Soul/raw%20assets/v0.11.235.w/kr/myres2/activity_banner/26wenquan1.png"
+    },
     "ui/activity/lobby/banner_tab/pic/26wenquan2.png": "MyAssets/ui/activity/lobby/banner_tab/pic/common/26wenquan2.png",
     "ui/activity/lobby/banner_tab/pic/26wenquan2_b.jpg": {
       "jp": "MyAssets/ui/activity/lobby/banner_tab/pic/jp/26wenquan2_b.png"
+    },
+    "ui/activity/lobby/banner_tab/pic/26wenquan_b.jpg": {
+      "cn": "https://files.riichi.moe/mjg/game%20resources%20and%20tools/Mahjong%20Soul/raw%20assets/v0.11.235.w/chs_t/myres2/activity_banner/26wenquan_b.jpg",
+      "en": "https://files.riichi.moe/mjg/game%20resources%20and%20tools/Mahjong%20Soul/raw%20assets/v0.11.235.w/en/myres2/activity_banner/26wenquan_b.jpg",
+      "jp": "https://files.riichi.moe/mjg/game%20resources%20and%20tools/Mahjong%20Soul/raw%20assets/v0.11.235.w/jp/myres2/activity_banner/26wenquan_b.jpg",
+      "kr": "https://files.riichi.moe/mjg/game%20resources%20and%20tools/Mahjong%20Soul/raw%20assets/v0.11.235.w/kr/myres2/activity_banner/26wenquan_b.jpg"
     },
     "ui/activity/lobby/banner_tab/pic/daily_mission.png": "MyAssets/ui/activity/lobby/banner_tab/pic/common/daily_mission.png",
     "ui/activity/lobby/banner_tab/pic/fuhuo.png": "MyAssets/ui/activity/lobby/banner_tab/pic/common/fuhuo.png",

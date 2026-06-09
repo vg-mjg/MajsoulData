@@ -1,4 +1,4 @@
-'use strict';
+"use strict";
 
 /*
  * Idempotent build step for the Mahjong Soul data viewer.
@@ -18,87 +18,118 @@
  * $MJS_FORCE=1 to rebuild even when the mirror is unchanged.
  */
 
-const fs = require('fs');
+const fs = require("fs");
 const fsp = fs.promises;
-const path = require('path');
+const path = require("path");
+const crypto = require("crypto");
 
-const MIRROR = 'https://files.riichi.moe/mjg/game%20resources%20and%20tools/Mahjong%20Soul/unity_raw';
-const SOURCE = (process.env.MJS_SOURCE || MIRROR).replace(/\/+$/, '');
-const FORCE = process.env.MJS_FORCE === '1';
+const MIRROR =
+  "https://files.riichi.moe/mjg/game%20resources%20and%20tools/Mahjong%20Soul/unity_raw";
+const SOURCE = (process.env.MJS_SOURCE || MIRROR).replace(/\/+$/, "");
+const FORCE = process.env.MJS_FORCE === "1";
 
 const ROOT = __dirname;
-const WEB_DIR = path.join(ROOT, 'web');
-const DATA_DIR = path.join(WEB_DIR, 'data');
-const STATE_FILE = path.join(WEB_DIR, '.fetch-state.json');
+const WEB_DIR = path.join(ROOT, "web");
+const DATA_DIR = path.join(WEB_DIR, "data");
+const STATE_FILE = path.join(WEB_DIR, ".fetch-state.json");
 const METADATA_TABLE_SELECTION_VERSION = 1;
 
 const REQUIRED_METADATA_TABLES = new Set([
-  'achievement/achievement',
-  'achievement/achievement_group',
-  'achievement/badge',
-  'achievement/badge_group',
-  'audio/bgm',
-  'character/cutin',
-  'character/emoji',
-  'character/skin',
-  'compose/characompose',
-  'events/base_task',
-  'exchange/exchange',
-  'exchange/fushiquanexchange',
-  'exchange/searchexchange',
-  'item_definition/character',
-  'item_definition/currency',
-  'item_definition/item',
-  'item_definition/item_package',
-  'item_definition/loading_image',
-  'item_definition/skin',
-  'item_definition/source_limit',
-  'item_definition/title',
-  'level_definition/character',
-  'mall/goods',
-  'shops/goods',
-  'spot/character_spot',
-  'spot/rewards',
-  'spot/skin_spot',
-  'spot/spot',
-  'str/event',
-  'str/str',
-  'voice/sound',
-  'voice/spot',
+  "achievement/achievement",
+  "achievement/achievement_group",
+  "achievement/badge",
+  "achievement/badge_group",
+  "audio/bgm",
+  "character/cutin",
+  "character/emoji",
+  "character/skin",
+  "compose/characompose",
+  "events/base_task",
+  "exchange/exchange",
+  "exchange/fushiquanexchange",
+  "exchange/searchexchange",
+  "item_definition/character",
+  "item_definition/currency",
+  "item_definition/item",
+  "item_definition/item_package",
+  "item_definition/loading_image",
+  "item_definition/skin",
+  "item_definition/source_limit",
+  "item_definition/title",
+  "level_definition/character",
+  "mall/goods",
+  "shops/goods",
+  "spot/character_spot",
+  "spot/rewards",
+  "spot/skin_spot",
+  "spot/spot",
+  "str/event",
+  "str/str",
+  "voice/sound",
+  "voice/spot",
 ]);
 
 // Mirror regions. `cn` carries the issuer `chs_t`; the web app maps both the
 // `chs` and `chs_t` UI languages onto it. `en` is the complete base; the others
 // only list paths exclusive to that region.
 const REGIONS = [
-  { key: 'en', meta: 'meta_en.json', manifest: 'extracted/extracted_manifest_en.json' },
-  { key: 'cn', meta: 'meta_cn.json', manifest: 'extracted/extracted_manifest_cn.json' },
-  { key: 'jp', meta: 'meta_jp.json', manifest: 'extracted/extracted_manifest_jp.json' },
-  { key: 'kr', meta: 'meta_kr.json', manifest: 'extracted/extracted_manifest_kr.json' },
+  {
+    key: "en",
+    meta: "meta_en.json",
+    manifest: "extracted/extracted_manifest_en.json",
+  },
+  {
+    key: "cn",
+    meta: "meta_cn.json",
+    manifest: "extracted/extracted_manifest_cn.json",
+  },
+  {
+    key: "jp",
+    meta: "meta_jp.json",
+    manifest: "extracted/extracted_manifest_jp.json",
+  },
+  {
+    key: "kr",
+    meta: "meta_kr.json",
+    manifest: "extracted/extracted_manifest_kr.json",
+  },
 ];
 const REGION_KEYS = REGIONS.map((r) => r.key);
 
-const SPRITE_VARIANTS = ['bighead', 'smallhead', 'full', 'half', 'waitingroom'];
-const SKELETON_EXTS = ['.skel.txt', '.skel', '.json'];
-const IMAGE_EXTS = ['.png', '.jpg', '.jpeg', '.webp'];
-const LEGACY_RAW_ASSETS_BASE = 'https://files.riichi.moe/mjg/game%20resources%20and%20tools/Mahjong%20Soul/raw%20assets';
+const SPRITE_VARIANTS = ["bighead", "smallhead", "full", "half", "waitingroom"];
+const SKELETON_EXTS = [".skel.txt", ".skel", ".json"];
+const IMAGE_EXTS = [".png", ".jpg", ".jpeg", ".webp"];
+const LEGACY_RAW_ASSETS_BASE =
+  "https://files.riichi.moe/mjg/game%20resources%20and%20tools/Mahjong%20Soul/raw%20assets";
+const LEGACY_RESVERSION_MANIFEST_PATHS = [
+  "extracted/legacy_resversion.json",
+  "legacy/resversion.json",
+  "legacy_resversion.json",
+  "resversion.json",
+];
 const LEGACY_CATCHAT_VERSIONS_BY_ACTIVITY = {
-  1244: { jp: 'v0.10.89.w' },
-  220902: 'v0.10.150.w',
-  221007: 'v0.10.167.w',
-  221114: 'v0.10.177.w',
-  230508: 'v0.10.228.w',
-  230707: 'v0.10.251.w',
-  231022: 'v0.10.287.w',
-  231221: 'v0.11.1.w',
-  240613: 'v0.11.48.w',
-  250860: 'v0.11.172.w',
+  1244: { jp: "v0.10.89.w" },
+  220902: "v0.10.150.w",
+  221007: "v0.10.167.w",
+  221114: "v0.10.177.w",
+  230508: "v0.10.228.w",
+  230707: "v0.10.251.w",
+  231022: "v0.10.287.w",
+  231221: "v0.11.1.w",
+  240613: "v0.11.48.w",
+  250860: "v0.11.172.w",
 };
 const LEGACY_RAW_ASSET_PATH_BY_REGION = {
-  en: 'en',
-  cn: 'chs_t',
-  jp: 'jp',
-  kr: 'kr',
+  en: "en",
+  cn: "chs_t",
+  jp: "jp",
+  kr: "kr",
+};
+const TITLE_LOCALE_PRIORITY_BY_REGION = {
+  en: ["en_en", "en", "common", "en_kr", "en_chs_t"],
+  cn: ["chs_t", "chs", "en_chs_t", "common"],
+  jp: ["jp", "common"],
+  kr: ["kr", "en_kr", "common"],
 };
 
 const isHttp = /^https?:/i.test(SOURCE);
@@ -107,14 +138,61 @@ async function readText(relPath) {
   if (isHttp) {
     const url = `${SOURCE}/${relPath}`;
     const res = await fetch(url);
-    if (!res.ok) throw new Error(`GET ${url} -> ${res.status}`);
+    if (!res.ok) {
+      throw new Error(`GET ${url} -> ${res.status}`);
+    }
     return res.text();
   }
-  return fsp.readFile(path.join(SOURCE, relPath), 'utf8');
+  return fsp.readFile(path.join(SOURCE, relPath), "utf8");
 }
 
 async function readJson(relPath) {
   return JSON.parse(await readText(relPath));
+}
+
+function isMissingOptionalRead(error) {
+  const message = String((error && error.message) || "");
+  if (error && error.code === "ENOENT") {
+    return true;
+  }
+  if (/-> 404\b/.test(message)) {
+    return true;
+  }
+  return false;
+}
+
+function sha256(text) {
+  return crypto.createHash("sha256").update(text).digest("hex");
+}
+
+async function readOptionalText(relPath) {
+  try {
+    return await readText(relPath);
+  } catch (error) {
+    if (isMissingOptionalRead(error)) {
+      return null;
+    }
+    throw error;
+  }
+}
+
+async function readFirstOptionalJson(relPaths) {
+  for (const relPath of relPaths) {
+    const text = await readOptionalText(relPath);
+    if (text !== null) {
+      return {
+        relPath,
+        data: JSON.parse(text),
+        sha256: sha256(text),
+      };
+    }
+  }
+
+  return {
+    relPath: null,
+    data: null,
+    sha256: null,
+  };
 }
 
 async function mapLimit(items, limit, fn) {
@@ -123,19 +201,27 @@ async function mapLimit(items, limit, fn) {
   const worker = async () => {
     while (true) {
       const index = cursor++;
-      if (index >= items.length) return;
+      if (index >= items.length) {
+        return;
+      }
       results[index] = await fn(items[index], index);
     }
   };
-  await Promise.all(Array.from({ length: Math.min(limit, items.length || 1) }, worker));
+  await Promise.all(
+    Array.from({ length: Math.min(limit, items.length || 1) }, worker),
+  );
   return results;
 }
 
 function sortKeysDeep(value) {
-  if (Array.isArray(value)) return value.map(sortKeysDeep);
-  if (value && typeof value === 'object') {
+  if (Array.isArray(value)) {
+    return value.map(sortKeysDeep);
+  }
+  if (value && typeof value === "object") {
     const out = {};
-    for (const key of Object.keys(value).sort()) out[key] = sortKeysDeep(value[key]);
+    for (const key of Object.keys(value).sort()) {
+      out[key] = sortKeysDeep(value[key]);
+    }
     return out;
   }
   return value;
@@ -143,12 +229,15 @@ function sortKeysDeep(value) {
 
 async function writeJsonStable(filePath, value) {
   await fsp.mkdir(path.dirname(filePath), { recursive: true });
-  await fsp.writeFile(filePath, JSON.stringify(sortKeysDeep(value), null, 2) + '\n');
+  await fsp.writeFile(
+    filePath,
+    JSON.stringify(sortKeysDeep(value), null, 2) + "\n",
+  );
 }
 
 async function writeJsonVerbatim(filePath, value) {
   await fsp.mkdir(path.dirname(filePath), { recursive: true });
-  await fsp.writeFile(filePath, JSON.stringify(value, null, 2) + '\n');
+  await fsp.writeFile(filePath, JSON.stringify(value, null, 2) + "\n");
 }
 
 function metadataKey(entry) {
@@ -160,10 +249,14 @@ function selectMetadataIndex(index) {
   const selected = [];
 
   for (const entry of index) {
-    if (!entry || !entry.TableName || !entry.SheetName) continue;
+    if (!entry || !entry.TableName || !entry.SheetName) {
+      continue;
+    }
     const key = metadataKey(entry);
-    if (seen.has(key)) continue;
-    if (entry.TableName === 'activity' || REQUIRED_METADATA_TABLES.has(key)) {
+    if (seen.has(key)) {
+      continue;
+    }
+    if (entry.TableName === "activity" || REQUIRED_METADATA_TABLES.has(key)) {
       seen.add(key);
       selected.push(entry);
     }
@@ -173,7 +266,9 @@ function selectMetadataIndex(index) {
     .filter((key) => !seen.has(key))
     .sort();
   if (missing.length > 0) {
-    throw new Error(`Required metadata tables missing from source index: ${missing.join(', ')}`);
+    throw new Error(
+      `Required metadata tables missing from source index: ${missing.join(", ")}`,
+    );
   }
 
   return selected;
@@ -181,16 +276,20 @@ function selectMetadataIndex(index) {
 
 async function listJsonFiles(dir) {
   const out = [];
-  const entries = await fsp.readdir(dir, { withFileTypes: true }).catch((error) => {
-    if (error && error.code === 'ENOENT') return [];
-    throw error;
-  });
+  const entries = await fsp
+    .readdir(dir, { withFileTypes: true })
+    .catch((error) => {
+      if (error && error.code === "ENOENT") {
+        return [];
+      }
+      throw error;
+    });
 
   for (const entry of entries) {
     const fullPath = path.join(dir, entry.name);
     if (entry.isDirectory()) {
-      out.push(...await listJsonFiles(fullPath));
-    } else if (entry.isFile() && entry.name.endsWith('.json')) {
+      out.push(...(await listJsonFiles(fullPath)));
+    } else if (entry.isFile() && entry.name.endsWith(".json")) {
       out.push(fullPath);
     }
   }
@@ -199,35 +298,47 @@ async function listJsonFiles(dir) {
 }
 
 async function removeEmptyDirs(dir) {
-  const entries = await fsp.readdir(dir, { withFileTypes: true }).catch((error) => {
-    if (error && error.code === 'ENOENT') return [];
-    throw error;
-  });
+  const entries = await fsp
+    .readdir(dir, { withFileTypes: true })
+    .catch((error) => {
+      if (error && error.code === "ENOENT") {
+        return [];
+      }
+      throw error;
+    });
 
   for (const entry of entries) {
-    if (entry.isDirectory()) await removeEmptyDirs(path.join(dir, entry.name));
+    if (entry.isDirectory()) {
+      await removeEmptyDirs(path.join(dir, entry.name));
+    }
   }
 
   if (dir !== DATA_DIR) {
     const remaining = await fsp.readdir(dir).catch((error) => {
-      if (error && error.code === 'ENOENT') return [];
+      if (error && error.code === "ENOENT") {
+        return [];
+      }
       throw error;
     });
-    if (remaining.length === 0) await fsp.rmdir(dir);
+    if (remaining.length === 0) {
+      await fsp.rmdir(dir);
+    }
   }
 }
 
 async function pruneUnselectedDataTables(selectedIndex) {
   const keep = new Set([
-    'index.json',
+    "index.json",
     ...selectedIndex.map((entry) => `${metadataKey(entry)}.json`),
   ]);
   const files = await listJsonFiles(DATA_DIR);
   let removed = 0;
 
   for (const filePath of files) {
-    const rel = path.relative(DATA_DIR, filePath).replace(/\\/g, '/');
-    if (keep.has(rel)) continue;
+    const rel = path.relative(DATA_DIR, filePath).replace(/\\/g, "/");
+    if (keep.has(rel)) {
+      continue;
+    }
     await fsp.unlink(filePath);
     removed += 1;
   }
@@ -237,34 +348,45 @@ async function pruneUnselectedDataTables(selectedIndex) {
 }
 
 function stripExt(p) {
-  if (p.endsWith('.skel.txt')) return p.slice(0, -'.skel.txt'.length);
-  if (p.endsWith('.atlas.txt')) return p.slice(0, -'.atlas.txt'.length);
-  const slash = p.lastIndexOf('/');
-  const dot = p.lastIndexOf('.');
+  if (p.endsWith(".skel.txt")) {
+    return p.slice(0, -".skel.txt".length);
+  }
+  if (p.endsWith(".atlas.txt")) {
+    return p.slice(0, -".atlas.txt".length);
+  }
+  const slash = p.lastIndexOf("/");
+  const dot = p.lastIndexOf(".");
   return dot > slash ? p.slice(0, dot) : p;
 }
 
 function baseName(p) {
-  const slash = p.lastIndexOf('/');
+  const slash = p.lastIndexOf("/");
   return slash >= 0 ? p.slice(slash + 1) : p;
 }
 
 function dirName(p) {
-  const slash = p.lastIndexOf('/');
-  return slash >= 0 ? p.slice(0, slash) : '';
+  const slash = p.lastIndexOf("/");
+  return slash >= 0 ? p.slice(0, slash) : "";
 }
 
 function logicalOf(outputPath) {
-  return outputPath.replace(/^MyAssets\//, '');
+  return outputPath.replace(/^MyAssets\//, "");
 }
 
 function normalizeRef(ref) {
-  return String(ref || '').trim().replace(/^\/+|\/+$/g, '').replace(/^MyAssets\//, '');
+  return String(ref || "")
+    .trim()
+    .replace(/^\/+|\/+$/g, "")
+    .replace(/^MyAssets\//, "");
 }
 
 function rowsOf(data) {
-  if (!Array.isArray(data)) return [];
-  if (data.length && Array.isArray(data[0])) return data.flat();
+  if (!Array.isArray(data)) {
+    return [];
+  }
+  if (data.length && Array.isArray(data[0])) {
+    return data.flat();
+  }
   return data;
 }
 
@@ -279,9 +401,13 @@ function buildAssetIndex(manifestsByRegion) {
       rec = { path: logical, regions: new Set() };
       exact.set(logical, rec);
       const ne = stripExt(logical);
-      if (!noext.has(ne)) noext.set(ne, rec);
+      if (!noext.has(ne)) {
+        noext.set(ne, rec);
+      }
       const base = stripExt(baseName(logical)).toLowerCase();
-      if (!byBase.has(base)) byBase.set(base, []);
+      if (!byBase.has(base)) {
+        byBase.set(base, []);
+      }
       byBase.get(base).push(rec);
     }
     rec.regions.add(region);
@@ -290,10 +416,14 @@ function buildAssetIndex(manifestsByRegion) {
   // EN first so it becomes the "first seen" base.
   for (const { key } of REGIONS) {
     const entries = manifestsByRegion[key];
-    if (!entries) continue;
+    if (!entries) {
+      continue;
+    }
     for (const entry of entries) {
       const out = entry && entry.outputPath;
-      if (typeof out !== 'string' || !out.startsWith('MyAssets/')) continue;
+      if (typeof out !== "string" || !out.startsWith("MyAssets/")) {
+        continue;
+      }
       add(logicalOf(out), key);
     }
   }
@@ -302,16 +432,24 @@ function buildAssetIndex(manifestsByRegion) {
 }
 
 function scoreCandidate(candDir, refDir) {
-  if (candDir === refDir) return 1000;
-  if (candDir.startsWith(refDir + '/')) {
-    const extra = candDir.slice(refDir.length + 1).split('/').length;
-    return 500 - extra + (candDir.includes('/common') ? 1 : 0);
+  if (candDir === refDir) {
+    return 1000;
   }
-  if (refDir.startsWith(candDir + '/')) return 300;
-  const a = candDir.split('/');
-  const b = refDir.split('/');
+  if (candDir.startsWith(refDir + "/")) {
+    const extra = candDir.slice(refDir.length + 1).split("/").length;
+    return 500 - extra + (candDir.includes("/common") ? 1 : 0);
+  }
+  if (refDir.startsWith(candDir + "/")) {
+    return 300;
+  }
+  const a = candDir.split("/");
+  const b = refDir.split("/");
   let shared = 0;
-  while (shared < a.length && shared < b.length && a[a.length - 1 - shared] === b[b.length - 1 - shared]) {
+  while (
+    shared < a.length &&
+    shared < b.length &&
+    a[a.length - 1 - shared] === b[b.length - 1 - shared]
+  ) {
     shared += 1;
   }
   return shared;
@@ -322,19 +460,30 @@ function scoreCandidate(candDir, refDir) {
 // that the extractor introduces relative to the logical paths stored in tables.
 function resolveRecord(index, ref) {
   const r = normalizeRef(ref);
-  if (!r) return null;
-  if (index.exact.has(r)) return index.exact.get(r);
+  if (!r) {
+    return null;
+  }
+  if (index.exact.has(r)) {
+    return index.exact.get(r);
+  }
   const ne = stripExt(r);
-  if (index.noext.has(ne)) return index.noext.get(ne);
+  if (index.noext.has(ne)) {
+    return index.noext.get(ne);
+  }
 
   const candidates = index.byBase.get(stripExt(baseName(r)).toLowerCase());
-  if (!candidates || candidates.length === 0) return null;
+  if (!candidates || candidates.length === 0) {
+    return null;
+  }
   const refDir = dirName(r);
   let best = null;
   let bestScore = -1;
   for (const rec of candidates) {
     const score = scoreCandidate(dirName(rec.path), refDir);
-    if (score > bestScore || (score === bestScore && best && rec.path.length < best.path.length)) {
+    if (
+      score > bestScore ||
+      (score === bestScore && best && rec.path.length < best.path.length)
+    ) {
       best = rec;
       bestScore = score;
     }
@@ -343,8 +492,116 @@ function resolveRecord(index, ref) {
 }
 
 function isImagePath(p) {
-  const lower = String(p || '').toLowerCase();
+  const lower = String(p || "").toLowerCase();
   return IMAGE_EXTS.some((ext) => lower.endsWith(ext));
+}
+
+function appRegionsForLegacyBannerPath(regionPath) {
+  if (regionPath === "en") {
+    return [{ region: "en", priority: 0 }];
+  }
+  if (regionPath === "jp") {
+    return [{ region: "jp", priority: 0 }];
+  }
+  if (regionPath === "kr") {
+    return [{ region: "kr", priority: 0 }];
+  }
+  if (regionPath === "chs" || regionPath === "chs_t") {
+    return [{ region: "cn", priority: 0 }];
+  }
+  if (regionPath === "lang/base") {
+    return REGION_KEYS.map((region) => ({ region, priority: 60 }));
+  }
+  if (regionPath === "lang/base_q7") {
+    return REGION_KEYS.map((region) => ({ region, priority: 70 }));
+  }
+
+  const langMatch = regionPath.match(/^lang\/(.+?)(?:_q7)?$/);
+  if (!langMatch) {
+    return [];
+  }
+
+  const lang = langMatch[1];
+  const priority = regionPath.endsWith("_q7") ? 30 : 20;
+  if (lang === "en") {
+    return [{ region: "en", priority }];
+  }
+  if (lang === "jp") {
+    return [{ region: "jp", priority }];
+  }
+  if (lang === "kr") {
+    return [{ region: "kr", priority }];
+  }
+  if (lang === "chs" || lang === "chs_t") {
+    return [{ region: "cn", priority }];
+  }
+
+  return [];
+}
+
+function buildLegacyActivityBannerVersionsByFile(legacyManifest) {
+  const resources =
+    legacyManifest &&
+    legacyManifest.res &&
+    typeof legacyManifest.res === "object"
+      ? legacyManifest.res
+      : {};
+  const bestByFile = new Map();
+
+  for (const [rawResourcePath, info] of Object.entries(resources)) {
+    const resourcePath = normalizeRef(rawResourcePath);
+    const match = resourcePath.match(
+      /^(.+)\/myres2\/activity_banner\/([^/]+)$/,
+    );
+    if (!match) {
+      continue;
+    }
+
+    const regionPath = match[1];
+    const filename = match[2];
+    if (!isImagePath(filename)) {
+      continue;
+    }
+
+    const prefix = String((info && info.prefix) || "").trim();
+    if (!prefix) {
+      continue;
+    }
+
+    const appRegions = appRegionsForLegacyBannerPath(regionPath);
+    if (appRegions.length === 0) {
+      continue;
+    }
+
+    let fileEntry = bestByFile.get(filename);
+    if (!fileEntry) {
+      fileEntry = {};
+      bestByFile.set(filename, fileEntry);
+    }
+
+    for (const { region, priority } of appRegions) {
+      const current = fileEntry[region];
+      if (!current || priority < current.priority) {
+        fileEntry[region] = { prefix, priority };
+      }
+    }
+  }
+
+  const versionsByFile = {};
+  for (const [filename, fileEntry] of bestByFile) {
+    const regionVersions = {};
+    for (const region of REGION_KEYS) {
+      const version = fileEntry[region];
+      if (version) {
+        regionVersions[region] = version.prefix;
+      }
+    }
+    if (Object.keys(regionVersions).length > 0) {
+      versionsByFile[filename] = regionVersions;
+    }
+  }
+
+  return versionsByFile;
 }
 
 // CatChat table paths refer to logical image names while the extracted mirror
@@ -353,24 +610,37 @@ function isImagePath(p) {
 // filenames do not bind to unrelated assets with the same basename.
 function resolveImageRecordStrict(index, ref, minFuzzyScore = 400) {
   const r = normalizeRef(ref);
-  if (!r) return null;
+  if (!r) {
+    return null;
+  }
 
   const exact = index.exact.get(r);
-  if (exact && isImagePath(exact.path)) return exact;
+  if (exact && isImagePath(exact.path)) {
+    return exact;
+  }
 
   const noext = index.noext.get(stripExt(r));
-  if (noext && isImagePath(noext.path)) return noext;
+  if (noext && isImagePath(noext.path)) {
+    return noext;
+  }
 
   const candidates = index.byBase.get(stripExt(baseName(r)).toLowerCase());
-  if (!candidates || candidates.length === 0) return null;
+  if (!candidates || candidates.length === 0) {
+    return null;
+  }
 
   const refDir = dirName(r);
   let best = null;
   let bestScore = -1;
   for (const rec of candidates) {
-    if (!isImagePath(rec.path)) continue;
+    if (!isImagePath(rec.path)) {
+      continue;
+    }
     const score = scoreCandidate(dirName(rec.path), refDir);
-    if (score > bestScore || (score === bestScore && best && rec.path.length < best.path.length)) {
+    if (
+      score > bestScore ||
+      (score === bestScore && best && rec.path.length < best.path.length)
+    ) {
       best = rec;
       bestScore = score;
     }
@@ -392,28 +662,124 @@ function recordToPath(rec) {
 
 function recordToValue(rec) {
   const relative = recordToPath(rec);
-  if (rec.regions.has('en')) return relative;
+  if (rec.regions.has("en")) {
+    return relative;
+  }
   const value = {};
-  for (const key of REGION_KEYS) if (rec.regions.has(key)) value[key] = relative;
+  for (const key of REGION_KEYS) {
+    if (rec.regions.has(key)) {
+      value[key] = relative;
+    }
+  }
   return value;
 }
 
 function resolveImages(images, index, ref, key) {
-  if (images[key] !== undefined) return;
+  if (images[key] !== undefined) {
+    return;
+  }
   const rec = resolveRecord(index, ref);
-  if (rec) images[key] = recordToValue(rec);
+  if (rec) {
+    images[key] = recordToValue(rec);
+  }
 }
 
-function resolveStrictImages(images, index, ref, key) {
-  if (images[key] !== undefined) return;
-  const rec = resolveImageRecordStrict(index, ref);
-  if (rec) images[key] = recordToValue(rec);
+function compressRegionValue(value) {
+  const keys = Object.keys(value || {});
+  if (keys.length === 0) {
+    return null;
+  }
+  if (value.en && keys.every((key) => value[key] === value.en)) {
+    return value.en;
+  }
+  return value;
+}
+
+function titleLocaleScore(region, locale) {
+  const priority = TITLE_LOCALE_PRIORITY_BY_REGION[region] || [];
+  const index = priority.indexOf(locale);
+  return index >= 0 ? index : null;
+}
+
+function resolveTitleImageValue(index, ref) {
+  const r = normalizeRef(ref);
+  const match = r.match(/^(deco\/title\/[^/]+\/pic)\/([^/]+)\.[^.]+$/i);
+  if (!match) {
+    return null;
+  }
+
+  const refDir = match[1];
+  const refStem = stripExt(match[2]).toLowerCase();
+  const candidates = index.byBase.get(refStem);
+  if (!candidates || candidates.length === 0) {
+    return null;
+  }
+
+  const bestByRegion = {};
+  const bestScoreByRegion = {};
+  for (const rec of candidates) {
+    if (!isImagePath(rec.path)) {
+      continue;
+    }
+    if (!rec.path.startsWith(`${refDir}/`)) {
+      continue;
+    }
+
+    const tail = rec.path.slice(refDir.length + 1).split("/");
+    if (tail.length < 1 || tail.length > 2) {
+      continue;
+    }
+
+    const locale = tail.length === 1 ? "common" : tail[0].toLowerCase();
+    const filename = tail[tail.length - 1];
+    if (stripExt(filename).toLowerCase() !== refStem) {
+      continue;
+    }
+
+    for (const region of REGION_KEYS) {
+      const score = titleLocaleScore(region, locale);
+      if (score === null) {
+        continue;
+      }
+      const previous = bestScoreByRegion[region];
+      if (
+        previous === undefined ||
+        score < previous ||
+        (score === previous &&
+          rec.path.length < bestByRegion[region].path.length)
+      ) {
+        bestByRegion[region] = rec;
+        bestScoreByRegion[region] = score;
+      }
+    }
+  }
+
+  const value = {};
+  for (const region of REGION_KEYS) {
+    const rec = bestByRegion[region];
+    if (rec) {
+      value[region] = recordToPath(rec);
+    }
+  }
+  return compressRegionValue(value);
+}
+
+function resolveTitleImages(images, index, ref, key) {
+  if (images[key] !== undefined) {
+    return;
+  }
+  const value = resolveTitleImageValue(index, ref);
+  if (value) {
+    images[key] = value;
+  }
 }
 
 function legacyCatChatVersionMap(activityId) {
   const versions = LEGACY_CATCHAT_VERSIONS_BY_ACTIVITY[Number(activityId) || 0];
-  if (!versions) return null;
-  if (typeof versions === 'string') {
+  if (!versions) {
+    return null;
+  }
+  if (typeof versions === "string") {
     return Object.fromEntries(REGION_KEYS.map((key) => [key, versions]));
   }
   return versions;
@@ -421,32 +787,98 @@ function legacyCatChatVersionMap(activityId) {
 
 function legacyCatChatImageValue(activityId, ref) {
   const filename = baseName(normalizeRef(ref));
-  if (!filename || !isImagePath(filename)) return null;
+  if (!filename || !isImagePath(filename)) {
+    return null;
+  }
   const versions = legacyCatChatVersionMap(activityId);
-  if (!versions) return null;
+  if (!versions) {
+    return null;
+  }
 
   const value = {};
   for (const region of REGION_KEYS) {
     const version = versions[region];
     const rawRegion = LEGACY_RAW_ASSET_PATH_BY_REGION[region];
-    if (!version || !rawRegion) continue;
-    value[region] = `${LEGACY_RAW_ASSETS_BASE}/${version}/${rawRegion}/myres/sns/${filename}`;
+    if (!version || !rawRegion) {
+      continue;
+    }
+    value[region] =
+      `${LEGACY_RAW_ASSETS_BASE}/${version}/${rawRegion}/myres/sns/${filename}`;
   }
 
-  if (Object.keys(value).length === 0) return null;
-  if (REGION_KEYS.every((region) => value[region] === value.en)) return value.en;
+  if (Object.keys(value).length === 0) {
+    return null;
+  }
+  if (REGION_KEYS.every((region) => value[region] === value.en)) {
+    return value.en;
+  }
   return value;
 }
 
 function resolveCatChatImage(images, index, activityId, ref, key) {
-  if (images[key] !== undefined) return;
+  if (images[key] !== undefined) {
+    return;
+  }
   const rec = resolveImageRecordStrict(index, ref);
   if (rec) {
     images[key] = recordToValue(rec);
     return;
   }
   const legacyValue = legacyCatChatImageValue(activityId, ref);
-  if (legacyValue) images[key] = legacyValue;
+  if (legacyValue) {
+    images[key] = legacyValue;
+  }
+}
+
+function legacyActivityBannerImageValue(ref, versionsByFile) {
+  const normalized = normalizeRef(ref);
+  if (!normalized.startsWith("ui/activity/lobby/banner_")) {
+    return null;
+  }
+  const filename = baseName(normalized);
+  if (!filename || !isImagePath(filename)) {
+    return null;
+  }
+
+  const versionsByRegion = (versionsByFile || {})[filename];
+  if (!versionsByRegion) {
+    return null;
+  }
+
+  const value = {};
+  for (const region of REGION_KEYS) {
+    const rawRegion = LEGACY_RAW_ASSET_PATH_BY_REGION[region];
+    const version = versionsByRegion[region];
+    if (rawRegion && version) {
+      value[region] =
+        `${LEGACY_RAW_ASSETS_BASE}/${version}/${rawRegion}/myres2/activity_banner/${filename}`;
+    }
+  }
+  return compressRegionValue(value);
+}
+
+function resolveActivityBannerImage(
+  images,
+  index,
+  ref,
+  key,
+  legacyActivityBannerVersionsByFile,
+) {
+  if (images[key] !== undefined) {
+    return;
+  }
+  const rec = resolveImageRecordStrict(index, ref);
+  if (rec) {
+    images[key] = recordToValue(rec);
+    return;
+  }
+  const legacyValue = legacyActivityBannerImageValue(
+    ref,
+    legacyActivityBannerVersionsByFile,
+  );
+  if (legacyValue) {
+    images[key] = legacyValue;
+  }
 }
 
 function buildEmojiDirIndex(index) {
@@ -454,15 +886,25 @@ function buildEmojiDirIndex(index) {
   const dirs = new Map();
   const pattern = /^(deco\/emo\/[^/]+)\/(?:.*\/)?([^/]+)\.png$/i;
   for (const [logical, rec] of index.exact) {
-    if (!logical.startsWith('deco/emo/')) continue;
+    if (!logical.startsWith("deco/emo/")) {
+      continue;
+    }
     const match = logical.match(pattern);
-    if (!match) continue;
+    if (!match) {
+      continue;
+    }
     const dir = match[1];
     const base = match[2];
-    if (/^atlas_/i.test(base)) continue; // skip packed-atlas textures/configs
-    if (!dirs.has(dir)) dirs.set(dir, new Map());
+    if (/^atlas_/i.test(base)) {
+      continue;
+    }
+    if (!dirs.has(dir)) {
+      dirs.set(dir, new Map());
+    }
     const byBase = dirs.get(dir);
-    if (!byBase.has(base)) byBase.set(base, rec);
+    if (!byBase.has(base)) {
+      byBase.set(base, rec);
+    }
   }
   return dirs;
 }
@@ -472,9 +914,13 @@ function buildSpineSkinIndex(index) {
   const bySkin = new Map();
   for (const [logical, rec] of index.exact) {
     const match = logical.match(/^spine\/(\d+)\//);
-    if (!match) continue;
+    if (!match) {
+      continue;
+    }
     const id = match[1];
-    if (!bySkin.has(id)) bySkin.set(id, []);
+    if (!bySkin.has(id)) {
+      bySkin.set(id, []);
+    }
     bySkin.get(id).push(rec);
   }
   return bySkin;
@@ -486,28 +932,38 @@ function isSkeletonPath(p) {
 
 function spineLayerName(skinId, dir) {
   const tail = baseName(dir);
-  if (tail === skinId) return 'plain';
-  return /^\d+$/.test(tail) ? tail : 'plain';
+  if (tail === skinId) {
+    return "plain";
+  }
+  return /^\d+$/.test(tail) ? tail : "plain";
 }
 
 function resolveSpine(records, skinId) {
   const byDir = new Map();
   for (const rec of records) {
     const dir = dirName(rec.path);
-    if (!byDir.has(dir)) byDir.set(dir, []);
+    if (!byDir.has(dir)) {
+      byDir.set(dir, []);
+    }
     byDir.get(dir).push(rec);
   }
 
   const layers = [];
   for (const [dir, recs] of byDir) {
     const skeleton = recs.find((r) => isSkeletonPath(r.path));
-    const atlas = recs.find((r) => r.path.endsWith('.atlas.txt') || r.path.endsWith('.atlas'));
-    if (!skeleton || !atlas) continue;
+    const atlas = recs.find(
+      (r) => r.path.endsWith(".atlas.txt") || r.path.endsWith(".atlas"),
+    );
+    if (!skeleton || !atlas) {
+      continue;
+    }
     const textures = recs
-      .filter((r) => r.path.endsWith('.png'))
+      .filter((r) => r.path.endsWith(".png"))
       .sort((a, b) => a.path.localeCompare(b.path))
       .map(recordToValue);
-    if (textures.length === 0) continue;
+    if (textures.length === 0) {
+      continue;
+    }
     layers.push({
       name: spineLayerName(skinId, dir),
       skeleton: recordToValue(skeleton),
@@ -532,12 +988,19 @@ async function main() {
   for (const region of REGIONS) {
     manifestsRaw[region.key] = await readJson(region.manifest);
   }
-  const audioManifest = await readJson('extracted/audio_manifest.json');
+  const audioManifest = await readJson("extracted/audio_manifest.json");
+  const legacyResversionManifest = await readFirstOptionalJson(
+    LEGACY_RESVERSION_MANIFEST_PATHS,
+  );
+  const legacyActivityBannerVersionsByFile =
+    buildLegacyActivityBannerVersionsByFile(legacyResversionManifest.data);
 
   const manifestsByRegion = {};
   for (const region of REGIONS) {
     const m = manifestsRaw[region.key];
-    manifestsByRegion[region.key] = Array.isArray(m) ? m : (m && m.entries) || [];
+    manifestsByRegion[region.key] = Array.isArray(m)
+      ? m
+      : (m && m.entries) || [];
   }
 
   // Idempotency check
@@ -551,32 +1014,54 @@ async function main() {
       manifest_generated_at: (manifest && manifest.generatedAt) || null,
     };
   }
-  newState.audio_count = Array.isArray(audioManifest) ? audioManifest.length : 0;
+  newState.audio_count = Array.isArray(audioManifest)
+    ? audioManifest.length
+    : 0;
+  newState.legacy_resversion = {
+    path: legacyResversionManifest.relPath,
+    sha256: legacyResversionManifest.sha256,
+    activity_banner_count: Object.keys(legacyActivityBannerVersionsByFile)
+      .length,
+  };
   newState.metadata_tables = {
     selection_version: METADATA_TABLE_SELECTION_VERSION,
     include_activity: true,
     required: Array.from(REQUIRED_METADATA_TABLES).sort(),
   };
 
-  const oldState = await fsp.readFile(STATE_FILE, 'utf8').then(JSON.parse).catch(() => null);
-  const resourcesExist = fs.existsSync(path.join(WEB_DIR, 'resources.json'));
-  if (!FORCE && resourcesExist && JSON.stringify(oldState) === JSON.stringify(newState)) {
-    console.log('Mirror unchanged; nothing to do (set MJS_FORCE=1 to rebuild).');
+  const oldState = await fsp
+    .readFile(STATE_FILE, "utf8")
+    .then(JSON.parse)
+    .catch(() => null);
+  const resourcesExist = fs.existsSync(path.join(WEB_DIR, "resources.json"));
+  if (
+    !FORCE &&
+    resourcesExist &&
+    JSON.stringify(oldState) === JSON.stringify(newState)
+  ) {
+    console.log(
+      "Mirror unchanged; nothing to do (set MJS_FORCE=1 to rebuild).",
+    );
     return;
   }
 
   // Download the metadata tables consumed by the app.
-  const sourceIndex = await readJson('metadata/index.json');
+  const sourceIndex = await readJson("metadata/index.json");
   const index = selectMetadataIndex(sourceIndex);
-  console.log(`Downloading ${index.length} of ${sourceIndex.length} data tables...`);
+  console.log(
+    `Downloading ${index.length} of ${sourceIndex.length} data tables...`,
+  );
   const tablesByName = new Map();
   await mapLimit(index, 16, async (entry) => {
     const rel = `metadata/tables/${entry.TableName}/${entry.SheetName}.json`;
     const data = await readJson(rel);
     tablesByName.set(`${entry.TableName}/${entry.SheetName}`, data);
-    await writeJsonVerbatim(path.join(DATA_DIR, `${entry.TableName}/${entry.SheetName}.json`), data);
+    await writeJsonVerbatim(
+      path.join(DATA_DIR, `${entry.TableName}/${entry.SheetName}.json`),
+      data,
+    );
   });
-  await writeJsonVerbatim(path.join(DATA_DIR, 'index.json'), index);
+  await writeJsonVerbatim(path.join(DATA_DIR, "index.json"), index);
   const prunedDataTables = await pruneUnselectedDataTables(index);
   console.log(`Data tables written; pruned ${prunedDataTables} stale tables.`);
 
@@ -585,6 +1070,9 @@ async function main() {
   const emojiDirIndex = buildEmojiDirIndex(assetIndex);
   const spineSkinIndex = buildSpineSkinIndex(assetIndex);
   console.log(`Indexed ${assetIndex.exact.size} unique asset paths.`);
+  console.log(
+    `Indexed ${Object.keys(legacyActivityBannerVersionsByFile).length} legacy activity banner versions.`,
+  );
 
   const resources = {
     generated_at: metas.en.generated_at,
@@ -596,80 +1084,143 @@ async function main() {
   const table = (name) => tablesByName.get(name);
 
   //  Character/skin sprites (key: "<skin.path>/<variant>")
-  const skins = rowsOf(table('item_definition/skin'));
+  const skins = rowsOf(table("item_definition/skin"));
   for (const skin of skins) {
     const skinPath = normalizeRef(skin.path);
-    if (!skinPath) continue;
+    if (!skinPath) {
+      continue;
+    }
     for (const variant of SPRITE_VARIANTS) {
-      resolveImages(resources.images, assetIndex, `${skinPath}/${variant}/${variant}.png`, `${skinPath}/${variant}`);
+      resolveImages(
+        resources.images,
+        assetIndex,
+        `${skinPath}/${variant}/${variant}.png`,
+        `${skinPath}/${variant}`,
+      );
     }
   }
 
   // Item & currency icons (key: the table's logical icon path)
-  for (const name of ['item_definition/item', 'item_definition/currency']) {
+  for (const name of ["item_definition/item", "item_definition/currency"]) {
     for (const row of rowsOf(table(name))) {
-      for (const field of ['icon', 'icon_transparent']) {
+      for (const field of ["icon", "icon_transparent"]) {
         const ref = normalizeRef(row[field]);
-        if (ref) resolveImages(resources.images, assetIndex, ref, ref);
+        if (ref) {
+          resolveImages(resources.images, assetIndex, ref, ref);
+        }
+      }
+    }
+  }
+
+  // Title icons expose both list/item-form and regular title-form images.
+  for (const row of rowsOf(table("item_definition/title"))) {
+    for (const field of ["icon", "icon_item"]) {
+      const ref = normalizeRef(row[field]);
+      if (ref) {
+        resolveTitleImages(resources.images, assetIndex, ref, ref);
       }
     }
   }
 
   // 5c. Loading images (key: the img/thumb path).
-  for (const row of rowsOf(table('item_definition/loading_image'))) {
-    for (const field of ['img_path', 'thumb_path']) {
+  for (const row of rowsOf(table("item_definition/loading_image"))) {
+    for (const field of ["img_path", "thumb_path"]) {
       const ref = normalizeRef(row[field]);
-      if (ref) resolveImages(resources.images, assetIndex, ref, ref);
+      if (ref) {
+        resolveImages(resources.images, assetIndex, ref, ref);
+      }
     }
   }
 
   // Emoji (key: "<character.emo>/<sub_id>")
-  const characters = rowsOf(table('item_definition/character'));
+  const characters = rowsOf(table("item_definition/character"));
   for (const character of characters) {
     const emo = normalizeRef(character.emo);
-    if (!emo) continue;
+    if (!emo) {
+      continue;
+    }
     const merged = new Map();
     for (const [dir, byBase] of emojiDirIndex) {
       if (dir === emo) {
-        for (const [base, rec] of byBase) if (!merged.has(base)) merged.set(base, rec);
+        for (const [base, rec] of byBase) {
+          if (!merged.has(base)) {
+            merged.set(base, rec);
+          }
+        }
       }
     }
     for (const [base, rec] of merged) {
       const key = `${emo}/${base}`;
-      if (resources.images[key] === undefined) resources.images[key] = recordToValue(rec);
+      if (resources.images[key] === undefined) {
+        resources.images[key] = recordToValue(rec);
+      }
     }
   }
 
   // Activity banners (key: the table's logical banner path)
-  for (const row of rowsOf(table('activity/activity_banner'))) {
-    for (const field of ['banner_big', 'banner_left', 'banner_left_selected', 'enter_icon', 'banner_left_icon']) {
+  for (const row of rowsOf(table("activity/activity_banner"))) {
+    for (const field of [
+      "banner_big",
+      "banner_left",
+      "banner_left_selected",
+      "enter_icon",
+      "banner_left_icon",
+    ]) {
       const ref = normalizeRef(row[field]);
-      if (ref) resolveImages(resources.images, assetIndex, ref, ref);
+      if (ref) {
+        resolveActivityBannerImage(
+          resources.images,
+          assetIndex,
+          ref,
+          ref,
+          legacyActivityBannerVersionsByFile,
+        );
+      }
     }
   }
 
   // CatChat post images and custom heads (key: the table's logical path).
-  for (const row of rowsOf(table('activity/sns_activity'))) {
+  for (const row of rowsOf(table("activity/sns_activity"))) {
     const activityId = row.activity_id;
-    const contentImages = Array.isArray(row.content_image) ? row.content_image : [];
+    const contentImages = Array.isArray(row.content_image)
+      ? row.content_image
+      : [];
     for (const imageRef of contentImages) {
       const ref = normalizeRef(imageRef);
-      if (ref) resolveCatChatImage(resources.images, assetIndex, activityId, ref, ref);
+      if (ref) {
+        resolveCatChatImage(resources.images, assetIndex, activityId, ref, ref);
+      }
     }
 
     const headRef = normalizeRef(row.content_head);
-    if (headRef) resolveCatChatImage(resources.images, assetIndex, activityId, headRef, headRef);
+    if (headRef) {
+      resolveCatChatImage(
+        resources.images,
+        assetIndex,
+        activityId,
+        headRef,
+        headRef,
+      );
+    }
   }
 
   // Spine (key: skinid)
   for (const [skinId, records] of spineSkinIndex) {
     const resolved = resolveSpine(records, skinId);
-    if (resolved) resources.spine[skinId] = resolved;
+    if (resolved) {
+      resources.spine[skinId] = resolved;
+    }
   }
 
   // Audio: emit the full (EN) audio set by logical path
   for (const entry of audioManifest) {
-    if (!entry || typeof entry.path !== 'string' || !entry.path.startsWith('MyAssets/')) continue;
+    if (
+      !entry ||
+      typeof entry.path !== "string" ||
+      !entry.path.startsWith("MyAssets/")
+    ) {
+      continue;
+    }
     const logical = logicalOf(entry.path);
     if (resources.audio[logical] === undefined) {
       // entry.path already starts with "MyAssets/"; relative to RESOURCE_BASE.
@@ -678,7 +1229,7 @@ async function main() {
   }
 
   // Write outputs
-  await writeJsonStable(path.join(WEB_DIR, 'resources.json'), resources);
+  await writeJsonStable(path.join(WEB_DIR, "resources.json"), resources);
 
   const version = {};
   for (const region of REGIONS) {
@@ -691,18 +1242,18 @@ async function main() {
       generated_at: meta.generated_at,
     };
   }
-  await writeJsonVerbatim(path.join(WEB_DIR, 'version.json'), version);
+  await writeJsonVerbatim(path.join(WEB_DIR, "version.json"), version);
   await writeJsonVerbatim(STATE_FILE, newState);
 
   console.log(
     `Resolved ${Object.keys(resources.images).length} images, ` +
-    `${Object.keys(resources.audio).length} audio, ` +
-    `${Object.keys(resources.spine).length} spine sets.`,
+      `${Object.keys(resources.audio).length} audio, ` +
+      `${Object.keys(resources.spine).length} spine sets.`,
   );
-  console.log('Done.');
+  console.log("Done.");
 }
 
 main().catch((error) => {
-  console.error('Fatal error:', error);
+  console.error("Fatal error:", error);
   process.exitCode = 1;
 });
