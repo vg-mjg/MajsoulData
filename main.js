@@ -368,6 +368,14 @@ function normalizeRef(ref) {
     .replace(/^MyAssets\//, "");
 }
 
+function numberValue(value) {
+  const numeric = Number(value);
+  if (Number.isFinite(numeric)) {
+    return numeric;
+  }
+  return 0;
+}
+
 function rowsOf(data) {
   if (!Array.isArray(data)) {
     return [];
@@ -482,6 +490,70 @@ function resolveRecord(index, ref) {
 function isImagePath(p) {
   const lower = String(p || "").toLowerCase();
   return IMAGE_EXTS.some((ext) => lower.endsWith(ext));
+}
+
+function isAudioPath(p) {
+  return /\.(mp3|ogg|wav|m4a)$/i.test(String(p || ""));
+}
+
+function tableclothOriginalRefs(row) {
+  if (numberValue(row && row.category) !== 5) {
+    return [];
+  }
+  if (numberValue(row && row.type) !== 6) {
+    return [];
+  }
+
+  const icon = normalizeRef(row && row.icon);
+  const match = icon.match(/^(deco\/tablecloth\/[^/]+)\/pic\/[^/]+\.[^.]+$/i);
+  if (!match) {
+    return [];
+  }
+
+  const base = match[1];
+  return [
+    `${base}/3d/texture/Table_Dif.png`,
+    `${base}/preview/preview.png`,
+  ];
+}
+
+function firstAudioPathFromSargs(sargs) {
+  const values = Array.isArray(sargs) ? sargs : [sargs];
+  for (const value of values) {
+    const text = String(value || "").trim();
+    if (!text) {
+      continue;
+    }
+    if (isAudioPath(text)) {
+      return text;
+    }
+    const parts = text
+      .split(",")
+      .map((token) => token.trim())
+      .filter(Boolean);
+    const token = parts.find((part) => isAudioPath(part));
+    if (token) {
+      return token;
+    }
+  }
+  return "";
+}
+
+function riichiMusicAudioKeys(row) {
+  if (numberValue(row && row.category) !== 5) {
+    return [];
+  }
+  if (numberValue(row && row.type) !== 4) {
+    return [];
+  }
+  const raw = normalizeRef(firstAudioPathFromSargs(row && row.sargs));
+  if (!raw) {
+    return [];
+  }
+  if (raw.startsWith("audio/")) {
+    return [raw];
+  }
+  return [`audio/${raw}`];
 }
 
 function appRegionsForLegacyResourcePath(regionPath) {
@@ -1242,6 +1314,9 @@ async function main() {
           resolveImages(resources.images, assetIndex, ref, ref);
         }
       }
+      for (const ref of tableclothOriginalRefs(row)) {
+        resolveImages(resources.images, assetIndex, ref, ref);
+      }
     }
   }
 
@@ -1368,6 +1443,14 @@ async function main() {
     if (resources.audio[logical] === undefined) {
       // entry.path already starts with "MyAssets/"; relative to RESOURCE_BASE.
       resources.audio[logical] = entry.path;
+    }
+  }
+  for (const row of rowsOf(table("item_definition/item"))) {
+    for (const logical of riichiMusicAudioKeys(row)) {
+      if (resources.audio[logical] !== undefined) {
+        continue;
+      }
+      resources.audio[logical] = `MyAssets/${logical}`;
     }
   }
 

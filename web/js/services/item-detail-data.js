@@ -216,6 +216,36 @@ function titleOriginalCandidates(entry, repository, language) {
   return imageCandidates(repository.resources, iconOriginal, language);
 }
 
+function tableclothOriginalRefs(entry) {
+  if (numberValue(entry && entry.category) !== 5) {
+    return [];
+  }
+  if (numberValue(entry && entry.type) !== 6) {
+    return [];
+  }
+
+  const icon = stringValue(entry && entry.icon).trim().replace(/^\/+|\/+$/g, "").replace(/^MyAssets\//, "");
+  const match = icon.match(/^(deco\/tablecloth\/[^/]+)\/pic\/[^/]+\.[^.]+$/i);
+  if (!match) {
+    return [];
+  }
+
+  const base = match[1];
+  return [
+    `${base}/3d/texture/Table_Dif.png`,
+    `${base}/preview/preview.png`,
+    icon,
+  ];
+}
+
+function tableclothOriginalCandidates(entry, repository, language) {
+  const candidates = [];
+  for (const ref of tableclothOriginalRefs(entry)) {
+    candidates.push(...imageCandidates(repository.resources, ref, language));
+  }
+  return candidates;
+}
+
 function firstAudioPathFromSargs(sargs) {
   const values = Array.isArray(sargs) ? sargs : [sargs];
   for (const value of values) {
@@ -301,6 +331,7 @@ export async function loadItemDetail(itemId, language) {
     ? loadingOriginalCandidates(entry, normalizedItemId, repository, language)
     : [];
   const titleOriginalImage = titleOriginalCandidates(entry, repository, language);
+  const tableclothOriginalImage = tableclothOriginalCandidates(entry, repository, language);
   const audioPreview = itemAudioPreview(entry, normalizedItemId, language, repository);
   const musicAudio = audioPreview ? firstAudioCandidates(repository.resources, audioKeysFor(audioPreview.path)) : [];
 
@@ -344,7 +375,7 @@ export async function loadItemDetail(itemId, language) {
       icon: itemIconCandidates(entry, repository.resources, language),
       loadingOriginalImage,
       portraitFrameOriginalImage: [],
-      tableclothOriginalImage: [],
+      tableclothOriginalImage,
       backgroundOriginalImage: [],
       tileFaceOriginalImage: [],
       titleOriginalImage,
@@ -378,7 +409,7 @@ export async function loadItemDetail(itemId, language) {
       characterMaterialUsage: characterMaterialUsage.length,
       loadingOriginalImage: loadingOriginalImage.length,
       portraitFrameOriginalImage: 0,
-      tableclothOriginalImage: 0,
+      tableclothOriginalImage: tableclothOriginalImage.length,
       backgroundOriginalImage: 0,
       tileFaceOriginalImage: 0,
       titleOriginalImage: titleOriginalImage.length,
