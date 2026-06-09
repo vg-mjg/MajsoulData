@@ -25,7 +25,8 @@
   "legacy_resversion": {
     "path": "extracted/legacy_resversion.json",
     "sha256": "09e31ca66bacdccec28f1630050ca9bb1a3afaefad9a21c1b939519c48450d2d",
-    "activity_banner_count": 96
+    "activity_banner_count": 96,
+    "catchat_sns_count": 148
   },
   "metadata_tables": {
     "selection_version": 1,

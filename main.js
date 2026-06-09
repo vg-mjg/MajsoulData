@@ -107,18 +107,6 @@ const LEGACY_RESVERSION_MANIFEST_PATHS = [
   "legacy_resversion.json",
   "resversion.json",
 ];
-const LEGACY_CATCHAT_VERSIONS_BY_ACTIVITY = {
-  1244: { jp: "v0.10.89.w" },
-  220902: "v0.10.150.w",
-  221007: "v0.10.167.w",
-  221114: "v0.10.177.w",
-  230508: "v0.10.228.w",
-  230707: "v0.10.251.w",
-  231022: "v0.10.287.w",
-  231221: "v0.11.1.w",
-  240613: "v0.11.48.w",
-  250860: "v0.11.172.w",
-};
 const LEGACY_RAW_ASSET_PATH_BY_REGION = {
   en: "en",
   cn: "chs_t",
@@ -496,7 +484,10 @@ function isImagePath(p) {
   return IMAGE_EXTS.some((ext) => lower.endsWith(ext));
 }
 
-function appRegionsForLegacyBannerPath(regionPath) {
+function appRegionsForLegacyResourcePath(regionPath) {
+  if (regionPath === "") {
+    return REGION_KEYS.map((region) => ({ region, priority: 40 }));
+  }
   if (regionPath === "en") {
     return [{ region: "en", priority: 0 }];
   }
@@ -539,7 +530,33 @@ function appRegionsForLegacyBannerPath(regionPath) {
   return [];
 }
 
-function buildLegacyActivityBannerVersionsByFile(legacyManifest) {
+function legacyResourceMatch(resourcePath, resourceDir) {
+  if (resourcePath.startsWith(`${resourceDir}/`)) {
+    const filename = resourcePath.slice(resourceDir.length + 1);
+    if (filename.includes("/")) {
+      return null;
+    }
+    return { regionPath: "", filename };
+  }
+
+  const marker = `/${resourceDir}/`;
+  const markerIndex = resourcePath.lastIndexOf(marker);
+  if (markerIndex < 0) {
+    return null;
+  }
+
+  const filename = resourcePath.slice(markerIndex + marker.length);
+  if (filename.includes("/")) {
+    return null;
+  }
+
+  return {
+    regionPath: resourcePath.slice(0, markerIndex),
+    filename,
+  };
+}
+
+function buildLegacyVersionsByFile(legacyManifest, resourceDir) {
   const resources =
     legacyManifest &&
     legacyManifest.res &&
@@ -550,15 +567,12 @@ function buildLegacyActivityBannerVersionsByFile(legacyManifest) {
 
   for (const [rawResourcePath, info] of Object.entries(resources)) {
     const resourcePath = normalizeRef(rawResourcePath);
-    const match = resourcePath.match(
-      /^(.+)\/myres2\/activity_banner\/([^/]+)$/,
-    );
+    const match = legacyResourceMatch(resourcePath, resourceDir);
     if (!match) {
       continue;
     }
 
-    const regionPath = match[1];
-    const filename = match[2];
+    const { regionPath, filename } = match;
     if (!isImagePath(filename)) {
       continue;
     }
@@ -568,7 +582,7 @@ function buildLegacyActivityBannerVersionsByFile(legacyManifest) {
       continue;
     }
 
-    const appRegions = appRegionsForLegacyBannerPath(regionPath);
+    const appRegions = appRegionsForLegacyResourcePath(regionPath);
     if (appRegions.length === 0) {
       continue;
     }
@@ -602,6 +616,103 @@ function buildLegacyActivityBannerVersionsByFile(legacyManifest) {
   }
 
   return versionsByFile;
+}
+
+function buildLegacyActivityBannerVersionsByFile(legacyManifest) {
+  return buildLegacyVersionsByFile(legacyManifest, "myres2/activity_banner");
+}
+
+function buildLegacyCatChatVersionsByFile(legacyManifest) {
+  return buildLegacyVersionsByFile(legacyManifest, "myres/sns");
+}
+
+function isLegacyCatChatRef(ref) {
+  const normalized = normalizeRef(ref);
+  return normalized.startsWith("ui/activity/extend/catchat/main/pic_scattered/");
+}
+
+function legacyCatChatRefsOfRow(row) {
+  const refs = [];
+  const contentImages = Array.isArray(row && row.content_image)
+    ? row.content_image
+    : [];
+  for (const imageRef of contentImages) {
+    const ref = normalizeRef(imageRef);
+    if (isLegacyCatChatRef(ref)) {
+      refs.push(ref);
+    }
+  }
+
+  const headRef = normalizeRef(row && row.content_head);
+  if (isLegacyCatChatRef(headRef)) {
+    refs.push(headRef);
+  }
+  return refs;
+}
+
+function incrementVersionCount(countsByRegion, region, version) {
+  if (!countsByRegion[region]) {
+    countsByRegion[region] = new Map();
+  }
+  const counts = countsByRegion[region];
+  counts.set(version, (counts.get(version) || 0) + 1);
+}
+
+function mostCommonVersion(counts) {
+  let bestVersion = null;
+  let bestCount = -1;
+  for (const [version, count] of counts) {
+    if (count > bestCount) {
+      bestVersion = version;
+      bestCount = count;
+    }
+  }
+  return bestVersion;
+}
+
+function buildLegacyCatChatVersionsByActivity(rows, versionsByFile) {
+  const countsByActivity = new Map();
+  for (const row of rowsOf(rows)) {
+    const activityId = String(row && row.activity_id);
+    if (!activityId) {
+      continue;
+    }
+
+    let countsByRegion = countsByActivity.get(activityId);
+    if (!countsByRegion) {
+      countsByRegion = {};
+      countsByActivity.set(activityId, countsByRegion);
+    }
+
+    for (const ref of legacyCatChatRefsOfRow(row)) {
+      const versionsByRegion = versionsByFile[baseName(ref)];
+      if (!versionsByRegion) {
+        continue;
+      }
+      for (const region of REGION_KEYS) {
+        const version = versionsByRegion[region];
+        if (version) {
+          incrementVersionCount(countsByRegion, region, version);
+        }
+      }
+    }
+  }
+
+  const versionsByActivity = {};
+  for (const [activityId, countsByRegion] of countsByActivity) {
+    const versionsByRegion = {};
+    for (const region of REGION_KEYS) {
+      const counts = countsByRegion[region];
+      if (counts) {
+        versionsByRegion[region] = mostCommonVersion(counts);
+      }
+    }
+    if (Object.keys(versionsByRegion).length > 0) {
+      versionsByActivity[activityId] = versionsByRegion;
+    }
+  }
+
+  return versionsByActivity;
 }
 
 // CatChat table paths refer to logical image names while the extracted mirror
@@ -774,30 +885,26 @@ function resolveTitleImages(images, index, ref, key) {
   }
 }
 
-function legacyCatChatVersionMap(activityId) {
-  const versions = LEGACY_CATCHAT_VERSIONS_BY_ACTIVITY[Number(activityId) || 0];
-  if (!versions) {
-    return null;
-  }
-  if (typeof versions === "string") {
-    return Object.fromEntries(REGION_KEYS.map((key) => [key, versions]));
-  }
-  return versions;
-}
-
-function legacyCatChatImageValue(activityId, ref) {
+function legacyCatChatImageValue(
+  activityId,
+  ref,
+  legacyCatChatVersionsByFile,
+  legacyCatChatVersionsByActivity,
+) {
   const filename = baseName(normalizeRef(ref));
   if (!filename || !isImagePath(filename)) {
     return null;
   }
-  const versions = legacyCatChatVersionMap(activityId);
-  if (!versions) {
+  const versionsByRegion =
+    (legacyCatChatVersionsByFile || {})[filename] ||
+    (legacyCatChatVersionsByActivity || {})[String(activityId)];
+  if (!versionsByRegion) {
     return null;
   }
 
   const value = {};
   for (const region of REGION_KEYS) {
-    const version = versions[region];
+    const version = versionsByRegion[region];
     const rawRegion = LEGACY_RAW_ASSET_PATH_BY_REGION[region];
     if (!version || !rawRegion) {
       continue;
@@ -815,7 +922,15 @@ function legacyCatChatImageValue(activityId, ref) {
   return value;
 }
 
-function resolveCatChatImage(images, index, activityId, ref, key) {
+function resolveCatChatImage(
+  images,
+  index,
+  activityId,
+  ref,
+  key,
+  legacyCatChatVersionsByFile,
+  legacyCatChatVersionsByActivity,
+) {
   if (images[key] !== undefined) {
     return;
   }
@@ -824,7 +939,12 @@ function resolveCatChatImage(images, index, activityId, ref, key) {
     images[key] = recordToValue(rec);
     return;
   }
-  const legacyValue = legacyCatChatImageValue(activityId, ref);
+  const legacyValue = legacyCatChatImageValue(
+    activityId,
+    ref,
+    legacyCatChatVersionsByFile,
+    legacyCatChatVersionsByActivity,
+  );
   if (legacyValue) {
     images[key] = legacyValue;
   }
@@ -994,6 +1114,9 @@ async function main() {
   );
   const legacyActivityBannerVersionsByFile =
     buildLegacyActivityBannerVersionsByFile(legacyResversionManifest.data);
+  const legacyCatChatVersionsByFile = buildLegacyCatChatVersionsByFile(
+    legacyResversionManifest.data,
+  );
 
   const manifestsByRegion = {};
   for (const region of REGIONS) {
@@ -1022,6 +1145,7 @@ async function main() {
     sha256: legacyResversionManifest.sha256,
     activity_banner_count: Object.keys(legacyActivityBannerVersionsByFile)
       .length,
+    catchat_sns_count: Object.keys(legacyCatChatVersionsByFile).length,
   };
   newState.metadata_tables = {
     selection_version: METADATA_TABLE_SELECTION_VERSION,
@@ -1082,6 +1206,15 @@ async function main() {
     spine: {},
   };
   const table = (name) => tablesByName.get(name);
+  const snsActivityRows = rowsOf(table("activity/sns_activity"));
+  const legacyCatChatVersionsByActivity =
+    buildLegacyCatChatVersionsByActivity(
+      snsActivityRows,
+      legacyCatChatVersionsByFile,
+    );
+  console.log(
+    `Indexed ${Object.keys(legacyCatChatVersionsByFile).length} legacy CatChat image versions.`,
+  );
 
   //  Character/skin sprites (key: "<skin.path>/<variant>")
   const skins = rowsOf(table("item_definition/skin"));
@@ -1180,7 +1313,7 @@ async function main() {
   }
 
   // CatChat post images and custom heads (key: the table's logical path).
-  for (const row of rowsOf(table("activity/sns_activity"))) {
+  for (const row of snsActivityRows) {
     const activityId = row.activity_id;
     const contentImages = Array.isArray(row.content_image)
       ? row.content_image
@@ -1188,7 +1321,15 @@ async function main() {
     for (const imageRef of contentImages) {
       const ref = normalizeRef(imageRef);
       if (ref) {
-        resolveCatChatImage(resources.images, assetIndex, activityId, ref, ref);
+        resolveCatChatImage(
+          resources.images,
+          assetIndex,
+          activityId,
+          ref,
+          ref,
+          legacyCatChatVersionsByFile,
+          legacyCatChatVersionsByActivity,
+        );
       }
     }
 
@@ -1200,6 +1341,8 @@ async function main() {
         activityId,
         headRef,
         headRef,
+        legacyCatChatVersionsByFile,
+        legacyCatChatVersionsByActivity,
       );
     }
   }
