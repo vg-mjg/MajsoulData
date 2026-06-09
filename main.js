@@ -99,6 +99,15 @@ const REGION_KEYS = REGIONS.map((r) => r.key);
 const SPRITE_VARIANTS = ["bighead", "smallhead", "full", "half", "waitingroom"];
 const SKELETON_EXTS = [".skel.txt", ".skel", ".json"];
 const IMAGE_EXTS = [".png", ".jpg", ".jpeg", ".webp"];
+const TABLECLOTH_ICON_RE =
+  /^(deco\/tablecloth\/[^/]+)\/pic\/[^/]+\.[^.]+$/i;
+const TABLECLOTH_TOKEN_RE = /\b(?:tablecloth|mjp)_[a-z0-9_]+/gi;
+const TABLECLOTH_NAME_RE = /^(?:tablecloth|mjp)_([a-z0-9_]+)$/i;
+const TABLECLOTH_SUFFIX_RE = /^tablecloth_([a-z0-9_]+)$/;
+const TABLECLOTH_FULL_RE =
+  /^deco\/tablecloth\/([^/]+)\/3d\/texture\/Table_Dif\.[^.]+$/i;
+const TABLECLOTH_PREVIEW_RE =
+  /^deco\/tablecloth\/([^/]+)\/preview\/(?:[^/]+\/)?preview\.[^.]+$/i;
 const LEGACY_RAW_ASSETS_BASE =
   "https://files.riichi.moe/mjg/game%20resources%20and%20tools/Mahjong%20Soul/raw%20assets";
 const LEGACY_RESVERSION_MANIFEST_PATHS = [
@@ -389,6 +398,29 @@ function rowsOf(data) {
   return data;
 }
 
+function bestScored(items, scoreFn) {
+  let best = null;
+  let bestScore = -Infinity;
+  for (const item of items || []) {
+    const score = scoreFn(item);
+    if (score === null || score === undefined) {
+      continue;
+    }
+    if (
+      !best ||
+      score > bestScore ||
+      (score === bestScore &&
+        item.path &&
+        best.path &&
+        item.path.length < best.path.length)
+    ) {
+      best = item;
+      bestScore = score;
+    }
+  }
+  return best ? { item: best, score: bestScore } : null;
+}
+
 function buildAssetIndex(manifestsByRegion) {
   const exact = new Map();
   const noext = new Map();
@@ -475,19 +507,10 @@ function resolveRecord(index, ref) {
     return null;
   }
   const refDir = dirName(r);
-  let best = null;
-  let bestScore = -1;
-  for (const rec of candidates) {
-    const score = scoreCandidate(dirName(rec.path), refDir);
-    if (
-      score > bestScore ||
-      (score === bestScore && best && rec.path.length < best.path.length)
-    ) {
-      best = rec;
-      bestScore = score;
-    }
-  }
-  return best;
+  const best = bestScored(candidates, (rec) =>
+    scoreCandidate(dirName(rec.path), refDir),
+  );
+  return best ? best.item : null;
 }
 
 function isImagePath(p) {
@@ -508,7 +531,7 @@ function tableclothInfoFromRow(row) {
   }
 
   const icon = normalizeRef(row && row.icon);
-  const match = icon.match(/^(deco\/tablecloth\/[^/]+)\/pic\/[^/]+\.[^.]+$/i);
+  const match = icon.match(TABLECLOTH_ICON_RE);
   if (!match) {
     return null;
   }
@@ -522,12 +545,11 @@ function tableclothInfoFromRow(row) {
 
 function addTableclothMetadataToken(index, rawName) {
   const name = String(rawName || "").trim().toLowerCase();
-  const match = name.match(/^(tablecloth|mjp)_([a-z0-9_]+)$/i);
+  const match = name.match(TABLECLOTH_NAME_RE);
   if (!match) {
     return;
   }
-  index.names.add(name);
-  index.suffixes.add(match[2].toLowerCase());
+  index.suffixes.add(match[1].toLowerCase());
 }
 
 function scanTableclothMetadataTokens(value, index) {
@@ -536,8 +558,7 @@ function scanTableclothMetadataTokens(value, index) {
   }
 
   if (typeof value === "string") {
-    const re = /\b(?:tablecloth|mjp)_[a-z0-9_]+/gi;
-    for (const match of value.matchAll(re)) {
+    for (const match of value.matchAll(TABLECLOTH_TOKEN_RE)) {
       addTableclothMetadataToken(index, match[0]);
     }
     return;
@@ -557,15 +578,8 @@ function scanTableclothMetadataTokens(value, index) {
   }
 }
 
-function buildTableclothMetadataIndex(tablesByName) {
-  const index = {
-    names: new Set(),
-    suffixes: new Set(),
-  };
-  for (const data of tablesByName.values()) {
-    scanTableclothMetadataTokens(data, index);
-  }
-  return index;
+function createTableclothMetadataIndex() {
+  return { suffixes: new Set() };
 }
 
 function editDistance(left, right) {
@@ -604,7 +618,7 @@ function numericRuns(value) {
 function tableclothSuffix(name) {
   const match = String(name || "")
     .toLowerCase()
-    .match(/^tablecloth_([a-z0-9_]+)$/);
+    .match(TABLECLOTH_SUFFIX_RE);
   return match ? match[1] : "";
 }
 
@@ -641,17 +655,13 @@ function buildTableclothAssetIndex(assetIndex, metadataIndex) {
       continue;
     }
 
-    const fullMatch = rec.path.match(
-      /^deco\/tablecloth\/([^/]+)\/3d\/texture\/Table_Dif\.[^.]+$/i,
-    );
+    const fullMatch = rec.path.match(TABLECLOTH_FULL_RE);
     if (fullMatch) {
       addTableclothAssetRecord(index, fullMatch[1].toLowerCase(), "full", rec);
       continue;
     }
 
-    const previewMatch = rec.path.match(
-      /^deco\/tablecloth\/([^/]+)\/preview\/(?:[^/]+\/)?preview\.[^.]+$/i,
-    );
+    const previewMatch = rec.path.match(TABLECLOTH_PREVIEW_RE);
     if (previewMatch) {
       addTableclothAssetRecord(
         index,
@@ -684,19 +694,8 @@ function tableclothRecordScore(rec, kind) {
 }
 
 function bestTableclothRecord(records, kind) {
-  let best = null;
-  let bestScore = -1;
-  for (const rec of records || []) {
-    const score = tableclothRecordScore(rec, kind);
-    if (
-      score > bestScore ||
-      (score === bestScore && best && rec.path.length < best.path.length)
-    ) {
-      best = rec;
-      bestScore = score;
-    }
-  }
-  return best;
+  const best = bestScored(records, (rec) => tableclothRecordScore(rec, kind));
+  return best ? best.item : null;
 }
 
 function tableclothFolderEntry(index, folder) {
@@ -709,12 +708,8 @@ function tableclothFolderHasKind(index, folder, kind) {
 }
 
 function isMetadataDerivedTableclothFolder(metadataIndex, folder) {
-  const normalized = String(folder || "").toLowerCase();
-  const suffix = tableclothSuffix(normalized);
-  return (
-    metadataIndex.names.has(normalized) ||
-    (suffix && metadataIndex.suffixes.has(suffix))
-  );
+  const suffix = tableclothSuffix(folder);
+  return !!(suffix && metadataIndex.suffixes.has(suffix));
 }
 
 function derivedTableclothFolder(index, canonicalFolder, kind) {
@@ -748,7 +743,9 @@ function derivedTableclothFolder(index, canonicalFolder, kind) {
     }
   }
 
-  candidates.sort((a, b) => a.distance - b.distance || a.folder.localeCompare(b.folder));
+  candidates.sort(
+    (a, b) => a.distance - b.distance || a.folder.localeCompare(b.folder),
+  );
   return candidates.length === 1 ? candidates[0].folder : "";
 }
 
@@ -758,24 +755,18 @@ function resolveTableclothOriginalImages(images, tableclothIndex, row) {
     return;
   }
 
-  const fullKey = `${info.base}/3d/texture/Table_Dif.png`;
-  const previewKey = `${info.base}/preview/preview.png`;
-
-  if (images[fullKey] === undefined) {
-    const fullFolder = derivedTableclothFolder(tableclothIndex, info.folder, "full");
-    const fullEntry = tableclothFolderEntry(tableclothIndex, fullFolder);
-    const fullRecord = fullEntry ? bestTableclothRecord(fullEntry.full, "full") : null;
-    if (fullRecord) {
-      images[fullKey] = recordToValue(fullRecord);
+  for (const { kind, key } of [
+    { kind: "full", key: `${info.base}/3d/texture/Table_Dif.png` },
+    { kind: "preview", key: `${info.base}/preview/preview.png` },
+  ]) {
+    if (images[key] !== undefined) {
+      continue;
     }
-  }
-
-  if (images[previewKey] === undefined) {
-    const previewFolder = derivedTableclothFolder(tableclothIndex, info.folder, "preview");
-    const previewEntry = tableclothFolderEntry(tableclothIndex, previewFolder);
-    const previewRecord = previewEntry ? bestTableclothRecord(previewEntry.preview, "preview") : null;
-    if (previewRecord) {
-      images[previewKey] = recordToValue(previewRecord);
+    const folder = derivedTableclothFolder(tableclothIndex, info.folder, kind);
+    const entry = tableclothFolderEntry(tableclothIndex, folder);
+    const record = entry ? bestTableclothRecord(entry[kind], kind) : null;
+    if (record) {
+      images[key] = recordToValue(record);
     }
   }
 }
@@ -1076,23 +1067,14 @@ function resolveImageRecordStrict(index, ref, minFuzzyScore = 400) {
   }
 
   const refDir = dirName(r);
-  let best = null;
-  let bestScore = -1;
-  for (const rec of candidates) {
+  const best = bestScored(candidates, (rec) => {
     if (!isImagePath(rec.path)) {
-      continue;
+      return null;
     }
-    const score = scoreCandidate(dirName(rec.path), refDir);
-    if (
-      score > bestScore ||
-      (score === bestScore && best && rec.path.length < best.path.length)
-    ) {
-      best = rec;
-      bestScore = score;
-    }
-  }
+    return scoreCandidate(dirName(rec.path), refDir);
+  });
 
-  return best && bestScore >= minFuzzyScore ? best : null;
+  return best && best.score >= minFuzzyScore ? best.item : null;
 }
 
 // The common mirror prefix is stored once as `resources.base`
@@ -1248,13 +1230,7 @@ function legacyCatChatImageValue(
       `${LEGACY_RAW_ASSETS_BASE}/${version}/${rawRegion}/myres/sns/${filename}`;
   }
 
-  if (Object.keys(value).length === 0) {
-    return null;
-  }
-  if (REGION_KEYS.every((region) => value[region] === value.en)) {
-    return value.en;
-  }
-  return value;
+  return compressRegionValue(value);
 }
 
 function resolveCatChatImage(
@@ -1363,6 +1339,31 @@ function preserveExistingLegacyRawImages(resources, existingResources) {
       resources.images[key] = value;
     }
   }
+}
+
+async function prepareLegacyFallbacks({
+  newState,
+  oldState,
+  legacyResversionManifest,
+  resourcesFile,
+  resourcesExist,
+}) {
+  if (
+    !legacyResversionManifest.relPath &&
+    oldState &&
+    oldState.legacy_resversion
+  ) {
+    newState.legacy_resversion = oldState.legacy_resversion;
+  }
+
+  if (!resourcesExist) {
+    return null;
+  }
+
+  return fsp
+    .readFile(resourcesFile, "utf8")
+    .then(JSON.parse)
+    .catch(() => null);
 }
 
 function buildEmojiDirIndex(index) {
@@ -1521,20 +1522,15 @@ async function main() {
     .readFile(STATE_FILE, "utf8")
     .then(JSON.parse)
     .catch(() => null);
-  if (
-    !legacyResversionManifest.relPath &&
-    oldState &&
-    oldState.legacy_resversion
-  ) {
-    newState.legacy_resversion = oldState.legacy_resversion;
-  }
-  const resourcesExist = fs.existsSync(path.join(WEB_DIR, "resources.json"));
-  const existingResources = resourcesExist
-    ? await fsp
-        .readFile(path.join(WEB_DIR, "resources.json"), "utf8")
-        .then(JSON.parse)
-        .catch(() => null)
-    : null;
+  const resourcesFile = path.join(WEB_DIR, "resources.json");
+  const resourcesExist = fs.existsSync(resourcesFile);
+  const existingResources = await prepareLegacyFallbacks({
+    newState,
+    oldState,
+    legacyResversionManifest,
+    resourcesFile,
+    resourcesExist,
+  });
   if (
     !FORCE &&
     resourcesExist &&
@@ -1553,10 +1549,12 @@ async function main() {
     `Downloading ${index.length} of ${sourceIndex.length} data tables...`,
   );
   const tablesByName = new Map();
+  const tableclothMetadataIndex = createTableclothMetadataIndex();
   await mapLimit(index, 16, async (entry) => {
     const rel = `metadata/tables/${entry.TableName}/${entry.SheetName}.json`;
     const data = await readJson(rel);
     tablesByName.set(`${entry.TableName}/${entry.SheetName}`, data);
+    scanTableclothMetadataTokens(data, tableclothMetadataIndex);
     await writeJsonVerbatim(
       path.join(DATA_DIR, `${entry.TableName}/${entry.SheetName}.json`),
       data,
@@ -1566,7 +1564,6 @@ async function main() {
   const prunedDataTables = await pruneUnselectedDataTables(index);
   console.log(`Data tables written; pruned ${prunedDataTables} stale tables.`);
 
-  const allTablesByName = new Map(tablesByName);
   const selectedKeys = new Set(index.map(metadataKey));
   const unselectedIndex = sourceIndex.filter(
     (entry) => entry && !selectedKeys.has(metadataKey(entry)),
@@ -1577,12 +1574,11 @@ async function main() {
   await mapLimit(unselectedIndex, 16, async (entry) => {
     const rel = `metadata/tables/${entry.TableName}/${entry.SheetName}.json`;
     const data = await readJson(rel);
-    allTablesByName.set(`${entry.TableName}/${entry.SheetName}`, data);
+    scanTableclothMetadataTokens(data, tableclothMetadataIndex);
   });
 
   // Build asset indexes
   const assetIndex = buildAssetIndex(manifestsByRegion);
-  const tableclothMetadataIndex = buildTableclothMetadataIndex(allTablesByName);
   const tableclothAssetIndex = buildTableclothAssetIndex(
     assetIndex,
     tableclothMetadataIndex,
