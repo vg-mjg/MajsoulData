@@ -698,6 +698,10 @@
   },
   {
     "TableName": "item_definition",
+    "SheetName": "view"
+  },
+  {
+    "TableName": "item_definition",
     "SheetName": "skin",
     "chs": [
       "Excels.Langs.item_definition_skin_name_chs",

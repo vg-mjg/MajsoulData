@@ -56,6 +56,7 @@ const REQUIRED_METADATA_TABLES = new Set([
   "item_definition/skin",
   "item_definition/source_limit",
   "item_definition/title",
+  "item_definition/view",
   "level_definition/character",
   "mall/goods",
   "shops/goods",
@@ -115,6 +116,16 @@ const TILE_DECOR_PREVIEW_RE =
   /^(deco\/(?:mjpai|mjpface)\/[^/]+)\/preview\/(?:[^/]+\/)?preview\.[^.]+$/i;
 const LOADING_SPRITE_RE =
   /^extendRes\/loading\/common\/(?:table|left|mid|right)_\d+\.png$/i;
+// Lobby backgrounds render `extendRes/background/<res_name>/<res_name>` plus an
+// optional animated effect prefab (see LuaByte/Lua/Game/LobbyBackground.lua).
+// beijing_qifu is the one background whose extendRes texture is only a sky
+// backdrop; its visible scene lives in the effect's texture, so map it there.
+const BACKGROUND_PREVIEW_OVERRIDES = new Map([
+  [
+    "beijing_qifu",
+    "deco/lobby_background_effect/effect_jidianyejing/3d/texture/jidianyejing01.png",
+  ],
+]);
 const LEGACY_RAW_ASSETS_BASE =
   "https://files.riichi.moe/mjg/game%20resources%20and%20tools/Mahjong%20Soul/raw%20assets";
 const LEGACY_RESVERSION_MANIFEST_PATHS = [
@@ -855,6 +866,26 @@ function resolveTileDecorOriginalImages(images, tileDecorIndex, row) {
       images[key] = recordToValue(record);
     }
   }
+}
+
+function resolveBackgroundOriginalImages(images, index, viewResNameById, row) {
+  if (numberValue(row && row.category) !== 5) {
+    return;
+  }
+  if (numberValue(row && row.type) !== 8) {
+    return;
+  }
+
+  const resName = String(
+    viewResNameById.get(numberValue(row && row.id)) || "",
+  ).trim();
+  if (!resName) {
+    return;
+  }
+
+  const key = `extendRes/background/${resName}/${resName}.png`;
+  const ref = BACKGROUND_PREVIEW_OVERRIDES.get(resName) || key;
+  resolveImages(images, index, ref, key);
 }
 
 function firstAudioPathFromSargs(sargs) {
@@ -1768,6 +1799,10 @@ async function main() {
   }
 
   // Item & currency icons (key: the table's logical icon path)
+  const viewResNameById = new Map();
+  for (const row of rowsOf(table("item_definition/view"))) {
+    viewResNameById.set(numberValue(row.id), String(row.res_name || ""));
+  }
   for (const name of ["item_definition/item", "item_definition/currency"]) {
     for (const row of rowsOf(table(name))) {
       for (const field of ["icon", "icon_transparent"]) {
@@ -1784,6 +1819,12 @@ async function main() {
       resolveTileDecorOriginalImages(
         resources.images,
         tileDecorAssetIndex,
+        row,
+      );
+      resolveBackgroundOriginalImages(
+        resources.images,
+        assetIndex,
+        viewResNameById,
         row,
       );
     }

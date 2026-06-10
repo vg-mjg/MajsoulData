@@ -288,6 +288,22 @@ function tileOriginalCandidates(entry, repository, language) {
   return originalCandidatesForRefs(tileOriginalRefs(entry), repository, language);
 }
 
+function backgroundOriginalCandidates(entry, itemId, repository, language) {
+  if (numberValue(entry && entry.category) !== 5) {
+    return [];
+  }
+  if (numberValue(entry && entry.type) !== 8) {
+    return [];
+  }
+  const resName = stringValue(repository.viewResNameByItemId.get(itemId)).trim();
+  if (resName) {
+    const key = `extendRes/background/${resName}/${resName}.png`;
+    const candidates = imageCandidates(repository.resources, key, language);
+    if (candidates.length > 0) return candidates;
+  }
+  return itemIconCandidates(entry, repository.resources, language);
+}
+
 function firstAudioPathFromSargs(sargs) {
   const values = Array.isArray(sargs) ? sargs : [sargs];
   for (const value of values) {
@@ -465,6 +481,7 @@ export async function loadItemDetail(itemId, language) {
   const titleOriginalImage = titleOriginalCandidates(entry, repository, language);
   const tableclothOriginalImage = tableclothOriginalCandidates(entry, repository, language);
   const tileOriginalImage = tileOriginalCandidates(entry, repository, language);
+  const backgroundOriginalImage = backgroundOriginalCandidates(entry, normalizedItemId, repository, language);
   const audioPreview = itemAudioPreview(entry, normalizedItemId, language, repository);
   const musicAudio = audioPreview ? firstAudioCandidates(repository.resources, audioKeysFor(audioPreview.path)) : [];
 
@@ -510,7 +527,7 @@ export async function loadItemDetail(itemId, language) {
       portraitFrameOriginalImage: [],
       tableclothOriginalImage,
       tileOriginalImage,
-      backgroundOriginalImage: [],
+      backgroundOriginalImage,
       titleOriginalImage,
       musicAudio,
     },
@@ -544,7 +561,7 @@ export async function loadItemDetail(itemId, language) {
       portraitFrameOriginalImage: 0,
       tableclothOriginalImage: tableclothOriginalImage.length,
       tileOriginalImage: tileOriginalImage.length,
-      backgroundOriginalImage: 0,
+      backgroundOriginalImage: backgroundOriginalImage.length,
       titleOriginalImage: titleOriginalImage.length,
       musicAudio: musicAudio.length,
     },

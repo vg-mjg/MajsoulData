@@ -53,6 +53,7 @@
       "item_definition/skin",
       "item_definition/source_limit",
       "item_definition/title",
+      "item_definition/view",
       "level_definition/character",
       "mall/goods",
       "shops/goods",

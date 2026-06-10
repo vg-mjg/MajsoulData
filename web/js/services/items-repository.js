@@ -18,6 +18,7 @@ const URLS = {
   mallGoods: new URL("../../data/mall/goods.json", import.meta.url),
   composeCharaCompose: new URL("../../data/compose/characompose.json", import.meta.url),
   itemDefinitionCharacter: new URL("../../data/item_definition/character.json", import.meta.url),
+  itemDefinitionView: new URL("../../data/item_definition/view.json", import.meta.url),
 };
 
 let cachedRepositoryPromise = null;
@@ -208,6 +209,7 @@ export async function loadItemsRepository() {
     fetchJson(URLS.mallGoods),
     fetchJson(URLS.composeCharaCompose),
     fetchJson(URLS.itemDefinitionCharacter),
+    fetchJson(URLS.itemDefinitionView),
   ]).then(([
     resources,
     itemDefinitionItem,
@@ -224,6 +226,7 @@ export async function loadItemsRepository() {
     mallGoods,
     composeCharaCompose,
     itemDefinitionCharacter,
+    itemDefinitionView,
   ]) => {
 
     const loadingSprites = buildLoadingSprites(resources);
@@ -261,6 +264,9 @@ export async function loadItemsRepository() {
     const characterById = new Map(characters.map((character) => [numberValue(character.id), character]));
     const audioBgmById = new Map(audioBgmRows.map((row) => [numberValue(row.id), row]));
     const shopById = new Map(shops.map((shop) => [numberValue(shop.id), shop]));
+    const viewResNameByItemId = new Map(
+      rowsOf(itemDefinitionView).map((row) => [numberValue(row.id), stringValue(row.res_name)]),
+    );
 
     return {
       resources,
@@ -288,6 +294,7 @@ export async function loadItemsRepository() {
       characterById,
       audioBgmById,
       shopById,
+      viewResNameByItemId,
       audioBgmByUnlockItemId: buildAudioBgmByUnlockItemId(audioBgmRows),
       loadingImageByUnlockItemId: buildLoadingImageByUnlockItemId(loadingImages),
       packageByItemId: groupBy(packageEntries, (entry) => numberValue(entry.id)),
