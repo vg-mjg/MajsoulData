@@ -1,9 +1,6 @@
 const imageSourceCache = new Map();
 const directImageProbeCache = new Map();
 
-// Kept for API compatibility; candidates are already resolved per UI language.
-export function setImageLoaderLanguage() {}
-
 function probeDirectImageSource(url) {
   if (directImageProbeCache.has(url)) {
     return directImageProbeCache.get(url);

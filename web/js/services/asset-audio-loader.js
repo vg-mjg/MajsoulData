@@ -1,9 +1,6 @@
 const audioSourceCache = new Map();
 const directAudioProbeCache = new Map();
 
-// Kept for API compatibility; candidates are already resolved per UI language.
-export function setAudioLoaderLanguage() {}
-
 function probeDirectAudioSource(url) {
   if (directAudioProbeCache.has(url)) {
     return directAudioProbeCache.get(url);

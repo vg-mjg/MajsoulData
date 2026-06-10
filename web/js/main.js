@@ -13,12 +13,8 @@ import { DEFAULT_UI_LANGUAGE, makeInitials, normalizeUiLanguage, regionForLangua
 import {
   clearImageSourceCache,
   loadCharacterImageSource,
-  setImageLoaderLanguage,
 } from "./services/asset-image-loader.js";
-import {
-  clearAudioSourceCache,
-  setAudioLoaderLanguage,
-} from "./services/asset-audio-loader.js";
+import { clearAudioSourceCache } from "./services/asset-audio-loader.js";
 import { clearLazyHydrationQueue, scheduleVisibleTask } from "./services/lazy-hydration.js";
 import { searchGlobalEntries } from "./services/global-search.js";
 
@@ -409,8 +405,6 @@ function applyLanguage(language, { persist, rerender } = { persist: true, rerend
   const normalized = normalizeUiLanguage(language);
   const languageChanged = normalized !== currentLanguage;
   currentLanguage = normalized;
-  setImageLoaderLanguage(normalized);
-  setAudioLoaderLanguage(normalized);
 
   if (languageChanged) {
     clearLazyHydrationQueue();
