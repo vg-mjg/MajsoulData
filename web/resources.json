@@ -21570,7 +21570,13 @@
     "deco/effect_mingpaizhishi/mpzs_23winter/pic/mpzs_23winter.jpg": "MyAssets/deco/effect_mingpaizhishi/mpzs_23winter/pic/common/mpzs_23winter.png",
     "deco/effect_mingpaizhishi/mpzs_shandian/pic/mpzs_shandian.jpg": "MyAssets/deco/effect_mingpaizhishi/mpzs_shandian/pic/common/mpzs_shandian.png",
     "deco/emo/e200001/0": "MyAssets/deco/emo/e200001/common/0.png",
-    "deco/emo/e200001/1": "MyAssets/deco/emo/e200001/en_chs_t/1.png",
+    "deco/emo/e200001/1": {
+      "chs": "MyAssets/deco/emo/e200001/chs/1.png",
+      "cn": "MyAssets/deco/emo/e200001/chs_t/1.png",
+      "en": "MyAssets/deco/emo/e200001/en_en/1.png",
+      "jp": "MyAssets/deco/emo/e200001/jp/1.png",
+      "kr": "MyAssets/deco/emo/e200001/kr/1.png"
+    },
     "deco/emo/e200001/10": "MyAssets/deco/emo/e200001/common/10.png",
     "deco/emo/e200001/11": "MyAssets/deco/emo/e200001/common/11.png",
     "deco/emo/e200001/12": "MyAssets/deco/emo/e200001/common/12.png",
@@ -21582,7 +21588,13 @@
     "deco/emo/e200001/18": "MyAssets/deco/emo/e200001/common/18.png",
     "deco/emo/e200001/2": "MyAssets/deco/emo/e200001/common/2.png",
     "deco/emo/e200001/3": "MyAssets/deco/emo/e200001/common/3.png",
-    "deco/emo/e200001/4": "MyAssets/deco/emo/e200001/en_chs_t/4.png",
+    "deco/emo/e200001/4": {
+      "chs": "MyAssets/deco/emo/e200001/chs/4.png",
+      "cn": "MyAssets/deco/emo/e200001/chs_t/4.png",
+      "en": "MyAssets/deco/emo/e200001/en_en/4.png",
+      "jp": "MyAssets/deco/emo/e200001/jp/4.png",
+      "kr": "MyAssets/deco/emo/e200001/kr/4.png"
+    },
     "deco/emo/e200001/5": "MyAssets/deco/emo/e200001/common/5.png",
     "deco/emo/e200001/6": "MyAssets/deco/emo/e200001/common/6.png",
     "deco/emo/e200001/7": "MyAssets/deco/emo/e200001/common/7.png",
@@ -21591,7 +21603,13 @@
     "deco/emo/e200001/937": "MyAssets/deco/emo/e200001/common/937.png",
     "deco/emo/e200001/966": "MyAssets/deco/emo/e200001/common/966.png",
     "deco/emo/e200001/983": "MyAssets/deco/emo/e200001/common/983.png",
-    "deco/emo/e200001/984": "MyAssets/deco/emo/e200001/en_chs_t/984.png",
+    "deco/emo/e200001/984": {
+      "chs": "MyAssets/deco/emo/e200001/chs/984.png",
+      "cn": "MyAssets/deco/emo/e200001/chs_t/984.png",
+      "en": "MyAssets/deco/emo/e200001/en_en/984.png",
+      "jp": "MyAssets/deco/emo/e200001/jp/984.png",
+      "kr": "MyAssets/deco/emo/e200001/kr/984.png"
+    },
     "deco/emo/e200001/996": "MyAssets/deco/emo/e200001/common/996.png",
     "deco/emo/e200001/997": "MyAssets/deco/emo/e200001/common/997.png",
     "deco/emo/e20000100/0": "MyAssets/deco/emo/e20000100/common/0.png",
@@ -21792,7 +21810,13 @@
     "deco/emo/e20000115/6": "MyAssets/deco/emo/e20000115/common/6.png",
     "deco/emo/e20000115/7": "MyAssets/deco/emo/e20000115/common/7.png",
     "deco/emo/e20000115/8": "MyAssets/deco/emo/e20000115/common/8.png",
-    "deco/emo/e20000115/934": "MyAssets/deco/emo/e20000115/en_chs_t/934.png",
+    "deco/emo/e20000115/934": {
+      "chs": "MyAssets/deco/emo/e20000115/chs/934.png",
+      "cn": "MyAssets/deco/emo/e20000115/chs_t/934.png",
+      "en": "MyAssets/deco/emo/e20000115/en_en/934.png",
+      "jp": "MyAssets/deco/emo/e20000115/jp/934.png",
+      "kr": "MyAssets/deco/emo/e20000115/kr/934.png"
+    },
     "deco/emo/e20000116/0": "MyAssets/deco/emo/e20000116/common/0.png",
     "deco/emo/e20000116/1": "MyAssets/deco/emo/e20000116/common/1.png",
     "deco/emo/e20000116/10": "MyAssets/deco/emo/e20000116/common/10.png",
@@ -21911,10 +21935,22 @@
     "deco/emo/e20000125/7": "MyAssets/deco/emo/e20000125/common/7.png",
     "deco/emo/e20000125/8": "MyAssets/deco/emo/e20000125/common/8.png",
     "deco/emo/e20000125/928": "MyAssets/deco/emo/e20000125/common/928.png",
-    "deco/emo/e200002/0": "MyAssets/deco/emo/e200002/en_chs_t/0.png",
+    "deco/emo/e200002/0": {
+      "chs": "MyAssets/deco/emo/e200002/chs/0.png",
+      "cn": "MyAssets/deco/emo/e200002/chs_t/0.png",
+      "en": "MyAssets/deco/emo/e200002/en_en/0.png",
+      "jp": "MyAssets/deco/emo/e200002/jp/0.png",
+      "kr": "MyAssets/deco/emo/e200002/kr/0.png"
+    },
     "deco/emo/e200002/1": "MyAssets/deco/emo/e200002/common/1.png",
     "deco/emo/e200002/10": "MyAssets/deco/emo/e200002/common/10.png",
-    "deco/emo/e200002/11": "MyAssets/deco/emo/e200002/en_chs_t/11.png",
+    "deco/emo/e200002/11": {
+      "chs": "MyAssets/deco/emo/e200002/chs/11.png",
+      "cn": "MyAssets/deco/emo/e200002/chs_t/11.png",
+      "en": "MyAssets/deco/emo/e200002/en_en/11.png",
+      "jp": "MyAssets/deco/emo/e200002/jp/11.png",
+      "kr": "MyAssets/deco/emo/e200002/kr/11.png"
+    },
     "deco/emo/e200002/12": "MyAssets/deco/emo/e200002/common/12.png",
     "deco/emo/e200002/13": "MyAssets/deco/emo/e200002/common/13.png",
     "deco/emo/e200002/14": "MyAssets/deco/emo/e200002/common/14.png",
@@ -21927,11 +21963,29 @@
     "deco/emo/e200002/4": "MyAssets/deco/emo/e200002/common/4.png",
     "deco/emo/e200002/5": "MyAssets/deco/emo/e200002/common/5.png",
     "deco/emo/e200002/6": "MyAssets/deco/emo/e200002/common/6.png",
-    "deco/emo/e200002/7": "MyAssets/deco/emo/e200002/en_chs_t/7.png",
+    "deco/emo/e200002/7": {
+      "chs": "MyAssets/deco/emo/e200002/chs/7.png",
+      "cn": "MyAssets/deco/emo/e200002/chs_t/7.png",
+      "en": "MyAssets/deco/emo/e200002/en_en/7.png",
+      "jp": "MyAssets/deco/emo/e200002/jp/7.png",
+      "kr": "MyAssets/deco/emo/e200002/kr/7.png"
+    },
     "deco/emo/e200002/8": "MyAssets/deco/emo/e200002/common/8.png",
-    "deco/emo/e200002/888": "MyAssets/deco/emo/e200002/en_chs_t/888.png",
+    "deco/emo/e200002/888": {
+      "chs": "MyAssets/deco/emo/e200002/chs/888.png",
+      "cn": "MyAssets/deco/emo/e200002/chs_t/888.png",
+      "en": "MyAssets/deco/emo/e200002/en_en/888.png",
+      "jp": "MyAssets/deco/emo/e200002/jp/888.png",
+      "kr": "MyAssets/deco/emo/e200002/kr/888.png"
+    },
     "deco/emo/e200002/948": "MyAssets/deco/emo/e200002/common/948.png",
-    "deco/emo/e200002/952": "MyAssets/deco/emo/e200002/en_chs_t/952.png",
+    "deco/emo/e200002/952": {
+      "chs": "MyAssets/deco/emo/e200002/chs/952.png",
+      "cn": "MyAssets/deco/emo/e200002/chs_t/952.png",
+      "en": "MyAssets/deco/emo/e200002/en_en/952.png",
+      "jp": "MyAssets/deco/emo/e200002/jp/952.png",
+      "kr": "MyAssets/deco/emo/e200002/kr/952.png"
+    },
     "deco/emo/e200002/995": "MyAssets/deco/emo/e200002/common/995.png",
     "deco/emo/e200002/998": "MyAssets/deco/emo/e200002/common/998.png",
     "deco/emo/e200003/0": "MyAssets/deco/emo/e200003/common/0.png",
@@ -21952,14 +22006,32 @@
     "deco/emo/e200003/6": "MyAssets/deco/emo/e200003/common/6.png",
     "deco/emo/e200003/7": "MyAssets/deco/emo/e200003/common/7.png",
     "deco/emo/e200003/8": "MyAssets/deco/emo/e200003/common/8.png",
-    "deco/emo/e200003/888": "MyAssets/deco/emo/e200003/en_chs_t/888.png",
+    "deco/emo/e200003/888": {
+      "chs": "MyAssets/deco/emo/e200003/chs/888.png",
+      "cn": "MyAssets/deco/emo/e200003/chs_t/888.png",
+      "en": "MyAssets/deco/emo/e200003/en_en/888.png",
+      "jp": "MyAssets/deco/emo/e200003/jp/888.png",
+      "kr": "MyAssets/deco/emo/e200003/kr/888.png"
+    },
     "deco/emo/e200003/927": "MyAssets/deco/emo/e200003/common/927.png",
     "deco/emo/e200003/943": "MyAssets/deco/emo/e200003/common/943.png",
     "deco/emo/e200003/959": "MyAssets/deco/emo/e200003/common/959.png",
     "deco/emo/e200003/979": "MyAssets/deco/emo/e200003/common/979.png",
     "deco/emo/e200003/999": "MyAssets/deco/emo/e200003/common/999.png",
-    "deco/emo/e200004/0": "MyAssets/deco/emo/e200004/en_chs_t/0.png",
-    "deco/emo/e200004/1": "MyAssets/deco/emo/e200004/en_chs_t/1.png",
+    "deco/emo/e200004/0": {
+      "chs": "MyAssets/deco/emo/e200004/chs/0.png",
+      "cn": "MyAssets/deco/emo/e200004/chs_t/0.png",
+      "en": "MyAssets/deco/emo/e200004/en_en/0.png",
+      "jp": "MyAssets/deco/emo/e200004/jp/0.png",
+      "kr": "MyAssets/deco/emo/e200004/kr/0.png"
+    },
+    "deco/emo/e200004/1": {
+      "chs": "MyAssets/deco/emo/e200004/chs/1.png",
+      "cn": "MyAssets/deco/emo/e200004/chs_t/1.png",
+      "en": "MyAssets/deco/emo/e200004/en_en/1.png",
+      "jp": "MyAssets/deco/emo/e200004/jp/1.png",
+      "kr": "MyAssets/deco/emo/e200004/kr/1.png"
+    },
     "deco/emo/e200004/10": "MyAssets/deco/emo/e200004/common/10.png",
     "deco/emo/e200004/11": "MyAssets/deco/emo/e200004/common/11.png",
     "deco/emo/e200004/12": "MyAssets/deco/emo/e200004/common/12.png",
@@ -21970,10 +22042,22 @@
     "deco/emo/e200004/17": "MyAssets/deco/emo/e200004/common/17.png",
     "deco/emo/e200004/18": "MyAssets/deco/emo/e200004/common/18.png",
     "deco/emo/e200004/2": "MyAssets/deco/emo/e200004/common/2.png",
-    "deco/emo/e200004/3": "MyAssets/deco/emo/e200004/en_chs_t/3.png",
+    "deco/emo/e200004/3": {
+      "chs": "MyAssets/deco/emo/e200004/chs/3.png",
+      "cn": "MyAssets/deco/emo/e200004/chs_t/3.png",
+      "en": "MyAssets/deco/emo/e200004/en_en/3.png",
+      "jp": "MyAssets/deco/emo/e200004/jp/3.png",
+      "kr": "MyAssets/deco/emo/e200004/kr/3.png"
+    },
     "deco/emo/e200004/4": "MyAssets/deco/emo/e200004/common/4.png",
     "deco/emo/e200004/4.png": "MyAssets/deco/emo/e200004/common/4.png",
-    "deco/emo/e200004/5": "MyAssets/deco/emo/e200004/en_chs_t/5.png",
+    "deco/emo/e200004/5": {
+      "chs": "MyAssets/deco/emo/e200004/chs/5.png",
+      "cn": "MyAssets/deco/emo/e200004/chs_t/5.png",
+      "en": "MyAssets/deco/emo/e200004/en_en/5.png",
+      "jp": "MyAssets/deco/emo/e200004/jp/5.png",
+      "kr": "MyAssets/deco/emo/e200004/kr/5.png"
+    },
     "deco/emo/e200004/6": "MyAssets/deco/emo/e200004/common/6.png",
     "deco/emo/e200004/7": "MyAssets/deco/emo/e200004/common/7.png",
     "deco/emo/e200004/8": "MyAssets/deco/emo/e200004/common/8.png",
@@ -21997,7 +22081,13 @@
     "deco/emo/e200005/18": "MyAssets/deco/emo/e200005/common/18.png",
     "deco/emo/e200005/2": "MyAssets/deco/emo/e200005/common/2.png",
     "deco/emo/e200005/3": "MyAssets/deco/emo/e200005/common/3.png",
-    "deco/emo/e200005/4": "MyAssets/deco/emo/e200005/en_chs_t/4.png",
+    "deco/emo/e200005/4": {
+      "chs": "MyAssets/deco/emo/e200005/chs/4.png",
+      "cn": "MyAssets/deco/emo/e200005/chs_t/4.png",
+      "en": "MyAssets/deco/emo/e200005/en_en/4.png",
+      "jp": "MyAssets/deco/emo/e200005/jp/4.png",
+      "kr": "MyAssets/deco/emo/e200005/kr/4.png"
+    },
     "deco/emo/e200005/5": "MyAssets/deco/emo/e200005/common/5.png",
     "deco/emo/e200005/6": "MyAssets/deco/emo/e200005/common/6.png",
     "deco/emo/e200005/7": "MyAssets/deco/emo/e200005/common/7.png",
@@ -22015,26 +22105,56 @@
     "deco/emo/e200006/10.png": "MyAssets/deco/emo/e200006/common/10.png",
     "deco/emo/e200006/11": "MyAssets/deco/emo/e200006/common/11.png",
     "deco/emo/e200006/12": "MyAssets/deco/emo/e200006/common/12.png",
-    "deco/emo/e200006/13": "MyAssets/deco/emo/e200006/en_chs_t/13.png",
+    "deco/emo/e200006/13": {
+      "chs": "MyAssets/deco/emo/e200006/chs/13.png",
+      "cn": "MyAssets/deco/emo/e200006/chs_t/13.png",
+      "en": "MyAssets/deco/emo/e200006/en_en/13.png",
+      "jp": "MyAssets/deco/emo/e200006/jp/13.png",
+      "kr": "MyAssets/deco/emo/e200006/kr/13.png"
+    },
     "deco/emo/e200006/14": "MyAssets/deco/emo/e200006/common/14.png",
     "deco/emo/e200006/15": "MyAssets/deco/emo/e200006/common/15.png",
     "deco/emo/e200006/16": "MyAssets/deco/emo/e200006/common/16.png",
     "deco/emo/e200006/17": "MyAssets/deco/emo/e200006/common/17.png",
     "deco/emo/e200006/18": "MyAssets/deco/emo/e200006/common/18.png",
     "deco/emo/e200006/2": "MyAssets/deco/emo/e200006/common/2.png",
-    "deco/emo/e200006/3": "MyAssets/deco/emo/e200006/en_chs_t/3.png",
+    "deco/emo/e200006/3": {
+      "chs": "MyAssets/deco/emo/e200006/chs/3.png",
+      "cn": "MyAssets/deco/emo/e200006/chs_t/3.png",
+      "en": "MyAssets/deco/emo/e200006/en_en/3.png",
+      "jp": "MyAssets/deco/emo/e200006/jp/3.png",
+      "kr": "MyAssets/deco/emo/e200006/kr/3.png"
+    },
     "deco/emo/e200006/4": "MyAssets/deco/emo/e200006/common/4.png",
-    "deco/emo/e200006/5": "MyAssets/deco/emo/e200006/en_chs_t/5.png",
+    "deco/emo/e200006/5": {
+      "chs": "MyAssets/deco/emo/e200006/chs/5.png",
+      "cn": "MyAssets/deco/emo/e200006/chs_t/5.png",
+      "en": "MyAssets/deco/emo/e200006/en_en/5.png",
+      "jp": "MyAssets/deco/emo/e200006/jp/5.png",
+      "kr": "MyAssets/deco/emo/e200006/kr/5.png"
+    },
     "deco/emo/e200006/6": "MyAssets/deco/emo/e200006/common/6.png",
     "deco/emo/e200006/7": "MyAssets/deco/emo/e200006/common/7.png",
     "deco/emo/e200006/8": "MyAssets/deco/emo/e200006/common/8.png",
-    "deco/emo/e200006/888": "MyAssets/deco/emo/e200006/en_chs_t/888.png",
+    "deco/emo/e200006/888": {
+      "chs": "MyAssets/deco/emo/e200006/chs/888.png",
+      "cn": "MyAssets/deco/emo/e200006/chs_t/888.png",
+      "en": "MyAssets/deco/emo/e200006/en_en/888.png",
+      "jp": "MyAssets/deco/emo/e200006/jp/888.png",
+      "kr": "MyAssets/deco/emo/e200006/kr/888.png"
+    },
     "deco/emo/e200006/949": "MyAssets/deco/emo/e200006/common/949.png",
     "deco/emo/e200006/961": "MyAssets/deco/emo/e200006/common/961.png",
     "deco/emo/e200006/977": "MyAssets/deco/emo/e200006/common/977.png",
     "deco/emo/e200006/997": "MyAssets/deco/emo/e200006/common/997.png",
     "deco/emo/e200007/0": "MyAssets/deco/emo/e200007/common/0.png",
-    "deco/emo/e200007/1": "MyAssets/deco/emo/e200007/en_chs_t/1.png",
+    "deco/emo/e200007/1": {
+      "chs": "MyAssets/deco/emo/e200007/chs/1.png",
+      "cn": "MyAssets/deco/emo/e200007/chs_t/1.png",
+      "en": "MyAssets/deco/emo/e200007/en_en/1.png",
+      "jp": "MyAssets/deco/emo/e200007/jp/1.png",
+      "kr": "MyAssets/deco/emo/e200007/kr/1.png"
+    },
     "deco/emo/e200007/10": "MyAssets/deco/emo/e200007/common/10.png",
     "deco/emo/e200007/11": "MyAssets/deco/emo/e200007/common/11.png",
     "deco/emo/e200007/12": "MyAssets/deco/emo/e200007/common/12.png",
@@ -22106,7 +22226,13 @@
     "deco/emo/e200009/947": "MyAssets/deco/emo/e200009/common/947.png",
     "deco/emo/e200009/966": "MyAssets/deco/emo/e200009/common/966.png",
     "deco/emo/e200009/994": "MyAssets/deco/emo/e200009/common/994.png",
-    "deco/emo/e200009/998": "MyAssets/deco/emo/e200009/en_chs_t/998.png",
+    "deco/emo/e200009/998": {
+      "chs": "MyAssets/deco/emo/e200009/chs/998.png",
+      "cn": "MyAssets/deco/emo/e200009/chs_t/998.png",
+      "en": "MyAssets/deco/emo/e200009/en_en/998.png",
+      "jp": "MyAssets/deco/emo/e200009/jp/998.png",
+      "kr": "MyAssets/deco/emo/e200009/kr/998.png"
+    },
     "deco/emo/e200010/0": "MyAssets/deco/emo/e200010/common/0.png",
     "deco/emo/e200010/1": "MyAssets/deco/emo/e200010/common/1.png",
     "deco/emo/e200010/10": "MyAssets/deco/emo/e200010/common/10.png",
@@ -22120,18 +22246,42 @@
     "deco/emo/e200010/2": "MyAssets/deco/emo/e200010/common/2.png",
     "deco/emo/e200010/3": "MyAssets/deco/emo/e200010/common/3.png",
     "deco/emo/e200010/4": "MyAssets/deco/emo/e200010/common/4.png",
-    "deco/emo/e200010/5": "MyAssets/deco/emo/e200010/en_chs_t/5.png",
+    "deco/emo/e200010/5": {
+      "chs": "MyAssets/deco/emo/e200010/chs/5.png",
+      "cn": "MyAssets/deco/emo/e200010/chs_t/5.png",
+      "en": "MyAssets/deco/emo/e200010/en_en/5.png",
+      "jp": "MyAssets/deco/emo/e200010/jp/5.png",
+      "kr": "MyAssets/deco/emo/e200010/kr/5.png"
+    },
     "deco/emo/e200010/6": "MyAssets/deco/emo/e200010/common/6.png",
     "deco/emo/e200010/7": "MyAssets/deco/emo/e200010/common/7.png",
-    "deco/emo/e200010/8": "MyAssets/deco/emo/e200010/en_chs_t/8.png",
-    "deco/emo/e200010/888": "MyAssets/deco/emo/e200010/en_chs_t/888.png",
+    "deco/emo/e200010/8": {
+      "chs": "MyAssets/deco/emo/e200010/chs/8.png",
+      "cn": "MyAssets/deco/emo/e200010/chs_t/8.png",
+      "en": "MyAssets/deco/emo/e200010/en_en/8.png",
+      "jp": "MyAssets/deco/emo/e200010/jp/8.png",
+      "kr": "MyAssets/deco/emo/e200010/kr/8.png"
+    },
+    "deco/emo/e200010/888": {
+      "chs": "MyAssets/deco/emo/e200010/chs/888.png",
+      "cn": "MyAssets/deco/emo/e200010/chs_t/888.png",
+      "en": "MyAssets/deco/emo/e200010/en_en/888.png",
+      "jp": "MyAssets/deco/emo/e200010/jp/888.png",
+      "kr": "MyAssets/deco/emo/e200010/kr/888.png"
+    },
     "deco/emo/e200010/965": "MyAssets/deco/emo/e200010/common/965.png",
     "deco/emo/e200010/982": "MyAssets/deco/emo/e200010/common/982.png",
     "deco/emo/e200011/0": "MyAssets/deco/emo/e200011/common/0.png",
     "deco/emo/e200011/1": "MyAssets/deco/emo/e200011/common/1.png",
     "deco/emo/e200011/10": "MyAssets/deco/emo/e200011/common/10.png",
     "deco/emo/e200011/11": "MyAssets/deco/emo/e200011/common/11.png",
-    "deco/emo/e200011/12": "MyAssets/deco/emo/e200011/en_chs_t/12.png",
+    "deco/emo/e200011/12": {
+      "chs": "MyAssets/deco/emo/e200011/chs/12.png",
+      "cn": "MyAssets/deco/emo/e200011/chs_t/12.png",
+      "en": "MyAssets/deco/emo/e200011/en_en/12.png",
+      "jp": "MyAssets/deco/emo/e200011/jp/12.png",
+      "kr": "MyAssets/deco/emo/e200011/kr/12.png"
+    },
     "deco/emo/e200011/14": "MyAssets/deco/emo/e200011/common/14.png",
     "deco/emo/e200011/15": "MyAssets/deco/emo/e200011/common/15.png",
     "deco/emo/e200011/16": "MyAssets/deco/emo/e200011/common/16.png",
@@ -22144,13 +22294,25 @@
     "deco/emo/e200011/6": "MyAssets/deco/emo/e200011/common/6.png",
     "deco/emo/e200011/7": "MyAssets/deco/emo/e200011/common/7.png",
     "deco/emo/e200011/8": "MyAssets/deco/emo/e200011/common/8.png",
-    "deco/emo/e200011/888": "MyAssets/deco/emo/e200011/en_chs_t/888.png",
+    "deco/emo/e200011/888": {
+      "chs": "MyAssets/deco/emo/e200011/chs/888.png",
+      "cn": "MyAssets/deco/emo/e200011/chs_t/888.png",
+      "en": "MyAssets/deco/emo/e200011/en_en/888.png",
+      "jp": "MyAssets/deco/emo/e200011/jp/888.png",
+      "kr": "MyAssets/deco/emo/e200011/kr/888.png"
+    },
     "deco/emo/e200011/970": "MyAssets/deco/emo/e200011/common/970.png",
     "deco/emo/e200011/977": "MyAssets/deco/emo/e200011/common/977.png",
     "deco/emo/e200011/998": "MyAssets/deco/emo/e200011/common/998.png",
     "deco/emo/e200012/0": "MyAssets/deco/emo/e200012/common/0.png",
     "deco/emo/e200012/1": "MyAssets/deco/emo/e200012/common/1.png",
-    "deco/emo/e200012/10": "MyAssets/deco/emo/e200012/en_chs_t/10.png",
+    "deco/emo/e200012/10": {
+      "chs": "MyAssets/deco/emo/e200012/chs/10.png",
+      "cn": "MyAssets/deco/emo/e200012/chs_t/10.png",
+      "en": "MyAssets/deco/emo/e200012/en_en/10.png",
+      "jp": "MyAssets/deco/emo/e200012/jp/10.png",
+      "kr": "MyAssets/deco/emo/e200012/kr/10.png"
+    },
     "deco/emo/e200012/11": "MyAssets/deco/emo/e200012/common/11.png",
     "deco/emo/e200012/12": "MyAssets/deco/emo/e200012/common/12.png",
     "deco/emo/e200012/14": "MyAssets/deco/emo/e200012/common/14.png",
@@ -22230,7 +22392,13 @@
     "deco/emo/e200015/6": "MyAssets/deco/emo/e200015/common/6.png",
     "deco/emo/e200015/7": "MyAssets/deco/emo/e200015/common/7.png",
     "deco/emo/e200015/8": "MyAssets/deco/emo/e200015/common/8.png",
-    "deco/emo/e200015/888": "MyAssets/deco/emo/e200015/en_chs_t/888.png",
+    "deco/emo/e200015/888": {
+      "chs": "MyAssets/deco/emo/e200015/chs/888.png",
+      "cn": "MyAssets/deco/emo/e200015/chs_t/888.png",
+      "en": "MyAssets/deco/emo/e200015/en_en/888.png",
+      "jp": "MyAssets/deco/emo/e200015/jp/888.png",
+      "kr": "MyAssets/deco/emo/e200015/kr/888.png"
+    },
     "deco/emo/e200015/994": "MyAssets/deco/emo/e200015/common/994.png",
     "deco/emo/e200016/0": "MyAssets/deco/emo/e200016/common/0.png",
     "deco/emo/e200016/1": "MyAssets/deco/emo/e200016/common/1.png",
@@ -22271,8 +22439,20 @@
     "deco/emo/e200017/4": "MyAssets/deco/emo/e200017/common/4.png",
     "deco/emo/e200017/5": "MyAssets/deco/emo/e200017/common/5.png",
     "deco/emo/e200017/5.png": "MyAssets/deco/emo/e200017/common/5.png",
-    "deco/emo/e200017/6": "MyAssets/deco/emo/e200017/en_chs_t/6.png",
-    "deco/emo/e200017/7": "MyAssets/deco/emo/e200017/en_chs_t/7.png",
+    "deco/emo/e200017/6": {
+      "chs": "MyAssets/deco/emo/e200017/chs/6.png",
+      "cn": "MyAssets/deco/emo/e200017/chs_t/6.png",
+      "en": "MyAssets/deco/emo/e200017/en_en/6.png",
+      "jp": "MyAssets/deco/emo/e200017/jp/6.png",
+      "kr": "MyAssets/deco/emo/e200017/kr/6.png"
+    },
+    "deco/emo/e200017/7": {
+      "chs": "MyAssets/deco/emo/e200017/chs/7.png",
+      "cn": "MyAssets/deco/emo/e200017/chs_t/7.png",
+      "en": "MyAssets/deco/emo/e200017/en_en/7.png",
+      "jp": "MyAssets/deco/emo/e200017/jp/7.png",
+      "kr": "MyAssets/deco/emo/e200017/kr/7.png"
+    },
     "deco/emo/e200017/8": "MyAssets/deco/emo/e200017/common/8.png",
     "deco/emo/e200017/888": "MyAssets/deco/emo/e200017/common/888.png",
     "deco/emo/e200017/944": "MyAssets/deco/emo/e200017/common/944.png",
@@ -22289,7 +22469,13 @@
     "deco/emo/e200018/16": "MyAssets/deco/emo/e200018/common/16.png",
     "deco/emo/e200018/17": "MyAssets/deco/emo/e200018/common/17.png",
     "deco/emo/e200018/18": "MyAssets/deco/emo/e200018/common/18.png",
-    "deco/emo/e200018/2": "MyAssets/deco/emo/e200018/en_chs_t/2.png",
+    "deco/emo/e200018/2": {
+      "chs": "MyAssets/deco/emo/e200018/chs/2.png",
+      "cn": "MyAssets/deco/emo/e200018/chs_t/2.png",
+      "en": "MyAssets/deco/emo/e200018/en_en/2.png",
+      "jp": "MyAssets/deco/emo/e200018/jp/2.png",
+      "kr": "MyAssets/deco/emo/e200018/kr/2.png"
+    },
     "deco/emo/e200018/2.png": {
       "jp": "MyAssets/deco/emo/e200018/jp/2.png"
     },
@@ -22298,14 +22484,32 @@
     "deco/emo/e200018/4": "MyAssets/deco/emo/e200018/common/4.png",
     "deco/emo/e200018/5": "MyAssets/deco/emo/e200018/common/5.png",
     "deco/emo/e200018/6": "MyAssets/deco/emo/e200018/common/6.png",
-    "deco/emo/e200018/7": "MyAssets/deco/emo/e200018/en_chs_t/7.png",
+    "deco/emo/e200018/7": {
+      "chs": "MyAssets/deco/emo/e200018/chs/7.png",
+      "cn": "MyAssets/deco/emo/e200018/chs_t/7.png",
+      "en": "MyAssets/deco/emo/e200018/en_en/7.png",
+      "jp": "MyAssets/deco/emo/e200018/jp/7.png",
+      "kr": "MyAssets/deco/emo/e200018/kr/7.png"
+    },
     "deco/emo/e200018/8": "MyAssets/deco/emo/e200018/common/8.png",
-    "deco/emo/e200018/888": "MyAssets/deco/emo/e200018/en_chs_t/888.png",
+    "deco/emo/e200018/888": {
+      "chs": "MyAssets/deco/emo/e200018/chs/888.png",
+      "cn": "MyAssets/deco/emo/e200018/chs_t/888.png",
+      "en": "MyAssets/deco/emo/e200018/en_en/888.png",
+      "jp": "MyAssets/deco/emo/e200018/jp/888.png",
+      "kr": "MyAssets/deco/emo/e200018/kr/888.png"
+    },
     "deco/emo/e200018/927": "MyAssets/deco/emo/e200018/common/927.png",
     "deco/emo/e200018/944": "MyAssets/deco/emo/e200018/common/944.png",
     "deco/emo/e200018/962": "MyAssets/deco/emo/e200018/common/962.png",
     "deco/emo/e200018/994": "MyAssets/deco/emo/e200018/common/994.png",
-    "deco/emo/e200019/0": "MyAssets/deco/emo/e200019/en_chs_t/0.png",
+    "deco/emo/e200019/0": {
+      "chs": "MyAssets/deco/emo/e200019/chs/0.png",
+      "cn": "MyAssets/deco/emo/e200019/chs_t/0.png",
+      "en": "MyAssets/deco/emo/e200019/en_en/0.png",
+      "jp": "MyAssets/deco/emo/e200019/jp/0.png",
+      "kr": "MyAssets/deco/emo/e200019/kr/0.png"
+    },
     "deco/emo/e200019/1": "MyAssets/deco/emo/e200019/common/1.png",
     "deco/emo/e200019/10": "MyAssets/deco/emo/e200019/common/10.png",
     "deco/emo/e200019/11": "MyAssets/deco/emo/e200019/common/11.png",
@@ -22317,9 +22521,27 @@
     "deco/emo/e200019/16": "MyAssets/deco/emo/e200019/common/16.png",
     "deco/emo/e200019/17": "MyAssets/deco/emo/e200019/common/17.png",
     "deco/emo/e200019/18": "MyAssets/deco/emo/e200019/common/18.png",
-    "deco/emo/e200019/2": "MyAssets/deco/emo/e200019/en_chs_t/2.png",
-    "deco/emo/e200019/3": "MyAssets/deco/emo/e200019/en_chs_t/3.png",
-    "deco/emo/e200019/4": "MyAssets/deco/emo/e200019/en_chs_t/4.png",
+    "deco/emo/e200019/2": {
+      "chs": "MyAssets/deco/emo/e200019/chs/2.png",
+      "cn": "MyAssets/deco/emo/e200019/chs_t/2.png",
+      "en": "MyAssets/deco/emo/e200019/en_en/2.png",
+      "jp": "MyAssets/deco/emo/e200019/jp/2.png",
+      "kr": "MyAssets/deco/emo/e200019/kr/2.png"
+    },
+    "deco/emo/e200019/3": {
+      "chs": "MyAssets/deco/emo/e200019/chs/3.png",
+      "cn": "MyAssets/deco/emo/e200019/chs_t/3.png",
+      "en": "MyAssets/deco/emo/e200019/en_en/3.png",
+      "jp": "MyAssets/deco/emo/e200019/jp/3.png",
+      "kr": "MyAssets/deco/emo/e200019/kr/3.png"
+    },
+    "deco/emo/e200019/4": {
+      "chs": "MyAssets/deco/emo/e200019/chs/4.png",
+      "cn": "MyAssets/deco/emo/e200019/chs_t/4.png",
+      "en": "MyAssets/deco/emo/e200019/en_en/4.png",
+      "jp": "MyAssets/deco/emo/e200019/jp/4.png",
+      "kr": "MyAssets/deco/emo/e200019/kr/4.png"
+    },
     "deco/emo/e200019/5": "MyAssets/deco/emo/e200019/common/5.png",
     "deco/emo/e200019/6": "MyAssets/deco/emo/e200019/common/6.png",
     "deco/emo/e200019/6.png": "MyAssets/deco/emo/e200019/common/6.png",
@@ -22338,7 +22560,13 @@
     "deco/emo/e200020/11": "MyAssets/deco/emo/e200020/common/11.png",
     "deco/emo/e200020/12": "MyAssets/deco/emo/e200020/common/12.png",
     "deco/emo/e200020/14": "MyAssets/deco/emo/e200020/common/14.png",
-    "deco/emo/e200020/2": "MyAssets/deco/emo/e200020/en_chs_t/2.png",
+    "deco/emo/e200020/2": {
+      "chs": "MyAssets/deco/emo/e200020/chs/2.png",
+      "cn": "MyAssets/deco/emo/e200020/chs_t/2.png",
+      "en": "MyAssets/deco/emo/e200020/en_en/2.png",
+      "jp": "MyAssets/deco/emo/e200020/jp/2.png",
+      "kr": "MyAssets/deco/emo/e200020/kr/2.png"
+    },
     "deco/emo/e200020/3": "MyAssets/deco/emo/e200020/common/3.png",
     "deco/emo/e200020/3.png": "MyAssets/deco/emo/e200020/common/3.png",
     "deco/emo/e200020/4": "MyAssets/deco/emo/e200020/common/4.png",
@@ -22352,7 +22580,13 @@
     "deco/emo/e200020/988": "MyAssets/deco/emo/e200020/common/988.png",
     "deco/emo/e200020/994": "MyAssets/deco/emo/e200020/common/994.png",
     "deco/emo/e200021/0": "MyAssets/deco/emo/e200021/common/0.png",
-    "deco/emo/e200021/1": "MyAssets/deco/emo/e200021/en_chs_t/1.png",
+    "deco/emo/e200021/1": {
+      "chs": "MyAssets/deco/emo/e200021/chs/1.png",
+      "cn": "MyAssets/deco/emo/e200021/chs_t/1.png",
+      "en": "MyAssets/deco/emo/e200021/en_en/1.png",
+      "jp": "MyAssets/deco/emo/e200021/jp/1.png",
+      "kr": "MyAssets/deco/emo/e200021/kr/1.png"
+    },
     "deco/emo/e200021/10": "MyAssets/deco/emo/e200021/common/10.png",
     "deco/emo/e200021/11": "MyAssets/deco/emo/e200021/common/11.png",
     "deco/emo/e200021/12": "MyAssets/deco/emo/e200021/common/12.png",
@@ -22388,7 +22622,13 @@
     "deco/emo/e200023/1": "MyAssets/deco/emo/e200023/common/1.png",
     "deco/emo/e200023/10": "MyAssets/deco/emo/e200023/common/10.png",
     "deco/emo/e200023/11": "MyAssets/deco/emo/e200023/common/11.png",
-    "deco/emo/e200023/12": "MyAssets/deco/emo/e200023/en_chs_t/12.png",
+    "deco/emo/e200023/12": {
+      "chs": "MyAssets/deco/emo/e200023/chs/12.png",
+      "cn": "MyAssets/deco/emo/e200023/chs_t/12.png",
+      "en": "MyAssets/deco/emo/e200023/en_en/12.png",
+      "jp": "MyAssets/deco/emo/e200023/jp/12.png",
+      "kr": "MyAssets/deco/emo/e200023/kr/12.png"
+    },
     "deco/emo/e200023/14": "MyAssets/deco/emo/e200023/common/14.png",
     "deco/emo/e200023/2": "MyAssets/deco/emo/e200023/common/2.png",
     "deco/emo/e200023/3": "MyAssets/deco/emo/e200023/common/3.png",
@@ -22412,7 +22652,13 @@
     "deco/emo/e200024/5": "MyAssets/deco/emo/e200024/common/5.png",
     "deco/emo/e200024/6": "MyAssets/deco/emo/e200024/common/6.png",
     "deco/emo/e200024/7": "MyAssets/deco/emo/e200024/common/7.png",
-    "deco/emo/e200024/8": "MyAssets/deco/emo/e200024/en_chs_t/8.png",
+    "deco/emo/e200024/8": {
+      "chs": "MyAssets/deco/emo/e200024/chs/8.png",
+      "cn": "MyAssets/deco/emo/e200024/chs_t/8.png",
+      "en": "MyAssets/deco/emo/e200024/en_en/8.png",
+      "jp": "MyAssets/deco/emo/e200024/jp/8.png",
+      "kr": "MyAssets/deco/emo/e200024/kr/8.png"
+    },
     "deco/emo/e200024/888": "MyAssets/deco/emo/e200024/common/888.png",
     "deco/emo/e200024/941": "MyAssets/deco/emo/e200024/common/941.png",
     "deco/emo/e200024/950": "MyAssets/deco/emo/e200024/common/950.png",
@@ -22438,7 +22684,13 @@
     "deco/emo/e200025/957": "MyAssets/deco/emo/e200025/common/957.png",
     "deco/emo/e200025/982": "MyAssets/deco/emo/e200025/common/982.png",
     "deco/emo/e200026/0": "MyAssets/deco/emo/e200026/common/0.png",
-    "deco/emo/e200026/1": "MyAssets/deco/emo/e200026/en_chs_t/1.png",
+    "deco/emo/e200026/1": {
+      "chs": "MyAssets/deco/emo/e200026/chs/1.png",
+      "cn": "MyAssets/deco/emo/e200026/chs_t/1.png",
+      "en": "MyAssets/deco/emo/e200026/en_en/1.png",
+      "jp": "MyAssets/deco/emo/e200026/jp/1.png",
+      "kr": "MyAssets/deco/emo/e200026/kr/1.png"
+    },
     "deco/emo/e200026/10": "MyAssets/deco/emo/e200026/common/10.png",
     "deco/emo/e200026/11": "MyAssets/deco/emo/e200026/common/11.png",
     "deco/emo/e200026/12": "MyAssets/deco/emo/e200026/common/12.png",
@@ -22456,7 +22708,13 @@
     "deco/emo/e200026/973": "MyAssets/deco/emo/e200026/common/973.png",
     "deco/emo/e200026/989": "MyAssets/deco/emo/e200026/common/989.png",
     "deco/emo/e200026/989.png": "MyAssets/deco/emo/e200026/common/989.png",
-    "deco/emo/e200027/0": "MyAssets/deco/emo/e200027/en_chs_t/0.png",
+    "deco/emo/e200027/0": {
+      "chs": "MyAssets/deco/emo/e200027/chs/0.png",
+      "cn": "MyAssets/deco/emo/e200027/chs_t/0.png",
+      "en": "MyAssets/deco/emo/e200027/en_en/0.png",
+      "jp": "MyAssets/deco/emo/e200027/jp/0.png",
+      "kr": "MyAssets/deco/emo/e200027/kr/0.png"
+    },
     "deco/emo/e200027/1": "MyAssets/deco/emo/e200027/common/1.png",
     "deco/emo/e200027/10": "MyAssets/deco/emo/e200027/common/10.png",
     "deco/emo/e200027/11": "MyAssets/deco/emo/e200027/common/11.png",
@@ -22464,7 +22722,13 @@
     "deco/emo/e200027/14": "MyAssets/deco/emo/e200027/common/14.png",
     "deco/emo/e200027/2": "MyAssets/deco/emo/e200027/common/2.png",
     "deco/emo/e200027/3": "MyAssets/deco/emo/e200027/common/3.png",
-    "deco/emo/e200027/4": "MyAssets/deco/emo/e200027/en_chs_t/4.png",
+    "deco/emo/e200027/4": {
+      "chs": "MyAssets/deco/emo/e200027/chs/4.png",
+      "cn": "MyAssets/deco/emo/e200027/chs_t/4.png",
+      "en": "MyAssets/deco/emo/e200027/en_en/4.png",
+      "jp": "MyAssets/deco/emo/e200027/jp/4.png",
+      "kr": "MyAssets/deco/emo/e200027/kr/4.png"
+    },
     "deco/emo/e200027/5": "MyAssets/deco/emo/e200027/common/5.png",
     "deco/emo/e200027/6": "MyAssets/deco/emo/e200027/common/6.png",
     "deco/emo/e200027/7": "MyAssets/deco/emo/e200027/common/7.png",
@@ -22503,7 +22767,13 @@
     "deco/emo/e200029/4": "MyAssets/deco/emo/e200029/common/4.png",
     "deco/emo/e200029/4.png": "MyAssets/deco/emo/e200029/common/4.png",
     "deco/emo/e200029/5": "MyAssets/deco/emo/e200029/common/5.png",
-    "deco/emo/e200029/6": "MyAssets/deco/emo/e200029/en_chs_t/6.png",
+    "deco/emo/e200029/6": {
+      "chs": "MyAssets/deco/emo/e200029/chs/6.png",
+      "cn": "MyAssets/deco/emo/e200029/chs_t/6.png",
+      "en": "MyAssets/deco/emo/e200029/en_en/6.png",
+      "jp": "MyAssets/deco/emo/e200029/jp/6.png",
+      "kr": "MyAssets/deco/emo/e200029/kr/6.png"
+    },
     "deco/emo/e200029/7": "MyAssets/deco/emo/e200029/common/7.png",
     "deco/emo/e200029/8": "MyAssets/deco/emo/e200029/common/8.png",
     "deco/emo/e200029/888": "MyAssets/deco/emo/e200029/common/888.png",
@@ -22515,7 +22785,13 @@
     "deco/emo/e200030/0": "MyAssets/deco/emo/e200030/common/0.png",
     "deco/emo/e200030/1": "MyAssets/deco/emo/e200030/common/1.png",
     "deco/emo/e200030/10": "MyAssets/deco/emo/e200030/common/10.png",
-    "deco/emo/e200030/11": "MyAssets/deco/emo/e200030/en_chs_t/11.png",
+    "deco/emo/e200030/11": {
+      "chs": "MyAssets/deco/emo/e200030/chs/11.png",
+      "cn": "MyAssets/deco/emo/e200030/chs_t/11.png",
+      "en": "MyAssets/deco/emo/e200030/en_en/11.png",
+      "jp": "MyAssets/deco/emo/e200030/jp/11.png",
+      "kr": "MyAssets/deco/emo/e200030/kr/11.png"
+    },
     "deco/emo/e200030/12": "MyAssets/deco/emo/e200030/common/12.png",
     "deco/emo/e200030/14": "MyAssets/deco/emo/e200030/common/14.png",
     "deco/emo/e200030/2": "MyAssets/deco/emo/e200030/common/2.png",
@@ -22534,7 +22810,13 @@
     "deco/emo/e200031/11": "MyAssets/deco/emo/e200031/common/11.png",
     "deco/emo/e200031/12": "MyAssets/deco/emo/e200031/common/12.png",
     "deco/emo/e200031/14": "MyAssets/deco/emo/e200031/common/14.png",
-    "deco/emo/e200031/2": "MyAssets/deco/emo/e200031/en_chs_t/2.png",
+    "deco/emo/e200031/2": {
+      "chs": "MyAssets/deco/emo/e200031/chs/2.png",
+      "cn": "MyAssets/deco/emo/e200031/chs_t/2.png",
+      "en": "MyAssets/deco/emo/e200031/en_en/2.png",
+      "jp": "MyAssets/deco/emo/e200031/jp/2.png",
+      "kr": "MyAssets/deco/emo/e200031/kr/2.png"
+    },
     "deco/emo/e200031/3": "MyAssets/deco/emo/e200031/common/3.png",
     "deco/emo/e200031/4": "MyAssets/deco/emo/e200031/common/4.png",
     "deco/emo/e200031/4.png": "MyAssets/deco/emo/e200031/common/4.png",
@@ -22546,7 +22828,13 @@
     "deco/emo/e200031/888": "MyAssets/deco/emo/e200031/common/888.png",
     "deco/emo/e200031/959": "MyAssets/deco/emo/e200031/common/959.png",
     "deco/emo/e200031/978": "MyAssets/deco/emo/e200031/common/978.png",
-    "deco/emo/e200032/0": "MyAssets/deco/emo/e200032/en_chs_t/0.png",
+    "deco/emo/e200032/0": {
+      "chs": "MyAssets/deco/emo/e200032/chs/0.png",
+      "cn": "MyAssets/deco/emo/e200032/chs_t/0.png",
+      "en": "MyAssets/deco/emo/e200032/en_en/0.png",
+      "jp": "MyAssets/deco/emo/e200032/jp/0.png",
+      "kr": "MyAssets/deco/emo/e200032/kr/0.png"
+    },
     "deco/emo/e200032/1": "MyAssets/deco/emo/e200032/common/1.png",
     "deco/emo/e200032/10": "MyAssets/deco/emo/e200032/common/10.png",
     "deco/emo/e200032/11": "MyAssets/deco/emo/e200032/common/11.png",
@@ -22578,16 +22866,34 @@
     "deco/emo/e200033/4": "MyAssets/deco/emo/e200033/common/4.png",
     "deco/emo/e200033/5": "MyAssets/deco/emo/e200033/common/5.png",
     "deco/emo/e200033/6": "MyAssets/deco/emo/e200033/common/6.png",
-    "deco/emo/e200033/7": "MyAssets/deco/emo/e200033/en_chs_t/7.png",
+    "deco/emo/e200033/7": {
+      "chs": "MyAssets/deco/emo/e200033/chs/7.png",
+      "cn": "MyAssets/deco/emo/e200033/chs_t/7.png",
+      "en": "MyAssets/deco/emo/e200033/en_en/7.png",
+      "jp": "MyAssets/deco/emo/e200033/jp/7.png",
+      "kr": "MyAssets/deco/emo/e200033/kr/7.png"
+    },
     "deco/emo/e200033/8": "MyAssets/deco/emo/e200033/common/8.png",
     "deco/emo/e200033/888": "MyAssets/deco/emo/e200033/common/888.png",
     "deco/emo/e200033/929": "MyAssets/deco/emo/e200033/common/929.png",
     "deco/emo/e200033/948": "MyAssets/deco/emo/e200033/common/948.png",
     "deco/emo/e200033/969": "MyAssets/deco/emo/e200033/common/969.png",
     "deco/emo/e200034/0": "MyAssets/deco/emo/e200034/common/0.png",
-    "deco/emo/e200034/1": "MyAssets/deco/emo/e200034/en_chs_t/1.png",
+    "deco/emo/e200034/1": {
+      "chs": "MyAssets/deco/emo/e200034/chs/1.png",
+      "cn": "MyAssets/deco/emo/e200034/chs_t/1.png",
+      "en": "MyAssets/deco/emo/e200034/en_en/1.png",
+      "jp": "MyAssets/deco/emo/e200034/jp/1.png",
+      "kr": "MyAssets/deco/emo/e200034/kr/1.png"
+    },
     "deco/emo/e200034/10": "MyAssets/deco/emo/e200034/common/10.png",
-    "deco/emo/e200034/11": "MyAssets/deco/emo/e200034/en_chs_t/11.png",
+    "deco/emo/e200034/11": {
+      "chs": "MyAssets/deco/emo/e200034/chs/11.png",
+      "cn": "MyAssets/deco/emo/e200034/chs_t/11.png",
+      "en": "MyAssets/deco/emo/e200034/en_en/11.png",
+      "jp": "MyAssets/deco/emo/e200034/jp/11.png",
+      "kr": "MyAssets/deco/emo/e200034/kr/11.png"
+    },
     "deco/emo/e200034/12": "MyAssets/deco/emo/e200034/common/12.png",
     "deco/emo/e200034/14": "MyAssets/deco/emo/e200034/common/14.png",
     "deco/emo/e200034/2": "MyAssets/deco/emo/e200034/common/2.png",
@@ -22602,7 +22908,13 @@
     "deco/emo/e200035/0": "MyAssets/deco/emo/e200035/common/0.png",
     "deco/emo/e200035/1": "MyAssets/deco/emo/e200035/common/1.png",
     "deco/emo/e200035/10": "MyAssets/deco/emo/e200035/common/10.png",
-    "deco/emo/e200035/11": "MyAssets/deco/emo/e200035/en_chs_t/11.png",
+    "deco/emo/e200035/11": {
+      "chs": "MyAssets/deco/emo/e200035/chs/11.png",
+      "cn": "MyAssets/deco/emo/e200035/chs_t/11.png",
+      "en": "MyAssets/deco/emo/e200035/en_en/11.png",
+      "jp": "MyAssets/deco/emo/e200035/jp/11.png",
+      "kr": "MyAssets/deco/emo/e200035/kr/11.png"
+    },
     "deco/emo/e200035/12": "MyAssets/deco/emo/e200035/common/12.png",
     "deco/emo/e200035/14": "MyAssets/deco/emo/e200035/common/14.png",
     "deco/emo/e200035/2": "MyAssets/deco/emo/e200035/common/2.png",
@@ -22622,11 +22934,23 @@
     "deco/emo/e200036/14": "MyAssets/deco/emo/e200036/common/14.png",
     "deco/emo/e200036/2": "MyAssets/deco/emo/e200036/common/2.png",
     "deco/emo/e200036/3": "MyAssets/deco/emo/e200036/common/3.png",
-    "deco/emo/e200036/4": "MyAssets/deco/emo/e200036/en_chs_t/4.png",
+    "deco/emo/e200036/4": {
+      "chs": "MyAssets/deco/emo/e200036/chs/4.png",
+      "cn": "MyAssets/deco/emo/e200036/chs_t/4.png",
+      "en": "MyAssets/deco/emo/e200036/en_en/4.png",
+      "jp": "MyAssets/deco/emo/e200036/jp/4.png",
+      "kr": "MyAssets/deco/emo/e200036/kr/4.png"
+    },
     "deco/emo/e200036/5": "MyAssets/deco/emo/e200036/common/5.png",
     "deco/emo/e200036/6": "MyAssets/deco/emo/e200036/common/6.png",
     "deco/emo/e200036/7": "MyAssets/deco/emo/e200036/common/7.png",
-    "deco/emo/e200036/8": "MyAssets/deco/emo/e200036/en_chs_t/8.png",
+    "deco/emo/e200036/8": {
+      "chs": "MyAssets/deco/emo/e200036/chs/8.png",
+      "cn": "MyAssets/deco/emo/e200036/chs_t/8.png",
+      "en": "MyAssets/deco/emo/e200036/en_en/8.png",
+      "jp": "MyAssets/deco/emo/e200036/jp/8.png",
+      "kr": "MyAssets/deco/emo/e200036/kr/8.png"
+    },
     "deco/emo/e200036/969": "MyAssets/deco/emo/e200036/common/969.png",
     "deco/emo/e200036/990": "MyAssets/deco/emo/e200036/common/990.png",
     "deco/emo/e200037/0": "MyAssets/deco/emo/e200037/common/0.png",
@@ -22640,7 +22964,13 @@
     "deco/emo/e200037/4": "MyAssets/deco/emo/e200037/common/4.png",
     "deco/emo/e200037/5": "MyAssets/deco/emo/e200037/common/5.png",
     "deco/emo/e200037/6": "MyAssets/deco/emo/e200037/common/6.png",
-    "deco/emo/e200037/7": "MyAssets/deco/emo/e200037/en_chs_t/7.png",
+    "deco/emo/e200037/7": {
+      "chs": "MyAssets/deco/emo/e200037/chs/7.png",
+      "cn": "MyAssets/deco/emo/e200037/chs_t/7.png",
+      "en": "MyAssets/deco/emo/e200037/en_en/7.png",
+      "jp": "MyAssets/deco/emo/e200037/jp/7.png",
+      "kr": "MyAssets/deco/emo/e200037/kr/7.png"
+    },
     "deco/emo/e200037/8": "MyAssets/deco/emo/e200037/common/8.png",
     "deco/emo/e200037/969": "MyAssets/deco/emo/e200037/common/969.png",
     "deco/emo/e200037/990": "MyAssets/deco/emo/e200037/common/990.png",
@@ -22652,12 +22982,30 @@
     "deco/emo/e200038/14": "MyAssets/deco/emo/e200038/common/14.png",
     "deco/emo/e200038/2": "MyAssets/deco/emo/e200038/common/2.png",
     "deco/emo/e200038/3": "MyAssets/deco/emo/e200038/common/3.png",
-    "deco/emo/e200038/4": "MyAssets/deco/emo/e200038/en_chs_t/4.png",
+    "deco/emo/e200038/4": {
+      "chs": "MyAssets/deco/emo/e200038/chs/4.png",
+      "cn": "MyAssets/deco/emo/e200038/chs_t/4.png",
+      "en": "MyAssets/deco/emo/e200038/en_en/4.png",
+      "jp": "MyAssets/deco/emo/e200038/jp/4.png",
+      "kr": "MyAssets/deco/emo/e200038/kr/4.png"
+    },
     "deco/emo/e200038/5": "MyAssets/deco/emo/e200038/common/5.png",
-    "deco/emo/e200038/6": "MyAssets/deco/emo/e200038/en_chs_t/6.png",
+    "deco/emo/e200038/6": {
+      "chs": "MyAssets/deco/emo/e200038/chs/6.png",
+      "cn": "MyAssets/deco/emo/e200038/chs_t/6.png",
+      "en": "MyAssets/deco/emo/e200038/en_en/6.png",
+      "jp": "MyAssets/deco/emo/e200038/jp/6.png",
+      "kr": "MyAssets/deco/emo/e200038/kr/6.png"
+    },
     "deco/emo/e200038/7": "MyAssets/deco/emo/e200038/common/7.png",
     "deco/emo/e200038/8": "MyAssets/deco/emo/e200038/common/8.png",
-    "deco/emo/e200038/888": "MyAssets/deco/emo/e200038/en_chs_t/888.png",
+    "deco/emo/e200038/888": {
+      "chs": "MyAssets/deco/emo/e200038/chs/888.png",
+      "cn": "MyAssets/deco/emo/e200038/chs_t/888.png",
+      "en": "MyAssets/deco/emo/e200038/en_en/888.png",
+      "jp": "MyAssets/deco/emo/e200038/jp/888.png",
+      "kr": "MyAssets/deco/emo/e200038/kr/888.png"
+    },
     "deco/emo/e200038/930": "MyAssets/deco/emo/e200038/common/930.png",
     "deco/emo/e200038/947": "MyAssets/deco/emo/e200038/common/947.png",
     "deco/emo/e200038/959": "MyAssets/deco/emo/e200038/common/959.png",
@@ -22743,10 +23091,22 @@
     "deco/emo/e200044/12": "MyAssets/deco/emo/e200044/common/12.png",
     "deco/emo/e200044/14": "MyAssets/deco/emo/e200044/common/14.png",
     "deco/emo/e200044/2": "MyAssets/deco/emo/e200044/common/2.png",
-    "deco/emo/e200044/3": "MyAssets/deco/emo/e200044/en_chs_t/3.png",
+    "deco/emo/e200044/3": {
+      "chs": "MyAssets/deco/emo/e200044/chs/3.png",
+      "cn": "MyAssets/deco/emo/e200044/chs_t/3.png",
+      "en": "MyAssets/deco/emo/e200044/en_en/3.png",
+      "jp": "MyAssets/deco/emo/e200044/jp/3.png",
+      "kr": "MyAssets/deco/emo/e200044/kr/3.png"
+    },
     "deco/emo/e200044/4": "MyAssets/deco/emo/e200044/common/4.png",
     "deco/emo/e200044/5": "MyAssets/deco/emo/e200044/common/5.png",
-    "deco/emo/e200044/6": "MyAssets/deco/emo/e200044/en_chs_t/6.png",
+    "deco/emo/e200044/6": {
+      "chs": "MyAssets/deco/emo/e200044/chs/6.png",
+      "cn": "MyAssets/deco/emo/e200044/chs_t/6.png",
+      "en": "MyAssets/deco/emo/e200044/en_en/6.png",
+      "jp": "MyAssets/deco/emo/e200044/jp/6.png",
+      "kr": "MyAssets/deco/emo/e200044/kr/6.png"
+    },
     "deco/emo/e200044/7": "MyAssets/deco/emo/e200044/common/7.png",
     "deco/emo/e200044/8": "MyAssets/deco/emo/e200044/common/8.png",
     "deco/emo/e200044/888": "MyAssets/deco/emo/e200044/common/888.png",
@@ -22756,7 +23116,13 @@
     "deco/emo/e200045/0": "MyAssets/deco/emo/e200045/common/0.png",
     "deco/emo/e200045/1": "MyAssets/deco/emo/e200045/common/1.png",
     "deco/emo/e200045/10": "MyAssets/deco/emo/e200045/common/10.png",
-    "deco/emo/e200045/11": "MyAssets/deco/emo/e200045/en_chs_t/11.png",
+    "deco/emo/e200045/11": {
+      "chs": "MyAssets/deco/emo/e200045/chs/11.png",
+      "cn": "MyAssets/deco/emo/e200045/chs_t/11.png",
+      "en": "MyAssets/deco/emo/e200045/en_en/11.png",
+      "jp": "MyAssets/deco/emo/e200045/jp/11.png",
+      "kr": "MyAssets/deco/emo/e200045/kr/11.png"
+    },
     "deco/emo/e200045/12": "MyAssets/deco/emo/e200045/common/12.png",
     "deco/emo/e200045/14": "MyAssets/deco/emo/e200045/common/14.png",
     "deco/emo/e200045/2": "MyAssets/deco/emo/e200045/common/2.png",
@@ -22764,7 +23130,13 @@
     "deco/emo/e200045/4": "MyAssets/deco/emo/e200045/common/4.png",
     "deco/emo/e200045/5": "MyAssets/deco/emo/e200045/common/5.png",
     "deco/emo/e200045/6": "MyAssets/deco/emo/e200045/common/6.png",
-    "deco/emo/e200045/7": "MyAssets/deco/emo/e200045/en_chs_t/7.png",
+    "deco/emo/e200045/7": {
+      "chs": "MyAssets/deco/emo/e200045/chs/7.png",
+      "cn": "MyAssets/deco/emo/e200045/chs_t/7.png",
+      "en": "MyAssets/deco/emo/e200045/en_en/7.png",
+      "jp": "MyAssets/deco/emo/e200045/jp/7.png",
+      "kr": "MyAssets/deco/emo/e200045/kr/7.png"
+    },
     "deco/emo/e200045/8": "MyAssets/deco/emo/e200045/common/8.png",
     "deco/emo/e200045/888": "MyAssets/deco/emo/e200045/common/888.png",
     "deco/emo/e200045/946": "MyAssets/deco/emo/e200045/common/946.png",
@@ -22773,7 +23145,13 @@
     "deco/emo/e200046/0": "MyAssets/deco/emo/e200046/common/0.png",
     "deco/emo/e200046/1": "MyAssets/deco/emo/e200046/common/1.png",
     "deco/emo/e200046/10": "MyAssets/deco/emo/e200046/common/10.png",
-    "deco/emo/e200046/11": "MyAssets/deco/emo/e200046/en_chs_t/11.png",
+    "deco/emo/e200046/11": {
+      "chs": "MyAssets/deco/emo/e200046/chs/11.png",
+      "cn": "MyAssets/deco/emo/e200046/chs_t/11.png",
+      "en": "MyAssets/deco/emo/e200046/en_en/11.png",
+      "jp": "MyAssets/deco/emo/e200046/jp/11.png",
+      "kr": "MyAssets/deco/emo/e200046/kr/11.png"
+    },
     "deco/emo/e200046/12": "MyAssets/deco/emo/e200046/common/12.png",
     "deco/emo/e200046/14": "MyAssets/deco/emo/e200046/common/14.png",
     "deco/emo/e200046/2": "MyAssets/deco/emo/e200046/common/2.png",
@@ -22795,7 +23173,13 @@
     "deco/emo/e200047/14": "MyAssets/deco/emo/e200047/common/14.png",
     "deco/emo/e200047/2": "MyAssets/deco/emo/e200047/common/2.png",
     "deco/emo/e200047/3": "MyAssets/deco/emo/e200047/common/3.png",
-    "deco/emo/e200047/4": "MyAssets/deco/emo/e200047/en_chs_t/4.png",
+    "deco/emo/e200047/4": {
+      "chs": "MyAssets/deco/emo/e200047/chs/4.png",
+      "cn": "MyAssets/deco/emo/e200047/chs_t/4.png",
+      "en": "MyAssets/deco/emo/e200047/en_en/4.png",
+      "jp": "MyAssets/deco/emo/e200047/jp/4.png",
+      "kr": "MyAssets/deco/emo/e200047/kr/4.png"
+    },
     "deco/emo/e200047/5": "MyAssets/deco/emo/e200047/common/5.png",
     "deco/emo/e200047/6": "MyAssets/deco/emo/e200047/common/6.png",
     "deco/emo/e200047/7": "MyAssets/deco/emo/e200047/common/7.png",
@@ -22839,9 +23223,21 @@
     "deco/emo/e200049/933": "MyAssets/deco/emo/e200049/common/933.png",
     "deco/emo/e200049/954": "MyAssets/deco/emo/e200049/common/954.png",
     "deco/emo/e200049/964": "MyAssets/deco/emo/e200049/common/964.png",
-    "deco/emo/e200050/0": "MyAssets/deco/emo/e200050/en_chs_t/0.png",
+    "deco/emo/e200050/0": {
+      "chs": "MyAssets/deco/emo/e200050/chs/0.png",
+      "cn": "MyAssets/deco/emo/e200050/chs_t/0.png",
+      "en": "MyAssets/deco/emo/e200050/en_en/0.png",
+      "jp": "MyAssets/deco/emo/e200050/jp/0.png",
+      "kr": "MyAssets/deco/emo/e200050/kr/0.png"
+    },
     "deco/emo/e200050/1": "MyAssets/deco/emo/e200050/common/1.png",
-    "deco/emo/e200050/10": "MyAssets/deco/emo/e200050/en_chs_t/10.png",
+    "deco/emo/e200050/10": {
+      "chs": "MyAssets/deco/emo/e200050/chs/10.png",
+      "cn": "MyAssets/deco/emo/e200050/chs_t/10.png",
+      "en": "MyAssets/deco/emo/e200050/en_en/10.png",
+      "jp": "MyAssets/deco/emo/e200050/jp/10.png",
+      "kr": "MyAssets/deco/emo/e200050/kr/10.png"
+    },
     "deco/emo/e200050/11": "MyAssets/deco/emo/e200050/common/11.png",
     "deco/emo/e200050/12": "MyAssets/deco/emo/e200050/common/12.png",
     "deco/emo/e200050/14": "MyAssets/deco/emo/e200050/common/14.png",
@@ -22855,7 +23251,13 @@
     "deco/emo/e200050/980": "MyAssets/deco/emo/e200050/common/980.png",
     "deco/emo/e200051/0": "MyAssets/deco/emo/e200051/common/0.png",
     "deco/emo/e200051/1": "MyAssets/deco/emo/e200051/common/1.png",
-    "deco/emo/e200051/10": "MyAssets/deco/emo/e200051/en_chs_t/10.png",
+    "deco/emo/e200051/10": {
+      "chs": "MyAssets/deco/emo/e200051/chs/10.png",
+      "cn": "MyAssets/deco/emo/e200051/chs_t/10.png",
+      "en": "MyAssets/deco/emo/e200051/en_en/10.png",
+      "jp": "MyAssets/deco/emo/e200051/jp/10.png",
+      "kr": "MyAssets/deco/emo/e200051/kr/10.png"
+    },
     "deco/emo/e200051/11": "MyAssets/deco/emo/e200051/common/11.png",
     "deco/emo/e200051/12": "MyAssets/deco/emo/e200051/common/12.png",
     "deco/emo/e200051/14": "MyAssets/deco/emo/e200051/common/14.png",
@@ -22874,8 +23276,20 @@
     "deco/emo/e200052/12": "MyAssets/deco/emo/e200052/common/12.png",
     "deco/emo/e200052/14": "MyAssets/deco/emo/e200052/common/14.png",
     "deco/emo/e200052/2": "MyAssets/deco/emo/e200052/common/2.png",
-    "deco/emo/e200052/3": "MyAssets/deco/emo/e200052/en_chs_t/3.png",
-    "deco/emo/e200052/4": "MyAssets/deco/emo/e200052/en_chs_t/4.png",
+    "deco/emo/e200052/3": {
+      "chs": "MyAssets/deco/emo/e200052/chs/3.png",
+      "cn": "MyAssets/deco/emo/e200052/chs_t/3.png",
+      "en": "MyAssets/deco/emo/e200052/en_en/3.png",
+      "jp": "MyAssets/deco/emo/e200052/jp/3.png",
+      "kr": "MyAssets/deco/emo/e200052/kr/3.png"
+    },
+    "deco/emo/e200052/4": {
+      "chs": "MyAssets/deco/emo/e200052/chs/4.png",
+      "cn": "MyAssets/deco/emo/e200052/chs_t/4.png",
+      "en": "MyAssets/deco/emo/e200052/en_en/4.png",
+      "jp": "MyAssets/deco/emo/e200052/jp/4.png",
+      "kr": "MyAssets/deco/emo/e200052/kr/4.png"
+    },
     "deco/emo/e200052/5": "MyAssets/deco/emo/e200052/common/5.png",
     "deco/emo/e200052/6": "MyAssets/deco/emo/e200052/common/6.png",
     "deco/emo/e200052/7": "MyAssets/deco/emo/e200052/common/7.png",
@@ -22884,7 +23298,13 @@
     "deco/emo/e200053/0": "MyAssets/deco/emo/e200053/common/0.png",
     "deco/emo/e200053/1": "MyAssets/deco/emo/e200053/common/1.png",
     "deco/emo/e200053/10": "MyAssets/deco/emo/e200053/common/10.png",
-    "deco/emo/e200053/11": "MyAssets/deco/emo/e200053/en_chs_t/11.png",
+    "deco/emo/e200053/11": {
+      "chs": "MyAssets/deco/emo/e200053/chs/11.png",
+      "cn": "MyAssets/deco/emo/e200053/chs_t/11.png",
+      "en": "MyAssets/deco/emo/e200053/en_en/11.png",
+      "jp": "MyAssets/deco/emo/e200053/jp/11.png",
+      "kr": "MyAssets/deco/emo/e200053/kr/11.png"
+    },
     "deco/emo/e200053/12": "MyAssets/deco/emo/e200053/common/12.png",
     "deco/emo/e200053/14": "MyAssets/deco/emo/e200053/common/14.png",
     "deco/emo/e200053/2": "MyAssets/deco/emo/e200053/common/2.png",
@@ -22957,9 +23377,21 @@
     "deco/emo/e200057/8": "MyAssets/deco/emo/e200057/common/8.png",
     "deco/emo/e200057/975": "MyAssets/deco/emo/e200057/common/975.png",
     "deco/emo/e200058/0": "MyAssets/deco/emo/e200058/common/0.png",
-    "deco/emo/e200058/1": "MyAssets/deco/emo/e200058/en_chs_t/1.png",
+    "deco/emo/e200058/1": {
+      "chs": "MyAssets/deco/emo/e200058/chs/1.png",
+      "cn": "MyAssets/deco/emo/e200058/chs_t/1.png",
+      "en": "MyAssets/deco/emo/e200058/en_en/1.png",
+      "jp": "MyAssets/deco/emo/e200058/jp/1.png",
+      "kr": "MyAssets/deco/emo/e200058/kr/1.png"
+    },
     "deco/emo/e200058/10": "MyAssets/deco/emo/e200058/common/10.png",
-    "deco/emo/e200058/11": "MyAssets/deco/emo/e200058/en_chs_t/11.png",
+    "deco/emo/e200058/11": {
+      "chs": "MyAssets/deco/emo/e200058/chs/11.png",
+      "cn": "MyAssets/deco/emo/e200058/chs_t/11.png",
+      "en": "MyAssets/deco/emo/e200058/en_en/11.png",
+      "jp": "MyAssets/deco/emo/e200058/jp/11.png",
+      "kr": "MyAssets/deco/emo/e200058/kr/11.png"
+    },
     "deco/emo/e200058/12": "MyAssets/deco/emo/e200058/common/12.png",
     "deco/emo/e200058/14": "MyAssets/deco/emo/e200058/common/14.png",
     "deco/emo/e200058/2": "MyAssets/deco/emo/e200058/common/2.png",
@@ -22993,7 +23425,13 @@
     "deco/emo/e200060/1": "MyAssets/deco/emo/e200060/common/1.png",
     "deco/emo/e200060/10": "MyAssets/deco/emo/e200060/common/10.png",
     "deco/emo/e200060/11": "MyAssets/deco/emo/e200060/common/11.png",
-    "deco/emo/e200060/12": "MyAssets/deco/emo/e200060/en_chs_t/12.png",
+    "deco/emo/e200060/12": {
+      "chs": "MyAssets/deco/emo/e200060/chs/12.png",
+      "cn": "MyAssets/deco/emo/e200060/chs_t/12.png",
+      "en": "MyAssets/deco/emo/e200060/en_en/12.png",
+      "jp": "MyAssets/deco/emo/e200060/jp/12.png",
+      "kr": "MyAssets/deco/emo/e200060/kr/12.png"
+    },
     "deco/emo/e200060/14": "MyAssets/deco/emo/e200060/common/14.png",
     "deco/emo/e200060/2": "MyAssets/deco/emo/e200060/common/2.png",
     "deco/emo/e200060/3": "MyAssets/deco/emo/e200060/common/3.png",
@@ -23072,12 +23510,24 @@
     "deco/emo/e200065/4": "MyAssets/deco/emo/e200065/common/4.png",
     "deco/emo/e200065/5": "MyAssets/deco/emo/e200065/common/5.png",
     "deco/emo/e200065/6": "MyAssets/deco/emo/e200065/common/6.png",
-    "deco/emo/e200065/7": "MyAssets/deco/emo/e200065/en_chs_t/7.png",
+    "deco/emo/e200065/7": {
+      "chs": "MyAssets/deco/emo/e200065/chs/7.png",
+      "cn": "MyAssets/deco/emo/e200065/chs_t/7.png",
+      "en": "MyAssets/deco/emo/e200065/en_en/7.png",
+      "jp": "MyAssets/deco/emo/e200065/jp/7.png",
+      "kr": "MyAssets/deco/emo/e200065/kr/7.png"
+    },
     "deco/emo/e200065/8": "MyAssets/deco/emo/e200065/common/8.png",
     "deco/emo/e200065/969": "MyAssets/deco/emo/e200065/common/969.png",
     "deco/emo/e200066/0": "MyAssets/deco/emo/e200066/common/0.png",
     "deco/emo/e200066/1": "MyAssets/deco/emo/e200066/common/1.png",
-    "deco/emo/e200066/10": "MyAssets/deco/emo/e200066/en_chs_t/10.png",
+    "deco/emo/e200066/10": {
+      "chs": "MyAssets/deco/emo/e200066/chs/10.png",
+      "cn": "MyAssets/deco/emo/e200066/chs_t/10.png",
+      "en": "MyAssets/deco/emo/e200066/en_en/10.png",
+      "jp": "MyAssets/deco/emo/e200066/jp/10.png",
+      "kr": "MyAssets/deco/emo/e200066/kr/10.png"
+    },
     "deco/emo/e200066/11": "MyAssets/deco/emo/e200066/common/11.png",
     "deco/emo/e200066/12": "MyAssets/deco/emo/e200066/common/12.png",
     "deco/emo/e200066/14": "MyAssets/deco/emo/e200066/common/14.png",
@@ -23117,7 +23567,13 @@
     "deco/emo/e200068/14": "MyAssets/deco/emo/e200068/common/14.png",
     "deco/emo/e200068/2": "MyAssets/deco/emo/e200068/common/2.png",
     "deco/emo/e200068/3": "MyAssets/deco/emo/e200068/common/3.png",
-    "deco/emo/e200068/4": "MyAssets/deco/emo/e200068/en_chs_t/4.png",
+    "deco/emo/e200068/4": {
+      "chs": "MyAssets/deco/emo/e200068/chs/4.png",
+      "cn": "MyAssets/deco/emo/e200068/chs_t/4.png",
+      "en": "MyAssets/deco/emo/e200068/en_en/4.png",
+      "jp": "MyAssets/deco/emo/e200068/jp/4.png",
+      "kr": "MyAssets/deco/emo/e200068/kr/4.png"
+    },
     "deco/emo/e200068/5": "MyAssets/deco/emo/e200068/common/5.png",
     "deco/emo/e200068/6": "MyAssets/deco/emo/e200068/common/6.png",
     "deco/emo/e200068/7": "MyAssets/deco/emo/e200068/common/7.png",
@@ -23221,7 +23677,13 @@
     "deco/emo/e200075/14": "MyAssets/deco/emo/e200075/common/14.png",
     "deco/emo/e200075/2": "MyAssets/deco/emo/e200075/common/2.png",
     "deco/emo/e200075/3": "MyAssets/deco/emo/e200075/common/3.png",
-    "deco/emo/e200075/4": "MyAssets/deco/emo/e200075/en_chs_t/4.png",
+    "deco/emo/e200075/4": {
+      "chs": "MyAssets/deco/emo/e200075/chs/4.png",
+      "cn": "MyAssets/deco/emo/e200075/chs_t/4.png",
+      "en": "MyAssets/deco/emo/e200075/en_en/4.png",
+      "jp": "MyAssets/deco/emo/e200075/jp/4.png",
+      "kr": "MyAssets/deco/emo/e200075/kr/4.png"
+    },
     "deco/emo/e200075/5": "MyAssets/deco/emo/e200075/common/5.png",
     "deco/emo/e200075/6": "MyAssets/deco/emo/e200075/common/6.png",
     "deco/emo/e200075/7": "MyAssets/deco/emo/e200075/common/7.png",
@@ -23371,14 +23833,26 @@
     "deco/emo/e200085/4": "MyAssets/deco/emo/e200085/common/4.png",
     "deco/emo/e200085/5": "MyAssets/deco/emo/e200085/common/5.png",
     "deco/emo/e200085/6": "MyAssets/deco/emo/e200085/common/6.png",
-    "deco/emo/e200085/7": "MyAssets/deco/emo/e200085/en_chs_t/7.png",
+    "deco/emo/e200085/7": {
+      "chs": "MyAssets/deco/emo/e200085/chs/7.png",
+      "cn": "MyAssets/deco/emo/e200085/chs_t/7.png",
+      "en": "MyAssets/deco/emo/e200085/en_en/7.png",
+      "jp": "MyAssets/deco/emo/e200085/jp/7.png",
+      "kr": "MyAssets/deco/emo/e200085/kr/7.png"
+    },
     "deco/emo/e200085/8": "MyAssets/deco/emo/e200085/common/8.png",
     "deco/emo/e200085/888": "MyAssets/deco/emo/e200085/common/888.png",
     "deco/emo/e200085/935": "MyAssets/deco/emo/e200085/common/935.png",
     "deco/emo/e200086/0": "MyAssets/deco/emo/e200086/common/0.png",
     "deco/emo/e200086/1": "MyAssets/deco/emo/e200086/common/1.png",
     "deco/emo/e200086/10": "MyAssets/deco/emo/e200086/common/10.png",
-    "deco/emo/e200086/11": "MyAssets/deco/emo/e200086/en_chs_t/11.png",
+    "deco/emo/e200086/11": {
+      "chs": "MyAssets/deco/emo/e200086/chs/11.png",
+      "cn": "MyAssets/deco/emo/e200086/chs_t/11.png",
+      "en": "MyAssets/deco/emo/e200086/en_en/11.png",
+      "jp": "MyAssets/deco/emo/e200086/jp/11.png",
+      "kr": "MyAssets/deco/emo/e200086/kr/11.png"
+    },
     "deco/emo/e200086/12": "MyAssets/deco/emo/e200086/common/12.png",
     "deco/emo/e200086/14": "MyAssets/deco/emo/e200086/common/14.png",
     "deco/emo/e200086/2": "MyAssets/deco/emo/e200086/common/2.png",
@@ -23517,7 +23991,13 @@
     "deco/emo/e200095/4": "MyAssets/deco/emo/e200095/common/4.png",
     "deco/emo/e200095/5": "MyAssets/deco/emo/e200095/common/5.png",
     "deco/emo/e200095/6": "MyAssets/deco/emo/e200095/common/6.png",
-    "deco/emo/e200095/7": "MyAssets/deco/emo/e200095/en_chs_t/7.png",
+    "deco/emo/e200095/7": {
+      "chs": "MyAssets/deco/emo/e200095/chs/7.png",
+      "cn": "MyAssets/deco/emo/e200095/chs_t/7.png",
+      "en": "MyAssets/deco/emo/e200095/en_en/7.png",
+      "jp": "MyAssets/deco/emo/e200095/jp/7.png",
+      "kr": "MyAssets/deco/emo/e200095/kr/7.png"
+    },
     "deco/emo/e200095/8": "MyAssets/deco/emo/e200095/common/8.png",
     "deco/emo/e200095/888": "MyAssets/deco/emo/e200095/common/888.png",
     "deco/emo/e200096/0": "MyAssets/deco/emo/e200096/common/0.png",
@@ -23540,9 +24020,21 @@
     "deco/emo/e200097/11": "MyAssets/deco/emo/e200097/common/11.png",
     "deco/emo/e200097/12": "MyAssets/deco/emo/e200097/common/12.png",
     "deco/emo/e200097/14": "MyAssets/deco/emo/e200097/common/14.png",
-    "deco/emo/e200097/2": "MyAssets/deco/emo/e200097/en_chs_t/2.png",
+    "deco/emo/e200097/2": {
+      "chs": "MyAssets/deco/emo/e200097/chs/2.png",
+      "cn": "MyAssets/deco/emo/e200097/chs_t/2.png",
+      "en": "MyAssets/deco/emo/e200097/en_en/2.png",
+      "jp": "MyAssets/deco/emo/e200097/jp/2.png",
+      "kr": "MyAssets/deco/emo/e200097/kr/2.png"
+    },
     "deco/emo/e200097/3": "MyAssets/deco/emo/e200097/common/3.png",
-    "deco/emo/e200097/4": "MyAssets/deco/emo/e200097/en_chs_t/4.png",
+    "deco/emo/e200097/4": {
+      "chs": "MyAssets/deco/emo/e200097/chs/4.png",
+      "cn": "MyAssets/deco/emo/e200097/chs_t/4.png",
+      "en": "MyAssets/deco/emo/e200097/en_en/4.png",
+      "jp": "MyAssets/deco/emo/e200097/jp/4.png",
+      "kr": "MyAssets/deco/emo/e200097/kr/4.png"
+    },
     "deco/emo/e200097/5": "MyAssets/deco/emo/e200097/common/5.png",
     "deco/emo/e200097/6": "MyAssets/deco/emo/e200097/common/6.png",
     "deco/emo/e200097/7": "MyAssets/deco/emo/e200097/common/7.png",
@@ -24199,22 +24691,26 @@
     "deco/tablecloth/tablecloth_yly/pic/tablecloth_yly.jpg": "MyAssets/deco/tablecloth/tablecloth_yly/pic/common/tablecloth_yly.png",
     "deco/tablecloth/tablecloth_yly/preview/preview.png": "MyAssets/deco/tablecloth/tablecloth_yly/preview/common/preview.png",
     "deco/title/12dora/pic/12dora.png": {
+      "chs": "MyAssets/deco/title/12dora/pic/chs/12dora.png",
       "cn": "MyAssets/deco/title/12dora/pic/chs_t/12dora.png",
       "en": "MyAssets/deco/title/12dora/pic/en_en/12dora.png",
       "kr": "MyAssets/deco/title/12dora/pic/kr/12dora.png"
     },
     "deco/title/12dora/pic/12dora_item.jpg": {
+      "chs": "MyAssets/deco/title/12dora/pic/chs/12dora_item.png",
       "cn": "MyAssets/deco/title/12dora/pic/chs_t/12dora_item.png",
       "en": "MyAssets/deco/title/12dora/pic/en_en/12dora_item.png",
       "kr": "MyAssets/deco/title/12dora/pic/kr/12dora_item.png"
     },
     "deco/title/1jdq/pic/1jdq.png": {
+      "chs": "MyAssets/deco/title/1jdq/pic/chs/1jdq.png",
       "cn": "MyAssets/deco/title/1jdq/pic/chs_t/1jdq.png",
       "en": "MyAssets/deco/title/1jdq/pic/en_en/1jdq.png",
       "jp": "MyAssets/deco/title/1jdq/pic/jp/1jdq.png",
       "kr": "MyAssets/deco/title/1jdq/pic/kr/1jdq.png"
     },
     "deco/title/1jdq/pic/1jdq_item.jpg": {
+      "chs": "MyAssets/deco/title/1jdq/pic/chs/1jdq_item.png",
       "cn": "MyAssets/deco/title/1jdq/pic/chs_t/1jdq_item.png",
       "en": "MyAssets/deco/title/1jdq/pic/en_en/1jdq_item.png",
       "jp": "MyAssets/deco/title/1jdq/pic/jp/1jdq_item.png",
@@ -24233,6 +24729,7 @@
       "jp": "MyAssets/deco/title/2208kazoku/pic/jp/2208kazoku_item.png"
     },
     "deco/title/22huolongguo/pic/22huolongguo.png": {
+      "chs": "MyAssets/deco/title/22huolongguo/pic/chs/22huolongguo.png",
       "cn": "MyAssets/deco/title/22huolongguo/pic/chs_t/22huolongguo.png",
       "en": "MyAssets/deco/title/22huolongguo/pic/en_chs_t/22huolongguo.png"
     },
@@ -24258,6 +24755,7 @@
       "jp": "MyAssets/deco/title/2301nw/pic/jp/2301nw_item.png"
     },
     "deco/title/2304rmls1/pic/2304rmls1.png": {
+      "chs": "MyAssets/deco/title/2304rmls1/pic/chs/2304rmls1.png",
       "cn": "MyAssets/deco/title/2304rmls1/pic/chs_t/2304rmls1.png",
       "en": "MyAssets/deco/title/2304rmls1/pic/en_chs_t/2304rmls1.png"
     },
@@ -24283,12 +24781,14 @@
       "jp": "MyAssets/deco/title/2307_2434/pic/jp/2307_2434_item.png"
     },
     "deco/title/2308event/pic/2308event.png": {
+      "chs": "MyAssets/deco/title/2308event/pic/chs/2308event.png",
       "cn": "MyAssets/deco/title/2308event/pic/chs_t/2308event.png",
       "en": "MyAssets/deco/title/2308event/pic/en_en/2308event.png",
       "jp": "MyAssets/deco/title/2308event/pic/jp/2308event.png",
       "kr": "MyAssets/deco/title/2308event/pic/kr/2308event.png"
     },
     "deco/title/2308event/pic/2308event_item.jpg": {
+      "chs": "MyAssets/deco/title/2308event/pic/chs/2308event_item.png",
       "cn": "MyAssets/deco/title/2308event/pic/chs_t/2308event_item.png",
       "en": "MyAssets/deco/title/2308event/pic/en_en/2308event_item.png",
       "jp": "MyAssets/deco/title/2308event/pic/jp/2308event_item.png",
@@ -24349,18 +24849,21 @@
       "jp": "MyAssets/deco/title/24matsutake/pic/jp/24matsutake_item.png"
     },
     "deco/title/24qyzz/pic/24qyzz.png": {
+      "chs": "MyAssets/deco/title/24qyzz/pic/chs/24qyzz.png",
       "cn": "MyAssets/deco/title/24qyzz/pic/chs_t/24qyzz.png",
       "en": "MyAssets/deco/title/24qyzz/pic/en_en/24qyzz.png",
       "jp": "MyAssets/deco/title/24qyzz/pic/jp/24qyzz.png",
       "kr": "MyAssets/deco/title/24qyzz/pic/kr/24qyzz.png"
     },
     "deco/title/24qyzz/pic/24qyzz_item.jpg": {
+      "chs": "MyAssets/deco/title/24qyzz/pic/chs/24qyzz_item.png",
       "cn": "MyAssets/deco/title/24qyzz/pic/chs_t/24qyzz_item.png",
       "en": "MyAssets/deco/title/24qyzz/pic/en_en/24qyzz_item.png",
       "jp": "MyAssets/deco/title/24qyzz/pic/jp/24qyzz_item.png",
       "kr": "MyAssets/deco/title/24qyzz/pic/kr/24qyzz_item.png"
     },
     "deco/title/24shenshebei/pic/24shenshebei.png": {
+      "chs": "MyAssets/deco/title/24shenshebei/pic/chs/24shenshebei.png",
       "cn": "MyAssets/deco/title/24shenshebei/pic/chs_t/24shenshebei.png",
       "en": "MyAssets/deco/title/24shenshebei/pic/en_chs_t/24shenshebei.png"
     },
@@ -24374,6 +24877,7 @@
       "jp": "MyAssets/deco/title/24sszy/pic/jp/24sszy_item.png"
     },
     "deco/title/24sxz1/pic/24sxz1.png": {
+      "chs": "MyAssets/deco/title/24sxz1/pic/chs/24sxz1.png",
       "cn": "MyAssets/deco/title/24sxz1/pic/chs_t/24sxz1.png",
       "en": "MyAssets/deco/title/24sxz1/pic/en_chs_t/24sxz1.png",
       "jp": "MyAssets/deco/title/24sxz1/pic/jp/24sxz1.png"
@@ -24382,6 +24886,7 @@
       "jp": "MyAssets/deco/title/24sxz1/pic/jp/24sxz1_item.png"
     },
     "deco/title/24sxz2/pic/24sxz2.png": {
+      "chs": "MyAssets/deco/title/24sxz2/pic/chs/24sxz2.png",
       "cn": "MyAssets/deco/title/24sxz2/pic/chs_t/24sxz2.png",
       "en": "MyAssets/deco/title/24sxz2/pic/en_chs_t/24sxz2.png",
       "jp": "MyAssets/deco/title/24sxz2/pic/jp/24sxz2.png"
@@ -24390,6 +24895,7 @@
       "jp": "MyAssets/deco/title/24sxz2/pic/jp/24sxz2_item.png"
     },
     "deco/title/24sxz3/pic/24sxz3.png": {
+      "chs": "MyAssets/deco/title/24sxz3/pic/chs/24sxz3.png",
       "cn": "MyAssets/deco/title/24sxz3/pic/chs_t/24sxz3.png",
       "en": "MyAssets/deco/title/24sxz3/pic/en_chs_t/24sxz3.png",
       "jp": "MyAssets/deco/title/24sxz3/pic/jp/24sxz3.png"
@@ -24398,6 +24904,7 @@
       "jp": "MyAssets/deco/title/24sxz3/pic/jp/24sxz3_item.png"
     },
     "deco/title/24sxz4/pic/24sxz4.png": {
+      "chs": "MyAssets/deco/title/24sxz4/pic/chs/24sxz4.png",
       "cn": "MyAssets/deco/title/24sxz4/pic/chs_t/24sxz4.png",
       "en": "MyAssets/deco/title/24sxz4/pic/en_chs_t/24sxz4.png",
       "jp": "MyAssets/deco/title/24sxz4/pic/jp/24sxz4.png"
@@ -24420,6 +24927,7 @@
       "kr": "MyAssets/deco/title/2509qilinzhan/pic/kr/2509qilinzhan_item.png"
     },
     "deco/title/25bl1/pic/25bl1.png": {
+      "chs": "MyAssets/deco/title/25bl1/pic/chs/25bl1.png",
       "cn": "MyAssets/deco/title/25bl1/pic/chs_t/25bl1.png",
       "en": "MyAssets/deco/title/25bl1/pic/en_chs_t/25bl1.png"
     },
@@ -24427,6 +24935,7 @@
       "cn": "MyAssets/deco/title/25bl1/pic/chs/25bl1_item.png"
     },
     "deco/title/25bl2/pic/25bl2.png": {
+      "chs": "MyAssets/deco/title/25bl2/pic/chs/25bl2.png",
       "cn": "MyAssets/deco/title/25bl2/pic/chs_t/25bl2.png",
       "en": "MyAssets/deco/title/25bl2/pic/en_chs_t/25bl2.png"
     },
@@ -24460,6 +24969,7 @@
       "jp": "MyAssets/deco/title/25huntianbazhe/pic/jp/25huntianbazhe_item.png"
     },
     "deco/title/25jingubei/pic/25jingubei.png": {
+      "chs": "MyAssets/deco/title/25jingubei/pic/chs/25jingubei.png",
       "cn": "MyAssets/deco/title/25jingubei/pic/chs_t/25jingubei.png",
       "en": "MyAssets/deco/title/25jingubei/pic/en_chs_t/25jingubei.png"
     },
@@ -24467,6 +24977,7 @@
       "cn": "MyAssets/deco/title/25jingubei/pic/chs/25jingubei_item.png"
     },
     "deco/title/25mjqnw1/pic/25mjqnw1.png": {
+      "chs": "MyAssets/deco/title/25mjqnw1/pic/chs/25mjqnw1.png",
       "cn": "MyAssets/deco/title/25mjqnw1/pic/chs_t/25mjqnw1.png",
       "en": "MyAssets/deco/title/25mjqnw1/pic/en_chs_t/25mjqnw1.png"
     },
@@ -24488,18 +24999,21 @@
       "jp": "MyAssets/deco/title/25njsj/pic/jp/25njsj_item.png"
     },
     "deco/title/25qyzz/pic/25qyzz.png": {
+      "chs": "MyAssets/deco/title/25qyzz/pic/chs/25qyzz.png",
       "cn": "MyAssets/deco/title/25qyzz/pic/chs_t/25qyzz.png",
       "en": "MyAssets/deco/title/25qyzz/pic/en_en/25qyzz.png",
       "jp": "MyAssets/deco/title/25qyzz/pic/jp/25qyzz.png",
       "kr": "MyAssets/deco/title/25qyzz/pic/kr/25qyzz.png"
     },
     "deco/title/25qyzz/pic/25qyzz_item.jpg": {
+      "chs": "MyAssets/deco/title/25qyzz/pic/chs/25qyzz_item.png",
       "cn": "MyAssets/deco/title/25qyzz/pic/chs_t/25qyzz_item.png",
       "en": "MyAssets/deco/title/25qyzz/pic/en_en/25qyzz_item.png",
       "jp": "MyAssets/deco/title/25qyzz/pic/jp/25qyzz_item.png",
       "kr": "MyAssets/deco/title/25qyzz/pic/kr/25qyzz_item.png"
     },
     "deco/title/25shenshebei/pic/25shenshebei.png": {
+      "chs": "MyAssets/deco/title/25shenshebei/pic/chs/25shenshebei.png",
       "cn": "MyAssets/deco/title/25shenshebei/pic/chs_t/25shenshebei.png",
       "en": "MyAssets/deco/title/25shenshebei/pic/en_chs_t/25shenshebei.png"
     },
@@ -24525,6 +25039,7 @@
       "jp": "MyAssets/deco/title/25vspo/pic/jp/25vspo_item.png"
     },
     "deco/title/25zhuluzhan/pic/25zhuluzhan.png": {
+      "chs": "MyAssets/deco/title/25zhuluzhan/pic/chs/25zhuluzhan.png",
       "cn": "MyAssets/deco/title/25zhuluzhan/pic/chs_t/25zhuluzhan.png",
       "en": "MyAssets/deco/title/25zhuluzhan/pic/en_chs_t/25zhuluzhan.png"
     },
@@ -24532,6 +25047,7 @@
       "cn": "MyAssets/deco/title/25zhuluzhan/pic/chs/25zhuluzhan_item.png"
     },
     "deco/title/26bls3/pic/26bls3.png": {
+      "chs": "MyAssets/deco/title/26bls3/pic/chs/26bls3.png",
       "cn": "MyAssets/deco/title/26bls3/pic/chs_t/26bls3.png",
       "en": "MyAssets/deco/title/26bls3/pic/en_chs_t/26bls3.png"
     },
@@ -24546,6 +25062,7 @@
       "kr": "MyAssets/deco/title/26mkc/pic/kr/26mkc_item.png"
     },
     "deco/title/26mplxlzw/pic/26mplxlzw.png": {
+      "chs": "MyAssets/deco/title/26mplxlzw/pic/chs/26mplxlzw.png",
       "cn": "MyAssets/deco/title/26mplxlzw/pic/chs_t/26mplxlzw.png",
       "en": "MyAssets/deco/title/26mplxlzw/pic/en_chs_t/26mplxlzw.png"
     },
@@ -24559,166 +25076,195 @@
       "jp": "MyAssets/deco/title/26njsj/pic/jp/26njsj_item.png"
     },
     "deco/title/820/pic/820.png": {
+      "chs": "MyAssets/deco/title/820/pic/chs/820.png",
       "cn": "MyAssets/deco/title/820/pic/chs_t/820.png",
       "en": "MyAssets/deco/title/820/pic/en_chs_t/820.png"
     },
     "deco/title/820/pic/820_item.jpg": {
+      "chs": "MyAssets/deco/title/820/pic/chs/820_item.png",
       "cn": "MyAssets/deco/title/820/pic/chs_t/820_item.png",
       "en": "MyAssets/deco/title/820/pic/en_chs_t/820_item.png"
     },
     "deco/title/achievementgroup1/pic/achievementgroup1.png": {
+      "chs": "MyAssets/deco/title/achievementgroup1/pic/chs/achievementgroup1.png",
       "cn": "MyAssets/deco/title/achievementgroup1/pic/chs_t/achievementgroup1.png",
       "en": "MyAssets/deco/title/achievementgroup1/pic/en_en/achievementgroup1.png",
       "jp": "MyAssets/deco/title/achievementgroup1/pic/jp/achievementgroup1.png",
       "kr": "MyAssets/deco/title/achievementgroup1/pic/kr/achievementgroup1.png"
     },
     "deco/title/achievementgroup1/pic/achievementgroup1_item.jpg": {
+      "chs": "MyAssets/deco/title/achievementgroup1/pic/chs/achievementgroup1_item.png",
       "cn": "MyAssets/deco/title/achievementgroup1/pic/chs_t/achievementgroup1_item.png",
       "en": "MyAssets/deco/title/achievementgroup1/pic/en_en/achievementgroup1_item.png",
       "jp": "MyAssets/deco/title/achievementgroup1/pic/jp/achievementgroup1_item.png",
       "kr": "MyAssets/deco/title/achievementgroup1/pic/kr/achievementgroup1_item.png"
     },
     "deco/title/achievementgroup10/pic/achievementgroup10.png": {
+      "chs": "MyAssets/deco/title/achievementgroup10/pic/chs/achievementgroup10.png",
       "cn": "MyAssets/deco/title/achievementgroup10/pic/chs_t/achievementgroup10.png",
       "en": "MyAssets/deco/title/achievementgroup10/pic/en_en/achievementgroup10.png",
       "jp": "MyAssets/deco/title/achievementgroup10/pic/jp/achievementgroup10.png",
       "kr": "MyAssets/deco/title/achievementgroup10/pic/kr/achievementgroup10.png"
     },
     "deco/title/achievementgroup10/pic/achievementgroup10_item.jpg": {
+      "chs": "MyAssets/deco/title/achievementgroup10/pic/chs/achievementgroup10_item.png",
       "cn": "MyAssets/deco/title/achievementgroup10/pic/chs_t/achievementgroup10_item.png",
       "en": "MyAssets/deco/title/achievementgroup10/pic/en_en/achievementgroup10_item.png",
       "jp": "MyAssets/deco/title/achievementgroup10/pic/jp/achievementgroup10_item.png",
       "kr": "MyAssets/deco/title/achievementgroup10/pic/kr/achievementgroup10_item.png"
     },
     "deco/title/achievementgroup13/pic/achievementgroup13.png": {
+      "chs": "MyAssets/deco/title/achievementgroup13/pic/chs/achievementgroup13.png",
       "cn": "MyAssets/deco/title/achievementgroup13/pic/chs_t/achievementgroup13.png",
       "en": "MyAssets/deco/title/achievementgroup13/pic/en_en/achievementgroup13.png",
       "jp": "MyAssets/deco/title/achievementgroup13/pic/jp/achievementgroup13.png",
       "kr": "MyAssets/deco/title/achievementgroup13/pic/kr/achievementgroup13.png"
     },
     "deco/title/achievementgroup13/pic/achievementgroup13_item.jpg": {
+      "chs": "MyAssets/deco/title/achievementgroup13/pic/chs/achievementgroup13_item.png",
       "cn": "MyAssets/deco/title/achievementgroup13/pic/chs_t/achievementgroup13_item.png",
       "en": "MyAssets/deco/title/achievementgroup13/pic/en_en/achievementgroup13_item.png",
       "jp": "MyAssets/deco/title/achievementgroup13/pic/jp/achievementgroup13_item.png",
       "kr": "MyAssets/deco/title/achievementgroup13/pic/kr/achievementgroup13_item.png"
     },
     "deco/title/achievementgroup14/pic/achievementgroup14.png": {
+      "chs": "MyAssets/deco/title/achievementgroup14/pic/chs/achievementgroup14.png",
       "cn": "MyAssets/deco/title/achievementgroup14/pic/chs_t/achievementgroup14.png",
       "en": "MyAssets/deco/title/achievementgroup14/pic/en_en/achievementgroup14.png",
       "jp": "MyAssets/deco/title/achievementgroup14/pic/jp/achievementgroup14.png",
       "kr": "MyAssets/deco/title/achievementgroup14/pic/kr/achievementgroup14.png"
     },
     "deco/title/achievementgroup14/pic/achievementgroup14_item.jpg": {
+      "chs": "MyAssets/deco/title/achievementgroup14/pic/chs/achievementgroup14_item.png",
       "cn": "MyAssets/deco/title/achievementgroup14/pic/chs_t/achievementgroup14_item.png",
       "en": "MyAssets/deco/title/achievementgroup14/pic/en_en/achievementgroup14_item.png",
       "jp": "MyAssets/deco/title/achievementgroup14/pic/jp/achievementgroup14_item.png",
       "kr": "MyAssets/deco/title/achievementgroup14/pic/kr/achievementgroup14_item.png"
     },
     "deco/title/achievementgroup2/pic/achievementgroup2.png": {
+      "chs": "MyAssets/deco/title/achievementgroup2/pic/chs/achievementgroup2.png",
       "cn": "MyAssets/deco/title/achievementgroup2/pic/chs_t/achievementgroup2.png",
       "en": "MyAssets/deco/title/achievementgroup2/pic/en_en/achievementgroup2.png",
       "jp": "MyAssets/deco/title/achievementgroup2/pic/jp/achievementgroup2.png",
       "kr": "MyAssets/deco/title/achievementgroup2/pic/kr/achievementgroup2.png"
     },
     "deco/title/achievementgroup2/pic/achievementgroup2_item.jpg": {
+      "chs": "MyAssets/deco/title/achievementgroup2/pic/chs/achievementgroup2_item.png",
       "cn": "MyAssets/deco/title/achievementgroup2/pic/chs_t/achievementgroup2_item.png",
       "en": "MyAssets/deco/title/achievementgroup2/pic/en_en/achievementgroup2_item.png",
       "jp": "MyAssets/deco/title/achievementgroup2/pic/jp/achievementgroup2_item.png",
       "kr": "MyAssets/deco/title/achievementgroup2/pic/kr/achievementgroup2_item.png"
     },
     "deco/title/achievementgroup3/pic/achievementgroup3.png": {
+      "chs": "MyAssets/deco/title/achievementgroup3/pic/chs/achievementgroup3.png",
       "cn": "MyAssets/deco/title/achievementgroup3/pic/chs_t/achievementgroup3.png",
       "en": "MyAssets/deco/title/achievementgroup3/pic/en_en/achievementgroup3.png",
       "jp": "MyAssets/deco/title/achievementgroup3/pic/jp/achievementgroup3.png",
       "kr": "MyAssets/deco/title/achievementgroup3/pic/kr/achievementgroup3.png"
     },
     "deco/title/achievementgroup3/pic/achievementgroup3_item.jpg": {
+      "chs": "MyAssets/deco/title/achievementgroup3/pic/chs/achievementgroup3_item.png",
       "cn": "MyAssets/deco/title/achievementgroup3/pic/chs_t/achievementgroup3_item.png",
       "en": "MyAssets/deco/title/achievementgroup3/pic/en_en/achievementgroup3_item.png",
       "jp": "MyAssets/deco/title/achievementgroup3/pic/jp/achievementgroup3_item.png",
       "kr": "MyAssets/deco/title/achievementgroup3/pic/kr/achievementgroup3_item.png"
     },
     "deco/title/achievementgroup4/pic/achievementgroup4.png": {
+      "chs": "MyAssets/deco/title/achievementgroup4/pic/chs/achievementgroup4.png",
       "cn": "MyAssets/deco/title/achievementgroup4/pic/chs_t/achievementgroup4.png",
       "en": "MyAssets/deco/title/achievementgroup4/pic/en_en/achievementgroup4.png",
       "jp": "MyAssets/deco/title/achievementgroup4/pic/jp/achievementgroup4.png",
       "kr": "MyAssets/deco/title/achievementgroup4/pic/kr/achievementgroup4.png"
     },
     "deco/title/achievementgroup4/pic/achievementgroup4_item.jpg": {
+      "chs": "MyAssets/deco/title/achievementgroup4/pic/chs/achievementgroup4_item.png",
       "cn": "MyAssets/deco/title/achievementgroup4/pic/chs_t/achievementgroup4_item.png",
       "en": "MyAssets/deco/title/achievementgroup4/pic/en_en/achievementgroup4_item.png",
       "jp": "MyAssets/deco/title/achievementgroup4/pic/jp/achievementgroup4_item.png",
       "kr": "MyAssets/deco/title/achievementgroup4/pic/kr/achievementgroup4_item.png"
     },
     "deco/title/achievementgroup5/pic/achievementgroup5.png": {
+      "chs": "MyAssets/deco/title/achievementgroup5/pic/chs/achievementgroup5.png",
       "cn": "MyAssets/deco/title/achievementgroup5/pic/chs_t/achievementgroup5.png",
       "en": "MyAssets/deco/title/achievementgroup5/pic/en_en/achievementgroup5.png",
       "jp": "MyAssets/deco/title/achievementgroup5/pic/jp/achievementgroup5.png",
       "kr": "MyAssets/deco/title/achievementgroup5/pic/kr/achievementgroup5.png"
     },
     "deco/title/achievementgroup5/pic/achievementgroup5_item.jpg": {
+      "chs": "MyAssets/deco/title/achievementgroup5/pic/chs/achievementgroup5_item.png",
       "cn": "MyAssets/deco/title/achievementgroup5/pic/chs_t/achievementgroup5_item.png",
       "en": "MyAssets/deco/title/achievementgroup5/pic/en_en/achievementgroup5_item.png",
       "jp": "MyAssets/deco/title/achievementgroup5/pic/jp/achievementgroup5_item.png",
       "kr": "MyAssets/deco/title/achievementgroup5/pic/kr/achievementgroup5_item.png"
     },
     "deco/title/achievementgroup6/pic/achievementgroup6.png": {
+      "chs": "MyAssets/deco/title/achievementgroup6/pic/chs/achievementgroup6.png",
       "cn": "MyAssets/deco/title/achievementgroup6/pic/chs_t/achievementgroup6.png",
       "en": "MyAssets/deco/title/achievementgroup6/pic/en_en/achievementgroup6.png",
       "jp": "MyAssets/deco/title/achievementgroup6/pic/jp/achievementgroup6.png",
       "kr": "MyAssets/deco/title/achievementgroup6/pic/kr/achievementgroup6.png"
     },
     "deco/title/achievementgroup6/pic/achievementgroup6_item.jpg": {
+      "chs": "MyAssets/deco/title/achievementgroup6/pic/chs/achievementgroup6_item.png",
       "cn": "MyAssets/deco/title/achievementgroup6/pic/chs_t/achievementgroup6_item.png",
       "en": "MyAssets/deco/title/achievementgroup6/pic/en_en/achievementgroup6_item.png",
       "jp": "MyAssets/deco/title/achievementgroup6/pic/jp/achievementgroup6_item.png",
       "kr": "MyAssets/deco/title/achievementgroup6/pic/kr/achievementgroup6_item.png"
     },
     "deco/title/achievementgroup7/pic/achievementgroup7.png": {
+      "chs": "MyAssets/deco/title/achievementgroup7/pic/chs/achievementgroup7.png",
       "cn": "MyAssets/deco/title/achievementgroup7/pic/chs_t/achievementgroup7.png",
       "en": "MyAssets/deco/title/achievementgroup7/pic/en_en/achievementgroup7.png",
       "jp": "MyAssets/deco/title/achievementgroup7/pic/jp/achievementgroup7.png",
       "kr": "MyAssets/deco/title/achievementgroup7/pic/kr/achievementgroup7.png"
     },
     "deco/title/achievementgroup7/pic/achievementgroup7_item.jpg": {
+      "chs": "MyAssets/deco/title/achievementgroup7/pic/chs/achievementgroup7_item.png",
       "cn": "MyAssets/deco/title/achievementgroup7/pic/chs_t/achievementgroup7_item.png",
       "en": "MyAssets/deco/title/achievementgroup7/pic/en_en/achievementgroup7_item.png",
       "jp": "MyAssets/deco/title/achievementgroup7/pic/jp/achievementgroup7_item.png",
       "kr": "MyAssets/deco/title/achievementgroup7/pic/kr/achievementgroup7_item.png"
     },
     "deco/title/achievementgroup8/pic/achievementgroup8.png": {
+      "chs": "MyAssets/deco/title/achievementgroup8/pic/chs/achievementgroup8.png",
       "cn": "MyAssets/deco/title/achievementgroup8/pic/chs_t/achievementgroup8.png",
       "en": "MyAssets/deco/title/achievementgroup8/pic/en_en/achievementgroup8.png",
       "jp": "MyAssets/deco/title/achievementgroup8/pic/jp/achievementgroup8.png",
       "kr": "MyAssets/deco/title/achievementgroup8/pic/kr/achievementgroup8.png"
     },
     "deco/title/achievementgroup8/pic/achievementgroup8_item.jpg": {
+      "chs": "MyAssets/deco/title/achievementgroup8/pic/chs/achievementgroup8_item.png",
       "cn": "MyAssets/deco/title/achievementgroup8/pic/chs_t/achievementgroup8_item.png",
       "en": "MyAssets/deco/title/achievementgroup8/pic/en_en/achievementgroup8_item.png",
       "jp": "MyAssets/deco/title/achievementgroup8/pic/jp/achievementgroup8_item.png",
       "kr": "MyAssets/deco/title/achievementgroup8/pic/kr/achievementgroup8_item.png"
     },
     "deco/title/achievementgroup9/pic/achievementgroup9.png": {
+      "chs": "MyAssets/deco/title/achievementgroup9/pic/chs/achievementgroup9.png",
       "cn": "MyAssets/deco/title/achievementgroup9/pic/chs_t/achievementgroup9.png",
       "en": "MyAssets/deco/title/achievementgroup9/pic/en_en/achievementgroup9.png",
       "jp": "MyAssets/deco/title/achievementgroup9/pic/jp/achievementgroup9.png",
       "kr": "MyAssets/deco/title/achievementgroup9/pic/kr/achievementgroup9.png"
     },
     "deco/title/achievementgroup9/pic/achievementgroup9_item.jpg": {
+      "chs": "MyAssets/deco/title/achievementgroup9/pic/chs/achievementgroup9_item.png",
       "cn": "MyAssets/deco/title/achievementgroup9/pic/chs_t/achievementgroup9_item.png",
       "en": "MyAssets/deco/title/achievementgroup9/pic/en_en/achievementgroup9_item.png",
       "jp": "MyAssets/deco/title/achievementgroup9/pic/jp/achievementgroup9_item.png",
       "kr": "MyAssets/deco/title/achievementgroup9/pic/kr/achievementgroup9_item.png"
     },
     "deco/title/asaki/pic/asaki.png": {
+      "chs": "MyAssets/deco/title/asaki/pic/chs/asaki.png",
       "cn": "MyAssets/deco/title/asaki/pic/chs_t/asaki.png",
       "en": "MyAssets/deco/title/asaki/pic/en_chs_t/asaki.png"
     },
     "deco/title/asaki/pic/asaki_item.jpg": {
+      "chs": "MyAssets/deco/title/asaki/pic/chs/asaki_item.png",
       "cn": "MyAssets/deco/title/asaki/pic/chs_t/asaki_item.png",
       "en": "MyAssets/deco/title/asaki/pic/en_chs_t/asaki_item.png"
     },
     "deco/title/bleagues1/pic/bleagues1.png": {
+      "chs": "MyAssets/deco/title/bleagues1/pic/chs/bleagues1.png",
       "cn": "MyAssets/deco/title/bleagues1/pic/chs_t/bleagues1.png",
       "en": "MyAssets/deco/title/bleagues1/pic/en_chs_t/bleagues1.png"
     },
@@ -24726,6 +25272,7 @@
       "cn": "MyAssets/deco/title/bleagues1/pic/chs/bleagues1_item.png"
     },
     "deco/title/douyuchampion/pic/douyuchampion.png": {
+      "chs": "MyAssets/deco/title/douyuchampion/pic/chs/douyuchampion.png",
       "cn": "MyAssets/deco/title/douyuchampion/pic/chs_t/douyuchampion.png",
       "en": "MyAssets/deco/title/douyuchampion/pic/en_chs_t/douyuchampion.png"
     },
@@ -24733,6 +25280,7 @@
       "cn": "MyAssets/deco/title/douyuchampion/pic/chs/douyuchampion_item.png"
     },
     "deco/title/douyuchampion2/pic/douyuchampion2.png": {
+      "chs": "MyAssets/deco/title/douyuchampion2/pic/chs/douyuchampion2.png",
       "cn": "MyAssets/deco/title/douyuchampion2/pic/chs_t/douyuchampion2.png",
       "en": "MyAssets/deco/title/douyuchampion2/pic/en_chs_t/douyuchampion2.png"
     },
@@ -24740,6 +25288,7 @@
       "cn": "MyAssets/deco/title/douyuchampion2/pic/chs/douyuchampion2_item.png"
     },
     "deco/title/douyuguishen/pic/douyuguishen.png": {
+      "chs": "MyAssets/deco/title/douyuguishen/pic/chs/douyuguishen.png",
       "cn": "MyAssets/deco/title/douyuguishen/pic/chs_t/douyuguishen.png",
       "en": "MyAssets/deco/title/douyuguishen/pic/en_chs_t/douyuguishen.png"
     },
@@ -24753,10 +25302,12 @@
       "kr": "MyAssets/deco/title/gai/pic/kr/gai.png"
     },
     "deco/title/ganjunwudi/pic/ganjunwudi.png": {
+      "chs": "MyAssets/deco/title/ganjunwudi/pic/chs/ganjunwudi.png",
       "cn": "MyAssets/deco/title/ganjunwudi/pic/chs_t/ganjunwudi.png",
       "en": "MyAssets/deco/title/ganjunwudi/pic/en_chs_t/ganjunwudi.png"
     },
     "deco/title/ganjunwudi/pic/ganjunwudi_item.jpg": {
+      "chs": "MyAssets/deco/title/ganjunwudi/pic/chs/ganjunwudi_item.png",
       "cn": "MyAssets/deco/title/ganjunwudi/pic/chs_t/ganjunwudi_item.png",
       "en": "MyAssets/deco/title/ganjunwudi/pic/en_chs_t/ganjunwudi_item.png"
     },
@@ -24767,68 +25318,80 @@
       "jp": "MyAssets/deco/title/hanagroup/pic/jp/hanagroup_item.png"
     },
     "deco/title/hlg/pic/hlg.png": {
+      "chs": "MyAssets/deco/title/hlg/pic/chs/hlg.png",
       "cn": "MyAssets/deco/title/hlg/pic/chs_t/hlg.png",
       "en": "MyAssets/deco/title/hlg/pic/en_chs_t/hlg.png"
     },
     "deco/title/hlg/pic/hlg_item.jpg": {
+      "chs": "MyAssets/deco/title/hlg/pic/chs/hlg_item.png",
       "cn": "MyAssets/deco/title/hlg/pic/chs_t/hlg_item.png",
       "en": "MyAssets/deco/title/hlg/pic/en_chs_t/hlg_item.png"
     },
     "deco/title/hunzhichaoyuezhe/pic/hunzhichaoyuezhe.png": {
+      "chs": "MyAssets/deco/title/hunzhichaoyuezhe/pic/chs/hunzhichaoyuezhe.png",
       "cn": "MyAssets/deco/title/hunzhichaoyuezhe/pic/chs_t/hunzhichaoyuezhe.png",
       "en": "MyAssets/deco/title/hunzhichaoyuezhe/pic/en_en/hunzhichaoyuezhe.png",
       "jp": "MyAssets/deco/title/hunzhichaoyuezhe/pic/jp/hunzhichaoyuezhe.png",
       "kr": "MyAssets/deco/title/hunzhichaoyuezhe/pic/kr/hunzhichaoyuezhe.png"
     },
     "deco/title/hunzhidizaozhe1/pic/hunzhidizaozhe1.png": {
+      "chs": "MyAssets/deco/title/hunzhidizaozhe1/pic/chs/hunzhidizaozhe1.png",
       "cn": "MyAssets/deco/title/hunzhidizaozhe1/pic/chs_t/hunzhidizaozhe1.png",
       "en": "MyAssets/deco/title/hunzhidizaozhe1/pic/en_en/hunzhidizaozhe1.png",
       "jp": "MyAssets/deco/title/hunzhidizaozhe1/pic/jp/hunzhidizaozhe1.png",
       "kr": "MyAssets/deco/title/hunzhidizaozhe1/pic/kr/hunzhidizaozhe1.png"
     },
     "deco/title/hunzhidizaozhe2/pic/hunzhidizaozhe2.png": {
+      "chs": "MyAssets/deco/title/hunzhidizaozhe2/pic/chs/hunzhidizaozhe2.png",
       "cn": "MyAssets/deco/title/hunzhidizaozhe2/pic/chs_t/hunzhidizaozhe2.png",
       "en": "MyAssets/deco/title/hunzhidizaozhe2/pic/en_en/hunzhidizaozhe2.png",
       "jp": "MyAssets/deco/title/hunzhidizaozhe2/pic/jp/hunzhidizaozhe2.png",
       "kr": "MyAssets/deco/title/hunzhidizaozhe2/pic/kr/hunzhidizaozhe2.png"
     },
     "deco/title/hunzhidizaozhe3/pic/hunzhidizaozhe3.png": {
+      "chs": "MyAssets/deco/title/hunzhidizaozhe3/pic/chs/hunzhidizaozhe3.png",
       "cn": "MyAssets/deco/title/hunzhidizaozhe3/pic/chs_t/hunzhidizaozhe3.png",
       "en": "MyAssets/deco/title/hunzhidizaozhe3/pic/en_en/hunzhidizaozhe3.png",
       "jp": "MyAssets/deco/title/hunzhidizaozhe3/pic/jp/hunzhidizaozhe3.png",
       "kr": "MyAssets/deco/title/hunzhidizaozhe3/pic/kr/hunzhidizaozhe3.png"
     },
     "deco/title/hunzhiqidizhe1/pic/hunzhiqidizhe1.png": {
+      "chs": "MyAssets/deco/title/hunzhiqidizhe1/pic/chs/hunzhiqidizhe1.png",
       "cn": "MyAssets/deco/title/hunzhiqidizhe1/pic/chs_t/hunzhiqidizhe1.png",
       "en": "MyAssets/deco/title/hunzhiqidizhe1/pic/en_en/hunzhiqidizhe1.png",
       "jp": "MyAssets/deco/title/hunzhiqidizhe1/pic/jp/hunzhiqidizhe1.png",
       "kr": "MyAssets/deco/title/hunzhiqidizhe1/pic/kr/hunzhiqidizhe1.png"
     },
     "deco/title/hunzhiqidizhe2/pic/hunzhiqidizhe2.png": {
+      "chs": "MyAssets/deco/title/hunzhiqidizhe2/pic/chs/hunzhiqidizhe2.png",
       "cn": "MyAssets/deco/title/hunzhiqidizhe2/pic/chs_t/hunzhiqidizhe2.png",
       "en": "MyAssets/deco/title/hunzhiqidizhe2/pic/en_en/hunzhiqidizhe2.png",
       "jp": "MyAssets/deco/title/hunzhiqidizhe2/pic/jp/hunzhiqidizhe2.png",
       "kr": "MyAssets/deco/title/hunzhiqidizhe2/pic/kr/hunzhiqidizhe2.png"
     },
     "deco/title/hunzhiqidizhe3/pic/hunzhiqidizhe3.png": {
+      "chs": "MyAssets/deco/title/hunzhiqidizhe3/pic/chs/hunzhiqidizhe3.png",
       "cn": "MyAssets/deco/title/hunzhiqidizhe3/pic/chs_t/hunzhiqidizhe3.png",
       "en": "MyAssets/deco/title/hunzhiqidizhe3/pic/en_en/hunzhiqidizhe3.png",
       "jp": "MyAssets/deco/title/hunzhiqidizhe3/pic/jp/hunzhiqidizhe3.png",
       "kr": "MyAssets/deco/title/hunzhiqidizhe3/pic/kr/hunzhiqidizhe3.png"
     },
     "deco/title/hunzhiqiyuezhe1/pic/hunzhiqiyuezhe1.png": {
+      "chs": "MyAssets/deco/title/hunzhiqiyuezhe1/pic/chs/hunzhiqiyuezhe1.png",
       "cn": "MyAssets/deco/title/hunzhiqiyuezhe1/pic/chs_t/hunzhiqiyuezhe1.png",
       "en": "MyAssets/deco/title/hunzhiqiyuezhe1/pic/en_en/hunzhiqiyuezhe1.png",
       "jp": "MyAssets/deco/title/hunzhiqiyuezhe1/pic/jp/hunzhiqiyuezhe1.png",
       "kr": "MyAssets/deco/title/hunzhiqiyuezhe1/pic/kr/hunzhiqiyuezhe1.png"
     },
     "deco/title/hunzhiqiyuezhe2/pic/hunzhiqiyuezhe2.png": {
+      "chs": "MyAssets/deco/title/hunzhiqiyuezhe2/pic/chs/hunzhiqiyuezhe2.png",
       "cn": "MyAssets/deco/title/hunzhiqiyuezhe2/pic/chs_t/hunzhiqiyuezhe2.png",
       "en": "MyAssets/deco/title/hunzhiqiyuezhe2/pic/en_en/hunzhiqiyuezhe2.png",
       "jp": "MyAssets/deco/title/hunzhiqiyuezhe2/pic/jp/hunzhiqiyuezhe2.png",
       "kr": "MyAssets/deco/title/hunzhiqiyuezhe2/pic/kr/hunzhiqiyuezhe2.png"
     },
     "deco/title/hunzhiqiyuezhe3/pic/hunzhiqiyuezhe3.png": {
+      "chs": "MyAssets/deco/title/hunzhiqiyuezhe3/pic/chs/hunzhiqiyuezhe3.png",
       "cn": "MyAssets/deco/title/hunzhiqiyuezhe3/pic/chs_t/hunzhiqiyuezhe3.png",
       "en": "MyAssets/deco/title/hunzhiqiyuezhe3/pic/en_en/hunzhiqiyuezhe3.png",
       "jp": "MyAssets/deco/title/hunzhiqiyuezhe3/pic/jp/hunzhiqiyuezhe3.png",
@@ -24847,48 +25410,58 @@
       "jp": "MyAssets/deco/title/japan_g/pic/jp/japan_g_item.png"
     },
     "deco/title/kirin/pic/kirin.png": {
+      "chs": "MyAssets/deco/title/kirin/pic/chs/kirin.png",
       "cn": "MyAssets/deco/title/kirin/pic/chs_t/kirin.png",
       "en": "MyAssets/deco/title/kirin/pic/en_en/kirin.png",
       "jp": "MyAssets/deco/title/kirin/pic/jp/kirin.png"
     },
     "deco/title/kirin/pic/kirin_item.jpg": {
+      "chs": "MyAssets/deco/title/kirin/pic/chs/kirin_item.png",
       "cn": "MyAssets/deco/title/kirin/pic/chs_t/kirin_item.png",
       "en": "MyAssets/deco/title/kirin/pic/en_en/kirin_item.png",
       "jp": "MyAssets/deco/title/kirin/pic/jp/kirin_item.png"
     },
     "deco/title/kirin2022/pic/kirin2022.png": {
+      "chs": "MyAssets/deco/title/kirin2022/pic/chs/kirin2022.png",
       "cn": "MyAssets/deco/title/kirin2022/pic/chs_t/kirin2022.png",
       "en": "MyAssets/deco/title/kirin2022/pic/en_chs_t/kirin2022.png",
       "jp": "MyAssets/deco/title/kirin2022/pic/jp/kirin2022.png"
     },
     "deco/title/kirin2022/pic/kirin2022_item.jpg": {
+      "chs": "MyAssets/deco/title/kirin2022/pic/chs/kirin2022_item.png",
       "cn": "MyAssets/deco/title/kirin2022/pic/chs_t/kirin2022_item.png",
       "en": "MyAssets/deco/title/kirin2022/pic/en_chs_t/kirin2022_item.png",
       "jp": "MyAssets/deco/title/kirin2022/pic/jp/kirin2022_item.png"
     },
     "deco/title/kirin2022cn/pic/kirin2022cn.png": {
+      "chs": "MyAssets/deco/title/kirin2022cn/pic/chs/kirin2022cn.png",
       "cn": "MyAssets/deco/title/kirin2022cn/pic/chs_t/kirin2022cn.png",
       "en": "MyAssets/deco/title/kirin2022cn/pic/en_chs_t/kirin2022cn.png"
     },
     "deco/title/kirin2022cn/pic/kirin2022cn_item.jpg": {
+      "chs": "MyAssets/deco/title/kirin2022cn/pic/chs/kirin2022cn_item.png",
       "cn": "MyAssets/deco/title/kirin2022cn/pic/chs_t/kirin2022cn_item.png",
       "en": "MyAssets/deco/title/kirin2022cn/pic/en_chs_t/kirin2022cn_item.png"
     },
     "deco/title/kirin2023cn/pic/kirin2023cn.png": {
+      "chs": "MyAssets/deco/title/kirin2023cn/pic/chs/kirin2023cn.png",
       "cn": "MyAssets/deco/title/kirin2023cn/pic/chs_t/kirin2023cn.png",
       "en": "MyAssets/deco/title/kirin2023cn/pic/en_chs_t/kirin2023cn.png"
     },
     "deco/title/kirin2023cn/pic/kirin2023cn_item.jpg": {
+      "chs": "MyAssets/deco/title/kirin2023cn/pic/chs/kirin2023cn_item.png",
       "cn": "MyAssets/deco/title/kirin2023cn/pic/chs_t/kirin2023cn_item.png",
       "en": "MyAssets/deco/title/kirin2023cn/pic/en_chs_t/kirin2023cn_item.png"
     },
     "deco/title/kirin2023jp/pic/kirin2023jp.png": "MyAssets/deco/title/kirin2023jp/pic/common/kirin2023jp.png",
     "deco/title/kirin2023jp/pic/kirin2023jp_item.jpg": "MyAssets/deco/title/kirin2023jp/pic/common/kirin2023jp_item.png",
     "deco/title/kirin2024cn/pic/kirin2024cn.png": {
+      "chs": "MyAssets/deco/title/kirin2024cn/pic/chs/kirin2024cn.png",
       "cn": "MyAssets/deco/title/kirin2024cn/pic/chs_t/kirin2024cn.png",
       "en": "MyAssets/deco/title/kirin2024cn/pic/en_chs_t/kirin2024cn.png"
     },
     "deco/title/kirin2024cn/pic/kirin2024cn_item.jpg": {
+      "chs": "MyAssets/deco/title/kirin2024cn/pic/chs/kirin2024cn_item.png",
       "cn": "MyAssets/deco/title/kirin2024cn/pic/chs_t/kirin2024cn_item.png",
       "en": "MyAssets/deco/title/kirin2024cn/pic/en_chs_t/kirin2024cn_item.png"
     },
@@ -24899,10 +25472,12 @@
       "jp": "MyAssets/deco/title/kirin2024jp/pic/jp/kirin2024jp_item.png"
     },
     "deco/title/kirin2025cn/pic/kirin2025cn.png": {
+      "chs": "MyAssets/deco/title/kirin2025cn/pic/chs/kirin2025cn.png",
       "cn": "MyAssets/deco/title/kirin2025cn/pic/chs_t/kirin2025cn.png",
       "en": "MyAssets/deco/title/kirin2025cn/pic/en_chs_t/kirin2025cn.png"
     },
     "deco/title/kirin2025cn/pic/kirin2025cn_item.jpg": {
+      "chs": "MyAssets/deco/title/kirin2025cn/pic/chs/kirin2025cn_item.png",
       "cn": "MyAssets/deco/title/kirin2025cn/pic/chs_t/kirin2025cn_item.png",
       "en": "MyAssets/deco/title/kirin2025cn/pic/en_chs_t/kirin2025cn_item.png"
     },
@@ -24913,11 +25488,13 @@
       "jp": "MyAssets/deco/title/kirin2025jp/pic/jp/kirin2025jp_item.png"
     },
     "deco/title/kirin2026/pic/kirin2026.png": {
+      "chs": "MyAssets/deco/title/kirin2026/pic/chs/kirin2026.png",
       "cn": "MyAssets/deco/title/kirin2026/pic/chs_t/kirin2026.png",
       "en": "MyAssets/deco/title/kirin2026/pic/en_chs_t/kirin2026.png",
       "jp": "MyAssets/deco/title/kirin2026/pic/jp/kirin2026.png"
     },
     "deco/title/kirin2026/pic/kirin2026_item.jpg": {
+      "chs": "MyAssets/deco/title/kirin2026/pic/chs/kirin2026_item.png",
       "cn": "MyAssets/deco/title/kirin2026/pic/chs_t/kirin2026_item.png",
       "en": "MyAssets/deco/title/kirin2026/pic/en_chs_t/kirin2026_item.png",
       "jp": "MyAssets/deco/title/kirin2026/pic/jp/kirin2026_item.png"
@@ -24933,6 +25510,7 @@
       "kr": "MyAssets/deco/title/kirins1en/pic/kr/kirins1en_item.png"
     },
     "deco/title/maolianggongyingshang/pic/maolianggongyingshang.png": {
+      "chs": "MyAssets/deco/title/maolianggongyingshang/pic/chs/maolianggongyingshang.png",
       "cn": "MyAssets/deco/title/maolianggongyingshang/pic/chs_t/maolianggongyingshang.png",
       "en": "MyAssets/deco/title/maolianggongyingshang/pic/en_en/maolianggongyingshang.png",
       "jp": "MyAssets/deco/title/maolianggongyingshang/pic/jp/maolianggongyingshang.png",
@@ -24945,24 +25523,28 @@
       "jp": "MyAssets/deco/title/meiconbi/pic/jp/meiconbi_item.png"
     },
     "deco/title/miaoguodahufa/pic/miaoguodahufa.jpg": {
+      "chs": "MyAssets/deco/title/miaoguodahufa/pic/chs/miaoguodahufa.png",
       "cn": "MyAssets/deco/title/miaoguodahufa/pic/chs_t/miaoguodahufa.png",
       "en": "MyAssets/deco/title/miaoguodahufa/pic/en_en/miaoguodahufa.png",
       "jp": "MyAssets/deco/title/miaoguodahufa/pic/jp/miaoguodahufa.png",
       "kr": "MyAssets/deco/title/miaoguodahufa/pic/kr/miaoguodahufa.png"
     },
     "deco/title/miaoguodahufa/pic/miaoguodahufa.png": {
+      "chs": "MyAssets/deco/title/miaoguodahufa/pic/chs/miaoguodahufa.png",
       "cn": "MyAssets/deco/title/miaoguodahufa/pic/chs_t/miaoguodahufa.png",
       "en": "MyAssets/deco/title/miaoguodahufa/pic/en_en/miaoguodahufa.png",
       "jp": "MyAssets/deco/title/miaoguodahufa/pic/jp/miaoguodahufa.png",
       "kr": "MyAssets/deco/title/miaoguodahufa/pic/kr/miaoguodahufa.png"
     },
     "deco/title/miaoguodajiangjun/pic/miaoguodajiangjun.png": {
+      "chs": "MyAssets/deco/title/miaoguodajiangjun/pic/chs/miaoguodajiangjun.png",
       "cn": "MyAssets/deco/title/miaoguodajiangjun/pic/chs_t/miaoguodajiangjun.png",
       "en": "MyAssets/deco/title/miaoguodajiangjun/pic/en_en/miaoguodajiangjun.png",
       "jp": "MyAssets/deco/title/miaoguodajiangjun/pic/jp/miaoguodajiangjun.png",
       "kr": "MyAssets/deco/title/miaoguodajiangjun/pic/kr/miaoguodajiangjun.png"
     },
     "deco/title/miaoguozhizun/pic/miaoguozhizun.png": {
+      "chs": "MyAssets/deco/title/miaoguozhizun/pic/chs/miaoguozhizun.png",
       "cn": "MyAssets/deco/title/miaoguozhizun/pic/chs_t/miaoguozhizun.png",
       "en": "MyAssets/deco/title/miaoguozhizun/pic/en_en/miaoguozhizun.png",
       "jp": "MyAssets/deco/title/miaoguozhizun/pic/jp/miaoguozhizun.png",
@@ -24975,6 +25557,7 @@
       "jp": "MyAssets/deco/title/nazokonbi/pic/jp/nazokonbi_item.png"
     },
     "deco/title/notitle/pic/notitle.png": {
+      "chs": "MyAssets/deco/title/notitle/pic/chs/notitle.png",
       "cn": "MyAssets/deco/title/notitle/pic/chs_t/notitle.png",
       "en": "MyAssets/deco/title/notitle/pic/en_en/notitle.png",
       "jp": "MyAssets/deco/title/notitle/pic/jp/notitle.png",
@@ -24987,6 +25570,7 @@
       "jp": "MyAssets/deco/title/squat/pic/jp/squat_item.png"
     },
     "deco/title/ssz_l/pic/ssz_l.png": {
+      "chs": "MyAssets/deco/title/ssz_l/pic/chs/ssz_l.png",
       "cn": "MyAssets/deco/title/ssz_l/pic/chs_t/ssz_l.png",
       "en": "MyAssets/deco/title/ssz_l/pic/en_chs_t/ssz_l.png"
     },
@@ -24994,6 +25578,7 @@
       "cn": "MyAssets/deco/title/ssz_l/pic/chs/ssz_l_item.png"
     },
     "deco/title/tianyuanbeidou/pic/tianyuanbeidou.png": {
+      "chs": "MyAssets/deco/title/tianyuanbeidou/pic/chs/tianyuanbeidou.png",
       "cn": "MyAssets/deco/title/tianyuanbeidou/pic/chs_t/tianyuanbeidou.png",
       "en": "MyAssets/deco/title/tianyuanbeidou/pic/en_en/tianyuanbeidou.png",
       "jp": "MyAssets/deco/title/tianyuanbeidou/pic/jp/tianyuanbeidou.png",
@@ -25003,86 +25588,102 @@
       "jp": "MyAssets/deco/title/tianyuanbeidou/pic/jp/tianyuanbeidou_item.png"
     },
     "deco/title/trial/pic/trial.png": {
+      "chs": "MyAssets/deco/title/trial/pic/chs/trial.png",
       "cn": "MyAssets/deco/title/trial/pic/chs_t/trial.png",
       "en": "MyAssets/deco/title/trial/pic/en_en/trial.png",
       "jp": "MyAssets/deco/title/trial/pic/jp/trial.png",
       "kr": "MyAssets/deco/title/trial/pic/kr/trial.png"
     },
     "deco/title/trial/pic/trial_item.jpg": {
+      "chs": "MyAssets/deco/title/trial/pic/chs/trial_item.png",
       "cn": "MyAssets/deco/title/trial/pic/chs_t/trial_item.png",
       "en": "MyAssets/deco/title/trial/pic/en_en/trial_item.png",
       "jp": "MyAssets/deco/title/trial/pic/jp/trial_item.png",
       "kr": "MyAssets/deco/title/trial/pic/kr/trial_item.png"
     },
     "deco/title/wanxianggengxin/pic/wanxianggengxin.png": {
+      "chs": "MyAssets/deco/title/wanxianggengxin/pic/chs/wanxianggengxin.png",
       "cn": "MyAssets/deco/title/wanxianggengxin/pic/chs_t/wanxianggengxin.png",
       "en": "MyAssets/deco/title/wanxianggengxin/pic/en_chs_t/wanxianggengxin.png"
     },
     "deco/title/wanxianggengxin/pic/wanxianggengxin_item.jpg": {
+      "chs": "MyAssets/deco/title/wanxianggengxin/pic/chs/wanxianggengxin_item.png",
       "cn": "MyAssets/deco/title/wanxianggengxin/pic/chs_t/wanxianggengxin_item.png",
       "en": "MyAssets/deco/title/wanxianggengxin/pic/en_chs_t/wanxianggengxin_item.png"
     },
     "deco/title/xysr/pic/xysr.png": {
+      "chs": "MyAssets/deco/title/xysr/pic/chs/xysr.png",
       "cn": "MyAssets/deco/title/xysr/pic/chs_t/xysr.png",
       "en": "MyAssets/deco/title/xysr/pic/en_chs_t/xysr.png"
     },
     "deco/title/xysr/pic/xysr_item.jpg": {
+      "chs": "MyAssets/deco/title/xysr/pic/chs/xysr_item.png",
       "cn": "MyAssets/deco/title/xysr/pic/chs_t/xysr_item.png",
       "en": "MyAssets/deco/title/xysr/pic/en_chs_t/xysr_item.png"
     },
     "deco/title/yinghuozhiguang/pic/yinghuozhiguang.png": {
+      "chs": "MyAssets/deco/title/yinghuozhiguang/pic/chs/yinghuozhiguang.png",
       "cn": "MyAssets/deco/title/yinghuozhiguang/pic/chs_t/yinghuozhiguang.png",
       "en": "MyAssets/deco/title/yinghuozhiguang/pic/en_en/yinghuozhiguang.png",
       "jp": "MyAssets/deco/title/yinghuozhiguang/pic/jp/yinghuozhiguang.png",
       "kr": "MyAssets/deco/title/yinghuozhiguang/pic/kr/yinghuozhiguang.png"
     },
     "deco/title/yuanchuzhihuo/pic/yuanchuzhihuo.png": {
+      "chs": "MyAssets/deco/title/yuanchuzhihuo/pic/chs/yuanchuzhihuo.png",
       "cn": "MyAssets/deco/title/yuanchuzhihuo/pic/chs_t/yuanchuzhihuo.png",
       "en": "MyAssets/deco/title/yuanchuzhihuo/pic/en_en/yuanchuzhihuo.png",
       "jp": "MyAssets/deco/title/yuanchuzhihuo/pic/jp/yuanchuzhihuo.png",
       "kr": "MyAssets/deco/title/yuanchuzhihuo/pic/kr/yuanchuzhihuo.png"
     },
     "deco/title/zuichuhuntian/pic/zuichuhuntian.png": {
+      "chs": "MyAssets/deco/title/zuichuhuntian/pic/chs/zuichuhuntian.png",
       "cn": "MyAssets/deco/title/zuichuhuntian/pic/chs_t/zuichuhuntian.png",
       "en": "MyAssets/deco/title/zuichuhuntian/pic/en_en/zuichuhuntian.png",
       "jp": "MyAssets/deco/title/zuichuhuntian/pic/jp/zuichuhuntian.png",
       "kr": "MyAssets/deco/title/zuichuhuntian/pic/kr/zuichuhuntian.png"
     },
     "deco/title/zuichuhuntian3/pic/zuichuhuntian3.png": {
+      "chs": "MyAssets/deco/title/zuichuhuntian3/pic/chs/zuichuhuntian3.png",
       "cn": "MyAssets/deco/title/zuichuhuntian3/pic/chs_t/zuichuhuntian3.png",
       "en": "MyAssets/deco/title/zuichuhuntian3/pic/en_en/zuichuhuntian3.png",
       "jp": "MyAssets/deco/title/zuichuhuntian3/pic/jp/zuichuhuntian3.png",
       "kr": "MyAssets/deco/title/zuichuhuntian3/pic/kr/zuichuhuntian3.png"
     },
     "deco/title/zuichuhuntian3/pic/zuichuhuntian3_item.jpg": {
+      "chs": "MyAssets/deco/title/zuichuhuntian3/pic/chs/zuichuhuntian3_item.png",
       "cn": "MyAssets/deco/title/zuichuhuntian3/pic/chs_t/zuichuhuntian3_item.png",
       "en": "MyAssets/deco/title/zuichuhuntian3/pic/en_en/zuichuhuntian3_item.png",
       "jp": "MyAssets/deco/title/zuichuhuntian3/pic/jp/zuichuhuntian3_item.png",
       "kr": "MyAssets/deco/title/zuichuhuntian3/pic/kr/zuichuhuntian3_item.png"
     },
     "deco/title/zuichuquesheng/pic/zuichuquesheng.png": {
+      "chs": "MyAssets/deco/title/zuichuquesheng/pic/chs/zuichuquesheng.png",
       "cn": "MyAssets/deco/title/zuichuquesheng/pic/chs_t/zuichuquesheng.png",
       "en": "MyAssets/deco/title/zuichuquesheng/pic/en_en/zuichuquesheng.png",
       "jp": "MyAssets/deco/title/zuichuquesheng/pic/jp/zuichuquesheng.png",
       "kr": "MyAssets/deco/title/zuichuquesheng/pic/kr/zuichuquesheng.png"
     },
     "deco/title/zuichuquesheng3/pic/zuichuquesheng3.png": {
+      "chs": "MyAssets/deco/title/zuichuquesheng3/pic/chs/zuichuquesheng3.png",
       "cn": "MyAssets/deco/title/zuichuquesheng3/pic/chs_t/zuichuquesheng3.png",
       "en": "MyAssets/deco/title/zuichuquesheng3/pic/en_en/zuichuquesheng3.png",
       "jp": "MyAssets/deco/title/zuichuquesheng3/pic/jp/zuichuquesheng3.png",
       "kr": "MyAssets/deco/title/zuichuquesheng3/pic/kr/zuichuquesheng3.png"
     },
     "deco/title/zuichuquesheng3/pic/zuichuquesheng3_item.jpg": {
+      "chs": "MyAssets/deco/title/zuichuquesheng3/pic/chs/zuichuquesheng3_item.png",
       "cn": "MyAssets/deco/title/zuichuquesheng3/pic/chs_t/zuichuquesheng3_item.png",
       "en": "MyAssets/deco/title/zuichuquesheng3/pic/en_en/zuichuquesheng3_item.png",
       "jp": "MyAssets/deco/title/zuichuquesheng3/pic/jp/zuichuquesheng3_item.png",
       "kr": "MyAssets/deco/title/zuichuquesheng3/pic/kr/zuichuquesheng3_item.png"
     },
     "deco/title/zuocangshayejia/pic/zuocangshayejia.png": {
+      "chs": "MyAssets/deco/title/zuocangshayejia/pic/chs/zuocangshayejia.png",
       "cn": "MyAssets/deco/title/zuocangshayejia/pic/chs_t/zuocangshayejia.png",
       "en": "MyAssets/deco/title/zuocangshayejia/pic/en_chs_t/zuocangshayejia.png"
     },
     "deco/title/zuocangshayejia/pic/zuocangshayejia_item.jpg": {
+      "chs": "MyAssets/deco/title/zuocangshayejia/pic/chs/zuocangshayejia_item.png",
       "cn": "MyAssets/deco/title/zuocangshayejia/pic/chs_t/zuocangshayejia_item.png",
       "en": "MyAssets/deco/title/zuocangshayejia/pic/en_chs_t/zuocangshayejia_item.png"
     },

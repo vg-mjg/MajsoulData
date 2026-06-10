@@ -56,6 +56,18 @@ const REGION_BY_LANGUAGE = {
   [LANGUAGE.CHS_T]: "cn",
 };
 
+// Ordered keys to try in a resources.json value object for each UI language.
+// The `cn` key holds Traditional Chinese (the cn dump's issuer); Simplified
+// Chinese (`chs`) is emitted only when it differs, so chs falls back to cn then en.
+// Every language ends at the EN base, then any remaining entry (region-exclusive).
+const LOCALE_FALLBACK_BY_LANGUAGE = {
+  [LANGUAGE.EN]: ["en"],
+  [LANGUAGE.JP]: ["jp", "en"],
+  [LANGUAGE.KR]: ["kr", "en"],
+  [LANGUAGE.CHS_T]: ["cn", "en"],
+  [LANGUAGE.CHS]: ["chs", "cn", "en"],
+};
+
 const UI_LANGUAGE_STORAGE_KEY = "mahjong-soul-data.language";
 
 export const DEFAULT_UI_LANGUAGE = LANGUAGE.EN;
@@ -77,18 +89,17 @@ export function regionForLanguage(language) {
 }
 
 // Resolve a resources.json value to a single (base-relative) path for the given UI language
-// Values are either a bare string (EN base, shared by every language) or a sparse `{region: path}` object for region-exclusive assets.
+// Values are either a bare string (EN base, shared by every language) or a sparse `{region: path}` object
+// (region-exclusive assets, plus a `chs` split for assets that ship distinct Simplified Chinese art).
 export function resolveResourceUrl(value, language = DEFAULT_UI_LANGUAGE) {
   if (!value) return "";
   if (typeof value === "string") return value;
-  if (typeof value === "object") {
-    const region = regionForLanguage(language);
-    if (value[region]) return value[region];
-    if (value.en) return value.en;
-    const first = Object.values(value).find(Boolean);
-    return first || "";
+  if (typeof value !== "object") return "";
+  const chain = LOCALE_FALLBACK_BY_LANGUAGE[normalizeUiLanguage(language)] || ["en"];
+  for (const key of chain) {
+    if (value[key]) return value[key];
   }
-  return "";
+  return Object.values(value).find(Boolean) || "";
 }
 
 // Read a localized text column. `baseKey` may be camelCase (e.g. "descStature", "lockTips") for caller convenience

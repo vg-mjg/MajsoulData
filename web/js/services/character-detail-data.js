@@ -402,7 +402,7 @@ export async function loadCharacterDetail(characterId, language) {
   const emoBasePath = stringValue(character.emo);
 
   // The emoji table lists only the unlockable/special emotes, in the in-game
-  // display order (not numeric). The base emotes (e.g. 1-9) exist only in the
+  // display order (not numeric). The base emotes (e.g. 0-9) exist only in the
   // manifest. Show base emotes first (numeric), then the table emotes in order.
   const tableEmojis = (repository.emojisByCharacterId.get(normalizedCharacterId) || [])
     .map((emoji) => mapEmojiDetail(emoji, language, repository, emoBasePath));
@@ -410,7 +410,7 @@ export async function loadCharacterDetail(characterId, language) {
   const baseEmojis = emojiEntries(resources, emoBasePath, language)
     .filter((entry) => {
       const subId = numberValue(entry.subId);
-      return subId > 0 && !tableSubIds.has(subId) && entry.candidates.length > 0;
+      return subId >= 0 && !tableSubIds.has(subId) && entry.candidates.length > 0;
     })
     .map((entry) => ({
       subId: numberValue(entry.subId),

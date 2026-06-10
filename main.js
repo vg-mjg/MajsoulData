@@ -124,12 +124,21 @@ const LEGACY_RAW_ASSET_PATH_BY_REGION = {
   jp: "jp",
   kr: "kr",
 };
-const TITLE_LOCALE_PRIORITY_BY_REGION = {
+// Preference order over the locale sub-folders that asset dirs keep
+// (titles and emotes store `<dir>/<locale>/<file>` variants). Lower index wins.
+// Keyed by output target, not mirror region: `cn` is Traditional Chinese (the cn
+// dump's issuer) and `chs` is Simplified Chinese. Both pull from the cn dump but
+// prefer their own script; the web side resolves chs_t -> cn and chs -> chs -> cn.
+const LOCALE_PRIORITY_BY_TARGET = {
   en: ["en_en", "en", "common", "en_kr", "en_chs_t"],
   cn: ["chs_t", "chs", "en_chs_t", "common"],
+  chs: ["chs", "chs_t", "en_chs_t", "common"],
   jp: ["jp", "common"],
   kr: ["kr", "en_kr", "common"],
 };
+// Output keys the locale-folder resolvers emit: the mirror regions plus the
+// Simplified Chinese (`chs`) split that shares the cn dump with Traditional (`cn`).
+const LOCALE_TARGETS = Object.keys(LOCALE_PRIORITY_BY_TARGET);
 
 const isHttp = /^https?:/i.test(SOURCE);
 
@@ -1135,10 +1144,76 @@ function compressRegionValue(value) {
   return value;
 }
 
-function titleLocaleScore(region, locale) {
-  const priority = TITLE_LOCALE_PRIORITY_BY_REGION[region] || [];
+// Locale-folder resolvers may emit a Simplified Chinese (`chs`) entry next to the
+// Traditional (`cn`) one. Drop it when it matches `cn` — the web side falls back
+// chs -> cn anyway — then apply the usual region compression.
+function compressLocaleValue(value) {
+  if (value.chs && value.chs === value.cn) {
+    delete value.chs;
+  }
+  return compressRegionValue(value);
+}
+
+function localeScore(target, locale) {
+  const priority = LOCALE_PRIORITY_BY_TARGET[target] || [];
   const index = priority.indexOf(locale);
   return index >= 0 ? index : null;
+}
+
+// Locale folder for a record stored as `<dir>/<locale?>/<file>`: the segment
+// between `dir` and the filename, or "common" when the file sits directly in
+// `dir`. Returns null when the path isn't under `dir` or nests any deeper.
+function localeUnderDir(path, dir) {
+  if (!path.startsWith(`${dir}/`)) {
+    return null;
+  }
+  const tail = path.slice(dir.length + 1).split("/");
+  if (tail.length < 1 || tail.length > 2) {
+    return null;
+  }
+  return tail.length === 1 ? "common" : tail[0].toLowerCase();
+}
+
+// Build a target-keyed value by choosing, for each output target, the candidate
+// whose locale folder ranks highest (ties broken by shorter path). `localeOf(rec)`
+// returns the rec's locale folder, or null to exclude it.
+function localeValueFromCandidates(candidates, localeOf) {
+  const bestByTarget = {};
+  const bestScoreByTarget = {};
+  for (const rec of candidates) {
+    if (!isImagePath(rec.path)) {
+      continue;
+    }
+    const locale = localeOf(rec);
+    if (locale === null) {
+      continue;
+    }
+    for (const target of LOCALE_TARGETS) {
+      const score = localeScore(target, locale);
+      if (score === null) {
+        continue;
+      }
+      const previous = bestScoreByTarget[target];
+      if (
+        previous === undefined ||
+        score < previous ||
+        (score === previous &&
+          rec.path.length < bestByTarget[target].path.length)
+      ) {
+        bestByTarget[target] = rec;
+        bestScoreByTarget[target] = score;
+      }
+    }
+  }
+
+  const value = {};
+  for (const target of LOCALE_TARGETS) {
+    const rec = bestByTarget[target];
+    if (rec) {
+      value[target] = recordToPath(rec);
+    }
+  }
+  return compressLocaleValue(value);
 }
 
 function resolveTitleImageValue(index, ref) {
@@ -1155,53 +1230,13 @@ function resolveTitleImageValue(index, ref) {
     return null;
   }
 
-  const bestByRegion = {};
-  const bestScoreByRegion = {};
-  for (const rec of candidates) {
-    if (!isImagePath(rec.path)) {
-      continue;
-    }
-    if (!rec.path.startsWith(`${refDir}/`)) {
-      continue;
-    }
-
-    const tail = rec.path.slice(refDir.length + 1).split("/");
-    if (tail.length < 1 || tail.length > 2) {
-      continue;
-    }
-
-    const locale = tail.length === 1 ? "common" : tail[0].toLowerCase();
-    const filename = tail[tail.length - 1];
-    if (stripExt(filename).toLowerCase() !== refStem) {
-      continue;
-    }
-
-    for (const region of REGION_KEYS) {
-      const score = titleLocaleScore(region, locale);
-      if (score === null) {
-        continue;
-      }
-      const previous = bestScoreByRegion[region];
-      if (
-        previous === undefined ||
-        score < previous ||
-        (score === previous &&
-          rec.path.length < bestByRegion[region].path.length)
-      ) {
-        bestByRegion[region] = rec;
-        bestScoreByRegion[region] = score;
-      }
-    }
-  }
-
-  const value = {};
-  for (const region of REGION_KEYS) {
-    const rec = bestByRegion[region];
-    if (rec) {
-      value[region] = recordToPath(rec);
-    }
-  }
-  return compressRegionValue(value);
+  // byBase groups by basename stem; also require the file to live under this
+  // title's pic dir so a same-named asset elsewhere can't leak in.
+  return localeValueFromCandidates(candidates, (rec) =>
+    stripExt(baseName(rec.path)).toLowerCase() === refStem
+      ? localeUnderDir(rec.path, refDir)
+      : null,
+  );
 }
 
 function resolveTitleImages(images, index, ref, key) {
@@ -1212,6 +1247,13 @@ function resolveTitleImages(images, index, ref, key) {
   if (value) {
     images[key] = value;
   }
+}
+
+// Pick the best locale variant per output target for a single emote frame.
+// `recs` are every record sharing one `<dir>/<base>.png` (across locale folders);
+// the locale is the single path segment between `dir` and the filename (none = "common").
+function resolveEmojiImageValue(dir, recs) {
+  return localeValueFromCandidates(recs, (rec) => localeUnderDir(rec.path, dir));
 }
 
 function legacyCatChatImageValue(
@@ -1379,7 +1421,9 @@ async function prepareLegacyFallbacks({
 }
 
 function buildEmojiDirIndex(index) {
-  // emoDir (e.g. "deco/emo/e20000100") -> Map<basename, record>
+  // emoDir (e.g. "deco/emo/e20000100") -> Map<basename, record[]>
+  // Every locale variant of a frame is kept so resolveEmojiImageValue can pick
+  // the right one per region (the bare filename collapses the locale folder).
   const dirs = new Map();
   const pattern = /^(deco\/emo\/[^/]+)\/(?:.*\/)?([^/]+)\.png$/i;
   for (const [logical, rec] of index.exact) {
@@ -1400,8 +1444,9 @@ function buildEmojiDirIndex(index) {
     }
     const byBase = dirs.get(dir);
     if (!byBase.has(base)) {
-      byBase.set(base, rec);
+      byBase.set(base, []);
     }
+    byBase.get(base).push(rec);
   }
   return dirs;
 }
@@ -1683,20 +1728,18 @@ async function main() {
     if (!emo) {
       continue;
     }
-    const merged = new Map();
-    for (const [dir, byBase] of emojiDirIndex) {
-      if (dir === emo) {
-        for (const [base, rec] of byBase) {
-          if (!merged.has(base)) {
-            merged.set(base, rec);
-          }
-        }
-      }
+    const byBase = emojiDirIndex.get(emo);
+    if (!byBase) {
+      continue;
     }
-    for (const [base, rec] of merged) {
+    for (const [base, recs] of byBase) {
       const key = `${emo}/${base}`;
-      if (resources.images[key] === undefined) {
-        resources.images[key] = recordToValue(rec);
+      if (resources.images[key] !== undefined) {
+        continue;
+      }
+      const value = resolveEmojiImageValue(emo, recs);
+      if (value) {
+        resources.images[key] = value;
       }
     }
   }
