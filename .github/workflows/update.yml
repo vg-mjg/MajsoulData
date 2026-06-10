@@ -1,6 +1,9 @@
 name: Data Update
 
-on: workflow_dispatch
+on:
+  schedule:
+    - cron: "15 0-8 * * 1-5" # roughly when game updates happen
+  workflow_dispatch:
 
 permissions:
   contents: write
@@ -23,38 +26,21 @@ jobs:
         with:
           node-version: "20"
 
-      - name: Install Node.js dependencies
-        run: npm install
-
-      - name: Install protobuf compiler
-        run: |
-          sudo apt-get update
-          sudo apt-get install -y protobuf-compiler
-
-      - name: Install protoc-gen-doc
-        run: |
-          curl -L -o protoc-gen-doc.tar.gz https://github.com/pseudomuto/protoc-gen-doc/releases/download/v1.5.1/protoc-gen-doc_1.5.1_linux_amd64.tar.gz
-          tar -xzf protoc-gen-doc.tar.gz protoc-gen-doc
-          sudo mv protoc-gen-doc /usr/local/bin/protoc-gen-doc
-          sudo chmod +x /usr/local/bin/protoc-gen-doc
-          rm protoc-gen-doc.tar.gz
-          echo "PROTOC_GEN_DOC_PATH=$(command -v protoc-gen-doc)" >> $GITHUB_ENV
-
-      - name: Run main.js to download and process data
-        run: node main.js
+      - name: Build data
+        run: npm run build
 
       - name: Commit and push changes
         id: commit_changes
         run: |
           git config --global user.name "github-actions[bot]"
           git config --global user.email "github-actions[bot]@users.noreply.github.com"
-          git add -f docs/ web/
+          git add -f web/
           if git diff --staged --quiet; then
             echo "No changes to commit"
             echo "changed=false" >> "$GITHUB_OUTPUT"
           else
-            VERSION=$(node -e "const fs=require('fs');const p='web/version.json';try{const v=JSON.parse(fs.readFileSync(p,'utf8')).version||'unknown';process.stdout.write(String(v));}catch{process.stdout.write('unknown');}")
-            git commit -m "Update to version $VERSION"
+            VERSION_TRAILERS=$(node .github/workflows/update-version-trailers.js)
+            git commit -m "Update data" -m "$VERSION_TRAILERS"
             git push
             echo "changed=true" >> "$GITHUB_OUTPUT"
           fi
