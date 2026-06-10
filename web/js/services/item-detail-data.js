@@ -288,6 +288,21 @@ function tileOriginalCandidates(entry, repository, language) {
   return originalCandidatesForRefs(tileOriginalRefs(entry), repository, language);
 }
 
+function portraitFrameOriginalCandidates(entry, itemId, repository, language) {
+  if (numberValue(entry && entry.category) !== 5) {
+    return [];
+  }
+  if (numberValue(entry && entry.type) !== 5) {
+    return [];
+  }
+  const resName = stringValue(repository.viewResNameByItemId.get(itemId)).trim();
+  if (!resName) {
+    return [];
+  }
+  const key = `deco/head_frame/${resName}/icon/${resName}.png`;
+  return imageCandidates(repository.resources, key, language);
+}
+
 function backgroundOriginalCandidates(entry, itemId, repository, language) {
   if (numberValue(entry && entry.category) !== 5) {
     return [];
@@ -479,6 +494,7 @@ export async function loadItemDetail(itemId, language) {
     ? loadingOriginalCandidates(entry, normalizedItemId, repository, language)
     : [];
   const titleOriginalImage = titleOriginalCandidates(entry, repository, language);
+  const portraitFrameOriginalImage = portraitFrameOriginalCandidates(entry, normalizedItemId, repository, language);
   const tableclothOriginalImage = tableclothOriginalCandidates(entry, repository, language);
   const tileOriginalImage = tileOriginalCandidates(entry, repository, language);
   const backgroundOriginalImage = backgroundOriginalCandidates(entry, normalizedItemId, repository, language);
@@ -524,7 +540,7 @@ export async function loadItemDetail(itemId, language) {
     assets: {
       icon: itemIconCandidates(entry, repository.resources, language),
       loadingOriginalImage,
-      portraitFrameOriginalImage: [],
+      portraitFrameOriginalImage,
       tableclothOriginalImage,
       tileOriginalImage,
       backgroundOriginalImage,
@@ -558,7 +574,7 @@ export async function loadItemDetail(itemId, language) {
       characterExchangeUsage: characterExchangeUsage.length,
       characterMaterialUsage: characterMaterialUsage.length,
       loadingOriginalImage: loadingOriginalImage.length,
-      portraitFrameOriginalImage: 0,
+      portraitFrameOriginalImage: portraitFrameOriginalImage.length,
       tableclothOriginalImage: tableclothOriginalImage.length,
       tileOriginalImage: tileOriginalImage.length,
       backgroundOriginalImage: backgroundOriginalImage.length,

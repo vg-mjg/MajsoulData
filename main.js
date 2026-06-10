@@ -114,6 +114,8 @@ const TILE_DECOR_FULL_RE =
   /^(deco\/(?:mjpai|mjpface)\/[^/]+)\/3d\/texture\/hand\.[^.]+$/i;
 const TILE_DECOR_PREVIEW_RE =
   /^(deco\/(?:mjpai|mjpface)\/[^/]+)\/preview\/(?:[^/]+\/)?preview\.[^.]+$/i;
+const HEAD_FRAME_ICON_RE =
+  /^(deco\/head_frame\/([^/]+))\/icon\/(?:[^/]+\/)?[^/]+\.[^.]+$/i;
 const LOADING_SPRITE_RE =
   /^extendRes\/loading\/common\/(?:table|left|mid|right)_\d+\.png$/i;
 // Lobby backgrounds render `extendRes/background/<res_name>/<res_name>` plus an
@@ -865,6 +867,68 @@ function resolveTileDecorOriginalImages(images, tileDecorIndex, row) {
     if (record) {
       images[key] = recordToValue(record);
     }
+  }
+}
+
+// Portrait frames keep their full-size art under
+// `deco/head_frame/<view.res_name>/icon/<locale?>/<file>`, with the same
+// optional locale subfolders titles use.
+function buildHeadFrameAssetIndex(assetIndex) {
+  const folders = new Map();
+  for (const rec of assetIndex.exact.values()) {
+    if (!isImagePath(rec.path)) {
+      continue;
+    }
+    const match = rec.path.match(HEAD_FRAME_ICON_RE);
+    if (!match) {
+      continue;
+    }
+    const folder = match[2].toLowerCase();
+    let entry = folders.get(folder);
+    if (!entry) {
+      entry = { dir: match[1], recs: [] };
+      folders.set(folder, entry);
+    }
+    entry.recs.push(rec);
+  }
+  return { folders };
+}
+
+function resolveHeadFrameOriginalImages(
+  images,
+  headFrameIndex,
+  viewResNameById,
+  row,
+) {
+  if (numberValue(row && row.category) !== 5) {
+    return;
+  }
+  if (numberValue(row && row.type) !== 5) {
+    return;
+  }
+
+  const resName = String(
+    viewResNameById.get(numberValue(row && row.id)) || "",
+  ).trim();
+  if (!resName) {
+    return;
+  }
+
+  const key = `deco/head_frame/${resName}/icon/${resName}.png`;
+  if (images[key] !== undefined) {
+    return;
+  }
+
+  const entry = headFrameIndex.folders.get(resName.toLowerCase());
+  if (!entry) {
+    return;
+  }
+
+  const value = localeValueFromCandidates(entry.recs, (rec) =>
+    localeUnderDir(rec.path, `${entry.dir}/icon`),
+  );
+  if (value) {
+    images[key] = value;
   }
 }
 
@@ -1751,6 +1815,7 @@ async function main() {
     tableclothMetadataIndex,
   );
   const tileDecorAssetIndex = buildTileDecorAssetIndex(assetIndex);
+  const headFrameAssetIndex = buildHeadFrameAssetIndex(assetIndex);
   const emojiDirIndex = buildEmojiDirIndex(assetIndex);
   const spineSkinIndex = buildSpineSkinIndex(assetIndex);
   console.log(`Indexed ${assetIndex.exact.size} unique asset paths.`);
@@ -1759,6 +1824,9 @@ async function main() {
   );
   console.log(
     `Indexed ${tileDecorAssetIndex.folders.size} tile décor asset folders.`,
+  );
+  console.log(
+    `Indexed ${headFrameAssetIndex.folders.size} head frame asset folders.`,
   );
   console.log(
     `Indexed ${Object.keys(legacyActivityBannerVersionsByFile).length} legacy activity banner versions.`,
@@ -1824,6 +1892,12 @@ async function main() {
       resolveBackgroundOriginalImages(
         resources.images,
         assetIndex,
+        viewResNameById,
+        row,
+      );
+      resolveHeadFrameOriginalImages(
+        resources.images,
+        headFrameAssetIndex,
         viewResNameById,
         row,
       );
