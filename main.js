@@ -99,8 +99,7 @@ const REGION_KEYS = REGIONS.map((r) => r.key);
 const SPRITE_VARIANTS = ["bighead", "smallhead", "full", "half", "waitingroom"];
 const SKELETON_EXTS = [".skel.txt", ".skel", ".json"];
 const IMAGE_EXTS = [".png", ".jpg", ".jpeg", ".webp"];
-const TABLECLOTH_ICON_RE =
-  /^(deco\/tablecloth\/[^/]+)\/pic\/[^/]+\.[^.]+$/i;
+const TABLECLOTH_ICON_RE = /^(deco\/tablecloth\/[^/]+)\/pic\/[^/]+\.[^.]+$/i;
 const TABLECLOTH_TOKEN_RE = /\b(?:tablecloth|mjp)_[a-z0-9_]+/gi;
 const TABLECLOTH_NAME_RE = /^(?:tablecloth|mjp)_([a-z0-9_]+)$/i;
 const TABLECLOTH_SUFFIX_RE = /^tablecloth_([a-z0-9_]+)$/;
@@ -108,6 +107,12 @@ const TABLECLOTH_FULL_RE =
   /^deco\/tablecloth\/([^/]+)\/3d\/texture\/Table_Dif\.[^.]+$/i;
 const TABLECLOTH_PREVIEW_RE =
   /^deco\/tablecloth\/([^/]+)\/preview\/(?:[^/]+\/)?preview\.[^.]+$/i;
+const TILE_DECOR_ICON_RE =
+  /^(deco\/(?:mjpai|mjpface)\/[^/]+)\/pic\/[^/]+\.[^.]+$/i;
+const TILE_DECOR_FULL_RE =
+  /^(deco\/(?:mjpai|mjpface)\/[^/]+)\/3d\/texture\/hand\.[^.]+$/i;
+const TILE_DECOR_PREVIEW_RE =
+  /^(deco\/(?:mjpai|mjpface)\/[^/]+)\/preview\/(?:[^/]+\/)?preview\.[^.]+$/i;
 const LOADING_SPRITE_RE =
   /^extendRes\/loading\/common\/(?:table|left|mid|right)_\d+\.png$/i;
 const LEGACY_RAW_ASSETS_BASE =
@@ -555,7 +560,9 @@ function tableclothInfoFromRow(row) {
 }
 
 function addTableclothMetadataToken(index, rawName) {
-  const name = String(rawName || "").trim().toLowerCase();
+  const name = String(rawName || "")
+    .trim()
+    .toLowerCase();
   const match = name.match(TABLECLOTH_NAME_RE);
   if (!match) {
     return;
@@ -643,50 +650,24 @@ function hasMatchingNumericRuns(left, right) {
   );
 }
 
-function addTableclothAssetRecord(index, folder, kind, rec) {
-  let entry = index.folders.get(folder);
+function addFolderAssetRecord(index, folder, kind, rec) {
+  const key = String(folder || "").toLowerCase();
+  let entry = index.folders.get(key);
   if (!entry) {
     entry = {
       full: [],
       preview: [],
     };
-    index.folders.set(folder, entry);
+    index.folders.set(key, entry);
   }
   entry[kind].push(rec);
 }
 
-function buildTableclothAssetIndex(assetIndex, metadataIndex) {
-  const index = {
-    folders: new Map(),
-    metadata: metadataIndex,
-  };
-
-  for (const rec of assetIndex.exact.values()) {
-    if (!isImagePath(rec.path)) {
-      continue;
-    }
-
-    const fullMatch = rec.path.match(TABLECLOTH_FULL_RE);
-    if (fullMatch) {
-      addTableclothAssetRecord(index, fullMatch[1].toLowerCase(), "full", rec);
-      continue;
-    }
-
-    const previewMatch = rec.path.match(TABLECLOTH_PREVIEW_RE);
-    if (previewMatch) {
-      addTableclothAssetRecord(
-        index,
-        previewMatch[1].toLowerCase(),
-        "preview",
-        rec,
-      );
-    }
-  }
-
-  return index;
+function folderEntry(index, folder) {
+  return index.folders.get(String(folder || "").toLowerCase()) || null;
 }
 
-function tableclothRecordScore(rec, kind) {
+function previewRecordScore(rec, kind) {
   const p = rec.path.toLowerCase();
   let score = 0;
   if (p.endsWith(".png")) {
@@ -704,17 +685,39 @@ function tableclothRecordScore(rec, kind) {
   return score;
 }
 
-function bestTableclothRecord(records, kind) {
-  const best = bestScored(records, (rec) => tableclothRecordScore(rec, kind));
+function bestPreviewRecord(records, kind) {
+  const best = bestScored(records, (rec) => previewRecordScore(rec, kind));
   return best ? best.item : null;
 }
 
-function tableclothFolderEntry(index, folder) {
-  return index.folders.get(String(folder || "").toLowerCase()) || null;
+function buildTableclothAssetIndex(assetIndex, metadataIndex) {
+  const index = {
+    folders: new Map(),
+    metadata: metadataIndex,
+  };
+
+  for (const rec of assetIndex.exact.values()) {
+    if (!isImagePath(rec.path)) {
+      continue;
+    }
+
+    const fullMatch = rec.path.match(TABLECLOTH_FULL_RE);
+    if (fullMatch) {
+      addFolderAssetRecord(index, fullMatch[1], "full", rec);
+      continue;
+    }
+
+    const previewMatch = rec.path.match(TABLECLOTH_PREVIEW_RE);
+    if (previewMatch) {
+      addFolderAssetRecord(index, previewMatch[1], "preview", rec);
+    }
+  }
+
+  return index;
 }
 
 function tableclothFolderHasKind(index, folder, kind) {
-  const entry = tableclothFolderEntry(index, folder);
+  const entry = folderEntry(index, folder);
   return !!(entry && entry[kind] && entry[kind].length > 0);
 }
 
@@ -774,8 +777,80 @@ function resolveTableclothOriginalImages(images, tableclothIndex, row) {
       continue;
     }
     const folder = derivedTableclothFolder(tableclothIndex, info.folder, kind);
-    const entry = tableclothFolderEntry(tableclothIndex, folder);
-    const record = entry ? bestTableclothRecord(entry[kind], kind) : null;
+    const entry = folderEntry(tableclothIndex, folder);
+    const record = entry ? bestPreviewRecord(entry[kind], kind) : null;
+    if (record) {
+      images[key] = recordToValue(record);
+    }
+  }
+}
+
+function tileDecorInfoFromRow(row) {
+  if (numberValue(row && row.category) !== 5) {
+    return null;
+  }
+
+  const type = numberValue(row && row.type);
+  if (type !== 7 && type !== 13) {
+    return null;
+  }
+
+  const icon = normalizeRef(row && row.icon);
+  const match = icon.match(TILE_DECOR_ICON_RE);
+  if (!match) {
+    return null;
+  }
+
+  return {
+    base: match[1],
+    folder: match[1].toLowerCase(),
+  };
+}
+
+function buildTileDecorAssetIndex(assetIndex) {
+  const index = {
+    folders: new Map(),
+  };
+
+  for (const rec of assetIndex.exact.values()) {
+    if (!isImagePath(rec.path)) {
+      continue;
+    }
+
+    const fullMatch = rec.path.match(TILE_DECOR_FULL_RE);
+    if (fullMatch) {
+      addFolderAssetRecord(index, fullMatch[1], "full", rec);
+      continue;
+    }
+
+    const previewMatch = rec.path.match(TILE_DECOR_PREVIEW_RE);
+    if (previewMatch) {
+      addFolderAssetRecord(index, previewMatch[1], "preview", rec);
+    }
+  }
+
+  return index;
+}
+
+function resolveTileDecorOriginalImages(images, tileDecorIndex, row) {
+  const info = tileDecorInfoFromRow(row);
+  if (!info) {
+    return;
+  }
+
+  const entry = folderEntry(tileDecorIndex, info.folder);
+  if (!entry) {
+    return;
+  }
+
+  for (const { kind, key } of [
+    { kind: "full", key: `${info.base}/3d/texture/hand.png` },
+    { kind: "preview", key: `${info.base}/preview/preview.png` },
+  ]) {
+    if (images[key] !== undefined) {
+      continue;
+    }
+    const record = bestPreviewRecord(entry[kind], kind);
     if (record) {
       images[key] = recordToValue(record);
     }
@@ -965,7 +1040,9 @@ function buildLegacyCatChatVersionsByFile(legacyManifest) {
 
 function isLegacyCatChatRef(ref) {
   const normalized = normalizeRef(ref);
-  return normalized.startsWith("ui/activity/extend/catchat/main/pic_scattered/");
+  return normalized.startsWith(
+    "ui/activity/extend/catchat/main/pic_scattered/",
+  );
 }
 
 function legacyCatChatRefsOfRow(row) {
@@ -1253,7 +1330,9 @@ function resolveTitleImages(images, index, ref, key) {
 // `recs` are every record sharing one `<dir>/<base>.png` (across locale folders);
 // the locale is the single path segment between `dir` and the filename (none = "common").
 function resolveEmojiImageValue(dir, recs) {
-  return localeValueFromCandidates(recs, (rec) => localeUnderDir(rec.path, dir));
+  return localeValueFromCandidates(recs, (rec) =>
+    localeUnderDir(rec.path, dir),
+  );
 }
 
 function legacyCatChatImageValue(
@@ -1640,11 +1719,15 @@ async function main() {
     assetIndex,
     tableclothMetadataIndex,
   );
+  const tileDecorAssetIndex = buildTileDecorAssetIndex(assetIndex);
   const emojiDirIndex = buildEmojiDirIndex(assetIndex);
   const spineSkinIndex = buildSpineSkinIndex(assetIndex);
   console.log(`Indexed ${assetIndex.exact.size} unique asset paths.`);
   console.log(
     `Indexed ${tableclothAssetIndex.folders.size} tablecloth asset folders.`,
+  );
+  console.log(
+    `Indexed ${tileDecorAssetIndex.folders.size} tile décor asset folders.`,
   );
   console.log(
     `Indexed ${Object.keys(legacyActivityBannerVersionsByFile).length} legacy activity banner versions.`,
@@ -1659,11 +1742,10 @@ async function main() {
   };
   const table = (name) => tablesByName.get(name);
   const snsActivityRows = rowsOf(table("activity/sns_activity"));
-  const legacyCatChatVersionsByActivity =
-    buildLegacyCatChatVersionsByActivity(
-      snsActivityRows,
-      legacyCatChatVersionsByFile,
-    );
+  const legacyCatChatVersionsByActivity = buildLegacyCatChatVersionsByActivity(
+    snsActivityRows,
+    legacyCatChatVersionsByFile,
+  );
   console.log(
     `Indexed ${Object.keys(legacyCatChatVersionsByFile).length} legacy CatChat image versions.`,
   );
@@ -1694,7 +1776,16 @@ async function main() {
           resolveImages(resources.images, assetIndex, ref, ref);
         }
       }
-      resolveTableclothOriginalImages(resources.images, tableclothAssetIndex, row);
+      resolveTableclothOriginalImages(
+        resources.images,
+        tableclothAssetIndex,
+        row,
+      );
+      resolveTileDecorOriginalImages(
+        resources.images,
+        tileDecorAssetIndex,
+        row,
+      );
     }
   }
 

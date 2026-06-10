@@ -219,6 +219,18 @@ function titleOriginalCandidates(entry, repository, language) {
   return imageCandidates(repository.resources, iconOriginal, language);
 }
 
+function normalizedAssetRef(ref) {
+  return stringValue(ref).trim().replace(/^\/+|\/+$/g, "").replace(/^MyAssets\//, "");
+}
+
+function originalCandidatesForRefs(refs, repository, language) {
+  const candidates = [];
+  for (const ref of refs) {
+    candidates.push(...imageCandidates(repository.resources, ref, language));
+  }
+  return candidates;
+}
+
 function tableclothOriginalRefs(entry) {
   if (numberValue(entry && entry.category) !== 5) {
     return [];
@@ -227,7 +239,7 @@ function tableclothOriginalRefs(entry) {
     return [];
   }
 
-  const icon = stringValue(entry && entry.icon).trim().replace(/^\/+|\/+$/g, "").replace(/^MyAssets\//, "");
+  const icon = normalizedAssetRef(entry && entry.icon);
   const match = icon.match(/^(deco\/tablecloth\/[^/]+)\/pic\/[^/]+\.[^.]+$/i);
   if (!match) {
     return [];
@@ -242,11 +254,38 @@ function tableclothOriginalRefs(entry) {
 }
 
 function tableclothOriginalCandidates(entry, repository, language) {
-  const candidates = [];
-  for (const ref of tableclothOriginalRefs(entry)) {
-    candidates.push(...imageCandidates(repository.resources, ref, language));
+  return originalCandidatesForRefs(
+    tableclothOriginalRefs(entry),
+    repository,
+    language,
+  );
+}
+
+function tileOriginalRefs(entry) {
+  if (numberValue(entry && entry.category) !== 5) {
+    return [];
   }
-  return candidates;
+
+  const type = numberValue(entry && entry.type);
+  if (type !== 7 && type !== 13) {
+    return [];
+  }
+
+  const icon = normalizedAssetRef(entry && entry.icon);
+  const match = icon.match(/^(deco\/(?:mjpai|mjpface)\/[^/]+)\/pic\/[^/]+\.[^.]+$/i);
+  if (!match) {
+    return [];
+  }
+
+  const base = match[1];
+  return [
+    `${base}/3d/texture/hand.png`,
+    `${base}/preview/preview.png`,
+  ];
+}
+
+function tileOriginalCandidates(entry, repository, language) {
+  return originalCandidatesForRefs(tileOriginalRefs(entry), repository, language);
 }
 
 function firstAudioPathFromSargs(sargs) {
@@ -335,8 +374,8 @@ function buildLoadingSpriteDetail(sprite, repository, language) {
       loadingOriginalImage: candidates,
       portraitFrameOriginalImage: [],
       tableclothOriginalImage: [],
+      tileOriginalImage: [],
       backgroundOriginalImage: [],
-      tileFaceOriginalImage: [],
       titleOriginalImage: [],
       musicAudio: [],
     },
@@ -373,8 +412,8 @@ function buildLoadingSpriteDetail(sprite, repository, language) {
       loadingOriginalImage: candidates.length,
       portraitFrameOriginalImage: 0,
       tableclothOriginalImage: 0,
+      tileOriginalImage: 0,
       backgroundOriginalImage: 0,
-      tileFaceOriginalImage: 0,
       titleOriginalImage: 0,
       musicAudio: 0,
     },
@@ -425,6 +464,7 @@ export async function loadItemDetail(itemId, language) {
     : [];
   const titleOriginalImage = titleOriginalCandidates(entry, repository, language);
   const tableclothOriginalImage = tableclothOriginalCandidates(entry, repository, language);
+  const tileOriginalImage = tileOriginalCandidates(entry, repository, language);
   const audioPreview = itemAudioPreview(entry, normalizedItemId, language, repository);
   const musicAudio = audioPreview ? firstAudioCandidates(repository.resources, audioKeysFor(audioPreview.path)) : [];
 
@@ -469,8 +509,8 @@ export async function loadItemDetail(itemId, language) {
       loadingOriginalImage,
       portraitFrameOriginalImage: [],
       tableclothOriginalImage,
+      tileOriginalImage,
       backgroundOriginalImage: [],
-      tileFaceOriginalImage: [],
       titleOriginalImage,
       musicAudio,
     },
@@ -503,8 +543,8 @@ export async function loadItemDetail(itemId, language) {
       loadingOriginalImage: loadingOriginalImage.length,
       portraitFrameOriginalImage: 0,
       tableclothOriginalImage: tableclothOriginalImage.length,
+      tileOriginalImage: tileOriginalImage.length,
       backgroundOriginalImage: 0,
-      tileFaceOriginalImage: 0,
       titleOriginalImage: titleOriginalImage.length,
       musicAudio: musicAudio.length,
     },

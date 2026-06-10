@@ -78,6 +78,16 @@ async function hydrateAudioPlayer(audioElement, audioCandidates) {
   audioElement.src = source;
 }
 
+function firstCandidateList(assets, fields) {
+  for (const field of fields) {
+    const candidates = assets[field];
+    if (Array.isArray(candidates) && candidates.length > 0) {
+      return candidates;
+    }
+  }
+  return [];
+}
+
 export async function renderItemDetailPage({
   viewRoot,
   getLanguage,
@@ -128,17 +138,14 @@ export async function renderItemDetailPage({
     topLayout.append(imageColumn, infoColumn);
     page.append(topLayout);
 
-    const originalImageCandidates = Array.isArray(detail.assets.loadingOriginalImage) && detail.assets.loadingOriginalImage.length > 0
-      ? detail.assets.loadingOriginalImage
-      : (Array.isArray(detail.assets.portraitFrameOriginalImage) && detail.assets.portraitFrameOriginalImage.length > 0
-        ? detail.assets.portraitFrameOriginalImage
-        : (Array.isArray(detail.assets.tableclothOriginalImage) && detail.assets.tableclothOriginalImage.length > 0
-          ? detail.assets.tableclothOriginalImage
-          : (Array.isArray(detail.assets.backgroundOriginalImage) && detail.assets.backgroundOriginalImage.length > 0
-            ? detail.assets.backgroundOriginalImage
-            : (Array.isArray(detail.assets.tileFaceOriginalImage) && detail.assets.tileFaceOriginalImage.length > 0
-              ? detail.assets.tileFaceOriginalImage
-              : (Array.isArray(detail.assets.titleOriginalImage) ? detail.assets.titleOriginalImage : [])))));
+    const originalImageCandidates = firstCandidateList(detail.assets, [
+      "loadingOriginalImage",
+      "portraitFrameOriginalImage",
+      "tableclothOriginalImage",
+      "backgroundOriginalImage",
+      "tileOriginalImage",
+      "titleOriginalImage",
+    ]);
 
     if (originalImageCandidates.length > 0) {
       const originalSection = createElement("section", "card border-0 shadow-sm item-detail-original-section" + (detail.kind === "loading_sprite" ? " loading-sprite-original-section" : ""));
