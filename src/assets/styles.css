@@ -101,6 +101,7 @@ svg {
 .d-flex { display: flex !important; }
 .d-inline-block { display: inline-block !important; }
 .d-none { display: none !important; }
+[hidden] { display: none !important; }
 .flex-row { flex-direction: row !important; }
 .flex-wrap { flex-wrap: wrap !important; }
 .flex-nowrap { flex-wrap: nowrap !important; }
