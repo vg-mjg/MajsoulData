@@ -45,9 +45,11 @@ test.before(async () => {
     join(input, "_data", "characters.json"),
     JSON.stringify(characters),
   );
+  const items = buildFixtureItemsCollection();
+  items.find((item) => item.id === 300005).text.name.en = "Trial's Ticket";
   writeFileSync(
     join(input, "_data", "items.json"),
-    JSON.stringify(buildFixtureItemsCollection()),
+    JSON.stringify(items),
   );
   writeFileSync(
     join(input, "_data", "achievements.json"),
@@ -401,6 +403,12 @@ test("item detail page renders localized text, media, audio, and pricing from th
 
   const music = pagesByUrl.get("/en/items/306001/").content;
   assert.match(music, /<audio class="item-detail-audio-player" controls preload="none" src="https:\/\/files\.riichi\.moe\/[^\"]*audio\/music\/riichi\.mp3"><\/audio>/);
+});
+
+test("page title preserves apostrophes from computed data", () => {
+  const en = pagesByUrl.get("/en/items/300005/").content;
+  assert.match(en, /<title>Trial's Ticket · Items · Mahjong Soul Data<\/title>/);
+  assert.doesNotMatch(en, /Trial&amp;#39;s Ticket/);
 });
 
 test("item detail hides empty relationship sections and prefers same-locale functional text", () => {

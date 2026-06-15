@@ -51,6 +51,40 @@ export function gameVersionLabel(versions, code) {
   return `${entry.product_version} (${entry.resource_version})`;
 }
 
+function htmlEntityCodePoint(codePoint, fallback) {
+  return Number.isInteger(codePoint) && codePoint >= 0 && codePoint <= 0x10ffff
+    ? String.fromCodePoint(codePoint)
+    : fallback;
+}
+
+function decodeHtmlEntities(value) {
+  return String(value ?? "").replace(
+    /&(#x[0-9a-f]+|#\d+|amp|lt|gt|quot|apos);/gi,
+    (match, entity) => {
+      const lower = entity.toLowerCase();
+      if (lower === "amp") return "&";
+      if (lower === "lt") return "<";
+      if (lower === "gt") return ">";
+      if (lower === "quot") return '"';
+      if (lower === "apos") return "'";
+      if (lower.startsWith("#x")) {
+        return htmlEntityCodePoint(Number.parseInt(lower.slice(2), 16), match);
+      }
+      if (lower.startsWith("#")) {
+        return htmlEntityCodePoint(Number.parseInt(lower.slice(1), 10), match);
+      }
+      return match;
+    },
+  );
+}
+
+export function titleHtml(value) {
+  return decodeHtmlEntities(value)
+    .replace(/&/g, "&amp;")
+    .replace(/</g, "&lt;")
+    .replace(/>/g, "&gt;");
+}
+
 // The universal filters, registered separately so the build-output test can
 // drive Eleventy over a fixture input directory with the identical filter set
 // (without inheriting this config's hardcoded `dir.input`).
@@ -58,6 +92,7 @@ export function registerFilters(eleventyConfig) {
   eleventyConfig.addFilter("locale_url", localeUrl);
   eleventyConfig.addFilter("locale_links", localeLinks);
   eleventyConfig.addFilter("game_version_label", gameVersionLabel);
+  eleventyConfig.addFilter("title_html", titleHtml);
 
   // Resolve a per-language text map `{en, jp, …}` to a string for `code`, using
   // the documented fallback chain. Shared with the ingest pipeline so text reads

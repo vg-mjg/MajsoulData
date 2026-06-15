@@ -3,7 +3,7 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <title>{{ title or site.title }}</title>
+    <title>{{ (title or site.title) | title_html | safe }}</title>
     <meta name="description" content="{{ description or site.description }}" />
     <link rel="icon" href="{{ '/assets/favicon.ico' | url }}" />
     <script>
