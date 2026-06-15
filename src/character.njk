@@ -175,20 +175,22 @@ eleventyComputed:
         <input type="radio" name="cv-tab" id="cv-voices" class="cv-tab-input" checked />
         <input type="radio" name="cv-tab" id="cv-story" class="cv-tab-input" />
         <div class="cv-tablist">
-          <label for="cv-voices" class="cv-tab-label cv-tab-label-voices">Voices ({{ ch.voices | length }})</label>
+          <label for="cv-voices" class="cv-tab-label cv-tab-label-voices">Voices ({{ (ch.voices | length) + (ch.spotVoices | length) }})</label>
           <label for="cv-story" class="cv-tab-label cv-tab-label-story">Story ({{ ch.stories | length }})</label>
         </div>
 
         <div class="cv-panel cv-panel-voices">
-          {%- if ch.voices | length %}
           {%- set playableVoices = ch.voices | selectattr("audio") | list %}
+          {%- set playableSpot = ch.spotVoices | selectattr("audio") | list %}
+          {%- if (ch.voices | length) or (ch.spotVoices | length) %}
           <div class="cv-voices" data-voice-island>
-            {%- if playableVoices | length %}
+            {%- if (playableVoices | length) or (playableSpot | length) %}
             <div class="cv-volume">
               <label class="cv-volume-label" for="cv-volume-{{ ch.id }}">Volume</label>
               <input type="range" class="cv-volume-slider" id="cv-volume-{{ ch.id }}" min="0" max="1" step="0.01" value="0.7" />
             </div>
             {%- endif %}
+            {%- if ch.voices | length %}
             <ul class="cv-voice-list list-unstyled">
               {%- for voice in ch.voices %}
               {%- set voiceName = (voice.text.name | localize(code)) or ("Voice " ~ voice.type) %}
@@ -206,6 +208,26 @@ eleventyComputed:
               </li>
               {%- endfor %}
             </ul>
+            {%- endif %}
+            {%- if ch.spotVoices | length %}
+            <h2 class="cv-subtitle">Spot Voices</h2>
+            <ul class="cv-voice-list list-unstyled">
+              {%- for voice in ch.spotVoices %}
+              {%- set spotName = "Spot Voice " ~ voice.type %}
+              <li class="cv-voice">
+                <div class="cv-voice-header">
+                  <div class="cv-voice-text">
+                    <p class="cv-voice-name mb-0">{{ spotName }}</p>
+                  </div>
+                  {%- if voice.audio %}
+                  <button type="button" class="btn btn-sm btn-outline-secondary cv-voice-play" data-audio="{{ voice.audio }}" data-label="{{ spotName }}" aria-label="Play {{ spotName }}">Play</button>
+                  {%- endif %}
+                </div>
+                {%- if voice.typeDescription %}<p class="cv-voice-words detail-preline mb-0">{{ voice.typeDescription }}</p>{%- endif %}
+              </li>
+              {%- endfor %}
+            </ul>
+            {%- endif %}
           </div>
           {%- else %}
           <p class="cv-empty text-secondary small mb-0">No voices.</p>

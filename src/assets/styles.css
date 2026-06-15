@@ -3092,6 +3092,13 @@ body {
   display: block;
 }
 
+.cv-subtitle {
+  margin: 1.1rem 0 0.6rem;
+  font-size: 0.92rem;
+  font-weight: 600;
+  color: var(--text-primary);
+}
+
 .cv-voice-list {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(20rem, 1fr));
