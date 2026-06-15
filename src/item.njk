@@ -1,0 +1,119 @@
+---
+pagination:
+  data: itemDetailPages
+  size: 1
+  alias: locale
+permalink: "/{{ locale.code }}/items/{{ locale.item.id }}/"
+layout: base.njk
+activeSection: items
+eleventyComputed:
+  title: "{{ (locale.item.text.name | localize(locale.code)) or ('#' ~ locale.item.id) }} · Items · {{ site.title }}"
+---
+{%- set item = locale.item %}
+{%- set code = locale.code %}
+{%- set name = (item.text.name | localize(code)) or ("#" ~ item.id) %}
+{%- set exactDescription = item.text.description[code] %}
+{%- set exactFuncDescription = item.text.funcDescription[code] %}
+{%- set description = exactDescription or exactFuncDescription or (item.text.description | localize(code)) or (item.text.funcDescription | localize(code)) %}
+{%- set icon = item.assets.icon | asset(code) %}
+{%- if not icon %}{% set icon = item.assets.loadingImage | asset(code) %}{% endif %}
+<article class="item-detail-page">
+  <p class="mb-2"><a class="btn btn-sm btn-outline-secondary" href="{{ ('/' + code + '/items/') | url }}">&larr; Back to items</a></p>
+
+  <section class="item-detail-top-layout">
+    <div class="item-detail-illustration-column">
+      <div class="item-detail-image-wrap">
+        {%- if icon %}
+        <img class="item-detail-icon" src="{{ icon }}" alt="{{ name }} icon" loading="lazy" decoding="async" />
+        {%- else %}
+        <div class="item-detail-icon placeholder">{{ name }}</div>
+        {%- endif %}
+      </div>
+    </div>
+    <section class="card border-0 shadow-sm detail-section item-detail-info-column">
+      <div class="card-body">
+        <h1 class="item-detail-name">{{ name }}</h1>
+        <p class="detail-character-category text-secondary small mb-2">{{ item.categoryLabel }}</p>
+        <p class="item-detail-description detail-preline">{{ description or "-" }}</p>
+        <div class="item-detail-grid mt-3">
+          <div class="item-detail-field"><div class="item-detail-label">ID</div><div class="item-detail-value">{{ item.id }}</div></div>
+          <div class="item-detail-field"><div class="item-detail-label">Kind</div><div class="item-detail-value">{{ item.kind }}</div></div>
+          <div class="item-detail-field"><div class="item-detail-label">Category</div><div class="item-detail-value">{{ item.categoryLabel }}</div></div>
+          <div class="item-detail-field"><div class="item-detail-label">Max Stack</div><div class="item-detail-value">{{ item.maxStack }}</div></div>
+          <div class="item-detail-field"><div class="item-detail-label">Sellable</div><div class="item-detail-value">{{ "Yes" if item.canSell > 0 else "No" }}</div></div>
+          <div class="item-detail-field"><div class="item-detail-label">Unique</div><div class="item-detail-value">{{ "Yes" if item.isUnique > 0 else "No" }}</div></div>
+        </div>
+      </div>
+    </section>
+  </section>
+
+  {%- set original = item.assets.loadingImage | asset(code) %}
+  {%- if not original %}{% set original = item.assets.tablecloth | asset(code) %}{% endif %}
+  {%- if not original %}{% set original = item.assets.tile | asset(code) %}{% endif %}
+  {%- if not original %}{% set original = item.assets.portraitFrame | asset(code) %}{% endif %}
+  {%- if not original %}{% set original = item.assets.background | asset(code) %}{% endif %}
+  {%- if not original %}{% set original = item.assets.titleArt | asset(code) %}{% endif %}
+  {%- if original and original != icon %}
+  <section class="card border-0 shadow-sm item-detail-original-section{% if item.kind == 'loading_sprite' %} loading-sprite-original-section{% endif %}">
+    <div class="card-body item-detail-original-body">
+      <img class="item-detail-original-image" src="{{ original }}" alt="{{ name }} media" loading="lazy" decoding="async" />
+    </div>
+  </section>
+  {%- endif %}
+
+  {%- if item.audio and item.audio.url %}
+  <section class="item-detail-audio-section">
+    <audio class="item-detail-audio-player" controls preload="none" src="{{ item.audio.url }}"></audio>
+  </section>
+  {%- endif %}
+
+  {%- set hasContents = (item.packageContents | length) or (item.packageContainers | length) or (item.sourceLimits | length) %}
+  {%- if hasContents %}
+  <section class="card border-0 shadow-sm detail-section">
+    <div class="card-body">
+      <h2 class="detail-section-title">Contents and containers</h2>
+      <div class="item-detail-grid">
+        <div class="item-detail-field"><div class="item-detail-label">Package contents</div><div class="item-detail-value">{{ item.packageContents | length }}</div></div>
+        <div class="item-detail-field"><div class="item-detail-label">Contained in packages</div><div class="item-detail-value">{{ item.packageContainers | length }}</div></div>
+        <div class="item-detail-field"><div class="item-detail-label">Source limits</div><div class="item-detail-value">{{ item.sourceLimits | length }}</div></div>
+      </div>
+      {%- if item.packageContents | length %}
+      <ul class="mt-3 mb-0">
+        {%- for row in item.packageContents %}<li>{{ row.itemName | localize(code) }} ×{{ row.count }}</li>{%- endfor %}
+      </ul>
+      {%- endif %}
+      {%- if item.packageContainers | length %}
+      <ul class="mt-3 mb-0">
+        {%- for row in item.packageContainers %}<li>{{ row.packageName | localize(code) }} contains ×{{ row.count }}</li>{%- endfor %}
+      </ul>
+      {%- endif %}
+    </div>
+  </section>
+  {%- endif %}
+
+  {%- set hasPricing = (item.exchangeSpend | length) or (item.exchangeReceive | length) or (item.shopListings | length) or (item.shopPricing | length) or (item.mallListings | length) %}
+  {%- if hasPricing %}
+  <section class="card border-0 shadow-sm detail-section">
+    <div class="card-body">
+      <h2 class="detail-section-title">Pricing and exchange</h2>
+      <div class="item-detail-grid">
+        <div class="item-detail-field"><div class="item-detail-label">Exchange spend</div><div class="item-detail-value">{{ item.exchangeSpend | length }}</div></div>
+        <div class="item-detail-field"><div class="item-detail-label">Exchange receive</div><div class="item-detail-value">{{ item.exchangeReceive | length }}</div></div>
+        <div class="item-detail-field"><div class="item-detail-label">Shop listings</div><div class="item-detail-value">{{ item.shopListings | length }}</div></div>
+        <div class="item-detail-field"><div class="item-detail-label">Shop pricing</div><div class="item-detail-value">{{ item.shopPricing | length }}</div></div>
+        <div class="item-detail-field"><div class="item-detail-label">Mall listings</div><div class="item-detail-value">{{ item.mallListings | length }}</div></div>
+      </div>
+      {%- if item.shopListings | length %}
+      <ul class="mt-3 mb-0">
+        {%- for row in item.shopListings %}<li>{{ row.text.name | localize(code) }}{% if row.priceRaw %}: {{ row.priceRaw }}{% endif %}</li>{%- endfor %}
+      </ul>
+      {%- endif %}
+      {%- if item.mallListings | length %}
+      <ul class="mt-3 mb-0">
+        {%- for row in item.mallListings %}<li>{{ row.text.name | localize(code) | readable_item_label }}: {{ row.priceLabel }}</li>{%- endfor %}
+      </ul>
+      {%- endif %}
+    </div>
+  </section>
+  {%- endif %}
+</article>

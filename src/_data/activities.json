@@ -1,0 +1,1142 @@
+[
+  {
+    "fallbackName": "26qingyun 0",
+    "id": 260511,
+    "image": {
+      "chs": "https://files.riichi.moe/mjg/game%20resources%20and%20tools/Mahjong%20Soul/unity_raw/extracted/MyAssets/ui/activity/lobby/banner_tab/pic/chs/26qingyun_b.png",
+      "cn": "https://files.riichi.moe/mjg/game%20resources%20and%20tools/Mahjong%20Soul/unity_raw/extracted/MyAssets/ui/activity/lobby/banner_tab/pic/chs_t/26qingyun_b.png",
+      "en": "https://files.riichi.moe/mjg/game%20resources%20and%20tools/Mahjong%20Soul/unity_raw/extracted/MyAssets/ui/activity/lobby/banner_tab/pic/en_en/26qingyun_b.png",
+      "jp": "https://files.riichi.moe/mjg/game%20resources%20and%20tools/Mahjong%20Soul/unity_raw/extracted/MyAssets/ui/activity/lobby/banner_tab/pic/jp/26qingyun_b.png",
+      "kr": "https://files.riichi.moe/mjg/game%20resources%20and%20tools/Mahjong%20Soul/unity_raw/extracted/MyAssets/ui/activity/lobby/banner_tab/pic/kr/26qingyun_b.png"
+    },
+    "text": {
+      "name": {
+        "chs": "青云之志",
+        "chs_t": "青雲之志",
+        "en": "Sky-High Ambition: Finders Kitties",
+        "jp": "青雲の志：失われた聖餌",
+        "kr": "청운의 꿈: 냥냥 보물찾기"
+      }
+    },
+    "type": "amulet"
+  },
+  {
+    "fallbackName": "26dj 0",
+    "id": 260401,
+    "image": {
+      "chs": "https://files.riichi.moe/mjg/game%20resources%20and%20tools/Mahjong%20Soul/raw%20assets/v0.11.243.w/chs/myres2/activity_banner/26dj_b.jpg",
+      "cn": "https://files.riichi.moe/mjg/game%20resources%20and%20tools/Mahjong%20Soul/raw%20assets/v0.11.243.w/chs_t/myres2/activity_banner/26dj_b.jpg",
+      "en": "https://files.riichi.moe/mjg/game%20resources%20and%20tools/Mahjong%20Soul/raw%20assets/v0.11.243.w/en/myres2/activity_banner/26dj_b.jpg",
+      "jp": "https://files.riichi.moe/mjg/game%20resources%20and%20tools/Mahjong%20Soul/raw%20assets/v0.11.243.w/jp/myres2/activity_banner/26dj_b.jpg",
+      "kr": "https://files.riichi.moe/mjg/game%20resources%20and%20tools/Mahjong%20Soul/raw%20assets/v0.11.243.w/kr/myres2/activity_banner/26dj_b.jpg"
+    },
+    "text": {
+      "name": {
+        "chs": "剑域誓约",
+        "chs_t": "劍域誓約",
+        "en": "Oath of the Sword",
+        "jp": "剣域の誓約",
+        "kr": "검역의 서약"
+      }
+    },
+    "type": "mmo"
+  },
+  {
+    "fallbackName": "26dj signin 0",
+    "id": 260391,
+    "image": {
+      "chs": "https://files.riichi.moe/mjg/game%20resources%20and%20tools/Mahjong%20Soul/raw%20assets/v0.11.241.w/chs/myres2/activity_banner/26dj_signin_0.png",
+      "cn": "https://files.riichi.moe/mjg/game%20resources%20and%20tools/Mahjong%20Soul/raw%20assets/v0.11.241.w/chs_t/myres2/activity_banner/26dj_signin_0.png",
+      "en": "https://files.riichi.moe/mjg/game%20resources%20and%20tools/Mahjong%20Soul/raw%20assets/v0.11.241.w/en/myres2/activity_banner/26dj_signin_0.png",
+      "jp": "https://files.riichi.moe/mjg/game%20resources%20and%20tools/Mahjong%20Soul/raw%20assets/v0.11.241.w/jp/myres2/activity_banner/26dj_signin_0.png",
+      "kr": "https://files.riichi.moe/mjg/game%20resources%20and%20tools/Mahjong%20Soul/raw%20assets/v0.11.241.w/kr/myres2/activity_banner/26dj_signin_0.png"
+    },
+    "text": {
+      "name": {
+        "chs": "",
+        "chs_t": "",
+        "en": "",
+        "jp": "",
+        "kr": ""
+      }
+    },
+    "type": "daily_sign"
+  },
+  {
+    "fallbackName": "26wenquan2 b",
+    "id": 260302,
+    "image": {
+      "chs": "https://files.riichi.moe/mjg/game%20resources%20and%20tools/Mahjong%20Soul/unity_raw/extracted/MyAssets/ui/activity/lobby/banner_tab/pic/chs/26wenquan2_b.png",
+      "cn": "https://files.riichi.moe/mjg/game%20resources%20and%20tools/Mahjong%20Soul/unity_raw/extracted/MyAssets/ui/activity/lobby/banner_tab/pic/chs_t/26wenquan2_b.png",
+      "en": "https://files.riichi.moe/mjg/game%20resources%20and%20tools/Mahjong%20Soul/unity_raw/extracted/MyAssets/ui/activity/lobby/banner_tab/pic/en_en/26wenquan2_b.png",
+      "jp": "https://files.riichi.moe/mjg/game%20resources%20and%20tools/Mahjong%20Soul/unity_raw/extracted/MyAssets/ui/activity/lobby/banner_tab/pic/jp/26wenquan2_b.png",
+      "kr": "https://files.riichi.moe/mjg/game%20resources%20and%20tools/Mahjong%20Soul/unity_raw/extracted/MyAssets/ui/activity/lobby/banner_tab/pic/kr/26wenquan2_b.png"
+    },
+    "text": {
+      "name": {
+        "chs": "独家报道时间",
+        "chs_t": "獨家報導時間",
+        "en": "Off-the-Record Exclusive",
+        "jp": "独占インタビュー",
+        "kr": "단독취재타임"
+      }
+    },
+    "type": "period_task"
+  },
+  {
+    "fallbackName": "26wenquan b",
+    "id": 260301,
+    "image": {
+      "chs": "https://files.riichi.moe/mjg/game%20resources%20and%20tools/Mahjong%20Soul/raw%20assets/v0.11.235.w/chs/myres2/activity_banner/26wenquan_b.jpg",
+      "cn": "https://files.riichi.moe/mjg/game%20resources%20and%20tools/Mahjong%20Soul/raw%20assets/v0.11.235.w/chs_t/myres2/activity_banner/26wenquan_b.jpg",
+      "en": "https://files.riichi.moe/mjg/game%20resources%20and%20tools/Mahjong%20Soul/raw%20assets/v0.11.235.w/en/myres2/activity_banner/26wenquan_b.jpg",
+      "jp": "https://files.riichi.moe/mjg/game%20resources%20and%20tools/Mahjong%20Soul/raw%20assets/v0.11.235.w/jp/myres2/activity_banner/26wenquan_b.jpg",
+      "kr": "https://files.riichi.moe/mjg/game%20resources%20and%20tools/Mahjong%20Soul/raw%20assets/v0.11.235.w/kr/myres2/activity_banner/26wenquan_b.jpg"
+    },
+    "text": {
+      "name": {
+        "chs": "花与暖夜",
+        "chs_t": "花與暖夜",
+        "en": "Soft Night, Sweet Petals",
+        "jp": "花の暖夜",
+        "kr": "꽃과 포근한 밤"
+      }
+    },
+    "type": "task"
+  },
+  {
+    "fallbackName": "26chunjie 0",
+    "id": 260201,
+    "image": {
+      "chs": "https://files.riichi.moe/mjg/game%20resources%20and%20tools/Mahjong%20Soul/raw%20assets/v0.11.217.w/chs/myres2/activity_banner/26chunjie_b.jpg",
+      "cn": "https://files.riichi.moe/mjg/game%20resources%20and%20tools/Mahjong%20Soul/raw%20assets/v0.11.217.w/chs_t/myres2/activity_banner/26chunjie_b.jpg",
+      "en": "https://files.riichi.moe/mjg/game%20resources%20and%20tools/Mahjong%20Soul/raw%20assets/v0.11.217.w/en/myres2/activity_banner/26chunjie_b.jpg",
+      "jp": "https://files.riichi.moe/mjg/game%20resources%20and%20tools/Mahjong%20Soul/raw%20assets/v0.11.217.w/jp/myres2/activity_banner/26chunjie_b.jpg",
+      "kr": "https://files.riichi.moe/mjg/game%20resources%20and%20tools/Mahjong%20Soul/raw%20assets/v0.11.217.w/kr/myres2/activity_banner/26chunjie_b.jpg"
+    },
+    "text": {
+      "name": {
+        "chs": "神驰集愿",
+        "chs_t": "神馳集願",
+        "en": "Wishes Unbridled",
+        "jp": "午神の願い事集め",
+        "kr": "소원이 닿는 곳"
+      }
+    },
+    "type": "marathon"
+  },
+  {
+    "fallbackName": "26fanpai b",
+    "id": 260190,
+    "image": {
+      "chs": "https://files.riichi.moe/mjg/game%20resources%20and%20tools/Mahjong%20Soul/raw%20assets/v0.11.216.w/chs/myres2/activity_banner/26fanpai_b.jpg",
+      "cn": "https://files.riichi.moe/mjg/game%20resources%20and%20tools/Mahjong%20Soul/raw%20assets/v0.11.216.w/chs_t/myres2/activity_banner/26fanpai_b.jpg",
+      "en": "https://files.riichi.moe/mjg/game%20resources%20and%20tools/Mahjong%20Soul/raw%20assets/v0.11.216.w/en/myres2/activity_banner/26fanpai_b.jpg",
+      "jp": "https://files.riichi.moe/mjg/game%20resources%20and%20tools/Mahjong%20Soul/raw%20assets/v0.11.216.w/jp/myres2/activity_banner/26fanpai_b.jpg",
+      "kr": "https://files.riichi.moe/mjg/game%20resources%20and%20tools/Mahjong%20Soul/raw%20assets/v0.11.216.w/kr/myres2/activity_banner/26fanpai_b.jpg"
+    },
+    "text": {
+      "name": {
+        "chs": "灵乌衔光",
+        "chs_t": "靈烏銜光",
+        "en": "Wings of the Sun",
+        "jp": "霊鳥の光",
+        "kr": "빛을 물고 온 새"
+      }
+    },
+    "type": "flip_task"
+  },
+  {
+    "fallbackName": "26lifu 0",
+    "id": 260101,
+    "image": {
+      "chs": "https://files.riichi.moe/mjg/game%20resources%20and%20tools/Mahjong%20Soul/raw%20assets/v0.11.212.w/chs/myres2/activity_banner/26lifu_b.jpg",
+      "cn": "https://files.riichi.moe/mjg/game%20resources%20and%20tools/Mahjong%20Soul/raw%20assets/v0.11.212.w/chs_t/myres2/activity_banner/26lifu_b.jpg",
+      "en": "https://files.riichi.moe/mjg/game%20resources%20and%20tools/Mahjong%20Soul/raw%20assets/v0.11.212.w/en/myres2/activity_banner/26lifu_b.jpg",
+      "jp": "https://files.riichi.moe/mjg/game%20resources%20and%20tools/Mahjong%20Soul/raw%20assets/v0.11.212.w/jp/myres2/activity_banner/26lifu_b.jpg",
+      "kr": "https://files.riichi.moe/mjg/game%20resources%20and%20tools/Mahjong%20Soul/raw%20assets/v0.11.212.w/kr/myres2/activity_banner/26lifu_b.jpg"
+    },
+    "text": {
+      "name": {
+        "chs": "米亚的直播间",
+        "chs_t": "米亞的直播間",
+        "en": "Mia's Channel",
+        "jp": "ミアの配信にようこそ",
+        "kr": "미야 채널"
+      }
+    },
+    "type": "period_task"
+  },
+  {
+    "fallbackName": "25dongri 0",
+    "id": 251201,
+    "image": {
+      "chs": "https://files.riichi.moe/mjg/game%20resources%20and%20tools/Mahjong%20Soul/raw%20assets/v0.11.205.w/chs/myres2/activity_banner/25dongri_b.jpg",
+      "cn": "https://files.riichi.moe/mjg/game%20resources%20and%20tools/Mahjong%20Soul/raw%20assets/v0.11.205.w/chs_t/myres2/activity_banner/25dongri_b.jpg",
+      "en": "https://files.riichi.moe/mjg/game%20resources%20and%20tools/Mahjong%20Soul/raw%20assets/v0.11.205.w/en/myres2/activity_banner/25dongri_b.jpg",
+      "jp": "https://files.riichi.moe/mjg/game%20resources%20and%20tools/Mahjong%20Soul/raw%20assets/v0.11.205.w/jp/myres2/activity_banner/25dongri_b.jpg",
+      "kr": "https://files.riichi.moe/mjg/game%20resources%20and%20tools/Mahjong%20Soul/raw%20assets/v0.11.205.w/kr/myres2/activity_banner/25dongri_b.jpg"
+    },
+    "text": {
+      "name": {
+        "chs": "雪球大作战",
+        "chs_t": "雪球大作戰",
+        "en": "Snowball Brawl",
+        "jp": "雪玉ファイター！",
+        "kr": "눈덩이 대난투"
+      }
+    },
+    "type": "snowball"
+  },
+  {
+    "fallbackName": "25bingo",
+    "id": 251190,
+    "image": {
+      "chs": "https://files.riichi.moe/mjg/game%20resources%20and%20tools/Mahjong%20Soul/raw%20assets/v0.11.201.w/chs/myres2/activity_banner/25bingo.png",
+      "cn": "https://files.riichi.moe/mjg/game%20resources%20and%20tools/Mahjong%20Soul/raw%20assets/v0.11.201.w/chs_t/myres2/activity_banner/25bingo.png",
+      "en": "https://files.riichi.moe/mjg/game%20resources%20and%20tools/Mahjong%20Soul/raw%20assets/v0.11.201.w/en/myres2/activity_banner/25bingo.png",
+      "jp": "https://files.riichi.moe/mjg/game%20resources%20and%20tools/Mahjong%20Soul/raw%20assets/v0.11.201.w/jp/myres2/activity_banner/25bingo.png",
+      "kr": "https://files.riichi.moe/mjg/game%20resources%20and%20tools/Mahjong%20Soul/raw%20assets/v0.11.201.w/kr/myres2/activity_banner/25bingo.png"
+    },
+    "text": {
+      "name": {
+        "chs": "超级麻将牌宾果",
+        "chs_t": "超級麻將牌賓果",
+        "en": "Super Mahjong Bingo",
+        "jp": "スーパーマージャンビンゴ",
+        "kr": "슈퍼 마작패 빙고"
+      }
+    },
+    "type": "bingo"
+  },
+  {
+    "fallbackName": "25yuehui 0",
+    "id": 251101,
+    "image": {
+      "chs": "https://files.riichi.moe/mjg/game%20resources%20and%20tools/Mahjong%20Soul/raw%20assets/v0.11.194.w/chs/myres2/activity_banner/25yuehui_b.jpg",
+      "cn": "https://files.riichi.moe/mjg/game%20resources%20and%20tools/Mahjong%20Soul/raw%20assets/v0.11.194.w/chs_t/myres2/activity_banner/25yuehui_b.jpg",
+      "en": "https://files.riichi.moe/mjg/game%20resources%20and%20tools/Mahjong%20Soul/raw%20assets/v0.11.194.w/en/myres2/activity_banner/25yuehui_b.jpg",
+      "jp": "https://files.riichi.moe/mjg/game%20resources%20and%20tools/Mahjong%20Soul/raw%20assets/v0.11.194.w/jp/myres2/activity_banner/25yuehui_b.jpg",
+      "kr": "https://files.riichi.moe/mjg/game%20resources%20and%20tools/Mahjong%20Soul/raw%20assets/v0.11.194.w/kr/myres2/activity_banner/25yuehui_b.jpg"
+    },
+    "text": {
+      "name": {
+        "chs": "姬川响的游戏机",
+        "chs_t": "姬川響的遊戲機",
+        "en": "Hibiki's Console",
+        "jp": "姫川's インベーダー",
+        "kr": "히메카와 히비키의 게임기"
+      }
+    },
+    "type": "shoot"
+  },
+  {
+    "fallbackName": "25yh 0",
+    "id": 251001,
+    "image": {
+      "chs": "https://files.riichi.moe/mjg/game%20resources%20and%20tools/Mahjong%20Soul/raw%20assets/v0.11.188.w/chs/myres2/activity_banner/25yh_b.jpg",
+      "cn": "https://files.riichi.moe/mjg/game%20resources%20and%20tools/Mahjong%20Soul/raw%20assets/v0.11.188.w/chs_t/myres2/activity_banner/25yh_b.jpg",
+      "en": "https://files.riichi.moe/mjg/game%20resources%20and%20tools/Mahjong%20Soul/raw%20assets/v0.11.188.w/en/myres2/activity_banner/25yh_b.jpg",
+      "jp": "https://files.riichi.moe/mjg/game%20resources%20and%20tools/Mahjong%20Soul/raw%20assets/v0.11.188.w/jp/myres2/activity_banner/25yh_b.jpg",
+      "kr": "https://files.riichi.moe/mjg/game%20resources%20and%20tools/Mahjong%20Soul/raw%20assets/v0.11.188.w/kr/myres2/activity_banner/25yh_b.jpg"
+    },
+    "text": {
+      "name": {
+        "chs": "万事屋一姬",
+        "chs_t": "萬事屋一姬",
+        "en": "Ichihime's Odd Jobs",
+        "jp": "よろず屋 一姫",
+        "kr": "해결사 이치히메"
+      }
+    },
+    "type": "quest_crew"
+  },
+  {
+    "fallbackName": "25yh signin 0",
+    "id": 250991,
+    "image": {
+      "chs": "https://files.riichi.moe/mjg/game%20resources%20and%20tools/Mahjong%20Soul/raw%20assets/v0.11.186.w/chs/myres2/activity_banner/25yh_signin_0.png",
+      "cn": "https://files.riichi.moe/mjg/game%20resources%20and%20tools/Mahjong%20Soul/raw%20assets/v0.11.186.w/chs_t/myres2/activity_banner/25yh_signin_0.png",
+      "en": "https://files.riichi.moe/mjg/game%20resources%20and%20tools/Mahjong%20Soul/raw%20assets/v0.11.186.w/en/myres2/activity_banner/25yh_signin_0.png",
+      "jp": "https://files.riichi.moe/mjg/game%20resources%20and%20tools/Mahjong%20Soul/raw%20assets/v0.11.186.w/jp/myres2/activity_banner/25yh_signin_0.png",
+      "kr": "https://files.riichi.moe/mjg/game%20resources%20and%20tools/Mahjong%20Soul/raw%20assets/v0.11.186.w/kr/myres2/activity_banner/25yh_signin_0.png"
+    },
+    "text": {
+      "name": {
+        "chs": "",
+        "chs_t": "",
+        "en": "",
+        "jp": "",
+        "kr": ""
+      }
+    },
+    "type": "daily_sign"
+  },
+  {
+    "fallbackName": "25wuxia2 b",
+    "id": 250902,
+    "image": {
+      "chs": "https://files.riichi.moe/mjg/game%20resources%20and%20tools/Mahjong%20Soul/raw%20assets/v0.11.184.w/chs/myres2/activity_banner/25wuxia2_b.jpg",
+      "cn": "https://files.riichi.moe/mjg/game%20resources%20and%20tools/Mahjong%20Soul/raw%20assets/v0.11.184.w/chs_t/myres2/activity_banner/25wuxia2_b.jpg",
+      "en": "https://files.riichi.moe/mjg/game%20resources%20and%20tools/Mahjong%20Soul/raw%20assets/v0.11.184.w/en/myres2/activity_banner/25wuxia2_b.jpg",
+      "jp": "https://files.riichi.moe/mjg/game%20resources%20and%20tools/Mahjong%20Soul/raw%20assets/v0.11.184.w/jp/myres2/activity_banner/25wuxia2_b.jpg",
+      "kr": "https://files.riichi.moe/mjg/game%20resources%20and%20tools/Mahjong%20Soul/raw%20assets/v0.11.184.w/kr/myres2/activity_banner/25wuxia2_b.jpg"
+    },
+    "text": {
+      "name": {
+        "chs": "千灯照夜",
+        "chs_t": "千燈照夜",
+        "en": "Lantern's Wish",
+        "jp": "千灯照夜",
+        "kr": "밤을 비추는 등불"
+      }
+    },
+    "type": "period_task"
+  },
+  {
+    "fallbackName": "25wuxia1 b",
+    "id": 250901,
+    "image": {
+      "chs": "https://files.riichi.moe/mjg/game%20resources%20and%20tools/Mahjong%20Soul/raw%20assets/v0.11.184.w/chs/myres2/activity_banner/25wuxia1_b.jpg",
+      "cn": "https://files.riichi.moe/mjg/game%20resources%20and%20tools/Mahjong%20Soul/raw%20assets/v0.11.184.w/chs_t/myres2/activity_banner/25wuxia1_b.jpg",
+      "en": "https://files.riichi.moe/mjg/game%20resources%20and%20tools/Mahjong%20Soul/raw%20assets/v0.11.184.w/en/myres2/activity_banner/25wuxia1_b.jpg",
+      "jp": "https://files.riichi.moe/mjg/game%20resources%20and%20tools/Mahjong%20Soul/raw%20assets/v0.11.184.w/jp/myres2/activity_banner/25wuxia1_b.jpg",
+      "kr": "https://files.riichi.moe/mjg/game%20resources%20and%20tools/Mahjong%20Soul/raw%20assets/v0.11.184.w/kr/myres2/activity_banner/25wuxia1_b.jpg"
+    },
+    "text": {
+      "name": {
+        "chs": "惊风破竹",
+        "chs_t": "驚風破竹",
+        "en": "When the Wind Gusts",
+        "jp": "驚風破竹",
+        "kr": "대나무를 가른 바람"
+      }
+    },
+    "type": "task"
+  },
+  {
+    "fallbackName": "",
+    "id": 250892,
+    "image": "",
+    "text": {
+      "name": {
+        "chs": "投票券活动任务",
+        "chs_t": "投票券活動任務",
+        "en": "Voting Ticket Missions",
+        "jp": "投票券クエスト",
+        "kr": "투표권 이벤트 임무"
+      }
+    },
+    "type": "period_task"
+  },
+  {
+    "fallbackName": "25toupiao 0",
+    "id": 250890,
+    "image": {
+      "chs": "https://files.riichi.moe/mjg/game%20resources%20and%20tools/Mahjong%20Soul/raw%20assets/v0.11.182.w/chs/myres2/activity_banner/25toupiao_b.jpg",
+      "cn": "https://files.riichi.moe/mjg/game%20resources%20and%20tools/Mahjong%20Soul/raw%20assets/v0.11.182.w/chs_t/myres2/activity_banner/25toupiao_b.jpg",
+      "en": "https://files.riichi.moe/mjg/game%20resources%20and%20tools/Mahjong%20Soul/raw%20assets/v0.11.182.w/en/myres2/activity_banner/25toupiao_b.jpg",
+      "jp": "https://files.riichi.moe/mjg/game%20resources%20and%20tools/Mahjong%20Soul/raw%20assets/v0.11.182.w/jp/myres2/activity_banner/25toupiao_b.jpg",
+      "kr": "https://files.riichi.moe/mjg/game%20resources%20and%20tools/Mahjong%20Soul/raw%20assets/v0.11.182.w/kr/myres2/activity_banner/25toupiao_b.jpg"
+    },
+    "text": {
+      "name": {
+        "chs": "服饰返场投票",
+        "chs_t": "服飾返場投票",
+        "en": "Outfit Return Vote",
+        "jp": "着せ替え復刻投票",
+        "kr": "스킨 앙코르 투표"
+      }
+    },
+    "type": "vote"
+  },
+  {
+    "fallbackName": "25summer1 0",
+    "id": 250820,
+    "image": {
+      "chs": "https://files.riichi.moe/mjg/game%20resources%20and%20tools/Mahjong%20Soul/raw%20assets/v0.11.172.w/chs/myres2/activity_banner/25summer1_b.jpg",
+      "cn": "https://files.riichi.moe/mjg/game%20resources%20and%20tools/Mahjong%20Soul/raw%20assets/v0.11.172.w/chs_t/myres2/activity_banner/25summer1_b.jpg",
+      "en": "https://files.riichi.moe/mjg/game%20resources%20and%20tools/Mahjong%20Soul/raw%20assets/v0.11.172.w/en/myres2/activity_banner/25summer1_b.jpg",
+      "jp": "https://files.riichi.moe/mjg/game%20resources%20and%20tools/Mahjong%20Soul/raw%20assets/v0.11.172.w/jp/myres2/activity_banner/25summer1_b.jpg",
+      "kr": "https://files.riichi.moe/mjg/game%20resources%20and%20tools/Mahjong%20Soul/raw%20assets/v0.11.172.w/kr/myres2/activity_banner/25summer1_b.jpg"
+    },
+    "text": {
+      "name": {
+        "chs": "航海寻宝",
+        "chs_t": "航海尋寶",
+        "en": "High Seas Hunt",
+        "jp": "海の秘宝を求めて",
+        "kr": "보물찾기 항해"
+      }
+    },
+    "type": "period_task"
+  },
+  {
+    "fallbackName": "25summer2 0",
+    "id": 250811,
+    "image": {
+      "chs": "https://files.riichi.moe/mjg/game%20resources%20and%20tools/Mahjong%20Soul/raw%20assets/v0.11.172.w/chs/myres2/activity_banner/25summer2_b.jpg",
+      "cn": "https://files.riichi.moe/mjg/game%20resources%20and%20tools/Mahjong%20Soul/raw%20assets/v0.11.172.w/chs_t/myres2/activity_banner/25summer2_b.jpg",
+      "en": "https://files.riichi.moe/mjg/game%20resources%20and%20tools/Mahjong%20Soul/raw%20assets/v0.11.172.w/en/myres2/activity_banner/25summer2_b.jpg",
+      "jp": "https://files.riichi.moe/mjg/game%20resources%20and%20tools/Mahjong%20Soul/raw%20assets/v0.11.172.w/jp/myres2/activity_banner/25summer2_b.jpg",
+      "kr": "https://files.riichi.moe/mjg/game%20resources%20and%20tools/Mahjong%20Soul/raw%20assets/v0.11.172.w/kr/myres2/activity_banner/25summer2_b.jpg"
+    },
+    "text": {
+      "name": {
+        "chs": "青云之志",
+        "chs_t": "青雲之志",
+        "en": "Sky-High Ambition: The Nyavengers",
+        "jp": "青雲の志：勇にゃん伝説",
+        "kr": "청운의 꿈: 용사냥냥 파티"
+      }
+    },
+    "type": "amulet"
+  },
+  {
+    "fallbackName": "25fanpai b",
+    "id": 250790,
+    "image": {
+      "chs": "https://files.riichi.moe/mjg/game%20resources%20and%20tools/Mahjong%20Soul/raw%20assets/v0.11.167.w/chs/myres2/activity_banner/25fanpai_b.jpg",
+      "cn": "https://files.riichi.moe/mjg/game%20resources%20and%20tools/Mahjong%20Soul/raw%20assets/v0.11.167.w/chs_t/myres2/activity_banner/25fanpai_b.jpg",
+      "en": "https://files.riichi.moe/mjg/game%20resources%20and%20tools/Mahjong%20Soul/raw%20assets/v0.11.167.w/en/myres2/activity_banner/25fanpai_b.jpg",
+      "jp": "https://files.riichi.moe/mjg/game%20resources%20and%20tools/Mahjong%20Soul/raw%20assets/v0.11.167.w/jp/myres2/activity_banner/25fanpai_b.jpg",
+      "kr": "https://files.riichi.moe/mjg/game%20resources%20and%20tools/Mahjong%20Soul/raw%20assets/v0.11.167.w/kr/myres2/activity_banner/25fanpai_b.jpg"
+    },
+    "text": {
+      "name": {
+        "chs": "巳宫觐礼",
+        "chs_t": "巳宮覲禮",
+        "en": "Moonlit Greeting",
+        "jp": "巳宮参拝",
+        "kr": "뱀신님 알현"
+      }
+    },
+    "type": "flip_task"
+  },
+  {
+    "fallbackName": "25jk2 b",
+    "id": 250702,
+    "image": {
+      "chs": "https://files.riichi.moe/mjg/game%20resources%20and%20tools/Mahjong%20Soul/raw%20assets/v0.11.165.w/chs/myres2/activity_banner/25jk2_b.jpg",
+      "cn": "https://files.riichi.moe/mjg/game%20resources%20and%20tools/Mahjong%20Soul/raw%20assets/v0.11.165.w/chs_t/myres2/activity_banner/25jk2_b.jpg",
+      "en": "https://files.riichi.moe/mjg/game%20resources%20and%20tools/Mahjong%20Soul/raw%20assets/v0.11.165.w/en/myres2/activity_banner/25jk2_b.jpg",
+      "jp": "https://files.riichi.moe/mjg/game%20resources%20and%20tools/Mahjong%20Soul/raw%20assets/v0.11.165.w/jp/myres2/activity_banner/25jk2_b.jpg",
+      "kr": "https://files.riichi.moe/mjg/game%20resources%20and%20tools/Mahjong%20Soul/raw%20assets/v0.11.165.w/kr/myres2/activity_banner/25jk2_b.jpg"
+    },
+    "text": {
+      "name": {
+        "chs": "购物车清空计划",
+        "chs_t": "購物車清空計劃",
+        "en": "Shopping Spree",
+        "jp": "一姫のお願い",
+        "kr": "장바구니 비우기 작전"
+      }
+    },
+    "type": "mine"
+  },
+  {
+    "fallbackName": "25jk1 b",
+    "id": 250701,
+    "image": {
+      "chs": "https://files.riichi.moe/mjg/game%20resources%20and%20tools/Mahjong%20Soul/raw%20assets/v0.11.165.w/chs/myres2/activity_banner/25jk1_b.jpg",
+      "cn": "https://files.riichi.moe/mjg/game%20resources%20and%20tools/Mahjong%20Soul/raw%20assets/v0.11.165.w/chs_t/myres2/activity_banner/25jk1_b.jpg",
+      "en": "https://files.riichi.moe/mjg/game%20resources%20and%20tools/Mahjong%20Soul/raw%20assets/v0.11.165.w/en/myres2/activity_banner/25jk1_b.jpg",
+      "jp": "https://files.riichi.moe/mjg/game%20resources%20and%20tools/Mahjong%20Soul/raw%20assets/v0.11.165.w/jp/myres2/activity_banner/25jk1_b.jpg",
+      "kr": "https://files.riichi.moe/mjg/game%20resources%20and%20tools/Mahjong%20Soul/raw%20assets/v0.11.165.w/kr/myres2/activity_banner/25jk1_b.jpg"
+    },
+    "text": {
+      "name": {
+        "chs": "课间密语",
+        "chs_t": "課間密語",
+        "en": "Between Bells",
+        "jp": "授業中のナイショ話",
+        "kr": "수업 중 속삭임"
+      }
+    },
+    "type": "random_task"
+  },
+  {
+    "fallbackName": "25xila 0",
+    "id": 250601,
+    "image": {
+      "chs": "https://files.riichi.moe/mjg/game%20resources%20and%20tools/Mahjong%20Soul/raw%20assets/v0.11.159.w/chs/myres2/activity_banner/25xila_b.jpg",
+      "cn": "https://files.riichi.moe/mjg/game%20resources%20and%20tools/Mahjong%20Soul/raw%20assets/v0.11.159.w/chs_t/myres2/activity_banner/25xila_b.jpg",
+      "en": "https://files.riichi.moe/mjg/game%20resources%20and%20tools/Mahjong%20Soul/raw%20assets/v0.11.159.w/en/myres2/activity_banner/25xila_b.jpg",
+      "jp": "https://files.riichi.moe/mjg/game%20resources%20and%20tools/Mahjong%20Soul/raw%20assets/v0.11.159.w/jp/myres2/activity_banner/25xila_b.jpg",
+      "kr": "https://files.riichi.moe/mjg/game%20resources%20and%20tools/Mahjong%20Soul/raw%20assets/v0.11.159.w/kr/myres2/activity_banner/25xila_b.jpg"
+    },
+    "text": {
+      "name": {
+        "chs": "海滨料理屋",
+        "chs_t": "海濱料理屋",
+        "en": "Seaside Cafe",
+        "jp": "海の家レッパンズ",
+        "kr": "해변 레스토랑"
+      }
+    },
+    "type": "combining"
+  },
+  {
+    "fallbackName": "25balei 0",
+    "id": 250501,
+    "image": {
+      "chs": "https://files.riichi.moe/mjg/game%20resources%20and%20tools/Mahjong%20Soul/raw%20assets/v0.11.155.w/chs/myres2/activity_banner/25balei_b.jpg",
+      "cn": "https://files.riichi.moe/mjg/game%20resources%20and%20tools/Mahjong%20Soul/raw%20assets/v0.11.155.w/chs_t/myres2/activity_banner/25balei_b.jpg",
+      "en": "https://files.riichi.moe/mjg/game%20resources%20and%20tools/Mahjong%20Soul/raw%20assets/v0.11.155.w/en/myres2/activity_banner/25balei_b.jpg",
+      "jp": "https://files.riichi.moe/mjg/game%20resources%20and%20tools/Mahjong%20Soul/raw%20assets/v0.11.159.w/jp/myres2/activity_banner/25balei_b.jpg",
+      "kr": "https://files.riichi.moe/mjg/game%20resources%20and%20tools/Mahjong%20Soul/raw%20assets/v0.11.159.w/kr/myres2/activity_banner/25balei_b.jpg"
+    },
+    "text": {
+      "name": {
+        "chs": "回旋舞步",
+        "chs_t": "迴旋舞步",
+        "en": "Poised Pirouette",
+        "jp": "アン・ドゥオール",
+        "kr": "우아한 피루엣"
+      }
+    },
+    "type": "gacha"
+  },
+  {
+    "fallbackName": "25hf 0",
+    "id": 250401,
+    "image": {
+      "chs": "https://files.riichi.moe/mjg/game%20resources%20and%20tools/Mahjong%20Soul/raw%20assets/v0.11.148.w/chs/myres2/activity_banner/25hf_b.jpg",
+      "cn": "https://files.riichi.moe/mjg/game%20resources%20and%20tools/Mahjong%20Soul/raw%20assets/v0.11.148.w/chs_t/myres2/activity_banner/25hf_b.jpg",
+      "en": "https://files.riichi.moe/mjg/game%20resources%20and%20tools/Mahjong%20Soul/raw%20assets/v0.11.148.w/en/myres2/activity_banner/25hf_b.jpg",
+      "jp": "https://files.riichi.moe/mjg/game%20resources%20and%20tools/Mahjong%20Soul/raw%20assets/v0.11.148.w/jp/myres2/activity_banner/25hf_b.jpg",
+      "kr": "https://files.riichi.moe/mjg/game%20resources%20and%20tools/Mahjong%20Soul/raw%20assets/v0.11.148.w/kr/myres2/activity_banner/25hf_b.jpg"
+    },
+    "text": {
+      "name": {
+        "chs": "雀斗大会",
+        "chs_t": "雀鬥大會",
+        "en": "Sparrow Cup",
+        "jp": "雀闘大会",
+        "kr": "작투 대회"
+      }
+    },
+    "type": "sim_v2"
+  },
+  {
+    "fallbackName": "25fate signin 0",
+    "id": 250391,
+    "image": {
+      "chs": "https://files.riichi.moe/mjg/game%20resources%20and%20tools/Mahjong%20Soul/raw%20assets/v0.11.146.w/chs/myres2/activity_banner/25fate_signin_0.png",
+      "cn": "https://files.riichi.moe/mjg/game%20resources%20and%20tools/Mahjong%20Soul/raw%20assets/v0.11.146.w/chs_t/myres2/activity_banner/25fate_signin_0.png",
+      "en": "https://files.riichi.moe/mjg/game%20resources%20and%20tools/Mahjong%20Soul/raw%20assets/v0.11.146.w/en/myres2/activity_banner/25fate_signin_0.png",
+      "jp": "https://files.riichi.moe/mjg/game%20resources%20and%20tools/Mahjong%20Soul/raw%20assets/v0.11.146.w/jp/myres2/activity_banner/25fate_signin_0.png",
+      "kr": "https://files.riichi.moe/mjg/game%20resources%20and%20tools/Mahjong%20Soul/raw%20assets/v0.11.146.w/kr/myres2/activity_banner/25fate_signin_0.png"
+    },
+    "text": {
+      "name": {
+        "chs": "",
+        "chs_t": "",
+        "en": "",
+        "jp": "",
+        "kr": ""
+      }
+    },
+    "type": "daily_sign"
+  },
+  {
+    "fallbackName": "25wenquan2 b",
+    "id": 250302,
+    "image": {
+      "chs": "https://files.riichi.moe/mjg/game%20resources%20and%20tools/Mahjong%20Soul/raw%20assets/v0.11.140.w/chs/myres2/activity_banner/25wenquan2_b.jpg",
+      "cn": "https://files.riichi.moe/mjg/game%20resources%20and%20tools/Mahjong%20Soul/raw%20assets/v0.11.140.w/chs_t/myres2/activity_banner/25wenquan2_b.jpg",
+      "en": "https://files.riichi.moe/mjg/game%20resources%20and%20tools/Mahjong%20Soul/raw%20assets/v0.11.140.w/en/myres2/activity_banner/25wenquan2_b.jpg",
+      "jp": "https://files.riichi.moe/mjg/game%20resources%20and%20tools/Mahjong%20Soul/raw%20assets/v0.11.140.w/jp/myres2/activity_banner/25wenquan2_b.jpg",
+      "kr": "https://files.riichi.moe/mjg/game%20resources%20and%20tools/Mahjong%20Soul/raw%20assets/v0.11.140.w/kr/myres2/activity_banner/25wenquan2_b.jpg"
+    },
+    "text": {
+      "name": {
+        "chs": "郁郁清芜",
+        "chs_t": "郁郁清蕪",
+        "en": "Quiet of Verdure",
+        "jp": "萌黄の奥座敷",
+        "kr": "무성한 풀숲"
+      }
+    },
+    "type": "exchange"
+  },
+  {
+    "fallbackName": "25wenquan1 b",
+    "id": 250301,
+    "image": {
+      "chs": "https://files.riichi.moe/mjg/game%20resources%20and%20tools/Mahjong%20Soul/raw%20assets/v0.11.140.w/chs/myres2/activity_banner/25wenquan1_b.jpg",
+      "cn": "https://files.riichi.moe/mjg/game%20resources%20and%20tools/Mahjong%20Soul/raw%20assets/v0.11.140.w/chs_t/myres2/activity_banner/25wenquan1_b.jpg",
+      "en": "https://files.riichi.moe/mjg/game%20resources%20and%20tools/Mahjong%20Soul/raw%20assets/v0.11.140.w/en/myres2/activity_banner/25wenquan1_b.jpg",
+      "jp": "https://files.riichi.moe/mjg/game%20resources%20and%20tools/Mahjong%20Soul/raw%20assets/v0.11.140.w/jp/myres2/activity_banner/25wenquan1_b.jpg",
+      "kr": "https://files.riichi.moe/mjg/game%20resources%20and%20tools/Mahjong%20Soul/raw%20assets/v0.11.140.w/kr/myres2/activity_banner/25wenquan1_b.jpg"
+    },
+    "text": {
+      "name": {
+        "chs": "喧水流觞",
+        "chs_t": "喧水流觴",
+        "en": "Spring's Lilt",
+        "jp": "湯治旅の酒宴",
+        "kr": "유상곡수"
+      }
+    },
+    "type": "game_task"
+  },
+  {
+    "fallbackName": "25lifu2 b",
+    "id": 250202,
+    "image": {
+      "chs": "https://files.riichi.moe/mjg/game%20resources%20and%20tools/Mahjong%20Soul/raw%20assets/v0.11.131.w/chs/myres2/activity_banner/25lifu2_b.jpg",
+      "cn": "https://files.riichi.moe/mjg/game%20resources%20and%20tools/Mahjong%20Soul/raw%20assets/v0.11.131.w/chs_t/myres2/activity_banner/25lifu2_b.jpg",
+      "en": "https://files.riichi.moe/mjg/game%20resources%20and%20tools/Mahjong%20Soul/raw%20assets/v0.11.131.w/en/myres2/activity_banner/25lifu2_b.jpg",
+      "jp": "https://files.riichi.moe/mjg/game%20resources%20and%20tools/Mahjong%20Soul/raw%20assets/v0.11.131.w/jp/myres2/activity_banner/25lifu2_b.jpg",
+      "kr": "https://files.riichi.moe/mjg/game%20resources%20and%20tools/Mahjong%20Soul/raw%20assets/v0.11.131.w/kr/myres2/activity_banner/25lifu2_b.jpg"
+    },
+    "text": {
+      "name": {
+        "chs": "绘境收藏家",
+        "chs_t": "繪境收藏家",
+        "en": "Fantasy Collection",
+        "jp": "秘蔵の蒐集品",
+        "kr": "환상 수집가"
+      }
+    },
+    "type": "period_task"
+  },
+  {
+    "fallbackName": "25lifu1 b",
+    "id": 250201,
+    "image": {
+      "chs": "https://files.riichi.moe/mjg/game%20resources%20and%20tools/Mahjong%20Soul/raw%20assets/v0.11.131.w/chs/myres2/activity_banner/25lifu1_b.jpg",
+      "cn": "https://files.riichi.moe/mjg/game%20resources%20and%20tools/Mahjong%20Soul/raw%20assets/v0.11.131.w/chs_t/myres2/activity_banner/25lifu1_b.jpg",
+      "en": "https://files.riichi.moe/mjg/game%20resources%20and%20tools/Mahjong%20Soul/raw%20assets/v0.11.131.w/en/myres2/activity_banner/25lifu1_b.jpg",
+      "jp": "https://files.riichi.moe/mjg/game%20resources%20and%20tools/Mahjong%20Soul/raw%20assets/v0.11.131.w/jp/myres2/activity_banner/25lifu1_b.jpg",
+      "kr": "https://files.riichi.moe/mjg/game%20resources%20and%20tools/Mahjong%20Soul/raw%20assets/v0.11.131.w/kr/myres2/activity_banner/25lifu1_b.jpg"
+    },
+    "text": {
+      "name": {
+        "chs": "忘忧夜话",
+        "chs_t": "忘憂夜話",
+        "en": "Late Night Tales",
+        "jp": "忘憂の夜",
+        "kr": "늦은 밤 이야기"
+      }
+    },
+    "type": "task"
+  },
+  {
+    "fallbackName": "25chunjie2 0",
+    "id": 250111,
+    "image": {
+      "chs": "https://files.riichi.moe/mjg/game%20resources%20and%20tools/Mahjong%20Soul/raw%20assets/v0.11.140.w/chs/myres2/activity_banner/25chunjie2_b.jpg",
+      "cn": "https://files.riichi.moe/mjg/game%20resources%20and%20tools/Mahjong%20Soul/raw%20assets/v0.11.140.w/chs_t/myres2/activity_banner/25chunjie2_b.jpg",
+      "en": "https://files.riichi.moe/mjg/game%20resources%20and%20tools/Mahjong%20Soul/raw%20assets/v0.11.140.w/en/myres2/activity_banner/25chunjie2_b.jpg",
+      "jp": "https://files.riichi.moe/mjg/game%20resources%20and%20tools/Mahjong%20Soul/raw%20assets/v0.11.140.w/jp/myres2/activity_banner/25chunjie2_b.jpg",
+      "kr": "https://files.riichi.moe/mjg/game%20resources%20and%20tools/Mahjong%20Soul/raw%20assets/v0.11.140.w/kr/myres2/activity_banner/25chunjie2_b.jpg"
+    },
+    "text": {
+      "name": {
+        "chs": "青云之志",
+        "chs_t": "青雲之志",
+        "en": "Sky-High Ambition: Firework Glee",
+        "jp": "青雲の志・花火の宴",
+        "kr": "청운의 꿈: 불꽃축제"
+      }
+    },
+    "type": "amulet"
+  },
+  {
+    "fallbackName": "25chunjie1 0",
+    "id": 250101,
+    "image": {
+      "chs": "https://files.riichi.moe/mjg/game%20resources%20and%20tools/Mahjong%20Soul/raw%20assets/v0.11.120.w/chs/myres2/activity_banner/25chunjie1.png",
+      "cn": "https://files.riichi.moe/mjg/game%20resources%20and%20tools/Mahjong%20Soul/raw%20assets/v0.11.120.w/chs_t/myres2/activity_banner/25chunjie1.png",
+      "en": "https://files.riichi.moe/mjg/game%20resources%20and%20tools/Mahjong%20Soul/raw%20assets/v0.11.120.w/en/myres2/activity_banner/25chunjie1.png",
+      "jp": "https://files.riichi.moe/mjg/game%20resources%20and%20tools/Mahjong%20Soul/raw%20assets/v0.11.120.w/jp/myres2/activity_banner/25chunjie1.png",
+      "kr": "https://files.riichi.moe/mjg/game%20resources%20and%20tools/Mahjong%20Soul/raw%20assets/v0.11.120.w/kr/myres2/activity_banner/25chunjie1.png"
+    },
+    "text": {
+      "name": {
+        "chs": "新春庙会",
+        "chs_t": "新春廟會",
+        "en": "Lucky Spring Fair",
+        "jp": "春節廟会",
+        "kr": "새해 신사 축제"
+      }
+    },
+    "type": "festival"
+  },
+  {
+    "fallbackName": "24winter1 0",
+    "id": 241201,
+    "image": {
+      "chs": "https://files.riichi.moe/mjg/game%20resources%20and%20tools/Mahjong%20Soul/raw%20assets/v0.11.110.w/chs/myres2/activity_banner/24winter1.png",
+      "cn": "https://files.riichi.moe/mjg/game%20resources%20and%20tools/Mahjong%20Soul/raw%20assets/v0.11.110.w/chs_t/myres2/activity_banner/24winter1.png",
+      "en": "https://files.riichi.moe/mjg/game%20resources%20and%20tools/Mahjong%20Soul/raw%20assets/v0.11.110.w/en/myres2/activity_banner/24winter1.png",
+      "jp": "https://files.riichi.moe/mjg/game%20resources%20and%20tools/Mahjong%20Soul/raw%20assets/v0.11.110.w/jp/myres2/activity_banner/24winter1.png",
+      "kr": "https://files.riichi.moe/mjg/game%20resources%20and%20tools/Mahjong%20Soul/raw%20assets/v0.11.110.w/kr/myres2/activity_banner/24winter1.png"
+    },
+    "text": {
+      "name": {
+        "chs": "冬日游园会",
+        "chs_t": "冬日遊園會",
+        "en": "Winter Wonderland",
+        "jp": "ウィンターワンダーランド",
+        "kr": "윈터 원더랜드"
+      }
+    },
+    "type": "richman"
+  },
+  {
+    "fallbackName": "24imas1 0",
+    "id": 241101,
+    "image": {
+      "chs": "https://files.riichi.moe/mjg/game%20resources%20and%20tools/Mahjong%20Soul/raw%20assets/v0.11.104.w/chs/myres2/activity_banner/24imas1.png",
+      "cn": "https://files.riichi.moe/mjg/game%20resources%20and%20tools/Mahjong%20Soul/raw%20assets/v0.11.104.w/chs_t/myres2/activity_banner/24imas1.png",
+      "en": "https://files.riichi.moe/mjg/game%20resources%20and%20tools/Mahjong%20Soul/raw%20assets/v0.11.104.w/en/myres2/activity_banner/24imas1.png",
+      "jp": "https://files.riichi.moe/mjg/game%20resources%20and%20tools/Mahjong%20Soul/raw%20assets/v0.11.104.w/jp/myres2/activity_banner/24imas1.png",
+      "kr": "https://files.riichi.moe/mjg/game%20resources%20and%20tools/Mahjong%20Soul/raw%20assets/v0.11.104.w/kr/myres2/activity_banner/24imas1.png"
+    },
+    "text": {
+      "name": {
+        "chs": "闪耀协奏曲",
+        "chs_t": "閃耀協奏曲",
+        "en": "Shiny Concerto",
+        "jp": "光彩協奏曲",
+        "kr": "샤이니 협주곡"
+      }
+    },
+    "type": "event_cross_time"
+  },
+  {
+    "fallbackName": "24imas signin 0",
+    "id": 241091,
+    "image": {
+      "chs": "https://files.riichi.moe/mjg/game%20resources%20and%20tools/Mahjong%20Soul/raw%20assets/v0.11.101.w/chs/myres2/activity_banner/24imas_signin_0.png",
+      "cn": "https://files.riichi.moe/mjg/game%20resources%20and%20tools/Mahjong%20Soul/raw%20assets/v0.11.101.w/chs_t/myres2/activity_banner/24imas_signin_0.png",
+      "en": "https://files.riichi.moe/mjg/game%20resources%20and%20tools/Mahjong%20Soul/raw%20assets/v0.11.101.w/en/myres2/activity_banner/24imas_signin_0.png",
+      "jp": "https://files.riichi.moe/mjg/game%20resources%20and%20tools/Mahjong%20Soul/raw%20assets/v0.11.101.w/jp/myres2/activity_banner/24imas_signin_0.png",
+      "kr": "https://files.riichi.moe/mjg/game%20resources%20and%20tools/Mahjong%20Soul/raw%20assets/v0.11.101.w/kr/myres2/activity_banner/24imas_signin_0.png"
+    },
+    "text": {
+      "name": {
+        "chs": "",
+        "chs_t": "",
+        "en": "",
+        "jp": "",
+        "kr": ""
+      }
+    },
+    "type": "daily_sign"
+  },
+  {
+    "fallbackName": "24wansheng2",
+    "id": 241002,
+    "image": {
+      "chs": "https://files.riichi.moe/mjg/game%20resources%20and%20tools/Mahjong%20Soul/raw%20assets/v0.11.86.w/chs/myres2/activity_banner/24wansheng2.png",
+      "cn": "https://files.riichi.moe/mjg/game%20resources%20and%20tools/Mahjong%20Soul/raw%20assets/v0.11.86.w/chs_t/myres2/activity_banner/24wansheng2.png",
+      "en": "https://files.riichi.moe/mjg/game%20resources%20and%20tools/Mahjong%20Soul/raw%20assets/v0.11.86.w/en/myres2/activity_banner/24wansheng2.png",
+      "jp": "https://files.riichi.moe/mjg/game%20resources%20and%20tools/Mahjong%20Soul/raw%20assets/v0.11.86.w/jp/myres2/activity_banner/24wansheng2.png",
+      "kr": "https://files.riichi.moe/mjg/game%20resources%20and%20tools/Mahjong%20Soul/raw%20assets/v0.11.86.w/kr/myres2/activity_banner/24wansheng2.png"
+    },
+    "text": {
+      "name": {
+        "chs": "迷魇生机",
+        "chs_t": "迷魘生機",
+        "en": "Silver Lining in Maze",
+        "jp": "迷宮スペクター",
+        "kr": "악몽 속 활로"
+      }
+    },
+    "type": "mine"
+  },
+  {
+    "fallbackName": "24wansheng1",
+    "id": 241001,
+    "image": {
+      "chs": "https://files.riichi.moe/mjg/game%20resources%20and%20tools/Mahjong%20Soul/raw%20assets/v0.11.86.w/chs/myres2/activity_banner/24wansheng1.png",
+      "cn": "https://files.riichi.moe/mjg/game%20resources%20and%20tools/Mahjong%20Soul/raw%20assets/v0.11.86.w/chs_t/myres2/activity_banner/24wansheng1.png",
+      "en": "https://files.riichi.moe/mjg/game%20resources%20and%20tools/Mahjong%20Soul/raw%20assets/v0.11.86.w/en/myres2/activity_banner/24wansheng1.png",
+      "jp": "https://files.riichi.moe/mjg/game%20resources%20and%20tools/Mahjong%20Soul/raw%20assets/v0.11.86.w/jp/myres2/activity_banner/24wansheng1.png",
+      "kr": "https://files.riichi.moe/mjg/game%20resources%20and%20tools/Mahjong%20Soul/raw%20assets/v0.11.86.w/kr/myres2/activity_banner/24wansheng1.png"
+    },
+    "text": {
+      "name": {
+        "chs": "绝境追击",
+        "chs_t": "絕境追擊",
+        "en": "Chase to the Edge",
+        "jp": "逆境チェイサー",
+        "kr": "절망 속 추격"
+      }
+    },
+    "type": "random_task"
+  },
+  {
+    "fallbackName": "24sanliou1 0",
+    "id": 240901,
+    "image": {
+      "chs": "https://files.riichi.moe/mjg/game%20resources%20and%20tools/Mahjong%20Soul/raw%20assets/v0.11.78.w/chs/myres2/activity_banner/24sanliou1.png",
+      "cn": "https://files.riichi.moe/mjg/game%20resources%20and%20tools/Mahjong%20Soul/raw%20assets/v0.11.78.w/chs_t/myres2/activity_banner/24sanliou1.png",
+      "en": "https://files.riichi.moe/mjg/game%20resources%20and%20tools/Mahjong%20Soul/raw%20assets/v0.11.78.w/en/myres2/activity_banner/24sanliou1.png",
+      "jp": "https://files.riichi.moe/mjg/game%20resources%20and%20tools/Mahjong%20Soul/raw%20assets/v0.11.78.w/jp/myres2/activity_banner/24sanliou1.png",
+      "kr": "https://files.riichi.moe/mjg/game%20resources%20and%20tools/Mahjong%20Soul/raw%20assets/v0.11.78.w/kr/myres2/activity_banner/24sanliou1.png"
+    },
+    "text": {
+      "name": {
+        "chs": "联动纪念扭蛋",
+        "chs_t": "聯動紀念扭蛋",
+        "en": "Collab Tribute Gacha",
+        "jp": "コラボSP謎ガチャ",
+        "kr": "콜라보 기념 뽑기"
+      }
+    },
+    "type": "gacha"
+  },
+  {
+    "fallbackName": "24zhongqiu1",
+    "id": 240860,
+    "image": {
+      "chs": "https://files.riichi.moe/mjg/game%20resources%20and%20tools/Mahjong%20Soul/raw%20assets/v0.11.76.w/chs/myres2/activity_banner/24zhongqiu1.png",
+      "cn": "https://files.riichi.moe/mjg/game%20resources%20and%20tools/Mahjong%20Soul/raw%20assets/v0.11.76.w/chs_t/myres2/activity_banner/24zhongqiu1.png",
+      "en": "https://files.riichi.moe/mjg/game%20resources%20and%20tools/Mahjong%20Soul/raw%20assets/v0.11.76.w/en/myres2/activity_banner/24zhongqiu1.png",
+      "jp": "https://files.riichi.moe/mjg/game%20resources%20and%20tools/Mahjong%20Soul/raw%20assets/v0.11.76.w/jp/myres2/activity_banner/24zhongqiu1.png",
+      "kr": "https://files.riichi.moe/mjg/game%20resources%20and%20tools/Mahjong%20Soul/raw%20assets/v0.11.76.w/kr/myres2/activity_banner/24zhongqiu1.png"
+    },
+    "text": {
+      "name": {
+        "chs": "福月双全",
+        "chs_t": "福月雙全",
+        "en": "Luck and Moon",
+        "jp": "福月双全",
+        "kr": "복과 보름달"
+      }
+    },
+    "type": "flip_task"
+  },
+  {
+    "fallbackName": "24summer2",
+    "id": 240811,
+    "image": {
+      "chs": "https://files.riichi.moe/mjg/game%20resources%20and%20tools/Mahjong%20Soul/raw%20assets/v0.11.64.w/chs/myres2/activity_banner/24summer2.png",
+      "cn": "https://files.riichi.moe/mjg/game%20resources%20and%20tools/Mahjong%20Soul/raw%20assets/v0.11.64.w/chs_t/myres2/activity_banner/24summer2.png",
+      "en": "https://files.riichi.moe/mjg/game%20resources%20and%20tools/Mahjong%20Soul/raw%20assets/v0.11.64.w/en/myres2/activity_banner/24summer2.png",
+      "jp": "https://files.riichi.moe/mjg/game%20resources%20and%20tools/Mahjong%20Soul/raw%20assets/v0.11.64.w/jp/myres2/activity_banner/24summer2.png",
+      "kr": "https://files.riichi.moe/mjg/game%20resources%20and%20tools/Mahjong%20Soul/raw%20assets/v0.11.64.w/kr/myres2/activity_banner/24summer2.png"
+    },
+    "text": {
+      "name": {
+        "chs": "竹云庆典",
+        "chs_t": "竹雲慶典",
+        "en": "Bamboo Cloud Festival",
+        "jp": "竹雲の祭典",
+        "kr": "죽운 축제"
+      }
+    },
+    "type": "story"
+  },
+  {
+    "fallbackName": "24summer1 0",
+    "id": 240801,
+    "image": {
+      "chs": "https://files.riichi.moe/mjg/game%20resources%20and%20tools/Mahjong%20Soul/raw%20assets/v0.11.64.w/chs/myres2/activity_banner/24summer1.png",
+      "cn": "https://files.riichi.moe/mjg/game%20resources%20and%20tools/Mahjong%20Soul/raw%20assets/v0.11.64.w/chs_t/myres2/activity_banner/24summer1.png",
+      "en": "https://files.riichi.moe/mjg/game%20resources%20and%20tools/Mahjong%20Soul/raw%20assets/v0.11.64.w/en/myres2/activity_banner/24summer1.png",
+      "jp": "https://files.riichi.moe/mjg/game%20resources%20and%20tools/Mahjong%20Soul/raw%20assets/v0.11.64.w/jp/myres2/activity_banner/24summer1.png",
+      "kr": "https://files.riichi.moe/mjg/game%20resources%20and%20tools/Mahjong%20Soul/raw%20assets/v0.11.64.w/kr/myres2/activity_banner/24summer1.png"
+    },
+    "text": {
+      "name": {
+        "chs": "青云之志",
+        "chs_t": "青雲之志",
+        "en": "Sky-High Ambition",
+        "jp": "青雲の志",
+        "kr": "청운의 꿈"
+      }
+    },
+    "type": "amulet"
+  },
+  {
+    "fallbackName": "",
+    "id": 240702,
+    "image": "",
+    "text": {
+      "name": {
+        "chs": "午后私人时间",
+        "chs_t": "午後私人時間",
+        "en": "Private Afternoon",
+        "jp": "あふたぬ〜ん・プライベートタイム",
+        "kr": "오후의 개인 시간"
+      }
+    },
+    "type": "period_task"
+  },
+  {
+    "fallbackName": "",
+    "id": 240701,
+    "image": "",
+    "text": {
+      "name": {
+        "chs": "白日梦乐园",
+        "chs_t": "白日夢樂園",
+        "en": "Daydream Paradise",
+        "jp": "でいどり〜む・パラダイス",
+        "kr": "데이드림 파라다이스"
+      }
+    },
+    "type": "task"
+  },
+  {
+    "fallbackName": "",
+    "id": 240601,
+    "image": "",
+    "text": {
+      "name": {
+        "chs": "海岛之夏",
+        "chs_t": "海島之夏",
+        "en": "Summer on Joy Island",
+        "jp": "アイランド\n・サマー！",
+        "kr": "썸머 아일랜드"
+      }
+    },
+    "type": "island"
+  },
+  {
+    "fallbackName": "",
+    "id": 240503,
+    "image": "",
+    "text": {
+      "name": {
+        "chs": "完美舞台的回响",
+        "chs_t": "完美舞臺的回響",
+        "en": "Echoes of the Perfect Show",
+        "jp": "報酬交換所",
+        "kr": "완벽한 무대의 메아리"
+      }
+    },
+    "type": "exchange"
+  },
+  {
+    "fallbackName": "",
+    "id": 240501,
+    "image": "",
+    "text": {
+      "name": {
+        "chs": "闪耀星辰的纪念",
+        "chs_t": "閃耀星辰的紀念",
+        "en": "Memento of the Shining Stars",
+        "jp": "輝くステージに\n轟け！",
+        "kr": "반짝이는 별빛의 기억"
+      }
+    },
+    "type": "game_task"
+  },
+  {
+    "fallbackName": "",
+    "id": 240453,
+    "image": "",
+    "text": {
+      "name": {
+        "chs": "投票券活动任务",
+        "chs_t": "投票券活動任務",
+        "en": "Voting Ticket Missions",
+        "jp": "投票券クエスト",
+        "kr": "투표권 이벤트 임무"
+      }
+    },
+    "type": "period_task"
+  },
+  {
+    "fallbackName": "",
+    "id": 240401,
+    "image": "",
+    "text": {
+      "name": {
+        "chs": "学园庆典大骚动",
+        "chs_t": "學院慶典大騷動",
+        "en": "School Fes Frenzy",
+        "jp": "学園祭大騒ぎ！",
+        "kr": "학원 축제 대소동"
+      }
+    },
+    "type": "festival"
+  },
+  {
+    "fallbackName": "",
+    "id": 240301,
+    "image": "",
+    "text": {
+      "name": {
+        "chs": "姬川响的直播间",
+        "chs_t": "姬川響的直播間",
+        "en": "Hibiki Himekawa's Channel",
+        "jp": "姫川響配信中",
+        "kr": "히메카와 히비키 라이브"
+      }
+    },
+    "type": "period_task"
+  },
+  {
+    "fallbackName": "",
+    "id": 240202,
+    "image": "",
+    "text": {
+      "name": {
+        "chs": "致谢间奏曲",
+        "chs_t": "致謝間奏曲",
+        "en": "Intermezzo of Gratitude",
+        "jp": "感謝の間奏曲",
+        "kr": "감사의 간주곡"
+      }
+    },
+    "type": "mine"
+  },
+  {
+    "fallbackName": "",
+    "id": 240201,
+    "image": "",
+    "text": {
+      "name": {
+        "chs": "华灯初上",
+        "chs_t": "華燈初上",
+        "en": "Lighting the Lanterns",
+        "jp": "ダンスホールが灯る頃",
+        "kr": "불빛 아래 만남"
+      }
+    },
+    "type": "random_task"
+  },
+  {
+    "fallbackName": "",
+    "id": 240101,
+    "image": "",
+    "text": {
+      "name": {
+        "chs": "白龙的心愿",
+        "chs_t": "白龍的心願",
+        "en": "White Dragon's Wish",
+        "jp": "白龍の願い",
+        "kr": "백룡의 소원"
+      }
+    },
+    "type": "village"
+  },
+  {
+    "fallbackName": "",
+    "id": 231252,
+    "image": "",
+    "text": {
+      "name": {
+        "chs": "正月吉兆",
+        "chs_t": "正月吉兆",
+        "en": "New Year's Fortune",
+        "jp": "新春吉兆",
+        "kr": "새해행운"
+      }
+    },
+    "type": "flip_task"
+  },
+  {
+    "fallbackName": "",
+    "id": 231201,
+    "image": "",
+    "text": {
+      "name": {
+        "chs": "柚的料理屋",
+        "chs_t": "柚的料理屋",
+        "en": "Yuzu's Kitchen",
+        "jp": "レストランゆず",
+        "kr": "유즈의 부엌"
+      }
+    },
+    "type": "combining"
+  },
+  {
+    "fallbackName": "",
+    "id": 231151,
+    "image": "",
+    "text": {
+      "name": {
+        "chs": "冬日祭-雪人合戰-",
+        "chs_t": "冬日祭\n雪だるま合戦",
+        "en": "",
+        "jp": "Winter Festival\nSnowman Battle",
+        "kr": "눈사람 굴리기"
+      }
+    },
+    "type": "game_point"
+  },
+  {
+    "fallbackName": "",
+    "id": 231111,
+    "image": "",
+    "text": {
+      "name": {
+        "chs": "圣雀战争",
+        "chs_t": "聖雀戰爭",
+        "en": "Holy Mahjong War",
+        "jp": "聖雀戦争",
+        "kr": "Holy Mahjong War"
+      }
+    },
+    "type": "event_cross_time"
+  },
+  {
+    "fallbackName": "",
+    "id": 231001,
+    "image": "",
+    "text": {
+      "name": {
+        "chs": "万圣夜特别扭蛋",
+        "chs_t": "萬聖夜特別扭蛋",
+        "en": "Halloween Special Gacha",
+        "jp": "謎ガチャ\nVer.ハロウイン",
+        "kr": "핼러윈 특별 뽑기"
+      }
+    },
+    "type": "gacha"
+  },
+  {
+    "fallbackName": "",
+    "id": 230902,
+    "image": "",
+    "text": {
+      "name": {
+        "chs": "明月正当时",
+        "chs_t": "明月正當時",
+        "en": "Bright as the Full Moon",
+        "jp": "お月見日和",
+        "kr": "둥근 달이 떠오를 때"
+      }
+    },
+    "type": "exchange"
+  },
+  {
+    "fallbackName": "",
+    "id": 230901,
+    "image": "",
+    "text": {
+      "name": {
+        "chs": "宵晖眷影",
+        "chs_t": "宵暉眷影",
+        "en": "Hidden Night's Glow",
+        "jp": "宵輝麗影",
+        "kr": "밤빛의 그림자"
+      }
+    },
+    "type": "task"
+  },
+  {
+    "fallbackName": "25lunhuan b",
+    "id": 230143,
+    "image": "https://files.riichi.moe/mjg/game%20resources%20and%20tools/Mahjong%20Soul/unity_raw/extracted/MyAssets/ui/activity/lobby/banner_tab/pic/common/25lunhuan_b.png",
+    "text": {
+      "name": {
+        "chs": "比赛场轮换",
+        "chs_t": "比賽場輪換",
+        "en": "Mode Rotation",
+        "jp": "今週の特殊ルール",
+        "kr": "대회전 전환"
+      }
+    },
+    "type": "activity_desktop"
+  }
+]

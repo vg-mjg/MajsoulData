@@ -1,8 +1,20 @@
 {
   "name": "majsoul-data",
   "private": true,
-  "description": "Mahjong Soul data viewer: builds web/data + web/resources.json from the extracted asset mirror.",
+  "type": "module",
+  "description": "Mahjong Soul data viewer: an Eleventy static site built from committed collections produced by the ingest pipeline.",
   "scripts": {
-    "build": "node main.js"
+    "ingest": "node pipeline/ingest.js",
+    "build": "node scripts/build-offline.mjs",
+    "dev": "eleventy --serve --incremental",
+    "start": "eleventy --serve --incremental",
+    "update": "npm run ingest && npm run build",
+    "test": "node --test",
+    "verify:runtime-fetches": "node scripts/verify-runtime-fetches.mjs",
+    "ci": "npm test && npm run build && npm run verify:runtime-fetches"
+  },
+  "devDependencies": {
+    "@11ty/eleventy": "^3.1.6",
+    "@esotericsoftware/spine-player": "^4.2.102"
   }
 }

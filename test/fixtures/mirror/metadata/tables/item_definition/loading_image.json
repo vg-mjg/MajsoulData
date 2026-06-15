@@ -1,0 +1,12 @@
+[
+  {
+    "id": 201201,
+    "img_path": "deco/loading_cg/201201/main/201201.jpg",
+    "thumb_path": "deco/loading_cg/201201/thumb/201201_thumb.jpg",
+    "sort": 1,
+    "unlock_items": [
+      307401
+    ],
+    "args": 0
+  }
+]

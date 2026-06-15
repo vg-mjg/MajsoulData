@@ -1,0 +1,33 @@
+[
+  {
+    "id": 100001,
+    "sort": 1,
+    "name_en": "Jade",
+    "name_jp": "Jade JP",
+    "name_chs": "Jade CHS",
+    "name_chs_t": "Jade CHT",
+    "name_kr": "Jade KR",
+    "desc_en": "Premium currency.",
+    "desc_jp": "Premium currency. JP",
+    "desc_chs": "Premium currency. CHS",
+    "desc_chs_t": "Premium currency. CHT",
+    "desc_kr": "Premium currency. KR",
+    "icon": "extendRes/items/jade.png",
+    "icon_jpg": "extendRes/items/jade.jpg"
+  },
+  {
+    "id": 100002,
+    "sort": 2,
+    "name_en": "Copper",
+    "name_jp": "Copper JP",
+    "name_chs": "Copper CHS",
+    "name_chs_t": "Copper CHT",
+    "name_kr": "Copper KR",
+    "desc_en": "Currency.",
+    "desc_jp": "Currency. JP",
+    "desc_chs": "Currency. CHS",
+    "desc_chs_t": "Currency. CHT",
+    "desc_kr": "Currency. KR",
+    "icon": "extendRes/items/copper.png"
+  }
+]

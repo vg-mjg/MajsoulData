@@ -1,0 +1,335 @@
+---
+pagination:
+  data: characterDetailPages
+  size: 1
+  alias: locale
+permalink: "/{{ locale.code }}/characters/{{ locale.character.id }}/"
+layout: base.njk
+activeSection: characters
+eleventyComputed:
+  title: "{{ (locale.character.text.name | localize(locale.code)) or ('#' ~ locale.character.id) }} · Characters · {{ site.title }}"
+---
+{%- set ch = locale.character %}
+{%- set code = locale.code %}
+{%- set name = (ch.text.name | localize(code)) or ("#" ~ ch.id) %}
+{%- set category = "Collaboration" if ch.collaboration > 0 else ("Limited" if ch.limited > 0 else "") %}
+{%- set hasMultipleSkins = (ch.skins | length) > 1 %}
+<article class="character-detail-page" id="ch-{{ ch.id }}"{% if hasMultipleSkins %} data-skin-linker data-init-skin="{{ ch.initSkin }}"{% endif %}>
+  {#- CSS-only skin selection: each skin's checked radio drives its hero image and
+      description through article-scoped :has() rules. Correlation is per-skin-id,
+      so the rules are baked per page. -#}
+  {%- if ch.skins | length %}
+  <style>
+{%- for skin in ch.skins %}
+#ch-{{ ch.id }}:has(#skinRadio-{{ skin.id }}:checked) [data-skin-hero="{{ skin.id }}"],
+#ch-{{ ch.id }}:has(#skinRadio-{{ skin.id }}:checked) [data-skin-desc="{{ skin.id }}"] { display: block; }
+{%- endfor %}
+  </style>
+  {%- endif %}
+  <p class="mb-2"><a class="btn btn-sm btn-outline-secondary" href="{{ ('/' + code + '/characters/') | url }}">&larr; Back to characters</a></p>
+
+  <section class="detail-top-layout">
+    <div class="detail-illustration-column">
+      <div class="detail-full-image-wrap" data-spine-skins>
+        {%- for skin in ch.skins %}
+        {%- set skinName = (skin.text.name | localize(code)) or ("Skin #" ~ skin.id) %}
+        {%- set skinHero = (skin.assets.full or skin.assets.half or skin.assets.bighead or skin.assets.smallhead or skin.assets.waitingroom) | asset(code) %}
+        <div class="detail-skin-hero-frame" data-skin-hero="{{ skin.id }}">
+        {%- if skinHero %}
+          <img class="detail-full-image detail-skin-static" src="{{ skinHero }}" alt="{{ name }} — {{ skinName }}" loading="lazy" decoding="async" />
+        {%- else %}
+          <div class="detail-full-image detail-skin-static placeholder">{{ name }}</div>
+        {%- endif %}
+        {%- if skin.spine | length %}
+          <div class="detail-spine" data-spine-panel="{{ skin.id }}">
+            <div class="detail-spine-host" data-spine-host="{{ skin.id }}"></div>
+            <div class="detail-spine-controls">
+              <button type="button" class="btn btn-sm btn-outline-secondary detail-spine-activate" data-spine-play="{{ skin.id }}">View animated model</button>
+            </div>
+          </div>
+        {%- endif %}
+        </div>
+        {%- endfor %}
+        <script type="application/json" class="detail-spine-data">{
+{%- for skin in ch.skins -%}
+"{{ skin.id }}":[
+{%- for layer in skin.spine -%}
+{"name":{{ layer.name | dump | safe }},"skeletonUrl":{{ (layer.skeleton | asset(code)) | dump | safe }},"atlasUrl":{{ (layer.atlas | asset(code)) | dump | safe }}}{% if not loop.last %},{% endif %}
+{%- endfor -%}
+]{% if not loop.last %},{% endif %}
+{%- endfor -%}
+}</script>
+      </div>
+    </div>
+
+    <div class="detail-info-column">
+      <div class="card border-0 shadow-sm detail-section">
+        <div class="card-body">
+          <h1 class="detail-character-name mb-1">{{ name }}</h1>
+          {%- if category %}
+          <p class="detail-character-category text-secondary small mb-2">{{ category }}</p>
+          {%- endif %}
+          <p class="detail-character-description detail-preline">{{ (ch.text.description | localize(code)) or "-" }}</p>
+          <h2 class="detail-section-title detail-profile-title">Profile</h2>
+          <div class="detail-profile-grid">
+            {%- set fields = [
+              ["Stature", ch.text.stature],
+              ["Birth", ch.text.birth],
+              ["Age", ch.text.age],
+              ["Blood Type", ch.text.bloodType],
+              ["CV", ch.text.cv],
+              ["Hobby", ch.text.hobby]
+            ] %}
+            {%- for field in fields %}
+            <div class="detail-profile-item">
+              <div class="detail-profile-label">{{ field[0] }}</div>
+              <div class="detail-profile-value">{{ (field[1] | localize(code)) or "-" }}</div>
+            </div>
+            {%- endfor %}
+          </div>
+
+          {%- if ch.skins | length %}
+          <div class="detail-skins">
+            <h2 class="detail-section-title detail-skins-title">Skins</h2>
+            <div class="detail-skin-grid">
+              {#- Each skin = a visually-hidden radio (init checked) immediately before its
+                  icon label, so `:checked + label` highlights the active card with no
+                  per-id CSS. Distinct radio ids keep the browser from auto-scrolling to a
+                  checked radio (and leave room for the 02h deep-link helper). -#}
+              {%- for skin in ch.skins %}
+              {%- set skinName = (skin.text.name | localize(code)) or ("Skin #" ~ skin.id) %}
+              {%- set thumb = (skin.assets.smallhead or skin.assets.bighead or skin.assets.half or skin.assets.full or skin.assets.waitingroom) | asset(code) %}
+              <input type="radio" name="skin-{{ ch.id }}" id="skinRadio-{{ skin.id }}" class="detail-skin-radio"{% if skin.id == ch.initSkin %} checked{% endif %} />
+              <label for="skinRadio-{{ skin.id }}" class="detail-skin-card" data-skin-card="{{ skin.id }}">
+                <span class="detail-skin-thumb-wrap">
+                  {%- if thumb %}
+                  <img class="detail-skin-thumb" src="{{ thumb }}" alt="{{ skinName }}" loading="lazy" decoding="async" />
+                  {%- else %}
+                  <span class="detail-skin-thumb placeholder">{{ skinName }}</span>
+                  {%- endif %}
+                  {%- if skin.spine | length %}<span class="detail-skin-tag">Live2D</span>{%- endif %}
+                </span>
+                <span class="detail-skin-name">{{ skinName }}</span>
+              </label>
+              {%- endfor %}
+            </div>
+            <div class="detail-skin-desc-stack">
+              {%- for skin in ch.skins %}
+              {%- set description = skin.text.description | localize(code) %}
+              {%- if description %}
+              <p class="detail-skin-description detail-preline" data-skin-desc="{{ skin.id }}">{{ description }}</p>
+              {%- endif %}
+              {%- endfor %}
+            </div>
+          </div>
+          {%- endif %}
+
+          {%- if ch.emotes | length %}
+          <div class="detail-stamps">
+            <h2 class="detail-section-title detail-stamps-title">Emotes</h2>
+            <div class="detail-stamp-grid">
+              {%- for emote in ch.emotes %}
+              {%- set emoteImage = emote.image | asset(code) %}
+              {%- set unlockDescription = emote.unlockDescription | localize(code) %}
+              {%- if emoteImage %}
+              <img class="detail-stamp-image" src="{{ emoteImage }}" alt="{{ name }} emote {{ emote.subId }}"{% if unlockDescription %} title="{{ unlockDescription }}" aria-label="{{ unlockDescription }}"{% endif %} loading="lazy" decoding="async" />
+              {%- else %}
+              <span class="detail-stamp-image placeholder"{% if unlockDescription %} title="{{ unlockDescription }}" aria-label="{{ unlockDescription }}"{% endif %}>{{ emote.subId }}</span>
+              {%- endif %}
+              {%- endfor %}
+            </div>
+          </div>
+          {%- endif %}
+
+          {%- if ch.bond | length %}
+          <div class="detail-contract">
+            <h2 class="detail-section-title detail-contract-title">Bond Requirements</h2>
+            <div class="detail-contract-grid">
+              {%- for item in ch.bond %}
+              {%- set itemName = (item.name | localize(code)) or ("#" ~ item.itemId) %}
+              {%- set itemIcon = item.icon | asset(code) %}
+              <a class="detail-contract-item text-decoration-none" href="{{ ('/' + code + '/items/' + (item.itemId | string) + '/') | url }}" title="{{ itemName }} ×{{ item.count }}">
+                <span class="detail-contract-thumb-wrap">
+                  {%- if itemIcon %}
+                  <img class="detail-contract-icon" src="{{ itemIcon }}" alt="{{ itemName }}" loading="lazy" decoding="async" />
+                  {%- else %}
+                  <span class="detail-contract-icon placeholder">{{ item.itemId }}</span>
+                  {%- endif %}
+                  <span class="detail-contract-count-badge">×{{ item.count }}</span>
+                </span>
+                <span class="detail-contract-name">{{ itemName }}</span>
+              </a>
+              {%- endfor %}
+            </div>
+          </div>
+          {%- endif %}
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="card border-0 shadow-sm detail-section">
+    <div class="card-body">
+      <!-- Voices/Story toggle: CSS-only (radio + :checked), no JavaScript. -->
+      <div class="cv-tabs">
+        <input type="radio" name="cv-tab" id="cv-voices" class="cv-tab-input" checked />
+        <input type="radio" name="cv-tab" id="cv-story" class="cv-tab-input" />
+        <div class="cv-tablist">
+          <label for="cv-voices" class="cv-tab-label cv-tab-label-voices">Voices ({{ ch.voices | length }})</label>
+          <label for="cv-story" class="cv-tab-label cv-tab-label-story">Story ({{ ch.stories | length }})</label>
+        </div>
+
+        <div class="cv-panel cv-panel-voices">
+          {%- if ch.voices | length %}
+          {%- set playableVoices = ch.voices | selectattr("audio") | list %}
+          <div class="cv-voices" data-voice-island>
+            {%- if playableVoices | length %}
+            <div class="cv-volume">
+              <label class="cv-volume-label" for="cv-volume-{{ ch.id }}">Volume</label>
+              <input type="range" class="cv-volume-slider" id="cv-volume-{{ ch.id }}" min="0" max="1" step="0.01" value="0.7" />
+            </div>
+            {%- endif %}
+            <ul class="cv-voice-list list-unstyled">
+              {%- for voice in ch.voices %}
+              {%- set voiceName = (voice.text.name | localize(code)) or ("Voice " ~ voice.type) %}
+              <li class="cv-voice">
+                <div class="cv-voice-header">
+                  <div class="cv-voice-text">
+                    <p class="cv-voice-name mb-0">{{ voiceName }}</p>
+                  </div>
+                  {%- if voice.audio %}
+                  <button type="button" class="btn btn-sm btn-outline-secondary cv-voice-play" data-audio="{{ voice.audio }}" data-label="{{ voiceName }}" aria-label="Play {{ voiceName }}">Play</button>
+                  {%- endif %}
+                </div>
+                {%- set words = voice.text.words | localize(code) %}
+                {%- if words %}<p class="cv-voice-words detail-preline mb-0">{{ words }}</p>{%- endif %}
+              </li>
+              {%- endfor %}
+            </ul>
+          </div>
+          {%- else %}
+          <p class="cv-empty text-secondary small mb-0">No voices.</p>
+          {%- endif %}
+        </div>
+
+        <div class="cv-panel cv-panel-story">
+          {%- if ch.stories | length %}
+          <style>
+{%- for story in ch.stories %}
+#story-radio-{{ ch.id }}-{{ story.uniqueId }}:checked ~ .detail-story-layout [data-story-panel="{{ story.uniqueId }}"] { display: block; }
+#story-radio-{{ ch.id }}-{{ story.uniqueId }}:checked ~ .detail-story-layout [data-story-label="{{ story.uniqueId }}"] { color: #fff; background: var(--app-accent); border-color: var(--app-accent); }
+{%- endfor %}
+          </style>
+          <div class="cv-story-tabbed">
+            {%- for story in ch.stories %}
+            <input type="radio" name="story-tab-{{ ch.id }}" id="story-radio-{{ ch.id }}-{{ story.uniqueId }}" class="cv-story-tab-input"{% if loop.first %} checked{% endif %} />
+            {%- endfor %}
+            <div class="detail-story-layout">
+              <div class="list-group detail-story-list" role="tablist" aria-label="Story selection">
+                {%- for story in ch.stories %}
+                {%- set storyName = (story.text.name | localize(code)) or ("Story #" ~ story.uniqueId) %}
+                <label for="story-radio-{{ ch.id }}-{{ story.uniqueId }}" class="list-group-item list-group-item-action detail-story-item" data-story-label="{{ story.uniqueId }}" role="tab">{{ story.queue }}. {{ storyName }}</label>
+                {%- endfor %}
+              </div>
+              <div class="detail-story-view">
+                {%- for story in ch.stories %}
+                {%- set storyName = (story.text.name | localize(code)) or ("Story #" ~ story.uniqueId) %}
+                {%- set storyContent = story.text.content | localize(code) %}
+                {%- set lockTips = story.text.lockTips | localize(code) %}
+                <article class="detail-story-panel" data-story-panel="{{ story.uniqueId }}" role="tabpanel">
+                  <h2 class="detail-story-title">{{ storyName }}</h2>
+                  <div class="detail-story-meta">
+                    <span class="badge text-bg-light">{{ "Scenario" if story.hasScenario else "Text" }}</span>
+                    {%- if story.levelLimit %}<span class="badge text-bg-light">Bond Lv {{ story.levelLimit }}</span>{%- endif %}
+                    {%- if story.isMarried %}<span class="badge text-bg-light">Oath</span>{%- endif %}
+                  </div>
+                  {%- if lockTips %}<p class="detail-story-locktips">{{ lockTips }}</p>{%- endif %}
+                  {%- if storyContent %}<p class="detail-story-inline detail-preline">{{ storyContent }}</p>{%- endif %}
+
+                  {%- if story.endings | length %}
+                  <h3 class="detail-story-subtitle">Possible Endings</h3>
+                  <div class="detail-story-endings">
+                    {%- for ending in story.endings %}
+                    {%- set endingText = ending.text.content | localize(code) %}
+                    <div class="detail-story-ending">
+                      <div class="detail-story-ending-title">{{ endingText or ("Ending " ~ ending.id) }}</div>
+                      {%- if ending.items | length %}
+                      <div class="detail-story-ending-reward-list">
+                        {%- for item in ending.items %}
+                        {%- set itemName = item.name | localize(code) %}
+                        <span class="detail-story-reward-chip">{{ itemName or ("#" ~ item.itemId) }} ×{{ item.count }}</span>
+                        {%- endfor %}
+                      </div>
+                      {%- endif %}
+                    </div>
+                    {%- endfor %}
+                  </div>
+                  {%- endif %}
+
+                  {%- if story.scenario %}
+                  <h3 class="detail-story-subtitle">Scenario Script</h3>
+                  <p class="detail-story-summary">Spots {{ story.scenario.summary.spotCount }}, Scenes {{ story.scenario.summary.sceneCount }}, Choices {{ story.scenario.summary.chooseSceneCount }}, Endings {{ story.scenario.summary.endSceneCount }}</p>
+                  <div class="detail-story-script">
+                    {%- for spot in story.scenario.spots %}
+                    {%- for scene in spot.scenes %}
+                    {%- set speaker = scene.speaker | localize(code) %}
+                    {%- set text = scene.text | localize(code) %}
+                    <article class="detail-story-line">
+                      <div class="detail-story-line-top">
+                        <span class="detail-story-line-id">#{{ scene.id }}</span>
+                        <span class="detail-story-line-spot">Spot {{ spot.id }}</span>
+                        {%- if scene.isEnd %}<span class="detail-story-line-spot">End</span>{%- endif %}
+                      </div>
+                      {%- if speaker %}<div class="detail-story-speaker">{{ speaker }}</div>{%- endif %}
+                      {%- if text %}<p class="detail-story-text detail-preline">{{ text }}</p>{%- endif %}
+                      {%- if scene.options | length %}
+                      <div class="detail-story-options">
+                        {%- for option in scene.options %}
+                        {%- set optionText = option.text | localize(code) %}
+                        <div class="detail-story-option">{{ optionText or ("Choice #" ~ option.textId) }}{% if option.eventParam %} → Spot {{ option.eventParam }}{% endif %}</div>
+                        {%- endfor %}
+                      </div>
+                      {%- endif %}
+                      {%- if scene.rewards | length %}
+                      <div class="detail-story-condition">
+                        {%- for reward in scene.rewards %}
+                        {%- set rewardText = reward.text | localize(code) %}
+                        <span>{{ rewardText or ("Ending " ~ reward.id) }}</span>
+                        {%- if reward.items | length %}
+                        <span> — </span>
+                        {%- for item in reward.items %}
+                        {%- set itemName = item.text.name | localize(code) %}
+                        <span>{{ itemName or ("#" ~ item.itemId) }} ×{{ item.count }}</span>{% if not loop.last %}<span>, </span>{% endif %}
+                        {%- endfor %}
+                        {%- endif %}
+                        {%- if not loop.last %}<span>; </span>{% endif %}
+                        {%- endfor %}
+                      </div>
+                      {%- endif %}
+                    </article>
+                    {%- endfor %}
+                    {%- endfor %}
+                  </div>
+                  {%- elif story.hasScenario %}
+                  <p class="detail-story-empty">Scenario unavailable.</p>
+                  {%- endif %}
+                </article>
+                {%- endfor %}
+              </div>
+            </div>
+          </div>
+          {%- else %}
+          <p class="cv-empty text-secondary small mb-0">No stories.</p>
+          {%- endif %}
+        </div>
+      </div>
+    </div>
+  </section>
+</article>
+{%- if hasMultipleSkins %}
+<script type="module" src="{{ '/assets/js/skin-linker.js' | url }}"></script>
+{%- endif %}
+<script type="module" src="{{ '/assets/js/spine-island.js' | url }}"></script>
+{%- if ch.voices | selectattr("audio") | list | length %}
+<script type="module" src="{{ '/assets/js/voice-island.js' | url }}"></script>
+{%- endif %}

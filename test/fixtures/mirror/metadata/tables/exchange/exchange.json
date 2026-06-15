@@ -1,0 +1,19 @@
+[
+  {
+    "id": 1,
+    "source_currency": 100001,
+    "source_value": 10,
+    "target_currency": 100002,
+    "target_value": 500,
+    "name_en": "Copper trade",
+    "name_jp": "Copper trade JP",
+    "name_chs": "Copper trade CHS",
+    "name_chs_t": "Copper trade CHT",
+    "name_kr": "Copper trade KR",
+    "desc_en": "",
+    "desc_jp": " JP",
+    "desc_chs": " CHS",
+    "desc_chs_t": " CHT",
+    "desc_kr": " KR"
+  }
+]

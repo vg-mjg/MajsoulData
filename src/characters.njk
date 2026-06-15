@@ -1,0 +1,53 @@
+---
+pagination:
+  data: locales
+  size: 1
+  alias: locale
+permalink: "/{{ locale.code }}/characters/"
+layout: base.njk
+activeSection: characters
+eleventyComputed:
+  title: "Characters · {{ site.title }}"
+---
+<div class="characters-view" data-tab-toggle-root data-tab-toggle-param="tab">
+  <h1 class="characters-heading h4 mb-3">Characters</h1>
+  {%- if characters | length %}
+  {%- set standardCount = 0 %}
+  {%- set limitedCount = 0 %}
+  {%- set collaborationCount = 0 %}
+  {%- for character in characters %}
+  {%- if character.collaboration > 0 %}
+    {%- set collaborationCount = collaborationCount + 1 %}
+  {%- elif character.limited > 0 %}
+    {%- set limitedCount = limitedCount + 1 %}
+  {%- else %}
+    {%- set standardCount = standardCount + 1 %}
+  {%- endif %}
+  {%- endfor %}
+  <div class="character-filters" aria-label="Character categories">
+    <button type="button" class="btn btn-sm btn-secondary character-filter-btn" data-tab-toggle-button="all" aria-pressed="true">All ({{ characters | length }})</button>
+    <button type="button" class="btn btn-sm btn-outline-secondary character-filter-btn" data-tab-toggle-button="standard" aria-pressed="false">Standard ({{ standardCount }})</button>
+    <button type="button" class="btn btn-sm btn-outline-secondary character-filter-btn" data-tab-toggle-button="limited" aria-pressed="false">Limited ({{ limitedCount }})</button>
+    <button type="button" class="btn btn-sm btn-outline-secondary character-filter-btn" data-tab-toggle-button="collaboration" aria-pressed="false">Collaboration ({{ collaborationCount }})</button>
+  </div>
+  <div class="character-grid">
+    {%- for character in characters %}
+    {%- set name = (character.text.name | localize(locale.code)) or ("#" ~ character.id) %}
+    {%- set thumb = (character.assets.smallhead or character.assets.bighead) | asset(locale.code) %}
+    {%- set category = "Collaboration" if character.collaboration > 0 else ("Limited" if character.limited > 0 else "Standard") %}
+    {%- set categoryKey = "collaboration" if character.collaboration > 0 else ("limited" if character.limited > 0 else "standard") %}
+    <a class="character-card" href="{{ ('/' + locale.code + '/characters/' + (character.id | string) + '/') | url }}" data-tab-toggle-card data-tab-toggle-key="{{ categoryKey }}" data-category="{{ category }}">
+      {%- if thumb %}
+      <img class="character-avatar" src="{{ thumb }}" alt="{{ name }}" loading="lazy" decoding="async" />
+      {%- else %}
+      <span class="character-avatar placeholder">{{ name }}</span>
+      {%- endif %}
+      <span class="character-name text-truncate">{{ name }}</span>
+    </a>
+    {%- endfor %}
+  </div>
+  <script type="module" src="{{ '/assets/js/tab-toggle.js' | url }}"></script>
+  {%- else %}
+  <p class="empty-result">No characters found. Run <code>npm run ingest</code> to build the collection.</p>
+  {%- endif %}
+</div>

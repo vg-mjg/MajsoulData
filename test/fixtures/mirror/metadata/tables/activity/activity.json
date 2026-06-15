@@ -1,0 +1,82 @@
+[
+  {
+    "id": 250101,
+    "name_chs": "夏日祭",
+    "name_chs_t": "夏日祭",
+    "name_jp": "夏祭り",
+    "name_en": "Summer Festival",
+    "name_kr": "",
+    "type": "festival",
+    "need_popout": 1
+  },
+  {
+    "id": 250201,
+    "name_chs": "",
+    "name_chs_t": "",
+    "name_jp": "",
+    "name_en": "",
+    "name_kr": "",
+    "type": "gacha",
+    "need_popout": 1
+  },
+  {
+    "id": 250301,
+    "name_chs": "",
+    "name_chs_t": "",
+    "name_jp": "",
+    "name_en": "",
+    "name_kr": "",
+    "type": "task",
+    "need_popout": 0
+  },
+  {
+    "id": 250401,
+    "name_chs": "",
+    "name_chs_t": "",
+    "name_jp": "",
+    "name_en": "Bannerless Activity",
+    "name_kr": "",
+    "type": "exchange",
+    "need_popout": 0
+  },
+  {
+    "id": 250501,
+    "name_chs": "青云之志",
+    "name_chs_t": "青雲之志",
+    "name_jp": "青雲の志",
+    "name_en": "Sky-High Ambition",
+    "name_kr": "청운의 꿈",
+    "type": "amulet",
+    "need_popout": 1
+  },
+  {
+    "id": 250601,
+    "name_chs": "",
+    "name_chs_t": "",
+    "name_jp": "温泉ホリデー",
+    "name_en": "Hot Spring Holiday",
+    "name_kr": "",
+    "type": "period_task",
+    "need_popout": 1
+  },
+  {
+    "id": 250701,
+    "name_chs": "",
+    "name_chs_t": "",
+    "name_jp": "礼物祭",
+    "name_en": "Gift Festival",
+    "name_kr": "",
+    "type": "gacha",
+    "need_popout": 1
+  },
+  {
+    "id": 250801,
+    "name_chs": "",
+    "name_chs_t": "",
+    "name_jp": "ひとり祭り",
+    "name_en": "Lonely Festival",
+    "name_kr": "",
+    "type": "festival",
+    "need_popout": 1
+  }
+]

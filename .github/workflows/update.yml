@@ -1,4 +1,4 @@
-name: Data Update
+name: Data update and deploy
 
 on:
   schedule:
@@ -25,18 +25,22 @@ jobs:
         uses: actions/setup-node@v4
         with:
           node-version: "20"
+          cache: npm
 
-      - name: Build data
-        run: npm run build
+      - name: Install dependencies
+        run: npm ci
 
-      - name: Commit and push changes
+      - name: Ingest data from mirror
+        run: npm run ingest
+
+      - name: Commit and push collection changes
         id: commit_changes
         run: |
           git config --global user.name "github-actions[bot]"
           git config --global user.email "github-actions[bot]@users.noreply.github.com"
-          git add -f web/
+          git add -f src/_data/ .fetch-state.json
           if git diff --staged --quiet; then
-            echo "No changes to commit"
+            echo "No collection changes to commit"
             echo "changed=false" >> "$GITHUB_OUTPUT"
           else
             VERSION_TRAILERS=$(node .github/workflows/update-version-trailers.js)
@@ -44,6 +48,9 @@ jobs:
             git push
             echo "changed=true" >> "$GITHUB_OUTPUT"
           fi
+
+      - name: Test, build, and verify runtime fetch policy
+        run: npm run ci
 
       - name: Setup Pages
         uses: actions/configure-pages@v4
@@ -53,7 +60,7 @@ jobs:
       - name: Upload Pages artifact
         uses: actions/upload-pages-artifact@v3
         with:
-          path: ./web
+          path: ./_site
 
       - name: Deploy to GitHub Pages
         id: deployment

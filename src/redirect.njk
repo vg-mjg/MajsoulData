@@ -1,0 +1,60 @@
+---
+permalink: "/index.html"
+eleventyExcludeFromCollections: true
+---
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>{{ site.title }}</title>
+    <meta name="robots" content="noindex" />
+    <link rel="icon" href="{{ '/assets/favicon.ico' | url }}" />
+    <script>
+      (function () {
+        "use strict";
+        var KEY = "{{ site.storageKey }}";
+        var SUPPORTED = [{% for l in locales %}"{{ l.code }}"{% if not loop.last %}, {% endif %}{% endfor %}];
+        var BASE = "{{ '/' | url }}";
+
+        function fromStorage() {
+          try {
+            var saved = localStorage.getItem(KEY);
+            if (saved && SUPPORTED.indexOf(saved) >= 0) return saved;
+          } catch (e) {}
+          return null;
+        }
+
+        // Map a browser BCP-47 tag to one of our game locale codes.
+        function mapTag(tag) {
+          tag = String(tag || "").toLowerCase();
+          if (tag.indexOf("ja") === 0) return "jp";
+          if (tag.indexOf("ko") === 0) return "kr";
+          if (tag.indexOf("zh") === 0) {
+            if (tag.indexOf("hant") >= 0 || tag.indexOf("tw") >= 0 || tag.indexOf("hk") >= 0 || tag.indexOf("mo") >= 0) {
+              return "chs_t";
+            }
+            return "chs";
+          }
+          if (tag.indexOf("en") === 0) return "en";
+          return null;
+        }
+
+        function fromNavigator() {
+          var tags = (navigator.languages && navigator.languages.length) ? navigator.languages : [navigator.language || ""];
+          for (var i = 0; i < tags.length; i++) {
+            var code = mapTag(tags[i]);
+            if (code && SUPPORTED.indexOf(code) >= 0) return code;
+          }
+          return null;
+        }
+
+        var lang = fromStorage() || fromNavigator() || "en";
+        location.replace(BASE + lang + "/");
+      })();
+    </script>
+  </head>
+  <body>
+    <noscript><a href="{{ '/en/' | url }}">Continue to {{ site.title }}</a></noscript>
+  </body>
+</html>

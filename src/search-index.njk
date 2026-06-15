@@ -1,0 +1,9 @@
+---
+pagination:
+  data: searchIndexPages
+  size: 1
+  alias: locale
+permalink: "/{{ locale.code }}/search-index.json"
+eleventyExcludeFromCollections: true
+---
+{{ locale.index | dump | safe }}

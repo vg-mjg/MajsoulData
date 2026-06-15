@@ -1,0 +1,32 @@
+{
+  "Spots": [
+    {
+      "spotid": 1,
+      "SceneMap": [
+        {
+          "sceneId": 10,
+          "haveChoose": true,
+          "isEnd": false,
+          "chatBlock": { "chatType": 1, "content_id": 100, "charname_id": 200 },
+          "options": [
+            {
+              "optionid": 1,
+              "content_id": 300,
+              "_event": { "eventtype": 4, "param": 2 },
+              "consume": { "itemId": 100001, "count": 2 }
+            }
+          ],
+          "conditions": [{ "rewardId": 1000041 }]
+        },
+        {
+          "sceneId": 11,
+          "haveChoose": false,
+          "isEnd": true,
+          "chatBlock": { "chatType": 1, "content_id": 101, "charname_id": 201 },
+          "options": [],
+          "conditions": []
+        }
+      ]
+    }
+  ]
+}

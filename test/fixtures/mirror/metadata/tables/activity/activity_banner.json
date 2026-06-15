@@ -1,0 +1,90 @@
+[
+  {
+    "id": 1,
+    "sort": 2,
+    "banner_type": 1,
+    "enter_icon": "",
+    "banner_big": "",
+    "banner_left": "ui/activity/lobby/banner_tab/pic/daily_mission.png",
+    "banner_left_selected": "",
+    "banner_left_icon": "",
+    "time_remind": 0
+  },
+  {
+    "id": 250101,
+    "sort": 5,
+    "banner_type": 1,
+    "enter_icon": "",
+    "banner_big": "ui/activity/lobby/banner_tab/pic/summer_b.jpg",
+    "banner_left": "ui/activity/lobby/banner_tab/pic/summer.png",
+    "banner_left_selected": "",
+    "banner_left_icon": "",
+    "time_remind": 0
+  },
+  {
+    "id": 250201,
+    "sort": 3,
+    "banner_type": 2,
+    "enter_icon": "ui/activity/lobby/banner_lobby/pic/winter_gacha_0.png",
+    "banner_big": "",
+    "banner_left": "ui/activity/lobby/banner_tab/pic/winter_gacha.png",
+    "banner_left_selected": "",
+    "banner_left_icon": "",
+    "time_remind": 0
+  },
+  {
+    "id": 250301,
+    "sort": 1,
+    "banner_type": 1,
+    "enter_icon": "",
+    "banner_big": "",
+    "banner_left": "",
+    "banner_left_selected": "",
+    "banner_left_icon": "",
+    "time_remind": 0
+  },
+  {
+    "id": 250501,
+    "sort": 6,
+    "banner_type": 1,
+    "enter_icon": "",
+    "banner_big": "ui/activity/lobby/banner_lobby/pic/qingyun_b.jpg",
+    "banner_left": "",
+    "banner_left_selected": "",
+    "banner_left_icon": "",
+    "time_remind": 0
+  },
+  {
+    "id": 250601,
+    "sort": 7,
+    "banner_type": 1,
+    "enter_icon": "",
+    "banner_big": "ui/activity/lobby/banner_lobby/pic/wenquan_b.jpg",
+    "banner_left": "",
+    "banner_left_selected": "",
+    "banner_left_icon": "",
+    "time_remind": 0
+  },
+  {
+    "id": 250701,
+    "sort": 8,
+    "banner_type": 1,
+    "enter_icon": "",
+    "banner_big": "ui/activity/lobby/banner_lobby/pic/lifu_b.jpg",
+    "banner_left": "",
+    "banner_left_selected": "",
+    "banner_left_icon": "",
+    "time_remind": 0
+  },
+  {
+    "id": 250801,
+    "sort": 9,
+    "banner_type": 1,
+    "enter_icon": "",
+    "banner_big": "ui/activity/lobby/banner_lobby/pic/lonely_b.jpg",
+    "banner_left": "",
+    "banner_left_selected": "",
+    "banner_left_icon": "",
+    "time_remind": 0
+  }
+]

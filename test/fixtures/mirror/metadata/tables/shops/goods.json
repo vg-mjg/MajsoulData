@@ -1,0 +1,22 @@
+[
+  {
+    "id": 1,
+    "category": 1,
+    "name_en": "Gift Token Shop",
+    "name_jp": "Gift Token Shop JP",
+    "name_chs": "Gift Token Shop CHS",
+    "name_chs_t": "Gift Token Shop CHT",
+    "name_kr": "Gift Token Shop KR",
+    "desc_en": "",
+    "desc_jp": " JP",
+    "desc_chs": " CHS",
+    "desc_chs_t": " CHT",
+    "desc_kr": " KR",
+    "item_id": 300001,
+    "price": "100001-5",
+    "buy_limit": 3,
+    "zone": "1",
+    "launch_time": "",
+    "discount": 10000
+  }
+]

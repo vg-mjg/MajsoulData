@@ -1,0 +1,27 @@
+{
+  "audio_count": 18982,
+  "legacy_version": "0.11.252.w",
+  "regions": {
+    "cn": {
+      "bundle_hash": "c7bfb4051e77ff669427b6d71a4479ee94b4ad1e",
+      "manifest_generated_at": "2026-06-10T22:07:49Z",
+      "resource_version": "0.16.232"
+    },
+    "en": {
+      "bundle_hash": "23430a913b1cb85d723ade1981bcad04b04076af",
+      "manifest_generated_at": "2026-06-10T22:05:30Z",
+      "resource_version": "0.16.193"
+    },
+    "jp": {
+      "bundle_hash": "7cb91b80fe3a1f50746af3a67aca0dc7cf0917db",
+      "manifest_generated_at": "2026-06-10T22:06:36Z",
+      "resource_version": "0.16.193"
+    },
+    "kr": {
+      "bundle_hash": "b42a0d8e76274eb1d3035bcd13c3673f6758968b",
+      "manifest_generated_at": "2026-06-10T22:08:48Z",
+      "resource_version": "0.16.193"
+    }
+  },
+  "schema_version": 6
+}

@@ -1,0 +1,83 @@
+[
+  {
+    "id": 900101,
+    "type": "",
+    "en": "[tag]Hello {0}![/tag]\nFresh image post.",
+    "jp": "こんにちは Player！",
+    "chs": "简体新图",
+    "chs_t": "繁體新圖",
+    "kr": "새 이미지"
+  },
+  {
+    "id": 900102,
+    "type": "",
+    "en": "Named speaker reply",
+    "jp": "Named speaker JP",
+    "chs": "具名回复",
+    "chs_t": "具名回覆",
+    "kr": "Named KR"
+  },
+  {
+    "id": 900103,
+    "type": "",
+    "en": "Player choice text",
+    "jp": "Player choice JP",
+    "chs": "玩家选项",
+    "chs_t": "玩家選項",
+    "kr": "Player KR"
+  },
+  {
+    "id": 900104,
+    "type": "",
+    "en": "System notice",
+    "jp": "System JP",
+    "chs": "系统通知",
+    "chs_t": "系統通知",
+    "kr": "System KR"
+  },
+  {
+    "id": 900105,
+    "type": "",
+    "en": "Disabled post",
+    "jp": "Disabled JP",
+    "chs": "隐藏",
+    "chs_t": "隱藏",
+    "kr": "Hidden KR"
+  },
+  {
+    "id": 900106,
+    "type": "",
+    "en": "Second activity post",
+    "jp": "Second JP",
+    "chs": "第二活动",
+    "chs_t": "第二活動",
+    "kr": "Second KR"
+  },
+  {
+    "id": 900201,
+    "type": "",
+    "en": "Mystery Cat",
+    "jp": "ミステリー猫",
+    "chs": "神秘猫",
+    "chs_t": "神秘貓",
+    "kr": "Mystery KR"
+  },
+  {
+    "id": 900107,
+    "type": "",
+    "en": "Unresolved image survives",
+    "jp": "Unresolved JP",
+    "chs": "未解析图保留",
+    "chs_t": "未解析圖保留",
+    "kr": "Unresolved KR"
+  },
+  {
+    "id": 900108,
+    "type": "",
+    "en": "Second player choice",
+    "jp": "Second choice JP",
+    "chs": "第二玩家选项",
+    "chs_t": "第二玩家選項",
+    "kr": "Second choice KR"
+  }
+]

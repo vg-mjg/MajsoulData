@@ -1,0 +1,73 @@
+---
+pagination:
+  data: locales
+  size: 1
+  alias: locale
+permalink: "/{{ locale.code }}/achievements/"
+layout: base.njk
+activeSection: achievements
+eleventyComputed:
+  title: "Achievements · {{ site.title }}"
+---
+<div class="achievements-view" data-tab-toggle-root data-tab-toggle-param="tab">
+  <h1 class="characters-heading h4 mb-3">Achievements</h1>
+  {%- if achievements | length %}
+  {%- set total = 0 %}
+  {%- for group in achievements %}{% set total = total + (group.achievements | length) %}{% endfor %}
+  <div class="achievement-group-filters" aria-label="Achievement groups">
+    <button type="button" class="btn btn-sm btn-secondary character-filter-btn" data-tab-toggle-button="all" aria-pressed="true">All ({{ total }})</button>
+    {%- for group in achievements %}
+    {%- set groupName = (group.text.name | localize(locale.code)) or ("Group #" ~ group.id) %}
+    <button type="button" class="btn btn-sm btn-outline-secondary character-filter-btn" data-tab-toggle-button="group-{{ group.id }}" aria-pressed="false">{{ groupName }} ({{ group.achievements | length }})</button>
+    {%- endfor %}
+  </div>
+  <div class="achievement-entry-grid">
+    {%- for group in achievements %}
+    {%- set groupName = (group.text.name | localize(locale.code)) or ("Group #" ~ group.id) %}
+    <article class="achievement-entry" data-tab-toggle-card data-tab-toggle-key="group-{{ group.id }}">
+      <h2 class="achievement-entry-title">{{ groupName }}</h2>
+      <p class="achievement-entry-description">{{ group.achievements | length }} achievements</p>
+      {%- if group.rewards | length %}
+      <div class="achievement-reward-list">
+        {%- for reward in group.rewards %}
+        {%- set rewardName = (reward.text.name | localize(locale.code)) or ("#" ~ reward.itemId) %}
+        <a class="achievement-reward-chip achievement-reward-chip-button text-decoration-none" href="{{ ('/' + locale.code + '/items/' + (reward.itemId | string) + '/') | url }}">
+          <span class="achievement-reward-mark" aria-hidden="true"></span>
+          <span class="achievement-reward-text">{{ rewardName }} ×{{ reward.count }}</span>
+        </a>
+        {%- endfor %}
+      </div>
+      {%- endif %}
+    </article>
+    {%- for achievement in group.achievements %}
+    {%- set name = (achievement.text.name | localize(locale.code)) or ("#" ~ achievement.id) %}
+    <article class="achievement-entry" data-tab-toggle-card data-tab-toggle-key="group-{{ group.id }}">
+      <h2 class="achievement-entry-title">{{ name }}</h2>
+      <p class="achievement-entry-description">{{ (achievement.text.description | localize(locale.code)) or "-" }}</p>
+      <div class="achievement-entry-meta">
+        <span class="achievement-meta-badge achievement-meta-rare-{{ achievement.rare if achievement.rare <= 3 else 3 }}">Rare {{ achievement.rare }}</span>
+        <span class="achievement-meta-badge">{{ groupName }}</span>
+        {%- if achievement.hidden > 0 %}<span class="achievement-meta-badge achievement-meta-warning">Hidden</span>{%- endif %}
+        {%- if achievement.locked > 0 %}<span class="achievement-meta-badge achievement-meta-warning">Locked</span>{%- endif %}
+        {%- if achievement.deprecated > 0 %}<span class="achievement-meta-badge achievement-meta-muted">Deprecated</span>{%- endif %}
+      </div>
+      {%- if achievement.rewards | length %}
+      <div class="achievement-reward-list">
+        {%- for reward in achievement.rewards %}
+        {%- set rewardName = (reward.text.name | localize(locale.code)) or ("#" ~ reward.itemId) %}
+        <a class="achievement-reward-chip achievement-reward-chip-button text-decoration-none" href="{{ ('/' + locale.code + '/items/' + (reward.itemId | string) + '/') | url }}">
+          <span class="achievement-reward-mark" aria-hidden="true"></span>
+          <span class="achievement-reward-text">{{ rewardName }} ×{{ reward.count }}</span>
+        </a>
+        {%- endfor %}
+      </div>
+      {%- endif %}
+    </article>
+    {%- endfor %}
+    {%- endfor %}
+  </div>
+  <script type="module" src="{{ '/assets/js/tab-toggle.js' | url }}"></script>
+  {%- else %}
+  <p class="empty-result">No achievements found. Run <code>npm run ingest</code> to build the collection.</p>
+  {%- endif %}
+</div>

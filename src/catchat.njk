@@ -1,0 +1,123 @@
+---
+pagination:
+  data: locales
+  size: 1
+  alias: locale
+permalink: "/{{ locale.code }}/catchat/"
+layout: base.njk
+activeSection: catchat
+eleventyComputed:
+  title: "CatChat · {{ site.title }}"
+---
+{% macro renderEntries(entries, locale, depth) %}
+  {%- for entry in entries %}
+    {%- set authorName = (entry.author.name | localize(locale.code)) or "System" %}
+    {%- set text = (entry.text.content | localize(locale.code)) or "-" %}
+    {%- if entry.kind == "system" %}
+      <article class="catchat-system-entry{% if depth > 0 %} is-reply{% endif %}">
+        {{ text }}
+        {%- if entry.children | length %}
+        <div class="catchat-entry-children">
+          {{ renderEntries(entry.children, locale, depth + 1) }}
+        </div>
+        {%- endif %}
+      </article>
+    {%- else %}
+      {%- set avatarImage = entry.author.avatar | asset(locale.code) %}
+      {%- set headImage = "" %}
+      {%- if entry.contentHead %}
+        {%- set headImage = entry.contentHead.image | asset(locale.code) %}
+      {%- endif %}
+      {%- set useHeadAsAvatar = (not avatarImage) and headImage %}
+      <article class="catchat-entry catchat-entry-{{ entry.kind }}{% if entry.isPrivate %} is-private{% endif %}{% if depth > 0 %} is-reply{% endif %}">
+        <div class="catchat-entry-header">
+          {%- if entry.author.kind == "player" %}
+          <img class="catchat-entry-avatar" src="{{ '/assets/mao.png' | url }}" alt="Player avatar" loading="lazy" decoding="async" />
+          {%- elif avatarImage or useHeadAsAvatar %}
+          <img class="catchat-entry-avatar" src="{{ avatarImage or headImage }}" alt="{{ authorName }} avatar" loading="lazy" decoding="async" />
+          {%- else %}
+          <div class="catchat-entry-avatar placeholder" aria-hidden="true">{{ authorName }}</div>
+          {%- endif %}
+          <div class="catchat-entry-title-wrap">
+            <p class="catchat-entry-author">{{ authorName }}</p>
+            <div class="catchat-entry-meta">
+              {%- if entry.likes > 0 %}<span class="catchat-entry-badge">Likes {{ entry.likes }}</span>{% endif %}
+              {%- if entry.kind == "choice" and entry.choiceId > 0 %}<span class="catchat-entry-badge choice">Choice {{ entry.choiceId }}</span>{% endif %}
+              {%- if entry.isPrivate %}<span class="catchat-entry-badge private">PM</span>{% endif %}
+            </div>
+          </div>
+        </div>
+
+        <p class="catchat-entry-text detail-preline">{%- if entry.replyTo -%}<span class="catchat-reply-mention">@{{ entry.replyTo.name | localize(locale.code) }} </span>{%- endif -%}{{ text }}</p>
+
+        {%- if entry.unlock %}
+          {%- set unlockName = (entry.unlock.name | localize(locale.code)) or ("#" ~ entry.unlock.itemId) %}
+        <div class="catchat-unlock">
+          {%- set unlockIcon = entry.unlock.icon | asset(locale.code) %}
+          {%- if unlockIcon %}
+          <img class="catchat-unlock-icon" src="{{ unlockIcon }}" alt="{{ unlockName }} icon" loading="lazy" decoding="async" />
+          {%- else %}
+          <div class="catchat-unlock-icon placeholder" aria-hidden="true">{{ unlockName }}</div>
+          {%- endif %}
+          <span class="catchat-unlock-text">Unlock: {{ unlockName }}{% if entry.unlock.count > 0 %} ×{{ entry.unlock.count }}{% endif %}</span>
+        </div>
+        {%- endif %}
+
+        {%- set hasGallery = (entry.images | length) or (entry.contentHead and not useHeadAsAvatar) %}
+        {%- if hasGallery %}
+        <div class="catchat-entry-images">
+          {%- for item in entry.images %}
+            {%- set image = item.image | asset(locale.code) %}
+            {%- if image %}
+          <img class="catchat-entry-image is-clickable" src="{{ image }}" alt="{{ authorName }} image" loading="lazy" decoding="async" data-lightbox-src="{{ image }}" data-lightbox-alt="{{ authorName }} image" role="button" tabindex="0" />
+            {%- else %}
+          <div class="catchat-entry-image placeholder" title="{{ item.ref }}">Image unavailable</div>
+            {%- endif %}
+          {%- endfor %}
+          {%- if entry.contentHead and not useHeadAsAvatar %}
+            {%- set profileImage = entry.contentHead.image | asset(locale.code) %}
+            {%- if profileImage %}
+          <img class="catchat-entry-image is-clickable" src="{{ profileImage }}" alt="{{ authorName }} profile image" loading="lazy" decoding="async" data-lightbox-src="{{ profileImage }}" data-lightbox-alt="{{ authorName }} profile image" role="button" tabindex="0" />
+            {%- else %}
+          <div class="catchat-entry-image placeholder" title="{{ entry.contentHead.ref }}">Image unavailable</div>
+            {%- endif %}
+          {%- endif %}
+        </div>
+        {%- endif %}
+
+        {%- if entry.children | length %}
+        <div class="catchat-entry-children">
+          {{ renderEntries(entry.children, locale, depth + 1) }}
+        </div>
+        {%- endif %}
+      </article>
+    {%- endif %}
+  {%- endfor %}
+{% endmacro %}
+
+<div class="catchat-view" data-catchat-root>
+  <h1 class="characters-heading h4 mb-3">CatChat</h1>
+  {%- if catchat | length %}
+  <div class="catchat-filters" role="tablist" aria-label="CatChat threads">
+    {%- for activity in catchat %}
+    {%- set title = activity.text.name | localize(locale.code) %}
+    {%- set tabLabel = title or ("#" ~ activity.id) %}
+    <button type="button" class="btn btn-sm character-filter-btn {% if loop.first %}btn-secondary{% else %}btn-outline-secondary{% endif %}" role="tab" aria-selected="{% if loop.first %}true{% else %}false{% endif %}" aria-controls="catchat-panel-{{ activity.id }}" id="catchat-tab-{{ activity.id }}" data-catchat-tab="{{ activity.id }}">{{ tabLabel }}</button>
+    {%- endfor %}
+  </div>
+  {%- for activity in catchat %}
+  <section class="catchat-scenario" id="catchat-panel-{{ activity.id }}" role="tabpanel" aria-labelledby="catchat-tab-{{ activity.id }}" data-catchat-panel="{{ activity.id }}"{% if not loop.first %} hidden{% endif %}>
+    <div class="catchat-thread-list">
+      {%- if activity.threads | length %}
+      {{ renderEntries(activity.threads, locale, 0) }}
+      {%- else %}
+      <div class="empty-result">No CatChat entries found for this activity.</div>
+      {%- endif %}
+    </div>
+  </section>
+  {%- endfor %}
+  <script type="module" src="{{ '/assets/js/catchat-tabs.js' | url }}"></script>
+  {%- else %}
+  <p class="empty-result">No CatChat data found. Run <code>npm run ingest</code> to build the collection.</p>
+  {%- endif %}
+</div>

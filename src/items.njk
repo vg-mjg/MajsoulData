@@ -1,0 +1,41 @@
+---
+pagination:
+  data: locales
+  size: 1
+  alias: locale
+permalink: "/{{ locale.code }}/items/"
+layout: base.njk
+activeSection: items
+eleventyComputed:
+  title: "Items · {{ site.title }}"
+---
+<div class="items-view" data-tab-toggle-root data-tab-toggle-param="filter">
+  <h1 class="characters-heading h4 mb-3">Items</h1>
+  {%- if items | length %}
+  {%- set filters = [] %}
+  <div class="item-filters" aria-label="Item categories">
+    <button type="button" class="btn btn-sm btn-secondary character-filter-btn" data-tab-toggle-button="all" aria-pressed="true">All ({{ items | length }})</button>
+    {%- for group in items | item_category_groups %}
+    <button type="button" class="btn btn-sm btn-outline-secondary character-filter-btn" data-tab-toggle-button="{{ group.key }}" aria-pressed="false">{{ group.label }} ({{ group.list | length }})</button>
+    {%- endfor %}
+  </div>
+  <div class="item-grid" data-item-grid>
+    {%- for item in items %}
+    {%- set name = (item.text.name | localize(locale.code)) or ("#" ~ item.id) %}
+    {%- set thumb = item.assets.icon | asset(locale.code) %}
+    {%- if not thumb %}{% set thumb = item.assets.loadingImage | asset(locale.code) %}{% endif %}
+    <a class="item-card text-decoration-none" href="{{ ('/' + locale.code + '/items/' + (item.id | string) + '/') | url }}" data-tab-toggle-card data-tab-toggle-key="{{ item.categoryLabel | item_filter_key }}" data-category="{{ item.categoryLabel }}">
+      {%- if thumb %}
+      <img class="item-icon" src="{{ thumb }}" alt="{{ name }}" loading="lazy" decoding="async" />
+      {%- else %}
+      <span class="item-icon placeholder">{{ name }}</span>
+      {%- endif %}
+      <span class="item-name text-truncate">{{ name }}</span>
+    </a>
+    {%- endfor %}
+  </div>
+  <script type="module" src="{{ '/assets/js/tab-toggle.js' | url }}"></script>
+  {%- else %}
+  <p class="empty-result">No items found. Run <code>npm run ingest</code> to build the collection.</p>
+  {%- endif %}
+</div>

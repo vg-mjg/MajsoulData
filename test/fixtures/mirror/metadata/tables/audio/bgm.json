@@ -1,0 +1,34 @@
+[
+  {
+    "id": 309999,
+    "unlock_item": 0,
+    "path": "music/other.mp3",
+    "type": "lobby",
+    "name_en": "Other BGM",
+    "name_jp": "Other BGM JP",
+    "name_chs": "Other BGM CHS",
+    "name_chs_t": "Other BGM CHT",
+    "name_kr": "Other BGM KR",
+    "desc_en": "",
+    "desc_jp": " JP",
+    "desc_chs": " CHS",
+    "desc_chs_t": " CHT",
+    "desc_kr": " KR"
+  },
+  {
+    "id": 306002,
+    "unlock_item": 306002,
+    "path": "music/lobby.mp3",
+    "type": "lobby",
+    "name_en": "Lobby BGM",
+    "name_jp": "Lobby BGM JP",
+    "name_chs": "Lobby BGM CHS",
+    "name_chs_t": "Lobby BGM CHT",
+    "name_kr": "Lobby BGM KR",
+    "desc_en": "",
+    "desc_jp": " JP",
+    "desc_chs": " CHS",
+    "desc_chs_t": " CHT",
+    "desc_kr": " KR"
+  }
+]

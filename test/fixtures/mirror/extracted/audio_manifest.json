@@ -1,0 +1,29 @@
+[
+  {
+    "path": "MyAssets/audio/sound/yiji/act_rich.mp3"
+  },
+  {
+    "path": "MyAssets/audio/sound/yiji/act_drich.mp3"
+  },
+  {
+    "path": "MyAssets/audio/sound/yiji/act_chi.mp3"
+  },
+  {
+    "path": "MyAssets/audio/sound/gongyongxiao/act_rich.mp3"
+  },
+  {
+    "path": "MyAssets/audio/sound/gongyongxiao/act_drich.mp3"
+  },
+  {
+    "path": "MyAssets/audio/sound/gongyongxiao/act_chi.mp3"
+  },
+  {
+    "path": "MyAssets/audio/sound/yiji/spot/jtm_2_ich_085.mp3"
+  },
+  {
+    "path": "MyAssets/audio/music/riichi.mp3"
+  },
+  {
+    "path": "MyAssets/audio/music/lobby.mp3"
+  }
+]

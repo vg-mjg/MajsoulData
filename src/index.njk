@@ -1,0 +1,21 @@
+---
+pagination:
+  data: locales
+  size: 1
+  alias: locale
+permalink: "/{{ locale.code }}/"
+layout: base.njk
+viewRootClass: home-view-root
+---
+<div class="home-links-layout">
+  {%- for region in regionLinks %}
+  <section class="home-region{% if not loop.last %} home-region-divider{% endif %}">
+    <h5 class="home-region-title">{{ region.name }}</h5>
+    <div class="home-region-links">
+      {%- for entry in region.links %}
+      <a class="home-region-link" href="{{ entry.url }}" target="_blank" rel="noopener noreferrer">{{ entry.label }}</a>
+      {%- endfor %}
+    </div>
+  </section>
+  {%- endfor %}
+</div>

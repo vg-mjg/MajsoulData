@@ -1,0 +1,62 @@
+{
+  "generatedAt": "2026-01-01T00:00:00Z",
+  "entries": [
+    {
+      "outputPath": "MyAssets/deco/emo/e200001/kr/2.png"
+    },
+    {
+      "outputPath": "MyAssets/extendRes/items/gift.png"
+    },
+    {
+      "outputPath": "MyAssets/extendRes/items/box.png"
+    },
+    {
+      "outputPath": "MyAssets/extendRes/items/jade.png"
+    },
+    {
+      "outputPath": "MyAssets/extendRes/items/copper.png"
+    },
+    {
+      "outputPath": "MyAssets/deco/tablecloth/blue/pic/blue.png"
+    },
+    {
+      "outputPath": "MyAssets/deco/tablecloth/blue/3d/texture/Table_Dif.png"
+    },
+    {
+      "outputPath": "MyAssets/deco/mjpai/green/pic/green.png"
+    },
+    {
+      "outputPath": "MyAssets/deco/mjpai/green/3d/texture/hand.png"
+    },
+    {
+      "outputPath": "MyAssets/deco/head_frame/gold_frame/icon/gold_frame.png"
+    },
+    {
+      "outputPath": "MyAssets/extendRes/background/moon_bg/moon_bg.png"
+    },
+    {
+      "outputPath": "MyAssets/deco/bgm/pic/riichi.png"
+    },
+    {
+      "outputPath": "MyAssets/deco/loading_cg/201201/main/201201.jpg"
+    },
+    {
+      "outputPath": "MyAssets/deco/loading_cg/201201/thumb/201201_thumb.jpg"
+    },
+    {
+      "outputPath": "MyAssets/deco/title/notitle/pic/notitle.png"
+    },
+    {
+      "outputPath": "MyAssets/deco/title/notitle/item/notitle.png"
+    },
+    {
+      "outputPath": "MyAssets/extendRes/loading/common/table_0.png"
+    },
+    {
+      "outputPath": "MyAssets/extendRes/items/trial_ticket.png"
+    },
+    {
+      "outputPath": "MyAssets/ui/activity/extend/catchat/main/pic_scattered/kr/second.png"
+    }
+  ]
+}

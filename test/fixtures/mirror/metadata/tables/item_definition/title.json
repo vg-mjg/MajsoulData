@@ -1,0 +1,21 @@
+[
+  {
+    "id": 600001,
+    "priority": 1,
+    "name_en": "N/A",
+    "name_jp": "N/A JP",
+    "name_chs": "N/A CHS",
+    "name_chs_t": "N/A CHT",
+    "name_kr": "N/A KR",
+    "desc_en": "No title.",
+    "desc_jp": "No title. JP",
+    "desc_chs": "No title. CHS",
+    "desc_chs_t": "No title. CHT",
+    "desc_kr": "No title. KR",
+    "icon": "deco/title/notitle/pic/notitle.png",
+    "icon_item": "deco/title/notitle/item/notitle.png",
+    "unlock_type": 0,
+    "unlock_param": {},
+    "cross_view": 0
+  }
+]

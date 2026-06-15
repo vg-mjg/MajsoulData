@@ -1,0 +1,4 @@
+[
+  {"id":1,"name_en":"The Journey","name_jp":"The Journey JP","name_chs":"The Journey CHS","name_chs_t":"The Journey CHT","name_kr":"The Journey KR","img":"journey.png","reward":"600001-1","percentage":1,"deprecated":0,"sort":1},
+  {"id":2,"name_en":"Collector","name_jp":"Collector JP","name_chs":"Collector CHS","name_chs_t":"Collector CHT","name_kr":"Collector KR","img":"collector.png","reward":"","percentage":0,"deprecated":0,"sort":2}
+]

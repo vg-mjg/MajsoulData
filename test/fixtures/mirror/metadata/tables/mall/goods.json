@@ -1,0 +1,21 @@
+[
+  {
+    "id": 1,
+    "name_en": "120Jade",
+    "name_jp": "120 Jade JP",
+    "name_chs": "120 Jade CHS",
+    "name_chs_t": "120 Jade CHT",
+    "name_kr": "120 Jade KR",
+    "desc_en": "",
+    "desc_jp": " JP",
+    "desc_chs": " CHS",
+    "desc_chs_t": " CHT",
+    "desc_kr": " KR",
+    "resource_id": 100001,
+    "resource_count": 120,
+    "vip_exp": 12,
+    "cny": 12,
+    "price": "$1.99",
+    "type": 1
+  }
+]

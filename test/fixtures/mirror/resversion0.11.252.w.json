@@ -1,0 +1,52 @@
+{
+  "res": {
+    "en/myres2/activity_banner/wenquan_b.jpg": {
+      "prefix": "v0.11.235.w"
+    },
+    "chs_t/myres2/activity_banner/wenquan_b.jpg": {
+      "prefix": "v0.11.235.w"
+    },
+    "jp/myres2/activity_banner/wenquan_b.jpg": {
+      "prefix": "v0.11.235.w"
+    },
+    "kr/myres2/activity_banner/wenquan_b.jpg": {
+      "prefix": "v0.11.235.w"
+    },
+    "en/myres2/activity_banner/lifu_b.jpg": {
+      "prefix": "v0.11.104.w"
+    },
+    "chs_t/myres2/activity_banner/lifu_b.jpg": {
+      "prefix": "v0.11.104.w"
+    },
+    "jp/myres2/activity_banner/lifu_b.jpg": {
+      "prefix": "v0.11.106.w"
+    },
+    "kr/myres2/activity_banner/lifu_b.jpg": {
+      "prefix": "v0.11.104.w"
+    },
+    "lang/chs/myres2/activity_banner/lifu_b.jpg": {
+      "prefix": "v0.11.104.w"
+    },
+    "audio/sound/foo/bar.mp3": {
+      "prefix": "v0.10.1.w"
+    },
+    "en/myres/sns/catpost_0.png": {
+      "prefix": "v0.11.50.w"
+    },
+    "en/myres/sns/legacy_file.png": {
+      "prefix": "v0.11.50.w"
+    },
+    "chs/myres/sns/legacy_file.png": {
+      "prefix": "v0.11.51.w"
+    },
+    "chs_t/myres/sns/legacy_file.png": {
+      "prefix": "v0.11.52.w"
+    },
+    "jp/myres/sns/legacy_file.png": {
+      "prefix": "v0.11.53.w"
+    },
+    "kr/myres/sns/legacy_file.png": {
+      "prefix": "v0.11.54.w"
+    }
+  }
+}

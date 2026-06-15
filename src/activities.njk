@@ -1,0 +1,36 @@
+---
+pagination:
+  data: locales
+  size: 1
+  alias: locale
+permalink: "/{{ locale.code }}/activities/"
+layout: base.njk
+activeSection: activities
+eleventyComputed:
+  title: "Activities · {{ site.title }}"
+---
+<div class="activities-view">
+  <h1 class="characters-heading h4 mb-3">Activities</h1>
+  {%- if activities | length %}
+  <div class="activity-grid">
+    {%- for activity in activities %}
+    {%- set name = (activity.text.name | localize(locale.code)) or activity.fallbackName or ("Activity #" ~ activity.id) %}
+    {%- set image = activity.image | asset(locale.code) %}
+    {%- if image %}
+    <button type="button" class="activity-card is-previewable" data-lightbox-src="{{ image }}" data-lightbox-alt="{{ name }}" aria-label="{{ name }} image preview">
+      <img class="activity-thumb is-clickable" src="{{ image }}" alt="{{ name }}" loading="lazy" decoding="async" />
+      <span class="activity-name">{{ name }}</span>
+    </button>
+    {%- else %}
+    <div class="activity-card is-placeholder">
+      <div class="activity-thumb placeholder" aria-hidden="true">{{ name }}</div>
+      <span class="activity-name">{{ name }}</span>
+    </div>
+    {%- endif %}
+    {%- endfor %}
+  </div>
+  <script type="module" src="{{ '/assets/js/activities-lightbox.js' | url }}"></script>
+  {%- else %}
+  <p class="empty-result">No activities found. Run <code>npm run ingest</code> to build the collection.</p>
+  {%- endif %}
+</div>

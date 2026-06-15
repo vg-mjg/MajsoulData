@@ -1,0 +1,110 @@
+{
+  "generatedAt": "2026-01-01T00:00:00Z",
+  "entries": [
+    {
+      "outputPath": "MyAssets/deco/character/gongyongxiao/bighead/bighead.png"
+    },
+    {
+      "outputPath": "MyAssets/deco/character/gongyongxiao/smallhead/smallhead.png"
+    },
+    {
+      "outputPath": "MyAssets/deco/character/gongyongxiao/half/half.png"
+    },
+    {
+      "outputPath": "MyAssets/deco/character/gongyongxiao/full/full.png"
+    },
+    {
+      "outputPath": "MyAssets/deco/emo/e200001/chs/2.png"
+    },
+    {
+      "outputPath": "MyAssets/deco/emo/e200001/chs_t/2.png"
+    },
+    {
+      "outputPath": "MyAssets/spine/403405/1/saki.skel.txt"
+    },
+    {
+      "outputPath": "MyAssets/spine/403405/1/saki.atlas.txt"
+    },
+    {
+      "outputPath": "MyAssets/spine/403405/1/saki.png"
+    },
+    {
+      "outputPath": "MyAssets/spine/403405/2/saki.skel.txt"
+    },
+    {
+      "outputPath": "MyAssets/spine/403405/2/saki.atlas.txt"
+    },
+    {
+      "outputPath": "MyAssets/spine/403405/2/saki.png"
+    },
+    {
+      "outputPath": "MyAssets/extendRes/items/gift.png"
+    },
+    {
+      "outputPath": "MyAssets/extendRes/items/box.png"
+    },
+    {
+      "outputPath": "MyAssets/extendRes/items/jade.png"
+    },
+    {
+      "outputPath": "MyAssets/extendRes/items/copper.png"
+    },
+    {
+      "outputPath": "MyAssets/deco/tablecloth/blue/pic/blue.png"
+    },
+    {
+      "outputPath": "MyAssets/deco/tablecloth/blue/3d/texture/Table_Dif.png"
+    },
+    {
+      "outputPath": "MyAssets/deco/mjpai/green/pic/green.png"
+    },
+    {
+      "outputPath": "MyAssets/deco/mjpai/green/3d/texture/hand.png"
+    },
+    {
+      "outputPath": "MyAssets/deco/head_frame/gold_frame/icon/gold_frame.png"
+    },
+    {
+      "outputPath": "MyAssets/extendRes/background/moon_bg/moon_bg.png"
+    },
+    {
+      "outputPath": "MyAssets/deco/bgm/pic/riichi.png"
+    },
+    {
+      "outputPath": "MyAssets/deco/loading_cg/201201/main/201201.jpg"
+    },
+    {
+      "outputPath": "MyAssets/deco/loading_cg/201201/thumb/201201_thumb.jpg"
+    },
+    {
+      "outputPath": "MyAssets/deco/title/notitle/pic/notitle.png"
+    },
+    {
+      "outputPath": "MyAssets/deco/title/notitle/item/notitle.png"
+    },
+    {
+      "outputPath": "MyAssets/extendRes/loading/common/table_0.png"
+    },
+    {
+      "outputPath": "MyAssets/extendRes/items/trial_ticket.png"
+    },
+    {
+      "outputPath": "MyAssets/ui/activity/lobby/banner_lobby/pic/chs/qingyun_b.png"
+    },
+    {
+      "outputPath": "MyAssets/ui/activity/lobby/banner_lobby/pic/chs_t/qingyun_b.png"
+    },
+    {
+      "outputPath": "MyAssets/ui/activity/extend/catchat/main/pic_scattered/chs/newpost.png"
+    },
+    {
+      "outputPath": "MyAssets/ui/activity/extend/catchat/main/pic_scattered/chs_t/newpost.png"
+    },
+    {
+      "outputPath": "MyAssets/ui/activity/extend/catchat/main/pic_scattered/chs/custom_head.png"
+    },
+    {
+      "outputPath": "MyAssets/ui/activity/extend/catchat/main/pic_scattered/chs_t/custom_head.png"
+    }
+  ]
+}
