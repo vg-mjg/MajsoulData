@@ -13,6 +13,7 @@ const DEFAULT_VOLUME = 0.7;
 function readStoredVolume() {
   try {
     const raw = window.localStorage.getItem(VOLUME_KEY);
+    if (raw === null || raw === "") return null;
     const value = Number(raw);
     return Number.isFinite(value) && value >= 0 && value <= 1 ? value : null;
   } catch {
