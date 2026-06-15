@@ -190,6 +190,155 @@ export function resolveAssetUrlExact(index, ref) {
   return recordToUrl(rec);
 }
 
+// --- Tablecloth full-size texture resolution ---------------------------------
+//
+// Cosmetic tablecloth items (item_definition category 5 / type 6) reference an icon
+// under `deco/tablecloth/<folder>/pic/…`. Their full-size texture lives at
+// `<folder>/3d/texture/Table_Dif.png` and a preview at
+// `<folder>/preview/[<locale>/]preview.png`.
+//
+// Some items' icon folder is a MISSPELLING of the real asset folder (e.g. the icon
+// says `tablecloth_25achievement4` but the texture lives under the typo'd
+// `tablecloth_25achivement4`). A plain exact lookup misses those; the generic
+// `byBase` fuzzy fallback in resolveRecord OVER-corrects — with every tablecloth's
+// `Table_Dif.png` sharing the `…/3d/texture` tail, its directory score ties and an
+// arbitrary unrelated folder wins (the "wrong texture" bug). This resolver threads
+// the needle: a folder without its own texture borrows from a sibling only when
+// that sibling is the SINGLE candidate within edit-distance 1 AND has identical
+// numeric runs — enough to bridge a typo, never enough to grab an unrelated cloth.
+const TABLECLOTH_FULL_RE = /^deco\/tablecloth\/([^/]+)\/3d\/texture\/Table_Dif\.[^.]+$/i;
+const TABLECLOTH_PREVIEW_RE = /^deco\/tablecloth\/([^/]+)\/preview\/(?:[^/]+\/)?preview\.[^.]+$/i;
+const TABLECLOTH_ICON_RE = /^deco\/tablecloth\/([^/]+)\/pic\/[^/]+\.[^.]+$/i;
+
+function editDistance(left, right) {
+  const a = String(left || "");
+  const b = String(right || "");
+  if (a === b) return 0;
+  if (!a) return b.length;
+  if (!b) return a.length;
+  let previous = Array.from({ length: b.length + 1 }, (_, i) => i);
+  for (let i = 0; i < a.length; i += 1) {
+    const current = [i + 1];
+    for (let j = 0; j < b.length; j += 1) {
+      const cost = a[i] === b[j] ? 0 : 1;
+      current[j + 1] = Math.min(current[j] + 1, previous[j + 1] + 1, previous[j] + cost);
+    }
+    previous = current;
+  }
+  return previous[b.length];
+}
+
+function numericRuns(value) {
+  return String(value || "").match(/\d+/g) || [];
+}
+
+// Two folder suffixes "match numerically" only when their digit groups are
+// identical in order and value: bridges `25achievement4` -> `25achivement4` but
+// rejects `24summer` -> `25summer` (the season number must not drift).
+function hasMatchingNumericRuns(left, right) {
+  const a = numericRuns(left);
+  const b = numericRuns(right);
+  return a.length > 0 && a.length === b.length && a.every((value, i) => value === b[i]);
+}
+
+function tableclothSuffix(folder) {
+  const match = String(folder || "").toLowerCase().match(/^tablecloth_([a-z0-9_]+)$/);
+  return match ? match[1] : "";
+}
+
+// Group every tablecloth full-texture / preview record by its folder, lowercased.
+// Built once per ingest and threaded through the item transformer.
+export function buildTableclothFolderIndex(index) {
+  const folders = new Map();
+  const add = (folder, kind, rec) => {
+    const key = folder.toLowerCase();
+    let entry = folders.get(key);
+    if (!entry) {
+      entry = { full: [], preview: [] };
+      folders.set(key, entry);
+    }
+    entry[kind].push(rec);
+  };
+  for (const rec of index.exact.values()) {
+    if (!isImagePath(rec.path)) continue;
+    const full = rec.path.match(TABLECLOTH_FULL_RE);
+    if (full) {
+      add(full[1], "full", rec);
+      continue;
+    }
+    const preview = rec.path.match(TABLECLOTH_PREVIEW_RE);
+    if (preview) add(preview[1], "preview", rec);
+  }
+  return folders;
+}
+
+function tableclothRecordScore(rec, kind) {
+  const p = rec.path.toLowerCase();
+  let score = 0;
+  if (p.endsWith(".png")) score += 20;
+  if (kind === "preview" && p.includes("/preview/common/")) score += 100;
+  if (kind === "preview" && p.includes("/preview/en/")) score += 80;
+  if (rec.regions.has("en")) score += 10;
+  return score;
+}
+
+function bestTableclothRecord(records, kind) {
+  let best = null;
+  let bestScore = -1;
+  for (const rec of records || []) {
+    const score = tableclothRecordScore(rec, kind);
+    if (score > bestScore || (score === bestScore && best && rec.path.length < best.path.length)) {
+      best = rec;
+      bestScore = score;
+    }
+  }
+  return best;
+}
+
+// The folder to read `kind` (full|preview) records from: the canonical folder when
+// it has its own, otherwise the lone edit-distance≤1 / numeric-matching sibling
+// that does. "" when nothing safe to borrow from.
+function derivedTableclothFolder(folders, canonical, kind) {
+  const own = folders.get(canonical);
+  if (own && own[kind].length > 0) return canonical;
+
+  const canonicalSuffix = tableclothSuffix(canonical);
+  if (!canonicalSuffix) return "";
+
+  const candidates = [];
+  for (const [folder, entry] of folders) {
+    if (folder === canonical || entry[kind].length === 0) continue;
+    const suffix = tableclothSuffix(folder);
+    if (!suffix || !hasMatchingNumericRuns(canonicalSuffix, suffix)) continue;
+    if (editDistance(canonicalSuffix, suffix) <= 1) candidates.push(folder);
+  }
+  return candidates.length === 1 ? candidates[0] : "";
+}
+
+// Resolve a tablecloth item's icon ref to its best full-size image: the full
+// texture (own folder or a typo'd sibling) when available, else the folder's own
+// preview. "" when the ref isn't a tablecloth icon or nothing resolves.
+export function resolveTableclothImage(folders, iconRef) {
+  const ref = normalizeRef(iconRef);
+  const match = ref.match(TABLECLOTH_ICON_RE);
+  if (!match) return "";
+  const canonical = match[1].toLowerCase();
+
+  const fullFolder = derivedTableclothFolder(folders, canonical, "full");
+  if (fullFolder) {
+    const rec = bestTableclothRecord(folders.get(fullFolder).full, "full");
+    if (rec) return recordToUrl(rec);
+  }
+
+  const previewFolder = derivedTableclothFolder(folders, canonical, "preview");
+  if (previewFolder) {
+    const rec = bestTableclothRecord(folders.get(previewFolder).preview, "preview");
+    if (rec) return recordToUrl(rec);
+  }
+
+  return "";
+}
+
 // Full baked URL for one concrete record path (no region collapsing). Used when a
 // resolver has already chosen a specific locale-folder variant.
 function recordUrl(rec) {

@@ -11,6 +11,8 @@ import {
   resolveLocaleValueWithinDir,
   normalizeRef,
   recordToUrl,
+  buildTableclothFolderIndex,
+  resolveTableclothImage,
 } from "./assets.js";
 const ITEM_KIND_ORDER = { currency: 0, item: 1, loading_sprite: 2 };
 const LOADING_SPRITE_CATEGORY_ORDER = { table: 0, left: 1, mid: 2, right: 3 };
@@ -241,12 +243,6 @@ function parseCharacterExchangeEntries(characters) {
 function normalizedAssetRef(ref) {
   return normalizeRef(ref);
 }
-function tableclothOriginalRefs(entry) {
-  if (num(entry.category) !== 5 || num(entry.type) !== 6) return [];
-  const match = normalizedAssetRef(entry.icon).match(/^(deco\/tablecloth\/[^/]+)\/pic\/[^/]+\.[^.]+$/i);
-  if (!match) return [];
-  return [`${match[1]}/3d/texture/Table_Dif.png`, `${match[1]}/preview/preview.png`, normalizedAssetRef(entry.icon)];
-}
 function tileOriginalRefs(entry) {
   if (num(entry.category) !== 5 || (num(entry.type) !== 7 && num(entry.type) !== 13)) return [];
   const match = normalizedAssetRef(entry.icon).match(/^(deco\/(?:mjpai|mjpface)\/[^/]+)\/pic\/[^/]+\.[^.]+$/i);
@@ -287,7 +283,7 @@ function itemAudio(entry, itemId, audioBgmById, audioBgmByUnlockItemId, audioInd
   return null;
 }
 function resolveOriginalAssets(entry, itemId, indexes) {
-  const { assetIndex, loadingImageByUnlockItemId, viewResNameByItemId } = indexes;
+  const { assetIndex, tableclothFolderIndex, loadingImageByUnlockItemId, viewResNameByItemId } = indexes;
   const loadingImage = loadingImageByUnlockItemId.get(itemId);
   const resName = str(viewResNameByItemId.get(itemId)).trim();
   return {
@@ -297,7 +293,9 @@ function resolveOriginalAssets(entry, itemId, indexes) {
     portraitFrame: num(entry.category) === 5 && num(entry.type) === 5 && resName
       ? resolveAssetUrl(assetIndex, `deco/head_frame/${resName}/icon/${resName}.png`)
       : "",
-    tablecloth: firstAsset(assetIndex, tableclothOriginalRefs(entry)),
+    tablecloth: num(entry.category) === 5 && num(entry.type) === 6
+      ? resolveTableclothImage(tableclothFolderIndex, entry.icon)
+      : "",
     tile: firstAsset(assetIndex, tileOriginalRefs(entry)),
     background: num(entry.category) === 5 && num(entry.type) === 8 && resName
       ? firstAsset(assetIndex, [`extendRes/background/${resName}/${resName}.png`, entry.icon])
@@ -521,6 +519,7 @@ export function transformItems(tables, assetIndex, audioIndex) {
   const entryRows = [...currencies, ...items, ...titleEntries];
   const indexes = {
     assetIndex,
+    tableclothFolderIndex: buildTableclothFolderIndex(assetIndex),
     audioIndex,
     audioBgmById: new Map(audioBgmRows.map((row) => [num(row.id), row])),
     audioBgmByUnlockItemId: buildAudioBgmByUnlockItemId(audioBgmRows),

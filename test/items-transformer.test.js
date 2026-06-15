@@ -79,6 +79,17 @@ test("resolves item category labels and baked media for item kinds", () => {
   assert.match(collection.find((item) => item.id === 600001).assets.titleArt, /deco\/title\/notitle\/pic\/notitle\.png$/);
   assert.match(collection.find((item) => item.id === 307401).assets.loadingImage, /deco\/loading_cg\/201201\/main\/201201\.jpg$/);
   assert.match(collection.find((item) => item.id === 305001).assets.tablecloth, /deco\/tablecloth\/blue\/3d\/texture\/Table_Dif\.png$/);
+  // The icon folder `tablecloth_achievement1` has no texture of its own; the real
+  // texture lives under the typo'd sibling `tablecloth_achivement1` (edit distance
+  // 1, identical numeric runs). It must bridge to that sibling — and never borrow
+  // the unrelated `tablecloth_hl` texture the old unbounded fuzzy fallback grabbed.
+  const typoTablecloth = collection.find((item) => item.id === 305005).assets.tablecloth;
+  assert.match(typoTablecloth, /deco\/tablecloth\/tablecloth_achivement1\/3d\/texture\/Table_Dif\.png$/);
+  assert.doesNotMatch(typoTablecloth, /tablecloth_hl/);
+  // No full texture exists for `tablecloth_fish1`, so it falls back to its own
+  // locale preview rather than borrowing another cloth's texture.
+  const previewTablecloth = collection.find((item) => item.id === 305006).assets.tablecloth;
+  assert.match(previewTablecloth, /deco\/tablecloth\/tablecloth_fish1\/preview\/en_en\/preview\.png$/);
   assert.match(collection.find((item) => item.id === 305002).assets.tile, /deco\/mjpai\/green\/3d\/texture\/hand\.png$/);
   assert.match(collection.find((item) => item.id === 305003).assets.portraitFrame, /deco\/head_frame\/gold_frame\/icon\/gold_frame\.png$/);
   assert.match(collection.find((item) => item.id === 305004).assets.background, /extendRes\/background\/moon_bg\/moon_bg\.png$/);

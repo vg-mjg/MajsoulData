@@ -401,6 +401,14 @@ test("item detail page renders localized text, media, audio, and pricing from th
   const tablecloth = pagesByUrl.get("/en/items/305001/").content;
   assert.match(tablecloth, /deco\/tablecloth\/blue\/3d\/texture\/Table_Dif\.png/);
 
+  // A tablecloth whose icon folder is a misspelling bridges to its typo'd sibling's
+  // texture (edit distance 1, matching numeric runs) and must NOT borrow the
+  // unrelated `tablecloth_hl` texture the old unbounded fuzzy fallback grabbed
+  // (regression: the SPA fixed this once, the rewrite reintroduced it).
+  const typoTablecloth = pagesByUrl.get("/en/items/305005/").content;
+  assert.match(typoTablecloth, /deco\/tablecloth\/tablecloth_achivement1\/3d\/texture\/Table_Dif\.png/);
+  assert.doesNotMatch(typoTablecloth, /tablecloth_hl/);
+
   const music = pagesByUrl.get("/en/items/306001/").content;
   assert.match(music, /<audio class="item-detail-audio-player" controls preload="none" src="https:\/\/files\.riichi\.moe\/[^\"]*audio\/music\/riichi\.mp3"><\/audio>/);
 });
