@@ -1,5 +1,26 @@
 [
   {
+    "fallbackName": "26dp 0",
+    "id": 260601,
+    "image": {
+      "chs": "https://files.riichi.moe/mjg/game%20resources%20and%20tools/Mahjong%20Soul/unity_raw/extracted/MyAssets/ui/activity/lobby/banner_tab/pic/chs/26dp_b.png",
+      "cn": "https://files.riichi.moe/mjg/game%20resources%20and%20tools/Mahjong%20Soul/unity_raw/extracted/MyAssets/ui/activity/lobby/banner_tab/pic/chs_t/26dp_b.png",
+      "en": "https://files.riichi.moe/mjg/game%20resources%20and%20tools/Mahjong%20Soul/unity_raw/extracted/MyAssets/ui/activity/lobby/banner_tab/pic/en_en/26dp_b.png",
+      "jp": "https://files.riichi.moe/mjg/game%20resources%20and%20tools/Mahjong%20Soul/unity_raw/extracted/MyAssets/ui/activity/lobby/banner_tab/pic/jp/26dp_b.png",
+      "kr": "https://files.riichi.moe/mjg/game%20resources%20and%20tools/Mahjong%20Soul/unity_raw/extracted/MyAssets/ui/activity/lobby/banner_tab/pic/kr/26dp_b.png"
+    },
+    "text": {
+      "name": {
+        "chs": "传说之夜·再临",
+        "chs_t": "傳説之夜·再臨",
+        "en": "The Night of Legends:\r\nShadows Reborn",
+        "jp": "伝説の夜・再臨",
+        "kr": "전설의 밤"
+      }
+    },
+    "type": "event_cross_time"
+  },
+  {
     "fallbackName": "26qingyun 0",
     "id": 260511,
     "image": {
@@ -13,8 +34,8 @@
       "name": {
         "chs": "青云之志",
         "chs_t": "青雲之志",
-        "en": "Sky-High Ambition: Finders Kitties",
-        "jp": "青雲の志：失われた聖餌",
+        "en": "Sky-High Ambition: The Nyavengers",
+        "jp": "青雲の志：勇にゃん伝説",
         "kr": "청운의 꿈: 냥냥 보물찾기"
       }
     },
