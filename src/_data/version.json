@@ -1,30 +1,30 @@
 {
   "cn": {
-    "generated_at": "2026-06-17T01:38:54Z",
+    "generated_at": "2026-06-17T22:07:59Z",
     "issuer": "chs_t",
     "lua_version": "0.11.603",
     "product_version": "4.0.44",
-    "resource_version": "0.16.235"
+    "resource_version": "0.16.236"
   },
   "en": {
-    "generated_at": "2026-06-17T01:36:26Z",
+    "generated_at": "2026-06-17T22:05:33Z",
     "issuer": "en",
     "lua_version": "0.11.603",
     "product_version": "4.0.7",
-    "resource_version": "0.16.196"
+    "resource_version": "0.16.197"
   },
   "jp": {
-    "generated_at": "2026-06-17T01:37:37Z",
+    "generated_at": "2026-06-17T22:06:43Z",
     "issuer": "jp",
     "lua_version": "0.11.603",
     "product_version": "4.0.9",
-    "resource_version": "0.16.196"
+    "resource_version": "0.16.197"
   },
   "kr": {
-    "generated_at": "2026-06-17T01:39:58Z",
+    "generated_at": "2026-06-17T22:08:58Z",
     "issuer": "kr",
     "lua_version": "0.11.603",
     "product_version": "4.0.8",
-    "resource_version": "0.16.196"
+    "resource_version": "0.16.197"
   }
 }
