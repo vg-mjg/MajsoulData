@@ -1,10 +1,10 @@
 {
   "cn": {
-    "generated_at": "2026-06-23T03:00:46Z",
+    "generated_at": "2026-06-28T22:01:52Z",
     "issuer": "chs_t",
     "lua_version": "0.11.603",
-    "product_version": "4.0.44",
-    "resource_version": "0.16.238"
+    "product_version": "4.0.45",
+    "resource_version": "0.16.242"
   },
   "en": {
     "generated_at": "2026-06-22T22:05:26Z",
@@ -14,11 +14,11 @@
     "resource_version": "0.16.199"
   },
   "jp": {
-    "generated_at": "2026-06-22T22:06:30Z",
+    "generated_at": "2026-06-28T22:00:34Z",
     "issuer": "jp",
     "lua_version": "0.11.603",
-    "product_version": "4.0.9",
-    "resource_version": "0.16.199"
+    "product_version": "4.0.11",
+    "resource_version": "0.16.202"
   },
   "kr": {
     "generated_at": "2026-06-23T03:01:51Z",
