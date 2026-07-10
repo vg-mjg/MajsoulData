@@ -15,7 +15,7 @@ import {
   readOptionalJson,
   sourceLabel,
 } from "./mirror.js";
-import { buildAssetIndex, buildAudioIndex } from "./assets.js";
+import { buildAssetIndex, buildAudioIndex, reverseBakedAssetUrl } from "./assets.js";
 import {
   LEGACY_ACTIVITY_BANNER_DIR,
   LEGACY_CATCHAT_DIR,
@@ -67,6 +67,43 @@ async function writeJsonStable(filePath, value) {
 function manifestEntries(manifest) {
   if (Array.isArray(manifest)) return manifest;
   return (manifest && manifest.entries) || [];
+}
+
+// Harvest the asset URLs already baked into the previously-committed collections,
+// reversed into seed records for the asset/audio indexes. This is what preserves
+// a reference whose file the mirror pruned from the live manifests: the file
+// still serves (the mirror is additive), so its last-known URL keeps resolving
+// as a low-priority seed that live manifests always override. The committed
+// collections ARE the persistence — a seed survives only while some table row
+// still emits its URL, so the preserved set self-GCs with the tables. A generic
+// deep-walk over scalar strings: no per-collection shape knowledge.
+async function harvestCommittedSeeds(files) {
+  const imageSeeds = [];
+  const audioSeeds = [];
+  const visit = (value) => {
+    if (typeof value === "string") {
+      const seed = reverseBakedAssetUrl(value);
+      if (!seed) return;
+      if (seed.kind === "image") imageSeeds.push(seed);
+      else audioSeeds.push(seed.path);
+      return;
+    }
+    if (Array.isArray(value)) {
+      for (const item of value) visit(item);
+      return;
+    }
+    if (value && typeof value === "object") {
+      for (const item of Object.values(value)) visit(item);
+    }
+  };
+  for (const file of files) {
+    const json = await fsp
+      .readFile(file, "utf8")
+      .then(JSON.parse)
+      .catch(() => null);
+    if (json) visit(json);
+  }
+  return { imageSeeds, audioSeeds };
 }
 
 async function main() {
@@ -175,8 +212,20 @@ async function main() {
     strEvent: (await readOptionalJson("metadata/tables/str/event.json")) || [],
   };
 
-  const assetIndex = buildAssetIndex(manifestsByRegion);
-  const audioIndex = buildAudioIndex(audioManifest);
+  // Reconstruct the seed tier from the collections BEFORE anything overwrites
+  // them; on a fresh checkout the harvest is empty and output matches a seedless
+  // build. Only paths absent from every live manifest become seed records.
+  const { imageSeeds, audioSeeds } = await harvestCommittedSeeds([
+    charactersFile,
+    itemsFile,
+    achievementsFile,
+    activitiesFile,
+    catchatFile,
+    storiesFile,
+  ]);
+
+  const assetIndex = buildAssetIndex(manifestsByRegion, imageSeeds);
+  const audioIndex = buildAudioIndex(audioManifest, audioSeeds);
   // The big legacy manifest is only fetched here, on the rebuild path the cheap
   // version gate above already let through.
   const legacyManifest = await loadLegacyManifest(legacyVersion);
@@ -192,8 +241,10 @@ async function main() {
     catchatTables.snsActivity,
     legacyCatChatVersionsByFile,
   );
+  const seedCount = Array.from(assetIndex.exact.values()).filter((rec) => rec.seed).length;
   console.log(
-    `Indexed ${assetIndex.exact.size} asset paths, ${audioIndex.size} audio clips, ` +
+    `Indexed ${assetIndex.exact.size} asset paths (${seedCount} preserved from ` +
+      `committed output), ${audioIndex.size} audio clips, ` +
       `${Object.keys(legacyBannerVersions).length} legacy banners, ` +
       `${Object.keys(legacyCatChatVersionsByFile).length} legacy CatChat images ` +
       `(${legacyVersion || "none"}).`,

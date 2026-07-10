@@ -38,7 +38,13 @@
   {
     "fallbackName": "26dp 0",
     "id": 260601,
-    "image": "",
+    "image": {
+      "chs": "https://files.riichi.moe/mjg/game%20resources%20and%20tools/Mahjong%20Soul/unity_raw/extracted/MyAssets/ui/activity/lobby/banner_tab/pic/chs/26dp_b.png",
+      "cn": "https://files.riichi.moe/mjg/game%20resources%20and%20tools/Mahjong%20Soul/unity_raw/extracted/MyAssets/ui/activity/lobby/banner_tab/pic/chs_t/26dp_b.png",
+      "en": "https://files.riichi.moe/mjg/game%20resources%20and%20tools/Mahjong%20Soul/unity_raw/extracted/MyAssets/ui/activity/lobby/banner_tab/pic/en_en/26dp_b.png",
+      "jp": "https://files.riichi.moe/mjg/game%20resources%20and%20tools/Mahjong%20Soul/unity_raw/extracted/MyAssets/ui/activity/lobby/banner_tab/pic/jp/26dp_b.png",
+      "kr": "https://files.riichi.moe/mjg/game%20resources%20and%20tools/Mahjong%20Soul/unity_raw/extracted/MyAssets/ui/activity/lobby/banner_tab/pic/kr/26dp_b.png"
+    },
     "text": {
       "name": {
         "chs": "传说之夜·再临",
@@ -117,11 +123,11 @@
     "fallbackName": "26wenquan2 b",
     "id": 260302,
     "image": {
-      "chs": "https://files.riichi.moe/mjg/game%20resources%20and%20tools/Mahjong%20Soul/raw%20assets/v0.11.235.w/chs/myres2/activity_banner/26wenquan2_b.jpg",
-      "cn": "https://files.riichi.moe/mjg/game%20resources%20and%20tools/Mahjong%20Soul/raw%20assets/v0.11.235.w/chs_t/myres2/activity_banner/26wenquan2_b.jpg",
-      "en": "https://files.riichi.moe/mjg/game%20resources%20and%20tools/Mahjong%20Soul/raw%20assets/v0.11.235.w/en/myres2/activity_banner/26wenquan2_b.jpg",
-      "jp": "https://files.riichi.moe/mjg/game%20resources%20and%20tools/Mahjong%20Soul/raw%20assets/v0.11.235.w/jp/myres2/activity_banner/26wenquan2_b.jpg",
-      "kr": "https://files.riichi.moe/mjg/game%20resources%20and%20tools/Mahjong%20Soul/raw%20assets/v0.11.235.w/kr/myres2/activity_banner/26wenquan2_b.jpg"
+      "chs": "https://files.riichi.moe/mjg/game%20resources%20and%20tools/Mahjong%20Soul/unity_raw/extracted/MyAssets/ui/activity/lobby/banner_tab/pic/chs/26wenquan2_b.png",
+      "cn": "https://files.riichi.moe/mjg/game%20resources%20and%20tools/Mahjong%20Soul/unity_raw/extracted/MyAssets/ui/activity/lobby/banner_tab/pic/chs_t/26wenquan2_b.png",
+      "en": "https://files.riichi.moe/mjg/game%20resources%20and%20tools/Mahjong%20Soul/unity_raw/extracted/MyAssets/ui/activity/lobby/banner_tab/pic/en_en/26wenquan2_b.png",
+      "jp": "https://files.riichi.moe/mjg/game%20resources%20and%20tools/Mahjong%20Soul/unity_raw/extracted/MyAssets/ui/activity/lobby/banner_tab/pic/jp/26wenquan2_b.png",
+      "kr": "https://files.riichi.moe/mjg/game%20resources%20and%20tools/Mahjong%20Soul/unity_raw/extracted/MyAssets/ui/activity/lobby/banner_tab/pic/kr/26wenquan2_b.png"
     },
     "text": {
       "name": {

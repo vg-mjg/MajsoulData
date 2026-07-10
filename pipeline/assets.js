@@ -30,6 +30,7 @@ const LOCALE_PRIORITY_BY_TARGET = {
 export const LOCALE_TARGETS = Object.keys(LOCALE_PRIORITY_BY_TARGET);
 
 const IMAGE_EXTS = [".png", ".jpg", ".jpeg", ".webp"];
+const AUDIO_EXTS = [".mp3"];
 const SKELETON_EXTS = [".skel.txt", ".skel", ".json"];
 
 function stripExt(p) {
@@ -87,15 +88,23 @@ function bestScored(items, scoreFn) {
 // Build the asset index from `{region: manifestEntries[]}`. EN is added first so
 // it becomes the "first seen" base record; later regions only add their key to a
 // record's region set (or create region-exclusive records).
-export function buildAssetIndex(manifestsByRegion) {
+//
+// `seedRecords` ({path, region}[], reversed from the previously-committed output
+// by reverseBakedAssetUrl) form a strictly lower tier: they are added AFTER every
+// live manifest, so a path present in any live manifest keeps its live record
+// (the seed re-add only unions regions) and a seed record exists only for paths
+// the live manifests no longer carry. Every resolver that consults the index
+// prefers live records and falls back to seeds only when nothing live resolves,
+// so a still-live asset resolves byte-identically to a seedless build.
+export function buildAssetIndex(manifestsByRegion, seedRecords = []) {
   const exact = new Map();
   const noext = new Map();
   const byBase = new Map();
 
-  const add = (logical, region) => {
+  const add = (logical, region, seed) => {
     let rec = exact.get(logical);
     if (!rec) {
-      rec = { path: logical, regions: new Set() };
+      rec = { path: logical, regions: new Set(), seed };
       exact.set(logical, rec);
       const ne = stripExt(logical);
       if (!noext.has(ne)) noext.set(ne, rec);
@@ -103,6 +112,9 @@ export function buildAssetIndex(manifestsByRegion) {
       if (!byBase.has(base)) byBase.set(base, []);
       byBase.get(base).push(rec);
     }
+    // A still-live path never takes a seed's inferred region: it would widen the
+    // record's region set and change how recordToUrl collapses a live asset.
+    if (seed && !rec.seed) return;
     rec.regions.add(region);
   };
 
@@ -112,11 +124,47 @@ export function buildAssetIndex(manifestsByRegion) {
     for (const entry of entries) {
       const out = entry && entry.outputPath;
       if (typeof out !== "string" || !out.startsWith("MyAssets/")) continue;
-      add(logicalOf(out), region);
+      add(logicalOf(out), region, false);
+    }
+  }
+
+  for (const record of seedRecords) {
+    if (record && typeof record.path === "string" && record.path) {
+      add(record.path, record.region, true);
     }
   }
 
   return { exact, noext, byBase };
+}
+
+const BAKED_ASSET_PREFIX = `${RESOURCE_BASE}MyAssets/`;
+
+// Mirror region a harvested seed record claims, inferred from the path's locale
+// subfolder (the segment before the filename): the same dir→language convention
+// the emote scanner uses, with the Simplified `chs` folder folded onto `cn` (the
+// region that serves both Chinese scripts) and everything else on the EN base.
+function seedRegionOfPath(path) {
+  const dir = baseName(dirName(path)).toLowerCase();
+  if (dir === "jp") return "jp";
+  if (dir === "kr") return "kr";
+  if (dir === "chs_t" || dir === "chs") return "cn";
+  return "en";
+}
+
+// Reverse one baked URL from a previously-committed collection back into an
+// index record. A baked URL is exactly RESOURCE_BASE + "MyAssets/" + <logical
+// path>, so the reversal is a prefix strip; the extension routes it to the image
+// or audio index. Returns null for anything else — notably legacy `raw assets`
+// URLs (frozen archive, never prunes, nothing to preserve) and spine
+// skeleton/atlas files.
+export function reverseBakedAssetUrl(url) {
+  if (typeof url !== "string" || !url.startsWith(BAKED_ASSET_PREFIX)) return null;
+  const path = url.slice(BAKED_ASSET_PREFIX.length);
+  if (!path) return null;
+  if (isImagePath(path)) return { kind: "image", path, region: seedRegionOfPath(path) };
+  const lower = path.toLowerCase();
+  if (AUDIO_EXTS.some((ext) => lower.endsWith(ext))) return { kind: "audio", path };
+  return null;
 }
 
 function scoreCandidate(candDir, refDir) {
@@ -139,21 +187,31 @@ function scoreCandidate(candDir, refDir) {
   return shared;
 }
 
-// Resolve a metadata reference to a manifest record (or null). Tolerates the
-// extension changes (.jpg -> .png) and inserted directories the extractor
-// introduces relative to the logical paths stored in the tables.
-export function resolveRecord(index, ref) {
-  const r = normalizeRef(ref);
-  if (!r) return null;
-  if (index.exact.has(r)) return index.exact.get(r);
-  const ne = stripExt(r);
-  if (index.noext.has(ne)) return index.noext.get(ne);
+// One tier of the single-ref cascade (exact -> extension swap -> byBase fuzzy),
+// restricted to live or to seed records. Running the full cascade live-first
+// keeps a still-live fuzzy match ahead of a seeded exact one.
+function resolveRecordInTier(index, r, seed) {
+  const exactRec = index.exact.get(r);
+  if (exactRec && exactRec.seed === seed) return exactRec;
+  const noextRec = index.noext.get(stripExt(r));
+  if (noextRec && noextRec.seed === seed) return noextRec;
 
-  const candidates = index.byBase.get(stripExt(baseName(r)).toLowerCase());
-  if (!candidates || candidates.length === 0) return null;
+  const pool = index.byBase.get(stripExt(baseName(r)).toLowerCase());
+  const candidates = (pool || []).filter((rec) => rec.seed === seed);
+  if (candidates.length === 0) return null;
   const refDir = dirName(r);
   const best = bestScored(candidates, (rec) => scoreCandidate(dirName(rec.path), refDir));
   return best ? best.item : null;
+}
+
+// Resolve a metadata reference to a manifest record (or null). Tolerates the
+// extension changes (.jpg -> .png) and inserted directories the extractor
+// introduces relative to the logical paths stored in the tables. Seed records
+// (preserved from the previous output) only resolve when nothing live does.
+export function resolveRecord(index, ref) {
+  const r = normalizeRef(ref);
+  if (!r) return null;
+  return resolveRecordInTier(index, r, false) || resolveRecordInTier(index, r, true);
 }
 
 // A record's path is identical across regions (one shared asset tree). Emit a
@@ -185,7 +243,10 @@ export function resolveAssetUrl(index, ref) {
 export function resolveAssetUrlExact(index, ref) {
   const r = normalizeRef(ref);
   if (!r) return "";
-  const rec = index.exact.get(r) || index.noext.get(stripExt(r));
+  // Live-first across both lookups: a live extension-swap match beats a seeded
+  // exact one, so a still-live asset resolves identically to a seedless build.
+  const matches = [index.exact.get(r), index.noext.get(stripExt(r))].filter(Boolean);
+  const rec = matches.find((m) => !m.seed) || matches[0];
   if (!rec || !isImagePath(rec.path)) return "";
   return recordToUrl(rec);
 }
@@ -282,7 +343,11 @@ function tableclothRecordScore(rec, kind) {
   return score;
 }
 
-function bestTableclothRecord(records, kind) {
+function bestTableclothRecord(allRecords, kind) {
+  // Seeds are a lower tier: they only compete when the folder has no live record
+  // of this kind, so a live texture always beats a preserved one on scoring.
+  const live = (allRecords || []).filter((rec) => !rec.seed);
+  const records = live.length > 0 ? live : allRecords;
   let best = null;
   let bestScore = -1;
   for (const rec of records || []) {
@@ -362,11 +427,9 @@ function localeScore(target, locale) {
   return i >= 0 ? i : null;
 }
 
-// Build a target-keyed URL map by choosing, for each output target, the candidate
-// whose locale folder ranks highest (ties broken by shorter path). `localeOf(rec)`
-// returns the rec's locale folder, or null to exclude it. Uncompressed — only the
-// targets that resolved are present.
-function localeValueFromCandidates(candidates, localeOf) {
+// Best candidate per output target by locale-folder rank (ties broken by shorter
+// path). `localeOf(rec)` returns the rec's locale folder, or null to exclude it.
+function bestRecordByTarget(candidates, localeOf) {
   const bestByTarget = {};
   const bestScoreByTarget = {};
   for (const rec of candidates) {
@@ -387,10 +450,22 @@ function localeValueFromCandidates(candidates, localeOf) {
       }
     }
   }
+  return bestByTarget;
+}
+
+// Build a target-keyed URL map by choosing, for each output target, the candidate
+// whose locale folder ranks highest. Seed candidates form a strictly lower tier:
+// a seed may fill a target only when no live candidate resolves it, which is what
+// keeps still-live locales byte-stable while pruned locales heal per-target from
+// the previous output. Uncompressed — only the targets that resolved are present.
+function localeValueFromCandidates(candidates, localeOf) {
+  const live = bestRecordByTarget(candidates.filter((rec) => !rec.seed), localeOf);
+  const seed = bestRecordByTarget(candidates.filter((rec) => rec.seed), localeOf);
 
   const value = {};
   for (const target of LOCALE_TARGETS) {
-    if (bestByTarget[target]) value[target] = recordUrl(bestByTarget[target]);
+    const rec = live[target] || seed[target];
+    if (rec) value[target] = recordUrl(rec);
   }
   return value;
 }
@@ -454,22 +529,41 @@ export function enumerateImageUrlsByNumericPrefix(index, prefix) {
     return "";
   };
 
-  const imageForRecords = (records) => {
-    const ordered = records.slice().sort((a, b) => a.path.localeCompare(b.path));
-    const shared = ordered.find((rec) => {
+  const ordered = (records) => records.slice().sort((a, b) => a.path.localeCompare(b.path));
+  const sharedOf = (records) =>
+    ordered(records).find((rec) => {
       const rest = rec.path.slice(root.length);
       return !rest.includes("/") || rest.startsWith("common/");
     });
-    if (shared) return recordToUrl(shared);
-
-    const localized = {};
-    for (const rec of ordered) {
+  const localizedOf = (records) => {
+    const value = {};
+    for (const rec of ordered(records)) {
       const key = languageKeyOf(rec);
-      if (key) localized[key] = recordUrl(rec);
+      if (key) value[key] = recordUrl(rec);
     }
-    if (Object.keys(localized).length > 0) return localized;
+    return value;
+  };
 
-    const first = ordered[0];
+  const imageForRecords = (records) => {
+    const live = records.filter((rec) => !rec.seed);
+    const seed = records.filter((rec) => rec.seed);
+
+    // Live tier first — identical to a seedless build — with pruned language
+    // variants healed per-key from the seed tier.
+    const liveShared = sharedOf(live);
+    if (liveShared) return recordToUrl(liveShared);
+    const liveLocalized = localizedOf(live);
+    if (Object.keys(liveLocalized).length > 0) {
+      return { ...localizedOf(seed), ...liveLocalized };
+    }
+    if (live.length > 0) return recordToUrl(ordered(live)[0]);
+
+    // Nothing live: the stamp was pruned entirely; reproduce it from the seeds.
+    const seedShared = sharedOf(seed);
+    if (seedShared) return recordToUrl(seedShared);
+    const seedLocalized = localizedOf(seed);
+    if (Object.keys(seedLocalized).length > 0) return seedLocalized;
+    const first = ordered(seed)[0];
     return first ? recordToUrl(first) : "";
   };
 
@@ -548,7 +642,12 @@ export function resolveSpineLayers(records, skinId) {
 
 // Build the audio lookup: logical path -> baked full URL. Audio is EN-only and
 // shared across every region, so values are always plain strings.
-export function buildAudioIndex(audioManifest) {
+//
+// `seedPaths` (logical paths harvested from the previously-committed output) are
+// inserted only when absent, so a pruned clip keeps its last-known URL while a
+// live one is untouched — first-seen-wins already gives live precedence, since
+// an exact-key lookup can't let a stale variant out-compete a live one.
+export function buildAudioIndex(audioManifest, seedPaths = []) {
   const audio = new Map();
   for (const entry of audioManifest || []) {
     if (!entry || typeof entry.path !== "string" || !entry.path.startsWith("MyAssets/")) {
@@ -556,6 +655,10 @@ export function buildAudioIndex(audioManifest) {
     }
     const logical = logicalOf(entry.path);
     if (!audio.has(logical)) audio.set(logical, `${RESOURCE_BASE}${entry.path}`);
+  }
+  for (const logical of seedPaths) {
+    if (typeof logical !== "string" || !logical) continue;
+    if (!audio.has(logical)) audio.set(logical, `${RESOURCE_BASE}MyAssets/${logical}`);
   }
   return audio;
 }
