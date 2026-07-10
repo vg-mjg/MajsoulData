@@ -167,6 +167,30 @@ export function reverseBakedAssetUrl(url) {
   return null;
 }
 
+// Deep-walk any JSON value and collect every baked MyAssets URL it contains,
+// reversed into image seed records and logical audio paths. Shared by the
+// steady-state committed-output harvest in ingest.js and the one-shot
+// git-history recovery (scripts/recover-pruned-assets-from-git-history.mjs).
+// Mutates and returns `seeds` so callers can accumulate across documents.
+export function collectBakedSeeds(value, seeds = { imageSeeds: [], audioSeeds: [] }) {
+  if (typeof value === "string") {
+    const seed = reverseBakedAssetUrl(value);
+    if (seed) {
+      if (seed.kind === "image") seeds.imageSeeds.push(seed);
+      else seeds.audioSeeds.push(seed.path);
+    }
+    return seeds;
+  }
+  if (Array.isArray(value)) {
+    for (const item of value) collectBakedSeeds(item, seeds);
+    return seeds;
+  }
+  if (value && typeof value === "object") {
+    for (const item of Object.values(value)) collectBakedSeeds(item, seeds);
+  }
+  return seeds;
+}
+
 function scoreCandidate(candDir, refDir) {
   if (candDir === refDir) return 1000;
   if (candDir.startsWith(refDir + "/")) {

@@ -15,7 +15,7 @@ import {
   readOptionalJson,
   sourceLabel,
 } from "./mirror.js";
-import { buildAssetIndex, buildAudioIndex, reverseBakedAssetUrl } from "./assets.js";
+import { buildAssetIndex, buildAudioIndex, collectBakedSeeds } from "./assets.js";
 import {
   LEGACY_ACTIVITY_BANNER_DIR,
   LEGACY_CATCHAT_DIR,
@@ -78,32 +78,28 @@ function manifestEntries(manifest) {
 // still emits its URL, so the preserved set self-GCs with the tables. A generic
 // deep-walk over scalar strings: no per-collection shape knowledge.
 async function harvestCommittedSeeds(files) {
-  const imageSeeds = [];
-  const audioSeeds = [];
-  const visit = (value) => {
-    if (typeof value === "string") {
-      const seed = reverseBakedAssetUrl(value);
-      if (!seed) return;
-      if (seed.kind === "image") imageSeeds.push(seed);
-      else audioSeeds.push(seed.path);
-      return;
-    }
-    if (Array.isArray(value)) {
-      for (const item of value) visit(item);
-      return;
-    }
-    if (value && typeof value === "object") {
-      for (const item of Object.values(value)) visit(item);
-    }
-  };
+  const seeds = { imageSeeds: [], audioSeeds: [] };
   for (const file of files) {
     const json = await fsp
       .readFile(file, "utf8")
       .then(JSON.parse)
       .catch(() => null);
-    if (json) visit(json);
+    if (json) collectBakedSeeds(json, seeds);
   }
-  return { imageSeeds, audioSeeds };
+  return seeds;
+}
+
+// One-shot recovery hook (scripts/recover-pruned-assets-from-git-history.mjs):
+// when MJS_SEED_URLS_FILE points at a JSON array of baked URLs mined from git
+// history, they join the SAME low-priority seed tier as the committed-output
+// harvest — live manifests still win, and only URLs a current table row still
+// references get baked. Unset on every steady-state ingest.
+async function appendRecoverySeeds(seeds) {
+  const file = process.env.MJS_SEED_URLS_FILE;
+  if (!file) return;
+  const urls = JSON.parse(await fsp.readFile(file, "utf8"));
+  collectBakedSeeds(urls, seeds);
+  console.log(`Seeded ${urls.length} recovered URLs from ${file}.`);
 }
 
 async function main() {
@@ -215,7 +211,7 @@ async function main() {
   // Reconstruct the seed tier from the collections BEFORE anything overwrites
   // them; on a fresh checkout the harvest is empty and output matches a seedless
   // build. Only paths absent from every live manifest become seed records.
-  const { imageSeeds, audioSeeds } = await harvestCommittedSeeds([
+  const seeds = await harvestCommittedSeeds([
     charactersFile,
     itemsFile,
     achievementsFile,
@@ -223,9 +219,10 @@ async function main() {
     catchatFile,
     storiesFile,
   ]);
+  await appendRecoverySeeds(seeds);
 
-  const assetIndex = buildAssetIndex(manifestsByRegion, imageSeeds);
-  const audioIndex = buildAudioIndex(audioManifest, audioSeeds);
+  const assetIndex = buildAssetIndex(manifestsByRegion, seeds.imageSeeds);
+  const audioIndex = buildAudioIndex(audioManifest, seeds.audioSeeds);
   // The big legacy manifest is only fetched here, on the rebuild path the cheap
   // version gate above already let through.
   const legacyManifest = await loadLegacyManifest(legacyVersion);

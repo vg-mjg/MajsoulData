@@ -9,6 +9,7 @@
     "dev": "eleventy --serve --incremental",
     "start": "eleventy --serve --incremental",
     "update": "npm run ingest && npm run build",
+    "recover": "node scripts/recover-pruned-assets-from-git-history.mjs",
     "test": "node --test",
     "verify:runtime-fetches": "node scripts/verify-runtime-fetches.mjs",
     "ci": "npm test && npm run build && npm run verify:runtime-fetches"

@@ -189183,7 +189183,9 @@
     "assets": {
       "bighead": "https://files.riichi.moe/mjg/game%20resources%20and%20tools/Mahjong%20Soul/unity_raw/extracted/MyAssets/deco/character/akagi/bighead/bighead.png",
       "full": "https://files.riichi.moe/mjg/game%20resources%20and%20tools/Mahjong%20Soul/unity_raw/extracted/MyAssets/deco/character/akagi/full/full.png",
-      "smallhead": "https://files.riichi.moe/mjg/game%20resources%20and%20tools/Mahjong%20Soul/unity_raw/extracted/MyAssets/deco/character/akagi/smallhead/smallhead.png"
+      "half": "https://files.riichi.moe/mjg/game%20resources%20and%20tools/Mahjong%20Soul/unity_raw/extracted/MyAssets/deco/character/akagi/half/half.png",
+      "smallhead": "https://files.riichi.moe/mjg/game%20resources%20and%20tools/Mahjong%20Soul/unity_raw/extracted/MyAssets/deco/character/akagi/smallhead/smallhead.png",
+      "waitingroom": "https://files.riichi.moe/mjg/game%20resources%20and%20tools/Mahjong%20Soul/unity_raw/extracted/MyAssets/deco/character/akagi/waitingroom/waitingroom.png"
     },
     "bond": [
       {
@@ -189430,7 +189432,9 @@
         "assets": {
           "bighead": "https://files.riichi.moe/mjg/game%20resources%20and%20tools/Mahjong%20Soul/unity_raw/extracted/MyAssets/deco/character/akagi/bighead/bighead.png",
           "full": "https://files.riichi.moe/mjg/game%20resources%20and%20tools/Mahjong%20Soul/unity_raw/extracted/MyAssets/deco/character/akagi/full/full.png",
-          "smallhead": "https://files.riichi.moe/mjg/game%20resources%20and%20tools/Mahjong%20Soul/unity_raw/extracted/MyAssets/deco/character/akagi/smallhead/smallhead.png"
+          "half": "https://files.riichi.moe/mjg/game%20resources%20and%20tools/Mahjong%20Soul/unity_raw/extracted/MyAssets/deco/character/akagi/half/half.png",
+          "smallhead": "https://files.riichi.moe/mjg/game%20resources%20and%20tools/Mahjong%20Soul/unity_raw/extracted/MyAssets/deco/character/akagi/smallhead/smallhead.png",
+          "waitingroom": "https://files.riichi.moe/mjg/game%20resources%20and%20tools/Mahjong%20Soul/unity_raw/extracted/MyAssets/deco/character/akagi/waitingroom/waitingroom.png"
         },
         "id": 405001,
         "spine": [],
@@ -189462,7 +189466,9 @@
         "assets": {
           "bighead": "https://files.riichi.moe/mjg/game%20resources%20and%20tools/Mahjong%20Soul/unity_raw/extracted/MyAssets/deco/character/akagi_0/bighead/bighead.png",
           "full": "https://files.riichi.moe/mjg/game%20resources%20and%20tools/Mahjong%20Soul/unity_raw/extracted/MyAssets/deco/character/akagi_0/full/full.png",
-          "smallhead": "https://files.riichi.moe/mjg/game%20resources%20and%20tools/Mahjong%20Soul/unity_raw/extracted/MyAssets/deco/character/akagi_0/smallhead/smallhead.png"
+          "half": "https://files.riichi.moe/mjg/game%20resources%20and%20tools/Mahjong%20Soul/unity_raw/extracted/MyAssets/deco/character/akagi_0/half/half.png",
+          "smallhead": "https://files.riichi.moe/mjg/game%20resources%20and%20tools/Mahjong%20Soul/unity_raw/extracted/MyAssets/deco/character/akagi_0/smallhead/smallhead.png",
+          "waitingroom": "https://files.riichi.moe/mjg/game%20resources%20and%20tools/Mahjong%20Soul/unity_raw/extracted/MyAssets/deco/character/akagi_0/waitingroom/waitingroom.png"
         },
         "id": 405002,
         "spine": [],
@@ -189494,7 +189500,9 @@
         "assets": {
           "bighead": "https://files.riichi.moe/mjg/game%20resources%20and%20tools/Mahjong%20Soul/unity_raw/extracted/MyAssets/deco/character/akagi_SP/bighead/bighead.png",
           "full": "https://files.riichi.moe/mjg/game%20resources%20and%20tools/Mahjong%20Soul/unity_raw/extracted/MyAssets/deco/character/akagi_SP/full/full.png",
-          "smallhead": "https://files.riichi.moe/mjg/game%20resources%20and%20tools/Mahjong%20Soul/unity_raw/extracted/MyAssets/deco/character/akagi_SP/smallhead/smallhead.png"
+          "half": "https://files.riichi.moe/mjg/game%20resources%20and%20tools/Mahjong%20Soul/unity_raw/extracted/MyAssets/deco/character/akagi_SP/half/half.png",
+          "smallhead": "https://files.riichi.moe/mjg/game%20resources%20and%20tools/Mahjong%20Soul/unity_raw/extracted/MyAssets/deco/character/akagi_SP/smallhead/smallhead.png",
+          "waitingroom": "https://files.riichi.moe/mjg/game%20resources%20and%20tools/Mahjong%20Soul/unity_raw/extracted/MyAssets/deco/character/akagi_SP/waitingroom/waitingroom.png"
         },
         "id": 405003,
         "spine": [],
@@ -192835,7 +192843,9 @@
     "assets": {
       "bighead": "https://files.riichi.moe/mjg/game%20resources%20and%20tools/Mahjong%20Soul/unity_raw/extracted/MyAssets/deco/character/washizu/bighead/bighead.png",
       "full": "https://files.riichi.moe/mjg/game%20resources%20and%20tools/Mahjong%20Soul/unity_raw/extracted/MyAssets/deco/character/washizu/full/full.png",
-      "smallhead": "https://files.riichi.moe/mjg/game%20resources%20and%20tools/Mahjong%20Soul/unity_raw/extracted/MyAssets/deco/character/washizu/smallhead/smallhead.png"
+      "half": "https://files.riichi.moe/mjg/game%20resources%20and%20tools/Mahjong%20Soul/unity_raw/extracted/MyAssets/deco/character/washizu/half/half.png",
+      "smallhead": "https://files.riichi.moe/mjg/game%20resources%20and%20tools/Mahjong%20Soul/unity_raw/extracted/MyAssets/deco/character/washizu/smallhead/smallhead.png",
+      "waitingroom": "https://files.riichi.moe/mjg/game%20resources%20and%20tools/Mahjong%20Soul/unity_raw/extracted/MyAssets/deco/character/washizu/waitingroom/waitingroom.png"
     },
     "bond": [
       {
@@ -193070,7 +193080,9 @@
         "assets": {
           "bighead": "https://files.riichi.moe/mjg/game%20resources%20and%20tools/Mahjong%20Soul/unity_raw/extracted/MyAssets/deco/character/washizu/bighead/bighead.png",
           "full": "https://files.riichi.moe/mjg/game%20resources%20and%20tools/Mahjong%20Soul/unity_raw/extracted/MyAssets/deco/character/washizu/full/full.png",
-          "smallhead": "https://files.riichi.moe/mjg/game%20resources%20and%20tools/Mahjong%20Soul/unity_raw/extracted/MyAssets/deco/character/washizu/smallhead/smallhead.png"
+          "half": "https://files.riichi.moe/mjg/game%20resources%20and%20tools/Mahjong%20Soul/unity_raw/extracted/MyAssets/deco/character/washizu/half/half.png",
+          "smallhead": "https://files.riichi.moe/mjg/game%20resources%20and%20tools/Mahjong%20Soul/unity_raw/extracted/MyAssets/deco/character/washizu/smallhead/smallhead.png",
+          "waitingroom": "https://files.riichi.moe/mjg/game%20resources%20and%20tools/Mahjong%20Soul/unity_raw/extracted/MyAssets/deco/character/washizu/waitingroom/waitingroom.png"
         },
         "id": 405101,
         "spine": [],
@@ -193102,7 +193114,9 @@
         "assets": {
           "bighead": "https://files.riichi.moe/mjg/game%20resources%20and%20tools/Mahjong%20Soul/unity_raw/extracted/MyAssets/deco/character/washizu_0/bighead/bighead.png",
           "full": "https://files.riichi.moe/mjg/game%20resources%20and%20tools/Mahjong%20Soul/unity_raw/extracted/MyAssets/deco/character/washizu_0/full/full.png",
-          "smallhead": "https://files.riichi.moe/mjg/game%20resources%20and%20tools/Mahjong%20Soul/unity_raw/extracted/MyAssets/deco/character/washizu_0/smallhead/smallhead.png"
+          "half": "https://files.riichi.moe/mjg/game%20resources%20and%20tools/Mahjong%20Soul/unity_raw/extracted/MyAssets/deco/character/washizu_0/half/half.png",
+          "smallhead": "https://files.riichi.moe/mjg/game%20resources%20and%20tools/Mahjong%20Soul/unity_raw/extracted/MyAssets/deco/character/washizu_0/smallhead/smallhead.png",
+          "waitingroom": "https://files.riichi.moe/mjg/game%20resources%20and%20tools/Mahjong%20Soul/unity_raw/extracted/MyAssets/deco/character/washizu_0/waitingroom/waitingroom.png"
         },
         "id": 405102,
         "spine": [],
@@ -193134,7 +193148,9 @@
         "assets": {
           "bighead": "https://files.riichi.moe/mjg/game%20resources%20and%20tools/Mahjong%20Soul/unity_raw/extracted/MyAssets/deco/character/washizu_SP/bighead/bighead.png",
           "full": "https://files.riichi.moe/mjg/game%20resources%20and%20tools/Mahjong%20Soul/unity_raw/extracted/MyAssets/deco/character/washizu_SP/full/full.png",
-          "smallhead": "https://files.riichi.moe/mjg/game%20resources%20and%20tools/Mahjong%20Soul/unity_raw/extracted/MyAssets/deco/character/washizu_SP/smallhead/smallhead.png"
+          "half": "https://files.riichi.moe/mjg/game%20resources%20and%20tools/Mahjong%20Soul/unity_raw/extracted/MyAssets/deco/character/washizu_SP/half/half.png",
+          "smallhead": "https://files.riichi.moe/mjg/game%20resources%20and%20tools/Mahjong%20Soul/unity_raw/extracted/MyAssets/deco/character/washizu_SP/smallhead/smallhead.png",
+          "waitingroom": "https://files.riichi.moe/mjg/game%20resources%20and%20tools/Mahjong%20Soul/unity_raw/extracted/MyAssets/deco/character/washizu_SP/waitingroom/waitingroom.png"
         },
         "id": 405103,
         "spine": [],
