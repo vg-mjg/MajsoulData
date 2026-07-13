@@ -3,14 +3,14 @@
   "legacy_version": "0.11.252.w",
   "regions": {
     "cn": {
-      "bundle_hash": "a25963afb3d7f1df31bd354cdb3f146ea24242a0",
-      "manifest_generated_at": "2026-07-10T02:07:58Z",
-      "resource_version": "0.16.250"
+      "bundle_hash": "c989e4bbd94e8e15a0838dfa04737b65a806677b",
+      "manifest_generated_at": "2026-07-12T22:06:51Z",
+      "resource_version": "0.16.251"
     },
     "en": {
-      "bundle_hash": "c4e71aaff45134add20778ed0142075bb7fa8048",
-      "manifest_generated_at": "2026-07-10T02:05:34Z",
-      "resource_version": "0.16.206"
+      "bundle_hash": "3998b09a7857c3eb5f45dfb6f11c284c0a77805e",
+      "manifest_generated_at": "2026-07-12T22:05:30Z",
+      "resource_version": "0.16.207"
     },
     "jp": {
       "bundle_hash": "7b203de016e995dbb746beec4d27e1420e82b68d",
