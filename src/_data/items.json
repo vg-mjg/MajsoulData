@@ -11222,6 +11222,253 @@
         }
       },
       {
+        "count": 1500,
+        "shopId": 5466,
+        "shopName": {
+          "chs": "幻想诗篇",
+          "chs_t": "幻想詩篇",
+          "en": "Sylvan Verses",
+          "jp": "森が紡ぐ幻想の詩",
+          "kr": "환상의 시"
+        },
+        "soldItemId": 40011703,
+        "soldItemName": {
+          "chs": "",
+          "chs_t": "",
+          "en": "#40011703",
+          "jp": "",
+          "kr": ""
+        }
+      },
+      {
+        "count": 1500,
+        "shopId": 5467,
+        "shopName": {
+          "chs": "幻想诗篇",
+          "chs_t": "幻想詩篇",
+          "en": "Sylvan Verses",
+          "jp": "森が紡ぐ幻想の詩",
+          "kr": "환상의 시"
+        },
+        "soldItemId": 404406,
+        "soldItemName": {
+          "chs": "",
+          "chs_t": "",
+          "en": "#404406",
+          "jp": "",
+          "kr": ""
+        }
+      },
+      {
+        "count": 880,
+        "shopId": 5468,
+        "shopName": {
+          "chs": "幻想诗篇",
+          "chs_t": "幻想詩篇",
+          "en": "Sylvan Verses",
+          "jp": "森が紡ぐ幻想の詩",
+          "kr": "환상의 시"
+        },
+        "soldItemId": 403105,
+        "soldItemName": {
+          "chs": "",
+          "chs_t": "",
+          "en": "#403105",
+          "jp": "",
+          "kr": ""
+        }
+      },
+      {
+        "count": 1500,
+        "shopId": 5469,
+        "shopName": {
+          "chs": "校园微风",
+          "chs_t": "校園微風",
+          "en": "Freshman Mornings",
+          "jp": "校舎を吹き抜ける風",
+          "kr": "산들바람 캠퍼스"
+        },
+        "soldItemId": 400107,
+        "soldItemName": {
+          "chs": "",
+          "chs_t": "",
+          "en": "#400107",
+          "jp": "",
+          "kr": ""
+        }
+      },
+      {
+        "count": 1500,
+        "shopId": 5470,
+        "shopName": {
+          "chs": "校园微风",
+          "chs_t": "校園微風",
+          "en": "Freshman Mornings",
+          "jp": "校舎を吹き抜ける風",
+          "kr": "산들바람 캠퍼스"
+        },
+        "soldItemId": 400907,
+        "soldItemName": {
+          "chs": "",
+          "chs_t": "",
+          "en": "#400907",
+          "jp": "",
+          "kr": ""
+        }
+      },
+      {
+        "count": 880,
+        "shopId": 5471,
+        "shopName": {
+          "chs": "校园微风",
+          "chs_t": "校園微風",
+          "en": "Freshman Mornings",
+          "jp": "校舎を吹き抜ける風",
+          "kr": "산들바람 캠퍼스"
+        },
+        "soldItemId": 400807,
+        "soldItemName": {
+          "chs": "",
+          "chs_t": "",
+          "en": "#400807",
+          "jp": "",
+          "kr": ""
+        }
+      },
+      {
+        "count": 880,
+        "shopId": 5472,
+        "shopName": {
+          "chs": "校园微风",
+          "chs_t": "校園微風",
+          "en": "Freshman Mornings",
+          "jp": "校舎を吹き抜ける風",
+          "kr": "산들바람 캠퍼스"
+        },
+        "soldItemId": 402806,
+        "soldItemName": {
+          "chs": "",
+          "chs_t": "",
+          "en": "#402806",
+          "jp": "",
+          "kr": ""
+        }
+      },
+      {
+        "count": 880,
+        "shopId": 5482,
+        "shopName": {
+          "chs": "一姬当千",
+          "chs_t": "一姬當千",
+          "en": "Invincible Ichihime",
+          "jp": "一姫当千",
+          "kr": "일희당천"
+        },
+        "soldItemId": 400105,
+        "soldItemName": {
+          "chs": "",
+          "chs_t": "",
+          "en": "#400105",
+          "jp": "",
+          "kr": ""
+        }
+      },
+      {
+        "count": 880,
+        "shopId": 5483,
+        "shopName": {
+          "chs": "氤氲浮光",
+          "chs_t": "氤氳浮光",
+          "en": "Dripping Glamour",
+          "jp": "ゆらめく雲煙と水光",
+          "kr": "달빛 아래 온천"
+        },
+        "soldItemId": 402905,
+        "soldItemName": {
+          "chs": "",
+          "chs_t": "",
+          "en": "#402905",
+          "jp": "",
+          "kr": ""
+        }
+      },
+      {
+        "count": 1500,
+        "shopId": 5484,
+        "shopName": {
+          "chs": "贺今朝",
+          "chs_t": "賀今朝",
+          "en": "Day of Celebration",
+          "jp": "今を祝おう",
+          "kr": "아침의 축하"
+        },
+        "soldItemId": 406703,
+        "soldItemName": {
+          "chs": "",
+          "chs_t": "",
+          "en": "#406703",
+          "jp": "",
+          "kr": ""
+        }
+      },
+      {
+        "count": 880,
+        "shopId": 5485,
+        "shopName": {
+          "chs": "冬日心愿簿",
+          "chs_t": "冬日心願簿",
+          "en": "Book of Winter Dreams",
+          "jp": "冬のウィッシュリスト",
+          "kr": "겨울의 위시리스트"
+        },
+        "soldItemId": 401205,
+        "soldItemName": {
+          "chs": "",
+          "chs_t": "",
+          "en": "#401205",
+          "jp": "",
+          "kr": ""
+        }
+      },
+      {
+        "count": 1500,
+        "shopId": 5486,
+        "shopName": {
+          "chs": "天黑请闭眼",
+          "chs_t": "天黑請閉眼",
+          "en": "Close Your Eyes",
+          "jp": "ダークナイトレイド！",
+          "kr": "다크나이트 레이드"
+        },
+        "soldItemId": 404704,
+        "soldItemName": {
+          "chs": "",
+          "chs_t": "",
+          "en": "#404704",
+          "jp": "",
+          "kr": ""
+        }
+      },
+      {
+        "count": 1500,
+        "shopId": 5487,
+        "shopName": {
+          "chs": "不寐之绊",
+          "chs_t": "不寐之絆",
+          "en": "Bond of the Restless Night",
+          "jp": "眠れぬ夜の絆",
+          "kr": "잠들지 않는 인연"
+        },
+        "soldItemId": 404505,
+        "soldItemName": {
+          "chs": "",
+          "chs_t": "",
+          "en": "#404505",
+          "jp": "",
+          "kr": ""
+        }
+      },
+      {
         "count": 600,
         "shopId": 6002,
         "shopName": {
@@ -11474,7 +11721,7 @@
       "packageContainers": 0,
       "packageContents": 0,
       "shopListings": 0,
-      "shopPricing": 457,
+      "shopPricing": 470,
       "sourceLimits": 0
     }
   },
@@ -21965,6 +22212,25 @@
           "jp": "重なる鼓動 -2025",
           "kr": "겹쳐지는 고동-2025"
         }
+      },
+      {
+        "count": 8,
+        "shopId": 9080,
+        "shopName": {
+          "chs": "",
+          "chs_t": "",
+          "en": "",
+          "jp": "",
+          "kr": ""
+        },
+        "soldItemId": 307492,
+        "soldItemName": {
+          "chs": "绿野蝶踪-2026",
+          "chs_t": "綠野蝶蹤-2026",
+          "en": "Where Butterflies Roam (2026)",
+          "jp": "森の妖精さん-2026",
+          "kr": "요정이 머문 자리-2026"
+        }
       }
     ],
     "sort": 15,
@@ -22010,7 +22276,7 @@
       "packageContainers": 0,
       "packageContents": 0,
       "shopListings": 1,
-      "shopPricing": 9,
+      "shopPricing": 10,
       "sourceLimits": 0
     }
   },
@@ -39520,7 +39786,7 @@
         "chs_t": "點選宿舍-裝扮更換",
         "en": "Tap Dorm - Decoration to equip.",
         "jp": "装飾で設定することで、和了時の演出を変更できる。（イベント期間限定。期間終了後は入手できなくなります。）",
-        "kr": "장식품 화면에서 화료 연출을 변경할 수 있다.(이벤트 기간 중에만 획득 가능)"
+        "kr": "장식품 화면에서 화료 연출을 변경할 수 있다."
       },
       "name": {
         "chs": "和牌-疾月斩",
@@ -42826,7 +43092,7 @@
         "chs_t": "點選宿舍-裝扮更換",
         "en": "Tap Dorm - Decoration to equip.",
         "jp": "装飾で設定することで、立直時の演出を変更できる。（イベント期間限定。期間終了後は入手できなくなります。）",
-        "kr": "장식품 화면에서 리치 연출을 변경할 수 있다.(이벤트 기간 중에만 획득 가능)"
+        "kr": "장식품 화면에서 리치 연출을 변경할 수 있다."
       },
       "name": {
         "chs": "立直-风华斩",
@@ -54638,6 +54904,463 @@
   {
     "assets": {
       "background": "",
+      "icon": {
+        "jp": "https://files.riichi.moe/mjg/game%20resources%20and%20tools/Mahjong%20Soul/unity_raw/extracted/MyAssets/deco/title/xsqhb/pic/jp/xsqhb_item.png"
+      },
+      "loadingImage": "",
+      "portraitFrame": "",
+      "tablecloth": "",
+      "tile": "",
+      "titleArt": ""
+    },
+    "audio": null,
+    "canSell": 0,
+    "category": 7,
+    "categoryLabel": "Titles",
+    "characterExchangeUsage": [],
+    "characterMaterialUsage": [],
+    "composeUsage": [],
+    "exchangeReceive": [],
+    "exchangeSpend": [],
+    "func": "",
+    "id": 30557065,
+    "isTitleDefinition": false,
+    "isUnique": 1,
+    "kind": "item",
+    "mallListings": [],
+    "maxStack": 0,
+    "packageContainers": [],
+    "packageContents": [],
+    "profile": {
+      "access": "",
+      "accessInfo": 0,
+      "crossView": 0,
+      "databaseCache": 0,
+      "itemExpire": "2027-08-01 05:00:00",
+      "regionLimit": 0,
+      "sellRewardCount": 0,
+      "sellRewardId": 0
+    },
+    "shopListings": [],
+    "shopPricing": [],
+    "sort": 6087,
+    "sourceLimits": [],
+    "text": {
+      "description": {
+        "chs": "",
+        "chs_t": "",
+        "en": "",
+        "jp": "",
+        "kr": ""
+      },
+      "expireDescription": {
+        "chs": "2027年08月01日まで",
+        "chs_t": "2027年08月01日まで",
+        "en": "2027年08月01日まで",
+        "jp": "2027年08月01日まで",
+        "kr": "2027年08月01日まで"
+      },
+      "funcDescription": {
+        "chs": "「学生雀魂杯」優勝記念称号",
+        "chs_t": "「学生雀魂杯」優勝記念称号",
+        "en": "「学生雀魂杯」優勝記念称号",
+        "jp": "「学生雀魂杯」優勝記念称号",
+        "kr": "「学生雀魂杯」優勝記念称号"
+      },
+      "name": {
+        "chs": "学生雀魂杯　東場",
+        "chs_t": "学生雀魂杯　東場",
+        "en": "学生雀魂杯　東場",
+        "jp": "学生雀魂杯　東場",
+        "kr": "学生雀魂杯　東場"
+      }
+    },
+    "type": 11,
+    "usageCounts": {
+      "characterExchangeUsage": 0,
+      "characterMaterialUsage": 0,
+      "composeUsage": 0,
+      "exchangeReceive": 0,
+      "exchangeSpend": 0,
+      "mallListings": 0,
+      "packageContainers": 0,
+      "packageContents": 0,
+      "shopListings": 0,
+      "shopPricing": 0,
+      "sourceLimits": 0
+    }
+  },
+  {
+    "assets": {
+      "background": "",
+      "icon": {
+        "chs": "https://files.riichi.moe/mjg/game%20resources%20and%20tools/Mahjong%20Soul/unity_raw/extracted/MyAssets/deco/title/24sxz2/pic/chs/24sxz2_item.png",
+        "cn": "https://files.riichi.moe/mjg/game%20resources%20and%20tools/Mahjong%20Soul/unity_raw/extracted/MyAssets/deco/title/24sxz2/pic/chs_t/24sxz2_item.png",
+        "en": "https://files.riichi.moe/mjg/game%20resources%20and%20tools/Mahjong%20Soul/unity_raw/extracted/MyAssets/deco/title/24sxz2/pic/en_chs_t/24sxz2_item.png",
+        "jp": "https://files.riichi.moe/mjg/game%20resources%20and%20tools/Mahjong%20Soul/unity_raw/extracted/MyAssets/deco/title/24sxz2/pic/jp/24sxz2_item.png"
+      },
+      "loadingImage": "",
+      "portraitFrame": "",
+      "tablecloth": "",
+      "tile": "",
+      "titleArt": ""
+    },
+    "audio": null,
+    "canSell": 0,
+    "category": 7,
+    "categoryLabel": "Titles",
+    "characterExchangeUsage": [],
+    "characterMaterialUsage": [],
+    "composeUsage": [],
+    "exchangeReceive": [],
+    "exchangeSpend": [],
+    "func": "",
+    "id": 30557066,
+    "isTitleDefinition": false,
+    "isUnique": 1,
+    "kind": "item",
+    "mallListings": [],
+    "maxStack": 0,
+    "packageContainers": [],
+    "packageContents": [],
+    "profile": {
+      "access": "",
+      "accessInfo": 0,
+      "crossView": 0,
+      "databaseCache": 0,
+      "itemExpire": "2027-08-01 05:00:00",
+      "regionLimit": 0,
+      "sellRewardCount": 0,
+      "sellRewardId": 0
+    },
+    "shopListings": [],
+    "shopPricing": [],
+    "sort": 6088,
+    "sourceLimits": [],
+    "text": {
+      "description": {
+        "chs": "",
+        "chs_t": "",
+        "en": "",
+        "jp": "",
+        "kr": ""
+      },
+      "expireDescription": {
+        "chs": "2027-08-01 05:00:00",
+        "chs_t": "2027-08-01 05:00:00",
+        "en": "2027-08-01 05:00:00",
+        "jp": "2027-08-01 05:00:00",
+        "kr": "2027-08-01 05:00:00"
+      },
+      "funcDescription": {
+        "chs": "赠予四象战冠军",
+        "chs_t": "贈予四象戰冠軍",
+        "en": "贈予四象戰冠軍",
+        "jp": "「四象戦」優勝賞品",
+        "kr": "贈予四象戰冠軍"
+      },
+      "name": {
+        "chs": "四象战冠军",
+        "chs_t": "四象戰冠軍",
+        "en": "四象战冠军",
+        "jp": "四象戦優勝",
+        "kr": "四象战冠军"
+      }
+    },
+    "type": 11,
+    "usageCounts": {
+      "characterExchangeUsage": 0,
+      "characterMaterialUsage": 0,
+      "composeUsage": 0,
+      "exchangeReceive": 0,
+      "exchangeSpend": 0,
+      "mallListings": 0,
+      "packageContainers": 0,
+      "packageContents": 0,
+      "shopListings": 0,
+      "shopPricing": 0,
+      "sourceLimits": 0
+    }
+  },
+  {
+    "assets": {
+      "background": "",
+      "icon": {
+        "chs": "https://files.riichi.moe/mjg/game%20resources%20and%20tools/Mahjong%20Soul/unity_raw/extracted/MyAssets/deco/title/24sxz3/pic/chs/24sxz3_item.png",
+        "cn": "https://files.riichi.moe/mjg/game%20resources%20and%20tools/Mahjong%20Soul/unity_raw/extracted/MyAssets/deco/title/24sxz3/pic/chs_t/24sxz3_item.png",
+        "en": "https://files.riichi.moe/mjg/game%20resources%20and%20tools/Mahjong%20Soul/unity_raw/extracted/MyAssets/deco/title/24sxz3/pic/en_chs_t/24sxz3_item.png",
+        "jp": "https://files.riichi.moe/mjg/game%20resources%20and%20tools/Mahjong%20Soul/unity_raw/extracted/MyAssets/deco/title/24sxz3/pic/jp/24sxz3_item.png"
+      },
+      "loadingImage": "",
+      "portraitFrame": "",
+      "tablecloth": "",
+      "tile": "",
+      "titleArt": ""
+    },
+    "audio": null,
+    "canSell": 0,
+    "category": 7,
+    "categoryLabel": "Titles",
+    "characterExchangeUsage": [],
+    "characterMaterialUsage": [],
+    "composeUsage": [],
+    "exchangeReceive": [],
+    "exchangeSpend": [],
+    "func": "",
+    "id": 30557067,
+    "isTitleDefinition": false,
+    "isUnique": 1,
+    "kind": "item",
+    "mallListings": [],
+    "maxStack": 0,
+    "packageContainers": [],
+    "packageContents": [],
+    "profile": {
+      "access": "",
+      "accessInfo": 0,
+      "crossView": 0,
+      "databaseCache": 0,
+      "itemExpire": "2027-10-01 05:00:00",
+      "regionLimit": 0,
+      "sellRewardCount": 0,
+      "sellRewardId": 0
+    },
+    "shopListings": [],
+    "shopPricing": [],
+    "sort": 6089,
+    "sourceLimits": [],
+    "text": {
+      "description": {
+        "chs": "",
+        "chs_t": "",
+        "en": "",
+        "jp": "",
+        "kr": ""
+      },
+      "expireDescription": {
+        "chs": "2027-10-01 05:00:00",
+        "chs_t": "2027-10-01 05:00:00",
+        "en": "2027-10-01 05:00:00",
+        "jp": "2027-10-01 05:00:00",
+        "kr": "2027-10-01 05:00:00"
+      },
+      "funcDescription": {
+        "chs": "赠予四象战冠军",
+        "chs_t": "贈予四象戰冠軍",
+        "en": "贈予四象戰冠軍",
+        "jp": "「四象戦」優勝賞品",
+        "kr": "贈予四象戰冠軍"
+      },
+      "name": {
+        "chs": "四象战冠军",
+        "chs_t": "四象戰冠軍",
+        "en": "四象战冠军",
+        "jp": "四象戦優勝",
+        "kr": "四象战冠军"
+      }
+    },
+    "type": 11,
+    "usageCounts": {
+      "characterExchangeUsage": 0,
+      "characterMaterialUsage": 0,
+      "composeUsage": 0,
+      "exchangeReceive": 0,
+      "exchangeSpend": 0,
+      "mallListings": 0,
+      "packageContainers": 0,
+      "packageContents": 0,
+      "shopListings": 0,
+      "shopPricing": 0,
+      "sourceLimits": 0
+    }
+  },
+  {
+    "assets": {
+      "background": "",
+      "icon": {
+        "chs": "https://files.riichi.moe/mjg/game%20resources%20and%20tools/Mahjong%20Soul/unity_raw/extracted/MyAssets/deco/title/24sxz4/pic/chs/24sxz4_item.png",
+        "cn": "https://files.riichi.moe/mjg/game%20resources%20and%20tools/Mahjong%20Soul/unity_raw/extracted/MyAssets/deco/title/24sxz4/pic/chs_t/24sxz4_item.png",
+        "en": "https://files.riichi.moe/mjg/game%20resources%20and%20tools/Mahjong%20Soul/unity_raw/extracted/MyAssets/deco/title/24sxz4/pic/en_chs_t/24sxz4_item.png",
+        "jp": "https://files.riichi.moe/mjg/game%20resources%20and%20tools/Mahjong%20Soul/unity_raw/extracted/MyAssets/deco/title/24sxz4/pic/jp/24sxz4_item.png"
+      },
+      "loadingImage": "",
+      "portraitFrame": "",
+      "tablecloth": "",
+      "tile": "",
+      "titleArt": ""
+    },
+    "audio": null,
+    "canSell": 0,
+    "category": 7,
+    "categoryLabel": "Titles",
+    "characterExchangeUsage": [],
+    "characterMaterialUsage": [],
+    "composeUsage": [],
+    "exchangeReceive": [],
+    "exchangeSpend": [],
+    "func": "",
+    "id": 30557068,
+    "isTitleDefinition": false,
+    "isUnique": 1,
+    "kind": "item",
+    "mallListings": [],
+    "maxStack": 0,
+    "packageContainers": [],
+    "packageContents": [],
+    "profile": {
+      "access": "",
+      "accessInfo": 0,
+      "crossView": 0,
+      "databaseCache": 0,
+      "itemExpire": "2028-01-01 05:00:00",
+      "regionLimit": 0,
+      "sellRewardCount": 0,
+      "sellRewardId": 0
+    },
+    "shopListings": [],
+    "shopPricing": [],
+    "sort": 6090,
+    "sourceLimits": [],
+    "text": {
+      "description": {
+        "chs": "",
+        "chs_t": "",
+        "en": "",
+        "jp": "",
+        "kr": ""
+      },
+      "expireDescription": {
+        "chs": "2028-01-01 05:00:00",
+        "chs_t": "2028-01-01 05:00:00",
+        "en": "2028-01-01 05:00:00",
+        "jp": "2028-01-01 05:00:00",
+        "kr": "2028-01-01 05:00:00"
+      },
+      "funcDescription": {
+        "chs": "赠予四象战冠军",
+        "chs_t": "贈予四象戰冠軍",
+        "en": "贈予四象戰冠軍",
+        "jp": "「四象戦」優勝賞品",
+        "kr": "贈予四象戰冠軍"
+      },
+      "name": {
+        "chs": "四象战冠军",
+        "chs_t": "四象戰冠軍",
+        "en": "四象战冠军",
+        "jp": "四象戦優勝",
+        "kr": "四象战冠军"
+      }
+    },
+    "type": 11,
+    "usageCounts": {
+      "characterExchangeUsage": 0,
+      "characterMaterialUsage": 0,
+      "composeUsage": 0,
+      "exchangeReceive": 0,
+      "exchangeSpend": 0,
+      "mallListings": 0,
+      "packageContainers": 0,
+      "packageContents": 0,
+      "shopListings": 0,
+      "shopPricing": 0,
+      "sourceLimits": 0
+    }
+  },
+  {
+    "assets": {
+      "background": "",
+      "icon": {
+        "chs": "https://files.riichi.moe/mjg/game%20resources%20and%20tools/Mahjong%20Soul/unity_raw/extracted/MyAssets/deco/title/24sxz2/pic/chs/24sxz2_item.png",
+        "cn": "https://files.riichi.moe/mjg/game%20resources%20and%20tools/Mahjong%20Soul/unity_raw/extracted/MyAssets/deco/title/24sxz2/pic/chs_t/24sxz2_item.png",
+        "en": "https://files.riichi.moe/mjg/game%20resources%20and%20tools/Mahjong%20Soul/unity_raw/extracted/MyAssets/deco/title/24sxz2/pic/en_chs_t/24sxz2_item.png",
+        "jp": "https://files.riichi.moe/mjg/game%20resources%20and%20tools/Mahjong%20Soul/unity_raw/extracted/MyAssets/deco/title/24sxz2/pic/jp/24sxz2_item.png"
+      },
+      "loadingImage": "",
+      "portraitFrame": "",
+      "tablecloth": "",
+      "tile": "",
+      "titleArt": ""
+    },
+    "audio": null,
+    "canSell": 0,
+    "category": 7,
+    "categoryLabel": "Titles",
+    "characterExchangeUsage": [],
+    "characterMaterialUsage": [],
+    "composeUsage": [],
+    "exchangeReceive": [],
+    "exchangeSpend": [],
+    "func": "",
+    "id": 30557069,
+    "isTitleDefinition": false,
+    "isUnique": 1,
+    "kind": "item",
+    "mallListings": [],
+    "maxStack": 0,
+    "packageContainers": [],
+    "packageContents": [],
+    "profile": {
+      "access": "",
+      "accessInfo": 0,
+      "crossView": 0,
+      "databaseCache": 0,
+      "itemExpire": "2027-08-01 05:00:00",
+      "regionLimit": 0,
+      "sellRewardCount": 0,
+      "sellRewardId": 0
+    },
+    "shopListings": [],
+    "shopPricing": [],
+    "sort": 6091,
+    "sourceLimits": [],
+    "text": {
+      "description": {
+        "chs": "",
+        "chs_t": "",
+        "en": "",
+        "jp": "",
+        "kr": ""
+      },
+      "expireDescription": {
+        "chs": "2027年8月1日まで",
+        "chs_t": "2027年8月1日まで",
+        "en": "2027年8月1日まで",
+        "jp": "2027年8月1日まで",
+        "kr": "2027年8月1日まで"
+      },
+      "funcDescription": {
+        "chs": "赠予四象战冠军",
+        "chs_t": "贈予四象戰冠軍",
+        "en": "贈予四象戰冠軍",
+        "jp": "四象戦夏の陣優勝称号",
+        "kr": "贈予四象戰冠軍"
+      },
+      "name": {
+        "chs": "四象战冠军",
+        "chs_t": "四象戰冠軍",
+        "en": "四象・朱雀",
+        "jp": "四象・朱雀",
+        "kr": "四象・朱雀"
+      }
+    },
+    "type": 11,
+    "usageCounts": {
+      "characterExchangeUsage": 0,
+      "characterMaterialUsage": 0,
+      "composeUsage": 0,
+      "exchangeReceive": 0,
+      "exchangeSpend": 0,
+      "mallListings": 0,
+      "packageContainers": 0,
+      "packageContents": 0,
+      "shopListings": 0,
+      "shopPricing": 0,
+      "sourceLimits": 0
+    }
+  },
+  {
+    "assets": {
+      "background": "",
       "icon": "https://files.riichi.moe/mjg/game%20resources%20and%20tools/Mahjong%20Soul/unity_raw/extracted/MyAssets/deco/lizhibang/liqi_xiaoemofanbian/pic/common/liqi_xiaoemofanbian.png",
       "loadingImage": "",
       "portraitFrame": "",
@@ -55567,7 +56290,7 @@
         "chs_t": "點選宿舍-裝扮更換",
         "en": "Tap Dorm - Decoration to equip.",
         "jp": "装飾で設定することで、立直棒を変更できる。（イベント期間限定。期間終了後は入手できなくなります。）",
-        "kr": "장식품 화면에서 리치봉을 변경할 수 있다.(이벤트 기간 중에만 획득 가능)"
+        "kr": "장식품 화면에서 리치봉을 변경할 수 있다."
       },
       "name": {
         "chs": "立直棒-喵切丸",
@@ -58309,7 +59032,7 @@
         "chs_t": "點選宿舍-裝扮更換",
         "en": "Tap Dorm - Decoration to equip.",
         "jp": "装飾で設定することで、麻雀牌を変更できる。（イベント期間限定。期間終了後は入手できなくなります。）",
-        "kr": "장식품 화면에서 마작패를 변경할 수 있다.(이벤트 기간 중에만 획득 가능)"
+        "kr": "장식품 화면에서 마작패를 변경할 수 있다."
       },
       "name": {
         "chs": "牌背-鬼煤球",
@@ -62381,7 +63104,7 @@
         "chs_t": "點選宿舍-裝扮更換",
         "en": "Tap Dorm - Decoration to equip.",
         "jp": "装飾で設定することで、雀卓を変更できる。（イベント期間限定。期間終了後は入手できなくなります。）",
-        "kr": "장식품 화면에서 작탁을 변경할 수 있다.(이벤트 기간 중에만 획득 가능)"
+        "kr": "장식품 화면에서 작탁을 변경할 수 있다."
       },
       "name": {
         "chs": "桌布-勇喵传说",
@@ -69355,7 +70078,7 @@
   },
   {
     "assets": {
-      "background": "https://files.riichi.moe/mjg/game%20resources%20and%20tools/Mahjong%20Soul/unity_raw/extracted/MyAssets/extendRes/background/beijing_chunying/beijing_chunying.png",
+      "background": "https://files.riichi.moe/mjg/game%20resources%20and%20tools/Mahjong%20Soul/unity_raw/extracted/MyAssets/extendRes/background/lobby/beijing_chunying/beijing_chunying.png",
       "icon": "https://files.riichi.moe/mjg/game%20resources%20and%20tools/Mahjong%20Soul/unity_raw/extracted/MyAssets/deco/lobby_background/beijing_chunying/pic/common/beijing_chunying.png",
       "loadingImage": "",
       "portraitFrame": "",
@@ -69442,7 +70165,7 @@
   },
   {
     "assets": {
-      "background": "https://files.riichi.moe/mjg/game%20resources%20and%20tools/Mahjong%20Soul/unity_raw/extracted/MyAssets/extendRes/background/beijing_zhongxia/beijing_zhongxia.png",
+      "background": "https://files.riichi.moe/mjg/game%20resources%20and%20tools/Mahjong%20Soul/unity_raw/extracted/MyAssets/extendRes/background/lobby/beijing_zhongxia/beijing_zhongxia.png",
       "icon": "https://files.riichi.moe/mjg/game%20resources%20and%20tools/Mahjong%20Soul/unity_raw/extracted/MyAssets/deco/lobby_background/beijing_zhongxia/pic/common/beijing_zhongxia.png",
       "loadingImage": "",
       "portraitFrame": "",
@@ -69562,7 +70285,7 @@
   },
   {
     "assets": {
-      "background": "https://files.riichi.moe/mjg/game%20resources%20and%20tools/Mahjong%20Soul/unity_raw/extracted/MyAssets/extendRes/background/beijing_aiai/beijing_aiai.png",
+      "background": "https://files.riichi.moe/mjg/game%20resources%20and%20tools/Mahjong%20Soul/unity_raw/extracted/MyAssets/extendRes/background/lobby/beijing_aiai/beijing_aiai.png",
       "icon": "https://files.riichi.moe/mjg/game%20resources%20and%20tools/Mahjong%20Soul/unity_raw/extracted/MyAssets/deco/lobby_background/beijing_aiai/pic/common/beijing_aiai.png",
       "loadingImage": "",
       "portraitFrame": "",
@@ -69714,7 +70437,7 @@
   },
   {
     "assets": {
-      "background": "https://files.riichi.moe/mjg/game%20resources%20and%20tools/Mahjong%20Soul/unity_raw/extracted/MyAssets/extendRes/background/beijing_xiaripaidui/beijing_xiaripaidui.png",
+      "background": "https://files.riichi.moe/mjg/game%20resources%20and%20tools/Mahjong%20Soul/unity_raw/extracted/MyAssets/extendRes/background/lobby/beijing_xiaripaidui/beijing_xiaripaidui.png",
       "icon": "https://files.riichi.moe/mjg/game%20resources%20and%20tools/Mahjong%20Soul/unity_raw/extracted/MyAssets/deco/lobby_background/beijing_xiaripaidui/pic/common/beijing_xiaripaidui.png",
       "loadingImage": "",
       "portraitFrame": "",
@@ -69834,7 +70557,7 @@
   },
   {
     "assets": {
-      "background": "https://files.riichi.moe/mjg/game%20resources%20and%20tools/Mahjong%20Soul/unity_raw/extracted/MyAssets/extendRes/background/beijing_qiushen/beijing_qiushen.png",
+      "background": "https://files.riichi.moe/mjg/game%20resources%20and%20tools/Mahjong%20Soul/unity_raw/extracted/MyAssets/extendRes/background/lobby/beijing_qiushen/beijing_qiushen.png",
       "icon": "https://files.riichi.moe/mjg/game%20resources%20and%20tools/Mahjong%20Soul/unity_raw/extracted/MyAssets/deco/lobby_background/beijing_qiushen/pic/common/beijing_qiushen.png",
       "loadingImage": "",
       "portraitFrame": "",
@@ -69921,7 +70644,7 @@
   },
   {
     "assets": {
-      "background": "https://files.riichi.moe/mjg/game%20resources%20and%20tools/Mahjong%20Soul/unity_raw/extracted/MyAssets/extendRes/background/beijing_chuyi/beijing_chuyi.png",
+      "background": "https://files.riichi.moe/mjg/game%20resources%20and%20tools/Mahjong%20Soul/unity_raw/extracted/MyAssets/extendRes/background/lobby/beijing_chuyi/beijing_chuyi.png",
       "icon": "https://files.riichi.moe/mjg/game%20resources%20and%20tools/Mahjong%20Soul/unity_raw/extracted/MyAssets/deco/lobby_background/beijing_chuyi/pic/common/beijing_chuyi.png",
       "loadingImage": "",
       "portraitFrame": "",
@@ -70041,7 +70764,7 @@
   },
   {
     "assets": {
-      "background": "https://files.riichi.moe/mjg/game%20resources%20and%20tools/Mahjong%20Soul/unity_raw/extracted/MyAssets/extendRes/background/beijing_22summer/beijing_22summer.png",
+      "background": "https://files.riichi.moe/mjg/game%20resources%20and%20tools/Mahjong%20Soul/unity_raw/extracted/MyAssets/extendRes/background/lobby/beijing_22summer/beijing_22summer.png",
       "icon": "https://files.riichi.moe/mjg/game%20resources%20and%20tools/Mahjong%20Soul/unity_raw/extracted/MyAssets/deco/lobby_background/beijing_22summer/pic/common/beijing_22summer.png",
       "loadingImage": "",
       "portraitFrame": "",
@@ -70161,7 +70884,7 @@
   },
   {
     "assets": {
-      "background": "https://files.riichi.moe/mjg/game%20resources%20and%20tools/Mahjong%20Soul/unity_raw/extracted/MyAssets/extendRes/background/beijing_qifu/beijing_qifu.png",
+      "background": "https://files.riichi.moe/mjg/game%20resources%20and%20tools/Mahjong%20Soul/unity_raw/extracted/MyAssets/extendRes/background/lobby/beijing_qifu/beijing_qifu.png",
       "icon": "https://files.riichi.moe/mjg/game%20resources%20and%20tools/Mahjong%20Soul/unity_raw/extracted/MyAssets/deco/lobby_background/beijing_qifu/pic/common/beijing_qifu.png",
       "loadingImage": "",
       "portraitFrame": "",
@@ -70281,7 +71004,7 @@
   },
   {
     "assets": {
-      "background": "https://files.riichi.moe/mjg/game%20resources%20and%20tools/Mahjong%20Soul/unity_raw/extracted/MyAssets/extendRes/background/beijing_yinghuo/beijing_yinghuo.png",
+      "background": "https://files.riichi.moe/mjg/game%20resources%20and%20tools/Mahjong%20Soul/unity_raw/extracted/MyAssets/extendRes/background/lobby/beijing_yinghuo/beijing_yinghuo.png",
       "icon": "https://files.riichi.moe/mjg/game%20resources%20and%20tools/Mahjong%20Soul/unity_raw/extracted/MyAssets/deco/lobby_background/beijing_yinghuo/pic/common/beijing_yinghuo.png",
       "loadingImage": "",
       "portraitFrame": "",
@@ -70401,7 +71124,7 @@
   },
   {
     "assets": {
-      "background": "https://files.riichi.moe/mjg/game%20resources%20and%20tools/Mahjong%20Soul/unity_raw/extracted/MyAssets/extendRes/background/beijing_shengye/beijing_shengye.png",
+      "background": "https://files.riichi.moe/mjg/game%20resources%20and%20tools/Mahjong%20Soul/unity_raw/extracted/MyAssets/extendRes/background/lobby/beijing_shengye/beijing_shengye.png",
       "icon": "https://files.riichi.moe/mjg/game%20resources%20and%20tools/Mahjong%20Soul/unity_raw/extracted/MyAssets/deco/lobby_background/beijing_shengye/pic/common/beijing_shengye.png",
       "loadingImage": "",
       "portraitFrame": "",
@@ -70521,7 +71244,7 @@
   },
   {
     "assets": {
-      "background": "https://files.riichi.moe/mjg/game%20resources%20and%20tools/Mahjong%20Soul/unity_raw/extracted/MyAssets/extendRes/background/beijing_wuhui/beijing_wuhui.png",
+      "background": "https://files.riichi.moe/mjg/game%20resources%20and%20tools/Mahjong%20Soul/unity_raw/extracted/MyAssets/extendRes/background/lobby/beijing_wuhui/beijing_wuhui.png",
       "icon": "https://files.riichi.moe/mjg/game%20resources%20and%20tools/Mahjong%20Soul/unity_raw/extracted/MyAssets/deco/lobby_background/beijing_wuhui/pic/common/beijing_wuhui.png",
       "loadingImage": "",
       "portraitFrame": "",
@@ -70641,7 +71364,7 @@
   },
   {
     "assets": {
-      "background": "https://files.riichi.moe/mjg/game%20resources%20and%20tools/Mahjong%20Soul/unity_raw/extracted/MyAssets/extendRes/background/beijing_hongguang/beijing_hongguang.png",
+      "background": "https://files.riichi.moe/mjg/game%20resources%20and%20tools/Mahjong%20Soul/unity_raw/extracted/MyAssets/extendRes/background/lobby/beijing_hongguang/beijing_hongguang.png",
       "icon": "https://files.riichi.moe/mjg/game%20resources%20and%20tools/Mahjong%20Soul/unity_raw/extracted/MyAssets/deco/lobby_background/beijing_hongguang/pic/common/beijing_hongguang.png",
       "loadingImage": "",
       "portraitFrame": "",
@@ -70728,7 +71451,7 @@
   },
   {
     "assets": {
-      "background": "https://files.riichi.moe/mjg/game%20resources%20and%20tools/Mahjong%20Soul/unity_raw/extracted/MyAssets/extendRes/background/beijing_wuan/beijing_wuan.png",
+      "background": "https://files.riichi.moe/mjg/game%20resources%20and%20tools/Mahjong%20Soul/unity_raw/extracted/MyAssets/extendRes/background/lobby/beijing_wuan/beijing_wuan.png",
       "icon": "https://files.riichi.moe/mjg/game%20resources%20and%20tools/Mahjong%20Soul/unity_raw/extracted/MyAssets/deco/lobby_background/beijing_wuan/pic/common/beijing_wuan.png",
       "loadingImage": "",
       "portraitFrame": "",
@@ -70848,7 +71571,7 @@
   },
   {
     "assets": {
-      "background": "https://files.riichi.moe/mjg/game%20resources%20and%20tools/Mahjong%20Soul/unity_raw/extracted/MyAssets/extendRes/background/beijing_jiuba/beijing_jiuba.png",
+      "background": "https://files.riichi.moe/mjg/game%20resources%20and%20tools/Mahjong%20Soul/unity_raw/extracted/MyAssets/extendRes/background/lobby/beijing_jiuba/beijing_jiuba.png",
       "icon": "https://files.riichi.moe/mjg/game%20resources%20and%20tools/Mahjong%20Soul/unity_raw/extracted/MyAssets/deco/lobby_background/beijing_jiuba/pic/common/beijing_jiuba.png",
       "loadingImage": "",
       "portraitFrame": "",
@@ -70968,7 +71691,7 @@
   },
   {
     "assets": {
-      "background": "https://files.riichi.moe/mjg/game%20resources%20and%20tools/Mahjong%20Soul/unity_raw/extracted/MyAssets/extendRes/background/beijing_fenwoshi/beijing_fenwoshi.png",
+      "background": "https://files.riichi.moe/mjg/game%20resources%20and%20tools/Mahjong%20Soul/unity_raw/extracted/MyAssets/extendRes/background/lobby/beijing_fenwoshi/beijing_fenwoshi.png",
       "icon": "https://files.riichi.moe/mjg/game%20resources%20and%20tools/Mahjong%20Soul/unity_raw/extracted/MyAssets/deco/lobby_background/beijing_fenwoshi/pic/common/beijing_fenwoshi.png",
       "loadingImage": "",
       "portraitFrame": "",
@@ -71088,7 +71811,7 @@
   },
   {
     "assets": {
-      "background": "https://files.riichi.moe/mjg/game%20resources%20and%20tools/Mahjong%20Soul/unity_raw/extracted/MyAssets/extendRes/background/beijing_gufengwoshi/beijing_gufengwoshi.png",
+      "background": "https://files.riichi.moe/mjg/game%20resources%20and%20tools/Mahjong%20Soul/unity_raw/extracted/MyAssets/extendRes/background/lobby/beijing_gufengwoshi/beijing_gufengwoshi.png",
       "icon": "https://files.riichi.moe/mjg/game%20resources%20and%20tools/Mahjong%20Soul/unity_raw/extracted/MyAssets/deco/lobby_background/beijing_gufengwoshi/pic/common/beijing_gufengwoshi.png",
       "loadingImage": "",
       "portraitFrame": "",
@@ -71208,7 +71931,7 @@
   },
   {
     "assets": {
-      "background": "https://files.riichi.moe/mjg/game%20resources%20and%20tools/Mahjong%20Soul/unity_raw/extracted/MyAssets/extendRes/background/beijing_tangquan/beijing_tangquan.png",
+      "background": "https://files.riichi.moe/mjg/game%20resources%20and%20tools/Mahjong%20Soul/unity_raw/extracted/MyAssets/extendRes/background/lobby/beijing_tangquan/beijing_tangquan.png",
       "icon": "https://files.riichi.moe/mjg/game%20resources%20and%20tools/Mahjong%20Soul/unity_raw/extracted/MyAssets/deco/lobby_background/beijing_tangquan/pic/common/beijing_tangquan.png",
       "loadingImage": "",
       "portraitFrame": "",
@@ -71328,7 +72051,7 @@
   },
   {
     "assets": {
-      "background": "https://files.riichi.moe/mjg/game%20resources%20and%20tools/Mahjong%20Soul/unity_raw/extracted/MyAssets/extendRes/background/beijing_shamo/beijing_shamo.png",
+      "background": "https://files.riichi.moe/mjg/game%20resources%20and%20tools/Mahjong%20Soul/unity_raw/extracted/MyAssets/extendRes/background/lobby/beijing_shamo/beijing_shamo.png",
       "icon": "https://files.riichi.moe/mjg/game%20resources%20and%20tools/Mahjong%20Soul/unity_raw/extracted/MyAssets/deco/lobby_background/beijing_shamo/pic/common/beijing_shamo.png",
       "loadingImage": "",
       "portraitFrame": "",
@@ -71448,7 +72171,7 @@
   },
   {
     "assets": {
-      "background": "https://files.riichi.moe/mjg/game%20resources%20and%20tools/Mahjong%20Soul/unity_raw/extracted/MyAssets/extendRes/background/beijing_yuanlin/beijing_yuanlin.png",
+      "background": "https://files.riichi.moe/mjg/game%20resources%20and%20tools/Mahjong%20Soul/unity_raw/extracted/MyAssets/extendRes/background/lobby/beijing_yuanlin/beijing_yuanlin.png",
       "icon": "https://files.riichi.moe/mjg/game%20resources%20and%20tools/Mahjong%20Soul/unity_raw/extracted/MyAssets/deco/lobby_background/beijing_yuanlin/pic/common/beijing_yuanlin.png",
       "loadingImage": "",
       "portraitFrame": "",
@@ -71568,7 +72291,7 @@
   },
   {
     "assets": {
-      "background": "https://files.riichi.moe/mjg/game%20resources%20and%20tools/Mahjong%20Soul/unity_raw/extracted/MyAssets/extendRes/background/beijing_dongmudaqiao/beijing_dongmudaqiao.png",
+      "background": "https://files.riichi.moe/mjg/game%20resources%20and%20tools/Mahjong%20Soul/unity_raw/extracted/MyAssets/extendRes/background/lobby/beijing_dongmudaqiao/beijing_dongmudaqiao.png",
       "icon": "https://files.riichi.moe/mjg/game%20resources%20and%20tools/Mahjong%20Soul/unity_raw/extracted/MyAssets/deco/lobby_background/beijing_dongmudaqiao/pic/common/beijing_dongmudaqiao.png",
       "loadingImage": "",
       "portraitFrame": "",
@@ -71655,7 +72378,7 @@
   },
   {
     "assets": {
-      "background": "https://files.riichi.moe/mjg/game%20resources%20and%20tools/Mahjong%20Soul/unity_raw/extracted/MyAssets/extendRes/background/beijing_akagi/beijing_akagi.png",
+      "background": "https://files.riichi.moe/mjg/game%20resources%20and%20tools/Mahjong%20Soul/unity_raw/extracted/MyAssets/extendRes/background/lobby/beijing_akagi/beijing_akagi.png",
       "icon": "https://files.riichi.moe/mjg/game%20resources%20and%20tools/Mahjong%20Soul/unity_raw/extracted/MyAssets/deco/lobby_background/beijing_akagi/pic/common/beijing_akagi.png",
       "loadingImage": "",
       "portraitFrame": "",
@@ -76147,6 +76870,126 @@
   {
     "assets": {
       "background": "",
+      "icon": "https://files.riichi.moe/mjg/game%20resources%20and%20tools/Mahjong%20Soul/unity_raw/extracted/MyAssets/deco/loading_cg/260701/thumb/common/260701_thumb.png",
+      "loadingImage": "https://files.riichi.moe/mjg/game%20resources%20and%20tools/Mahjong%20Soul/unity_raw/extracted/MyAssets/deco/loading_cg/260701/main/common/260701.png",
+      "portraitFrame": "",
+      "tablecloth": "",
+      "tile": "",
+      "titleArt": ""
+    },
+    "audio": null,
+    "canSell": 0,
+    "category": 8,
+    "categoryLabel": "Loading Screens",
+    "characterExchangeUsage": [],
+    "characterMaterialUsage": [],
+    "composeUsage": [],
+    "exchangeReceive": [],
+    "exchangeSpend": [],
+    "func": "",
+    "id": 307492,
+    "isTitleDefinition": false,
+    "isUnique": 1,
+    "kind": "item",
+    "mallListings": [],
+    "maxStack": 0,
+    "packageContainers": [],
+    "packageContents": [],
+    "profile": {
+      "access": "",
+      "accessInfo": 0,
+      "crossView": 0,
+      "databaseCache": 0,
+      "itemExpire": "",
+      "regionLimit": 0,
+      "sellRewardCount": 0,
+      "sellRewardId": 0
+    },
+    "shopListings": [
+      {
+        "buyLimit": 1,
+        "category": 9,
+        "discount": 10000,
+        "id": 9080,
+        "launchTime": "",
+        "priceRaw": "302009-8",
+        "prices": [
+          {
+            "count": 8,
+            "itemId": 302009,
+            "raw": "302009-8"
+          }
+        ],
+        "text": {
+          "description": {
+            "chs": "",
+            "chs_t": "",
+            "en": "",
+            "jp": "",
+            "kr": ""
+          },
+          "name": {
+            "chs": "",
+            "chs_t": "",
+            "en": "",
+            "jp": "",
+            "kr": ""
+          }
+        },
+        "zone": "1,2,3"
+      }
+    ],
+    "shopPricing": [],
+    "sort": 15092,
+    "sourceLimits": [],
+    "text": {
+      "description": {
+        "chs": "蝶羽翩跹间，阳光和微风被揉进原野的花香中，妖精们亦于此处小憩。",
+        "chs_t": "蝶羽翩躚間，陽光和微風被揉進原野的花香中，妖精們亦於此處小憩。",
+        "en": "Fluttering butterflies weave the sunlight and breeze into the meadow's sweet scent. Here, little fairies come to nap.",
+        "jp": "やわらかな日差しにそよ風、そして花の香り。ここは妖精さんたちの憩いの場所。",
+        "kr": "나비의 날개가 너울너울 춤추는 사이, 햇살과 산들바람이 들판의 꽃향기에 스며들고, 요정들도 이곳에서 잠시 머무른다."
+      },
+      "expireDescription": {
+        "chs": "",
+        "chs_t": "",
+        "en": "",
+        "jp": "",
+        "kr": ""
+      },
+      "funcDescription": {
+        "chs": "点击仓库-插画更换",
+        "chs_t": "點選倉庫-插畫更換",
+        "en": "Tap Items - Illustration to equip.",
+        "jp": "倉庫・イラストで設定できる",
+        "kr": "[창고]-[일러스트]에서 변경할 수 있다."
+      },
+      "name": {
+        "chs": "绿野蝶踪-2026",
+        "chs_t": "綠野蝶蹤-2026",
+        "en": "Where Butterflies Roam (2026)",
+        "jp": "森の妖精さん-2026",
+        "kr": "요정이 머문 자리-2026"
+      }
+    },
+    "type": 12,
+    "usageCounts": {
+      "characterExchangeUsage": 0,
+      "characterMaterialUsage": 0,
+      "composeUsage": 0,
+      "exchangeReceive": 0,
+      "exchangeSpend": 0,
+      "mallListings": 0,
+      "packageContainers": 0,
+      "packageContents": 0,
+      "shopListings": 1,
+      "shopPricing": 0,
+      "sourceLimits": 0
+    }
+  },
+  {
+    "assets": {
+      "background": "",
       "icon": "https://files.riichi.moe/mjg/game%20resources%20and%20tools/Mahjong%20Soul/unity_raw/extracted/MyAssets/deco/loading_cg/CG200001/thumb/common/CG200001_thumb.png",
       "loadingImage": "https://files.riichi.moe/mjg/game%20resources%20and%20tools/Mahjong%20Soul/unity_raw/extracted/MyAssets/deco/loading_cg/CG200001/main/common/CG200001.png",
       "portraitFrame": "",
@@ -78041,6 +78884,93 @@
         "en": "Protector of Jane",
         "jp": "ジェーンの守護者",
         "kr": "제인의 수호자"
+      }
+    },
+    "type": 12,
+    "usageCounts": {
+      "characterExchangeUsage": 0,
+      "characterMaterialUsage": 0,
+      "composeUsage": 0,
+      "exchangeReceive": 0,
+      "exchangeSpend": 0,
+      "mallListings": 0,
+      "packageContainers": 0,
+      "packageContents": 0,
+      "shopListings": 0,
+      "shopPricing": 0,
+      "sourceLimits": 0
+    }
+  },
+  {
+    "assets": {
+      "background": "",
+      "icon": "https://files.riichi.moe/mjg/game%20resources%20and%20tools/Mahjong%20Soul/unity_raw/extracted/MyAssets/deco/loading_cg/CG200044/thumb/common/CG200044_thumb.png",
+      "loadingImage": "https://files.riichi.moe/mjg/game%20resources%20and%20tools/Mahjong%20Soul/unity_raw/extracted/MyAssets/deco/loading_cg/CG200044/main/common/CG200044.png",
+      "portraitFrame": "",
+      "tablecloth": "",
+      "tile": "",
+      "titleArt": ""
+    },
+    "audio": null,
+    "canSell": 0,
+    "category": 8,
+    "categoryLabel": "Loading Screens",
+    "characterExchangeUsage": [],
+    "characterMaterialUsage": [],
+    "composeUsage": [],
+    "exchangeReceive": [],
+    "exchangeSpend": [],
+    "func": "",
+    "id": 30740023,
+    "isTitleDefinition": false,
+    "isUnique": 1,
+    "kind": "item",
+    "mallListings": [],
+    "maxStack": 0,
+    "packageContainers": [],
+    "packageContents": [],
+    "profile": {
+      "access": "",
+      "accessInfo": 0,
+      "crossView": 0,
+      "databaseCache": 0,
+      "itemExpire": "",
+      "regionLimit": 0,
+      "sellRewardCount": 0,
+      "sellRewardId": 0
+    },
+    "shopListings": [],
+    "shopPricing": [],
+    "sort": 16023,
+    "sourceLimits": [],
+    "text": {
+      "description": {
+        "chs": "【七海礼奈的守护者】成就纪念插图",
+        "chs_t": "【七海禮奈的守護者】成就紀念插圖",
+        "en": "[Protector of Reina Nanami] Achievement Commemoration",
+        "jp": "「七海礼奈の守護者」記念イラスト",
+        "kr": "[나나미 레이나의 수호자] 달성 기념 일러스트"
+      },
+      "expireDescription": {
+        "chs": "",
+        "chs_t": "",
+        "en": "",
+        "jp": "",
+        "kr": ""
+      },
+      "funcDescription": {
+        "chs": "点击仓库-插画更换",
+        "chs_t": "點選倉庫-插畫更換",
+        "en": "Tap Items - Illustration to equip.",
+        "jp": "倉庫・イラストで設定できる",
+        "kr": "[창고]-[일러스트]에서 변경할 수 있다."
+      },
+      "name": {
+        "chs": "七海礼奈的守护者",
+        "chs_t": "七海禮奈的守護者",
+        "en": "Protector of Reina Nanami",
+        "jp": "七海礼奈の守護者",
+        "kr": "나나미 레이나의 수호자"
       }
     },
     "type": 12,
@@ -95752,7 +96682,7 @@
         "chs_t": "翻開機會",
         "en": "Flip Attempt",
         "jp": "めくり回数",
-        "kr": "뒤집기 횟수"
+        "kr": "오픈 횟수"
       }
     },
     "type": 0,
@@ -119734,6 +120664,485 @@
         "en": "双圣战冠军",
         "jp": "双聖戦優勝",
         "kr": "双圣战冠军"
+      }
+    },
+    "type": 0,
+    "usageCounts": {
+      "characterExchangeUsage": 0,
+      "characterMaterialUsage": 0,
+      "composeUsage": 0,
+      "exchangeReceive": 0,
+      "exchangeSpend": 0,
+      "mallListings": 0,
+      "packageContainers": 0,
+      "packageContents": 0,
+      "shopListings": 0,
+      "shopPricing": 0,
+      "sourceLimits": 0
+    }
+  },
+  {
+    "assets": {
+      "background": "",
+      "icon": {
+        "jp": "https://files.riichi.moe/mjg/game%20resources%20and%20tools/Mahjong%20Soul/unity_raw/extracted/MyAssets/deco/title/xsqhb/pic/jp/xsqhb_item.png"
+      },
+      "loadingImage": "",
+      "portraitFrame": "",
+      "tablecloth": "",
+      "tile": "",
+      "titleArt": {
+        "jp": "https://files.riichi.moe/mjg/game%20resources%20and%20tools/Mahjong%20Soul/unity_raw/extracted/MyAssets/deco/title/xsqhb/pic/jp/xsqhb.png"
+      }
+    },
+    "audio": null,
+    "canSell": 0,
+    "category": 7,
+    "categoryLabel": "Titles",
+    "characterExchangeUsage": [],
+    "characterMaterialUsage": [],
+    "composeUsage": [],
+    "exchangeReceive": [],
+    "exchangeSpend": [],
+    "func": "",
+    "id": 600162,
+    "isTitleDefinition": true,
+    "isUnique": 1,
+    "kind": "item",
+    "mallListings": [],
+    "maxStack": 1,
+    "packageContainers": [],
+    "packageContents": [],
+    "profile": {
+      "access": "",
+      "accessInfo": 0,
+      "crossView": 0,
+      "databaseCache": 0,
+      "itemExpire": "",
+      "regionLimit": 0,
+      "sellRewardCount": 0,
+      "sellRewardId": 0
+    },
+    "shopListings": [],
+    "shopPricing": [],
+    "sort": 40104,
+    "sourceLimits": [],
+    "text": {
+      "description": {
+        "chs": "「学生雀魂杯」優勝記念称号",
+        "chs_t": "「学生雀魂杯」優勝記念称号",
+        "en": "「学生雀魂杯」優勝記念称号",
+        "jp": "「学生雀魂杯」優勝記念称号",
+        "kr": "「学生雀魂杯」優勝記念称号"
+      },
+      "expireDescription": {
+        "chs": "",
+        "chs_t": "",
+        "en": "",
+        "jp": "",
+        "kr": ""
+      },
+      "funcDescription": {
+        "chs": "",
+        "chs_t": "",
+        "en": "",
+        "jp": "",
+        "kr": ""
+      },
+      "name": {
+        "chs": "学生雀魂杯　東場",
+        "chs_t": "学生雀魂杯　東場",
+        "en": "学生雀魂杯　東場",
+        "jp": "学生雀魂杯　東場",
+        "kr": "学生雀魂杯　東場"
+      }
+    },
+    "type": 0,
+    "usageCounts": {
+      "characterExchangeUsage": 0,
+      "characterMaterialUsage": 0,
+      "composeUsage": 0,
+      "exchangeReceive": 0,
+      "exchangeSpend": 0,
+      "mallListings": 0,
+      "packageContainers": 0,
+      "packageContents": 0,
+      "shopListings": 0,
+      "shopPricing": 0,
+      "sourceLimits": 0
+    }
+  },
+  {
+    "assets": {
+      "background": "",
+      "icon": {
+        "chs": "https://files.riichi.moe/mjg/game%20resources%20and%20tools/Mahjong%20Soul/unity_raw/extracted/MyAssets/deco/title/24sxz2/pic/chs/24sxz2_item.png",
+        "cn": "https://files.riichi.moe/mjg/game%20resources%20and%20tools/Mahjong%20Soul/unity_raw/extracted/MyAssets/deco/title/24sxz2/pic/chs_t/24sxz2_item.png",
+        "en": "https://files.riichi.moe/mjg/game%20resources%20and%20tools/Mahjong%20Soul/unity_raw/extracted/MyAssets/deco/title/24sxz2/pic/en_chs_t/24sxz2_item.png",
+        "jp": "https://files.riichi.moe/mjg/game%20resources%20and%20tools/Mahjong%20Soul/unity_raw/extracted/MyAssets/deco/title/24sxz2/pic/jp/24sxz2_item.png"
+      },
+      "loadingImage": "",
+      "portraitFrame": "",
+      "tablecloth": "",
+      "tile": "",
+      "titleArt": {
+        "chs": "https://files.riichi.moe/mjg/game%20resources%20and%20tools/Mahjong%20Soul/unity_raw/extracted/MyAssets/deco/title/24sxz2/pic/chs/24sxz2.png",
+        "cn": "https://files.riichi.moe/mjg/game%20resources%20and%20tools/Mahjong%20Soul/unity_raw/extracted/MyAssets/deco/title/24sxz2/pic/chs_t/24sxz2.png",
+        "en": "https://files.riichi.moe/mjg/game%20resources%20and%20tools/Mahjong%20Soul/unity_raw/extracted/MyAssets/deco/title/24sxz2/pic/en_chs_t/24sxz2.png",
+        "jp": "https://files.riichi.moe/mjg/game%20resources%20and%20tools/Mahjong%20Soul/unity_raw/extracted/MyAssets/deco/title/24sxz2/pic/jp/24sxz2.png"
+      }
+    },
+    "audio": null,
+    "canSell": 0,
+    "category": 7,
+    "categoryLabel": "Titles",
+    "characterExchangeUsage": [],
+    "characterMaterialUsage": [],
+    "composeUsage": [],
+    "exchangeReceive": [],
+    "exchangeSpend": [],
+    "func": "",
+    "id": 600163,
+    "isTitleDefinition": true,
+    "isUnique": 1,
+    "kind": "item",
+    "mallListings": [],
+    "maxStack": 1,
+    "packageContainers": [],
+    "packageContents": [],
+    "profile": {
+      "access": "",
+      "accessInfo": 0,
+      "crossView": 0,
+      "databaseCache": 0,
+      "itemExpire": "",
+      "regionLimit": 0,
+      "sellRewardCount": 0,
+      "sellRewardId": 0
+    },
+    "shopListings": [],
+    "shopPricing": [],
+    "sort": 40105,
+    "sourceLimits": [],
+    "text": {
+      "description": {
+        "chs": "赠予四象战冠军",
+        "chs_t": "贈予四象戰冠軍",
+        "en": "贈予四象戰冠軍",
+        "jp": "贈予四象戰冠軍",
+        "kr": "贈予四象戰冠軍"
+      },
+      "expireDescription": {
+        "chs": "",
+        "chs_t": "",
+        "en": "",
+        "jp": "",
+        "kr": ""
+      },
+      "funcDescription": {
+        "chs": "",
+        "chs_t": "",
+        "en": "",
+        "jp": "",
+        "kr": ""
+      },
+      "name": {
+        "chs": "四象战冠军",
+        "chs_t": "四象戰冠軍",
+        "en": "四象戰冠軍",
+        "jp": "四象戦優勝",
+        "kr": "四象戰冠軍"
+      }
+    },
+    "type": 0,
+    "usageCounts": {
+      "characterExchangeUsage": 0,
+      "characterMaterialUsage": 0,
+      "composeUsage": 0,
+      "exchangeReceive": 0,
+      "exchangeSpend": 0,
+      "mallListings": 0,
+      "packageContainers": 0,
+      "packageContents": 0,
+      "shopListings": 0,
+      "shopPricing": 0,
+      "sourceLimits": 0
+    }
+  },
+  {
+    "assets": {
+      "background": "",
+      "icon": {
+        "chs": "https://files.riichi.moe/mjg/game%20resources%20and%20tools/Mahjong%20Soul/unity_raw/extracted/MyAssets/deco/title/24sxz3/pic/chs/24sxz3_item.png",
+        "cn": "https://files.riichi.moe/mjg/game%20resources%20and%20tools/Mahjong%20Soul/unity_raw/extracted/MyAssets/deco/title/24sxz3/pic/chs_t/24sxz3_item.png",
+        "en": "https://files.riichi.moe/mjg/game%20resources%20and%20tools/Mahjong%20Soul/unity_raw/extracted/MyAssets/deco/title/24sxz3/pic/en_chs_t/24sxz3_item.png",
+        "jp": "https://files.riichi.moe/mjg/game%20resources%20and%20tools/Mahjong%20Soul/unity_raw/extracted/MyAssets/deco/title/24sxz3/pic/jp/24sxz3_item.png"
+      },
+      "loadingImage": "",
+      "portraitFrame": "",
+      "tablecloth": "",
+      "tile": "",
+      "titleArt": {
+        "chs": "https://files.riichi.moe/mjg/game%20resources%20and%20tools/Mahjong%20Soul/unity_raw/extracted/MyAssets/deco/title/24sxz3/pic/chs/24sxz3.png",
+        "cn": "https://files.riichi.moe/mjg/game%20resources%20and%20tools/Mahjong%20Soul/unity_raw/extracted/MyAssets/deco/title/24sxz3/pic/chs_t/24sxz3.png",
+        "en": "https://files.riichi.moe/mjg/game%20resources%20and%20tools/Mahjong%20Soul/unity_raw/extracted/MyAssets/deco/title/24sxz3/pic/en_chs_t/24sxz3.png",
+        "jp": "https://files.riichi.moe/mjg/game%20resources%20and%20tools/Mahjong%20Soul/unity_raw/extracted/MyAssets/deco/title/24sxz3/pic/jp/24sxz3.png"
+      }
+    },
+    "audio": null,
+    "canSell": 0,
+    "category": 7,
+    "categoryLabel": "Titles",
+    "characterExchangeUsage": [],
+    "characterMaterialUsage": [],
+    "composeUsage": [],
+    "exchangeReceive": [],
+    "exchangeSpend": [],
+    "func": "",
+    "id": 600164,
+    "isTitleDefinition": true,
+    "isUnique": 1,
+    "kind": "item",
+    "mallListings": [],
+    "maxStack": 1,
+    "packageContainers": [],
+    "packageContents": [],
+    "profile": {
+      "access": "",
+      "accessInfo": 0,
+      "crossView": 0,
+      "databaseCache": 0,
+      "itemExpire": "",
+      "regionLimit": 0,
+      "sellRewardCount": 0,
+      "sellRewardId": 0
+    },
+    "shopListings": [],
+    "shopPricing": [],
+    "sort": 40106,
+    "sourceLimits": [],
+    "text": {
+      "description": {
+        "chs": "赠予四象战冠军",
+        "chs_t": "贈予四象戰冠軍",
+        "en": "贈予四象戰冠軍",
+        "jp": "贈予四象戰冠軍",
+        "kr": "贈予四象戰冠軍"
+      },
+      "expireDescription": {
+        "chs": "",
+        "chs_t": "",
+        "en": "",
+        "jp": "",
+        "kr": ""
+      },
+      "funcDescription": {
+        "chs": "",
+        "chs_t": "",
+        "en": "",
+        "jp": "",
+        "kr": ""
+      },
+      "name": {
+        "chs": "四象战冠军",
+        "chs_t": "四象戰冠軍",
+        "en": "四象戰冠軍",
+        "jp": "四象戦優勝",
+        "kr": "四象戰冠軍"
+      }
+    },
+    "type": 0,
+    "usageCounts": {
+      "characterExchangeUsage": 0,
+      "characterMaterialUsage": 0,
+      "composeUsage": 0,
+      "exchangeReceive": 0,
+      "exchangeSpend": 0,
+      "mallListings": 0,
+      "packageContainers": 0,
+      "packageContents": 0,
+      "shopListings": 0,
+      "shopPricing": 0,
+      "sourceLimits": 0
+    }
+  },
+  {
+    "assets": {
+      "background": "",
+      "icon": {
+        "chs": "https://files.riichi.moe/mjg/game%20resources%20and%20tools/Mahjong%20Soul/unity_raw/extracted/MyAssets/deco/title/24sxz4/pic/chs/24sxz4_item.png",
+        "cn": "https://files.riichi.moe/mjg/game%20resources%20and%20tools/Mahjong%20Soul/unity_raw/extracted/MyAssets/deco/title/24sxz4/pic/chs_t/24sxz4_item.png",
+        "en": "https://files.riichi.moe/mjg/game%20resources%20and%20tools/Mahjong%20Soul/unity_raw/extracted/MyAssets/deco/title/24sxz4/pic/en_chs_t/24sxz4_item.png",
+        "jp": "https://files.riichi.moe/mjg/game%20resources%20and%20tools/Mahjong%20Soul/unity_raw/extracted/MyAssets/deco/title/24sxz4/pic/jp/24sxz4_item.png"
+      },
+      "loadingImage": "",
+      "portraitFrame": "",
+      "tablecloth": "",
+      "tile": "",
+      "titleArt": {
+        "chs": "https://files.riichi.moe/mjg/game%20resources%20and%20tools/Mahjong%20Soul/unity_raw/extracted/MyAssets/deco/title/24sxz4/pic/chs/24sxz4.png",
+        "cn": "https://files.riichi.moe/mjg/game%20resources%20and%20tools/Mahjong%20Soul/unity_raw/extracted/MyAssets/deco/title/24sxz4/pic/chs_t/24sxz4.png",
+        "en": "https://files.riichi.moe/mjg/game%20resources%20and%20tools/Mahjong%20Soul/unity_raw/extracted/MyAssets/deco/title/24sxz4/pic/en_chs_t/24sxz4.png",
+        "jp": "https://files.riichi.moe/mjg/game%20resources%20and%20tools/Mahjong%20Soul/unity_raw/extracted/MyAssets/deco/title/24sxz4/pic/jp/24sxz4.png"
+      }
+    },
+    "audio": null,
+    "canSell": 0,
+    "category": 7,
+    "categoryLabel": "Titles",
+    "characterExchangeUsage": [],
+    "characterMaterialUsage": [],
+    "composeUsage": [],
+    "exchangeReceive": [],
+    "exchangeSpend": [],
+    "func": "",
+    "id": 600165,
+    "isTitleDefinition": true,
+    "isUnique": 1,
+    "kind": "item",
+    "mallListings": [],
+    "maxStack": 1,
+    "packageContainers": [],
+    "packageContents": [],
+    "profile": {
+      "access": "",
+      "accessInfo": 0,
+      "crossView": 0,
+      "databaseCache": 0,
+      "itemExpire": "",
+      "regionLimit": 0,
+      "sellRewardCount": 0,
+      "sellRewardId": 0
+    },
+    "shopListings": [],
+    "shopPricing": [],
+    "sort": 40107,
+    "sourceLimits": [],
+    "text": {
+      "description": {
+        "chs": "赠予四象战冠军",
+        "chs_t": "贈予四象戰冠軍",
+        "en": "贈予四象戰冠軍",
+        "jp": "贈予四象戰冠軍",
+        "kr": "贈予四象戰冠軍"
+      },
+      "expireDescription": {
+        "chs": "",
+        "chs_t": "",
+        "en": "",
+        "jp": "",
+        "kr": ""
+      },
+      "funcDescription": {
+        "chs": "",
+        "chs_t": "",
+        "en": "",
+        "jp": "",
+        "kr": ""
+      },
+      "name": {
+        "chs": "四象战冠军",
+        "chs_t": "四象戰冠軍",
+        "en": "四象戰冠軍",
+        "jp": "四象戦優勝",
+        "kr": "四象戰冠軍"
+      }
+    },
+    "type": 0,
+    "usageCounts": {
+      "characterExchangeUsage": 0,
+      "characterMaterialUsage": 0,
+      "composeUsage": 0,
+      "exchangeReceive": 0,
+      "exchangeSpend": 0,
+      "mallListings": 0,
+      "packageContainers": 0,
+      "packageContents": 0,
+      "shopListings": 0,
+      "shopPricing": 0,
+      "sourceLimits": 0
+    }
+  },
+  {
+    "assets": {
+      "background": "",
+      "icon": {
+        "chs": "https://files.riichi.moe/mjg/game%20resources%20and%20tools/Mahjong%20Soul/unity_raw/extracted/MyAssets/deco/title/24sxz2/pic/chs/24sxz2_item.png",
+        "cn": "https://files.riichi.moe/mjg/game%20resources%20and%20tools/Mahjong%20Soul/unity_raw/extracted/MyAssets/deco/title/24sxz2/pic/chs_t/24sxz2_item.png",
+        "en": "https://files.riichi.moe/mjg/game%20resources%20and%20tools/Mahjong%20Soul/unity_raw/extracted/MyAssets/deco/title/24sxz2/pic/en_chs_t/24sxz2_item.png",
+        "jp": "https://files.riichi.moe/mjg/game%20resources%20and%20tools/Mahjong%20Soul/unity_raw/extracted/MyAssets/deco/title/24sxz2/pic/jp/24sxz2_item.png"
+      },
+      "loadingImage": "",
+      "portraitFrame": "",
+      "tablecloth": "",
+      "tile": "",
+      "titleArt": {
+        "chs": "https://files.riichi.moe/mjg/game%20resources%20and%20tools/Mahjong%20Soul/unity_raw/extracted/MyAssets/deco/title/24sxz2/pic/chs/24sxz2.png",
+        "cn": "https://files.riichi.moe/mjg/game%20resources%20and%20tools/Mahjong%20Soul/unity_raw/extracted/MyAssets/deco/title/24sxz2/pic/chs_t/24sxz2.png",
+        "en": "https://files.riichi.moe/mjg/game%20resources%20and%20tools/Mahjong%20Soul/unity_raw/extracted/MyAssets/deco/title/24sxz2/pic/en_chs_t/24sxz2.png",
+        "jp": "https://files.riichi.moe/mjg/game%20resources%20and%20tools/Mahjong%20Soul/unity_raw/extracted/MyAssets/deco/title/24sxz2/pic/jp/24sxz2.png"
+      }
+    },
+    "audio": null,
+    "canSell": 0,
+    "category": 7,
+    "categoryLabel": "Titles",
+    "characterExchangeUsage": [],
+    "characterMaterialUsage": [],
+    "composeUsage": [],
+    "exchangeReceive": [],
+    "exchangeSpend": [],
+    "func": "",
+    "id": 600166,
+    "isTitleDefinition": true,
+    "isUnique": 1,
+    "kind": "item",
+    "mallListings": [],
+    "maxStack": 1,
+    "packageContainers": [],
+    "packageContents": [],
+    "profile": {
+      "access": "",
+      "accessInfo": 0,
+      "crossView": 0,
+      "databaseCache": 0,
+      "itemExpire": "",
+      "regionLimit": 0,
+      "sellRewardCount": 0,
+      "sellRewardId": 0
+    },
+    "shopListings": [],
+    "shopPricing": [],
+    "sort": 40108,
+    "sourceLimits": [],
+    "text": {
+      "description": {
+        "chs": "赠予四象战冠军",
+        "chs_t": "贈予四象戰冠軍",
+        "en": "贈予四象戰冠軍",
+        "jp": "四象戦夏の陣優勝称号",
+        "kr": "贈予四象戰冠軍"
+      },
+      "expireDescription": {
+        "chs": "",
+        "chs_t": "",
+        "en": "",
+        "jp": "",
+        "kr": ""
+      },
+      "funcDescription": {
+        "chs": "",
+        "chs_t": "",
+        "en": "",
+        "jp": "",
+        "kr": ""
+      },
+      "name": {
+        "chs": "四象战冠军",
+        "chs_t": "四象戰冠軍",
+        "en": "四象戰冠軍",
+        "jp": "四象・朱雀",
+        "kr": "四象戰冠軍"
       }
     },
     "type": 0,

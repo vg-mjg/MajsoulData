@@ -12839,15 +12839,15 @@
         "sort": 154,
         "text": {
           "description": {
-            "chs": "获得雀士伊芙",
-            "chs_t": "獲得雀士伊芙",
+            "chs": "获得雀士与伊芙·克里斯特",
+            "chs_t": "獲得雀士伊芙·克里斯特",
             "en": "Obtain Jyanshi Eve Krist",
             "jp": "イブを入手する",
             "kr": "이브 크리스 획득하기."
           },
           "name": {
-            "chs": "与伊芙的邂逅",
-            "chs_t": "與伊芙的邂逅",
+            "chs": "与伊芙·克里斯特的邂逅",
+            "chs_t": "與伊芙·克里斯特的邂逅",
             "en": "An Encounter with Eve Krist",
             "jp": "イブとの出会い",
             "kr": "이브 크리스와의 만남"
@@ -14982,15 +14982,15 @@
         "sort": 356,
         "text": {
           "description": {
-            "chs": "与伊芙签订契约",
-            "chs_t": "與伊芙簽訂契約",
+            "chs": "与伊芙·克里斯特签订契约",
+            "chs_t": "與伊芙·克里斯特簽訂契約",
             "en": "Bond with Eve Krist",
             "jp": "イブと契約を結ぶ",
             "kr": "이브 크리스와(과) 계약 맺기."
           },
           "name": {
-            "chs": "伊芙的契约者",
-            "chs_t": "伊芙的契約者",
+            "chs": "伊芙·克里斯特的契约者",
+            "chs_t": "伊芙·克里斯特的契約者",
             "en": "Bonded with Eve Krist",
             "jp": "イブの契約者",
             "kr": "이브 크리스의 계약자"
@@ -16474,10 +16474,53 @@
             "kr": "제인의 수호자"
           }
         }
+      },
+      {
+        "baseTaskId": 99185,
+        "deprecated": 0,
+        "groupId": 10,
+        "hidden": 0,
+        "id": 100497,
+        "locked": 0,
+        "rare": 1,
+        "rewards": [
+          {
+            "count": 1,
+            "icon": "https://files.riichi.moe/mjg/game%20resources%20and%20tools/Mahjong%20Soul/unity_raw/extracted/MyAssets/deco/loading_cg/CG200044/thumb/common/CG200044_thumb.png",
+            "itemId": 30740023,
+            "text": {
+              "name": {
+                "chs": "七海礼奈的守护者",
+                "chs_t": "七海禮奈的守護者",
+                "en": "Protector of Reina Nanami",
+                "jp": "七海礼奈の守護者",
+                "kr": "나나미 레이나의 수호자"
+              }
+            }
+          }
+        ],
+        "segmentId": 0,
+        "sort": 523,
+        "text": {
+          "description": {
+            "chs": "解锁七海礼奈传记中的所有结局",
+            "chs_t": "解鎖七海禮奈傳記中的所有結局",
+            "en": "Unlock all endings in Reina Nanami's Story",
+            "jp": "七海礼奈の物語のエンディングをすべて解放する",
+            "kr": "나나미 레이나 스토리의 엔딩 모두 오픈."
+          },
+          "name": {
+            "chs": "七海礼奈的守护者",
+            "chs_t": "七海禮奈的守護者",
+            "en": "Protector of Reina Nanami",
+            "jp": "七海礼奈の守護者",
+            "kr": "나나미 레이나의 수호자"
+          }
+        }
       }
     ],
     "counts": {
-      "achievements": 184,
+      "achievements": 185,
       "deprecated": 0,
       "hidden": 0,
       "locked": 0

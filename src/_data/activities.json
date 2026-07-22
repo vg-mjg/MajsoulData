@@ -1,5 +1,47 @@
 [
   {
+    "fallbackName": "26huanxiang2 b",
+    "id": 260702,
+    "image": {
+      "chs": "https://files.riichi.moe/mjg/game%20resources%20and%20tools/Mahjong%20Soul/unity_raw/extracted/MyAssets/ui/activity/lobby/banner_tab/pic/chs/26huanxiang2_b.png",
+      "cn": "https://files.riichi.moe/mjg/game%20resources%20and%20tools/Mahjong%20Soul/unity_raw/extracted/MyAssets/ui/activity/lobby/banner_tab/pic/chs_t/26huanxiang2_b.png",
+      "en": "https://files.riichi.moe/mjg/game%20resources%20and%20tools/Mahjong%20Soul/unity_raw/extracted/MyAssets/ui/activity/lobby/banner_tab/pic/en_en/26huanxiang2_b.png",
+      "jp": "https://files.riichi.moe/mjg/game%20resources%20and%20tools/Mahjong%20Soul/unity_raw/extracted/MyAssets/ui/activity/lobby/banner_tab/pic/jp/26huanxiang2_b.png",
+      "kr": "https://files.riichi.moe/mjg/game%20resources%20and%20tools/Mahjong%20Soul/unity_raw/extracted/MyAssets/ui/activity/lobby/banner_tab/pic/kr/26huanxiang2_b.png"
+    },
+    "text": {
+      "name": {
+        "chs": "丝萦梦网",
+        "chs_t": "絲縈夢網",
+        "en": "Lost in the Dreamweb",
+        "jp": "夢に絡む幻の糸",
+        "kr": "꿈을 엮는 실"
+      }
+    },
+    "type": "mine"
+  },
+  {
+    "fallbackName": "26huanxiang1 b",
+    "id": 260701,
+    "image": {
+      "chs": "https://files.riichi.moe/mjg/game%20resources%20and%20tools/Mahjong%20Soul/unity_raw/extracted/MyAssets/ui/activity/lobby/banner_tab/pic/chs/26huanxiang1_b.png",
+      "cn": "https://files.riichi.moe/mjg/game%20resources%20and%20tools/Mahjong%20Soul/unity_raw/extracted/MyAssets/ui/activity/lobby/banner_tab/pic/chs_t/26huanxiang1_b.png",
+      "en": "https://files.riichi.moe/mjg/game%20resources%20and%20tools/Mahjong%20Soul/unity_raw/extracted/MyAssets/ui/activity/lobby/banner_tab/pic/en_en/26huanxiang1_b.png",
+      "jp": "https://files.riichi.moe/mjg/game%20resources%20and%20tools/Mahjong%20Soul/unity_raw/extracted/MyAssets/ui/activity/lobby/banner_tab/pic/jp/26huanxiang1_b.png",
+      "kr": "https://files.riichi.moe/mjg/game%20resources%20and%20tools/Mahjong%20Soul/unity_raw/extracted/MyAssets/ui/activity/lobby/banner_tab/pic/kr/26huanxiang1_b.png"
+    },
+    "text": {
+      "name": {
+        "chs": "花梦蝶栖",
+        "chs_t": "花夢蝶棲",
+        "en": "Winged Slumber",
+        "jp": "蝶が見る花の夢",
+        "kr": "꽃의 꿈에 깃든 나비"
+      }
+    },
+    "type": "random_task"
+  },
+  {
     "fallbackName": "",
     "id": 260694,
     "image": "",
