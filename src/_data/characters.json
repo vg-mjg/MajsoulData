@@ -124635,6 +124635,9 @@
             "name": "2",
             "skeleton": "https://files.riichi.moe/mjg/game%20resources%20and%20tools/Mahjong%20Soul/unity_raw/extracted/MyAssets/spine/403204/2/ailisha_cj.skel.txt",
             "textures": [
+              "https://files.riichi.moe/mjg/game%20resources%20and%20tools/Mahjong%20Soul/unity_raw/extracted/MyAssets/spine/403204/2/ailisha_cj_2.png",
+              "https://files.riichi.moe/mjg/game%20resources%20and%20tools/Mahjong%20Soul/unity_raw/extracted/MyAssets/spine/403204/2/ailisha_cj_3.png",
+              "https://files.riichi.moe/mjg/game%20resources%20and%20tools/Mahjong%20Soul/unity_raw/extracted/MyAssets/spine/403204/2/ailisha_cj_4.png",
               "https://files.riichi.moe/mjg/game%20resources%20and%20tools/Mahjong%20Soul/unity_raw/extracted/MyAssets/spine/403204/2/ailisha_cj.png"
             ]
           }
