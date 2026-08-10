@@ -1,5 +1,26 @@
 [
   {
+    "fallbackName": "2607fanpai b",
+    "id": 260790,
+    "image": {
+      "chs": "https://files.riichi.moe/mjg/game%20resources%20and%20tools/Mahjong%20Soul/unity_raw/extracted/MyAssets/ui/activity/lobby/banner_tab/pic/chs/2607fanpai_b.png",
+      "cn": "https://files.riichi.moe/mjg/game%20resources%20and%20tools/Mahjong%20Soul/unity_raw/extracted/MyAssets/ui/activity/lobby/banner_tab/pic/chs_t/2607fanpai_b.png",
+      "en": "https://files.riichi.moe/mjg/game%20resources%20and%20tools/Mahjong%20Soul/unity_raw/extracted/MyAssets/ui/activity/lobby/banner_tab/pic/en_en/2607fanpai_b.png",
+      "jp": "https://files.riichi.moe/mjg/game%20resources%20and%20tools/Mahjong%20Soul/unity_raw/extracted/MyAssets/ui/activity/lobby/banner_tab/pic/jp/2607fanpai_b.png",
+      "kr": "https://files.riichi.moe/mjg/game%20resources%20and%20tools/Mahjong%20Soul/unity_raw/extracted/MyAssets/ui/activity/lobby/banner_tab/pic/kr/2607fanpai_b.png"
+    },
+    "text": {
+      "name": {
+        "chs": "流火掣风",
+        "chs_t": "流火掣風",
+        "en": "Windborne Flames",
+        "jp": "流火御風",
+        "kr": "바람을 가르는 불꽃"
+      }
+    },
+    "type": "flip_task"
+  },
+  {
     "fallbackName": "26huanxiang2 b",
     "id": 260702,
     "image": {
