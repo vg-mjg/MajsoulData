@@ -174,14 +174,31 @@ async function createWebGLSpineViewer(host, resolvedLayers) {
       },
     };
 
+    // Layers carry different animation sets: a background layer may only hold
+    // "idle" while an overlay holds the full set. Layers missing the requested
+    // animation keep looping whatever they had, so the background stays alive.
     function setAnimation(name) {
       for (const layer of layers) {
-        try { layer.state.setAnimation(0, name, true); } catch (_) { }
+        if (layer.skeleton.data.findAnimation(name)) {
+          layer.state.setAnimation(0, name, true);
+          continue;
+        }
+        if (layer.state.getCurrent(0)) continue;
+        const fallback = layer.skeleton.data.animations[0]?.name;
+        if (fallback) layer.state.setAnimation(0, fallback, true);
       }
     }
 
+    // Only layers actually playing the selected animation drive the timeline —
+    // a background looping a longer "idle" must not stretch it.
     function getAnimDuration() {
-      return layers[0]?.state.getCurrent(0)?.animation?.duration ?? 0;
+      const name = animSelect.value;
+      let longest = 0;
+      for (const layer of layers) {
+        const current = layer.state.getCurrent(0)?.animation;
+        if (current?.name === name) longest = Math.max(longest, current.duration);
+      }
+      return longest;
     }
 
     function seekToFraction(fraction) {
@@ -191,6 +208,7 @@ async function createWebGLSpineViewer(host, resolvedLayers) {
       const targetTime = fraction * duration;
       const name = animSelect.value;
       for (const layer of layers) {
+        if (!layer.skeleton.data.findAnimation(name)) continue;
         layer.state.setAnimation(0, name, true);
         layer.state.update(targetTime);
         layer.state.apply(layer.skeleton);
@@ -327,7 +345,15 @@ async function createWebGLSpineViewer(host, resolvedLayers) {
           layers.push({ skeleton, state });
         }
 
-        const anims = layers[0].skeleton.data.animations;
+        // Union across layers, in draw order, first occurrence wins.
+        const animByName = new Map();
+        for (const layer of layers) {
+          for (const anim of layer.skeleton.data.animations) {
+            if (anim?.name && !animByName.has(anim.name)) animByName.set(anim.name, anim);
+          }
+        }
+        const anims = Array.from(animByName.values());
+
         animSelect.innerHTML = "";
         for (const anim of anims) {
           const opt = document.createElement("option");
