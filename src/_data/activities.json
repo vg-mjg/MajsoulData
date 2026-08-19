@@ -1,5 +1,26 @@
 [
   {
+    "fallbackName": "26summer 0",
+    "id": 260801,
+    "image": {
+      "chs": "https://files.riichi.moe/mjg/game%20resources%20and%20tools/Mahjong%20Soul/unity_raw/extracted/MyAssets/ui/activity/lobby/banner_tab/pic/chs/26summer_b.png",
+      "cn": "https://files.riichi.moe/mjg/game%20resources%20and%20tools/Mahjong%20Soul/unity_raw/extracted/MyAssets/ui/activity/lobby/banner_tab/pic/chs_t/26summer_b.png",
+      "en": "https://files.riichi.moe/mjg/game%20resources%20and%20tools/Mahjong%20Soul/unity_raw/extracted/MyAssets/ui/activity/lobby/banner_tab/pic/en_en/26summer_b.png",
+      "jp": "https://files.riichi.moe/mjg/game%20resources%20and%20tools/Mahjong%20Soul/unity_raw/extracted/MyAssets/ui/activity/lobby/banner_tab/pic/jp/26summer_b.png",
+      "kr": "https://files.riichi.moe/mjg/game%20resources%20and%20tools/Mahjong%20Soul/unity_raw/extracted/MyAssets/ui/activity/lobby/banner_tab/pic/kr/26summer_b.png"
+    },
+    "text": {
+      "name": {
+        "chs": "海滨快闪店",
+        "chs_t": "海濱快閃店",
+        "en": "Beachside Cabana",
+        "jp": "海辺の麻雀小屋",
+        "kr": "해변 팝업스토어"
+      }
+    },
+    "type": "maj_club"
+  },
+  {
     "fallbackName": "2607fanpai b",
     "id": 260790,
     "image": {

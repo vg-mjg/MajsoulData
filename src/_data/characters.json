@@ -82385,6 +82385,17 @@
           "jp": "着せ替え入手",
           "kr": "스킨 오픈"
         }
+      },
+      {
+        "image": "https://files.riichi.moe/mjg/game%20resources%20and%20tools/Mahjong%20Soul/unity_raw/extracted/MyAssets/deco/emo/e200021/common/924.png",
+        "subId": 924,
+        "unlockDescription": {
+          "chs": "服饰解锁",
+          "chs_t": "服飾解鎖",
+          "en": "Unlock Outfit",
+          "jp": "着せ替え入手",
+          "kr": "스킨 오픈"
+        }
       }
     ],
     "id": 200021,
@@ -82599,6 +82610,38 @@
             "en": "Pointe Monologue",
             "jp": "つま先のモノローグ",
             "kr": "발끝의 독백"
+          }
+        }
+      },
+      {
+        "assets": {
+          "bighead": "https://files.riichi.moe/mjg/game%20resources%20and%20tools/Mahjong%20Soul/unity_raw/extracted/MyAssets/deco/character/402107/bighead/bighead.png",
+          "full": "https://files.riichi.moe/mjg/game%20resources%20and%20tools/Mahjong%20Soul/unity_raw/extracted/MyAssets/deco/character/402107/full/full.png",
+          "smallhead": "https://files.riichi.moe/mjg/game%20resources%20and%20tools/Mahjong%20Soul/unity_raw/extracted/MyAssets/deco/character/402107/smallhead/smallhead.png"
+        },
+        "id": 402107,
+        "spine": [],
+        "text": {
+          "description": {
+            "chs": "避暑大作战！活动限定\n“判定：阳光直射易导致机体过热，游泳易导致机体进水，为KR-976的运行效率考虑，提议：{name}也在此进行修整，和KR-976一同进行视听娱乐活动，并保护KR-976免受进水及高温的危害。”",
+            "chs_t": "避暑大作戰！活動限定\n「判定：陽光直射易導致機體過熱，游泳易導致機體進水。考量到KR-976的運作效率，提議：{name}也在此進行休息，與KR-976一同進行視聽娛樂活動，並保護KR-976免受進水及高溫的危害。」",
+            "en": "Sun, Salt & Summer Exclusive\n\"Analysis: Direct sun exposure causes overheating, and swimming poses a risk of water damage. To maintain KR-976's operational efficiency... Recommendation: {name} should remain here, enjoy multimedia entertainment together, and protect KR-976 from extreme heat and moisture.\"",
+            "jp": "「海辺の麻雀小屋」にて購入できる、水着テーマの着せ替え衣装。",
+            "kr": "더위탈출 대작전! 한정스킨.\n\"분석 결과: 직사광선은 과열, 수영은 침수를 유발할 가능성이 있습니다. 제안: 작사님은 이곳에서 휴식을 취할 것. KR-976과 시청각 오락 활동을 수행할 것. 그리고, KR-976이 침수 및 고온으로 인해 손상되지 않도록 보호할 것을 권장합니다.\""
+          },
+          "lockTips": {
+            "chs": "活动限定",
+            "chs_t": "活動限定",
+            "en": "Event Exclusive",
+            "jp": "期間限定",
+            "kr": "기간 한정"
+          },
+          "name": {
+            "chs": "避暑大作战！",
+            "chs_t": "避暑大作戰！",
+            "en": "Sun, Salt & Summer",
+            "jp": "涼感大作戦！",
+            "kr": "더위탈출 대작전!"
           }
         }
       }
@@ -179251,6 +179294,17 @@
           "jp": "着せ替え入手",
           "kr": "스킨 오픈"
         }
+      },
+      {
+        "image": "https://files.riichi.moe/mjg/game%20resources%20and%20tools/Mahjong%20Soul/unity_raw/extracted/MyAssets/deco/emo/e200047/common/924.png",
+        "subId": 924,
+        "unlockDescription": {
+          "chs": "服饰解锁",
+          "chs_t": "服飾解鎖",
+          "en": "Unlock Outfit",
+          "jp": "着せ替え入手",
+          "kr": "스킨 오픈"
+        }
       }
     ],
     "id": 200047,
@@ -179397,6 +179451,55 @@
             "en": "Close Your Eyes",
             "jp": "ダークナイトレイド！",
             "kr": "다크나이트 레이드"
+          }
+        }
+      },
+      {
+        "assets": {
+          "bighead": "https://files.riichi.moe/mjg/game%20resources%20and%20tools/Mahjong%20Soul/unity_raw/extracted/MyAssets/deco/character/404705/bighead/bighead.png",
+          "full": "https://files.riichi.moe/mjg/game%20resources%20and%20tools/Mahjong%20Soul/unity_raw/extracted/MyAssets/deco/character/404705/full/full.png",
+          "smallhead": "https://files.riichi.moe/mjg/game%20resources%20and%20tools/Mahjong%20Soul/unity_raw/extracted/MyAssets/deco/character/404705/smallhead/smallhead.png"
+        },
+        "id": 404705,
+        "spine": [
+          {
+            "atlas": "https://files.riichi.moe/mjg/game%20resources%20and%20tools/Mahjong%20Soul/unity_raw/extracted/MyAssets/spine/404705/1/laien_xr_1.atlas.txt",
+            "name": "1",
+            "skeleton": "https://files.riichi.moe/mjg/game%20resources%20and%20tools/Mahjong%20Soul/unity_raw/extracted/MyAssets/spine/404705/1/laien_xr_1.skel.txt",
+            "textures": [
+              "https://files.riichi.moe/mjg/game%20resources%20and%20tools/Mahjong%20Soul/unity_raw/extracted/MyAssets/spine/404705/1/laien_xr_1.png"
+            ]
+          },
+          {
+            "atlas": "https://files.riichi.moe/mjg/game%20resources%20and%20tools/Mahjong%20Soul/unity_raw/extracted/MyAssets/spine/404705/2/laien_xr_2.atlas.txt",
+            "name": "2",
+            "skeleton": "https://files.riichi.moe/mjg/game%20resources%20and%20tools/Mahjong%20Soul/unity_raw/extracted/MyAssets/spine/404705/2/laien_xr_2.skel.txt",
+            "textures": [
+              "https://files.riichi.moe/mjg/game%20resources%20and%20tools/Mahjong%20Soul/unity_raw/extracted/MyAssets/spine/404705/2/laien_xr_2.png"
+            ]
+          }
+        ],
+        "text": {
+          "description": {
+            "chs": "避暑大作战！活动限定\n“姐姐还在拍吗？太好了，不要放下手机哦，因为我想让姐姐看到，我就算受伤也要拼命留在姐姐视线里的样子……等照片拍下来，姐姐每次看到它，心里也就只能装下对我一个人的关心了，对吧？”",
+            "chs_t": "避暑大作戰！活動限定\n「姐姐還在拍嗎？太好了，不要放下手機喔。因為我想讓姐姐看到，我就算受傷也要拚命留在姐姐視線裡的樣子……等照片拍下來，姐姐每次看到它，心裡也就只能裝下對我一個人的關心了，對吧？」",
+            "en": "Sun, Salt & Summer Exclusive\n\"Are you still taking my picture, onee-sama? Good... please, don't stop. Even if I get hurt, I want you to see just how far I'd go to keep your eyes on me. So that every time you look at it again... you'll remember. There'll only be room for me in your heart. Only me. Right?\"",
+            "jp": "「海辺の麻雀小屋」にて購入できる、水着テーマの着せ替え衣装。",
+            "kr": "더위탈출 대작전! 한정스킨.\n\"누님, 아직 찍고 계시나요? 다행이다, 휴대폰 놓지 마세요. 누님에게 보여드리고 싶거든요. 제가 상처를 입으면서까지 누님의 시야 안에 필사적으로 머무르려 했던 모습을요…… 이 영상을 누님이 볼 때마다, 마음속에는 오직 저에 대한 것으로만 가득 찰 거예요, 그렇죠?\""
+          },
+          "lockTips": {
+            "chs": "活动限定",
+            "chs_t": "活動限定",
+            "en": "Event Exclusive",
+            "jp": "期間限定",
+            "kr": "기간 한정"
+          },
+          "name": {
+            "chs": "避暑大作战！",
+            "chs_t": "避暑大作戰！",
+            "en": "Sun, Salt & Summer",
+            "jp": "涼感大作戦！",
+            "kr": "더위탈출 대작전!"
           }
         }
       }
@@ -222700,11 +222803,11 @@
         "id": 405906,
         "spine": [
           {
-            "atlas": "https://files.riichi.moe/mjg/game%20resources%20and%20tools/Mahjong%20Soul/unity_raw/extracted/MyAssets/spine/405906/you_bl.atlas.txt",
-            "name": "plain",
-            "skeleton": "https://files.riichi.moe/mjg/game%20resources%20and%20tools/Mahjong%20Soul/unity_raw/extracted/MyAssets/spine/405906/you_bl.skel.txt",
+            "atlas": "https://files.riichi.moe/mjg/game%20resources%20and%20tools/Mahjong%20Soul/unity_raw/extracted/MyAssets/spine/405906/2/you_bl.atlas.txt",
+            "name": "2",
+            "skeleton": "https://files.riichi.moe/mjg/game%20resources%20and%20tools/Mahjong%20Soul/unity_raw/extracted/MyAssets/spine/405906/2/you_bl.skel.txt",
             "textures": [
-              "https://files.riichi.moe/mjg/game%20resources%20and%20tools/Mahjong%20Soul/unity_raw/extracted/MyAssets/spine/405906/you_bl.png"
+              "https://files.riichi.moe/mjg/game%20resources%20and%20tools/Mahjong%20Soul/unity_raw/extracted/MyAssets/spine/405906/2/you_bl.png"
             ]
           }
         ],
@@ -343407,6 +343510,17 @@
           "jp": "着せ替え入手",
           "kr": "스킨 오픈"
         }
+      },
+      {
+        "image": "https://files.riichi.moe/mjg/game%20resources%20and%20tools/Mahjong%20Soul/unity_raw/extracted/MyAssets/deco/emo/e200093/common/924.png",
+        "subId": 924,
+        "unlockDescription": {
+          "chs": "服饰解锁",
+          "chs_t": "服飾解鎖",
+          "en": "Unlock Outfit",
+          "jp": "着せ替え入手",
+          "kr": "스킨 오픈"
+        }
       }
     ],
     "id": 200093,
@@ -343506,6 +343620,47 @@
             "en": "Draped Murmurs",
             "jp": "ドレッシーロマンス",
             "kr": "흐트러진 로맨스"
+          }
+        }
+      },
+      {
+        "assets": {
+          "bighead": "https://files.riichi.moe/mjg/game%20resources%20and%20tools/Mahjong%20Soul/unity_raw/extracted/MyAssets/deco/character/409304/bighead/bighead.png",
+          "full": "https://files.riichi.moe/mjg/game%20resources%20and%20tools/Mahjong%20Soul/unity_raw/extracted/MyAssets/deco/character/409304/full/full.png",
+          "smallhead": "https://files.riichi.moe/mjg/game%20resources%20and%20tools/Mahjong%20Soul/unity_raw/extracted/MyAssets/deco/character/409304/smallhead/smallhead.png"
+        },
+        "id": 409304,
+        "spine": [
+          {
+            "atlas": "https://files.riichi.moe/mjg/game%20resources%20and%20tools/Mahjong%20Soul/unity_raw/extracted/MyAssets/spine/409304/2/laiya_xr.atlas.txt",
+            "name": "2",
+            "skeleton": "https://files.riichi.moe/mjg/game%20resources%20and%20tools/Mahjong%20Soul/unity_raw/extracted/MyAssets/spine/409304/2/laiya_xr.skel.txt",
+            "textures": [
+              "https://files.riichi.moe/mjg/game%20resources%20and%20tools/Mahjong%20Soul/unity_raw/extracted/MyAssets/spine/409304/2/laiya_xr.png"
+            ]
+          }
+        ],
+        "text": {
+          "description": {
+            "chs": "避暑大作战！活动限定\n“是不是感受到了寻常防晒油没有的凉意呢？这也是正常的，毕竟这瓶防晒魔药可是我自己炼制的呢，至于它拥有的其他效果……在帮老师涂完以后，{name}自己也来感受一番吧？”",
+            "chs_t": "避暑大作戰！活動限定\n「是不是感覺到了普通防曬乳沒有的涼感呢？這也是正常的，畢竟這瓶防曬魔藥可是我自己煉製的喔。至於它擁有的其他效果……在幫老師擦完以後，{name}自己也來感受一下吧？」",
+            "en": "Sun, Salt & Summer Exclusive\n\"Feel that chill? You definitely don't get that from regular sunscreen. Naturally... I brewed this little potion myself. As for its other effects? Well, once you're done applying it to me, maybe you can find out for yourself, {name}.\"",
+            "jp": "「海辺の麻雀小屋」にて購入できる、水着テーマの着せ替え衣装。",
+            "kr": "더위탈출 대작전! 한정스킨.\n\"평범한 선크림에서는 느낄 수 없는 시원함이 느껴지지 않아? 당연해, 이 선크림 효과를 지닌 마법약은 내가 직접 만든 거니까. 그리고 이 약이 가지고 있는 다른 효과에 대해서는…… 선생님께 발라준 후에, 네가 직접 한번 느껴보는 게 어때.\""
+          },
+          "lockTips": {
+            "chs": "活动限定",
+            "chs_t": "活動限定",
+            "en": "Event Exclusive",
+            "jp": "期間限定",
+            "kr": "기간 한정"
+          },
+          "name": {
+            "chs": "避暑大作战！",
+            "chs_t": "避暑大作戰！",
+            "en": "Sun, Salt & Summer",
+            "jp": "涼感大作戦！",
+            "kr": "더위탈출 대작전!"
           }
         }
       }
@@ -387075,6 +387230,17 @@
           "jp": "着せ替え入手",
           "kr": "스킨 오픈"
         }
+      },
+      {
+        "image": "https://files.riichi.moe/mjg/game%20resources%20and%20tools/Mahjong%20Soul/unity_raw/extracted/MyAssets/deco/emo/e20000107/common/924.png",
+        "subId": 924,
+        "unlockDescription": {
+          "chs": "服饰解锁",
+          "chs_t": "服飾解鎖",
+          "en": "Unlock Outfit",
+          "jp": "着せ替え入手",
+          "kr": "스킨 오픈"
+        }
       }
     ],
     "id": 20000107,
@@ -387191,6 +387357,63 @@
             "en": "Shape of a Fading Echo",
             "jp": "雲跡侠影",
             "kr": "풍운의 그림자 협객"
+          }
+        }
+      },
+      {
+        "assets": {
+          "bighead": "https://files.riichi.moe/mjg/game%20resources%20and%20tools/Mahjong%20Soul/unity_raw/extracted/MyAssets/deco/character/40010704/bighead/bighead.png",
+          "full": "https://files.riichi.moe/mjg/game%20resources%20and%20tools/Mahjong%20Soul/unity_raw/extracted/MyAssets/deco/character/40010704/full/full.png",
+          "smallhead": "https://files.riichi.moe/mjg/game%20resources%20and%20tools/Mahjong%20Soul/unity_raw/extracted/MyAssets/deco/character/40010704/smallhead/smallhead.png"
+        },
+        "id": 40010704,
+        "spine": [
+          {
+            "atlas": "https://files.riichi.moe/mjg/game%20resources%20and%20tools/Mahjong%20Soul/unity_raw/extracted/MyAssets/spine/40010704/1/yuanxiao_xr_1.atlas.txt",
+            "name": "1",
+            "skeleton": "https://files.riichi.moe/mjg/game%20resources%20and%20tools/Mahjong%20Soul/unity_raw/extracted/MyAssets/spine/40010704/1/yuanxiao_xr_1.skel.txt",
+            "textures": [
+              "https://files.riichi.moe/mjg/game%20resources%20and%20tools/Mahjong%20Soul/unity_raw/extracted/MyAssets/spine/40010704/1/yuanxiao_xr_1.png"
+            ]
+          },
+          {
+            "atlas": "https://files.riichi.moe/mjg/game%20resources%20and%20tools/Mahjong%20Soul/unity_raw/extracted/MyAssets/spine/40010704/2/yuanxiao_xr_2.atlas.txt",
+            "name": "2",
+            "skeleton": "https://files.riichi.moe/mjg/game%20resources%20and%20tools/Mahjong%20Soul/unity_raw/extracted/MyAssets/spine/40010704/2/yuanxiao_xr_2.skel.txt",
+            "textures": [
+              "https://files.riichi.moe/mjg/game%20resources%20and%20tools/Mahjong%20Soul/unity_raw/extracted/MyAssets/spine/40010704/2/yuanxiao_xr_2.png"
+            ]
+          },
+          {
+            "atlas": "https://files.riichi.moe/mjg/game%20resources%20and%20tools/Mahjong%20Soul/unity_raw/extracted/MyAssets/spine/40010704/3/yuanxiao_xr_3.atlas.txt",
+            "name": "3",
+            "skeleton": "https://files.riichi.moe/mjg/game%20resources%20and%20tools/Mahjong%20Soul/unity_raw/extracted/MyAssets/spine/40010704/3/yuanxiao_xr_3.skel.txt",
+            "textures": [
+              "https://files.riichi.moe/mjg/game%20resources%20and%20tools/Mahjong%20Soul/unity_raw/extracted/MyAssets/spine/40010704/3/yuanxiao_xr_3.png"
+            ]
+          }
+        ],
+        "text": {
+          "description": {
+            "chs": "避暑大作战！活动限定\n“好人君，太阳这么大，我看你脸都晒红咯，让我来帮你降降温——哗啦！哈哈哈，是不是透心凉，安逸得很？……哎哎哎，等一哈！怎么连招呼都不打直接就泼回来咯！要得嘛，那就来正面较量一哈，接招！”",
+            "chs_t": "避暑大作戰！活動限定\n「好人君，太陽這麼大，我看你臉都曬紅咯，讓我來幫你降降溫——嘩啦！哈哈哈，是不是透心涼，很舒服？……哎哎哎，等一下！怎麼連招呼都不打直接就潑回來咯！好呀，那就來正面較量一下，接招！」",
+            "en": "Sun, Salt & Summer Exclusive\n\"Kind soul, that sun is blazing! You're looking a little flushed, so let me cool you down – splash! Hahaha! Refreshing, huh? ...Whoa, hey, hold up! Splashing me back with zero warning?! Oh, it is ON! Take this!\"",
+            "jp": "「海辺の麻雀小屋」にて購入できる、水着テーマの着せ替え衣装。",
+            "kr": "더위탈출 대작전! 한정스킨.\n\"착한사람군, 햇볕이 뜨거워서 얼굴이 빨갛게 됐네, 내가 식혀줄게…… 촤락! 하하하, 진짜 시원하지? ……아앗, 잠깐만! 말도 없이 바로 뿌리는 게 어디 있어! 좋아, 그럼 정면 승부다, 받아라!\""
+          },
+          "lockTips": {
+            "chs": "活动限定",
+            "chs_t": "活動限定",
+            "en": "Event Exclusive",
+            "jp": "期間限定",
+            "kr": "기간 한정"
+          },
+          "name": {
+            "chs": "避暑大作战！",
+            "chs_t": "避暑大作戰！",
+            "en": "Sun, Salt & Summer",
+            "jp": "涼感大作戦！",
+            "kr": "더위탈출 대작전!"
           }
         }
       }
@@ -437389,6 +437612,3746 @@
       },
       {
         "audio": "https://files.riichi.moe/mjg/game%20resources%20and%20tools/Mahjong%20Soul/unity_raw/extracted/MyAssets/audio/sound/jinwu/extra/scfan_shibaluohan.mp3",
+        "bondLimit": 0,
+        "category": 2,
+        "levelLimit": 5,
+        "text": {
+          "name": {
+            "chs": "十八罗汉",
+            "chs_t": "十八羅漢",
+            "en": "Four Quads",
+            "jp": "十八羅漢",
+            "kr": "십팔라한"
+          },
+          "words": {
+            "chs": "十八罗汉",
+            "chs_t": "十八羅漢",
+            "en": "Four Quads",
+            "jp": "十八羅漢（ジュウハチラカン）",
+            "kr": "십팔라한."
+          }
+        },
+        "type": "scfan_shibaluohan"
+      }
+    ]
+  },
+  {
+    "assets": {
+      "bighead": "https://files.riichi.moe/mjg/game%20resources%20and%20tools/Mahjong%20Soul/unity_raw/extracted/MyAssets/deco/character/40012101/bighead/bighead.png",
+      "full": "https://files.riichi.moe/mjg/game%20resources%20and%20tools/Mahjong%20Soul/unity_raw/extracted/MyAssets/deco/character/40012101/full/full.png",
+      "smallhead": "https://files.riichi.moe/mjg/game%20resources%20and%20tools/Mahjong%20Soul/unity_raw/extracted/MyAssets/deco/character/40012101/smallhead/smallhead.png"
+    },
+    "bond": [
+      {
+        "count": 10,
+        "icon": "https://files.riichi.moe/mjg/game%20resources%20and%20tools/Mahjong%20Soul/unity_raw/extracted/MyAssets/extendRes/items/common/jade_courage.png",
+        "itemId": 302005,
+        "name": {
+          "chs": "勇气宝玉",
+          "chs_t": "勇氣寶玉",
+          "en": "Sphere of Courage",
+          "jp": "勇気の宝玉",
+          "kr": "용기의 보옥"
+        }
+      },
+      {
+        "count": 10,
+        "icon": "https://files.riichi.moe/mjg/game%20resources%20and%20tools/Mahjong%20Soul/unity_raw/extracted/MyAssets/extendRes/items/common/jade_will.png",
+        "itemId": 302006,
+        "name": {
+          "chs": "意志宝玉",
+          "chs_t": "意志寶玉",
+          "en": "Sphere of Will",
+          "jp": "意志の宝玉",
+          "kr": "의지의 보옥"
+        }
+      },
+      {
+        "count": 5,
+        "icon": "https://files.riichi.moe/mjg/game%20resources%20and%20tools/Mahjong%20Soul/unity_raw/extracted/MyAssets/extendRes/items/common/biscuit2.png",
+        "itemId": 303013,
+        "name": {
+          "chs": "香喷喷曲奇",
+          "chs_t": "香噴噴餅乾",
+          "en": "Delicious Cookie",
+          "jp": "香ばしいクッキー",
+          "kr": "향기로운 쿠키"
+        }
+      },
+      {
+        "count": 10,
+        "icon": "https://files.riichi.moe/mjg/game%20resources%20and%20tools/Mahjong%20Soul/unity_raw/extracted/MyAssets/extendRes/items/common/wishstone.png",
+        "itemId": 302002,
+        "name": {
+          "chs": "许愿石",
+          "chs_t": "許願石",
+          "en": "Wishing Stone",
+          "jp": "願いの石",
+          "kr": "소원의 돌"
+        }
+      },
+      {
+        "count": 100,
+        "icon": "https://files.riichi.moe/mjg/game%20resources%20and%20tools/Mahjong%20Soul/unity_raw/extracted/MyAssets/extendRes/items/common/stardust.png",
+        "itemId": 302004,
+        "name": {
+          "chs": "星之粉尘",
+          "chs_t": "星之粉塵",
+          "en": "Star Dust",
+          "jp": "星のかけら",
+          "kr": "별 가루"
+        }
+      }
+    ],
+    "collaboration": 0,
+    "emotes": [
+      {
+        "image": "https://files.riichi.moe/mjg/game%20resources%20and%20tools/Mahjong%20Soul/unity_raw/extracted/MyAssets/deco/emo/e20000121/common/0.png",
+        "subId": 0,
+        "unlockDescription": {
+          "chs": "",
+          "chs_t": "",
+          "en": "",
+          "jp": "",
+          "kr": ""
+        }
+      },
+      {
+        "image": "https://files.riichi.moe/mjg/game%20resources%20and%20tools/Mahjong%20Soul/unity_raw/extracted/MyAssets/deco/emo/e20000121/common/1.png",
+        "subId": 1,
+        "unlockDescription": {
+          "chs": "",
+          "chs_t": "",
+          "en": "",
+          "jp": "",
+          "kr": ""
+        }
+      },
+      {
+        "image": "https://files.riichi.moe/mjg/game%20resources%20and%20tools/Mahjong%20Soul/unity_raw/extracted/MyAssets/deco/emo/e20000121/common/2.png",
+        "subId": 2,
+        "unlockDescription": {
+          "chs": "",
+          "chs_t": "",
+          "en": "",
+          "jp": "",
+          "kr": ""
+        }
+      },
+      {
+        "image": "https://files.riichi.moe/mjg/game%20resources%20and%20tools/Mahjong%20Soul/unity_raw/extracted/MyAssets/deco/emo/e20000121/common/3.png",
+        "subId": 3,
+        "unlockDescription": {
+          "chs": "",
+          "chs_t": "",
+          "en": "",
+          "jp": "",
+          "kr": ""
+        }
+      },
+      {
+        "image": "https://files.riichi.moe/mjg/game%20resources%20and%20tools/Mahjong%20Soul/unity_raw/extracted/MyAssets/deco/emo/e20000121/common/4.png",
+        "subId": 4,
+        "unlockDescription": {
+          "chs": "",
+          "chs_t": "",
+          "en": "",
+          "jp": "",
+          "kr": ""
+        }
+      },
+      {
+        "image": "https://files.riichi.moe/mjg/game%20resources%20and%20tools/Mahjong%20Soul/unity_raw/extracted/MyAssets/deco/emo/e20000121/common/5.png",
+        "subId": 5,
+        "unlockDescription": {
+          "chs": "",
+          "chs_t": "",
+          "en": "",
+          "jp": "",
+          "kr": ""
+        }
+      },
+      {
+        "image": "https://files.riichi.moe/mjg/game%20resources%20and%20tools/Mahjong%20Soul/unity_raw/extracted/MyAssets/deco/emo/e20000121/common/6.png",
+        "subId": 6,
+        "unlockDescription": {
+          "chs": "",
+          "chs_t": "",
+          "en": "",
+          "jp": "",
+          "kr": ""
+        }
+      },
+      {
+        "image": "https://files.riichi.moe/mjg/game%20resources%20and%20tools/Mahjong%20Soul/unity_raw/extracted/MyAssets/deco/emo/e20000121/common/7.png",
+        "subId": 7,
+        "unlockDescription": {
+          "chs": "",
+          "chs_t": "",
+          "en": "",
+          "jp": "",
+          "kr": ""
+        }
+      },
+      {
+        "image": "https://files.riichi.moe/mjg/game%20resources%20and%20tools/Mahjong%20Soul/unity_raw/extracted/MyAssets/deco/emo/e20000121/common/8.png",
+        "subId": 8,
+        "unlockDescription": {
+          "chs": "",
+          "chs_t": "",
+          "en": "",
+          "jp": "",
+          "kr": ""
+        }
+      },
+      {
+        "image": "https://files.riichi.moe/mjg/game%20resources%20and%20tools/Mahjong%20Soul/unity_raw/extracted/MyAssets/deco/emo/e20000121/common/10.png",
+        "subId": 10,
+        "unlockDescription": {
+          "chs": "缔结契约",
+          "chs_t": "締結契約",
+          "en": "Bond",
+          "jp": "契約を結ぶ",
+          "kr": "계약"
+        }
+      },
+      {
+        "image": "https://files.riichi.moe/mjg/game%20resources%20and%20tools/Mahjong%20Soul/unity_raw/extracted/MyAssets/deco/emo/e20000121/common/11.png",
+        "subId": 11,
+        "unlockDescription": {
+          "chs": "缔结契约",
+          "chs_t": "締結契約",
+          "en": "Bond",
+          "jp": "契約を結ぶ",
+          "kr": "계약"
+        }
+      },
+      {
+        "image": "https://files.riichi.moe/mjg/game%20resources%20and%20tools/Mahjong%20Soul/unity_raw/extracted/MyAssets/deco/emo/e20000121/common/12.png",
+        "subId": 12,
+        "unlockDescription": {
+          "chs": "缔结契约",
+          "chs_t": "締結契約",
+          "en": "Bond",
+          "jp": "契約を結ぶ",
+          "kr": "계약"
+        }
+      },
+      {
+        "image": "https://files.riichi.moe/mjg/game%20resources%20and%20tools/Mahjong%20Soul/unity_raw/extracted/MyAssets/deco/emo/e20000121/common/924.png",
+        "subId": 924,
+        "unlockDescription": {
+          "chs": "服饰解锁",
+          "chs_t": "服飾解鎖",
+          "en": "Unlock Outfit",
+          "jp": "着せ替え入手",
+          "kr": "스킨 오픈"
+        }
+      }
+    ],
+    "id": 20000121,
+    "initSkin": 40012101,
+    "limited": 1,
+    "skins": [
+      {
+        "assets": {
+          "bighead": "https://files.riichi.moe/mjg/game%20resources%20and%20tools/Mahjong%20Soul/unity_raw/extracted/MyAssets/deco/character/40012101/bighead/bighead.png",
+          "full": "https://files.riichi.moe/mjg/game%20resources%20and%20tools/Mahjong%20Soul/unity_raw/extracted/MyAssets/deco/character/40012101/full/full.png",
+          "smallhead": "https://files.riichi.moe/mjg/game%20resources%20and%20tools/Mahjong%20Soul/unity_raw/extracted/MyAssets/deco/character/40012101/smallhead/smallhead.png"
+        },
+        "id": 40012101,
+        "spine": [],
+        "text": {
+          "description": {
+            "chs": "赤麟的初始形象",
+            "chs_t": "赤麟的初始形象",
+            "en": "Chi Lin's default look",
+            "jp": "赤麟の初期衣装",
+            "kr": "아카리의 기본 스킨."
+          },
+          "lockTips": {
+            "chs": "",
+            "chs_t": "",
+            "en": "",
+            "jp": "",
+            "kr": ""
+          },
+          "name": {
+            "chs": "赤麟",
+            "chs_t": "赤麟",
+            "en": "Chi Lin",
+            "jp": "赤麟",
+            "kr": "아카리"
+          }
+        }
+      },
+      {
+        "assets": {
+          "bighead": "https://files.riichi.moe/mjg/game%20resources%20and%20tools/Mahjong%20Soul/unity_raw/extracted/MyAssets/deco/character/40012102/bighead/bighead.png",
+          "full": "https://files.riichi.moe/mjg/game%20resources%20and%20tools/Mahjong%20Soul/unity_raw/extracted/MyAssets/deco/character/40012102/full/full.png",
+          "smallhead": "https://files.riichi.moe/mjg/game%20resources%20and%20tools/Mahjong%20Soul/unity_raw/extracted/MyAssets/deco/character/40012102/smallhead/smallhead.png"
+        },
+        "id": 40012102,
+        "spine": [
+          {
+            "atlas": "https://files.riichi.moe/mjg/game%20resources%20and%20tools/Mahjong%20Soul/unity_raw/extracted/MyAssets/spine/40012102/1/chilin_0_1.atlas.txt",
+            "name": "1",
+            "skeleton": "https://files.riichi.moe/mjg/game%20resources%20and%20tools/Mahjong%20Soul/unity_raw/extracted/MyAssets/spine/40012102/1/chilin_0_1.skel.txt",
+            "textures": [
+              "https://files.riichi.moe/mjg/game%20resources%20and%20tools/Mahjong%20Soul/unity_raw/extracted/MyAssets/spine/40012102/1/chilin_0_1.png"
+            ]
+          }
+        ],
+        "text": {
+          "description": {
+            "chs": "与角色【赤麟】缔结契约后获得\n“唔……偶尔小酌一盅也不错呢。平时我总是在往前冲，不过今天嘛……感觉在{name}身边，放慢一点步调也未尝不可，来，稍微靠过来一点，陪我享受一下这难得的闲暇吧？”",
+            "chs_t": "與角色【赤麟】締結契約後獲得\n「唔……偶爾小酌一盅也不錯呢。平時我總是在往前衝，不過今天嘛……感覺在 {name} 身邊，放慢一點步調也未嘗不可。來，稍微靠過來一點，陪我享受一下這難得的閒暇吧？」",
+            "en": "\"Mmm... a little drink now and then isn't half bad. I'm always on the move, but today... with you here, {name}, I don't mind slowing down for a change. Come on, get a little closer. Let's enjoy this rare bit of downtime together.\"",
+            "jp": "赤麟と契約を結んだ時に入手できる着せ替え衣装",
+            "kr": "아카리와 계약을 맺었을 때 획득 가능한 스킨.\n\"음…… 가끔은 한잔 하는 것도 괜찮네. 평소에 난 늘 앞으로만 돌진하지만, 그래도 오늘은…… {name} 곁에 있을 때는, 조금 느리게 걷는 것도 좋겠다는 생각이 들어서 말이지. 자, 조금만 더 가까이 와. 어렵게 얻은 휴식 시간인데 같이 제대로 즐겨봐야지?\""
+          },
+          "lockTips": {
+            "chs": "缔结契约",
+            "chs_t": "締結契約",
+            "en": "Bond",
+            "jp": "契約を結ぶ",
+            "kr": "계약"
+          },
+          "name": {
+            "chs": "契约",
+            "chs_t": "契約",
+            "en": "Bond",
+            "jp": "契約",
+            "kr": "계약"
+          }
+        }
+      },
+      {
+        "assets": {
+          "bighead": "https://files.riichi.moe/mjg/game%20resources%20and%20tools/Mahjong%20Soul/unity_raw/extracted/MyAssets/deco/character/40012103/bighead/bighead.png",
+          "full": "https://files.riichi.moe/mjg/game%20resources%20and%20tools/Mahjong%20Soul/unity_raw/extracted/MyAssets/deco/character/40012103/full/full.png",
+          "smallhead": "https://files.riichi.moe/mjg/game%20resources%20and%20tools/Mahjong%20Soul/unity_raw/extracted/MyAssets/deco/character/40012103/smallhead/smallhead.png"
+        },
+        "id": 40012103,
+        "spine": [
+          {
+            "atlas": "https://files.riichi.moe/mjg/game%20resources%20and%20tools/Mahjong%20Soul/unity_raw/extracted/MyAssets/spine/40012103/1/chilin_1_1.atlas.txt",
+            "name": "1",
+            "skeleton": "https://files.riichi.moe/mjg/game%20resources%20and%20tools/Mahjong%20Soul/unity_raw/extracted/MyAssets/spine/40012103/1/chilin_1_1.skel.txt",
+            "textures": [
+              "https://files.riichi.moe/mjg/game%20resources%20and%20tools/Mahjong%20Soul/unity_raw/extracted/MyAssets/spine/40012103/1/chilin_1_1.png"
+            ]
+          },
+          {
+            "atlas": "https://files.riichi.moe/mjg/game%20resources%20and%20tools/Mahjong%20Soul/unity_raw/extracted/MyAssets/spine/40012103/2/chilin_1_2.atlas.txt",
+            "name": "2",
+            "skeleton": "https://files.riichi.moe/mjg/game%20resources%20and%20tools/Mahjong%20Soul/unity_raw/extracted/MyAssets/spine/40012103/2/chilin_1_2.skel.txt",
+            "textures": [
+              "https://files.riichi.moe/mjg/game%20resources%20and%20tools/Mahjong%20Soul/unity_raw/extracted/MyAssets/spine/40012103/2/chilin_1_2.png"
+            ]
+          },
+          {
+            "atlas": "https://files.riichi.moe/mjg/game%20resources%20and%20tools/Mahjong%20Soul/unity_raw/extracted/MyAssets/spine/40012103/3/chilin_1_3.atlas.txt",
+            "name": "3",
+            "skeleton": "https://files.riichi.moe/mjg/game%20resources%20and%20tools/Mahjong%20Soul/unity_raw/extracted/MyAssets/spine/40012103/3/chilin_1_3.skel.txt",
+            "textures": [
+              "https://files.riichi.moe/mjg/game%20resources%20and%20tools/Mahjong%20Soul/unity_raw/extracted/MyAssets/spine/40012103/3/chilin_1_3.png"
+            ]
+          }
+        ],
+        "text": {
+          "description": {
+            "chs": "炽焰奔霄活动限定\n“哼哼！吓到了吗？汝还是第一次见到吾这副模样吧？放心，靠得再近也不会受伤的！这赤炎任吾差遣，能将怠惰的邪祟连同厄运一并焚尽。毕竟要尽到自己护佑一方安宁的责任，必须得拿出点真本事才行嘛！”",
+            "chs_t": "熾焰奔霄活動限定\n「哼哼！嚇到了嗎？汝還是第一次見到吾這副模樣吧？放心，靠得再近也不會受傷的！這赤炎任吾差遣，能將怠惰的邪祟連同厄運一併焚盡。畢竟要盡到自己護佑一方安寧的責任，必須得拿出點真本事才行嘛！」",
+            "en": "\"Hehe! You get a fright? You've never seen me like this before, have you? Relax, no harm will come to you! It's my duty to safeguard the peace of this realm, and at my command, these crimson flames will cleanse it of slothful, malevolent spirits and the ill fortune they bring. Besides, I can't very well do my duty without showing off a little!\"",
+            "jp": "「海辺の麻雀小屋」にて購入できる、赤麟の着せ替え衣装。",
+            "kr": "\"뭐야, 놀란 거야? 그대에게 이 몸의 이런 모습을 보여주는 건 처음이니까 말이지? 안심해, 가까이 있어도 화상 입지는 않아! 이 붉은 불꽃은 이 몸의 의지대로다 보니, 나태하고 사악한 것들만 재액과 함께 불태우니까. 어쨌든 이 땅을 수호하는 책임이 있는 만큼, 조금은 진심을 보여줘야 본보기가 되니까 말이야!\""
+          },
+          "lockTips": {
+            "chs": "活动限定",
+            "chs_t": "活動限定",
+            "en": "Event Exclusive",
+            "jp": "期間限定",
+            "kr": "기간 한정"
+          },
+          "name": {
+            "chs": "炽焰奔霄",
+            "chs_t": "熾焰奔霄",
+            "en": "Sunward Courser",
+            "jp": "蒼天を駆ける焔",
+            "kr": "창천을 달리는 불꽃"
+          }
+        }
+      }
+    ],
+    "spotVoices": [
+      {
+        "audio": "https://files.riichi.moe/mjg/game%20resources%20and%20tools/Mahjong%20Soul/unity_raw/extracted/MyAssets/audio/sound/chilin/spot/jtm_akr_232.mp3",
+        "id": 12101,
+        "type": 1,
+        "typeDescription": "表示惊讶"
+      },
+      {
+        "audio": "https://files.riichi.moe/mjg/game%20resources%20and%20tools/Mahjong%20Soul/unity_raw/extracted/MyAssets/audio/sound/chilin/spot/jtm_akr_233.mp3",
+        "id": 12102,
+        "type": 2,
+        "typeDescription": "表示肯定"
+      },
+      {
+        "audio": "https://files.riichi.moe/mjg/game%20resources%20and%20tools/Mahjong%20Soul/unity_raw/extracted/MyAssets/audio/sound/chilin/spot/jtm_akr_234.mp3",
+        "id": 12103,
+        "type": 3,
+        "typeDescription": "表示否定"
+      },
+      {
+        "audio": "https://files.riichi.moe/mjg/game%20resources%20and%20tools/Mahjong%20Soul/unity_raw/extracted/MyAssets/audio/sound/chilin/spot/jtm_akr_235.mp3",
+        "id": 12104,
+        "type": 4,
+        "typeDescription": "打招呼"
+      },
+      {
+        "audio": "https://files.riichi.moe/mjg/game%20resources%20and%20tools/Mahjong%20Soul/unity_raw/extracted/MyAssets/audio/sound/chilin/spot/jtm_akr_236.mp3",
+        "id": 12105,
+        "type": 5,
+        "typeDescription": "告别"
+      },
+      {
+        "audio": "https://files.riichi.moe/mjg/game%20resources%20and%20tools/Mahjong%20Soul/unity_raw/extracted/MyAssets/audio/sound/chilin/spot/jtm_akr_237.mp3",
+        "id": 12106,
+        "type": 6,
+        "typeDescription": "承接"
+      },
+      {
+        "audio": "https://files.riichi.moe/mjg/game%20resources%20and%20tools/Mahjong%20Soul/unity_raw/extracted/MyAssets/audio/sound/chilin/spot/jtm_akr_238.mp3",
+        "id": 12107,
+        "type": 7,
+        "typeDescription": "叹气"
+      },
+      {
+        "audio": "https://files.riichi.moe/mjg/game%20resources%20and%20tools/Mahjong%20Soul/unity_raw/extracted/MyAssets/audio/sound/chilin/spot/jtm_akr_239.mp3",
+        "id": 12108,
+        "type": 8,
+        "typeDescription": "高兴"
+      },
+      {
+        "audio": "https://files.riichi.moe/mjg/game%20resources%20and%20tools/Mahjong%20Soul/unity_raw/extracted/MyAssets/audio/sound/chilin/spot/jtm_akr_240.mp3",
+        "id": 12109,
+        "type": 9,
+        "typeDescription": "生气"
+      },
+      {
+        "audio": "https://files.riichi.moe/mjg/game%20resources%20and%20tools/Mahjong%20Soul/unity_raw/extracted/MyAssets/audio/sound/chilin/spot/jtm_akr_241.mp3",
+        "id": 12110,
+        "type": 10,
+        "typeDescription": "递进"
+      },
+      {
+        "audio": "https://files.riichi.moe/mjg/game%20resources%20and%20tools/Mahjong%20Soul/unity_raw/extracted/MyAssets/audio/sound/chilin/spot/jtm_akr_242.mp3",
+        "id": 12111,
+        "type": 11,
+        "typeDescription": "转折"
+      },
+      {
+        "audio": "https://files.riichi.moe/mjg/game%20resources%20and%20tools/Mahjong%20Soul/unity_raw/extracted/MyAssets/audio/sound/chilin/spot/jtm_akr_243.mp3",
+        "id": 12112,
+        "type": 12,
+        "typeDescription": "疑惑"
+      },
+      {
+        "audio": "https://files.riichi.moe/mjg/game%20resources%20and%20tools/Mahjong%20Soul/unity_raw/extracted/MyAssets/audio/sound/chilin/spot/jtm_akr_244.mp3",
+        "id": 12113,
+        "type": 13,
+        "typeDescription": "ex1"
+      },
+      {
+        "audio": "https://files.riichi.moe/mjg/game%20resources%20and%20tools/Mahjong%20Soul/unity_raw/extracted/MyAssets/audio/sound/chilin/spot/jtm_akr_245.mp3",
+        "id": 12114,
+        "type": 14,
+        "typeDescription": "ex2"
+      },
+      {
+        "audio": "https://files.riichi.moe/mjg/game%20resources%20and%20tools/Mahjong%20Soul/unity_raw/extracted/MyAssets/audio/sound/chilin/spot/chilin01.mp3",
+        "id": 12115,
+        "type": 15,
+        "typeDescription": "赤麟剧情1"
+      },
+      {
+        "audio": "https://files.riichi.moe/mjg/game%20resources%20and%20tools/Mahjong%20Soul/unity_raw/extracted/MyAssets/audio/sound/chilin/spot/chilin02.mp3",
+        "id": 12116,
+        "type": 16,
+        "typeDescription": "赤麟剧情2"
+      },
+      {
+        "audio": "https://files.riichi.moe/mjg/game%20resources%20and%20tools/Mahjong%20Soul/unity_raw/extracted/MyAssets/audio/sound/chilin/spot/chilin03.mp3",
+        "id": 12117,
+        "type": 17,
+        "typeDescription": "赤麟剧情3"
+      },
+      {
+        "audio": "https://files.riichi.moe/mjg/game%20resources%20and%20tools/Mahjong%20Soul/unity_raw/extracted/MyAssets/audio/sound/chilin/spot/chilin04.mp3",
+        "id": 12118,
+        "type": 18,
+        "typeDescription": "赤麟剧情4"
+      },
+      {
+        "audio": "https://files.riichi.moe/mjg/game%20resources%20and%20tools/Mahjong%20Soul/unity_raw/extracted/MyAssets/audio/sound/chilin/spot/chilin05.mp3",
+        "id": 12119,
+        "type": 19,
+        "typeDescription": "赤麟剧情5"
+      },
+      {
+        "audio": "https://files.riichi.moe/mjg/game%20resources%20and%20tools/Mahjong%20Soul/unity_raw/extracted/MyAssets/audio/sound/chilin/spot/chilin06.mp3",
+        "id": 12120,
+        "type": 20,
+        "typeDescription": "赤麟剧情6"
+      },
+      {
+        "audio": "https://files.riichi.moe/mjg/game%20resources%20and%20tools/Mahjong%20Soul/unity_raw/extracted/MyAssets/audio/sound/chilin/spot/chilin07.mp3",
+        "id": 12121,
+        "type": 21,
+        "typeDescription": "赤麟剧情7"
+      },
+      {
+        "audio": "https://files.riichi.moe/mjg/game%20resources%20and%20tools/Mahjong%20Soul/unity_raw/extracted/MyAssets/audio/sound/chilin/spot/chilin08.mp3",
+        "id": 12122,
+        "type": 22,
+        "typeDescription": "赤麟剧情8"
+      },
+      {
+        "audio": "https://files.riichi.moe/mjg/game%20resources%20and%20tools/Mahjong%20Soul/unity_raw/extracted/MyAssets/audio/sound/chilin/spot/chilin09.mp3",
+        "id": 12123,
+        "type": 23,
+        "typeDescription": "赤麟剧情9"
+      },
+      {
+        "audio": "https://files.riichi.moe/mjg/game%20resources%20and%20tools/Mahjong%20Soul/unity_raw/extracted/MyAssets/audio/sound/chilin/spot/chilin10.mp3",
+        "id": 12124,
+        "type": 24,
+        "typeDescription": "赤麟剧情10"
+      },
+      {
+        "audio": "https://files.riichi.moe/mjg/game%20resources%20and%20tools/Mahjong%20Soul/unity_raw/extracted/MyAssets/audio/sound/chilin/spot/chilin11.mp3",
+        "id": 12125,
+        "type": 25,
+        "typeDescription": "赤麟剧情11"
+      },
+      {
+        "audio": "https://files.riichi.moe/mjg/game%20resources%20and%20tools/Mahjong%20Soul/unity_raw/extracted/MyAssets/audio/sound/chilin/spot/chilin12.mp3",
+        "id": 12126,
+        "type": 26,
+        "typeDescription": "赤麟剧情12"
+      },
+      {
+        "audio": "https://files.riichi.moe/mjg/game%20resources%20and%20tools/Mahjong%20Soul/unity_raw/extracted/MyAssets/audio/sound/chilin/spot/chilin13.mp3",
+        "id": 12127,
+        "type": 27,
+        "typeDescription": "赤麟剧情13"
+      },
+      {
+        "audio": "https://files.riichi.moe/mjg/game%20resources%20and%20tools/Mahjong%20Soul/unity_raw/extracted/MyAssets/audio/sound/chilin/spot/chilin14.mp3",
+        "id": 12128,
+        "type": 28,
+        "typeDescription": "赤麟剧情14"
+      },
+      {
+        "audio": "https://files.riichi.moe/mjg/game%20resources%20and%20tools/Mahjong%20Soul/unity_raw/extracted/MyAssets/audio/sound/chilin/spot/chilin15.mp3",
+        "id": 12129,
+        "type": 29,
+        "typeDescription": "赤麟剧情15"
+      },
+      {
+        "audio": "https://files.riichi.moe/mjg/game%20resources%20and%20tools/Mahjong%20Soul/unity_raw/extracted/MyAssets/audio/sound/chilin/spot/chilin062.mp3",
+        "id": 12130,
+        "type": 30,
+        "typeDescription": "赤麟剧情6_2"
+      },
+      {
+        "audio": "https://files.riichi.moe/mjg/game%20resources%20and%20tools/Mahjong%20Soul/unity_raw/extracted/MyAssets/audio/sound/chilin/spot/chilin16.mp3",
+        "id": 12131,
+        "type": 31,
+        "typeDescription": "叹气1"
+      },
+      {
+        "audio": "https://files.riichi.moe/mjg/game%20resources%20and%20tools/Mahjong%20Soul/unity_raw/extracted/MyAssets/audio/sound/chilin/spot/chilin17.mp3",
+        "id": 12132,
+        "type": 32,
+        "typeDescription": "叹气2"
+      },
+      {
+        "audio": "https://files.riichi.moe/mjg/game%20resources%20and%20tools/Mahjong%20Soul/unity_raw/extracted/MyAssets/audio/sound/chilin/spot/chilin18.mp3",
+        "id": 12133,
+        "type": 33,
+        "typeDescription": "笑声1"
+      },
+      {
+        "audio": "https://files.riichi.moe/mjg/game%20resources%20and%20tools/Mahjong%20Soul/unity_raw/extracted/MyAssets/audio/sound/chilin/spot/chilin19.mp3",
+        "id": 12134,
+        "type": 34,
+        "typeDescription": "笑声2"
+      },
+      {
+        "audio": "https://files.riichi.moe/mjg/game%20resources%20and%20tools/Mahjong%20Soul/unity_raw/extracted/MyAssets/audio/sound/chilin/spot/chilin20.mp3",
+        "id": 12135,
+        "type": 35,
+        "typeDescription": "笑声3"
+      },
+      {
+        "audio": "https://files.riichi.moe/mjg/game%20resources%20and%20tools/Mahjong%20Soul/unity_raw/extracted/MyAssets/audio/sound/chilin/spot/chilin21.mp3",
+        "id": 12136,
+        "type": 36,
+        "typeDescription": "笑声4"
+      },
+      {
+        "audio": "https://files.riichi.moe/mjg/game%20resources%20and%20tools/Mahjong%20Soul/unity_raw/extracted/MyAssets/audio/sound/chilin/spot/chilin22.mp3",
+        "id": 12137,
+        "type": 37,
+        "typeDescription": "笑声5"
+      }
+    ],
+    "stories": [],
+    "text": {
+      "age": {
+        "chs": "未知",
+        "chs_t": "未知",
+        "en": "Unknown",
+        "jp": "未知",
+        "kr": "불명"
+      },
+      "birth": {
+        "chs": "11月25日",
+        "chs_t": "11月25日",
+        "en": "25th November",
+        "jp": "11月25日",
+        "kr": "11월 25일"
+      },
+      "bloodType": {
+        "chs": "未知",
+        "chs_t": "未知",
+        "en": "Unknown",
+        "jp": "不明",
+        "kr": "불명"
+      },
+      "cv": {
+        "chs": "户松遥",
+        "chs_t": "戶松遙",
+        "en": "Haruka Tomatsu",
+        "jp": "戸松 遥",
+        "kr": "토마츠 하루카"
+      },
+      "description": {
+        "chs": "赤诚如火，意气风发！午马宫的现任宫主是个不折不扣的行动派，钟情于生命之中每一个全力以赴、挑战极限的时刻。\n——怀揣着这份率性，今天她也在一番市的街巷快意驰骋。",
+        "chs_t": "赤誠如火，意氣風發！午馬宮的現任宮主是個不折不扣的行動派，鍾情於生命之中每一個全力以赴、挑戰極限的時刻。\n——懷揣著這份率性，今天她也在一番市的街巷快意馳騁。",
+        "en": "A fiery soul and a doer through and through, the Lady of the Horse Palace thrives on the thrill of pushing past her limits.\nAnd true to her unbridled nature, she's out tearing through the streets of One Han City again today.",
+        "jp": "燃えるような情熱を持つ、意気盛んな新任午馬宮宮主。\n全力を尽くして命を謳歌し、あらゆる限界に挑む。\nその自由奔放さを胸に、今日も彼女は一飜市の街を颯爽と駆け巡る。",
+        "kr": "불타는 정열을 품은, 의기가 왕성한 오마궁의 궁주. 철저한 행동주의자로 인생에선 항상 전력을 다하고, 모든 한계에 도전한다. 이러한 자유분방함을 가슴에 품고, 오늘도 그녀는 이한시의 거리를 거침없이 누비고 있다."
+      },
+      "hobby": {
+        "chs": "奔跑、胡萝卜",
+        "chs_t": "奔跑、紅蘿蔔",
+        "en": "Running, carrots",
+        "jp": "走ること、ニンジン",
+        "kr": "달리기, 당근"
+      },
+      "name": {
+        "chs": "赤麟",
+        "chs_t": "赤麟",
+        "en": "Chi Lin",
+        "jp": "赤麟",
+        "kr": "아카리"
+      },
+      "stature": {
+        "chs": "173厘米",
+        "chs_t": "173公分",
+        "en": "173cm",
+        "jp": "173cm",
+        "kr": "173cm"
+      }
+    },
+    "voices": [
+      {
+        "audio": "https://files.riichi.moe/mjg/game%20resources%20and%20tools/Mahjong%20Soul/unity_raw/extracted/MyAssets/audio/sound/chilin/lobby/lobby_gift.mp3",
+        "bondLimit": 0,
+        "category": 1,
+        "levelLimit": 0,
+        "text": {
+          "name": {
+            "chs": "送礼物语音普通",
+            "chs_t": "送禮物語音普通",
+            "en": "Receiving Gift - Normal",
+            "jp": "プレゼント・普通",
+            "kr": "선물-일반"
+          },
+          "words": {
+            "chs": "嗯？不是胡萝卜吗？也、也不错嘛！谢啦！",
+            "chs_t": "嗯？不是紅蘿蔔嗎？也、也不錯嘛！謝啦！",
+            "en": "Huh? So, it's not a carrot? But, um, this is nice too! Thanks!",
+            "jp": "あぁ、ニンジンじゃないのか……\nで、でも悪くないな！ サンキュー！",
+            "kr": "아, 당근이 아닌 건가…… 그, 그래도 나쁘지 않네! 땡큐!"
+          }
+        },
+        "type": "lobby_gift"
+      },
+      {
+        "audio": "https://files.riichi.moe/mjg/game%20resources%20and%20tools/Mahjong%20Soul/unity_raw/extracted/MyAssets/audio/sound/chilin/lobby/lobby_gift_favor.mp3",
+        "bondLimit": 0,
+        "category": 1,
+        "levelLimit": 0,
+        "text": {
+          "name": {
+            "chs": "送礼物语音喜好",
+            "chs_t": "送禮物語音喜好",
+            "en": "Receiving Gift - Preferred",
+            "jp": "プレゼント・好み",
+            "kr": "선물-기쁨"
+          },
+          "words": {
+            "chs": "哦哦！就是这个！感激不……咳……吾是说，汝之贡品的确值得称赞。",
+            "chs_t": "哦哦！就是這個！感激不……咳……吾是說，汝之貢品的確值得稱讚。",
+            "en": "Yippee! This is great, thank you so... Ahem... I mean, your offering is truly commendable.",
+            "jp": "おおっ、これだよこれ！ ありがとな……\nじゃなくて、汝の捧げ物、称賛に値する。",
+            "kr": "오옷, 이거야 이거! 고마워…… 가 아니라, 그대의 공물, 칭찬받아 마땅하도다."
+          }
+        },
+        "type": "lobby_gift_favor"
+      },
+      {
+        "audio": "https://files.riichi.moe/mjg/game%20resources%20and%20tools/Mahjong%20Soul/unity_raw/extracted/MyAssets/audio/sound/chilin/lobby/lobby_manjiban.mp3",
+        "bondLimit": 0,
+        "category": 1,
+        "levelLimit": 5,
+        "text": {
+          "name": {
+            "chs": "好感度升级语音5",
+            "chs_t": "好感度升級語音5",
+            "en": "Bond Level Up Voice 5",
+            "jp": "絆レベルアップ5",
+            "kr": "인연 레벨업5"
+          },
+          "words": {
+            "chs": "最近，在你的身边了解了不少有关于人类社会的事。人类真厉害啊，明明跑得不算快，也不会使用什么法术……却会因自己坚定的信念努力向前，哎呀真是的……作为实现大家心愿的神明，可要继续努力工作才行呢！",
+            "chs_t": "最近，在你的身邊瞭解了不少有關於人類社會的事。人類真厲害啊，明明跑得不算快，也不會使用什麼法術……卻會因自己堅定的信念努力向前，哎呀真是的……作為實現大家心願的神明，可要繼續努力工作才行呢！",
+            "en": "Thanks to you, I've been learning all sorts of things about the human world lately. Humans really are amazing. You can't run super fast or use divine powers, but you still work so hard for what you believe in. All right, then – as a deity who grants people's wishes, I'd better give it my all too!",
+            "jp": "[0]最近、君のおかげで人間社会のこともいろいろわかってきたんだ。\n本当にすごいよ、人間って。\n[7670]速く走ることもできないし、神力を使うこともできないっていうのに、それでも自分の信じることのために努力するんだからな。\n[17800]よーし、みんなの願いを叶える神として、私もちゃんと頑張らないとな！",
+            "kr": "최근, 너 덕분에 인간 사회에 대해서 여러 가지 알게 됐어. 정말 대단해, 인간은 빠르게 달리지도 못하고 신력을 쓸 수도 없는데, 그런데도 자신이 믿는 것을 위해 노력하니까 말이야. 좋~아, 모두의 소원을 들어주는 신으로서 나도 제대로 노력하지 않으면 안 되겠네!"
+          }
+        },
+        "type": "lobby_levelmax"
+      },
+      {
+        "audio": "https://files.riichi.moe/mjg/game%20resources%20and%20tools/Mahjong%20Soul/unity_raw/extracted/MyAssets/audio/sound/chilin/lobby/lobby_levelup1.mp3",
+        "bondLimit": 0,
+        "category": 1,
+        "levelLimit": 1,
+        "text": {
+          "name": {
+            "chs": "好感度升级语音1",
+            "chs_t": "好感度升級語音1",
+            "en": "Bond Level Up Voice 1",
+            "jp": "絆レベルアップ1",
+            "kr": "인연 레벨업1"
+          },
+          "words": {
+            "chs": "哦！力量源源不断地涌出来了！感觉现在的自己打上十个连庄都没问题——！",
+            "chs_t": "哦！力量源源不斷地湧出來了！感覺現在的自己打上十個連莊都沒問題——！",
+            "en": "Hoowee! I'm surging with boundless power! I could win ten hands straight at this rate!",
+            "jp": "おっし！ 力がどんどん湧いて来る！\n今なら十連荘だっていけそうな気がする！",
+            "kr": "좋아! 힘이 점점 솟아나잖아! 지금이라면 10연장도 가능할 것 같은 기분이야!"
+          }
+        },
+        "type": "lobby_levelup0"
+      },
+      {
+        "audio": "https://files.riichi.moe/mjg/game%20resources%20and%20tools/Mahjong%20Soul/unity_raw/extracted/MyAssets/audio/sound/chilin/lobby/lobby_levelup2.mp3",
+        "bondLimit": 0,
+        "category": 1,
+        "levelLimit": 2,
+        "text": {
+          "name": {
+            "chs": "好感度升级语音2",
+            "chs_t": "好感度升級語音2",
+            "en": "Bond Level Up Voice 2",
+            "jp": "絆レベルアップ2",
+            "kr": "인연 레벨업2"
+          },
+          "words": {
+            "chs": "活力满满的秘诀吗？嗯——其实也没什么特别啦，硬要说的话就是好好吃饭，好好睡觉什么的？嗯！尤其是要注意休息哦？虽说我的话是那种站着也能睡着的类型啦……哈哈。",
+            "chs_t": "活力滿滿的秘訣嗎？嗯——其實也沒什麼特別啦，硬要說的話就是好好吃飯，好好睡覺什麼的？嗯！尤其是要注意休息哦？雖說我的話是那種站著也能睡著的類型啦……哈哈。",
+            "en": "The secret to having so much energy? Hmm... I don't really have one, but if I had to pick, I'd say eating well and getting plenty of sleep! Oh, and making time to relax, too. Then again, I can fall asleep standing up... Haha.",
+            "jp": "元気の秘訣？ ん～、特別なことはやってないな。\n強いて言えば、よく食べてよく寝る、とか？ \nそうそう、休憩も大事だぞ？\nま、私は立ったままでも寝られるんだけどな！ ははっ！",
+            "kr": "건강 비결? 음~ 특별한 건 안 하고 있는데. 굳이 말하면 잘 먹고 잘 잔다, 정도? 아 그래, 휴식도 중요하다고? 뭐, 나는 서 있는 채로도 잘 수 있지만 말이야! 하하!"
+          }
+        },
+        "type": "lobby_levelup1"
+      },
+      {
+        "audio": "https://files.riichi.moe/mjg/game%20resources%20and%20tools/Mahjong%20Soul/unity_raw/extracted/MyAssets/audio/sound/chilin/lobby/lobby_levelup3.mp3",
+        "bondLimit": 0,
+        "category": 1,
+        "levelLimit": 3,
+        "text": {
+          "name": {
+            "chs": "好感度升级语音3",
+            "chs_t": "好感度升級語音3",
+            "en": "Bond Level Up Voice 3",
+            "jp": "絆レベルアップ3",
+            "kr": "인연 레벨업3"
+          },
+          "words": {
+            "chs": "在不一样的地方打工还要穿上不一样的工装啊……唔唔，人类社会的这一点还真挺麻烦的，毕竟我还要去想怎么让帽子不会压到耳朵，怎么让尾巴从裤子里钻出来这种事嘛！",
+            "chs_t": "在不一樣的地方打工還要穿上不一樣的工作服啊……唔唔，人類社會的這一點還真挺麻煩的，畢竟我還要去想怎麼讓帽子不會壓到耳朵，怎麼讓尾巴從褲子裡鑽出來這種事嘛！",
+            "en": "In the human world, you have to wear different uniforms for different jobs... Ugh, it's so frustrating. I mean, I constantly have to make sure the hat doesn't flatten my ears, and figure out how to get my tail through my pants!",
+            "jp": "[0]バイトごとに制服を変える……こういうとこ、人間社会はめんどくさいよな。\n[7310]だって、私の場合、帽子は耳が潰れないようにとか、下に履くやつは尻尾をどうやって出すかとか、[15220]色々工夫しないといけないだろ！",
+            "kr": "아르바이트마다 유니폼을 갈아입어야 해…… 이런 점이 인간 사회는 번거롭단 말이지. 왜냐하면, 내 경우엔 모자는 귀가 눌리지 않아야 한다든지, 아래에 입는 건 꼬리를 어떻게 밖으로 꺼낼지라든지, 이것저것 고민하지 않으면 안 되잖아!"
+          }
+        },
+        "type": "lobby_levelup2"
+      },
+      {
+        "audio": "https://files.riichi.moe/mjg/game%20resources%20and%20tools/Mahjong%20Soul/unity_raw/extracted/MyAssets/audio/sound/chilin/lobby/lobby_levelmax.mp3",
+        "bondLimit": 0,
+        "category": 1,
+        "levelLimit": 4,
+        "text": {
+          "name": {
+            "chs": "好感度升级语音4",
+            "chs_t": "好感度升級語音4",
+            "en": "Bond Level Up Voice 4",
+            "jp": "絆レベルアップ4",
+            "kr": "인연 레벨업4"
+          },
+          "words": {
+            "chs": "能量棒真是好东西啊，要是有胡萝卜口味的就好了……能在工作间歇的时候吃上一口就不会饿了！啊，如果没什么要紧的事，{name}还是要好好吃饭才行哦？进食可是能够提升幸福感的大事，要认真对待！",
+            "chs_t": "能量棒真是好東西啊，要是有紅蘿蔔口味的就好了……能在工作空檔的時候吃上一口就不會餓了！啊，如果沒什麼要緊的事，{name}還是要好好吃飯才行哦？進食可是能夠提升幸福感的大事，要認真對待！",
+            "en": "Energy bars are super convenient. When I'm busy with work, or even out for a run, just a quick bite is enough to take the edge off my hunger. I just wish they made carrot-flavored ones... Anyway, {name}, when you're not in a hurry, make sure you sit down and have a proper meal. Eating is one of life's little mood boosters, so take it seriously!",
+            "jp": "[0]エナジーバーって便利だな。\n[2640]仕事中でも、走ってる間に一口かじるだけで、すぐにお腹空かなくなるし。\nニンジン味があるともっと良いんだけど……。\n[11580]そうだ、雀士さんは、急いでない時はきちんとご飯食べるんだぞ。\n[17180]食事は幸福感を高める大事な時間なんだから、真剣に向き合うように！",
+            "kr": "에너지바는 정말 편리하네. 일하는 중에도, 달리는 사이에 한입 물기만 하면 바로 배가 고프지 않게 되니까. 당근 맛이 있다면 더 좋았겠지만…… 맞다, 작사 씨, 급하지 않을 때는 식사 제대로 챙겨 먹어야 해. 식사는 행복감을 높여주는 중요한 시간이니까, 진지하게 하라고!"
+          }
+        },
+        "type": "lobby_levelup3"
+      },
+      {
+        "audio": "https://files.riichi.moe/mjg/game%20resources%20and%20tools/Mahjong%20Soul/unity_raw/extracted/MyAssets/audio/sound/chilin/extra/lobby_newyear.mp3",
+        "bondLimit": 1,
+        "category": 1,
+        "levelLimit": 5,
+        "text": {
+          "name": {
+            "chs": "隐藏语音 - 新年",
+            "chs_t": "",
+            "en": "",
+            "jp": "",
+            "kr": "히든-새해"
+          },
+          "words": {
+            "chs": "甚好，正逢辞旧迎新，万物更迭之际，吾之神力乃是最为丰沛之时，此刻正合适为汝赐下祝福——护佑汝身体康健，万事顺遂……什么嘛……忽然见到我这幅样子很意外？哼哼，我好歹也算是正儿八经的神明嘛，好啦，午辰已至，若是现在向吾许愿——无论是何种心愿都能实现哦。",
+            "chs_t": "甚好，正逢辭舊迎新，萬物更迭之際，吾之神力乃是最為豐沛之時，此刻正合適為汝賜下祝福——護佑汝身體康健，萬事順遂……什麼嘛……忽然見到我這幅樣子很意外？哼哼，我好歹也算是正經八百的神明嘛，好啦，午辰已至，若是現在向吾許願——無論是何種心願都能實現哦。",
+            "en": "Excellent. As we bid farewell to the old year and welcome the new during this time of renewal, my divine power reaches its peak. There is no more fitting moment to bestow my blessing upon you – may it grant you good health and guide you toward success... Huh, what is it? ...Not used to seeing this side of me, are you? Heh, I am a bona fide deity, after all. Now then, the time has come. Make a wish, and I shall see it granted!",
+            "jp": "[0]善きかな。正に旧きを送り新しきを迎えるの時にあたり、\n我が神力はこれ以上無いほどに満ちている。\n[11820]今こそ汝に祝福を与え、汝の健康と万事順調を祈ろう……。\n[19400]……なにその顔、この姿がそんなに意外？ \nこれでも、私もれっきとした神様なんだけどな。\n[27950]おっ、正午になった。今ならどんな願い事でも叶えられるよ。\nさ、言ってごらん？",
+            "kr": "좋구나. 바야흐로 묵은 것을 보내고 새것을 맞이하는 때를 맞이하여, 이 몸의 신력은 더할 나위 없이 가득 차 있도다. 지금이야말로 그대에게 축복을 내리고, 그대의 건강과 만사형통을 기원하겠노라…… ……뭐야 그 얼굴은, 이 모습이 그렇게 의외야? 이래 봬도, 나도 엄연한 신인데 말야. 앗, 정오 됐다. 지금이라면 어떤 소원이든 들어줄 수 있어. 자, 말해 보렴?"
+          }
+        },
+        "type": "lobby_limited"
+      },
+      {
+        "audio": "https://files.riichi.moe/mjg/game%20resources%20and%20tools/Mahjong%20Soul/unity_raw/extracted/MyAssets/audio/sound/chilin/extra/lobby_valentine.mp3",
+        "bondLimit": 1,
+        "category": 1,
+        "levelLimit": 5,
+        "text": {
+          "name": {
+            "chs": "隐藏语音 - 情人节",
+            "chs_t": "",
+            "en": "",
+            "jp": "",
+            "kr": "히든-발렌타인데이"
+          },
+          "words": {
+            "chs": "哦哦哦——！借过借过！总算找到你了，还请收下这个！是我刚刚做好的哦？啊，其实也没什么特别啦，不过，这可是我最近在一番市的全部甜品店都打过工之后才偷师学来的得意之作！毕竟在这种日子里我也想凑个热闹什么的嘛，来，现在就尝尝看吧？",
+            "chs_t": "哦哦哦——！借過借過！總算找到你了，還請收下這個！是我剛剛做好的哦？啊，其實也沒什麼特別啦，不過，這可是我最近在一番市的全部甜品店都打過工之後才偷師學來的得意之作！畢竟在這種日子裡我也想湊個熱鬧什麼的嘛，來，現在就嚐嚐看吧？",
+            "en": "Oooh! Pardon me, coming through! I finally found you! Here, this is for you! Did I make it myself? Oh, well, it's nothing special, really... though I guess you could call it my pride and joy! I learned the recipe in secret while working my way through every dessert shop in One Han City. After all, I wanted to be part of today's fun too! Come on, try it!",
+            "jp": "[0]ちょ～～っとどいて～～～～～～！\n雀士さん！ やっと見つけた。はいこれ、受け取って！ 出来たてだよ。\n[8440]あ、いや、べつに大したものではないんだけどさ……\n[12930]ほら、ここ最近で、一飜市のスイーツショップのバイトを全制覇したついでに覚えた、それなりの自信作だ！\n[19780]せっかくの日だし、私も一緒に楽しみたいからな。さ、食べてみてくれ。",
+            "kr": "자암~~~깐 비켜어어~~~~~~! 작사 씨! 드디어 찾았네. 자 이거, 받아! 막 만든 거야. 아, 아니, 그렇게 대단한 건 아니지만…… 그 왜, 최근에 이한시 디저트 가게 아르바이트를 전부 섭렵한 김에 배운 나름대로의 자신작이야! 모처럼 특별한 날이기도 하고, 나도 같이 즐기고 싶으니까 말이야. 자, 먹어봐."
+          }
+        },
+        "type": "lobby_limited"
+      },
+      {
+        "audio": "https://files.riichi.moe/mjg/game%20resources%20and%20tools/Mahjong%20Soul/unity_raw/extracted/MyAssets/audio/sound/chilin/lobby/lobby_normal1.mp3",
+        "bondLimit": 0,
+        "category": 1,
+        "levelLimit": 0,
+        "text": {
+          "name": {
+            "chs": "大厅交互语音1",
+            "chs_t": "大廳交互語音1",
+            "en": "Lobby Interactive Voice 1",
+            "jp": "メイン1",
+            "kr": "로비 상호작용1"
+          },
+          "words": {
+            "chs": "习惯了被人供奉，赐予他人祝福的日子，想要融入日常的人类生活还有些不习惯呢……没办法，因为时不时就会冒出那种“人类真可爱啊，要不要用神力帮帮他们的忙”这样的念头……等下，这样不会丢掉今天刚开始的新工作吧？不要啦？！我已经尽可能让自己感觉亲切一点啦！真的！",
+            "chs_t": "習慣了被人供奉，賜予他人祝福的日子，想要融入日常的人類生活還有些不習慣呢……沒辦法，因為時不時就會冒出那種「人類真可愛啊，要不要用神力幫幫他們的忙」這樣的念頭……等下，這樣不會丟掉今天剛開始的新工作吧？不要啦？！我已經盡可能讓自己感覺親切一點啦！真的！",
+            "en": "I was so used to being worshiped and granting blessings that I still haven't really adjusted to the pace of ordinary human life... I just can't help it! I keep getting thoughts like, \"Humans are so adorable, maybe I should use my divine power to lend them a hand.\" Wait a minute, will I lose this new job I just started over that? I won't, right?! I've been trying my hardest to be more approachable, I swear!",
+            "jp": "[0]人間に崇められ、祝福を分け与える日々には慣れてるけど、普通の人間の暮らしにはなかなか溶け込めないな……。\n[9640]でも仕方ないよな～、「人間、愛い～！ 神力で手助けしてやろう！」って気持ちが溢れてきちゃうのは……\n[17820]って、待てよ、[19670]今日始めたばかりのバイト、クビになったりしないよな！？\n[23580]これでもだいぶ頑張って親しみやすくしてるつもりなのに！ ほんとだって！",
+            "kr": "인간에게 숭배받고 축복을 나눠 주는 나날에는 익숙하지만, 평범한 인간의 생활에는 좀처럼 녹아들기가 어렵네…… 그런데 어쩔 수 없잖아~ '인간, 귀여워~! 신력으로 도와줘야지!' 하는 마음이 넘쳐버리는 건…… 어라, 잠깐. 오늘 막 시작한 아르바이트, 잘리거나 하진 않겠지?! 이래 봬도 꽤 친근하게 대하려고 노력 중인데! 진짜라니까!"
+          }
+        },
+        "type": "lobby_normal"
+      },
+      {
+        "audio": "https://files.riichi.moe/mjg/game%20resources%20and%20tools/Mahjong%20Soul/unity_raw/extracted/MyAssets/audio/sound/chilin/lobby/lobby_normal2.mp3",
+        "bondLimit": 0,
+        "category": 1,
+        "levelLimit": 0,
+        "text": {
+          "name": {
+            "chs": "大厅交互语音2",
+            "chs_t": "大廳交互語音2",
+            "en": "Lobby Interactive Voice 2",
+            "jp": "メイン2",
+            "kr": "로비 상호작용2"
+          },
+          "words": {
+            "chs": "我确实会有点容易冲动啦……不过差不多也已经习惯了！要是真的做错了什么，调整一下状态重新开始就好了吧！路途就是要越险越好，山峰就是要越高越好，这样才有挑战的感觉嘛！嗯！已经开始有点兴奋起来了，我先去跑两圈试试看——！",
+            "chs_t": "我確實會有點容易衝動啦……不過差不多也已經習慣了！要是真的做錯了什麼，調整一下狀態重新開始就好了吧！路途就是要越險越好，山峰就是要越高越好，這樣才有挑戰的感覺嘛！嗯！已經開始有點興奮起來了，我先去跑兩圈試試看——！",
+            "en": "Sure, I can be a little impulsive... but that's just who I am! If I really mess something up, all I have to do is get my head straight and start over! The more treacherous the road and the higher the peak, the better – it's just not a challenge otherwise! Ooh, I'm starting to get excited! I'm gonna go run a couple more laps!",
+            "jp": "[0]確かに、私は突っ走りがちだ……でも、それも少しずつマシになってきてると思う！\n[8070]最近は、壁にぶつかったとしても、方向を調整してやり直せば、案外なんとかなるってわかったしな。\n[16020]道は険しいほどいいし、山は高い方が楽しいって言うし、それでこそ、挑戦してるって感覚を味わえるんだから！\n[25670]なんか、ちょっとテンション上がってきたな。\nいったん走ってくる！",
+            "kr": "확실히 난 앞뒤 안 가리고 달리는 편이지…… 하지만 그것도 조금씩 나아지고 있다고 생각해! 요즘엔 벽에 부딪히더라도 방향을 조정해서 다시 하면 의외로 어떻게든 된다는 걸 알았고 말이지. 길은 험할수록 좋고 산은 높을수록 즐겁다잖아. 그래야 도전하고 있다는 느낌을 제대로 맛볼 수 있으니까! 왠지 좀 텐션이 올라가는데. 잠시 뛰고 올게!"
+          }
+        },
+        "type": "lobby_normal"
+      },
+      {
+        "audio": "https://files.riichi.moe/mjg/game%20resources%20and%20tools/Mahjong%20Soul/unity_raw/extracted/MyAssets/audio/sound/chilin/lobby/lobby_normal3.mp3",
+        "bondLimit": 0,
+        "category": 1,
+        "levelLimit": 1,
+        "text": {
+          "name": {
+            "chs": "大厅交互语音3",
+            "chs_t": "大廳交互語音3",
+            "en": "Lobby Interactive Voice 3",
+            "jp": "メイン3",
+            "kr": "로비 상호작용3"
+          },
+          "words": {
+            "chs": "呜哇……今年午马宫收集的信仰距离目标还有点差距啊……接下来要更努力才行，现在就马不停蹄地开始行动应该还来得及！总之就先把夜晚时间也算进来……哟——！正好你在这里啊，来帮帮忙！有什么很厉害的咖啡推荐一下吗！",
+            "chs_t": "嗚哇……今年午馬宮蒐集的信仰距離目標還有點差距啊……接下來要更努力才行，現在就馬不停蹄地開始行動應該還來得及！總之就先把夜晚時間也算進來……喲——！正好你在這裡啊，來幫幫忙！有什麼很厲害的咖啡能推薦一下嗎！",
+            "en": "Uh-oh, the Horse Palace has fallen a bit short of this year's faith quota... Looks like I'll have to work even harder now. If I really kick things into high gear, I should still be able to make it! I'll just work nights from now on... Oh! Good timing, I need your help! What's the strongest coffee I can get?",
+            "jp": "[0]あちゃー……今年集めた信仰、まだ微妙にノルマに届いてないな……後半戦はもっと頑張らないと。\n[9910]今から全力でやればまだ間に合いそうだし、夜間も活用して……\n[15200]あっ、雀士さん！ ちょうどいいとこに！\nあのさ、すっごい効くコーヒーとか、そういうのがあったら教えてくれないか？",
+            "kr": "아차…… 올해 모은 신앙이 아직 할당량에 살짝 못 미치네…… 후반엔 더 힘내야겠다. 지금부터 전력으로 하면 아직 늦지 않을 것 같으니까, 야간도 활용해서…… 앗, 작사 씨! 마침 잘 왔다! 저기, 진짜 효과 좋은 커피라든가, 그런 게 있다면 좀 알려주지 않을래?"
+          }
+        },
+        "type": "lobby_normal"
+      },
+      {
+        "audio": "https://files.riichi.moe/mjg/game%20resources%20and%20tools/Mahjong%20Soul/unity_raw/extracted/MyAssets/audio/sound/chilin/lobby/lobby_normal4.mp3",
+        "bondLimit": 0,
+        "category": 1,
+        "levelLimit": 2,
+        "text": {
+          "name": {
+            "chs": "大厅交互语音4",
+            "chs_t": "大廳交互語音4",
+            "en": "Lobby Interactive Voice 4",
+            "jp": "メイン4",
+            "kr": "로비 상호작용4"
+          },
+          "words": {
+            "chs": "噗哈——！干完活就应该用碳酸汽水冲淡压力啊，疲惫会跟着气泡一起噼噼啪啪地爆炸哦！你的推荐果然没错，太爽了——！嗯？是说喝太多了对健康不太好……？放心！毕竟我可是神明哦，只要控制摄入量就没问题了！{name}也来一口吧？转换一下心情可是很重要的哦！",
+            "chs_t": "噗哈——！做完工作就應該用碳酸飲料紓解壓力啊，疲憊會跟著氣泡一起劈劈啪啪地爆炸哦！你的推薦果然沒錯，太爽了——！嗯？是說喝太多了對健康不太好……？放心！畢竟我可是神明哦，只要控制攝取量就沒問題了！{name}也來一口吧？轉換一下心情可是很重要的哦！",
+            "en": "Aaah! After wrapping things up, nothing beats an ice-cold soda. The fizz just washes all the fatigue away! You were right about this stuff. Huh? You mean too much soda isn't healthy? No problem! I am a deity, after all. I'll be fine if I watch my intake. Want a sip, {name}? A little pick-me-up now and then does wonders!",
+            "jp": "[0]ぷはーっ！ 仕事の後はやっぱり炭酸に限るな。\nストレスも疲れもシュワシュワっと弾けて消えてくみたいだ！ \n[10560]君のおすすめはやっぱり最高だよ！ \n[14360]ん？ 飲みすぎは体に良くない？\n大丈夫大丈夫、なにしろ私は神様だしな。\n[23290]よっぽどがぶ飲みでもしなけりゃ、全然平気！\nほら、君も一口どう？ 気分転換は大事だぞ！",
+            "kr": "푸하~! 일 끝난 뒤엔 역시 탄산이 최고라니까. 스트레스도 피로도 솨아아하고 톡 터져서 사라지는 기분이야! 네 추천은 역시 최고라니까, 응? 너무 많이 마시면 몸에 안 좋다고? 괜찮아, 괜찮아, 어쨌든 난 신이기도 하고. 엄청 벌컥벌컥 마시지 않는 이상 전혀 문제없다고! 자, 너도 한입 어때? 기분 전환은 중요하다고!"
+          }
+        },
+        "type": "lobby_normal"
+      },
+      {
+        "audio": "https://files.riichi.moe/mjg/game%20resources%20and%20tools/Mahjong%20Soul/unity_raw/extracted/MyAssets/audio/sound/chilin/lobby/lobby_normal5.mp3",
+        "bondLimit": 0,
+        "category": 1,
+        "levelLimit": 3,
+        "text": {
+          "name": {
+            "chs": "大厅交互语音5",
+            "chs_t": "大廳交互語音5",
+            "en": "Lobby Interactive Voice 5",
+            "jp": "メイン5",
+            "kr": "로비 상호작용5"
+          },
+          "words": {
+            "chs": "在面包店打工感觉也不错诶！空气里每时每刻都弥漫着烤麦子的香气……当然，还有把面包递给顾客时的那种满足感！感觉身心都被治愈了！啊……不过总觉得同事们都对我毕恭毕敬的？明明，应该没有露出什么马脚吧……？",
+            "chs_t": "在麵包店打工感覺也不錯耶！空氣裡每時每刻都彌漫著烤麥子的香氣……當然，還有把麵包遞給顧客時的那種滿足感！感覺身心都被治癒了！啊……不過總覺得同事們都對我畢恭畢敬的？明明，應該沒有露出什麼馬腳吧……？",
+            "en": "Working at the bakery is actually really nice! The smell of fresh-baked bread is always in the air, and handing it to customers is so satisfying. It's therapeutic for both the body and the mind! Except... my coworkers keep acting weirdly respectful around me? I haven't given myself away, have I...?",
+            "jp": "[0]パン屋のバイトもなかなか良いな！ \nいつも店内に焼き立ての小麦の香りが漂っててさ～……\n[7560]あと、お客さんに焼きたてのパンをお渡しする時の達成感……身も心も癒されるよ。\n[15470]てかさ、同僚のみんな、やけに私に丁寧に接してくるような気がするんだけど、気のせいかな。\n特に馬脚を見せた覚えはないんだけど……。",
+            "kr": "빵집 아르바이트도 꽤 괜찮네! 항상 가게 안에 갓 구운 밀가루 향이 감돌아서 말이야~ 그리고 손님한테 갓 구운 빵을 건네줄 때의 성취감…… 몸도 마음도 치유되는 기분이야. 그나저나 동료들이 유난히 나를 정중하게 대하는 것 같은 느낌이 드는데, 기분 탓인가. 딱히 정체를 들킬 만한 짓을 한 기억은 없는데……"
+          }
+        },
+        "type": "lobby_normal"
+      },
+      {
+        "audio": "https://files.riichi.moe/mjg/game%20resources%20and%20tools/Mahjong%20Soul/unity_raw/extracted/MyAssets/audio/sound/chilin/lobby/lobby_normalmax1.mp3",
+        "bondLimit": 0,
+        "category": 1,
+        "levelLimit": 4,
+        "text": {
+          "name": {
+            "chs": "大厅交互语音6",
+            "chs_t": "大廳交互語音6",
+            "en": "Lobby Interactive Voice 6",
+            "jp": "メイン6",
+            "kr": "로비 상호작용6"
+          },
+          "words": {
+            "chs": "难得的休息日！平时忙忙碌碌的一直都没办法静下心来呢，这也没办法——毕竟我是闲不下来的类型嘛！不过，偶尔这样换个心情，安安静静地待在你身边好像也不错……嗯！要是你觉得疲惫的话，也可以把肩膀借给你哦！",
+            "chs_t": "難得的休息日！平時忙忙碌碌的一直都沒辦法靜下心來呢，這也沒辦法——畢竟我是閒不下來的類型嘛！不過，偶爾這樣換個心情，安安靜靜地待在你身邊好像也不錯……嗯！要是你覺得疲憊的話，也可以把肩膀借給你哦！",
+            "en": "It's so nice to finally have a day off! I've been going non-stop lately, so it's a little hard to wind down. I guess I can't help it, I'm just the type who can't sit still! Then again, a change of pace for some quiet time with you sounds pretty nice... If you're tired, you can lean on my shoulder, okay?",
+            "jp": "久しぶりの休みだ～！ このところずっとバタバタしてて、なかなか落ち着けなかったんだ。\nまあしょうがないか、私はじっとしてられないタイプだからな！\nけど、時々こうして君のそばで、落ち着いた時間を楽しむのも……うん、案外悪くないな。\n疲れてるなら、肩を貸してもいいよ？",
+            "kr": "오랜만의 휴일이다~! 요즘 계속 정신없이 바빠서 좀처럼 진정할 수가 없었어. 뭐 어쩔 수 없지, 난 가만히 못 있는 성격이니까! 하지만, 가끔 이렇게 네 곁에서 차분한 시간을 즐기는 것도. ……응, 의외로 나쁘지 않네. 피곤하다면 어깨를 빌려줄 수도 있는데?"
+          }
+        },
+        "type": "lobby_normal"
+      },
+      {
+        "audio": "https://files.riichi.moe/mjg/game%20resources%20and%20tools/Mahjong%20Soul/unity_raw/extracted/MyAssets/audio/sound/chilin/lobby/lobby_normalmax2.mp3",
+        "bondLimit": 0,
+        "category": 1,
+        "levelLimit": 5,
+        "text": {
+          "name": {
+            "chs": "大厅交互语音7",
+            "chs_t": "大廳交互語音7",
+            "en": "Lobby Interactive Voice 7",
+            "jp": "メイン7",
+            "kr": "로비 상호작용7"
+          },
+          "words": {
+            "chs": "虽说一番市的交通很方便没错啦，但我还是习惯用跑的！虽说确实是因为容易晕车啦……啊，啊哈哈……毕竟谁都会有自己不擅长的地方嘛！比起那个，快步跑起来的时候感觉着风从耳边呼啸而过的感觉超——爽的诶！啊啊——！真是的，光是说着就躁动起来了！{name}，把手给我，咱们现在就出发！",
+            "chs_t": "雖說一番市的交通很方便沒錯啦，但我還是習慣用跑的！雖說確實是因為容易暈車啦……啊、啊哈哈……畢竟誰都會有自己不擅長的地方嘛！比起那個，快步跑起來的時候感覺著風從耳邊呼嘯而過的感覺超——爽的耶！啊啊——！真是的，光是說著就躁動起來了！{name}，把手給我，咱們現在就出發！",
+            "en": "Public transit in One Han City is great and all, but I'd much rather run wherever I need to go! Plus, I get carsick pretty easily... h-haha. Everyone has their weaknesses, right? And I love the sound of the wind whipping past my ears when I'm going full speed! Aaahhh... Honestly, I'm getting fired up just thinking about it! Grab my hand, {name}. Let's hit the road!",
+            "jp": "[0]一飜市は確かに交通が便利だけど、やっぱり私は走るのが合ってるんだよなぁ。\n[760]……まぁ、たしかに乗り物酔いにはなりやすいけど。なはは…。\n[12960]でもほら、誰でも苦手なことの一つや二つあるよな？\n[17620]それ以上に、全速力で走ってる時の、風を切るあの感じがめっっっちゃ気持ちよくて好きなんだよ！\n[25040]くぅー、言ってるだけでウズウズしてきた！\nほら手ぇ出して、一緒に走ろう！",
+            "kr": "이한시는 확실히 교통이 편리하지만, 역시 난 달리는 게 잘 맞는단 말이지. ……뭐, 확실히 멀미를 좀 쉽게 하긴 하지만. 아하하…… 그래도 봐봐, 누구에게나 서툰 것 한두 가지는 있잖아? 그것보다 전속력으로 달릴 때, 바람을 가르는 그 느낌이 너~무 기분 좋아서 진짜 좋아해! 크으, 말하는 것만으로도 몸이 근질근질해지네! 자, 손 줘. 같이 달리자!"
+          }
+        },
+        "type": "lobby_normal"
+      },
+      {
+        "audio": "https://files.riichi.moe/mjg/game%20resources%20and%20tools/Mahjong%20Soul/unity_raw/extracted/MyAssets/audio/sound/chilin/lobby/lobby_normalmax3.mp3",
+        "bondLimit": 0,
+        "category": 1,
+        "levelLimit": 5,
+        "text": {
+          "name": {
+            "chs": "大厅交互语音8",
+            "chs_t": "大廳交互語音8",
+            "en": "Lobby Interactive Voice 8",
+            "jp": "メイン8",
+            "kr": "로비 상호작용8"
+          },
+          "words": {
+            "chs": "虽说在城市里面跑起来还蛮畅快的，不过还是要注意交通灯才行……冲得太过头的话，会给别人也带来困扰的吧？啊，不过不用担心！整个一番市我已经跑熟啦！要问为什么……哼哼，因为每一条街道都有和你一起走过的记忆嘛。",
+            "chs_t": "雖說在城市裡面跑起來還蠻暢快的，不過還是要注意交通燈才行……衝得太過頭的話，會給別人也帶來困擾的吧？啊，不過不用擔心！整個一番市我已經跑熟啦！要問為什麼……哼哼，因為每一條街道都有和你一起走過的記憶嘛。",
+            "en": "Running around the city is exhilarating, but you've still gotta watch the traffic lights. If I get too carried away, I could cause a lot of trouble for other people, too. Oh, but don't worry about me! I know One Han City like the back of my hand now. How do I know? Heh... because I remember it all from exploring every corner of the city with you.",
+            "jp": "[0]一飜市の街を走るのは爽快だけど、信号にはちゃんと気を付けないとな。\n[6440]好き放題突っ走ると、他の人に迷惑かけることになるし。\n[11620]あ、でももう心配いらないよ！ この街の道は、ぜ～んぶ走り尽くしたし！\n[18440]どうしてわかんのかって？\nへへっ、街の隅々まで君と一緒に歩いたから、覚えたんだ。",
+            "kr": "이한시 거리를 달리는 건 상쾌하지만, 신호는 제대로 신경 써야 해. 제멋대로 돌진했다간 다른 사람한테 폐를 끼치게 되니까. 아, 하지만 이제 걱정할 필요 없어! 이 거리의 길은 전~부 다 달려봤으니까! 어떻게 아냐고? 헤헷, 거리 구석구석까지 너랑 같이 걸었으니까, 외웠어."
+          }
+        },
+        "type": "lobby_normal"
+      },
+      {
+        "audio": "https://files.riichi.moe/mjg/game%20resources%20and%20tools/Mahjong%20Soul/unity_raw/extracted/MyAssets/audio/sound/chilin/lobby/lobby_playerlogin.mp3",
+        "bondLimit": 0,
+        "category": 1,
+        "levelLimit": 0,
+        "text": {
+          "name": {
+            "chs": "登录语音普通",
+            "chs_t": "登錄語音普通",
+            "en": "Login Voice - Normal",
+            "jp": "ログイン・普通",
+            "kr": "로그인-일반"
+          },
+          "words": {
+            "chs": "你来啦！这么好的天气不出去跑两圈太可惜了，啊，要打麻将我也没问题！",
+            "chs_t": "你來啦！這麼好的天氣不出去跑兩圈太可惜了，啊，要打麻將我也沒問題！",
+            "en": "Hey there! On a beautiful day like today, not going out to run a couple laps would be such a waste... Um, but a game of mahjong would be nice too!",
+            "jp": "雀士さん、来たんだ！ こんな良い天気だし、\n外でひとっ走りしないなんてもったいないよな。\nあ、麻雀でも大歓迎だよ！",
+            "kr": "작사 씨, 왔구나! 날씨도 이렇게 좋은데, 밖에서 한바탕 달리지 않는 건 아깝잖아. 아, 마작도 대환영이야!"
+          }
+        },
+        "type": "lobby_playerlogin"
+      },
+      {
+        "audio": "https://files.riichi.moe/mjg/game%20resources%20and%20tools/Mahjong%20Soul/unity_raw/extracted/MyAssets/audio/sound/chilin/lobby/lobby_playerlogin_max.mp3",
+        "bondLimit": 0,
+        "category": 1,
+        "levelLimit": 5,
+        "text": {
+          "name": {
+            "chs": "登录语音满羁绊",
+            "chs_t": "登錄語音滿羈絆",
+            "en": "Login Voice - Max Bond",
+            "jp": "ログイン・絆LvMAX",
+            "kr": "로그인-최고 인연"
+          },
+          "words": {
+            "chs": "哟——！今天状态如何？有什么要紧的事现在就去做吧！俗话说千里之行，始于足下……嗯——！我会陪你一起加油的，上吧！",
+            "chs_t": "喲——！今天狀態如何？有什麼要緊的事現在就去做吧！俗話說千里之行，始於足下……嗯——！我會陪你一起加油的，上吧！",
+            "en": "Hey! How are you feeling today? If there's something important you need to do, you should get started now! A journey of a thousand miles begins with a single step... and I'll be cheering you on every step of the way! You can do this!",
+            "jp": "よっ！ 調子はどうだ？\nやることあんなら、今のうちにやっちゃいな。\n「千里の道も一歩から」って言うでしょ？\nうんうん、私も付き合ったげるから、一緒に頑張ろう！",
+            "kr": "어이! 컨디션은 어때? 할 일이 있다면 지금 해버려. '천 리 길도 한 걸음부터'라는 말이 있잖아? 응, 나도 함께 어울려 줄테니 같이 힘내자고!"
+          }
+        },
+        "type": "lobby_playerlogin"
+      },
+      {
+        "audio": "https://files.riichi.moe/mjg/game%20resources%20and%20tools/Mahjong%20Soul/unity_raw/extracted/MyAssets/audio/sound/chilin/lobby/lobby_qiyue.mp3",
+        "bondLimit": 0,
+        "category": 1,
+        "levelLimit": 5,
+        "text": {
+          "name": {
+            "chs": "契约语音",
+            "chs_t": "契約語音",
+            "en": "Bond",
+            "jp": "契約を結ぶ",
+            "kr": "계약"
+          },
+          "words": {
+            "chs": "如此一来，饮下这杯神酒，契约就成立了，{name}……凑过来，别那么生分。今后汝可是要同吾共担喜忧，一道生活的喔？啊，抱歉。呵呵……在这午马宫里说话，忍不住就会用上这种腔调，不过，现在的你和我应该是更亲密的关系啦。\n哈……趁着难得的休息，在这神宫的床上一起躺一会儿也没事的！别害羞嘛，你现在……可是我最重要的人了哦？",
+            "chs_t": "如此一來，飲下這杯神酒，契約就成立了，{name}……湊過來，別那麼生分。今後汝可是要同吾共擔喜憂，一道生活的喔？啊，抱歉。呵呵……在這午馬宮裡說話，忍不住就會用上這種腔調，不過，現在的你和我應該是更親密的關係啦。\n哈……趁著難得的休息，在這神宮的床上一起躺一會兒也沒事的！別害羞嘛，你現在……可是我最重要的人了哦？",
+            "en": "With this divine wine, our covenant is sealed. {name}... there is no need to be shy. Come closer. After all, we'll be sharing all of life's joys and sorrows from now on. Ah, sorry. Heh... I always end up talking like this when I'm in the Horse Palace. Still, we really are closer than ever now. Haah... Since we finally have a moment to ourselves, why don't we lie down together? Come on, don't be embarrassed. You're someone very precious to me now, aren't you?",
+            "jp": "[0]さて、神酒も酌み交わしたことだ、これにて契約成立とせん。\n[7640]近う寄れ、雀士。恥ずかしがらずともよい。\n[12220]汝、午馬宮の契約者にして我と寝食を共にし、喜びも悲しみも共に分かち合うべし……。\n[22890]あー、ごめん。ふふっ、午馬宮の神殿にいるからついこんな喋り方になっちゃったけど、今の私たちは、もっと近い関係のはずだよな？ \n[36240]はぁ……せっかくの休憩だし、一緒にここのベッドで休もっか！\n[42420]恥ずかしがるなって、もう君は、この私の大切な人でしょ？",
+            "kr": "자, 신주도 나누어 마셨으니 이것으로 계약이 성립된 것으로 하겠다. 가까이 오거라, 작사여. 부끄러워 할 것 없다. 그대, 오마궁의 계약자로서 이 몸과 잠자는 것과 먹는 것을 함께하고, 기쁨과 슬픔을 모두 함께 나누어야 할지…… 아~ 미안. 후훗, 오마궁 신전에 있다 보니까 나도 모르게 이런 말투가 나와 버렸네. 하지만 지금 우리는 훨씬 더 가까운 사이잖아? 하아…… 모처럼의 휴식인데, 같이 여기 침대에서 좀 쉴까! 부끄러워하지 마, 넌 이제 이 나의 소중한 사람이잖아?"
+          }
+        },
+        "type": "lobby_qiyue"
+      },
+      {
+        "audio": "https://files.riichi.moe/mjg/game%20resources%20and%20tools/Mahjong%20Soul/unity_raw/extracted/MyAssets/audio/sound/chilin/extra2/lobby_room_in.mp3",
+        "bondLimit": 1,
+        "category": 1,
+        "levelLimit": 5,
+        "text": {
+          "name": {
+            "chs": "特殊语音 - 进入友人房",
+            "chs_t": "特殊語音 - 進入友人房",
+            "en": "SP - Entering Friends Room",
+            "jp": "SP-友人戦部屋に入場する時",
+            "kr": "특수-친선전 입장 시"
+          },
+          "words": {
+            "chs": "哟！各位别来无恙啊。",
+            "chs_t": "喲！各位別來無恙啊。",
+            "en": "Hey! How y'all been?",
+            "jp": "や！ みんな、元気か？",
+            "kr": "여! 모두, 건강하지?"
+          }
+        },
+        "type": "lobby_room_in"
+      },
+      {
+        "audio": "https://files.riichi.moe/mjg/game%20resources%20and%20tools/Mahjong%20Soul/unity_raw/extracted/MyAssets/audio/sound/chilin/extra2/lobby_room_ready.mp3",
+        "bondLimit": 1,
+        "category": 1,
+        "levelLimit": 5,
+        "text": {
+          "name": {
+            "chs": "特殊语音 - 友人房内准备",
+            "chs_t": "特殊語音 - 友人房內準備",
+            "en": "SP - Ready in Friends Room",
+            "jp": "SP-友人戦部屋で準備した時",
+            "kr": "특수-친선전 준비 시"
+          },
+          "words": {
+            "chs": "要开始了吗！不许抢跑哦！",
+            "chs_t": "要開始了嗎！不許搶跑哦！",
+            "en": "Are we fixin' to start? Let's not jump the gun, everyone!",
+            "jp": "そろそろか？ フライングは禁止だぞ！",
+            "kr": "슬슬 시작인가? 부정 출발은 금지라고!"
+          }
+        },
+        "type": "lobby_room_ready"
+      },
+      {
+        "audio": "https://files.riichi.moe/mjg/game%20resources%20and%20tools/Mahjong%20Soul/unity_raw/extracted/MyAssets/audio/sound/chilin/lobby/lobby_selfintro.mp3",
+        "bondLimit": 0,
+        "category": 1,
+        "levelLimit": 0,
+        "text": {
+          "name": {
+            "chs": "获得语音",
+            "chs_t": "獲得語音",
+            "en": "Voice when obtained",
+            "jp": "出会い",
+            "kr": "획득 음성"
+          },
+          "words": {
+            "chs": "同吾结缘之人……理应获得吾之恩泽，吾这就赐予汝……呃，后面是什么来着？为啥宫主的职责里还有这种念白啊……饶了我吧！咳哼，总之，午马宫宫主赤麟，请多指教！",
+            "chs_t": "同吾結緣之人……理應獲得吾之恩澤，吾這就賜予汝……呃，後面是什麼來著？為啥宮主的職責裡還有這種念白啊……饒了我吧！咳哼，總之，午馬宮宮主赤麟，請多指教！",
+            "en": "To those with whom I have formed a bond, I shall grant my blessing. I shall now bestow upon you... Um, how did the rest of it go again? Seriously, why do my duties have to include a monologue... Give me a break! Ahem! Anyway, I am Lady Chi Lin of the Horse Palace. Pleased to make your acquaintance!",
+            "jp": "[0]我と縁を結びし者には……我が祝福を授ける、べく……[8370]っと、次は何だったっけ？\n[11130]なんでこんなセリフまで、宮主のお務めに入ってんだか……勘弁してほしいよ！ \n[17180]あー、とにかく！ 私は午馬宮（ごばきゅう）の宮主・赤麟（あかり）、よろしくな！",
+            "kr": "이 몸과 연을 맺은 자에게는…… 이 몸의 축복을 내리노, 라…… 그, 다음은 뭐였더라? 어째서 이런 대사까지 궁주 임무에 들어있는 건지…… 좀 봐달라고! 아~ 어쨌든! 나는 오마궁의 궁주 아카리야, 잘 부탁해!"
+          }
+        },
+        "type": "lobby_selfintro"
+      },
+      {
+        "audio": "https://files.riichi.moe/mjg/game%20resources%20and%20tools/Mahjong%20Soul/unity_raw/extracted/MyAssets/audio/sound/chilin/act_babei.mp3",
+        "bondLimit": 0,
+        "category": 2,
+        "levelLimit": 0,
+        "text": {
+          "name": {
+            "chs": "拔北",
+            "chs_t": "拔北",
+            "en": "Kita",
+            "jp": "北抜き",
+            "kr": "북"
+          },
+          "words": {
+            "chs": "拔北！很美味嘛！",
+            "chs_t": "拔北！很美味嘛！",
+            "en": "Kita! Ain't that a beaut!",
+            "jp": "ペーだ！ うまうまっ！",
+            "kr": "북! 맛있다, 맛있어!"
+          }
+        },
+        "type": "act_babei"
+      },
+      {
+        "audio": "https://files.riichi.moe/mjg/game%20resources%20and%20tools/Mahjong%20Soul/unity_raw/extracted/MyAssets/audio/sound/chilin/act_chi.mp3",
+        "bondLimit": 0,
+        "category": 2,
+        "levelLimit": 0,
+        "text": {
+          "name": {
+            "chs": "吃",
+            "chs_t": "吃",
+            "en": "Chii",
+            "jp": "チー",
+            "kr": "치"
+          },
+          "words": {
+            "chs": "吃",
+            "chs_t": "吃",
+            "en": "Chii",
+            "jp": "チー",
+            "kr": "치."
+          }
+        },
+        "type": "act_chi"
+      },
+      {
+        "audio": "https://files.riichi.moe/mjg/game%20resources%20and%20tools/Mahjong%20Soul/unity_raw/extracted/MyAssets/audio/sound/chilin/act_drich.mp3",
+        "bondLimit": 0,
+        "category": 2,
+        "levelLimit": 0,
+        "text": {
+          "name": {
+            "chs": "两立直",
+            "chs_t": "兩立直",
+            "en": "Double Riichi",
+            "jp": "ダブル立直",
+            "kr": "더블 리치"
+          },
+          "words": {
+            "chs": "两立直，来了来了！",
+            "chs_t": "兩立直，來了來了！",
+            "en": "Double Riichi, here it comes!",
+            "jp": "ダブル立直（ダブルリーチ）！ 来た来た！",
+            "kr": "더블 리치! 왔다, 왔다!"
+          }
+        },
+        "type": "act_drich"
+      },
+      {
+        "audio": "https://files.riichi.moe/mjg/game%20resources%20and%20tools/Mahjong%20Soul/unity_raw/extracted/MyAssets/audio/sound/chilin/act_kan.mp3",
+        "bondLimit": 0,
+        "category": 2,
+        "levelLimit": 0,
+        "text": {
+          "name": {
+            "chs": "杠",
+            "chs_t": "槓",
+            "en": "Kan",
+            "jp": "カン",
+            "kr": "깡"
+          },
+          "words": {
+            "chs": "杠",
+            "chs_t": "槓",
+            "en": "Kan",
+            "jp": "カン",
+            "kr": "깡."
+          }
+        },
+        "type": "act_kan"
+      },
+      {
+        "audio": "https://files.riichi.moe/mjg/game%20resources%20and%20tools/Mahjong%20Soul/unity_raw/extracted/MyAssets/audio/sound/chilin/act_pon.mp3",
+        "bondLimit": 0,
+        "category": 2,
+        "levelLimit": 0,
+        "text": {
+          "name": {
+            "chs": "碰",
+            "chs_t": "碰",
+            "en": "Pon",
+            "jp": "ポン",
+            "kr": "퐁"
+          },
+          "words": {
+            "chs": "碰",
+            "chs_t": "碰",
+            "en": "Pon",
+            "jp": "ポン",
+            "kr": "퐁."
+          }
+        },
+        "type": "act_pon"
+      },
+      {
+        "audio": "https://files.riichi.moe/mjg/game%20resources%20and%20tools/Mahjong%20Soul/unity_raw/extracted/MyAssets/audio/sound/chilin/act_rich.mp3",
+        "bondLimit": 0,
+        "category": 2,
+        "levelLimit": 0,
+        "text": {
+          "name": {
+            "chs": "立直",
+            "chs_t": "立直",
+            "en": "Riichi",
+            "jp": "立直",
+            "kr": "리치"
+          },
+          "words": {
+            "chs": "立直",
+            "chs_t": "立直",
+            "en": "Riichi",
+            "jp": "立直",
+            "kr": "리치."
+          }
+        },
+        "type": "act_rich"
+      },
+      {
+        "audio": "https://files.riichi.moe/mjg/game%20resources%20and%20tools/Mahjong%20Soul/unity_raw/extracted/MyAssets/audio/sound/chilin/act_ron.mp3",
+        "bondLimit": 0,
+        "category": 2,
+        "levelLimit": 0,
+        "text": {
+          "name": {
+            "chs": "荣",
+            "chs_t": "榮",
+            "en": "Ron",
+            "jp": "ロン",
+            "kr": "론"
+          },
+          "words": {
+            "chs": "荣！那我不客气了！",
+            "chs_t": "榮！那我不客氣了！",
+            "en": "Ron! Don't mind if I do!",
+            "jp": "ロン！ んじゃ遠慮なく！",
+            "kr": "론! 그럼 사양 않고!"
+          }
+        },
+        "type": "act_ron"
+      },
+      {
+        "audio": "https://files.riichi.moe/mjg/game%20resources%20and%20tools/Mahjong%20Soul/unity_raw/extracted/MyAssets/audio/sound/chilin/act_tumo.mp3",
+        "bondLimit": 0,
+        "category": 2,
+        "levelLimit": 0,
+        "text": {
+          "name": {
+            "chs": "自摸",
+            "chs_t": "自摸",
+            "en": "Tsumo",
+            "jp": "ツモ",
+            "kr": "쯔모"
+          },
+          "words": {
+            "chs": "自摸！一马当先！",
+            "chs_t": "自摸！一馬當先！",
+            "en": "Tsumo! I'm takin' the lead!",
+            "jp": "ツモ！ お先だ！",
+            "kr": "쯔모! 내가 먼저다!"
+          }
+        },
+        "type": "act_tumo"
+      },
+      {
+        "audio": "https://files.riichi.moe/mjg/game%20resources%20and%20tools/Mahjong%20Soul/unity_raw/extracted/MyAssets/audio/sound/chilin/fan_bai.mp3",
+        "bondLimit": 0,
+        "category": 2,
+        "levelLimit": 5,
+        "text": {
+          "name": {
+            "chs": "白",
+            "chs_t": "白",
+            "en": "White",
+            "jp": "白",
+            "kr": "백"
+          },
+          "words": {
+            "chs": "白",
+            "chs_t": "白",
+            "en": "White",
+            "jp": "ハク",
+            "kr": "백."
+          }
+        },
+        "type": "fan_bai"
+      },
+      {
+        "audio": "https://files.riichi.moe/mjg/game%20resources%20and%20tools/Mahjong%20Soul/unity_raw/extracted/MyAssets/audio/sound/chilin/fan_bei.mp3",
+        "bondLimit": 0,
+        "category": 2,
+        "levelLimit": 5,
+        "text": {
+          "name": {
+            "chs": "北",
+            "chs_t": "北",
+            "en": "North",
+            "jp": "北",
+            "kr": "북"
+          },
+          "words": {
+            "chs": "北",
+            "chs_t": "北",
+            "en": "North",
+            "jp": "ペー",
+            "kr": "북."
+          }
+        },
+        "type": "fan_bei"
+      },
+      {
+        "audio": "https://files.riichi.moe/mjg/game%20resources%20and%20tools/Mahjong%20Soul/unity_raw/extracted/MyAssets/audio/sound/chilin/fan_chunquandaiyaojiu.mp3",
+        "bondLimit": 0,
+        "category": 2,
+        "levelLimit": 5,
+        "text": {
+          "name": {
+            "chs": "纯全带幺九",
+            "chs_t": "純全帶么九",
+            "en": "Fully Outside Hand",
+            "jp": "純全帯幺九",
+            "kr": "준찬타"
+          },
+          "words": {
+            "chs": "纯全带幺九",
+            "chs_t": "純全帶么九",
+            "en": "Fully Outside Hand",
+            "jp": "ジュンチャン",
+            "kr": "준찬타."
+          }
+        },
+        "type": "fan_chunquandaiyaojiu"
+      },
+      {
+        "audio": "https://files.riichi.moe/mjg/game%20resources%20and%20tools/Mahjong%20Soul/unity_raw/extracted/MyAssets/audio/sound/chilin/fan_chunzhengjiulianbaodeng.mp3",
+        "bondLimit": 0,
+        "category": 2,
+        "levelLimit": 5,
+        "text": {
+          "name": {
+            "chs": "纯正九莲宝灯",
+            "chs_t": "純正九蓮寶燈",
+            "en": "True Nine Gates",
+            "jp": "純正九蓮宝燈",
+            "kr": "순정구련보등"
+          },
+          "words": {
+            "chs": "纯正九莲宝灯",
+            "chs_t": "純正九蓮寶燈",
+            "en": "True Nine Gates",
+            "jp": "チューレン九（きゅう）メン待ち",
+            "kr": "순정구련보등."
+          }
+        },
+        "type": "fan_chunzhengjiulianbaodeng"
+      },
+      {
+        "audio": "https://files.riichi.moe/mjg/game%20resources%20and%20tools/Mahjong%20Soul/unity_raw/extracted/MyAssets/audio/sound/chilin/fan_dasanyuan.mp3",
+        "bondLimit": 0,
+        "category": 2,
+        "levelLimit": 5,
+        "text": {
+          "name": {
+            "chs": "大三元",
+            "chs_t": "大三元",
+            "en": "Big Three Dragons",
+            "jp": "大三元",
+            "kr": "대삼원"
+          },
+          "words": {
+            "chs": "大三元",
+            "chs_t": "大三元",
+            "en": "Big Three Dragons",
+            "jp": "ダイサンゲン",
+            "kr": "대삼원."
+          }
+        },
+        "type": "fan_dasanyuan"
+      },
+      {
+        "audio": "https://files.riichi.moe/mjg/game%20resources%20and%20tools/Mahjong%20Soul/unity_raw/extracted/MyAssets/audio/sound/chilin/fan_dasixi.mp3",
+        "bondLimit": 0,
+        "category": 2,
+        "levelLimit": 5,
+        "text": {
+          "name": {
+            "chs": "大四喜",
+            "chs_t": "大四喜",
+            "en": "Four Big Winds",
+            "jp": "大四喜",
+            "kr": "대사희"
+          },
+          "words": {
+            "chs": "大四喜",
+            "chs_t": "大四喜",
+            "en": "Four Big Winds",
+            "jp": "大スーシー",
+            "kr": "대사희."
+          }
+        },
+        "type": "fan_dasixi"
+      },
+      {
+        "audio": "https://files.riichi.moe/mjg/game%20resources%20and%20tools/Mahjong%20Soul/unity_raw/extracted/MyAssets/audio/sound/chilin/fan_dihu.mp3",
+        "bondLimit": 0,
+        "category": 2,
+        "levelLimit": 5,
+        "text": {
+          "name": {
+            "chs": "地和",
+            "chs_t": "地和",
+            "en": "Blessing of Earth",
+            "jp": "地和",
+            "kr": "지화"
+          },
+          "words": {
+            "chs": "地和",
+            "chs_t": "地和",
+            "en": "Blessing of Earth",
+            "jp": "地和",
+            "kr": "지화."
+          }
+        },
+        "type": "fan_dihu"
+      },
+      {
+        "audio": "https://files.riichi.moe/mjg/game%20resources%20and%20tools/Mahjong%20Soul/unity_raw/extracted/MyAssets/audio/sound/chilin/fan_dliqi.mp3",
+        "bondLimit": 0,
+        "category": 2,
+        "levelLimit": 5,
+        "text": {
+          "name": {
+            "chs": "两立直",
+            "chs_t": "兩立直",
+            "en": "Double Riichi",
+            "jp": "ダブル立直",
+            "kr": "더블 리치"
+          },
+          "words": {
+            "chs": "两立直",
+            "chs_t": "兩立直",
+            "en": "Double Riichi",
+            "jp": "ダブリー",
+            "kr": "더블 리치."
+          }
+        },
+        "type": "fan_dliqi"
+      },
+      {
+        "audio": "https://files.riichi.moe/mjg/game%20resources%20and%20tools/Mahjong%20Soul/unity_raw/extracted/MyAssets/audio/sound/chilin/fan_dong.mp3",
+        "bondLimit": 0,
+        "category": 2,
+        "levelLimit": 5,
+        "text": {
+          "name": {
+            "chs": "东",
+            "chs_t": "東",
+            "en": "East",
+            "jp": "東",
+            "kr": "동"
+          },
+          "words": {
+            "chs": "东",
+            "chs_t": "東",
+            "en": "East",
+            "jp": "トン",
+            "kr": "동."
+          }
+        },
+        "type": "fan_dong"
+      },
+      {
+        "audio": "https://files.riichi.moe/mjg/game%20resources%20and%20tools/Mahjong%20Soul/unity_raw/extracted/MyAssets/audio/sound/chilin/fan_dora1.mp3",
+        "bondLimit": 0,
+        "category": 2,
+        "levelLimit": 5,
+        "text": {
+          "name": {
+            "chs": "宝牌",
+            "chs_t": "寶牌",
+            "en": "Dora",
+            "jp": "ドラ",
+            "kr": "도라"
+          },
+          "words": {
+            "chs": "宝牌",
+            "chs_t": "寶牌",
+            "en": "Dora",
+            "jp": "ドラ",
+            "kr": "도라."
+          }
+        },
+        "type": "fan_dora1"
+      },
+      {
+        "audio": "https://files.riichi.moe/mjg/game%20resources%20and%20tools/Mahjong%20Soul/unity_raw/extracted/MyAssets/audio/sound/chilin/fan_dora10.mp3",
+        "bondLimit": 0,
+        "category": 2,
+        "levelLimit": 5,
+        "text": {
+          "name": {
+            "chs": "宝牌10",
+            "chs_t": "寶牌10",
+            "en": "Dora 10",
+            "jp": "ドラ10",
+            "kr": "도라10"
+          },
+          "words": {
+            "chs": "宝牌10",
+            "chs_t": "寶牌10",
+            "en": "Dora 10",
+            "jp": "ドラ１０（じゅう）",
+            "kr": "도라10."
+          }
+        },
+        "type": "fan_dora10"
+      },
+      {
+        "audio": "https://files.riichi.moe/mjg/game%20resources%20and%20tools/Mahjong%20Soul/unity_raw/extracted/MyAssets/audio/sound/chilin/fan_dora11.mp3",
+        "bondLimit": 0,
+        "category": 2,
+        "levelLimit": 5,
+        "text": {
+          "name": {
+            "chs": "宝牌11",
+            "chs_t": "寶牌11",
+            "en": "Dora 11",
+            "jp": "ドラ11",
+            "kr": "도라11"
+          },
+          "words": {
+            "chs": "宝牌11",
+            "chs_t": "寶牌11",
+            "en": "Dora 11",
+            "jp": "ドラ１１（じゅういち）",
+            "kr": "도라11."
+          }
+        },
+        "type": "fan_dora11"
+      },
+      {
+        "audio": "https://files.riichi.moe/mjg/game%20resources%20and%20tools/Mahjong%20Soul/unity_raw/extracted/MyAssets/audio/sound/chilin/fan_dora12.mp3",
+        "bondLimit": 0,
+        "category": 2,
+        "levelLimit": 5,
+        "text": {
+          "name": {
+            "chs": "宝牌12",
+            "chs_t": "寶牌12",
+            "en": "Dora 12",
+            "jp": "ドラ12",
+            "kr": "도라12"
+          },
+          "words": {
+            "chs": "宝牌12",
+            "chs_t": "寶牌12",
+            "en": "Dora 12",
+            "jp": "ドラ１２（じゅうに）",
+            "kr": "도라12."
+          }
+        },
+        "type": "fan_dora12"
+      },
+      {
+        "audio": "https://files.riichi.moe/mjg/game%20resources%20and%20tools/Mahjong%20Soul/unity_raw/extracted/MyAssets/audio/sound/chilin/fan_dora13.mp3",
+        "bondLimit": 0,
+        "category": 2,
+        "levelLimit": 5,
+        "text": {
+          "name": {
+            "chs": "宝牌一大堆",
+            "chs_t": "寶牌一大堆",
+            "en": "Lots of Dora",
+            "jp": "ドラ13以上",
+            "kr": "도라 13이상"
+          },
+          "words": {
+            "chs": "宝牌一大堆",
+            "chs_t": "寶牌一大堆",
+            "en": "Lots of Dora",
+            "jp": "ドラたくさん",
+            "kr": "도라 잔뜩."
+          }
+        },
+        "type": "fan_dora13"
+      },
+      {
+        "audio": "https://files.riichi.moe/mjg/game%20resources%20and%20tools/Mahjong%20Soul/unity_raw/extracted/MyAssets/audio/sound/chilin/fan_dora2.mp3",
+        "bondLimit": 0,
+        "category": 2,
+        "levelLimit": 5,
+        "text": {
+          "name": {
+            "chs": "宝牌2",
+            "chs_t": "寶牌2",
+            "en": "Dora 2",
+            "jp": "ドラ2",
+            "kr": "도라2"
+          },
+          "words": {
+            "chs": "宝牌2",
+            "chs_t": "寶牌2",
+            "en": "Dora 2",
+            "jp": "ドラ２（に）",
+            "kr": "도라2."
+          }
+        },
+        "type": "fan_dora2"
+      },
+      {
+        "audio": "https://files.riichi.moe/mjg/game%20resources%20and%20tools/Mahjong%20Soul/unity_raw/extracted/MyAssets/audio/sound/chilin/fan_dora3.mp3",
+        "bondLimit": 0,
+        "category": 2,
+        "levelLimit": 5,
+        "text": {
+          "name": {
+            "chs": "宝牌3",
+            "chs_t": "寶牌3",
+            "en": "Dora 3",
+            "jp": "ドラ3",
+            "kr": "도라3"
+          },
+          "words": {
+            "chs": "宝牌3",
+            "chs_t": "寶牌3",
+            "en": "Dora 3",
+            "jp": "ドラ３（さん）",
+            "kr": "도라3."
+          }
+        },
+        "type": "fan_dora3"
+      },
+      {
+        "audio": "https://files.riichi.moe/mjg/game%20resources%20and%20tools/Mahjong%20Soul/unity_raw/extracted/MyAssets/audio/sound/chilin/fan_dora4.mp3",
+        "bondLimit": 0,
+        "category": 2,
+        "levelLimit": 5,
+        "text": {
+          "name": {
+            "chs": "宝牌4",
+            "chs_t": "寶牌4",
+            "en": "Dora 4",
+            "jp": "ドラ4",
+            "kr": "도라4"
+          },
+          "words": {
+            "chs": "宝牌4",
+            "chs_t": "寶牌4",
+            "en": "Dora 4",
+            "jp": "ドラ４（よん）",
+            "kr": "도라4."
+          }
+        },
+        "type": "fan_dora4"
+      },
+      {
+        "audio": "https://files.riichi.moe/mjg/game%20resources%20and%20tools/Mahjong%20Soul/unity_raw/extracted/MyAssets/audio/sound/chilin/fan_dora5.mp3",
+        "bondLimit": 0,
+        "category": 2,
+        "levelLimit": 5,
+        "text": {
+          "name": {
+            "chs": "宝牌5",
+            "chs_t": "寶牌5",
+            "en": "Dora 5",
+            "jp": "ドラ5",
+            "kr": "도라5"
+          },
+          "words": {
+            "chs": "宝牌5",
+            "chs_t": "寶牌5",
+            "en": "Dora 5",
+            "jp": "ドラ５（ご）",
+            "kr": "도라5."
+          }
+        },
+        "type": "fan_dora5"
+      },
+      {
+        "audio": "https://files.riichi.moe/mjg/game%20resources%20and%20tools/Mahjong%20Soul/unity_raw/extracted/MyAssets/audio/sound/chilin/fan_dora6.mp3",
+        "bondLimit": 0,
+        "category": 2,
+        "levelLimit": 5,
+        "text": {
+          "name": {
+            "chs": "宝牌6",
+            "chs_t": "寶牌6",
+            "en": "Dora 6",
+            "jp": "ドラ6",
+            "kr": "도라6"
+          },
+          "words": {
+            "chs": "宝牌6",
+            "chs_t": "寶牌6",
+            "en": "Dora 6",
+            "jp": "ドラ６（ろく）",
+            "kr": "도라6."
+          }
+        },
+        "type": "fan_dora6"
+      },
+      {
+        "audio": "https://files.riichi.moe/mjg/game%20resources%20and%20tools/Mahjong%20Soul/unity_raw/extracted/MyAssets/audio/sound/chilin/fan_dora7.mp3",
+        "bondLimit": 0,
+        "category": 2,
+        "levelLimit": 5,
+        "text": {
+          "name": {
+            "chs": "宝牌7",
+            "chs_t": "寶牌7",
+            "en": "Dora 7",
+            "jp": "ドラ7",
+            "kr": "도라7"
+          },
+          "words": {
+            "chs": "宝牌7",
+            "chs_t": "寶牌7",
+            "en": "Dora 7",
+            "jp": "ドラ７（なな）",
+            "kr": "도라7."
+          }
+        },
+        "type": "fan_dora7"
+      },
+      {
+        "audio": "https://files.riichi.moe/mjg/game%20resources%20and%20tools/Mahjong%20Soul/unity_raw/extracted/MyAssets/audio/sound/chilin/fan_dora8.mp3",
+        "bondLimit": 0,
+        "category": 2,
+        "levelLimit": 5,
+        "text": {
+          "name": {
+            "chs": "宝牌8",
+            "chs_t": "寶牌8",
+            "en": "Dora 8",
+            "jp": "ドラ8",
+            "kr": "도라8"
+          },
+          "words": {
+            "chs": "宝牌8",
+            "chs_t": "寶牌8",
+            "en": "Dora 8",
+            "jp": "ドラ８（はち）",
+            "kr": "도라8."
+          }
+        },
+        "type": "fan_dora8"
+      },
+      {
+        "audio": "https://files.riichi.moe/mjg/game%20resources%20and%20tools/Mahjong%20Soul/unity_raw/extracted/MyAssets/audio/sound/chilin/fan_dora9.mp3",
+        "bondLimit": 0,
+        "category": 2,
+        "levelLimit": 5,
+        "text": {
+          "name": {
+            "chs": "宝牌9",
+            "chs_t": "寶牌9",
+            "en": "Dora 9",
+            "jp": "ドラ9",
+            "kr": "도라9"
+          },
+          "words": {
+            "chs": "宝牌9",
+            "chs_t": "寶牌9",
+            "en": "Dora 9",
+            "jp": "ドラ９（きゅう）",
+            "kr": "도라9."
+          }
+        },
+        "type": "fan_dora9"
+      },
+      {
+        "audio": "https://files.riichi.moe/mjg/game%20resources%20and%20tools/Mahjong%20Soul/unity_raw/extracted/MyAssets/audio/sound/chilin/fan_doublebei.mp3",
+        "bondLimit": 0,
+        "category": 2,
+        "levelLimit": 5,
+        "text": {
+          "name": {
+            "chs": "连北",
+            "chs_t": "連北",
+            "en": "North Repeat",
+            "jp": "ダブル北",
+            "kr": "더블 북"
+          },
+          "words": {
+            "chs": "连北",
+            "chs_t": "連北",
+            "en": "Double North",
+            "jp": "ダブペー",
+            "kr": "더블 북."
+          }
+        },
+        "type": "fan_doublebei"
+      },
+      {
+        "audio": "https://files.riichi.moe/mjg/game%20resources%20and%20tools/Mahjong%20Soul/unity_raw/extracted/MyAssets/audio/sound/chilin/fan_doubledong.mp3",
+        "bondLimit": 0,
+        "category": 2,
+        "levelLimit": 5,
+        "text": {
+          "name": {
+            "chs": "连东",
+            "chs_t": "連東",
+            "en": "East Repeat",
+            "jp": "ダブル東",
+            "kr": "더블 동"
+          },
+          "words": {
+            "chs": "连东",
+            "chs_t": "連東",
+            "en": "Double East",
+            "jp": "ダブトン",
+            "kr": "더블 동."
+          }
+        },
+        "type": "fan_doubledong"
+      },
+      {
+        "audio": "https://files.riichi.moe/mjg/game%20resources%20and%20tools/Mahjong%20Soul/unity_raw/extracted/MyAssets/audio/sound/chilin/fan_doublenan.mp3",
+        "bondLimit": 0,
+        "category": 2,
+        "levelLimit": 5,
+        "text": {
+          "name": {
+            "chs": "连南",
+            "chs_t": "連南",
+            "en": "South Repeat",
+            "jp": "ダブル南",
+            "kr": "더블 남"
+          },
+          "words": {
+            "chs": "连南",
+            "chs_t": "連南",
+            "en": "Double South",
+            "jp": "ダブナン",
+            "kr": "더블 남."
+          }
+        },
+        "type": "fan_doublenan"
+      },
+      {
+        "audio": "https://files.riichi.moe/mjg/game%20resources%20and%20tools/Mahjong%20Soul/unity_raw/extracted/MyAssets/audio/sound/chilin/fan_doublexi.mp3",
+        "bondLimit": 0,
+        "category": 2,
+        "levelLimit": 5,
+        "text": {
+          "name": {
+            "chs": "连西",
+            "chs_t": "連西",
+            "en": "West Repeat",
+            "jp": "ダブル西",
+            "kr": "더블 서"
+          },
+          "words": {
+            "chs": "连西",
+            "chs_t": "連西",
+            "en": "Double West",
+            "jp": "ダブシャー",
+            "kr": "더블 서."
+          }
+        },
+        "type": "fan_doublexi"
+      },
+      {
+        "audio": "https://files.riichi.moe/mjg/game%20resources%20and%20tools/Mahjong%20Soul/unity_raw/extracted/MyAssets/audio/sound/chilin/fan_duanyao.mp3",
+        "bondLimit": 0,
+        "category": 2,
+        "levelLimit": 5,
+        "text": {
+          "name": {
+            "chs": "断幺",
+            "chs_t": "斷么",
+            "en": "All Simples",
+            "jp": "断幺九",
+            "kr": "탕야오"
+          },
+          "words": {
+            "chs": "断幺",
+            "chs_t": "斷么",
+            "en": "All Simples",
+            "jp": "タンヤオ",
+            "kr": "탕야오."
+          }
+        },
+        "type": "fan_duanyao"
+      },
+      {
+        "audio": "https://files.riichi.moe/mjg/game%20resources%20and%20tools/Mahjong%20Soul/unity_raw/extracted/MyAssets/audio/sound/chilin/fan_duiduihu.mp3",
+        "bondLimit": 0,
+        "category": 2,
+        "levelLimit": 5,
+        "text": {
+          "name": {
+            "chs": "对对和",
+            "chs_t": "對對和",
+            "en": "All Triplets",
+            "jp": "対々和",
+            "kr": "또이또이"
+          },
+          "words": {
+            "chs": "对对和",
+            "chs_t": "對對和",
+            "en": "All Triplets",
+            "jp": "トイトイ",
+            "kr": "또이또이."
+          }
+        },
+        "type": "fan_duiduihu"
+      },
+      {
+        "audio": "https://files.riichi.moe/mjg/game%20resources%20and%20tools/Mahjong%20Soul/unity_raw/extracted/MyAssets/audio/sound/chilin/fan_erbeikou.mp3",
+        "bondLimit": 0,
+        "category": 2,
+        "levelLimit": 5,
+        "text": {
+          "name": {
+            "chs": "二杯口",
+            "chs_t": "二盃口",
+            "en": "Twice Pure Double Sequence",
+            "jp": "二盃口",
+            "kr": "량페코"
+          },
+          "words": {
+            "chs": "二杯口",
+            "chs_t": "二盃口",
+            "en": "Twice Pure Double Sequence",
+            "jp": "リャンペーコー",
+            "kr": "량페코."
+          }
+        },
+        "type": "fan_erbeikou"
+      },
+      {
+        "audio": "https://files.riichi.moe/mjg/game%20resources%20and%20tools/Mahjong%20Soul/unity_raw/extracted/MyAssets/audio/sound/chilin/fan_fa.mp3",
+        "bondLimit": 0,
+        "category": 2,
+        "levelLimit": 5,
+        "text": {
+          "name": {
+            "chs": "发",
+            "chs_t": "發",
+            "en": "Green",
+            "jp": "発",
+            "kr": "발"
+          },
+          "words": {
+            "chs": "发",
+            "chs_t": "發",
+            "en": "Green",
+            "jp": "ハツ",
+            "kr": "발."
+          }
+        },
+        "type": "fan_fa"
+      },
+      {
+        "audio": "https://files.riichi.moe/mjg/game%20resources%20and%20tools/Mahjong%20Soul/unity_raw/extracted/MyAssets/audio/sound/chilin/fan_guoshishisanmian.mp3",
+        "bondLimit": 0,
+        "category": 2,
+        "levelLimit": 5,
+        "text": {
+          "name": {
+            "chs": "国士无双13面听",
+            "chs_t": "國士無雙13面聽",
+            "en": "Thirteen-wait Thirteen Orphans",
+            "jp": "国士無双十三面待ち",
+            "kr": "국사무쌍 13면 대기"
+          },
+          "words": {
+            "chs": "国士无双13面听",
+            "chs_t": "國士無雙13面聽",
+            "en": "Thirteen-wait Thirteen Orphans",
+            "jp": "コクシ十三メン待ち",
+            "kr": "국사무쌍 13면 대기."
+          }
+        },
+        "type": "fan_guoshishisanmian"
+      },
+      {
+        "audio": "https://files.riichi.moe/mjg/game%20resources%20and%20tools/Mahjong%20Soul/unity_raw/extracted/MyAssets/audio/sound/chilin/fan_guoshiwushuang.mp3",
+        "bondLimit": 0,
+        "category": 2,
+        "levelLimit": 5,
+        "text": {
+          "name": {
+            "chs": "国士无双",
+            "chs_t": "國士無雙",
+            "en": "Thirteen Orphans",
+            "jp": "国士無双",
+            "kr": "국사무쌍"
+          },
+          "words": {
+            "chs": "国士无双",
+            "chs_t": "國士無雙",
+            "en": "Thirteen Orphans",
+            "jp": "国士無双",
+            "kr": "국사무쌍."
+          }
+        },
+        "type": "fan_guoshiwushuang"
+      },
+      {
+        "audio": "https://files.riichi.moe/mjg/game%20resources%20and%20tools/Mahjong%20Soul/unity_raw/extracted/MyAssets/audio/sound/chilin/fan_haidi.mp3",
+        "bondLimit": 0,
+        "category": 2,
+        "levelLimit": 5,
+        "text": {
+          "name": {
+            "chs": "海底摸月",
+            "chs_t": "海底摸月",
+            "en": "Under the Sea",
+            "jp": "海底摸月",
+            "kr": "해저로월"
+          },
+          "words": {
+            "chs": "海底摸月",
+            "chs_t": "海底摸月",
+            "en": "Under the Sea",
+            "jp": "ハイテイ",
+            "kr": "해저로월."
+          }
+        },
+        "type": "fan_haidi"
+      },
+      {
+        "audio": "https://files.riichi.moe/mjg/game%20resources%20and%20tools/Mahjong%20Soul/unity_raw/extracted/MyAssets/audio/sound/chilin/fan_hedi.mp3",
+        "bondLimit": 0,
+        "category": 2,
+        "levelLimit": 5,
+        "text": {
+          "name": {
+            "chs": "河底捞鱼",
+            "chs_t": "河底撈魚",
+            "en": "Under the River",
+            "jp": "河底撈魚",
+            "kr": "하저로어"
+          },
+          "words": {
+            "chs": "河底捞鱼",
+            "chs_t": "河底撈魚",
+            "en": "Under the River",
+            "jp": "ホウテイ",
+            "kr": "하저로어."
+          }
+        },
+        "type": "fan_hedi"
+      },
+      {
+        "audio": "https://files.riichi.moe/mjg/game%20resources%20and%20tools/Mahjong%20Soul/unity_raw/extracted/MyAssets/audio/sound/chilin/fan_hunlaotou.mp3",
+        "bondLimit": 0,
+        "category": 2,
+        "levelLimit": 5,
+        "text": {
+          "name": {
+            "chs": "混老头",
+            "chs_t": "混老頭",
+            "en": "All Terminals and Honors",
+            "jp": "混老頭",
+            "kr": "혼노두"
+          },
+          "words": {
+            "chs": "混老头",
+            "chs_t": "混老頭",
+            "en": "All Terminals and Honors",
+            "jp": "ホンロートー",
+            "kr": "혼노두."
+          }
+        },
+        "type": "fan_hunlaotou"
+      },
+      {
+        "audio": "https://files.riichi.moe/mjg/game%20resources%20and%20tools/Mahjong%20Soul/unity_raw/extracted/MyAssets/audio/sound/chilin/fan_hunquandaiyaojiu.mp3",
+        "bondLimit": 0,
+        "category": 2,
+        "levelLimit": 5,
+        "text": {
+          "name": {
+            "chs": "混全带幺九",
+            "chs_t": "混全帶么九",
+            "en": "Half Outside Hand",
+            "jp": "混全帯幺九",
+            "kr": "찬타"
+          },
+          "words": {
+            "chs": "混全带幺九",
+            "chs_t": "混全帶么九",
+            "en": "Half Outside Hand",
+            "jp": "チャンタ",
+            "kr": "찬타."
+          }
+        },
+        "type": "fan_hunquandaiyaojiu"
+      },
+      {
+        "audio": "https://files.riichi.moe/mjg/game%20resources%20and%20tools/Mahjong%20Soul/unity_raw/extracted/MyAssets/audio/sound/chilin/fan_hunyise.mp3",
+        "bondLimit": 0,
+        "category": 2,
+        "levelLimit": 5,
+        "text": {
+          "name": {
+            "chs": "混一色",
+            "chs_t": "混一色",
+            "en": "Half Flush",
+            "jp": "混一色",
+            "kr": "혼일색"
+          },
+          "words": {
+            "chs": "混一色",
+            "chs_t": "混一色",
+            "en": "Half Flush",
+            "jp": "ホンイツ",
+            "kr": "혼일색."
+          }
+        },
+        "type": "fan_hunyise"
+      },
+      {
+        "audio": "https://files.riichi.moe/mjg/game%20resources%20and%20tools/Mahjong%20Soul/unity_raw/extracted/MyAssets/audio/sound/chilin/fan_jiulianbaodeng.mp3",
+        "bondLimit": 0,
+        "category": 2,
+        "levelLimit": 5,
+        "text": {
+          "name": {
+            "chs": "九莲宝灯",
+            "chs_t": "九蓮寶燈",
+            "en": "Nine Gates",
+            "jp": "九蓮宝燈",
+            "kr": "구련보등"
+          },
+          "words": {
+            "chs": "九莲宝灯",
+            "chs_t": "九蓮寶燈",
+            "en": "Nine Gates",
+            "jp": "チューレンポートー",
+            "kr": "구련보등."
+          }
+        },
+        "type": "fan_jiulianbaodeng"
+      },
+      {
+        "audio": "https://files.riichi.moe/mjg/game%20resources%20and%20tools/Mahjong%20Soul/unity_raw/extracted/MyAssets/audio/sound/chilin/fan_lingshang.mp3",
+        "bondLimit": 0,
+        "category": 2,
+        "levelLimit": 5,
+        "text": {
+          "name": {
+            "chs": "岭上开花",
+            "chs_t": "嶺上開花",
+            "en": "After a Kan",
+            "jp": "嶺上開花",
+            "kr": "영상개화"
+          },
+          "words": {
+            "chs": "岭上开花",
+            "chs_t": "嶺上開花",
+            "en": "After a Kan",
+            "jp": "リンシャン",
+            "kr": "영상개화."
+          }
+        },
+        "type": "fan_lingshang"
+      },
+      {
+        "audio": "https://files.riichi.moe/mjg/game%20resources%20and%20tools/Mahjong%20Soul/unity_raw/extracted/MyAssets/audio/sound/chilin/fan_liqi.mp3",
+        "bondLimit": 0,
+        "category": 2,
+        "levelLimit": 5,
+        "text": {
+          "name": {
+            "chs": "立直",
+            "chs_t": "立直",
+            "en": "Riichi",
+            "jp": "立直",
+            "kr": "리치"
+          },
+          "words": {
+            "chs": "立直",
+            "chs_t": "立直",
+            "en": "Riichi",
+            "jp": "リーチ",
+            "kr": "리치."
+          }
+        },
+        "type": "fan_liqi"
+      },
+      {
+        "audio": "https://files.riichi.moe/mjg/game%20resources%20and%20tools/Mahjong%20Soul/unity_raw/extracted/MyAssets/audio/sound/chilin/fan_liujumanguan.mp3",
+        "bondLimit": 0,
+        "category": 2,
+        "levelLimit": 5,
+        "text": {
+          "name": {
+            "chs": "流局满贯",
+            "chs_t": "流局滿貫",
+            "en": "Mangan at Draw",
+            "jp": "流し満貫",
+            "kr": "유국만관"
+          },
+          "words": {
+            "chs": "流局满贯",
+            "chs_t": "流局滿貫",
+            "en": "Mangan at Draw",
+            "jp": "流しマンガン",
+            "kr": "유국만관."
+          }
+        },
+        "type": "fan_liujumanguan"
+      },
+      {
+        "audio": "https://files.riichi.moe/mjg/game%20resources%20and%20tools/Mahjong%20Soul/unity_raw/extracted/MyAssets/audio/sound/chilin/fan_lvyise.mp3",
+        "bondLimit": 0,
+        "category": 2,
+        "levelLimit": 5,
+        "text": {
+          "name": {
+            "chs": "绿一色",
+            "chs_t": "綠一色",
+            "en": "All Green",
+            "jp": "緑一色",
+            "kr": "녹일색"
+          },
+          "words": {
+            "chs": "绿一色",
+            "chs_t": "綠一色",
+            "en": "All Green",
+            "jp": "リューイーソー",
+            "kr": "녹일색."
+          }
+        },
+        "type": "fan_lvyise"
+      },
+      {
+        "audio": "https://files.riichi.moe/mjg/game%20resources%20and%20tools/Mahjong%20Soul/unity_raw/extracted/MyAssets/audio/sound/chilin/fan_nan.mp3",
+        "bondLimit": 0,
+        "category": 2,
+        "levelLimit": 5,
+        "text": {
+          "name": {
+            "chs": "南",
+            "chs_t": "南",
+            "en": "South",
+            "jp": "南",
+            "kr": "남"
+          },
+          "words": {
+            "chs": "南",
+            "chs_t": "南",
+            "en": "South",
+            "jp": "ナン",
+            "kr": "남."
+          }
+        },
+        "type": "fan_nan"
+      },
+      {
+        "audio": "https://files.riichi.moe/mjg/game%20resources%20and%20tools/Mahjong%20Soul/unity_raw/extracted/MyAssets/audio/sound/chilin/fan_pinghu.mp3",
+        "bondLimit": 0,
+        "category": 2,
+        "levelLimit": 5,
+        "text": {
+          "name": {
+            "chs": "平和",
+            "chs_t": "平和",
+            "en": "Pinfu",
+            "jp": "平和",
+            "kr": "핑후"
+          },
+          "words": {
+            "chs": "平和",
+            "chs_t": "平和",
+            "en": "Pinfu",
+            "jp": "ピンフ",
+            "kr": "핑후."
+          }
+        },
+        "type": "fan_pinghu"
+      },
+      {
+        "audio": "https://files.riichi.moe/mjg/game%20resources%20and%20tools/Mahjong%20Soul/unity_raw/extracted/MyAssets/audio/sound/chilin/fan_qianggang.mp3",
+        "bondLimit": 0,
+        "category": 2,
+        "levelLimit": 5,
+        "text": {
+          "name": {
+            "chs": "枪杠",
+            "chs_t": "槍槓",
+            "en": "Robbing a Kan",
+            "jp": "槍槓",
+            "kr": "창깡"
+          },
+          "words": {
+            "chs": "枪杠",
+            "chs_t": "槍槓",
+            "en": "Robbing a Kan",
+            "jp": "チャンカン",
+            "kr": "창깡."
+          }
+        },
+        "type": "fan_qianggang"
+      },
+      {
+        "audio": "https://files.riichi.moe/mjg/game%20resources%20and%20tools/Mahjong%20Soul/unity_raw/extracted/MyAssets/audio/sound/chilin/fan_qiduizi.mp3",
+        "bondLimit": 0,
+        "category": 2,
+        "levelLimit": 5,
+        "text": {
+          "name": {
+            "chs": "七对子",
+            "chs_t": "七對子",
+            "en": "Seven Pairs",
+            "jp": "七対子",
+            "kr": "치또이쯔"
+          },
+          "words": {
+            "chs": "七对子",
+            "chs_t": "七對子",
+            "en": "Seven Pairs",
+            "jp": "チートイ",
+            "kr": "치또이쯔."
+          }
+        },
+        "type": "fan_qiduizi"
+      },
+      {
+        "audio": "https://files.riichi.moe/mjg/game%20resources%20and%20tools/Mahjong%20Soul/unity_raw/extracted/MyAssets/audio/sound/chilin/fan_qinglaotou.mp3",
+        "bondLimit": 0,
+        "category": 2,
+        "levelLimit": 5,
+        "text": {
+          "name": {
+            "chs": "清老头",
+            "chs_t": "清老頭",
+            "en": "All Terminals",
+            "jp": "清老頭",
+            "kr": "청노두"
+          },
+          "words": {
+            "chs": "清老头",
+            "chs_t": "清老頭",
+            "en": "All Terminals",
+            "jp": "チンロートー",
+            "kr": "청노두."
+          }
+        },
+        "type": "fan_qinglaotou"
+      },
+      {
+        "audio": "https://files.riichi.moe/mjg/game%20resources%20and%20tools/Mahjong%20Soul/unity_raw/extracted/MyAssets/audio/sound/chilin/fan_qingyise.mp3",
+        "bondLimit": 0,
+        "category": 2,
+        "levelLimit": 5,
+        "text": {
+          "name": {
+            "chs": "清一色",
+            "chs_t": "清一色",
+            "en": "Full Flush",
+            "jp": "清一色",
+            "kr": "청일색"
+          },
+          "words": {
+            "chs": "清一色",
+            "chs_t": "清一色",
+            "en": "Full Flush",
+            "jp": "チンイツ",
+            "kr": "청일색."
+          }
+        },
+        "type": "fan_qingyise"
+      },
+      {
+        "audio": "https://files.riichi.moe/mjg/game%20resources%20and%20tools/Mahjong%20Soul/unity_raw/extracted/MyAssets/audio/sound/chilin/fan_sananke.mp3",
+        "bondLimit": 0,
+        "category": 2,
+        "levelLimit": 5,
+        "text": {
+          "name": {
+            "chs": "三暗刻",
+            "chs_t": "三暗刻",
+            "en": "Three Concealed Triplets",
+            "jp": "三暗刻",
+            "kr": "산안커"
+          },
+          "words": {
+            "chs": "三暗刻",
+            "chs_t": "三暗刻",
+            "en": "Three Concealed Triplets",
+            "jp": "サンアンコー",
+            "kr": "산안커."
+          }
+        },
+        "type": "fan_sananke"
+      },
+      {
+        "audio": "https://files.riichi.moe/mjg/game%20resources%20and%20tools/Mahjong%20Soul/unity_raw/extracted/MyAssets/audio/sound/chilin/fan_sangangzi.mp3",
+        "bondLimit": 0,
+        "category": 2,
+        "levelLimit": 5,
+        "text": {
+          "name": {
+            "chs": "三杠子",
+            "chs_t": "三槓子",
+            "en": "Three Quads",
+            "jp": "三槓子",
+            "kr": "산깡쯔"
+          },
+          "words": {
+            "chs": "三杠子",
+            "chs_t": "三槓子",
+            "en": "Three Quads",
+            "jp": "サンカンツ",
+            "kr": "산깡쯔."
+          }
+        },
+        "type": "fan_sangangzi"
+      },
+      {
+        "audio": "https://files.riichi.moe/mjg/game%20resources%20and%20tools/Mahjong%20Soul/unity_raw/extracted/MyAssets/audio/sound/chilin/fan_sansetongke.mp3",
+        "bondLimit": 0,
+        "category": 2,
+        "levelLimit": 5,
+        "text": {
+          "name": {
+            "chs": "三色同刻",
+            "chs_t": "三色同刻",
+            "en": "Triple Triplets",
+            "jp": "三色同刻",
+            "kr": "삼색동각"
+          },
+          "words": {
+            "chs": "三色同刻",
+            "chs_t": "三色同刻",
+            "en": "Triple Triplets",
+            "jp": "三色（さんしょく）ドーコー",
+            "kr": "삼색동각."
+          }
+        },
+        "type": "fan_sansetongke"
+      },
+      {
+        "audio": "https://files.riichi.moe/mjg/game%20resources%20and%20tools/Mahjong%20Soul/unity_raw/extracted/MyAssets/audio/sound/chilin/fan_sansetongshun.mp3",
+        "bondLimit": 0,
+        "category": 2,
+        "levelLimit": 5,
+        "text": {
+          "name": {
+            "chs": "三色同顺",
+            "chs_t": "三色同順",
+            "en": "Mixed Triple Sequence",
+            "jp": "三色同順",
+            "kr": "삼색동순"
+          },
+          "words": {
+            "chs": "三色同顺",
+            "chs_t": "三色同順",
+            "en": "Mixed Triple Sequence",
+            "jp": "三色（さんしょく）ドウジュン",
+            "kr": "삼색동순."
+          }
+        },
+        "type": "fan_sansetongshun"
+      },
+      {
+        "audio": "https://files.riichi.moe/mjg/game%20resources%20and%20tools/Mahjong%20Soul/unity_raw/extracted/MyAssets/audio/sound/chilin/fan_sianke.mp3",
+        "bondLimit": 0,
+        "category": 2,
+        "levelLimit": 5,
+        "text": {
+          "name": {
+            "chs": "四暗刻",
+            "chs_t": "四暗刻",
+            "en": "Four Concealed Triplets",
+            "jp": "四暗刻",
+            "kr": "스안커"
+          },
+          "words": {
+            "chs": "四暗刻",
+            "chs_t": "四暗刻",
+            "en": "Four Concealed Triplets",
+            "jp": "スーアンコウ",
+            "kr": "스안커."
+          }
+        },
+        "type": "fan_sianke"
+      },
+      {
+        "audio": "https://files.riichi.moe/mjg/game%20resources%20and%20tools/Mahjong%20Soul/unity_raw/extracted/MyAssets/audio/sound/chilin/fan_siankedanqi.mp3",
+        "bondLimit": 0,
+        "category": 2,
+        "levelLimit": 5,
+        "text": {
+          "name": {
+            "chs": "四暗刻单骑",
+            "chs_t": "四暗刻單騎",
+            "en": "Single-wait Four Concealed Triplets",
+            "jp": "四暗刻単騎",
+            "kr": "스안커 단기"
+          },
+          "words": {
+            "chs": "四暗刻单骑",
+            "chs_t": "四暗刻單騎",
+            "en": "Single-wait Four Concealed Triplets",
+            "jp": "スーアンコウ、タンキ",
+            "kr": "스안커 단기."
+          }
+        },
+        "type": "fan_siankedanqi"
+      },
+      {
+        "audio": "https://files.riichi.moe/mjg/game%20resources%20and%20tools/Mahjong%20Soul/unity_raw/extracted/MyAssets/audio/sound/chilin/fan_sigangzi.mp3",
+        "bondLimit": 0,
+        "category": 2,
+        "levelLimit": 5,
+        "text": {
+          "name": {
+            "chs": "四杠子",
+            "chs_t": "四槓子",
+            "en": "Four Quads",
+            "jp": "四槓子",
+            "kr": "스깡쯔"
+          },
+          "words": {
+            "chs": "四杠子",
+            "chs_t": "四槓子",
+            "en": "Four Quads",
+            "jp": "スーカンツ",
+            "kr": "스깡쯔."
+          }
+        },
+        "type": "fan_sigangzi"
+      },
+      {
+        "audio": "https://files.riichi.moe/mjg/game%20resources%20and%20tools/Mahjong%20Soul/unity_raw/extracted/MyAssets/audio/sound/chilin/fan_tianhu.mp3",
+        "bondLimit": 0,
+        "category": 2,
+        "levelLimit": 5,
+        "text": {
+          "name": {
+            "chs": "天和",
+            "chs_t": "天和",
+            "en": "Blessing of Heaven",
+            "jp": "天和",
+            "kr": "천화"
+          },
+          "words": {
+            "chs": "天和",
+            "chs_t": "天和",
+            "en": "Blessing of Heaven",
+            "jp": "天和",
+            "kr": "천화."
+          }
+        },
+        "type": "fan_tianhu"
+      },
+      {
+        "audio": "https://files.riichi.moe/mjg/game%20resources%20and%20tools/Mahjong%20Soul/unity_raw/extracted/MyAssets/audio/sound/chilin/fan_xi.mp3",
+        "bondLimit": 0,
+        "category": 2,
+        "levelLimit": 5,
+        "text": {
+          "name": {
+            "chs": "西",
+            "chs_t": "西",
+            "en": "West",
+            "jp": "西",
+            "kr": "서"
+          },
+          "words": {
+            "chs": "西",
+            "chs_t": "西",
+            "en": "West",
+            "jp": "シャー",
+            "kr": "서."
+          }
+        },
+        "type": "fan_xi"
+      },
+      {
+        "audio": "https://files.riichi.moe/mjg/game%20resources%20and%20tools/Mahjong%20Soul/unity_raw/extracted/MyAssets/audio/sound/chilin/fan_xiaosanyuan.mp3",
+        "bondLimit": 0,
+        "category": 2,
+        "levelLimit": 5,
+        "text": {
+          "name": {
+            "chs": "小三元",
+            "chs_t": "小三元",
+            "en": "Little Three Dragons",
+            "jp": "小三元",
+            "kr": "소삼원"
+          },
+          "words": {
+            "chs": "小三元",
+            "chs_t": "小三元",
+            "en": "Little Three Dragons",
+            "jp": "ショーサンゲン",
+            "kr": "소삼원."
+          }
+        },
+        "type": "fan_xiaosanyuan"
+      },
+      {
+        "audio": "https://files.riichi.moe/mjg/game%20resources%20and%20tools/Mahjong%20Soul/unity_raw/extracted/MyAssets/audio/sound/chilin/fan_xiaosixi.mp3",
+        "bondLimit": 0,
+        "category": 2,
+        "levelLimit": 5,
+        "text": {
+          "name": {
+            "chs": "小四喜",
+            "chs_t": "小四喜",
+            "en": "Four Little Winds",
+            "jp": "小四喜",
+            "kr": "소사희"
+          },
+          "words": {
+            "chs": "小四喜",
+            "chs_t": "小四喜",
+            "en": "Four Little Winds",
+            "jp": "小スーシー",
+            "kr": "소사희."
+          }
+        },
+        "type": "fan_xiaosixi"
+      },
+      {
+        "audio": "https://files.riichi.moe/mjg/game%20resources%20and%20tools/Mahjong%20Soul/unity_raw/extracted/MyAssets/audio/sound/chilin/fan_yibeikou.mp3",
+        "bondLimit": 0,
+        "category": 2,
+        "levelLimit": 5,
+        "text": {
+          "name": {
+            "chs": "一杯口",
+            "chs_t": "一盃口",
+            "en": "Pure Double Sequence",
+            "jp": "一盃口",
+            "kr": "이페코"
+          },
+          "words": {
+            "chs": "一杯口",
+            "chs_t": "一盃口",
+            "en": "Pure Double Sequence",
+            "jp": "イーペーコー",
+            "kr": "이페코."
+          }
+        },
+        "type": "fan_yibeikou"
+      },
+      {
+        "audio": "https://files.riichi.moe/mjg/game%20resources%20and%20tools/Mahjong%20Soul/unity_raw/extracted/MyAssets/audio/sound/chilin/fan_yifa.mp3",
+        "bondLimit": 0,
+        "category": 2,
+        "levelLimit": 5,
+        "text": {
+          "name": {
+            "chs": "一发",
+            "chs_t": "一發",
+            "en": "Ippatsu",
+            "jp": "一発",
+            "kr": "일발"
+          },
+          "words": {
+            "chs": "一发",
+            "chs_t": "一發",
+            "en": "Ippatsu",
+            "jp": "イッパツ",
+            "kr": "일발."
+          }
+        },
+        "type": "fan_yifa"
+      },
+      {
+        "audio": "https://files.riichi.moe/mjg/game%20resources%20and%20tools/Mahjong%20Soul/unity_raw/extracted/MyAssets/audio/sound/chilin/fan_yiqitongguan.mp3",
+        "bondLimit": 0,
+        "category": 2,
+        "levelLimit": 5,
+        "text": {
+          "name": {
+            "chs": "一气通贯",
+            "chs_t": "一氣通貫",
+            "en": "Pure Straight",
+            "jp": "一気通貫",
+            "kr": "일기통관"
+          },
+          "words": {
+            "chs": "一气通贯",
+            "chs_t": "一氣通貫",
+            "en": "Pure Straight",
+            "jp": "イッツー",
+            "kr": "일기통관."
+          }
+        },
+        "type": "fan_yiqitongguan"
+      },
+      {
+        "audio": "https://files.riichi.moe/mjg/game%20resources%20and%20tools/Mahjong%20Soul/unity_raw/extracted/MyAssets/audio/sound/chilin/fan_zhong.mp3",
+        "bondLimit": 0,
+        "category": 2,
+        "levelLimit": 5,
+        "text": {
+          "name": {
+            "chs": "中",
+            "chs_t": "中",
+            "en": "Red",
+            "jp": "中",
+            "kr": "중"
+          },
+          "words": {
+            "chs": "中",
+            "chs_t": "中",
+            "en": "Red",
+            "jp": "チュン",
+            "kr": "중."
+          }
+        },
+        "type": "fan_zhong"
+      },
+      {
+        "audio": "https://files.riichi.moe/mjg/game%20resources%20and%20tools/Mahjong%20Soul/unity_raw/extracted/MyAssets/audio/sound/chilin/fan_zimo.mp3",
+        "bondLimit": 0,
+        "category": 2,
+        "levelLimit": 5,
+        "text": {
+          "name": {
+            "chs": "自摸",
+            "chs_t": "自摸",
+            "en": "Tsumo",
+            "jp": "ツモ",
+            "kr": "쯔모"
+          },
+          "words": {
+            "chs": "自摸",
+            "chs_t": "自摸",
+            "en": "Tsumo",
+            "jp": "ツモ",
+            "kr": "쯔모."
+          }
+        },
+        "type": "fan_zimo"
+      },
+      {
+        "audio": "https://files.riichi.moe/mjg/game%20resources%20and%20tools/Mahjong%20Soul/unity_raw/extracted/MyAssets/audio/sound/chilin/fan_ziyise.mp3",
+        "bondLimit": 0,
+        "category": 2,
+        "levelLimit": 5,
+        "text": {
+          "name": {
+            "chs": "字一色",
+            "chs_t": "字一色",
+            "en": "All Honors",
+            "jp": "字一色",
+            "kr": "자일색"
+          },
+          "words": {
+            "chs": "字一色",
+            "chs_t": "字一色",
+            "en": "All Honors",
+            "jp": "ツーイーソー",
+            "kr": "자일색."
+          }
+        },
+        "type": "fan_ziyise"
+      },
+      {
+        "audio": "https://files.riichi.moe/mjg/game%20resources%20and%20tools/Mahjong%20Soul/unity_raw/extracted/MyAssets/audio/sound/chilin/game_top.mp3",
+        "bondLimit": 0,
+        "category": 2,
+        "levelLimit": 1,
+        "text": {
+          "name": {
+            "chs": "终局一位",
+            "chs_t": "終局一位",
+            "en": "Finishing a game in 1st place",
+            "jp": "清算一位",
+            "kr": "1위"
+          },
+          "words": {
+            "chs": "好诶！我是第一名！麻将其实也不难嘛～",
+            "chs_t": "好耶！我是第一名！麻將其實也不難嘛～",
+            "en": "Yay! I came in first place! Mahjong must not actually be that hard.",
+            "jp": "よっしゃ、私のトップだ！ 麻雀って案外楽勝だな。",
+            "kr": "좋아, 내가 1등이다! 마작이란 거 생각보다 쉽잖아."
+          }
+        },
+        "type": "game_top"
+      },
+      {
+        "audio": "https://files.riichi.moe/mjg/game%20resources%20and%20tools/Mahjong%20Soul/unity_raw/extracted/MyAssets/audio/sound/chilin/extra2/game_top_big.mp3",
+        "bondLimit": 0,
+        "category": 2,
+        "levelLimit": 3,
+        "text": {
+          "name": {
+            "chs": "终局一位-高分获胜",
+            "chs_t": "終局一位-高分獲勝",
+            "en": "Match End - 1st Place (win by high points)",
+            "jp": "清算一位・高い点数で勝利",
+            "kr": "1위-높은 점수로 승리"
+          },
+          "words": {
+            "chs": "哦哦！收到了不得了的贡品！这下子能堆满午马宫的房间了！",
+            "chs_t": "哦哦！收到了不得了的貢品！這下子能堆滿午馬宮的房間了！",
+            "en": "Ooh! What incredible offerings! I could fill a whole room in the Horse Palace with these!",
+            "jp": "おおっ、ものすごいお供え物だな！ \nこのままいくと、午馬宮の倉庫が満杯になるかも！",
+            "kr": "오옷, 엄청난 공물이네! 이대로 가면 오마궁 창고가 꽉 차 버릴지도!"
+          }
+        },
+        "type": "game_top_big"
+      },
+      {
+        "audio": "https://files.riichi.moe/mjg/game%20resources%20and%20tools/Mahjong%20Soul/unity_raw/extracted/MyAssets/audio/sound/chilin/extra2/game_top_ron.mp3",
+        "bondLimit": 0,
+        "category": 2,
+        "levelLimit": 2,
+        "text": {
+          "name": {
+            "chs": "终局一位-荣和获胜",
+            "chs_t": "終局一位-榮和獲勝",
+            "en": "Match End - 1st Place (win by Ron)",
+            "jp": "清算一位・ロンで勝利",
+            "kr": "1위-론으로 승리"
+          },
+          "words": {
+            "chs": "哦——！对不住啦！",
+            "chs_t": "哦——！對不住啦！",
+            "en": "Oh...! Sorry about that!",
+            "jp": "おっと！ 悪い悪い！",
+            "kr": "어이쿠! 미안, 미안!"
+          }
+        },
+        "type": "game_top_ron"
+      },
+      {
+        "audio": "https://files.riichi.moe/mjg/game%20resources%20and%20tools/Mahjong%20Soul/unity_raw/extracted/MyAssets/audio/sound/chilin/gameend_beiman.mp3",
+        "bondLimit": 0,
+        "category": 2,
+        "levelLimit": 5,
+        "text": {
+          "name": {
+            "chs": "倍满",
+            "chs_t": "倍滿",
+            "en": "Baiman",
+            "jp": "倍満",
+            "kr": "배만"
+          },
+          "words": {
+            "chs": "倍满",
+            "chs_t": "倍滿",
+            "en": "Baiman",
+            "jp": "倍満（バイマン）",
+            "kr": "배만."
+          }
+        },
+        "type": "gameend_beiman"
+      },
+      {
+        "audio": "https://files.riichi.moe/mjg/game%20resources%20and%20tools/Mahjong%20Soul/unity_raw/extracted/MyAssets/audio/sound/chilin/gameend_jiuzhongjiupai.mp3",
+        "bondLimit": 0,
+        "category": 2,
+        "levelLimit": 0,
+        "text": {
+          "name": {
+            "chs": "九种九牌",
+            "chs_t": "九種九牌",
+            "en": "Nine Different Terminals and Honors",
+            "jp": "九種九牌",
+            "kr": "구종구패"
+          },
+          "words": {
+            "chs": "九种九牌",
+            "chs_t": "九種九牌",
+            "en": "Nine Different Terminals and Honors",
+            "jp": "キュウシュキュウハイ",
+            "kr": "구종구패."
+          }
+        },
+        "type": "gameend_jiuzhongjiupai"
+      },
+      {
+        "audio": "https://files.riichi.moe/mjg/game%20resources%20and%20tools/Mahjong%20Soul/unity_raw/extracted/MyAssets/audio/sound/chilin/gameend_leijiyiman.mp3",
+        "bondLimit": 0,
+        "category": 2,
+        "levelLimit": 5,
+        "text": {
+          "name": {
+            "chs": "累计役满",
+            "chs_t": "累計役滿",
+            "en": "Counted Yakuman",
+            "jp": "数え役満",
+            "kr": "역만"
+          },
+          "words": {
+            "chs": "累计役满",
+            "chs_t": "累計役滿",
+            "en": "Counted Yakuman",
+            "jp": "数え役満（カゾエヤクマン）",
+            "kr": "헤아림 역만."
+          }
+        },
+        "type": "gameend_leijiyiman"
+      },
+      {
+        "audio": "https://files.riichi.moe/mjg/game%20resources%20and%20tools/Mahjong%20Soul/unity_raw/extracted/MyAssets/audio/sound/chilin/gameend_manguan.mp3",
+        "bondLimit": 0,
+        "category": 2,
+        "levelLimit": 5,
+        "text": {
+          "name": {
+            "chs": "满贯",
+            "chs_t": "滿貫",
+            "en": "Mangan",
+            "jp": "満貫",
+            "kr": "만관"
+          },
+          "words": {
+            "chs": "满贯",
+            "chs_t": "滿貫",
+            "en": "Mangan",
+            "jp": "満貫（マンガン）",
+            "kr": "만관."
+          }
+        },
+        "type": "gameend_manguan"
+      },
+      {
+        "audio": "https://files.riichi.moe/mjg/game%20resources%20and%20tools/Mahjong%20Soul/unity_raw/extracted/MyAssets/audio/sound/chilin/gameend_noting.mp3",
+        "bondLimit": 0,
+        "category": 2,
+        "levelLimit": 0,
+        "text": {
+          "name": {
+            "chs": "未听牌",
+            "chs_t": "未聽牌",
+            "en": "No-ten (No Ready Hand)",
+            "jp": "ノーテン",
+            "kr": "노텐"
+          },
+          "words": {
+            "chs": "未听牌，可惜！",
+            "chs_t": "未聽牌，可惜！",
+            "en": "No-ten. What a shame!",
+            "jp": "ノーテンか、残念！",
+            "kr": "노텐, 아깝네!"
+          }
+        },
+        "type": "gameend_noting"
+      },
+      {
+        "audio": "https://files.riichi.moe/mjg/game%20resources%20and%20tools/Mahjong%20Soul/unity_raw/extracted/MyAssets/audio/sound/chilin/gameend_sanbeiman.mp3",
+        "bondLimit": 0,
+        "category": 2,
+        "levelLimit": 5,
+        "text": {
+          "name": {
+            "chs": "三倍满",
+            "chs_t": "三倍滿",
+            "en": "Sanbaiman",
+            "jp": "三倍満",
+            "kr": "삼배만"
+          },
+          "words": {
+            "chs": "三倍满",
+            "chs_t": "三倍滿",
+            "en": "Sanbaiman",
+            "jp": "三倍満（サンバイマン）",
+            "kr": "삼배만."
+          }
+        },
+        "type": "gameend_sanbeiman"
+      },
+      {
+        "audio": "https://files.riichi.moe/mjg/game%20resources%20and%20tools/Mahjong%20Soul/unity_raw/extracted/MyAssets/audio/sound/chilin/gameend_sifenglianda.mp3",
+        "bondLimit": 0,
+        "category": 2,
+        "levelLimit": 0,
+        "text": {
+          "name": {
+            "chs": "四风连打",
+            "chs_t": "四風連打",
+            "en": "Four-Wind Discarded",
+            "jp": "四風連打",
+            "kr": "사풍연타"
+          },
+          "words": {
+            "chs": "四风连打",
+            "chs_t": "四風連打",
+            "en": "Four-Wind Discarded",
+            "jp": "スーフーレンダ",
+            "kr": "사풍연타."
+          }
+        },
+        "type": "gameend_sifenglianda"
+      },
+      {
+        "audio": "https://files.riichi.moe/mjg/game%20resources%20and%20tools/Mahjong%20Soul/unity_raw/extracted/MyAssets/audio/sound/chilin/gameend_sigangliuju.mp3",
+        "bondLimit": 0,
+        "category": 2,
+        "levelLimit": 0,
+        "text": {
+          "name": {
+            "chs": "四杠流局",
+            "chs_t": "四槓流局",
+            "en": "Four-kan Abortion",
+            "jp": "四槓散了",
+            "kr": "사깡유국"
+          },
+          "words": {
+            "chs": "四杠流局",
+            "chs_t": "四槓流局",
+            "en": "Four-Kan Abortion",
+            "jp": "スーカン流れ",
+            "kr": "사깡유국."
+          }
+        },
+        "type": "gameend_sigangliuju"
+      },
+      {
+        "audio": "https://files.riichi.moe/mjg/game%20resources%20and%20tools/Mahjong%20Soul/unity_raw/extracted/MyAssets/audio/sound/chilin/gameend_sijializhi.mp3",
+        "bondLimit": 0,
+        "category": 2,
+        "levelLimit": 0,
+        "text": {
+          "name": {
+            "chs": "四家立直",
+            "chs_t": "四家立直",
+            "en": "Four-player Riichi",
+            "jp": "四家立直",
+            "kr": "사가리치"
+          },
+          "words": {
+            "chs": "四家立直",
+            "chs_t": "四家立直",
+            "en": "Four-Player Riichi",
+            "jp": "四家立直",
+            "kr": "사가리치."
+          }
+        },
+        "type": "gameend_sijializhi"
+      },
+      {
+        "audio": "https://files.riichi.moe/mjg/game%20resources%20and%20tools/Mahjong%20Soul/unity_raw/extracted/MyAssets/audio/sound/chilin/gameend_tiaoman.mp3",
+        "bondLimit": 0,
+        "category": 2,
+        "levelLimit": 5,
+        "text": {
+          "name": {
+            "chs": "跳满",
+            "chs_t": "跳滿",
+            "en": "Haneman",
+            "jp": "跳満",
+            "kr": "하네만"
+          },
+          "words": {
+            "chs": "跳满",
+            "chs_t": "跳滿",
+            "en": "Haneman",
+            "jp": "跳満（ハネマン）",
+            "kr": "하네만."
+          }
+        },
+        "type": "gameend_tiaoman"
+      },
+      {
+        "audio": "https://files.riichi.moe/mjg/game%20resources%20and%20tools/Mahjong%20Soul/unity_raw/extracted/MyAssets/audio/sound/chilin/gameend_tingpai.mp3",
+        "bondLimit": 0,
+        "category": 2,
+        "levelLimit": 0,
+        "text": {
+          "name": {
+            "chs": "听牌",
+            "chs_t": "聽牌",
+            "en": "Tenpai (Ready Hand)",
+            "jp": "聴牌",
+            "kr": "텐파이"
+          },
+          "words": {
+            "chs": "听牌，要沉住气才行……",
+            "chs_t": "聽牌，要沉住氣才行……",
+            "en": "Tenpai, keep your cool now...",
+            "jp": "テンパイ。冷静にならないとな……！",
+            "kr": "텐파이. 냉정해져야지……!"
+          }
+        },
+        "type": "gameend_tingpai"
+      },
+      {
+        "audio": "https://files.riichi.moe/mjg/game%20resources%20and%20tools/Mahjong%20Soul/unity_raw/extracted/MyAssets/audio/sound/chilin/gameend_yiman1.mp3",
+        "bondLimit": 0,
+        "category": 2,
+        "levelLimit": 5,
+        "text": {
+          "name": {
+            "chs": "役满",
+            "chs_t": "役滿",
+            "en": "Yakuman",
+            "jp": "役満",
+            "kr": "역만"
+          },
+          "words": {
+            "chs": "役满",
+            "chs_t": "役滿",
+            "en": "Yakuman",
+            "jp": "ヤクマン",
+            "kr": "역만."
+          }
+        },
+        "type": "gameend_yiman1"
+      },
+      {
+        "audio": "https://files.riichi.moe/mjg/game%20resources%20and%20tools/Mahjong%20Soul/unity_raw/extracted/MyAssets/audio/sound/chilin/gameend_yiman2.mp3",
+        "bondLimit": 0,
+        "category": 2,
+        "levelLimit": 5,
+        "text": {
+          "name": {
+            "chs": "两倍役满",
+            "chs_t": "兩倍役滿",
+            "en": "Double Yakuman",
+            "jp": "ダブル役満",
+            "kr": "더블 역만"
+          },
+          "words": {
+            "chs": "两倍役满",
+            "chs_t": "兩倍役滿",
+            "en": "Double Yakuman",
+            "jp": "ダブルヤクマン",
+            "kr": "더블 역만."
+          }
+        },
+        "type": "gameend_yiman2"
+      },
+      {
+        "audio": "https://files.riichi.moe/mjg/game%20resources%20and%20tools/Mahjong%20Soul/unity_raw/extracted/MyAssets/audio/sound/chilin/gameend_yiman3.mp3",
+        "bondLimit": 0,
+        "category": 2,
+        "levelLimit": 5,
+        "text": {
+          "name": {
+            "chs": "三倍役满",
+            "chs_t": "三倍役滿",
+            "en": "Triple Yakuman",
+            "jp": "トリプル役満",
+            "kr": "트리플 역만"
+          },
+          "words": {
+            "chs": "三倍役满",
+            "chs_t": "三倍役滿",
+            "en": "Triple Yakuman",
+            "jp": "トリプルヤクマン",
+            "kr": "트리플 역만."
+          }
+        },
+        "type": "gameend_yiman3"
+      },
+      {
+        "audio": "https://files.riichi.moe/mjg/game%20resources%20and%20tools/Mahjong%20Soul/unity_raw/extracted/MyAssets/audio/sound/chilin/gameend_yiman4.mp3",
+        "bondLimit": 0,
+        "category": 2,
+        "levelLimit": 5,
+        "text": {
+          "name": {
+            "chs": "四倍役满",
+            "chs_t": "四倍役滿",
+            "en": "Quadruple Yakuman",
+            "jp": "四倍役満",
+            "kr": "사배 역만"
+          },
+          "words": {
+            "chs": "四倍役满",
+            "chs_t": "四倍役滿",
+            "en": "Quadruple Yakuman",
+            "jp": "四倍（よんばい）ヤクマン",
+            "kr": "사배 역만."
+          }
+        },
+        "type": "gameend_yiman4"
+      },
+      {
+        "audio": "https://files.riichi.moe/mjg/game%20resources%20and%20tools/Mahjong%20Soul/unity_raw/extracted/MyAssets/audio/sound/chilin/gameend_yiman5.mp3",
+        "bondLimit": 0,
+        "category": 2,
+        "levelLimit": 5,
+        "text": {
+          "name": {
+            "chs": "五倍役满",
+            "chs_t": "五倍役滿",
+            "en": "Quintuple Yakuman",
+            "jp": "五倍役満",
+            "kr": "오배 역만"
+          },
+          "words": {
+            "chs": "五倍役满",
+            "chs_t": "五倍役滿",
+            "en": "Quintuple Yakuman",
+            "jp": "五倍（ごばい）ヤクマン",
+            "kr": "오배 역만."
+          }
+        },
+        "type": "gameend_yiman5"
+      },
+      {
+        "audio": "https://files.riichi.moe/mjg/game%20resources%20and%20tools/Mahjong%20Soul/unity_raw/extracted/MyAssets/audio/sound/chilin/gameend_yiman6.mp3",
+        "bondLimit": 0,
+        "category": 2,
+        "levelLimit": 5,
+        "text": {
+          "name": {
+            "chs": "六倍役满",
+            "chs_t": "六倍役滿",
+            "en": "Sextuple Yakuman",
+            "jp": "六倍役満",
+            "kr": "육배 역만"
+          },
+          "words": {
+            "chs": "六倍役满",
+            "chs_t": "六倍役滿",
+            "en": "Sextuple Yakuman",
+            "jp": "六倍（ろくばい）ヤクマン",
+            "kr": "육배 역만."
+          }
+        },
+        "type": "gameend_yiman6"
+      },
+      {
+        "audio": "https://files.riichi.moe/mjg/game%20resources%20and%20tools/Mahjong%20Soul/unity_raw/extracted/MyAssets/audio/sound/chilin/ingame_baopai.mp3",
+        "bondLimit": 1,
+        "category": 2,
+        "levelLimit": 5,
+        "text": {
+          "name": {
+            "chs": "特殊语音 - 打出宝牌",
+            "chs_t": "特殊語音 - 打出寶牌",
+            "en": "SP - When discarding a Dora",
+            "jp": "SP - ドラを捨てた時",
+            "kr": "특수-도라를 버릴 때"
+          },
+          "words": {
+            "chs": "嗯！随它去吧！",
+            "chs_t": "嗯！隨它去吧！",
+            "en": "Okay! Let it go!",
+            "jp": "うん！ 気にしない気にしない！",
+            "kr": "응! 신경 쓰지 마, 신경 쓰지 마!"
+          }
+        },
+        "type": "ingame_baopai"
+      },
+      {
+        "audio": "https://files.riichi.moe/mjg/game%20resources%20and%20tools/Mahjong%20Soul/unity_raw/extracted/MyAssets/audio/sound/chilin/ingame_beiman.mp3",
+        "bondLimit": 1,
+        "category": 2,
+        "levelLimit": 5,
+        "text": {
+          "name": {
+            "chs": "特殊语音 - 倍满/三倍满听牌",
+            "chs_t": "特殊語音 - 倍滿/三倍滿聽牌",
+            "en": "SP - Tenpai with Baiman/Sanbaiman",
+            "jp": "SP - 倍満／三倍満聴牌",
+            "kr": "특수-배만/삼배만 텐파이"
+          },
+          "words": {
+            "chs": "诶？我的耳朵在抖吗？",
+            "chs_t": "欸？我的耳朵在抖嗎？",
+            "en": "Huh? Are my ears twitching?",
+            "jp": "耳がぴくぴくしてる？ 嘘っ！？",
+            "kr": "귀가 쫑긋쫑긋한다고? 거짓말?!"
+          }
+        },
+        "type": "ingame_beiman"
+      },
+      {
+        "audio": "https://files.riichi.moe/mjg/game%20resources%20and%20tools/Mahjong%20Soul/unity_raw/extracted/MyAssets/audio/sound/chilin/ingame_lianda.mp3",
+        "bondLimit": 1,
+        "category": 2,
+        "levelLimit": 5,
+        "text": {
+          "name": {
+            "chs": "特殊语音 - 连续打出多张相同牌",
+            "chs_t": "特殊語音 - 連續打出多張相同牌",
+            "en": "SP - When discarding multiple identical tiles in a row",
+            "jp": "SP - 同じ牌を連続に捨てた時",
+            "kr": "특수-연속으로 같은 패를 버릴 때"
+          },
+          "words": {
+            "chs": "唔啊……怎么这样……",
+            "chs_t": "唔啊……怎麼這樣……",
+            "en": "Ugh... Seriously...?",
+            "jp": "うわっ、そんな……！",
+            "kr": "우왓, 그런 일이……!"
+          }
+        },
+        "type": "ingame_lianda"
+      },
+      {
+        "audio": "https://files.riichi.moe/mjg/game%20resources%20and%20tools/Mahjong%20Soul/unity_raw/extracted/MyAssets/audio/sound/chilin/ingame_remain10.mp3",
+        "bondLimit": 1,
+        "category": 2,
+        "levelLimit": 5,
+        "text": {
+          "name": {
+            "chs": "特殊语音 - 余牌少于10",
+            "chs_t": "特殊語音 - 餘牌少於10",
+            "en": "SP - Less than 10 tiles remaining",
+            "jp": "SP - 残り牌が１０枚以下の時",
+            "kr": "특수-남은 패가 10장 이하일 때"
+          },
+          "words": {
+            "chs": "兴奋起来了！",
+            "chs_t": "興奮起來了！",
+            "en": "This is getting exciting!",
+            "jp": "燃えてきた！",
+            "kr": "불타오르는데!"
+          }
+        },
+        "type": "ingame_remain10"
+      },
+      {
+        "audio": "https://files.riichi.moe/mjg/game%20resources%20and%20tools/Mahjong%20Soul/unity_raw/extracted/MyAssets/audio/sound/chilin/extra2/ingame_start.mp3",
+        "bondLimit": 0,
+        "category": 2,
+        "levelLimit": 1,
+        "text": {
+          "name": {
+            "chs": "对局开始",
+            "chs_t": "對局開始",
+            "en": "Match Start",
+            "jp": "対局開始",
+            "kr": "대국 시작"
+          },
+          "words": {
+            "chs": "这一局也要全力拿下！",
+            "chs_t": "這一局也要全力拿下！",
+            "en": "Let's make some hay here!",
+            "jp": "この局も全力で勝ちにいくよ！",
+            "kr": "이번 국도 전력으로 이기러 간다!"
+          }
+        },
+        "type": "ingame_start"
+      },
+      {
+        "audio": "https://files.riichi.moe/mjg/game%20resources%20and%20tools/Mahjong%20Soul/unity_raw/extracted/MyAssets/audio/sound/chilin/ingame_yiman.mp3",
+        "bondLimit": 1,
+        "category": 2,
+        "levelLimit": 5,
+        "text": {
+          "name": {
+            "chs": "特殊语音 - 役满听牌",
+            "chs_t": "特殊語音 - 役滿聽牌",
+            "en": "SP - Tenpai with Yakuman",
+            "jp": "SP - 役満聴牌",
+            "kr": "특수-역만 텐파이"
+          },
+          "words": {
+            "chs": "诶？我的尾巴晃起来了吗？！",
+            "chs_t": "欸？我的尾巴晃起來了嗎？！",
+            "en": "Huh? Did my tail start swishing?!",
+            "jp": "え？ 私のしっぽ、揺れてる！？",
+            "kr": "어? 내 꼬리 흔들리고 있어?!"
+          }
+        },
+        "type": "ingame_yiman"
+      },
+      {
+        "audio": "https://files.riichi.moe/mjg/game%20resources%20and%20tools/Mahjong%20Soul/unity_raw/extracted/MyAssets/audio/sound/chilin/extra/scfan_daiyaojiu.mp3",
+        "bondLimit": 0,
+        "category": 2,
+        "levelLimit": 5,
+        "text": {
+          "name": {
+            "chs": "带幺九",
+            "chs_t": "帶么九",
+            "en": "Terminals in All Sets",
+            "jp": "帯幺九",
+            "kr": "대요구"
+          },
+          "words": {
+            "chs": "带幺九",
+            "chs_t": "帶么九",
+            "en": "Terminals in All Sets",
+            "jp": "帯幺九（タイヤオチュウ）",
+            "kr": "대요구."
+          }
+        },
+        "type": "scfan_daiyaojiu"
+      },
+      {
+        "audio": "https://files.riichi.moe/mjg/game%20resources%20and%20tools/Mahjong%20Soul/unity_raw/extracted/MyAssets/audio/sound/chilin/extra/scfan_gen.mp3",
+        "bondLimit": 0,
+        "category": 2,
+        "levelLimit": 5,
+        "text": {
+          "name": {
+            "chs": "根",
+            "chs_t": "根",
+            "en": "Root",
+            "jp": "根",
+            "kr": "루트"
+          },
+          "words": {
+            "chs": "根",
+            "chs_t": "根",
+            "en": "Root",
+            "jp": "根（ルート）",
+            "kr": "루트."
+          }
+        },
+        "type": "scfan_gen"
+      },
+      {
+        "audio": "https://files.riichi.moe/mjg/game%20resources%20and%20tools/Mahjong%20Soul/unity_raw/extracted/MyAssets/audio/sound/chilin/extra/scfan_jiangdui.mp3",
+        "bondLimit": 0,
+        "category": 2,
+        "levelLimit": 5,
+        "text": {
+          "name": {
+            "chs": "将对",
+            "chs_t": "將對",
+            "en": "2/5/8 Triplets",
+            "jp": "将対",
+            "kr": "장또이"
+          },
+          "words": {
+            "chs": "将对",
+            "chs_t": "將對",
+            "en": "2/5/8 Triplets",
+            "jp": "将対（ジャントイ）",
+            "kr": "장또이."
+          }
+        },
+        "type": "scfan_jiangdui"
+      },
+      {
+        "audio": "https://files.riichi.moe/mjg/game%20resources%20and%20tools/Mahjong%20Soul/unity_raw/extracted/MyAssets/audio/sound/chilin/extra/scfan_jingoudiao.mp3",
+        "bondLimit": 0,
+        "category": 2,
+        "levelLimit": 5,
+        "text": {
+          "name": {
+            "chs": "金钩钓",
+            "chs_t": "金鉤釣",
+            "en": "Single Wait after 4 Triplets",
+            "jp": "金勾釣",
+            "kr": "금구조"
+          },
+          "words": {
+            "chs": "金钩钓",
+            "chs_t": "金鉤釣",
+            "en": "Single Wait after 4 Triplets",
+            "jp": "金勾釣（キンコウテャオ）",
+            "kr": "금구조."
+          }
+        },
+        "type": "scfan_jingoudiao"
+      },
+      {
+        "audio": "https://files.riichi.moe/mjg/game%20resources%20and%20tools/Mahjong%20Soul/unity_raw/extracted/MyAssets/audio/sound/chilin/extra/scfan_lingshangfangchong.mp3",
+        "bondLimit": 0,
+        "category": 2,
+        "levelLimit": 5,
+        "text": {
+          "name": {
+            "chs": "杠上炮",
+            "chs_t": "槓上炮",
+            "en": "Dealing into Win after Kan",
+            "jp": "嶺上放銃",
+            "kr": "영상방총"
+          },
+          "words": {
+            "chs": "岭上放铳",
+            "chs_t": "嶺上放銃",
+            "en": "Dealing into Win after Kan",
+            "jp": "嶺上放銃（リンシャンホウジュウ）",
+            "kr": "영상방총."
+          }
+        },
+        "type": "scfan_lingshangfangchong"
+      },
+      {
+        "audio": "https://files.riichi.moe/mjg/game%20resources%20and%20tools/Mahjong%20Soul/unity_raw/extracted/MyAssets/audio/sound/chilin/extra/scfan_longqidui.mp3",
+        "bondLimit": 0,
+        "category": 2,
+        "levelLimit": 5,
+        "text": {
+          "name": {
+            "chs": "龙七对",
+            "chs_t": "龍七對",
+            "en": "Seven Pairs with One Duplicate",
+            "jp": "龍七対",
+            "kr": "용치또이"
+          },
+          "words": {
+            "chs": "龙七对",
+            "chs_t": "龍七對",
+            "en": "Seven Pairs with One Duplicate",
+            "jp": "龍七対（ロンチートイ）",
+            "kr": "용치또이."
+          }
+        },
+        "type": "scfan_longqidui"
+      },
+      {
+        "audio": "https://files.riichi.moe/mjg/game%20resources%20and%20tools/Mahjong%20Soul/unity_raw/extracted/MyAssets/audio/sound/chilin/extra/scfan_qingdui.mp3",
+        "bondLimit": 0,
+        "category": 2,
+        "levelLimit": 5,
+        "text": {
+          "name": {
+            "chs": "清对",
+            "chs_t": "清對",
+            "en": "Pure Triplets",
+            "jp": "清対",
+            "kr": "청또이"
+          },
+          "words": {
+            "chs": "清对",
+            "chs_t": "清對",
+            "en": "Pure Triplets",
+            "jp": "清対（チントイ）",
+            "kr": "청또이."
+          }
+        },
+        "type": "scfan_qingdui"
+      },
+      {
+        "audio": "https://files.riichi.moe/mjg/game%20resources%20and%20tools/Mahjong%20Soul/unity_raw/extracted/MyAssets/audio/sound/chilin/extra/scfan_qingjindoudiao.mp3",
+        "bondLimit": 0,
+        "category": 2,
+        "levelLimit": 5,
+        "text": {
+          "name": {
+            "chs": "清金钩钓",
+            "chs_t": "清金鉤釣",
+            "en": "Pure Single Wait after 4 Triplets",
+            "jp": "清金勾釣",
+            "kr": "청금구조"
+          },
+          "words": {
+            "chs": "清金钩钓",
+            "chs_t": "清金鉤釣",
+            "en": "Pure Single Wait after 4 Triplets",
+            "jp": "清金勾釣（チンキンコウテャオ）",
+            "kr": "청금구조."
+          }
+        },
+        "type": "scfan_qingjindoudiao"
+      },
+      {
+        "audio": "https://files.riichi.moe/mjg/game%20resources%20and%20tools/Mahjong%20Soul/unity_raw/extracted/MyAssets/audio/sound/chilin/extra/scfan_qinglongqidui.mp3",
+        "bondLimit": 0,
+        "category": 2,
+        "levelLimit": 5,
+        "text": {
+          "name": {
+            "chs": "清龙七对",
+            "chs_t": "清龍七對",
+            "en": "Pure Seven Pairs with One Duplicate",
+            "jp": "清龍七対",
+            "kr": "청룡치또이"
+          },
+          "words": {
+            "chs": "清龙七对",
+            "chs_t": "清龍七對",
+            "en": "Pure Seven Pairs with One Duplicate",
+            "jp": "清龍七対（チンロンチートイ）",
+            "kr": "청룡치또이."
+          }
+        },
+        "type": "scfan_qinglongqidui"
+      },
+      {
+        "audio": "https://files.riichi.moe/mjg/game%20resources%20and%20tools/Mahjong%20Soul/unity_raw/extracted/MyAssets/audio/sound/chilin/extra/scfan_qingqidui.mp3",
+        "bondLimit": 0,
+        "category": 2,
+        "levelLimit": 5,
+        "text": {
+          "name": {
+            "chs": "清七对",
+            "chs_t": "清七對",
+            "en": "Pure Seven Pairs",
+            "jp": "清七対",
+            "kr": "청치또이"
+          },
+          "words": {
+            "chs": "清七对",
+            "chs_t": "清七對",
+            "en": "Pure Seven Pairs",
+            "jp": "清七対（チンチートイ）",
+            "kr": "청치또이."
+          }
+        },
+        "type": "scfan_qingqidui"
+      },
+      {
+        "audio": "https://files.riichi.moe/mjg/game%20resources%20and%20tools/Mahjong%20Soul/unity_raw/extracted/MyAssets/audio/sound/chilin/extra/scfan_qingshibaluohan.mp3",
+        "bondLimit": 0,
+        "category": 2,
+        "levelLimit": 5,
+        "text": {
+          "name": {
+            "chs": "清十八罗汉",
+            "chs_t": "清十八羅漢",
+            "en": "Pure Four Quads",
+            "jp": "清十八羅漢",
+            "kr": "청십팔라한"
+          },
+          "words": {
+            "chs": "清十八罗汉",
+            "chs_t": "清十八羅漢",
+            "en": "Pure Four Quads",
+            "jp": "清十八羅漢（チンジュウハチラカン）",
+            "kr": "청십팔라한."
+          }
+        },
+        "type": "scfan_qingshibaluohan"
+      },
+      {
+        "audio": "https://files.riichi.moe/mjg/game%20resources%20and%20tools/Mahjong%20Soul/unity_raw/extracted/MyAssets/audio/sound/chilin/extra/scfan_qingyaojiu.mp3",
+        "bondLimit": 0,
+        "category": 2,
+        "levelLimit": 5,
+        "text": {
+          "name": {
+            "chs": "清幺九",
+            "chs_t": "清么九",
+            "en": "All Terminals",
+            "jp": "清幺九",
+            "kr": "청요구"
+          },
+          "words": {
+            "chs": "清幺九",
+            "chs_t": "清么九",
+            "en": "All Terminals",
+            "jp": "清幺九（チンヤオチュウ）",
+            "kr": "청요구."
+          }
+        },
+        "type": "scfan_qingyaojiu"
+      },
+      {
+        "audio": "https://files.riichi.moe/mjg/game%20resources%20and%20tools/Mahjong%20Soul/unity_raw/extracted/MyAssets/audio/sound/chilin/extra/scfan_shibaluohan.mp3",
         "bondLimit": 0,
         "category": 2,
         "levelLimit": 5,
