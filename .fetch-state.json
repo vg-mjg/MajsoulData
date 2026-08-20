@@ -3,9 +3,9 @@
   "legacy_version": "0.11.252.w",
   "regions": {
     "cn": {
-      "bundle_hash": "b11609736aea46d2c98630cfa1ecadbfda4aa7fb",
-      "manifest_generated_at": "2026-08-19T02:08:05Z",
-      "resource_version": "0.16.265"
+      "bundle_hash": "5a26b3a9132f532f6ddc8449df9b4772b1fb6911",
+      "manifest_generated_at": "2026-08-19T16:07:52Z",
+      "resource_version": "0.16.267"
     },
     "en": {
       "bundle_hash": "519afbc2e2385ce57470217401d1f528aaf8db17",
