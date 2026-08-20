@@ -21,10 +21,10 @@
     "resource_version": "0.16.231"
   },
   "kr": {
-    "generated_at": "2026-08-19T02:09:09Z",
+    "generated_at": "2026-08-20T03:07:58Z",
     "issuer": "kr",
     "lua_version": "0.11.603",
     "product_version": "4.0.12",
-    "resource_version": "0.16.229"
+    "resource_version": "0.16.231"
   }
 }
