@@ -437900,6 +437900,14 @@
             "textures": [
               "https://files.riichi.moe/mjg/game%20resources%20and%20tools/Mahjong%20Soul/unity_raw/extracted/MyAssets/spine/40012102/1/chilin_0_1.png"
             ]
+          },
+          {
+            "atlas": "https://files.riichi.moe/mjg/game%20resources%20and%20tools/Mahjong%20Soul/unity_raw/extracted/MyAssets/spine/40012102/2/chilin_0_2.atlas.txt",
+            "name": "2",
+            "skeleton": "https://files.riichi.moe/mjg/game%20resources%20and%20tools/Mahjong%20Soul/unity_raw/extracted/MyAssets/spine/40012102/2/chilin_0_2.skel.txt",
+            "textures": [
+              "https://files.riichi.moe/mjg/game%20resources%20and%20tools/Mahjong%20Soul/unity_raw/extracted/MyAssets/spine/40012102/2/chilin_0_2.png"
+            ]
           }
         ],
         "text": {
