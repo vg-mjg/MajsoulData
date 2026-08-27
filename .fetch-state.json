@@ -3,24 +3,24 @@
   "legacy_version": "0.11.252.w",
   "regions": {
     "cn": {
-      "bundle_hash": "a3b56a30510070f586a387bda8693d46618b87d3",
-      "manifest_generated_at": "2026-08-25T22:08:09Z",
-      "resource_version": "0.16.271"
+      "bundle_hash": "8593fab5d7a7b23f624d7081e2dd2d6a5ea3d415",
+      "manifest_generated_at": "2026-08-26T22:08:08Z",
+      "resource_version": "0.16.272"
     },
     "en": {
-      "bundle_hash": "785b4e88306b12678ebf6bfe9f59024be71d1433",
-      "manifest_generated_at": "2026-08-25T22:05:48Z",
-      "resource_version": "0.16.236"
+      "bundle_hash": "c5b60b2e527311106377a09fa0e4913a6c0c048d",
+      "manifest_generated_at": "2026-08-26T22:05:44Z",
+      "resource_version": "0.16.237"
     },
     "jp": {
-      "bundle_hash": "ed9011b7b650e5051cae359a5d1595a346d5c618",
-      "manifest_generated_at": "2026-08-25T22:06:53Z",
-      "resource_version": "0.16.236"
+      "bundle_hash": "29ef2a5a447a3cdb4022d3d329620fd94e992ec5",
+      "manifest_generated_at": "2026-08-26T22:06:52Z",
+      "resource_version": "0.16.237"
     },
     "kr": {
-      "bundle_hash": "f502c86434ddecb0d85c9a3face4a96dbdf4d524",
-      "manifest_generated_at": "2026-08-25T22:09:11Z",
-      "resource_version": "0.16.236"
+      "bundle_hash": "9866b466720585a6cbd68d0df96811effc7c2edf",
+      "manifest_generated_at": "2026-08-26T22:09:09Z",
+      "resource_version": "0.16.237"
     }
   },
   "schema_version": 6
