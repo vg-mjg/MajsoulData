@@ -14,11 +14,11 @@
     "resource_version": "0.16.239"
   },
   "jp": {
-    "generated_at": "2026-09-02T22:06:46Z",
+    "generated_at": "2026-09-07T22:00:28Z",
     "issuer": "jp",
     "lua_version": "0.11.603",
     "product_version": "4.0.12",
-    "resource_version": "0.16.239"
+    "resource_version": "0.16.240"
   },
   "kr": {
     "generated_at": "2026-09-02T22:09:02Z",
