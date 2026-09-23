@@ -13415,6 +13415,34 @@
         }
       },
       {
+        "baseTaskId": 99188,
+        "deprecated": 0,
+        "groupId": 10,
+        "hidden": 0,
+        "id": 100500,
+        "locked": 0,
+        "rare": 1,
+        "rewards": [],
+        "segmentId": 0,
+        "sort": 175,
+        "text": {
+          "description": {
+            "chs": "获得雀士墨菲",
+            "chs_t": "獲得雀士墨菲",
+            "en": "Obtain Jyanshi Murphy",
+            "jp": "モフィーを入手する",
+            "kr": "머피 획득하기."
+          },
+          "name": {
+            "chs": "与墨菲的邂逅",
+            "chs_t": "與墨菲的邂逅",
+            "en": "An Encounter with Murphy",
+            "jp": "モフィーとの出会い",
+            "kr": "머피와의 만남"
+          }
+        }
+      },
+      {
         "baseTaskId": 99044,
         "deprecated": 0,
         "groupId": 10,
@@ -15586,6 +15614,34 @@
         }
       },
       {
+        "baseTaskId": 99189,
+        "deprecated": 0,
+        "groupId": 10,
+        "hidden": 0,
+        "id": 100501,
+        "locked": 0,
+        "rare": 1,
+        "rewards": [],
+        "segmentId": 0,
+        "sort": 377,
+        "text": {
+          "description": {
+            "chs": "与墨菲签订契约",
+            "chs_t": "與墨菲簽訂契約",
+            "en": "Bond with Murphy",
+            "jp": "モフィーと契約を結ぶ",
+            "kr": "머피와(과) 계약 맺기."
+          },
+          "name": {
+            "chs": "墨菲的契约者",
+            "chs_t": "墨菲的契約者",
+            "en": "Bonded with Murphy",
+            "jp": "モフィーの契約者",
+            "kr": "머피의 계약자"
+          }
+        }
+      },
+      {
         "baseTaskId": 99077,
         "deprecated": 0,
         "groupId": 10,
@@ -16576,7 +16632,7 @@
       }
     ],
     "counts": {
-      "achievements": 187,
+      "achievements": 189,
       "deprecated": 0,
       "hidden": 0,
       "locked": 0
