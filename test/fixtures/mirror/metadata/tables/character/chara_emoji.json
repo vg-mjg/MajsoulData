@@ -1,0 +1,95 @@
+[
+  [
+    {
+      "emoji_id": 10000,
+      "enabled_char": "200001",
+      "sort": 0,
+      "index": 0,
+      "path": "0",
+      "type": 1,
+      "audio": 0,
+      "unlock_desc": 0,
+      "after_unlock_desc": 0,
+      "unlock_item_id": 0,
+      "show_type": 0
+    },
+    {
+      "emoji_id": 10002,
+      "enabled_char": "200001",
+      "sort": 2,
+      "index": 2,
+      "path": "2",
+      "type": 1,
+      "audio": 0,
+      "unlock_desc": 0,
+      "after_unlock_desc": 0,
+      "unlock_item_id": 0,
+      "show_type": 0
+    },
+    {
+      "emoji_id": 10010,
+      "enabled_char": "200001",
+      "sort": 10,
+      "index": 10,
+      "path": "10",
+      "type": 1,
+      "audio": 0,
+      "unlock_desc": 6000,
+      "after_unlock_desc": 0,
+      "unlock_item_id": 400102,
+      "show_type": 0
+    },
+    {
+      "emoji_id": 10888,
+      "enabled_char": "200001",
+      "sort": 888,
+      "index": 888,
+      "path": "888",
+      "type": 1,
+      "audio": 0,
+      "unlock_desc": 0,
+      "after_unlock_desc": 6015,
+      "unlock_item_id": 309111,
+      "show_type": 1
+    },
+    {
+      "emoji_id": 11001,
+      "enabled_char": "200001",
+      "sort": 1001,
+      "index": 997,
+      "path": "1004",
+      "type": 1,
+      "audio": 0,
+      "unlock_desc": 6001,
+      "after_unlock_desc": 0,
+      "unlock_item_id": 400107,
+      "show_type": 0
+    },
+    {
+      "emoji_id": 11002,
+      "enabled_char": "200001",
+      "sort": 1002,
+      "index": 0,
+      "path": "1011",
+      "type": 1,
+      "audio": 0,
+      "unlock_desc": 6001,
+      "after_unlock_desc": 0,
+      "unlock_item_id": 400108,
+      "show_type": 0
+    },
+    {
+      "emoji_id": 99990001,
+      "enabled_char": "200001,200034",
+      "sort": 9000,
+      "index": 15,
+      "path": "ex005_lihua",
+      "type": 2,
+      "audio": 242,
+      "unlock_desc": 0,
+      "after_unlock_desc": 6010,
+      "unlock_item_id": 309202,
+      "show_type": 1
+    }
+  ]
+]

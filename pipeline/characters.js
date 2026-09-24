@@ -176,9 +176,44 @@ function buildTableEmote(row, emoBasePath, scannedImages, assetIndex) {
   };
 }
 
-function buildEmotes(character, tableRows, assetIndex) {
+// chara_emoji maps a legacy emote id (`index`, the emoji table's sub_id) to the
+// sprite file it now ships as (`path`). Renames only: an unchanged path needs no
+// entry, and `index` 0 with a non-zero path marks an emote that has no legacy id.
+function buildEmoteRenames(charaEmojiRows) {
+  const out = new Map();
+  for (const row of charaEmojiRows) {
+    const legacyId = num(row.index);
+    const path = str(row.path);
+    if (legacyId <= 0 || !/^\d+$/.test(path) || Number(path) === legacyId) continue;
+    for (const charId of str(row.enabled_char).split(",")) {
+      const key = num(charId);
+      if (!out.has(key)) out.set(key, new Map());
+      out.get(key).set(Number(path), legacyId);
+    }
+  }
+  return out;
+}
+
+// Fold renamed sprites back onto their legacy id. The old file survives as a
+// seed, so without this the same stamp is emitted twice; the renamed sprite wins.
+function canonicalizeRenamedEmotes(scannedEmotes, renames) {
+  if (!renames || renames.size === 0) return scannedEmotes;
+  const bySubId = new Map(scannedEmotes.map((emote) => [emote.subId, emote]));
+  for (const [spriteId, legacyId] of renames) {
+    const renamed = bySubId.get(spriteId);
+    if (!renamed) continue;
+    bySubId.delete(spriteId);
+    bySubId.set(legacyId, { subId: legacyId, image: renamed.image });
+  }
+  return Array.from(bySubId.values()).sort((a, b) => a.subId - b.subId);
+}
+
+function buildEmotes(character, tableRows, renames, assetIndex) {
   const emoBasePath = str(character.emo);
-  const scannedEmotes = enumerateImageUrlsByNumericPrefix(assetIndex, emoBasePath);
+  const scannedEmotes = canonicalizeRenamedEmotes(
+    enumerateImageUrlsByNumericPrefix(assetIndex, emoBasePath),
+    renames,
+  );
   const scannedImages = new Map(scannedEmotes.map((emote) => [emote.subId, emote.image]));
   const tableEmotes = (tableRows || [])
     .map((row) => buildTableEmote(row, emoBasePath, scannedImages, assetIndex))
@@ -198,7 +233,10 @@ function buildEmotes(character, tableRows, assetIndex) {
 // carries its localized name/description/lockTips inline, baked preview sprite
 // variants, and the resolved spine layers for Live2D skins. Skins without baked
 // sprites simply carry an empty `assets`; skins without Live2D carry `spine: []`.
-function buildSkins(skins, assetIndex, spineIndex) {
+// Sprite variants that no longer resolve keep the previous output's URL: the game
+// moves skins to new folders (name -> id) that drop some variants, and seeds are
+// keyed by path, so only the skin id can carry them across the move.
+function buildSkins(skins, assetIndex, spineIndex, previousSkinAssets) {
   return (skins || [])
     .map((skin) => {
       const id = num(skin.id);
@@ -211,7 +249,10 @@ function buildSkins(skins, assetIndex, spineIndex) {
           description: textMap(skin, "desc"),
           lockTips: textMap(skin, "lock_tips"),
         },
-        assets: skinSprites(assetIndex, str(skin.path)),
+        assets: {
+          ...previousSkinAssets.get(id),
+          ...skinSprites(assetIndex, str(skin.path)),
+        },
       };
     })
     .sort((a, b) => a.id - b.id);
@@ -254,10 +295,28 @@ function buildStory(row, rewardById, itemById) {
   };
 }
 
-export function transformCharacters(tables, assetIndex, audioIndex, items = []) {
+function skinAssetsById(previousCharacters) {
+  const out = new Map();
+  for (const character of previousCharacters || []) {
+    for (const skin of character.skins || []) {
+      if (skin.assets) out.set(num(skin.id), skin.assets);
+    }
+  }
+  return out;
+}
+
+export function transformCharacters(
+  tables,
+  assetIndex,
+  audioIndex,
+  items = [],
+  previousCharacters = [],
+) {
   const characterRows = rowsOf(tables.character);
   const skinRows = rowsOf(tables.skin);
   const characterEmojiRows = rowsOf(tables.characterEmoji);
+  const emoteRenamesByCharacter = buildEmoteRenames(rowsOf(tables.charaEmoji));
+  const previousSkinAssets = skinAssetsById(previousCharacters);
   const voiceSoundRows = rowsOf(tables.voiceSound);
   const voiceSpotRows = rowsOf(tables.voiceSpot);
   const spotRows = rowsOf(tables.spot);
@@ -279,7 +338,13 @@ export function transformCharacters(tables, assetIndex, audioIndex, items = []) 
       const initSkinPath = skinPathById.get(initSkin) || "";
       const soundFolder = str(character.sound_folder);
       const soundId = num(character.sound);
-      const ownedSkins = skinsByCharacter.get(id) || [];
+      const skins = buildSkins(
+        skinsByCharacter.get(id) || [],
+        assetIndex,
+        spineIndex,
+        previousSkinAssets,
+      );
+      const ownedInitSkin = skins.find((skin) => skin.id === initSkin);
 
       const voices = (voicesBySound.get(soundId) || [])
         .map((row) => buildVoice(row, soundFolder, audioIndex))
@@ -299,9 +364,14 @@ export function transformCharacters(tables, assetIndex, audioIndex, items = []) 
         collaboration: num(character.collaboration),
         initSkin,
         text: characterText(character),
-        assets: skinSprites(assetIndex, initSkinPath),
-        skins: buildSkins(ownedSkins, assetIndex, spineIndex),
-        emotes: buildEmotes(character, emotesByCharacter.get(id) || [], assetIndex),
+        assets: ownedInitSkin ? ownedInitSkin.assets : skinSprites(assetIndex, initSkinPath),
+        skins,
+        emotes: buildEmotes(
+          character,
+          emotesByCharacter.get(id) || [],
+          emoteRenamesByCharacter.get(id),
+          assetIndex,
+        ),
         bond: buildBondEntries(character.star_5_material, itemById),
         voices,
         spotVoices,

@@ -77,13 +77,16 @@ function manifestEntries(manifest) {
 // collections ARE the persistence — a seed survives only while some table row
 // still emits its URL, so the preserved set self-GCs with the tables. A generic
 // deep-walk over scalar strings: no per-collection shape knowledge.
-async function harvestCommittedSeeds(files) {
+async function readCommittedJson(file) {
+  return fsp
+    .readFile(file, "utf8")
+    .then(JSON.parse)
+    .catch(() => null);
+}
+
+function harvestCommittedSeeds(collections) {
   const seeds = { imageSeeds: [], audioSeeds: [] };
-  for (const file of files) {
-    const json = await fsp
-      .readFile(file, "utf8")
-      .then(JSON.parse)
-      .catch(() => null);
+  for (const json of collections) {
     if (json) collectBakedSeeds(json, seeds);
   }
   return seeds;
@@ -168,6 +171,7 @@ async function main() {
     character: await readJson("metadata/tables/item_definition/character.json"),
     skin: await readJson("metadata/tables/item_definition/skin.json"),
     characterEmoji: await readJson("metadata/tables/character/emoji.json"),
+    charaEmoji: (await readOptionalJson("metadata/tables/character/chara_emoji.json")) || [],
     voiceSound: await readJson("metadata/tables/voice/sound.json"),
     voiceSpot: (await readOptionalJson("metadata/tables/voice/spot.json")) || [],
     spot: (await readOptionalJson("metadata/tables/spot/spot.json")) || [],
@@ -211,13 +215,14 @@ async function main() {
   // Reconstruct the seed tier from the collections BEFORE anything overwrites
   // them; on a fresh checkout the harvest is empty and output matches a seedless
   // build. Only paths absent from every live manifest become seed records.
-  const seeds = await harvestCommittedSeeds([
-    charactersFile,
-    itemsFile,
-    achievementsFile,
-    activitiesFile,
-    catchatFile,
-    storiesFile,
+  const previousCharacters = await readCommittedJson(charactersFile);
+  const seeds = harvestCommittedSeeds([
+    previousCharacters,
+    ...(await Promise.all(
+      [itemsFile, achievementsFile, activitiesFile, catchatFile, storiesFile].map(
+        readCommittedJson,
+      ),
+    )),
   ]);
   await appendRecoverySeeds(seeds);
 
@@ -250,7 +255,13 @@ async function main() {
   const items = transformItems(itemTables, assetIndex, audioIndex);
   await writeJsonStable(itemsFile, items);
 
-  const characters = transformCharacters(tables, assetIndex, audioIndex, items);
+  const characters = transformCharacters(
+    tables,
+    assetIndex,
+    audioIndex,
+    items,
+    Array.isArray(previousCharacters) ? previousCharacters : [],
+  );
   await writeJsonStable(charactersFile, characters);
 
   const storyContentPaths = characters.flatMap((character) =>

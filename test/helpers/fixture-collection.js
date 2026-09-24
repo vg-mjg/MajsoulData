@@ -45,6 +45,7 @@ export function buildFixtureCollection() {
     character: readJson("metadata/tables/item_definition/character.json"),
     skin: readJson("metadata/tables/item_definition/skin.json"),
     characterEmoji: readJson("metadata/tables/character/emoji.json"),
+    charaEmoji: readJson("metadata/tables/character/chara_emoji.json"),
     voiceSound: readJson("metadata/tables/voice/sound.json"),
     voiceSpot: readJson("metadata/tables/voice/spot.json"),
     spot: readJson("metadata/tables/spot/spot.json"),

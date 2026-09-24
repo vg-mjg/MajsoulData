@@ -167,3 +167,75 @@ test("an unchanged-manifest rerun is byte-identical: seeds never displace live r
     assert.equal(readCollection(sandbox.dataDir, name), before[i], `${name} changed`);
   });
 });
+
+function characterById(dataDir, id) {
+  return JSON.parse(readCollection(dataDir, "characters.json")).find(
+    (character) => character.id === id,
+  );
+}
+
+test("an emote whose sprite the game renumbers stays one stamp under its legacy id", (t) => {
+  const sandbox = makeSandbox(t);
+  const emoji = path.join(sandbox.mirror, "metadata", "tables", "character", "chara_emoji.json");
+  const renameSprite = (from, to) => {
+    for (const region of REGIONS) {
+      const file = path.join(sandbox.mirror, "extracted", `extracted_manifest_${region}.json`);
+      editJson(file, (manifest) => {
+        for (const entry of manifest.entries) {
+          entry.outputPath = entry.outputPath.replace(`e200001/common/${from}.png`, `e200001/common/${to}.png`);
+        }
+        return manifest;
+      });
+    }
+  };
+
+  // Before the flip: the sprite ships under its legacy id and no rename table exists.
+  const renameTable = readFileSync(emoji, "utf8");
+  rmSync(emoji);
+  renameSprite(1004, 997);
+  runIngest(sandbox);
+  assert.match(readCollection(sandbox.dataDir, "characters.json"), /e200001\/common\/997\.png/);
+
+  // The flip: the sprite moves to 1004 (the old file only survives as a seed) and
+  // chara_emoji starts mapping 997 -> 1004.
+  renameSprite(997, 1004);
+  writeFileSync(emoji, renameTable);
+  runIngest(sandbox);
+
+  const emotes = characterById(sandbox.dataDir, 200001).emotes;
+  const outfit = emotes.filter((emote) => emote.subId === 997);
+  assert.equal(outfit.length, 1);
+  assert.match(outfit[0].image, /e200001\/common\/1004\.png$/);
+  assert.equal(outfit[0].unlockDescription.en, "Unlock Outfit");
+  assert.equal(emotes.some((emote) => emote.subId === 1004), false);
+  assert.doesNotMatch(readCollection(sandbox.dataDir, "characters.json"), /common\/997\.png/);
+});
+
+test("a skin moved to a folder without some variants keeps them across runs", (t) => {
+  const sandbox = makeSandbox(t);
+  runIngest(sandbox);
+  const before = characterById(sandbox.dataDir, 200001).skins.find((skin) => skin.id === 400101);
+  assert.match(before.assets.half, /deco\/character\/yiji\/half\/half\.png$/);
+
+  // The game moves the skin to an id-named folder that only ships a bighead.
+  editJson(path.join(sandbox.mirror, "metadata", "tables", "item_definition", "skin.json"), (rows) =>
+    rows.map((row) => (row.id === 400101 ? { ...row, path: "deco/character/400101" } : row)),
+  );
+  editJson(path.join(sandbox.mirror, "extracted", "extracted_manifest_en.json"), (manifest) => {
+    manifest.entries.push({ outputPath: "MyAssets/deco/character/400101/bighead/bighead.png" });
+    return manifest;
+  });
+  runIngest(sandbox);
+
+  const character = characterById(sandbox.dataDir, 200001);
+  const after = character.skins.find((skin) => skin.id === 400101);
+  assert.match(after.assets.bighead, /deco\/character\/400101\/bighead\/bighead\.png$/);
+  for (const variant of ["smallhead", "half", "full"]) {
+    assert.deepEqual(after.assets[variant], before.assets[variant], variant);
+  }
+  assert.deepEqual(character.assets, after.assets);
+
+  const settled = readCollection(sandbox.dataDir, "characters.json");
+  runIngest(sandbox);
+  assert.equal(readCollection(sandbox.dataDir, "characters.json"), settled);
+});

@@ -60,6 +60,27 @@
       "after_unlock_desc_kr": "",
       "unlock_type": 1,
       "unlock_param": {}
+    },
+    {
+      "charid": 200001,
+      "sub_id": 997,
+      "unlock_desc_chs": "解锁装扮",
+      "unlock_desc_chs_t": "解鎖裝扮",
+      "unlock_desc_jp": "衣装解放",
+      "unlock_desc_en": "Unlock Outfit",
+      "unlock_desc_kr": "스킨 해금",
+      "type": 1,
+      "view": "",
+      "audio": 0,
+      "after_unlock_desc_chs": "",
+      "after_unlock_desc_chs_t": "",
+      "after_unlock_desc_jp": "",
+      "after_unlock_desc_en": "",
+      "after_unlock_desc_kr": "",
+      "unlock_type": 3,
+      "unlock_param": [
+        400107
+      ]
     }
   ]
 ]

@@ -6,6 +6,7 @@
 import test from "node:test";
 import assert from "node:assert/strict";
 
+import { buildAssetIndex } from "../pipeline/assets.js";
 import { transformCharacters } from "../pipeline/characters.js";
 import { buildFixtureCollection as buildCollection } from "./helpers/fixture-collection.js";
 
@@ -136,7 +137,7 @@ test("merges base emotes before table emotes, excludes event specials, and bakes
   const ichihime = buildCollection()[0];
   assert.deepEqual(
     ichihime.emotes.map((emote) => emote.subId),
-    [0, 2, 888, 10],
+    [0, 2, 1011, 888, 10, 997],
   );
 
   assert.match(ichihime.emotes[0].image, /deco\/emo\/e200001\/common\/0\.png$/);
@@ -152,7 +153,7 @@ test("merges base emotes before table emotes, excludes event specials, and bakes
   assert.match(ichihime.emotes[1].image.en, /deco\/emo\/e200001\/en_en\/2\.png$/);
   assert.match(ichihime.emotes[1].image.cn, /deco\/emo\/e200001\/chs_t\/2\.png$/);
 
-  const stickerShop = ichihime.emotes[2];
+  const stickerShop = ichihime.emotes.find((emote) => emote.subId === 888);
   assert.match(stickerShop.image, /deco\/emo\/e200001\/common\/888\.png$/);
   assert.deepEqual(stickerShop.unlockDescription, {
     en: "Sticker Shop",
@@ -162,6 +163,24 @@ test("merges base emotes before table emotes, excludes event specials, and bakes
     kr: "스탬프 상점",
   });
   assert.equal(ichihime.emotes.some((emote) => emote.subId >= 13 && emote.subId <= 18), false);
+});
+
+test("a renamed emote sprite folds onto its legacy id instead of emitting a second stamp", () => {
+  // chara_emoji maps legacy 997 to sprite 1004: one entry, legacy id, table text,
+  // renamed image, and no base emote for 1004.
+  const ichihime = buildCollection()[0];
+  const outfit = ichihime.emotes.filter((emote) => emote.subId === 997);
+  assert.equal(outfit.length, 1);
+  assert.match(outfit[0].image, /deco\/emo\/e200001\/common\/1004\.png$/);
+  assert.equal(outfit[0].unlockDescription.en, "Unlock Outfit");
+  assert.equal(ichihime.emotes.some((emote) => emote.subId === 1004), false);
+});
+
+test("a chara_emoji-only emote (index 0) stays a base emote under its sprite id", () => {
+  const ichihime = buildCollection()[0];
+  const extra = ichihime.emotes.find((emote) => emote.subId === 1011);
+  assert.match(extra.image, /deco\/emo\/e200001\/common\/1011\.png$/);
+  assert.equal(extra.unlockDescription.en, "");
 });
 
 test("parses bond materials and enriches them with item names and icons", () => {
@@ -238,6 +257,33 @@ test("a skin only resolves its OWN sprites, never another character's same-named
   // identically-named files — the variant set is simply empty.
   const ichihime = buildCollection()[0];
   assert.deepEqual(ichihime.skins[1].assets, {});
+});
+
+test("a skin moved to a folder lacking some variants keeps them from the previous output", () => {
+  const previous = buildCollection();
+  const ichihime = previous[0];
+  const oldHalf = ichihime.skins[0].assets.half;
+  assert.match(oldHalf, /deco\/character\/yiji\/half\/half\.png$/);
+
+  const assetIndex = buildAssetIndex({
+    en: [{ outputPath: "MyAssets/deco/character/400101/bighead/bighead.png" }],
+  });
+  const collection = transformCharacters(
+    {
+      character: [{ id: 200001, init_skin: 400101 }],
+      skin: [{ id: 400101, character_id: 200001, path: "deco/character/400101" }],
+    },
+    assetIndex,
+    EMPTY_AUDIO_INDEX,
+    [],
+    previous,
+  );
+
+  const skin = collection[0].skins[0];
+  assert.match(skin.assets.bighead, /deco\/character\/400101\/bighead\/bighead\.png$/);
+  assert.equal(skin.assets.half, oldHalf);
+  assert.equal(skin.assets.full, ichihime.skins[0].assets.full);
+  assert.deepEqual(collection[0].assets, skin.assets);
 });
 
 test("a character with no spot voices or stories emits empty arrays", () => {
