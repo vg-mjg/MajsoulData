@@ -68,6 +68,12 @@ function skinSprites(assetIndex, skinPath) {
   return out;
 }
 
+// The client reads `path` only for version-1 skins; every newer skin lives in a
+// folder named after its id, whatever stale value `path` still carries.
+function skinSpriteDir(skin) {
+  return num(skin.skin_version) === 1 ? str(skin.path) : `deco/character/${num(skin.id)}`;
+}
+
 // Candidate audio keys for a voice line. The voice `path` is resolved against
 // the audio manifest's logical layout, trying the character's sound folder first.
 function voiceAudioKeys(voicePath, soundFolder) {
@@ -233,9 +239,9 @@ function buildEmotes(character, tableRows, renames, assetIndex) {
 // carries its localized name/description/lockTips inline, baked preview sprite
 // variants, and the resolved spine layers for Live2D skins. Skins without baked
 // sprites simply carry an empty `assets`; skins without Live2D carry `spine: []`.
-// Sprite variants that no longer resolve keep the previous output's URL: the game
-// moves skins to new folders (name -> id) that drop some variants, and seeds are
-// keyed by path, so only the skin id can carry them across the move.
+// Sprite variants that no longer resolve keep the previous output's URL: newer
+// skins moved from name folders to id folders that drop some variants, and seeds
+// are keyed by path, so only the skin id can carry them across the move.
 function buildSkins(skins, assetIndex, spineIndex, previousSkinAssets) {
   return (skins || [])
     .map((skin) => {
@@ -251,7 +257,7 @@ function buildSkins(skins, assetIndex, spineIndex, previousSkinAssets) {
         },
         assets: {
           ...previousSkinAssets.get(id),
-          ...skinSprites(assetIndex, str(skin.path)),
+          ...skinSprites(assetIndex, skinSpriteDir(skin)),
         },
       };
     })
@@ -321,7 +327,7 @@ export function transformCharacters(
   const voiceSpotRows = rowsOf(tables.voiceSpot);
   const spotRows = rowsOf(tables.spot);
 
-  const skinPathById = new Map(skinRows.map((skin) => [num(skin.id), str(skin.path)]));
+  const skinPathById = new Map(skinRows.map((skin) => [num(skin.id), skinSpriteDir(skin)]));
   const skinsByCharacter = groupBy(skinRows, (skin) => num(skin.character_id));
   const emotesByCharacter = groupBy(characterEmojiRows, (row) => num(row.charid));
   const spineIndex = buildSpineIndex(assetIndex);

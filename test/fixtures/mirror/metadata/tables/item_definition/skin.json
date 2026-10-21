@@ -20,6 +20,7 @@
     "lock_tips_en": "",
     "lock_tips_kr": "",
     "path": "deco/character/yiji",
+    "skin_version": 1,
     "exchange_item_id": 302002,
     "exchange_item_num": 60,
     "direction": 0,
@@ -93,6 +94,7 @@
     "lock_tips_en": "",
     "lock_tips_kr": "",
     "path": "deco/character/gongyongxiao",
+    "skin_version": 1,
     "exchange_item_id": 302002,
     "exchange_item_num": 60,
     "direction": 0,
@@ -155,6 +157,7 @@
     "name_kr": "신입생의 아침",
     "character_id": 200001,
     "path": "deco/character/yiji_kxj",
+    "skin_version": 1,
     "spine_type": 1,
     "illust_data": "yiji_kxj",
     "blink": 0
@@ -169,6 +172,7 @@
     "name_kr": "영상의 꽃",
     "character_id": 200034,
     "path": "deco/character/gongyongxiao_ls",
+    "skin_version": 1,
     "spine_type": 1,
     "illust_data": "",
     "blink": 0

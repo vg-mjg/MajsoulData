@@ -271,7 +271,7 @@ test("a skin moved to a folder lacking some variants keeps them from the previou
   const collection = transformCharacters(
     {
       character: [{ id: 200001, init_skin: 400101 }],
-      skin: [{ id: 400101, character_id: 200001, path: "deco/character/400101" }],
+      skin: [{ id: 400101, character_id: 200001, path: "deco/character/400101", skin_version: 1 }],
     },
     assetIndex,
     EMPTY_AUDIO_INDEX,
@@ -284,6 +284,52 @@ test("a skin moved to a folder lacking some variants keeps them from the previou
   assert.equal(skin.assets.half, oldHalf);
   assert.equal(skin.assets.full, ichihime.skins[0].assets.full);
   assert.deepEqual(collection[0].assets, skin.assets);
+});
+
+function spriteEntries(dir, variants) {
+  return variants.map((v) => ({ outputPath: `MyAssets/${dir}/${v}/${v}.png` }));
+}
+
+test("a new-type skin with no path resolves its sprites from the skin-id folder", () => {
+  const assetIndex = buildAssetIndex({
+    en: spriteEntries("deco/character/40012701", ["bighead", "smallhead", "full"]),
+  });
+  const collection = transformCharacters(
+    {
+      character: [{ id: 20000127, init_skin: 40012701 }],
+      skin: [{ id: 40012701, character_id: 20000127, path: "", skin_version: 0 }],
+    },
+    assetIndex,
+    EMPTY_AUDIO_INDEX,
+  );
+
+  const skin = collection[0].skins[0];
+  assert.deepEqual(Object.keys(skin.assets).sort(), ["bighead", "full", "smallhead"]);
+  assert.match(skin.assets.full, /deco\/character\/40012701\/full\/full\.png$/);
+  assert.deepEqual(collection[0].assets, skin.assets);
+});
+
+test("a new-type skin ignores a stale name-folder path, as the client does", () => {
+  const assetIndex = buildAssetIndex({
+    en: [
+      ...spriteEntries("deco/character/miya", ["bighead", "full", "half"]),
+      ...spriteEntries("deco/character/40011901", ["bighead", "full"]),
+    ],
+  });
+  const collection = transformCharacters(
+    {
+      character: [{ id: 20000119, init_skin: 40011901 }],
+      skin: [
+        { id: 40011901, character_id: 20000119, path: "deco/character/miya", skin_version: 0 },
+      ],
+    },
+    assetIndex,
+    EMPTY_AUDIO_INDEX,
+  );
+
+  const skin = collection[0].skins[0];
+  assert.deepEqual(Object.keys(skin.assets).sort(), ["bighead", "full"]);
+  assert.match(skin.assets.bighead, /deco\/character\/40011901\/bighead\/bighead\.png$/);
 });
 
 test("a character with no spot voices or stories emits empty arrays", () => {
