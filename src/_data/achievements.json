@@ -13443,6 +13443,34 @@
         }
       },
       {
+        "baseTaskId": 99190,
+        "deprecated": 0,
+        "groupId": 10,
+        "hidden": 0,
+        "id": 100502,
+        "locked": 0,
+        "rare": 1,
+        "rewards": [],
+        "segmentId": 0,
+        "sort": 176,
+        "text": {
+          "description": {
+            "chs": "获得雀士泠星",
+            "chs_t": "獲得雀士泠星",
+            "en": "Obtain Jyanshi Reisei",
+            "jp": "レイセイを入手する",
+            "kr": "레이세이 획득하기."
+          },
+          "name": {
+            "chs": "与泠星的邂逅",
+            "chs_t": "與泠星的邂逅",
+            "en": "An Encounter with Reisei",
+            "jp": "レイセイとの出会い",
+            "kr": "레이세이와의 만남"
+          }
+        }
+      },
+      {
         "baseTaskId": 99044,
         "deprecated": 0,
         "groupId": 10,
@@ -15642,6 +15670,34 @@
         }
       },
       {
+        "baseTaskId": 99191,
+        "deprecated": 0,
+        "groupId": 10,
+        "hidden": 0,
+        "id": 100503,
+        "locked": 0,
+        "rare": 1,
+        "rewards": [],
+        "segmentId": 0,
+        "sort": 378,
+        "text": {
+          "description": {
+            "chs": "与泠星签订契约",
+            "chs_t": "與泠星簽訂契約",
+            "en": "Bond with Reisei",
+            "jp": "レイセイと契約を結ぶ",
+            "kr": "레이세이와(과) 계약 맺기."
+          },
+          "name": {
+            "chs": "泠星的契约者",
+            "chs_t": "泠星的契約者",
+            "en": "Bonded with Reisei",
+            "jp": "レイセイの契約者",
+            "kr": "레이세이의 계약자"
+          }
+        }
+      },
+      {
         "baseTaskId": 99077,
         "deprecated": 0,
         "groupId": 10,
@@ -16629,10 +16685,53 @@
             "kr": "나나미 레이나의 수호자"
           }
         }
+      },
+      {
+        "baseTaskId": 99192,
+        "deprecated": 0,
+        "groupId": 10,
+        "hidden": 0,
+        "id": 100504,
+        "locked": 0,
+        "rare": 1,
+        "rewards": [
+          {
+            "count": 1,
+            "icon": "https://files.riichi.moe/mjg/game%20resources%20and%20tools/Mahjong%20Soul/unity_raw/extracted/MyAssets/deco/loading_cg/CG200059/thumb/common/CG200059_thumb.png",
+            "itemId": 30740024,
+            "text": {
+              "name": {
+                "chs": "柚的守护者",
+                "chs_t": "柚的守護者",
+                "en": "Protector of Yuzu",
+                "jp": "ゆずの守護者",
+                "kr": "유즈의 수호자"
+              }
+            }
+          }
+        ],
+        "segmentId": 0,
+        "sort": 524,
+        "text": {
+          "description": {
+            "chs": "解锁柚传记中的所有结局",
+            "chs_t": "解鎖柚傳記中的所有結局",
+            "en": "Unlock all endings in Yuzu's Story",
+            "jp": "ゆずの物語のエンディングをすべて解放する",
+            "kr": "유즈 스토리의 엔딩 모두 오픈."
+          },
+          "name": {
+            "chs": "柚的守护者",
+            "chs_t": "柚的守護者",
+            "en": "Protector of Yuzu",
+            "jp": "ゆずの守護者",
+            "kr": "유즈의 수호자"
+          }
+        }
       }
     ],
     "counts": {
-      "achievements": 189,
+      "achievements": 192,
       "deprecated": 0,
       "hidden": 0,
       "locked": 0

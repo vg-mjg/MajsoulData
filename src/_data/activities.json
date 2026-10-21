@@ -1,5 +1,47 @@
 [
   {
+    "fallbackName": "26qingyun 0",
+    "id": 261081,
+    "image": {
+      "chs": "https://files.riichi.moe/mjg/game%20resources%20and%20tools/Mahjong%20Soul/unity_raw/extracted/MyAssets/ui/activity/lobby/banner_tab/pic/chs/26qingyun_b.png",
+      "cn": "https://files.riichi.moe/mjg/game%20resources%20and%20tools/Mahjong%20Soul/unity_raw/extracted/MyAssets/ui/activity/lobby/banner_tab/pic/chs_t/26qingyun_b.png",
+      "en": "https://files.riichi.moe/mjg/game%20resources%20and%20tools/Mahjong%20Soul/unity_raw/extracted/MyAssets/ui/activity/lobby/banner_tab/pic/en_en/26qingyun_b.png",
+      "jp": "https://files.riichi.moe/mjg/game%20resources%20and%20tools/Mahjong%20Soul/unity_raw/extracted/MyAssets/ui/activity/lobby/banner_tab/pic/jp/26qingyun_b.png",
+      "kr": "https://files.riichi.moe/mjg/game%20resources%20and%20tools/Mahjong%20Soul/unity_raw/extracted/MyAssets/ui/activity/lobby/banner_tab/pic/kr/26qingyun_b.png"
+    },
+    "text": {
+      "name": {
+        "chs": "青云之志",
+        "chs_t": "青雲之志",
+        "en": "Sky-High Ambition: Finders Kitties",
+        "jp": "青雲の志：失われた聖餌",
+        "kr": "청운의 꿈: 냥냥 보물찾기"
+      }
+    },
+    "type": "amulet"
+  },
+  {
+    "fallbackName": "26wansheng 0",
+    "id": 261001,
+    "image": {
+      "chs": "https://files.riichi.moe/mjg/game%20resources%20and%20tools/Mahjong%20Soul/unity_raw/extracted/MyAssets/ui/activity/lobby/banner_tab/pic/chs/26wansheng_b.png",
+      "cn": "https://files.riichi.moe/mjg/game%20resources%20and%20tools/Mahjong%20Soul/unity_raw/extracted/MyAssets/ui/activity/lobby/banner_tab/pic/chs_t/26wansheng_b.png",
+      "en": "https://files.riichi.moe/mjg/game%20resources%20and%20tools/Mahjong%20Soul/unity_raw/extracted/MyAssets/ui/activity/lobby/banner_tab/pic/en_en/26wansheng_b.png",
+      "jp": "https://files.riichi.moe/mjg/game%20resources%20and%20tools/Mahjong%20Soul/unity_raw/extracted/MyAssets/ui/activity/lobby/banner_tab/pic/jp/26wansheng_b.png",
+      "kr": "https://files.riichi.moe/mjg/game%20resources%20and%20tools/Mahjong%20Soul/unity_raw/extracted/MyAssets/ui/activity/lobby/banner_tab/pic/kr/26wansheng_b.png"
+    },
+    "text": {
+      "name": {
+        "chs": "筑梦琴屋",
+        "chs_t": "築夢琴屋",
+        "en": "Dreams on the Keys",
+        "jp": "夢を紡ぐピアノ教室",
+        "kr": "피아노에 피어난 꿈"
+      }
+    },
+    "type": "event_cross_time"
+  },
+  {
     "fallbackName": "26shuiyi 0",
     "id": 260901,
     "image": {
@@ -154,7 +196,7 @@
       "name": {
         "chs": "传说之夜·再临",
         "chs_t": "傳説之夜·再臨",
-        "en": "The Night of Legends:\r\nShadows Reborn",
+        "en": "The Night of Legends:\n\nShadows Reborn",
         "jp": "伝説の夜・再臨",
         "kr": "전설의 밤"
       }

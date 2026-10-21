@@ -11849,6 +11849,158 @@
         }
       },
       {
+        "count": 1500,
+        "shopId": 5499,
+        "shopName": {
+          "chs": "夜访魅影",
+          "chs_t": "夜訪魅影",
+          "en": "Twilight Trespass",
+          "jp": "ファントム・イン・ザ・ナイト",
+          "kr": "어느 밤의 당신"
+        },
+        "soldItemId": 40011903,
+        "soldItemName": {
+          "chs": "",
+          "chs_t": "",
+          "en": "#40011903",
+          "jp": "",
+          "kr": ""
+        }
+      },
+      {
+        "count": 1500,
+        "shopId": 5500,
+        "shopName": {
+          "chs": "夜访魅影",
+          "chs_t": "夜訪魅影",
+          "en": "Twilight Trespass",
+          "jp": "ファントム・イン・ザ・ナイト",
+          "kr": "어느 밤의 당신"
+        },
+        "soldItemId": 405907,
+        "soldItemName": {
+          "chs": "",
+          "chs_t": "",
+          "en": "#405907",
+          "jp": "",
+          "kr": ""
+        }
+      },
+      {
+        "count": 880,
+        "shopId": 5501,
+        "shopName": {
+          "chs": "夜访魅影",
+          "chs_t": "夜訪魅影",
+          "en": "Twilight Trespass",
+          "jp": "ファントム・イン・ザ・ナイト",
+          "kr": "어느 밤의 당신"
+        },
+        "soldItemId": 401608,
+        "soldItemName": {
+          "chs": "",
+          "chs_t": "",
+          "en": "#401608",
+          "jp": "",
+          "kr": ""
+        }
+      },
+      {
+        "count": 880,
+        "shopId": 5502,
+        "shopName": {
+          "chs": "夜访魅影",
+          "chs_t": "夜訪魅影",
+          "en": "Twilight Trespass",
+          "jp": "ファントム・イン・ザ・ナイト",
+          "kr": "어느 밤의 당신"
+        },
+        "soldItemId": 407803,
+        "soldItemName": {
+          "chs": "",
+          "chs_t": "",
+          "en": "#407803",
+          "jp": "",
+          "kr": ""
+        }
+      },
+      {
+        "count": 1500,
+        "shopId": 5503,
+        "shopName": {
+          "chs": "摇曳心情",
+          "chs_t": "搖曳心情",
+          "en": "Idle Hours",
+          "jp": "高鳴るハート",
+          "kr": "설레는 마음"
+        },
+        "soldItemId": 402907,
+        "soldItemName": {
+          "chs": "",
+          "chs_t": "",
+          "en": "#402907",
+          "jp": "",
+          "kr": ""
+        }
+      },
+      {
+        "count": 1500,
+        "shopId": 5504,
+        "shopName": {
+          "chs": "摇曳心情",
+          "chs_t": "搖曳心情",
+          "en": "Idle Hours",
+          "jp": "高鳴るハート",
+          "kr": "설레는 마음"
+        },
+        "soldItemId": 407404,
+        "soldItemName": {
+          "chs": "",
+          "chs_t": "",
+          "en": "#407404",
+          "jp": "",
+          "kr": ""
+        }
+      },
+      {
+        "count": 880,
+        "shopId": 5505,
+        "shopName": {
+          "chs": "摇曳心情",
+          "chs_t": "搖曳心情",
+          "en": "Idle Hours",
+          "jp": "高鳴るハート",
+          "kr": "설레는 마음"
+        },
+        "soldItemId": 409103,
+        "soldItemName": {
+          "chs": "",
+          "chs_t": "",
+          "en": "#409103",
+          "jp": "",
+          "kr": ""
+        }
+      },
+      {
+        "count": 880,
+        "shopId": 5506,
+        "shopName": {
+          "chs": "摇曳心情",
+          "chs_t": "搖曳心情",
+          "en": "Idle Hours",
+          "jp": "高鳴るハート",
+          "kr": "설레는 마음"
+        },
+        "soldItemId": 404905,
+        "soldItemName": {
+          "chs": "",
+          "chs_t": "",
+          "en": "#404905",
+          "jp": "",
+          "kr": ""
+        }
+      },
+      {
         "count": 600,
         "shopId": 6002,
         "shopName": {
@@ -12075,6 +12227,25 @@
           "jp": "霞光の滝",
           "kr": "연하폭포"
         }
+      },
+      {
+        "count": 600,
+        "shopId": 6014,
+        "shopName": {
+          "chs": "风车花田",
+          "chs_t": "風車花田",
+          "en": "Among the Wildflowers",
+          "jp": "風車と花畑",
+          "kr": "꽃밭의 풍차"
+        },
+        "soldItemId": 30700010,
+        "soldItemName": {
+          "chs": "风车花田",
+          "chs_t": "風車花田",
+          "en": "Among the Wildflowers",
+          "jp": "風車と花畑",
+          "kr": "꽃밭의 풍차"
+        }
       }
     ],
     "sort": 100004,
@@ -12120,7 +12291,7 @@
       "packageContainers": 0,
       "packageContents": 0,
       "shopListings": 0,
-      "shopPricing": 491,
+      "shopPricing": 500,
       "sourceLimits": 0
     }
   },
@@ -15006,6 +15177,17 @@
           "kr": "머피"
         },
         "count": 75
+      },
+      {
+        "characterId": 20000127,
+        "characterName": {
+          "chs": "泠星",
+          "chs_t": "泠星",
+          "en": "Reisei",
+          "jp": "レイセイ",
+          "kr": "레이세이"
+        },
+        "count": 75
       }
     ],
     "characterMaterialUsage": [
@@ -16361,6 +16543,17 @@
           "kr": "머피"
         },
         "count": 10
+      },
+      {
+        "characterId": 20000127,
+        "characterName": {
+          "chs": "泠星",
+          "chs_t": "泠星",
+          "en": "Reisei",
+          "jp": "レイセイ",
+          "kr": "레이세이"
+        },
+        "count": 10
       }
     ],
     "composeUsage": [],
@@ -16726,8 +16919,8 @@
     },
     "type": 0,
     "usageCounts": {
-      "characterExchangeUsage": 123,
-      "characterMaterialUsage": 123,
+      "characterExchangeUsage": 124,
+      "characterMaterialUsage": 124,
       "composeUsage": 0,
       "exchangeReceive": 0,
       "exchangeSpend": 0,
@@ -18689,6 +18882,17 @@
           "kr": "머피"
         },
         "count": 100
+      },
+      {
+        "characterId": 20000127,
+        "characterName": {
+          "chs": "泠星",
+          "chs_t": "泠星",
+          "en": "Reisei",
+          "jp": "レイセイ",
+          "kr": "레이세이"
+        },
+        "count": 100
       }
     ],
     "composeUsage": [],
@@ -18846,7 +19050,7 @@
     "type": 0,
     "usageCounts": {
       "characterExchangeUsage": 0,
-      "characterMaterialUsage": 123,
+      "characterMaterialUsage": 124,
       "composeUsage": 0,
       "exchangeReceive": 0,
       "exchangeSpend": 0,
@@ -19616,6 +19820,25 @@
           "jp": "春を綴る便り -2026",
           "kr": "한지 위에 수놓은 봄-2026"
         }
+      },
+      {
+        "count": 8,
+        "shopId": 9084,
+        "shopName": {
+          "chs": "",
+          "chs_t": "",
+          "en": "",
+          "jp": "",
+          "kr": ""
+        },
+        "soldItemId": 307496,
+        "soldItemName": {
+          "chs": "幻夜大冒险-2026",
+          "chs_t": "幻夜大冒險-2026",
+          "en": "Enchanted Night (2026)",
+          "jp": "夜の大冒険 -2026",
+          "kr": "마법 같은 밤-2026"
+        }
       }
     ],
     "sort": 11,
@@ -19661,7 +19884,7 @@
       "packageContainers": 0,
       "packageContents": 0,
       "shopListings": 1,
-      "shopPricing": 10,
+      "shopPricing": 11,
       "sourceLimits": 0
     }
   },
@@ -20930,6 +21153,17 @@
           "kr": "리파"
         },
         "count": 10
+      },
+      {
+        "characterId": 20000127,
+        "characterName": {
+          "chs": "泠星",
+          "chs_t": "泠星",
+          "en": "Reisei",
+          "jp": "レイセイ",
+          "kr": "레이세이"
+        },
+        "count": 10
       }
     ],
     "composeUsage": [],
@@ -21215,7 +21449,7 @@
     "type": 0,
     "usageCounts": {
       "characterExchangeUsage": 0,
-      "characterMaterialUsage": 33,
+      "characterMaterialUsage": 34,
       "composeUsage": 0,
       "exchangeReceive": 0,
       "exchangeSpend": 0,
@@ -23141,6 +23375,17 @@
           "kr": "리파"
         },
         "count": 10
+      },
+      {
+        "characterId": 20000127,
+        "characterName": {
+          "chs": "泠星",
+          "chs_t": "泠星",
+          "en": "Reisei",
+          "jp": "レイセイ",
+          "kr": "레이세이"
+        },
+        "count": 10
       }
     ],
     "composeUsage": [],
@@ -23426,7 +23671,7 @@
     "type": 0,
     "usageCounts": {
       "characterExchangeUsage": 0,
-      "characterMaterialUsage": 22,
+      "characterMaterialUsage": 23,
       "composeUsage": 0,
       "exchangeReceive": 0,
       "exchangeSpend": 0,
@@ -28288,6 +28533,17 @@
           "kr": "시노하라 미야"
         },
         "count": 5
+      },
+      {
+        "characterId": 20000127,
+        "characterName": {
+          "chs": "泠星",
+          "chs_t": "泠星",
+          "en": "Reisei",
+          "jp": "レイセイ",
+          "kr": "레이세이"
+        },
+        "count": 5
       }
     ],
     "composeUsage": [],
@@ -28382,7 +28638,7 @@
     "type": 6,
     "usageCounts": {
       "characterExchangeUsage": 0,
-      "characterMaterialUsage": 18,
+      "characterMaterialUsage": 19,
       "composeUsage": 0,
       "exchangeReceive": 0,
       "exchangeSpend": 0,
@@ -31827,6 +32083,17 @@
           "kr": "시노하라 미야"
         },
         "count": 1
+      },
+      {
+        "characterId": 20000127,
+        "characterName": {
+          "chs": "泠星",
+          "chs_t": "泠星",
+          "en": "Reisei",
+          "jp": "レイセイ",
+          "kr": "레이세이"
+        },
+        "count": 1
       }
     ],
     "composeUsage": [],
@@ -31888,7 +32155,7 @@
     "type": 6,
     "usageCounts": {
       "characterExchangeUsage": 0,
-      "characterMaterialUsage": 18,
+      "characterMaterialUsage": 19,
       "composeUsage": 0,
       "exchangeReceive": 0,
       "exchangeSpend": 0,
@@ -56908,18 +57175,375 @@
         "kr": "2027-11-01 05:00:00"
       },
       "funcDescription": {
-        "chs": "赠予2026雀魂高校赛冠军",
-        "chs_t": "贈予2026雀魂高校賽冠軍",
-        "en": "贈予2026雀魂高校賽冠軍",
-        "jp": "贈予2026雀魂高校賽冠軍",
-        "kr": "贈予2026雀魂高校賽冠軍"
+        "chs": "赠予2026雀魂高校联赛冠军",
+        "chs_t": "贈予2026雀魂高校聯賽冠軍",
+        "en": "贈予2026雀魂高校聯賽冠軍",
+        "jp": "贈予2026雀魂高校聯賽冠軍",
+        "kr": "贈予2026雀魂高校聯賽冠軍"
       },
       "name": {
-        "chs": "2026雀魂高校赛冠军",
-        "chs_t": "2026雀魂高校賽冠軍",
-        "en": "2026雀魂高校賽冠軍",
-        "jp": "2026雀魂高校賽冠軍",
-        "kr": "2026雀魂高校賽冠軍"
+        "chs": "2026雀魂高校联赛冠军",
+        "chs_t": "2026雀魂高校聯賽冠軍",
+        "en": "2026雀魂高校聯賽冠軍",
+        "jp": "2026雀魂高校聯賽冠軍",
+        "kr": "2026雀魂高校聯賽冠軍"
+      }
+    },
+    "type": 11,
+    "usageCounts": {
+      "characterExchangeUsage": 0,
+      "characterMaterialUsage": 0,
+      "composeUsage": 0,
+      "exchangeReceive": 0,
+      "exchangeSpend": 0,
+      "mallListings": 0,
+      "packageContainers": 0,
+      "packageContents": 0,
+      "shopListings": 0,
+      "shopPricing": 0,
+      "sourceLimits": 0
+    }
+  },
+  {
+    "assets": {
+      "background": "",
+      "icon": "https://files.riichi.moe/mjg/game%20resources%20and%20tools/Mahjong%20Soul/unity_raw/extracted/MyAssets/deco/title/mjwg/pic/common/mjwg_item.png",
+      "loadingImage": "",
+      "portraitFrame": "",
+      "tablecloth": "",
+      "tile": "",
+      "titleArt": ""
+    },
+    "audio": null,
+    "canSell": 0,
+    "category": 7,
+    "categoryLabel": "Titles",
+    "characterExchangeUsage": [],
+    "characterMaterialUsage": [],
+    "composeUsage": [],
+    "exchangeReceive": [],
+    "exchangeSpend": [],
+    "func": "",
+    "id": 30557074,
+    "isTitleDefinition": false,
+    "isUnique": 1,
+    "kind": "item",
+    "mallListings": [],
+    "maxStack": 0,
+    "packageContainers": [],
+    "packageContents": [],
+    "profile": {
+      "access": "",
+      "accessInfo": 0,
+      "crossView": 1,
+      "databaseCache": 0,
+      "itemExpire": "2027-11-01 00:00:00",
+      "regionLimit": 0,
+      "sellRewardCount": 0,
+      "sellRewardId": 0
+    },
+    "shopListings": [],
+    "shopPricing": [],
+    "sort": 6096,
+    "sourceLimits": [],
+    "text": {
+      "description": {
+        "chs": "",
+        "chs_t": "",
+        "en": "",
+        "jp": "",
+        "kr": ""
+      },
+      "expireDescription": {
+        "chs": "2027-11-01 00:00:00",
+        "chs_t": "2027-11-01 00:00:00",
+        "en": "2027-11-00 09:00:00 (UTC-7)",
+        "jp": "2027年11月01日まで",
+        "kr": "2027.11.01 01:00(GMT+9)"
+      },
+      "funcDescription": {
+        "chs": "Team REGULUS",
+        "chs_t": "Team REGULUS",
+        "en": "Team REGULUS",
+        "jp": "2026年魂天リーグ優勝記念",
+        "kr": "Team REGULUS"
+      },
+      "name": {
+        "chs": "Team REGULUS",
+        "chs_t": "Team REGULUS",
+        "en": "Team REGULUS",
+        "jp": "チームレグルス",
+        "kr": "Team REGULUS"
+      }
+    },
+    "type": 11,
+    "usageCounts": {
+      "characterExchangeUsage": 0,
+      "characterMaterialUsage": 0,
+      "composeUsage": 0,
+      "exchangeReceive": 0,
+      "exchangeSpend": 0,
+      "mallListings": 0,
+      "packageContainers": 0,
+      "packageContents": 0,
+      "shopListings": 0,
+      "shopPricing": 0,
+      "sourceLimits": 0
+    }
+  },
+  {
+    "assets": {
+      "background": "",
+      "icon": {
+        "chs": "https://files.riichi.moe/mjg/game%20resources%20and%20tools/Mahjong%20Soul/unity_raw/extracted/MyAssets/deco/title/24sxz3/pic/chs/24sxz3_item.png",
+        "cn": "https://files.riichi.moe/mjg/game%20resources%20and%20tools/Mahjong%20Soul/unity_raw/extracted/MyAssets/deco/title/24sxz3/pic/chs_t/24sxz3_item.png",
+        "en": "https://files.riichi.moe/mjg/game%20resources%20and%20tools/Mahjong%20Soul/unity_raw/extracted/MyAssets/deco/title/24sxz3/pic/en_chs_t/24sxz3_item.png",
+        "jp": "https://files.riichi.moe/mjg/game%20resources%20and%20tools/Mahjong%20Soul/unity_raw/extracted/MyAssets/deco/title/24sxz3/pic/jp/24sxz3_item.png"
+      },
+      "loadingImage": "",
+      "portraitFrame": "",
+      "tablecloth": "",
+      "tile": "",
+      "titleArt": ""
+    },
+    "audio": null,
+    "canSell": 0,
+    "category": 7,
+    "categoryLabel": "Titles",
+    "characterExchangeUsage": [],
+    "characterMaterialUsage": [],
+    "composeUsage": [],
+    "exchangeReceive": [],
+    "exchangeSpend": [],
+    "func": "",
+    "id": 30557075,
+    "isTitleDefinition": false,
+    "isUnique": 1,
+    "kind": "item",
+    "mallListings": [],
+    "maxStack": 0,
+    "packageContainers": [],
+    "packageContents": [],
+    "profile": {
+      "access": "",
+      "accessInfo": 0,
+      "crossView": 0,
+      "databaseCache": 0,
+      "itemExpire": "2027-10-01 05:00:00",
+      "regionLimit": 0,
+      "sellRewardCount": 0,
+      "sellRewardId": 0
+    },
+    "shopListings": [],
+    "shopPricing": [],
+    "sort": 6097,
+    "sourceLimits": [],
+    "text": {
+      "description": {
+        "chs": "",
+        "chs_t": "",
+        "en": "",
+        "jp": "",
+        "kr": ""
+      },
+      "expireDescription": {
+        "chs": "2027年10月1日まで",
+        "chs_t": "2027年10月1日まで",
+        "en": "2027年10月1日まで",
+        "jp": "2027年10月1日まで",
+        "kr": "2027年10月1日まで"
+      },
+      "funcDescription": {
+        "chs": "赠予四象战冠军",
+        "chs_t": "贈予四象戰冠軍",
+        "en": "贈予四象戰冠軍",
+        "jp": "四象戦秋の陣優勝称号",
+        "kr": "贈予四象戰冠軍"
+      },
+      "name": {
+        "chs": "四象战冠军",
+        "chs_t": "四象戰冠軍",
+        "en": "四象・白虎",
+        "jp": "四象・白虎",
+        "kr": "四象・白虎"
+      }
+    },
+    "type": 11,
+    "usageCounts": {
+      "characterExchangeUsage": 0,
+      "characterMaterialUsage": 0,
+      "composeUsage": 0,
+      "exchangeReceive": 0,
+      "exchangeSpend": 0,
+      "mallListings": 0,
+      "packageContainers": 0,
+      "packageContents": 0,
+      "shopListings": 0,
+      "shopPricing": 0,
+      "sourceLimits": 0
+    }
+  },
+  {
+    "assets": {
+      "background": "",
+      "icon": {
+        "jp": "https://files.riichi.moe/mjg/game%20resources%20and%20tools/Mahjong%20Soul/unity_raw/extracted/MyAssets/deco/title/guanren/pic/jp/guanren_item.png"
+      },
+      "loadingImage": "",
+      "portraitFrame": "",
+      "tablecloth": "",
+      "tile": "",
+      "titleArt": ""
+    },
+    "audio": null,
+    "canSell": 0,
+    "category": 7,
+    "categoryLabel": "Titles",
+    "characterExchangeUsage": [],
+    "characterMaterialUsage": [],
+    "composeUsage": [],
+    "exchangeReceive": [],
+    "exchangeSpend": [],
+    "func": "",
+    "id": 30557077,
+    "isTitleDefinition": false,
+    "isUnique": 1,
+    "kind": "item",
+    "mallListings": [],
+    "maxStack": 0,
+    "packageContainers": [],
+    "packageContents": [],
+    "profile": {
+      "access": "",
+      "accessInfo": 0,
+      "crossView": 0,
+      "databaseCache": 0,
+      "itemExpire": "2027-12-01 00:00:00",
+      "regionLimit": 0,
+      "sellRewardCount": 0,
+      "sellRewardId": 0
+    },
+    "shopListings": [],
+    "shopPricing": [],
+    "sort": 6099,
+    "sourceLimits": [],
+    "text": {
+      "description": {
+        "chs": "",
+        "chs_t": "",
+        "en": "",
+        "jp": "",
+        "kr": ""
+      },
+      "expireDescription": {
+        "chs": "2027年12月1日まで",
+        "chs_t": "2027年12月1日まで",
+        "en": "2027年12月1日まで",
+        "jp": "2027年12月1日まで",
+        "kr": "2027年12月1日まで"
+      },
+      "funcDescription": {
+        "chs": "「ななし雀魂杯」優勝記念称号",
+        "chs_t": "「ななし雀魂杯」優勝記念称号",
+        "en": "「ななし雀魂杯」優勝記念称号",
+        "jp": "「ななし雀魂杯」優勝記念称号",
+        "kr": "「ななし雀魂杯」優勝記念称号"
+      },
+      "name": {
+        "chs": "Team ゴリ雄",
+        "chs_t": "Team ゴリ雄",
+        "en": "Team ゴリ雄",
+        "jp": "Team ゴリ雄",
+        "kr": "Team ゴリ雄"
+      }
+    },
+    "type": 11,
+    "usageCounts": {
+      "characterExchangeUsage": 0,
+      "characterMaterialUsage": 0,
+      "composeUsage": 0,
+      "exchangeReceive": 0,
+      "exchangeSpend": 0,
+      "mallListings": 0,
+      "packageContainers": 0,
+      "packageContents": 0,
+      "shopListings": 0,
+      "shopPricing": 0,
+      "sourceLimits": 0
+    }
+  },
+  {
+    "assets": {
+      "background": "",
+      "icon": {
+        "jp": "https://files.riichi.moe/mjg/game%20resources%20and%20tools/Mahjong%20Soul/unity_raw/extracted/MyAssets/deco/title/xsqhb3/pic/jp/xsqhb3_item.png"
+      },
+      "loadingImage": "",
+      "portraitFrame": "",
+      "tablecloth": "",
+      "tile": "",
+      "titleArt": ""
+    },
+    "audio": null,
+    "canSell": 0,
+    "category": 7,
+    "categoryLabel": "Titles",
+    "characterExchangeUsage": [],
+    "characterMaterialUsage": [],
+    "composeUsage": [],
+    "exchangeReceive": [],
+    "exchangeSpend": [],
+    "func": "",
+    "id": 30557078,
+    "isTitleDefinition": false,
+    "isUnique": 1,
+    "kind": "item",
+    "mallListings": [],
+    "maxStack": 0,
+    "packageContainers": [],
+    "packageContents": [],
+    "profile": {
+      "access": "",
+      "accessInfo": 0,
+      "crossView": 0,
+      "databaseCache": 0,
+      "itemExpire": "2027-12-01 00:00:00",
+      "regionLimit": 0,
+      "sellRewardCount": 0,
+      "sellRewardId": 0
+    },
+    "shopListings": [],
+    "shopPricing": [],
+    "sort": 6100,
+    "sourceLimits": [],
+    "text": {
+      "description": {
+        "chs": "",
+        "chs_t": "",
+        "en": "",
+        "jp": "",
+        "kr": ""
+      },
+      "expireDescription": {
+        "chs": "2027年12月1日まで",
+        "chs_t": "2027年12月1日まで",
+        "en": "2027年12月1日まで",
+        "jp": "2027年12月1日まで",
+        "kr": "2027年12月1日まで"
+      },
+      "funcDescription": {
+        "chs": "「学生雀魂杯」優勝記念称号",
+        "chs_t": "「学生雀魂杯」優勝記念称号",
+        "en": "「学生雀魂杯」優勝記念称号",
+        "jp": "「学生雀魂杯」優勝記念称号",
+        "kr": "「学生雀魂杯」優勝記念称号"
+      },
+      "name": {
+        "chs": "学生雀魂杯　西場",
+        "chs_t": "学生雀魂杯　西場",
+        "en": "学生雀魂杯　西場",
+        "jp": "学生雀魂杯　西場",
+        "kr": "学生雀魂杯　西場"
       }
     },
     "type": 11,
@@ -60271,6 +60895,93 @@
         "en": "Riichi Bet - Paint Splatter",
         "jp": "カラフルスプレーの立直棒",
         "kr": "페인트 칙칙 리치봉"
+      }
+    },
+    "type": 0,
+    "usageCounts": {
+      "characterExchangeUsage": 0,
+      "characterMaterialUsage": 0,
+      "composeUsage": 0,
+      "exchangeReceive": 0,
+      "exchangeSpend": 0,
+      "mallListings": 0,
+      "packageContainers": 0,
+      "packageContents": 0,
+      "shopListings": 0,
+      "shopPricing": 0,
+      "sourceLimits": 0
+    }
+  },
+  {
+    "assets": {
+      "background": "",
+      "icon": "https://files.riichi.moe/mjg/game%20resources%20and%20tools/Mahjong%20Soul/unity_raw/extracted/MyAssets/deco/lizhibang/liqi_26wansheng/pic/common/liqi_26wansheng.png",
+      "loadingImage": "",
+      "portraitFrame": "",
+      "tablecloth": "",
+      "tile": "",
+      "titleArt": ""
+    },
+    "audio": null,
+    "canSell": 0,
+    "category": 5,
+    "categoryLabel": "Riichi Bets",
+    "characterExchangeUsage": [],
+    "characterMaterialUsage": [],
+    "composeUsage": [],
+    "exchangeReceive": [],
+    "exchangeSpend": [],
+    "func": "",
+    "id": 30560013,
+    "isTitleDefinition": false,
+    "isUnique": 1,
+    "kind": "item",
+    "mallListings": [],
+    "maxStack": 0,
+    "packageContainers": [],
+    "packageContents": [],
+    "profile": {
+      "access": "",
+      "accessInfo": 0,
+      "crossView": 0,
+      "databaseCache": 0,
+      "itemExpire": "",
+      "regionLimit": 0,
+      "sellRewardCount": 0,
+      "sellRewardId": 0
+    },
+    "shopListings": [],
+    "shopPricing": [],
+    "sort": 7040,
+    "sourceLimits": [],
+    "text": {
+      "description": {
+        "chs": "这一瞬，奏响牌局最强音。(当期活动限定，活动结束后将从卡池中下架)",
+        "chs_t": "這一瞬，奏響牌局最強音。(當期活動限定，活動結束後將從卡池中下架)",
+        "en": "Now's the time to play the boldest note of the game.(Event limited, will be unobtainable after the end of event)",
+        "jp": "今こそ、この対局におけるフォルティッシモを奏でる時。",
+        "kr": "이 순간, 이 대국에서 가장 강렬한 소리가 울려 퍼진다."
+      },
+      "expireDescription": {
+        "chs": "",
+        "chs_t": "",
+        "en": "",
+        "jp": "",
+        "kr": ""
+      },
+      "funcDescription": {
+        "chs": "点击寮舍-装扮更换",
+        "chs_t": "點選宿舍-裝扮更換",
+        "en": "Tap Dorm - Decoration to equip.",
+        "jp": "装飾で設定することで、立直棒を変更できる。（イベント期間限定。期間終了後は入手できなくなります。）",
+        "kr": "장식품 화면에서 리치봉을 변경할 수 있다."
+      },
+      "name": {
+        "chs": "立直棒-定音之弦",
+        "chs_t": "立直棒-定音之弦",
+        "en": "Riichi Bet - Resonant Strings",
+        "jp": "渾身の一音の立直棒",
+        "kr": "조율의 현 리치봉"
       }
     },
     "type": 0,
@@ -63949,6 +64660,93 @@
   {
     "assets": {
       "background": "",
+      "icon": "https://files.riichi.moe/mjg/game%20resources%20and%20tools/Mahjong%20Soul/unity_raw/extracted/MyAssets/deco/mjpai/mjp_26wansheng/pic/common/mjp_26wansheng.png",
+      "loadingImage": "",
+      "portraitFrame": "",
+      "tablecloth": "",
+      "tile": "https://files.riichi.moe/mjg/game%20resources%20and%20tools/Mahjong%20Soul/unity_raw/extracted/MyAssets/deco/mjpai/mjp_26wansheng/3d/texture/hand.png",
+      "titleArt": ""
+    },
+    "audio": null,
+    "canSell": 0,
+    "category": 5,
+    "categoryLabel": "Tile Backs",
+    "characterExchangeUsage": [],
+    "characterMaterialUsage": [],
+    "composeUsage": [],
+    "exchangeReceive": [],
+    "exchangeSpend": [],
+    "func": "",
+    "id": 30570020,
+    "isTitleDefinition": false,
+    "isUnique": 1,
+    "kind": "item",
+    "mallListings": [],
+    "maxStack": 0,
+    "packageContainers": [],
+    "packageContents": [],
+    "profile": {
+      "access": "",
+      "accessInfo": 0,
+      "crossView": 0,
+      "databaseCache": 0,
+      "itemExpire": "",
+      "regionLimit": 0,
+      "sellRewardCount": 0,
+      "sellRewardId": 0
+    },
+    "shopListings": [],
+    "shopPricing": [],
+    "sort": 8045,
+    "sourceLimits": [],
+    "text": {
+      "description": {
+        "chs": "当指尖掀开牌面，它们便汇聚成了命运中的凯旋乐章。(当期活动限定，活动结束后将从卡池中下架)",
+        "chs_t": "當指尖翻開牌面，它們便匯聚成了命運中的凱旋樂章。(當期活動限定，活動結束後將從卡池中下架)",
+        "en": "Every tile you reveal adds a note to your melody of victory.(Event limited, will be unobtainable after the end of event)",
+        "jp": "牌をめくろう。その音が、運命の凱歌になるから。",
+        "kr": "손끝으로 패를 들출 때마다, 운명 속 승리의 악장이 한 음씩 쌓여간다."
+      },
+      "expireDescription": {
+        "chs": "",
+        "chs_t": "",
+        "en": "",
+        "jp": "",
+        "kr": ""
+      },
+      "funcDescription": {
+        "chs": "点击寮舍-装扮更换",
+        "chs_t": "點選宿舍-裝扮更換",
+        "en": "Tap Dorm - Decoration to equip.",
+        "jp": "装飾で設定することで、麻雀牌を変更できる。（イベント期間限定。期間終了後は入手できなくなります。）",
+        "kr": "장식품 화면에서 마작패를 변경할 수 있다."
+      },
+      "name": {
+        "chs": "牌背-鎏金乐章",
+        "chs_t": "牌背-鎏金樂章",
+        "en": "Tile Back - Golden Symphony",
+        "jp": "煌めく楽章の麻雀牌",
+        "kr": "마작패: 찬란한 악장"
+      }
+    },
+    "type": 7,
+    "usageCounts": {
+      "characterExchangeUsage": 0,
+      "characterMaterialUsage": 0,
+      "composeUsage": 0,
+      "exchangeReceive": 0,
+      "exchangeSpend": 0,
+      "mallListings": 0,
+      "packageContainers": 0,
+      "packageContents": 0,
+      "shopListings": 0,
+      "shopPricing": 0,
+      "sourceLimits": 0
+    }
+  },
+  {
+    "assets": {
+      "background": "",
       "icon": {
         "chs": "https://files.riichi.moe/mjg/game%20resources%20and%20tools/Mahjong%20Soul/unity_raw/extracted/MyAssets/deco/mjpai/mjp_26gaoxiaosai/pic/chs/mjp_26gaoxiaosai.png",
         "cn": "https://files.riichi.moe/mjg/game%20resources%20and%20tools/Mahjong%20Soul/unity_raw/extracted/MyAssets/deco/mjpai/mjp_26gaoxiaosai/pic/chs_t/mjp_26gaoxiaosai.png",
@@ -63996,11 +64794,11 @@
     "sourceLimits": [],
     "text": {
       "description": {
-        "chs": "牌背-高校赛",
-        "chs_t": "牌背-高校赛",
-        "en": "牌背-高校赛",
-        "jp": "牌背-高校赛",
-        "kr": "牌背-高校赛"
+        "chs": "牌背-高校联赛",
+        "chs_t": "牌背-高校聯賽",
+        "en": "牌背-高校聯賽",
+        "jp": "牌背-高校聯賽",
+        "kr": "牌背-高校聯賽"
       },
       "expireDescription": {
         "chs": "",
@@ -64017,11 +64815,11 @@
         "kr": "장식품 화면에서 마작패를 변경할 수 있다."
       },
       "name": {
-        "chs": "牌背-高校赛",
-        "chs_t": "牌背-高校赛",
-        "en": "牌背-高校赛",
-        "jp": "牌背-高校赛",
-        "kr": "牌背-高校赛"
+        "chs": "牌背-高校联赛",
+        "chs_t": "牌背-高校聯賽",
+        "en": "牌背-高校聯賽",
+        "jp": "牌背-高校聯賽",
+        "kr": "牌背-高校聯賽"
       }
     },
     "type": 7,
@@ -69636,6 +70434,93 @@
   {
     "assets": {
       "background": "",
+      "icon": "https://files.riichi.moe/mjg/game%20resources%20and%20tools/Mahjong%20Soul/unity_raw/extracted/MyAssets/deco/tablecloth/tablecloth_26wansheng/pic/common/tablecloth_26wansheng.png",
+      "loadingImage": "",
+      "portraitFrame": "",
+      "tablecloth": "https://files.riichi.moe/mjg/game%20resources%20and%20tools/Mahjong%20Soul/unity_raw/extracted/MyAssets/deco/tablecloth/tablecloth_26wansheng/3d/texture/Table_Dif.png",
+      "tile": "",
+      "titleArt": ""
+    },
+    "audio": null,
+    "canSell": 0,
+    "category": 5,
+    "categoryLabel": "Tablecloths",
+    "characterExchangeUsage": [],
+    "characterMaterialUsage": [],
+    "composeUsage": [],
+    "exchangeReceive": [],
+    "exchangeSpend": [],
+    "func": "",
+    "id": 30580031,
+    "isTitleDefinition": false,
+    "isUnique": 1,
+    "kind": "item",
+    "mallListings": [],
+    "maxStack": 0,
+    "packageContainers": [],
+    "packageContents": [],
+    "profile": {
+      "access": "",
+      "accessInfo": 0,
+      "crossView": 0,
+      "databaseCache": 0,
+      "itemExpire": "",
+      "regionLimit": 0,
+      "sellRewardCount": 0,
+      "sellRewardId": 0
+    },
+    "shopListings": [],
+    "shopPricing": [],
+    "sort": 10050,
+    "sourceLimits": [],
+    "text": {
+      "description": {
+        "chs": "幕布徐徐开启，乐声悠然奏响，属于你的传奇，即将在此上演——(当期活动限定，活动结束后将从卡池中下架)",
+        "chs_t": "帷幕徐徐拉開，樂聲悠然響起，屬於你的傳奇，即將在此上演——(當期活動限定，活動結束後將從卡池中下架)",
+        "en": "The curtains rise, the music swells. Let the show begin.(Event limited, will be unobtainable after the end of event)",
+        "jp": "幕が上がり、音が響き始める。あなたのための奇跡は、今ここで奏でられる。",
+        "kr": "천천히 막이 열리고, 잔잔한 음악이 울려 퍼진다. 당신의 전설이 여기서 곧 펼쳐질 것이다……"
+      },
+      "expireDescription": {
+        "chs": "",
+        "chs_t": "",
+        "en": "",
+        "jp": "",
+        "kr": ""
+      },
+      "funcDescription": {
+        "chs": "点击寮舍-装扮更换",
+        "chs_t": "點選宿舍-裝扮更換",
+        "en": "Tap Dorm - Decoration to equip.",
+        "jp": "装飾で設定することで、雀卓を変更できる。（イベント期間限定。期間終了後は入手できなくなります。）",
+        "kr": "장식품 화면에서 작탁을 변경할 수 있다."
+      },
+      "name": {
+        "chs": "桌布-奇迹舞台",
+        "chs_t": "桌布-奇跡舞台",
+        "en": "Tablecloth - Stage of Wonders",
+        "jp": "奇跡のステージの雀卓",
+        "kr": "작탁: 기적의 무대"
+      }
+    },
+    "type": 6,
+    "usageCounts": {
+      "characterExchangeUsage": 0,
+      "characterMaterialUsage": 0,
+      "composeUsage": 0,
+      "exchangeReceive": 0,
+      "exchangeSpend": 0,
+      "mallListings": 0,
+      "packageContainers": 0,
+      "packageContents": 0,
+      "shopListings": 0,
+      "shopPricing": 0,
+      "sourceLimits": 0
+    }
+  },
+  {
+    "assets": {
+      "background": "",
       "icon": "https://files.riichi.moe/mjg/game%20resources%20and%20tools/Mahjong%20Soul/unity_raw/extracted/MyAssets/deco/tablecloth/tablecloth_26gaoxiaosai/pic/common/tablecloth_26gaoxiaosai.png",
       "loadingImage": "",
       "portraitFrame": "",
@@ -69677,11 +70562,11 @@
     "sourceLimits": [],
     "text": {
       "description": {
-        "chs": "官方赛事-高校赛",
-        "chs_t": "官方赛事-高校赛",
-        "en": "官方赛事-高校赛",
-        "jp": "官方赛事-高校赛",
-        "kr": "官方赛事-高校赛"
+        "chs": "官方赛事-高校联赛",
+        "chs_t": "官方賽事-高校聯賽",
+        "en": "官方賽事-高校聯賽",
+        "jp": "官方賽事-高校聯賽",
+        "kr": "官方賽事-高校聯賽"
       },
       "expireDescription": {
         "chs": "",
@@ -69698,11 +70583,11 @@
         "kr": "장식품 화면에서 작탁을 변경할 수 있다."
       },
       "name": {
-        "chs": "桌布-官方赛事高校赛",
-        "chs_t": "桌布-官方赛事高校赛",
-        "en": "桌布-官方赛事高校赛",
-        "jp": "桌布-官方赛事高校赛",
-        "kr": "桌布-官方赛事高校赛"
+        "chs": "桌布-官方赛事高校联赛",
+        "chs_t": "桌布-官方賽事高校聯賽",
+        "en": "桌布-官方賽事高校聯賽",
+        "jp": "桌布-官方賽事高校聯賽",
+        "kr": "桌布-官方賽事高校聯賽"
       }
     },
     "type": 6,
@@ -71023,6 +71908,114 @@
         "en": "Serene Sleigh Ride",
         "jp": "聖夜の響き",
         "kr": "이브의 연주"
+      }
+    },
+    "type": 9,
+    "usageCounts": {
+      "characterExchangeUsage": 0,
+      "characterMaterialUsage": 0,
+      "composeUsage": 0,
+      "exchangeReceive": 0,
+      "exchangeSpend": 0,
+      "mallListings": 0,
+      "packageContainers": 0,
+      "packageContents": 0,
+      "shopListings": 0,
+      "shopPricing": 0,
+      "sourceLimits": 0
+    }
+  },
+  {
+    "assets": {
+      "background": "",
+      "icon": "https://files.riichi.moe/mjg/game%20resources%20and%20tools/Mahjong%20Soul/unity_raw/extracted/MyAssets/deco/bgm/pic/common/datingbgm.png",
+      "loadingImage": "",
+      "portraitFrame": "",
+      "tablecloth": "",
+      "tile": "",
+      "titleArt": ""
+    },
+    "audio": {
+      "kind": "music",
+      "path": "music/lobby_26wansheng.mp3",
+      "text": {
+        "description": {
+          "chs": "",
+          "chs_t": "",
+          "en": "",
+          "jp": "",
+          "kr": ""
+        },
+        "name": {
+          "chs": "未完诗篇",
+          "chs_t": "未完詩篇",
+          "en": "An Unfinished Verse",
+          "jp": "未完成の詩",
+          "kr": "미완의 시"
+        }
+      },
+      "title": "Music",
+      "url": "https://files.riichi.moe/mjg/game%20resources%20and%20tools/Mahjong%20Soul/unity_raw/extracted/MyAssets/audio/music/lobby_26wansheng.mp3"
+    },
+    "canSell": 0,
+    "category": 5,
+    "categoryLabel": "Music",
+    "characterExchangeUsage": [],
+    "characterMaterialUsage": [],
+    "composeUsage": [],
+    "exchangeReceive": [],
+    "exchangeSpend": [],
+    "func": "",
+    "id": 30600004,
+    "isTitleDefinition": false,
+    "isUnique": 1,
+    "kind": "item",
+    "mallListings": [],
+    "maxStack": 0,
+    "packageContainers": [],
+    "packageContents": [],
+    "profile": {
+      "access": "",
+      "accessInfo": 0,
+      "crossView": 0,
+      "databaseCache": 0,
+      "itemExpire": "",
+      "regionLimit": 0,
+      "sellRewardCount": 0,
+      "sellRewardId": 0
+    },
+    "shopListings": [],
+    "shopPricing": [],
+    "sort": 12010,
+    "sourceLimits": [],
+    "text": {
+      "description": {
+        "chs": "故事还没有写完，留一点空白给明日，也留一点想象给此刻。",
+        "chs_t": "故事還沒有寫完，留一點空白給明日，也留一點想像給此刻。",
+        "en": "The story isn't over yet. Leave the ending to the imagination.",
+        "jp": "結末のない物語、その余白は想像力の糧となる。",
+        "kr": "이야기는 아직 다 쓰이지 않았다. 조금의 공백은 내일에게 남겨두고, 약간의 상상은 지금에게 남겨두자."
+      },
+      "expireDescription": {
+        "chs": "",
+        "chs_t": "",
+        "en": "",
+        "jp": "",
+        "kr": ""
+      },
+      "funcDescription": {
+        "chs": "大厅音乐，可以在设置-通用-音乐中调整",
+        "chs_t": "大廳音樂，可以在設定-通用-音樂中調整",
+        "en": "Adjust the Lobby BGM in Settings - General - BGM.",
+        "jp": "設定からメイン画面のBGMを設定することができます。",
+        "kr": "설정에서 BGM을 변경할 수 있다."
+      },
+      "name": {
+        "chs": "未完诗篇",
+        "chs_t": "未完詩篇",
+        "en": "An Unfinished Verse",
+        "jp": "未完成の詩",
+        "kr": "미완의 시"
       }
     },
     "type": 9,
@@ -72427,6 +73420,114 @@
         "en": "Majestic Elegance",
         "jp": "優雅に、格調高く",
         "kr": "우아한 격조"
+      }
+    },
+    "type": 9,
+    "usageCounts": {
+      "characterExchangeUsage": 0,
+      "characterMaterialUsage": 0,
+      "composeUsage": 0,
+      "exchangeReceive": 0,
+      "exchangeSpend": 0,
+      "mallListings": 0,
+      "packageContainers": 0,
+      "packageContents": 0,
+      "shopListings": 0,
+      "shopPricing": 0,
+      "sourceLimits": 0
+    }
+  },
+  {
+    "assets": {
+      "background": "",
+      "icon": "https://files.riichi.moe/mjg/game%20resources%20and%20tools/Mahjong%20Soul/unity_raw/extracted/MyAssets/deco/bgm/pic/common/duijubgm.png",
+      "loadingImage": "",
+      "portraitFrame": "",
+      "tablecloth": "",
+      "tile": "",
+      "titleArt": ""
+    },
+    "audio": {
+      "kind": "music",
+      "path": "music/26wansheng_duiju.mp3",
+      "text": {
+        "description": {
+          "chs": "",
+          "chs_t": "",
+          "en": "",
+          "jp": "",
+          "kr": ""
+        },
+        "name": {
+          "chs": "弦上华章",
+          "chs_t": "弦上華章",
+          "en": "Strings of Splendor",
+          "jp": "弦の上のメロディ",
+          "kr": "찬란한 현"
+        }
+      },
+      "title": "Music",
+      "url": "https://files.riichi.moe/mjg/game%20resources%20and%20tools/Mahjong%20Soul/unity_raw/extracted/MyAssets/audio/music/26wansheng_duiju.mp3"
+    },
+    "canSell": 0,
+    "category": 5,
+    "categoryLabel": "Music",
+    "characterExchangeUsage": [],
+    "characterMaterialUsage": [],
+    "composeUsage": [],
+    "exchangeReceive": [],
+    "exchangeSpend": [],
+    "func": "",
+    "id": 30610007,
+    "isTitleDefinition": false,
+    "isUnique": 1,
+    "kind": "item",
+    "mallListings": [],
+    "maxStack": 0,
+    "packageContainers": [],
+    "packageContents": [],
+    "profile": {
+      "access": "",
+      "accessInfo": 0,
+      "crossView": 0,
+      "databaseCache": 0,
+      "itemExpire": "",
+      "regionLimit": 0,
+      "sellRewardCount": 0,
+      "sellRewardId": 0
+    },
+    "shopListings": [],
+    "shopPricing": [],
+    "sort": 13014,
+    "sourceLimits": [],
+    "text": {
+      "description": {
+        "chs": "落牌如落音，命运的旋律正缓缓升起……(当期活动限定，活动结束后将从卡池中下架)",
+        "chs_t": "落牌如落音，命運的旋律正緩緩升起……(當期活動限定，活動結束後將從卡池中下架)",
+        "en": "Each tile played draws out a note, weaving together fate's melody... (Event limited, will be unobtainable after the end of event)",
+        "jp": "牌を切るたび、その音が運命の旋律を奏でる。",
+        "kr": "패를 버리는 건 음을 더하는 것과 같다. 운명의 선율이 서서히 울려 퍼지고 있다……"
+      },
+      "expireDescription": {
+        "chs": "",
+        "chs_t": "",
+        "en": "",
+        "jp": "",
+        "kr": ""
+      },
+      "funcDescription": {
+        "chs": "对局音乐，可以在设置-通用-音乐中调整",
+        "chs_t": "對局音樂，可以在設定-通用-音樂中調整",
+        "en": "Adjust the Match BGM in Settings - General - BGM.",
+        "jp": "設定から対局のBGMを設定することができます。（イベント期間限定。期間終了後は入手できなくなります。）",
+        "kr": "설정에서 BGM을 변경할 수 있다."
+      },
+      "name": {
+        "chs": "弦上华章",
+        "chs_t": "弦上華章",
+        "en": "Strings of Splendor",
+        "jp": "弦の上のメロディ",
+        "kr": "찬란한 현"
       }
     },
     "type": 9,
@@ -74760,6 +75861,126 @@
         "en": "Radiance Falls",
         "jp": "霞光の滝",
         "kr": "연하폭포"
+      }
+    },
+    "type": 8,
+    "usageCounts": {
+      "characterExchangeUsage": 0,
+      "characterMaterialUsage": 0,
+      "composeUsage": 0,
+      "exchangeReceive": 0,
+      "exchangeSpend": 0,
+      "mallListings": 0,
+      "packageContainers": 0,
+      "packageContents": 0,
+      "shopListings": 1,
+      "shopPricing": 0,
+      "sourceLimits": 0
+    }
+  },
+  {
+    "assets": {
+      "background": "https://files.riichi.moe/mjg/game%20resources%20and%20tools/Mahjong%20Soul/unity_raw/extracted/MyAssets/extendRes/background/lobby/beijing_fengchehuatian/beijing_fengchehuatian.png",
+      "icon": "https://files.riichi.moe/mjg/game%20resources%20and%20tools/Mahjong%20Soul/unity_raw/extracted/MyAssets/deco/lobby_background/beijing_fengchehuatian/pic/common/beijing_fengchehuatian.png",
+      "loadingImage": "",
+      "portraitFrame": "",
+      "tablecloth": "",
+      "tile": "",
+      "titleArt": ""
+    },
+    "audio": null,
+    "canSell": 0,
+    "category": 5,
+    "categoryLabel": "Backgrounds",
+    "characterExchangeUsage": [],
+    "characterMaterialUsage": [],
+    "composeUsage": [],
+    "exchangeReceive": [],
+    "exchangeSpend": [],
+    "func": "",
+    "id": 30700010,
+    "isTitleDefinition": false,
+    "isUnique": 1,
+    "kind": "item",
+    "mallListings": [],
+    "maxStack": 0,
+    "packageContainers": [],
+    "packageContents": [],
+    "profile": {
+      "access": "",
+      "accessInfo": 0,
+      "crossView": 0,
+      "databaseCache": 0,
+      "itemExpire": "",
+      "regionLimit": 0,
+      "sellRewardCount": 0,
+      "sellRewardId": 0
+    },
+    "shopListings": [
+      {
+        "buyLimit": 1,
+        "category": 7,
+        "discount": 10000,
+        "id": 6014,
+        "launchTime": "2026-10-21 11:00:00+08",
+        "priceRaw": "100004-600",
+        "prices": [
+          {
+            "count": 600,
+            "itemId": 100004,
+            "raw": "100004-600"
+          }
+        ],
+        "text": {
+          "description": {
+            "chs": "",
+            "chs_t": "",
+            "en": "",
+            "jp": "",
+            "kr": ""
+          },
+          "name": {
+            "chs": "风车花田",
+            "chs_t": "風車花田",
+            "en": "Among the Wildflowers",
+            "jp": "風車と花畑",
+            "kr": "꽃밭의 풍차"
+          }
+        },
+        "zone": "1,2,3"
+      }
+    ],
+    "shopPricing": [],
+    "sort": 14021,
+    "sourceLimits": [],
+    "text": {
+      "description": {
+        "chs": "去往梦幻的郁金花海吧。",
+        "chs_t": "前往夢幻的鬱金花海吧。",
+        "en": "Wander into a dreamy sea of blooms.",
+        "jp": "チューリップが咲く花の海へ飛び込もう。",
+        "kr": "몽환적인 꽃의 바다로 떠나 보세요."
+      },
+      "expireDescription": {
+        "chs": "",
+        "chs_t": "",
+        "en": "",
+        "jp": "",
+        "kr": ""
+      },
+      "funcDescription": {
+        "chs": "点击寮舍-装扮更换",
+        "chs_t": "點選宿舍-裝扮更換",
+        "en": "Tap Dorm - Decoration to equip.",
+        "jp": "装飾で設定することで、背景を変更できる。",
+        "kr": "장식품 화면에서 배경을 변경할 수 있다."
+      },
+      "name": {
+        "chs": "风车花田",
+        "chs_t": "風車花田",
+        "en": "Among the Wildflowers",
+        "jp": "風車と花畑",
+        "kr": "꽃밭의 풍차"
       }
     },
     "type": 8,
@@ -79838,6 +81059,126 @@
   {
     "assets": {
       "background": "",
+      "icon": "https://files.riichi.moe/mjg/game%20resources%20and%20tools/Mahjong%20Soul/unity_raw/extracted/MyAssets/deco/loading_cg/261001/thumb/common/261001_thumb.png",
+      "loadingImage": "https://files.riichi.moe/mjg/game%20resources%20and%20tools/Mahjong%20Soul/unity_raw/extracted/MyAssets/deco/loading_cg/261001/main/common/261001.png",
+      "portraitFrame": "",
+      "tablecloth": "",
+      "tile": "",
+      "titleArt": ""
+    },
+    "audio": null,
+    "canSell": 0,
+    "category": 8,
+    "categoryLabel": "Loading Screens",
+    "characterExchangeUsage": [],
+    "characterMaterialUsage": [],
+    "composeUsage": [],
+    "exchangeReceive": [],
+    "exchangeSpend": [],
+    "func": "",
+    "id": 307496,
+    "isTitleDefinition": false,
+    "isUnique": 1,
+    "kind": "item",
+    "mallListings": [],
+    "maxStack": 0,
+    "packageContainers": [],
+    "packageContents": [],
+    "profile": {
+      "access": "",
+      "accessInfo": 0,
+      "crossView": 0,
+      "databaseCache": 0,
+      "itemExpire": "",
+      "regionLimit": 0,
+      "sellRewardCount": 0,
+      "sellRewardId": 0
+    },
+    "shopListings": [
+      {
+        "buyLimit": 1,
+        "category": 9,
+        "discount": 10000,
+        "id": 9084,
+        "launchTime": "",
+        "priceRaw": "302005-8",
+        "prices": [
+          {
+            "count": 8,
+            "itemId": 302005,
+            "raw": "302005-8"
+          }
+        ],
+        "text": {
+          "description": {
+            "chs": "",
+            "chs_t": "",
+            "en": "",
+            "jp": "",
+            "kr": ""
+          },
+          "name": {
+            "chs": "",
+            "chs_t": "",
+            "en": "",
+            "jp": "",
+            "kr": ""
+          }
+        },
+        "zone": "1,2,3"
+      }
+    ],
+    "shopPricing": [],
+    "sort": 15096,
+    "sourceLimits": [],
+    "text": {
+      "description": {
+        "chs": "喂喂喂！捣蛋鬼集体出逃啦！再不来管管，就要跑到你身边恶作剧了哦～！",
+        "chs_t": "喂喂喂！搗蛋鬼集體落跑啦！再不來管一下，就要跑到你身邊惡作劇了喔～！",
+        "en": "Hey! The little pranksters are on the loose! You better catch them before they come trick you~",
+        "jp": "いたずらっ子が現れた！ お菓子くれないと、みんなでいたずらしちゃうぞ！",
+        "kr": "이봐! 장난꾸러기들이 도망쳤어! 빨리 찾지 않으면, 네게도 찾아가 장난을 칠 거야~!"
+      },
+      "expireDescription": {
+        "chs": "",
+        "chs_t": "",
+        "en": "",
+        "jp": "",
+        "kr": ""
+      },
+      "funcDescription": {
+        "chs": "点击仓库-插画更换",
+        "chs_t": "點選倉庫-插畫更換",
+        "en": "Tap Items - Illustration to equip.",
+        "jp": "倉庫・イラストで設定できる",
+        "kr": "[창고]-[일러스트]에서 변경할 수 있다."
+      },
+      "name": {
+        "chs": "幻夜大冒险-2026",
+        "chs_t": "幻夜大冒險-2026",
+        "en": "Enchanted Night (2026)",
+        "jp": "夜の大冒険 -2026",
+        "kr": "마법 같은 밤-2026"
+      }
+    },
+    "type": 12,
+    "usageCounts": {
+      "characterExchangeUsage": 0,
+      "characterMaterialUsage": 0,
+      "composeUsage": 0,
+      "exchangeReceive": 0,
+      "exchangeSpend": 0,
+      "mallListings": 0,
+      "packageContainers": 0,
+      "packageContents": 0,
+      "shopListings": 1,
+      "shopPricing": 0,
+      "sourceLimits": 0
+    }
+  },
+  {
+    "assets": {
+      "background": "",
       "icon": "https://files.riichi.moe/mjg/game%20resources%20and%20tools/Mahjong%20Soul/unity_raw/extracted/MyAssets/deco/loading_cg/CG200001/thumb/common/CG200001_thumb.png",
       "loadingImage": "https://files.riichi.moe/mjg/game%20resources%20and%20tools/Mahjong%20Soul/unity_raw/extracted/MyAssets/deco/loading_cg/CG200001/main/common/CG200001.png",
       "portraitFrame": "",
@@ -81819,6 +83160,93 @@
         "en": "Protector of Reina Nanami",
         "jp": "七海礼奈の守護者",
         "kr": "나나미 레이나의 수호자"
+      }
+    },
+    "type": 12,
+    "usageCounts": {
+      "characterExchangeUsage": 0,
+      "characterMaterialUsage": 0,
+      "composeUsage": 0,
+      "exchangeReceive": 0,
+      "exchangeSpend": 0,
+      "mallListings": 0,
+      "packageContainers": 0,
+      "packageContents": 0,
+      "shopListings": 0,
+      "shopPricing": 0,
+      "sourceLimits": 0
+    }
+  },
+  {
+    "assets": {
+      "background": "",
+      "icon": "https://files.riichi.moe/mjg/game%20resources%20and%20tools/Mahjong%20Soul/unity_raw/extracted/MyAssets/deco/loading_cg/CG200059/thumb/common/CG200059_thumb.png",
+      "loadingImage": "https://files.riichi.moe/mjg/game%20resources%20and%20tools/Mahjong%20Soul/unity_raw/extracted/MyAssets/deco/loading_cg/CG200059/main/common/CG200059.png",
+      "portraitFrame": "",
+      "tablecloth": "",
+      "tile": "",
+      "titleArt": ""
+    },
+    "audio": null,
+    "canSell": 0,
+    "category": 8,
+    "categoryLabel": "Loading Screens",
+    "characterExchangeUsage": [],
+    "characterMaterialUsage": [],
+    "composeUsage": [],
+    "exchangeReceive": [],
+    "exchangeSpend": [],
+    "func": "",
+    "id": 30740024,
+    "isTitleDefinition": false,
+    "isUnique": 1,
+    "kind": "item",
+    "mallListings": [],
+    "maxStack": 0,
+    "packageContainers": [],
+    "packageContents": [],
+    "profile": {
+      "access": "",
+      "accessInfo": 0,
+      "crossView": 0,
+      "databaseCache": 0,
+      "itemExpire": "",
+      "regionLimit": 0,
+      "sellRewardCount": 0,
+      "sellRewardId": 0
+    },
+    "shopListings": [],
+    "shopPricing": [],
+    "sort": 16024,
+    "sourceLimits": [],
+    "text": {
+      "description": {
+        "chs": "【柚的守护者】成就纪念插图",
+        "chs_t": "【柚的守護者】成就紀念插圖",
+        "en": "[Protector of Yuzu] Achievement Commemoration",
+        "jp": "「ゆずの守護者」記念イラスト",
+        "kr": "[유즈의 수호자] 달성 기념 일러스트"
+      },
+      "expireDescription": {
+        "chs": "",
+        "chs_t": "",
+        "en": "",
+        "jp": "",
+        "kr": ""
+      },
+      "funcDescription": {
+        "chs": "点击仓库-插画更换",
+        "chs_t": "點選倉庫-插畫更換",
+        "en": "Tap Items - Illustration to equip.",
+        "jp": "倉庫・イラストで設定できる",
+        "kr": "[창고]-[일러스트]에서 변경할 수 있다."
+      },
+      "name": {
+        "chs": "柚的守护者",
+        "chs_t": "柚的守護者",
+        "en": "Protector of Yuzu",
+        "jp": "ゆずの守護者",
+        "kr": "유즈의 수호자"
       }
     },
     "type": 12,
@@ -97187,7 +98615,7 @@
   {
     "assets": {
       "background": "",
-      "icon": "https://files.riichi.moe/mjg/game%20resources%20and%20tools/Mahjong%20Soul/unity_raw/extracted/MyAssets/extendRes/items/common/xigua.png",
+      "icon": "https://files.riichi.moe/mjg/game%20resources%20and%20tools/Mahjong%20Soul/unity_raw/extracted/MyAssets/deco/lizhibang/liqi_23summer/3d/texture/xigua.png",
       "loadingImage": "",
       "portraitFrame": "",
       "tablecloth": "",
@@ -97903,9 +99331,7 @@
   {
     "assets": {
       "background": "",
-      "icon": {
-        "jp": "https://files.riichi.moe/mjg/game%20resources%20and%20tools/Mahjong%20Soul/unity_raw/extracted/MyAssets/extendRes/items/jp/touzi.png"
-      },
+      "icon": "",
       "loadingImage": "",
       "portraitFrame": "",
       "tablecloth": "",
@@ -98268,9 +99694,7 @@
   {
     "assets": {
       "background": "",
-      "icon": {
-        "jp": "https://files.riichi.moe/mjg/game%20resources%20and%20tools/Mahjong%20Soul/unity_raw/extracted/MyAssets/extendRes/items/jp/touzi.png"
-      },
+      "icon": "",
       "loadingImage": "",
       "portraitFrame": "",
       "tablecloth": "",
@@ -113629,6 +115053,180 @@
   {
     "assets": {
       "background": "",
+      "icon": "https://files.riichi.moe/mjg/game%20resources%20and%20tools/Mahjong%20Soul/unity_raw/extracted/MyAssets/ui/activity/extend/26wansheng/main/pic_scattered/common/26wansheng1.png",
+      "loadingImage": "",
+      "portraitFrame": "",
+      "tablecloth": "",
+      "tile": "",
+      "titleArt": ""
+    },
+    "audio": null,
+    "canSell": 0,
+    "category": 6,
+    "categoryLabel": "Event Items",
+    "characterExchangeUsage": [],
+    "characterMaterialUsage": [],
+    "composeUsage": [],
+    "exchangeReceive": [],
+    "exchangeSpend": [],
+    "func": "",
+    "id": 30900107,
+    "isTitleDefinition": false,
+    "isUnique": 0,
+    "kind": "item",
+    "mallListings": [],
+    "maxStack": 0,
+    "packageContainers": [],
+    "packageContents": [],
+    "profile": {
+      "access": "",
+      "accessInfo": 0,
+      "crossView": 0,
+      "databaseCache": 0,
+      "itemExpire": "",
+      "regionLimit": 0,
+      "sellRewardCount": 0,
+      "sellRewardId": 0
+    },
+    "shopListings": [],
+    "shopPricing": [],
+    "sort": 20179,
+    "sourceLimits": [],
+    "text": {
+      "description": {
+        "chs": "筑梦琴屋活动限定道具，完成活动任务获得。可用于活动内升级。",
+        "chs_t": "築夢琴屋活動限定道具，完成活動任務獲得。可用於活動內升級。",
+        "en": "Dreams on the Keys event item, earned by completing event missions and used for level-ups.",
+        "jp": "イベントクエストを達成することで入手できます。イベント内の強化で使用できます。",
+        "kr": "피아노에 피어난 꿈 이벤트 한정 아이템. 이벤트 내 레벨업에 사용되며, 이벤트 임무를 완성하면 획득할 수 있다."
+      },
+      "expireDescription": {
+        "chs": "",
+        "chs_t": "",
+        "en": "",
+        "jp": "",
+        "kr": ""
+      },
+      "funcDescription": {
+        "chs": "活动限定道具",
+        "chs_t": "活動限定道具",
+        "en": "Event-limited item.",
+        "jp": "イベント「夢を紡ぐピアノ教室」のイベントアイテム。",
+        "kr": "기간 한정 아이템."
+      },
+      "name": {
+        "chs": "灵感音符",
+        "chs_t": "靈感音符",
+        "en": "Dream Notes",
+        "jp": "ひらめきの音符",
+        "kr": "영감 음표"
+      }
+    },
+    "type": 0,
+    "usageCounts": {
+      "characterExchangeUsage": 0,
+      "characterMaterialUsage": 0,
+      "composeUsage": 0,
+      "exchangeReceive": 0,
+      "exchangeSpend": 0,
+      "mallListings": 0,
+      "packageContainers": 0,
+      "packageContents": 0,
+      "shopListings": 0,
+      "shopPricing": 0,
+      "sourceLimits": 0
+    }
+  },
+  {
+    "assets": {
+      "background": "",
+      "icon": "https://files.riichi.moe/mjg/game%20resources%20and%20tools/Mahjong%20Soul/unity_raw/extracted/MyAssets/ui/activity/extend/26wansheng/main/pic_scattered/common/26wansheng2.png",
+      "loadingImage": "",
+      "portraitFrame": "",
+      "tablecloth": "",
+      "tile": "",
+      "titleArt": ""
+    },
+    "audio": null,
+    "canSell": 0,
+    "category": 6,
+    "categoryLabel": "Event Items",
+    "characterExchangeUsage": [],
+    "characterMaterialUsage": [],
+    "composeUsage": [],
+    "exchangeReceive": [],
+    "exchangeSpend": [],
+    "func": "",
+    "id": 30900108,
+    "isTitleDefinition": false,
+    "isUnique": 0,
+    "kind": "item",
+    "mallListings": [],
+    "maxStack": 9999999,
+    "packageContainers": [],
+    "packageContents": [],
+    "profile": {
+      "access": "",
+      "accessInfo": 0,
+      "crossView": 0,
+      "databaseCache": 0,
+      "itemExpire": "",
+      "regionLimit": 0,
+      "sellRewardCount": 0,
+      "sellRewardId": 0
+    },
+    "shopListings": [],
+    "shopPricing": [],
+    "sort": 20180,
+    "sourceLimits": [],
+    "text": {
+      "description": {
+        "chs": "筑梦琴屋活动限定道具，活动期间通过完成任意无电脑对局或完成活动任务获得。提升知名度可以获得活动奖励。",
+        "chs_t": "築夢琴屋活動限定道具，活動期間透過完成任意無電腦對局或完成活動任務獲得。提升知名度可以獲得活動獎勵。",
+        "en": "Dreams on the Keys event item, earned by completing non-AI matches or event missions. Collect Applause to unlock event rewards.",
+        "jp": "任意のCPUなし対局およびイベントクエストから入手できます。たくさん集めると知名度ランクを上げることができます。",
+        "kr": "피아노에 피어난 꿈 이벤트 한정 아이템. 이벤트 기간 동안 등급전과 이벤트 대국, 이벤트 임무를 통해 획득할 수 있다. 인지도를 높이면 이벤트 보상을 획득할 수 있다."
+      },
+      "expireDescription": {
+        "chs": "",
+        "chs_t": "",
+        "en": "",
+        "jp": "",
+        "kr": ""
+      },
+      "funcDescription": {
+        "chs": "活动限定道具",
+        "chs_t": "活動限定道具",
+        "en": "Event-limited item.",
+        "jp": "イベント「夢を紡ぐピアノ教室」のイベントアイテム。",
+        "kr": "기간 한정 아이템."
+      },
+      "name": {
+        "chs": "知名度",
+        "chs_t": "知名度",
+        "en": "Applause",
+        "jp": "知名度",
+        "kr": "인지도"
+      }
+    },
+    "type": 0,
+    "usageCounts": {
+      "characterExchangeUsage": 0,
+      "characterMaterialUsage": 0,
+      "composeUsage": 0,
+      "exchangeReceive": 0,
+      "exchangeSpend": 0,
+      "mallListings": 0,
+      "packageContainers": 0,
+      "packageContents": 0,
+      "shopListings": 0,
+      "shopPricing": 0,
+      "sourceLimits": 0
+    }
+  },
+  {
+    "assets": {
+      "background": "",
       "icon": "https://files.riichi.moe/mjg/game%20resources%20and%20tools/Mahjong%20Soul/unity_raw/extracted/MyAssets/deco/mjpface/mjpface_25summer/pic/common/mjpface_25summer.png",
       "loadingImage": "",
       "portraitFrame": "",
@@ -124784,11 +126382,11 @@
     "sourceLimits": [],
     "text": {
       "description": {
-        "chs": "赠予2026雀魂高校赛冠军",
-        "chs_t": "贈予2026雀魂高校賽冠軍",
-        "en": "贈予2026雀魂高校賽冠軍",
-        "jp": "贈予2026雀魂高校賽冠軍",
-        "kr": "贈予2026雀魂高校賽冠軍"
+        "chs": "赠予2026雀魂高校联赛冠军",
+        "chs_t": "贈予2026雀魂高校聯賽冠軍",
+        "en": "贈予2026雀魂高校聯賽冠軍",
+        "jp": "贈予2026雀魂高校聯賽冠軍",
+        "kr": "贈予2026雀魂高校聯賽冠軍"
       },
       "expireDescription": {
         "chs": "",
@@ -124805,11 +126403,377 @@
         "kr": ""
       },
       "name": {
-        "chs": "2026雀魂高校赛冠军",
-        "chs_t": "2026雀魂高校賽冠軍",
-        "en": "2026雀魂高校賽冠軍",
-        "jp": "2026雀魂高校賽冠軍",
-        "kr": "2026雀魂高校賽冠軍"
+        "chs": "2026雀魂高校联赛冠军",
+        "chs_t": "2026雀魂高校聯賽冠軍",
+        "en": "2026雀魂高校聯賽冠軍",
+        "jp": "2026雀魂高校聯賽冠軍",
+        "kr": "2026雀魂高校聯賽冠軍"
+      }
+    },
+    "type": 0,
+    "usageCounts": {
+      "characterExchangeUsage": 0,
+      "characterMaterialUsage": 0,
+      "composeUsage": 0,
+      "exchangeReceive": 0,
+      "exchangeSpend": 0,
+      "mallListings": 0,
+      "packageContainers": 0,
+      "packageContents": 0,
+      "shopListings": 0,
+      "shopPricing": 0,
+      "sourceLimits": 0
+    }
+  },
+  {
+    "assets": {
+      "background": "",
+      "icon": "https://files.riichi.moe/mjg/game%20resources%20and%20tools/Mahjong%20Soul/unity_raw/extracted/MyAssets/deco/title/mjwg/pic/common/mjwg_item.png",
+      "loadingImage": "",
+      "portraitFrame": "",
+      "tablecloth": "",
+      "tile": "",
+      "titleArt": "https://files.riichi.moe/mjg/game%20resources%20and%20tools/Mahjong%20Soul/unity_raw/extracted/MyAssets/deco/title/mjwg/pic/common/mjwg.png"
+    },
+    "audio": null,
+    "canSell": 0,
+    "category": 7,
+    "categoryLabel": "Titles",
+    "characterExchangeUsage": [],
+    "characterMaterialUsage": [],
+    "composeUsage": [],
+    "exchangeReceive": [],
+    "exchangeSpend": [],
+    "func": "",
+    "id": 600171,
+    "isTitleDefinition": true,
+    "isUnique": 1,
+    "kind": "item",
+    "mallListings": [],
+    "maxStack": 1,
+    "packageContainers": [],
+    "packageContents": [],
+    "profile": {
+      "access": "",
+      "accessInfo": 0,
+      "crossView": 1,
+      "databaseCache": 0,
+      "itemExpire": "",
+      "regionLimit": 0,
+      "sellRewardCount": 0,
+      "sellRewardId": 0
+    },
+    "shopListings": [],
+    "shopPricing": [],
+    "sort": 40113,
+    "sourceLimits": [],
+    "text": {
+      "description": {
+        "chs": "Team REGULUS",
+        "chs_t": "Team REGULUS",
+        "en": "Team REGULUS",
+        "jp": "2026年魂天リーグ優勝記念",
+        "kr": "Team REGULUS"
+      },
+      "expireDescription": {
+        "chs": "",
+        "chs_t": "",
+        "en": "",
+        "jp": "",
+        "kr": ""
+      },
+      "funcDescription": {
+        "chs": "",
+        "chs_t": "",
+        "en": "",
+        "jp": "",
+        "kr": ""
+      },
+      "name": {
+        "chs": "Team REGULUS",
+        "chs_t": "Team REGULUS",
+        "en": "Team REGULUS",
+        "jp": "チームレグルス",
+        "kr": "Team REGULUS"
+      }
+    },
+    "type": 0,
+    "usageCounts": {
+      "characterExchangeUsage": 0,
+      "characterMaterialUsage": 0,
+      "composeUsage": 0,
+      "exchangeReceive": 0,
+      "exchangeSpend": 0,
+      "mallListings": 0,
+      "packageContainers": 0,
+      "packageContents": 0,
+      "shopListings": 0,
+      "shopPricing": 0,
+      "sourceLimits": 0
+    }
+  },
+  {
+    "assets": {
+      "background": "",
+      "icon": {
+        "chs": "https://files.riichi.moe/mjg/game%20resources%20and%20tools/Mahjong%20Soul/unity_raw/extracted/MyAssets/deco/title/24sxz3/pic/chs/24sxz3_item.png",
+        "cn": "https://files.riichi.moe/mjg/game%20resources%20and%20tools/Mahjong%20Soul/unity_raw/extracted/MyAssets/deco/title/24sxz3/pic/chs_t/24sxz3_item.png",
+        "en": "https://files.riichi.moe/mjg/game%20resources%20and%20tools/Mahjong%20Soul/unity_raw/extracted/MyAssets/deco/title/24sxz3/pic/en_chs_t/24sxz3_item.png",
+        "jp": "https://files.riichi.moe/mjg/game%20resources%20and%20tools/Mahjong%20Soul/unity_raw/extracted/MyAssets/deco/title/24sxz3/pic/jp/24sxz3_item.png"
+      },
+      "loadingImage": "",
+      "portraitFrame": "",
+      "tablecloth": "",
+      "tile": "",
+      "titleArt": {
+        "chs": "https://files.riichi.moe/mjg/game%20resources%20and%20tools/Mahjong%20Soul/unity_raw/extracted/MyAssets/deco/title/24sxz3/pic/chs/24sxz3.png",
+        "cn": "https://files.riichi.moe/mjg/game%20resources%20and%20tools/Mahjong%20Soul/unity_raw/extracted/MyAssets/deco/title/24sxz3/pic/chs_t/24sxz3.png",
+        "en": "https://files.riichi.moe/mjg/game%20resources%20and%20tools/Mahjong%20Soul/unity_raw/extracted/MyAssets/deco/title/24sxz3/pic/en_chs_t/24sxz3.png",
+        "jp": "https://files.riichi.moe/mjg/game%20resources%20and%20tools/Mahjong%20Soul/unity_raw/extracted/MyAssets/deco/title/24sxz3/pic/jp/24sxz3.png"
+      }
+    },
+    "audio": null,
+    "canSell": 0,
+    "category": 7,
+    "categoryLabel": "Titles",
+    "characterExchangeUsage": [],
+    "characterMaterialUsage": [],
+    "composeUsage": [],
+    "exchangeReceive": [],
+    "exchangeSpend": [],
+    "func": "",
+    "id": 600172,
+    "isTitleDefinition": true,
+    "isUnique": 1,
+    "kind": "item",
+    "mallListings": [],
+    "maxStack": 1,
+    "packageContainers": [],
+    "packageContents": [],
+    "profile": {
+      "access": "",
+      "accessInfo": 0,
+      "crossView": 0,
+      "databaseCache": 0,
+      "itemExpire": "",
+      "regionLimit": 0,
+      "sellRewardCount": 0,
+      "sellRewardId": 0
+    },
+    "shopListings": [],
+    "shopPricing": [],
+    "sort": 40114,
+    "sourceLimits": [],
+    "text": {
+      "description": {
+        "chs": "赠予四象战冠军",
+        "chs_t": "贈予四象戰冠軍",
+        "en": "贈予四象戰冠軍",
+        "jp": "四象戦秋の陣優勝称号",
+        "kr": "贈予四象戰冠軍"
+      },
+      "expireDescription": {
+        "chs": "",
+        "chs_t": "",
+        "en": "",
+        "jp": "",
+        "kr": ""
+      },
+      "funcDescription": {
+        "chs": "",
+        "chs_t": "",
+        "en": "",
+        "jp": "",
+        "kr": ""
+      },
+      "name": {
+        "chs": "四象战冠军",
+        "chs_t": "四象戰冠軍",
+        "en": "四象戰冠軍",
+        "jp": "四象・白虎",
+        "kr": "四象戰冠軍"
+      }
+    },
+    "type": 0,
+    "usageCounts": {
+      "characterExchangeUsage": 0,
+      "characterMaterialUsage": 0,
+      "composeUsage": 0,
+      "exchangeReceive": 0,
+      "exchangeSpend": 0,
+      "mallListings": 0,
+      "packageContainers": 0,
+      "packageContents": 0,
+      "shopListings": 0,
+      "shopPricing": 0,
+      "sourceLimits": 0
+    }
+  },
+  {
+    "assets": {
+      "background": "",
+      "icon": {
+        "jp": "https://files.riichi.moe/mjg/game%20resources%20and%20tools/Mahjong%20Soul/unity_raw/extracted/MyAssets/deco/title/guanren/pic/jp/guanren_item.png"
+      },
+      "loadingImage": "",
+      "portraitFrame": "",
+      "tablecloth": "",
+      "tile": "",
+      "titleArt": {
+        "jp": "https://files.riichi.moe/mjg/game%20resources%20and%20tools/Mahjong%20Soul/unity_raw/extracted/MyAssets/deco/title/guanren/pic/jp/guanren.png"
+      }
+    },
+    "audio": null,
+    "canSell": 0,
+    "category": 7,
+    "categoryLabel": "Titles",
+    "characterExchangeUsage": [],
+    "characterMaterialUsage": [],
+    "composeUsage": [],
+    "exchangeReceive": [],
+    "exchangeSpend": [],
+    "func": "",
+    "id": 600174,
+    "isTitleDefinition": true,
+    "isUnique": 1,
+    "kind": "item",
+    "mallListings": [],
+    "maxStack": 1,
+    "packageContainers": [],
+    "packageContents": [],
+    "profile": {
+      "access": "",
+      "accessInfo": 0,
+      "crossView": 0,
+      "databaseCache": 0,
+      "itemExpire": "",
+      "regionLimit": 0,
+      "sellRewardCount": 0,
+      "sellRewardId": 0
+    },
+    "shopListings": [],
+    "shopPricing": [],
+    "sort": 40116,
+    "sourceLimits": [],
+    "text": {
+      "description": {
+        "chs": "「ななし雀魂杯」優勝記念称号",
+        "chs_t": "「ななし雀魂杯」優勝記念称号",
+        "en": "「ななし雀魂杯」優勝記念称号",
+        "jp": "「ななし雀魂杯」優勝記念称号",
+        "kr": "「ななし雀魂杯」優勝記念称号"
+      },
+      "expireDescription": {
+        "chs": "",
+        "chs_t": "",
+        "en": "",
+        "jp": "",
+        "kr": ""
+      },
+      "funcDescription": {
+        "chs": "",
+        "chs_t": "",
+        "en": "",
+        "jp": "",
+        "kr": ""
+      },
+      "name": {
+        "chs": "Team ゴリ雄",
+        "chs_t": "Team ゴリ雄",
+        "en": "Team ゴリ雄",
+        "jp": "Team ゴリ雄",
+        "kr": "Team ゴリ雄"
+      }
+    },
+    "type": 0,
+    "usageCounts": {
+      "characterExchangeUsage": 0,
+      "characterMaterialUsage": 0,
+      "composeUsage": 0,
+      "exchangeReceive": 0,
+      "exchangeSpend": 0,
+      "mallListings": 0,
+      "packageContainers": 0,
+      "packageContents": 0,
+      "shopListings": 0,
+      "shopPricing": 0,
+      "sourceLimits": 0
+    }
+  },
+  {
+    "assets": {
+      "background": "",
+      "icon": {
+        "jp": "https://files.riichi.moe/mjg/game%20resources%20and%20tools/Mahjong%20Soul/unity_raw/extracted/MyAssets/deco/title/xsqhb3/pic/jp/xsqhb3_item.png"
+      },
+      "loadingImage": "",
+      "portraitFrame": "",
+      "tablecloth": "",
+      "tile": "",
+      "titleArt": {
+        "jp": "https://files.riichi.moe/mjg/game%20resources%20and%20tools/Mahjong%20Soul/unity_raw/extracted/MyAssets/deco/title/xsqhb3/pic/jp/xsqhb3.png"
+      }
+    },
+    "audio": null,
+    "canSell": 0,
+    "category": 7,
+    "categoryLabel": "Titles",
+    "characterExchangeUsage": [],
+    "characterMaterialUsage": [],
+    "composeUsage": [],
+    "exchangeReceive": [],
+    "exchangeSpend": [],
+    "func": "",
+    "id": 600175,
+    "isTitleDefinition": true,
+    "isUnique": 1,
+    "kind": "item",
+    "mallListings": [],
+    "maxStack": 1,
+    "packageContainers": [],
+    "packageContents": [],
+    "profile": {
+      "access": "",
+      "accessInfo": 0,
+      "crossView": 0,
+      "databaseCache": 0,
+      "itemExpire": "",
+      "regionLimit": 0,
+      "sellRewardCount": 0,
+      "sellRewardId": 0
+    },
+    "shopListings": [],
+    "shopPricing": [],
+    "sort": 40117,
+    "sourceLimits": [],
+    "text": {
+      "description": {
+        "chs": "「学生雀魂杯」優勝記念称号",
+        "chs_t": "「学生雀魂杯」優勝記念称号",
+        "en": "「学生雀魂杯」優勝記念称号",
+        "jp": "「学生雀魂杯」優勝記念称号",
+        "kr": "「学生雀魂杯」優勝記念称号"
+      },
+      "expireDescription": {
+        "chs": "",
+        "chs_t": "",
+        "en": "",
+        "jp": "",
+        "kr": ""
+      },
+      "funcDescription": {
+        "chs": "",
+        "chs_t": "",
+        "en": "",
+        "jp": "",
+        "kr": ""
+      },
+      "name": {
+        "chs": "学生雀魂杯　西場",
+        "chs_t": "学生雀魂杯　西場",
+        "en": "学生雀魂杯　西場",
+        "jp": "学生雀魂杯　西場",
+        "kr": "学生雀魂杯　西場"
       }
     },
     "type": 0,
