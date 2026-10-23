@@ -458552,29 +458552,6 @@
         "type": "lobby_normal"
       },
       {
-        "audio": "https://files.riichi.moe/mjg/game%20resources%20and%20tools/Mahjong%20Soul/unity_raw/extracted/MyAssets/audio/sound/mofei/lobby/lobby_normalmax3.mp3",
-        "bondLimit": 0,
-        "category": 1,
-        "levelLimit": 5,
-        "text": {
-          "name": {
-            "chs": "大厅交互语音8",
-            "chs_t": "大廳交互語音8",
-            "en": "Lobby Interactive Voice 8",
-            "jp": "メイン8",
-            "kr": "로비 상호작용8"
-          },
-          "words": {
-            "chs": "你知道对于一个少女漫画作者来说最可怕的是什么吗？那必然是我没有新的题材了！啊……想也是，我一个母胎solo27年的人怎么可能知道人类谈恋爱的时候都会干什么啊……求你了，帮我……",
-            "chs_t": "你知道對於一個少女漫畫作者來說最可怕的是什麼嗎？那必然是我沒有新的題材了！啊……想也是，我一個母胎單身27年的人怎麼可能知道人類談戀愛的時候都會幹什麼啊……求你了，幫我……",
-            "en": "Do you know what scares a shojo manga artist more than anything? Running out of ideas! I mean... I've been single for all 27 years of my life. How am I supposed to know what people in love even do? Please, you've gotta help me...",
-            "jp": "君は少女漫画家にとって何が一番怖いか知ってる？\nそりゃネタ切れだよ！　ああ…そうだよね、\n２７年物の喪女が、人類が恋愛してる時に何するかなんてわかるわけがない……。\nお願い、助けて……。",
-            "kr": "넌 순정만화가에게 있어서 뭐가 가장 두려운지 알아? 그건 소재 고갈이야! 아아… 그럼 그렇지, 27년 된 모태솔로가, 인류가 연애할 때 뭘 하는지 알 리 없잖아…… 부탁이야, 도와줘……"
-          }
-        },
-        "type": "lobby_normal"
-      },
-      {
         "audio": "https://files.riichi.moe/mjg/game%20resources%20and%20tools/Mahjong%20Soul/unity_raw/extracted/MyAssets/audio/sound/mofei/lobby/lobby_normalmax2.mp3",
         "bondLimit": 0,
         "category": 1,
@@ -458593,6 +458570,29 @@
             "en": "Mmm... Huh?! I nodded off... and I was having such a good dream, too. What was it about? I got the chapter in on time, of course... Ugh, reality is so cruel. Better go back to sleep. Don't worry, I'll finish it in my dream. Just hang on...",
             "jp": "すぅ……むにゃむにゃ……ハッ、寝落ちしてた、\nしかもいい夢見てた……内容？　\nもちろん原稿を提出できた夢よ……\nハァ、現実はなんて残酷なんだ……もう一回夢を見よう。\nああ、心配ご無用、夢の中で描き上げるから、待ってて……",
             "kr": "새근…… 음냐음냐…… 헉, 졸다가 잠들었네. 게다가 좋은 꿈을 꿨어…… 내용? 당연히 원고를 제출하는 꿈이지…… 하아, 현실은 어쩜 이렇게 잔혹할까…… 한 번 더 꿈을 꿔야겠어. 아아, 걱정 마, 꿈속에서 다 그릴 테니까 기다려 줘……"
+          }
+        },
+        "type": "lobby_normal"
+      },
+      {
+        "audio": "https://files.riichi.moe/mjg/game%20resources%20and%20tools/Mahjong%20Soul/unity_raw/extracted/MyAssets/audio/sound/mofei/lobby/lobby_normalmax3.mp3",
+        "bondLimit": 0,
+        "category": 1,
+        "levelLimit": 5,
+        "text": {
+          "name": {
+            "chs": "大厅交互语音8",
+            "chs_t": "大廳交互語音8",
+            "en": "Lobby Interactive Voice 8",
+            "jp": "メイン8",
+            "kr": "로비 상호작용8"
+          },
+          "words": {
+            "chs": "你知道对于一个少女漫画作者来说最可怕的是什么吗？那必然是我没有新的题材了！啊……想也是，我一个母胎solo27年的人怎么可能知道人类谈恋爱的时候都会干什么啊……求你了，帮我……",
+            "chs_t": "你知道對於一個少女漫畫作者來說最可怕的是什麼嗎？那必然是我沒有新的題材了！啊……想也是，我一個母胎單身27年的人怎麼可能知道人類談戀愛的時候都會幹什麼啊……求你了，幫我……",
+            "en": "Do you know what scares a shojo manga artist more than anything? Running out of ideas! I mean... I've been single for all 27 years of my life. How am I supposed to know what people in love even do? Please, you've gotta help me...",
+            "jp": "君は少女漫画家にとって何が一番怖いか知ってる？\nそりゃネタ切れだよ！　ああ…そうだよね、\n２７年物の喪女が、人類が恋愛してる時に何するかなんてわかるわけがない……。\nお願い、助けて……。",
+            "kr": "넌 순정만화가에게 있어서 뭐가 가장 두려운지 알아? 그건 소재 고갈이야! 아아… 그럼 그렇지, 27년 된 모태솔로가, 인류가 연애할 때 뭘 하는지 알 리 없잖아…… 부탁이야, 도와줘……"
           }
         },
         "type": "lobby_normal"
