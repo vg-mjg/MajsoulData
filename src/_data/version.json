@@ -7,11 +7,11 @@
     "resource_version": "0.16.289"
   },
   "en": {
-    "generated_at": "2026-10-22T22:05:57Z",
+    "generated_at": "2026-11-05T23:06:04Z",
     "issuer": "en",
     "lua_version": "0.11.603",
-    "product_version": "4.0.12",
-    "resource_version": "0.16.272"
+    "product_version": "4.0.13",
+    "resource_version": "0.16.279"
   },
   "jp": {
     "generated_at": "2026-10-22T22:07:05Z",
@@ -21,10 +21,10 @@
     "resource_version": "0.16.272"
   },
   "kr": {
-    "generated_at": "2026-10-22T22:09:29Z",
+    "generated_at": "2026-11-05T23:07:26Z",
     "issuer": "kr",
     "lua_version": "0.11.603",
-    "product_version": "4.0.14",
-    "resource_version": "0.16.272"
+    "product_version": "4.0.15",
+    "resource_version": "0.16.279"
   }
 }
