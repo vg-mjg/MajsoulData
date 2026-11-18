@@ -13457,9 +13457,9 @@
           "description": {
             "chs": "获得雀士泠星",
             "chs_t": "獲得雀士泠星",
-            "en": "Obtain Jyanshi Reisei",
-            "jp": "レイセイを入手する",
-            "kr": "레이세이 획득하기."
+            "en": "Obtain Jyanshi Murphy",
+            "jp": "モフィーを入手する",
+            "kr": "머피 획득하기."
           },
           "name": {
             "chs": "与泠星的邂逅",
@@ -15684,9 +15684,9 @@
           "description": {
             "chs": "与泠星签订契约",
             "chs_t": "與泠星簽訂契約",
-            "en": "Bond with Reisei",
-            "jp": "レイセイと契約を結ぶ",
-            "kr": "레이세이와(과) 계약 맺기."
+            "en": "Bond with Murphy",
+            "jp": "モフィーと契約を結ぶ",
+            "kr": "머피와(과) 계약 맺기."
           },
           "name": {
             "chs": "泠星的契约者",

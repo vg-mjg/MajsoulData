@@ -1,5 +1,26 @@
 [
   {
+    "fallbackName": "26fll 0",
+    "id": 261101,
+    "image": {
+      "chs": "https://files.riichi.moe/mjg/game%20resources%20and%20tools/Mahjong%20Soul/unity_raw/extracted/MyAssets/ui/activity/lobby/banner_tab/pic/chs/26fll_b.png",
+      "cn": "https://files.riichi.moe/mjg/game%20resources%20and%20tools/Mahjong%20Soul/unity_raw/extracted/MyAssets/ui/activity/lobby/banner_tab/pic/chs_t/26fll_b.png",
+      "en": "https://files.riichi.moe/mjg/game%20resources%20and%20tools/Mahjong%20Soul/unity_raw/extracted/MyAssets/ui/activity/lobby/banner_tab/pic/en_en/26fll_b.png",
+      "jp": "https://files.riichi.moe/mjg/game%20resources%20and%20tools/Mahjong%20Soul/unity_raw/extracted/MyAssets/ui/activity/lobby/banner_tab/pic/jp/26fll_b.png",
+      "kr": "https://files.riichi.moe/mjg/game%20resources%20and%20tools/Mahjong%20Soul/unity_raw/extracted/MyAssets/ui/activity/lobby/banner_tab/pic/kr/26fll_b.png"
+    },
+    "text": {
+      "name": {
+        "chs": "雾眠之岛",
+        "chs_t": "霧眠之島",
+        "en": "Fogbound Isle",
+        "jp": "霧が眠る島",
+        "kr": "안개가 잠드는 섬"
+      }
+    },
+    "type": "workshop"
+  },
+  {
     "fallbackName": "26qingyun 0",
     "id": 261081,
     "image": {

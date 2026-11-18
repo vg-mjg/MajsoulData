@@ -12001,6 +12001,82 @@
         }
       },
       {
+        "count": 1500,
+        "shopId": 5507,
+        "shopName": {
+          "chs": "于遥远之地",
+          "chs_t": "於遙遠之地",
+          "en": "In a Land Far Away",
+          "jp": "遠き地にて",
+          "kr": "아득히 먼 땅에서"
+        },
+        "soldItemId": 40012803,
+        "soldItemName": {
+          "chs": "",
+          "chs_t": "",
+          "en": "#40012803",
+          "jp": "",
+          "kr": ""
+        }
+      },
+      {
+        "count": 1500,
+        "shopId": 5508,
+        "shopName": {
+          "chs": "于遥远之地",
+          "chs_t": "於遙遠之地",
+          "en": "In a Land Far Away",
+          "jp": "遠き地にて",
+          "kr": "아득히 먼 땅에서"
+        },
+        "soldItemId": 40012903,
+        "soldItemName": {
+          "chs": "",
+          "chs_t": "",
+          "en": "#40012903",
+          "jp": "",
+          "kr": ""
+        }
+      },
+      {
+        "count": 1500,
+        "shopId": 5509,
+        "shopName": {
+          "chs": "于遥远之地",
+          "chs_t": "於遙遠之地",
+          "en": "In a Land Far Away",
+          "jp": "遠き地にて",
+          "kr": "아득히 먼 땅에서"
+        },
+        "soldItemId": 40013003,
+        "soldItemName": {
+          "chs": "",
+          "chs_t": "",
+          "en": "#40013003",
+          "jp": "",
+          "kr": ""
+        }
+      },
+      {
+        "count": 1500,
+        "shopId": 5510,
+        "shopName": {
+          "chs": "于遥远之地",
+          "chs_t": "於遙遠之地",
+          "en": "In a Land Far Away",
+          "jp": "遠き地にて",
+          "kr": "아득히 먼 땅에서"
+        },
+        "soldItemId": 40013103,
+        "soldItemName": {
+          "chs": "",
+          "chs_t": "",
+          "en": "#40013103",
+          "jp": "",
+          "kr": ""
+        }
+      },
+      {
         "count": 600,
         "shopId": 6002,
         "shopName": {
@@ -12234,9 +12310,9 @@
         "shopName": {
           "chs": "风车花田",
           "chs_t": "風車花田",
-          "en": "Among the Wildflowers",
-          "jp": "風車と花畑",
-          "kr": "꽃밭의 풍차"
+          "en": "tbd",
+          "jp": "tbd",
+          "kr": "tbd"
         },
         "soldItemId": 30700010,
         "soldItemName": {
@@ -12291,7 +12367,7 @@
       "packageContainers": 0,
       "packageContents": 0,
       "shopListings": 0,
-      "shopPricing": 500,
+      "shopPricing": 504,
       "sourceLimits": 0
     }
   },
@@ -15188,6 +15264,50 @@
           "kr": "레이세이"
         },
         "count": 75
+      },
+      {
+        "characterId": 20000128,
+        "characterName": {
+          "chs": "芙莉莲",
+          "chs_t": "芙莉蓮",
+          "en": "Frieren",
+          "jp": "フリーレン",
+          "kr": "프리렌"
+        },
+        "count": 75
+      },
+      {
+        "characterId": 20000129,
+        "characterName": {
+          "chs": "菲伦",
+          "chs_t": "費倫",
+          "en": "Fern",
+          "jp": "フェルン",
+          "kr": "페른"
+        },
+        "count": 75
+      },
+      {
+        "characterId": 20000130,
+        "characterName": {
+          "chs": "休塔尔克",
+          "chs_t": "修塔爾克",
+          "en": "Stark",
+          "jp": "シュタルク",
+          "kr": "슈타르크"
+        },
+        "count": 75
+      },
+      {
+        "characterId": 20000131,
+        "characterName": {
+          "chs": "尤贝尔",
+          "chs_t": "尤蓓爾",
+          "en": "Übel",
+          "jp": "ユーベル",
+          "kr": "위벨"
+        },
+        "count": 75
       }
     ],
     "characterMaterialUsage": [
@@ -16554,6 +16674,50 @@
           "kr": "레이세이"
         },
         "count": 10
+      },
+      {
+        "characterId": 20000128,
+        "characterName": {
+          "chs": "芙莉莲",
+          "chs_t": "芙莉蓮",
+          "en": "Frieren",
+          "jp": "フリーレン",
+          "kr": "프리렌"
+        },
+        "count": 10
+      },
+      {
+        "characterId": 20000129,
+        "characterName": {
+          "chs": "菲伦",
+          "chs_t": "費倫",
+          "en": "Fern",
+          "jp": "フェルン",
+          "kr": "페른"
+        },
+        "count": 10
+      },
+      {
+        "characterId": 20000130,
+        "characterName": {
+          "chs": "休塔尔克",
+          "chs_t": "修塔爾克",
+          "en": "Stark",
+          "jp": "シュタルク",
+          "kr": "슈타르크"
+        },
+        "count": 10
+      },
+      {
+        "characterId": 20000131,
+        "characterName": {
+          "chs": "尤贝尔",
+          "chs_t": "尤蓓爾",
+          "en": "Übel",
+          "jp": "ユーベル",
+          "kr": "위벨"
+        },
+        "count": 10
       }
     ],
     "composeUsage": [],
@@ -16919,8 +17083,8 @@
     },
     "type": 0,
     "usageCounts": {
-      "characterExchangeUsage": 124,
-      "characterMaterialUsage": 124,
+      "characterExchangeUsage": 128,
+      "characterMaterialUsage": 128,
       "composeUsage": 0,
       "exchangeReceive": 0,
       "exchangeSpend": 0,
@@ -18893,6 +19057,50 @@
           "kr": "레이세이"
         },
         "count": 100
+      },
+      {
+        "characterId": 20000128,
+        "characterName": {
+          "chs": "芙莉莲",
+          "chs_t": "芙莉蓮",
+          "en": "Frieren",
+          "jp": "フリーレン",
+          "kr": "프리렌"
+        },
+        "count": 100
+      },
+      {
+        "characterId": 20000129,
+        "characterName": {
+          "chs": "菲伦",
+          "chs_t": "費倫",
+          "en": "Fern",
+          "jp": "フェルン",
+          "kr": "페른"
+        },
+        "count": 100
+      },
+      {
+        "characterId": 20000130,
+        "characterName": {
+          "chs": "休塔尔克",
+          "chs_t": "修塔爾克",
+          "en": "Stark",
+          "jp": "シュタルク",
+          "kr": "슈타르크"
+        },
+        "count": 100
+      },
+      {
+        "characterId": 20000131,
+        "characterName": {
+          "chs": "尤贝尔",
+          "chs_t": "尤蓓爾",
+          "en": "Übel",
+          "jp": "ユーベル",
+          "kr": "위벨"
+        },
+        "count": 100
       }
     ],
     "composeUsage": [],
@@ -19050,7 +19258,7 @@
     "type": 0,
     "usageCounts": {
       "characterExchangeUsage": 0,
-      "characterMaterialUsage": 124,
+      "characterMaterialUsage": 128,
       "composeUsage": 0,
       "exchangeReceive": 0,
       "exchangeSpend": 0,
@@ -19572,6 +19780,17 @@
           "kr": "시논"
         },
         "count": 10
+      },
+      {
+        "characterId": 20000130,
+        "characterName": {
+          "chs": "休塔尔克",
+          "chs_t": "修塔爾克",
+          "en": "Stark",
+          "jp": "シュタルク",
+          "kr": "슈타르크"
+        },
+        "count": 10
       }
     ],
     "composeUsage": [],
@@ -19876,7 +20095,7 @@
     "type": 0,
     "usageCounts": {
       "characterExchangeUsage": 0,
-      "characterMaterialUsage": 36,
+      "characterMaterialUsage": 37,
       "composeUsage": 0,
       "exchangeReceive": 0,
       "exchangeSpend": 0,
@@ -20387,6 +20606,17 @@
           "kr": "머피"
         },
         "count": 10
+      },
+      {
+        "characterId": 20000131,
+        "characterName": {
+          "chs": "尤贝尔",
+          "chs_t": "尤蓓爾",
+          "en": "Übel",
+          "jp": "ユーベル",
+          "kr": "위벨"
+        },
+        "count": 10
       }
     ],
     "composeUsage": [],
@@ -20672,7 +20902,7 @@
     "type": 0,
     "usageCounts": {
       "characterExchangeUsage": 0,
-      "characterMaterialUsage": 35,
+      "characterMaterialUsage": 36,
       "composeUsage": 0,
       "exchangeReceive": 0,
       "exchangeSpend": 0,
@@ -21164,6 +21394,17 @@
           "kr": "레이세이"
         },
         "count": 10
+      },
+      {
+        "characterId": 20000130,
+        "characterName": {
+          "chs": "休塔尔克",
+          "chs_t": "修塔爾克",
+          "en": "Stark",
+          "jp": "シュタルク",
+          "kr": "슈타르크"
+        },
+        "count": 10
       }
     ],
     "composeUsage": [],
@@ -21449,7 +21690,7 @@
     "type": 0,
     "usageCounts": {
       "characterExchangeUsage": 0,
-      "characterMaterialUsage": 34,
+      "characterMaterialUsage": 35,
       "composeUsage": 0,
       "exchangeReceive": 0,
       "exchangeSpend": 0,
@@ -21901,6 +22142,17 @@
           "kr": "아스나"
         },
         "count": 10
+      },
+      {
+        "characterId": 20000129,
+        "characterName": {
+          "chs": "菲伦",
+          "chs_t": "費倫",
+          "en": "Fern",
+          "jp": "フェルン",
+          "kr": "페른"
+        },
+        "count": 10
       }
     ],
     "composeUsage": [],
@@ -22186,7 +22438,7 @@
     "type": 0,
     "usageCounts": {
       "characterExchangeUsage": 0,
-      "characterMaterialUsage": 30,
+      "characterMaterialUsage": 31,
       "composeUsage": 0,
       "exchangeReceive": 0,
       "exchangeSpend": 0,
@@ -22726,6 +22978,17 @@
           "kr": "머피"
         },
         "count": 10
+      },
+      {
+        "characterId": 20000129,
+        "characterName": {
+          "chs": "菲伦",
+          "chs_t": "費倫",
+          "en": "Fern",
+          "jp": "フェルン",
+          "kr": "페른"
+        },
+        "count": 10
       }
     ],
     "composeUsage": [],
@@ -23011,7 +23274,7 @@
     "type": 0,
     "usageCounts": {
       "characterExchangeUsage": 0,
-      "characterMaterialUsage": 38,
+      "characterMaterialUsage": 39,
       "composeUsage": 0,
       "exchangeReceive": 0,
       "exchangeSpend": 0,
@@ -23386,6 +23649,17 @@
           "kr": "레이세이"
         },
         "count": 10
+      },
+      {
+        "characterId": 20000131,
+        "characterName": {
+          "chs": "尤贝尔",
+          "chs_t": "尤蓓爾",
+          "en": "Übel",
+          "jp": "ユーベル",
+          "kr": "위벨"
+        },
+        "count": 10
       }
     ],
     "composeUsage": [],
@@ -23671,7 +23945,7 @@
     "type": 0,
     "usageCounts": {
       "characterExchangeUsage": 0,
-      "characterMaterialUsage": 23,
+      "characterMaterialUsage": 24,
       "composeUsage": 0,
       "exchangeReceive": 0,
       "exchangeSpend": 0,
@@ -24090,6 +24364,17 @@
           "kr": "키리토"
         },
         "count": 10
+      },
+      {
+        "characterId": 20000128,
+        "characterName": {
+          "chs": "芙莉莲",
+          "chs_t": "芙莉蓮",
+          "en": "Frieren",
+          "jp": "フリーレン",
+          "kr": "프리렌"
+        },
+        "count": 10
       }
     ],
     "composeUsage": [],
@@ -24375,7 +24660,7 @@
     "type": 0,
     "usageCounts": {
       "characterExchangeUsage": 0,
-      "characterMaterialUsage": 27,
+      "characterMaterialUsage": 28,
       "composeUsage": 0,
       "exchangeReceive": 0,
       "exchangeSpend": 0,
@@ -24816,6 +25101,17 @@
           "kr": "아스나"
         },
         "count": 10
+      },
+      {
+        "characterId": 20000128,
+        "characterName": {
+          "chs": "芙莉莲",
+          "chs_t": "芙莉蓮",
+          "en": "Frieren",
+          "jp": "フリーレン",
+          "kr": "프리렌"
+        },
+        "count": 10
       }
     ],
     "composeUsage": [],
@@ -25101,7 +25397,7 @@
     "type": 0,
     "usageCounts": {
       "characterExchangeUsage": 0,
-      "characterMaterialUsage": 29,
+      "characterMaterialUsage": 30,
       "composeUsage": 0,
       "exchangeReceive": 0,
       "exchangeSpend": 0,
@@ -25984,6 +26280,28 @@
           "kr": "아카리"
         },
         "count": 5
+      },
+      {
+        "characterId": 20000129,
+        "characterName": {
+          "chs": "菲伦",
+          "chs_t": "費倫",
+          "en": "Fern",
+          "jp": "フェルン",
+          "kr": "페른"
+        },
+        "count": 5
+      },
+      {
+        "characterId": 20000130,
+        "characterName": {
+          "chs": "休塔尔克",
+          "chs_t": "修塔爾克",
+          "en": "Stark",
+          "jp": "シュタルク",
+          "kr": "슈타르크"
+        },
+        "count": 5
       }
     ],
     "composeUsage": [],
@@ -26078,7 +26396,7 @@
     "type": 1,
     "usageCounts": {
       "characterExchangeUsage": 0,
-      "characterMaterialUsage": 19,
+      "characterMaterialUsage": 21,
       "composeUsage": 0,
       "exchangeReceive": 0,
       "exchangeSpend": 0,
@@ -29004,6 +29322,17 @@
           "kr": "머피"
         },
         "count": 5
+      },
+      {
+        "characterId": 20000128,
+        "characterName": {
+          "chs": "芙莉莲",
+          "chs_t": "芙莉蓮",
+          "en": "Frieren",
+          "jp": "フリーレン",
+          "kr": "프리렌"
+        },
+        "count": 5
       }
     ],
     "composeUsage": [],
@@ -29098,7 +29427,7 @@
     "type": 7,
     "usageCounts": {
       "characterExchangeUsage": 0,
-      "characterMaterialUsage": 12,
+      "characterMaterialUsage": 13,
       "composeUsage": 0,
       "exchangeReceive": 0,
       "exchangeSpend": 0,
@@ -29453,6 +29782,17 @@
           "kr": "리파"
         },
         "count": 5
+      },
+      {
+        "characterId": 20000131,
+        "characterName": {
+          "chs": "尤贝尔",
+          "chs_t": "尤蓓爾",
+          "en": "Übel",
+          "jp": "ユーベル",
+          "kr": "위벨"
+        },
+        "count": 5
       }
     ],
     "composeUsage": [],
@@ -29547,7 +29887,7 @@
     "type": 8,
     "usageCounts": {
       "characterExchangeUsage": 0,
-      "characterMaterialUsage": 11,
+      "characterMaterialUsage": 12,
       "composeUsage": 0,
       "exchangeReceive": 0,
       "exchangeSpend": 0,
@@ -30305,6 +30645,28 @@
           "kr": "아카리"
         },
         "count": 1
+      },
+      {
+        "characterId": 20000129,
+        "characterName": {
+          "chs": "菲伦",
+          "chs_t": "費倫",
+          "en": "Fern",
+          "jp": "フェルン",
+          "kr": "페른"
+        },
+        "count": 1
+      },
+      {
+        "characterId": 20000130,
+        "characterName": {
+          "chs": "休塔尔克",
+          "chs_t": "修塔爾克",
+          "en": "Stark",
+          "jp": "シュタルク",
+          "kr": "슈타르크"
+        },
+        "count": 1
       }
     ],
     "composeUsage": [],
@@ -30366,7 +30728,7 @@
     "type": 1,
     "usageCounts": {
       "characterExchangeUsage": 0,
-      "characterMaterialUsage": 19,
+      "characterMaterialUsage": 21,
       "composeUsage": 0,
       "exchangeReceive": 0,
       "exchangeSpend": 0,
@@ -32401,6 +32763,17 @@
           "kr": "머피"
         },
         "count": 1
+      },
+      {
+        "characterId": 20000128,
+        "characterName": {
+          "chs": "芙莉莲",
+          "chs_t": "芙莉蓮",
+          "en": "Frieren",
+          "jp": "フリーレン",
+          "kr": "프리렌"
+        },
+        "count": 1
       }
     ],
     "composeUsage": [],
@@ -32462,7 +32835,7 @@
     "type": 7,
     "usageCounts": {
       "characterExchangeUsage": 0,
-      "characterMaterialUsage": 12,
+      "characterMaterialUsage": 13,
       "composeUsage": 0,
       "exchangeReceive": 0,
       "exchangeSpend": 0,
@@ -32697,6 +33070,17 @@
           "kr": "리파"
         },
         "count": 1
+      },
+      {
+        "characterId": 20000131,
+        "characterName": {
+          "chs": "尤贝尔",
+          "chs_t": "尤蓓爾",
+          "en": "Übel",
+          "jp": "ユーベル",
+          "kr": "위벨"
+        },
+        "count": 1
       }
     ],
     "composeUsage": [],
@@ -32758,7 +33142,7 @@
     "type": 8,
     "usageCounts": {
       "characterExchangeUsage": 0,
-      "characterMaterialUsage": 11,
+      "characterMaterialUsage": 12,
       "composeUsage": 0,
       "exchangeReceive": 0,
       "exchangeSpend": 0,
@@ -57207,6 +57591,97 @@
   {
     "assets": {
       "background": "",
+      "icon": {
+        "chs": "https://files.riichi.moe/mjg/game%20resources%20and%20tools/Mahjong%20Soul/unity_raw/extracted/MyAssets/deco/title/25jingubei/pic/chs/25jingubei_item.png",
+        "cn": "https://files.riichi.moe/mjg/game%20resources%20and%20tools/Mahjong%20Soul/unity_raw/extracted/MyAssets/deco/title/25jingubei/pic/chs_t/25jingubei_item.png",
+        "en": "https://files.riichi.moe/mjg/game%20resources%20and%20tools/Mahjong%20Soul/unity_raw/extracted/MyAssets/deco/title/25jingubei/pic/en_chs_t/25jingubei_item.png"
+      },
+      "loadingImage": "",
+      "portraitFrame": "",
+      "tablecloth": "",
+      "tile": "",
+      "titleArt": ""
+    },
+    "audio": null,
+    "canSell": 0,
+    "category": 7,
+    "categoryLabel": "Titles",
+    "characterExchangeUsage": [],
+    "characterMaterialUsage": [],
+    "composeUsage": [],
+    "exchangeReceive": [],
+    "exchangeSpend": [],
+    "func": "",
+    "id": 30557076,
+    "isTitleDefinition": false,
+    "isUnique": 1,
+    "kind": "item",
+    "mallListings": [],
+    "maxStack": 0,
+    "packageContainers": [],
+    "packageContents": [],
+    "profile": {
+      "access": "",
+      "accessInfo": 0,
+      "crossView": 0,
+      "databaseCache": 0,
+      "itemExpire": "2027-12-01 05:00:00",
+      "regionLimit": 0,
+      "sellRewardCount": 0,
+      "sellRewardId": 0
+    },
+    "shopListings": [],
+    "shopPricing": [],
+    "sort": 6095,
+    "sourceLimits": [],
+    "text": {
+      "description": {
+        "chs": "",
+        "chs_t": "",
+        "en": "",
+        "jp": "",
+        "kr": ""
+      },
+      "expireDescription": {
+        "chs": "2027-12-01 05:00:00",
+        "chs_t": "2027-12-01 05:00:00",
+        "en": "2027-12-01 05:00:00",
+        "jp": "2027-12-01 05:00:00",
+        "kr": "2027-12-01 05:00:00"
+      },
+      "funcDescription": {
+        "chs": "赠予金古杯赛事冠军",
+        "chs_t": "贈予金古盃賽事冠軍",
+        "en": "贈予金古盃賽事冠軍",
+        "jp": "贈予金古盃賽事冠軍",
+        "kr": "贈予金古盃賽事冠軍"
+      },
+      "name": {
+        "chs": "金古神手",
+        "chs_t": "金古神手",
+        "en": "金古神手",
+        "jp": "金古神手",
+        "kr": "金古神手"
+      }
+    },
+    "type": 11,
+    "usageCounts": {
+      "characterExchangeUsage": 0,
+      "characterMaterialUsage": 0,
+      "composeUsage": 0,
+      "exchangeReceive": 0,
+      "exchangeSpend": 0,
+      "mallListings": 0,
+      "packageContainers": 0,
+      "packageContents": 0,
+      "shopListings": 0,
+      "shopPricing": 0,
+      "sourceLimits": 0
+    }
+  },
+  {
+    "assets": {
+      "background": "",
       "icon": "https://files.riichi.moe/mjg/game%20resources%20and%20tools/Mahjong%20Soul/unity_raw/extracted/MyAssets/deco/title/mjwg/pic/common/mjwg_item.png",
       "loadingImage": "",
       "portraitFrame": "",
@@ -57274,6 +57749,97 @@
         "en": "Team REGULUS",
         "jp": "チームレグルス",
         "kr": "Team REGULUS"
+      }
+    },
+    "type": 11,
+    "usageCounts": {
+      "characterExchangeUsage": 0,
+      "characterMaterialUsage": 0,
+      "composeUsage": 0,
+      "exchangeReceive": 0,
+      "exchangeSpend": 0,
+      "mallListings": 0,
+      "packageContainers": 0,
+      "packageContents": 0,
+      "shopListings": 0,
+      "shopPricing": 0,
+      "sourceLimits": 0
+    }
+  },
+  {
+    "assets": {
+      "background": "",
+      "icon": {
+        "chs": "https://files.riichi.moe/mjg/game%20resources%20and%20tools/Mahjong%20Soul/unity_raw/extracted/MyAssets/deco/title/26mjqnw2/pic/chs/26mjqnw2_item.png",
+        "cn": "https://files.riichi.moe/mjg/game%20resources%20and%20tools/Mahjong%20Soul/unity_raw/extracted/MyAssets/deco/title/26mjqnw2/pic/chs_t/26mjqnw2_item.png",
+        "en": "https://files.riichi.moe/mjg/game%20resources%20and%20tools/Mahjong%20Soul/unity_raw/extracted/MyAssets/deco/title/26mjqnw2/pic/en_chs_t/26mjqnw2_item.png"
+      },
+      "loadingImage": "",
+      "portraitFrame": "",
+      "tablecloth": "",
+      "tile": "",
+      "titleArt": ""
+    },
+    "audio": null,
+    "canSell": 0,
+    "category": 7,
+    "categoryLabel": "Titles",
+    "characterExchangeUsage": [],
+    "characterMaterialUsage": [],
+    "composeUsage": [],
+    "exchangeReceive": [],
+    "exchangeSpend": [],
+    "func": "",
+    "id": 30557079,
+    "isTitleDefinition": false,
+    "isUnique": 1,
+    "kind": "item",
+    "mallListings": [],
+    "maxStack": 0,
+    "packageContainers": [],
+    "packageContents": [],
+    "profile": {
+      "access": "",
+      "accessInfo": 0,
+      "crossView": 0,
+      "databaseCache": 0,
+      "itemExpire": "2027-12-01 00:00:00",
+      "regionLimit": 0,
+      "sellRewardCount": 0,
+      "sellRewardId": 0
+    },
+    "shopListings": [],
+    "shopPricing": [],
+    "sort": 6096,
+    "sourceLimits": [],
+    "text": {
+      "description": {
+        "chs": "",
+        "chs_t": "",
+        "en": "",
+        "jp": "",
+        "kr": ""
+      },
+      "expireDescription": {
+        "chs": "2027-12-01 00:00:00",
+        "chs_t": "2027-12-01 00:00:00",
+        "en": "2027-12-01 00:00:00",
+        "jp": "2027-12-01 00:00:00",
+        "kr": "2027-12-01 00:00:00"
+      },
+      "funcDescription": {
+        "chs": "赠与哔哩哔哩【麻将全能王】活动赛冠军",
+        "chs_t": "贈與嗶哩嗶哩【麻將全能王】活動賽冠軍",
+        "en": "贈與嗶哩嗶哩【麻將全能王】活動賽冠軍",
+        "jp": "贈與嗶哩嗶哩【麻將全能王】活動賽冠軍",
+        "kr": "贈與嗶哩嗶哩【麻將全能王】活動賽冠軍"
+      },
+      "name": {
+        "chs": "麻将全能王S2",
+        "chs_t": "麻將全能王S2",
+        "en": "麻將全能王S2",
+        "jp": "麻將全能王S2",
+        "kr": "麻將全能王S2"
       }
     },
     "type": 11,
@@ -75942,9 +76508,9 @@
           "name": {
             "chs": "风车花田",
             "chs_t": "風車花田",
-            "en": "Among the Wildflowers",
-            "jp": "風車と花畑",
-            "kr": "꽃밭의 풍차"
+            "en": "tbd",
+            "jp": "tbd",
+            "kr": "tbd"
           }
         },
         "zone": "1,2,3"
@@ -80446,8 +81012,8 @@
     "sourceLimits": [],
     "text": {
       "description": {
-        "chs": "AKAGI×雀魂联动纪念插图",
-        "chs_t": "AKAGI×雀魂聯動紀念插圖",
+        "chs": "AKAGI X 雀魂 联动纪念插图",
+        "chs_t": "AKAGI X 雀魂 聯動紀念插圖",
         "en": "AKAGI × Mahjong Soul Collab Commemoration",
         "jp": "アカギ×雀魂コラボ記念イラスト",
         "kr": "[작혼 X 아카기] 콜라보 기념 일러스트"
@@ -80533,8 +81099,8 @@
     "sourceLimits": [],
     "text": {
       "description": {
-        "chs": "AKAGI×雀魂联动纪念插图",
-        "chs_t": "AKAGI×雀魂聯動紀念插圖",
+        "chs": "AKAGI X 雀魂 联动纪念插图",
+        "chs_t": "AKAGI X 雀魂 聯動紀念插圖",
         "en": "AKAGI × Mahjong Soul Collab Commemoration",
         "jp": "アカギ×雀魂コラボ記念イラスト",
         "kr": "[작혼 X 아카기] 콜라보 기념 일러스트"
@@ -81172,6 +81738,180 @@
       "packageContainers": 0,
       "packageContents": 0,
       "shopListings": 1,
+      "shopPricing": 0,
+      "sourceLimits": 0
+    }
+  },
+  {
+    "assets": {
+      "background": "",
+      "icon": "https://files.riichi.moe/mjg/game%20resources%20and%20tools/Mahjong%20Soul/unity_raw/extracted/MyAssets/deco/loading_cg/261101/thumb/common/261101_thumb.png",
+      "loadingImage": "https://files.riichi.moe/mjg/game%20resources%20and%20tools/Mahjong%20Soul/unity_raw/extracted/MyAssets/deco/loading_cg/261101/main/common/261101.png",
+      "portraitFrame": "",
+      "tablecloth": "",
+      "tile": "",
+      "titleArt": ""
+    },
+    "audio": null,
+    "canSell": 0,
+    "category": 8,
+    "categoryLabel": "Loading Screens",
+    "characterExchangeUsage": [],
+    "characterMaterialUsage": [],
+    "composeUsage": [],
+    "exchangeReceive": [],
+    "exchangeSpend": [],
+    "func": "",
+    "id": 307497,
+    "isTitleDefinition": false,
+    "isUnique": 1,
+    "kind": "item",
+    "mallListings": [],
+    "maxStack": 0,
+    "packageContainers": [],
+    "packageContents": [],
+    "profile": {
+      "access": "",
+      "accessInfo": 0,
+      "crossView": 0,
+      "databaseCache": 0,
+      "itemExpire": "",
+      "regionLimit": 0,
+      "sellRewardCount": 0,
+      "sellRewardId": 0
+    },
+    "shopListings": [],
+    "shopPricing": [],
+    "sort": 15097,
+    "sourceLimits": [],
+    "text": {
+      "description": {
+        "chs": "葬送的芙莉莲 X 雀魂 联动纪念插图",
+        "chs_t": "葬送的芙莉蓮 X 雀魂 聯動紀念插圖",
+        "en": "Frieren: Beyond Journey's End × Mahjong Soul Collab Commemoration",
+        "jp": "『葬送のフリーレン × 雀魂コラボ』イベント記念イラスト。",
+        "kr": "[작혼 X 장송의 프리렌] 콜라보 기념 일러스트"
+      },
+      "expireDescription": {
+        "chs": "",
+        "chs_t": "",
+        "en": "",
+        "jp": "",
+        "kr": ""
+      },
+      "funcDescription": {
+        "chs": "点击仓库-插画更换",
+        "chs_t": "點選倉庫-插畫更換",
+        "en": "Tap Items - Illustration to equip.",
+        "jp": "倉庫・イラストで設定できる",
+        "kr": "[창고]-[일러스트]에서 변경할 수 있다."
+      },
+      "name": {
+        "chs": "雾眠之岛-2026",
+        "chs_t": "霧眠之島-2026",
+        "en": "Fogbound Isle (2026)",
+        "jp": "霧が眠る島 -2026",
+        "kr": "안개가 잠드는 섬-2026"
+      }
+    },
+    "type": 12,
+    "usageCounts": {
+      "characterExchangeUsage": 0,
+      "characterMaterialUsage": 0,
+      "composeUsage": 0,
+      "exchangeReceive": 0,
+      "exchangeSpend": 0,
+      "mallListings": 0,
+      "packageContainers": 0,
+      "packageContents": 0,
+      "shopListings": 0,
+      "shopPricing": 0,
+      "sourceLimits": 0
+    }
+  },
+  {
+    "assets": {
+      "background": "",
+      "icon": "https://files.riichi.moe/mjg/game%20resources%20and%20tools/Mahjong%20Soul/unity_raw/extracted/MyAssets/deco/loading_cg/261102/thumb/common/261102_thumb.png",
+      "loadingImage": "https://files.riichi.moe/mjg/game%20resources%20and%20tools/Mahjong%20Soul/unity_raw/extracted/MyAssets/deco/loading_cg/261102/main/common/261102.png",
+      "portraitFrame": "",
+      "tablecloth": "",
+      "tile": "",
+      "titleArt": ""
+    },
+    "audio": null,
+    "canSell": 0,
+    "category": 8,
+    "categoryLabel": "Loading Screens",
+    "characterExchangeUsage": [],
+    "characterMaterialUsage": [],
+    "composeUsage": [],
+    "exchangeReceive": [],
+    "exchangeSpend": [],
+    "func": "",
+    "id": 307498,
+    "isTitleDefinition": false,
+    "isUnique": 1,
+    "kind": "item",
+    "mallListings": [],
+    "maxStack": 0,
+    "packageContainers": [],
+    "packageContents": [],
+    "profile": {
+      "access": "",
+      "accessInfo": 0,
+      "crossView": 0,
+      "databaseCache": 0,
+      "itemExpire": "",
+      "regionLimit": 0,
+      "sellRewardCount": 0,
+      "sellRewardId": 0
+    },
+    "shopListings": [],
+    "shopPricing": [],
+    "sort": 15098,
+    "sourceLimits": [],
+    "text": {
+      "description": {
+        "chs": "葬送的芙莉莲 X 雀魂 联动纪念插图",
+        "chs_t": "葬送的芙莉蓮 X 雀魂 聯動紀念插圖",
+        "en": "Frieren: Beyond Journey's End × Mahjong Soul Collab Commemoration",
+        "jp": "『葬送のフリーレン × 雀魂コラボ』イベント記念イラスト。",
+        "kr": "[작혼 X 장송의 프리렌] 콜라보 기념 일러스트"
+      },
+      "expireDescription": {
+        "chs": "",
+        "chs_t": "",
+        "en": "",
+        "jp": "",
+        "kr": ""
+      },
+      "funcDescription": {
+        "chs": "点击仓库-插画更换",
+        "chs_t": "點選倉庫-插畫更換",
+        "en": "Tap Items - Illustration to equip.",
+        "jp": "倉庫・イラストで設定できる",
+        "kr": "[창고]-[일러스트]에서 변경할 수 있다."
+      },
+      "name": {
+        "chs": "于遥远之地-2026",
+        "chs_t": "於遙遠之地-2026",
+        "en": "In a Land Far Away (2026)",
+        "jp": "遠き地にて -2026",
+        "kr": "아득히 먼 땅에서-2026"
+      }
+    },
+    "type": 12,
+    "usageCounts": {
+      "characterExchangeUsage": 0,
+      "characterMaterialUsage": 0,
+      "composeUsage": 0,
+      "exchangeReceive": 0,
+      "exchangeSpend": 0,
+      "mallListings": 0,
+      "packageContainers": 0,
+      "packageContents": 0,
+      "shopListings": 0,
       "shopPricing": 0,
       "sourceLimits": 0
     }
@@ -91550,6 +92290,354 @@
   {
     "assets": {
       "background": "",
+      "icon": "",
+      "loadingImage": "",
+      "portraitFrame": "",
+      "tablecloth": "",
+      "tile": "",
+      "titleArt": ""
+    },
+    "audio": null,
+    "canSell": 0,
+    "category": 5,
+    "categoryLabel": "Hands",
+    "characterExchangeUsage": [],
+    "characterMaterialUsage": [],
+    "composeUsage": [],
+    "exchangeReceive": [],
+    "exchangeSpend": [],
+    "func": "",
+    "id": 30990017,
+    "isTitleDefinition": false,
+    "isUnique": 1,
+    "kind": "item",
+    "mallListings": [],
+    "maxStack": 0,
+    "packageContainers": [],
+    "packageContents": [],
+    "profile": {
+      "access": "",
+      "accessInfo": 0,
+      "crossView": 0,
+      "databaseCache": 0,
+      "itemExpire": "",
+      "regionLimit": 0,
+      "sellRewardCount": 0,
+      "sellRewardId": 0
+    },
+    "shopListings": [],
+    "shopPricing": [],
+    "sort": 17027,
+    "sourceLimits": [],
+    "text": {
+      "description": {
+        "chs": "",
+        "chs_t": "",
+        "en": "",
+        "jp": "",
+        "kr": ""
+      },
+      "expireDescription": {
+        "chs": "",
+        "chs_t": "",
+        "en": "",
+        "jp": "",
+        "kr": ""
+      },
+      "funcDescription": {
+        "chs": "",
+        "chs_t": "",
+        "en": "",
+        "jp": "",
+        "kr": ""
+      },
+      "name": {
+        "chs": "手-fll联动-芙莉莲(已过期)",
+        "chs_t": "手-fll联动-芙莉莲(已过期)",
+        "en": "",
+        "jp": "",
+        "kr": ""
+      }
+    },
+    "type": 3,
+    "usageCounts": {
+      "characterExchangeUsage": 0,
+      "characterMaterialUsage": 0,
+      "composeUsage": 0,
+      "exchangeReceive": 0,
+      "exchangeSpend": 0,
+      "mallListings": 0,
+      "packageContainers": 0,
+      "packageContents": 0,
+      "shopListings": 0,
+      "shopPricing": 0,
+      "sourceLimits": 0
+    }
+  },
+  {
+    "assets": {
+      "background": "",
+      "icon": "",
+      "loadingImage": "",
+      "portraitFrame": "",
+      "tablecloth": "",
+      "tile": "",
+      "titleArt": ""
+    },
+    "audio": null,
+    "canSell": 0,
+    "category": 5,
+    "categoryLabel": "Hands",
+    "characterExchangeUsage": [],
+    "characterMaterialUsage": [],
+    "composeUsage": [],
+    "exchangeReceive": [],
+    "exchangeSpend": [],
+    "func": "",
+    "id": 30990018,
+    "isTitleDefinition": false,
+    "isUnique": 1,
+    "kind": "item",
+    "mallListings": [],
+    "maxStack": 0,
+    "packageContainers": [],
+    "packageContents": [],
+    "profile": {
+      "access": "",
+      "accessInfo": 0,
+      "crossView": 0,
+      "databaseCache": 0,
+      "itemExpire": "",
+      "regionLimit": 0,
+      "sellRewardCount": 0,
+      "sellRewardId": 0
+    },
+    "shopListings": [],
+    "shopPricing": [],
+    "sort": 17028,
+    "sourceLimits": [],
+    "text": {
+      "description": {
+        "chs": "",
+        "chs_t": "",
+        "en": "",
+        "jp": "",
+        "kr": ""
+      },
+      "expireDescription": {
+        "chs": "",
+        "chs_t": "",
+        "en": "",
+        "jp": "",
+        "kr": ""
+      },
+      "funcDescription": {
+        "chs": "",
+        "chs_t": "",
+        "en": "",
+        "jp": "",
+        "kr": ""
+      },
+      "name": {
+        "chs": "手-fll联动-菲伦(已过期)",
+        "chs_t": "手-fll联动-菲伦(已过期)",
+        "en": "",
+        "jp": "",
+        "kr": ""
+      }
+    },
+    "type": 3,
+    "usageCounts": {
+      "characterExchangeUsage": 0,
+      "characterMaterialUsage": 0,
+      "composeUsage": 0,
+      "exchangeReceive": 0,
+      "exchangeSpend": 0,
+      "mallListings": 0,
+      "packageContainers": 0,
+      "packageContents": 0,
+      "shopListings": 0,
+      "shopPricing": 0,
+      "sourceLimits": 0
+    }
+  },
+  {
+    "assets": {
+      "background": "",
+      "icon": "",
+      "loadingImage": "",
+      "portraitFrame": "",
+      "tablecloth": "",
+      "tile": "",
+      "titleArt": ""
+    },
+    "audio": null,
+    "canSell": 0,
+    "category": 5,
+    "categoryLabel": "Hands",
+    "characterExchangeUsage": [],
+    "characterMaterialUsage": [],
+    "composeUsage": [],
+    "exchangeReceive": [],
+    "exchangeSpend": [],
+    "func": "",
+    "id": 30990019,
+    "isTitleDefinition": false,
+    "isUnique": 1,
+    "kind": "item",
+    "mallListings": [],
+    "maxStack": 0,
+    "packageContainers": [],
+    "packageContents": [],
+    "profile": {
+      "access": "",
+      "accessInfo": 0,
+      "crossView": 0,
+      "databaseCache": 0,
+      "itemExpire": "",
+      "regionLimit": 0,
+      "sellRewardCount": 0,
+      "sellRewardId": 0
+    },
+    "shopListings": [],
+    "shopPricing": [],
+    "sort": 17029,
+    "sourceLimits": [],
+    "text": {
+      "description": {
+        "chs": "",
+        "chs_t": "",
+        "en": "",
+        "jp": "",
+        "kr": ""
+      },
+      "expireDescription": {
+        "chs": "",
+        "chs_t": "",
+        "en": "",
+        "jp": "",
+        "kr": ""
+      },
+      "funcDescription": {
+        "chs": "",
+        "chs_t": "",
+        "en": "",
+        "jp": "",
+        "kr": ""
+      },
+      "name": {
+        "chs": "手-fll联动-休塔尔克(已过期)",
+        "chs_t": "手-fll联动-休塔尔克(已过期)",
+        "en": "",
+        "jp": "",
+        "kr": ""
+      }
+    },
+    "type": 3,
+    "usageCounts": {
+      "characterExchangeUsage": 0,
+      "characterMaterialUsage": 0,
+      "composeUsage": 0,
+      "exchangeReceive": 0,
+      "exchangeSpend": 0,
+      "mallListings": 0,
+      "packageContainers": 0,
+      "packageContents": 0,
+      "shopListings": 0,
+      "shopPricing": 0,
+      "sourceLimits": 0
+    }
+  },
+  {
+    "assets": {
+      "background": "",
+      "icon": "",
+      "loadingImage": "",
+      "portraitFrame": "",
+      "tablecloth": "",
+      "tile": "",
+      "titleArt": ""
+    },
+    "audio": null,
+    "canSell": 0,
+    "category": 5,
+    "categoryLabel": "Hands",
+    "characterExchangeUsage": [],
+    "characterMaterialUsage": [],
+    "composeUsage": [],
+    "exchangeReceive": [],
+    "exchangeSpend": [],
+    "func": "",
+    "id": 30990020,
+    "isTitleDefinition": false,
+    "isUnique": 1,
+    "kind": "item",
+    "mallListings": [],
+    "maxStack": 0,
+    "packageContainers": [],
+    "packageContents": [],
+    "profile": {
+      "access": "",
+      "accessInfo": 0,
+      "crossView": 0,
+      "databaseCache": 0,
+      "itemExpire": "",
+      "regionLimit": 0,
+      "sellRewardCount": 0,
+      "sellRewardId": 0
+    },
+    "shopListings": [],
+    "shopPricing": [],
+    "sort": 17030,
+    "sourceLimits": [],
+    "text": {
+      "description": {
+        "chs": "",
+        "chs_t": "",
+        "en": "",
+        "jp": "",
+        "kr": ""
+      },
+      "expireDescription": {
+        "chs": "",
+        "chs_t": "",
+        "en": "",
+        "jp": "",
+        "kr": ""
+      },
+      "funcDescription": {
+        "chs": "",
+        "chs_t": "",
+        "en": "",
+        "jp": "",
+        "kr": ""
+      },
+      "name": {
+        "chs": "手-fll联动-尤贝尔(已过期)",
+        "chs_t": "手-fll联动-尤贝尔(已过期)",
+        "en": "",
+        "jp": "",
+        "kr": ""
+      }
+    },
+    "type": 3,
+    "usageCounts": {
+      "characterExchangeUsage": 0,
+      "characterMaterialUsage": 0,
+      "composeUsage": 0,
+      "exchangeReceive": 0,
+      "exchangeSpend": 0,
+      "mallListings": 0,
+      "packageContainers": 0,
+      "packageContents": 0,
+      "shopListings": 0,
+      "shopPricing": 0,
+      "sourceLimits": 0
+    }
+  },
+  {
+    "assets": {
+      "background": "",
       "icon": "https://files.riichi.moe/mjg/game%20resources%20and%20tools/Mahjong%20Soul/unity_raw/extracted/MyAssets/extendRes/items/common/Glasses.png",
       "loadingImage": "",
       "portraitFrame": "",
@@ -97367,6 +98455,528 @@
         "en": "Portrait Frame - VRMMO",
         "jp": "VRMMOのフレーム",
         "kr": "프로필 테두리 - VRMMO"
+      }
+    },
+    "type": 5,
+    "usageCounts": {
+      "characterExchangeUsage": 0,
+      "characterMaterialUsage": 0,
+      "composeUsage": 0,
+      "exchangeReceive": 0,
+      "exchangeSpend": 0,
+      "mallListings": 0,
+      "packageContainers": 0,
+      "packageContents": 0,
+      "shopListings": 0,
+      "shopPricing": 0,
+      "sourceLimits": 0
+    }
+  },
+  {
+    "assets": {
+      "background": "",
+      "icon": "https://files.riichi.moe/mjg/game%20resources%20and%20tools/Mahjong%20Soul/unity_raw/extracted/MyAssets/deco/effect_hupai/ron_26fll/pic/common/ron_26fll.png",
+      "loadingImage": "",
+      "portraitFrame": "",
+      "tablecloth": "",
+      "tile": "",
+      "titleArt": ""
+    },
+    "audio": null,
+    "canSell": 0,
+    "category": 5,
+    "categoryLabel": "Winning Effects",
+    "characterExchangeUsage": [],
+    "characterMaterialUsage": [],
+    "composeUsage": [],
+    "exchangeReceive": [],
+    "exchangeSpend": [],
+    "func": "",
+    "id": 308058,
+    "isTitleDefinition": false,
+    "isUnique": 1,
+    "kind": "item",
+    "mallListings": [],
+    "maxStack": 0,
+    "packageContainers": [],
+    "packageContents": [],
+    "profile": {
+      "access": "",
+      "accessInfo": 0,
+      "crossView": 0,
+      "databaseCache": 0,
+      "itemExpire": "",
+      "regionLimit": 0,
+      "sellRewardCount": 0,
+      "sellRewardId": 0
+    },
+    "shopListings": [],
+    "shopPricing": [],
+    "sort": 18068,
+    "sourceLimits": [],
+    "text": {
+      "description": {
+        "chs": "这个魔法能在周围变出一片绚烂的花田，让路过此地的人们为之露出笑容。",
+        "chs_t": "這個魔法能在周圍變出一片絢爛的花田，讓路過此地的人們為之露出笑容。",
+        "en": "Conjures a brilliant field of flowers, bringing smiles to all who see it.",
+        "jp": "辺り一面を綺麗な花畑に変えて、皆を笑顔にすることができる魔法。",
+        "kr": "주위를 온통 아름다운 꽃밭으로 만들어, 모두를 미소 짓게 하는 마법이다."
+      },
+      "expireDescription": {
+        "chs": "",
+        "chs_t": "",
+        "en": "",
+        "jp": "",
+        "kr": ""
+      },
+      "funcDescription": {
+        "chs": "点击寮舍-装扮更换",
+        "chs_t": "點選宿舍-裝扮更換",
+        "en": "Tap Dorm - Decoration to equip.",
+        "jp": "装飾で設定することで、和了演出を変更できる。（イベント期間限定。期間終了後は入手できなくなります。）",
+        "kr": "장식품 화면에서 화료 연출을 변경할 수 있다."
+      },
+      "name": {
+        "chs": "和牌-变出花田的魔法",
+        "chs_t": "和牌-變出花田的魔法",
+        "en": "Winning - Spell to Create a Field of Flowers",
+        "jp": "和了演出：花畑を出す魔法",
+        "kr": "화료 연출: 꽃밭을 만드는 마법"
+      }
+    },
+    "type": 1,
+    "usageCounts": {
+      "characterExchangeUsage": 0,
+      "characterMaterialUsage": 0,
+      "composeUsage": 0,
+      "exchangeReceive": 0,
+      "exchangeSpend": 0,
+      "mallListings": 0,
+      "packageContainers": 0,
+      "packageContents": 0,
+      "shopListings": 0,
+      "shopPricing": 0,
+      "sourceLimits": 0
+    }
+  },
+  {
+    "assets": {
+      "background": "",
+      "icon": "https://files.riichi.moe/mjg/game%20resources%20and%20tools/Mahjong%20Soul/unity_raw/extracted/MyAssets/deco/effect_lizhi/effect_liqi_26fll/pic/common/effect_liqi_26fll.png",
+      "loadingImage": "",
+      "portraitFrame": "",
+      "tablecloth": "",
+      "tile": "",
+      "titleArt": ""
+    },
+    "audio": null,
+    "canSell": 0,
+    "category": 5,
+    "categoryLabel": "Riichi Effects",
+    "characterExchangeUsage": [],
+    "characterMaterialUsage": [],
+    "composeUsage": [],
+    "exchangeReceive": [],
+    "exchangeSpend": [],
+    "func": "",
+    "id": 308059,
+    "isTitleDefinition": false,
+    "isUnique": 1,
+    "kind": "item",
+    "mallListings": [],
+    "maxStack": 0,
+    "packageContainers": [],
+    "packageContents": [],
+    "profile": {
+      "access": "",
+      "accessInfo": 0,
+      "crossView": 0,
+      "databaseCache": 0,
+      "itemExpire": "",
+      "regionLimit": 0,
+      "sellRewardCount": 0,
+      "sellRewardId": 0
+    },
+    "shopListings": [],
+    "shopPricing": [],
+    "sort": 18069,
+    "sourceLimits": [],
+    "text": {
+      "description": {
+        "chs": "将极其高密度的魔力压缩、汇聚于一点，展开猛烈的攻势。",
+        "chs_t": "將極其高密度的魔力壓縮、匯聚於一點，展開猛烈的攻勢。",
+        "en": "Concentrates mana into a single point, then unleashes it in a devastating blast.",
+        "jp": "極めて高密度の魔力を一点に収束させ、相手を攻撃する魔法。",
+        "kr": "극도로 밀도 높은 마력을 한 지점에 집중시켜 상대를 공격하는 마법이다."
+      },
+      "expireDescription": {
+        "chs": "",
+        "chs_t": "",
+        "en": "",
+        "jp": "",
+        "kr": ""
+      },
+      "funcDescription": {
+        "chs": "点击寮舍-装扮更换",
+        "chs_t": "點選宿舍-裝扮更換",
+        "en": "Tap Dorm - Decoration to equip.",
+        "jp": "装飾で設定することで、立直演出を変更できる。（イベント期間限定。期間終了後は入手できなくなります。）",
+        "kr": "장식품 화면에서 리치 연출을 변경할 수 있다."
+      },
+      "name": {
+        "chs": "立直-普通攻击魔法",
+        "chs_t": "立直-一般攻撃魔法",
+        "en": "Riichi - Ordinary Offensive Magic",
+        "jp": "立直演出：一般攻撃魔法",
+        "kr": "리치 연출: 일반 공격 마법"
+      }
+    },
+    "type": 2,
+    "usageCounts": {
+      "characterExchangeUsage": 0,
+      "characterMaterialUsage": 0,
+      "composeUsage": 0,
+      "exchangeReceive": 0,
+      "exchangeSpend": 0,
+      "mallListings": 0,
+      "packageContainers": 0,
+      "packageContents": 0,
+      "shopListings": 0,
+      "shopPricing": 0,
+      "sourceLimits": 0
+    }
+  },
+  {
+    "assets": {
+      "background": "",
+      "icon": "https://files.riichi.moe/mjg/game%20resources%20and%20tools/Mahjong%20Soul/unity_raw/extracted/MyAssets/deco/lizhibang/liqi_26fll/pic/common/liqi_26fll.png",
+      "loadingImage": "",
+      "portraitFrame": "",
+      "tablecloth": "",
+      "tile": "",
+      "titleArt": ""
+    },
+    "audio": null,
+    "canSell": 0,
+    "category": 5,
+    "categoryLabel": "Riichi Bets",
+    "characterExchangeUsage": [],
+    "characterMaterialUsage": [],
+    "composeUsage": [],
+    "exchangeReceive": [],
+    "exchangeSpend": [],
+    "func": "",
+    "id": 308060,
+    "isTitleDefinition": false,
+    "isUnique": 1,
+    "kind": "item",
+    "mallListings": [],
+    "maxStack": 0,
+    "packageContainers": [],
+    "packageContents": [],
+    "profile": {
+      "access": "",
+      "accessInfo": 0,
+      "crossView": 0,
+      "databaseCache": 0,
+      "itemExpire": "",
+      "regionLimit": 0,
+      "sellRewardCount": 0,
+      "sellRewardId": 0
+    },
+    "shopListings": [],
+    "shopPricing": [],
+    "sort": 18070,
+    "sourceLimits": [],
+    "text": {
+      "description": {
+        "chs": "造型源于菲伦自幼便带在身边，十分珍视的法杖，能从中感受到努力与成长。",
+        "chs_t": "造型源於費倫自幼便帶在身邊，十分珍視的法杖，能從中感受到努力與成長。",
+        "en": "Inspired by the treasured staff Fern has carried since childhood, symbolizing her dedication and growth as a mage.",
+        "jp": "幼い頃からフェルンが大切にしている杖を模した立直棒。努力と成長への期待が感じられる。",
+        "kr": "페른이 어릴 때부터 곁에 두고 소중히 여겨 온 지팡이를 본뜬 리치봉. 그 안에서 노력과 성장이 느껴진다."
+      },
+      "expireDescription": {
+        "chs": "",
+        "chs_t": "",
+        "en": "",
+        "jp": "",
+        "kr": ""
+      },
+      "funcDescription": {
+        "chs": "点击寮舍-装扮更换",
+        "chs_t": "點選宿舍-裝扮更換",
+        "en": "Tap Dorm - Decoration to equip.",
+        "jp": "装飾で設定することで、立直棒を変更できる。（イベント期間限定。期間終了後は入手できなくなります。）",
+        "kr": "장식품 화면에서 리치봉을 변경할 수 있다."
+      },
+      "name": {
+        "chs": "立直棒-菲伦的法杖",
+        "chs_t": "立直棒-費倫的法杖",
+        "en": "Riichi Bet - Fern's Staff",
+        "jp": "フェルンの杖の立直棒",
+        "kr": "페른의 지팡이 리치봉"
+      }
+    },
+    "type": 0,
+    "usageCounts": {
+      "characterExchangeUsage": 0,
+      "characterMaterialUsage": 0,
+      "composeUsage": 0,
+      "exchangeReceive": 0,
+      "exchangeSpend": 0,
+      "mallListings": 0,
+      "packageContainers": 0,
+      "packageContents": 0,
+      "shopListings": 0,
+      "shopPricing": 0,
+      "sourceLimits": 0
+    }
+  },
+  {
+    "assets": {
+      "background": "",
+      "icon": "https://files.riichi.moe/mjg/game%20resources%20and%20tools/Mahjong%20Soul/unity_raw/extracted/MyAssets/deco/tablecloth/tablecloth_26fll/pic/common/tablecloth_26fll.png",
+      "loadingImage": "",
+      "portraitFrame": "",
+      "tablecloth": "https://files.riichi.moe/mjg/game%20resources%20and%20tools/Mahjong%20Soul/unity_raw/extracted/MyAssets/deco/tablecloth/tablecloth_26fll/3d/texture/Table_Dif.png",
+      "tile": "",
+      "titleArt": ""
+    },
+    "audio": null,
+    "canSell": 0,
+    "category": 5,
+    "categoryLabel": "Tablecloths",
+    "characterExchangeUsage": [],
+    "characterMaterialUsage": [],
+    "composeUsage": [],
+    "exchangeReceive": [],
+    "exchangeSpend": [],
+    "func": "",
+    "id": 308061,
+    "isTitleDefinition": false,
+    "isUnique": 1,
+    "kind": "item",
+    "mallListings": [],
+    "maxStack": 0,
+    "packageContainers": [],
+    "packageContents": [],
+    "profile": {
+      "access": "",
+      "accessInfo": 0,
+      "crossView": 0,
+      "databaseCache": 0,
+      "itemExpire": "",
+      "regionLimit": 0,
+      "sellRewardCount": 0,
+      "sellRewardId": 0
+    },
+    "shopListings": [],
+    "shopPricing": [],
+    "sort": 18071,
+    "sourceLimits": [],
+    "text": {
+      "description": {
+        "chs": "勇者辛美尔的雕像周围有一片来自他故乡的苍月草的花田，苍月草的花今天也盛开得十分美丽。",
+        "chs_t": "勇者欣梅爾的雕像周圍有一片來自他故鄉的蒼月草花田，蒼月草的花今天也盛開得十分美麗。",
+        "en": "Native to Himmel's hometown, blue moon weed once again blooms beautifully around the statue of Himmel the Hero.",
+        "jp": "勇者ヒンメルの像の周囲には彼の故郷の花である蒼月草の花が、今日も美しく咲いている。",
+        "kr": "용사 힘멜의 동상 주변에는 그의 고향 꽃인 창월초가 오늘도 아름답게 피어 있다."
+      },
+      "expireDescription": {
+        "chs": "",
+        "chs_t": "",
+        "en": "",
+        "jp": "",
+        "kr": ""
+      },
+      "funcDescription": {
+        "chs": "点击寮舍-装扮更换",
+        "chs_t": "點選宿舍-裝扮更換",
+        "en": "Tap Dorm - Decoration to equip.",
+        "jp": "装飾で設定することで、雀卓の模様を変更できる。（イベント期間限定。期間終了後は入手できなくなります。）",
+        "kr": "장식품 화면에서 작탁을 변경할 수 있다."
+      },
+      "name": {
+        "chs": "桌布-绽放的苍月草",
+        "chs_t": "桌布-綻放的蒼月草",
+        "en": "Tablecloth - Blue Moon Weed Blossoms",
+        "jp": "蒼月草が咲く雀卓",
+        "kr": "작탁: 피어난 창월초"
+      }
+    },
+    "type": 6,
+    "usageCounts": {
+      "characterExchangeUsage": 0,
+      "characterMaterialUsage": 0,
+      "composeUsage": 0,
+      "exchangeReceive": 0,
+      "exchangeSpend": 0,
+      "mallListings": 0,
+      "packageContainers": 0,
+      "packageContents": 0,
+      "shopListings": 0,
+      "shopPricing": 0,
+      "sourceLimits": 0
+    }
+  },
+  {
+    "assets": {
+      "background": "",
+      "icon": "https://files.riichi.moe/mjg/game%20resources%20and%20tools/Mahjong%20Soul/unity_raw/extracted/MyAssets/deco/mjpai/mjp_26fll/pic/common/mjp_26fll.png",
+      "loadingImage": "",
+      "portraitFrame": "",
+      "tablecloth": "",
+      "tile": "https://files.riichi.moe/mjg/game%20resources%20and%20tools/Mahjong%20Soul/unity_raw/extracted/MyAssets/deco/mjpai/mjp_26fll/3d/texture/hand.png",
+      "titleArt": ""
+    },
+    "audio": null,
+    "canSell": 0,
+    "category": 5,
+    "categoryLabel": "Tile Backs",
+    "characterExchangeUsage": [],
+    "characterMaterialUsage": [],
+    "composeUsage": [],
+    "exchangeReceive": [],
+    "exchangeSpend": [],
+    "func": "",
+    "id": 308062,
+    "isTitleDefinition": false,
+    "isUnique": 1,
+    "kind": "item",
+    "mallListings": [],
+    "maxStack": 0,
+    "packageContainers": [],
+    "packageContents": [],
+    "profile": {
+      "access": "",
+      "accessInfo": 0,
+      "crossView": 0,
+      "databaseCache": 0,
+      "itemExpire": "",
+      "regionLimit": 0,
+      "sellRewardCount": 0,
+      "sellRewardId": 0
+    },
+    "shopListings": [],
+    "shopPricing": [],
+    "sort": 18072,
+    "sourceLimits": [],
+    "text": {
+      "description": {
+        "chs": "纹样源于那位热爱魔法的精灵魔法使手中的法杖，适合想要悠哉地踏上麻将之旅的雀士。",
+        "chs_t": "紋樣源於那位熱愛魔法的精靈魔法使手中的法杖，適合想要悠哉地踏上麻將之旅的雀士。",
+        "en": "Inspired by Frieren's staff and her passion for collecting spells – perfect for mahjong players setting out on a leisurely journey of their own.",
+        "jp": "魔法を愛するフリーレンの杖がデザインされた麻雀牌。のんびりと麻雀の旅への一歩を踏み出したい雀士にぴったり。",
+        "kr": "마법을 사랑한 프리렌의 지팡이가 디자인된 마작패. 느긋하게 마작 여행의 첫걸음을 내딛고 싶은 작사에게 어울린다."
+      },
+      "expireDescription": {
+        "chs": "",
+        "chs_t": "",
+        "en": "",
+        "jp": "",
+        "kr": ""
+      },
+      "funcDescription": {
+        "chs": "点击寮舍-装扮更换",
+        "chs_t": "點選宿舍-裝扮更換",
+        "en": "Tap Dorm - Decoration to equip.",
+        "jp": "装飾で設定することで、麻雀牌の模様を変更できる。（イベント期間限定。期間終了後は入手できなくなります。）",
+        "kr": "장식품 화면에서 마작패를 변경할 수 있다."
+      },
+      "name": {
+        "chs": "牌背-芙莉莲的法杖",
+        "chs_t": "牌背-芙莉蓮的法杖",
+        "en": "Tile Back - Frieren's Staff",
+        "jp": "フリーレンの杖の麻雀牌",
+        "kr": "마작패: 프리렌의 지팡이"
+      }
+    },
+    "type": 7,
+    "usageCounts": {
+      "characterExchangeUsage": 0,
+      "characterMaterialUsage": 0,
+      "composeUsage": 0,
+      "exchangeReceive": 0,
+      "exchangeSpend": 0,
+      "mallListings": 0,
+      "packageContainers": 0,
+      "packageContents": 0,
+      "shopListings": 0,
+      "shopPricing": 0,
+      "sourceLimits": 0
+    }
+  },
+  {
+    "assets": {
+      "background": "",
+      "icon": "https://files.riichi.moe/mjg/game%20resources%20and%20tools/Mahjong%20Soul/unity_raw/extracted/MyAssets/deco/head_frame/headframe_26fll/pic/common/headframe_26fll.png",
+      "loadingImage": "",
+      "portraitFrame": "https://files.riichi.moe/mjg/game%20resources%20and%20tools/Mahjong%20Soul/unity_raw/extracted/MyAssets/deco/head_frame/headframe_26fll/icon/common/headframe_26fll.png",
+      "tablecloth": "",
+      "tile": "",
+      "titleArt": ""
+    },
+    "audio": null,
+    "canSell": 0,
+    "category": 5,
+    "categoryLabel": "Portrait Frames",
+    "characterExchangeUsage": [],
+    "characterMaterialUsage": [],
+    "composeUsage": [],
+    "exchangeReceive": [],
+    "exchangeSpend": [],
+    "func": "",
+    "id": 308063,
+    "isTitleDefinition": false,
+    "isUnique": 1,
+    "kind": "item",
+    "mallListings": [],
+    "maxStack": 0,
+    "packageContainers": [],
+    "packageContents": [],
+    "profile": {
+      "access": "",
+      "accessInfo": 0,
+      "crossView": 1,
+      "databaseCache": 0,
+      "itemExpire": "",
+      "regionLimit": 0,
+      "sellRewardCount": 0,
+      "sellRewardId": 0
+    },
+    "shopListings": [],
+    "shopPricing": [],
+    "sort": 18073,
+    "sourceLimits": [],
+    "text": {
+      "description": {
+        "chs": "温暖的记忆，如同昨日般清晰。",
+        "chs_t": "溫暖的記憶，如同昨日般清晰。",
+        "en": "Woven from flowers and treasured memories, its warmth remains as vivid as ever.",
+        "jp": "あたたかい記憶が鮮明に蘇る花冠のフレーム。",
+        "kr": "따뜻한 기억이 마치 어제처럼 선명하다."
+      },
+      "expireDescription": {
+        "chs": "",
+        "chs_t": "",
+        "en": "",
+        "jp": "",
+        "kr": ""
+      },
+      "funcDescription": {
+        "chs": "点击寮舍-装扮更换",
+        "chs_t": "點選宿舍-裝扮更換",
+        "en": "Tap Dorm - Decoration to equip.",
+        "jp": "装飾で設定することで、アイコンフレームを変更できる。（イベント期間限定。期間終了後は入手できなくなります。）",
+        "kr": "장식품 화면에서 프로필 테두리 변경 가능."
+      },
+      "name": {
+        "chs": "头像框-岁月的花冠",
+        "chs_t": "頭像框-歲月的花冠",
+        "en": "Portrait Frame - Flower Crown",
+        "jp": "花冠のフレーム",
+        "kr": "프로필 테두리 - 화관"
       }
     },
     "type": 5,
@@ -115227,6 +116837,180 @@
   {
     "assets": {
       "background": "",
+      "icon": "https://files.riichi.moe/mjg/game%20resources%20and%20tools/Mahjong%20Soul/unity_raw/extracted/MyAssets/ui/activity/extend/2611fll/main/pic_scattered/common/2611fll1.png",
+      "loadingImage": "",
+      "portraitFrame": "",
+      "tablecloth": "",
+      "tile": "",
+      "titleArt": ""
+    },
+    "audio": null,
+    "canSell": 0,
+    "category": 6,
+    "categoryLabel": "Event Items",
+    "characterExchangeUsage": [],
+    "characterMaterialUsage": [],
+    "composeUsage": [],
+    "exchangeReceive": [],
+    "exchangeSpend": [],
+    "func": "",
+    "id": 30900109,
+    "isTitleDefinition": false,
+    "isUnique": 0,
+    "kind": "item",
+    "mallListings": [],
+    "maxStack": 999999,
+    "packageContainers": [],
+    "packageContents": [],
+    "profile": {
+      "access": "",
+      "accessInfo": 0,
+      "crossView": 0,
+      "databaseCache": 0,
+      "itemExpire": "",
+      "regionLimit": 0,
+      "sellRewardCount": 0,
+      "sellRewardId": 0
+    },
+    "shopListings": [],
+    "shopPricing": [],
+    "sort": 20180,
+    "sourceLimits": [],
+    "text": {
+      "description": {
+        "chs": "雾眠之岛活动限定道具，通过活动任务/段位对局/活动对局获得。可用于丰收素材，洞察晶球内的映像。",
+        "chs_t": "霧眠之島活動限定道具，通過活動任務/段位對局/活動對局獲得。可用于豐收素材，洞察晶球內的映像。",
+        "en": "Fogbound Isle event item, obtained from event missions, Ranked Match, and Event Match. Used to reveal the crystal ball's visions and instantly harvest materials.",
+        "jp": "イベントクエスト達成、またはイベント対局・段位戦対局に参加することで入手できる。素材の成長加速や水晶玉のヒントを見るのに使用する。",
+        "kr": "안개가 잠드는 섬 이벤트 한정 아이템. 이벤트 임무, 등급전, 이벤트 대국을 통해서 획득할 수 있다. 재료로 사용할 수 있고, 수정구 안에 숨겨진 소원을 확인할 수 있다."
+      },
+      "expireDescription": {
+        "chs": "",
+        "chs_t": "",
+        "en": "",
+        "jp": "",
+        "kr": ""
+      },
+      "funcDescription": {
+        "chs": "活动限定道具",
+        "chs_t": "活動限定道具",
+        "en": "Event-limited item.",
+        "jp": "イベント「霧が眠る島」のイベントアイテム。",
+        "kr": "기간 한정 아이템."
+      },
+      "name": {
+        "chs": "迷雾晶尘",
+        "chs_t": "迷霧晶塵",
+        "en": "Crystallized Fog",
+        "jp": "霧の結晶",
+        "kr": "안개 결정"
+      }
+    },
+    "type": 0,
+    "usageCounts": {
+      "characterExchangeUsage": 0,
+      "characterMaterialUsage": 0,
+      "composeUsage": 0,
+      "exchangeReceive": 0,
+      "exchangeSpend": 0,
+      "mallListings": 0,
+      "packageContainers": 0,
+      "packageContents": 0,
+      "shopListings": 0,
+      "shopPricing": 0,
+      "sourceLimits": 0
+    }
+  },
+  {
+    "assets": {
+      "background": "",
+      "icon": "https://files.riichi.moe/mjg/game%20resources%20and%20tools/Mahjong%20Soul/unity_raw/extracted/MyAssets/ui/activity/extend/2611fll/main/pic_scattered/common/2611fll2.png",
+      "loadingImage": "",
+      "portraitFrame": "",
+      "tablecloth": "",
+      "tile": "",
+      "titleArt": ""
+    },
+    "audio": null,
+    "canSell": 0,
+    "category": 6,
+    "categoryLabel": "Event Items",
+    "characterExchangeUsage": [],
+    "characterMaterialUsage": [],
+    "composeUsage": [],
+    "exchangeReceive": [],
+    "exchangeSpend": [],
+    "func": "",
+    "id": 30900110,
+    "isTitleDefinition": false,
+    "isUnique": 0,
+    "kind": "item",
+    "mallListings": [],
+    "maxStack": 999999,
+    "packageContainers": [],
+    "packageContents": [],
+    "profile": {
+      "access": "",
+      "accessInfo": 0,
+      "crossView": 0,
+      "databaseCache": 0,
+      "itemExpire": "",
+      "regionLimit": 0,
+      "sellRewardCount": 0,
+      "sellRewardId": 0
+    },
+    "shopListings": [],
+    "shopPricing": [],
+    "sort": 20181,
+    "sourceLimits": [],
+    "text": {
+      "description": {
+        "chs": "雾眠之岛活动限定道具，破解晶球内的谜题获得。可用于提升探索等级，领取活动奖励。",
+        "chs_t": "霧眠之島活動限定道具，破解晶球內的謎題獲得。可用於提升探索等級，領取活動獎勵。",
+        "en": "Fogbound Isle event item, obtained by completing the crystal ball's requests. Used to increase your Alchemy Level and claim event rewards.",
+        "jp": "水晶玉が望むものを揃えることで入手できる。たくさん集めると探索ランクが上がり、イベント報酬が受け取れるようになる。",
+        "kr": "안개가 잠드는 섬 이벤트 한정 아이템. 수정구의 소원을 실현하면 획득할 수 있다. 탐색 등급 상승 및 이벤트 보상 수령에 사용할 수 있다."
+      },
+      "expireDescription": {
+        "chs": "",
+        "chs_t": "",
+        "en": "",
+        "jp": "",
+        "kr": ""
+      },
+      "funcDescription": {
+        "chs": "活动限定道具",
+        "chs_t": "活動限定道具",
+        "en": "Event-limited item.",
+        "jp": "イベント「霧が眠る島」のイベントアイテム。",
+        "kr": "기간 한정 아이템."
+      },
+      "name": {
+        "chs": "探索点数",
+        "chs_t": "探索點數",
+        "en": "Alchemy Pts",
+        "jp": "探索PT",
+        "kr": "탐색 포인트"
+      }
+    },
+    "type": 0,
+    "usageCounts": {
+      "characterExchangeUsage": 0,
+      "characterMaterialUsage": 0,
+      "composeUsage": 0,
+      "exchangeReceive": 0,
+      "exchangeSpend": 0,
+      "mallListings": 0,
+      "packageContainers": 0,
+      "packageContents": 0,
+      "shopListings": 0,
+      "shopPricing": 0,
+      "sourceLimits": 0
+    }
+  },
+  {
+    "assets": {
+      "background": "",
       "icon": "https://files.riichi.moe/mjg/game%20resources%20and%20tools/Mahjong%20Soul/unity_raw/extracted/MyAssets/deco/mjpface/mjpface_25summer/pic/common/mjpface_25summer.png",
       "loadingImage": "",
       "portraitFrame": "",
@@ -126428,6 +128212,101 @@
   {
     "assets": {
       "background": "",
+      "icon": {
+        "chs": "https://files.riichi.moe/mjg/game%20resources%20and%20tools/Mahjong%20Soul/unity_raw/extracted/MyAssets/deco/title/25jingubei/pic/chs/25jingubei_item.png",
+        "cn": "https://files.riichi.moe/mjg/game%20resources%20and%20tools/Mahjong%20Soul/unity_raw/extracted/MyAssets/deco/title/25jingubei/pic/chs_t/25jingubei_item.png",
+        "en": "https://files.riichi.moe/mjg/game%20resources%20and%20tools/Mahjong%20Soul/unity_raw/extracted/MyAssets/deco/title/25jingubei/pic/en_chs_t/25jingubei_item.png"
+      },
+      "loadingImage": "",
+      "portraitFrame": "",
+      "tablecloth": "",
+      "tile": "",
+      "titleArt": {
+        "chs": "https://files.riichi.moe/mjg/game%20resources%20and%20tools/Mahjong%20Soul/unity_raw/extracted/MyAssets/deco/title/25jingubei/pic/chs/25jingubei.png",
+        "cn": "https://files.riichi.moe/mjg/game%20resources%20and%20tools/Mahjong%20Soul/unity_raw/extracted/MyAssets/deco/title/25jingubei/pic/chs_t/25jingubei.png",
+        "en": "https://files.riichi.moe/mjg/game%20resources%20and%20tools/Mahjong%20Soul/unity_raw/extracted/MyAssets/deco/title/25jingubei/pic/en_chs_t/25jingubei.png"
+      }
+    },
+    "audio": null,
+    "canSell": 0,
+    "category": 7,
+    "categoryLabel": "Titles",
+    "characterExchangeUsage": [],
+    "characterMaterialUsage": [],
+    "composeUsage": [],
+    "exchangeReceive": [],
+    "exchangeSpend": [],
+    "func": "",
+    "id": 600173,
+    "isTitleDefinition": true,
+    "isUnique": 1,
+    "kind": "item",
+    "mallListings": [],
+    "maxStack": 1,
+    "packageContainers": [],
+    "packageContents": [],
+    "profile": {
+      "access": "",
+      "accessInfo": 0,
+      "crossView": 0,
+      "databaseCache": 0,
+      "itemExpire": "",
+      "regionLimit": 0,
+      "sellRewardCount": 0,
+      "sellRewardId": 0
+    },
+    "shopListings": [],
+    "shopPricing": [],
+    "sort": 40112,
+    "sourceLimits": [],
+    "text": {
+      "description": {
+        "chs": "赠予金古杯赛事冠军",
+        "chs_t": "贈予金古盃賽事冠軍",
+        "en": "贈予金古盃賽事冠軍",
+        "jp": "贈予金古盃賽事冠軍",
+        "kr": "贈予金古盃賽事冠軍"
+      },
+      "expireDescription": {
+        "chs": "",
+        "chs_t": "",
+        "en": "",
+        "jp": "",
+        "kr": ""
+      },
+      "funcDescription": {
+        "chs": "",
+        "chs_t": "",
+        "en": "",
+        "jp": "",
+        "kr": ""
+      },
+      "name": {
+        "chs": "金古神手",
+        "chs_t": "金古神手",
+        "en": "金古神手",
+        "jp": "金古神手",
+        "kr": "金古神手"
+      }
+    },
+    "type": 0,
+    "usageCounts": {
+      "characterExchangeUsage": 0,
+      "characterMaterialUsage": 0,
+      "composeUsage": 0,
+      "exchangeReceive": 0,
+      "exchangeSpend": 0,
+      "mallListings": 0,
+      "packageContainers": 0,
+      "packageContents": 0,
+      "shopListings": 0,
+      "shopPricing": 0,
+      "sourceLimits": 0
+    }
+  },
+  {
+    "assets": {
+      "background": "",
       "icon": "https://files.riichi.moe/mjg/game%20resources%20and%20tools/Mahjong%20Soul/unity_raw/extracted/MyAssets/deco/title/mjwg/pic/common/mjwg_item.png",
       "loadingImage": "",
       "portraitFrame": "",
@@ -126774,6 +128653,101 @@
         "en": "学生雀魂杯　西場",
         "jp": "学生雀魂杯　西場",
         "kr": "学生雀魂杯　西場"
+      }
+    },
+    "type": 0,
+    "usageCounts": {
+      "characterExchangeUsage": 0,
+      "characterMaterialUsage": 0,
+      "composeUsage": 0,
+      "exchangeReceive": 0,
+      "exchangeSpend": 0,
+      "mallListings": 0,
+      "packageContainers": 0,
+      "packageContents": 0,
+      "shopListings": 0,
+      "shopPricing": 0,
+      "sourceLimits": 0
+    }
+  },
+  {
+    "assets": {
+      "background": "",
+      "icon": {
+        "chs": "https://files.riichi.moe/mjg/game%20resources%20and%20tools/Mahjong%20Soul/unity_raw/extracted/MyAssets/deco/title/26mjqnw2/pic/chs/26mjqnw2_item.png",
+        "cn": "https://files.riichi.moe/mjg/game%20resources%20and%20tools/Mahjong%20Soul/unity_raw/extracted/MyAssets/deco/title/26mjqnw2/pic/chs_t/26mjqnw2_item.png",
+        "en": "https://files.riichi.moe/mjg/game%20resources%20and%20tools/Mahjong%20Soul/unity_raw/extracted/MyAssets/deco/title/26mjqnw2/pic/en_chs_t/26mjqnw2_item.png"
+      },
+      "loadingImage": "",
+      "portraitFrame": "",
+      "tablecloth": "",
+      "tile": "",
+      "titleArt": {
+        "chs": "https://files.riichi.moe/mjg/game%20resources%20and%20tools/Mahjong%20Soul/unity_raw/extracted/MyAssets/deco/title/26mjqnw2/pic/chs/26mjqnw2.png",
+        "cn": "https://files.riichi.moe/mjg/game%20resources%20and%20tools/Mahjong%20Soul/unity_raw/extracted/MyAssets/deco/title/26mjqnw2/pic/chs_t/26mjqnw2.png",
+        "en": "https://files.riichi.moe/mjg/game%20resources%20and%20tools/Mahjong%20Soul/unity_raw/extracted/MyAssets/deco/title/26mjqnw2/pic/en_chs_t/26mjqnw2.png"
+      }
+    },
+    "audio": null,
+    "canSell": 0,
+    "category": 7,
+    "categoryLabel": "Titles",
+    "characterExchangeUsage": [],
+    "characterMaterialUsage": [],
+    "composeUsage": [],
+    "exchangeReceive": [],
+    "exchangeSpend": [],
+    "func": "",
+    "id": 600176,
+    "isTitleDefinition": true,
+    "isUnique": 1,
+    "kind": "item",
+    "mallListings": [],
+    "maxStack": 1,
+    "packageContainers": [],
+    "packageContents": [],
+    "profile": {
+      "access": "",
+      "accessInfo": 0,
+      "crossView": 0,
+      "databaseCache": 0,
+      "itemExpire": "",
+      "regionLimit": 0,
+      "sellRewardCount": 0,
+      "sellRewardId": 0
+    },
+    "shopListings": [],
+    "shopPricing": [],
+    "sort": 40118,
+    "sourceLimits": [],
+    "text": {
+      "description": {
+        "chs": "赠与哔哩哔哩【麻将全能王】活动赛冠军",
+        "chs_t": "贈與嗶哩嗶哩【麻將全能王】活動賽冠軍",
+        "en": "贈與嗶哩嗶哩【麻將全能王】活動賽冠軍",
+        "jp": "贈與嗶哩嗶哩【麻將全能王】活動賽冠軍",
+        "kr": "贈與嗶哩嗶哩【麻將全能王】活動賽冠軍"
+      },
+      "expireDescription": {
+        "chs": "",
+        "chs_t": "",
+        "en": "",
+        "jp": "",
+        "kr": ""
+      },
+      "funcDescription": {
+        "chs": "",
+        "chs_t": "",
+        "en": "",
+        "jp": "",
+        "kr": ""
+      },
+      "name": {
+        "chs": "麻将全能王S2",
+        "chs_t": "麻將全能王S2",
+        "en": "麻將全能王S2",
+        "jp": "麻將全能王S2",
+        "kr": "麻將全能王S2"
       }
     },
     "type": 0,
