@@ -73,6 +73,20 @@ function layerDrawWeight(name) {
   return Number.isFinite(numeric) ? numeric : 99;
 }
 
+// multiply slots never show in game, so we hide them too
+function removeGameHiddenAttachments(skeletonData, { BlendMode, ClippingAttachment }) {
+  for (const slot of skeletonData.slots) {
+    if (slot.blendMode !== BlendMode.Multiply) continue;
+    for (const skin of skeletonData.skins) {
+      const entries = [];
+      skin.getAttachmentsForSlot(slot.index, entries);
+      for (const entry of entries) {
+        if (!(entry.attachment instanceof ClippingAttachment)) skin.removeAttachment(slot.index, entry.name);
+      }
+    }
+  }
+}
+
 async function readAtlasPremultipliedAlpha(atlasUrl) {
   if (!atlasUrl) return SPINE_PREMULTIPLIED_ALPHA;
   if (atlasPremultipliedAlphaCache.has(atlasUrl)) {
@@ -336,6 +350,7 @@ async function createWebGLSpineViewer(host, resolvedLayers) {
           const loader = new runtime.AtlasAttachmentLoader(atlas);
           const binary = new runtime.SkeletonBinary(loader);
           const skelData = binary.readSkeletonData(sc.assetManager.require(l.skeletonUrl));
+          removeGameHiddenAttachments(skelData, runtime);
           const skeleton = new runtime.Skeleton(skelData);
           skeleton.setToSetupPose();
           skeleton.updateWorldTransform(runtime.Physics.update);
@@ -400,6 +415,7 @@ async function createWebGLSpineViewer(host, resolvedLayers) {
         for (const layer of layers) {
           layer.state.update(delta);
           layer.state.apply(layer.skeleton);
+          layer.skeleton.update(delta);
           layer.skeleton.updateWorldTransform(runtime.Physics.update);
         }
         const duration = getAnimDuration();

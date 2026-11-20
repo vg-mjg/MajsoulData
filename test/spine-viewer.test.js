@@ -1,7 +1,7 @@
 import test from "node:test";
 import assert from "node:assert/strict";
 
-import { installDom, installSpineRuntime, makeElement } from "./helpers/spine-stubs.js";
+import { BlendMode, installDom, installSpineRuntime, makeElement } from "./helpers/spine-stubs.js";
 
 const BACKGROUND_SKEL = "https://mirror.test/spine/1/bg.skel.txt";
 const OVERLAY_SKEL = "https://mirror.test/spine/2/overlay.skel.txt";
@@ -25,9 +25,9 @@ const LAYERS = [
   { name: "1", skeletonUrl: BACKGROUND_SKEL, atlasUrl: "https://mirror.test/spine/1/bg.atlas.txt" },
 ];
 
-async function mount(layerAnimations, layers = LAYERS) {
+async function mount(layerAnimations, layers = LAYERS, layerSlots) {
   installDom();
-  const runtime = installSpineRuntime(layerAnimations);
+  const runtime = installSpineRuntime(layerAnimations, layerSlots);
   const { mountCharacterSpinePreview } = await import("../src/assets/js/spine-viewer.js");
 
   const host = makeElement("div");
@@ -121,4 +121,37 @@ test("scrubbing seeks only the layers holding the selected animation", async () 
   assert.equal(overlay.time, 2);
   assert.equal(background.time, 0);
   assert.equal(background.getCurrent().animation.name, "idle");
+});
+
+test("multiply slots lose their attachments, matching the game", async () => {
+  const { runtime } = await mount(COMPOSITE, LAYERS, {
+    [OVERLAY_SKEL]: [
+      { name: "body", blendMode: BlendMode.Normal },
+      { name: "glow", blendMode: BlendMode.Additive },
+      { name: "shade", blendMode: BlendMode.Multiply },
+      { name: "sheen", blendMode: BlendMode.Screen },
+      { name: "mask", blendMode: BlendMode.Multiply, clipping: true },
+    ],
+  });
+
+  // Skeletons are built in draw order, so index 1 is the overlay.
+  const [skin] = runtime.skeletons[1].data.skins;
+  const bound = (slotIndex) => {
+    const entries = [];
+    skin.getAttachmentsForSlot(slotIndex, entries);
+    return entries.map((entry) => entry.name);
+  };
+
+  assert.deepEqual([0, 1, 2, 3, 4].map(bound), [["body"], ["glow"], [], ["sheen"], ["mask"]]);
+});
+
+test("playback advances the skeleton clock that drives physics", async () => {
+  const { runtime, canvas } = await mount(COMPOSITE);
+
+  canvas.app.update(canvas, 0.5);
+  canvas.app.update(canvas, 0.25);
+
+  // Physics constraints step on skeleton.time; a frozen clock lets their
+  // inertia offsets accumulate without ever springing back.
+  assert.deepEqual(runtime.skeletons.map((s) => s.time), [0.75, 0.75]);
 });

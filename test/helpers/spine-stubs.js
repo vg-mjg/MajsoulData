@@ -108,9 +108,35 @@ export function installDom() {
   return document;
 }
 
-// `layerAnimations` maps a skeleton URL to that layer's [{name, duration}].
-export function installSpineRuntime(layerAnimations) {
+export const BlendMode = { Normal: 0, Additive: 1, Multiply: 2, Screen: 3 };
+
+class ClippingAttachment {
+  constructor(name) {
+    this.name = name;
+  }
+}
+
+class Skin {
+  constructor(slots) {
+    this.attachments = slots.map((slot) => ({
+      [slot.name]: slot.clipping ? new ClippingAttachment(slot.name) : { name: slot.name },
+    }));
+  }
+  getAttachmentsForSlot(slotIndex, entries) {
+    for (const [name, attachment] of Object.entries(this.attachments[slotIndex] || {})) {
+      entries.push({ slotIndex, name, attachment });
+    }
+  }
+  removeAttachment(slotIndex, name) {
+    delete this.attachments[slotIndex]?.[name];
+  }
+}
+
+// `layerAnimations` maps a skeleton URL to that layer's [{name, duration}];
+// `layerSlots` optionally maps it to [{name, blendMode, clipping?}].
+export function installSpineRuntime(layerAnimations, layerSlots = {}) {
   const states = [];
+  const skeletons = [];
 
   class AnimationState {
     constructor(stateData) {
@@ -138,6 +164,9 @@ export function installSpineRuntime(layerAnimations) {
 
   const runtime = {
     states,
+    skeletons,
+    BlendMode,
+    ClippingAttachment,
     lastCanvas: null,
     Physics: { update: "physics-update" },
     ResizeMode: { Expand: "expand" },
@@ -161,8 +190,11 @@ export function installSpineRuntime(layerAnimations) {
     SkeletonBinary: class {
       readSkeletonData(skeletonUrl) {
         const animations = (layerAnimations[skeletonUrl] || []).map((a) => ({ ...a }));
+        const slots = (layerSlots[skeletonUrl] || []).map((slot, index) => ({ ...slot, index }));
         return {
           animations,
+          slots,
+          skins: [new Skin(slots)],
           findAnimation: (name) => animations.find((a) => a.name === name) || null,
         };
       }
@@ -170,6 +202,11 @@ export function installSpineRuntime(layerAnimations) {
     Skeleton: class {
       constructor(data) {
         this.data = data;
+        this.time = 0;
+        skeletons.push(this);
+      }
+      update(delta) {
+        this.time += delta;
       }
       setToSetupPose() {}
       updateWorldTransform() {}
