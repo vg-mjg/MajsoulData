@@ -8,19 +8,19 @@
       "resource_version": "0.16.297"
     },
     "en": {
-      "bundle_hash": "8f2f5805a86fa982161a488a55c84ef8b492a87e",
-      "manifest_generated_at": "2026-11-20T10:20:05Z",
-      "resource_version": "0.16.288"
+      "bundle_hash": "d2286479db91f115847dd111e3e591f33c35fa62",
+      "manifest_generated_at": "2026-11-24T07:06:06Z",
+      "resource_version": "0.16.289"
     },
     "jp": {
-      "bundle_hash": "dcc6278888211a104e0f1442424e8fa0298a627e",
-      "manifest_generated_at": "2026-11-20T10:21:17Z",
-      "resource_version": "0.16.288"
+      "bundle_hash": "a9d4b0d85dd348d1b806d39e5bd3534de20aa59c",
+      "manifest_generated_at": "2026-11-24T07:07:20Z",
+      "resource_version": "0.16.289"
     },
     "kr": {
-      "bundle_hash": "61ce30163459275d04ebbf24a0b101115daded16",
-      "manifest_generated_at": "2026-11-20T10:23:48Z",
-      "resource_version": "0.16.288"
+      "bundle_hash": "cabdc5004886ae3d7912728555f276808e337c16",
+      "manifest_generated_at": "2026-11-24T07:08:32Z",
+      "resource_version": "0.16.289"
     }
   },
   "schema_version": 6
