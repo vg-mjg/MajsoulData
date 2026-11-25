@@ -1,10 +1,10 @@
 {
   "cn": {
-    "generated_at": "2026-11-20T10:22:41Z",
+    "generated_at": "2026-11-24T23:00:51Z",
     "issuer": "chs_t",
     "lua_version": "0.11.603",
     "product_version": "4.0.51",
-    "resource_version": "0.16.297"
+    "resource_version": "0.16.298"
   },
   "en": {
     "generated_at": "2026-11-24T07:06:06Z",
